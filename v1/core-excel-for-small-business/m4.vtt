@@ -1,0 +1,137 @@
+WEBVTT
+
+1
+00:00:00.350 --> 00:00:03.590
+Stock, profit, and one workbook for your whole business.
+
+2
+00:00:03.940 --> 00:00:08.830
+This is the video for Module 4 of Excel and Google Sheets for Small Business.
+
+3
+00:00:10.080 --> 00:00:21.920
+Stock is often the biggest amount of money a small trader has tied up. An inventory sheet tells you what you have, what it is worth, and what to reorder before customers find empty shelves.
+
+4
+00:00:23.170 --> 00:00:27.820
+It also feeds prices into your sales log, so you stop typing them by hand.
+
+5
+00:00:29.070 --> 00:00:36.620
+Then a profit report answers the question every partner or lender asks. Did the business actually make money this month?
+
+6
+00:00:37.870 --> 00:00:45.890
+On a Products tab, give each product a short unique code, like P01, then its name, cost price and selling price.
+
+7
+00:00:47.140 --> 00:00:51.200
+Then type the opening stock, the stock you bought in, and the units sold.
+
+8
+00:00:52.450 --> 00:00:56.390
+Closing stock is opening stock, plus stock in, minus sold.
+
+9
+00:00:57.640 --> 00:01:07.710
+Set a reorder level for each product. If closing stock falls to that level, IF shows the word Reorder. Your sheet becomes an automatic shopping list.
+
+10
+00:01:08.960 --> 00:01:12.010
+Stock value is closing stock times cost price.
+
+11
+00:01:12.360 --> 00:01:23.310
+For example, Funke has 6 detergents left, and her reorder level is 8, so it says Reorder. Her stock on hand is worth 80250 naira at cost.
+
+12
+00:01:24.560 --> 00:01:40.300
+On your Sales tab, type just the product code, and let a lookup fetch the price. XLOOKUP finds the code in the Code column and returns the selling price from the same row. If the code is P03, it returns 3300.
+
+13
+00:01:41.550 --> 00:01:48.610
+If your Excel is 2019 or older, use VLOOKUP. The code must be in the first column of the table.
+
+14
+00:01:48.960 --> 00:02:01.040
+And always finish with FALSE. Leaving it out can quietly return the wrong product's price. If you see hash N A, the code was not found. Check for a letter O typed instead of a zero.
+
+15
+00:02:02.290 --> 00:02:14.770
+Now profit. Sales is the money earned from selling. Cost of goods sold is what the goods you actually sold cost you: opening stock value, plus purchases, minus closing stock value.
+
+16
+00:02:15.120 --> 00:02:23.240
+Why not sales minus purchases? Because if you stock up heavily, the month looks like a loss even though the goods are still on your shelves.
+
+17
+00:02:24.490 --> 00:02:32.920
+Gross profit is sales minus cost of goods. Net profit takes away running costs too, like rent, transport, data and power.
+
+18
+00:02:34.170 --> 00:02:39.100
+A margin divides profit by sales, so you can compare months of different sizes.
+
+19
+00:02:40.350 --> 00:02:50.590
+Here is Funke's October. She opened with stock worth 95000, bought 310000 more, and closed with 80250.
+
+20
+00:02:51.840 --> 00:03:00.330
+Her sales were 412000 naira. So her cost of goods sold is 324750.
+
+21
+00:03:01.580 --> 00:03:08.130
+Gross profit is 87250, a gross margin of 21.2%.
+
+22
+00:03:09.380 --> 00:03:13.540
+Rent share, transport, phone data and power come to 50000.
+
+23
+00:03:14.790 --> 00:03:27.590
+Net profit is 37250 naira. Of every 100 naira of sales, about 9 naira is net profit. That is up 6250 on September.
+
+24
+00:03:28.840 --> 00:03:32.960
+Running costs like rent and transport go in operating expenses.
+
+25
+00:03:34.210 --> 00:03:47.770
+But money you take out for yourself or your household is not a business expense. Record it as Drawings and leave it out. Otherwise the report hides how much the business really earns, and whether it can afford to pay you.
+
+26
+00:03:49.020 --> 00:03:52.610
+Put all your tabs in one workbook, and keep a simple routine.
+
+27
+00:03:52.960 --> 00:04:01.810
+Daily, 5 to 10 minutes, record every sale and expense. Weekly, run your check cell, look at the Reorder list and chase unpaid sales.
+
+28
+00:04:02.160 --> 00:04:10.270
+Monthly, count your shelves, make the profit report and download a backup. Quarterly, look at three months together and make one decision.
+
+29
+00:04:11.520 --> 00:04:19.300
+When you share, choose the lowest access that works. Viewer can only look. Give Editor only to people who really need to type.
+
+30
+00:04:19.650 --> 00:04:24.800
+Send a lender or partner the report as a PDF, not every customer's name.
+
+31
+00:04:26.050 --> 00:04:30.100
+If a helper stops working with you, remove their access that same day.
+
+32
+00:04:31.350 --> 00:04:45.470
+To remember. Closing stock is opening plus in minus sold. A reorder level makes your shopping list. VLOOKUP needs FALSE. Net profit is gross profit minus running costs. And keep drawings out of expenses.
+
+33
+00:04:46.720 --> 00:04:55.380
+Now build your inventory sheet, make your first monthly profit report as a PDF, and assemble your complete workbook with your own routine.
+
+34
+00:04:55.730 --> 00:04:57.670
+Continue with the lessons below.

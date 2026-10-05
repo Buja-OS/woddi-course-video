@@ -1,0 +1,121 @@
+WEBVTT
+
+1
+00:00:00.350 --> 00:00:03.890
+Clean data, category totals, and charts that tell the truth.
+
+2
+00:00:04.240 --> 00:00:09.190
+This is the video for Module 3 of Excel and Google Sheets for Small Business.
+
+3
+00:00:10.440 --> 00:00:17.080
+After a few weeks of entries, you will want answers. What were my biggest sales? How much did I spend on transport?
+
+4
+00:00:17.430 --> 00:00:21.950
+Sorting, filtering and drop-down lists keep your data tidy as it grows.
+
+5
+00:00:23.200 --> 00:00:28.470
+Then SUMIF and charts turn that data into evidence of how your business is really doing.
+
+6
+00:00:29.720 --> 00:00:40.680
+To sort, tap any single cell inside your data, then choose Data, Sort, and tick that your data has headers. Then pick the column and the order, such as largest first.
+
+7
+00:00:41.930 --> 00:00:52.510
+Here is the common mistake. If you select only the Amount column and sort it, the amounts move but the dates and items beside them do not. Every row is now wrong.
+
+8
+00:00:52.860 --> 00:00:59.540
+Excel warns you and offers Expand the selection. Always accept it. If it happens, undo straight away.
+
+9
+00:01:00.790 --> 00:01:07.380
+Halima suspects transport is eating her profit. A filter hides the rows she does not need for a moment.
+
+10
+00:01:07.730 --> 00:01:11.060
+She taps the arrow on Category and ticks only Transport.
+
+11
+00:01:12.310 --> 00:01:19.780
+4 rows remain. Above her headings she has SUBTOTAL, 9, then her Amount range. The 9 tells it to add up.
+
+12
+00:01:21.030 --> 00:01:32.420
+Transport comes to 11000 naira. SUM would still add all 40 rows, which is why SUBTOTAL is the right tool when filtering. Clear the filter when you are done.
+
+13
+00:01:33.670 --> 00:01:38.150
+Next, drop-down lists. Select the whole Type column, below the heading.
+
+14
+00:01:39.400 --> 00:01:46.630
+In Excel choose Data, Data Validation, and under Allow pick List. In Google Sheets choose Insert, Dropdown.
+
+15
+00:01:47.880 --> 00:01:56.270
+Add the options Sale and Expense. Then do the same for Category, with your own list, like Foodstuff, Gas, Packaging and Transport.
+
+16
+00:01:57.520 --> 00:02:06.600
+Why does this matter? IF, SUMIF and COUNTIF match text exactly. A list makes every entry identical, so they never silently miss a row.
+
+17
+00:02:07.850 --> 00:02:12.440
+Filters answer one question at a time. SUMIF answers it permanently.
+
+18
+00:02:12.790 --> 00:02:24.400
+The pattern is SUMIF, the range to check, the condition, then the range to add. Bisi puts dollar signs on both ranges so she can copy the formula down her list of categories.
+
+19
+00:02:25.650 --> 00:02:37.590
+Foodstuff is 67000 naira. Gas is 9000, packaging 10500, and transport 6000. COUNTIF counts how many entries each one has.
+
+20
+00:02:38.840 --> 00:02:50.620
+The total is 92500, and it matches the SUM of her whole Amount column. Always do this cross-check. If they differ, a category is misspelt or missing.
+
+21
+00:02:51.870 --> 00:03:03.000
+A good chart answers one question. A line chart shows change over time. A column chart compares. A pie shows shares of one whole, with only about five slices.
+
+22
+00:03:04.250 --> 00:03:13.920
+For example, Funke in Abeokuta charts six months of sales. Her title says Sales rose 50% from July to December, not just Chart 1.
+
+23
+00:03:14.270 --> 00:03:19.940
+And start column charts at zero. An axis starting higher makes a small rise look huge.
+
+24
+00:03:21.190 --> 00:03:26.060
+If you sell on credit, SUMIF on an Unpaid column gives the total owed to you.
+
+25
+00:03:26.410 --> 00:03:38.060
+But names, phone numbers and debts are personal information. Nigeria's Data Protection Act 2023 expects you to collect only what you need and keep it secure.
+
+26
+00:03:39.310 --> 00:03:45.940
+Share totals in groups, not customer lists. And never post a debtors list publicly to shame customers.
+
+27
+00:03:47.190 --> 00:03:53.910
+To remember. Sort the whole range. Use SUBTOTAL when filtering. Drop-downs keep spelling identical.
+
+28
+00:03:54.260 --> 00:04:02.090
+Check that category totals match the grand total. And give each chart one question, a clear title, and an axis from zero.
+
+29
+00:04:03.340 --> 00:04:12.000
+Now your turn. Tidy your tracker with drop-down lists, build a Summary tab with SUMIF, and make two charts with titles that state the message.
+
+30
+00:04:12.350 --> 00:04:14.290
+Continue with the lessons below.

@@ -1,0 +1,137 @@
+WEBVTT
+
+1
+00:00:00.350 --> 00:00:03.550
+Dollar signs, IF, and a tracker that tells you the truth.
+
+2
+00:00:03.900 --> 00:00:08.870
+This is the video for Module 2 of Excel and Google Sheets for Small Business.
+
+3
+00:00:10.120 --> 00:00:18.290
+In this module you learn to copy a formula without breaking it, then build one sheet that records every sale and every expense.
+
+4
+00:00:19.540 --> 00:00:27.090
+It tells you what came in, what went out, and what is left. And you learn to catch mistakes that make a wrong total look right.
+
+5
+00:00:28.340 --> 00:00:42.680
+When you copy =C2*D2 down, it becomes =C3*D3 in the next row. That is a relative reference. It slides with the row, and most of the time that is exactly what you want.
+
+6
+00:00:43.930 --> 00:00:49.410
+But sometimes every row must use the same cell, like one commission rate typed at the top.
+
+7
+00:00:49.760 --> 00:00:58.150
+Then you lock it with dollar signs: $H$1. Here the dollar sign has nothing to do with money. It means do not move.
+
+8
+00:00:58.500 --> 00:01:03.340
+On a phone, type the dollar signs yourself. On a Windows computer, press F4.
+
+9
+00:01:04.590 --> 00:01:12.420
+Here is a worked example. Kemi types her 5% rate once, in cell H1, and her sale amounts in column E.
+
+10
+00:01:13.670 --> 00:01:28.220
+First she types =E2*H1 and copies it down. The next row becomes E3 times H2. But H2 is empty, so every row after the first shows 0. This is the common mistake.
+
+11
+00:01:29.470 --> 00:01:44.570
+So she types =E2*$H$1 instead. Every copy still points at the rate. Her first sale of 19000 earns 950, and her total sales come to 43300 naira.
+
+12
+00:01:45.820 --> 00:01:56.870
+Total commission is 2165 naira. When she raises the rate to 6%, she changes only H1, and every row recalculates at once.
+
+13
+00:01:58.120 --> 00:02:06.480
+Now build the tracker. Each row is one transaction: date, Sale or Expense, category, details, quantity and unit price.
+
+14
+00:02:07.730 --> 00:02:10.740
+The Amount column multiplies quantity by price.
+
+15
+00:02:11.990 --> 00:02:20.650
+Now the new function, IF. It makes a simple decision. The pattern is IF, a test, then what to show if true, then what to show if false.
+
+16
+00:02:21.000 --> 00:02:28.600
+So if column B says Sale, Money in shows the amount. If not, it shows 0. Text goes inside double quotes.
+
+17
+00:02:29.850 --> 00:02:33.010
+Money out works the same way, testing for Expense.
+
+18
+00:02:34.260 --> 00:02:42.870
+The running balance takes the balance from the row above, adds what came in, and subtracts what went out. Copy J3 down, not J2.
+
+19
+00:02:44.120 --> 00:02:56.520
+One warning. IF only works if the spelling matches exactly. Sales, or Sale with an extra space, will go to 0. In Module 3, a drop-down list removes this problem.
+
+20
+00:02:57.770 --> 00:03:11.170
+Bisi records 4 days of sales and costs. On day 1 she sells 25 plates, then buys foodstuff for 55000. Her balance goes negative, minus 17500.
+
+21
+00:03:12.420 --> 00:03:17.940
+That is a useful cash flow warning. Her big purchase came before the sales that paid for it.
+
+22
+00:03:18.290 --> 00:03:26.420
+By the end, money in is 157500 naira and money out is 73500.
+
+23
+00:03:27.670 --> 00:03:39.960
+The difference is 84000, and it matches her last running balance. But cash left is not yet profit. Some foodstuff is still in her store, and she has not counted rent or her own time.
+
+24
+00:03:41.210 --> 00:03:50.450
+Every spreadsheet user makes mistakes. Loud errors show a code. Hash DIV slash 0 means you divided by zero or an empty cell.
+
+25
+00:03:51.700 --> 00:03:56.500
+Hash VALUE means maths on something that is not a number, like N2000.
+
+26
+00:03:57.750 --> 00:04:03.420
+Hash REF means the formula points to a cell you deleted. Press undo straight away.
+
+27
+00:04:04.670 --> 00:04:10.300
+Silent errors are more dangerous. The sheet shows a number that looks fine, but it is wrong.
+
+28
+00:04:11.550 --> 00:04:17.230
+Chioma's SUM said 61000, but her calculator said 66000.
+
+29
+00:04:17.580 --> 00:04:22.420
+COUNT on the column gave 4, but COUNTA gave 5. So one cell was text.
+
+30
+00:04:23.670 --> 00:04:33.610
+Cell B4 said N5,000, sitting on the left. She retyped it as 5000. Without that check, Friday would be short by 5000 naira.
+
+31
+00:04:34.860 --> 00:04:42.350
+To remember. Dollar signs lock one shared cell. IF makes a decision: test, value if true, value if false.
+
+32
+00:04:42.700 --> 00:04:53.110
+The balance adds in and subtracts out row by row. Cash left is not yet profit. And if COUNT is smaller than COUNTA, hunt for the amounts typed as text.
+
+33
+00:04:54.360 --> 00:05:02.080
+Now your turn. Use one rate across many rows, build your own tracker with at least 8 transactions, then do an error hunt.
+
+34
+00:05:02.430 --> 00:05:07.810
+Add a check cell that says Balanced when your totals agree. Continue with the lessons below.
