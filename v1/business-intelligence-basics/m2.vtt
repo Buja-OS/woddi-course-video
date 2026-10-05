@@ -1,0 +1,149 @@
+WEBVTT
+
+1
+00:00:00.350 --> 00:00:04.340
+The BI blueprint: sources, definitions, tiers and trust.
+
+2
+00:00:04.690 --> 00:00:10.830
+This is the video for Module 2 of Business Intelligence Basics: designing the BI system.
+
+3
+00:00:12.080 --> 00:00:24.160
+BI design depends more on a few well-kept documents than on any single software product. Together they make a blueprint that any tool, from Google Sheets to Power BI, can build.
+
+4
+00:00:25.410 --> 00:00:28.010
+A data source map shows where the data lives.
+
+5
+00:00:29.260 --> 00:00:32.030
+A metric dictionary says what each number means.
+
+6
+00:00:33.280 --> 00:00:36.830
+A reporting structure gets the right view to the right person.
+
+7
+00:00:38.080 --> 00:00:40.870
+And quality checks keep people trusting the numbers.
+
+8
+00:00:42.120 --> 00:00:46.510
+For every source system, rate three things from 1, poor, to 3, good.
+
+9
+00:00:47.760 --> 00:00:50.430
+Access, how easy it is to get the data out.
+
+10
+00:00:51.680 --> 00:00:54.010
+Quality, how complete and correct it is.
+
+11
+00:00:55.260 --> 00:00:57.600
+And frequency, how fresh it can be.
+
+12
+00:00:58.850 --> 00:01:10.930
+For example, Blessing designs BI for a private school in Abuja. Fee payments come as a daily CSV export, so they score 8 out of 9 and are ready for a first report.
+
+13
+00:01:12.180 --> 00:01:19.840
+Paper attendance registers score only 4. They need a simple digital register first, so she puts them in phase two.
+
+14
+00:01:21.090 --> 00:01:31.260
+A metric dictionary is the single written definition of every key number. Each entry has a meaning, a formula, a source, one owner, and a refresh time.
+
+15
+00:01:31.610 --> 00:01:36.370
+Here, the owner is the bursar, and it refreshes every Monday by 10 am.
+
+16
+00:01:37.620 --> 00:01:41.520
+The school billed 48,600,000 naira this term.
+
+17
+00:01:42.770 --> 00:01:52.270
+It received 39,852,000 naira. Received divided by billed, times 100, is 82%.
+
+18
+00:01:52.620 --> 00:02:01.260
+Notice the exclusions. If scholarship students stay in the billed figure, the rate looks worse, and the proprietor may chase the wrong families.
+
+19
+00:02:02.510 --> 00:02:11.100
+You cannot serve every decision at once. Score each one for value from 1 to 5: how much money, time or risk depends on it.
+
+20
+00:02:12.350 --> 00:02:19.670
+Then score feasibility from 1 to 5: how ready the data is. Multiply the two for a score out of 25.
+
+21
+00:02:20.920 --> 00:02:29.780
+For example, Chidi leads BI for a soft drinks distributor in Onitsha. The weekly reorder scores 5 times 4, which is 20.
+
+22
+00:02:31.030 --> 00:02:42.950
+Opening a fourth depot is valuable, but the data is not collected yet, so it scores 5. Instead of a report, he adds start recording retailer locations to the data work plan.
+
+23
+00:02:44.200 --> 00:02:54.160
+Different people need different views. The strategic tier serves the owner or board, monthly or quarterly, with 5 to 8 headline numbers against targets.
+
+24
+00:02:55.410 --> 00:03:00.920
+The tactical tier serves managers weekly, with breakdowns that show what changed and why.
+
+25
+00:03:02.170 --> 00:03:11.510
+The operational tier serves supervisors daily, with lists, not charts. These 7 retailers are more than 30 days overdue, call them today.
+
+26
+00:03:11.860 --> 00:03:18.710
+And tie every report to a fixed meeting. If nobody can name the meeting, question whether the report should exist.
+
+27
+00:03:19.960 --> 00:03:33.040
+The first wrong number sends managers back to their private spreadsheets. So check six things every time data refreshes: completeness, uniqueness, consistency, timeliness, validity and accuracy.
+
+28
+00:03:33.390 --> 00:03:46.490
+For example, Hauwa finds 30 duplicate member IDs in her register of 1,250 records. She fixes problems at the source, not in the report, so they do not come back next month.
+
+29
+00:03:47.740 --> 00:04:05.360
+BI brings personal data into one place, which raises the risk. In Nigeria, the Nigeria Data Protection Act 2023 set up the NDPC to enforce data protection rules. Load only the personal fields a decision really needs.
+
+30
+00:04:06.610 --> 00:04:12.860
+Show totals in reports, and keep names and phone numbers only in lists for staff who must act on them.
+
+31
+00:04:14.110 --> 00:04:17.460
+A branch manager sees her branch, not every customer.
+
+32
+00:04:18.710 --> 00:04:22.630
+Do not share raw exports in WhatsApp groups or personal email.
+
+33
+00:04:23.880 --> 00:04:39.330
+Use strong passwords and two-step verification, and remove access the day someone leaves. Customer lists are valuable to fraudsters, so confirm anyone claiming to be a bank or IT support through a known official contact first.
+
+34
+00:04:40.580 --> 00:04:47.920
+To remember. Rate your sources. Write every metric with its exclusions and one owner. Build the highest scores first.
+
+35
+00:04:48.270 --> 00:04:53.730
+Use three tiers tied to meetings, fix quality at the source, and protect personal data.
+
+36
+00:04:54.980 --> 00:05:02.150
+Now map your sources and define two metrics, design a reporting structure, and write a one-page governance plan.
+
+37
+00:05:02.500 --> 00:05:04.440
+Continue with the lessons below.
