@@ -1,0 +1,125 @@
+WEBVTT
+
+1
+00:00:00.350 --> 00:00:03.760
+The data and formula engine behind every dashboard.
+
+2
+00:00:04.110 --> 00:00:08.270
+This is the video for module one of Advanced Excel and Dashboards.
+
+3
+00:00:09.520 --> 00:00:20.080
+At advanced level, the hard part of Excel is rarely the formula. It is the shape of the data. Many workbooks look neat on screen but are built like a paper notebook.
+
+4
+00:00:21.330 --> 00:00:31.230
+In this module you turn messy lists into proper Excel Tables, then write formulas that answer questions like: sales of layer mash, in Oyo, in March.
+
+5
+00:00:32.480 --> 00:00:36.490
+You will fetch prices and commission rates with lookups that do not break.
+
+6
+00:00:37.740 --> 00:00:42.030
+And you will use PivotTables to summarise thousands of rows in seconds.
+
+7
+00:00:43.280 --> 00:00:48.760
+One row is one record: one sale, one payment. Never mix records with subtotals.
+
+8
+00:00:50.010 --> 00:00:57.630
+One column holds one kind of information. Do not write 12 bags at 14,500 in a single cell.
+
+9
+00:00:58.880 --> 00:01:05.300
+Use one header row with unique names. Merged cells break sorting, filtering and copying formulas.
+
+10
+00:01:06.550 --> 00:01:09.470
+Excel treats a blank row as the end of the list.
+
+11
+00:01:10.720 --> 00:01:25.440
+And type 45000, not the naira sign. Here is a quick test. Select the amounts and look at the status bar. If it shows Sum, they are numbers. If it only shows Count, they are text, and they silently drop out of your totals.
+
+12
+00:01:26.690 --> 00:01:35.530
+Tola runs a poultry feed business in Ibadan. She copies each sale into its own row, clicks inside the list and presses Control T.
+
+13
+00:01:36.780 --> 00:01:38.870
+She confirms the table has headers.
+
+14
+00:01:40.120 --> 00:01:48.370
+She names it tblSales. Names make formulas readable, and the Table grows by itself when she types a new row underneath.
+
+15
+00:01:49.620 --> 00:01:57.260
+She adds an Amount column: Bags on this row times Price per bag on this row. Excel fills it down the whole column at once.
+
+16
+00:01:58.510 --> 00:02:11.330
+Then she checks by hand. 12 times 14,500 is 174,000. 8 times 15,200 is 121,600.
+
+17
+00:02:12.580 --> 00:02:20.670
+Keep colours and notes for the dashboard. A single blank row or subtotal inside the data distorts every total built on it.
+
+18
+00:02:21.920 --> 00:02:32.130
+SUMIFS puts what to add up first, then pairs of where to look and what to look for. The older SUMIF puts the sum range last. Mixing them up is a classic error.
+
+19
+00:02:32.480 --> 00:02:40.930
+Tola keeps the dates, product and town in cells, so one formula can answer many questions. She never types a date inside the quotes.
+
+20
+00:02:42.180 --> 00:02:56.410
+To test it, she filters the Table by hand. Five rows remain: 174,000, 290,000, 145,000, 87,000 and 232,000.
+
+21
+00:02:57.660 --> 00:03:09.630
+They add up to 928,000. Her SUMIFS cell shows 928,000, so the formula is right. Change the product cell and the answer updates instantly.
+
+22
+00:03:10.880 --> 00:03:21.060
+VLOOKUP without its last argument uses approximate match. On an unsorted list it can return a wrong price with no error at all. Always end it with FALSE.
+
+23
+00:03:22.310 --> 00:03:37.200
+XLOOKUP is safer, and its match mode minus 1 handles tiers. A rep with 760,000 naira of sales gets the 500,000 tier at 3 percent, so 22,800 naira commission.
+
+24
+00:03:37.550 --> 00:03:50.180
+XLOOKUP needs Excel 2021, 2024 or Microsoft 365. For 2016 or 2019, use INDEX with MATCH.
+
+25
+00:03:51.430 --> 00:04:00.320
+Build every pivot from the named Table, so new rows are included. If it shows Count of Amount, some cells are text. Fix the data first.
+
+26
+00:04:01.570 --> 00:04:09.930
+Group by both Months and Years, or January 2024 and January 2025 get added together.
+
+27
+00:04:11.180 --> 00:04:24.670
+Add Amount as a plain sum, then as percent of grand total, then as percent difference from the previous month. In one example, layer mash was 50 percent of sales, and March grew by 19.6 percent.
+
+28
+00:04:25.920 --> 00:04:31.310
+Pivots do not update by themselves. After adding data, use Data, Refresh All.
+
+29
+00:04:32.560 --> 00:04:43.590
+Remember. Tidy data first. Name every Table. SUMIFS puts the sum range first. Use exact matches. And test every formula against a check you did by hand.
+
+30
+00:04:44.840 --> 00:04:55.360
+Take a real list of at least 30 rows and make it a named Table. Build a summary block with SUMIFS and a lookup. Then build a three-question pivot and refresh it.
+
+31
+00:04:55.710 --> 00:04:57.870
+Now continue with the lessons below.
