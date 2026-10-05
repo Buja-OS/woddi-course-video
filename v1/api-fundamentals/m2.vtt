@@ -1,0 +1,121 @@
+WEBVTT
+
+1
+00:00:00.350 --> 00:00:03.400
+Test safely, guard your keys, and plan for failure.
+
+2
+00:00:03.750 --> 00:00:07.630
+This is the video for module two of API Fundamentals.
+
+3
+00:00:08.880 --> 00:00:23.330
+A browser address bar can only send GET requests, and it hides the headers. To test real APIs you need an API client, a tool where you pick the method, URL, headers and body, and see the full response.
+
+4
+00:00:24.580 --> 00:00:36.350
+Real API work starts with a need, such as: we want to know automatically when a customer has paid. You read the documentation, then test safely before anything goes live.
+
+5
+00:00:37.600 --> 00:00:41.700
+And a dependable integration behaves sensibly when things go wrong.
+
+6
+00:00:42.950 --> 00:00:47.560
+Many learners start with Hoppscotch on a phone. It is free and light on data.
+
+7
+00:00:48.810 --> 00:00:52.180
+Postman suits saved collections and teams on a laptop.
+
+8
+00:00:52.530 --> 00:01:02.940
+Also learn to read curl, because most documentation shows examples that way. Dash H adds a header, dash d is the body, and dash X sets the method.
+
+9
+00:01:03.290 --> 00:01:12.840
+Practise on fake APIs like JSONPlaceholder, which only pretends to save. Never experiment with DELETE on a real business account.
+
+10
+00:01:14.090 --> 00:01:28.370
+Good documentation answers the same questions every time. Find the base URL, where every endpoint starts. Then how you prove who you are. Most APIs take a key in the Authorization header as a Bearer token.
+
+11
+00:01:29.620 --> 00:01:35.720
+Note each endpoint's method, path and required fields, and the units, such as money in kobo.
+
+12
+00:01:36.970 --> 00:01:42.960
+Find the test mode, where nothing real happens, and the error format, rate limits and page sizes.
+
+13
+00:01:43.310 --> 00:01:48.650
+Skipping the documentation or the test step is where most failed integrations begin.
+
+14
+00:01:49.900 --> 00:02:04.100
+For example, Ruth sells adire fabric in Abeokuta and wants a payment link for a 15,000 naira order. Her developer gives her the Paystack test key in Postman. Nothing in test mode moves real money.
+
+15
+00:02:05.350 --> 00:02:11.950
+The amount goes in kobo, so 15,000 times 100 is 1,500,000.
+
+16
+00:02:13.200 --> 00:02:20.920
+She sends a POST to the initialize endpoint, with the test key in the Authorization header and the email and amount in the body.
+
+17
+00:02:22.170 --> 00:02:26.970
+The response holds a checkout link and a reference. She completes the test checkout.
+
+18
+00:02:28.220 --> 00:02:40.140
+Then she verifies with the reference: status success, currency NGN, and an amount that divides back to 15,000 naira. Only now will her developer switch to live keys.
+
+19
+00:02:41.390 --> 00:02:57.970
+A secret key can act on the whole account, including money. Keep it on the server only, never in app code users download. Never send it on WhatsApp or email, or paste it into AI chats, screenshots or shared documents. Keep it out of GitHub.
+
+20
+00:02:58.320 --> 00:03:03.290
+If a key may have leaked, generate a new one at once, which stops the old one working.
+
+21
+00:03:04.540 --> 00:03:20.460
+First, rate limits. A 429 means too many requests. Wait as long as the Retry-After header says. For temporary server errors, wait and double the wait each time. Never automatically retry a POST that moves money.
+
+22
+00:03:21.710 --> 00:03:33.550
+Second, pages. Grace in Kaduna needed 230 transactions at 50 per page, so 5 pages. Had she stopped at page 1, 180 would have been missing.
+
+23
+00:03:34.800 --> 00:03:47.100
+Third, webhooks, where the provider calls your URL when something happens, such as a payment. Check the signature, reply 200 OK at once, and expect the same event more than once.
+
+24
+00:03:47.450 --> 00:03:53.300
+Never release goods on a screenshot or an unverified webhook. Scammers send fake alerts.
+
+25
+00:03:54.550 --> 00:04:06.750
+APIs change, keys expire, and the builder moves on. A short run sheet lets someone else keep it working. Record the business need, its owner, and the exact documentation pages.
+
+26
+00:04:08.000 --> 00:04:15.320
+List each endpoint with its units. Record where keys are stored and who can access them, but never the keys themselves.
+
+27
+00:04:16.570 --> 00:04:20.560
+Finish with error rules, test results with dates, and who to contact.
+
+28
+00:04:21.810 --> 00:04:35.080
+To remember. Practise on fake APIs and in test mode. Verify amount and currency. Keep secret keys on the server, and replace any that leak. Respect Retry-After, and count every page.
+
+29
+00:04:36.330 --> 00:04:43.750
+Now run and record four practice requests, write a one-page API fact sheet, and write a test plan and run sheet.
+
+30
+00:04:44.100 --> 00:04:46.040
+Continue with the lessons below.

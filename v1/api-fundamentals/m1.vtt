@@ -1,0 +1,129 @@
+WEBVTT
+
+1
+00:00:00.350 --> 00:00:03.890
+How apps talk: requests, status codes, and JSON.
+
+2
+00:00:04.240 --> 00:00:08.080
+This is the video for module one of API Fundamentals.
+
+3
+00:00:09.330 --> 00:00:18.740
+An API, short for Application Programming Interface, is a published set of rules that lets one program ask another for data or an action.
+
+4
+00:00:19.090 --> 00:00:24.830
+The client is the program that asks, like a phone app. The server is the computer that answers.
+
+5
+00:00:26.080 --> 00:00:36.040
+The question is called a request, and the answer is a response. Most web APIs use HTTPS, the same secure language your browser uses.
+
+6
+00:00:37.290 --> 00:00:49.690
+Think of a buka. You order from the menu, the attendant takes it to the kitchen, and food comes back. The menu is the documentation, the attendant is the API, and you never see the kitchen.
+
+7
+00:00:50.940 --> 00:01:03.500
+Each thing you can ask for has its own address, called an endpoint. Take a request to Open-Meteo, a free weather API. The scheme, https, means the conversation is encrypted.
+
+8
+00:01:04.750 --> 00:01:09.570
+Next is the host, api.open-meteo.com, the server you are talking to.
+
+9
+00:01:10.820 --> 00:01:16.350
+Then the path, which names the endpoint. The v1 part is the version of the API.
+
+10
+00:01:17.600 --> 00:01:28.480
+Everything after the question mark is the query string: name and value pairs, such as latitude and longitude. Change the numbers and you ask about a different place.
+
+11
+00:01:29.730 --> 00:01:45.790
+For example, Amaka is a virtual assistant in Ibadan with a smartphone and about 10 minutes. She types the URL into Chrome and changes latitude to 7.38 and longitude to 3.94, approximately Ibadan.
+
+12
+00:01:47.040 --> 00:01:55.430
+The screen fills with text in curly brackets. That is the response, in a format called JSON. She finds the current temperature.
+
+13
+00:01:56.680 --> 00:02:01.030
+She checks current units, so she never has to guess whether a number is Celsius.
+
+14
+00:02:02.280 --> 00:02:09.380
+She adds wind speed to her question and reloads. Two real API requests, with no code and no account.
+
+15
+00:02:10.630 --> 00:02:19.930
+Every request has a method, the verb. GET fetches a copy. PUT replaces a whole item, PATCH changes some fields, and DELETE removes one.
+
+16
+00:02:20.280 --> 00:02:23.720
+GET is safe: it only reads, so it cannot harm anything.
+
+17
+00:02:24.970 --> 00:02:39.710
+POST sends new data, such as starting a payment. It is not safe to repeat. If a POST seems to hang, do not press send again. You could create two payments. First check, using the transaction reference, whether the first one went through.
+
+18
+00:02:40.960 --> 00:02:48.000
+Every response has a status code, a three-digit number saying how it went. A 2 at the start means success.
+
+19
+00:02:49.250 --> 00:03:01.580
+A 4 means the problem is in your request. A 401 means check that your key is present and typed correctly. A 403 means the server knows you, but you need different permissions.
+
+20
+00:03:01.930 --> 00:03:08.480
+For example, Funmi traced a 400 error to a latitude typed with a comma instead of a full stop.
+
+21
+00:03:09.730 --> 00:03:16.790
+A 5 means the problem is on their side. Wait, check their status page, and retry only safe requests.
+
+22
+00:03:18.040 --> 00:03:27.510
+JSON is plain text with strict rules. An object sits in curly brackets and holds keys and values, like an email address with its label.
+
+23
+00:03:28.760 --> 00:03:32.240
+An array sits in square brackets and holds a list in order.
+
+24
+00:03:33.490 --> 00:03:42.770
+A data path gives directions to one value. For Paystack's sample response, data dot reference points to the code you use later to check the payment.
+
+25
+00:03:44.020 --> 00:04:00.250
+Arrays count from 0. So index 0 is the first item, and asking for index 1 gives the second. Halima in Abuja read four hourly temperatures, index 0 to 3, and averaged them to 28.3 degrees Celsius.
+
+26
+00:04:01.500 --> 00:04:12.000
+Payment APIs usually avoid decimal points by sending money in the smallest unit. Paystack's documentation says naira amounts are sent in kobo.
+
+27
+00:04:13.250 --> 00:04:20.890
+So divide by 100 to read. An amount of 1,500,000 kobo is 15,000 naira.
+
+28
+00:04:22.140 --> 00:04:33.100
+Forget this, and a 15,000 naira payment looks like 1.5 million in a report. Also, a number in quotes is text, and null means unknown, not zero.
+
+29
+00:04:33.450 --> 00:04:39.150
+Never paste a response with customer details or secret keys into a public website.
+
+30
+00:04:40.400 --> 00:04:54.910
+To remember. The URL carries the question, and JSON carries the answer. Never blindly resend a POST. Read the first digit of the status code. Count arrays from 0, and divide kobo by 100.
+
+31
+00:04:56.160 --> 00:05:02.810
+Now make and label three API requests, build your status code card, and write five data paths.
+
+32
+00:05:03.160 --> 00:05:05.100
+Continue with the lessons below.
