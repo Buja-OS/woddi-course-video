@@ -1,0 +1,153 @@
+WEBVTT
+
+1
+00:00:00.350 --> 00:00:03.060
+How a blockchain really works, and where it fails.
+
+2
+00:00:03.410 --> 00:00:08.120
+This is the video for module 1 of Blockchain and Digital Assets Literacy.
+
+3
+00:00:09.370 --> 00:00:17.270
+A ledger is simply a record of who owns what and who paid whom. Your ajo or esusu treasurer keeps one in a notebook.
+
+4
+00:00:18.520 --> 00:00:25.050
+Everyone trusts one keeper. If she makes a mistake, loses the book or cheats, the members have a problem.
+
+5
+00:00:26.300 --> 00:00:32.650
+A blockchain is a ledger copied onto many computers at once, called nodes. There is no single keeper.
+
+6
+00:00:33.900 --> 00:00:37.420
+In this video you will see how it works, and its honest limits.
+
+7
+00:00:38.670 --> 00:00:41.570
+Step 1. A payment is sent out to the network.
+
+8
+00:00:42.820 --> 00:00:47.130
+Step 2. Many independent computers check it against the agreed rules.
+
+9
+00:00:48.380 --> 00:00:52.100
+Step 3. Payments are grouped into a block, with a time stamp.
+
+10
+00:00:53.350 --> 00:01:04.010
+Step 4. The block stores the hash of the block before it. A hash is a short code, like a fingerprint for data. Change one letter, and the hash changes completely.
+
+11
+00:01:04.360 --> 00:01:08.970
+Because each block carries the fingerprint of the one before, the blocks form a chain.
+
+12
+00:01:10.220 --> 00:01:19.630
+Step 5. Every copy is updated. The rule that decides which block is accepted is called consensus. It replaces the trusted treasurer.
+
+13
+00:01:20.880 --> 00:01:29.390
+But remember. A blockchain only proves a record was not changed. If false information goes in, it keeps that false record forever.
+
+14
+00:01:30.640 --> 00:01:37.980
+For example, five traders led by Amaka each keep a copy of a chained record of their weekly contributions.
+
+15
+00:01:39.230 --> 00:01:44.970
+Block 1 records that Amaka paid 5,000 naira and Bola paid 5,000 naira.
+
+16
+00:01:46.220 --> 00:01:51.000
+Block 2 records two more payments, and also stores the fingerprint of Block 1.
+
+17
+00:01:52.250 --> 00:01:57.540
+Bola secretly edits his copy of Block 1 to say he paid 50,000 naira.
+
+18
+00:01:58.790 --> 00:02:03.030
+Now Block 1 has a new fingerprint, and Block 2 no longer links to it.
+
+19
+00:02:04.280 --> 00:02:11.920
+The other four copies still match each other, so the network rejects his version. The edit is visible at once, and outvoted.
+
+20
+00:02:13.170 --> 00:02:21.020
+With a bank, one company keeps the record. A payment can often be reversed through a dispute, and customer care fixes mistakes.
+
+21
+00:02:22.270 --> 00:02:30.910
+On a public blockchain, confirmed payments are final. Nobody fixes a mistake. A wrong address usually means the money is lost.
+
+22
+00:02:31.260 --> 00:02:37.550
+And it is pseudonymous, not anonymous. Once an address is linked to you, your whole history can be read.
+
+23
+00:02:38.800 --> 00:02:52.520
+Bitcoin uses proof of work. Computers called miners compete to solve a hash puzzle, using a lot of electricity. A new block comes roughly every 10 minutes, and supply is capped at 21 million bitcoin.
+
+24
+00:02:53.770 --> 00:03:03.990
+Ethereum has used proof of stake since September 2022. Validators lock up their own ether as a deposit, and lose part of it if they cheat.
+
+25
+00:03:04.340 --> 00:03:10.720
+Ethereum also runs smart contracts: code that runs exactly as written, mistakes included.
+
+26
+00:03:11.970 --> 00:03:18.200
+Treating all crypto as one thing is the most common mistake. First, ask which category it is.
+
+27
+00:03:19.450 --> 00:03:27.980
+The eNaira, launched in October 2021, is issued by the Central Bank of Nigeria. It is not a cryptocurrency.
+
+28
+00:03:29.230 --> 00:03:40.390
+Stablecoins aim to stay worth 1 US dollar, but the issuer can freeze tokens. In May 2022, TerraUSD lost its dollar value within days.
+
+29
+00:03:41.640 --> 00:03:48.120
+Established cryptocurrencies like bitcoin and ether have long histories, but very large price swings.
+
+30
+00:03:49.370 --> 00:03:52.150
+NFTs often have little resale demand.
+
+31
+00:03:53.400 --> 00:03:57.640
+New tokens and memecoins are the riskiest. Many collapse to zero.
+
+32
+00:03:58.890 --> 00:04:07.150
+Before you act, know three honest limits. First, payments are final. A mistake or a scam payment usually cannot be undone.
+
+33
+00:04:08.400 --> 00:04:15.270
+Second, a land record or delivery record on a blockchain is only as true as the person typing the data.
+
+34
+00:04:16.520 --> 00:04:28.360
+Third, the rules in Nigeria keep changing. The Investments and Securities Act 2025 now treats digital assets as securities under SEC Nigeria.
+
+35
+00:04:28.710 --> 00:04:33.570
+Always check the CBN and SEC Nigeria websites before acting.
+
+36
+00:04:34.820 --> 00:04:50.370
+To remember. A blockchain is a shared ledger with no single keeper. Each block stores the fingerprint of the one before, so edits show. But tamper-evident does not mean true. Payments are final. And always name the category before you judge it.
+
+37
+00:04:51.620 --> 00:04:59.620
+Now draw three blocks on paper, change one payment, and circle every broken link. Explain it to a friend in under two minutes.
+
+38
+00:04:59.970 --> 00:05:06.010
+Then build your vocabulary card and cost a real transfer. Continue with the lessons below.
