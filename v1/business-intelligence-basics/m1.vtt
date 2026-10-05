@@ -1,0 +1,137 @@
+WEBVTT
+
+1
+00:00:00.350 --> 00:00:02.950
+BI starts with decisions, not data.
+
+2
+00:00:03.300 --> 00:00:10.020
+This is the video for Module 1 of Business Intelligence Basics: what BI is and where it fits.
+
+3
+00:00:11.270 --> 00:00:22.240
+Many businesses already have plenty of data. The POS terminal records card payments, Paystack or Moniepoint keeps every transfer, and the shop has a stock book.
+
+4
+00:00:23.490 --> 00:00:32.430
+Yet on Monday morning the owner asks, how much did we really sell last week, and what should I reorder? And nobody can answer quickly with confidence.
+
+5
+00:00:33.680 --> 00:00:37.300
+That gap is what business intelligence, or BI, closes.
+
+6
+00:00:38.550 --> 00:00:48.450
+In this course, BI means a repeating system that gets the right information to the right decision-maker at the right time, so a decision is made and acted on.
+
+7
+00:00:49.700 --> 00:00:58.130
+First, source systems, where data is born: the POS, payment apps, accounting software, WhatsApp order lists, even paper registers.
+
+8
+00:00:59.380 --> 00:01:09.770
+Next, collect and clean: getting data out and fixing spellings, duplicates and gaps. Professionals call this ETL, which means extract, transform, load.
+
+9
+00:01:11.020 --> 00:01:16.610
+Then one trusted store. For a small business, that can be one well-structured Google Sheet.
+
+10
+00:01:17.860 --> 00:01:22.270
+Then defined metrics, so that sales means the same thing in every report.
+
+11
+00:01:23.520 --> 00:01:30.730
+Then the reports and alerts themselves, such as a weekly one-page summary, or a WhatsApp message when stock is low.
+
+12
+00:01:31.980 --> 00:01:40.090
+And last, a named person looks at the information on a known day and decides something. Without this link, the rest is decoration.
+
+13
+00:01:41.340 --> 00:01:51.540
+BI designers do not start with what data do we have. They ask, what decisions does this business make again and again? The tool is a decision inventory.
+
+14
+00:01:51.890 --> 00:01:57.820
+For example, Funmi runs a frozen chicken and fish business in Ibadan with two cold rooms.
+
+15
+00:01:59.070 --> 00:02:05.960
+She lists five repeated decisions, such as the weekly reorder, customer credit limits and delivery van routes.
+
+16
+00:02:07.210 --> 00:02:11.540
+For each, she writes the owner and how often. The reorder is hers, weekly.
+
+17
+00:02:12.790 --> 00:02:18.230
+The reorder needs stock by product, sales in the last four weeks, and supplier lead time.
+
+18
+00:02:19.480 --> 00:02:26.160
+Stock comes from a Friday hand count with no history kept. And customer payment days are not tracked at all.
+
+19
+00:02:27.410 --> 00:02:41.680
+The hand count takes 2 cold rooms times 3 hours times 52 weeks. That is 312 staff hours a year, thrown away after each reorder. So her BI work starts with stock history and payment days.
+
+20
+00:02:42.930 --> 00:02:49.140
+OLTP systems run the business. They record each sale, payment or enrolment, and must be fast.
+
+21
+00:02:50.390 --> 00:03:03.040
+OLAP means storage built for analysis: adding thousands of rows and comparing months. BI copies data into a separate store, so reports do not slow down the till and history is kept.
+
+22
+00:03:04.290 --> 00:03:12.250
+Before you recommend anything, find the starting point. At level 1, data is scattered in notebooks, phones and people's heads.
+
+23
+00:03:13.500 --> 00:03:19.380
+At level 2, monthly reports are built by hand from exports, and numbers often disagree.
+
+24
+00:03:20.630 --> 00:03:26.090
+At level 3, one trusted store exists, and standard reports refresh on schedule.
+
+25
+00:03:27.340 --> 00:03:31.500
+At level 4, metrics have owners, quality checks and access rules.
+
+26
+00:03:32.750 --> 00:03:37.850
+At level 5, reports are used in fixed review meetings, and actions are tracked.
+
+27
+00:03:39.100 --> 00:03:47.360
+A 10-question check helps. Score each question 0 for no, 1 for partly, or 2 for yes. The maximum is 20.
+
+28
+00:03:48.610 --> 00:04:00.510
+For example, Hauwa runs a cooperative in Kaduna with about 600 members. Contributions are recorded in two Excel files that often disagree. Her total is 6.
+
+29
+00:04:01.760 --> 00:04:05.520
+A score of 6 to 9 means level 2, spreadsheet reporting.
+
+30
+00:04:06.770 --> 00:04:18.460
+So her next step is written definitions and one trusted register, not a dashboard. Buying a dashboard tool too early shows wrong numbers, and leaders stop trusting data altogether.
+
+31
+00:04:19.710 --> 00:04:26.430
+To remember. BI is a repeating system, not a tool, and every link must work, right up to the action.
+
+32
+00:04:26.780 --> 00:04:33.630
+Start with a decision inventory, keep reporting separate from the till, and know the maturity level before you build.
+
+33
+00:04:34.880 --> 00:04:41.850
+Now draft your first decision inventory, translate a business you know into BI language, and run a maturity check.
+
+34
+00:04:42.200 --> 00:04:44.140
+Continue with the lessons below.
