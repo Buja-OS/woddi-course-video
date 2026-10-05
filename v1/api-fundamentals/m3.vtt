@@ -1,0 +1,109 @@
+WEBVTT
+
+1
+00:00:00.350 --> 00:00:04.130
+From client pain to a priced integration, and your portfolio.
+
+2
+00:00:04.480 --> 00:00:08.400
+This is the video for module three of API Fundamentals.
+
+3
+00:00:09.650 --> 00:00:26.310
+Clients rarely ask for an API. They say: my staff spend the whole afternoon checking who has paid. Discovery is the structured conversation that turns that pain into a clear integration, or sometimes into honest advice that none is needed.
+
+4
+00:00:27.560 --> 00:00:31.080
+Then you write a one-page spec, and price it task by task.
+
+5
+00:00:32.330 --> 00:00:38.670
+Finally, a portfolio shows clients what you understand, because they can only see what you have documented.
+
+6
+00:00:39.920 --> 00:00:50.220
+Ask what should be different when this works. Then ask to see the current process, not only hear about it. Watching one payment being confirmed often reveals hidden steps.
+
+7
+00:00:51.470 --> 00:01:03.570
+Ask which exact data fields are needed, and whether any identify customers. Check that the provider has public documentation, a test mode, and fees or limits the client can live with.
+
+8
+00:01:04.820 --> 00:01:13.500
+Plan the fallback if the API is down for a day, usually the old manual process. And agree who owns the keys and future fixes.
+
+9
+00:01:14.750 --> 00:01:30.130
+For example, Bisi sells foodstuff online in Lagos through Paystack and asks Nkechi, an API consultant, to connect everything. Bisi wants orders packed within one hour of payment, and no goods released on fake alerts.
+
+10
+00:01:31.380 --> 00:01:40.000
+Nkechi watches the assistant: about 40 orders a day, 3 minutes each. That is 120 minutes, or 2 hours, every day.
+
+11
+00:01:41.250 --> 00:01:50.230
+Customer phone numbers are personal data, so only packing staff see them. And if the system is down, the assistant checks by hand that day.
+
+12
+00:01:51.480 --> 00:02:00.400
+Nkechi proposes one focused job: a signed webhook plus a verify call that marks orders as paid. It is clear enough to price.
+
+13
+00:02:01.650 --> 00:02:15.470
+API work carries uncertainty, so estimate each task, add them up, then add a buffer you state openly. Nkechi's tasks add to 24 hours. With 25 percent added, that is 30 hours.
+
+14
+00:02:16.720 --> 00:02:22.680
+At an illustrative 8,000 naira an hour, the project fee is 240,000 naira.
+
+15
+00:02:23.930 --> 00:02:30.300
+Optional support is 2 hours a month, 16,000 naira, for key rotation and small fixes.
+
+16
+00:02:30.650 --> 00:02:42.880
+Paystack's own transaction fees are listed separately, paid by the client directly. She asks for 120,000 naira before the build and 120,000 when the tests pass.
+
+17
+00:02:44.130 --> 00:02:46.330
+Write down exactly what is in scope.
+
+18
+00:02:47.580 --> 00:03:00.820
+When the client asks for something else, welcome the idea, write it as a change request with its own estimate, and let them decide. Small unpaid additions are how fixed-price projects become losses.
+
+19
+00:03:01.170 --> 00:03:06.270
+And the client always owns the provider account and keys. Never hold them hostage.
+
+20
+00:03:07.520 --> 00:03:23.120
+For example, Zainab in Kano asked Open-Meteo for three days of maximum and minimum temperatures, sent a deliberate bad request to record the 400 error, and noted that without the timezone setting, times come back in UTC.
+
+21
+00:03:24.370 --> 00:03:34.800
+Next, summarise a business API like Paystack in about 300 words. If you are unsure, say not covered in the pages I read, instead of guessing.
+
+22
+00:03:36.050 --> 00:03:45.630
+Third, a 90-day plan with checkable targets, such as 20 requests logged in weeks 1 to 2. If a target slips, shrink it rather than drop it.
+
+23
+00:03:46.880 --> 00:03:53.560
+Before you share any screenshot or write-up, remove keys, even test keys, plus tokens and signatures.
+
+24
+00:03:53.910 --> 00:04:05.720
+Remove customer names, emails, phone numbers and real transaction references, and use test or fake data. One leaked key can undo the trust a portfolio was meant to build.
+
+25
+00:04:06.970 --> 00:04:22.310
+To remember. Start discovery with the outcome and a measured baseline. Price task by task with an open buffer. Keep provider fees separate. Turn new ideas into change requests. And clean every portfolio piece before you share it.
+
+26
+00:04:23.560 --> 00:04:31.630
+Now run a practice discovery, spec and price one integration, and draft your first portfolio piece with a 90-day plan.
+
+27
+00:04:31.980 --> 00:04:33.920
+Continue with the lessons below.
