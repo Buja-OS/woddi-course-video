@@ -1,0 +1,105 @@
+WEBVTT
+
+1
+00:00:00.350 --> 00:00:03.210
+Track it right, test it fairly, launch it safely.
+
+2
+00:00:03.560 --> 00:00:07.910
+This is the video for module two of Paid Advertising with Meta Ads.
+
+3
+00:00:09.160 --> 00:00:22.130
+Most failed campaigns are not killed by bad ads. They are killed by bad set-up: an ad account owned by someone who left, a Pixel that fires Purchase twice, or a card declined on day three.
+
+4
+00:00:23.380 --> 00:00:28.630
+This module builds the foundation properly, so the numbers you optimise on are real.
+
+5
+00:00:29.880 --> 00:00:40.310
+The business owner should own the business portfolio, the ad account and the Pixel. You are added as a partner, never given their password, and if you leave they keep everything.
+
+6
+00:00:40.660 --> 00:00:52.760
+Turn on two-factor authentication for everyone, with two trusted admins. Test the payment method, verify the Pixel and the domain, and set an account spending limit as a safety net.
+
+7
+00:00:54.010 --> 00:01:05.680
+The Meta Pixel is a small piece of code that sends events, like add to cart or purchase, to Meta. Open Test events, then browse your site. Each event should appear within seconds.
+
+8
+00:01:06.930 --> 00:01:14.630
+Check each page with the free Meta Pixel Helper on a laptop. Then place a real low-value test order and refund it.
+
+9
+00:01:15.880 --> 00:01:27.930
+Add the Conversions API, which sends the same events from the server and recovers ones the browser misses. Both must carry the same event ID, so Meta removes duplicates.
+
+10
+00:01:29.180 --> 00:01:44.110
+Halima's shop showed 40 purchases in Ads Manager, but only 22 real paid orders. Purchase was firing twice. After the fix, ROAS fell from an inflated 5.6 to a true 3.05.
+
+11
+00:01:45.360 --> 00:01:53.540
+Custom audiences are people who already know you. Retarget people who added to cart in the last 14 days but did not buy.
+
+12
+00:01:54.790 --> 00:01:59.760
+And exclude existing customers, so you stop paying to show them first-order offers.
+
+13
+00:02:01.010 --> 00:02:17.280
+A lookalike asks Meta to find people who resemble a source. It needs at least 100 people from one country, and your 600 best repeat customers beat 5,000 people who once liked a post. Uploading a customer list needs their consent.
+
+14
+00:02:18.530 --> 00:02:28.130
+Broad targeting works best once your Pixel has purchase history. But location stays a hard rule. If you only deliver in Lagos, set Lagos.
+
+15
+00:02:29.380 --> 00:02:41.800
+A test must change one thing only, start with a written hypothesis, have enough budget, and run for a fixed time. Ruth wants to test a demonstration video against a price-led carousel.
+
+16
+00:02:43.050 --> 00:02:54.930
+Purchases cost about 4,000 naira. For 30 per version she needs 60, which is 240,000 naira, about 17,100 a day over 14 days.
+
+17
+00:02:56.180 --> 00:03:03.220
+The client has only 8,000 naira a day. That buys just 14 purchases per version, too few to trust.
+
+18
+00:03:04.470 --> 00:03:14.990
+So she tests on add to cart instead, at about 900 naira each. That gives roughly 62 per version, then she confirms the winner on purchases later.
+
+19
+00:03:16.240 --> 00:03:30.900
+Read Meta's Advertising Standards for each client. Copy that implies you know something personal, like struggling with your weight, gets rejected. So do guaranteed health or beauty results, get-rich offers and fake buttons.
+
+20
+00:03:32.150 --> 00:03:45.540
+Write: our programme helps people who. Keep claims honest, with NAFDAC registration where a product needs it. If it is a real breach, fix it, because repeated violations can restrict the whole ad account.
+
+21
+00:03:46.790 --> 00:03:56.180
+Run your pre-launch check on a phone every time. Then in the first hours, check only for faults: is it delivering, is spend on track, any rejections?
+
+22
+00:03:57.430 --> 00:04:10.120
+Leave it alone during learning. From day 7, compare each ad set with your target cost per sale. Watch for creative fatigue: frequency climbing while clicks fall. The fix is new creative.
+
+23
+00:04:11.370 --> 00:04:25.790
+When an ad set beats target, raise its budget in modest steps, not double. Write every change in a change log, with the date and reason, and send a plain weekly report that leads with orders, revenue and cost per order.
+
+24
+00:04:27.040 --> 00:04:42.000
+To remember. The client owns every asset. Verify that Purchase fires once. Use custom audiences to retarget and exclude. Test one variable with enough events. And check every launch on a phone, and log every change.
+
+25
+00:04:43.250 --> 00:04:59.530
+Now practise. Set up and verify a Pixel on a practice site and record what fires. Design an audience and test plan with a budget calculation. Then build your reusable QA checklist, naming system, change log and report template.
+
+26
+00:04:59.880 --> 00:05:01.820
+Continue with the lessons below.
