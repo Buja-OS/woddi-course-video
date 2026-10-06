@@ -1,0 +1,129 @@
+WEBVTT
+
+1
+00:00:00.350 --> 00:00:03.590
+Components, prototypes and a clean developer handoff.
+
+2
+00:00:03.940 --> 00:00:07.890
+This is the video for module two of UI Design with Figma.
+
+3
+00:00:09.140 --> 00:00:17.080
+A component is an element you build once and reuse, like a button or a product card. The original is the main component.
+
+4
+00:00:18.330 --> 00:00:28.710
+Every copy is an instance. Change the main component, and every instance updates. In an instance you can still override things like the label, without breaking the link.
+
+5
+00:00:29.960 --> 00:00:33.530
+This is what lets one designer keep 40 screens consistent.
+
+6
+00:00:34.780 --> 00:00:45.100
+Build the element with auto layout and only your saved styles. Then press Control, Alt, K, or Command, Option, K on a Mac, to make it a component.
+
+7
+00:00:46.350 --> 00:00:51.790
+Duplicate it for each version you need, select them all, and click Combine as variants.
+
+8
+00:00:53.040 --> 00:01:00.000
+Rename the default Property 1 to something meaningful, like Type, with values such as Primary and Secondary.
+
+9
+00:01:01.250 --> 00:01:09.460
+Then add other properties: Text to edit the label, Boolean to show or hide an icon, and Instance swap to choose which icon.
+
+10
+00:01:10.710 --> 00:01:19.970
+Detaching an instance breaks its link forever, so it never receives future fixes. If you keep wanting to detach, your component is missing a property.
+
+11
+00:01:21.220 --> 00:01:35.490
+Amaka needs buttons in 3 types, 3 states and 2 sizes. That is 18 variants. If she made the icon a variant too, the count doubles to 36, and every future change must be made 36 times.
+
+12
+00:01:36.740 --> 00:01:49.480
+Instead she adds a Boolean property, Show icon, an Instance swap property for the icon, and a Text property for the label. The set stays at 18 variants and covers every button in the app.
+
+13
+00:01:50.730 --> 00:02:02.800
+A prototype links your screens so a client can tap through them before paying for development. Each connection has a trigger, like On tap, and an action, like Navigate to or Open overlay.
+
+14
+00:02:04.050 --> 00:02:12.760
+Then a destination frame, and an animation. Around 200 to 300 ms, with ease out, suits most mobile transitions.
+
+15
+00:02:14.010 --> 00:02:18.490
+Amaka marks Home as the starting point of a flow called Buy tomatoes.
+
+16
+00:02:19.740 --> 00:02:29.550
+Tapping a product card moves in the product screen in 250 ms. Add to cart opens a quantity sheet as an overlay, instead of a separate screen.
+
+17
+00:02:30.800 --> 00:02:36.220
+Every back arrow uses the Back action, so the path always matches how the user arrived.
+
+18
+00:02:37.470 --> 00:02:50.080
+Long screens scroll, so she sets the top bar and bottom navigation to Fixed. A bottom bar that scrolls away looks broken to clients. Then she tests it all on her phone in the Figma mobile app.
+
+19
+00:02:51.330 --> 00:02:59.130
+Smart animate only works when a layer has exactly the same name in both frames. Badge and Ellipse 3 will just jump.
+
+20
+00:03:00.380 --> 00:03:16.000
+Share prototypes with view access only, because a link can be forwarded. Use sample names, addresses and phone numbers, never real customer data. Nigeria's Data Protection Act 2023 applies to personal data.
+
+21
+00:03:16.350 --> 00:03:22.900
+Install plugins only from known publishers, and never paste client passwords or private data into one.
+
+22
+00:03:24.150 --> 00:03:34.220
+A design can look beautiful and still be unusable. For normal text, WCAG level AA needs a contrast ratio of at least 4.5 to 1.
+
+23
+00:03:35.470 --> 00:03:48.270
+Large text and important non-text parts, like input borders, need 3 to 1. Amaka's light grey input border was only about 1.9 to 1, so users might not see where to type.
+
+24
+00:03:49.520 --> 00:03:54.360
+Each fix was one edit to a colour variable, and every screen updated at once.
+
+25
+00:03:55.610 --> 00:04:06.210
+Her grey text passed on white at about 4.6, but failed on a light grey card at about 4.2. So always check text against its real background.
+
+26
+00:04:07.460 --> 00:04:19.860
+Before handover, check tap targets are at least 48 by 48. Design every state, including error, empty and loading. Show errors with an icon and a message, not colour alone.
+
+27
+00:04:20.210 --> 00:04:30.490
+Name layers clearly and set SVG exports on icons. Then write notes a screen cannot show, like: disable Pay until the delivery address is chosen.
+
+28
+00:04:30.840 --> 00:04:33.890
+Finish with a 20-minute walk-through with the developer.
+
+29
+00:04:35.140 --> 00:04:42.220
+To remember. Build components once and keep instances linked. Use variants only for real visual changes.
+
+30
+00:04:42.570 --> 00:04:51.410
+Wire prototypes with clear triggers and Back actions. Check contrast against the real background. And hand off a named, annotated file.
+
+31
+00:04:52.660 --> 00:05:00.680
+Now practise. Build your first component set, prototype one journey and test it on your phone, and run a pre-handover audit.
+
+32
+00:05:01.030 --> 00:05:02.970
+Continue with the lessons below.

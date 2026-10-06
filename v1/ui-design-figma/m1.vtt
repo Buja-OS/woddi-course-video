@@ -1,0 +1,129 @@
+WEBVTT
+
+1
+00:00:00.350 --> 00:00:05.020
+Figma foundations: tidy files, flexible layouts and calm visuals.
+
+2
+00:00:05.370 --> 00:00:09.450
+This is the video for module one of UI Design with Figma.
+
+3
+00:00:10.700 --> 00:00:17.030
+A UX flow tells you what a product must do. A wireframe shows the rough layout in grey boxes.
+
+4
+00:00:18.280 --> 00:00:28.540
+UI design turns that into the exact interface a developer will build: real colours, real fonts, exact spacing in pixels, and every button state.
+
+5
+00:00:28.890 --> 00:00:35.680
+Figma runs in a web browser, so a client, a developer and you can open the same file at the same time.
+
+6
+00:00:36.930 --> 00:00:42.370
+A finished handover has screens for every step, including empty, loading and error states.
+
+7
+00:00:43.620 --> 00:00:51.320
+It has foundations, the colour, type and spacing values, and components like buttons and cards, built once and reused.
+
+8
+00:00:52.570 --> 00:00:59.200
+And it has a prototype a client can tap through, plus specs and assets a developer can use without calling you.
+
+9
+00:01:00.450 --> 00:01:14.530
+Clients judge your professionalism the moment they open the file. For example, Amaka sets up a practice app called Oja Fresh with six pages: Cover, Foundations, Components, Screens, Prototype and Archive.
+
+10
+00:01:15.780 --> 00:01:23.630
+She adds a cover with the project name and status, and sections on the Screens page, one for each flow, like Cart and checkout.
+
+11
+00:01:24.880 --> 00:01:31.410
+She names every layer in plain words. Rectangle 47 tells nobody anything. Price tag does.
+
+12
+00:01:32.660 --> 00:01:43.710
+Before every client review she saves a named version, so she can always go back. And she names screens by flow, screen and state, like Checkout, Delivery address, Error.
+
+13
+00:01:44.960 --> 00:01:54.200
+A beginner's screen looks fine at one size and breaks at every other. With a manual frame, you move each item by hand, and longer text overlaps.
+
+14
+00:01:55.450 --> 00:02:08.290
+Auto layout, Shift plus A, turns a frame into a flexible stack. You choose a direction, a gap between items, and padding inside. New items slot in, and spacing stays the same everywhere.
+
+15
+00:02:09.540 --> 00:02:17.310
+Each element gets a resizing rule. Hug contents means the frame fits what is inside, so a button grows with its label.
+
+16
+00:02:18.560 --> 00:02:22.700
+Fill container means it stretches to take the space its parent gives it.
+
+17
+00:02:23.950 --> 00:02:28.940
+Fixed means an exact size, like a 64 by 64 product photo.
+
+18
+00:02:30.190 --> 00:02:38.420
+Amaka builds a product card. A 64 by 64 photo, and a vertical stack of three text layers with a gap of 4.
+
+19
+00:02:39.670 --> 00:02:44.990
+She stacks the photo and text horizontally, with a gap of 12 and padding of 12.
+
+20
+00:02:46.240 --> 00:02:58.140
+The card fills the screen width, and the text fills the space beside the photo. On a 360 screen with 16 px margins, the card is 328 px wide.
+
+21
+00:02:59.390 --> 00:03:10.440
+Long product names use Auto height and truncate after 2 lines. Then she changes the screen from 360 to 412 to check every card stretches.
+
+22
+00:03:11.690 --> 00:03:18.990
+Many low-cost Android phones in Nigeria are about 360 points wide, so always test that width.
+
+23
+00:03:20.240 --> 00:03:30.280
+Polished screens repeat a few decisions. Use an 8-point system: spacing in multiples of 8, with 4 for small gaps. Only these values are allowed.
+
+24
+00:03:31.530 --> 00:03:38.040
+For text, start with a body size of 16 and multiply by 1.25 for each step up.
+
+25
+00:03:39.290 --> 00:03:55.080
+16 becomes 20, then 25, then 31.25. Amaka rounds them to 20, 24 and 32, and saves each as a text style. If the client wants bigger text, she edits Body once and every screen updates.
+
+26
+00:03:56.330 --> 00:04:02.540
+Name colours by role, like primary, surface and error, so a rebrand changes values, not meaning.
+
+27
+00:04:02.890 --> 00:04:13.340
+Keep tap targets at least 48 by 48. Use strong contrast, because people check orders in bright sunlight. Remember every large photo costs data.
+
+28
+00:04:13.690 --> 00:04:21.160
+And type real local words with tone marks before choosing a font. Empty boxes mean the font does not support them.
+
+29
+00:04:22.410 --> 00:04:31.170
+To remember. Organise with pages, sections and plain names. Use auto layout for anything that stacks, with Hug, Fill and Fixed.
+
+30
+00:04:31.520 --> 00:04:38.630
+Define spacing, type and colour roles once. And test at 360 px with real local text.
+
+31
+00:04:39.880 --> 00:04:49.900
+Now practise. Set up your practice file, build a list of cards that resizes from 360 to 412, and build your Foundations page.
+
+32
+00:04:50.250 --> 00:04:52.200
+Continue with the lessons below.
