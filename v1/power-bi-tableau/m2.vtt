@@ -1,0 +1,149 @@
+WEBVTT
+
+1
+00:00:00.350 --> 00:00:03.000
+Clean it, lay it out, then check every number.
+
+2
+00:00:03.350 --> 00:00:10.240
+This is the video for module two of Power BI and Tableau: building, testing and delivering dashboards.
+
+3
+00:00:11.490 --> 00:00:22.730
+Experienced analysts say most of a dashboard project is spent preparing data. Exports arrive with title rows, mixed spellings, blank rows and numbers stored as text.
+
+4
+00:00:23.980 --> 00:00:28.970
+You will learn to clean data in a way that repeats itself automatically every month.
+
+5
+00:00:30.220 --> 00:00:32.820
+Then you sketch the layout before you touch the tool.
+
+6
+00:00:34.070 --> 00:00:41.580
+And you check every number, because a dashboard that shows one wrong number loses the viewer's trust in every other number on it.
+
+7
+00:00:42.830 --> 00:00:55.930
+In Power BI, open the Power Query editor. Every change is recorded in Applied Steps, and runs again when you click Refresh. In Tableau, use the Data Source page and the Data Interpreter.
+
+8
+00:00:56.280 --> 00:00:58.990
+First, remove title rows and blank rows.
+
+9
+00:01:00.240 --> 00:01:06.410
+Use the first row as headers, and set each column's data type, so amounts are numbers, not text.
+
+10
+00:01:07.660 --> 00:01:13.100
+Trim spaces and fix spellings, so Abuja, ABUJA and Abj become one value.
+
+11
+00:01:14.350 --> 00:01:18.850
+Remove true duplicates, such as the same invoice line exported twice.
+
+12
+00:01:20.100 --> 00:01:30.910
+Unpivot month columns into rows, so viewers can filter by month. For example, Tunde turned 40 categories by 12 month columns into 480 rows.
+
+13
+00:01:32.160 --> 00:01:40.360
+Then check. Tunde's editor showed 480 rows, and the grand total still matched the original sheet, so nothing was lost.
+
+14
+00:01:40.710 --> 00:01:50.540
+The rule: never fix the raw file by hand. Next month the same problems return. Keep raw files untouched and let recorded steps do the cleaning.
+
+15
+00:01:51.790 --> 00:01:59.450
+Customer names, phone numbers and account details fall under the Nigeria Data Protection Act 2023.
+
+16
+00:01:59.800 --> 00:02:05.860
+If a column is not needed to answer the dashboard questions, remove it in your very first cleaning step.
+
+17
+00:02:07.110 --> 00:02:14.830
+Never upload files containing personal data to Tableau Public, because everything saved there can be seen by anyone.
+
+18
+00:02:16.080 --> 00:02:19.090
+And do not email raw exports through personal accounts.
+
+19
+00:02:20.340 --> 00:02:30.300
+A wireframe is a rough sketch showing where each card, chart and filter will sit, and which question each one answers. It takes ten minutes and saves hours.
+
+20
+00:02:30.650 --> 00:02:36.900
+People scan from the top left, so put the headline numbers, called KPI cards, across the top.
+
+21
+00:02:38.150 --> 00:02:43.360
+Put the main trend or comparison chart in the middle, and detail tables at the bottom.
+
+22
+00:02:44.610 --> 00:02:52.930
+Keep filters in one place, and use two or three colours: a neutral one, a highlight, and red or amber only for real warnings.
+
+23
+00:02:53.280 --> 00:02:58.840
+Then show it to someone for five seconds. If they cannot tell you the main message, simplify.
+
+24
+00:03:00.090 --> 00:03:12.060
+To compare branches, use a sorted horizontal bar chart. For a trend over months, a line chart. For actual against target, a bar with a target line. For exact values, a table.
+
+25
+00:03:13.310 --> 00:03:22.590
+Avoid 3D bars, pie charts with many tiny slices, gauges that take space to show one number, and maps used just for decoration.
+
+26
+00:03:23.840 --> 00:03:33.120
+Reconciliation means comparing your totals with a trusted figure, such as the accounting system. Check the grand total, one branch and one month.
+
+27
+00:03:34.370 --> 00:03:47.860
+Ngozi's dashboard shows 48,350,000 naira for June. Finance shows 47,900,000. The dashboard is 450,000 naira too high.
+
+28
+00:03:48.210 --> 00:03:51.770
+She filters branch by branch. Only Port Harcourt is off.
+
+29
+00:03:53.020 --> 00:04:08.160
+Sorting its invoices, she finds three invoices each appearing twice, each worth 150,000 naira. Three times 150,000 is exactly 450,000. The branch had exported twice.
+
+30
+00:04:09.410 --> 00:04:18.760
+She adds a Remove Duplicates step, refreshes, and the total becomes 47,900,000 naira. It now matches finance.
+
+31
+00:04:19.110 --> 00:04:21.990
+Every difference must be explained, not ignored.
+
+32
+00:04:23.240 --> 00:04:31.810
+Run these honest chart checks. A bar axis that starts at 40 million naira instead of zero can make a small difference look huge.
+
+33
+00:04:32.160 --> 00:04:42.260
+Bars start at zero. Compared charts share a scale. Months in order. Units on every axis. And if amber means below target, it means only that.
+
+34
+00:04:43.510 --> 00:04:52.740
+To remember. Keep raw files untouched and let recorded steps clean. Check row counts and totals. Remove personal data you do not need.
+
+35
+00:04:53.090 --> 00:04:59.190
+Put headlines on top and detail below. And reconcile your totals, explaining every difference.
+
+36
+00:05:00.440 --> 00:05:10.410
+Now practise. Clean one messy file end to end, wireframe and build one dashboard page, and run a full quality check, recorded in a QA log.
+
+37
+00:05:10.760 --> 00:05:12.700
+Continue with the lessons below.
