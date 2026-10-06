@@ -1,0 +1,125 @@
+WEBVTT
+
+1
+00:00:00.350 --> 00:00:02.950
+Join tables, and prove your numbers add up.
+
+2
+00:00:03.300 --> 00:00:09.790
+This is the video for module 2 of SQL Fundamentals: Tools, Joins and Trustworthy Results.
+
+3
+00:00:11.040 --> 00:00:18.570
+You learn SQL by typing queries and seeing results. You do not need to buy anything. Choose one tool and stay with it.
+
+4
+00:00:19.820 --> 00:00:24.510
+SQLite Fiddle runs in any browser, even on your phone, with no account.
+
+5
+00:00:25.760 --> 00:00:30.600
+DB Browser for SQLite works offline once installed on a laptop.
+
+6
+00:00:31.850 --> 00:00:38.980
+A free PostgreSQL project, for example on Supabase, lets you practise the database many fintechs use.
+
+7
+00:00:40.230 --> 00:00:50.060
+And the BigQuery sandbox lets you query large public datasets. Whichever you choose, keep your queries in a notes file. It becomes your query library.
+
+8
+00:00:51.310 --> 00:01:01.550
+For example, Ada studies on her phone at lunch. She opens SQLite Fiddle and runs the CREATE TABLE statements for customers, orders and order items.
+
+9
+00:01:02.800 --> 00:01:08.880
+She pastes the INSERT statements: 6 customers, 10 orders and 13 order item rows.
+
+10
+00:01:10.130 --> 00:01:14.760
+Then she counts the rows in each table. 6, 10 and 13. Correct.
+
+11
+00:01:16.010 --> 00:01:30.480
+She sums the amount for all 10 orders and gets 251,500, as expected. Why check? A missing comma can stop one INSERT while the others succeed, and then every later answer is wrong.
+
+12
+00:01:31.730 --> 00:01:43.210
+She saves the script so she can rebuild any time. And remember, use made-up data for practice. Never put real customer names or phone numbers into a public online tool.
+
+13
+00:01:44.460 --> 00:01:57.580
+A JOIN lines up rows from two tables wherever the key values match. An INNER JOIN keeps only the matches. Joining delivered orders to customers gives 8 rows, each now with a name and city.
+
+14
+00:01:58.830 --> 00:02:11.990
+A LEFT JOIN keeps every row of the first table, even with no match. The missing columns come back as NULL. That is how you find who is missing, like Funmi, a customer who has never received an order.
+
+15
+00:02:13.240 --> 00:02:21.090
+She starts from customers, so nobody is lost, and puts status equals delivered inside the ON part of the join, not in WHERE.
+
+16
+00:02:22.340 --> 00:02:36.060
+Dupe spent 61,000 naira, Amaka 55,000, Bisi 54,500, Efe 33,000 and Chioma 8,000. Funmi has 0, so she gets the welcome offer.
+
+17
+00:02:37.310 --> 00:02:42.110
+It reconciles to 211,500, the delivered total.
+
+18
+00:02:42.460 --> 00:02:51.540
+The common mistake: if she had put the delivered filter in WHERE, Funmi's row would vanish, and the LEFT JOIN would quietly act like an INNER JOIN.
+
+19
+00:02:52.790 --> 00:03:04.100
+A query that runs without error is not always right. Ngozi sums the order amount after joining to order items, and gets 293,500.
+
+20
+00:03:05.350 --> 00:03:09.830
+But the known delivered total is 211,500.
+
+21
+00:03:11.080 --> 00:03:22.880
+The gap is 82,000. After the join there are 11 rows, not 8, because three orders have two product lines each, so each is counted twice. This is called fan-out.
+
+22
+00:03:23.230 --> 00:03:31.780
+The quick test: compare COUNT star with COUNT DISTINCT order ID. If the first grows and the second does not, rows are repeating.
+
+23
+00:03:33.030 --> 00:03:39.620
+Write the question in one sentence, with a time period and a definition, like delivered revenue per city.
+
+24
+00:03:40.870 --> 00:03:44.070
+Explore the tables first, and check which keys link them.
+
+25
+00:03:45.320 --> 00:03:52.340
+Build the query in small pieces. Run the join first and check the row count, then add WHERE, then GROUP BY.
+
+26
+00:03:53.590 --> 00:03:57.090
+Reconcile to a known total, and check two rows by hand.
+
+27
+00:03:58.340 --> 00:04:02.330
+Then present the number, the period and any caveat in plain words.
+
+28
+00:04:03.580 --> 00:04:18.770
+Five checks catch most silent errors. Does the row count make sense? Do totals reconcile? Is there fan-out? Are NULLs handled on purpose, for example with COALESCE to turn a missing value into 0? And did you spot-check two rows?
+
+29
+00:04:20.020 --> 00:04:32.990
+To remember. Check counts and totals as soon as data is loaded. Use INNER JOIN for what was sold and LEFT JOIN for who is missing. Watch for fan-out. And never share a number you have not reconciled.
+
+30
+00:04:34.240 --> 00:04:40.710
+Now build and verify your practice database, answer three join questions, and audit a wrong query.
+
+31
+00:04:41.060 --> 00:04:43.000
+Continue with the lessons below.

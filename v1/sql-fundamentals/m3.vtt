@@ -1,0 +1,129 @@
+WEBVTT
+
+1
+00:00:00.350 --> 00:00:03.290
+From a vague request to a paid, trusted analysis.
+
+2
+00:00:03.640 --> 00:00:10.900
+This is the video for module 3 of SQL Fundamentals: Analysis Projects, Clients and Your Portfolio.
+
+3
+00:00:12.150 --> 00:00:20.640
+A manager says, send me our best customers. If you start typing straight away, you answer your own guess, not her question. So ask first.
+
+4
+00:00:21.890 --> 00:00:26.710
+What decision will this support? For Kemi, choosing who gets a loyalty discount.
+
+5
+00:00:27.960 --> 00:00:32.100
+How do you define best? Highest delivered spend, not number of orders.
+
+6
+00:00:33.350 --> 00:00:37.510
+Which period? 1 May to 31 August 2026.
+
+7
+00:00:38.760 --> 00:00:41.790
+What should be left out? Cancelled and pending orders.
+
+8
+00:00:43.040 --> 00:00:50.290
+What format, by when, and is it one-off or monthly? Then write the definition back in one sentence and get a yes.
+
+9
+00:00:51.540 --> 00:01:02.720
+A CTE, a common table expression, lets you name one step with WITH, then use it like a table. Kemi's first step, called spend, totals delivered orders per customer.
+
+10
+00:01:03.970 --> 00:01:10.310
+Run that step alone. 5 customers, adding to 211,500. Good.
+
+11
+00:01:11.560 --> 00:01:20.260
+The average per buying customer is 211,500 divided by 5, which is 42,300.
+
+12
+00:01:21.510 --> 00:01:30.770
+The final query keeps customers above that: Dupe 61,000, Amaka 55,000, Bisi 54,500.
+
+13
+00:01:32.020 --> 00:01:40.190
+Then say what the number hides. Dupe made one large purchase, while Amaka bought three times. That may change who gets which offer.
+
+14
+00:01:41.440 --> 00:01:52.870
+Window functions calculate across rows while keeping every row. SUM OVER gives a running total. LAG brings the value from the previous row, so you can see the change.
+
+15
+00:01:54.120 --> 00:02:05.170
+May brought 69,500 naira. June brought 73,500, up 4,000, so the running total is 143,000.
+
+16
+00:02:06.420 --> 00:02:11.500
+July fell to 60,500, and August shows only 8,000.
+
+17
+00:02:12.750 --> 00:02:25.210
+The final running total, 211,500, equals the delivered total, so it checks out. But August has only one order, so the honest note is that August may be incomplete.
+
+18
+00:02:26.460 --> 00:02:43.120
+Beginners price only the time to type the final query. Real work takes longer. Halima estimates every stage: discovery and scope, 2 hours. Access and loading, 3. Writing and testing queries, 5. Checks, 2. The report, 3.
+
+19
+00:02:43.470 --> 00:02:49.060
+That is 15 hours. She adds a 20 percent buffer, 3 hours, for 18 in total.
+
+20
+00:02:50.310 --> 00:02:56.500
+At an illustrative 5,000 naira an hour, that is 90,000 naira. Research your own rate.
+
+21
+00:02:57.750 --> 00:03:06.300
+She asks for 50 percent, 45,000, as a deposit before access. And extra questions get a friendly add-on quote.
+
+22
+00:03:07.550 --> 00:03:23.210
+Sales data holds personal data, and the Nigeria Data Protection Act 2023 sets rules for it. So ask for read-only access. Before any command that changes data, first run the same WHERE condition in a SELECT.
+
+23
+00:03:24.460 --> 00:03:34.100
+Ask only for the columns you need. You rarely need phone numbers to count sales. Never send exports through personal WhatsApp chats or public tools.
+
+24
+00:03:35.350 --> 00:03:41.110
+Store files safely, delete them at the end of the job, and confirm the deletion in writing.
+
+25
+00:03:42.360 --> 00:03:54.420
+Certificates say you studied. A portfolio shows you can do the work. Take one public dataset, from Kaggle or World Bank Open Data, and write 3 to 5 questions a manager would ask.
+
+26
+00:03:55.670 --> 00:03:57.390
+Write one query per question.
+
+27
+00:03:58.640 --> 00:04:01.160
+Record the checks you ran, and what they caught.
+
+28
+00:04:02.410 --> 00:04:05.650
+Write findings a non-technical reader could act on.
+
+29
+00:04:06.900 --> 00:04:15.120
+Then publish it with a README and pin it to LinkedIn. Over 90 days: practise daily, build the project, publish, then apply.
+
+30
+00:04:16.370 --> 00:04:29.510
+To remember. Agree the definition before you query. Build in named, checked steps. Price every stage of the work, not just the final query. And treat client data with care from access to deletion.
+
+31
+00:04:30.760 --> 00:04:38.160
+Now run a discovery conversation, write a one-page scope and quote, and start your portfolio with a 90-day plan.
+
+32
+00:04:38.510 --> 00:04:40.450
+Continue with the lessons below.
