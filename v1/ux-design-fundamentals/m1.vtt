@@ -1,0 +1,129 @@
+WEBVTT
+
+1
+00:00:00.350 --> 00:00:04.380
+Measure the leak, apply the laws, and design for real conditions.
+
+2
+00:00:04.730 --> 00:00:11.490
+This is the video for module one of UX Design Fundamentals: outcomes, cognition and context.
+
+3
+00:00:12.740 --> 00:00:23.180
+User experience, or UX, is everything a person goes through to get something done with a product. UI, the user interface, is only the part you see and touch.
+
+4
+00:00:24.430 --> 00:00:34.050
+Clients will not pay for better UX as an opinion. They pay for a change in a number they care about, like more completed sign-ups or fewer support calls.
+
+5
+00:00:35.300 --> 00:00:40.100
+Many design decisions rest on research about how people see and decide.
+
+6
+00:00:41.350 --> 00:00:44.780
+And many of your users have slow networks and costly data.
+
+7
+00:00:46.030 --> 00:00:51.110
+A funnel lists the steps users pass through to reach a goal, with how many reach each step.
+
+8
+00:00:51.460 --> 00:01:01.440
+For example, Amaka is hired by a Lagos savings app. She asks for last month's numbers instead of opinions. 10,000 people downloaded the app.
+
+9
+00:01:02.690 --> 00:01:12.100
+6,200 started sign-up. Step conversion is people at a step divided by people at the step before, so that is 62%.
+
+10
+00:01:13.350 --> 00:01:22.700
+Only 3,100 passed the BVN check, which is the Bank Verification Number. That step loses half of everyone who reaches it.
+
+11
+00:01:23.950 --> 00:01:35.570
+2,480 funded their wallet, which is 80% of those who passed. So the BVN step, at 50%, is the leak, and the best place to research first.
+
+12
+00:01:36.820 --> 00:01:45.630
+But numbers only show where people leave, never why. Always pair a funnel with interviews or usability tests before you redesign anything.
+
+13
+00:01:46.880 --> 00:01:59.090
+Hick's law says the more equal choices you show, the slower people decide. A home screen with 18 equal tiles slows people down. Group options, and put the most common tasks first.
+
+14
+00:02:00.340 --> 00:02:12.540
+Fitts's law says the time to reach a target depends on its distance and size. For example, Zainab recommends a full-width Pay now bar fixed near the bottom, where the thumb already rests.
+
+15
+00:02:12.890 --> 00:02:18.290
+On phones, make targets 44 to 48 pixels, and never below 24.
+
+16
+00:02:19.540 --> 00:02:29.370
+Jakob's law says users spend most of their time on other products. If every bank app they know puts Transfer on the home screen, do not hide yours in a menu.
+
+17
+00:02:30.620 --> 00:02:36.060
+Working memory is small. So do not make people remember things the interface could show them.
+
+18
+00:02:37.310 --> 00:02:42.810
+Let them pick from recent beneficiaries, show the code again, and offer search with suggestions.
+
+19
+00:02:43.160 --> 00:02:48.310
+Chunk long numbers too, and show the account name so people confirm by recognition.
+
+20
+00:02:49.560 --> 00:03:05.300
+Every megabyte is paid for by the user. For example, Tunde's farm price page was 4 megabytes, opened 5 times a day. That is 600 megabytes a month. He set a budget of 800 kilobytes, cutting it to 120.
+
+21
+00:03:06.550 --> 00:03:13.650
+When the network drops, long forms should keep what was typed, and offline, failed and pending states must look different.
+
+22
+00:03:14.900 --> 00:03:21.500
+For people without internet, offer USSD, the star code hash menus that work on any GSM phone.
+
+23
+00:03:22.750 --> 00:03:33.140
+Phones are often shared, so offer quick logout and never show balances on notifications. And offer the languages your users speak, checked by native speakers.
+
+24
+00:03:34.390 --> 00:03:45.950
+USSD has no images and sessions time out quickly. Put the most common task as option 1, and keep each screen under about 160 characters to be safe across networks.
+
+25
+00:03:47.200 --> 00:03:52.320
+Use 0 for Back and 00 for Main menu, the same way on every screen.
+
+26
+00:03:53.570 --> 00:04:04.110
+Show the amount and the recipient's name before asking for a PIN. Then send an SMS receipt, because the session closes and users cannot scroll back.
+
+27
+00:04:05.360 --> 00:04:15.490
+Payments need extra care. After a timeout, show We are checking your payment, with the real status from the server, never a try again button that may charge twice.
+
+28
+00:04:15.840 --> 00:04:26.250
+Always show a transaction reference and official support channels inside the product. Worried users who search online for customer care numbers can meet fraudsters.
+
+29
+00:04:27.500 --> 00:04:37.290
+To remember. Find the step with the lowest conversion first, then research why people leave. Make key targets big and close. Design for recognition.
+
+30
+00:04:37.640 --> 00:04:42.440
+And treat data cost, network drops and shared phones as part of the experience.
+
+31
+00:04:43.690 --> 00:04:54.250
+Now practise. Build a funnel and metrics sheet for an app you use, audit one screen using the laws, and check how a product behaves with costly data and no network.
+
+32
+00:04:54.600 --> 00:04:56.540
+Continue with the lessons below.
