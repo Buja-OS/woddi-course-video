@@ -1,0 +1,133 @@
+WEBVTT
+
+1
+00:00:00.350 --> 00:00:04.660
+Webflow foundations: structure, classes and responsive layout.
+
+2
+00:00:05.010 --> 00:00:08.760
+This is the video for module 1 of Webflow Development.
+
+3
+00:00:10.010 --> 00:00:25.540
+In Webflow you design visually, but the result is real HTML, CSS and JavaScript. When you add padding, Webflow writes the CSS rule. So you must understand the building blocks. You work in the Designer, on a laptop.
+
+4
+00:00:26.790 --> 00:00:36.310
+The CMS holds Collections, for content that repeats in the same shape, such as blog posts. Clients can add items without touching your design.
+
+5
+00:00:37.560 --> 00:00:45.880
+And Webflow hosts the site. Every project gets a free webflow.io address, but a real domain needs a paid Site plan.
+
+6
+00:00:47.130 --> 00:01:00.590
+Webflow charges two ways. A Workspace plan is for you, the builder. A Site plan is for each live website. Usually the client pays their own Site plan, so the website is legally and financially theirs.
+
+7
+00:01:01.840 --> 00:01:15.000
+Prices are in US dollars and change, so check the pricing page on the day you quote. Many Nigerian bank cards limit foreign spending, so confirm a card that can pay before you promise a launch date.
+
+8
+00:01:15.350 --> 00:01:20.370
+And never pay a client's hosting with your own card without a written agreement on repayment.
+
+9
+00:01:21.620 --> 00:01:28.980
+For example, Amaka is a Webflow freelancer in Port Harcourt. One week, three enquiries arrive on WhatsApp.
+
+10
+00:01:30.230 --> 00:01:39.340
+A law firm wants five pages and a news section partners can update. No payments needed. Webflow with one CMS Collection fits.
+
+11
+00:01:40.590 --> 00:01:54.900
+A shoe seller wants naira card checkout. Webflow Ecommerce uses Stripe and PayPal, and Stripe does not list Nigeria. So Amaka refers her to a WordPress developer and offers to design the landing page only.
+
+12
+00:01:56.150 --> 00:02:06.450
+A church needs one event page with a form in four days. That is a quick Webflow job. Two paid projects, one referral, and no promise she could not keep.
+
+13
+00:02:07.700 --> 00:02:17.520
+Every element is a box with four layers: the content, then padding inside the edge, then the border, then margin outside, pushing other boxes away.
+
+14
+00:02:18.770 --> 00:02:27.240
+For example, Tolu sets a service card 300px wide, with 24px padding each side and a 1px border.
+
+15
+00:02:28.490 --> 00:02:35.460
+With content-box sizing, width means content only. So each card is really 350px.
+
+16
+00:02:36.710 --> 00:02:45.250
+Three cards and two 20px gaps make 1,090px. That overflows her 960px container.
+
+17
+00:02:46.500 --> 00:02:59.400
+Webflow's default is border-box, where width includes padding and border. Then the row is 940px and fits. An old code embed had changed it. She removed it, and the row fits.
+
+18
+00:03:00.650 --> 00:03:08.650
+Open the Navigator panel. You want a tidy tree, not a pile of unnamed Div Blocks. Each band of the page is a Section.
+
+19
+00:03:09.900 --> 00:03:16.690
+Inside it, a Container sets a maximum width, for example 1200px, and centres it.
+
+20
+00:03:17.940 --> 00:03:23.380
+A layout wrapper decides how children sit: side by side, in a grid, or stacked.
+
+21
+00:03:24.630 --> 00:03:29.300
+Then the content. Use real headings in order, not paragraphs made big.
+
+22
+00:03:30.550 --> 00:03:43.350
+Style with classes, reusable named styles. A combo class, like button plus is-secondary, adds a variation. And name things by meaning. Div Block 47 tells nobody anything.
+
+23
+00:03:44.600 --> 00:03:49.510
+Use Flexbox for a line of things, like a navigation bar or a row of buttons.
+
+24
+00:03:50.760 --> 00:04:00.310
+Use Grid when you need rows and columns together, like a three-column services area. Columns are sized in fr, a fraction of the free space.
+
+25
+00:04:01.560 --> 00:04:08.990
+Most visitors arrive on a phone. In Webflow you design on Desktop, and styles cascade down to smaller screens.
+
+26
+00:04:10.240 --> 00:04:19.970
+For example, Zainab builds a catering site with six service cards. On Desktop, 3 columns, so each card is 364px.
+
+27
+00:04:21.220 --> 00:04:24.140
+On Tablet she changes the grid to 2 columns.
+
+28
+00:04:25.390 --> 00:04:29.330
+On Mobile landscape, 1 column, so each card fills the width.
+
+29
+00:04:30.580 --> 00:04:33.910
+She reduces section padding so phone users scroll less.
+
+30
+00:04:35.160 --> 00:04:48.750
+Then she previews at 360px and finds a heading overflowing, so she lowers it on Mobile portrait only. Four overrides, not four separate layouts. And always open the link on a real phone.
+
+31
+00:04:50.000 --> 00:05:04.940
+To remember. Ask about payments and editing needs first. Know your box model. Keep a clean structure with meaningful class names. And design on Desktop, override only what must change, and check every section on a real phone.
+
+32
+00:05:06.190 --> 00:05:13.570
+Now audit local business websites on your phone, build and name a hero section, and make a section fully responsive.
+
+33
+00:05:13.920 --> 00:05:15.860
+Continue with the lessons below.
