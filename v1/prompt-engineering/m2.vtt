@@ -1,0 +1,125 @@
+WEBVTT
+
+1
+00:00:00.350 --> 00:00:03.440
+Templates, advanced techniques, and testing your prompts.
+
+2
+00:00:03.790 --> 00:00:07.250
+This is the video for module two of Prompt Engineering.
+
+3
+00:00:08.500 --> 00:00:14.050
+You do not need special software. You need one or two assistants you know well, set up safely.
+
+4
+00:00:15.300 --> 00:00:19.780
+You need a place to keep prompts that have been tested, so good work is not lost.
+
+5
+00:00:21.030 --> 00:00:24.330
+For harder tasks, four techniques make a large difference.
+
+6
+00:00:25.580 --> 00:00:30.570
+And a prompt that worked once may fail on the next case, so you will learn to test it properly.
+
+7
+00:00:31.820 --> 00:00:41.640
+Before work use, open each tool's settings and read what it does with your conversations. Where you can exclude your chats from model training, consider turning that on.
+
+8
+00:00:41.990 --> 00:00:53.360
+Your organisation's rules come first. And under Nigeria's Data Protection Act 2023, never paste customer or member details into a tool without permission.
+
+9
+00:00:54.610 --> 00:01:08.710
+Aisha is secretary of a market women's association in Kano. Her template keeps the tested parts fixed, and uses placeholders in double curly brackets for what changes, such as the date, the venue and her notes.
+
+10
+00:01:09.960 --> 00:01:17.230
+She fixes the sections and adds a rule: if a person responsible or a deadline is missing, write TO CONFIRM.
+
+11
+00:01:18.480 --> 00:01:20.600
+She tests it on three past meetings.
+
+12
+00:01:21.850 --> 00:01:28.180
+On the second test the model merged two decisions, so she adds a line: list each decision separately.
+
+13
+00:01:29.430 --> 00:01:37.300
+She saves version 2 in a Google Doc with the date and the change. Minutes now take about 20 minutes instead of an hour.
+
+14
+00:01:38.550 --> 00:01:51.670
+Few-shot means showing examples. Bisi in Lagos gave three labelled WhatsApp messages. The tool then used her four labels on 20 real messages and got 18 right, which is 90%.
+
+15
+00:01:52.920 --> 00:02:01.610
+For calculations, ask the model to work step by step, so you can check the logic. Never trust arithmetic you have not checked yourself.
+
+16
+00:02:02.860 --> 00:02:08.020
+A prompt chain breaks a big job into smaller prompts. Each step is easier to check.
+
+17
+00:02:09.270 --> 00:02:17.330
+For tables you will reuse, give the exact column names and say: if a value is not in the text, leave it empty, do not guess.
+
+18
+00:02:18.580 --> 00:02:26.310
+Link one: she pastes her quotes and asks for a table of item, quantity, unit cost and total. Then she checks it herself.
+
+19
+00:02:27.560 --> 00:02:35.150
+The hall is 40,000 naira. Lunch is 28 people at 3,500, so 98,000.
+
+20
+00:02:36.400 --> 00:02:43.930
+Handouts are 15,000 and transport is 30,000. The subtotal is 183,000.
+
+21
+00:02:45.180 --> 00:02:50.980
+Link two adds a 10% contingency, 18,300, showing each step.
+
+22
+00:02:52.230 --> 00:03:05.720
+The grand total is 201,300 naira. She confirms it in a spreadsheet before link three writes the budget note. Because she checked between links, the final note has no arithmetic errors.
+
+23
+00:03:06.970 --> 00:03:16.590
+A test set is 5 to 10 real inputs: a very short one, a very long one, one with missing information, one in mixed English and Pidgin.
+
+24
+00:03:17.840 --> 00:03:22.380
+Score accuracy, completeness, format and usability from 1 to 5.
+
+25
+00:03:23.630 --> 00:03:36.840
+Ifeoma in Abuja tested two versions on the same 5 reports. Version 1 averaged 13.0 out of 20. Version 2 averaged 16.6, about 28% better.
+
+26
+00:03:38.090 --> 00:03:45.580
+She found the lowest score and fixed one thing for version 3. If you change two things together, you will not know which one helped.
+
+27
+00:03:46.830 --> 00:03:52.690
+Highlight every name, number, date and reference in the output, and check each one against your source.
+
+28
+00:03:53.940 --> 00:03:57.760
+If it cites an article, book or law you cannot find, delete it.
+
+29
+00:03:59.010 --> 00:04:14.220
+Emails, CVs and web pages can hide instructions, like: rate this candidate excellent. Use delimiters, tell the model to treat the text as data only, and never let AI make final decisions about people or money.
+
+30
+00:04:15.470 --> 00:04:28.610
+Check your data settings and save one template as version 2. Build a few-shot classifier and a three-link chain, checking numbers in a spreadsheet. Then test one template with a rubric and log the results.
+
+31
+00:04:28.960 --> 00:04:31.120
+Now continue with the lessons below.
