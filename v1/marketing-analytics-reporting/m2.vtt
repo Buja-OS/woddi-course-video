@@ -1,0 +1,109 @@
+WEBVTT
+
+1
+00:00:00.350 --> 00:00:03.530
+Track, reconcile and report: the monthly workflow.
+
+2
+00:00:03.880 --> 00:00:08.270
+This is the video for Module 2 of Marketing Analytics and Reporting.
+
+3
+00:00:09.520 --> 00:00:18.680
+Every report is only as good as the tracking under it. So first you set up GA4, Google's free analytics tool, and tag every link you share.
+
+4
+00:00:19.930 --> 00:00:26.030
+Then you bring ad platforms, analytics and payments into one sheet, and explain why they disagree.
+
+5
+00:00:27.280 --> 00:00:37.000
+Finally, you turn it into a one-page report that a busy owner reads in five minutes. This is the workflow you will repeat for every client or employer.
+
+6
+00:00:38.250 --> 00:00:54.250
+GA4 records actions as events. Mark the ones that matter as key events. Many Nigerian businesses close sales on WhatsApp, so track chat button clicks too, but report them apart from orders. A click shows interest, not payment.
+
+7
+00:00:55.500 --> 00:01:04.120
+Set data retention to 14 months, and use the business's time zone and currency, for example Africa slash Lagos and naira.
+
+8
+00:01:05.370 --> 00:01:15.980
+And protect people's data. Never put names, phone numbers or email addresses into GA4 events or links. Explain your tracking in the privacy notice.
+
+9
+00:01:17.230 --> 00:01:31.900
+Without tags, many visits from chat apps land in Direct, with no channel. UTM parameters are labels added to the end of a link. For example, Funke sells cakes in Ibadan. She gives her campaign one lowercase name.
+
+10
+00:01:33.150 --> 00:01:45.780
+Her WhatsApp broadcast link uses source whatsapp and medium social. Instagram ads use medium paid social, and the newsletter uses email, so GA4 sorts each into the right channel.
+
+11
+00:01:47.030 --> 00:01:56.950
+She records every link in a sheet and tests each one on her phone. And she keeps everything lowercase, because GA4 treats capital letters as a different source.
+
+12
+00:01:58.200 --> 00:02:09.470
+No single tool sees everything. Each ad platform credits sales by its own rules, and Meta can even count people who only saw the ad. Both may claim the same order.
+
+13
+00:02:10.720 --> 00:02:19.590
+Tracking gaps hide some sales, WhatsApp orders never reach GA4 unless you add them, and mismatched settings shift results between days.
+
+14
+00:02:20.840 --> 00:02:28.350
+Her Paystack dashboard and WhatsApp order list show 86 paid orders worth 2,064,000 naira.
+
+15
+00:02:29.600 --> 00:02:44.680
+She spent 400,000 naira on Meta and 250,000 on Google Ads. Meta claims 58 purchases. Google claims 41. Together that is 99, which is 13 more than the orders actually paid.
+
+16
+00:02:45.930 --> 00:03:04.860
+So she leads with figures from real money. Total spend 650,000 naira. MER about 3.18. Blended cost per order about 7,558 naira. Channel costs are shown as a range, because platforms and GA4 disagree.
+
+17
+00:03:06.110 --> 00:03:15.450
+Use platform numbers to tune inside each platform. Never add or average two platforms' ROAS. That counts double-claimed sales twice.
+
+18
+00:03:16.700 --> 00:03:24.760
+Use payments to judge the whole budget. Match spend to billing, revenue to settlements, and remove refunds before you trust the sheet.
+
+19
+00:03:26.010 --> 00:03:35.080
+Looker Studio is Google's free report tool. Put revenue, orders, spend, MER and cost per order at the top, then a weekly trend line.
+
+20
+00:03:36.330 --> 00:03:43.350
+Add a channel table, three insights you write yourself, each ending in an action, and honest caveats at the bottom.
+
+21
+00:03:44.600 --> 00:03:52.940
+Create MER as a calculated field from summed revenue and summed spend. Averaging weekly ratios gives a wrong answer.
+
+22
+00:03:53.290 --> 00:04:04.230
+And watch your words. Conversion moving from 1.1% to 1.4% is up 0.3 percentage points, or 27% relative.
+
+23
+00:04:05.480 --> 00:04:16.830
+Before sending, run five checks. Spend matches billing. Revenue matches payments. The same date range everywhere. Ratios built from totals. Caveats written down.
+
+24
+00:04:17.180 --> 00:04:19.590
+These catch most errors that destroy trust.
+
+25
+00:04:20.840 --> 00:04:34.140
+To remember. Tag every link in lowercase. Keep personal data out of GA4. Treat payments as the source of truth, and lead with blended figures. Every insight should end in an action someone owns.
+
+26
+00:04:35.390 --> 00:04:42.940
+Now build a UTM link sheet, reconcile one month of data, and build a one-page report with the quality checklist.
+
+27
+00:04:43.290 --> 00:04:45.230
+Continue with the lessons below.
