@@ -1,0 +1,129 @@
+WEBVTT
+
+1
+00:00:00.350 --> 00:00:03.720
+Lock accounts down, back up, and handle a hacked email.
+
+2
+00:00:04.070 --> 00:00:08.230
+This is the video for module 2 of Cybersecurity Fundamentals.
+
+3
+00:00:09.480 --> 00:00:19.360
+Three cheap tools do most of the protective work: a password manager, multi-factor authentication, which we call MFA, and well set up devices.
+
+4
+00:00:20.610 --> 00:00:25.750
+Backups are your answer to ransomware, theft and mistakes, but only if you test them.
+
+5
+00:00:27.000 --> 00:00:34.910
+And because stressed people make poor decisions, you write the incident steps before anything goes wrong, and record every action in a log.
+
+6
+00:00:36.160 --> 00:00:45.910
+For example, Chiamaka is choosing a master password. Imagine an attacker who can try 10 billion guesses a second. This speed is illustrative.
+
+7
+00:00:46.260 --> 00:00:50.150
+8 random lowercase letters fall in about 21 seconds.
+
+8
+00:00:51.400 --> 00:00:55.560
+4 random words from the EFF wordlist take roughly 4 days.
+
+9
+00:00:56.810 --> 00:00:59.620
+5 random words take roughly 90 years.
+
+10
+00:01:00.870 --> 00:01:11.690
+Each extra word multiplies the attacker's work by 7,776, far more than adding a symbol. Chiamaka chooses six random words.
+
+11
+00:01:12.040 --> 00:01:25.390
+You memorise only that one. The password manager creates a unique password for every other account, so one leak cannot unlock the rest. Reused passwords are the biggest real cause of account takeover.
+
+12
+00:01:26.640 --> 00:01:36.930
+A password alone is the weakest. SMS codes are better than nothing, but they can be stolen through SIM swap fraud or tricked out of people on the phone.
+
+13
+00:01:38.180 --> 00:01:51.910
+Authenticator apps make a six-digit code on the phone itself, changing every 30 seconds. Passkeys and security keys go further: they only work on the real website, so a fake login page gets nothing.
+
+14
+00:01:52.260 --> 00:02:02.060
+Use the strongest method each service offers, at least for email, banking and social media admin. Keep recovery codes on paper, locked away.
+
+15
+00:02:03.310 --> 00:02:19.350
+The 3-2-1 rule says keep 3 copies of important data. For example, Hauwa runs IT for a 6-person consultancy in Kano. She keeps the working files, a cloud copy with version history, and an external drive.
+
+16
+00:02:20.600 --> 00:02:31.440
+On 2 types of storage. The folder is 40 gigabytes and grows about 2 a month, so in 12 months it will be 64. She chooses a cloud plan of at least 100.
+
+17
+00:02:32.690 --> 00:02:42.370
+With 1 copy off-site. Ransomware can encrypt any drive left plugged in, so once a month she copies the folder, unplugs the drive and takes it away.
+
+18
+00:02:42.720 --> 00:02:52.640
+Every quarter she restores a few files and opens them, and records the date and result. Many teams find out too late that their backup stopped months ago.
+
+19
+00:02:53.890 --> 00:03:03.530
+Email takeover is the most common incident, so write this playbook first. Step one. From a clean device, change the password to a new unique one.
+
+20
+00:03:04.780 --> 00:03:07.220
+Step two. Sign out every other session.
+
+21
+00:03:08.470 --> 00:03:21.710
+Step three. Check for forwarding addresses, filters and auto-replies the attacker added. Screenshot them first, with date and time, because banks, police and regulators may need them. Then remove them.
+
+22
+00:03:22.960 --> 00:03:27.660
+Step four. Check the recovery email and phone, and correct any changes.
+
+23
+00:03:28.910 --> 00:03:35.220
+Step five. Turn on MFA, preferably an app or passkey, and remove unknown connected apps.
+
+24
+00:03:36.470 --> 00:03:44.020
+Step six. Check the Sent folder, warn contacts who may have received fraud, and record every action with time and name.
+
+25
+00:03:45.270 --> 00:04:04.350
+For example, Ifeoma is volunteer IT lead for a parents' association in Lagos, with a spreadsheet of 420 families. At 14:00 on Tuesday, a committee member says she signed in on a strange page. Ifeoma logs it. That is the moment of awareness.
+
+26
+00:04:05.600 --> 00:04:14.070
+By 14:20 she has changed the password, signed out all sessions, and found and removed a forwarding rule, after a screenshot.
+
+27
+00:04:15.320 --> 00:04:24.490
+The attacker had opened the family spreadsheet. Phone numbers and children's details could enable targeted scams, so this is a reportable breach.
+
+28
+00:04:25.740 --> 00:04:39.330
+72 hours from Tuesday 14:00 is Friday 14:00. She notifies the NDPC on Thursday, and warns parents to ignore calls asking for money or codes.
+
+29
+00:04:40.580 --> 00:04:52.820
+To remember. One long passphrase, and unique generated passwords for everything else. App codes and passkeys beat SMS. Keep 3-2-1 backups and test restores.
+
+30
+00:04:53.170 --> 00:05:01.240
+In an incident, screenshot the evidence, then contain. And the NDPC's 72-hour clock starts when you become aware.
+
+31
+00:05:02.490 --> 00:05:12.540
+Your tasks: install and harden your own toolkit, run one hardening cycle with a tested restore, and write your one-page incident plan with a practice run.
+
+32
+00:05:12.890 --> 00:05:14.830
+Continue with the lessons below.

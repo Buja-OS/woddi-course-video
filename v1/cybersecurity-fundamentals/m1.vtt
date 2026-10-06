@@ -1,0 +1,145 @@
+WEBVTT
+
+1
+00:00:00.350 --> 00:00:03.360
+Stop payment fraud and rank your security risks.
+
+2
+00:00:03.710 --> 00:00:07.870
+This is the video for module 1 of Cybersecurity Fundamentals.
+
+3
+00:00:09.120 --> 00:00:21.530
+Small businesses, schools, churches and NGOs are mostly hurt by four ordinary attacks. First, account takeover, usually through a reused password or a fake login page.
+
+4
+00:00:22.780 --> 00:00:30.630
+Second, business email compromise, where a real or lookalike email asks for a payment or a change of bank details.
+
+5
+00:00:31.880 --> 00:00:38.500
+Third, ransomware and other malware, often from a pirated program, a fake update or an attachment.
+
+6
+00:00:39.750 --> 00:00:43.520
+Fourth, lost, stolen or shared devices and passwords.
+
+7
+00:00:43.870 --> 00:00:50.270
+None needs a genius attacker. Each uses a habit or a missing control, and those you can change.
+
+8
+00:00:51.520 --> 00:00:57.540
+Security professionals use one simple model, the CIA triad. Nothing to do with spies.
+
+9
+00:00:57.890 --> 00:01:02.430
+C is confidentiality: only the right people can see the information.
+
+10
+00:01:03.680 --> 00:01:09.470
+I is integrity: the information is correct and has not been changed by the wrong person.
+
+11
+00:01:10.720 --> 00:01:14.260
+A is availability: systems work when people need them.
+
+12
+00:01:14.610 --> 00:01:19.490
+Every incident damages at least one of these, and naming it helps you choose the fix.
+
+13
+00:01:20.740 --> 00:01:36.460
+For example, Funmi is finance officer for a small NGO in Abuja. An email from Musa at Brightline Printers says the bank has changed, and an invoice of 2,450,000 naira must go to a new account today.
+
+14
+00:01:36.810 --> 00:01:39.550
+She looks past the display name to the real address.
+
+15
+00:01:40.800 --> 00:01:52.810
+The address has a hyphen and a different ending from past invoices. It is a lookalike domain. In Show original, SPF and DKIM pass, but only for the attacker's own domain.
+
+16
+00:01:54.060 --> 00:01:59.670
+The Reply-To is a third address on a free mail service, so any answer would go to the fraudster.
+
+17
+00:02:00.920 --> 00:02:07.230
+The email quotes the correct invoice number, so someone has seen the real invoice. She does not reply.
+
+18
+00:02:08.480 --> 00:02:14.710
+She calls Musa on the number saved from the original contract. His bank details have not changed.
+
+19
+00:02:15.960 --> 00:02:24.020
+Here is the rule that defeats most payment fraud. Keep a supplier list with bank details and phone numbers collected at onboarding.
+
+20
+00:02:25.270 --> 00:02:31.160
+Treat any request to change bank details, by any channel, as suspicious until verified.
+
+21
+00:02:32.410 --> 00:02:43.890
+Verify by calling a number already on file, never one given in the request. Remember, if a real mailbox is hacked, all the checks will pass. Only the call-back catches it.
+
+22
+00:02:45.140 --> 00:02:49.770
+Require a second approver for new payees and for payments above a set limit.
+
+23
+00:02:51.020 --> 00:03:00.920
+Wait a cooling-off period, for example one working day, before a first payment to a changed account. And record the check: date, who called, who confirmed.
+
+24
+00:03:01.270 --> 00:03:04.850
+If money has already gone, call your bank's fraud line at once.
+
+25
+00:03:06.100 --> 00:03:15.790
+A risk is an asset you care about, a threat to it, and a weakness that lets the threat succeed. List your assets, then name the threat and weakness for each.
+
+26
+00:03:17.040 --> 00:03:24.590
+Score likelihood from 1 to 5, and impact from 1 to 5. Multiply them for a score from 1 to 25.
+
+27
+00:03:25.840 --> 00:03:34.460
+Scores of 15 to 25 need action now. 8 to 14 need a plan with a date. 1 to 7 can be accepted and reviewed.
+
+28
+00:03:34.810 --> 00:03:50.810
+For example, Amaka scores her cooperative's main email, with a reused password and no second factor, at 4 times 5, which is 20. Supplier payments with no call-back rule score 15. So email comes first, payments second.
+
+29
+00:03:52.060 --> 00:04:01.680
+In Nigeria, the Nigeria Data Protection Act 2023 makes security a legal duty, and the NDPC is the regulator.
+
+30
+00:04:02.030 --> 00:04:09.520
+Tell people what you collect and why. Collect only what you need. If you do not need someone's NIN, do not collect it.
+
+31
+00:04:09.870 --> 00:04:19.320
+Delete what you no longer need and protect the rest. A breach that puts people at risk must be reported to the NDPC within 72 hours.
+
+32
+00:04:19.670 --> 00:04:22.440
+This is a working guide, not legal advice.
+
+33
+00:04:23.690 --> 00:04:30.800
+To remember. Name which part of the CIA triad was damaged. Check the real From and Reply-To addresses.
+
+34
+00:04:31.150 --> 00:04:40.190
+Before any bank change, call back on a number on file. Rank your work by likelihood times impact. And data you never collected cannot leak.
+
+35
+00:04:41.440 --> 00:04:55.290
+Your tasks: classify three incidents you know, check two email headers with Show original, write a payment verification rule, and build a risk register with at least six scored risks. Save each in your audit document.
+
+36
+00:04:55.640 --> 00:04:57.580
+Continue with the lessons below.
