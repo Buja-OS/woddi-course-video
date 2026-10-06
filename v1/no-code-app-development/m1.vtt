@@ -1,0 +1,133 @@
+WEBVTT
+
+1
+00:00:00.350 --> 00:00:04.150
+Is an app the answer? Data, tables and platform costs.
+
+2
+00:00:04.500 --> 00:00:08.510
+This is the video for module one of No-Code App Development.
+
+3
+00:00:09.760 --> 00:00:21.980
+A no-code app builder lets you create a working app by choosing screens, fields and rules, instead of writing code. Underneath, every app has three parts. Data, the information it stores.
+
+4
+00:00:23.230 --> 00:00:26.050
+Interface, the screens people tap and type on.
+
+5
+00:00:27.300 --> 00:00:35.340
+And logic, the rules about what happens and when. The builder writes the code. Your job is to design these three parts well.
+
+6
+00:00:36.590 --> 00:00:45.190
+Good builders know when not to build. Use the simplest tool that works: spreadsheet, then form, then no-code app, then custom code.
+
+7
+00:00:45.540 --> 00:00:55.050
+For example, Nneka runs a tailoring workshop in Aba with three apprentices. Four people need to see orders, so a private spreadsheet is not enough.
+
+8
+00:00:56.300 --> 00:01:00.230
+The work happens at cutting tables, not a desk, so phones matter.
+
+9
+00:01:01.480 --> 00:01:06.020
+One customer has many orders. Those are linked records, where apps shine.
+
+10
+00:01:07.270 --> 00:01:14.380
+Twice last month a dress was promised for the wrong date. So the first screen should show orders due in the next 3 days.
+
+11
+00:01:15.630 --> 00:01:22.770
+Customers keep using WhatsApp, so the app stays internal and simpler. An internal app on Google AppSheet fits.
+
+12
+00:01:24.020 --> 00:01:32.470
+The data model is the plan of what your app stores and how the pieces connect. Screens are easy to change. Data structure is not.
+
+13
+00:01:32.820 --> 00:01:42.830
+Rule one: one table per kind of thing. Avoid columns like Item1, Item2, Item3. That breaks the day a customer brings four items.
+
+14
+00:01:44.080 --> 00:01:53.400
+Rule two: every row needs a key, a value different for every row. Names make poor keys, because two customers can both be called Blessing.
+
+15
+00:01:54.650 --> 00:02:02.670
+Rule three: a Ref column stores the key of a row in another table. One customer, many orders. That is a one-to-many link.
+
+16
+00:02:03.920 --> 00:02:10.450
+Rule four: choose column types like Date, Enum or Phone. They give you free checking and the right keyboard.
+
+17
+00:02:11.700 --> 00:02:21.190
+Bisi has four tables: Customers, Price List, Orders and Order Items. Each order item is one row, linked to its order and its item.
+
+18
+00:02:22.440 --> 00:02:32.430
+Each line total is quantity times price. 4 shirts make 3,200 naira. 2 trousers make 2,000. 1 duvet is 5,000.
+
+19
+00:02:33.680 --> 00:02:42.360
+The order total is 10,200 naira, calculated by the app. Adding a new kind of item needs a new row, not a new column.
+
+20
+00:02:42.710 --> 00:02:52.630
+One warning. For money, copy the price into the order line when it is created. Otherwise raising the shirt price silently changes last month's orders.
+
+21
+00:02:53.880 --> 00:03:00.450
+Professionals tell the client the limits early. First, lock-in. If prices rise, moving is a rebuild.
+
+22
+00:03:01.700 --> 00:03:05.110
+Second, per-user cost, which can be bigger than your build fee.
+
+23
+00:03:06.360 --> 00:03:09.900
+Third, performance slows as tables grow very large.
+
+24
+00:03:11.150 --> 00:03:24.270
+Your build fee is paid once. The platform fee is paid every month, usually by the client. AppSheet is free while you prototype, with up to 10 test users. To deploy, the client needs a paid plan.
+
+25
+00:03:25.520 --> 00:03:33.820
+On Starter, at about US$5 per user, Nneka would pay US$20 a month, about 32,000 naira.
+
+26
+00:03:35.070 --> 00:03:50.010
+She wants each apprentice to see only their own orders. That needs security filters, which need Core. So she budgets about US$40 a month, roughly 64,000 naira. She should hear this before she agrees to any build fee.
+
+27
+00:03:51.260 --> 00:04:03.560
+Clients rarely ask for an app. They ask to stop losing stock, or to know which rider delivered what. Choose a niche, a client type plus an app type, so your second build reuses your first.
+
+28
+00:04:03.910 --> 00:04:09.210
+Start with quick wins: high value, low effort, like a stock tracker with three tables.
+
+29
+00:04:10.460 --> 00:04:20.060
+Before you quote, check the official pricing page that day. Some naira cards block recurring foreign charges, so ask the client to test a payment early.
+
+30
+00:04:20.410 --> 00:04:35.080
+And clinics, lenders and savings groups hold sensitive data. Under the Nigeria Data Protection Act 2023, collect only what is needed and keep it secure. Start with stock, jobs and logistics apps.
+
+31
+00:04:36.330 --> 00:04:47.130
+To remember. Use the simplest tool that works. Give every table a key and link with references. Budget monthly per-user fees. And name the limits before you build.
+
+32
+00:04:48.380 --> 00:04:57.170
+Your tasks: run the five-question test on two real problems, draw a data model on paper, and cost and rank three app ideas.
+
+33
+00:04:57.520 --> 00:04:59.460
+Continue with the lessons below.

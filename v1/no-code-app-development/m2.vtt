@@ -1,0 +1,121 @@
+WEBVTT
+
+1
+00:00:00.350 --> 00:00:03.230
+Build, test and hand over a stock and sales app.
+
+2
+00:00:03.580 --> 00:00:07.610
+This is the video for module two of No-Code App Development.
+
+3
+00:00:08.860 --> 00:00:20.040
+In this module you build one real app. For example, Esther runs an agro-input shop in Makurdi, with two sales staff. She wants to stop counting bags every evening.
+
+4
+00:00:21.290 --> 00:00:33.450
+Her app will track products, deliveries and sales, warn her when stock is low, and be tested and documented so someone else can run it. It all works on AppSheet's free prototyping stage.
+
+5
+00:00:34.700 --> 00:00:41.830
+Most early problems come from messy sheets. AppSheet reads each tab as a table, with one header row on top.
+
+6
+00:00:43.080 --> 00:00:52.190
+Remove merged cells and totals rows. Esther deleted a TOTAL row at the bottom of her Sales tab, because AppSheet would read it as a sale.
+
+7
+00:00:53.440 --> 00:00:58.900
+Put an ID column first, and add a few sample rows so AppSheet can guess column types.
+
+8
+00:01:00.150 --> 00:01:09.490
+After the sheet, check every column. Keys get the initial value UNIQUEID(), and are hidden. Dates start as TODAY(). Sold By records USEREMAIL().
+
+9
+00:01:10.740 --> 00:01:17.330
+The Product column in Sales and Stock In becomes a Ref to Products, linking every sale to one product.
+
+10
+00:01:18.580 --> 00:01:26.730
+Design views for staff at a counter with a phone in one hand. New sale goes first in the menu, because it is the most frequent task.
+
+11
+00:01:27.980 --> 00:01:36.260
+Follow this order. Changing the data after views are built causes rework. And test on a real phone, not only in the editor.
+
+12
+00:01:37.510 --> 00:01:49.090
+Logic is written as expressions, short formulas with column names in square brackets. Add a virtual column called Current Stock. NPK starts the month with 40 bags.
+
+13
+00:01:50.340 --> 00:01:55.190
+SELECT and SUM add every delivery for this product: 25 bags.
+
+14
+00:01:56.440 --> 00:01:59.320
+Then subtract every sale: 52 bags.
+
+15
+00:02:00.570 --> 00:02:08.650
+The app shows 13 bags left without anyone counting. With a reorder level of 15, NPK shows Reorder in red.
+
+16
+00:02:09.900 --> 00:02:12.180
+Make Qty and Product required.
+
+17
+00:02:13.430 --> 00:02:23.030
+Add a Valid If, so quantity must be above 0 and no more than the stock. Add a message like, only 13 bags left, so staff know what went wrong.
+
+18
+00:02:24.280 --> 00:02:28.440
+And copy the price into the sale when it is made, so history stays true.
+
+19
+00:02:29.690 --> 00:02:36.010
+A bot watches for an event, then runs steps by itself. Here the event is a new row in Sales.
+
+20
+00:02:37.260 --> 00:02:44.730
+The condition checks the product's stock against its reorder level. If true, it emails Esther the product name and stock.
+
+21
+00:02:45.980 --> 00:02:55.510
+Record test sales until the condition is met, and confirm the email arrives. Keep heavy formulas few, because they slow the app as tables grow.
+
+22
+00:02:56.760 --> 00:03:09.600
+For example, Amina is finishing Esther's app. She writes 14 test cases, including selling exactly the last bag, and entering zero or blanks. She runs them as a sales staff test user.
+
+23
+00:03:10.850 --> 00:03:19.470
+3 fail. A quantity of 0 was saved, two products could share a name, and staff could edit the opening stock. She fixes each one.
+
+24
+00:03:20.720 --> 00:03:28.790
+Then she reruns all 14, because fixes can break other things. All pass, and the test log goes into the handover pack.
+
+25
+00:03:30.040 --> 00:03:42.690
+Require sign-in, and use a Users table with roles so only the owner changes prices. Anyone with edit access to the Google Sheet can change data, so share it only with the owner and builder.
+
+26
+00:03:43.940 --> 00:03:54.450
+Customer phone numbers are personal data. The Nigeria Data Protection Act 2023 expects you to collect only what you need and keep it secure.
+
+27
+00:03:55.700 --> 00:04:04.280
+AppSheet works offline, but a phone offline for days can overwrite other people's changes when it syncs. Test it in airplane mode.
+
+28
+00:04:05.530 --> 00:04:19.990
+To remember. Clean the sheet and check every column. Calculate stock, never type it. Block bad entries. Rerun all tests after fixes. And deliver a handover pack, so someone other than you can keep the app alive.
+
+29
+00:04:21.240 --> 00:04:29.820
+Your tasks: build the first version from a clean sheet, add the logic and the low-stock bot, then test, secure and document your app.
+
+30
+00:04:30.170 --> 00:04:32.110
+Continue with the lessons below.
