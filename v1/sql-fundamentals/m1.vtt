@@ -1,0 +1,121 @@
+WEBVTT
+
+1
+00:00:00.350 --> 00:00:03.830
+How databases think: tables, queries and summaries.
+
+2
+00:00:04.180 --> 00:00:07.950
+This is the video for module 1 of SQL Fundamentals.
+
+3
+00:00:09.200 --> 00:00:20.850
+Your bank app, a ride-hailing app, an online shop: almost all keep their records in a relational database. The data sits in several tables, linked by shared ID numbers.
+
+4
+00:00:22.100 --> 00:00:34.030
+Our practice business belongs to Kemi, for example, who sells Ankara, lace and head ties. Her database has a table of customers, a table of orders, and a table of order items.
+
+5
+00:00:35.280 --> 00:00:40.440
+Each column is one fact, like city. Each row is one customer or one order.
+
+6
+00:00:41.690 --> 00:00:52.530
+SQL, Structured Query Language, is how you ask those tables questions. The same core commands work in PostgreSQL, MySQL, SQLite and more.
+
+7
+00:00:53.780 --> 00:01:01.200
+A primary key is a column that is unique for every row and never empty. In customers, Amaka is number 1.
+
+8
+00:01:02.450 --> 00:01:13.930
+A foreign key holds the primary key of another table. Order 101 has customer_id 1, so it belongs to Amaka. That one number lets you join tables later.
+
+9
+00:01:15.180 --> 00:01:28.150
+Why not one big sheet? If Amaka's city is typed on every order and she moves, you must change every row, and if you miss one, your reports disagree. Storing each fact once is called normalisation.
+
+10
+00:01:29.400 --> 00:01:32.790
+Integer holds whole numbers, like IDs and quantities.
+
+11
+00:01:34.040 --> 00:01:41.830
+Decimal, or numeric, holds exact numbers. Use it for money, never a floating type, which can make tiny rounding errors.
+
+12
+00:01:43.080 --> 00:01:51.890
+Text holds words. Phone numbers are text too, because a leading zero, as in 0803, would be lost if stored as a number.
+
+13
+00:01:53.140 --> 00:01:58.810
+Store dates as year, month, day, so they sort correctly. And boolean is simply true or false.
+
+14
+00:02:00.060 --> 00:02:06.380
+A query is a polite, precise request. SELECT names the columns you want. FROM names the table.
+
+15
+00:02:07.630 --> 00:02:18.810
+WHERE keeps only the rows where a condition is true. Text goes inside single quotes, numbers do not. When you mix AND with OR, use brackets, because AND is worked out first.
+
+16
+00:02:20.060 --> 00:02:23.730
+ORDER BY sorts the result. Add DESC for largest first.
+
+17
+00:02:24.980 --> 00:02:30.440
+LIMIT 3 keeps only the first three rows after sorting. That is how you get a top three.
+
+18
+00:02:31.690 --> 00:02:42.310
+One trap. A missing value is NULL, which means unknown, and it is never equal to anything. So WHERE phone = NULL returns nothing. Always write IS NULL.
+
+19
+00:02:43.560 --> 00:02:53.270
+Kemi writes: SELECT order ID, order date and amount, FROM orders, WHERE channel is WhatsApp AND status is delivered, ORDER BY amount, descending.
+
+20
+00:02:54.520 --> 00:03:04.330
+Four rows come back. The largest is order 105, at 61,000 naira, then 101, 106 and 103.
+
+21
+00:03:05.580 --> 00:03:14.520
+Now check it. Order 109 is a WhatsApp order, but it is pending, so it is correctly left out. Always check what should not be there.
+
+22
+00:03:15.770 --> 00:03:25.200
+Managers want answers, not lists. COUNT, SUM and AVG turn many rows into one number. GROUP BY gives one number per group.
+
+23
+00:03:26.450 --> 00:03:36.800
+Kemi's delivered sales by channel: WhatsApp 101,000 naira, Instagram 83,000, and the website 27,500.
+
+24
+00:03:38.050 --> 00:03:56.240
+Now reconcile. The groups must add back to the total. 101,000 plus 83,000 plus 27,500 is 211,500, and 4 plus 3 plus 1 is 8 orders. If the pieces do not add up, something is wrong.
+
+25
+00:03:56.590 --> 00:04:02.310
+And remember: every column in SELECT must be inside a function or listed in GROUP BY.
+
+26
+00:04:03.560 --> 00:04:08.660
+WHERE filters single rows before grouping, such as keeping only delivered orders.
+
+27
+00:04:09.910 --> 00:04:21.510
+HAVING filters whole groups after the totals are made. HAVING COUNT of orders of at least 2 finds Kemi's repeat buyers: customer 1 with 3 orders, and customer 2 with 2.
+
+28
+00:04:22.760 --> 00:04:35.670
+To remember. Tables are linked by keys, and each fact is stored once. Five keywords answer most questions. Test missing values with IS NULL. And always check that your groups add back to the total.
+
+29
+00:04:36.920 --> 00:04:45.160
+Now design a small database on paper, write your first five queries, and build a mini sales summary with reconciliation ticks.
+
+30
+00:04:45.510 --> 00:04:47.450
+Continue with the lessons below.
