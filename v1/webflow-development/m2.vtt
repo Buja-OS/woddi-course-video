@@ -1,0 +1,125 @@
+WEBVTT
+
+1
+00:00:00.350 --> 00:00:04.230
+Plan the site, build a client-proof CMS, and launch it properly.
+
+2
+00:00:04.580 --> 00:00:09.960
+This is the video for module 2 of Webflow Development: Professional Build Workflow.
+
+3
+00:00:11.210 --> 00:00:26.400
+Rebuilding a section because the content did not fit costs far more than an hour of planning. First, the sitemap. A static page, like About, is designed once. A template page is designed once but shows any item from a Collection.
+
+4
+00:00:27.650 --> 00:00:36.220
+Second, the content model. If the client says, we will add a new one every month, that content belongs in the CMS, with the right fields.
+
+5
+00:00:37.470 --> 00:00:47.440
+Third, a style guide page. Store colours and sizes as Variables, so when the brand colour changes, you change one variable and the whole site updates.
+
+6
+00:00:48.690 --> 00:00:57.450
+For example, Funmi runs an interior design studio in Abuja and adds about two projects a month. She needs 4 static pages.
+
+7
+00:00:58.700 --> 00:01:09.800
+Projects repeat monthly, so they become a Collection. Testimonials too, linked to projects with a reference field. Plan references early, because they are harder to add later.
+
+8
+00:01:11.050 --> 00:01:18.430
+Project type is an Option field, so Residential never becomes residental. Featured is a yes or no switch.
+
+9
+00:01:19.680 --> 00:01:29.510
+That is 5 designs to build, even if the site grows to 50 project pages. Get the client to approve this plan. It becomes your baseline for scope.
+
+10
+00:01:30.760 --> 00:01:35.370
+Create the Collection, for example Projects, and add the fields from your plan.
+
+11
+00:01:36.620 --> 00:01:41.190
+Write help text on every field, so the client knows exactly what to upload.
+
+12
+00:01:42.440 --> 00:01:46.150
+Add a few real items, so you design with true content lengths.
+
+13
+00:01:47.400 --> 00:01:54.630
+On the template page, connect each element to a field. The heading shows the project name, the image shows the cover.
+
+14
+00:01:55.880 --> 00:02:07.680
+On Home, add a Collection List, filter to Featured, sort newest first, and limit it to 3. Conditional visibility hides a button when its field is empty, instead of showing a broken link.
+
+15
+00:02:08.930 --> 00:02:20.470
+Then open Editor mode and act like the client. Add a very long title and an item with no image. Fix what breaks now, because the client will do exactly this in the first month.
+
+16
+00:02:21.720 --> 00:02:32.690
+An interaction joins a trigger, like a click or scroll, to an action, like a fade. Good uses help people: a menu opening, an FAQ expanding, a short fade-in.
+
+17
+00:02:33.940 --> 00:02:43.770
+Poor uses get in the way. Phones cannot hover, so never hide text behind a hover. And content must be readable even if an animation does not run.
+
+18
+00:02:45.020 --> 00:03:03.200
+Give every field a visible label, and turn on reCAPTCHA. Collect only what you need. If you ask for names, phone numbers or emails, add a privacy note and a policy link. Nigeria's Data Protection Act 2023 sets duties here, so the client should take advice.
+
+19
+00:03:03.550 --> 00:03:09.330
+Then test every form on the live domain, and confirm the client actually receives the email.
+
+20
+00:03:10.580 --> 00:03:21.520
+The most common Webflow speed problem is oversized photos straight from a phone. For example, Ifeoma's home page has 6 images totalling about 14MB.
+
+21
+00:03:22.770 --> 00:03:31.540
+She resizes the hero to 2000px wide and converts it to WebP. About 5MB becomes about 300KB.
+
+22
+00:03:32.790 --> 00:03:37.400
+The card photos go from about 9MB to about 600KB.
+
+23
+00:03:38.650 --> 00:03:48.060
+She sets them to lazy load and tests again. A saving of roughly 94 percent, and that matters a great deal to a visitor on mobile data.
+
+24
+00:03:49.310 --> 00:03:51.590
+Check colour contrast before you build.
+
+25
+00:03:52.840 --> 00:03:58.640
+Add alt text to meaningful images, use one H1 per page, and keep headings in order.
+
+26
+00:03:59.890 --> 00:04:03.390
+Press Tab through every page and watch the focus outline.
+
+27
+00:04:04.640 --> 00:04:11.040
+A page titled Services tells search engines little. Event Catering in Abuja says what and where.
+
+28
+00:04:12.290 --> 00:04:21.800
+Add redirects for old addresses, copy Webflow's DNS records into your registrar, keep SSL on, and test again on the live domain.
+
+29
+00:04:23.050 --> 00:04:40.120
+To remember. Plan before you build, and get the plan approved. Put repeating content in the CMS and make it client-proof. Keep pages light for mobile data, accessible, and clearly titled. And test forms and the domain live before you say the site is done.
+
+30
+00:04:41.370 --> 00:04:49.010
+Now write a build plan, build a working CMS feature, and run a full pre-launch check with before and after speed scores.
+
+31
+00:04:49.360 --> 00:04:51.300
+Continue with the lessons below.
