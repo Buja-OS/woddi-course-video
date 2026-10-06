@@ -1,0 +1,113 @@
+WEBVTT
+
+1
+00:00:00.350 --> 00:00:04.150
+Discover, prioritise, and write stories your team can build.
+
+2
+00:00:04.500 --> 00:00:08.740
+This is the video for module two of Product Management Foundations.
+
+3
+00:00:09.990 --> 00:00:17.860
+Every product idea is a bundle of beliefs. Discovery makes those beliefs visible and tests the most dangerous ones first.
+
+4
+00:00:19.110 --> 00:00:25.410
+Then you will have more good ideas than time, so you must choose what to do now, with reasoning people can see.
+
+5
+00:00:26.660 --> 00:00:34.150
+Finally, you write the chosen work so clearly that the team builds the right thing, including what happens when things go wrong.
+
+6
+00:00:35.400 --> 00:00:47.150
+Step one. Write every belief that must be true, at least 10, grouped under value, usability, feasibility and viability. For example, pharmacists reorder at least once a week.
+
+7
+00:00:48.400 --> 00:00:55.310
+Step two. Place each one on an assumption map: how important is it, and how much evidence do you already have?
+
+8
+00:00:56.560 --> 00:01:09.530
+Step three. Test the ones that are critical but have little evidence. Use an interview, a fake door test, a concierge test or a prototype, whichever is cheapest and would actually change your decision.
+
+9
+00:01:10.780 --> 00:01:13.980
+This is the rule. Critical and unproven goes first.
+
+10
+00:01:15.230 --> 00:01:24.040
+People are kind. If you ask, would you use this, most will say yes. That tells you nothing. This is the most common discovery mistake.
+
+11
+00:01:25.290 --> 00:01:36.390
+Instead, ask about specific past events. Tell me about the last time you ran out of stock. What did you do next? What did it cost you? Talk less and listen more, and do not pitch.
+
+12
+00:01:37.640 --> 00:01:48.180
+For example, Halima is exploring a stock reordering app for small pharmacies in Abuja. Her team lists 14 assumptions, and two land in the riskiest corner.
+
+13
+00:01:49.430 --> 00:01:57.550
+She interviews 6 pharmacists about their last reorder. 5 of 6 reorder at least weekly. That assumption gains evidence.
+
+14
+00:01:58.800 --> 00:02:10.990
+But only 1 of the 6 has ever paid a new supplier before delivery. In one week, with no code, Halima finds the payment model would likely fail, and redirects the team to pay on delivery.
+
+15
+00:02:12.240 --> 00:02:29.370
+Halima's outcome is more pharmacies placing a second order within 30 days. Her team agrees four criteria: customer impact 40%, strategic fit 25%, confidence from evidence 20%, and ease of build 15%.
+
+16
+00:02:30.620 --> 00:02:35.050
+They score each option from 1 to 5. Engineers own the ease scores.
+
+17
+00:02:36.300 --> 00:02:55.120
+Pay on delivery scores 4.10. One-tap reorder scores 4.05. Loyalty points score 2.40. A gap of 0.05 is a tie, so Halima checks what users expect: paying on delivery is a must-have for most pharmacists.
+
+18
+00:02:56.370 --> 00:03:08.680
+Agree the criteria first, so nobody tunes the numbers to favour a pet idea. Then label the release: Must, pay on delivery. Should, one-tap reorder. Won't this time, loyalty points.
+
+19
+00:03:09.930 --> 00:03:21.640
+Now write the work. As a pharmacist placing an order, I want to choose pay on delivery, so that I only pay once the stock is in my hands. The benefit tells the team why it matters.
+
+20
+00:03:22.890 --> 00:03:28.690
+Check it with INVEST: independent, negotiable, valuable, estimable, small and testable.
+
+21
+00:03:29.940 --> 00:03:41.680
+Then write acceptance criteria. Given an order above the limit, when the pharmacist selects pay on delivery, then the app explains the limit and offers to split the order or pay now.
+
+22
+00:03:42.930 --> 00:03:51.500
+Cover the normal path and the important failure paths. A third criterion promises an SMS receipt within one minute of payment.
+
+23
+00:03:52.750 --> 00:03:58.380
+When you slice a big feature into small stories, release the thinnest journey that works end to end.
+
+24
+00:03:58.730 --> 00:04:04.260
+But never cut the criteria that protect money or personal data to make a story smaller.
+
+25
+00:04:04.610 --> 00:04:11.010
+Payment confirmation, limits, receipts and access control stay in. Slice features, not safeguards.
+
+26
+00:04:12.260 --> 00:04:29.900
+To remember. Test the important, unproven assumptions first. Ask about past behaviour, not opinions. Agree criteria before scoring. Write stories with a real user and a benefit. And write criteria that cover failure, without slicing away safeguards.
+
+27
+00:04:31.150 --> 00:04:42.180
+Now practise. Map your assumptions and interview two people. Prioritise five features with a scoring table. Then write three delivery-ready stories with their criteria.
+
+28
+00:04:42.530 --> 00:04:46.540
+Save each one for your capstone, and continue with the lessons below.
