@@ -1,0 +1,49 @@
++ pip install -q torch --index-url https://download.pytorch.org/whl/cpu
++ tail -1
++ pip install -q transformers soundfile uroman librosa accelerate sentencepiece
++ tail -1
++ cd out
++ cp ../samples.json .
++ python3 ../tts_eval.py
++ grep -v Warning
++ tail -80
+  warnings.warn(
+Loading weights:   0%|          | 0/762 [00:00<?, ?it/s]Loading weights:  81%|████████▏ | 620/762 [00:00<00:00, 6195.44it/s]Loading weights: 100%|██████████| 762/762 [00:00<00:00, 6230.05it/s]
+OK facebook/mms-tts-yor
+FAIL multilingual-tts/VITS-OpenBible-Yoruba Couldn't instantiate the backend tokenizer from one of: 
+(1) a `tokenizers` library serialization file, 
+(2) a slow tokenizer instance to convert or 
+(3) an equivalent slow tokenizer class to instantiate and convert. 
+You need to have sentencepiece or tiktoken installed to convert a slow tokenizer to a fast one.
+Loading weights:   0%|          | 0/762 [00:00<?, ?it/s]Loading weights:  78%|███████▊  | 594/762 [00:00<00:00, 5939.54it/s]Loading weights: 100%|██████████| 762/762 [00:00<00:00, 5963.78it/s]
+OK facebook/mms-tts-hau
+FAIL multilingual-tts/VITS-OpenBible-Hausa Couldn't instantiate the backend tokenizer from one of: 
+(1) a `tokenizers` library serialization file, 
+(2) a slow tokenizer instance to convert or 
+(3) an equivalent slow tokenizer class to instantiate and convert. 
+You need to have sentencepiece or tiktoken installed to convert a slow tokenizer to a fast one.
+FAIL alsonNifemi/mms-tts-ibo alsonNifemi/mms-tts-ibo does not appear to have a file named pytorch_model.bin or model.safetensors.
+Loading weights:   0%|          | 0/762 [00:00<?, ?it/s]Loading weights:  79%|███████▊  | 599/762 [00:00<00:00, 5967.17it/s]Loading weights: 100%|██████████| 762/762 [00:00<00:00, 6093.58it/s]
+OK waxal-benchmarking/mms-tts-ibo-rnjema101
+Loading weights:   0%|          | 0/762 [00:00<?, ?it/s]Loading weights: 100%|██████████| 762/762 [00:00<00:00, 7982.35it/s]
+OK rnjema-unima/mms-tts-ibo-baseline
+FAIL multilingual-tts/VITS-OpenBible-Igbo Couldn't instantiate the backend tokenizer from one of: 
+(1) a `tokenizers` library serialization file, 
+(2) a slow tokenizer instance to convert or 
+(3) an equivalent slow tokenizer class to instantiate and convert. 
+You need to have sentencepiece or tiktoken installed to convert a slow tokenizer to a fast one.
+Loading weights:   0%|          | 0/762 [00:00<?, ?it/s]Loading weights:  80%|████████  | 611/762 [00:00<00:00, 6070.70it/s]Loading weights: 100%|██████████| 762/762 [00:00<00:00, 6103.67it/s]
+OK facebook/mms-tts-swh
+Loading weights:   0%|          | 0/762 [00:00<?, ?it/s]Loading weights:  78%|███████▊  | 598/762 [00:00<00:00, 5976.90it/s]Loading weights: 100%|██████████| 762/762 [00:00<00:00, 5988.91it/s]
+OK facebook/mms-tts-ara
+Loading weights:   0%|          | 0/479 [00:00<?, ?it/s]Loading weights: 100%|██████████| 479/479 [00:00<00:00, 6073.32it/s]
+Loading weights:   0%|          | 0/1096 [00:00<?, ?it/s]Loading weights:  71%|███████   | 773/1096 [00:00<00:00, 7715.82it/s]Loading weights: 100%|██████████| 1096/1096 [00:00<00:00, 8850.70it/s]
+ig_mms-tts-ibo-baseline_0.wav => cugboyi mema buruwu igbu ọrọ igbu oye ijiyi lara ọrerebe dinibe nabaamụ eriyi eyi kaani ile mu ke ọbaa
+ig_mms-tts-ibo-baseline_1.wav => ae aaọma yye anaa dịkambekiri bo sodomon dride nkenda a naakpọ asti soda ogwo siri
+ig_mms-tts-ibo-baseline_2.wav => inu oke abokemistri mọ aye eji imie ya na nikọ anubi ọrun kebi ni o ke o soro wọ ọmu imina aniye
+ig_mms-tts-ibo-baseline_3.wav => to gau
+ig_mms-tts-ibo-rnjema101_0.wav => si ụnaikpa abanaanaanọ na gboro ibụkọọ ebojo eni iyi ide iji aa ọrọnibe nini betaa ha kpankeliri ilirkaanị ile ihụ nke ọdụ a
+ig_mms-tts-ibo-rnjema101_1.wav => adei ariniya nke na madi a manadefkanụ dekeede sọdinmi rende ni ki ninda naapọda si sọwọ de anawa orun owo wogbo sinien da ee
+ig_mms-tts-ibo-rnjema101_2.wav => nọnke a be ken mi se nacie gyi iiniyi elenani mkpa n'ode ọnụm nke bi ii mụ mdide so rọm ini minra ani
+ig_mms-tts-ibo-rnjema101_3.wav => sadrai
++ true
