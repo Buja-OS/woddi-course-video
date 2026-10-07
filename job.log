@@ -1,0 +1,133 @@
++ OUT=/home/runner/work/woddi-course-video/woddi-course-video/out
++ UA='WODDI-Institute-video-bot/1.0 (noreply@woddiinstitute.com)'
++ mkdir -p /home/runner/work/woddi-course-video/woddi-course-video/out/ph
++ cd /home/runner/work/woddi-course-video/woddi-course-video/out/ph
++ for m in wooden_table_02 wooden_spoon wooden_bowl_01 wooden_bowl_02 plastic_bottle_gallon plastic_container plastic_jerrycan garden_gloves_01 jug_01 pot_enamel_01 wooden_cutting_board multi_cleaner_bottle bleach_bottle all_purpose_cleaner multi_cleaner_5_litre wooden_bucket_01 plastic_crate_01 brass_pan_01 ceramic_pot metal_jug cleaner_tin_01 medical_box clipboard
++ curl -sS https://api.polyhaven.com/files/wooden_table_02 -o files.json
++ python3 - wooden_table_02
++ for m in wooden_table_02 wooden_spoon wooden_bowl_01 wooden_bowl_02 plastic_bottle_gallon plastic_container plastic_jerrycan garden_gloves_01 jug_01 pot_enamel_01 wooden_cutting_board multi_cleaner_bottle bleach_bottle all_purpose_cleaner multi_cleaner_5_litre wooden_bucket_01 plastic_crate_01 brass_pan_01 ceramic_pot metal_jug cleaner_tin_01 medical_box clipboard
++ curl -sS https://api.polyhaven.com/files/wooden_spoon -o files.json
++ python3 - wooden_spoon
++ for m in wooden_table_02 wooden_spoon wooden_bowl_01 wooden_bowl_02 plastic_bottle_gallon plastic_container plastic_jerrycan garden_gloves_01 jug_01 pot_enamel_01 wooden_cutting_board multi_cleaner_bottle bleach_bottle all_purpose_cleaner multi_cleaner_5_litre wooden_bucket_01 plastic_crate_01 brass_pan_01 ceramic_pot metal_jug cleaner_tin_01 medical_box clipboard
++ curl -sS https://api.polyhaven.com/files/wooden_bowl_01 -o files.json
++ python3 - wooden_bowl_01
++ for m in wooden_table_02 wooden_spoon wooden_bowl_01 wooden_bowl_02 plastic_bottle_gallon plastic_container plastic_jerrycan garden_gloves_01 jug_01 pot_enamel_01 wooden_cutting_board multi_cleaner_bottle bleach_bottle all_purpose_cleaner multi_cleaner_5_litre wooden_bucket_01 plastic_crate_01 brass_pan_01 ceramic_pot metal_jug cleaner_tin_01 medical_box clipboard
++ curl -sS https://api.polyhaven.com/files/wooden_bowl_02 -o files.json
++ python3 - wooden_bowl_02
++ for m in wooden_table_02 wooden_spoon wooden_bowl_01 wooden_bowl_02 plastic_bottle_gallon plastic_container plastic_jerrycan garden_gloves_01 jug_01 pot_enamel_01 wooden_cutting_board multi_cleaner_bottle bleach_bottle all_purpose_cleaner multi_cleaner_5_litre wooden_bucket_01 plastic_crate_01 brass_pan_01 ceramic_pot metal_jug cleaner_tin_01 medical_box clipboard
++ curl -sS https://api.polyhaven.com/files/plastic_bottle_gallon -o files.json
++ python3 - plastic_bottle_gallon
++ for m in wooden_table_02 wooden_spoon wooden_bowl_01 wooden_bowl_02 plastic_bottle_gallon plastic_container plastic_jerrycan garden_gloves_01 jug_01 pot_enamel_01 wooden_cutting_board multi_cleaner_bottle bleach_bottle all_purpose_cleaner multi_cleaner_5_litre wooden_bucket_01 plastic_crate_01 brass_pan_01 ceramic_pot metal_jug cleaner_tin_01 medical_box clipboard
++ curl -sS https://api.polyhaven.com/files/plastic_container -o files.json
++ python3 - plastic_container
++ for m in wooden_table_02 wooden_spoon wooden_bowl_01 wooden_bowl_02 plastic_bottle_gallon plastic_container plastic_jerrycan garden_gloves_01 jug_01 pot_enamel_01 wooden_cutting_board multi_cleaner_bottle bleach_bottle all_purpose_cleaner multi_cleaner_5_litre wooden_bucket_01 plastic_crate_01 brass_pan_01 ceramic_pot metal_jug cleaner_tin_01 medical_box clipboard
++ curl -sS https://api.polyhaven.com/files/plastic_jerrycan -o files.json
++ python3 - plastic_jerrycan
++ for m in wooden_table_02 wooden_spoon wooden_bowl_01 wooden_bowl_02 plastic_bottle_gallon plastic_container plastic_jerrycan garden_gloves_01 jug_01 pot_enamel_01 wooden_cutting_board multi_cleaner_bottle bleach_bottle all_purpose_cleaner multi_cleaner_5_litre wooden_bucket_01 plastic_crate_01 brass_pan_01 ceramic_pot metal_jug cleaner_tin_01 medical_box clipboard
++ curl -sS https://api.polyhaven.com/files/garden_gloves_01 -o files.json
++ python3 - garden_gloves_01
++ for m in wooden_table_02 wooden_spoon wooden_bowl_01 wooden_bowl_02 plastic_bottle_gallon plastic_container plastic_jerrycan garden_gloves_01 jug_01 pot_enamel_01 wooden_cutting_board multi_cleaner_bottle bleach_bottle all_purpose_cleaner multi_cleaner_5_litre wooden_bucket_01 plastic_crate_01 brass_pan_01 ceramic_pot metal_jug cleaner_tin_01 medical_box clipboard
++ curl -sS https://api.polyhaven.com/files/jug_01 -o files.json
++ python3 - jug_01
++ for m in wooden_table_02 wooden_spoon wooden_bowl_01 wooden_bowl_02 plastic_bottle_gallon plastic_container plastic_jerrycan garden_gloves_01 jug_01 pot_enamel_01 wooden_cutting_board multi_cleaner_bottle bleach_bottle all_purpose_cleaner multi_cleaner_5_litre wooden_bucket_01 plastic_crate_01 brass_pan_01 ceramic_pot metal_jug cleaner_tin_01 medical_box clipboard
++ curl -sS https://api.polyhaven.com/files/pot_enamel_01 -o files.json
++ python3 - pot_enamel_01
++ for m in wooden_table_02 wooden_spoon wooden_bowl_01 wooden_bowl_02 plastic_bottle_gallon plastic_container plastic_jerrycan garden_gloves_01 jug_01 pot_enamel_01 wooden_cutting_board multi_cleaner_bottle bleach_bottle all_purpose_cleaner multi_cleaner_5_litre wooden_bucket_01 plastic_crate_01 brass_pan_01 ceramic_pot metal_jug cleaner_tin_01 medical_box clipboard
++ curl -sS https://api.polyhaven.com/files/wooden_cutting_board -o files.json
++ python3 - wooden_cutting_board
++ for m in wooden_table_02 wooden_spoon wooden_bowl_01 wooden_bowl_02 plastic_bottle_gallon plastic_container plastic_jerrycan garden_gloves_01 jug_01 pot_enamel_01 wooden_cutting_board multi_cleaner_bottle bleach_bottle all_purpose_cleaner multi_cleaner_5_litre wooden_bucket_01 plastic_crate_01 brass_pan_01 ceramic_pot metal_jug cleaner_tin_01 medical_box clipboard
++ curl -sS https://api.polyhaven.com/files/multi_cleaner_bottle -o files.json
++ python3 - multi_cleaner_bottle
++ for m in wooden_table_02 wooden_spoon wooden_bowl_01 wooden_bowl_02 plastic_bottle_gallon plastic_container plastic_jerrycan garden_gloves_01 jug_01 pot_enamel_01 wooden_cutting_board multi_cleaner_bottle bleach_bottle all_purpose_cleaner multi_cleaner_5_litre wooden_bucket_01 plastic_crate_01 brass_pan_01 ceramic_pot metal_jug cleaner_tin_01 medical_box clipboard
++ curl -sS https://api.polyhaven.com/files/bleach_bottle -o files.json
++ python3 - bleach_bottle
++ for m in wooden_table_02 wooden_spoon wooden_bowl_01 wooden_bowl_02 plastic_bottle_gallon plastic_container plastic_jerrycan garden_gloves_01 jug_01 pot_enamel_01 wooden_cutting_board multi_cleaner_bottle bleach_bottle all_purpose_cleaner multi_cleaner_5_litre wooden_bucket_01 plastic_crate_01 brass_pan_01 ceramic_pot metal_jug cleaner_tin_01 medical_box clipboard
++ curl -sS https://api.polyhaven.com/files/all_purpose_cleaner -o files.json
++ python3 - all_purpose_cleaner
++ for m in wooden_table_02 wooden_spoon wooden_bowl_01 wooden_bowl_02 plastic_bottle_gallon plastic_container plastic_jerrycan garden_gloves_01 jug_01 pot_enamel_01 wooden_cutting_board multi_cleaner_bottle bleach_bottle all_purpose_cleaner multi_cleaner_5_litre wooden_bucket_01 plastic_crate_01 brass_pan_01 ceramic_pot metal_jug cleaner_tin_01 medical_box clipboard
++ curl -sS https://api.polyhaven.com/files/multi_cleaner_5_litre -o files.json
++ python3 - multi_cleaner_5_litre
++ for m in wooden_table_02 wooden_spoon wooden_bowl_01 wooden_bowl_02 plastic_bottle_gallon plastic_container plastic_jerrycan garden_gloves_01 jug_01 pot_enamel_01 wooden_cutting_board multi_cleaner_bottle bleach_bottle all_purpose_cleaner multi_cleaner_5_litre wooden_bucket_01 plastic_crate_01 brass_pan_01 ceramic_pot metal_jug cleaner_tin_01 medical_box clipboard
++ curl -sS https://api.polyhaven.com/files/wooden_bucket_01 -o files.json
++ python3 - wooden_bucket_01
++ for m in wooden_table_02 wooden_spoon wooden_bowl_01 wooden_bowl_02 plastic_bottle_gallon plastic_container plastic_jerrycan garden_gloves_01 jug_01 pot_enamel_01 wooden_cutting_board multi_cleaner_bottle bleach_bottle all_purpose_cleaner multi_cleaner_5_litre wooden_bucket_01 plastic_crate_01 brass_pan_01 ceramic_pot metal_jug cleaner_tin_01 medical_box clipboard
++ curl -sS https://api.polyhaven.com/files/plastic_crate_01 -o files.json
++ python3 - plastic_crate_01
++ for m in wooden_table_02 wooden_spoon wooden_bowl_01 wooden_bowl_02 plastic_bottle_gallon plastic_container plastic_jerrycan garden_gloves_01 jug_01 pot_enamel_01 wooden_cutting_board multi_cleaner_bottle bleach_bottle all_purpose_cleaner multi_cleaner_5_litre wooden_bucket_01 plastic_crate_01 brass_pan_01 ceramic_pot metal_jug cleaner_tin_01 medical_box clipboard
++ curl -sS https://api.polyhaven.com/files/brass_pan_01 -o files.json
++ python3 - brass_pan_01
++ for m in wooden_table_02 wooden_spoon wooden_bowl_01 wooden_bowl_02 plastic_bottle_gallon plastic_container plastic_jerrycan garden_gloves_01 jug_01 pot_enamel_01 wooden_cutting_board multi_cleaner_bottle bleach_bottle all_purpose_cleaner multi_cleaner_5_litre wooden_bucket_01 plastic_crate_01 brass_pan_01 ceramic_pot metal_jug cleaner_tin_01 medical_box clipboard
++ curl -sS https://api.polyhaven.com/files/ceramic_pot -o files.json
++ python3 - ceramic_pot
++ for m in wooden_table_02 wooden_spoon wooden_bowl_01 wooden_bowl_02 plastic_bottle_gallon plastic_container plastic_jerrycan garden_gloves_01 jug_01 pot_enamel_01 wooden_cutting_board multi_cleaner_bottle bleach_bottle all_purpose_cleaner multi_cleaner_5_litre wooden_bucket_01 plastic_crate_01 brass_pan_01 ceramic_pot metal_jug cleaner_tin_01 medical_box clipboard
++ curl -sS https://api.polyhaven.com/files/metal_jug -o files.json
++ python3 - metal_jug
++ for m in wooden_table_02 wooden_spoon wooden_bowl_01 wooden_bowl_02 plastic_bottle_gallon plastic_container plastic_jerrycan garden_gloves_01 jug_01 pot_enamel_01 wooden_cutting_board multi_cleaner_bottle bleach_bottle all_purpose_cleaner multi_cleaner_5_litre wooden_bucket_01 plastic_crate_01 brass_pan_01 ceramic_pot metal_jug cleaner_tin_01 medical_box clipboard
++ curl -sS https://api.polyhaven.com/files/cleaner_tin_01 -o files.json
++ python3 - cleaner_tin_01
++ for m in wooden_table_02 wooden_spoon wooden_bowl_01 wooden_bowl_02 plastic_bottle_gallon plastic_container plastic_jerrycan garden_gloves_01 jug_01 pot_enamel_01 wooden_cutting_board multi_cleaner_bottle bleach_bottle all_purpose_cleaner multi_cleaner_5_litre wooden_bucket_01 plastic_crate_01 brass_pan_01 ceramic_pot metal_jug cleaner_tin_01 medical_box clipboard
++ curl -sS https://api.polyhaven.com/files/medical_box -o files.json
++ python3 - medical_box
++ for m in wooden_table_02 wooden_spoon wooden_bowl_01 wooden_bowl_02 plastic_bottle_gallon plastic_container plastic_jerrycan garden_gloves_01 jug_01 pot_enamel_01 wooden_cutting_board multi_cleaner_bottle bleach_bottle all_purpose_cleaner multi_cleaner_5_litre wooden_bucket_01 plastic_crate_01 brass_pan_01 ceramic_pot metal_jug cleaner_tin_01 medical_box clipboard
++ curl -sS https://api.polyhaven.com/files/clipboard -o files.json
++ python3 - clipboard
++ rm -f files.json
++ mkdir -p hdri
++ for h in brown_photostudio_02 brown_photostudio_06 comfy_cafe small_empty_room_1 kitchen_2
++ curl -sSfL https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/2k/brown_photostudio_02_2k.hdr -o hdri/brown_photostudio_02.hdr
++ for h in brown_photostudio_02 brown_photostudio_06 comfy_cafe small_empty_room_1 kitchen_2
++ curl -sSfL https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/2k/brown_photostudio_06_2k.hdr -o hdri/brown_photostudio_06.hdr
++ for h in brown_photostudio_02 brown_photostudio_06 comfy_cafe small_empty_room_1 kitchen_2
++ curl -sSfL https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/2k/comfy_cafe_2k.hdr -o hdri/comfy_cafe.hdr
++ for h in brown_photostudio_02 brown_photostudio_06 comfy_cafe small_empty_room_1 kitchen_2
++ curl -sSfL https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/2k/small_empty_room_1_2k.hdr -o hdri/small_empty_room_1.hdr
++ for h in brown_photostudio_02 brown_photostudio_06 comfy_cafe small_empty_room_1 kitchen_2
++ curl -sSfL https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/2k/kitchen_2_2k.hdr -o hdri/kitchen_2.hdr
+curl: (22) The requested URL returned error: 404
++ echo 'nohdri kitchen_2'
+nohdri kitchen_2
++ for t in wood_table_001 laminate_floor_02 plastered_wall white_plaster_02
++ mkdir -p tex/wood_table_001
++ for k in diff_2k.jpg nor_gl_2k.jpg rough_2k.jpg
++ curl -sSfL https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wood_table_001/wood_table_001_diff_2k.jpg -o tex/wood_table_001/wood_table_001_diff_2k.jpg
++ for k in diff_2k.jpg nor_gl_2k.jpg rough_2k.jpg
++ curl -sSfL https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wood_table_001/wood_table_001_nor_gl_2k.jpg -o tex/wood_table_001/wood_table_001_nor_gl_2k.jpg
++ for k in diff_2k.jpg nor_gl_2k.jpg rough_2k.jpg
++ curl -sSfL https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wood_table_001/wood_table_001_rough_2k.jpg -o tex/wood_table_001/wood_table_001_rough_2k.jpg
++ for t in wood_table_001 laminate_floor_02 plastered_wall white_plaster_02
++ mkdir -p tex/laminate_floor_02
++ for k in diff_2k.jpg nor_gl_2k.jpg rough_2k.jpg
++ curl -sSfL https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/laminate_floor_02/laminate_floor_02_diff_2k.jpg -o tex/laminate_floor_02/laminate_floor_02_diff_2k.jpg
++ for k in diff_2k.jpg nor_gl_2k.jpg rough_2k.jpg
++ curl -sSfL https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/laminate_floor_02/laminate_floor_02_nor_gl_2k.jpg -o tex/laminate_floor_02/laminate_floor_02_nor_gl_2k.jpg
++ for k in diff_2k.jpg nor_gl_2k.jpg rough_2k.jpg
++ curl -sSfL https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/laminate_floor_02/laminate_floor_02_rough_2k.jpg -o tex/laminate_floor_02/laminate_floor_02_rough_2k.jpg
++ for t in wood_table_001 laminate_floor_02 plastered_wall white_plaster_02
++ mkdir -p tex/plastered_wall
++ for k in diff_2k.jpg nor_gl_2k.jpg rough_2k.jpg
++ curl -sSfL https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/plastered_wall/plastered_wall_diff_2k.jpg -o tex/plastered_wall/plastered_wall_diff_2k.jpg
++ for k in diff_2k.jpg nor_gl_2k.jpg rough_2k.jpg
++ curl -sSfL https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/plastered_wall/plastered_wall_nor_gl_2k.jpg -o tex/plastered_wall/plastered_wall_nor_gl_2k.jpg
++ for k in diff_2k.jpg nor_gl_2k.jpg rough_2k.jpg
++ curl -sSfL https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/plastered_wall/plastered_wall_rough_2k.jpg -o tex/plastered_wall/plastered_wall_rough_2k.jpg
++ for t in wood_table_001 laminate_floor_02 plastered_wall white_plaster_02
++ mkdir -p tex/white_plaster_02
++ for k in diff_2k.jpg nor_gl_2k.jpg rough_2k.jpg
++ curl -sSfL https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/white_plaster_02/white_plaster_02_diff_2k.jpg -o tex/white_plaster_02/white_plaster_02_diff_2k.jpg
++ for k in diff_2k.jpg nor_gl_2k.jpg rough_2k.jpg
++ curl -sSfL https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/white_plaster_02/white_plaster_02_nor_gl_2k.jpg -o tex/white_plaster_02/white_plaster_02_nor_gl_2k.jpg
++ for k in diff_2k.jpg nor_gl_2k.jpg rough_2k.jpg
++ curl -sSfL https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/white_plaster_02/white_plaster_02_rough_2k.jpg -o tex/white_plaster_02/white_plaster_02_rough_2k.jpg
++ cd /home/runner/work/woddi-course-video/woddi-course-video/out
++ curl -sS 'https://huggingface.co/api/models?search=igbo&filter=text-to-speech&limit=50' -o hf_igbo_tts.json
++ curl -sS 'https://huggingface.co/api/models?search=tts-ibo&limit=50' -o hf_ibo.json
++ mkdir -p /home/runner/work/woddi-course-video/woddi-course-video/out/wm
++ cd /home/runner/work/woddi-course-video/woddi-course-video/out/wm
++ python3 - /home/runner/work/woddi-course-video/woddi-course-video/wm
+140
++ du -sh /home/runner/work/woddi-course-video/woddi-course-video/out/hf_ibo.json /home/runner/work/woddi-course-video/woddi-course-video/out/hf_igbo_tts.json /home/runner/work/woddi-course-video/woddi-course-video/out/job.log /home/runner/work/woddi-course-video/woddi-course-video/out/ph /home/runner/work/woddi-course-video/woddi-course-video/out/wm
+4.0K	/home/runner/work/woddi-course-video/woddi-course-video/out/hf_ibo.json
+4.0K	/home/runner/work/woddi-course-video/woddi-course-video/out/hf_igbo_tts.json
+16K	/home/runner/work/woddi-course-video/woddi-course-video/out/job.log
+89M	/home/runner/work/woddi-course-video/woddi-course-video/out/ph
+53M	/home/runner/work/woddi-course-video/woddi-course-video/out/wm
