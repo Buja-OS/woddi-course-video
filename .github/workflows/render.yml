@@ -1,0 +1,50 @@
+name: render
+on:
+  push:
+    branches: ['render-*']
+permissions:
+  contents: write
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    outputs:
+      jobs: ${{ steps.j.outputs.jobs }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: j
+        run: echo "jobs=$(cat jobs.json)" >> "$GITHUB_OUTPUT"
+  render:
+    needs: setup
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix:
+        include: ${{ fromJSON(needs.setup.outputs.jobs) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: install
+        run: |
+          pip install -q bpy
+          git clone -q --depth 1 -b job-assets-out https://github.com/${{ github.repository }}.git assets
+          cp gen/*.png assets/
+          which ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
+      - name: render
+        env:
+          WODDI_ASSETS: ${{ github.workspace }}/assets
+          WODDI_VARIANT: ${{ matrix.v }}
+          WODDI_SAMPLES: '12'
+        run: |
+          python render_demo.py ${{ matrix.demo }} frames 2>&1 | grep -E "RENDERED|Error|Traceback" || true
+          ls frames | wc -l
+      - name: encode and publish
+        run: |
+          mkdir out
+          ffmpeg -loglevel error -y -framerate 24 -i frames/f%04d.jpg -c:v libx264 -preset slow -crf 16 -pix_fmt yuv420p out/${{ matrix.demo }}-v${{ matrix.v }}.mp4
+          cp frames/f0001.jpg out/${{ matrix.demo }}-v${{ matrix.v }}-first.jpg
+          cd out && git init -q && B="clip-${GITHUB_REF_NAME#render-}-${{ matrix.demo }}-v${{ matrix.v }}" && git checkout -q -b "$B" && git add -A && git -c user.name=bot -c user.email=bot@x commit -qm clip && \
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" "$B"
