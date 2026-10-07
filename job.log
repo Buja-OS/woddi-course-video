@@ -1,0 +1,180 @@
++ cd out
++ curl -sS 'https://api.polyhaven.com/assets?t=models' -o ph_models.json
++ curl -sS 'https://api.polyhaven.com/assets?t=hdris&c=indoor' -o ph_hdris.json
++ for m in yor hau ibo swh ara arb fra por eng
+++ curl -s -o /dev/null -w '%{http_code}' -L https://huggingface.co/facebook/mms-tts-yor/resolve/main/config.json
++ code=200
++ echo 'mms-yor 200'
++ for m in yor hau ibo swh ara arb fra por eng
+++ curl -s -o /dev/null -w '%{http_code}' -L https://huggingface.co/facebook/mms-tts-hau/resolve/main/config.json
++ code=200
++ echo 'mms-hau 200'
++ for m in yor hau ibo swh ara arb fra por eng
+++ curl -s -o /dev/null -w '%{http_code}' -L https://huggingface.co/facebook/mms-tts-ibo/resolve/main/config.json
++ code=401
++ echo 'mms-ibo 401'
++ for m in yor hau ibo swh ara arb fra por eng
+++ curl -s -o /dev/null -w '%{http_code}' -L https://huggingface.co/facebook/mms-tts-swh/resolve/main/config.json
++ code=200
++ echo 'mms-swh 200'
++ for m in yor hau ibo swh ara arb fra por eng
+++ curl -s -o /dev/null -w '%{http_code}' -L https://huggingface.co/facebook/mms-tts-ara/resolve/main/config.json
++ code=200
++ echo 'mms-ara 200'
++ for m in yor hau ibo swh ara arb fra por eng
+++ curl -s -o /dev/null -w '%{http_code}' -L https://huggingface.co/facebook/mms-tts-arb/resolve/main/config.json
++ code=401
++ echo 'mms-arb 401'
++ for m in yor hau ibo swh ara arb fra por eng
+++ curl -s -o /dev/null -w '%{http_code}' -L https://huggingface.co/facebook/mms-tts-fra/resolve/main/config.json
++ code=200
++ echo 'mms-fra 200'
++ for m in yor hau ibo swh ara arb fra por eng
+++ curl -s -o /dev/null -w '%{http_code}' -L https://huggingface.co/facebook/mms-tts-por/resolve/main/config.json
++ code=200
++ echo 'mms-por 200'
++ for m in yor hau ibo swh ara arb fra por eng
+++ curl -s -o /dev/null -w '%{http_code}' -L https://huggingface.co/facebook/mms-tts-eng/resolve/main/config.json
++ code=200
++ echo 'mms-eng 200'
++ UA='WODDI-Institute-video-bot/1.0 (noreply@woddiinstitute.com)'
++ for q in "sodium hydroxide" "caustic soda" "soap making" "lye soap" "palm oil" "palm kernel oil" "coconut oil" "shea butter" "handmade soap" "liquid soap" "soap mould" "pH test strip" "nitrile gloves" "safety goggles" "digital kitchen scale" "plastic bucket" "glycerin" "shampoo" "dish soap" "bleach" "laundry soap Africa" "Nigeria market"
+++ python3 -c 'import urllib.parse,sys;print(urllib.parse.quote(sys.argv[1]+'\'' filetype:bitmap'\''))' 'sodium hydroxide'
+++ echo sodium hydroxide
+++ tr ' ' _
++ curl -sS -A 'WODDI-Institute-video-bot/1.0 (noreply@woddiinstitute.com)' 'https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=sodium%20hydroxide%20filetype%3Abitmap&gsrnamespace=6&gsrlimit=25&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=1280&format=json' -o wm_sodium_hydroxide.json
++ for q in "sodium hydroxide" "caustic soda" "soap making" "lye soap" "palm oil" "palm kernel oil" "coconut oil" "shea butter" "handmade soap" "liquid soap" "soap mould" "pH test strip" "nitrile gloves" "safety goggles" "digital kitchen scale" "plastic bucket" "glycerin" "shampoo" "dish soap" "bleach" "laundry soap Africa" "Nigeria market"
+++ python3 -c 'import urllib.parse,sys;print(urllib.parse.quote(sys.argv[1]+'\'' filetype:bitmap'\''))' 'caustic soda'
+++ echo caustic soda
+++ tr ' ' _
++ curl -sS -A 'WODDI-Institute-video-bot/1.0 (noreply@woddiinstitute.com)' 'https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=caustic%20soda%20filetype%3Abitmap&gsrnamespace=6&gsrlimit=25&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=1280&format=json' -o wm_caustic_soda.json
++ for q in "sodium hydroxide" "caustic soda" "soap making" "lye soap" "palm oil" "palm kernel oil" "coconut oil" "shea butter" "handmade soap" "liquid soap" "soap mould" "pH test strip" "nitrile gloves" "safety goggles" "digital kitchen scale" "plastic bucket" "glycerin" "shampoo" "dish soap" "bleach" "laundry soap Africa" "Nigeria market"
+++ python3 -c 'import urllib.parse,sys;print(urllib.parse.quote(sys.argv[1]+'\'' filetype:bitmap'\''))' 'soap making'
+++ echo soap making
+++ tr ' ' _
++ curl -sS -A 'WODDI-Institute-video-bot/1.0 (noreply@woddiinstitute.com)' 'https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=soap%20making%20filetype%3Abitmap&gsrnamespace=6&gsrlimit=25&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=1280&format=json' -o wm_soap_making.json
++ for q in "sodium hydroxide" "caustic soda" "soap making" "lye soap" "palm oil" "palm kernel oil" "coconut oil" "shea butter" "handmade soap" "liquid soap" "soap mould" "pH test strip" "nitrile gloves" "safety goggles" "digital kitchen scale" "plastic bucket" "glycerin" "shampoo" "dish soap" "bleach" "laundry soap Africa" "Nigeria market"
+++ python3 -c 'import urllib.parse,sys;print(urllib.parse.quote(sys.argv[1]+'\'' filetype:bitmap'\''))' 'lye soap'
+++ echo lye soap
+++ tr ' ' _
++ curl -sS -A 'WODDI-Institute-video-bot/1.0 (noreply@woddiinstitute.com)' 'https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=lye%20soap%20filetype%3Abitmap&gsrnamespace=6&gsrlimit=25&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=1280&format=json' -o wm_lye_soap.json
++ for q in "sodium hydroxide" "caustic soda" "soap making" "lye soap" "palm oil" "palm kernel oil" "coconut oil" "shea butter" "handmade soap" "liquid soap" "soap mould" "pH test strip" "nitrile gloves" "safety goggles" "digital kitchen scale" "plastic bucket" "glycerin" "shampoo" "dish soap" "bleach" "laundry soap Africa" "Nigeria market"
+++ python3 -c 'import urllib.parse,sys;print(urllib.parse.quote(sys.argv[1]+'\'' filetype:bitmap'\''))' 'palm oil'
+++ echo palm oil
+++ tr ' ' _
++ curl -sS -A 'WODDI-Institute-video-bot/1.0 (noreply@woddiinstitute.com)' 'https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=palm%20oil%20filetype%3Abitmap&gsrnamespace=6&gsrlimit=25&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=1280&format=json' -o wm_palm_oil.json
++ for q in "sodium hydroxide" "caustic soda" "soap making" "lye soap" "palm oil" "palm kernel oil" "coconut oil" "shea butter" "handmade soap" "liquid soap" "soap mould" "pH test strip" "nitrile gloves" "safety goggles" "digital kitchen scale" "plastic bucket" "glycerin" "shampoo" "dish soap" "bleach" "laundry soap Africa" "Nigeria market"
+++ python3 -c 'import urllib.parse,sys;print(urllib.parse.quote(sys.argv[1]+'\'' filetype:bitmap'\''))' 'palm kernel oil'
+++ echo palm kernel oil
+++ tr ' ' _
++ curl -sS -A 'WODDI-Institute-video-bot/1.0 (noreply@woddiinstitute.com)' 'https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=palm%20kernel%20oil%20filetype%3Abitmap&gsrnamespace=6&gsrlimit=25&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=1280&format=json' -o wm_palm_kernel_oil.json
++ for q in "sodium hydroxide" "caustic soda" "soap making" "lye soap" "palm oil" "palm kernel oil" "coconut oil" "shea butter" "handmade soap" "liquid soap" "soap mould" "pH test strip" "nitrile gloves" "safety goggles" "digital kitchen scale" "plastic bucket" "glycerin" "shampoo" "dish soap" "bleach" "laundry soap Africa" "Nigeria market"
+++ python3 -c 'import urllib.parse,sys;print(urllib.parse.quote(sys.argv[1]+'\'' filetype:bitmap'\''))' 'coconut oil'
+++ echo coconut oil
+++ tr ' ' _
++ curl -sS -A 'WODDI-Institute-video-bot/1.0 (noreply@woddiinstitute.com)' 'https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=coconut%20oil%20filetype%3Abitmap&gsrnamespace=6&gsrlimit=25&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=1280&format=json' -o wm_coconut_oil.json
++ for q in "sodium hydroxide" "caustic soda" "soap making" "lye soap" "palm oil" "palm kernel oil" "coconut oil" "shea butter" "handmade soap" "liquid soap" "soap mould" "pH test strip" "nitrile gloves" "safety goggles" "digital kitchen scale" "plastic bucket" "glycerin" "shampoo" "dish soap" "bleach" "laundry soap Africa" "Nigeria market"
+++ python3 -c 'import urllib.parse,sys;print(urllib.parse.quote(sys.argv[1]+'\'' filetype:bitmap'\''))' 'shea butter'
+++ echo shea butter
+++ tr ' ' _
++ curl -sS -A 'WODDI-Institute-video-bot/1.0 (noreply@woddiinstitute.com)' 'https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=shea%20butter%20filetype%3Abitmap&gsrnamespace=6&gsrlimit=25&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=1280&format=json' -o wm_shea_butter.json
++ for q in "sodium hydroxide" "caustic soda" "soap making" "lye soap" "palm oil" "palm kernel oil" "coconut oil" "shea butter" "handmade soap" "liquid soap" "soap mould" "pH test strip" "nitrile gloves" "safety goggles" "digital kitchen scale" "plastic bucket" "glycerin" "shampoo" "dish soap" "bleach" "laundry soap Africa" "Nigeria market"
+++ python3 -c 'import urllib.parse,sys;print(urllib.parse.quote(sys.argv[1]+'\'' filetype:bitmap'\''))' 'handmade soap'
+++ echo handmade soap
+++ tr ' ' _
++ curl -sS -A 'WODDI-Institute-video-bot/1.0 (noreply@woddiinstitute.com)' 'https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=handmade%20soap%20filetype%3Abitmap&gsrnamespace=6&gsrlimit=25&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=1280&format=json' -o wm_handmade_soap.json
++ for q in "sodium hydroxide" "caustic soda" "soap making" "lye soap" "palm oil" "palm kernel oil" "coconut oil" "shea butter" "handmade soap" "liquid soap" "soap mould" "pH test strip" "nitrile gloves" "safety goggles" "digital kitchen scale" "plastic bucket" "glycerin" "shampoo" "dish soap" "bleach" "laundry soap Africa" "Nigeria market"
+++ python3 -c 'import urllib.parse,sys;print(urllib.parse.quote(sys.argv[1]+'\'' filetype:bitmap'\''))' 'liquid soap'
+++ echo liquid soap
+++ tr ' ' _
++ curl -sS -A 'WODDI-Institute-video-bot/1.0 (noreply@woddiinstitute.com)' 'https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=liquid%20soap%20filetype%3Abitmap&gsrnamespace=6&gsrlimit=25&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=1280&format=json' -o wm_liquid_soap.json
++ for q in "sodium hydroxide" "caustic soda" "soap making" "lye soap" "palm oil" "palm kernel oil" "coconut oil" "shea butter" "handmade soap" "liquid soap" "soap mould" "pH test strip" "nitrile gloves" "safety goggles" "digital kitchen scale" "plastic bucket" "glycerin" "shampoo" "dish soap" "bleach" "laundry soap Africa" "Nigeria market"
+++ python3 -c 'import urllib.parse,sys;print(urllib.parse.quote(sys.argv[1]+'\'' filetype:bitmap'\''))' 'soap mould'
+++ echo soap mould
+++ tr ' ' _
++ curl -sS -A 'WODDI-Institute-video-bot/1.0 (noreply@woddiinstitute.com)' 'https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=soap%20mould%20filetype%3Abitmap&gsrnamespace=6&gsrlimit=25&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=1280&format=json' -o wm_soap_mould.json
++ for q in "sodium hydroxide" "caustic soda" "soap making" "lye soap" "palm oil" "palm kernel oil" "coconut oil" "shea butter" "handmade soap" "liquid soap" "soap mould" "pH test strip" "nitrile gloves" "safety goggles" "digital kitchen scale" "plastic bucket" "glycerin" "shampoo" "dish soap" "bleach" "laundry soap Africa" "Nigeria market"
+++ python3 -c 'import urllib.parse,sys;print(urllib.parse.quote(sys.argv[1]+'\'' filetype:bitmap'\''))' 'pH test strip'
+++ echo pH test strip
+++ tr ' ' _
++ curl -sS -A 'WODDI-Institute-video-bot/1.0 (noreply@woddiinstitute.com)' 'https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=pH%20test%20strip%20filetype%3Abitmap&gsrnamespace=6&gsrlimit=25&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=1280&format=json' -o wm_pH_test_strip.json
++ for q in "sodium hydroxide" "caustic soda" "soap making" "lye soap" "palm oil" "palm kernel oil" "coconut oil" "shea butter" "handmade soap" "liquid soap" "soap mould" "pH test strip" "nitrile gloves" "safety goggles" "digital kitchen scale" "plastic bucket" "glycerin" "shampoo" "dish soap" "bleach" "laundry soap Africa" "Nigeria market"
+++ python3 -c 'import urllib.parse,sys;print(urllib.parse.quote(sys.argv[1]+'\'' filetype:bitmap'\''))' 'nitrile gloves'
+++ echo nitrile gloves
+++ tr ' ' _
++ curl -sS -A 'WODDI-Institute-video-bot/1.0 (noreply@woddiinstitute.com)' 'https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=nitrile%20gloves%20filetype%3Abitmap&gsrnamespace=6&gsrlimit=25&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=1280&format=json' -o wm_nitrile_gloves.json
++ for q in "sodium hydroxide" "caustic soda" "soap making" "lye soap" "palm oil" "palm kernel oil" "coconut oil" "shea butter" "handmade soap" "liquid soap" "soap mould" "pH test strip" "nitrile gloves" "safety goggles" "digital kitchen scale" "plastic bucket" "glycerin" "shampoo" "dish soap" "bleach" "laundry soap Africa" "Nigeria market"
+++ python3 -c 'import urllib.parse,sys;print(urllib.parse.quote(sys.argv[1]+'\'' filetype:bitmap'\''))' 'safety goggles'
+++ echo safety goggles
+++ tr ' ' _
++ curl -sS -A 'WODDI-Institute-video-bot/1.0 (noreply@woddiinstitute.com)' 'https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=safety%20goggles%20filetype%3Abitmap&gsrnamespace=6&gsrlimit=25&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=1280&format=json' -o wm_safety_goggles.json
++ for q in "sodium hydroxide" "caustic soda" "soap making" "lye soap" "palm oil" "palm kernel oil" "coconut oil" "shea butter" "handmade soap" "liquid soap" "soap mould" "pH test strip" "nitrile gloves" "safety goggles" "digital kitchen scale" "plastic bucket" "glycerin" "shampoo" "dish soap" "bleach" "laundry soap Africa" "Nigeria market"
+++ python3 -c 'import urllib.parse,sys;print(urllib.parse.quote(sys.argv[1]+'\'' filetype:bitmap'\''))' 'digital kitchen scale'
+++ echo digital kitchen scale
+++ tr ' ' _
++ curl -sS -A 'WODDI-Institute-video-bot/1.0 (noreply@woddiinstitute.com)' 'https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=digital%20kitchen%20scale%20filetype%3Abitmap&gsrnamespace=6&gsrlimit=25&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=1280&format=json' -o wm_digital_kitchen_scale.json
++ for q in "sodium hydroxide" "caustic soda" "soap making" "lye soap" "palm oil" "palm kernel oil" "coconut oil" "shea butter" "handmade soap" "liquid soap" "soap mould" "pH test strip" "nitrile gloves" "safety goggles" "digital kitchen scale" "plastic bucket" "glycerin" "shampoo" "dish soap" "bleach" "laundry soap Africa" "Nigeria market"
+++ python3 -c 'import urllib.parse,sys;print(urllib.parse.quote(sys.argv[1]+'\'' filetype:bitmap'\''))' 'plastic bucket'
+++ echo plastic bucket
+++ tr ' ' _
++ curl -sS -A 'WODDI-Institute-video-bot/1.0 (noreply@woddiinstitute.com)' 'https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=plastic%20bucket%20filetype%3Abitmap&gsrnamespace=6&gsrlimit=25&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=1280&format=json' -o wm_plastic_bucket.json
++ for q in "sodium hydroxide" "caustic soda" "soap making" "lye soap" "palm oil" "palm kernel oil" "coconut oil" "shea butter" "handmade soap" "liquid soap" "soap mould" "pH test strip" "nitrile gloves" "safety goggles" "digital kitchen scale" "plastic bucket" "glycerin" "shampoo" "dish soap" "bleach" "laundry soap Africa" "Nigeria market"
+++ python3 -c 'import urllib.parse,sys;print(urllib.parse.quote(sys.argv[1]+'\'' filetype:bitmap'\''))' glycerin
+++ echo glycerin
+++ tr ' ' _
++ curl -sS -A 'WODDI-Institute-video-bot/1.0 (noreply@woddiinstitute.com)' 'https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=glycerin%20filetype%3Abitmap&gsrnamespace=6&gsrlimit=25&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=1280&format=json' -o wm_glycerin.json
++ for q in "sodium hydroxide" "caustic soda" "soap making" "lye soap" "palm oil" "palm kernel oil" "coconut oil" "shea butter" "handmade soap" "liquid soap" "soap mould" "pH test strip" "nitrile gloves" "safety goggles" "digital kitchen scale" "plastic bucket" "glycerin" "shampoo" "dish soap" "bleach" "laundry soap Africa" "Nigeria market"
+++ python3 -c 'import urllib.parse,sys;print(urllib.parse.quote(sys.argv[1]+'\'' filetype:bitmap'\''))' shampoo
+++ echo shampoo
+++ tr ' ' _
++ curl -sS -A 'WODDI-Institute-video-bot/1.0 (noreply@woddiinstitute.com)' 'https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=shampoo%20filetype%3Abitmap&gsrnamespace=6&gsrlimit=25&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=1280&format=json' -o wm_shampoo.json
++ for q in "sodium hydroxide" "caustic soda" "soap making" "lye soap" "palm oil" "palm kernel oil" "coconut oil" "shea butter" "handmade soap" "liquid soap" "soap mould" "pH test strip" "nitrile gloves" "safety goggles" "digital kitchen scale" "plastic bucket" "glycerin" "shampoo" "dish soap" "bleach" "laundry soap Africa" "Nigeria market"
+++ python3 -c 'import urllib.parse,sys;print(urllib.parse.quote(sys.argv[1]+'\'' filetype:bitmap'\''))' 'dish soap'
+++ echo dish soap
+++ tr ' ' _
++ curl -sS -A 'WODDI-Institute-video-bot/1.0 (noreply@woddiinstitute.com)' 'https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=dish%20soap%20filetype%3Abitmap&gsrnamespace=6&gsrlimit=25&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=1280&format=json' -o wm_dish_soap.json
++ for q in "sodium hydroxide" "caustic soda" "soap making" "lye soap" "palm oil" "palm kernel oil" "coconut oil" "shea butter" "handmade soap" "liquid soap" "soap mould" "pH test strip" "nitrile gloves" "safety goggles" "digital kitchen scale" "plastic bucket" "glycerin" "shampoo" "dish soap" "bleach" "laundry soap Africa" "Nigeria market"
+++ python3 -c 'import urllib.parse,sys;print(urllib.parse.quote(sys.argv[1]+'\'' filetype:bitmap'\''))' bleach
+++ echo bleach
+++ tr ' ' _
++ curl -sS -A 'WODDI-Institute-video-bot/1.0 (noreply@woddiinstitute.com)' 'https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=bleach%20filetype%3Abitmap&gsrnamespace=6&gsrlimit=25&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=1280&format=json' -o wm_bleach.json
++ for q in "sodium hydroxide" "caustic soda" "soap making" "lye soap" "palm oil" "palm kernel oil" "coconut oil" "shea butter" "handmade soap" "liquid soap" "soap mould" "pH test strip" "nitrile gloves" "safety goggles" "digital kitchen scale" "plastic bucket" "glycerin" "shampoo" "dish soap" "bleach" "laundry soap Africa" "Nigeria market"
+++ python3 -c 'import urllib.parse,sys;print(urllib.parse.quote(sys.argv[1]+'\'' filetype:bitmap'\''))' 'laundry soap Africa'
+++ echo laundry soap Africa
+++ tr ' ' _
++ curl -sS -A 'WODDI-Institute-video-bot/1.0 (noreply@woddiinstitute.com)' 'https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=laundry%20soap%20Africa%20filetype%3Abitmap&gsrnamespace=6&gsrlimit=25&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=1280&format=json' -o wm_laundry_soap_Africa.json
++ for q in "sodium hydroxide" "caustic soda" "soap making" "lye soap" "palm oil" "palm kernel oil" "coconut oil" "shea butter" "handmade soap" "liquid soap" "soap mould" "pH test strip" "nitrile gloves" "safety goggles" "digital kitchen scale" "plastic bucket" "glycerin" "shampoo" "dish soap" "bleach" "laundry soap Africa" "Nigeria market"
+++ python3 -c 'import urllib.parse,sys;print(urllib.parse.quote(sys.argv[1]+'\'' filetype:bitmap'\''))' 'Nigeria market'
+++ echo Nigeria market
+++ tr ' ' _
++ curl -sS -A 'WODDI-Institute-video-bot/1.0 (noreply@woddiinstitute.com)' 'https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=Nigeria%20market%20filetype%3Abitmap&gsrnamespace=6&gsrlimit=25&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=1280&format=json' -o wm_Nigeria_market.json
++ ls -la
+total 2848
+drwxr-xr-x 2 runner runner   4096 Oct  7 08:23 .
+drwxr-xr-x 5 runner runner   4096 Oct  7 08:23 ..
+-rw-r--r-- 1 runner runner  19750 Oct  7 08:23 job.log
+-rw-r--r-- 1 runner runner    108 Oct  7 08:23 mms.txt
+-rw-r--r-- 1 runner runner 307518 Oct  7 08:23 ph_hdris.json
+-rw-r--r-- 1 runner runner 549281 Oct  7 08:23 ph_models.json
+-rw-r--r-- 1 runner runner  72421 Oct  7 08:23 wm_Nigeria_market.json
+-rw-r--r-- 1 runner runner  83889 Oct  7 08:23 wm_bleach.json
+-rw-r--r-- 1 runner runner  90052 Oct  7 08:23 wm_caustic_soda.json
+-rw-r--r-- 1 runner runner 104363 Oct  7 08:23 wm_coconut_oil.json
+-rw-r--r-- 1 runner runner  94844 Oct  7 08:23 wm_digital_kitchen_scale.json
+-rw-r--r-- 1 runner runner  92785 Oct  7 08:23 wm_dish_soap.json
+-rw-r--r-- 1 runner runner  93450 Oct  7 08:23 wm_glycerin.json
+-rw-r--r-- 1 runner runner  91066 Oct  7 08:23 wm_handmade_soap.json
+-rw-r--r-- 1 runner runner   7236 Oct  7 08:23 wm_laundry_soap_Africa.json
+-rw-r--r-- 1 runner runner  98750 Oct  7 08:23 wm_liquid_soap.json
+-rw-r--r-- 1 runner runner  96035 Oct  7 08:23 wm_lye_soap.json
+-rw-r--r-- 1 runner runner  74872 Oct  7 08:23 wm_nitrile_gloves.json
+-rw-r--r-- 1 runner runner 183666 Oct  7 08:23 wm_pH_test_strip.json
+-rw-r--r-- 1 runner runner  80649 Oct  7 08:23 wm_palm_kernel_oil.json
+-rw-r--r-- 1 runner runner  81831 Oct  7 08:23 wm_palm_oil.json
+-rw-r--r-- 1 runner runner 104461 Oct  7 08:23 wm_plastic_bucket.json
+-rw-r--r-- 1 runner runner  96929 Oct  7 08:23 wm_safety_goggles.json
+-rw-r--r-- 1 runner runner  78218 Oct  7 08:23 wm_shampoo.json
+-rw-r--r-- 1 runner runner  75838 Oct  7 08:23 wm_shea_butter.json
+-rw-r--r-- 1 runner runner  93830 Oct  7 08:23 wm_soap_making.json
+-rw-r--r-- 1 runner runner  94443 Oct  7 08:23 wm_soap_mould.json
+-rw-r--r-- 1 runner runner  88867 Oct  7 08:23 wm_sodium_hydroxide.json
