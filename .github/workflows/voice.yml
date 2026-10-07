@@ -16,7 +16,7 @@ jobs:
           - {lang: ha, model: facebook/mms-tts-hau}
           - {lang: sw, model: facebook/mms-tts-swh}
           - {lang: ar, model: facebook/mms-tts-ara}
-          - {lang: ig, model: alsonNifemi/mms-tts-ibo}
+          - {lang: ig, model: rnjema-unima/mms-tts-ibo-baseline}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
