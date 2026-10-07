@@ -1,0 +1,15 @@
+name: cleanup
+on:
+  push:
+    branches: ['cleanup-*']
+permissions:
+  contents: write
+jobs:
+  clean:
+    runs-on: ubuntu-latest
+    steps:
+      - env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api "repos/${{ github.repository }}/git/matching-refs/heads/" --paginate --jq '.[].ref' > refs.txt
+          grep -E "refs/heads/(vidout-r1-|frames-r3-|job-dbg|job-cdbg|gha-probe|cancel-r1|job-list|job-tts1|job-asr2)" refs.txt | while read r; do gh api -X DELETE "repos/${{ github.repository }}/git/${r#refs/}" && echo "deleted $r"; done
