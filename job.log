@@ -1,0 +1,25 @@
++ python3 --version
+Python 3.12.3
++ pip install -q bpy
++ tail -3
+ERROR: Could not find a version that satisfies the requirement bpy (from versions: none)
+ERROR: No matching distribution found for bpy
++ python3 -c 'import bpy;print(bpy.app.version_string)'
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+ModuleNotFoundError: No module named 'bpy'
++ git clone -q --depth 1 -b job-assets-out https://github.com/Buja-OS/woddi-course-video.git assets
++ cp gen/calculator_top.png gen/hazard.png gen/label_amber.png gen/label_blue.png gen/label_green.png gen/label_magenta.png gen/notebook_page.png assets/
++ WODDI_ASSETS=/home/runner/work/woddi-course-video/woddi-course-video/assets
++ WODDI_SAMPLES=12
++ timeout 600 python3 render_demo.py cut_bars out/frames 100,101
++ tail -20
+Traceback (most recent call last):
+  File "/home/runner/work/woddi-course-video/woddi-course-video/render_demo.py", line 3, in <module>
+    import bpy, demos
+ModuleNotFoundError: No module named 'bpy'
++ ls -la out/frames
+ls: cannot access 'out/frames': No such file or directory
++ which ffmpeg
++ nproc
+4
