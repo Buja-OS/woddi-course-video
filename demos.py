@@ -42,7 +42,7 @@ def lye_mix():
     jug, water = measuring_jug((J[0], J[1], 0), h=0.2, r=0.075, fill=0.55, liq_mat=M['lye_sol'])
     T = (0.2, 0.1)
     t, lid = tub((T[0], T[1], 0), r=0.07, h=0.09, lid=False)
-    flakes_pile(T, 0.062, 0.07, n=260, seed=4, zbase=0.004)
+    flakes_pile(T, 0.052, 0.07, n=240, seed=4, zbase=0.004)
     goggles((-0.34, -0.14, 0), rot_z=math.radians(25))
     import_ph('garden_gloves_01', loc=(0.33, -0.18, 0), rot_z=math.radians(-30), scale=1.0, recolor=M['glove'])
     # scoop: dips in the tub, carries flakes over the jug, tips them in, goes back
@@ -66,7 +66,7 @@ def lye_mix():
     en = [(x + random.uniform(-0.02, 0.02), y + random.uniform(-0.015, 0.02), 0.115) for x, y, z in st]
     falling(falls, st, en, 106, 134, sink_to=lambda b: (b[0], b[1], 0.012), shrink_at=(150, 200))
     steam((J[0], J[1], 0.13), size=(0.15, 0.15, 0.3), f_on=112, f_peak=165, peak=60.0)
-    sp = spoon()
+    sp = spoon(recolor=M['steel'])
     key(sp, 1, loc=(J[0] + 0.3, J[1] + 0.25, 0.4), rot=(0, 0, 0))
     key(sp, 150, loc=(J[0] + 0.12, J[1] + 0.1, 0.32), rot=(0, math.radians(-15), 0))
     for i, f in enumerate(range(168, 241, 3)):
@@ -89,7 +89,7 @@ def caustic_flakes():
     base()
     T = (0.0, 0.05)
     t, lid = tub((T[0], T[1], 0), r=0.09, h=0.1, lid=False)
-    flakes_pile(T, 0.082, 0.085, n=700, seed=21, zbase=0.004)
+    flakes_pile(T, 0.07, 0.085, n=650, seed=21, zbase=0.004)
     # a few flakes spilled on a dark tray so their shape is easy to see
     tray = box('tray', (0.26, 0.16, 0.008), (0.24, -0.06, 0.004), M['black_plastic'], bevel=0.003)
     random.seed(5)
@@ -114,7 +114,7 @@ def caustic_storage():
     shelf((0.0, 0.95, 0.75), width=1.1, levels=(0.0,), depth=0.28)
     T = (0.0, 0.05)
     t, lid = tub((T[0], T[1], 0), r=0.08, h=0.11, lid=True, lid_mat=M['red'])
-    flakes_pile(T, 0.072, 0.08, n=300, seed=41, zbase=0.004)
+    flakes_pile(T, 0.062, 0.08, n=280, seed=41, zbase=0.004)
     hazard_on_tub(T, 0.08, 0.11)
     # lid comes down and closes, then the tub is lifted onto the high shelf
     key(lid, 1, loc=(T[0] + 0.18, T[1] - 0.05, 0.02), rot=(0, math.radians(0), 0))
@@ -209,7 +209,7 @@ def scale_weigh():
     b = bowl((S[0], S[1] + 0.012, 0.035), r=0.08, h=0.05, mat_=M['steel'])
     T = (0.24, 0.1)
     t, lid = tub((T[0], T[1], 0), r=0.07, h=0.09, lid=False)
-    flakes_pile(T, 0.062, 0.07, n=220, seed=51, zbase=0.004)
+    flakes_pile(T, 0.052, 0.07, n=200, seed=51, zbase=0.004)
     inbowl = flakes_pile((S[0], S[1] + 0.012), 0.05, 0.02, n=90, seed=52, zbase=0.038)
     for i, o in enumerate(inbowl):
         f = 40 + (i * 110) // len(inbowl)
@@ -679,7 +679,7 @@ def bottle_fill():
         key(grp, f0 + 26, loc=(x - 0.14, 0.08, 0.36), rot=(0, math.radians(55), 0))
         st = stream('fs%d' % i, [(x - 0.06, 0.08, 0.42), (x - 0.03, 0.08, 0.36), (x, 0.08, 0.31)], 0.004, M['liquid_soap']); stream_flow(st, f0, f0 + 4, f0 + 24, f0 + 28)
     ease_all(grp)
-    cam_dolly((0.3, -0.85, 0.48), (0.1, -0.78, 0.46), (0.0, 0.08, 0.22), (0.08, 0.08, 0.22), lens=35, fstop=4)
+    cam_dolly((0.3, -0.95, 0.5), (0.1, -0.88, 0.48), (0.02, 0.08, 0.2), (0.08, 0.08, 0.2), lens=33, fstop=4.5)
 
 
 @demo('shampoo_bottles')
@@ -866,7 +866,7 @@ def vary_camera(v):
     for f in frames:
         sc.frame_set(f); p = cam.location.copy(); pts.append((f, p))
     for f, p in pts:
-        rel = p - t0; rel.z *= (0.85 if v == 1 else 1.15)
+        rel = p - t0; rel.z *= (1.12 if v == 1 else 1.2)
         x = rel.x * math.cos(ang) - rel.y * math.sin(ang); y = rel.x * math.sin(ang) + rel.y * math.cos(ang)
         cam.location = (t0.x + x * dist, t0.y + y * dist, t0.z + rel.z * dist); cam.keyframe_insert('location', frame=f)
     cam.data.lens = cam.data.lens * (1.15 if v == 1 else 0.9)

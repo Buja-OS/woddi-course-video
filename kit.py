@@ -604,11 +604,13 @@ def render(out_dir, frames=None, step=1):
         sc.frame_set(f); sc.render.filepath = p; bpy.ops.render.render(write_still=True)
 
 
-def spoon(name='spoon'):
-    """Wooden spoon standing upright; the returned empty is at the tip of the bowl."""
+def spoon(name='spoon', recolor=None):
+    """Spoon standing upright (wooden, or stainless with recolor=M['steel']); the empty is at the bowl tip."""
     piv = bpy.data.objects.new(name, None); bpy.context.collection.objects.link(piv)
     bpy.ops.import_scene.gltf(filepath=PH + '/wooden_spoon/wooden_spoon.gltf')
     for o in bpy.context.selected_objects:
+        if recolor and o.type == 'MESH':
+            o.data.materials.clear(); o.data.materials.append(recolor)
         if o.parent is None:
             o.parent = piv; o.rotation_euler = (math.radians(90), 0, 0); o.location = (0, 0, 0.084)
     return piv
