@@ -1,0 +1,36 @@
+name: voice
+on:
+  push:
+    branches: ['voice-*']
+permissions:
+  contents: write
+jobs:
+  voice:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - {lang: yo, model: facebook/mms-tts-yor}
+          - {lang: ha, model: facebook/mms-tts-hau}
+          - {lang: sw, model: facebook/mms-tts-swh}
+          - {lang: ar, model: facebook/mms-tts-ara}
+          - {lang: ig, model: alsonNifemi/mms-tts-ibo}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: install
+        run: |
+          pip install -q torch --index-url https://download.pytorch.org/whl/cpu
+          pip install -q transformers soundfile uroman num2words
+          which ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
+      - name: voice
+        run: python tts/voice_mms.py ${{ matrix.lang }} ${{ matrix.model }} scripts out/${{ matrix.lang }} 2>&1 | grep -vi warn | tail -30
+      - name: publish
+        if: always()
+        run: |
+          cd out && git init -q && B="voiceout-${GITHUB_REF_NAME#voice-}-${{ matrix.lang }}" && git checkout -q -b "$B" && git add -A && git -c user.name=bot -c user.email=bot@x commit -qm voice && \
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" "$B"
