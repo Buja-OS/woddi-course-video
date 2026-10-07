@@ -1,0 +1,17 @@
+name: probe
+on:
+  push:
+    branches: [gha-probe]
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          mkdir out && cd out
+          nproc > info.txt; free -g >> info.txt
+          curl -sSL -o mms.json https://huggingface.co/facebook/mms-tts-yor/resolve/main/config.json && echo hf-ok >> info.txt || echo hf-fail >> info.txt
+          curl -sSL -A "WODDI-probe/1.0 (noreply@woddiinstitute.com)" "https://commons.wikimedia.org/w/api.php?action=query&list=search&srsearch=sodium%20hydroxide%20pellets&srnamespace=6&format=json" -o wm.json && echo wm-ok >> info.txt || echo wm-fail >> info.txt
+          cd .. && git init -q o && cp -r out/* o/ && cd o && git checkout -q -b gha-probe-out && git add -A && git -c user.name=bot -c user.email=bot@x commit -qm out
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" gha-probe-out
