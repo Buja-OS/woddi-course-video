@@ -1,0 +1,597 @@
+{
+ "course": "automation-zapier-make",
+ "module": "m2",
+ "title": "Build it, break it on purpose, then hand it over",
+ "course_title": "Automation with Zapier & Make",
+ "shots": [
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Build it, break it on purpose, then hand it over.",
+    "This is the video for module two of Automation with Zapier and Make."
+   ]
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "In this module you build a real Zap. Every time someone fills a Google Form, they get a confirmation email."
+   ],
+   "panel": {
+    "kicker": "What you will do",
+    "heading": "From first build to handover",
+    "items": [
+     "Build a Zap: form to confirmation email",
+     "Build a Make scenario that routes orders",
+     "Test with messy data",
+     "Hand over with a one-page run book"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Then you build a Make scenario that sends each order down the right route."
+   ],
+   "panel": {
+    "kicker": "What you will do",
+    "heading": "From first build to handover",
+    "items": [
+     "Build a Zap: form to confirmation email",
+     "Build a Make scenario that routes orders",
+     "Test with messy data",
+     "Hand over with a one-page run book"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "You test it with messy data, because one clean test row does not mean it is finished."
+   ],
+   "panel": {
+    "kicker": "What you will do",
+    "heading": "From first build to handover",
+    "items": [
+     "Build a Zap: form to confirmation email",
+     "Build a Make scenario that routes orders",
+     "Test with messy data",
+     "Hand over with a one-page run book"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "And you leave a run book, so the client can keep it running without you."
+   ],
+   "panel": {
+    "kicker": "What you will do",
+    "heading": "From first build to handover",
+    "items": [
+     "Build a Zap: form to confirmation email",
+     "Build a Make scenario that routes orders",
+     "Test with messy data",
+     "Hand over with a one-page run book"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Create a form with Full name, Email, Phone, Item ordered and Quantity. In the Responses tab, link it to a new Google Sheet. Every response becomes a new row."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Your first Zap",
+    "items": [
+     "Link a Google Form to a new Google Sheet",
+     "Trigger: Google Sheets, New Spreadsheet Row",
+     "Submit a test entry, then test the trigger",
+     "Action: Gmail, Send Email, with mapped fields",
+     "Test, read it as a customer, then publish"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "In Zapier, create a Zap. The trigger is Google Sheets, New Spreadsheet Row, on the response sheet."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Your first Zap",
+    "items": [
+     "Link a Google Form to a new Google Sheet",
+     "Trigger: Google Sheets, New Spreadsheet Row",
+     "Submit a test entry, then test the trigger",
+     "Action: Gmail, Send Email, with mapped fields",
+     "Test, read it as a customer, then publish"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Submit one test entry yourself, then test the trigger, so Zapier pulls in a real row with all its fields."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Your first Zap",
+    "items": [
+     "Link a Google Form to a new Google Sheet",
+     "Trigger: Google Sheets, New Spreadsheet Row",
+     "Submit a test entry, then test the trigger",
+     "Action: Gmail, Send Email, with mapped fields",
+     "Test, read it as a customer, then publish"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "The action is Gmail, Send Email. Map the To box to the Email field. Use Full name, Item ordered and Quantity in the subject and body."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Your first Zap",
+    "items": [
+     "Link a Google Form to a new Google Sheet",
+     "Trigger: Google Sheets, New Spreadsheet Row",
+     "Submit a test entry, then test the trigger",
+     "Action: Gmail, Send Email, with mapped fields",
+     "Test, read it as a customer, then publish"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Test the action, read the email as a customer would, then publish the Zap."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Your first Zap",
+    "items": [
+     "Link a Google Form to a new Google Sheet",
+     "Trigger: Google Sheets, New Spreadsheet Row",
+     "Submit a test entry, then test the trigger",
+     "Action: Gmail, Send Email, with mapped fields",
+     "Test, read it as a customer, then publish"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Keep the trigger sheet clean. The Zap finds fields by the header row, so never rename or reorder it, and never type notes or totals into that sheet. Do calculations on a second tab."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Your first Zap",
+    "items": [
+     "Link a Google Form to a new Google Sheet",
+     "Trigger: Google Sheets, New Spreadsheet Row",
+     "Submit a test entry, then test the trigger",
+     "Action: Gmail, Send Email, with mapped fields",
+     "Test, read it as a customer, then publish"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Never rename the headers or type notes into the response sheet.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "For example, Grace sells bead bags in Port Harcourt and expects about 60 orders a month. Her email says: thank you for ordering 2 times Mini beaded clutch."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Grace's bead shop Zap",
+    "items": [
+     "About 60 orders a month",
+     "One action per run: 60 tasks",
+     "Within the free 100 tasks",
+     "Email arrives within about 15 minutes"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Her Zap has one action, so each order uses one task. That is 60 tasks a month."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Grace's bead shop Zap",
+    "items": [
+     "About 60 orders a month",
+     "One action per run: 60 tasks",
+     "Within the free 100 tasks",
+     "Email arrives within about 15 minutes"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "That fits inside the free 100 tasks."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Grace's bead shop Zap",
+    "items": [
+     "About 60 orders a month",
+     "One action per run: 60 tasks",
+     "Within the free 100 tasks",
+     "Email arrives within about 15 minutes"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Her sister tests from her own phone. The email arrives within about 15 minutes, as expected for a polling trigger."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Grace's bead shop Zap",
+    "items": [
+     "About 60 orders a month",
+     "One action per run: 60 tasks",
+     "Within the free 100 tasks",
+     "Email arrives within about 15 minutes"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "A safety point about money. Fraudsters copy business names and send fake account numbers. So keep payment details in one place the owner controls, and check every automated message that mentions money.",
+    "Grace's email says payment details will come on WhatsApp from her known business number."
+   ],
+   "panel": {
+    "kicker": "Money safety",
+    "heading": "Keep payment details safe",
+    "mode": "compare",
+    "left_h": "Do",
+    "left": [
+     "Keep payment details in one place",
+     "Check every message about money",
+     "Send them from a known number"
+    ],
+    "right_h": "Never",
+    "right": [
+     "Let customer text decide payment",
+     "Send unchecked bank details",
+     "Trust an unlocked automation"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Never let customer-typed text decide where money is paid."
+   ],
+   "panel": {
+    "kicker": "Money safety",
+    "heading": "Keep payment details safe",
+    "mode": "compare",
+    "left_h": "Do",
+    "left": [
+     "Keep payment details in one place",
+     "Check every message about money",
+     "Send them from a known number"
+    ],
+    "right_h": "Never",
+    "right": [
+     "Let customer text decide payment",
+     "Send unchecked bank details",
+     "Trust an unlocked automation"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "For example, Kemi sells hair products from Lagos. In Make, the trigger watches her order sheet for new rows. During a trial, a check every 2 hours is sensible."
+   ],
+   "panel": {
+    "kicker": "Branching in Make",
+    "heading": "Kemi's order router",
+    "items": [
+     "Watch New Rows, on a schedule",
+     "Router after the trigger",
+     "Lagos route: email the rider",
+     "Other states: add an Interstate row",
+     "Fallback route for anything else"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Next comes a router. It uses no credits and lets each order travel down different routes."
+   ],
+   "panel": {
+    "kicker": "Branching in Make",
+    "heading": "Kemi's order router",
+    "items": [
+     "Watch New Rows, on a schedule",
+     "Router after the trigger",
+     "Lagos route: email the rider",
+     "Other states: add an Interstate row",
+     "Fallback route for anything else"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "On the first route, a filter lets through State equal to Lagos, and Gmail emails the rider."
+   ],
+   "panel": {
+    "kicker": "Branching in Make",
+    "heading": "Kemi's order router",
+    "items": [
+     "Watch New Rows, on a schedule",
+     "Router after the trigger",
+     "Lagos route: email the rider",
+     "Other states: add an Interstate row",
+     "Fallback route for anything else"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "On the second, State is not Lagos, so a row is added to the Interstate tab for the courier."
+   ],
+   "panel": {
+    "kicker": "Branching in Make",
+    "heading": "Kemi's order router",
+    "items": [
+     "Watch New Rows, on a schedule",
+     "Router after the trigger",
+     "Lagos route: email the rider",
+     "Other states: add an Interstate row",
+     "Fallback route for anything else"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "What if State is blank, or typed with an extra space? Trim spaces, match without caring about capital letters, and add a fallback route that alerts the owner."
+   ],
+   "panel": {
+    "kicker": "Branching in Make",
+    "heading": "Kemi's order router",
+    "items": [
+     "Watch New Rows, on a schedule",
+     "Router after the trigger",
+     "Lagos route: email the rider",
+     "Other states: add an Interstate row",
+     "Fallback route for anything else"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Add a fallback route so no order silently disappears.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Test on purpose with bad data. Try blank fields, phone numbers typed different ways, names with apostrophes, and a customer who submits twice."
+   ],
+   "panel": {
+    "kicker": "Real data is messy",
+    "heading": "Three things to test",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Edge cases",
+      "d": "Blank fields, phone numbers typed different ways, odd names, the same customer submitting twice."
+     },
+     {
+      "t": "Failures",
+      "d": "Remove a connection on purpose. Check that the error is recorded and a person is alerted."
+     },
+     {
+      "t": "Stored runs",
+      "d": "In Make, store incomplete executions so a failed run can be retried, not lost."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Test a failure too. Make, by default, switches off a scheduled scenario after 3 errors in a row. So send error alerts to you and to a named person at the client."
+   ],
+   "panel": {
+    "kicker": "Real data is messy",
+    "heading": "Three things to test",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Edge cases",
+      "d": "Blank fields, phone numbers typed different ways, odd names, the same customer submitting twice."
+     },
+     {
+      "t": "Failures",
+      "d": "Remove a connection on purpose. Check that the error is recorded and a person is alerted."
+     },
+     {
+      "t": "Stored runs",
+      "d": "In Make, store incomplete executions so a failed run can be retried, not lost."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "For example, Chidinma's enrolment scenario stopped when the admin changed a Google password. Musa saw the alert that morning. She reconnected, retried the stored runs, and all 9 waiting enrolments went through."
+   ],
+   "panel": {
+    "kicker": "Real data is messy",
+    "heading": "Three things to test",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Edge cases",
+      "d": "Blank fields, phone numbers typed different ways, odd names, the same customer submitting twice."
+     },
+     {
+      "t": "Failures",
+      "d": "Remove a connection on purpose. Check that the error is recorded and a person is alerted."
+     },
+     {
+      "t": "Stored runs",
+      "d": "In Make, store incomplete executions so a failed run can be retried, not lost."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Tick every box before you hand over. The normal case passes. Edge cases are handled or flagged. Failure alerts reach a person.",
+    "Personal data is kept to what each step needs. Nigeria has the Nigeria Data Protection Act 2023, so build in the client's own accounts and remove your access at the end.",
+    "And the run book is written and shared."
+   ],
+   "panel": {
+    "kicker": "Before you switch it on",
+    "heading": "Ready for real use?",
+    "items": [
+     "Normal case passes",
+     "Edge cases handled or flagged",
+     "Failure alerts reach a person",
+     "Personal data minimised",
+     "Run book written and shared"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "To remember. Keep the trigger sheet clean. Test with a real submission. Give every router a fallback. Send error alerts to a real person. And write a one-page run book: what it does, which accounts it uses, how to tell it works, and who to call."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "Keep the trigger sheet clean and headers unchanged",
+     "Test the trigger with a real submission",
+     "Every router needs a fallback route",
+     "Send error alerts to a real person",
+     "A one-page run book lets the client run it"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Now build your first Zap and test it from two devices. Build a two-route scenario with a fallback. Then break your own automation with a test plan, and write the run book.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice task",
+    "heading": "Your practice tasks",
+    "items": [
+     "Build and prove your first Zap",
+     "Build a two-route Make scenario",
+     "Break your own automation and write a run book"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

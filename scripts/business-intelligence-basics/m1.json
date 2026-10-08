@@ -1,0 +1,631 @@
+{
+ "course": "business-intelligence-basics",
+ "module": "m1",
+ "title": "BI starts with decisions, not data",
+ "course_title": "Business Intelligence Basics: Designing Systems that Drive Decisions",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "BI starts with decisions, not data.",
+    "This is the video for Module 1 of Business Intelligence Basics: what BI is and where it fits."
+   ]
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Many businesses already have plenty of data. The POS terminal records card payments, Paystack or Moniepoint keeps every transfer, and the shop has a stock book."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Plenty of data, no quick answers",
+    "items": [
+     "The POS, payment apps and stock book all hold data",
+     "Yet nobody can answer Monday's questions",
+     "BI closes that gap",
+     "Right information, right person, right time"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Yet on Monday morning the owner asks, how much did we really sell last week, and what should I reorder? And nobody can answer quickly with confidence."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Plenty of data, no quick answers",
+    "items": [
+     "The POS, payment apps and stock book all hold data",
+     "Yet nobody can answer Monday's questions",
+     "BI closes that gap",
+     "Right information, right person, right time"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "That gap is what business intelligence, or BI, closes."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Plenty of data, no quick answers",
+    "items": [
+     "The POS, payment apps and stock book all hold data",
+     "Yet nobody can answer Monday's questions",
+     "BI closes that gap",
+     "Right information, right person, right time"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "In this course, BI means a repeating system that gets the right information to the right decision-maker at the right time, so a decision is made and acted on."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Plenty of data, no quick answers",
+    "items": [
+     "The POS, payment apps and stock book all hold data",
+     "Yet nobody can answer Monday's questions",
+     "BI closes that gap",
+     "Right information, right person, right time"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "First, source systems, where data is born: the POS, payment apps, accounting software, WhatsApp order lists, even paper registers."
+   ],
+   "panel": {
+    "kicker": "The whole system",
+    "heading": "The six links in the BI chain",
+    "items": [
+     "Source systems: where data is born",
+     "Collect and clean, called ETL",
+     "One trusted store",
+     "Defined metrics, written down",
+     "Reports and alerts",
+     "Decision and action by a named person"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Next, collect and clean: getting data out and fixing spellings, duplicates and gaps. Professionals call this ETL, which means extract, transform, load."
+   ],
+   "panel": {
+    "kicker": "The whole system",
+    "heading": "The six links in the BI chain",
+    "items": [
+     "Source systems: where data is born",
+     "Collect and clean, called ETL",
+     "One trusted store",
+     "Defined metrics, written down",
+     "Reports and alerts",
+     "Decision and action by a named person"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Then one trusted store. For a small business, that can be one well-structured Google Sheet."
+   ],
+   "panel": {
+    "kicker": "The whole system",
+    "heading": "The six links in the BI chain",
+    "items": [
+     "Source systems: where data is born",
+     "Collect and clean, called ETL",
+     "One trusted store",
+     "Defined metrics, written down",
+     "Reports and alerts",
+     "Decision and action by a named person"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Then defined metrics, so that sales means the same thing in every report."
+   ],
+   "panel": {
+    "kicker": "The whole system",
+    "heading": "The six links in the BI chain",
+    "items": [
+     "Source systems: where data is born",
+     "Collect and clean, called ETL",
+     "One trusted store",
+     "Defined metrics, written down",
+     "Reports and alerts",
+     "Decision and action by a named person"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Then the reports and alerts themselves, such as a weekly one-page summary, or a WhatsApp message when stock is low."
+   ],
+   "panel": {
+    "kicker": "The whole system",
+    "heading": "The six links in the BI chain",
+    "items": [
+     "Source systems: where data is born",
+     "Collect and clean, called ETL",
+     "One trusted store",
+     "Defined metrics, written down",
+     "Reports and alerts",
+     "Decision and action by a named person"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "And last, a named person looks at the information on a known day and decides something. Without this link, the rest is decoration."
+   ],
+   "panel": {
+    "kicker": "The whole system",
+    "heading": "The six links in the BI chain",
+    "items": [
+     "Source systems: where data is born",
+     "Collect and clean, called ETL",
+     "One trusted store",
+     "Defined metrics, written down",
+     "Reports and alerts",
+     "Decision and action by a named person"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "rule": "If any link breaks, the whole chain fails.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "BI designers do not start with what data do we have. They ask, what decisions does this business make again and again? The tool is a decision inventory.",
+    "For example, Funmi runs a frozen chicken and fish business in Ibadan with two cold rooms."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Funmi's decision inventory",
+    "items": [
+     "List decisions made again and again",
+     "Write the owner and how often",
+     "Write the information each one needs",
+     "Note today's source and the gap",
+     "Count the cost of the manual way"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "She lists five repeated decisions, such as the weekly reorder, customer credit limits and delivery van routes."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Funmi's decision inventory",
+    "items": [
+     "List decisions made again and again",
+     "Write the owner and how often",
+     "Write the information each one needs",
+     "Note today's source and the gap",
+     "Count the cost of the manual way"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "For each, she writes the owner and how often. The reorder is hers, weekly."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Funmi's decision inventory",
+    "items": [
+     "List decisions made again and again",
+     "Write the owner and how often",
+     "Write the information each one needs",
+     "Note today's source and the gap",
+     "Count the cost of the manual way"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "The reorder needs stock by product, sales in the last four weeks, and supplier lead time."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Funmi's decision inventory",
+    "items": [
+     "List decisions made again and again",
+     "Write the owner and how often",
+     "Write the information each one needs",
+     "Note today's source and the gap",
+     "Count the cost of the manual way"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Stock comes from a Friday hand count with no history kept. And customer payment days are not tracked at all."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Funmi's decision inventory",
+    "items": [
+     "List decisions made again and again",
+     "Write the owner and how often",
+     "Write the information each one needs",
+     "Note today's source and the gap",
+     "Count the cost of the manual way"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "The hand count takes 2 cold rooms times 3 hours times 52 weeks. That is 312 staff hours a year, thrown away after each reorder. So her BI work starts with stock history and payment days."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Funmi's decision inventory",
+    "items": [
+     "List decisions made again and again",
+     "Write the owner and how often",
+     "Write the information each one needs",
+     "Note today's source and the gap",
+     "Count the cost of the manual way"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "OLTP systems run the business. They record each sale, payment or enrolment, and must be fast."
+   ],
+   "panel": {
+    "kicker": "Key words",
+    "heading": "Running the business vs answering questions",
+    "mode": "compare",
+    "left_h": "OLTP",
+    "left": [
+     "Records one sale at a time",
+     "POS, Paystack, school fees app",
+     "Must be fast and always on",
+     "Keeps current state"
+    ],
+    "right_h": "OLAP",
+    "right": [
+     "Reads many rows at once",
+     "Warehouse, BI model, clean sheet",
+     "Built for summaries and trends",
+     "Keeps history over time"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "OLAP means storage built for analysis: adding thousands of rows and comparing months. BI copies data into a separate store, so reports do not slow down the till and history is kept."
+   ],
+   "panel": {
+    "kicker": "Key words",
+    "heading": "Running the business vs answering questions",
+    "mode": "compare",
+    "left_h": "OLTP",
+    "left": [
+     "Records one sale at a time",
+     "POS, Paystack, school fees app",
+     "Must be fast and always on",
+     "Keeps current state"
+    ],
+    "right_h": "OLAP",
+    "right": [
+     "Reads many rows at once",
+     "Warehouse, BI model, clean sheet",
+     "Built for summaries and trends",
+     "Keeps history over time"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Before you recommend anything, find the starting point. At level 1, data is scattered in notebooks, phones and people's heads."
+   ],
+   "panel": {
+    "kicker": "Where are they now?",
+    "heading": "Five levels of BI maturity",
+    "items": [
+     "1. Scattered: notebooks, phones, heads",
+     "2. Spreadsheet reporting by hand",
+     "3. Centralised: one trusted store",
+     "4. Managed: owners, checks, access rules",
+     "5. Decision-driven: reports used in meetings"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "At level 2, monthly reports are built by hand from exports, and numbers often disagree."
+   ],
+   "panel": {
+    "kicker": "Where are they now?",
+    "heading": "Five levels of BI maturity",
+    "items": [
+     "1. Scattered: notebooks, phones, heads",
+     "2. Spreadsheet reporting by hand",
+     "3. Centralised: one trusted store",
+     "4. Managed: owners, checks, access rules",
+     "5. Decision-driven: reports used in meetings"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "At level 3, one trusted store exists, and standard reports refresh on schedule."
+   ],
+   "panel": {
+    "kicker": "Where are they now?",
+    "heading": "Five levels of BI maturity",
+    "items": [
+     "1. Scattered: notebooks, phones, heads",
+     "2. Spreadsheet reporting by hand",
+     "3. Centralised: one trusted store",
+     "4. Managed: owners, checks, access rules",
+     "5. Decision-driven: reports used in meetings"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "At level 4, metrics have owners, quality checks and access rules."
+   ],
+   "panel": {
+    "kicker": "Where are they now?",
+    "heading": "Five levels of BI maturity",
+    "items": [
+     "1. Scattered: notebooks, phones, heads",
+     "2. Spreadsheet reporting by hand",
+     "3. Centralised: one trusted store",
+     "4. Managed: owners, checks, access rules",
+     "5. Decision-driven: reports used in meetings"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "At level 5, reports are used in fixed review meetings, and actions are tracked."
+   ],
+   "panel": {
+    "kicker": "Where are they now?",
+    "heading": "Five levels of BI maturity",
+    "items": [
+     "1. Scattered: notebooks, phones, heads",
+     "2. Spreadsheet reporting by hand",
+     "3. Centralised: one trusted store",
+     "4. Managed: owners, checks, access rules",
+     "5. Decision-driven: reports used in meetings"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "A 10-question check helps. Score each question 0 for no, 1 for partly, or 2 for yes. The maximum is 20."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Scoring a cooperative",
+    "items": [
+     "Score 10 questions: 0 no, 1 partly, 2 yes",
+     "Hauwa's total: 6",
+     "6 to 9 means level 2",
+     "Next step: definitions and one register"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "For example, Hauwa runs a cooperative in Kaduna with about 600 members. Contributions are recorded in two Excel files that often disagree. Her total is 6."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Scoring a cooperative",
+    "items": [
+     "Score 10 questions: 0 no, 1 partly, 2 yes",
+     "Hauwa's total: 6",
+     "6 to 9 means level 2",
+     "Next step: definitions and one register"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "A score of 6 to 9 means level 2, spreadsheet reporting."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Scoring a cooperative",
+    "items": [
+     "Score 10 questions: 0 no, 1 partly, 2 yes",
+     "Hauwa's total: 6",
+     "6 to 9 means level 2",
+     "Next step: definitions and one register"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "So her next step is written definitions and one trusted register, not a dashboard. Buying a dashboard tool too early shows wrong numbers, and leaders stop trusting data altogether."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Scoring a cooperative",
+    "items": [
+     "Score 10 questions: 0 no, 1 partly, 2 yes",
+     "Hauwa's total: 6",
+     "6 to 9 means level 2",
+     "Next step: definitions and one register"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Fix the foundations before you buy a dashboard tool.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "To remember. BI is a repeating system, not a tool, and every link must work, right up to the action.",
+    "Start with a decision inventory, keep reporting separate from the till, and know the maturity level before you build."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "BI is a repeating system, not a tool",
+     "Every link must work, up to the action",
+     "Start with a decision inventory",
+     "Run reports on a separate store",
+     "Know the maturity level before you build"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Now draft your first decision inventory, translate a business you know into BI language, and run a maturity check.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice tasks",
+    "heading": "Your practice tasks",
+    "items": [
+     "Draft your first decision inventory",
+     "Translate a business into BI language",
+     "Run a maturity check"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

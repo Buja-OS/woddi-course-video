@@ -1,0 +1,518 @@
+{
+ "course": "factory-workshop-setup-small-scale",
+ "module": "m3",
+ "title": "Manyan umarni, ƙungiyar ku da shirin faɗaɗa kwanaki 90",
+ "course_title": "Saita Masana'antu & Bita (Ƙananan Sikeli)",
+ "shots": [
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Manyan umarni, ƙungiyar ku, da shirin faɗaɗa kwanaki 90.",
+    "Wannan shi ne bidiyo na module uku na Factory and Workshop Setup."
+   ]
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Tsare-tsare, zaman lafiya yana taimaka muku samun manyan masu siye. Amma iyawar gaskiya kawai ke kiyaye su. Kada ku taɓa yin alkawarin fiye da abin da taron bitar ku zai iya samarwa."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Girma ba tare da saba alkawari ba",
+    "items": [
+     "Yi hukunci da babban oda akan iya aiki",
+     "Horar da mutane don haka aiki ba ya dogara da daya",
+     "Fadada a kan ƙugiya, tare da biya na gaskiya"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Yayin da mutane ke shiga, dokokin sararin ku sun zama dokokin mutane."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Girma ba tare da saba alkawari ba",
+    "items": [
+     "Yi hukunci da babban oda akan iya aiki",
+     "Horar da mutane don haka aiki ba ya dogara da daya",
+     "Fadada a kan ƙugiya, tare da biya na gaskiya"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Kuma lokacin da kuka girma, kuna kashewa a inda ake fitar da fitarwa, tare da adadi zaku iya kare."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Girma ba tare da saba alkawari ba",
+    "items": [
+     "Yi hukunci da babban oda akan iya aiki",
+     "Horar da mutane don haka aiki ba ya dogara da daya",
+     "Fadada a kan ƙugiya, tare da biya na gaskiya"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Misali, wata kungiyar otal ta tambayi Hauwa buhu 400 a cikin kwanaki 18 na aiki. Tana yin jakunkuna 22 a rana, kuma abokan cinikinta na yau da kullun suna ɗaukar 15. Don haka tana da sauran 7 a rana."
+   ],
+   "panel": {
+    "kicker": "Shin odar ta dace?",
+    "heading": "Odar jaka 400 na Hauwa a cikin kwanaki 18",
+    "items": [
+     "Iyakar kayan aiki: 22 - 15 = jaka 7 a rana",
+     "Sama da kwanaki 18: 7 x 18 = jakunkuna 126",
+     "Gajerewar: 400 - 126 = jakunkuna 274",
+     "Bayar da zaɓuɓɓuka: raba, ƙara inji, ko abokin tarayya"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Sama da kwanaki 18, wato jaka 126 kenan."
+   ],
+   "panel": {
+    "kicker": "Shin odar ta dace?",
+    "heading": "Odar jaka 400 na Hauwa a cikin kwanaki 18",
+    "items": [
+     "Iyakar kayan aiki: 22 - 15 = jaka 7 a rana",
+     "Sama da kwanaki 18: 7 x 18 = jakunkuna 126",
+     "Gajerewar: 400 - 126 = jakunkuna 274",
+     "Bayar da zaɓuɓɓuka: raba, ƙara inji, ko abokin tarayya"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Gajarta ce da jaka 274. Ba za ta iya saduwa da kwanan wata ba kamar yadda take."
+   ],
+   "panel": {
+    "kicker": "Shin odar ta dace?",
+    "heading": "Odar jaka 400 na Hauwa a cikin kwanaki 18",
+    "items": [
+     "Iyakar kayan aiki: 22 - 15 = jaka 7 a rana",
+     "Sama da kwanaki 18: 7 x 18 = jakunkuna 126",
+     "Gajerewar: 400 - 126 = jakunkuna 274",
+     "Bayar da zaɓuɓɓuka: raba, ƙara inji, ko abokin tarayya"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Don haka ta ba da zaɓuɓɓuka: isar da 126 yanzu sauran kuma daga baya, ƙara na'ura ta uku kuma a kawo cikin kusan makonni 4, ko kwangilar kwangila ga amintaccen furodusa ƙarƙashin yarjejeniya da aka rubuta.",
+    "Ta ba da shawarar makonni 4 tare da ajiya kashi 50, a rubuce."
+   ],
+   "panel": {
+    "kicker": "Shin odar ta dace?",
+    "heading": "Odar jaka 400 na Hauwa a cikin kwanaki 18",
+    "items": [
+     "Iyakar kayan aiki: 22 - 15 = jaka 7 a rana",
+     "Sama da kwanaki 18: 7 x 18 = jakunkuna 126",
+     "Gajerewar: 400 - 126 = jakunkuna 274",
+     "Bayar da zaɓuɓɓuka: raba, ƙara inji, ko abokin tarayya"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Cewar a'a kwanan wata ba zai yuwu ba ya buge ta.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Duba duka biyar kafin ka ce eh. Ana siyan kayan kafin mai siye ya biya, don haka yarda da ajiya a rubuce.",
+    "Samfuran da aka amince da shi a rubuce kuma kiyaye shi azaman ma'auni. Tabbatar da duk wani canja wuri a cikin app ɗin ku na banki, ba daga hoton allo ko faɗakarwar rubutu ba, kafin ku saki kaya."
+   ],
+   "panel": {
+    "kicker": "Kafin kace eh",
+    "heading": "Kafin ka karɓi babban oda",
+    "items": [
+     "Ƙarfin kayan aiki yana rufe shi",
+     "An adana tsabar kuɗi don kayan",
+     "Ana iya kiyaye inganci",
+     "Ranar bayarwa na gaskiya ne",
+     "Sharuɗɗan suna cikin rubuce-rubuce"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "A rana ta farko, yi tafiya da sabon mutum cikin dukan kwarara. Nuna mafita, kashewa, kayan agajin farko, babban canji da kantin sinadarai. Sannan horar da kowane aiki a matakai hudu. Faɗa: bayyana ma'auni da wuraren aminci."
+   ],
+   "panel": {
+    "kicker": "Horar da mutane",
+    "heading": "Koyar da kowane aiki a matakai huɗu",
+    "items": [
+     "Faɗa: aikin, ma'auni, wuraren aminci",
+     "Nuna: yi a hankali yayin da suke kallo",
+     "Yi tare: suna yi, ku gyara",
+     "Bincika kuma sa hannu: shi kaɗai, zuwa ma'auni"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Nuna: yi a hankali yayin da suke kallo."
+   ],
+   "panel": {
+    "kicker": "Horar da mutane",
+    "heading": "Koyar da kowane aiki a matakai huɗu",
+    "items": [
+     "Faɗa: aikin, ma'auni, wuraren aminci",
+     "Nuna: yi a hankali yayin da suke kallo",
+     "Yi tare: suna yi, ku gyara",
+     "Bincika kuma sa hannu: shi kaɗai, zuwa ma'auni"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Yi tare: suna yin shi yayin da kuke kallo kuma ku gyara kai tsaye."
+   ],
+   "panel": {
+    "kicker": "Horar da mutane",
+    "heading": "Koyar da kowane aiki a matakai huɗu",
+    "items": [
+     "Faɗa: aikin, ma'auni, wuraren aminci",
+     "Nuna: yi a hankali yayin da suke kallo",
+     "Yi tare: suna yi, ku gyara",
+     "Bincika kuma sa hannu: shi kaɗai, zuwa ma'auni"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Bincika kuma sa hannu: suna yin shi kaɗai, zuwa daidaitattun, fiye da sau ɗaya, kuma kuna rikodin shi."
+   ],
+   "panel": {
+    "kicker": "Horar da mutane",
+    "heading": "Koyar da kowane aiki a matakai huɗu",
+    "items": [
+     "Faɗa: aikin, ma'auni, wuraren aminci",
+     "Nuna: yi a hankali yayin da suke kallo",
+     "Yi tare: suna yi, ku gyara",
+     "Bincika kuma sa hannu: shi kaɗai, zuwa ma'auni"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "A rana ta ɗaya, yi tafiya gaba ɗaya kuma nuna kowane wurin aminci.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Matrix na ƙwarewa yana ƙididdige ƙimar kowane mutum akan kowane ɗawainiya, daga 0, ba horarwa ba, zuwa 3, na iya horar da wasu. Hauwa ta ga ita kadai ta iya yanke ta duba. Idan ta yi tafiya, matakan biyu suna tsayawa. Don haka ta ke horar da mashin din da almajiri."
+   ],
+   "panel": {
+    "kicker": "Tsara mutane",
+    "heading": "Kayan aiki guda uku don ƙaramin ƙungiya",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Matrix na fasaha",
+      "d": "Mutanen da ke ƙasa, ayyuka a saman sama, sun ci 0 zuwa 3. Nemo ayyuka mutum ɗaya kaɗai zai iya yi."
+     },
+     {
+      "t": "Masu yanki",
+      "d": "Kowane yanki yana da mai suna mai suna wanda ke bincika yau da kullun cewa yana da kaya, tsabta da aminci."
+     },
+     {
+      "t": "Kulawar inji",
+      "d": "Kowane inji yana da mai suna don kulawa na yau da kullun, yana bin jagorar."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Ba kowane yanki mai suna mai suna, wanda ya ba da rahoton duk wani abu da ya ɓace ko ya karye."
+   ],
+   "panel": {
+    "kicker": "Tsara mutane",
+    "heading": "Kayan aiki guda uku don ƙaramin ƙungiya",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Matrix na fasaha",
+      "d": "Mutanen da ke ƙasa, ayyuka a saman sama, sun ci 0 zuwa 3. Nemo ayyuka mutum ɗaya kaɗai zai iya yi."
+     },
+     {
+      "t": "Masu yanki",
+      "d": "Kowane yanki yana da mai suna mai suna wanda ke bincika yau da kullun cewa yana da kaya, tsabta da aminci."
+     },
+     {
+      "t": "Kulawar inji",
+      "d": "Kowane inji yana da mai suna don kulawa na yau da kullun, yana bin jagorar."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Kuma a bai wa kowane na'ura mai suna don kula da ita na yau da kullun. Samar da kayan kariya kyauta, kuma ka sa da kanka. Idan mai shi ya tsallake gilashin, kowa zai yi."
+   ],
+   "panel": {
+    "kicker": "Tsara mutane",
+    "heading": "Kayan aiki guda uku don ƙaramin ƙungiya",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Matrix na fasaha",
+      "d": "Mutanen da ke ƙasa, ayyuka a saman sama, sun ci 0 zuwa 3. Nemo ayyuka mutum ɗaya kaɗai zai iya yi."
+     },
+     {
+      "t": "Masu yanki",
+      "d": "Kowane yanki yana da mai suna mai suna wanda ke bincika yau da kullun cewa yana da kaya, tsabta da aminci."
+     },
+     {
+      "t": "Kulawar inji",
+      "d": "Kowane inji yana da mai suna don kulawa na yau da kullun, yana bin jagorar."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Fadada a bakin kwalbar. Ga Hauwa mai dinki, don haka ta sayi mashin na uku. Ƙarfin zai haura zuwa jaka 792 a wata, amma ba ta ɗauka cewa za ta sayar da su duka. Daga tattaunawar mai siye tana tsammanin ƙarin jakunkuna 60 da farko."
+   ],
+   "card": {
+    "title": "Shin injin na uku yana da daraja?",
+    "rows": [],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Injin, teburi da soket sun kai kimanin naira 500,000. Karin buhunan na kawo naira 180,000 duk wata. Injin na uku da wutar lantarki ya kai 85,000."
+   ],
+   "card": {
+    "title": "Shin injin na uku yana da daraja?",
+    "rows": [
+     [
+      "Kudin lokaci guda",
+      "500,000"
+     ],
+     [
+      "Karin gudummawar wata daya",
+      "180,000"
+     ],
+     [
+      "Ƙarin gudu yana kashe wata ɗaya",
+      "85,000"
+     ]
+    ],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Hakan ya bar Naira 95,000 karin riba a wata. Biyan baya shine farashin lokaci ɗaya raba ta hanyar ƙarin ribar kowane wata: kusan watanni 5.3."
+   ],
+   "card": {
+    "title": "Shin injin na uku yana da daraja?",
+    "rows": [
+     [
+      "Kudin lokaci guda",
+      "500,000"
+     ],
+     [
+      "Karin gudummawar wata daya",
+      "180,000"
+     ],
+     [
+      "Ƙarin gudu yana kashe wata ɗaya",
+      "85,000"
+     ]
+    ],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "A kan tallace-tallace na hankali, na'urar tana biyan kanta a cikin kimanin watanni biyar zuwa shida."
+   ],
+   "panel": {
+    "kicker": "Gwada mummunan harka",
+    "heading": "Menene idan tallace-tallace ya fi rauni?",
+    "mode": "compare",
+    "left_h": "Karin jaka 60",
+    "left": [
+     "Ribar Naira 95,000 duk wata",
+     "Bayarwa kamar watanni 5.3"
+    ],
+    "right_h": "Karin jakunkuna 30",
+    "right": [
+     "Ribar Naira 5,000 a wata",
+     "Bayarwa watanni 100"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Amma idan ta sayar da karin buhu 30 kacal, ribar ta ragu zuwa naira 5,000 a wata, kuma za ta biya wata 100. Shi ya sa ta jira tabbatacciyar umarni da ajiya kafin siyayya. Kada a taɓa yin rance a kan cikakken hasashen iya aiki."
+   ],
+   "panel": {
+    "kicker": "Gwada mummunan harka",
+    "heading": "Menene idan tallace-tallace ya fi rauni?",
+    "mode": "compare",
+    "left_h": "Karin jaka 60",
+    "left": [
+     "Ribar Naira 95,000 duk wata",
+     "Bayarwa kamar watanni 5.3"
+    ],
+    "right_h": "Karin jakunkuna 30",
+    "right": [
+     "Ribar Naira 5,000 a wata",
+     "Bayarwa watanni 100"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Rubuta shirin ku a matakai hudu. Tabbatar da buƙata kafin siye. Sa'an nan kuma shigar, tare da amintaccen soket da wurin da ke kiyaye hanyar tafiya."
+   ],
+   "panel": {
+    "kicker": "Kwanaki 90 na ku",
+    "heading": "Shirin fadada kwanaki 90",
+    "items": [
+     "Kwanaki 1-30: tabbatar da buƙatu, sami ƙididdiga",
+     "Kwanaki 31-60: saya, shigarwa, waya",
+     "Kwanaki 61-75: haya da jirgin kasa",
+     "Kwanaki 76-90: gudu, auna, bita"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Bar lokaci don yin hayar da horarwa kafin ku dogara da sabon ƙarfin, da sabunta ƙimar haɗarin ku. A ranar 90, bitar fitarwa, tallace-tallace, farashin gudana da abubuwan da suka faru."
+   ],
+   "panel": {
+    "kicker": "Kwanaki 90 na ku",
+    "heading": "Shirin fadada kwanaki 90",
+    "items": [
+     "Kwanaki 1-30: tabbatar da buƙatu, sami ƙididdiga",
+     "Kwanaki 31-60: saya, shigarwa, waya",
+     "Kwanaki 61-75: haya da jirgin kasa",
+     "Kwanaki 76-90: gudu, auna, bita"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Don tunawa. Bincika iya aiki, tsabar kuɗi da inganci kafin ka ce e. Cross-train don haka babu wani aiki ya dogara da mutum ɗaya. Fadada a bakin kwalbar, yi aiki da biya akan tallace-tallace na hankali, kuma gwada shi akan mummunan harka."
+   ],
+   "panel": {
+    "kicker": "Mabuɗin mahimmanci",
+    "heading": "Ka tuna",
+    "items": [
+     "Duba iya aiki, tsabar kudi da inganci kafin e",
+     "Horo a matakai hudu; gicciye-jirgin ayyuka key",
+     "Fadada a bakin kwalbar",
+     "Biya = farashi na lokaci ɗaya / ƙarin riba kowane wata",
+     "Gwada shirin akan mummunan lamari"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Ayyukanku: gwada babban tsari akan ƙarfin ku, gina matrix ɗin ƙwarewar ku da shirin ƙaddamarwa, da tsara shirin fadada ku na kwanaki 90.",
+    "Ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi ayyuka",
+    "heading": "Ayyukan aikin ku",
+    "items": [
+     "Gwada wani babban tsari na gaske ko wanda aka zato",
+     "Gina matrix na ƙwarewar ku da shirin ƙaddamarwa",
+     "Zana tsarin fadada ku na kwanaki 90"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

@@ -1,0 +1,470 @@
+{
+ "course": "api-fundamentals",
+ "module": "m3",
+ "title": "From client pain to priced integration and portfolio",
+ "course_title": "API Fundamentals",
+ "shots": [
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "From client pain to a priced integration, and your portfolio.",
+    "This is the video for module three of API Fundamentals."
+   ]
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Clients rarely ask for an API. They say: my staff spend the whole afternoon checking who has paid. Discovery is the structured conversation that turns that pain into a clear integration, or sometimes into honest advice that none is needed."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Clients describe a pain, not an API",
+    "items": [
+     "Discovery turns pain into one clear job",
+     "A spec says exactly what will happen",
+     "A fair price traces back to tasks",
+     "A portfolio proves what you can do"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Then you write a one-page spec, and price it task by task."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Clients describe a pain, not an API",
+    "items": [
+     "Discovery turns pain into one clear job",
+     "A spec says exactly what will happen",
+     "A fair price traces back to tasks",
+     "A portfolio proves what you can do"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Finally, a portfolio shows clients what you understand, because they can only see what you have documented."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Clients describe a pain, not an API",
+    "items": [
+     "Discovery turns pain into one clear job",
+     "A spec says exactly what will happen",
+     "A fair price traces back to tasks",
+     "A portfolio proves what you can do"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Ask what should be different when this works. Then ask to see the current process, not only hear about it. Watching one payment being confirmed often reveals hidden steps."
+   ],
+   "panel": {
+    "kicker": "Discovery",
+    "heading": "Six areas to ask about",
+    "items": [
+     "Outcome: what should be different?",
+     "Current process: how often, how long?",
+     "Data: which fields, any customer details?",
+     "Provider: docs, test mode, fees, limits",
+     "Failure: what if the API is down?",
+     "Ownership: who owns keys and fixes?"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Ask which exact data fields are needed, and whether any identify customers. Check that the provider has public documentation, a test mode, and fees or limits the client can live with."
+   ],
+   "panel": {
+    "kicker": "Discovery",
+    "heading": "Six areas to ask about",
+    "items": [
+     "Outcome: what should be different?",
+     "Current process: how often, how long?",
+     "Data: which fields, any customer details?",
+     "Provider: docs, test mode, fees, limits",
+     "Failure: what if the API is down?",
+     "Ownership: who owns keys and fixes?"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Plan the fallback if the API is down for a day, usually the old manual process. And agree who owns the keys and future fixes."
+   ],
+   "panel": {
+    "kicker": "Discovery",
+    "heading": "Six areas to ask about",
+    "items": [
+     "Outcome: what should be different?",
+     "Current process: how often, how long?",
+     "Data: which fields, any customer details?",
+     "Provider: docs, test mode, fees, limits",
+     "Failure: what if the API is down?",
+     "Ownership: who owns keys and fixes?"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "For example, Bisi sells foodstuff online in Lagos through Paystack and asks Nkechi, an API consultant, to connect everything. Bisi wants orders packed within one hour of payment, and no goods released on fake alerts."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Bisi's foodstuff shop",
+    "items": [
+     "Goal: pack within one hour, no fake alerts",
+     "Baseline: 40 orders x 3 minutes = 2 hours",
+     "Phone numbers shared only with packers",
+     "Fallback: manual checks for that day",
+     "Plan: signed webhook plus verify call"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Nkechi watches the assistant: about 40 orders a day, 3 minutes each. That is 120 minutes, or 2 hours, every day."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Bisi's foodstuff shop",
+    "items": [
+     "Goal: pack within one hour, no fake alerts",
+     "Baseline: 40 orders x 3 minutes = 2 hours",
+     "Phone numbers shared only with packers",
+     "Fallback: manual checks for that day",
+     "Plan: signed webhook plus verify call"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Customer phone numbers are personal data, so only packing staff see them. And if the system is down, the assistant checks by hand that day."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Bisi's foodstuff shop",
+    "items": [
+     "Goal: pack within one hour, no fake alerts",
+     "Baseline: 40 orders x 3 minutes = 2 hours",
+     "Phone numbers shared only with packers",
+     "Fallback: manual checks for that day",
+     "Plan: signed webhook plus verify call"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Nkechi proposes one focused job: a signed webhook plus a verify call that marks orders as paid. It is clear enough to price."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Bisi's foodstuff shop",
+    "items": [
+     "Goal: pack within one hour, no fake alerts",
+     "Baseline: 40 orders x 3 minutes = 2 hours",
+     "Phone numbers shared only with packers",
+     "Fallback: manual checks for that day",
+     "Plan: signed webhook plus verify call"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "One focused integration, not \"connect everything\".",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "API work carries uncertainty, so estimate each task, add them up, then add a buffer you state openly. Nkechi's tasks add to 24 hours. With 25 percent added, that is 30 hours."
+   ],
+   "card": {
+    "title": "Pricing Nkechi's project",
+    "rows": [],
+    "note": "Illustrative rate. Paystack's own fees are separate."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "At an illustrative 8,000 naira an hour, the project fee is 240,000 naira."
+   ],
+   "card": {
+    "title": "Pricing Nkechi's project",
+    "rows": [
+     [
+      "Her rate per hour",
+      "8,000"
+     ],
+     [
+      "Project fee: 30 hours",
+      "240,000"
+     ]
+    ],
+    "note": "Illustrative rate. Paystack's own fees are separate."
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Optional support is 2 hours a month, 16,000 naira, for key rotation and small fixes.",
+    "Paystack's own transaction fees are listed separately, paid by the client directly. She asks for 120,000 naira before the build and 120,000 when the tests pass."
+   ],
+   "card": {
+    "title": "Pricing Nkechi's project",
+    "rows": [
+     [
+      "Her rate per hour",
+      "8,000"
+     ],
+     [
+      "Project fee: 30 hours",
+      "240,000"
+     ],
+     [
+      "Optional support each month",
+      "16,000"
+     ]
+    ],
+    "note": "Illustrative rate. Paystack's own fees are separate."
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Write down exactly what is in scope."
+   ],
+   "panel": {
+    "kicker": "Scope",
+    "heading": "In scope, or a change request?",
+    "mode": "compare",
+    "left_h": "In scope",
+    "left": [
+     "Webhook with signature check",
+     "Verify amount and currency",
+     "Test build and five tests",
+     "Run sheet and one handover"
+    ],
+    "right_h": "Quote separately",
+    "right": [
+     "Refunds and other events",
+     "SMS or WhatsApp messages",
+     "Website design changes"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "When the client asks for something else, welcome the idea, write it as a change request with its own estimate, and let them decide. Small unpaid additions are how fixed-price projects become losses.",
+    "And the client always owns the provider account and keys. Never hold them hostage."
+   ],
+   "panel": {
+    "kicker": "Scope",
+    "heading": "In scope, or a change request?",
+    "mode": "compare",
+    "left_h": "In scope",
+    "left": [
+     "Webhook with signature check",
+     "Verify amount and currency",
+     "Test build and five tests",
+     "Run sheet and one handover"
+    ],
+    "right_h": "Quote separately",
+    "right": [
+     "Refunds and other events",
+     "SMS or WhatsApp messages",
+     "Website design changes"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "For example, Zainab in Kano asked Open-Meteo for three days of maximum and minimum temperatures, sent a deliberate bad request to record the 400 error, and noted that without the timezone setting, times come back in UTC."
+   ],
+   "panel": {
+    "kicker": "Your portfolio",
+    "heading": "Three pieces to start",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Exploration write-up",
+      "d": "Your question, the exact request, status, a response extract, your reading, and one deliberate error."
+     },
+     {
+      "t": "Documentation summary",
+      "d": "About 300 words on a business API, in your own words, only what the docs say."
+     },
+     {
+      "t": "A 90-day plan",
+      "d": "Weekly targets you can check, reviewed every two weeks."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Next, summarise a business API like Paystack in about 300 words. If you are unsure, say not covered in the pages I read, instead of guessing."
+   ],
+   "panel": {
+    "kicker": "Your portfolio",
+    "heading": "Three pieces to start",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Exploration write-up",
+      "d": "Your question, the exact request, status, a response extract, your reading, and one deliberate error."
+     },
+     {
+      "t": "Documentation summary",
+      "d": "About 300 words on a business API, in your own words, only what the docs say."
+     },
+     {
+      "t": "A 90-day plan",
+      "d": "Weekly targets you can check, reviewed every two weeks."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Third, a 90-day plan with checkable targets, such as 20 requests logged in weeks 1 to 2. If a target slips, shrink it rather than drop it."
+   ],
+   "panel": {
+    "kicker": "Your portfolio",
+    "heading": "Three pieces to start",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Exploration write-up",
+      "d": "Your question, the exact request, status, a response extract, your reading, and one deliberate error."
+     },
+     {
+      "t": "Documentation summary",
+      "d": "About 300 words on a business API, in your own words, only what the docs say."
+     },
+     {
+      "t": "A 90-day plan",
+      "d": "Weekly targets you can check, reviewed every two weeks."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Before you share any screenshot or write-up, remove keys, even test keys, plus tokens and signatures.",
+    "Remove customer names, emails, phone numbers and real transaction references, and use test or fake data. One leaked key can undo the trust a portfolio was meant to build."
+   ],
+   "panel": {
+    "kicker": "Safety",
+    "heading": "Clean before you publish",
+    "items": [
+     "Remove keys, tokens and signatures",
+     "Remove customer names, emails, phones",
+     "Remove real transaction references",
+     "Use test mode or fake data"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "To remember. Start discovery with the outcome and a measured baseline. Price task by task with an open buffer. Keep provider fees separate. Turn new ideas into change requests. And clean every portfolio piece before you share it."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "Measure the manual baseline first",
+     "Price task by task, with a stated buffer",
+     "Keep provider fees separate from yours",
+     "Extra ideas become priced change requests"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Now run a practice discovery, spec and price one integration, and draft your first portfolio piece with a 90-day plan.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice tasks",
+    "heading": "Your practice tasks",
+    "items": [
+     "Run a practice discovery",
+     "Spec and price one integration",
+     "Draft your first portfolio piece"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

@@ -1,0 +1,497 @@
+{
+ "course": "marketing-analytics-reporting",
+ "module": "m1",
+ "title": "Meça o que importa: KPIs, fórmulas e quem ganhou a venda",
+ "course_title": "Análise e relatórios de marketing",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Meça o que importa: KPIs, fórmulas e quem realmente ganhou a venda.",
+    "Este é o vídeo do Módulo 1 de Análise e Relatórios de Marketing."
+   ]
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Muitos relatórios dizem: 40 postagens, 120.000 impressões, 2.300 curtidas. Tudo verdade. Mas o proprietário ainda não consegue responder à sua verdadeira pergunta. Devo continuar gastando esse dinheiro e onde?"
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Dos relatórios de atividades às decisões",
+    "items": [
+     "Decisão: o que mudar",
+     "Resultado do negócio: vendas, leads",
+     "Eficiência do canal: CPA, ROAS",
+     "Atividade: postagens, impressões"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Um relatório forte começa no topo. A decisão e, em seguida, o resultado do negócio, como vendas ou leads."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Dos relatórios de atividades às decisões",
+    "items": [
+     "Decisão: o que mudar",
+     "Resultado do negócio: vendas, leads",
+     "Eficiência do canal: CPA, ROAS",
+     "Atividade: postagens, impressões"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Abaixo disso, números de canais que explicam o resultado. A atividade vem por último, apenas como contexto. Portanto, antes de abrir qualquer painel, pergunte qual decisão o relatório deve apoiar."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Dos relatórios de atividades às decisões",
+    "items": [
+     "Decisão: o que mudar",
+     "Resultado do negócio: vendas, leads",
+     "Eficiência do canal: CPA, ROAS",
+     "Atividade: postagens, impressões"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ads",
+   "say": [
+    "Amaka quer saber se deve aumentar os gastos com publicidade em abril e em qual plataforma. Sua folha de pedidos mostra 95 pedidos no valor de 1.710.000 nairas em março."
+   ],
+   "card": {
+    "title": "Gastos de marketing de março de Amaka",
+    "rows": [],
+    "note": "Pratique figuras. Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "laptop_ads",
+   "say": [
+    "Ela gastou 300.000 nairas em anúncios Meta e 150.000 em anúncios do Google."
+   ],
+   "card": {
+    "title": "Gastos de marketing de março de Amaka",
+    "rows": [
+     [
+      "Meta-anúncios",
+      "300,000"
+     ],
+     [
+      "Anúncios do Google",
+      "150,000"
+     ]
+    ],
+    "note": "Pratique figuras. Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Isso é 450.000 nairas no total. Divida a receita pelos gastos e cada 1 naira de marketing equivale a 3,80 naira de vendas. Cada pedido custou cerca de 4.737 nairas em marketing.",
+    "Mas 3,8 é bom? Só a margem pode dizer. Se o produto, a embalagem e a entrega representam 60% do preço, sobra apenas 40% para marketing e despesas gerais. Sempre peça a margem primeiro."
+   ],
+   "card": {
+    "title": "Gastos de marketing de março de Amaka",
+    "rows": [
+     [
+      "Meta-anúncios",
+      "300,000"
+     ],
+     [
+      "Anúncios do Google",
+      "150,000"
+     ]
+    ],
+    "note": "Pratique figuras. Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Um plano de medição fixa o que você medirá antes que os resultados cheguem, para que ninguém mude o significado do sucesso depois. Comece com o objetivo e, em seguida, com um KPI principal, um indicador-chave de desempenho."
+   ],
+   "panel": {
+    "kicker": "Antes da campanha",
+    "heading": "Um plano de medição de uma página",
+    "items": [
+     "Objetivo de negócios, em palavras simples",
+     "Um KPI principal",
+     "Três a cinco métricas de direcionamento",
+     "Linhas de base e metas com data",
+     "Dois ou três segmentos para comparar"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Adicione as métricas que o impulsionam, a linha de base e uma meta de hoje, e os segmentos que você irá comparar, como clientes novos e recorrentes."
+   ],
+   "panel": {
+    "kicker": "Antes da campanha",
+    "heading": "Um plano de medição de uma página",
+    "items": [
+     "Objetivo de negócios, em palavras simples",
+     "Um KPI principal",
+     "Três a cinco métricas de direcionamento",
+     "Linhas de base e metas com data",
+     "Dois ou três segmentos para comparar"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "E escreva cada fórmula exatamente. Uma taxa de conversão por clique e uma por sessão fornecem respostas diferentes, portanto nunca compare-as."
+   ],
+   "panel": {
+    "kicker": "Antes da campanha",
+    "heading": "Um plano de medição de uma página",
+    "items": [
+     "Objetivo de negócios, em palavras simples",
+     "Um KPI principal",
+     "Três a cinco métricas de direcionamento",
+     "Linhas de base e metas com data",
+     "Dois ou três segmentos para comparar"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Escreva a fórmula e a fonte de dados ao lado de cada métrica.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "ROAS, retorno sobre gastos com publicidade, usa a receita que uma plataforma afirma ter causado. Cada plataforma relata o seu próprio."
+   ],
+   "panel": {
+    "kicker": "Duas proporções principais",
+    "heading": "ROAS ou MER?",
+    "mode": "compare",
+    "left_h": "ROAS",
+    "left": [
+     "Receita creditada em anúncios/gastos com publicidade",
+     "A reivindicação de uma plataforma",
+     "Usado para sintonizar cada canal"
+    ],
+    "right_h": "Mer",
+    "right": [
+     "Receita total/gasto total com marketing",
+     "Usa os totais reais da empresa",
+     "Aprovado por gerentes seniores"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "MER, o índice de eficiência de marketing, usa a receita total real e o gasto total. Duas plataformas não podem inflá-lo reivindicando a mesma venda. Você usará ambos."
+   ],
+   "panel": {
+    "kicker": "Duas proporções principais",
+    "heading": "ROAS ou MER?",
+    "mode": "compare",
+    "left_h": "ROAS",
+    "left": [
+     "Receita creditada em anúncios/gastos com publicidade",
+     "A reivindicação de uma plataforma",
+     "Usado para sintonizar cada canal"
+    ],
+    "right_h": "Mer",
+    "right": [
+     "Receita total/gasto total com marketing",
+     "Usa os totais reais da empresa",
+     "Aprovado por gerentes seniores"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Por exemplo, Halima vende tecidos online de Kano. No mês passado, 12.000 sessões com conversão de 1,2% geraram 144 pedidos. A 20.000 nairas cada, são 2.880.000 nairas."
+   ],
+   "panel": {
+    "kicker": "Encontre a alavanca",
+    "heading": "Árvore de KPI de Halima",
+    "items": [
+     "12.000 sessões x 1,2% = 144 pedidos",
+     "144 x 20.000 nairas = 2.880.000 nairas",
+     "Meta de 3.000.000 nairas: 150 pedidos",
+     "Alavanca A: 12.500 sessões",
+     "Alavanca B: conversão de 1,25%"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Ela quer 3.000.000 nairas. Isso precisa de 150 pedidos, apenas mais 6."
+   ],
+   "panel": {
+    "kicker": "Encontre a alavanca",
+    "heading": "Árvore de KPI de Halima",
+    "items": [
+     "12.000 sessões x 1,2% = 144 pedidos",
+     "144 x 20.000 nairas = 2.880.000 nairas",
+     "Meta de 3.000.000 nairas: 150 pedidos",
+     "Alavanca A: 12.500 sessões",
+     "Alavanca B: conversão de 1,25%"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Ela pode conseguir mais 500 sessões ou aumentar a conversão para 1,25%. Mostrar taxas de entrega e adicionar um botão de ajuda do WhatsApp pode custar menos do que anúncios, então ela testa essa alavanca primeiro."
+   ],
+   "panel": {
+    "kicker": "Encontre a alavanca",
+    "heading": "Árvore de KPI de Halima",
+    "items": [
+     "12.000 sessões x 1,2% = 144 pedidos",
+     "144 x 20.000 nairas = 2.880.000 nairas",
+     "Meta de 3.000.000 nairas: 150 pedidos",
+     "Alavanca A: 12.500 sessões",
+     "Alavanca B: conversão de 1,25%"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Esta é a árvore de KPI. Cada ramo mostra uma alavanca para puxar."
+   ],
+   "panel": {
+    "kicker": "Encontre a alavanca",
+    "heading": "Árvore de KPI de Halima",
+    "items": [
+     "12.000 sessões x 1,2% = 144 pedidos",
+     "144 x 20.000 nairas = 2.880.000 nairas",
+     "Meta de 3.000.000 nairas: 150 pedidos",
+     "Alavanca A: 12.500 sessões",
+     "Alavanca B: conversão de 1,25%"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Receita = sessões x taxa de conversão x valor médio do pedido",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Por exemplo, Bola viu um anúncio no Instagram, depois procurou no Google e depois comprou por e-mail. A atribuição é a regra que compartilha o crédito.",
+    "No último clique, o e-mail parece o herói."
+   ],
+   "panel": {
+    "kicker": "Atribuição",
+    "heading": "Um pedido de 60.000 nairas, três histórias",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Último clique",
+      "d": "O clique final recebe todo o crédito. O e-mail recebe 60.000 nairas."
+     },
+     {
+      "t": "Primeiro clique",
+      "d": "O primeiro toque recebe todo o crédito. O anúncio do Instagram ganha 60.000 naira."
+     },
+     {
+      "t": "linear",
+      "d": "Cada toque é dividido igualmente: 20.000 nairas cada para Instagram, Google e e-mail."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "No primeiro clique, o Instagram leva tudo."
+   ],
+   "panel": {
+    "kicker": "Atribuição",
+    "heading": "Um pedido de 60.000 nairas, três histórias",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Último clique",
+      "d": "O clique final recebe todo o crédito. O e-mail recebe 60.000 nairas."
+     },
+     {
+      "t": "Primeiro clique",
+      "d": "O primeiro toque recebe todo o crédito. O anúncio do Instagram ganha 60.000 naira."
+     },
+     {
+      "t": "linear",
+      "d": "Cada toque é dividido igualmente: 20.000 nairas cada para Instagram, Google e e-mail."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "No linear, cada um recebe 20.000 nairas. A venda real nunca muda, apenas a história. Portanto, rotule cada número com sua regra. O GA4 agora oferece modelos baseados em dados e de último clique. Os demais foram removidos em novembro de 2023."
+   ],
+   "panel": {
+    "kicker": "Atribuição",
+    "heading": "Um pedido de 60.000 nairas, três histórias",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Último clique",
+      "d": "O clique final recebe todo o crédito. O e-mail recebe 60.000 nairas."
+     },
+     {
+      "t": "Primeiro clique",
+      "d": "O primeiro toque recebe todo o crédito. O anúncio do Instagram ganha 60.000 naira."
+     },
+     {
+      "t": "linear",
+      "d": "Cada toque é dividido igualmente: 20.000 nairas cada para Instagram, Google e e-mail."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ads",
+   "say": [
+    "A Meta e o Google contam as conversões de acordo com suas próprias regras, portanto, seus totais geralmente somam mais pedidos do que você recebeu.",
+    "A atribuição também não pode provar a causa. Neste teste, o grupo que viu anúncios de retargeting fez 300 compras."
+   ],
+   "panel": {
+    "kicker": "Os anúncios causaram isso?",
+    "heading": "Um teste de resistência para retargeting",
+    "mode": "compare",
+    "left_h": "Vi os anúncios",
+    "left": [
+     "5.000 pessoas",
+     "300 compras",
+     "6,0% comprados"
+    ],
+    "right_h": "Sem anúncios",
+    "right": [
+     "5.000 pessoas",
+     "250 compras",
+     "5,0% comprado"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Um grupo semelhante sem anúncios ainda ganhou 250. Apenas os 50 extras foram causados pelos anúncios.",
+    "Portanto, o custo real por compra extra foi de 5.000 nairas, e não os 833 nairas relatados pela plataforma. Isso é seis vezes maior."
+   ],
+   "panel": {
+    "kicker": "Os anúncios causaram isso?",
+    "heading": "Um teste de resistência para retargeting",
+    "mode": "compare",
+    "left_h": "Vi os anúncios",
+    "left": [
+     "5.000 pessoas",
+     "300 compras",
+     "6,0% comprados"
+    ],
+    "right_h": "Sem anúncios",
+    "right": [
+     "5.000 pessoas",
+     "250 compras",
+     "5,0% comprado"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Para lembrar. Lidere com resultados. Conheça a margem antes de considerar um resultado bom. Corrija seu plano e fórmulas primeiro.",
+    "Rotule cada número com sua fonte e regra e mostre as más notícias tão claramente quanto as boas."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Lembre-se",
+    "items": [
+     "Lidere com resultados, não com atividades",
+     "Peça a margem antes de julgar uma proporção",
+     "Escreva um plano de medição primeiro",
+     "Rotule cada número com sua regra",
+     "Os testes de validação mostram o que os anúncios realmente causaram"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Agora escreva duas questões de decisão para um negócio real, crie um plano de medição de uma página e credite novamente cinco pedidos em uma planilha.",
+    "Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Tarefa prática",
+    "heading": "Suas tarefas para este módulo",
+    "items": [
+     "Transforme uma solicitação de relatório em questões de decisão",
+     "Escreva um plano de medição de uma página",
+     "Recreditar cinco pedidos sob quatro regras"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

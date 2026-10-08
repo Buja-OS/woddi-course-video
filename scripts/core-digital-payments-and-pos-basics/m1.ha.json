@@ -1,0 +1,541 @@
+{
+ "course": "core-digital-payments-and-pos-basics",
+ "module": "m1",
+ "title": "Yadda biyan kuɗi na dijital ke aiki, da yin shiri lafiya",
+ "course_title": "Biyan Dijital & Ka'idodin POS",
+ "shots": [
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Yadda biyan kuɗi na dijital ke aiki, da yin shiri lafiya.",
+    "Wannan shine bidiyon don module 1 na Biyan Dijital da Basics POS."
+   ]
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Biyan kuɗi na dijital shine kowane biyan kuɗi inda babu tsabar kuɗi ta canza hannu. Lamba a cikin wani asusu yana sauka, kuma lamba a wani yana hauhawa. Kuɗin na gaske ne, kawai an adana su azaman rikodin."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Kuɗin na gaske ne, kawai an adana su azaman rikodin",
+    "items": [
+     "Dubi abin da ke faruwa lokacin da kuɗi ke motsawa",
+     "Ku san abin da ake ƙidaya a matsayin hujja ta gaske",
+     "Zaɓi tsabar kuɗi ko dijital tare da bayyanannun tambayoyi",
+     "Ka saita asusunka lafiya"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Mutane da yawa suna jin tsoro don ba sa ganin tafiyar kuɗin. Wannan tsarin yana kawar da wannan sirrin."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Kuɗin na gaske ne, kawai an adana su azaman rikodin",
+    "items": [
+     "Dubi abin da ke faruwa lokacin da kuɗi ke motsawa",
+     "Ku san abin da ake ƙidaya a matsayin hujja ta gaske",
+     "Zaɓi tsabar kuɗi ko dijital tare da bayyanannun tambayoyi",
+     "Ka saita asusunka lafiya"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Za ku kuma koyi lokacin da kuɗi ya fi kyau, da yadda ake saita asusun ku don ya kasance naku."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Kuɗin na gaske ne, kawai an adana su azaman rikodin",
+    "items": [
+     "Dubi abin da ke faruwa lokacin da kuɗi ke motsawa",
+     "Ku san abin da ake ƙidaya a matsayin hujja ta gaske",
+     "Zaɓi tsabar kuɗi ko dijital tare da bayyanannun tambayoyi",
+     "Ka saita asusunka lafiya"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Misali, Chioma a Enugu tana bin mai sana'ar dinkin ta Ada, Naira 7,500. Ta buɗe app ɗin ta na banki, ta danna Transfer, ta rubuta lambar asusun Ada mai lamba 10 sannan ta zaɓi bankin Ada."
+   ],
+   "panel": {
+    "kicker": "Tafiya",
+    "heading": "Yadda canja wurin banki ke tafiya",
+    "items": [
+     "Kuna ba da umarni",
+     "Bankin ku yana duba PIN da ma'auni",
+     "Cibiyar sadarwa tana ɗaukar saƙon",
+     "Bankin mai karɓar kuɗi ya ƙididdige asusun ta",
+     "Dukanku kuna samun faɗakarwa"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "App din yana nuna sunan ADA N. OKAFOR. Ana kiran wannan tambayar suna, kuma shine mafi mahimmancin binciken lafiyar ku. Idan sunan ba shine wanda kuke tsammani ba, dakatar. Kusa sosai bai isa ba."
+   ],
+   "panel": {
+    "kicker": "Tafiya",
+    "heading": "Yadda canja wurin banki ke tafiya",
+    "items": [
+     "Kuna ba da umarni",
+     "Bankin ku yana duba PIN da ma'auni",
+     "Cibiyar sadarwa tana ɗaukar saƙon",
+     "Bankin mai karɓar kuɗi ya ƙididdige asusun ta",
+     "Dukanku kuna samun faɗakarwa"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false,
+    "rule": "Idan sunan da aka nuna ba shine wanda kuke tsammani ba, dakatar.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Chioma ta shigar da PIN ɗinta mai lamba 4. Bankin nata ya duba tana da isassun kudi."
+   ],
+   "panel": {
+    "kicker": "Tafiya",
+    "heading": "Yadda canja wurin banki ke tafiya",
+    "items": [
+     "Kuna ba da umarni",
+     "Bankin ku yana duba PIN da ma'auni",
+     "Cibiyar sadarwa tana ɗaukar saƙon",
+     "Bankin mai karɓar kuɗi ya ƙididdige asusun ta",
+     "Dukanku kuna samun faɗakarwa"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "rule": "Idan sunan da aka nuna ba shine wanda kuke tsammani ba, dakatar.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Cibiyar sadarwa, hanyar da aka raba tsakanin bankuna, tana ɗaukar saƙon. A Najeriya babban na hukumar NIBSS ne ke tafiyar da shi."
+   ],
+   "panel": {
+    "kicker": "Tafiya",
+    "heading": "Yadda canja wurin banki ke tafiya",
+    "items": [
+     "Kuna ba da umarni",
+     "Bankin ku yana duba PIN da ma'auni",
+     "Cibiyar sadarwa tana ɗaukar saƙon",
+     "Bankin mai karɓar kuɗi ya ƙididdige asusun ta",
+     "Dukanku kuna samun faɗakarwa"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Idan sunan da aka nuna ba shine wanda kuke tsammani ba, dakatar.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Bankin Ada ya kara mata kudi naira 7,500, kuma mata biyun suna samun alert. Idan kowane mataki ya gaza, bankin ku ya kamata ya juya zaren."
+   ],
+   "panel": {
+    "kicker": "Tafiya",
+    "heading": "Yadda canja wurin banki ke tafiya",
+    "items": [
+     "Kuna ba da umarni",
+     "Bankin ku yana duba PIN da ma'auni",
+     "Cibiyar sadarwa tana ɗaukar saƙon",
+     "Bankin mai karɓar kuɗi ya ƙididdige asusun ta",
+     "Dukanku kuna samun faɗakarwa"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Idan sunan da aka nuna ba shine wanda kuke tsammani ba, dakatar.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Ada bai amince da hoton allo ba. Ta bude nata app ta ga naira 7,500 a balance dinta. Wannan ita ce kadai hujja ta hakika.",
+    "Chioma tana adana rasit ɗinta da ID ɗin zaman, dogon lamba da za ta buƙaci idan wani abu ya ɓace."
+   ],
+   "panel": {
+    "kicker": "Tabbacin biya",
+    "heading": "Abin da ya tabbatar da cewa kuɗi ya isa",
+    "mode": "compare",
+    "left_h": "Hujja ta gaske",
+    "left": [
+     "Daidaita a cikin app ɗin ku",
+     "Duban ma'auni ta USSD",
+     "ID ɗin zama wanda mai biyan kuɗi ya kiyaye"
+    ],
+    "right_h": "Bai isa kadai ba",
+    "right": [
+     "Hoton hoto na rasit",
+     "faɗakarwar SMS da kanta",
+     "Tsohon rasidin da aka tura"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Kowa na iya shirya hoton rasit, kuma faɗakarwar SMS ana iya yin bogi. Lokacin da kuka karɓi kuɗi, bincika ma'aunin ku kafin ku saki kaya ko ba da canji."
+   ],
+   "panel": {
+    "kicker": "Tabbacin biya",
+    "heading": "Abin da ya tabbatar da cewa kuɗi ya isa",
+    "mode": "compare",
+    "left_h": "Hujja ta gaske",
+    "left": [
+     "Daidaita a cikin app ɗin ku",
+     "Duban ma'auni ta USSD",
+     "ID ɗin zama wanda mai biyan kuɗi ya kiyaye"
+    ],
+    "right_h": "Bai isa kadai ba",
+    "right": [
+     "Hoton hoto na rasit",
+     "faɗakarwar SMS da kanta",
+     "Tsohon rasidin da aka tura"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Biyan kuɗi na dijital yana ba ku iko, isa, ƙarancin kuɗi akan hanya, da bayanai. Tarihin ma'amalarku littafin rubutu ne na kyauta wanda ke kiyaye kansa."
+   ],
+   "card": {
+    "title": "Abin da watan canja wuri ya nuna",
+    "rows": [],
+    "note": null
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "App na Ngozi ya nuna 38,000, sannan 41,500, sai 29,000, sai naira 45,500 da aka karba ta hanyar canja wuri."
+   ],
+   "card": {
+    "title": "Abin da watan canja wuri ya nuna",
+    "rows": [
+     [
+      "Canja wurin sati 1 a ciki",
+      "38,000"
+     ],
+     [
+      "Canja wurin mako na 2 a ciki",
+      "41,500"
+     ],
+     [
+      "Canja wurin sati 3 a ciki",
+      "29,000"
+     ],
+     [
+      "Canja wurin mako na 4 a ciki",
+      "45,500"
+     ]
+    ],
+    "note": null
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Naira 154,000 kenan a wata. Ta tsabar kudi? Ba za ta iya faɗa ba, don ba ta rubuta komai ba.",
+    "Magana irin wannan na iya tabbatar da kuɗin shiga ga mai ba da bashi."
+   ],
+   "card": {
+    "title": "Abin da watan canja wuri ya nuna",
+    "rows": [
+     [
+      "Canja wurin sati 1 a ciki",
+      "38,000"
+     ],
+     [
+      "Canja wurin mako na 2 a ciki",
+      "41,500"
+     ],
+     [
+      "Canja wurin sati 3 a ciki",
+      "29,000"
+     ],
+     [
+      "Canja wurin mako na 4 a ciki",
+      "45,500"
+     ]
+    ],
+    "note": null
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Kudi ba kyauta ba ne. Misali Amina a Kaduna sai ta biya dillalan shinkafa naira 80,000.",
+    "A cikin tsabar kuɗi, wakilin POS yana cajin cire shi, a ce Naira 1,600 a cikin wannan misalin, da 1,000 na sufuri. 2,600 gabaɗaya, da haɗarin ɗaukar kuɗi."
+   ],
+   "panel": {
+    "kicker": "Cash ko dijital",
+    "heading": "Biyan dillali naira 80,000",
+    "mode": "compare",
+    "left_h": "Kuɗi",
+    "left": [
+     "Cajin cire POS 1,600",
+     "Sufuri 1,000",
+     "Kudin 2,600, da kasada akan bas"
+    ],
+    "right_h": "Canja wurin",
+    "right": [
+     "Canja wurin caji 50",
+     "Sufuri 1,000",
+     "Farashin 1,050, da rikodin"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Ta hanyar canja wuri, allon nata yana nuna kuɗin aiki na naira 50, tare da jigilar kaya iri ɗaya. Wato 1,050, tare da rikodin. Koyaushe karanta ainihin kuɗin akan allonku kafin tabbatarwa."
+   ],
+   "panel": {
+    "kicker": "Cash ko dijital",
+    "heading": "Biyan dillali naira 80,000",
+    "mode": "compare",
+    "left_h": "Kuɗi",
+    "left": [
+     "Cajin cire POS 1,600",
+     "Sufuri 1,000",
+     "Kudin 2,600, da kasada akan bas"
+    ],
+    "right_h": "Canja wurin",
+    "right": [
+     "Canja wurin caji 50",
+     "Sufuri 1,000",
+     "Farashin 1,050, da rikodin"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Aikace-aikacen banki yana buƙatar wayar hannu da bayanai. Lambar USSD tana aiki akan kowace waya ba tare da bayanai ba, don haka madadin ku ne lokacin da bayanai suka ƙare."
+   ],
+   "panel": {
+    "kicker": "Ƙofofin biyan kuɗi",
+    "heading": "Kofofi daban-daban, asusu ɗaya",
+    "items": [
+     "Canja wurin aikace-aikacen banki: yana buƙatar bayanai",
+     "USSD code: kowace waya, babu bayanai",
+     "Katin zare kudi a POS ko ATM: babu bayanai",
+     "Wallet app, lambar QR, hanyar biyan kuɗi"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Katin ku yana aiki a POS ko ATM ba tare da bayanai ba. Wallets, lambobin QR da hanyoyin haɗin gwiwa suna buƙatar intanet.",
+    "Dukkansu kofofin shiga asusu daya ne. Duk wanda ya shiga ta kofa ɗaya tare da PIN naka zai iya kaiwa ga ma'auni."
+   ],
+   "panel": {
+    "kicker": "Ƙofofin biyan kuɗi",
+    "heading": "Kofofi daban-daban, asusu ɗaya",
+    "items": [
+     "Canja wurin aikace-aikacen banki: yana buƙatar bayanai",
+     "USSD code: kowace waya, babu bayanai",
+     "Katin zare kudi a POS ko ATM: babu bayanai",
+     "Wallet app, lambar QR, hanyar biyan kuɗi"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Bude asusun a cikin sunan ku, tare da lambar wayar ku mai aiki. Idan an haɗa tsohon SIM, canza shi a banki, saboda OTPs suna zuwa ga wanda ke da wannan lambar yanzu."
+   ],
+   "panel": {
+    "kicker": "Saitin aminci",
+    "heading": "Ka saita asusunka lafiya",
+    "items": [
+     "Account a sunan ku da lambar wayar ku",
+     "Shigar da hukuma app da kanka",
+     "PIN wanda ba ranar haihuwar ku bane ko 1234",
+     "Kunna faɗakarwa kuma duba iyakokin ku",
+     "Ajiye lambar kula da abokin ciniki na hukuma"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Shigar da app da kanka, daga Play Store ko App Store, kuma duba mawallafin shine ainihin kamfani."
+   ],
+   "panel": {
+    "kicker": "Saitin aminci",
+    "heading": "Ka saita asusunka lafiya",
+    "items": [
+     "Account a sunan ku da lambar wayar ku",
+     "Shigar da hukuma app da kanka",
+     "PIN wanda ba ranar haihuwar ku bane ko 1234",
+     "Kunna faɗakarwa kuma duba iyakokin ku",
+     "Ajiye lambar kula da abokin ciniki na hukuma"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Zaɓi PIN mai lamba 4 wanda ba shekarar haihuwarka ba, lambar waya, ko tsari kamar 1234 ko 0000. Kada ka rubuta a katinka."
+   ],
+   "panel": {
+    "kicker": "Saitin aminci",
+    "heading": "Ka saita asusunka lafiya",
+    "items": [
+     "Account a sunan ku da lambar wayar ku",
+     "Shigar da hukuma app da kanka",
+     "PIN wanda ba ranar haihuwar ku bane ko 1234",
+     "Kunna faɗakarwa kuma duba iyakokin ku",
+     "Ajiye lambar kula da abokin ciniki na hukuma"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Kunna faɗakarwa don kowace ma'amala, duba matakin asusun ku da iyakoki a cikin app, sannan ku adana lambar kula da abokin cinikin bankin ku daga bayan katin ku."
+   ],
+   "panel": {
+    "kicker": "Saitin aminci",
+    "heading": "Ka saita asusunka lafiya",
+    "items": [
+     "Account a sunan ku da lambar wayar ku",
+     "Shigar da hukuma app da kanka",
+     "PIN wanda ba ranar haihuwar ku bane ko 1234",
+     "Kunna faɗakarwa kuma duba iyakokin ku",
+     "Ajiye lambar kula da abokin ciniki na hukuma"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Lambar asusun ku ba shi da aminci don rabawa. Ba a taɓa raba PIN, kalmar sirri da OTP ga kowa ba, gami da wanda ya ce yana aiki da bankin ku, ko miji ko aboki na kurkusa."
+   ],
+   "panel": {
+    "kicker": "Saitin aminci",
+    "heading": "Ka saita asusunka lafiya",
+    "items": [
+     "Account a sunan ku da lambar wayar ku",
+     "Shigar da hukuma app da kanka",
+     "PIN wanda ba ranar haihuwar ku bane ko 1234",
+     "Kunna faɗakarwa kuma duba iyakokin ku",
+     "Ajiye lambar kula da abokin ciniki na hukuma"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Kada ku taɓa raba PIN, kalmar sirri ko OTP, koda tare da ma'aikatan banki.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Don tunawa. Duba sunan kafin ku tabbatar. Ma'aunin ku shine kawai hujja ta gaskiya. Karanta kuɗin akan allon kafin ku biya. Manyan biya ko na nesa yawanci sun fi aminci ta hanyar canja wuri. Kuma kiyaye PIN ɗin ku a sirri, har ma a cikin iyali."
+   ],
+   "panel": {
+    "kicker": "Mabuɗin mahimmanci",
+    "heading": "Ka tuna",
+    "items": [
+     "Duba sunan asusun kafin ku tabbatar",
+     "Ma'aunin ku shine kawai hujja ta gaskiya",
+     "Karanta kuɗin akan allon tabbatarwa",
+     "Babban biya ko nesa: yi amfani da canja wuri",
+     "Kiyaye PIN naka na sirri, har ma a cikin iyali"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Zana tafiyar biyan ku na ƙarshe, jera waɗanne biyan kuɗi za ku iya motsawa daga tsabar kuɗi, kwatanta biyan kuɗi ɗaya na gaske, sannan ku cika lissafin saitin ku.",
+    "Ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi aiki",
+    "heading": "Ayyukanku na wannan tsarin",
+    "items": [
+     "Zana hanyar biyan kuɗin ku",
+     "Rubuta lissafin kuɗin ku zuwa dijital",
+     "Kwatanta ainihin biyan kuɗi ɗaya kuma saita tsarin tsabar kuɗi",
+     "Cika amintaccen jerin abubuwan saitin ku"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

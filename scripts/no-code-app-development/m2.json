@@ -1,0 +1,601 @@
+{
+ "course": "no-code-app-development",
+ "module": "m2",
+ "title": "Build, test and hand over a stock and sales app",
+ "course_title": "No-Code App Development",
+ "shots": [
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Build, test and hand over a stock and sales app.",
+    "This is the video for module two of No-Code App Development."
+   ]
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "In this module you build one real app. For example, Esther runs an agro-input shop in Makurdi, with two sales staff. She wants to stop counting bags every evening."
+   ],
+   "panel": {
+    "kicker": "What you will build",
+    "heading": "Esther's agro-input shop app",
+    "items": [
+     "Track products, deliveries and sales",
+     "Warn the owner when stock runs low",
+     "Tested, secured and documented"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Her app will track products, deliveries and sales, warn her when stock is low, and be tested and documented so someone else can run it. It all works on AppSheet's free prototyping stage."
+   ],
+   "panel": {
+    "kicker": "What you will build",
+    "heading": "Esther's agro-input shop app",
+    "items": [
+     "Track products, deliveries and sales",
+     "Warn the owner when stock runs low",
+     "Tested, secured and documented"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Most early problems come from messy sheets. AppSheet reads each tab as a table, with one header row on top."
+   ],
+   "panel": {
+    "kicker": "Step 1",
+    "heading": "Prepare the sheet properly",
+    "items": [
+     "One table per tab: Products, Stock In, Sales",
+     "Exactly one header row in row 1",
+     "No merged cells, totals rows or blank rows",
+     "An ID column first in every tab",
+     "3 to 5 realistic sample rows"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Remove merged cells and totals rows. Esther deleted a TOTAL row at the bottom of her Sales tab, because AppSheet would read it as a sale."
+   ],
+   "panel": {
+    "kicker": "Step 1",
+    "heading": "Prepare the sheet properly",
+    "items": [
+     "One table per tab: Products, Stock In, Sales",
+     "Exactly one header row in row 1",
+     "No merged cells, totals rows or blank rows",
+     "An ID column first in every tab",
+     "3 to 5 realistic sample rows"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Put an ID column first, and add a few sample rows so AppSheet can guess column types."
+   ],
+   "panel": {
+    "kicker": "Step 1",
+    "heading": "Prepare the sheet properly",
+    "items": [
+     "One table per tab: Products, Stock In, Sales",
+     "Exactly one header row in row 1",
+     "No merged cells, totals rows or blank rows",
+     "An ID column first in every tab",
+     "3 to 5 realistic sample rows"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "After the sheet, check every column. Keys get the initial value UNIQUEID(), and are hidden. Dates start as TODAY(). Sold By records USEREMAIL()."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Building order for any AppSheet app",
+    "items": [
+     "Clean the sheet",
+     "Set keys and types",
+     "Add references",
+     "Design views",
+     "Add rules and automation"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "The Product column in Sales and Stock In becomes a Ref to Products, linking every sale to one product."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Building order for any AppSheet app",
+    "items": [
+     "Clean the sheet",
+     "Set keys and types",
+     "Add references",
+     "Design views",
+     "Add rules and automation"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Design views for staff at a counter with a phone in one hand. New sale goes first in the menu, because it is the most frequent task."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Building order for any AppSheet app",
+    "items": [
+     "Clean the sheet",
+     "Set keys and types",
+     "Add references",
+     "Design views",
+     "Add rules and automation"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Follow this order. Changing the data after views are built causes rework. And test on a real phone, not only in the editor."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Building order for any AppSheet app",
+    "items": [
+     "Clean the sheet",
+     "Set keys and types",
+     "Add references",
+     "Design views",
+     "Add rules and automation"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Never accept AppSheet's column guesses blindly.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Logic is written as expressions, short formulas with column names in square brackets. Add a virtual column called Current Stock. NPK starts the month with 40 bags."
+   ],
+   "panel": {
+    "kicker": "Logic",
+    "heading": "Stock is calculated, never typed",
+    "items": [
+     "Opening stock: 40 bags of NPK",
+     "Plus deliveries: 25 bags",
+     "Minus sales this week: 52 bags",
+     "Current Stock: 40 + 25 - 52 = 13"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "SELECT and SUM add every delivery for this product: 25 bags."
+   ],
+   "panel": {
+    "kicker": "Logic",
+    "heading": "Stock is calculated, never typed",
+    "items": [
+     "Opening stock: 40 bags of NPK",
+     "Plus deliveries: 25 bags",
+     "Minus sales this week: 52 bags",
+     "Current Stock: 40 + 25 - 52 = 13"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Then subtract every sale: 52 bags."
+   ],
+   "panel": {
+    "kicker": "Logic",
+    "heading": "Stock is calculated, never typed",
+    "items": [
+     "Opening stock: 40 bags of NPK",
+     "Plus deliveries: 25 bags",
+     "Minus sales this week: 52 bags",
+     "Current Stock: 40 + 25 - 52 = 13"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "The app shows 13 bags left without anyone counting. With a reorder level of 15, NPK shows Reorder in red."
+   ],
+   "panel": {
+    "kicker": "Logic",
+    "heading": "Stock is calculated, never typed",
+    "items": [
+     "Opening stock: 40 bags of NPK",
+     "Plus deliveries: 25 bags",
+     "Minus sales this week: 52 bags",
+     "Current Stock: 40 + 25 - 52 = 13"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "13 is at or below the reorder level of 15: time to reorder.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Make Qty and Product required."
+   ],
+   "panel": {
+    "kicker": "Rules that stop mistakes",
+    "heading": "Stop bad data at entry",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Required",
+      "d": "Qty and Product must be filled, so no sale is saved without them."
+     },
+     {
+      "t": "Valid If",
+      "d": "Qty above 0 and no more than Current Stock. Add a clear error message."
+     },
+     {
+      "t": "Initial value",
+      "d": "Unit Price copies the product price at the time of sale. No retyping."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Add a Valid If, so quantity must be above 0 and no more than the stock. Add a message like, only 13 bags left, so staff know what went wrong."
+   ],
+   "panel": {
+    "kicker": "Rules that stop mistakes",
+    "heading": "Stop bad data at entry",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Required",
+      "d": "Qty and Product must be filled, so no sale is saved without them."
+     },
+     {
+      "t": "Valid If",
+      "d": "Qty above 0 and no more than Current Stock. Add a clear error message."
+     },
+     {
+      "t": "Initial value",
+      "d": "Unit Price copies the product price at the time of sale. No retyping."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "And copy the price into the sale when it is made, so history stays true."
+   ],
+   "panel": {
+    "kicker": "Rules that stop mistakes",
+    "heading": "Stop bad data at entry",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Required",
+      "d": "Qty and Product must be filled, so no sale is saved without them."
+     },
+     {
+      "t": "Valid If",
+      "d": "Qty above 0 and no more than Current Stock. Add a clear error message."
+     },
+     {
+      "t": "Initial value",
+      "d": "Unit Price copies the product price at the time of sale. No retyping."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "A bot watches for an event, then runs steps by itself. Here the event is a new row in Sales."
+   ],
+   "panel": {
+    "kicker": "Automation",
+    "heading": "A low-stock bot",
+    "items": [
+     "Event: a sale is added",
+     "Condition: stock at or below reorder level",
+     "Task: email the owner",
+     "Test until the email arrives"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "The condition checks the product's stock against its reorder level. If true, it emails Esther the product name and stock."
+   ],
+   "panel": {
+    "kicker": "Automation",
+    "heading": "A low-stock bot",
+    "items": [
+     "Event: a sale is added",
+     "Condition: stock at or below reorder level",
+     "Task: email the owner",
+     "Test until the email arrives"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Record test sales until the condition is met, and confirm the email arrives. Keep heavy formulas few, because they slow the app as tables grow."
+   ],
+   "panel": {
+    "kicker": "Automation",
+    "heading": "A low-stock bot",
+    "items": [
+     "Event: a sale is added",
+     "Condition: stock at or below reorder level",
+     "Task: email the owner",
+     "Test until the email arrives"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "A bot fires only when the event and condition are both true.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "For example, Amina is finishing Esther's app. She writes 14 test cases, including selling exactly the last bag, and entering zero or blanks. She runs them as a sales staff test user."
+   ],
+   "panel": {
+    "kicker": "Testing",
+    "heading": "Amina's test script",
+    "items": [
+     "Write 14 cases with expected results",
+     "Include edge cases and wrong entries",
+     "11 of 14 pass; fix the 3 failures",
+     "Rerun all 14 cases"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "3 fail. A quantity of 0 was saved, two products could share a name, and staff could edit the opening stock. She fixes each one."
+   ],
+   "panel": {
+    "kicker": "Testing",
+    "heading": "Amina's test script",
+    "items": [
+     "Write 14 cases with expected results",
+     "Include edge cases and wrong entries",
+     "11 of 14 pass; fix the 3 failures",
+     "Rerun all 14 cases"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Then she reruns all 14, because fixes can break other things. All pass, and the test log goes into the handover pack."
+   ],
+   "panel": {
+    "kicker": "Testing",
+    "heading": "Amina's test script",
+    "items": [
+     "Write 14 cases with expected results",
+     "Include edge cases and wrong entries",
+     "11 of 14 pass; fix the 3 failures",
+     "Rerun all 14 cases"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "After any fix, rerun every case, not just the failures.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Require sign-in, and use a Users table with roles so only the owner changes prices. Anyone with edit access to the Google Sheet can change data, so share it only with the owner and builder."
+   ],
+   "panel": {
+    "kicker": "Safety first",
+    "heading": "Access, data and offline use",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Sign-in and roles",
+      "d": "Share with named staff emails. Only the owner changes prices and stock. Limit who edits the sheet."
+     },
+     {
+      "t": "Personal data",
+      "d": "Collect only what you need. Never collect BVN, NIN or card details in a no-code app."
+     },
+     {
+      "t": "Sync daily",
+      "d": "Days offline can overwrite others' changes. Staff sync at least daily."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Customer phone numbers are personal data. The Nigeria Data Protection Act 2023 expects you to collect only what you need and keep it secure."
+   ],
+   "panel": {
+    "kicker": "Safety first",
+    "heading": "Access, data and offline use",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Sign-in and roles",
+      "d": "Share with named staff emails. Only the owner changes prices and stock. Limit who edits the sheet."
+     },
+     {
+      "t": "Personal data",
+      "d": "Collect only what you need. Never collect BVN, NIN or card details in a no-code app."
+     },
+     {
+      "t": "Sync daily",
+      "d": "Days offline can overwrite others' changes. Staff sync at least daily."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "AppSheet works offline, but a phone offline for days can overwrite other people's changes when it syncs. Test it in airplane mode."
+   ],
+   "panel": {
+    "kicker": "Safety first",
+    "heading": "Access, data and offline use",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Sign-in and roles",
+      "d": "Share with named staff emails. Only the owner changes prices and stock. Limit who edits the sheet."
+     },
+     {
+      "t": "Personal data",
+      "d": "Collect only what you need. Never collect BVN, NIN or card details in a no-code app."
+     },
+     {
+      "t": "Sync daily",
+      "d": "Days offline can overwrite others' changes. Staff sync at least daily."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "To remember. Clean the sheet and check every column. Calculate stock, never type it. Block bad entries. Rerun all tests after fixes. And deliver a handover pack, so someone other than you can keep the app alive."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "Clean sheets first; check every column",
+     "Calculate stock from linked rows",
+     "Valid If and Required stop bad entries",
+     "Rerun every test after a fix",
+     "Handover pack: model, rules, users, costs, tests"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Your tasks: build the first version from a clean sheet, add the logic and the low-stock bot, then test, secure and document your app.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice tasks",
+    "heading": "Your practice tasks",
+    "items": [
+     "Build the first version",
+     "Add the logic and the low-stock bot",
+     "Test, secure and document"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

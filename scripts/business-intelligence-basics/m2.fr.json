@@ -1,0 +1,619 @@
+{
+ "course": "business-intelligence-basics",
+ "module": "m2",
+ "title": "Le modèle BI : sources, définitions, niveaux et confiance",
+ "course_title": "Bases de la Business Intelligence : concevoir des systèmes qui pilotent les décisions",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Le modèle BI : sources, définitions, niveaux et confiance.",
+    "Ceci est la vidéo du module 2 des bases de la Business Intelligence : conception du système BI."
+   ]
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "La conception BI dépend davantage de quelques documents bien conservés que d’un seul produit logiciel. Ensemble, ils créent un modèle que n'importe quel outil, de Google Sheets à Power BI, peut créer."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Documents avant les tableaux de bord",
+    "items": [
+     "Une carte des sources de données",
+     "Un dictionnaire métrique",
+     "Une structure hiérarchique que les gens utilisent",
+     "Des contrôles qui garantissent la fiabilité des numéros"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Une carte de source de données montre où se trouvent les données."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Documents avant les tableaux de bord",
+    "items": [
+     "Une carte des sources de données",
+     "Un dictionnaire métrique",
+     "Une structure hiérarchique que les gens utilisent",
+     "Des contrôles qui garantissent la fiabilité des numéros"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Un dictionnaire métrique indique la signification de chaque nombre."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Documents avant les tableaux de bord",
+    "items": [
+     "Une carte des sources de données",
+     "Un dictionnaire métrique",
+     "Une structure hiérarchique que les gens utilisent",
+     "Des contrôles qui garantissent la fiabilité des numéros"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Une structure hiérarchique donne la bonne vue à la bonne personne."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Documents avant les tableaux de bord",
+    "items": [
+     "Une carte des sources de données",
+     "Un dictionnaire métrique",
+     "Une structure hiérarchique que les gens utilisent",
+     "Des contrôles qui garantissent la fiabilité des numéros"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Et les contrôles de qualité permettent aux gens de faire confiance aux chiffres."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Documents avant les tableaux de bord",
+    "items": [
+     "Une carte des sources de données",
+     "Un dictionnaire métrique",
+     "Une structure hiérarchique que les gens utilisent",
+     "Des contrôles qui garantissent la fiabilité des numéros"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Pour chaque système source, évaluez trois éléments de 1, médiocre, à 3, bon."
+   ],
+   "panel": {
+    "kicker": "Carte des sources de données",
+    "heading": "Notez chaque source sur 9",
+    "items": [
+     "Accès : avec quelle facilité extraire les données",
+     "Qualité : dans quelle mesure est-il complet et correct",
+     "Fréquence : à quel point cela peut être frais",
+     "Paiements des frais : 8, prêt maintenant",
+     "Présence aux articles : 4, phase deux"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Accès, comme il est facile d'extraire les données."
+   ],
+   "panel": {
+    "kicker": "Carte des sources de données",
+    "heading": "Notez chaque source sur 9",
+    "items": [
+     "Accès : avec quelle facilité extraire les données",
+     "Qualité : dans quelle mesure est-il complet et correct",
+     "Fréquence : à quel point cela peut être frais",
+     "Paiements des frais : 8, prêt maintenant",
+     "Présence aux articles : 4, phase deux"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Qualité, à quel point elle est complète et correcte."
+   ],
+   "panel": {
+    "kicker": "Carte des sources de données",
+    "heading": "Notez chaque source sur 9",
+    "items": [
+     "Accès : avec quelle facilité extraire les données",
+     "Qualité : dans quelle mesure est-il complet et correct",
+     "Fréquence : à quel point cela peut être frais",
+     "Paiements des frais : 8, prêt maintenant",
+     "Présence aux articles : 4, phase deux"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Et la fréquence, comme elle peut être fraîche."
+   ],
+   "panel": {
+    "kicker": "Carte des sources de données",
+    "heading": "Notez chaque source sur 9",
+    "items": [
+     "Accès : avec quelle facilité extraire les données",
+     "Qualité : dans quelle mesure est-il complet et correct",
+     "Fréquence : à quel point cela peut être frais",
+     "Paiements des frais : 8, prêt maintenant",
+     "Présence aux articles : 4, phase deux"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Par exemple, Blessing conçoit la BI pour une école privée à Abuja. Les paiements des frais se font sous forme d'exportation CSV quotidienne, ils obtiennent donc une note de 8 sur 9 et sont prêts pour un premier rapport."
+   ],
+   "panel": {
+    "kicker": "Carte des sources de données",
+    "heading": "Notez chaque source sur 9",
+    "items": [
+     "Accès : avec quelle facilité extraire les données",
+     "Qualité : dans quelle mesure est-il complet et correct",
+     "Fréquence : à quel point cela peut être frais",
+     "Paiements des frais : 8, prêt maintenant",
+     "Présence aux articles : 4, phase deux"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Les registres de présence papier n’obtiennent qu’un score de 4. Ils ont d’abord besoin d’un simple registre numérique, elle les place donc dans la phase deux."
+   ],
+   "panel": {
+    "kicker": "Carte des sources de données",
+    "heading": "Notez chaque source sur 9",
+    "items": [
+     "Accès : avec quelle facilité extraire les données",
+     "Qualité : dans quelle mesure est-il complet et correct",
+     "Fréquence : à quel point cela peut être frais",
+     "Paiements des frais : 8, prêt maintenant",
+     "Présence aux articles : 4, phase deux"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Un dictionnaire métrique est la définition écrite unique de chaque numéro clé. Chaque entrée a une signification, une formule, une source, un propriétaire et une heure d'actualisation.",
+    "Ici, le propriétaire est l'économe, et il rafraîchit tous les lundis à 10 heures."
+   ],
+   "card": {
+    "title": "Définir le taux de perception des taxes",
+    "rows": [],
+    "note": "Exclut les étudiants bénéficiant d'une bourse complète."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "L'école a facturé 48 600 000 naira ce trimestre."
+   ],
+   "card": {
+    "title": "Définir le taux de perception des taxes",
+    "rows": [
+     [
+      "Honoraires facturés ce trimestre",
+      "48,600,000"
+     ]
+    ],
+    "note": "Exclut les étudiants bénéficiant d'une bourse complète."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Il a reçu 39 852 000 nairas. Reçu divisé par facturé, multiplié par 100, soit 82 %.",
+    "Notez les exclusions. Si les étudiants boursiers restent dans le montant facturé, le tarif semble pire et le propriétaire peut chasser les mauvaises familles."
+   ],
+   "card": {
+    "title": "Définir le taux de perception des taxes",
+    "rows": [
+     [
+      "Honoraires facturés ce trimestre",
+      "48,600,000"
+     ],
+     [
+      "Honoraires reçus ce trimestre",
+      "39,852,000"
+     ]
+    ],
+    "note": "Exclut les étudiants bénéficiant d'une bourse complète."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Vous ne pouvez pas signifier chaque décision en même temps. Notez chacun pour une valeur de 1 à 5 : la quantité d'argent, de temps ou de risque en dépend."
+   ],
+   "panel": {
+    "kicker": "Prioriser",
+    "heading": "Valeur du score multipliée par la faisabilité",
+    "items": [
+     "Valeur 1 à 5 : argent, temps ou risque en jeu",
+     "Faisabilité 1 à 5 : données prêtes, faciles à construire",
+     "Réapprovisionnement hebdomadaire : 5 x 4 = 20",
+     "Quatrième dépôt : 5 x 1 = 5, les données fonctionnent en premier"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Notez ensuite la faisabilité de 1 à 5 : dans quelle mesure les données sont prêtes. Multipliez les deux pour obtenir un score sur 25."
+   ],
+   "panel": {
+    "kicker": "Prioriser",
+    "heading": "Valeur du score multipliée par la faisabilité",
+    "items": [
+     "Valeur 1 à 5 : argent, temps ou risque en jeu",
+     "Faisabilité 1 à 5 : données prêtes, faciles à construire",
+     "Réapprovisionnement hebdomadaire : 5 x 4 = 20",
+     "Quatrième dépôt : 5 x 1 = 5, les données fonctionnent en premier"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Par exemple, Chidi dirige la BI pour un distributeur de boissons gazeuses à Onitsha. La réorganisation hebdomadaire obtient un score de 5 fois 4, soit 20."
+   ],
+   "panel": {
+    "kicker": "Prioriser",
+    "heading": "Valeur du score multipliée par la faisabilité",
+    "items": [
+     "Valeur 1 à 5 : argent, temps ou risque en jeu",
+     "Faisabilité 1 à 5 : données prêtes, faciles à construire",
+     "Réapprovisionnement hebdomadaire : 5 x 4 = 20",
+     "Quatrième dépôt : 5 x 1 = 5, les données fonctionnent en premier"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "L'ouverture d'un quatrième dépôt est utile, mais les données ne sont pas encore collectées, elle obtient donc un score de 5. Au lieu d'un rapport, il ajoute commencer à enregistrer les emplacements des détaillants au plan de travail sur les données."
+   ],
+   "panel": {
+    "kicker": "Prioriser",
+    "heading": "Valeur du score multipliée par la faisabilité",
+    "items": [
+     "Valeur 1 à 5 : argent, temps ou risque en jeu",
+     "Faisabilité 1 à 5 : données prêtes, faciles à construire",
+     "Réapprovisionnement hebdomadaire : 5 x 4 = 20",
+     "Quatrième dépôt : 5 x 1 = 5, les données fonctionnent en premier"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Construisez d'abord les scores les plus élevés.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Différentes personnes ont besoin de points de vue différents. Le niveau stratégique sert le propriétaire ou le conseil d'administration, mensuellement ou trimestriellement, avec 5 à 8 chiffres principaux par rapport aux objectifs."
+   ],
+   "panel": {
+    "kicker": "Niveaux de reporting",
+    "heading": "Trois niveaux, pas une seule page encombrée",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Stratégique",
+      "d": "Propriétaire ou conseil d'administration, mensuel ou trimestriel. 5 à 8 mesures principales par rapport aux objectifs, sur une seule page."
+     },
+     {
+      "t": "Tactique",
+      "d": "Chefs d'agences et de départements, chaque semaine. Répartition par branche, produit ou représentant : ce qui a changé et pourquoi."
+     },
+     {
+      "t": "Opérationnel",
+      "d": "Surveillants, quotidiennement. Listes sur lesquelles agir : stock faible, payeurs en retard, livraisons du jour."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Le niveau tactique sert les gestionnaires chaque semaine, avec des analyses qui montrent ce qui a changé et pourquoi."
+   ],
+   "panel": {
+    "kicker": "Niveaux de reporting",
+    "heading": "Trois niveaux, pas une seule page encombrée",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Stratégique",
+      "d": "Propriétaire ou conseil d'administration, mensuel ou trimestriel. 5 à 8 mesures principales par rapport aux objectifs, sur une seule page."
+     },
+     {
+      "t": "Tactique",
+      "d": "Chefs d'agences et de départements, chaque semaine. Répartition par branche, produit ou représentant : ce qui a changé et pourquoi."
+     },
+     {
+      "t": "Opérationnel",
+      "d": "Surveillants, quotidiennement. Listes sur lesquelles agir : stock faible, payeurs en retard, livraisons du jour."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Le niveau opérationnel sert quotidiennement les superviseurs, avec des listes et non des graphiques. Ces 7 détaillants ont plus de 30 jours de retard, appelez-les dès aujourd'hui.",
+    "Et associez chaque rapport à une réunion fixe. Si personne ne peut nommer la réunion, demandez-vous si le rapport doit exister."
+   ],
+   "panel": {
+    "kicker": "Niveaux de reporting",
+    "heading": "Trois niveaux, pas une seule page encombrée",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Stratégique",
+      "d": "Propriétaire ou conseil d'administration, mensuel ou trimestriel. 5 à 8 mesures principales par rapport aux objectifs, sur une seule page."
+     },
+     {
+      "t": "Tactique",
+      "d": "Chefs d'agences et de départements, chaque semaine. Répartition par branche, produit ou représentant : ce qui a changé et pourquoi."
+     },
+     {
+      "t": "Opérationnel",
+      "d": "Surveillants, quotidiennement. Listes sur lesquelles agir : stock faible, payeurs en retard, livraisons du jour."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Le premier mauvais numéro renvoie les managers à leurs feuilles de calcul privées. Vérifiez donc six éléments à chaque fois que les données sont actualisées : l'exhaustivité, l'unicité, la cohérence, l'actualité, la validité et l'exactitude.",
+    "Par exemple, Hauwa trouve 30 identifiants de membre en double dans son registre de 1 250 enregistrements. Elle corrige les problèmes à la source, pas dans le rapport, donc ils ne reviennent pas le mois prochain."
+   ],
+   "panel": {
+    "kicker": "Qualité des données",
+    "heading": "Six contrôles à chaque actualisation",
+    "items": [
+     "exhaustivité : les valeurs sont présentes",
+     "Unicité : pas de doublons",
+     "Cohérence : pas de contradictions",
+     "Actualité : date d'actualisation sur chaque rapport",
+     "Validité : bonne gamme et format",
+     "Exactitude : correspond au relevé bancaire"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "La BI rassemble les données personnelles en un seul endroit, ce qui augmente le risque. Au Nigeria, la Nigeria Data Protection Act 2023 a créé le NDPC pour faire respecter les règles de protection des données. Chargez uniquement les champs personnels dont une décision a réellement besoin."
+   ],
+   "panel": {
+    "kicker": "Protéger les données des personnes",
+    "heading": "Habitudes de protection des données",
+    "items": [
+     "Charger uniquement les champs personnels dont une décision a besoin",
+     "Afficher les totaux ; noms uniquement dans les listes d'actions",
+     "Donner l'accès par rôle",
+     "Pas d'exportations brutes dans les groupes WhatsApp",
+     "Mots de passe forts et vérification en deux étapes"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Affichez les totaux dans les rapports et conservez les noms et numéros de téléphone uniquement dans les listes du personnel qui doit y donner suite."
+   ],
+   "panel": {
+    "kicker": "Protéger les données des personnes",
+    "heading": "Habitudes de protection des données",
+    "items": [
+     "Charger uniquement les champs personnels dont une décision a besoin",
+     "Afficher les totaux ; noms uniquement dans les listes d'actions",
+     "Donner l'accès par rôle",
+     "Pas d'exportations brutes dans les groupes WhatsApp",
+     "Mots de passe forts et vérification en deux étapes"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Un directeur de succursale voit sa succursale, pas tous les clients."
+   ],
+   "panel": {
+    "kicker": "Protéger les données des personnes",
+    "heading": "Habitudes de protection des données",
+    "items": [
+     "Charger uniquement les champs personnels dont une décision a besoin",
+     "Afficher les totaux ; noms uniquement dans les listes d'actions",
+     "Donner l'accès par rôle",
+     "Pas d'exportations brutes dans les groupes WhatsApp",
+     "Mots de passe forts et vérification en deux étapes"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_security",
+   "say": [
+    "Ne partagez pas les exportations brutes dans les groupes WhatsApp ou dans les e-mails personnels."
+   ],
+   "panel": {
+    "kicker": "Protéger les données des personnes",
+    "heading": "Habitudes de protection des données",
+    "items": [
+     "Charger uniquement les champs personnels dont une décision a besoin",
+     "Afficher les totaux ; noms uniquement dans les listes d'actions",
+     "Donner l'accès par rôle",
+     "Pas d'exportations brutes dans les groupes WhatsApp",
+     "Mots de passe forts et vérification en deux étapes"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_security",
+   "say": [
+    "Utilisez des mots de passe forts et une vérification en deux étapes, et supprimez l'accès le jour où quelqu'un part. Les listes de clients sont précieuses pour les fraudeurs, alors confirmez d'abord toute personne prétendant être une banque ou un service informatique par l'intermédiaire d'un contact officiel connu."
+   ],
+   "panel": {
+    "kicker": "Protéger les données des personnes",
+    "heading": "Habitudes de protection des données",
+    "items": [
+     "Charger uniquement les champs personnels dont une décision a besoin",
+     "Afficher les totaux ; noms uniquement dans les listes d'actions",
+     "Donner l'accès par rôle",
+     "Pas d'exportations brutes dans les groupes WhatsApp",
+     "Mots de passe forts et vérification en deux étapes"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "N'envoyez jamais de listes de clients à quelqu'un qui se contente d'appeler ou de discuter.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "À retenir. Évaluez vos sources. Écrivez chaque métrique avec ses exclusions et un propriétaire. Construisez d'abord les scores les plus élevés.",
+    "Utilisez trois niveaux liés aux réunions, corrigez la qualité à la source et protégez les données personnelles."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Évaluez les sources sur l’accès, la qualité et la fréquence",
+     "Chaque métrique : formule, exclusions, un seul propriétaire",
+     "La valeur multipliée par la faisabilité définit l'ordre",
+     "Trois niveaux, chacun lié à une réunion",
+     "Corriger la qualité à la source ; protéger les données personnelles"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Cartographiez maintenant vos sources et définissez deux mesures, concevez une structure de reporting et rédigez un plan de gouvernance d'une page.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâches d'entraînement",
+    "heading": "Vos tâches pratiques",
+    "items": [
+     "Cartographier les sources et définir deux métriques",
+     "Concevoir une structure de reporting",
+     "Rédigez un plan de gouvernance d’une page"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

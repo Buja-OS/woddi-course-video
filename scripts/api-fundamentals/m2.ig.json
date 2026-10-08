@@ -1,0 +1,500 @@
+{
+ "course": "api-fundamentals",
+ "module": "m2",
+ "title": "Nwalee nke ọma, chekwaa igodo gị, mee atụmatụ maka ọdịda",
+ "course_title": "Isi ihe API",
+ "shots": [
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Nwalee nke ọma, chekwaa igodo gị, wee mee atụmatụ maka ọdịda.",
+    "Nke a bụ vidiyo maka modul abụọ nke API Fundamentals."
+   ]
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Ogwe adreesị ihe nchọgharị nwere ike izipu arịrịọ GET naanị, ọ na-ezobe nkụnye eji isi mee. Iji nwalee ezigbo API ị chọrọ onye ahịa API, ngwa ọrụ ebe ị ga-ahọrọ usoro, URL, nkụnye eji isi mee na ahụ, wee hụ nzaghachi zuru oke."
+   ],
+   "panel": {
+    "kicker": "Ihe mere nke a ji dị mkpa",
+    "heading": "Otu ihe ịga nke ọma bụ naanị mmalite",
+    "items": [
+     "Jiri onye ahịa API kwesịrị ekwesị",
+     "Buru ụzọ gụọ akwụkwọ ahụ",
+     "Gosipụta ihe na-erugharị na ọnọdụ nnwale",
+     "Mee atụmatụ maka njehie, ibe na ikwugharị"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Ezigbo ọrụ API na-amalite site na mkpa, dị ka: anyị chọrọ ịma na-akpaghị aka mgbe onye ahịa kwụrụ ụgwọ. Ị na-agụ akwụkwọ ahụ, wee nwalee nke ọma tupu ihe ọ bụla adị ndụ."
+   ],
+   "panel": {
+    "kicker": "Ihe mere nke a ji dị mkpa",
+    "heading": "Otu ihe ịga nke ọma bụ naanị mmalite",
+    "items": [
+     "Jiri onye ahịa API kwesịrị ekwesị",
+     "Buru ụzọ gụọ akwụkwọ ahụ",
+     "Gosipụta ihe na-erugharị na ọnọdụ nnwale",
+     "Mee atụmatụ maka njehie, ibe na ikwugharị"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Na njikọta a pụrụ ịdabere na ya na-akpa ezi uche mgbe ihe na-aga nke ọma."
+   ],
+   "panel": {
+    "kicker": "Ihe mere nke a ji dị mkpa",
+    "heading": "Otu ihe ịga nke ọma bụ naanị mmalite",
+    "items": [
+     "Jiri onye ahịa API kwesịrị ekwesị",
+     "Buru ụzọ gụọ akwụkwọ ahụ",
+     "Gosipụta ihe na-erugharị na ọnọdụ nnwale",
+     "Mee atụmatụ maka njehie, ibe na ikwugharị"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Ọtụtụ ndị mmụta na-amalite na Hoppscotch na ekwentị. Ọ bụ n'efu na ìhè na data."
+   ],
+   "panel": {
+    "kicker": "Ngwa ngwa gị",
+    "heading": "Hoppscotch ma ọ bụ onye akwụkwọ ozi?",
+    "mode": "compare",
+    "left_h": "Hoppscotch",
+    "left": [
+     "Na-agba ọsọ na ihe nchọgharị ọ bụla, ọbụlagodi ekwentị",
+     "N'efu, enweghị nkwụnye",
+     "Ìhè na data"
+    ],
+    "right_h": "Onye nzi ozi",
+    "right": [
+     "Ngwa Desktop ma ọ bụ webụ",
+     "Na-echekwa mkpokọta, na-ekekọrịta otu otu",
+     "Nbudata buru ibu na data mkpanaka"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Onye nzi ozi dabara na mkpokọta na otu ndị echekwara na laptọọpụ.",
+    "Mụtakwa ịgụ curl, n'ihi na ọtụtụ akwụkwọ na-egosi ihe atụ otú ahụ. Dash H na-agbakwunye nkụnye eji isi mee, dash d bụ ​​ahụ, yana dash X na-edozi usoro ahụ.",
+    "Mụa ihe na API adịgboroja dị ka JSONPlaceholder, nke na-eme naanị ka ọ na-echekwa. Enwela nnwale na ihichapụ na akaụntụ azụmaahịa n'ezie."
+   ],
+   "panel": {
+    "kicker": "Ngwa ngwa gị",
+    "heading": "Hoppscotch ma ọ bụ onye akwụkwọ ozi?",
+    "mode": "compare",
+    "left_h": "Hoppscotch",
+    "left": [
+     "Na-agba ọsọ na ihe nchọgharị ọ bụla, ọbụlagodi ekwentị",
+     "N'efu, enweghị nkwụnye",
+     "Ìhè na data"
+    ],
+    "right_h": "Onye nzi ozi",
+    "right": [
+     "Ngwa Desktop ma ọ bụ webụ",
+     "Na-echekwa mkpokọta, na-ekekọrịta otu otu",
+     "Nbudata buru ibu na data mkpanaka"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Akwụkwọ mara mma na-aza otu ajụjụ oge ọ bụla. Chọta URL ntọala, ebe njedebe njedebe ọ bụla na-amalite. Mgbe ahụ ka ị ga-esi gosi onye ị bụ. Ọtụtụ API na-ewere mkpịsị ugodi na nkụnye eji ikike dị ka ihe nrịbama."
+   ],
+   "panel": {
+    "kicker": "Na-agụ akwụkwọ",
+    "heading": "Chọta ihe ndị a tupu izipu",
+    "items": [
+     "URL ntọala",
+     "Nyocha: ebe igodo na-aga",
+     "Ebe ngwụcha, mpaghara na nzaghachi nlele",
+     "Nkeji, dị ka ego na kobo",
+     "Ule ule ma ọ bụ igbe ájá",
+     "Njehie, oke ọnụego na ibe"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Rịba ama usoro njedebe nke ọ bụla, ụzọ na mpaghara achọrọ, yana nkeji, dị ka ego na kobo."
+   ],
+   "panel": {
+    "kicker": "Na-agụ akwụkwọ",
+    "heading": "Chọta ihe ndị a tupu izipu",
+    "items": [
+     "URL ntọala",
+     "Nyocha: ebe igodo na-aga",
+     "Ebe ngwụcha, mpaghara na nzaghachi nlele",
+     "Nkeji, dị ka ego na kobo",
+     "Ule ule ma ọ bụ igbe ájá",
+     "Njehie, oke ọnụego na ibe"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Chọta ọnọdụ nnwale, ebe ọ nweghị ihe na-eme n'ezie, yana usoro njehie, oke ọnụego na nha peeji.",
+    "Ịwụfe akwụkwọ ma ọ bụ nzọụkwụ ule bụ ebe ọtụtụ njikọta dara ada na-amalite."
+   ],
+   "panel": {
+    "kicker": "Na-agụ akwụkwọ",
+    "heading": "Chọta ihe ndị a tupu izipu",
+    "items": [
+     "URL ntọala",
+     "Nyocha: ebe igodo na-aga",
+     "Ebe ngwụcha, mpaghara na nzaghachi nlele",
+     "Nkeji, dị ka ego na kobo",
+     "Ule ule ma ọ bụ igbe ájá",
+     "Njehie, oke ọnụego na ibe"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Dịka ọmụmaatụ, Ruth na-ere akwa adire na Abeokuta ma chọọ njikọ ịkwụ ụgwọ maka ịtụ puku naira iri na ise. Onye nrụpụta ya na-enye ya igodo ule Paystack na Postman. Ọ dịghị ihe na ule mode na-akpali ezigbo ego."
+   ],
+   "panel": {
+    "kicker": "Ihe atụ rụrụ ọrụ",
+    "heading": "ugwo ule Rut, ngwucha rue ngwu",
+    "items": [
+     "Mkpa: njikọ ịkwụ ụgwọ 15,000 naira",
+     "Ntụgharị: 15,000 x 100 = 1,500,000 kobo",
+     "POST nwere igodo ule Bearer na ahụ JSON",
+     "Mepee njikọ ahụ, nlele nlele zuru ezu",
+     "Nyochaa: ọkwa, ego NGN, ego"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Ọnụ ego ahụ na-aga na kobo, ya mere 15,000 ugboro 100 bụ 1,500,000."
+   ],
+   "panel": {
+    "kicker": "Ihe atụ rụrụ ọrụ",
+    "heading": "ugwo ule Rut, ngwucha rue ngwu",
+    "items": [
+     "Mkpa: njikọ ịkwụ ụgwọ 15,000 naira",
+     "Ntụgharị: 15,000 x 100 = 1,500,000 kobo",
+     "POST nwere igodo ule Bearer na ahụ JSON",
+     "Mepee njikọ ahụ, nlele nlele zuru ezu",
+     "Nyochaa: ọkwa, ego NGN, ego"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Ọ na-eziga POST na njedebe njedebe mmalite, yana igodo ule dị na nkụnye ikike ikike yana email na ego dị n'ime ahụ."
+   ],
+   "panel": {
+    "kicker": "Ihe atụ rụrụ ọrụ",
+    "heading": "ugwo ule Rut, ngwucha rue ngwu",
+    "items": [
+     "Mkpa: njikọ ịkwụ ụgwọ 15,000 naira",
+     "Ntụgharị: 15,000 x 100 = 1,500,000 kobo",
+     "POST nwere igodo ule Bearer na ahụ JSON",
+     "Mepee njikọ ahụ, nlele nlele zuru ezu",
+     "Nyochaa: ọkwa, ego NGN, ego"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_social",
+   "say": [
+    "Nzaghachi ahụ nwere njikọ nlele na ntụnye aka. Ọ na-emecha nlele ule."
+   ],
+   "panel": {
+    "kicker": "Ihe atụ rụrụ ọrụ",
+    "heading": "ugwo ule Rut, ngwucha rue ngwu",
+    "items": [
+     "Mkpa: njikọ ịkwụ ụgwọ 15,000 naira",
+     "Ntụgharị: 15,000 x 100 = 1,500,000 kobo",
+     "POST nwere igodo ule Bearer na ahụ JSON",
+     "Mepee njikọ ahụ, nlele nlele zuru ezu",
+     "Nyochaa: ọkwa, ego NGN, ego"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_social",
+   "say": [
+    "Mgbe ahụ, ọ na-eji ntụaka aka nyochaa: ọnọdụ ịga nke ọma, ego NGN, na ego na-ekewa azụ na 15,000 naira. Naanị ugbu a onye nrụpụta ya ga-agbanwe gaa na igodo ndụ."
+   ],
+   "panel": {
+    "kicker": "Ihe atụ rụrụ ọrụ",
+    "heading": "ugwo ule Rut, ngwucha rue ngwu",
+    "items": [
+     "Mkpa: njikọ ịkwụ ụgwọ 15,000 naira",
+     "Ntụgharị: 15,000 x 100 = 1,500,000 kobo",
+     "POST nwere igodo ule Bearer na ahụ JSON",
+     "Mepee njikọ ahụ, nlele nlele zuru ezu",
+     "Nyochaa: ọkwa, ego NGN, ego"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Lelee ego na ego, ọ bụghị naanị okwu ịga nke ọma.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Igodo nzuzo nwere ike ime na akaụntụ ahụ dum, gụnyere ego. Debe ya na naanị ihe nkesa, ọ dịghị mgbe ndị ọrụ ebudatara koodu. Adịla ezipụ ya na WhatsApp ma ọ bụ email, ma ọ bụ mado ya na nkata AI, nseta ihuenyo ma ọ bụ akwụkwọ ekekọrịtara. Debe ya na GitHub.",
+    "Ọ bụrụ na igodo nwere ike ịgbapụta, mepụta nke ọhụrụ ozugbo, nke na-akwụsị nke ochie na-arụ ọrụ."
+   ],
+   "panel": {
+    "kicker": "Nchekwa",
+    "heading": "Mesoo igodo nzuzo dị ka PIN ụlọ akụ gị",
+    "items": [
+     "Debe ya naanị n'akụkụ ihe nkesa",
+     "Ọ dịghị mgbe na WhatsApp, email ma ọ bụ AI nkata",
+     "Ọ dịghị mgbe na nseta ihuenyo ma ọ bụ ekekọrịta akwụkwọ",
+     "Debe ya na koodu GitHub",
+     "Ọ bụrụ na ọ nwere ike ịgbapụta, mepụta nke ọhụrụ"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Nke mbụ, oke ọnụego. A 429 pụtara ọtụtụ arịrịọ. Chere ogologo oge isi okwu Nnwagharị-Mgbe nkụnye eji isi mee kwuru. Maka njehie nkesa nwa oge, chere wee chere okpukpu abụọ oge ọ bụla. Anwala akpaghị aka POST na-ebugharị ego."
+   ],
+   "panel": {
+    "kicker": "Nnwale maka ọdịda",
+    "heading": "Ihe atọ na-aga adịghị mma",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "429 Ọtụtụ arịrịọ",
+      "d": "Chere ruo ogologo oge Retry-After kwuru. Sekọnd 3,600 bụ otu elekere. Maka 5xx, azụ azụ: 1, 2, 4, 8 sekọnd."
+     },
+     {
+      "t": "Ndepụta na-abata na ibe",
+      "d": "Ihe ndekọ 230 na 50 kwa ibe bụ ibe 5. Gbakọọ mkpokọta megide isi iyi nke abụọ."
+     },
+     {
+      "t": "Webhooks rutere ugboro abụọ",
+      "d": "Lelee mbinye aka, zaghachi 200 OK ngwa ngwa, kwugharịa ugboro ugboro, nyochaa tupu ebufee."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Nke abụọ, ibe. Grace na Kaduna chọrọ azụmahịa 230 na 50 kwa ibe, ya mere ibe ise. A sị na ọ kwụsịrị na peeji nke 1, 180 gaara efu."
+   ],
+   "panel": {
+    "kicker": "Nnwale maka ọdịda",
+    "heading": "Ihe atọ na-aga adịghị mma",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "429 Ọtụtụ arịrịọ",
+      "d": "Chere ruo ogologo oge Retry-After kwuru. Sekọnd 3,600 bụ otu elekere. Maka 5xx, azụ azụ: 1, 2, 4, 8 sekọnd."
+     },
+     {
+      "t": "Ndepụta na-abata na ibe",
+      "d": "Ihe ndekọ 230 na 50 kwa ibe bụ ibe 5. Gbakọọ mkpokọta megide isi iyi nke abụọ."
+     },
+     {
+      "t": "Webhooks rutere ugboro abụọ",
+      "d": "Lelee mbinye aka, zaghachi 200 OK ngwa ngwa, kwugharịa ugboro ugboro, nyochaa tupu ebufee."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Nke atọ, webhooks, ebe onye na-eweta na-akpọ URL gị mgbe ihe mere, dị ka ịkwụ ụgwọ. Lelee mbinye aka, zaghachi 200 OK ozugbo, ma tụọ anya otu mmemme karịa otu ugboro.",
+    "Ekwela ka ahapụ ngwaahịa na nseta ihuenyo ma ọ bụ nko webụ akwadoghị. Ndị aghụghọ na-eziga ọkwa adịgboroja."
+   ],
+   "panel": {
+    "kicker": "Nnwale maka ọdịda",
+    "heading": "Ihe atọ na-aga adịghị mma",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "429 Ọtụtụ arịrịọ",
+      "d": "Chere ruo ogologo oge Retry-After kwuru. Sekọnd 3,600 bụ otu elekere. Maka 5xx, azụ azụ: 1, 2, 4, 8 sekọnd."
+     },
+     {
+      "t": "Ndepụta na-abata na ibe",
+      "d": "Ihe ndekọ 230 na 50 kwa ibe bụ ibe 5. Gbakọọ mkpokọta megide isi iyi nke abụọ."
+     },
+     {
+      "t": "Webhooks rutere ugboro abụọ",
+      "d": "Lelee mbinye aka, zaghachi 200 OK ngwa ngwa, kwugharịa ugboro ugboro, nyochaa tupu ebufee."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "API na-agbanwe, igodo kubie ume, ma onye nrụpụta na-aga n'ihu. Mpempe akwụkwọ ịgba ọsọ dị mkpirikpi na-ahapụ onye ọzọ ka ọ na-arụ ọrụ. Dekọọ mkpa azụmahịa, onye nwe ya, yana ibe akwụkwọ kpọmkwem."
+   ],
+   "panel": {
+    "kicker": "Nyefee ya",
+    "heading": "Mpempe akwụkwọ ọsọ API",
+    "items": [
+     "Ebumnuche na onye nwe ya",
+     "Onye na-eweta, URL ntọala na njikọ docs",
+     "Ebe ngwụcha, mpaghara na nkeji",
+     "Ebe a na-echekwa igodo, ọ bụghị igodo",
+     "Njehie, oke, ule na kọntaktị"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Depụta ebe njedebe ọ bụla na nkeji ya. Dekọọ ebe echekwara igodo yana onye nwere ike ịnweta ha, mana emela igodo n'onwe ya."
+   ],
+   "panel": {
+    "kicker": "Nyefee ya",
+    "heading": "Mpempe akwụkwọ ọsọ API",
+    "items": [
+     "Ebumnuche na onye nwe ya",
+     "Onye na-eweta, URL ntọala na njikọ docs",
+     "Ebe ngwụcha, mpaghara na nkeji",
+     "Ebe a na-echekwa igodo, ọ bụghị igodo",
+     "Njehie, oke, ule na kọntaktị"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Mechaa na iwu njehie, jiri ụbọchị nwalee nsonaazụ, yana onye ị ga-akpọtụrụ."
+   ],
+   "panel": {
+    "kicker": "Nyefee ya",
+    "heading": "Mpempe akwụkwọ ọsọ API",
+    "items": [
+     "Ebumnuche na onye nwe ya",
+     "Onye na-eweta, URL ntọala na njikọ docs",
+     "Ebe ngwụcha, mpaghara na nkeji",
+     "Ebe a na-echekwa igodo, ọ bụghị igodo",
+     "Njehie, oke, ule na kọntaktị"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Icheta. Mụa ihe na API adịgboroja yana n'ụdị ule. Nyochaa ego na ego. Debe igodo nzuzo na sava ahụ, ma dochie ihe ọ bụla na-agbapụta. Sọpụrụ Nwagharịa-Mgbe, ma gụọ ibe ọ bụla."
+   ],
+   "panel": {
+    "kicker": "Isi ihe",
+    "heading": "Cheta",
+    "items": [
+     "Mụa ihe na API adịgboroja yana ụdị nnwale",
+     "Nyochaa ego na ego, ọ bụghị naanị ihe ịga nke ọma",
+     "Igodo nzuzo na-anọ n'akụkụ nkesa",
+     "Nkwanye nkwanye ùgwù-Nwagharị-Mgbe; gụọ ibe ọ bụla"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Ugbu a gbaa ọsọ ma dekọọ arịrịọ omume anọ, dee akwụkwọ eziokwu API otu ibe, wee dee atụmatụ nnwale na mpempe akwụkwọ.",
+    "Gaa n'ihu na nkuzi ndị dị n'okpuru."
+   ],
+   "panel": {
+    "kicker": "Mee ihe omume",
+    "heading": "Ọrụ omume gị",
+    "items": [
+     "Gbaa ma dekọọ arịrịọ omume anọ",
+     "Dee mpempe akwụkwọ eziokwu API otu ibe",
+     "Dee atụmatụ ule wee mee mpempe akwụkwọ"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

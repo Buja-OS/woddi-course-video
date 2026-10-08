@@ -1,0 +1,626 @@
+{
+ "course": "bulk-production-planning",
+ "module": "m1",
+ "title": "Dimensionando um pedido em massa: especificação, capacidade e materiais",
+ "course_title": "Planejamento de produção em massa",
+ "shots": [
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Dimensionamento de um pedido em massa: especificação, capacidade e materiais.",
+    "Este é o vídeo do módulo 1 do Planejamento de Produção a Granel."
+   ]
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Quando um pedido é 50 ou 100 vezes maior que o tamanho normal, cinco coisas mudam ao mesmo tempo. Primeiro, os materiais que você compra antes de ganhar qualquer coisa."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Um pedido em grandes quantidades não é um fim de semana movimentado",
+    "items": [
+     "Materiais comprados antes de você ganhar",
+     "Horas de trabalho no seu passo mais lento",
+     "Espaço para estoque e caixas",
+     "Dinheiro gasto antes do comprador pagar",
+     "Risco: um erro copiado muitas vezes"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Em segundo lugar, as horas de trabalho no seu passo mais lento."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Um pedido em grandes quantidades não é um fim de semana movimentado",
+    "items": [
+     "Materiais comprados antes de você ganhar",
+     "Horas de trabalho no seu passo mais lento",
+     "Espaço para estoque e caixas",
+     "Dinheiro gasto antes do comprador pagar",
+     "Risco: um erro copiado muitas vezes"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Terceiro, o espaço para armazenar matérias-primas e produtos acabados."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Um pedido em grandes quantidades não é um fim de semana movimentado",
+    "items": [
+     "Materiais comprados antes de você ganhar",
+     "Horas de trabalho no seu passo mais lento",
+     "Espaço para estoque e caixas",
+     "Dinheiro gasto antes do comprador pagar",
+     "Risco: um erro copiado muitas vezes"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Quarto, o dinheiro que você gasta antes de o comprador pagar."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Um pedido em grandes quantidades não é um fim de semana movimentado",
+    "items": [
+     "Materiais comprados antes de você ganhar",
+     "Horas de trabalho no seu passo mais lento",
+     "Espaço para estoque e caixas",
+     "Dinheiro gasto antes do comprador pagar",
+     "Risco: um erro copiado muitas vezes"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "E quinto, o risco de que um erro seja copiado em milhares de unidades. O planejamento transforma cada um deles em números antes de você concordar com um preço ou uma data."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Um pedido em grandes quantidades não é um fim de semana movimentado",
+    "items": [
+     "Materiais comprados antes de você ganhar",
+     "Horas de trabalho no seu passo mais lento",
+     "Espaço para estoque e caixas",
+     "Dinheiro gasto antes do comprador pagar",
+     "Risco: um erro copiado muitas vezes"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "A maioria das consultas em massa chega na forma de uma ligação ou nota de voz do WhatsApp, tipo, precisamos de cerca de 5.000 pacotes de batatas fritas antes do Natal, qual é o seu preço?",
+    "Transforme isso em uma folha de especificações do pedido de uma página com a qual você e o comprador concordem."
+   ],
+   "panel": {
+    "kicker": "Primeiro passo",
+    "heading": "A folha de especificações do pedido",
+    "items": [
+     "Produto, tamanho e quantidade",
+     "Embalagem, rotulagem e padrão de qualidade",
+     "Data de entrega, endereço e destinatário",
+     "Preço, depósito e condições de pagamento",
+     "Documentos, um contato, alterações por escrito"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Escreva o produto e o tamanho exatos, por exemplo 100 g por embalagem, e a quantidade exata."
+   ],
+   "panel": {
+    "kicker": "Primeiro passo",
+    "heading": "A folha de especificações do pedido",
+    "items": [
+     "Produto, tamanho e quantidade",
+     "Embalagem, rotulagem e padrão de qualidade",
+     "Data de entrega, endereço e destinatário",
+     "Preço, depósito e condições de pagamento",
+     "Documentos, um contato, alterações por escrito"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Escreva a embalagem, os rótulos e o padrão de qualidade: a amostra aprovada e o que conta como defeito."
+   ],
+   "panel": {
+    "kicker": "Primeiro passo",
+    "heading": "A folha de especificações do pedido",
+    "items": [
+     "Produto, tamanho e quantidade",
+     "Embalagem, rotulagem e padrão de qualidade",
+     "Data de entrega, endereço e destinatário",
+     "Preço, depósito e condições de pagamento",
+     "Documentos, um contato, alterações por escrito"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Escreva a data de entrega, endereço e quem recebe."
+   ],
+   "panel": {
+    "kicker": "Primeiro passo",
+    "heading": "A folha de especificações do pedido",
+    "items": [
+     "Produto, tamanho e quantidade",
+     "Embalagem, rotulagem e padrão de qualidade",
+     "Data de entrega, endereço e destinatário",
+     "Preço, depósito e condições de pagamento",
+     "Documentos, um contato, alterações por escrito"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Escreva o preço unitário, o depósito e quando o saldo será pago."
+   ],
+   "panel": {
+    "kicker": "Primeiro passo",
+    "heading": "A folha de especificações do pedido",
+    "items": [
+     "Produto, tamanho e quantidade",
+     "Embalagem, rotulagem e padrão de qualidade",
+     "Data de entrega, endereço e destinatário",
+     "Preço, depósito e condições de pagamento",
+     "Documentos, um contato, alterações por escrito"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Por fim, os documentos de que o comprador necessita, uma pessoa nomeada de cada lado, e a regra de que qualquer alteração seja confirmada por escrito.",
+    "Responda à consulta com perguntas, não com um preço. Compradores sérios respeitam isso."
+   ],
+   "panel": {
+    "kicker": "Primeiro passo",
+    "heading": "A folha de especificações do pedido",
+    "items": [
+     "Produto, tamanho e quantidade",
+     "Embalagem, rotulagem e padrão de qualidade",
+     "Data de entrega, endereço e destinatário",
+     "Preço, depósito e condições de pagamento",
+     "Documentos, um contato, alterações por escrito"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Por exemplo, Kemi fabrica chips de banana em Ibadan. Um pedido normal de fim de semana é de 40 pacotes. Uma empresa pede 5.000 pacotes para cestas de funcionários. Isso é 125 vezes o seu pedido normal."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Kemi: de 40 pacotes a 5.000",
+    "items": [
+     "5.000/40 = 125 vezes seu pedido normal",
+     "Banana-da-terra: 5.000 x 0,30 kg = 1.500 kg",
+     "Óleo: 5.000 x 0,025 = 125 litros",
+     "Fritadeira: 5.000/80 = 62,5 horas",
+     "Armazenamento: 5.000/50 = 100 caixas"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Ela utiliza cerca de 0,30 kg de banana crua por pacote, então 5.000 pacotes precisam de 1.500 kg, antes de qualquer desperdício."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Kemi: de 40 pacotes a 5.000",
+    "items": [
+     "5.000/40 = 125 vezes seu pedido normal",
+     "Banana-da-terra: 5.000 x 0,30 kg = 1.500 kg",
+     "Óleo: 5.000 x 0,025 = 125 litros",
+     "Fritadeira: 5.000/80 = 62,5 horas",
+     "Armazenamento: 5.000/50 = 100 caixas"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "O óleo de fritura passa de 1 litro para 125 litros."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Kemi: de 40 pacotes a 5.000",
+    "items": [
+     "5.000/40 = 125 vezes seu pedido normal",
+     "Banana-da-terra: 5.000 x 0,30 kg = 1.500 kg",
+     "Óleo: 5.000 x 0,025 = 125 litros",
+     "Fritadeira: 5.000/80 = 62,5 horas",
+     "Armazenamento: 5.000/50 = 100 caixas"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Sua fritadeira produz cerca de 80 pacotes por hora, ou seja, 62,5 horas só de fritura."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Kemi: de 40 pacotes a 5.000",
+    "items": [
+     "5.000/40 = 125 vezes seu pedido normal",
+     "Banana-da-terra: 5.000 x 0,30 kg = 1.500 kg",
+     "Óleo: 5.000 x 0,025 = 125 litros",
+     "Fritadeira: 5.000/80 = 62,5 horas",
+     "Armazenamento: 5.000/50 = 100 caixas"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "E 50 embalagens enchem uma caixa, então ela precisa de espaço para 100 caixas, limpas, secas e fora do chão.",
+    "Portanto, este não é um fim de semana agitado. Kemi deve planejar dias, não horas."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Kemi: de 40 pacotes a 5.000",
+    "items": [
+     "5.000/40 = 125 vezes seu pedido normal",
+     "Banana-da-terra: 5.000 x 0,30 kg = 1.500 kg",
+     "Óleo: 5.000 x 0,025 = 125 litros",
+     "Fritadeira: 5.000/80 = 62,5 horas",
+     "Armazenamento: 5.000/50 = 100 caixas"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Planeje dias, não horas. O gargalo decide sua data de término.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Nunca cite o seu melhor dia. Cronometre cada passo com o cronômetro do seu telefone, três vezes, e use a média.",
+    "A etapa mais lenta é o gargalo. Para Kemi, fritar a 80 maços por hora dita o ritmo de toda a linha."
+   ],
+   "panel": {
+    "kicker": "Capacidade verdadeira",
+    "heading": "Três números substituem suposições",
+    "items": [
+     "Gargalo: o passo mais lento por hora",
+     "Diária sustentada: média de 10 dias",
+     "Takt time: tempo disponível/unidades necessárias",
+     "Conte apenas boas unidades"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Em seguida, calcule a média de suas unidades boas nos últimos 10 dias úteis completos. A média da Kemi é de 470 embalagens por dia, então 5.100 embalagens, incluindo 2% extras, precisam de 11 dias de produção."
+   ],
+   "panel": {
+    "kicker": "Capacidade verdadeira",
+    "heading": "Três números substituem suposições",
+    "items": [
+     "Gargalo: o passo mais lento por hora",
+     "Diária sustentada: média de 10 dias",
+     "Takt time: tempo disponível/unidades necessárias",
+     "Conte apenas boas unidades"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "O tempo takt é o tempo disponível dividido pelas unidades necessárias. Para Kemi, um pacote deve sair do selador a cada 0,9 minutos."
+   ],
+   "panel": {
+    "kicker": "Capacidade verdadeira",
+    "heading": "Três números substituem suposições",
+    "items": [
+     "Gargalo: o passo mais lento por hora",
+     "Diária sustentada: média de 10 dias",
+     "Takt time: tempo disponível/unidades necessárias",
+     "Conte apenas boas unidades"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "E conte apenas as unidades que passaram na verificação de qualidade. Contar as rejeições torna todos os planos posteriores muito otimistas."
+   ],
+   "panel": {
+    "kicker": "Capacidade verdadeira",
+    "heading": "Três números substituem suposições",
+    "items": [
+     "Gargalo: o passo mais lento por hora",
+     "Diária sustentada: média de 10 dias",
+     "Takt time: tempo disponível/unidades necessárias",
+     "Conte apenas boas unidades"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Crie uma lista de materiais a partir de seus próprios lotes pesados, incluindo embalagens. Em seguida, adicione três licenças. O excesso é um extra que você faz para que amostras e rejeições não o deixem sem dinheiro."
+   ],
+   "panel": {
+    "kicker": "Três subsídios",
+    "heading": "Adicione-os aos seus materiais",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Superação",
+      "d": "Unidades extras para amostras e rejeitos. Kemi planeja 2%, então 5.100 pacotes por 5.000."
+     },
+     {
+      "t": "Desperdício de materiais",
+      "d": "Perda antes que uma unidade exista, como uma banana machucada. Kemi adiciona 5% à banana."
+     },
+     {
+      "t": "Deterioração da embalagem",
+      "d": "Bolsas perdidas devido a lacres ruins ou erros de impressão. Kemi acrescenta 3% em bolsas e rótulos."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Desperdício de material é perda antes que uma unidade exista. Kemi acrescenta 5% à banana-da-terra, então ela compra cerca de 1.607 kg."
+   ],
+   "panel": {
+    "kicker": "Três subsídios",
+    "heading": "Adicione-os aos seus materiais",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Superação",
+      "d": "Unidades extras para amostras e rejeitos. Kemi planeja 2%, então 5.100 pacotes por 5.000."
+     },
+     {
+      "t": "Desperdício de materiais",
+      "d": "Perda antes que uma unidade exista, como uma banana machucada. Kemi adiciona 5% à banana."
+     },
+     {
+      "t": "Deterioração da embalagem",
+      "d": "Bolsas perdidas devido a lacres ruins ou erros de impressão. Kemi acrescenta 3% em bolsas e rótulos."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "A deterioração da embalagem abrange selos ruins e erros de impressão. Em seguida, analise como os fornecedores vendem. Kemi encomenda 11 pacotes de 500 bolsas, o que equivale a 5.500."
+   ],
+   "panel": {
+    "kicker": "Três subsídios",
+    "heading": "Adicione-os aos seus materiais",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Superação",
+      "d": "Unidades extras para amostras e rejeitos. Kemi planeja 2%, então 5.100 pacotes por 5.000."
+     },
+     {
+      "t": "Desperdício de materiais",
+      "d": "Perda antes que uma unidade exista, como uma banana machucada. Kemi adiciona 5% à banana."
+     },
+     {
+      "t": "Deterioração da embalagem",
+      "d": "Bolsas perdidas devido a lacres ruins ou erros de impressão. Kemi acrescenta 3% em bolsas e rótulos."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Itens de longo prazo, como bolsas impressas, etiquetas e caixas, são encomendados primeiro, assim que o depósito chega e a arte é aprovada. As bolsas impressas podem levar 10 dias úteis."
+   ],
+   "panel": {
+    "kicker": "Tempo de compra",
+    "heading": "O que comprar primeiro, o que comprar em lotes",
+    "mode": "compare",
+    "left_h": "Encomende primeiro",
+    "left": [
+     "Bolsas impressas",
+     "Etiquetas e caixas",
+     "Assim que o depósito pousar"
+    ],
+    "right_h": "Compre em lotes",
+    "right": [
+     "Banana, perecível",
+     "Quatro lotes de cerca de 400 kg",
+     "Cada um um dia antes do uso"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Os produtos perecíveis não devem chegar todos no primeiro dia. Kemi compra banana-da-terra em quatro lotes de cerca de 400 kg, cada um um dia antes de ser necessário.",
+    "Verifique cada entrega de acordo com suas especificações antes de assinar ou pagar."
+   ],
+   "panel": {
+    "kicker": "Tempo de compra",
+    "heading": "O que comprar primeiro, o que comprar em lotes",
+    "mode": "compare",
+    "left_h": "Encomende primeiro",
+    "left": [
+     "Bolsas impressas",
+     "Etiquetas e caixas",
+     "Assim que o depósito pousar"
+    ],
+    "right_h": "Compre em lotes",
+    "right": [
+     "Banana, perecível",
+     "Quatro lotes de cerca de 400 kg",
+     "Cada um um dia antes do uso"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Empurrar com mais força o gargalo é onde os acidentes acontecem. Mantenha o pote de óleo no máximo um terço cheio, nunca o deixe sem vigilância, mantenha um cobertor contra fogo por perto e nunca despeje água no fogo de óleo.",
+    "Mantenha os alimentos longe do chão e cobertos.",
+    "E nunca libere mercadorias até que o pagamento realmente chegue à sua conta, não apenas uma captura de tela ou alerta por SMS."
+   ],
+   "panel": {
+    "kicker": "Fique seguro e honesto",
+    "heading": "Verificações de segurança e fraudes",
+    "items": [
+     "Pote de óleo não mais que um terço cheio",
+     "Nunca deixe óleo quente sem vigilância",
+     "Fechamento do cobertor anti-fogo; sem água no fogo de óleo",
+     "Estoque de comida do chão, coberto",
+     "Confirme o pagamento em sua conta"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Para lembrar. Escreva a folha de especificações e guarde uma amostra dourada.",
+    "Planeje com sua taxa sustentada. Adicione subsídios e arredonde. Encomende primeiro os itens de longo prazo, os perecíveis em lotes."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Lembre-se",
+    "items": [
+     "Transforme cada consulta em uma folha de especificações",
+     "Mantenha uma amostra dourada aprovada pelo comprador",
+     "Planeje com sua taxa sustentada, não com seu melhor dia",
+     "Adicione subsídios, arredonde para tamanhos de embalagem",
+     "Encomende primeiro itens de longo prazo, perecíveis em lotes"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Agora é a sua vez. Escreva sua folha de especificações, meça sua própria capacidade e crie sua folha de requisitos de materiais.",
+    "Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Pratique tarefas",
+    "heading": "Suas tarefas práticas",
+    "items": [
+     "Escreva a folha de especificações do seu pedido",
+     "Meça sua própria capacidade",
+     "Crie sua planilha de requisitos de materiais"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

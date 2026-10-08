@@ -1,0 +1,599 @@
+{
+ "course": "sql-fundamentals",
+ "module": "m3",
+ "title": "From vague request to paid, trusted analysis",
+ "course_title": "SQL Fundamentals",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "From a vague request to a paid, trusted analysis.",
+    "This is the video for module 3 of SQL Fundamentals: Analysis Projects, Clients and Your Portfolio."
+   ]
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "A manager says, send me our best customers. If you start typing straight away, you answer your own guess, not her question. So ask first."
+   ],
+   "panel": {
+    "kicker": "Discovery first",
+    "heading": "Ask before you type any SQL",
+    "items": [
+     "What decision will this support?",
+     "How do you define the key word?",
+     "Which period?",
+     "What should be excluded?",
+     "What format, by when, and how often?"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "What decision will this support? For Kemi, choosing who gets a loyalty discount."
+   ],
+   "panel": {
+    "kicker": "Discovery first",
+    "heading": "Ask before you type any SQL",
+    "items": [
+     "What decision will this support?",
+     "How do you define the key word?",
+     "Which period?",
+     "What should be excluded?",
+     "What format, by when, and how often?"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "How do you define best? Highest delivered spend, not number of orders."
+   ],
+   "panel": {
+    "kicker": "Discovery first",
+    "heading": "Ask before you type any SQL",
+    "items": [
+     "What decision will this support?",
+     "How do you define the key word?",
+     "Which period?",
+     "What should be excluded?",
+     "What format, by when, and how often?"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Which period? 1 May to 31 August 2026."
+   ],
+   "panel": {
+    "kicker": "Discovery first",
+    "heading": "Ask before you type any SQL",
+    "items": [
+     "What decision will this support?",
+     "How do you define the key word?",
+     "Which period?",
+     "What should be excluded?",
+     "What format, by when, and how often?"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "What should be left out? Cancelled and pending orders."
+   ],
+   "panel": {
+    "kicker": "Discovery first",
+    "heading": "Ask before you type any SQL",
+    "items": [
+     "What decision will this support?",
+     "How do you define the key word?",
+     "Which period?",
+     "What should be excluded?",
+     "What format, by when, and how often?"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "What format, by when, and is it one-off or monthly? Then write the definition back in one sentence and get a yes."
+   ],
+   "panel": {
+    "kicker": "Discovery first",
+    "heading": "Ask before you type any SQL",
+    "items": [
+     "What decision will this support?",
+     "How do you define the key word?",
+     "Which period?",
+     "What should be excluded?",
+     "What format, by when, and how often?"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "A CTE, a common table expression, lets you name one step with WITH, then use it like a table. Kemi's first step, called spend, totals delivered orders per customer."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Best customers, built step by step",
+    "items": [
+     "WITH spend AS: delivered total per customer",
+     "Check: 5 customers, adding to 211,500",
+     "Average per buying customer: 42,300",
+     "Keep those above it: Dupe, Amaka, Bisi"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Run that step alone. 5 customers, adding to 211,500. Good."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Best customers, built step by step",
+    "items": [
+     "WITH spend AS: delivered total per customer",
+     "Check: 5 customers, adding to 211,500",
+     "Average per buying customer: 42,300",
+     "Keep those above it: Dupe, Amaka, Bisi"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "The average per buying customer is 211,500 divided by 5, which is 42,300."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Best customers, built step by step",
+    "items": [
+     "WITH spend AS: delivered total per customer",
+     "Check: 5 customers, adding to 211,500",
+     "Average per buying customer: 42,300",
+     "Keep those above it: Dupe, Amaka, Bisi"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "The final query keeps customers above that: Dupe 61,000, Amaka 55,000, Bisi 54,500."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Best customers, built step by step",
+    "items": [
+     "WITH spend AS: delivered total per customer",
+     "Check: 5 customers, adding to 211,500",
+     "Average per buying customer: 42,300",
+     "Keep those above it: Dupe, Amaka, Bisi"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Then say what the number hides. Dupe made one large purchase, while Amaka bought three times. That may change who gets which offer."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Best customers, built step by step",
+    "items": [
+     "WITH spend AS: delivered total per customer",
+     "Check: 5 customers, adding to 211,500",
+     "Average per buying customer: 42,300",
+     "Keep those above it: Dupe, Amaka, Bisi"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Check each CTE step on its own before building on it.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Window functions calculate across rows while keeping every row. SUM OVER gives a running total. LAG brings the value from the previous row, so you can see the change."
+   ],
+   "card": {
+    "title": "Monthly revenue and the running total",
+    "rows": [],
+    "note": "Practice figures, not real market prices."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "May brought 69,500 naira. June brought 73,500, up 4,000, so the running total is 143,000."
+   ],
+   "card": {
+    "title": "Monthly revenue and the running total",
+    "rows": [
+     [
+      "May",
+      "69,500"
+     ],
+     [
+      "June: +4,000",
+      "73,500"
+     ]
+    ],
+    "note": "Practice figures, not real market prices."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "July fell to 60,500, and August shows only 8,000."
+   ],
+   "card": {
+    "title": "Monthly revenue and the running total",
+    "rows": [
+     [
+      "May",
+      "69,500"
+     ],
+     [
+      "June: +4,000",
+      "73,500"
+     ],
+     [
+      "July: -13,000",
+      "60,500"
+     ],
+     [
+      "August: -52,500",
+      "8,000"
+     ]
+    ],
+    "note": "Practice figures, not real market prices."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "The final running total, 211,500, equals the delivered total, so it checks out. But August has only one order, so the honest note is that August may be incomplete."
+   ],
+   "card": {
+    "title": "Monthly revenue and the running total",
+    "rows": [
+     [
+      "May",
+      "69,500"
+     ],
+     [
+      "June: +4,000",
+      "73,500"
+     ],
+     [
+      "July: -13,000",
+      "60,500"
+     ],
+     [
+      "August: -52,500",
+      "8,000"
+     ]
+    ],
+    "note": "Practice figures, not real market prices."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Beginners price only the time to type the final query. Real work takes longer. Halima estimates every stage: discovery and scope, 2 hours. Access and loading, 3. Writing and testing queries, 5. Checks, 2. The report, 3.",
+    "That is 15 hours. She adds a 20 percent buffer, 3 hours, for 18 in total."
+   ],
+   "card": {
+    "title": "Halima quotes a sales analysis",
+    "rows": [],
+    "note": "5,000 an hour is for the method only, not a market rate."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "At an illustrative 5,000 naira an hour, that is 90,000 naira. Research your own rate."
+   ],
+   "card": {
+    "title": "Halima quotes a sales analysis",
+    "rows": [
+     [
+      "18 hours x 5,000 per hour",
+      "90,000"
+     ]
+    ],
+    "note": "5,000 an hour is for the method only, not a market rate."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "She asks for 50 percent, 45,000, as a deposit before access. And extra questions get a friendly add-on quote."
+   ],
+   "card": {
+    "title": "Halima quotes a sales analysis",
+    "rows": [
+     [
+      "18 hours x 5,000 per hour",
+      "90,000"
+     ],
+     [
+      "Deposit before data access, 50%",
+      "45,000"
+     ]
+    ],
+    "note": "5,000 an hour is for the method only, not a market rate."
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Sales data holds personal data, and the Nigeria Data Protection Act 2023 sets rules for it. So ask for read-only access. Before any command that changes data, first run the same WHERE condition in a SELECT."
+   ],
+   "panel": {
+    "kicker": "Client data",
+    "heading": "Safe data habits for analysts",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Read-only access",
+      "d": "You cannot change or delete records by mistake. DELETE, UPDATE and DROP often have no undo."
+     },
+     {
+      "t": "Only what you need",
+      "d": "Request minimum columns. Replace names with IDs. No exports in personal WhatsApp chats."
+     },
+     {
+      "t": "Delete at the end",
+      "d": "Store files with two-step verification, delete them after the job, and confirm in writing."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Ask only for the columns you need. You rarely need phone numbers to count sales. Never send exports through personal WhatsApp chats or public tools."
+   ],
+   "panel": {
+    "kicker": "Client data",
+    "heading": "Safe data habits for analysts",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Read-only access",
+      "d": "You cannot change or delete records by mistake. DELETE, UPDATE and DROP often have no undo."
+     },
+     {
+      "t": "Only what you need",
+      "d": "Request minimum columns. Replace names with IDs. No exports in personal WhatsApp chats."
+     },
+     {
+      "t": "Delete at the end",
+      "d": "Store files with two-step verification, delete them after the job, and confirm in writing."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Store files safely, delete them at the end of the job, and confirm the deletion in writing."
+   ],
+   "panel": {
+    "kicker": "Client data",
+    "heading": "Safe data habits for analysts",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Read-only access",
+      "d": "You cannot change or delete records by mistake. DELETE, UPDATE and DROP often have no undo."
+     },
+     {
+      "t": "Only what you need",
+      "d": "Request minimum columns. Replace names with IDs. No exports in personal WhatsApp chats."
+     },
+     {
+      "t": "Delete at the end",
+      "d": "Store files with two-step verification, delete them after the job, and confirm in writing."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Certificates say you studied. A portfolio shows you can do the work. Take one public dataset, from Kaggle or World Bank Open Data, and write 3 to 5 questions a manager would ask."
+   ],
+   "panel": {
+    "kicker": "Prove your skill",
+    "heading": "A portfolio project that gets noticed",
+    "items": [
+     "3 to 5 business questions as definitions",
+     "One query each, up to a CTE and a window",
+     "Record your checks and what they caught",
+     "Plain-language findings with one or two charts",
+     "Publish on GitHub and pin it to LinkedIn"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Write one query per question."
+   ],
+   "panel": {
+    "kicker": "Prove your skill",
+    "heading": "A portfolio project that gets noticed",
+    "items": [
+     "3 to 5 business questions as definitions",
+     "One query each, up to a CTE and a window",
+     "Record your checks and what they caught",
+     "Plain-language findings with one or two charts",
+     "Publish on GitHub and pin it to LinkedIn"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Record the checks you ran, and what they caught."
+   ],
+   "panel": {
+    "kicker": "Prove your skill",
+    "heading": "A portfolio project that gets noticed",
+    "items": [
+     "3 to 5 business questions as definitions",
+     "One query each, up to a CTE and a window",
+     "Record your checks and what they caught",
+     "Plain-language findings with one or two charts",
+     "Publish on GitHub and pin it to LinkedIn"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Write findings a non-technical reader could act on."
+   ],
+   "panel": {
+    "kicker": "Prove your skill",
+    "heading": "A portfolio project that gets noticed",
+    "items": [
+     "3 to 5 business questions as definitions",
+     "One query each, up to a CTE and a window",
+     "Record your checks and what they caught",
+     "Plain-language findings with one or two charts",
+     "Publish on GitHub and pin it to LinkedIn"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Then publish it with a README and pin it to LinkedIn. Over 90 days: practise daily, build the project, publish, then apply."
+   ],
+   "panel": {
+    "kicker": "Prove your skill",
+    "heading": "A portfolio project that gets noticed",
+    "items": [
+     "3 to 5 business questions as definitions",
+     "One query each, up to a CTE and a window",
+     "Record your checks and what they caught",
+     "Plain-language findings with one or two charts",
+     "Publish on GitHub and pin it to LinkedIn"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "To remember. Agree the definition before you query. Build in named, checked steps. Price every stage of the work, not just the final query. And treat client data with care from access to deletion."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "Agree a one-sentence definition first",
+     "Name each step with a CTE and check it",
+     "Window functions keep every row",
+     "Scope, estimate every stage, take a deposit",
+     "Read-only access, minimum data, delete at end"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Now run a discovery conversation, write a one-page scope and quote, and start your portfolio with a 90-day plan.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice tasks",
+    "heading": "Your work for this module",
+    "items": [
+     "Run a discovery conversation",
+     "Write a one-page scope and quote",
+     "Start your portfolio and 90-day plan"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

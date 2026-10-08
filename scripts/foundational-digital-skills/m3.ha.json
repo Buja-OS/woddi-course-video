@@ -1,0 +1,823 @@
+{
+ "course": "foundational-digital-skills",
+ "module": "m3",
+ "title": "Ci gaba da sarrafa wayarka, kuma raba gwaninta",
+ "course_title": "Asalin Ƙwarewar Dijital",
+ "shots": [
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Ci gaba da sarrafa wayarka, kuma raba gwaninta.",
+    "Wannan shi ne bidiyon don ƙirar 3 na Ƙwarewar Dijital na Tushen."
+   ]
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Idan an sace wayarka, baƙo zai iya shiga? Kuma za ku iya dawo da bayananku?"
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Kare shi, gyara shi, mika shi",
+    "items": [
+     "Kulle wayar a mayar da ita",
+     "Ku san sa'ar ku ta farko idan ta ɓace",
+     "Gyara matsalolin gama gari cikin nutsuwa",
+     "Koyawa wata mace"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Za ku yi shiri na awa na farko bayan wayar ta ɓace."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Kare shi, gyara shi, mika shi",
+    "items": [
+     "Kulle wayar a mayar da ita",
+     "Ku san sa'ar ku ta farko idan ta ɓace",
+     "Gyara matsalolin gama gari cikin nutsuwa",
+     "Koyawa wata mace"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Za ku koyi kwanciyar hankali na yau da kullun don gyara yawancin matsaloli ba tare da taimako ba."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Kare shi, gyara shi, mika shi",
+    "items": [
+     "Kulle wayar a mayar da ita",
+     "Ku san sa'ar ku ta farko idan ta ɓace",
+     "Gyara matsalolin gama gari cikin nutsuwa",
+     "Koyawa wata mace"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Kuma za ku ba da fasaha ga wata mace, hanya madaidaiciya."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Kare shi, gyara shi, mika shi",
+    "items": [
+     "Kulle wayar a mayar da ita",
+     "Ku san sa'ar ku ta farko idan ta ɓace",
+     "Gyara matsalolin gama gari cikin nutsuwa",
+     "Koyawa wata mace"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_map",
+   "say": [
+    "Mataki 1. A cikin Saituna, bincika kulle allo kuma zaɓi PIN na akalla lambobi 6."
+   ],
+   "panel": {
+    "kicker": "Kare wayar",
+    "heading": "Kulle shi kuma kunna Nemo Na'urara",
+    "items": [
+     "Saita PIN na aƙalla lambobi 6",
+     "Guji 123456, shekarun haihuwa, alamu",
+     "Ɓoye faɗakarwar allon kulle-kulle",
+     "Kunna Nemo Na'urara da Wurina",
+     "Danna *#06# sannan ka rubuta IMEI naka"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_map",
+   "say": [
+    "Mataki 2. Ka guji 123456, shekarar haihuwarka ko lambar wayarka."
+   ],
+   "panel": {
+    "kicker": "Kare wayar",
+    "heading": "Kulle shi kuma kunna Nemo Na'urara",
+    "items": [
+     "Saita PIN na aƙalla lambobi 6",
+     "Guji 123456, shekarun haihuwa, alamu",
+     "Ɓoye faɗakarwar allon kulle-kulle",
+     "Kunna Nemo Na'urara da Wurina",
+     "Danna *#06# sannan ka rubuta IMEI naka"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_map",
+   "say": [
+    "Mataki na 3. Ɓoye abun ciki mai mahimmanci akan allon kulle, don haka faɗakarwar banki da OTP ba sa nunawa."
+   ],
+   "panel": {
+    "kicker": "Kare wayar",
+    "heading": "Kulle shi kuma kunna Nemo Na'urara",
+    "items": [
+     "Saita PIN na aƙalla lambobi 6",
+     "Guji 123456, shekarun haihuwa, alamu",
+     "Ɓoye faɗakarwar allon kulle-kulle",
+     "Kunna Nemo Na'urara da Wurina",
+     "Danna *#06# sannan ka rubuta IMEI naka"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Mataki 4. Kunna Nemo Na'urar Nawa da Wuri. Daga google.com/android/find akan kowane mai bincike, zaku iya ringi, kulle ko goge wayar da ta ɓace."
+   ],
+   "panel": {
+    "kicker": "Kare wayar",
+    "heading": "Kulle shi kuma kunna Nemo Na'urara",
+    "items": [
+     "Saita PIN na aƙalla lambobi 6",
+     "Guji 123456, shekarun haihuwa, alamu",
+     "Ɓoye faɗakarwar allon kulle-kulle",
+     "Kunna Nemo Na'urara da Wurina",
+     "Danna *#06# sannan ka rubuta IMEI naka"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Mataki 5. Danna *#06#. Allon yana nuna IMEI naka, lamba 15 mai nuna wayar hannu. Rubuta a takarda kuma ajiye shi a gida."
+   ],
+   "panel": {
+    "kicker": "Kare wayar",
+    "heading": "Kulle shi kuma kunna Nemo Na'urara",
+    "items": [
+     "Saita PIN na aƙalla lambobi 6",
+     "Guji 123456, shekarun haihuwa, alamu",
+     "Ɓoye faɗakarwar allon kulle-kulle",
+     "Kunna Nemo Na'urara da Wurina",
+     "Danna *#06# sannan ka rubuta IMEI naka"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Gogewa yana cire bayanan ku, don haka koyaushe gano wuri kuma ku kulle farko."
+   ],
+   "panel": {
+    "kicker": "Kare wayar",
+    "heading": "Kulle shi kuma kunna Nemo Na'urara",
+    "items": [
+     "Saita PIN na aƙalla lambobi 6",
+     "Guji 123456, shekarun haihuwa, alamu",
+     "Ɓoye faɗakarwar allon kulle-kulle",
+     "Kunna Nemo Na'urara da Wurina",
+     "Danna *#06# sannan ka rubuta IMEI naka"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Gano wuri kuma ku kulle farko. Goge kawai idan ya tafi mai kyau.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Ajiye kafin wani abu yayi kuskure. Lokacin da kuka ajiye lamba, duba ta zuwa asusun Google ɗin ku."
+   ],
+   "panel": {
+    "kicker": "Ajiye yanzu",
+    "heading": "Ajiye kafin wani abu yayi kuskure",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Lambobin sadarwa",
+      "d": "Ajiye sababbin lambobi zuwa asusun Google, ba zuwa SIM ko waya kawai ba."
+     },
+     {
+      "t": "Hotuna",
+      "d": "Kunna Ajiyayyen a cikin Hotunan Google. Zaɓi Wi-Fi kawai idan bayanai suna da tsada."
+     },
+     {
+      "t": "Kungiyoyin WhatsApp",
+      "d": "Saituna, Taɗi, madadin taɗi. Haɗa asusun Google ɗin ku."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "A cikin Hotunan Google, kunna Ajiyayyen, akan Wi-Fi kawai idan bayanai suna da tsada."
+   ],
+   "panel": {
+    "kicker": "Ajiye yanzu",
+    "heading": "Ajiye kafin wani abu yayi kuskure",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Lambobin sadarwa",
+      "d": "Ajiye sababbin lambobi zuwa asusun Google, ba zuwa SIM ko waya kawai ba."
+     },
+     {
+      "t": "Hotuna",
+      "d": "Kunna Ajiyayyen a cikin Hotunan Google. Zaɓi Wi-Fi kawai idan bayanai suna da tsada."
+     },
+     {
+      "t": "Kungiyoyin WhatsApp",
+      "d": "Saituna, Taɗi, madadin taɗi. Haɗa asusun Google ɗin ku."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_camera",
+   "say": [
+    "Kuma a cikin WhatsApp, buɗe madadin Chat kuma haɗa asusun Google ɗin ku."
+   ],
+   "panel": {
+    "kicker": "Ajiye yanzu",
+    "heading": "Ajiye kafin wani abu yayi kuskure",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Lambobin sadarwa",
+      "d": "Ajiye sababbin lambobi zuwa asusun Google, ba zuwa SIM ko waya kawai ba."
+     },
+     {
+      "t": "Hotuna",
+      "d": "Kunna Ajiyayyen a cikin Hotunan Google. Zaɓi Wi-Fi kawai idan bayanai suna da tsada."
+     },
+     {
+      "t": "Kungiyoyin WhatsApp",
+      "d": "Saituna, Taɗi, madadin taɗi. Haɗa asusun Google ɗin ku."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Misali, Grace ta bar wayarta a cikin motar bas a Fatakwal da karfe 6:30 na yamma."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Grace sa'a ta farko bayan batan wayarta",
+    "items": [
+     "Kunna kuma nemo shi daga Nemo Na'urara",
+     "Kulle shi da sako da lamba",
+     "Kira banki don toshe bankin wayar hannu",
+     "Nemi hanyar sadarwa don toshe SIM ɗin",
+     "Yi rahoton satar da IMEI ɗin ku"
+    ],
+    "show": 0,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Karfe 6:45 na yamma, a wayar 'yar uwarta, ta shiga don Nemo Na'urara."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Grace sa'a ta farko bayan batan wayarta",
+    "items": [
+     "Kunna kuma nemo shi daga Nemo Na'urara",
+     "Kulle shi da sako da lamba",
+     "Kira banki don toshe bankin wayar hannu",
+     "Nemi hanyar sadarwa don toshe SIM ɗin",
+     "Yi rahoton satar da IMEI ɗin ku"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Ta kulle ta da sako: Wayar nan ta bata. Don Allah a kira 'yar uwata, da lambar 'yar uwarta."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Grace sa'a ta farko bayan batan wayarta",
+    "items": [
+     "Kunna kuma nemo shi daga Nemo Na'urara",
+     "Kulle shi da sako da lamba",
+     "Kira banki don toshe bankin wayar hannu",
+     "Nemi hanyar sadarwa don toshe SIM ɗin",
+     "Yi rahoton satar da IMEI ɗin ku"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Ta kira layin taimakon bankinta, lambar da aka buga a katinta na zare kudi, don toshe bankin wayar hannu a wayar da ta bata."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Grace sa'a ta farko bayan batan wayarta",
+    "items": [
+     "Kunna kuma nemo shi daga Nemo Na'urara",
+     "Kulle shi da sako da lamba",
+     "Kira banki don toshe bankin wayar hannu",
+     "Nemi hanyar sadarwa don toshe SIM ɗin",
+     "Yi rahoton satar da IMEI ɗin ku"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Ta tambayi network dinta ta toshe SIM din. Washe gari direba ya kira, ta dawo."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Grace sa'a ta farko bayan batan wayarta",
+    "items": [
+     "Kunna kuma nemo shi daga Nemo Na'urara",
+     "Kulle shi da sako da lamba",
+     "Kira banki don toshe bankin wayar hannu",
+     "Nemi hanyar sadarwa don toshe SIM ɗin",
+     "Yi rahoton satar da IMEI ɗin ku"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Idan an sace, canza kalmar sirri ta Google kuma ku ba da rahoton ta IMEI."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Grace sa'a ta farko bayan batan wayarta",
+    "items": [
+     "Kunna kuma nemo shi daga Nemo Na'urara",
+     "Kulle shi da sako da lamba",
+     "Kira banki don toshe bankin wayar hannu",
+     "Nemi hanyar sadarwa don toshe SIM ɗin",
+     "Yi rahoton satar da IMEI ɗin ku"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Masu zamba na iya yin kira suna riya cewa su banki ne. Yi amfani da layin taimako kawai akan katin ku ko aikace-aikacen hukuma."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Grace sa'a ta farko bayan batan wayarta",
+    "items": [
+     "Kunna kuma nemo shi daga Nemo Na'urara",
+     "Kulle shi da sako da lamba",
+     "Kira banki don toshe bankin wayar hannu",
+     "Nemi hanyar sadarwa don toshe SIM ɗin",
+     "Yi rahoton satar da IMEI ɗin ku"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Kada ku taɓa raba OTP ko PIN tare da duk wanda ya kira ku.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Mataki 1. Rubuta ainihin abin da ya faru, lokacin, a cikin wane app, da kuma hotunan kowane kuskure."
+   ],
+   "panel": {
+    "kicker": "Gyara da kanka",
+    "heading": "Hanyar magance matsala ta matakai biyar",
+    "items": [
+     "Bayyana matsalar daidai",
+     "Duba haɗi da baturi",
+     "Rufe app ɗin, sannan sake farawa",
+     "Duba ajiya da sabuntawa",
+     "Bincika ainihin saƙon kuskure"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Mataki na 2. Ana kan bayanai? An gama gunkin ku? Kunna yanayin jirgin sama na daƙiƙa goma, sannan a kashe, don sake haɗawa."
+   ],
+   "panel": {
+    "kicker": "Gyara da kanka",
+    "heading": "Hanyar magance matsala ta matakai biyar",
+    "items": [
+     "Bayyana matsalar daidai",
+     "Duba haɗi da baturi",
+     "Rufe app ɗin, sannan sake farawa",
+     "Duba ajiya da sabuntawa",
+     "Bincika ainihin saƙon kuskure"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Mataki 3. Goge app ɗin kuma sake buɗe shi. Idan hakan ya gaza, sake kunna wayar."
+   ],
+   "panel": {
+    "kicker": "Gyara da kanka",
+    "heading": "Hanyar magance matsala ta matakai biyar",
+    "items": [
+     "Bayyana matsalar daidai",
+     "Duba haɗi da baturi",
+     "Rufe app ɗin, sannan sake farawa",
+     "Duba ajiya da sabuntawa",
+     "Bincika ainihin saƙon kuskure"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Mataki 4. Duba ajiya. Share cache na app yana cire fayilolin wucin gadi kuma yana da lafiya."
+   ],
+   "panel": {
+    "kicker": "Gyara da kanka",
+    "heading": "Hanyar magance matsala ta matakai biyar",
+    "items": [
+     "Bayyana matsalar daidai",
+     "Duba haɗi da baturi",
+     "Rufe app ɗin, sannan sake farawa",
+     "Duba ajiya da sabuntawa",
+     "Bincika ainihin saƙon kuskure"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Mataki na 5. Bincika ainihin kuskure tare da ƙirar wayar ku, kuma zaɓi wuraren taimako na hukuma. Kar a taɓa shigar da ƙa'idodin tsabta waɗanda ba a san su ba."
+   ],
+   "panel": {
+    "kicker": "Gyara da kanka",
+    "heading": "Hanyar magance matsala ta matakai biyar",
+    "items": [
+     "Bayyana matsalar daidai",
+     "Duba haɗi da baturi",
+     "Rufe app ɗin, sannan sake farawa",
+     "Duba ajiya da sabuntawa",
+     "Bincika ainihin saƙon kuskure"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Share bayanai ya bambanta. Yana sake saitin ƙa'idar kuma yana iya share bayanan da aka adana, don haka sai a fara yin ajiya."
+   ],
+   "panel": {
+    "kicker": "Gyara da kanka",
+    "heading": "Hanyar magance matsala ta matakai biyar",
+    "items": [
+     "Bayyana matsalar daidai",
+     "Duba haɗi da baturi",
+     "Rufe app ɗin, sannan sake farawa",
+     "Duba ajiya da sabuntawa",
+     "Bincika ainihin saƙon kuskure"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Share cache yana da lafiya. Share bayanai na iya share bayanan ku.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Misali, Chiamaka a Owerri bai iya daukar hotuna ba. 1.4 GB kawai ya kasance kyauta."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Chiamaka yana kyauta 9.7 GB",
+    "items": [
+     "Cikakken ajiya: 1.4 GB kawai kyauta",
+     "Bidiyon da aka tura WhatsApp: 4.2 GB",
+     "Junk 0.9 GB da kwafin 1.1 GB",
+     "Hotunan da aka ajiye: 3.5 GB",
+     "Yanzu 11.1 GB kyauta, babu abin da ya ɓace"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "A cikin WhatsApp, Sarrafa ajiya, bidiyo da aka tura ana amfani da 4.2 GB. Ta share su."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Chiamaka yana kyauta 9.7 GB",
+    "items": [
+     "Cikakken ajiya: 1.4 GB kawai kyauta",
+     "Bidiyon da aka tura WhatsApp: 4.2 GB",
+     "Junk 0.9 GB da kwafin 1.1 GB",
+     "Hotunan da aka ajiye: 3.5 GB",
+     "Yanzu 11.1 GB kyauta, babu abin da ya ɓace"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Fayilolin Google sun cire 0.9 GB na takarce da 1.1 GB na kwafin hotuna."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Chiamaka yana kyauta 9.7 GB",
+    "items": [
+     "Cikakken ajiya: 1.4 GB kawai kyauta",
+     "Bidiyon da aka tura WhatsApp: 4.2 GB",
+     "Junk 0.9 GB da kwafin 1.1 GB",
+     "Hotunan da aka ajiye: 3.5 GB",
+     "Yanzu 11.1 GB kyauta, babu abin da ya ɓace"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "An riga an adana hotunanta, don haka ta sake sakin wani 3.5 GB."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Chiamaka yana kyauta 9.7 GB",
+    "items": [
+     "Cikakken ajiya: 1.4 GB kawai kyauta",
+     "Bidiyon da aka tura WhatsApp: 4.2 GB",
+     "Junk 0.9 GB da kwafin 1.1 GB",
+     "Hotunan da aka ajiye: 3.5 GB",
+     "Yanzu 11.1 GB kyauta, babu abin da ya ɓace"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "A cikin kusan mintuna 15 ta sami 11.1 GB kyauta, kuma ta rasa wani abu mai mahimmanci.",
+    "Amma idan baturi ya kumbura, yana zafi sosai, yana jin ƙamshin konewa, ko kuma yana cikin ruwa, tsayawa. Kar a caje shi. Kai shi wurin amintaccen mai gyarawa."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Chiamaka yana kyauta 9.7 GB",
+    "items": [
+     "Cikakken ajiya: 1.4 GB kawai kyauta",
+     "Bidiyon da aka tura WhatsApp: 4.2 GB",
+     "Junk 0.9 GB da kwafin 1.1 GB",
+     "Hotunan da aka ajiye: 3.5 GB",
+     "Yanzu 11.1 GB kyauta, babu abin da ya ɓace"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_map",
+   "say": [
+    "Misali, Kemi ta koya wa makwabciyarta Mama Tunde da ke Osogbo kafa tunatarwa. ina yi Mama Tunde ta bude wayarta, Kemi ta nuna matakan sau daya a hankali."
+   ],
+   "panel": {
+    "kicker": "Koyawa wata mace",
+    "heading": "Ina yi, muna yi, kuna yi",
+    "items": [
+     "Ina yi: nuna a hankali, sau ɗaya",
+     "Muna yi: ta tap, ka nuna da suna",
+     "Kuna yi: ita kadai take yi",
+     "Duba: ta mayar da bayaninsa"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_map",
+   "say": [
+    "Muna yi. Mama Tunde ta buga kowane maballi yayin da Kemi ta nuna ta suna kowane abu."
+   ],
+   "panel": {
+    "kicker": "Koyawa wata mace",
+    "heading": "Ina yi, muna yi, kuna yi",
+    "items": [
+     "Ina yi: nuna a hankali, sau ɗaya",
+     "Muna yi: ta tap, ka nuna da suna",
+     "Kuna yi: ita kadai take yi",
+     "Duba: ta mayar da bayaninsa"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_map",
+   "say": [
+    "Kuna yi. Mama Tunde ta yi karo na biyu da kanta."
+   ],
+   "panel": {
+    "kicker": "Koyawa wata mace",
+    "heading": "Ina yi, muna yi, kuna yi",
+    "items": [
+     "Ina yi: nuna a hankali, sau ɗaya",
+     "Muna yi: ta tap, ka nuna da suna",
+     "Kuna yi: ita kadai take yi",
+     "Duba: ta mayar da bayaninsa"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Duba Mama Tunde ta yi bayanin matakan da aka dauka a baya cikin harshen Yarbanci, a cikin kalamanta."
+   ],
+   "panel": {
+    "kicker": "Koyawa wata mace",
+    "heading": "Ina yi, muna yi, kuna yi",
+    "items": [
+     "Ina yi: nuna a hankali, sau ɗaya",
+     "Muna yi: ta tap, ka nuna da suna",
+     "Kuna yi: ita kadai take yi",
+     "Duba: ta mayar da bayaninsa"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Kuskuren gama gari shine ɗaukar wayar da yin ta da sauri da kanku. Kashe hannunka, ka kalleta yayin da take rubuta bayanan sirri."
+   ],
+   "panel": {
+    "kicker": "Koyawa wata mace",
+    "heading": "Ina yi, muna yi, kuna yi",
+    "items": [
+     "Ina yi: nuna a hankali, sau ɗaya",
+     "Muna yi: ta tap, ka nuna da suna",
+     "Kuna yi: ita kadai take yi",
+     "Duba: ta mayar da bayaninsa"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Wayarta, hannunta. Kar a taɓa tambayar PIN ɗinta ko kalmomin sirri.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Don tunawa. Yi amfani da PIN mai lamba 6 kuma kunna Nemo na'urara. Ajiye kafin wani abu yayi kuskure. Ajiye IMEI naka akan takarda. Sake farawa da farko, kuma share cache, ba bayanai ba. Kuma koya a wayarta, tare da kashe hannuwanku."
+   ],
+   "panel": {
+    "kicker": "Mabuɗin mahimmanci",
+    "heading": "Ka tuna",
+    "items": [
+     "PIN mai lamba 6, kuma Nemo na'urara a kunne",
+     "Ajiye lambobin sadarwa, hotuna da WhatsApp",
+     "Ajiye IMEI naka akan takarda a gida",
+     "Sake farawa da farko; share cache, ba bayanai",
+     "Koyarwa a wayarta, tare da kashe hannuwanku"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Yanzu ka adana kuma yi wa wayarka ajiyar waje, kuma ka rubuta shirin wayar ka da ya ɓace. Tsaftace ma'ajiyar ku, koyar da fasaha guda ɗaya, sake saka alamar binciken kanku, kuma rubuta shirinku na kwanaki 90.",
+    "Ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi aiki",
+    "heading": "Ayyukan aikin ku",
+    "items": [
+     "Aminta da adana wayarka",
+     "Tsaftace ma'ajiya kuma fara matsala",
+     "Koyar da fasaha ɗaya kuma ku rubuta ta",
+     "Sake ci da kanka; rubuta shirin kwanaki 90"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}
