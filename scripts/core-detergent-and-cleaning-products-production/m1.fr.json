@@ -1,0 +1,616 @@
+{
+ "course": "core-detergent-and-cleaning-products-production",
+ "module": "m1",
+ "title": "Comment les détergents nettoient, vos matières premières et restent en sécurité",
+ "course_title": "Production de détergents et de produits de nettoyage : savon liquide, lavage des mains et nettoyage sécurisé",
+ "shots": [
+  {
+   "demo": "title_liquid",
+   "say": [
+    "Comment les détergents nettoient, vos matières premières et restent en sécurité.",
+    "Ceci est la vidéo du premier module de production de détergents et de produits de nettoyage."
+   ]
+  },
+  {
+   "demo": "ppe_set",
+   "say": [
+    "Chaque produit de nettoyage dépend d’un type d’ingrédient, un tensioactif. Ce mot est l’abréviation d’agent tensioactif. Une extrémité, la tête, aime l'eau."
+   ],
+   "panel": {
+    "kicker": "Comment fonctionne le nettoyage",
+    "heading": "Le tensioactif : deux fins différentes",
+    "items": [
+     "La tête aime l'eau",
+     "La queue aime l'huile et la graisse",
+     "Les queues enveloppent chaque goutte d'huile",
+     "L'eau rince la graisse"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "ppe_set",
+   "say": [
+    "L’autre extrémité, la queue, aime l’huile et la graisse et déteste l’eau."
+   ],
+   "panel": {
+    "kicker": "Comment fonctionne le nettoyage",
+    "heading": "Le tensioactif : deux fins différentes",
+    "items": [
+     "La tête aime l'eau",
+     "La queue aime l'huile et la graisse",
+     "Les queues enveloppent chaque goutte d'huile",
+     "L'eau rince la graisse"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "ph_test",
+   "say": [
+    "Lorsque vous lavez un pot graisseux, les queues s'enfoncent dans la graisse et des milliers de molécules entourent chaque petite goutte d'huile."
+   ],
+   "panel": {
+    "kicker": "Comment fonctionne le nettoyage",
+    "heading": "Le tensioactif : deux fins différentes",
+    "items": [
+     "La tête aime l'eau",
+     "La queue aime l'huile et la graisse",
+     "Les queues enveloppent chaque goutte d'huile",
+     "L'eau rince la graisse"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "ph_test",
+   "say": [
+    "Maintenant, la graisse a une couche que l'eau peut retenir, donc le rinçage l'emporte. C’est pourquoi l’eau claire ne peut pas éliminer l’huile de palme d’une assiette, contrairement à l’eau additionnée de détergent."
+   ],
+   "panel": {
+    "kicker": "Comment fonctionne le nettoyage",
+    "heading": "Le tensioactif : deux fins différentes",
+    "items": [
+     "La tête aime l'eau",
+     "La queue aime l'huile et la graisse",
+     "Les queues enveloppent chaque goutte d'huile",
+     "L'eau rince la graisse"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "market_stall",
+   "say": [
+    "Le savon liquide en fût vendu au Nigeria est presque toujours un détergent synthétique et non du vrai savon. Le savon liquide multi-usages est un bon premier produit, car tout le monde l’achète encore et encore.",
+    "Le lavage liquide des mains vient en deuxième position, une fois que le premier est correct à chaque fois."
+   ],
+   "panel": {
+    "kicker": "Choisissez votre premier produit",
+    "heading": "Commencez ici, pas là",
+    "mode": "compare",
+    "left_h": "Bon pour commencer",
+    "left": [
+     "Savon liquide multi-usages",
+     "Puis lavage liquide à la main",
+     "Produits de lessive plus tard"
+    ],
+    "right_h": "Pas pour les débutants",
+    "right": [
+     "Faire de l'eau de Javel",
+     "Désinfectants",
+     "Allégations antimicrobiennes"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "shampoo_bottles",
+   "say": [
+    "Ne fabriquez pas d’eau de Javel ou de désinfectants en tant que débutant. Les allégations antimicrobiennes nécessitent des preuves et des approbations.",
+    "Un détergent nettoie en soulevant la saleté et la graisse. Ne l’étiquetez jamais comme désinfectant."
+   ],
+   "panel": {
+    "kicker": "Choisissez votre premier produit",
+    "heading": "Commencez ici, pas là",
+    "mode": "compare",
+    "left_h": "Bon pour commencer",
+    "left": [
+     "Savon liquide multi-usages",
+     "Puis lavage liquide à la main",
+     "Produits de lessive plus tard"
+    ],
+    "right_h": "Pas pour les débutants",
+    "right": [
+     "Faire de l'eau de Javel",
+     "Désinfectants",
+     "Allégations antimicrobiennes"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "dilution_ladder",
+   "say": [
+    "L’acide sulfonique est un liquide huileux épais, brun foncé. Tel qu'acheté, c'est un acide fort et corrosif. Il ne devient un agent nettoyant qu’après avoir été neutralisé avec un alcali."
+   ],
+   "panel": {
+    "kicker": "Matières premières",
+    "heading": "Ce que fait chaque produit chimique",
+    "items": [
+     "Acide sulfonique : nettoyant après neutralisation",
+     "SLES (texapon) : nettoyant moussant plus doux",
+     "Soude caustique, carbonate de sodium : alcalis",
+     "STPP : aide en cas d'eau dure",
+     "Nitrosol, CMC, sel : épaississants",
+     "Conservateur : éviter le formol"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "dilution_ladder",
+   "say": [
+    "Le SLES, souvent vendu sous le nom de texapon, est plus doux pour la peau et mousse bien. Une étiquette indiquant 70 % signifie que 100 g de pâte contiennent environ 70 g de véritable tensioactif. Achetez en fonction de la force connue, pas seulement du prix."
+   ],
+   "panel": {
+    "kicker": "Matières premières",
+    "heading": "Ce que fait chaque produit chimique",
+    "items": [
+     "Acide sulfonique : nettoyant après neutralisation",
+     "SLES (texapon) : nettoyant moussant plus doux",
+     "Soude caustique, carbonate de sodium : alcalis",
+     "STPP : aide en cas d'eau dure",
+     "Nitrosol, CMC, sel : épaississants",
+     "Conservateur : éviter le formol"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "dilution_ladder",
+   "say": [
+    "La soude caustique est un alcali fort utilisé pour neutraliser l'acide. Le carbonate de sodium est plus doux et pétille lorsqu’il rencontre de l’acide."
+   ],
+   "panel": {
+    "kicker": "Matières premières",
+    "heading": "Ce que fait chaque produit chimique",
+    "items": [
+     "Acide sulfonique : nettoyant après neutralisation",
+     "SLES (texapon) : nettoyant moussant plus doux",
+     "Soude caustique, carbonate de sodium : alcalis",
+     "STPP : aide en cas d'eau dure",
+     "Nitrosol, CMC, sel : épaississants",
+     "Conservateur : éviter le formol"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "softener_mix",
+   "say": [
+    "STPP est un constructeur. Il retient les minéraux de l’eau dure afin que le tensioactif fonctionne mieux."
+   ],
+   "panel": {
+    "kicker": "Matières premières",
+    "heading": "Ce que fait chaque produit chimique",
+    "items": [
+     "Acide sulfonique : nettoyant après neutralisation",
+     "SLES (texapon) : nettoyant moussant plus doux",
+     "Soude caustique, carbonate de sodium : alcalis",
+     "STPP : aide en cas d'eau dure",
+     "Nitrosol, CMC, sel : épaississants",
+     "Conservateur : éviter le formol"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "softener_mix",
+   "say": [
+    "Le nitrosol, le CMC et le sel donnent du corps au produit. N’oubliez pas que plus de mousse ne signifie pas un meilleur nettoyage."
+   ],
+   "panel": {
+    "kicker": "Matières premières",
+    "heading": "Ce que fait chaque produit chimique",
+    "items": [
+     "Acide sulfonique : nettoyant après neutralisation",
+     "SLES (texapon) : nettoyant moussant plus doux",
+     "Soude caustique, carbonate de sodium : alcalis",
+     "STPP : aide en cas d'eau dure",
+     "Nitrosol, CMC, sel : épaississants",
+     "Conservateur : éviter le formol"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "softener_mix",
+   "say": [
+    "De nombreuses recettes locales utilisent du formol comme conservateur. Le formaldéhyde est classé comme cancérigène pour l’homme, alors évitez-le. Utiliser un détergent conservateur à la dose indiquée sur sa fiche technique."
+   ],
+   "panel": {
+    "kicker": "Matières premières",
+    "heading": "Ce que fait chaque produit chimique",
+    "items": [
+     "Acide sulfonique : nettoyant après neutralisation",
+     "SLES (texapon) : nettoyant moussant plus doux",
+     "Soude caustique, carbonate de sodium : alcalis",
+     "STPP : aide en cas d'eau dure",
+     "Nitrosol, CMC, sel : épaississants",
+     "Conservateur : éviter le formol"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "ppe_set",
+   "say": [
+    "L'acide sulfonique et la soude caustique peuvent brûler la peau et endommager les yeux en quelques secondes. Travaillez donc avec une routine. Des lunettes anti-éclaboussures qui scellent, des gants sur les poignets, des manches longues, un tablier et des chaussures fermées. Mélangez en extérieur ou avec les fenêtres ouvertes, jamais dans votre cuisine."
+   ],
+   "panel": {
+    "kicker": "Ordre de mélange sécurisé",
+    "heading": "Produit chimique dans l'eau, lentement",
+    "items": [
+     "Lunettes, gants, manches, chaussures fermées",
+     "Mesurez d’abord l’eau froide",
+     "Ajouter la soude caustique lentement en remuant",
+     "Laissez refroidir la solution chaude",
+     "Versez lentement l'acide sulfonique dans le lot",
+     "Ajouter le sel par petites portions"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "ppe_set",
+   "say": [
+    "Mesurez d'abord l'eau froide, dans du plastique ou de l'acier inoxydable. Jamais d'aluminium. La soude caustique l’attaque et dégage de l’hydrogène gazeux qui peut prendre feu."
+   ],
+   "panel": {
+    "kicker": "Ordre de mélange sécurisé",
+    "heading": "Produit chimique dans l'eau, lentement",
+    "items": [
+     "Lunettes, gants, manches, chaussures fermées",
+     "Mesurez d’abord l’eau froide",
+     "Ajouter la soude caustique lentement en remuant",
+     "Laissez refroidir la solution chaude",
+     "Versez lentement l'acide sulfonique dans le lot",
+     "Ajouter le sel par petites portions"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "ppe_set",
+   "say": [
+    "Ajoutez lentement la soude caustique à l'eau en remuant. Ne versez jamais d'eau sur de la soude caustique. Il peut bouillir et éclabousser."
+   ],
+   "panel": {
+    "kicker": "Ordre de mélange sécurisé",
+    "heading": "Produit chimique dans l'eau, lentement",
+    "items": [
+     "Lunettes, gants, manches, chaussures fermées",
+     "Mesurez d’abord l’eau froide",
+     "Ajouter la soude caustique lentement en remuant",
+     "Laissez refroidir la solution chaude",
+     "Versez lentement l'acide sulfonique dans le lot",
+     "Ajouter le sel par petites portions"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Caustique dans l'eau. Acide dans l'eau. Jamais l’inverse.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bucket_mix",
+   "say": [
+    "La solution devient très chaude. Laissez-le refroidir avant de l'ajouter à quoi que ce soit."
+   ],
+   "panel": {
+    "kicker": "Ordre de mélange sécurisé",
+    "heading": "Produit chimique dans l'eau, lentement",
+    "items": [
+     "Lunettes, gants, manches, chaussures fermées",
+     "Mesurez d’abord l’eau froide",
+     "Ajouter la soude caustique lentement en remuant",
+     "Laissez refroidir la solution chaude",
+     "Versez lentement l'acide sulfonique dans le lot",
+     "Ajouter le sel par petites portions"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Caustique dans l'eau. Acide dans l'eau. Jamais l’inverse.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bucket_mix",
+   "say": [
+    "Versez lentement l'acide sulfonique dans l'eau ou le mélange, jamais l'inverse."
+   ],
+   "panel": {
+    "kicker": "Ordre de mélange sécurisé",
+    "heading": "Produit chimique dans l'eau, lentement",
+    "items": [
+     "Lunettes, gants, manches, chaussures fermées",
+     "Mesurez d’abord l’eau froide",
+     "Ajouter la soude caustique lentement en remuant",
+     "Laissez refroidir la solution chaude",
+     "Versez lentement l'acide sulfonique dans le lot",
+     "Ajouter le sel par petites portions"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Caustique dans l'eau. Acide dans l'eau. Jamais l’inverse.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bucket_mix",
+   "say": [
+    "La neutralisation dégage de la chaleur, alors ajoutez l'alcali par petites portions et remuez entre elles."
+   ],
+   "panel": {
+    "kicker": "Ordre de mélange sécurisé",
+    "heading": "Produit chimique dans l'eau, lentement",
+    "items": [
+     "Lunettes, gants, manches, chaussures fermées",
+     "Mesurez d’abord l’eau froide",
+     "Ajouter la soude caustique lentement en remuant",
+     "Laissez refroidir la solution chaude",
+     "Versez lentement l'acide sulfonique dans le lot",
+     "Ajouter le sel par petites portions"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "rule": "Caustique dans l'eau. Acide dans l'eau. Jamais l’inverse.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "thicken",
+   "say": [
+    "L'eau de Javel mélangée à des acides, comme de nombreux nettoyants pour toilettes, du vinaigre ou de l'acide sulfonique, libère du chlore gazeux."
+   ],
+   "panel": {
+    "kicker": "La règle de l'eau de Javel",
+    "heading": "L'eau de Javel ne rencontre jamais l'acide ou l'ammoniaque",
+    "items": [
+     "Eau de Javel plus acide : chlore gazeux",
+     "Eau de Javel et ammoniac : gaz de chloramine",
+     "N'ajoutez jamais d'eau de Javel à votre savon",
+     "Les clients utilisent l’eau de Javel seule"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "thicken",
+   "say": [
+    "Mélangé à l'ammoniac, présent dans certains nettoyants pour vitres et dans l'urine, il libère des gaz chloramines. Les deux peuvent endommager les poumons et tuer."
+   ],
+   "panel": {
+    "kicker": "La règle de l'eau de Javel",
+    "heading": "L'eau de Javel ne rencontre jamais l'acide ou l'ammoniaque",
+    "items": [
+     "Eau de Javel plus acide : chlore gazeux",
+     "Eau de Javel et ammoniac : gaz de chloramine",
+     "N'ajoutez jamais d'eau de Javel à votre savon",
+     "Les clients utilisent l’eau de Javel seule"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "spray_wipe",
+   "say": [
+    "N’ajoutez donc jamais d’eau de Javel à un produit que vous fabriquez et ne le mettez pas dans un récipient qui contenait autrefois de l’acide."
+   ],
+   "panel": {
+    "kicker": "La règle de l'eau de Javel",
+    "heading": "L'eau de Javel ne rencontre jamais l'acide ou l'ammoniaque",
+    "items": [
+     "Eau de Javel plus acide : chlore gazeux",
+     "Eau de Javel et ammoniac : gaz de chloramine",
+     "N'ajoutez jamais d'eau de Javel à votre savon",
+     "Les clients utilisent l’eau de Javel seule"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "spray_wipe",
+   "say": [
+    "Dites-le clairement aux clients. Utilisez de l'eau de Javel seule, rincez, puis utilisez d'autres nettoyants."
+   ],
+   "panel": {
+    "kicker": "La règle de l'eau de Javel",
+    "heading": "L'eau de Javel ne rencontre jamais l'acide ou l'ammoniaque",
+    "items": [
+     "Eau de Javel plus acide : chlore gazeux",
+     "Eau de Javel et ammoniac : gaz de chloramine",
+     "N'ajoutez jamais d'eau de Javel à votre savon",
+     "Les clients utilisent l’eau de Javel seule"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "first_aid_kit",
+   "say": [
+    "Gardez un grand récipient d’eau propre à portée de main. Une éclaboussure dans les yeux nécessite un rinçage à l'eau courante pendant au moins 15 minutes, en maintenant la paupière ouverte. Allez ensuite à l'hôpital."
+   ],
+   "panel": {
+    "kicker": "Premiers secours",
+    "heading": "Sachez-le avant de commencer",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Dans les yeux",
+      "d": "Rincer à l'eau courante propre pendant au moins 15 minutes, paupière ouverte. Allez ensuite à l'hôpital."
+     },
+     {
+      "t": "Sur la peau",
+      "d": "Retirez les vêtements trempés. Rincer à l'eau courante pendant au moins 15 minutes. Pas de vinaigre."
+     },
+     {
+      "t": "Des vapeurs ou une ingestion",
+      "d": "Fumées : prendre l’air. Avalé : ne provoque pas de vomissements ; aller à l'hôpital avec le conteneur."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "first_aid_kit",
+   "say": [
+    "Sur la peau, retirer les vêtements trempés et rincer pendant au moins 15 minutes. N'utilisez pas de vinaigre ou de soda sur une brûlure. L'eau est le bon premier secours."
+   ],
+   "panel": {
+    "kicker": "Premiers secours",
+    "heading": "Sachez-le avant de commencer",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Dans les yeux",
+      "d": "Rincer à l'eau courante propre pendant au moins 15 minutes, paupière ouverte. Allez ensuite à l'hôpital."
+     },
+     {
+      "t": "Sur la peau",
+      "d": "Retirez les vêtements trempés. Rincer à l'eau courante pendant au moins 15 minutes. Pas de vinaigre."
+     },
+     {
+      "t": "Des vapeurs ou une ingestion",
+      "d": "Fumées : prendre l’air. Avalé : ne provoque pas de vomissements ; aller à l'hôpital avec le conteneur."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "wrap_label",
+   "say": [
+    "Si quelqu'un respire des fumées, partez immédiatement prendre l'air frais. Si un produit chimique est avalé, ne faites pas vomir la personne. Rincer la bouche et aller à l'hôpital avec le récipient. Et ne stockez jamais de produits chimiques dans des bouteilles de boisson."
+   ],
+   "panel": {
+    "kicker": "Premiers secours",
+    "heading": "Sachez-le avant de commencer",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Dans les yeux",
+      "d": "Rincer à l'eau courante propre pendant au moins 15 minutes, paupière ouverte. Allez ensuite à l'hôpital."
+     },
+     {
+      "t": "Sur la peau",
+      "d": "Retirez les vêtements trempés. Rincer à l'eau courante pendant au moins 15 minutes. Pas de vinaigre."
+     },
+     {
+      "t": "Des vapeurs ou une ingestion",
+      "d": "Fumées : prendre l’air. Avalé : ne provoque pas de vomissements ; aller à l'hôpital avec le conteneur."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "chemical_store",
+   "say": [
+    "Alors rappelez-vous. Les tensioactifs laissent l’eau emporter la graisse. Commencez avec du savon liquide polyvalent. Achetez des produits chimiques étiquetés et évitez le formol.",
+    "Ajoutez lentement le caustique et l'acide à l'eau. Et ne mélangez jamais l’eau de Javel avec d’autres nettoyants."
+   ],
+   "panel": {
+    "kicker": "Rappelez-vous",
+    "heading": "Points clés",
+    "items": [
+     "Les tensioactifs laissent l'eau emporter la graisse",
+     "Commencez avec du savon liquide multi-usages",
+     "Achetez des produits chimiques étiquetés ; éviter le formol",
+     "Produit chimique dans l'eau, lentement",
+     "L'eau de Javel ne se mélange jamais avec d'autres nettoyants"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Votre pratique : recensez cinq produits d'entretien près de chez vous, construisez votre fiche matières premières, installez votre poste de sécurité et apposez une carte de sécurité au mur avec le numéro de l'hôpital.",
+    "Continuez maintenant avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Votre pratique",
+    "heading": "Maintenant tu essaies",
+    "items": [
+     "Sondez cinq produits sur votre marché",
+     "Construisez votre fiche matières premières",
+     "Installez votre poste de sécurité",
+     "Mettez une carte de sécurité sur le mur"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

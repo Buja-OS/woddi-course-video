@@ -1,0 +1,535 @@
+{
+ "course": "ux-design-fundamentals",
+ "module": "m1",
+ "title": "Meça o vazamento, aplique as leis, projete para condições reais",
+ "course_title": "Fundamentos de UX Design: Prática Profissional",
+ "shots": [
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Meça o vazamento, aplique as leis e projete para condições reais.",
+    "Este é o vídeo do módulo um dos Fundamentos do UX Design: resultados, cognição e contexto."
+   ]
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "A experiência do usuário, ou UX, é tudo o que uma pessoa passa para realizar algo com um produto. UI, a interface do usuário, é apenas a parte que você vê e toca."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Passado de 'fazer com que pareça legal'",
+    "items": [
+     "UX é toda a experiência, não apenas telas",
+     "Os clientes pagam por um número que muda",
+     "Um bom design baseia-se em pesquisas sobre pessoas",
+     "Seus usuários enfrentam dados caros e telefones compartilhados"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Os clientes não pagarão por uma melhor experiência do usuário como opinião. Eles pagam por uma alteração em um número de seu interesse, como mais inscrições concluídas ou menos chamadas de suporte."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Passado de 'fazer com que pareça legal'",
+    "items": [
+     "UX é toda a experiência, não apenas telas",
+     "Os clientes pagam por um número que muda",
+     "Um bom design baseia-se em pesquisas sobre pessoas",
+     "Seus usuários enfrentam dados caros e telefones compartilhados"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Muitas decisões de design baseiam-se em pesquisas sobre como as pessoas veem e decidem."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Passado de 'fazer com que pareça legal'",
+    "items": [
+     "UX é toda a experiência, não apenas telas",
+     "Os clientes pagam por um número que muda",
+     "Um bom design baseia-se em pesquisas sobre pessoas",
+     "Seus usuários enfrentam dados caros e telefones compartilhados"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "E muitos dos seus usuários têm redes lentas e dados caros."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Passado de 'fazer com que pareça legal'",
+    "items": [
+     "UX é toda a experiência, não apenas telas",
+     "Os clientes pagam por um número que muda",
+     "Um bom design baseia-se em pesquisas sobre pessoas",
+     "Seus usuários enfrentam dados caros e telefones compartilhados"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Um funil lista as etapas pelas quais os usuários passam para atingir uma meta, com quantos alcançam cada etapa.",
+    "Por exemplo, Amaka é contratada por um aplicativo de poupança de Lagos. Ela pede os números do mês passado em vez de opiniões. 10.000 pessoas baixaram o aplicativo."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Leia um funil para encontrar o vazamento",
+    "items": [
+     "Downloads: 10.000",
+     "Inscrição iniciada: 6.200 (62%)",
+     "Verificação BVN aprovada: 3.100 (50%)",
+     "Carteira financiada: 2.480 (80%)"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "6.200 iniciaram a inscrição. A conversão de etapas representa as pessoas em uma etapa divididas pelas pessoas na etapa anterior, ou seja, 62%."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Leia um funil para encontrar o vazamento",
+    "items": [
+     "Downloads: 10.000",
+     "Inscrição iniciada: 6.200 (62%)",
+     "Verificação BVN aprovada: 3.100 (50%)",
+     "Carteira financiada: 2.480 (80%)"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Apenas 3.100 passaram no cheque BVN, que é o Número de Verificação Bancária. Essa etapa perde metade de todos que a alcançam."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Leia um funil para encontrar o vazamento",
+    "items": [
+     "Downloads: 10.000",
+     "Inscrição iniciada: 6.200 (62%)",
+     "Verificação BVN aprovada: 3.100 (50%)",
+     "Carteira financiada: 2.480 (80%)"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "2.480 financiaram suas carteiras, o que representa 80% dos aprovados. Portanto, o passo BVN, de 50%, é o vazamento e o melhor local para pesquisar primeiro."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Leia um funil para encontrar o vazamento",
+    "items": [
+     "Downloads: 10.000",
+     "Inscrição iniciada: 6.200 (62%)",
+     "Verificação BVN aprovada: 3.100 (50%)",
+     "Carteira financiada: 2.480 (80%)"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Mas os números mostram apenas para onde as pessoas vão embora, nunca por quê. Sempre combine um funil com entrevistas ou testes de usabilidade antes de redesenhar qualquer coisa."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Leia um funil para encontrar o vazamento",
+    "items": [
+     "Downloads: 10.000",
+     "Inscrição iniciada: 6.200 (62%)",
+     "Verificação BVN aprovada: 3.100 (50%)",
+     "Carteira financiada: 2.480 (80%)"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Os números mostram de onde as pessoas saem. A pesquisa mostra o porquê.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "A lei de Hick diz que quanto mais escolhas iguais você mostra, mais devagar as pessoas decidem. Uma tela inicial com 18 blocos iguais deixa as pessoas mais lentas. Agrupe opções e coloque as tarefas mais comuns em primeiro lugar."
+   ],
+   "panel": {
+    "kicker": "Ciência cognitiva",
+    "heading": "Três leis que você citará com frequência",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Lei de Hick",
+      "d": "Escolhas mais iguais significam decisões mais lentas. Agrupe as opções e coloque as duas ou três tarefas comuns em primeiro lugar."
+     },
+     {
+      "t": "Lei de Fitts",
+      "d": "Longe e pequeno é lento. Perto e grande é rápido. Coloque os botões principais grandes e próximos ao polegar."
+     },
+     {
+      "t": "Lei de Jacob",
+      "d": "Os usuários esperam que seu produto funcione como os outros que eles usam. Siga as convenções, a menos que a inovação agregue valor."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "A lei de Fitts diz que o tempo para atingir um alvo depende da sua distância e tamanho. Por exemplo, Zainab recomenda uma barra Pague agora de largura total fixada perto da parte inferior, onde o polegar já repousa.",
+    "Nos telefones, faça metas de 44 a 48 pixels e nunca abaixo de 24."
+   ],
+   "panel": {
+    "kicker": "Ciência cognitiva",
+    "heading": "Três leis que você citará com frequência",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Lei de Hick",
+      "d": "Escolhas mais iguais significam decisões mais lentas. Agrupe as opções e coloque as duas ou três tarefas comuns em primeiro lugar."
+     },
+     {
+      "t": "Lei de Fitts",
+      "d": "Longe e pequeno é lento. Perto e grande é rápido. Coloque os botões principais grandes e próximos ao polegar."
+     },
+     {
+      "t": "Lei de Jacob",
+      "d": "Os usuários esperam que seu produto funcione como os outros que eles usam. Siga as convenções, a menos que a inovação agregue valor."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "A lei de Jakob diz que os usuários passam a maior parte do tempo em outros produtos. Se todos os aplicativos bancários que eles conhecem colocam Transferência na tela inicial, não esconda o seu em um menu."
+   ],
+   "panel": {
+    "kicker": "Ciência cognitiva",
+    "heading": "Três leis que você citará com frequência",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Lei de Hick",
+      "d": "Escolhas mais iguais significam decisões mais lentas. Agrupe as opções e coloque as duas ou três tarefas comuns em primeiro lugar."
+     },
+     {
+      "t": "Lei de Fitts",
+      "d": "Longe e pequeno é lento. Perto e grande é rápido. Coloque os botões principais grandes e próximos ao polegar."
+     },
+     {
+      "t": "Lei de Jacob",
+      "d": "Os usuários esperam que seu produto funcione como os outros que eles usam. Siga as convenções, a menos que a inovação agregue valor."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "A memória de trabalho é pequena. Portanto, não faça as pessoas se lembrarem de coisas que a interface poderia mostrar."
+   ],
+   "panel": {
+    "kicker": "Memória",
+    "heading": "O reconhecimento supera a lembrança",
+    "mode": "compare",
+    "left_h": "Lembre-se (mais difícil)",
+    "left": [
+     "Digite o número da conta novamente",
+     "Lembre-se de um código da última tela",
+     "Saiba qual menu contém configurações"
+    ],
+    "right_h": "Reconhecimento (mais fácil)",
+    "right": [
+     "Escolha entre beneficiários recentes",
+     "Código mostrado novamente ou preenchido automaticamente",
+     "Pesquise com sugestões"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Deixe-os escolher entre os beneficiários recentes, mostrar o código novamente e oferecer pesquisas com sugestões.",
+    "Divida também números longos e mostre o nome da conta para que as pessoas confirmem por reconhecimento."
+   ],
+   "panel": {
+    "kicker": "Memória",
+    "heading": "O reconhecimento supera a lembrança",
+    "mode": "compare",
+    "left_h": "Lembre-se (mais difícil)",
+    "left": [
+     "Digite o número da conta novamente",
+     "Lembre-se de um código da última tela",
+     "Saiba qual menu contém configurações"
+    ],
+    "right_h": "Reconhecimento (mais fácil)",
+    "right": [
+     "Escolha entre beneficiários recentes",
+     "Código mostrado novamente ou preenchido automaticamente",
+     "Pesquise com sugestões"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Cada megabyte é pago pelo usuário. Por exemplo, a página de preços agrícolas de Tunde tinha 4 megabytes, aberta 5 vezes por dia. São 600 megabytes por mês. Ele estabeleceu um orçamento de 800 kilobytes, reduzindo-o para 120."
+   ],
+   "panel": {
+    "kicker": "Realidades africanas",
+    "heading": "Projete para as condições em que os usuários vivem",
+    "items": [
+     "Dados caros: defina um orçamento de desempenho",
+     "Quedas de rede: salve o progresso localmente",
+     "Feature phones: USSD ou SMS para tarefas principais",
+     "Telefones compartilhados: logout rápido, PIN, alertas privados",
+     "Muitos idiomas: revisão de falantes nativos"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Quando a rede cai, os formulários longos devem manter o que foi digitado, e os estados offline, com falha e pendente devem ter uma aparência diferente."
+   ],
+   "panel": {
+    "kicker": "Realidades africanas",
+    "heading": "Projete para as condições em que os usuários vivem",
+    "items": [
+     "Dados caros: defina um orçamento de desempenho",
+     "Quedas de rede: salve o progresso localmente",
+     "Feature phones: USSD ou SMS para tarefas principais",
+     "Telefones compartilhados: logout rápido, PIN, alertas privados",
+     "Muitos idiomas: revisão de falantes nativos"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Para quem não tem internet, ofereça USSD, os menus hash de código estrela que funcionam em qualquer telefone GSM."
+   ],
+   "panel": {
+    "kicker": "Realidades africanas",
+    "heading": "Projete para as condições em que os usuários vivem",
+    "items": [
+     "Dados caros: defina um orçamento de desempenho",
+     "Quedas de rede: salve o progresso localmente",
+     "Feature phones: USSD ou SMS para tarefas principais",
+     "Telefones compartilhados: logout rápido, PIN, alertas privados",
+     "Muitos idiomas: revisão de falantes nativos"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Os telefones costumam ser compartilhados, portanto, ofereça logout rápido e nunca mostre saldos nas notificações. E ofereça os idiomas que seus usuários falam, verificados por falantes nativos."
+   ],
+   "panel": {
+    "kicker": "Realidades africanas",
+    "heading": "Projete para as condições em que os usuários vivem",
+    "items": [
+     "Dados caros: defina um orçamento de desempenho",
+     "Quedas de rede: salve o progresso localmente",
+     "Feature phones: USSD ou SMS para tarefas principais",
+     "Telefones compartilhados: logout rápido, PIN, alertas privados",
+     "Muitos idiomas: revisão de falantes nativos"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "O USSD não tem imagens e as sessões expiram rapidamente. Coloque a tarefa mais comum como opção 1 e mantenha cada tela com menos de 160 caracteres para segurança nas redes."
+   ],
+   "panel": {
+    "kicker": "Projeto USSD",
+    "heading": "Cinco regras para um menu USSD",
+    "items": [
+     "A tarefa mais comum é a opção 1",
+     "Mantenha cada tela com menos de 160 caracteres",
+     "0 Voltar e 00 Menu principal em todas as telas",
+     "Confirme o valor e o destinatário antes do PIN",
+     "Envie um recibo por SMS"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Use 0 para Voltar e 00 para Menu Principal, da mesma forma em todas as telas."
+   ],
+   "panel": {
+    "kicker": "Projeto USSD",
+    "heading": "Cinco regras para um menu USSD",
+    "items": [
+     "A tarefa mais comum é a opção 1",
+     "Mantenha cada tela com menos de 160 caracteres",
+     "0 Voltar e 00 Menu principal em todas as telas",
+     "Confirme o valor e o destinatário antes do PIN",
+     "Envie um recibo por SMS"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Mostre o valor e o nome do destinatário antes de solicitar um PIN. Em seguida, envie um recibo por SMS, pois a sessão é encerrada e os usuários não podem voltar."
+   ],
+   "panel": {
+    "kicker": "Projeto USSD",
+    "heading": "Cinco regras para um menu USSD",
+    "items": [
+     "A tarefa mais comum é a opção 1",
+     "Mantenha cada tela com menos de 160 caracteres",
+     "0 Voltar e 00 Menu principal em todas as telas",
+     "Confirme o valor e o destinatário antes do PIN",
+     "Envie um recibo por SMS"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Confirme o valor e o nome antes do PIN. Envie um recibo por SMS.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Os pagamentos precisam de cuidados extras. Após um tempo limite, mostre Estamos verificando seu pagamento, com o status real do servidor, nunca um botão de tentar novamente que pode cobrar duas vezes.",
+    "Sempre mostre uma referência de transação e canais de suporte oficiais dentro do produto. Usuários preocupados que pesquisam on-line números de atendimento ao cliente podem encontrar fraudadores."
+   ],
+   "panel": {
+    "kicker": "Dinheiro e confiança",
+    "heading": "Estados de pagamento que os usuários podem confiar",
+    "items": [
+     "Após um tempo limite, verifique, não tente novamente",
+     "Mostre o status real do servidor",
+     "Sempre mostre uma referência de transação",
+     "Mostrar canais de suporte oficiais no aplicativo"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Para lembrar. Encontre primeiro a etapa com a conversão mais baixa e, em seguida, pesquise por que as pessoas saem. Torne os alvos principais grandes e próximos. Design para reconhecimento.",
+    "E trate o custo de dados, quedas de rede e telefones compartilhados como parte da experiência."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Lembre-se",
+    "items": [
+     "Corrija primeiro a etapa com a conversão mais baixa",
+     "Analytics mostra onde; pesquisa mostra por que",
+     "Alvos grandes e próximos: 44 a 48 px em telefones",
+     "Projete para reconhecimento, não para lembrança",
+     "Custo de dados, telefones off-line e compartilhados são UX"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Agora pratique. Crie um funil e uma planilha de métricas para um aplicativo que você usa, audite uma tela usando as leis e verifique como um produto se comporta com dados caros e sem rede.",
+    "Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Tarefa prática",
+    "heading": "Suas tarefas práticas",
+    "items": [
+     "Crie uma planilha HEART para um produto real",
+     "Faça uma auditoria cognitiva de uma tela",
+     "Execute uma verificação de contexto de um produto que você conhece"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

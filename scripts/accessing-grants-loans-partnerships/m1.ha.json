@@ -1,0 +1,433 @@
+{
+ "course": "accessing-grants-loans-partnerships",
+ "module": "m1",
+ "title": "Daidaita kuɗin da ake bukata, kuma ku shirya",
+ "course_title": "Samun Tallafi, Lamuni & Abokan Hulɗa",
+ "shots": [
+  {
+   "demo": "cash_count",
+   "say": [
+    "Daidaita kuɗin da ake bukata, kuma ku shirya.",
+    "Wannan shi ne bidiyon don tsari na 1 na Samun Tallafi, Lamuni da Haɗin kai."
+   ]
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Kuɗin girma na iya zuwa daga wurare huɗu, kuma kowanne yana da farashi. Adadin ku na kanku ko kuɗin biyan kuɗi ba kome ba ne don biya, amma yana iya zama ajiyar tsaro na ku."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Wurare huɗu kuɗin haɓaka ya fito daga",
+    "items": [
+     "Kuɗin ku: babu abin da za ku biya",
+     "Kyauta: babu biya, tsauraran dokoki",
+     "Lamuni: an biya tare da riba da kudade",
+     "Haɗin gwiwa: wani yana ba da abin da kuke buƙata"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Tallafin ba ya buƙatar biya, amma gasa yana da nauyi kuma dokokin kashe kuɗi suna da tsauri."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Wurare huɗu kuɗin haɓaka ya fito daga",
+    "items": [
+     "Kuɗin ku: babu abin da za ku biya",
+     "Kyauta: babu biya, tsauraran dokoki",
+     "Lamuni: an biya tare da riba da kudade",
+     "Haɗin gwiwa: wani yana ba da abin da kuke buƙata"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Ana biyan lamuni tare da riba da kudade akan ƙayyadadden jadawali. Rashin biyan kuɗi, kuma kuna iya rasa lamuni ko rikodin kiredit ɗin ku."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Wurare huɗu kuɗin haɓaka ya fito daga",
+    "items": [
+     "Kuɗin ku: babu abin da za ku biya",
+     "Kyauta: babu biya, tsauraran dokoki",
+     "Lamuni: an biya tare da riba da kudade",
+     "Haɗin gwiwa: wani yana ba da abin da kuke buƙata"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Haɗin gwiwa shine lokacin da mai siyarwa, mai siye ko babban kasuwanci ya ba ku kiredit, kayan aiki, sarari ko masu siye. Manufar wannan kwas shine samun abin da kuke buƙata ba tare da sanya kasuwancin ku ko gidan ku cikin haɗari ba."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Wurare huɗu kuɗin haɓaka ya fito daga",
+    "items": [
+     "Kuɗin ku: babu abin da za ku biya",
+     "Kyauta: babu biya, tsauraran dokoki",
+     "Lamuni: an biya tare da riba da kudade",
+     "Haɗin gwiwa: wani yana ba da abin da kuke buƙata"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Kuskuren da ya fi kowa shine neman kudade da farko da yanke shawarar abin da za a yi da shi daga baya. Ina bukatan kuɗi don haɓaka kasuwancin sayayya na bai gaya wa mai ba da kuɗi komai ba."
+   ],
+   "panel": {
+    "kicker": "Fara da bukata",
+    "heading": "Bukata mai rauni da buƙatu mai ƙarfi",
+    "mode": "compare",
+    "left_h": "Mai rauni",
+    "left": [
+     "\"Ina bukatan kudi don girma\"",
+     "Babu farashi, babu sakamako"
+    ],
+    "right_h": "Mai ƙarfi",
+    "right": [
+     "Injinan guda biyu, kusan ₦650,000",
+     "Unifos 40 a mako maimakon 15",
+     "Yarda da kwangilolin makaranta guda biyu"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Bukatu mai ƙarfi ta faɗi abin da za ku saya, menene farashi, da sakamakon lambobi. Misali: injunan masana’antu guda biyu, kimanin naira 650,000, don haka zan iya dinka Unifom 40 a mako maimakon 15 in karbi kwangilolin makaranta guda biyu da na ki amincewa."
+   ],
+   "panel": {
+    "kicker": "Fara da bukata",
+    "heading": "Bukata mai rauni da buƙatu mai ƙarfi",
+    "mode": "compare",
+    "left_h": "Mai rauni",
+    "left": [
+     "\"Ina bukatan kudi don girma\"",
+     "Babu farashi, babu sakamako"
+    ],
+    "right_h": "Mai ƙarfi",
+    "right": [
+     "Injinan guda biyu, kusan ₦650,000",
+     "Unifos 40 a mako maimakon 15",
+     "Yarda da kwangilolin makaranta guda biyu"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Tambaya ta daya. Shin wannan bukata za ta dawo da kudi? Sabbin haja ko na'ura don oda da kuke da su akai-akai. Alamar alama mai kyau bazai iya ba."
+   ],
+   "panel": {
+    "kicker": "Zaɓi hanya",
+    "heading": "Tambayoyi guda uku da suka yanke shawarar hanya",
+    "items": [
+     "Shin wannan bukata za ta dawo da kudi?",
+     "Yaya da wuri, kuma nawa?",
+     "Wani zai iya ba da shi maimakon kuɗi?"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Tambaya ta biyu. Yaya da wuri, kuma nawa? Biyan lamuni yawanci yana farawa a cikin wata guda, don haka jinkirin dawowa alama ce mai haɗari don rance."
+   ],
+   "panel": {
+    "kicker": "Zaɓi hanya",
+    "heading": "Tambayoyi guda uku da suka yanke shawarar hanya",
+    "items": [
+     "Shin wannan bukata za ta dawo da kudi?",
+     "Yaya da wuri, kuma nawa?",
+     "Wani zai iya ba da shi maimakon kuɗi?"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Tambaya ta uku. Shin mai kaya zai iya ba ku kwanaki 30 don biya, mai siye ya biya ajiya, ko haɗin gwiwar raba inji? Sa'an nan ƙila ba za ku buƙaci kuɗi kwata-kwata ba."
+   ],
+   "panel": {
+    "kicker": "Zaɓi hanya",
+    "heading": "Tambayoyi guda uku da suka yanke shawarar hanya",
+    "items": [
+     "Shin wannan bukata za ta dawo da kudi?",
+     "Yaya da wuri, kuma nawa?",
+     "Wani zai iya ba da shi maimakon kuɗi?"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Kuma idan kasuwancin yana asarar kuɗi kowane wata, rance ba ya gyara shi. Nemo dalilin da ya sa farko: farashin yayi ƙasa da ƙasa, sharar gida, ko tallace-tallacen bashi ba a tattara ba."
+   ],
+   "panel": {
+    "kicker": "Zaɓi hanya",
+    "heading": "Tambayoyi guda uku da suka yanke shawarar hanya",
+    "items": [
+     "Shin wannan bukata za ta dawo da kudi?",
+     "Yaya da wuri, kuma nawa?",
+     "Wani zai iya ba da shi maimakon kuɗi?"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Kar a taɓa rance don ɗaukar asarar da ke gudana.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Hauwa tana gudanar da shagon tela a Kaduna. Wata makaranta ta ba ta yunifom 300 akan kusan naira 9,000 kowanne, ana biya kashi 50% a kan oda, kashi 50% na bayarwa. Tana bukatar inji na biyu, kimanin naira 350,000."
+   ],
+   "card": {
+    "title": "Odar kayan makaranta Hauwa",
+    "rows": [],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Odar ta kai naira miliyan biyu da dubu dari bakwai. Kayayyakin sun kai kusan 1,260,000."
+   ],
+   "card": {
+    "title": "Odar kayan makaranta Hauwa",
+    "rows": [
+     [
+      "Kimar oda",
+      "2,700,000"
+     ],
+     [
+      "Kayayyaki",
+      "1,260,000"
+     ]
+    ],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Adadin Naira 1,350,000 ya shafi dukkan kayan, da saura 90,000."
+   ],
+   "card": {
+    "title": "Odar kayan makaranta Hauwa",
+    "rows": [
+     [
+      "Kimar oda",
+      "2,700,000"
+     ],
+     [
+      "Kayayyaki",
+      "1,260,000"
+     ],
+     [
+      "50% ajiya",
+      "1,350,000"
+     ]
+    ],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Don haka ainihin tazarar injin: Naira 260,000.",
+    "Naira 150,000 da ta yi tanadi ne kawai buffer ta. Lamunin microfinance zai fi tsada kuma ya ɗauki makonni. Amma dillalin ya amince a rage naira 120,000 da 80,000 duk wata har na tsawon watanni uku, sai dai karin 10,000.",
+    "Ta bukaci abokin tarayya, ba mai ba da bashi ba."
+   ],
+   "card": {
+    "title": "Odar kayan makaranta Hauwa",
+    "rows": [
+     [
+      "Kimar oda",
+      "2,700,000"
+     ],
+     [
+      "Kayayyaki",
+      "1,260,000"
+     ],
+     [
+      "50% ajiya",
+      "1,350,000"
+     ],
+     [
+      "Har yanzu ana buƙatar na'ura",
+      "260,000"
+     ]
+    ],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Masu ba da kuɗi suna hukunta ku daga shaida. Yi maki 0, 1 ko 2 akan waɗannan yankuna shida. 9 ko ƙasa da haka cikin 12 na nufin gyara giɓi kafin amfani.",
+    "Misali, Funmi tana yin burodi a Abeokuta. Tallarta tana shiga cikin asusu na sirri gauraye da kuɗin iyali, kuma ba ta yin rikodin kashe kuɗi. Ta samu maki 5 cikin 12.",
+    "Don haka ta buɗe asusun kasuwanci, ta fara rikodin kashe kuɗi, kuma ta fitar da ƙarin ribar tanda. Gyara gibin cancanta tukuna."
+   ],
+   "panel": {
+    "kicker": "Duban shiri",
+    "heading": "Yi maki kowane yanki 0, 1 ko 2",
+    "items": [
+     "ID, BVN da CAC shirye",
+     "Asusun kasuwanci tare da maganganu",
+     "Watanni shida na bayanan",
+     "Tabbacin ka isar da dogaro",
+     "Shirye-shiryen da aka kashe don kuɗi",
+     "TIN da izinin samfur"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Mutane da yawa suna yin kamar suna ba da kuɗi. Nemo gidan yanar gizon hukuma da kanka, kada ta hanyar hanyar haɗi a cikin saƙo. Bincika bankuna akan jerin CBN da aikace-aikacen lamuni akan jerin FCCPC."
+   ],
+   "panel": {
+    "kicker": "Kare kuɗin ku",
+    "heading": "Bincika cewa tayin gaskiya ne",
+    "items": [
+     "Nemo gidan yanar gizon hukuma da kanka",
+     "Duba lissafin CBN ko FCCPC",
+     "Bincika sunan da \"zamba\"",
+     "Tambayi wanda ke biya, kuma me yasa",
+     "Kada ku taɓa biyan kuɗi don karɓar tallafi",
+     "Kada a taɓa raba BVN, OTP, PIN ko kati"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Bincika sunan shirin tare da kalmar zamba. Kuma tambaya: wanene ke biya, kuma me yasa?"
+   ],
+   "panel": {
+    "kicker": "Kare kuɗin ku",
+    "heading": "Bincika cewa tayin gaskiya ne",
+    "items": [
+     "Nemo gidan yanar gizon hukuma da kanka",
+     "Duba lissafin CBN ko FCCPC",
+     "Bincika sunan da \"zamba\"",
+     "Tambayi wanda ke biya, kuma me yasa",
+     "Kada ku taɓa biyan kuɗi don karɓar tallafi",
+     "Kada a taɓa raba BVN, OTP, PIN ko kati"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Shirye-shiryen kyauta na gaske ba sa tambayar masu cin nasara su biya kuɗi. Misali, an ce Ifeoma ya biya naira 15,000 a wani asusu na sirri don kunna tallafin naira 500,000. Ba ta sami komai ba a gidan yanar gizon hukuma kuma ta goge shi.",
+    "Kada ku taɓa aika kuɗi, BVN, bayanan katinku, OTP ko PIN ga kowa game da tallafi."
+   ],
+   "panel": {
+    "kicker": "Kare kuɗin ku",
+    "heading": "Bincika cewa tayin gaskiya ne",
+    "items": [
+     "Nemo gidan yanar gizon hukuma da kanka",
+     "Duba lissafin CBN ko FCCPC",
+     "Bincika sunan da \"zamba\"",
+     "Tambayi wanda ke biya, kuma me yasa",
+     "Kada ku taɓa biyan kuɗi don karɓar tallafi",
+     "Kada a taɓa raba BVN, OTP, PIN ko kati"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Don tunawa. Fara da takamaiman buƙatu ɗaya mai tsada. Ƙirar lamuni yana buƙatar wanda zai sami kuɗi da sauri. Abokin tarayya zai iya ba da abu maimakon kuɗi.",
+    "Gudanar da kowane tallace-tallace ta hanyar asusun kasuwanci, don haka bayananku suna magana da ku. Kuma kada ku biya kuɗi don karɓar tallafi."
+   ],
+   "panel": {
+    "kicker": "Mabuɗin mahimmanci",
+    "heading": "Ka tuna",
+    "items": [
+     "Fara da takamaiman buƙatu ɗaya mai tsada",
+     "Suttun lamuni yana buƙatar wanda zai sami kuɗi da sauri",
+     "Abokin tarayya zai iya ba da shi maimakon kuɗi",
+     "Gudanar da kowane tallace-tallace ta hanyar asusun kasuwanci",
+     "Kada ku taɓa biyan kuɗi don karɓar tallafi"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Ayyukanku: rubuta bayanin buƙatun kuɗin ku, gudanar da binciken shirye-shiryen ku, da gina jerin zaɓaɓɓun damammaki guda uku da aka tabbatar.",
+    "Ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi aiki",
+    "heading": "Ayyukan aikin ku",
+    "items": [
+     "Rubuta bayanin buƙatar kuɗaɗen ku",
+     "Guda rajistan shirye-shiryen ku",
+     "Jerin sunayen da aka tabbatar da dama guda uku"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

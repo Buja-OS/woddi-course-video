@@ -1,0 +1,560 @@
+{
+ "course": "core-basic-tailoring-and-garment-repair",
+ "module": "m1",
+ "title": "Connaissez votre tissu, cousez des points solides à la main, mesurez correctement",
+ "course_title": "Couture de base et réparation de vêtements",
+ "shots": [
+  {
+   "demo": "garment_hanger",
+   "say": [
+    "Connaissez votre tissu, cousez des points solides à la main et mesurez correctement.",
+    "Ceci est la vidéo du premier module de couture de base et réparation de vêtements."
+   ]
+  },
+  {
+   "demo": "fabric_measure",
+   "say": [
+    "Presque tous les foyers ont des vêtements qui attendent de petites réparations. Un tailleur à domicile gagne trois types de travail. La réparation permet de réutiliser un vêtement endommagé."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Trois types de travaux de couture",
+    "items": [
+     "Réparation : rapporter un vêtement endommagé à nouveau",
+     "Modification : modifier la coupe ou la longueur",
+     "Confection : couper et coudre un nouvel article",
+     "Commencez par la réparation"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "fabric_measure",
+   "say": [
+    "La modification modifie la coupe ou la longueur d'un vêtement déjà confectionné."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Trois types de travaux de couture",
+    "items": [
+     "Réparation : rapporter un vêtement endommagé à nouveau",
+     "Modification : modifier la coupe ou la longueur",
+     "Confection : couper et coudre un nouvel article",
+     "Commencez par la réparation"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Fabriquer signifie couper et coudre un nouvel article à partir de tissu."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Trois types de travaux de couture",
+    "items": [
+     "Réparation : rapporter un vêtement endommagé à nouveau",
+     "Modification : modifier la coupe ou la longueur",
+     "Confection : couper et coudre un nouvel article",
+     "Commencez par la réparation"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Commencez par la réparation. Il nécessite le moins d'équipement et construit les habitudes dont vous aurez besoin plus tard : coutures droites, finitions et repassage soignés."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Trois types de travaux de couture",
+    "items": [
+     "Réparation : rapporter un vêtement endommagé à nouveau",
+     "Modification : modifier la coupe ou la longueur",
+     "Confection : couper et coudre un nouvel article",
+     "Commencez par la réparation"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "garment_hanger",
+   "say": [
+    "Avant tout travail, vérifiez le tissu. Le tissu tissé est fabriqué à partir de fils qui se croisent à angle droit, comme un tapis.",
+    "Ankara, chemises et denim sont tissés. Ils s'étirent à peine et leurs bords coupés s'effilochent, vous devez donc finir ces bords."
+   ],
+   "panel": {
+    "kicker": "Vérifiez d'abord",
+    "heading": "Tissé ou tricoté ?",
+    "mode": "compare",
+    "left_h": "Tissé",
+    "left": [
+     "Les fils se croisent comme un tapis",
+     "S'étire à peine",
+     "Les bords coupés s'effilochent",
+     "Ankara, chemise, denim"
+    ],
+    "right_h": "Tricoter",
+    "right": [
+     "Fabriqué à partir de boucles",
+     "S'étire et reprend sa forme",
+     "Les bords coupés s'enroulent",
+     "T-shirts, maillots, leggings"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "pattern_paper",
+   "say": [
+    "Le tricot est fait de boucles, comme un pull. Les T-shirts, les robes en jersey et les leggings sont des tricots.",
+    "Pour tester, tirez doucement. S’il s’étire facilement et rebondit, c’est un tricot. Les tricots ont besoin d'un point extensible, comme un zigzag étroit, et d'une aiguille à bille."
+   ],
+   "panel": {
+    "kicker": "Vérifiez d'abord",
+    "heading": "Tissé ou tricoté ?",
+    "mode": "compare",
+    "left_h": "Tissé",
+    "left": [
+     "Les fils se croisent comme un tapis",
+     "S'étire à peine",
+     "Les bords coupés s'effilochent",
+     "Ankara, chemise, denim"
+    ],
+    "right_h": "Tricoter",
+    "right": [
+     "Fabriqué à partir de boucles",
+     "S'étire et reprend sa forme",
+     "Les bords coupés s'enroulent",
+     "T-shirts, maillots, leggings"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "sewing_machine",
+   "say": [
+    "Six points de suture à la main couvrent presque toutes les réparations. Le point courant entre et sort en ligne droite. Utilisez-le pour pointer avant de coudre à la machine."
+   ],
+   "panel": {
+    "kicker": "Six points de suture à la main",
+    "heading": "Le bon point pour le travail",
+    "items": [
+     "Point courant : faufilage et coutures légères",
+     "Point arrière : la couture à la main la plus solide",
+     "Point coulé : comble un espace de manière invisible",
+     "Ourlet invisible : ourlets qui ne doivent pas apparaître",
+     "Point de surjet : joint les bords finis, les patchs",
+     "Couvert : empêche l'effilochage d'un bord brut"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "sewing_machine",
+   "say": [
+    "Le point arrière est la couture à la main la plus solide. Chaque point touche le dernier. Utilisez-le pour réparer les coutures fendues."
+   ],
+   "panel": {
+    "kicker": "Six points de suture à la main",
+    "heading": "Le bon point pour le travail",
+    "items": [
+     "Point courant : faufilage et coutures légères",
+     "Point arrière : la couture à la main la plus solide",
+     "Point coulé : comble un espace de manière invisible",
+     "Ourlet invisible : ourlets qui ne doivent pas apparaître",
+     "Point de surjet : joint les bords finis, les patchs",
+     "Couvert : empêche l'effilochage d'un bord brut"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "sewing_machine",
+   "say": [
+    "Le point coulé, également appelé point échelle, ferme une ouverture de l’extérieur afin que personne ne puisse la voir."
+   ],
+   "panel": {
+    "kicker": "Six points de suture à la main",
+    "heading": "Le bon point pour le travail",
+    "items": [
+     "Point courant : faufilage et coutures légères",
+     "Point arrière : la couture à la main la plus solide",
+     "Point coulé : comble un espace de manière invisible",
+     "Ourlet invisible : ourlets qui ne doivent pas apparaître",
+     "Point de surjet : joint les bords finis, les patchs",
+     "Couvert : empêche l'effilochage d'un bord brut"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "iron_press",
+   "say": [
+    "Le point d'ourlet invisible ne capte qu'un ou deux fils du vêtement, de sorte que l'ourlet ne soit pas visible à l'extérieur."
+   ],
+   "panel": {
+    "kicker": "Six points de suture à la main",
+    "heading": "Le bon point pour le travail",
+    "items": [
+     "Point courant : faufilage et coutures légères",
+     "Point arrière : la couture à la main la plus solide",
+     "Point coulé : comble un espace de manière invisible",
+     "Ourlet invisible : ourlets qui ne doivent pas apparaître",
+     "Point de surjet : joint les bords finis, les patchs",
+     "Couvert : empêche l'effilochage d'un bord brut"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "iron_press",
+   "say": [
+    "Le point de fouet passe sur le bord pour joindre deux bords finis ou attacher un patch."
+   ],
+   "panel": {
+    "kicker": "Six points de suture à la main",
+    "heading": "Le bon point pour le travail",
+    "items": [
+     "Point courant : faufilage et coutures légères",
+     "Point arrière : la couture à la main la plus solide",
+     "Point coulé : comble un espace de manière invisible",
+     "Ourlet invisible : ourlets qui ne doivent pas apparaître",
+     "Point de surjet : joint les bords finis, les patchs",
+     "Couvert : empêche l'effilochage d'un bord brut"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "iron_press",
+   "say": [
+    "Le point de surfilage est travaillé sur un seul bord brut, pour arrêter l'effilochage lorsque vous n'avez pas de zigzag ou de surjeteuse."
+   ],
+   "panel": {
+    "kicker": "Six points de suture à la main",
+    "heading": "Le bon point pour le travail",
+    "items": [
+     "Point courant : faufilage et coutures légères",
+     "Point arrière : la couture à la main la plus solide",
+     "Point coulé : comble un espace de manière invisible",
+     "Ourlet invisible : ourlets qui ne doivent pas apparaître",
+     "Point de surjet : joint les bords finis, les patchs",
+     "Couvert : empêche l'effilochage d'un bord brut"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "sewing_machine",
+   "say": [
+    "Par exemple, la voisine d'Halima apporte une blouse en coton avec une fente de 6 cm au niveau de la couture sous les bras. Seules les coutures sont cassées.",
+    "Première étape. Halima retourne le chemisier et retire les fils cassés."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Réparer une couture fendue sous les bras",
+    "items": [
+     "Retourner, retirer les fils cassés",
+     "Épinglez les bords le long de l’ancienne ligne de couture",
+     "Nouer 1 cm avant la fente",
+     "Point arrière à 1 cm après la fente",
+     "Deux points de verrouillage, couper, repasser"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "sewing_machine",
+   "say": [
+    "Deuxième étape. Elle épingle les deux bords ensemble le long de la ligne de couture originale. Elle peut encore le voir comme de petits trous."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Réparer une couture fendue sous les bras",
+    "items": [
+     "Retourner, retirer les fils cassés",
+     "Épinglez les bords le long de l’ancienne ligne de couture",
+     "Nouer 1 cm avant la fente",
+     "Point arrière à 1 cm après la fente",
+     "Deux points de verrouillage, couper, repasser"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "sewing_machine",
+   "say": [
+    "Troisième étape. Elle commence par un noeud environ 1 cm avant la fente, dans des coutures anciennes encore bonnes."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Réparer une couture fendue sous les bras",
+    "items": [
+     "Retourner, retirer les fils cassés",
+     "Épinglez les bords le long de l’ancienne ligne de couture",
+     "Nouer 1 cm avant la fente",
+     "Point arrière à 1 cm après la fente",
+     "Deux points de verrouillage, couper, repasser"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "thread_spools",
+   "say": [
+    "Quatrième étape. Elle coud au point arrière, avec des points d'environ 2 à 3 mm de long, et se termine 1 cm après la fente."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Réparer une couture fendue sous les bras",
+    "items": [
+     "Retourner, retirer les fils cassés",
+     "Épinglez les bords le long de l’ancienne ligne de couture",
+     "Nouer 1 cm avant la fente",
+     "Point arrière à 1 cm après la fente",
+     "Deux points de verrouillage, couper, repasser"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "thread_spools",
+   "say": [
+    "Cinquième étape. Elle termine par deux points de verrouillage, coupe le fil et repasse la couture.",
+    "Ne finissez jamais en coupant simplement le fil. Les points se détacheront au premier lavage. Et ne tirez pas trop sur les points, sinon le tissu se froncera."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Réparer une couture fendue sous les bras",
+    "items": [
+     "Retourner, retirer les fils cassés",
+     "Épinglez les bords le long de l’ancienne ligne de couture",
+     "Nouer 1 cm avant la fente",
+     "Point arrière à 1 cm après la fente",
+     "Deux points de verrouillage, couper, repasser"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Superposez-les dans de bonnes coutures et verrouillez toujours l'extrémité",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "sewing_machine",
+   "say": [
+    "Par exemple, Bisi apporte le pantalon d'écolier de son fils à Fatima. Il les porte avec ses chaussures d'école et Fatima plie l'ourlet jusqu'à ce qu'il touche juste le haut de la chaussure."
+   ],
+   "panel": {
+    "kicker": "Mesurez deux fois, coupez une fois",
+    "heading": "Raccourcir les pantalons d'école",
+    "items": [
+     "Pliez pour toucher le haut de la chaussure",
+     "Mesure : 6 cm de trop long",
+     "Ourlet ancien 3 cm, donc 9 cm en dessous du pli",
+     "Gardez une marge d'ourlet de 4 cm",
+     "Couper 5 cm"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "sewing_machine",
+   "say": [
+    "Elle épingle et mesure. Le pantalon est 6 cm trop long."
+   ],
+   "panel": {
+    "kicker": "Mesurez deux fois, coupez une fois",
+    "heading": "Raccourcir les pantalons d'école",
+    "items": [
+     "Pliez pour toucher le haut de la chaussure",
+     "Mesure : 6 cm de trop long",
+     "Ourlet ancien 3 cm, donc 9 cm en dessous du pli",
+     "Gardez une marge d'ourlet de 4 cm",
+     "Couper 5 cm"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "sewing_machine",
+   "say": [
+    "L'ancien ourlet fait 3 cm de profondeur. Il reste donc 9 cm de tissu en dessous du nouveau pli."
+   ],
+   "panel": {
+    "kicker": "Mesurez deux fois, coupez une fois",
+    "heading": "Raccourcir les pantalons d'école",
+    "items": [
+     "Pliez pour toucher le haut de la chaussure",
+     "Mesure : 6 cm de trop long",
+     "Ourlet ancien 3 cm, donc 9 cm en dessous du pli",
+     "Gardez une marge d'ourlet de 4 cm",
+     "Couper 5 cm"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "fabric_measure",
+   "say": [
+    "Les pantalons nécessitent généralement une marge d'ourlet d'environ 4 cm. Elle marque la ligne de pliage à la craie, puis une ligne de découpe 4 cm en dessous."
+   ],
+   "panel": {
+    "kicker": "Mesurez deux fois, coupez une fois",
+    "heading": "Raccourcir les pantalons d'école",
+    "items": [
+     "Pliez pour toucher le haut de la chaussure",
+     "Mesure : 6 cm de trop long",
+     "Ourlet ancien 3 cm, donc 9 cm en dessous du pli",
+     "Gardez une marge d'ourlet de 4 cm",
+     "Couper 5 cm"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "fabric_measure",
+   "say": [
+    "Elle garde donc 4 cm et coupe 5 cm. Le tissu coupé trop court ne peut pas être remis en place, mesurez donc les deux jambes avant de couper."
+   ],
+   "panel": {
+    "kicker": "Mesurez deux fois, coupez une fois",
+    "heading": "Raccourcir les pantalons d'école",
+    "items": [
+     "Pliez pour toucher le haut de la chaussure",
+     "Mesure : 6 cm de trop long",
+     "Ourlet ancien 3 cm, donc 9 cm en dessous du pli",
+     "Gardez une marge d'ourlet de 4 cm",
+     "Couper 5 cm"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Marquez la ligne de pliage et la ligne de coupe avant de couper",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "fabric_cut",
+   "say": [
+    "Aménagez maintenant un coin sûr, avec une bonne lumière le jour et une ampoule lumineuse la nuit.",
+    "Conservez les épingles et les aiguilles dans une boîte fermée, jamais dans la bouche, et gardez les ciseaux fermés et hors de portée des enfants.",
+    "Placez le fer sur son talon, éloignez son câble du bord et éteignez-le au niveau du mur lorsque vous avez terminé.",
+    "Faites fonctionner n’importe quel générateur à l’extérieur, loin des portes et des fenêtres. Ses vapeurs contiennent du monoxyde de carbone, un gaz toxique que vous ne pouvez pas sentir."
+   ],
+   "panel": {
+    "kicker": "La sécurité avant tout",
+    "heading": "Un coin de travail sécuritaire et bien éclairé",
+    "items": [
+     "Bon éclairage sur ton travail",
+     "Aiguilles et épingles dans une boîte fermée",
+     "Ciseaux fermés, hors de portée des enfants",
+     "Fer débranché après utilisation",
+     "Pas de câbles traînants",
+     "Générateur à l'extérieur, loin des fenêtres"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Alors rappelez-vous. Commencez par les réparations. Carreaux tissés ou tricotés. Le point arrière est la couture à la main la plus solide et chaque ligne se termine par des points de verrouillage.",
+    "Mesurez bien mais pas trop serré, écrivez les nombres en centimètres à la fois et marquez les deux lignes avant de couper."
+   ],
+   "panel": {
+    "kicker": "Rappelez-vous",
+    "heading": "Points clés",
+    "items": [
+     "Commencez par les travaux de réparation",
+     "Effilochés tissés ; tricoter des étirements et des boucles",
+     "Le point arrière est le plus résistant ; finir avec des serrures",
+     "Mesurez bien, écrivez en cm d'un coup",
+     "Marquez d'abord la ligne de pliage et la ligne de coupe"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "garment_hanger",
+   "say": [
+    "Vos tâches pratiques : trier six chutes de tissu en tissé et tricoté, coudre un échantillon avec les six points, mesurer un membre de la famille et aménager votre coin de travail sécurisé.",
+    "Continuez maintenant avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Votre pratique",
+    "heading": "Maintenant tu essaies",
+    "items": [
+     "Triez six chutes de tissus : tissés ou tricotés",
+     "Fabriquer un échantillonneur à six points",
+     "Mesurez un membre de la famille en cm",
+     "Aménagez votre coin travail en toute sécurité"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

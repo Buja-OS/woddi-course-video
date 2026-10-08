@@ -1,0 +1,541 @@
+{
+ "course": "ui-design-figma",
+ "module": "m2",
+ "title": "Componentes, protótipos e uma transferência limpa para o desenvolvedor",
+ "course_title": "Design de UI com Figma",
+ "shots": [
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Componentes, protótipos e uma transferência limpa do desenvolvedor.",
+    "Este é o vídeo do módulo dois de UI Design com Figma."
+   ]
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Um componente é um elemento que você cria uma vez e reutiliza, como um botão ou um cartão de produto. O original é o componente principal."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Construa uma vez, reutilize em qualquer lugar",
+    "items": [
+     "Componente principal: o original",
+     "Instâncias: cópias que permanecem vinculadas",
+     "Substituições: altere um rótulo, mantenha o link",
+     "Um designer, 40 telas consistentes"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Cada cópia é uma instância. Altere o componente principal e todas as instâncias serão atualizadas. Em uma instância, você ainda pode substituir coisas como o rótulo, sem quebrar o link."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Construa uma vez, reutilize em qualquer lugar",
+    "items": [
+     "Componente principal: o original",
+     "Instâncias: cópias que permanecem vinculadas",
+     "Substituições: altere um rótulo, mantenha o link",
+     "Um designer, 40 telas consistentes"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Isto é o que permite que um designer mantenha 40 telas consistentes."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Construa uma vez, reutilize em qualquer lugar",
+    "items": [
+     "Componente principal: o original",
+     "Instâncias: cópias que permanecem vinculadas",
+     "Substituições: altere um rótulo, mantenha o link",
+     "Um designer, 40 telas consistentes"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Crie o elemento com layout automático e apenas os estilos salvos. Em seguida, pressione Control, Alt, K ou Command, Option, K em um Mac, para torná-lo um componente."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Do elemento ao conjunto de componentes",
+    "items": [
+     "Crie com layout automático e estilos salvos",
+     "Ctrl + Alt + K para criar o componente",
+     "Duplicar e depois combinar como variantes",
+     "Renomeie a propriedade 1 para tipo, estado, tamanho",
+     "Adicionar adereços de texto, booleanos e de troca de instância"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Duplique-o para cada versão necessária, selecione todas e clique em Combinar como variantes."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Do elemento ao conjunto de componentes",
+    "items": [
+     "Crie com layout automático e estilos salvos",
+     "Ctrl + Alt + K para criar o componente",
+     "Duplicar e depois combinar como variantes",
+     "Renomeie a propriedade 1 para tipo, estado, tamanho",
+     "Adicionar adereços de texto, booleanos e de troca de instância"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Renomeie a Propriedade 1 padrão para algo significativo, como Tipo, com valores como Primário e Secundário."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Do elemento ao conjunto de componentes",
+    "items": [
+     "Crie com layout automático e estilos salvos",
+     "Ctrl + Alt + K para criar o componente",
+     "Duplicar e depois combinar como variantes",
+     "Renomeie a propriedade 1 para tipo, estado, tamanho",
+     "Adicionar adereços de texto, booleanos e de troca de instância"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Em seguida, adicione outras propriedades: Texto para editar o rótulo, Booleano para mostrar ou ocultar um ícone e Troca de instância para escolher qual ícone."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Do elemento ao conjunto de componentes",
+    "items": [
+     "Crie com layout automático e estilos salvos",
+     "Ctrl + Alt + K para criar o componente",
+     "Duplicar e depois combinar como variantes",
+     "Renomeie a propriedade 1 para tipo, estado, tamanho",
+     "Adicionar adereços de texto, booleanos e de troca de instância"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Desanexar uma instância quebra seu link para sempre, portanto ela nunca recebe correções futuras. Se você continuar querendo desanexar, falta uma propriedade em seu componente."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Do elemento ao conjunto de componentes",
+    "items": [
+     "Crie com layout automático e estilos salvos",
+     "Ctrl + Alt + K para criar o componente",
+     "Duplicar e depois combinar como variantes",
+     "Renomeie a propriedade 1 para tipo, estado, tamanho",
+     "Adicionar adereços de texto, booleanos e de troca de instância"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Não se separe. Se desejar, conserte o componente.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Amaka precisa de botões em 3 tipos, 3 estados e 2 tamanhos. São 18 variantes. Se ela também transformar o ícone em uma variante, a contagem dobra para 36, ​​e cada alteração futura deverá ser feita 36 vezes."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Mantenha o botão pequeno",
+    "mode": "compare",
+    "left_h": "Ícone como variante",
+    "left": [
+     "3 tipos × 3 estados × 2 tamanhos = 18",
+     "Dobre para ícones: 36",
+     "Cada alteração feita 36 vezes"
+    ],
+    "right_h": "Ícone como propriedade",
+    "right": [
+     "Ainda 18 variantes",
+     "Booleano: Mostrar ícone",
+     "Troca de instância: carrinho, mais, seta",
+     "Propriedade de texto: o rótulo"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Em vez disso, ela adiciona uma propriedade booleana, Mostrar ícone, uma propriedade de troca de instância para o ícone e uma propriedade Texto para o rótulo. O conjunto fica em 18 variantes e cobre todos os botões do aplicativo."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Mantenha o botão pequeno",
+    "mode": "compare",
+    "left_h": "Ícone como variante",
+    "left": [
+     "3 tipos × 3 estados × 2 tamanhos = 18",
+     "Dobre para ícones: 36",
+     "Cada alteração feita 36 vezes"
+    ],
+    "right_h": "Ícone como propriedade",
+    "right": [
+     "Ainda 18 variantes",
+     "Booleano: Mostrar ícone",
+     "Troca de instância: carrinho, mais, seta",
+     "Propriedade de texto: o rótulo"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Um protótipo conecta suas telas para que um cliente possa acessá-las antes de pagar pelo desenvolvimento. Cada conexão tem um gatilho, como Ao tocar, e uma ação, como Navegar para ou Abrir sobreposição."
+   ],
+   "panel": {
+    "kicker": "Protótipos",
+    "heading": "Cada conexão tem quatro partes",
+    "items": [
+     "Gatilho: o que o usuário faz",
+     "Ação: o que acontece",
+     "Destino: para onde vai",
+     "Animação: como se move"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Depois, um quadro de destino e uma animação. Cerca de 200 a 300 ms, com facilidade, é adequado para a maioria das transições móveis."
+   ],
+   "panel": {
+    "kicker": "Protótipos",
+    "heading": "Cada conexão tem quatro partes",
+    "items": [
+     "Gatilho: o que o usuário faz",
+     "Ação: o que acontece",
+     "Destino: para onde vai",
+     "Animação: como se move"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Amaka marca Home como o ponto de partida de um fluxo chamado Compre tomates."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Conectando a jornada de checkout",
+    "items": [
+     "Marcar Home como ponto de partida do fluxo",
+     "Cartão do produto: Navegar, Mover-se, 250 ms",
+     "Adicionar ao carrinho: abra uma sobreposição de folha inferior",
+     "As setas para trás usam a ação Voltar",
+     "Barras fixas em telas de rolagem"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Tocar em um cartão de produto move-se na tela do produto em 250 ms. Adicionar ao carrinho abre uma planilha de quantidades como uma sobreposição, em vez de uma tela separada."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Conectando a jornada de checkout",
+    "items": [
+     "Marcar Home como ponto de partida do fluxo",
+     "Cartão do produto: Navegar, Mover-se, 250 ms",
+     "Adicionar ao carrinho: abra uma sobreposição de folha inferior",
+     "As setas para trás usam a ação Voltar",
+     "Barras fixas em telas de rolagem"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Cada seta para trás usa a ação Voltar, então o caminho sempre corresponde à forma como o usuário chegou."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Conectando a jornada de checkout",
+    "items": [
+     "Marcar Home como ponto de partida do fluxo",
+     "Cartão do produto: Navegar, Mover-se, 250 ms",
+     "Adicionar ao carrinho: abra uma sobreposição de folha inferior",
+     "As setas para trás usam a ação Voltar",
+     "Barras fixas em telas de rolagem"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "As telas longas rolam, então ela define a barra superior e a navegação inferior como Fixa. Uma barra inferior que rola parece quebrada para os clientes. Em seguida, ela testa tudo em seu telefone no aplicativo móvel Figma."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Conectando a jornada de checkout",
+    "items": [
+     "Marcar Home como ponto de partida do fluxo",
+     "Cartão do produto: Navegar, Mover-se, 250 ms",
+     "Adicionar ao carrinho: abra uma sobreposição de folha inferior",
+     "As setas para trás usam a ação Voltar",
+     "Barras fixas em telas de rolagem"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "A animação inteligente só funciona quando uma camada tem exatamente o mesmo nome em ambos os quadros. Badge e Ellipse 3 irão simplesmente pular."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Conectando a jornada de checkout",
+    "items": [
+     "Marcar Home como ponto de partida do fluxo",
+     "Cartão do produto: Navegar, Mover-se, 250 ms",
+     "Adicionar ao carrinho: abra uma sobreposição de folha inferior",
+     "As setas para trás usam a ação Voltar",
+     "Barras fixas em telas de rolagem"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "A animação inteligente precisa de camadas correspondentes com exatamente o mesmo nome.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Compartilhe protótipos apenas com acesso de visualização, pois um link pode ser encaminhado. Use exemplos de nomes, endereços e números de telefone, nunca dados reais de clientes. A Lei de Proteção de Dados de 2023 da Nigéria aplica-se a dados pessoais.",
+    "Instale plug-ins apenas de editores conhecidos e nunca cole senhas de clientes ou dados privados em um deles."
+   ],
+   "panel": {
+    "kicker": "Compartilhe com segurança",
+    "heading": "Proteja os dados do cliente",
+    "items": [
+     "Compartilhe protótipos apenas para visualização",
+     "Use exemplos de nomes, números e endereços",
+     "Nunca dados reais do cliente",
+     "Plugins apenas de editores conhecidos",
+     "Sem senhas ou dados privados em plug-ins"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Um design pode parecer bonito e ainda assim ser inutilizável. Para texto normal, o nível AA das WCAG precisa de uma taxa de contraste de pelo menos 4,5 para 1."
+   ],
+   "panel": {
+    "kicker": "Verificação de qualidade",
+    "heading": "Verifique o contraste das cores",
+    "items": [
+     "Texto normal: pelo menos 4,5: 1",
+     "Texto grande: pelo menos 3: 1",
+     "Bordas e ícones principais: 3: 1",
+     "Corrija a variável de cor uma vez"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Texto grande e partes importantes não textuais, como bordas de entrada, precisam de 3 para 1. A borda de entrada cinza claro de Amaka era de apenas 1,9 para 1, então os usuários podem não ver onde digitar."
+   ],
+   "panel": {
+    "kicker": "Verificação de qualidade",
+    "heading": "Verifique o contraste das cores",
+    "items": [
+     "Texto normal: pelo menos 4,5: 1",
+     "Texto grande: pelo menos 3: 1",
+     "Bordas e ícones principais: 3: 1",
+     "Corrija a variável de cor uma vez"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Cada correção consistia em uma edição em uma variável de cor e todas as telas eram atualizadas de uma só vez."
+   ],
+   "panel": {
+    "kicker": "Verificação de qualidade",
+    "heading": "Verifique o contraste das cores",
+    "items": [
+     "Texto normal: pelo menos 4,5: 1",
+     "Texto grande: pelo menos 3: 1",
+     "Bordas e ícones principais: 3: 1",
+     "Corrija a variável de cor uma vez"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Seu texto cinza foi aprovado em branco por volta de 4,6, mas falhou em um cartão cinza claro por volta de 4,2. Portanto, sempre verifique o texto em relação ao seu fundo real."
+   ],
+   "panel": {
+    "kicker": "Verificação de qualidade",
+    "heading": "Verifique o contraste das cores",
+    "items": [
+     "Texto normal: pelo menos 4,5: 1",
+     "Texto grande: pelo menos 3: 1",
+     "Bordas e ícones principais: 3: 1",
+     "Corrija a variável de cor uma vez"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Verifique o texto em relação ao fundo real em que ele está.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Antes da transferência, verifique se os pontos de toque são de pelo menos 48 por 48. Projete cada estado, incluindo erro, vazio e carregamento. Mostre erros com um ícone e uma mensagem, não apenas com cores.",
+    "Nomeie as camadas com clareza e defina as exportações SVG nos ícones. Em seguida, escreva notas que uma tela não pode mostrar, como: desabilitar Pagar até que o endereço de entrega seja escolhido.",
+    "Termine com um passo a passo de 20 minutos com o desenvolvedor."
+   ],
+   "panel": {
+    "kicker": "Antes da entrega",
+    "heading": "O passe de pré-transferência",
+    "items": [
+     "Toque em alvos 48 × 48 ou maiores",
+     "Todos os estados: focado, erro, vazio, carregando",
+     "Erros mostrados por mais de uma cor",
+     "Camadas nomeadas; exportações definidas como SVG",
+     "Notas de comportamento para o desenvolvedor"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Para lembrar. Crie componentes uma vez e mantenha as instâncias vinculadas. Use variantes apenas para mudanças visuais reais.",
+    "Conecte protótipos com gatilhos claros e ações de retorno. Verifique o contraste em relação ao fundo real. E entregue um arquivo nomeado e anotado."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Lembre-se",
+    "items": [
+     "As instâncias seguem o componente principal",
+     "Variantes de looks; propriedades para o resto",
+     "Gatilho, ação, destino, animação",
+     "4,5: 1 para texto normal",
+     "Nomeie, exporte e anote antes da transferência"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Agora pratique. Crie seu primeiro conjunto de componentes, crie um protótipo de uma jornada, teste-a em seu telefone e execute uma auditoria pré-transferência.",
+    "Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Pratique tarefas",
+    "heading": "Suas tarefas práticas",
+    "items": [
+     "Construa seu primeiro conjunto de componentes",
+     "Protótipo de uma jornada completa",
+     "Execute uma auditoria pré-transferência"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

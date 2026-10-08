@@ -1,0 +1,192 @@
+{
+  "course": "liquid-soap-shampoo-disinfectants",
+  "module": "m3",
+  "title": "Shampuu, Shampuu 2-katika-1 na Kondishena ya Krimu",
+  "shots": [
+    {
+      "demo": "title_liquid",
+      "say": [
+        "Shampuu, Shampuu ya Kulainisha na Kondishena ya Nywele. Hii ni moduli ya 3 ya kozi.",
+        "Bidhaa za nywele huuzika kwa jinsi zinavyohisiwa, kwa hiyo leo tunatengeneza zote tatu na kuzijaribu kwenye nywele halisi."
+      ]
+    },
+    {
+      "demo": "shampoo_bottles",
+      "label": "Shampuu ya nywele za kiasili",
+      "say": [
+        "Nywele za kiasili za Kiafrika huwa kavu, kwa sababu mafuta ya ngozi ya kichwa hayasafiri kwa urahisi kwenye mizunguko ya nywele.",
+        "Kwa hiyo shampuu iliyo kwenye chupa hizi inapaswa kusafisha ngozi ya kichwa vizuri lakini isiikaushe kupita kiasi.",
+        "Ukilinganisha na sabuni ya mikono, tunapandisha CAPB kutoka asilimia 5 hadi 7 na kuongeza panthenol, provitamin B5, kusaidia nywele kushika maji."
+      ]
+    },
+    {
+      "demo": "scale_weigh",
+      "label": "Viambato vidogo kwenye mizani 0.1 g",
+      "card": {
+        "title": "Shampuu 12 kg ya Ifeoma",
+        "rows": [
+          ["SLES 14%", "1,680 g"],
+          ["CAPB 7%", "840 g"],
+          ["Glycerin 2%", "240 g"],
+          ["Panthenol 0.5%", "60 g"],
+          ["Chumvi 1% (jaribio)", "120 g"],
+          ["Maji 74.3%", "8,916 g"]
+        ],
+        "note": "Kiambato hai 11.9%. Pia EDTA 12 g, kihifadhi 96 g"
+      },
+      "say": [
+        "Ifeoma wa Owerri alikagua karatasi ya msaidizi wake kabla ya bechi yake ya kwanza ya kilo 12.",
+        "Mistari isiyo ya maji ilifika gramu 3,084, kwa hiyo maji yalipaswa kuwa gramu 8,916. Ililingana.",
+        "Angalia panthenol ikiwekwa kwenye mizani ndogo. Viasi vidogo sana vinahitaji mizani sahihi, si ile kubwa ya sakafuni."
+      ]
+    },
+    {
+      "demo": "bucket_mix",
+      "step": 1,
+      "label": "Maji na EDTA, kisha SLES",
+      "say": [
+        "Ndani ya ndoo, yeyusha EDTA kwenye maji, ukibakiza karibu asilimia 10 kwa maji ya chumvi.",
+        "Yeyusha SLES polepole ukikoroga taratibu, kisha ongeza CAPB, glycerin na panthenol.",
+        "Changanya manukato na CAPB kidogo kwanza na uyaweke pamoja na kihifadhi."
+      ]
+    },
+    {
+      "demo": "ph_test",
+      "step": 2,
+      "label": "Lengo pH 5 hadi 6",
+      "say": [
+        "Sasa kipande cha pH. Shampuu inapaswa kuwa na asidi kidogo, karibu 5 hadi 6. Rekebisha kwa njia ya sampuli ya asilimia 1 kutoka moduli ya 1."
+      ]
+    },
+    {
+      "demo": "thicken",
+      "step": 3,
+      "label": "Maji ya chumvi baada ya jaribio",
+      "say": [
+        "Ifanye nzito kwa maji ya chumvi baada ya jaribio la hatua kwa hatua, nzito kidogo kuliko sabuni yako ya mikono. Kisha iache ipumzike usiku mzima na uikague kabla ya kujaza."
+      ]
+    },
+    {
+      "demo": "first_aid_rinse",
+      "label": "Osha macho kwa maji safi",
+      "say": [
+        "Shampuu nyingi huchoma macho. Lebo yako lazima iseme: epuka kugusa macho, na yakiguswa, osha vizuri kwa maji safi, kama hivi.",
+        "Usiandike haichomi macho, inaondoa mba au inaotesha nywele isipokuwa una vipimo na idhini ya NAFDAC."
+      ]
+    },
+    {
+      "demo": "bucket_mix",
+      "label": "Uji wa guar kwenye maji yanayokorogwa",
+      "card": {
+        "title": "2-katika-1 ya 10 kg ya Kemi",
+        "rows": [
+          ["Cationic guar kwa 0.3%", "30 g"],
+          ["Changanya na glycerin", "200 g, uji laini"],
+          ["Maji yenye asidi kidogo", "karibu 7,400 g + 2 g citric"],
+          ["Koroga hadi iwe laini", "dakika 30"]
+        ],
+        "note": "Kiwango cha muuzaji 0.2% hadi 0.5%"
+      },
+      "say": [
+        "Kwa 2-katika-1, kiasi kidogo cha polima ya cationic huacha utando mwembamba kwenye nywele unaposuuza.",
+        "Unga huu hutengeneza madonge ukiumimina moja kwa moja. Kwa hiyo Kemi alikoroga gramu 30 za guar ndani ya glycerin kwanza, kisha akamimina uji huo kwenye maji yanayokorogwa.",
+        "Baada ya dakika 30, ukiwa laini na mzito kidogo, aliendelea na njia ya kawaida ya shampuu."
+      ]
+    },
+    {
+      "demo": "shampoo_bottles",
+      "label": "Kawaida dhidi ya 2-katika-1",
+      "card": {
+        "title": "Jaribio la kuchana nywele mbichi",
+        "rows": [
+          ["Shampuu ya kawaida", "mipigo 14"],
+          ["Shampuu 2-katika-1", "mipigo 8"]
+        ],
+        "note": "Mfano wa kozi; rudia siku tatu na uchukue wastani"
+      },
+      "say": [
+        "Thibitisha inafanya kazi. Osha mafungu mawili ya nywele yanayofanana, moja kwa kila chupa, kisha hesabu mipigo ya kitana zikiwa mbichi.",
+        "Kamwe usitengeneze 2-katika-1 kwa kumimina kondishena au dawa ya kuua vijidudu ya quat ndani ya shampuu. Inakuwa na ukungu na kutengana."
+      ]
+    },
+    {
+      "demo": "scale_weigh",
+      "label": "Pima sufuria tupu kwanza",
+      "card": {
+        "title": "Kondishena ya krimu 5 kg",
+        "rows": [
+          ["A: Maji", "4,445 g"],
+          ["A: Glycerin", "100 g"],
+          ["B: Cetearyl alcohol", "200 g"],
+          ["B: BTMS-50", "150 g"],
+          ["B: Siagi ya shea safi", "50 g"],
+          ["C: Kihifadhi, manukato", "40 g, 15 g"]
+        ],
+        "note": "Awamu tatu: maji, mafuta, baridi"
+      },
+      "say": [
+        "Sasa kondishena, krimu isiyotoa povu. Pima awamu A ndani ya sufuria ya chuma, na uandike uzito wa sufuria tupu kwanza.",
+        "Awamu B, nta, inaingia kwenye sufuria ya pili. Vipande vya BTMS-50 vinachanganya maji na mafuta na pia vinalainisha nywele."
+      ]
+    },
+    {
+      "demo": "ppe_set",
+      "label": "Mikono mirefu, glovu za joto",
+      "banner": "Yeyusha nta kwenye maji ya moto, si motoni",
+      "say": [
+        "Nta iliyoyeyuka kwa nyuzi joto 75 husababisha kuungua vibaya na hushikamana na ngozi.",
+        "Vaa mikono mirefu, viatu vilivyofungwa na glovu zinazostahimili joto. Geuza mishikio ya sufuria ndani na weka watoto mbali."
+      ]
+    },
+    {
+      "demo": "conditioner_cream",
+      "step": 4,
+      "label": "Awamu B inamiminwa ndani ya A",
+      "say": [
+        "Sufuria zote mbili zinapata joto ndani ya maji ya moto hadi karibu nyuzi joto 75. Ziache hapo dakika 10 hadi 15 ili nta yote iyeyuke.",
+        "Angalia: awamu B inamiminwa ndani ya awamu A, na blenda inatumika kwa muda mfupi mfupi kwa dakika 2 hadi 3.",
+        "Endelea kukoroga inapopoa. Ona inavyokuwa nzito na kama krimu kati ya karibu nyuzi joto 50 na 40."
+      ]
+    },
+    {
+      "demo": "additives_tray",
+      "step": 5,
+      "label": "Awamu C: kihifadhi, manukato",
+      "banner": "Chini ya nyuzi joto 40: weka awamu C",
+      "say": [
+        "Chini ya nyuzi joto 40 tu ndipo kihifadhi na manukato vinaingia. Vinaharibika kwa joto."
+      ]
+    },
+    {
+      "demo": "first_aid_rinse",
+      "label": "Maji baridi yanayotiririka, moto",
+      "say": [
+        "Nta ya moto ikigusa ngozi, poza jeraha chini ya maji baridi yanayotiririka kwa angalau dakika 20, na tafuta matibabu kwa jeraha lolote kubwa kuliko eneo dogo."
+      ]
+    },
+    {
+      "demo": "scale_weigh",
+      "card": {
+        "title": "Ukaguzi wa maji yaliyopotea, Ngozi",
+        "rows": [
+          ["Sufuria tupu + 5,000 g", "inapaswa kusoma 6,800 g"],
+          ["Mizani baada ya kupoa", "6,640 g"],
+          ["Maji yaliyopotea", "160 g"],
+          ["Koroga urudishe", "160 g maji yaliyochemshwa"],
+          ["Usipofanya hivyo", "nzito kupita kiasi kwa 3.2%"]
+        ],
+        "note": "Kutoka mfano wa kozi"
+      },
+      "say": [
+        "Turudi kwenye mizani. Sufuria ya Ngozi ilikuwa gramu 1,800 ikiwa tupu, kwa hiyo ikiwa na kilo 5 za krimu ilipaswa kusoma gramu 6,800. Ilisoma gramu 6,640.",
+        "Alikoroga na kurudisha gramu 160 za maji yaliyochemshwa na kupoa. Acha ipumzike saa 24, hakiki pH ni karibu 4 hadi 5.5, kisha jaza kwenye vyombo vyenye mdomo mpana."
+      ]
+    },
+    {
+      "demo": "outro_bottles",
+      "say": [
+        "Sasa pitia masomo yaliyo hapa chini. Tengeneza shampuu yako ya majaribio na kikundi cha watumiaji, ulinganisho wako wa 2-katika-1, na kondishena yako ya kwanza ya kilo 1 ukiandika joto."
+      ]
+    }
+  ]
+}

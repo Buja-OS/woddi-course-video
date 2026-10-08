@@ -1,0 +1,532 @@
+{
+ "course": "cybersecurity-fundamentals",
+ "module": "m1",
+ "title": "Dakatar da zamba kuma ka sanya haɗarin tsaro",
+ "course_title": "Tushen Tsaron Intanet",
+ "shots": [
+  {
+   "demo": "security_lock",
+   "say": [
+    "Dakatar da zamba kuma ka sanya haɗarin tsaro.",
+    "Wannan shi ne bidiyon don module 1 na Tushen Tsaro na Cyber."
+   ]
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Kananan ‘yan kasuwa, makarantu, coci-coci da kungiyoyi masu zaman kansu suna fama da hare-hare na yau da kullun. Na farko, karɓar asusun, yawanci ta hanyar kalmar sirri da aka sake amfani da ita ko shafin shiga na jabu."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Hare-hare na yau da kullun guda huɗu suna haifar da mafi yawan lahani",
+    "items": [
+     "karɓar asusun",
+     "Amincewa da imel na kasuwanci",
+     "Ransomware da sauran malware",
+     "Batattu, sata ko raba na'urori"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Na biyu, yin sulhu ta imel na kasuwanci, inda imel na ainihi ko kamanni ya nemi biyan kuɗi ko canza bayanan banki."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Hare-hare na yau da kullun guda huɗu suna haifar da mafi yawan lahani",
+    "items": [
+     "karɓar asusun",
+     "Amincewa da imel na kasuwanci",
+     "Ransomware da sauran malware",
+     "Batattu, sata ko raba na'urori"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Na uku, ransomware da sauran malware, sau da yawa daga shirin satar fasaha, sabuntawar karya ko abin da aka makala."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Hare-hare na yau da kullun guda huɗu suna haifar da mafi yawan lahani",
+    "items": [
+     "karɓar asusun",
+     "Amincewa da imel na kasuwanci",
+     "Ransomware da sauran malware",
+     "Batattu, sata ko raba na'urori"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Na hudu, batattu, sata ko raba na'urori da kalmomin shiga.",
+    "Babu wanda ke buƙatar haziƙi maharin. Kowannensu yana amfani da al'ada ko rashin kulawa, kuma waɗanda zaku iya canzawa."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Hare-hare na yau da kullun guda huɗu suna haifar da mafi yawan lahani",
+    "items": [
+     "karɓar asusun",
+     "Amincewa da imel na kasuwanci",
+     "Ransomware da sauran malware",
+     "Batattu, sata ko raba na'urori"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Kwararrun tsaro suna amfani da samfuri mai sauƙi guda ɗaya, CIA triad. Babu wani abu da ya shafi 'yan leƙen asiri.",
+    "C sirri ne: kawai mutanen da suka dace zasu iya ganin bayanin."
+   ],
+   "panel": {
+    "kicker": "CIA triad",
+    "heading": "Sunan abin da ya lalace",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Asiri",
+      "d": "Mutanen da suka dace ne kawai za su iya gani. Misali: An sace kwamfutar tafi-da-gidanka mai jerin sunayen membobin."
+     },
+     {
+      "t": "Mutunci",
+      "d": "Bayanai daidai ne. Misali: dan damfara yana gyara bayanan banki akan daftari."
+     },
+     {
+      "t": "samuwa",
+      "d": "Tsarin yana aiki lokacin da ake buƙata. Misali: ransomware yana kulle kowane fayil kafin a kai rahoto."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Ni gaskiya ne: bayanin daidai ne kuma mutumin da ba daidai ba ya canza shi."
+   ],
+   "panel": {
+    "kicker": "CIA triad",
+    "heading": "Sunan abin da ya lalace",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Asiri",
+      "d": "Mutanen da suka dace ne kawai za su iya gani. Misali: An sace kwamfutar tafi-da-gidanka mai jerin sunayen membobin."
+     },
+     {
+      "t": "Mutunci",
+      "d": "Bayanai daidai ne. Misali: dan damfara yana gyara bayanan banki akan daftari."
+     },
+     {
+      "t": "samuwa",
+      "d": "Tsarin yana aiki lokacin da ake buƙata. Misali: ransomware yana kulle kowane fayil kafin a kai rahoto."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_security",
+   "say": [
+    "A shine samuwa: tsarin yana aiki lokacin da mutane ke buƙatar su.",
+    "Kowane abin da ya faru yana lalata aƙalla ɗaya daga cikin waɗannan, kuma sanya masa suna yana taimaka maka zaɓi gyara."
+   ],
+   "panel": {
+    "kicker": "CIA triad",
+    "heading": "Sunan abin da ya lalace",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Asiri",
+      "d": "Mutanen da suka dace ne kawai za su iya gani. Misali: An sace kwamfutar tafi-da-gidanka mai jerin sunayen membobin."
+     },
+     {
+      "t": "Mutunci",
+      "d": "Bayanai daidai ne. Misali: dan damfara yana gyara bayanan banki akan daftari."
+     },
+     {
+      "t": "samuwa",
+      "d": "Tsarin yana aiki lokacin da ake buƙata. Misali: ransomware yana kulle kowane fayil kafin a kai rahoto."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Misali, Funmi jami’ar kudi ce a wata karamar kungiya mai zaman kanta a Abuja. Wani imel daga Musa a Brightline Printers ya ce bankin ya canza, kuma daftarin kudi naira miliyan 2,450,000 dole ne ya shiga sabon asusu a yau.",
+    "Ta kalli sunan nuni zuwa ainihin adireshin."
+   ],
+   "panel": {
+    "kicker": "Bincike",
+    "heading": "Funmi yana duba canjin daki-daki na banki",
+    "items": [
+     "Duba ainihin Daga adireshin",
+     "Dubi yankin da ake kama da shi",
+     "Duba inda Amsa-Don ke tafiya",
+     "Kar a ba da amsa ga imel ɗin",
+     "Kira lamba daga ainihin kwangila"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Adireshin yana da sarƙaƙƙiya da ƙarewa daban daga dasitan da suka gabata. yanki ne mai kama da kama. A Nuna asali, SPF da DKIM sun wuce, amma don yankin maharin kawai."
+   ],
+   "panel": {
+    "kicker": "Bincike",
+    "heading": "Funmi yana duba canjin daki-daki na banki",
+    "items": [
+     "Duba ainihin Daga adireshin",
+     "Dubi yankin da ake kama da shi",
+     "Duba inda Amsa-Don ke tafiya",
+     "Kar a ba da amsa ga imel ɗin",
+     "Kira lamba daga ainihin kwangila"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Amsa-To shine adireshi na uku akan sabis na saƙo na kyauta, don haka kowace amsa za ta je ga mai zamba."
+   ],
+   "panel": {
+    "kicker": "Bincike",
+    "heading": "Funmi yana duba canjin daki-daki na banki",
+    "items": [
+     "Duba ainihin Daga adireshin",
+     "Dubi yankin da ake kama da shi",
+     "Duba inda Amsa-Don ke tafiya",
+     "Kar a ba da amsa ga imel ɗin",
+     "Kira lamba daga ainihin kwangila"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Imel ɗin ya faɗi daidai lambar daftari, don haka wani ya ga ainihin daftari. Bata amsa ba."
+   ],
+   "panel": {
+    "kicker": "Bincike",
+    "heading": "Funmi yana duba canjin daki-daki na banki",
+    "items": [
+     "Duba ainihin Daga adireshin",
+     "Dubi yankin da ake kama da shi",
+     "Duba inda Amsa-Don ke tafiya",
+     "Kar a ba da amsa ga imel ɗin",
+     "Kira lamba daga ainihin kwangila"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Ta kira Musa a lambar da aka ajiye daga ainihin kwangilar. Bayanan bankinsa bai canza ba."
+   ],
+   "panel": {
+    "kicker": "Bincike",
+    "heading": "Funmi yana duba canjin daki-daki na banki",
+    "items": [
+     "Duba ainihin Daga adireshin",
+     "Dubi yankin da ake kama da shi",
+     "Duba inda Amsa-Don ke tafiya",
+     "Kar a ba da amsa ga imel ɗin",
+     "Kira lamba daga ainihin kwangila"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Anan shine ka'idar da ta kayar da mafi yawan zamba na biyan kuɗi. Ajiye jerin masu kaya tare da cikakkun bayanan banki da lambobin waya da aka tattara a kan jirgi."
+   ],
+   "panel": {
+    "kicker": "Kare kuɗin",
+    "heading": "Dokar biyan kuɗi da ke aiki",
+    "items": [
+     "Ajiye lissafin mai kaya tare da bayanan banki da wayoyi",
+     "Ɗauki kowane canji-cikakken banki a matsayin abin tuhuma",
+     "Kira lamba riga a kan fayil",
+     "Mai yarda na biyu ga sabbin masu biyan kuɗi",
+     "Jira ranar aiki ɗaya akan canjin asusu",
+     "Yi rikodin wanda ya kira da wanda ya tabbatar"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Yi la'akari da duk wani buƙatar canza bayanan banki, ta kowace tashar, kamar yadda ake tuhuma har sai an tabbatar da shi."
+   ],
+   "panel": {
+    "kicker": "Kare kuɗin",
+    "heading": "Dokar biyan kuɗi da ke aiki",
+    "items": [
+     "Ajiye lissafin mai kaya tare da bayanan banki da wayoyi",
+     "Ɗauki kowane canji-cikakken banki a matsayin abin tuhuma",
+     "Kira lamba riga a kan fayil",
+     "Mai yarda na biyu ga sabbin masu biyan kuɗi",
+     "Jira ranar aiki ɗaya akan canjin asusu",
+     "Yi rikodin wanda ya kira da wanda ya tabbatar"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Tabbatar da kiran lambar da ta riga ta ke cikin fayil, ba a taɓa bayar da ita a cikin buƙatar ba. Ka tuna, idan an yi hacking na ainihin akwatin saƙo, duk cak ɗin za su wuce. Mai dawo da kira ne kawai ya kama shi."
+   ],
+   "panel": {
+    "kicker": "Kare kuɗin",
+    "heading": "Dokar biyan kuɗi da ke aiki",
+    "items": [
+     "Ajiye lissafin mai kaya tare da bayanan banki da wayoyi",
+     "Ɗauki kowane canji-cikakken banki a matsayin abin tuhuma",
+     "Kira lamba riga a kan fayil",
+     "Mai yarda na biyu ga sabbin masu biyan kuɗi",
+     "Jira ranar aiki ɗaya akan canjin asusu",
+     "Yi rikodin wanda ya kira da wanda ya tabbatar"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Tabbatar da lamba akan fayil, babu ɗaya a cikin buƙatar.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Bukatar mai ba da izini na biyu don sababbin masu biyan kuɗi da kuma biyan kuɗi sama da ƙayyadaddun iyaka."
+   ],
+   "panel": {
+    "kicker": "Kare kuɗin",
+    "heading": "Dokar biyan kuɗi da ke aiki",
+    "items": [
+     "Ajiye lissafin mai kaya tare da bayanan banki da wayoyi",
+     "Ɗauki kowane canji-cikakken banki a matsayin abin tuhuma",
+     "Kira lamba riga a kan fayil",
+     "Mai yarda na biyu ga sabbin masu biyan kuɗi",
+     "Jira ranar aiki ɗaya akan canjin asusu",
+     "Yi rikodin wanda ya kira da wanda ya tabbatar"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Tabbatar da lamba akan fayil, babu ɗaya a cikin buƙatar.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Jira lokacin sanyi, misali ranar aiki ɗaya, kafin biyan kuɗi na farko zuwa asusun da aka canza. Kuma rubuta cak: kwanan wata, wanda ya kira, wanda ya tabbatar.",
+    "Idan kuɗi ya riga ya tafi, kira layin zamba na bankin ku a lokaci ɗaya."
+   ],
+   "panel": {
+    "kicker": "Kare kuɗin",
+    "heading": "Dokar biyan kuɗi da ke aiki",
+    "items": [
+     "Ajiye lissafin mai kaya tare da bayanan banki da wayoyi",
+     "Ɗauki kowane canji-cikakken banki a matsayin abin tuhuma",
+     "Kira lamba riga a kan fayil",
+     "Mai yarda na biyu ga sabbin masu biyan kuɗi",
+     "Jira ranar aiki ɗaya akan canjin asusu",
+     "Yi rikodin wanda ya kira da wanda ya tabbatar"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "rule": "Tabbatar da lamba akan fayil, babu ɗaya a cikin buƙatar.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Haɗari shine kadari da kuke damu dashi, barazana gareshi, da rauni wanda ke barin barazanar tayi nasara. Yi lissafin kadarorin ku, sannan suna suna barazana da rauni ga kowane."
+   ],
+   "panel": {
+    "kicker": "Rijistar haɗari",
+    "heading": "Yi maki kowane haɗari daga 1 zuwa 25",
+    "items": [
+     "Jerin kadarorin: bayanai, asusu, na'urori",
+     "Sunan barazana da rauni",
+     "Yiwuwar tasiri 1 zuwa 5 x 1 zuwa 5",
+     "15 zuwa 25 high: yi aiki yanzu",
+     "8 zuwa 14 matsakaici: shirya tare da kwanan wata",
+     "1 zuwa 7 low: karba da bita"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Yi alama daga 1 zuwa 5, da tasiri daga 1 zuwa 5. Ƙara su don maki daga 1 zuwa 25."
+   ],
+   "panel": {
+    "kicker": "Rijistar haɗari",
+    "heading": "Yi maki kowane haɗari daga 1 zuwa 25",
+    "items": [
+     "Jerin kadarorin: bayanai, asusu, na'urori",
+     "Sunan barazana da rauni",
+     "Yiwuwar tasiri 1 zuwa 5 x 1 zuwa 5",
+     "15 zuwa 25 high: yi aiki yanzu",
+     "8 zuwa 14 matsakaici: shirya tare da kwanan wata",
+     "1 zuwa 7 low: karba da bita"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Makina 15 zuwa 25 suna buƙatar mataki a yanzu. 8 zuwa 14 suna buƙatar tsari tare da kwanan wata. 1 zuwa 7 za a iya karɓa da sake dubawa.",
+    "Misali, Amaka ta ci babban email na kungiyar hadin gwiwarta, tare da kalmar sirri da aka sake amfani da ita kuma ba ta biyu ba, a sau 4 sau 5, wato 20. Biyan da ake biya ba tare da ka'idar kira ba 15. Don haka imel ya zo na farko, biya na biyu."
+   ],
+   "panel": {
+    "kicker": "Rijistar haɗari",
+    "heading": "Yi maki kowane haɗari daga 1 zuwa 25",
+    "items": [
+     "Jerin kadarorin: bayanai, asusu, na'urori",
+     "Sunan barazana da rauni",
+     "Yiwuwar tasiri 1 zuwa 5 x 1 zuwa 5",
+     "15 zuwa 25 high: yi aiki yanzu",
+     "8 zuwa 14 matsakaici: shirya tare da kwanan wata",
+     "1 zuwa 7 low: karba da bita"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "rule": "Tsara da maki. Gyara mafi girma na farko.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "A Najeriya, dokar kare bayanan Najeriya ta 2023 ta sanya tsaro a matsayin wani aiki na doka, kuma NDPC ce ke da iko.",
+    "Faɗa wa mutane abin da kuke tarawa da dalilin da yasa. Tattara abin da kuke buƙata kawai. Idan ba kwa buƙatar NIN wani, kar a karɓa.",
+    "Share abin da ba ku buƙata kuma ku kare sauran. Dole ne a kai rahoto ga hukumar ta NDPC a cikin sa'o'i 72 karya da ke jefa mutane cikin haɗari.",
+    "Wannan jagorar aiki ce, ba shawarar doka ba."
+   ],
+   "panel": {
+    "kicker": "Doka",
+    "heading": "Ayyukanku a ƙarƙashin NDPA 2023",
+    "items": [
+     "Faɗa wa mutane abin da kuke tarawa da dalilin da yasa",
+     "Tattara abin da kuke buƙata kawai",
+     "Share bayanan da ba ku buƙata",
+     "Kare shi: ikon shiga, ɓoyewa",
+     "A kiyaye rubutattun manufofi da rajistan ayyukan",
+     "Bayar da rahotanni masu haɗari a cikin sa'o'i 72"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_security",
+   "say": [
+    "Don tunawa. Sunan wane bangare na CIA triad ya lalace. Duba ainihin Daga kuma Amsa-zuwa adiresoshin.",
+    "Kafin kowane canji na banki, sake kiran lamba akan fayil. Rarraba aikinku da tasirin tasirin lokutan lokaci. Kuma bayanan da ba ku taɓa tattarawa ba ba za su iya zubewa ba."
+   ],
+   "panel": {
+    "kicker": "Mabuɗin mahimmanci",
+    "heading": "Ka tuna",
+    "items": [
+     "Ka fadi sunan dukiyar CIA da ta lalace",
+     "Duba ainihin Daga kuma Amsa-To",
+     "Komawa kan lambar da ke kan fayil",
+     "Yiwuwar tasirin x ya zama darajar aikin ku",
+     "Bayanan da ba ku taɓa tattarawa ba ba za su iya zubewa ba"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Ayyukanku: Rarraba al'amura guda uku da kuka sani, bincika kanun imel guda biyu tare da Nuna asali, rubuta ƙa'idar tabbatar da biyan kuɗi, da gina rijistar haɗari tare da aƙalla ƙima shida. Ajiye kowane a cikin takardar binciken ku.",
+    "Ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi aiki",
+    "heading": "Ayyukan aikin ku",
+    "items": [
+     "Rarraba abubuwa uku da kuka sani",
+     "Bincika rubutun imel guda biyu",
+     "Rubuta dokar tabbatar da biyan kuɗi",
+     "Gina rijistar haɗari na haɗari shida"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

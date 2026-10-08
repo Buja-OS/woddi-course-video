@@ -1,0 +1,233 @@
+{
+ "course": "liquid-soap-shampoo-disinfectants",
+ "module": "m1",
+ "title": "La chimie des produits liquides",
+ "shots": [
+  {
+   "demo": "title_liquid",
+   "say": [
+    "La chimie des produits liquides. Voici le module 1 du cours.",
+    "D'abord trois outils : quel tensioactif fait quel travail, comment marche le pH, et comment empêcher les microbes d'entrer."
+   ]
+  },
+  {
+   "demo": "bucket_mix",
+   "label": "Tensioactif mélangé à l'eau",
+   "say": [
+    "Regardez ce seau. Nous mélangeons doucement dans l'eau un tensioactif, c'est-à-dire le produit qui lave.",
+    "Chaque molécule de tensioactif a une tête qui aime l'eau et une queue qui aime l'huile.",
+    "Les queues se rassemblent en toutes petites boules appelées micelles. La graisse se glisse dedans, et l'eau de rinçage l'emporte."
+   ]
+  },
+  {
+   "demo": "chemical_store",
+   "label": "Quatre familles de tensioactifs",
+   "card": {
+    "title": "Les quatre familles",
+    "rows": [
+     [
+      "Anioniques (négatifs)",
+      "SLES, SLS, LAS"
+     ],
+     [
+      "Amphotères (les deux)",
+      "CAPB"
+     ],
+     [
+      "Non ioniques (sans charge)",
+      "Alcools éthoxylés"
+     ],
+     [
+      "Cationiques (positifs)",
+      "Chlorure de benzalkonium, BTMS"
+     ]
+    ],
+    "note": "Classés selon la charge de la tête"
+   },
+   "say": [
+    "Sur cette étagère, ils sont classés selon la charge électrique de la tête.",
+    "Les anioniques comme le SLES lavent et moussent. Le CAPB les rend plus doux. Les non ioniques coupent la graisse. Les cationiques désinfectent, soignent les cheveux et assouplissent le linge."
+   ]
+  },
+  {
+   "demo": "softener_mix",
+   "label": "Assouplissant (cationique)",
+   "banner": "Ne mélangez jamais anioniques et cationiques",
+   "say": [
+    "Ce liquide laiteux, c'est de l'assouplissant, un produit cationique.",
+    "Les tensioactifs anioniques et cationiques s'attirent et forment un dépôt collant qui ne fait plus aucun des deux travaux.",
+    "C'est pour ça que l'assouplissant va dans le rinçage, pas avec la lessive."
+   ]
+  },
+  {
+   "demo": "scale_weigh",
+   "label": "Pâte de SLES, environ 70% active",
+   "say": [
+    "Regardez la balance pendant qu'on met la pâte de SLES. Elle est souvent active à environ 70%, donc 100 grammes contiennent environ 70 grammes de vrai tensioactif.",
+    "Le CAPB est en général actif à environ 30%. Lisez toujours la fiche technique de votre fournisseur, parce que le chiffre change."
+   ]
+  },
+  {
+   "demo": "costing_desk",
+   "card": {
+    "title": "Essai de savon mains de 5 kg de Bisi",
+    "rows": [
+     [
+      "15% SLES x 0.70",
+      "10.5% actif"
+     ],
+     [
+      "6% CAPB x 0.30",
+      "1.8% actif"
+     ],
+     [
+      "Matière active totale",
+      "12.3%"
+     ],
+     [
+      "Vrai tensioactif dans 5 kg",
+      "615 g"
+     ],
+     [
+      "Nouveau SLES à 60% seulement",
+      "17.5%, donc 875 g"
+     ]
+    ],
+    "note": "Tiré de l'exemple du cours"
+   },
+   "say": [
+    "Voici le calcul de Bisi. La matière active, c'est le pourcentage utilisé fois sa force, le tout additionné.",
+    "Sa formule fait 12.3% de matière active, soit 615 grammes de vrai tensioactif dans 5 kilos.",
+    "Quand son nouveau SLES n'était actif qu'à 60%, elle en a mis 875 grammes au lieu de 750 pour garder la même force."
+   ]
+  },
+  {
+   "demo": "ph_test",
+   "label": "Bandelette indicatrice universelle",
+   "say": [
+    "Cette bandelette lit le pH, de 0 à 14, c'est-à-dire si un produit est acide ou basique. L'eau, c'est 7. En dessous, c'est acide, au-dessus, c'est basique, et chaque point est dix fois plus fort.",
+    "Trempez, attendez le temps indiqué sur le paquet, et comparez la couleur à la lumière du jour. Testez avant d'ajouter le colorant."
+   ]
+  },
+  {
+   "demo": "ppe_set",
+   "label": "Gants et lunettes",
+   "banner": "Acide ou soude : doucement DANS l'eau",
+   "say": [
+    "Avant de préparer une solution pour corriger le pH, mettez des gants et des lunettes.",
+    "Versez l'acide ou la soude doucement dans l'eau, jamais l'eau sur le produit, parce que ça peut chauffer et éclabousser. Étiquetez chaque bouteille de correcteur."
+   ]
+  },
+  {
+   "demo": "scale_weigh",
+   "label": "Échantillon de 200 g, gobelet propre",
+   "card": {
+    "title": "Shampooing de 20 kg d'Amaka",
+    "rows": [
+     [
+      "Lecture de l'appareil",
+      "pH 7.4, on veut environ 6"
+     ],
+     [
+      "Échantillon",
+      "200 g = 1% du lot"
+     ],
+     [
+      "Citrique à 20% sur l'essai",
+      "0.9 g"
+     ],
+     [
+      "Multiplier par 100",
+      "90 g pour 20 kg"
+     ],
+     [
+      "D'abord environ 80%",
+      "72 g, puis test"
+     ]
+    ],
+    "note": "Corrigez d'abord l'échantillon, puis le lot"
+   },
+   "say": [
+    "Amaka a pesé un échantillon de 200 grammes, 1% de son lot, et a ajouté de la solution d'acide citrique goutte à goutte jusqu'à lire pH 6. Il a fallu 0.9 gramme.",
+    "Fois 100, ça donne 90 grammes. Elle a d'abord mis 72 grammes, a testé, puis le reste doucement, pour ne jamais dépasser."
+   ]
+  },
+  {
+   "demo": "mixing_rule",
+   "label": "Nettoyant WC et eau de Javel",
+   "say": [
+    "Quand vous testez des produits à la maison, gardez le nettoyant WC et l'eau de Javel séparés, comme ces deux bouteilles."
+   ]
+  },
+  {
+   "demo": "water_jug",
+   "label": "Eau bouillie et refroidie",
+   "say": [
+    "Le savon liquide, c'est surtout de l'eau, et l'eau nourrit les microbes. Alors utilisez de l'eau traitée, ou de l'eau bouillie et refroidie à couvert.",
+    "Lavez les fûts et les spatules, rincez, essuyez avec de l'alcool à 70% et laissez sécher. Ne les utilisez jamais pour la nourriture."
+   ]
+  },
+  {
+   "demo": "additives_tray",
+   "label": "Conservateur (mélange phénoxyéthanol)",
+   "card": {
+    "title": "Savon mains de 25 kg de Hauwa",
+    "rows": [
+     [
+      "pH du lot",
+      "6.2 (entre pH 3 et 12)"
+     ],
+     [
+      "Dose du fournisseur",
+      "0.5% à 1.0%"
+     ],
+     [
+      "Dose choisie",
+      "0.8%"
+     ],
+     [
+      "25,000 g x 0.8 / 100",
+      "200 g"
+     ],
+     [
+      "Ajouter une fois refroidi",
+      "remuer 5 minutes"
+     ]
+    ],
+    "note": "Tiré de l'exemple du cours"
+   },
+   "say": [
+    "Un conservateur arrête les microbes qui entrent plus tard. Hauwa a vérifié que son pH était dans la plage du fournisseur, puis a pesé 200 grammes sur une balance numérique.",
+    "Ajoutez-le en dessous d'environ 40 degrés Celsius, parce que la chaleur peut abîmer certains conservateurs. Et évitez le formol : il est toxique."
+   ]
+  },
+  {
+   "demo": "bottle_fill",
+   "label": "Flacons neufs ou désinfectés",
+   "say": [
+    "Maintenant, remplissez des flacons neufs ou désinfectés, puis bouchez et étiquetez vite."
+   ]
+  },
+  {
+   "demo": "shampoo_bottles",
+   "label": "Échantillons : pièce et chaleur",
+   "say": [
+    "Gardez deux flacons de chaque lot, un à température ambiante, un dans un endroit chaud.",
+    "Vérifiez-les chaque semaine pendant quatre semaines, puis chaque mois : odeur, couleur, transparence, épaisseur, pH et gonflement."
+   ]
+  },
+  {
+   "demo": "first_aid_rinse",
+   "label": "Flacon lave-yeux d'eau propre",
+   "say": [
+    "Lisez la fiche de données de sécurité de chaque produit chimique. Portez des gants en nitrile et des lunettes, aérez, et gardez près de vous un flacon lave-yeux d'eau propre, comme celui-ci."
+   ]
+  },
+  {
+   "demo": "outro_bottles",
+   "say": [
+    "Maintenant, suivez les leçons ci-dessous. Faites votre registre des matières premières, mesurez le pH de cinq produits de la maison, et installez votre coin propre."
+   ]
+  }
+ ]
+}
