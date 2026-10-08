@@ -42,8 +42,8 @@ jobs:
             curl -sSfL -o voices-v1.0.bin https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/voices-v1.0.bin
           else
             pip install -q torch torchaudio --index-url https://download.pytorch.org/whl/cpu
-            pip install -q "transformers<4.50" soundfile numpy uroman num2words huggingface_hub
-            if [ "$L" = yo ] || [ "$L" = ig ]; then pip install -q coqui-tts; fi
+            if [ "$L" = yo ] || [ "$L" = ig ]; then pip install -q coqui-tts soundfile numpy num2words huggingface_hub "transformers>=4.46,<4.56"; python -c "import TTS.api, transformers; print('coqui ok', transformers.__version__)"
+            else pip install -q "transformers<4.50" soundfile numpy uroman num2words huggingface_hub; fi
           fi
       - name: narrate
         run: |
