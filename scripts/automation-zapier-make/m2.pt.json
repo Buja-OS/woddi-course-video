@@ -1,0 +1,598 @@
+{
+ "course": "automation-zapier-make",
+ "module": "m2",
+ "title": "Construa, quebre de propósito e depois entregue",
+ "course_title": "Automação com Zapier & Make",
+ "shots": [
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Construa, quebre de propósito e depois entregue.",
+    "Este é o vídeo do módulo dois de Automação com Zapier e Make."
+   ]
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Neste módulo você constrói um Zap real. Cada vez que alguém preenche um Formulário Google, recebe um e-mail de confirmação."
+   ],
+   "panel": {
+    "kicker": "O que você fará",
+    "heading": "Da primeira construção à entrega",
+    "items": [
+     "Crie um Zap: formulário para e-mail de confirmação",
+     "Crie um cenário Make que encaminhe pedidos",
+     "Teste com dados confusos",
+     "Entregue com um livro de execução de uma página"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Em seguida, você cria um cenário Make que envia cada pedido pelo caminho certo."
+   ],
+   "panel": {
+    "kicker": "O que você fará",
+    "heading": "Da primeira construção à entrega",
+    "items": [
+     "Crie um Zap: formulário para e-mail de confirmação",
+     "Crie um cenário Make que encaminhe pedidos",
+     "Teste com dados confusos",
+     "Entregue com um livro de execução de uma página"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Você o testa com dados confusos, porque uma linha de teste limpa não significa que ele foi concluído."
+   ],
+   "panel": {
+    "kicker": "O que você fará",
+    "heading": "Da primeira construção à entrega",
+    "items": [
+     "Crie um Zap: formulário para e-mail de confirmação",
+     "Crie um cenário Make que encaminhe pedidos",
+     "Teste com dados confusos",
+     "Entregue com um livro de execução de uma página"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "E você deixa um run book, para que o cliente possa mantê-lo funcionando sem você."
+   ],
+   "panel": {
+    "kicker": "O que você fará",
+    "heading": "Da primeira construção à entrega",
+    "items": [
+     "Crie um Zap: formulário para e-mail de confirmação",
+     "Crie um cenário Make que encaminhe pedidos",
+     "Teste com dados confusos",
+     "Entregue com um livro de execução de uma página"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Crie um formulário com Nome Completo, Email, Telefone, Item pedido e Quantidade. Na guia Respostas, vincule-o a uma nova Planilha Google. Cada resposta se torna uma nova linha."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Seu primeiro Zap",
+    "items": [
+     "Vincule um Formulário Google a uma nova Planilha Google",
+     "Gatilho: Planilhas Google, nova linha de planilha",
+     "Envie uma entrada de teste e teste o gatilho",
+     "Ação: Gmail, Enviar e-mail, com campos mapeados",
+     "Teste, leia como cliente e publique"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "No Zapier, crie um Zap. O gatilho é o Planilhas Google, nova linha da planilha, na planilha de respostas."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Seu primeiro Zap",
+    "items": [
+     "Vincule um Formulário Google a uma nova Planilha Google",
+     "Gatilho: Planilhas Google, nova linha de planilha",
+     "Envie uma entrada de teste e teste o gatilho",
+     "Ação: Gmail, Enviar e-mail, com campos mapeados",
+     "Teste, leia como cliente e publique"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Envie você mesmo uma entrada de teste e, em seguida, teste o gatilho, para que Zapier obtenha uma linha real com todos os seus campos."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Seu primeiro Zap",
+    "items": [
+     "Vincule um Formulário Google a uma nova Planilha Google",
+     "Gatilho: Planilhas Google, nova linha de planilha",
+     "Envie uma entrada de teste e teste o gatilho",
+     "Ação: Gmail, Enviar e-mail, com campos mapeados",
+     "Teste, leia como cliente e publique"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "A ação é Gmail, Enviar e-mail. Mapeie a caixa Para para o campo Email. Utilize Nome Completo, Item encomendado e Quantidade no assunto e no corpo."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Seu primeiro Zap",
+    "items": [
+     "Vincule um Formulário Google a uma nova Planilha Google",
+     "Gatilho: Planilhas Google, nova linha de planilha",
+     "Envie uma entrada de teste e teste o gatilho",
+     "Ação: Gmail, Enviar e-mail, com campos mapeados",
+     "Teste, leia como cliente e publique"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Teste a ação, leia o e-mail como um cliente faria e depois publique o Zap."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Seu primeiro Zap",
+    "items": [
+     "Vincule um Formulário Google a uma nova Planilha Google",
+     "Gatilho: Planilhas Google, nova linha de planilha",
+     "Envie uma entrada de teste e teste o gatilho",
+     "Ação: Gmail, Enviar e-mail, com campos mapeados",
+     "Teste, leia como cliente e publique"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Mantenha a folha do gatilho limpa. O Zap encontra os campos pela linha do cabeçalho, portanto nunca os renomeie ou reordene e nunca digite notas ou totais nessa planilha. Faça cálculos em uma segunda aba."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Seu primeiro Zap",
+    "items": [
+     "Vincule um Formulário Google a uma nova Planilha Google",
+     "Gatilho: Planilhas Google, nova linha de planilha",
+     "Envie uma entrada de teste e teste o gatilho",
+     "Ação: Gmail, Enviar e-mail, com campos mapeados",
+     "Teste, leia como cliente e publique"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Nunca renomeie os cabeçalhos ou digite notas na folha de respostas.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Por exemplo, Grace vende bolsas com miçangas em Port Harcourt e espera cerca de 60 pedidos por mês. O e-mail dela diz: obrigado por encomendar 2 vezes a Mini clutch frisada."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Loja de contas da Grace Zap",
+    "items": [
+     "Cerca de 60 pedidos por mês",
+     "Uma ação por execução: 60 tarefas",
+     "Dentro das 100 tarefas gratuitas",
+     "O e-mail chega em cerca de 15 minutos"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Seu Zap tem uma ação, então cada pedido usa uma tarefa. São 60 tarefas por mês."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Loja de contas da Grace Zap",
+    "items": [
+     "Cerca de 60 pedidos por mês",
+     "Uma ação por execução: 60 tarefas",
+     "Dentro das 100 tarefas gratuitas",
+     "O e-mail chega em cerca de 15 minutos"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Isso cabe nas 100 tarefas gratuitas."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Loja de contas da Grace Zap",
+    "items": [
+     "Cerca de 60 pedidos por mês",
+     "Uma ação por execução: 60 tarefas",
+     "Dentro das 100 tarefas gratuitas",
+     "O e-mail chega em cerca de 15 minutos"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Sua irmã testa em seu próprio telefone. O e-mail chega em cerca de 15 minutos, conforme esperado para um gatilho de votação."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Loja de contas da Grace Zap",
+    "items": [
+     "Cerca de 60 pedidos por mês",
+     "Uma ação por execução: 60 tarefas",
+     "Dentro das 100 tarefas gratuitas",
+     "O e-mail chega em cerca de 15 minutos"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Um ponto de segurança sobre dinheiro. Os fraudadores copiam nomes de empresas e enviam números de contas falsos. Portanto, mantenha os detalhes de pagamento em um local controlado pelo proprietário e verifique todas as mensagens automáticas que mencionam dinheiro.",
+    "O e-mail de Grace diz que os detalhes do pagamento virão no WhatsApp a partir de seu número comercial conhecido."
+   ],
+   "panel": {
+    "kicker": "Segurança monetária",
+    "heading": "Mantenha os detalhes de pagamento seguros",
+    "mode": "compare",
+    "left_h": "Faça",
+    "left": [
+     "Mantenha os detalhes de pagamento em um só lugar",
+     "Verifique todas as mensagens sobre dinheiro",
+     "Envie-os de um número conhecido"
+    ],
+    "right_h": "Nunca",
+    "right": [
+     "Deixe o texto do cliente decidir o pagamento",
+     "Envie dados bancários não verificados",
+     "Confie em uma automação desbloqueada"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Nunca deixe que o texto digitado pelo cliente decida onde o dinheiro será pago."
+   ],
+   "panel": {
+    "kicker": "Segurança monetária",
+    "heading": "Mantenha os detalhes de pagamento seguros",
+    "mode": "compare",
+    "left_h": "Faça",
+    "left": [
+     "Mantenha os detalhes de pagamento em um só lugar",
+     "Verifique todas as mensagens sobre dinheiro",
+     "Envie-os de um número conhecido"
+    ],
+    "right_h": "Nunca",
+    "right": [
+     "Deixe o texto do cliente decidir o pagamento",
+     "Envie dados bancários não verificados",
+     "Confie em uma automação desbloqueada"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Por exemplo, Kemi vende produtos para cabelo de Lagos. Em Make, o gatilho observa sua planilha de pedidos em busca de novas linhas. Durante um teste, uma verificação a cada 2 horas é sensata."
+   ],
+   "panel": {
+    "kicker": "Ramificação em Make",
+    "heading": "Roteador de pedidos de Kemi",
+    "items": [
+     "Assista New Rows, em uma programação",
+     "Roteador após o gatilho",
+     "Rota de Lagos: envie um e-mail ao ciclista",
+     "Outros estados: adicione uma linha interestadual",
+     "Rota alternativa para qualquer outra coisa"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Em seguida vem um roteador. Ele não usa créditos e permite que cada pedido siga rotas diferentes."
+   ],
+   "panel": {
+    "kicker": "Ramificação em Make",
+    "heading": "Roteador de pedidos de Kemi",
+    "items": [
+     "Assista New Rows, em uma programação",
+     "Roteador após o gatilho",
+     "Rota de Lagos: envie um e-mail ao ciclista",
+     "Outros estados: adicione uma linha interestadual",
+     "Rota alternativa para qualquer outra coisa"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "No primeiro percurso, um filtro permite passar por Estado igual a Lagos, e o Gmail envia um e-mail ao passageiro."
+   ],
+   "panel": {
+    "kicker": "Ramificação em Make",
+    "heading": "Roteador de pedidos de Kemi",
+    "items": [
+     "Assista New Rows, em uma programação",
+     "Roteador após o gatilho",
+     "Rota de Lagos: envie um e-mail ao ciclista",
+     "Outros estados: adicione uma linha interestadual",
+     "Rota alternativa para qualquer outra coisa"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "No segundo, o estado não é Lagos, então uma linha é adicionada à guia Interestadual para o correio."
+   ],
+   "panel": {
+    "kicker": "Ramificação em Make",
+    "heading": "Roteador de pedidos de Kemi",
+    "items": [
+     "Assista New Rows, em uma programação",
+     "Roteador após o gatilho",
+     "Rota de Lagos: envie um e-mail ao ciclista",
+     "Outros estados: adicione uma linha interestadual",
+     "Rota alternativa para qualquer outra coisa"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "E se Estado estiver em branco ou digitado com espaço extra? Corte espaços, combine sem se preocupar com letras maiúsculas e adicione uma rota alternativa que alerte o proprietário."
+   ],
+   "panel": {
+    "kicker": "Ramificação em Make",
+    "heading": "Roteador de pedidos de Kemi",
+    "items": [
+     "Assista New Rows, em uma programação",
+     "Roteador após o gatilho",
+     "Rota de Lagos: envie um e-mail ao ciclista",
+     "Outros estados: adicione uma linha interestadual",
+     "Rota alternativa para qualquer outra coisa"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Adicione uma rota alternativa para que nenhum pedido desapareça silenciosamente.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Teste propositalmente com dados incorretos. Experimente campos em branco, números de telefone digitados de maneiras diferentes, nomes com apóstrofos e um cliente que envia duas vezes."
+   ],
+   "panel": {
+    "kicker": "Dados reais são confusos",
+    "heading": "Três coisas para testar",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Casos extremos",
+      "d": "Campos em branco, números de telefone digitados de maneiras diferentes, nomes estranhos, o mesmo cliente enviando duas vezes."
+     },
+     {
+      "t": "Falhas",
+      "d": "Remova uma conexão propositalmente. Verifique se o erro foi registrado e se uma pessoa foi alertada."
+     },
+     {
+      "t": "Execuções armazenadas",
+      "d": "No Make, armazene execuções incompletas para que uma execução com falha possa ser repetida, e não perdida."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Teste uma falha também. O Make, por padrão, desativa um cenário agendado após 3 erros consecutivos. Portanto, envie alertas de erro para você e para uma pessoa indicada no cliente."
+   ],
+   "panel": {
+    "kicker": "Dados reais são confusos",
+    "heading": "Três coisas para testar",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Casos extremos",
+      "d": "Campos em branco, números de telefone digitados de maneiras diferentes, nomes estranhos, o mesmo cliente enviando duas vezes."
+     },
+     {
+      "t": "Falhas",
+      "d": "Remova uma conexão propositalmente. Verifique se o erro foi registrado e se uma pessoa foi alertada."
+     },
+     {
+      "t": "Execuções armazenadas",
+      "d": "No Make, armazene execuções incompletas para que uma execução com falha possa ser repetida, e não perdida."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Por exemplo, o cenário de inscrição do Chidinma parou quando o administrador alterou uma senha do Google. Musa viu o alerta naquela manhã. Ela se reconectou, tentou novamente as execuções armazenadas e todas as nove inscrições em espera foram concluídas."
+   ],
+   "panel": {
+    "kicker": "Dados reais são confusos",
+    "heading": "Três coisas para testar",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Casos extremos",
+      "d": "Campos em branco, números de telefone digitados de maneiras diferentes, nomes estranhos, o mesmo cliente enviando duas vezes."
+     },
+     {
+      "t": "Falhas",
+      "d": "Remova uma conexão propositalmente. Verifique se o erro foi registrado e se uma pessoa foi alertada."
+     },
+     {
+      "t": "Execuções armazenadas",
+      "d": "No Make, armazene execuções incompletas para que uma execução com falha possa ser repetida, e não perdida."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Marque todas as caixas antes de entregar. O caso normal passa. Os casos extremos são tratados ou sinalizados. Alertas de falha chegam a uma pessoa.",
+    "Os dados pessoais são mantidos de acordo com as necessidades de cada etapa. A Nigéria tem a Lei de Proteção de Dados da Nigéria de 2023, portanto, crie as próprias contas do cliente e remova seu acesso no final.",
+    "E o livro de execução é escrito e compartilhado."
+   ],
+   "panel": {
+    "kicker": "Antes de ligá-lo",
+    "heading": "Pronto para uso real?",
+    "items": [
+     "Caso normal passa",
+     "Casos extremos tratados ou sinalizados",
+     "Alertas de falha chegam a uma pessoa",
+     "Dados pessoais minimizados",
+     "Executar livro escrito e compartilhado"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Para lembrar. Mantenha a folha do gatilho limpa. Teste com uma submissão real. Dê a cada roteador um substituto. Envie alertas de erro para uma pessoa real. E escreva um manual de uma página: o que faz, quais contas usa, como saber se funciona e para quem ligar."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Lembre-se",
+    "items": [
+     "Mantenha a folha de gatilho limpa e os cabeçalhos inalterados",
+     "Teste o gatilho com um envio real",
+     "Todo roteador precisa de uma rota alternativa",
+     "Envie alertas de erro para uma pessoa real",
+     "Um run book de uma página permite que o cliente o execute"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Agora construa seu primeiro Zap e teste-o em dois dispositivos. Crie um cenário de duas rotas com um substituto. Em seguida, quebre sua própria automação com um plano de teste e escreva o run book.",
+    "Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Tarefa prática",
+    "heading": "Suas tarefas práticas",
+    "items": [
+     "Construa e prove seu primeiro Zap",
+     "Construa um cenário Make de duas rotas",
+     "Quebre sua própria automação e escreva um run book"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

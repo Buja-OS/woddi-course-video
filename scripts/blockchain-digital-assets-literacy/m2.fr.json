@@ -1,0 +1,709 @@
+{
+ "course": "blockchain-digital-assets-literacy",
+ "module": "m2",
+ "title": "Portefeuilles, recherche et défense contre les arnaques",
+ "course_title": "Connaissance de la blockchain et des actifs numériques",
+ "shots": [
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Portefeuilles, recherche et défense contre les arnaques.",
+    "Ceci est la vidéo du module 2 de Blockchain and Digital Assets Literacy."
+   ]
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Les pièces ne restent pas à l’intérieur de votre téléphone. Un portefeuille stocke votre clé privée, le secret qui vous permet de signer un paiement."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Ta phrase est tout",
+    "items": [
+     "Un portefeuille contient des clés, pas des pièces",
+     "Votre phrase de récupération contrôle tout",
+     "Faites des recherches avant de croire",
+     "Connaissez les escroqueries avant qu'elles ne vous trouvent"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "La plupart des portefeuilles fabriquent vos clés à partir d'une phrase de récupération de 12 ou 24 mots ordinaires. Un inconnu qui prononce ces mots n’a pas besoin de votre téléphone, de votre code PIN ou de votre visage."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Ta phrase est tout",
+    "items": [
+     "Un portefeuille contient des clés, pas des pièces",
+     "Votre phrase de récupération contrôle tout",
+     "Faites des recherches avant de croire",
+     "Connaissez les escroqueries avant qu'elles ne vous trouvent"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Vous apprendrez un flux de travail de recherche pour évaluer tout actif numérique."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Ta phrase est tout",
+    "items": [
+     "Un portefeuille contient des clés, pas des pièces",
+     "Votre phrase de récupération contrôle tout",
+     "Faites des recherches avant de croire",
+     "Connaissez les escroqueries avant qu'elles ne vous trouvent"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Et vous découvrirez les escroqueries conçues pour la cryptographie et ce qu'il faut faire dans la première heure en cas de problème."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Ta phrase est tout",
+    "items": [
+     "Un portefeuille contient des clés, pas des pièces",
+     "Votre phrase de récupération contrôle tout",
+     "Faites des recherches avant de croire",
+     "Connaissez les escroqueries avant qu'elles ne vous trouvent"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Lors d'un échange, une entreprise détient vos clés. C'est pratique, mais les échanges ont échoué. FTX s'est effondré en novembre 2022 et les clients n'ont pas pu se retirer."
+   ],
+   "panel": {
+    "kicker": "Qui détient les clés ?",
+    "heading": "Compte Exchange ou votre propre portefeuille",
+    "mode": "compare",
+    "left_h": "Compte d'échange",
+    "left": [
+     "L'entreprise détient vos clés",
+     "La réinitialisation du mot de passe est possible",
+     "Il peut geler ou échouer",
+     "Contrôles d'identité obligatoires"
+    ],
+    "right_h": "Portefeuille d'auto-garde",
+    "right": [
+     "Vous détenez vos clés",
+     "Perdez la phrase, perdez tout",
+     "Aucune entreprise ne peut le geler",
+     "Vous portez toute la sécurité"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Dans un portefeuille en libre-service, vous détenez les clés. Aucune entreprise ne peut le geler, mais si vous perdez ou révélez votre phrase, personne ne peut vous aider.",
+    "Pendant que vous apprenez, ne gardez que ce que vous êtes prêt à perdre complètement."
+   ],
+   "panel": {
+    "kicker": "Qui détient les clés ?",
+    "heading": "Compte Exchange ou votre propre portefeuille",
+    "mode": "compare",
+    "left_h": "Compte d'échange",
+    "left": [
+     "L'entreprise détient vos clés",
+     "La réinitialisation du mot de passe est possible",
+     "Il peut geler ou échouer",
+     "Contrôles d'identité obligatoires"
+    ],
+    "right_h": "Portefeuille d'auto-garde",
+    "right": [
+     "Vous détenez vos clés",
+     "Perdez la phrase, perdez tout",
+     "Aucune entreprise ne peut le geler",
+     "Vous portez toute la sécurité"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Étape 1. Recherchez le site Web officiel du portefeuille, puis suivez son propre lien vers l'App Store. Les fausses applications de portefeuille copient les logos. N'installez jamais de fichiers APK depuis WhatsApp."
+   ],
+   "panel": {
+    "kicker": "Configuration sécurisée",
+    "heading": "Configurer un portefeuille en toute sécurité",
+    "items": [
+     "Trouvez d'abord le site officiel",
+     "Créez-le sans que personne ne regarde",
+     "Écrivez la phrase sur papier, dans l'ordre",
+     "Conservez deux copies dans deux endroits sûrs",
+     "Utilisez une application d'authentification, pas des SMS"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Étape 2. Créez le portefeuille sans que personne ne regarde votre écran."
+   ],
+   "panel": {
+    "kicker": "Configuration sécurisée",
+    "heading": "Configurer un portefeuille en toute sécurité",
+    "items": [
+     "Trouvez d'abord le site officiel",
+     "Créez-le sans que personne ne regarde",
+     "Écrivez la phrase sur papier, dans l'ordre",
+     "Conservez deux copies dans deux endroits sûrs",
+     "Utilisez une application d'authentification, pas des SMS"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Étape 3. Écrivez la phrase sur papier avec un stylo. Ne le photographiez jamais, ne le capturez jamais et ne l’enregistrez jamais dans des notes ou sur WhatsApp."
+   ],
+   "panel": {
+    "kicker": "Configuration sécurisée",
+    "heading": "Configurer un portefeuille en toute sécurité",
+    "items": [
+     "Trouvez d'abord le site officiel",
+     "Créez-le sans que personne ne regarde",
+     "Écrivez la phrase sur papier, dans l'ordre",
+     "Conservez deux copies dans deux endroits sûrs",
+     "Utilisez une application d'authentification, pas des SMS"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Étape 4. Faites deux copies papier et conservez-les dans deux endroits sûrs distincts."
+   ],
+   "panel": {
+    "kicker": "Configuration sécurisée",
+    "heading": "Configurer un portefeuille en toute sécurité",
+    "items": [
+     "Trouvez d'abord le site officiel",
+     "Créez-le sans que personne ne regarde",
+     "Écrivez la phrase sur papier, dans l'ordre",
+     "Conservez deux copies dans deux endroits sûrs",
+     "Utilisez une application d'authentification, pas des SMS"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Étape 5. Sur les échanges, utilisez une application d'authentification, car la fraude par échange de carte SIM peut voler des codes SMS.",
+    "Avant un gros transfert, envoyez d'abord un petit test, et vérifiez le réseau et l'adresse."
+   ],
+   "panel": {
+    "kicker": "Configuration sécurisée",
+    "heading": "Configurer un portefeuille en toute sécurité",
+    "items": [
+     "Trouvez d'abord le site officiel",
+     "Créez-le sans que personne ne regarde",
+     "Écrivez la phrase sur papier, dans l'ordre",
+     "Conservez deux copies dans deux endroits sûrs",
+     "Utilisez une application d'authentification, pas des SMS"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Quiconque vous demande de saisir votre phrase pour synchroniser, débloquer ou réclamer une récompense la vole."
+   ],
+   "panel": {
+    "kicker": "Configuration sécurisée",
+    "heading": "Configurer un portefeuille en toute sécurité",
+    "items": [
+     "Trouvez d'abord le site officiel",
+     "Créez-le sans que personne ne regarde",
+     "Écrivez la phrase sur papier, dans l'ordre",
+     "Conservez deux copies dans deux endroits sûrs",
+     "Utilisez une application d'authentification, pas des SMS"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Aucun véritable agent d'assistance ne vous demandera jamais votre phrase.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Étape 1. Notez la déclaration et qui gagne si vous y croyez."
+   ],
+   "panel": {
+    "kicker": "Diligence raisonnable",
+    "heading": "Six étapes pour rechercher n'importe quel projet",
+    "items": [
+     "Écrivez la réclamation en une phrase",
+     "Lire les documents primaires",
+     "Vérifiez l'équipe et l'argent",
+     "Vérifier sur un explorateur de blocs",
+     "Vérifiez SEC Nigeria pour les avertissements",
+     "Rédigez un verdict équilibré"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Étape 2. Lisez le site officiel et le livre blanc. Pourquoi a-t-il besoin d’une blockchain ?"
+   ],
+   "panel": {
+    "kicker": "Diligence raisonnable",
+    "heading": "Six étapes pour rechercher n'importe quel projet",
+    "items": [
+     "Écrivez la réclamation en une phrase",
+     "Lire les documents primaires",
+     "Vérifiez l'équipe et l'argent",
+     "Vérifier sur un explorateur de blocs",
+     "Vérifiez SEC Nigeria pour les avertissements",
+     "Rédigez un verdict équilibré"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Étape 3. Les fondateurs sont-ils nommés et réels ? Combien de jetons les initiés possèdent-ils et quand peuvent-ils les vendre ?"
+   ],
+   "panel": {
+    "kicker": "Diligence raisonnable",
+    "heading": "Six étapes pour rechercher n'importe quel projet",
+    "items": [
+     "Écrivez la réclamation en une phrase",
+     "Lire les documents primaires",
+     "Vérifiez l'équipe et l'argent",
+     "Vérifier sur un explorateur de blocs",
+     "Vérifiez SEC Nigeria pour les avertissements",
+     "Rédigez un verdict équilibré"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Étape 4. Utilisez un explorateur de blocs pour vérifier l'adresse du contrat et si quelques portefeuilles possèdent la majeure partie de l'offre."
+   ],
+   "panel": {
+    "kicker": "Diligence raisonnable",
+    "heading": "Six étapes pour rechercher n'importe quel projet",
+    "items": [
+     "Écrivez la réclamation en une phrase",
+     "Lire les documents primaires",
+     "Vérifiez l'équipe et l'argent",
+     "Vérifier sur un explorateur de blocs",
+     "Vérifiez SEC Nigeria pour les avertissements",
+     "Rédigez un verdict équilibré"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Étape 5. Recherchez les avertissements sur le site Web de la SEC Nigeria."
+   ],
+   "panel": {
+    "kicker": "Diligence raisonnable",
+    "heading": "Six étapes pour rechercher n'importe quel projet",
+    "items": [
+     "Écrivez la réclamation en une phrase",
+     "Lire les documents primaires",
+     "Vérifiez l'équipe et l'argent",
+     "Vérifier sur un explorateur de blocs",
+     "Vérifiez SEC Nigeria pour les avertissements",
+     "Rédigez un verdict équilibré"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Étape 6. Rédigez un verdict avec un réel potentiel, de réelles limites et des questions ouvertes.",
+    "Et rappelez-vous l'arithmétique de récupération. Si un actif chute de 50 %, il doit augmenter de 100 % pour revenir."
+   ],
+   "panel": {
+    "kicker": "Diligence raisonnable",
+    "heading": "Six étapes pour rechercher n'importe quel projet",
+    "items": [
+     "Écrivez la réclamation en une phrase",
+     "Lire les documents primaires",
+     "Vérifiez l'équipe et l'argent",
+     "Vérifier sur un explorateur de blocs",
+     "Vérifiez SEC Nigeria pour les avertissements",
+     "Rédigez un verdict équilibré"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "rule": "Une baisse de 50 % nécessite une hausse de 100 % juste pour se redresser.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Les paiements ne peuvent pas être annulés, c’est pourquoi les escrocs adorent les crypto-monnaies. La première arnaque est le phishing par phrase de départ. Le tell est toute demande pour votre phrase."
+   ],
+   "panel": {
+    "kicker": "Connaître le dire",
+    "heading": "Trois escroqueries crypto à repérer",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Phishing par phrase de départ",
+      "d": "Un faux support ou un faux site de synchronisation vous demande votre phrase de récupération."
+     },
+     {
+      "t": "Fausse plateforme de trading",
+      "d": "Les bénéfices augmentent à l'écran, vous devez alors payer des frais pour retirer."
+     },
+     {
+      "t": "Fraude au paiement P2P",
+      "d": "Un acheteur envoie une fausse alerte bancaire. Vérifiez votre application bancaire avant de la publier."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "La seconde est une fausse plateforme de trading. Le premier profit est un appât. Si vous devez payer un impôt ou débloquer des frais pour retirer, les bénéfices n’ont jamais été réels."
+   ],
+   "panel": {
+    "kicker": "Connaître le dire",
+    "heading": "Trois escroqueries crypto à repérer",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Phishing par phrase de départ",
+      "d": "Un faux support ou un faux site de synchronisation vous demande votre phrase de récupération."
+     },
+     {
+      "t": "Fausse plateforme de trading",
+      "d": "Les bénéfices augmentent à l'écran, vous devez alors payer des frais pour retirer."
+     },
+     {
+      "t": "Fraude au paiement P2P",
+      "d": "Un acheteur envoie une fausse alerte bancaire. Vérifiez votre application bancaire avant de la publier."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_security",
+   "say": [
+    "Le troisième est la fraude aux paiements P2P. Ne vous fiez jamais à une alerte SMS ou à une capture d’écran. Ouvrez votre propre application bancaire et vérifiez que le naira a atterri avant de publier quoi que ce soit."
+   ],
+   "panel": {
+    "kicker": "Connaître le dire",
+    "heading": "Trois escroqueries crypto à repérer",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Phishing par phrase de départ",
+      "d": "Un faux support ou un faux site de synchronisation vous demande votre phrase de récupération."
+     },
+     {
+      "t": "Fausse plateforme de trading",
+      "d": "Les bénéfices augmentent à l'écran, vous devez alors payer des frais pour retirer."
+     },
+     {
+      "t": "Fraude au paiement P2P",
+      "d": "Un acheteur envoie une fausse alerte bancaire. Vérifiez votre application bancaire avant de la publier."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Par exemple, Grace est ajoutée à un groupe Telegram promettant 40 % chaque mois. Elle vérifie d'abord les calculs."
+   ],
+   "card": {
+    "title": "Grace teste une promesse mensuelle de 40 %",
+    "rows": [],
+    "note": "Capitalisation : multiplier par 1,4 chaque mois."
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Elle possède 200 000 nairas. Après le premier mois, cela représenterait 280 000 naira."
+   ],
+   "card": {
+    "title": "Grace teste une promesse mensuelle de 40 %",
+    "rows": [
+     [
+      "Ses économies",
+      "200,000"
+     ],
+     [
+      "Après le mois 1 à 40%",
+      "280,000"
+     ]
+    ],
+    "note": "Capitalisation : multiplier par 1,4 chaque mois."
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Sur 12 mois, cela représente environ 11 340 000 naira. Environ 57 fois son argent en un an.",
+    "Aucune entreprise honnête n’offre cela. Si c'était réel, ils n'auraient pas besoin de ses 200 000 nairas."
+   ],
+   "card": {
+    "title": "Grace teste une promesse mensuelle de 40 %",
+    "rows": [
+     [
+      "Ses économies",
+      "200,000"
+     ],
+     [
+      "Après le mois 1 à 40%",
+      "280,000"
+     ]
+    ],
+    "note": "Capitalisation : multiplier par 1,4 chaque mois."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Si vous avez partagé votre phrase ou signé une mauvaise approbation, agissez dans cet ordre. Tout d’abord, créez un tout nouveau portefeuille avec une nouvelle phrase sur un appareil propre."
+   ],
+   "panel": {
+    "kicker": "La première heure",
+    "heading": "Si vous avez partagé votre phrase",
+    "items": [
+     "Créer un nouveau portefeuille sur un appareil propre",
+     "Déplacez les fonds restants en même temps",
+     "Révoquer toute mauvaise approbation",
+     "Changer les mots de passe d'échange et 2FA",
+     "Enregistrez les preuves, puis signalez-les"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Déplacez-y immédiatement tous les fonds restants."
+   ],
+   "panel": {
+    "kicker": "La première heure",
+    "heading": "Si vous avez partagé votre phrase",
+    "items": [
+     "Créer un nouveau portefeuille sur un appareil propre",
+     "Déplacez les fonds restants en même temps",
+     "Révoquer toute mauvaise approbation",
+     "Changer les mots de passe d'échange et 2FA",
+     "Enregistrez les preuves, puis signalez-les"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Révoquez toute approbation de jeton que vous avez signée, avec un outil tel que Revoke.cash."
+   ],
+   "panel": {
+    "kicker": "La première heure",
+    "heading": "Si vous avez partagé votre phrase",
+    "items": [
+     "Créer un nouveau portefeuille sur un appareil propre",
+     "Déplacez les fonds restants en même temps",
+     "Révoquer toute mauvaise approbation",
+     "Changer les mots de passe d'échange et 2FA",
+     "Enregistrez les preuves, puis signalez-les"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Modifiez vos mots de passe d'échange et vos paramètres à deux facteurs."
+   ],
+   "panel": {
+    "kicker": "La première heure",
+    "heading": "Si vous avez partagé votre phrase",
+    "items": [
+     "Créer un nouveau portefeuille sur un appareil propre",
+     "Déplacez les fonds restants en même temps",
+     "Révoquer toute mauvaise approbation",
+     "Changer les mots de passe d'échange et 2FA",
+     "Enregistrez les preuves, puis signalez-les"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Enregistrez ensuite les captures d'écran et les hachages de transaction, et signalez-les à la bourse, à votre banque, à la police ou à l'EFCC et à la SEC Nigeria."
+   ],
+   "panel": {
+    "kicker": "La première heure",
+    "heading": "Si vous avez partagé votre phrase",
+    "items": [
+     "Créer un nouveau portefeuille sur un appareil propre",
+     "Déplacez les fonds restants en même temps",
+     "Révoquer toute mauvaise approbation",
+     "Changer les mots de passe d'échange et 2FA",
+     "Enregistrez les preuves, puis signalez-les"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Les étrangers qui promettent de tracer votre crypto moyennant des frais initiaux sont également des escrocs."
+   ],
+   "panel": {
+    "kicker": "La première heure",
+    "heading": "Si vous avez partagé votre phrase",
+    "items": [
+     "Créer un nouveau portefeuille sur un appareil propre",
+     "Déplacez les fonds restants en même temps",
+     "Révoquer toute mauvaise approbation",
+     "Changer les mots de passe d'échange et 2FA",
+     "Enregistrez les preuves, puis signalez-les"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Les offres de récupération de fonds sont une deuxième arnaque.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "À retenir. Votre phrase est tout. Gardez-le sur papier, jamais numérique, jamais partagé. Envoyez d'abord un petit test. Des frais de retrait signifient que les bénéfices n’ont jamais été réels. Et les agents de récupération sont une deuxième arnaque."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Les portefeuilles contiennent des clés ; la phrase est tout",
+     "Uniquement sur papier, jamais numérique, jamais partagé",
+     "Envoyez un petit test et vérifiez le réseau",
+     "Des frais de retrait signifient de faux bénéfices",
+     "Les offres de récupération de fonds sont une deuxième arnaque"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Complétez maintenant votre liste de contrôle de sécurité, recherchez un projet réel en suivant les six étapes et créez une carte de modèle d'arnaque avec vos propres réponses.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâche pratique",
+    "heading": "Vos tâches pratiques",
+    "items": [
+     "Complétez la liste de contrôle de sécurité",
+     "Recherchez un projet réel en six étapes",
+     "Créer une carte de modèle d'arnaque"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

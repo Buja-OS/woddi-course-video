@@ -1,0 +1,537 @@
+{
+ "course": "core-excel-for-small-business",
+ "module": "m2",
+ "title": "Ishara za dola, IF na tracker ambayo inakuambia ukweli",
+ "course_title": "Excel na Majedwali ya Google kwa Biashara Ndogo",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Ishara za dola, IF, na kifuatiliaji kinachokuambia ukweli.",
+    "Hii ni video ya Moduli ya 2 ya Excel na Majedwali ya Google kwa Biashara Ndogo."
+   ]
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Katika moduli hii unajifunza kunakili fomula bila kuivunja, kisha tengeneza karatasi moja ambayo inarekodi kila mauzo na kila gharama."
+   ],
+   "panel": {
+    "kicker": "Katika moduli hii",
+    "heading": "Nini utaweza kufanya",
+    "items": [
+     "Nakili fomula bila kuzivunja",
+     "Fuatilia kila mauzo na gharama katika laha moja",
+     "Angalia pesa ndani, pesa nje na salio lako",
+     "Tafuta na urekebishe makosa ya sauti na kimya"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Inakuambia kilichoingia, kilichotoka, na kilichobaki. Na unajifunza kukamata makosa ambayo hufanya jumla mbaya ionekane sawa."
+   ],
+   "panel": {
+    "kicker": "Katika moduli hii",
+    "heading": "Nini utaweza kufanya",
+    "items": [
+     "Nakili fomula bila kuzivunja",
+     "Fuatilia kila mauzo na gharama katika laha moja",
+     "Angalia pesa ndani, pesa nje na salio lako",
+     "Tafuta na urekebishe makosa ya sauti na kimya"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Unaponakili =C2*D2 chini, inakuwa =C3*D3 katika safu inayofuata. Hiyo ni kumbukumbu ya jamaa. Inateleza kwa safu mlalo, na mara nyingi ndivyo unavyotaka."
+   ],
+   "panel": {
+    "kicker": "Marejeleo",
+    "heading": "Jamaa au kabisa?",
+    "mode": "compare",
+    "left_h": "Jamaa: H1",
+    "left": [
+     "Husogeza inaponakiliwa",
+     "Kwa thamani za safu mlalo",
+     "Mfano: =C2*D2"
+    ],
+    "right_h": "Kabisa: $H$1",
+    "right": [
+     "Haisogei kamwe",
+     "Kwa bei moja iliyoshirikiwa",
+     "Mfano: =E2*$H$1"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Lakini wakati mwingine ni lazima kila safu mlalo itumie kisanduku kimoja, kama kiwango cha kamisheni kilichoandikwa juu.",
+    "Kisha unaifunga kwa ishara za dola: $H$1. Hapa ishara ya dola haina uhusiano wowote na pesa. Ina maana usiondoke.",
+    "Kwenye simu, andika ishara za dola mwenyewe. Kwenye kompyuta ya Windows, bonyeza F4."
+   ],
+   "panel": {
+    "kicker": "Marejeleo",
+    "heading": "Jamaa au kabisa?",
+    "mode": "compare",
+    "left_h": "Jamaa: H1",
+    "left": [
+     "Husogeza inaponakiliwa",
+     "Kwa thamani za safu mlalo",
+     "Mfano: =C2*D2"
+    ],
+    "right_h": "Kabisa: $H$1",
+    "right": [
+     "Haisogei kamwe",
+     "Kwa bei moja iliyoshirikiwa",
+     "Mfano: =E2*$H$1"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Hapa kuna mfano uliofanya kazi. Kemi huandika kiwango chake cha 5% mara moja, katika seli H1, na kiasi chake cha mauzo katika safu wima E."
+   ],
+   "card": {
+    "title": "Tume ya mauzo ya Kemi",
+    "rows": [],
+    "note": "Jumla ya tume ni 5% ya mauzo yote."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Kwanza anaandika =E2*H1 na kuinakili chini. Safu inayofuata inakuwa E3 mara H2. Lakini H2 haina kitu, kwa hivyo kila safu baada ya ya kwanza inaonyesha 0. Hili ndilo kosa la kawaida."
+   ],
+   "card": {
+    "title": "Tume ya mauzo ya Kemi",
+    "rows": [
+     [
+      "Si sahihi: =E2*H1 imenakiliwa chini",
+      "0"
+     ]
+    ],
+    "note": "Jumla ya tume ni 5% ya mauzo yote."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Kwa hivyo anaandika =E2*$H$1 badala yake. Kila nakala bado inaelekeza kwa kiwango. Uuzaji wake wa kwanza wa 19000 unapata 950, na mauzo yake jumla yanafikia 43300 naira."
+   ],
+   "card": {
+    "title": "Tume ya mauzo ya Kemi",
+    "rows": [
+     [
+      "Si sahihi: =E2*H1 imenakiliwa chini",
+      "0"
+     ],
+     [
+      "Kulia: =E2*$H$1, ofa ya kwanza",
+      "950"
+     ],
+     [
+      "Jumla ya mauzo",
+      "43,300"
+     ]
+    ],
+    "note": "Jumla ya tume ni 5% ya mauzo yote."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Jumla ya kamisheni ni shilingi 2165. Anapoongeza kiwango hadi 6%, anabadilisha H1 pekee, na kila safu huhesabu upya mara moja."
+   ],
+   "card": {
+    "title": "Tume ya mauzo ya Kemi",
+    "rows": [
+     [
+      "Si sahihi: =E2*H1 imenakiliwa chini",
+      "0"
+     ],
+     [
+      "Kulia: =E2*$H$1, ofa ya kwanza",
+      "950"
+     ],
+     [
+      "Jumla ya mauzo",
+      "43,300"
+     ]
+    ],
+    "note": "Jumla ya tume ni 5% ya mauzo yote."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Sasa tengeneza tracker. Kila safu ni muamala mmoja: tarehe, Uuzaji au Gharama, kitengo, maelezo, kiasi na bei ya kitengo."
+   ],
+   "panel": {
+    "kicker": "Jenga",
+    "heading": "Mfuatiliaji wa mauzo na gharama",
+    "items": [
+     "Safu wima: Tarehe, Aina, Kitengo, Maelezo, Ukubwa, Bei",
+     "Kiasi: =E2*F2",
+     "Pesa katika: =IF(B2=\"Sale\",G2,0)",
+     "Pesa nje: =IF(B2=\"Gharama\",G2,0)",
+     "Salio: J3 ni =J2+H3-I3, imenakiliwa chini"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Safu wima ya Kiasi huzidisha idadi kwa bei."
+   ],
+   "panel": {
+    "kicker": "Jenga",
+    "heading": "Mfuatiliaji wa mauzo na gharama",
+    "items": [
+     "Safu wima: Tarehe, Aina, Kitengo, Maelezo, Ukubwa, Bei",
+     "Kiasi: =E2*F2",
+     "Pesa katika: =IF(B2=\"Sale\",G2,0)",
+     "Pesa nje: =IF(B2=\"Gharama\",G2,0)",
+     "Salio: J3 ni =J2+H3-I3, imenakiliwa chini"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Sasa kazi mpya, IF. Inafanya uamuzi rahisi. Mchoro ni IF, jaribio, basi nini cha kuonyesha ikiwa ni kweli, kisha nini cha kuonyesha ikiwa si kweli.",
+    "Kwa hivyo ikiwa safu B inasema Uuzaji, Pesa ndani inaonyesha kiasi. Ikiwa sivyo, inaonyesha 0. Maandishi huenda ndani ya manukuu mara mbili."
+   ],
+   "panel": {
+    "kicker": "Jenga",
+    "heading": "Mfuatiliaji wa mauzo na gharama",
+    "items": [
+     "Safu wima: Tarehe, Aina, Kitengo, Maelezo, Ukubwa, Bei",
+     "Kiasi: =E2*F2",
+     "Pesa katika: =IF(B2=\"Sale\",G2,0)",
+     "Pesa nje: =IF(B2=\"Gharama\",G2,0)",
+     "Salio: J3 ni =J2+H3-I3, imenakiliwa chini"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Utoaji wa pesa hufanya kazi kwa njia ile ile, kujaribu kwa Gharama."
+   ],
+   "panel": {
+    "kicker": "Jenga",
+    "heading": "Mfuatiliaji wa mauzo na gharama",
+    "items": [
+     "Safu wima: Tarehe, Aina, Kitengo, Maelezo, Ukubwa, Bei",
+     "Kiasi: =E2*F2",
+     "Pesa katika: =IF(B2=\"Sale\",G2,0)",
+     "Pesa nje: =IF(B2=\"Gharama\",G2,0)",
+     "Salio: J3 ni =J2+H3-I3, imenakiliwa chini"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Salio linaloendesha huchukua salio kutoka kwenye safu mlalo iliyo hapo juu, huongeza kilichoingia, na kutoa kilichotoka. Nakili J3 chini, sio J2."
+   ],
+   "panel": {
+    "kicker": "Jenga",
+    "heading": "Mfuatiliaji wa mauzo na gharama",
+    "items": [
+     "Safu wima: Tarehe, Aina, Kitengo, Maelezo, Ukubwa, Bei",
+     "Kiasi: =E2*F2",
+     "Pesa katika: =IF(B2=\"Sale\",G2,0)",
+     "Pesa nje: =IF(B2=\"Gharama\",G2,0)",
+     "Salio: J3 ni =J2+H3-I3, imenakiliwa chini"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Onyo moja. IF inafanya kazi tu ikiwa tahajia inalingana haswa. Uuzaji, au Uuzaji ulio na nafasi ya ziada, utaenda hadi 0. Katika Moduli ya 3, orodha kunjuzi huondoa tatizo hili."
+   ],
+   "panel": {
+    "kicker": "Jenga",
+    "heading": "Mfuatiliaji wa mauzo na gharama",
+    "items": [
+     "Safu wima: Tarehe, Aina, Kitengo, Maelezo, Ukubwa, Bei",
+     "Kiasi: =E2*F2",
+     "Pesa katika: =IF(B2=\"Sale\",G2,0)",
+     "Pesa nje: =IF(B2=\"Gharama\",G2,0)",
+     "Salio: J3 ni =J2+H3-I3, imenakiliwa chini"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Andika Uuzaji na Gharama kwa njia ile ile kila wakati",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Bisi anarekodi siku 4 za mauzo na gharama. Siku ya 1 anauza sahani 25, kisha ananunua vyakula kwa 55000. Salio lake ni hasi, minus 17500."
+   ],
+   "card": {
+    "title": "Msimamo wa chakula wa Bisi, siku 4",
+    "rows": [],
+    "note": "Bei ni mifano ya takriban."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Hilo ni onyo muhimu la mtiririko wa pesa. Ununuzi wake mkubwa ulikuja kabla ya mauzo yaliyolipia.",
+    "Kufikia mwisho, pesa ndani ni naira 157500 na pesa nje ni 73500."
+   ],
+   "card": {
+    "title": "Msimamo wa chakula wa Bisi, siku 4",
+    "rows": [
+     [
+      "Pesa ndani, siku 4 za mauzo",
+      "157,500"
+     ],
+     [
+      "Pesa nje, vyakula vya kusafirisha",
+      "73,500"
+     ]
+    ],
+    "note": "Bei ni mifano ya takriban."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Tofauti ni 84000, na inalingana na salio lake la mwisho la kukimbia. Lakini pesa iliyobaki bado sio faida. Baadhi ya vyakula bado viko kwenye duka lake, na hajahesabu kodi ya nyumba au wakati wake mwenyewe."
+   ],
+   "card": {
+    "title": "Msimamo wa chakula wa Bisi, siku 4",
+    "rows": [
+     [
+      "Pesa ndani, siku 4 za mauzo",
+      "157,500"
+     ],
+     [
+      "Pesa nje, vyakula vya kusafirisha",
+      "73,500"
+     ]
+    ],
+    "note": "Bei ni mifano ya takriban."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Kila mtumiaji wa lahajedwali hufanya makosa. Hitilafu kubwa zinaonyesha msimbo. Hash DIV kufyeka 0 inamaanisha umegawanyika kwa sifuri au seli tupu."
+   ],
+   "panel": {
+    "kicker": "Uwindaji wa hitilafu",
+    "heading": "Makosa makubwa na maana yake",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "#DIV/0!",
+      "d": "Kugawanya kwa sifuri au kwa seli tupu. Jaza kisanduku, au tumia IFERROR kwa mapengo yanayotarajiwa."
+     },
+     {
+      "t": "#THAMANI!",
+      "d": "Hisabati juu ya kitu ambacho sio nambari, kama N2000. Iandike tena kama nambari ya kawaida."
+     },
+     {
+      "t": "#KUMBUKUMBU!",
+      "d": "Fomula inaelekeza kwenye kisanduku ulichofuta. Tendua mara moja, au urejeshe historia ya toleo."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Hash VALUE inamaanisha hesabu kwa kitu ambacho si nambari, kama N2000."
+   ],
+   "panel": {
+    "kicker": "Uwindaji wa hitilafu",
+    "heading": "Makosa makubwa na maana yake",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "#DIV/0!",
+      "d": "Kugawanya kwa sifuri au kwa seli tupu. Jaza kisanduku, au tumia IFERROR kwa mapengo yanayotarajiwa."
+     },
+     {
+      "t": "#THAMANI!",
+      "d": "Hisabati juu ya kitu ambacho sio nambari, kama N2000. Iandike tena kama nambari ya kawaida."
+     },
+     {
+      "t": "#KUMBUKUMBU!",
+      "d": "Fomula inaelekeza kwenye kisanduku ulichofuta. Tendua mara moja, au urejeshe historia ya toleo."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Hash REF inamaanisha fomula inaelekeza kwenye kisanduku ulichofuta. Bonyeza kutendua mara moja."
+   ],
+   "panel": {
+    "kicker": "Uwindaji wa hitilafu",
+    "heading": "Makosa makubwa na maana yake",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "#DIV/0!",
+      "d": "Kugawanya kwa sifuri au kwa seli tupu. Jaza kisanduku, au tumia IFERROR kwa mapengo yanayotarajiwa."
+     },
+     {
+      "t": "#THAMANI!",
+      "d": "Hisabati juu ya kitu ambacho sio nambari, kama N2000. Iandike tena kama nambari ya kawaida."
+     },
+     {
+      "t": "#KUMBUKUMBU!",
+      "d": "Fomula inaelekeza kwenye kisanduku ulichofuta. Tendua mara moja, au urejeshe historia ya toleo."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Makosa ya kimya ni hatari zaidi. Laha inaonyesha nambari ambayo inaonekana sawa, lakini sio sahihi."
+   ],
+   "card": {
+    "title": "Jumla ya Chioma ilikuwa chini sana",
+    "rows": [],
+    "note": "COUNT ndogo kuliko COUNTA inamaanisha kiasi cha maandishi."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "SUM ya Chioma ilisema 61000, lakini kikokotoo chake kilisema 66000.",
+    "COUNT kwenye safu wima ilitoa 4, lakini COUNTA ilitoa 5. Kwa hivyo kisanduku kimoja kilikuwa maandishi."
+   ],
+   "card": {
+    "title": "Jumla ya Chioma ilikuwa chini sana",
+    "rows": [
+     [
+      "SUM ya karatasi yake ilisema",
+      "61,000"
+     ],
+     [
+      "Calculator yake ilisema",
+      "66,000"
+     ]
+    ],
+    "note": "COUNT ndogo kuliko COUNTA inamaanisha kiasi cha maandishi."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Kiini B4 kilisema N5,000, kikikaa upande wa kushoto. Aliandika tena kama 5000. Bila hundi hiyo, Ijumaa itakuwa fupi kwa naira 5000."
+   ],
+   "card": {
+    "title": "Jumla ya Chioma ilikuwa chini sana",
+    "rows": [
+     [
+      "SUM ya karatasi yake ilisema",
+      "61,000"
+     ],
+     [
+      "Calculator yake ilisema",
+      "66,000"
+     ],
+     [
+      "Haipo: B4 iliyoandikwa kama N5,000",
+      "5,000"
+     ]
+    ],
+    "note": "COUNT ndogo kuliko COUNTA inamaanisha kiasi cha maandishi."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Kukumbuka. Ishara za dola hufunga seli moja iliyoshirikiwa. IKIWA itafanya uamuzi: jaribu, thamini ikiwa ni kweli, thamini ikiwa sivyo.",
+    "Salio linaongeza na kutoa nje safu kwa safu. Pesa iliyobaki bado haijapata faida. Na kama COUNT ni ndogo kuliko COUNTA, tafuta kiasi kilichoandikwa kama maandishi."
+   ],
+   "panel": {
+    "kicker": "Pointi muhimu",
+    "heading": "Kumbuka",
+    "items": [
+     "$H$1 hufunga kisanduku kimoja cha pamoja unaponakili",
+     "IF: jaribu, thamani ikiwa ni kweli, thamani ikiwa sivyo",
+     "Mizani: safu mlalo juu, ongeza ndani, toa nje",
+     "Pesa iliyobaki bado haijapata faida",
+     "Ikiwa COUNT ni chini ya COUNTA, tafuta maandishi"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Sasa zamu yako. Tumia bei moja kwenye safu mlalo nyingi, jenga kifuatiliaji chako kwa angalau miamala 8, kisha utafuta makosa.",
+    "Ongeza kisanduku tiki kinachosema Sawazisha wakati jumla zako zinakubali. Endelea na masomo hapa chini."
+   ],
+   "panel": {
+    "kicker": "Kazi ya mazoezi",
+    "heading": "Kazi zako za mazoezi",
+    "items": [
+     "Kiwango kimoja, safu nyingi",
+     "Unda kifuatiliaji chako na miamala 8",
+     "Hitilafu ya kuwinda na kisanduku cha kuangalia"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

@@ -1,0 +1,453 @@
+{
+ "course": "core-online-customer-support",
+ "module": "m1",
+ "title": "Misingi ya usaidizi mtandaoni: vituo, usanidi na usalama",
+ "course_title": "Usaidizi wa Wateja Mtandaoni",
+ "shots": [
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Misingi ya usaidizi mtandaoni: vituo, usanidi na usalama.",
+    "Hii ni video ya moduli ya 1 ya Usaidizi kwa Wateja Mtandaoni."
+   ]
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Usaidizi wa wateja mtandaoni unamaanisha kuwasaidia wateja katika maandishi, kupitia skrini. Mteja hawezi kuona tabasamu lako. Kila kitu anachohisi kinatokana na vitu vitatu."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Maneno yako ndio uzoefu wote",
+    "items": [
+     "Kasi: jibu la kwanza haraka",
+     "Uwazi: sentensi fupi, hatua ya wazi inayofuata",
+     "Fuata: fanya ulichoahidi"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Kasi. Jibu la kwanza la haraka, hata kama linasema tu unaangalia."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Maneno yako ndio uzoefu wote",
+    "items": [
+     "Kasi: jibu la kwanza haraka",
+     "Uwazi: sentensi fupi, hatua ya wazi inayofuata",
+     "Fuata: fanya ulichoahidi"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Uwazi. Sentensi fupi, ukweli maalum na hatua ya wazi inayofuata."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Maneno yako ndio uzoefu wote",
+    "items": [
+     "Kasi: jibu la kwanza haraka",
+     "Uwazi: sentensi fupi, hatua ya wazi inayofuata",
+     "Fuata: fanya ulichoahidi"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Ufuatiliaji. Ukisema, nitakusasisha ifikapo saa 2 usiku, unamsasisha ifikapo saa 2 usiku, hata kama habari bado inasubiriwa. Kuvunja ahadi kunaharibu zaidi kuliko jibu la polepole la kwanza."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Maneno yako ndio uzoefu wote",
+    "items": [
+     "Kasi: jibu la kwanza haraka",
+     "Uwazi: sentensi fupi, hatua ya wazi inayofuata",
+     "Fuata: fanya ulichoahidi"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Hapa kuna kanuni rahisi. Weka mambo ya haraka haraka, na usogeze mambo mazito kwenye rekodi. Mteja anayeuliza bei ya begi kwenye WhatsApp anapaswa kupata jibu kwenye WhatsApp."
+   ],
+   "panel": {
+    "kicker": "Vituo",
+    "heading": "Weka mambo ya haraka haraka",
+    "mode": "compare",
+    "left_h": "Biashara ya WhatsApp",
+    "left": [
+     "Maswali ya haraka na bei",
+     "Agiza sasisho",
+     "Picha na maelezo ya sauti"
+    ],
+    "right_h": "Barua pepe au rekodi",
+    "right": [
+     "Marejesho na ankara",
+     "Malalamiko rasmi",
+     "Kitu chochote kinachohitaji rekodi iliyoandikwa"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Mteja anayetaka kurejeshewa pesa bado anapaswa kupata jibu la haraka na la joto, lakini maelezo ya kurejeshewa pesa yanapaswa kuthibitishwa kwa maandishi ambapo biashara inaweza kuyapata tena, kwa barua pepe au katika laha yako ya kufuatilia.",
+    "Na kamwe usiahidi pesa ambazo hauruhusiwi kuidhinisha."
+   ],
+   "panel": {
+    "kicker": "Vituo",
+    "heading": "Weka mambo ya haraka haraka",
+    "mode": "compare",
+    "left_h": "Biashara ya WhatsApp",
+    "left": [
+     "Maswali ya haraka na bei",
+     "Agiza sasisho",
+     "Picha na maelezo ya sauti"
+    ],
+    "right_h": "Barua pepe au rekodi",
+    "right": [
+     "Marejesho na ankara",
+     "Malalamiko rasmi",
+     "Kitu chochote kinachohitaji rekodi iliyoandikwa"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Kila ombi, kwenye kituo chochote, hupitia hatua sita. Ujumbe unafika, na unaikubali haraka."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Kutoka kwa ujumbe hadi kesi iliyofungwa",
+    "items": [
+     "Ujumbe unafika",
+     "Kubali haraka",
+     "Kuelewa na kuangalia rekodi",
+     "Tatua au ongeza",
+     "Thibitisha na mteja",
+     "Ingia na ufunge"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Unaelewa anachohitaji na uangalie rekodi kabla ya kujibu."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Kutoka kwa ujumbe hadi kesi iliyofungwa",
+    "items": [
+     "Ujumbe unafika",
+     "Kubali haraka",
+     "Kuelewa na kuangalia rekodi",
+     "Tatua au ongeza",
+     "Thibitisha na mteja",
+     "Ingia na ufunge"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Unatatua, au kuipitisha kwa mtu sahihi."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Kutoka kwa ujumbe hadi kesi iliyofungwa",
+    "items": [
+     "Ujumbe unafika",
+     "Kubali haraka",
+     "Kuelewa na kuangalia rekodi",
+     "Tatua au ongeza",
+     "Thibitisha na mteja",
+     "Ingia na ufunge"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_map",
+   "say": [
+    "Unathibitisha na mteja, kisha ingia na ufunge kesi."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Kutoka kwa ujumbe hadi kesi iliyofungwa",
+    "items": [
+     "Ujumbe unafika",
+     "Kubali haraka",
+     "Kuelewa na kuangalia rekodi",
+     "Tatua au ongeza",
+     "Thibitisha na mteja",
+     "Ingia na ufunge"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_map",
+   "say": [
+    "Kwa mfano, Ngozi anafungua jumbe 7 mpya saa 9 asubuhi. Anachanganua zote 7 kwanza badala ya kujibu lililo juu. Maswali ya bei hupata majibu yaliyohifadhiwa. Mtungi uliopasuka hupokea msamaha na sasisho lililoahidiwa kufikia 2pm. Wote 7 walikuwa na jibu la kwanza ndani ya dakika 30."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Kutoka kwa ujumbe hadi kesi iliyofungwa",
+    "items": [
+     "Ujumbe unafika",
+     "Kubali haraka",
+     "Kuelewa na kuangalia rekodi",
+     "Tatua au ongeza",
+     "Thibitisha na mteja",
+     "Ingia na ufunge"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "rule": "Changanua barua zote mpya kwanza, kisha upe kipaumbele.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Tumia programu ya Biashara ya WhatsApp bila malipo, kwa nambari yake yenyewe ikiwezekana. Kamilisha wasifu na saa zako, na uwashe salamu na ujumbe wa mbali.",
+    "Hifadhi majibu ya haraka kwa maswali yanayorudiwa, na ongeza jina la mteja kila mara kabla ya kutuma.",
+    "Unda lebo: Mpya, Inasubiri mteja, Inatusubiri na Imetatuliwa. Soga yoyote ambayo bado katika Kusubiri kwa ajili yetu mwisho wa siku ni ahadi ambayo bado hujatimiza."
+   ],
+   "panel": {
+    "kicker": "Weka mara moja",
+    "heading": "Usanidi tayari kwa usaidizi",
+    "items": [
+     "Wasifu na saa za ufunguzi zimekamilika",
+     "Ujumbe wa salamu umewashwa",
+     "Ujumbe wa kutokuwepo umewashwa",
+     "Majibu ya haraka yamehifadhiwa, yaliyoandikwa na /",
+     "Lebo: Mpya, Inasubiri, Imetatuliwa",
+     "Sahihi ya barua pepe imeongezwa"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Walaghai hulenga wateja na biashara. Kwanza, tahadhari ya malipo ya uwongo. Mteja anatuma picha ya skrini na kukuuliza utoe bidhaa haraka. Picha za skrini hazithibitishi chochote. Thibitisha kuwa pesa zimeingia kwenye akaunti ya biashara."
+   ],
+   "panel": {
+    "kicker": "Ulaghai",
+    "heading": "Tapeli tatu kubaini",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Arifa ya malipo bandia",
+      "d": "Picha ya skrini na kasi ya kutoa bidhaa. Thibitisha kuwa pesa ziko kwenye akaunti ya biashara kwanza."
+     },
+     {
+      "t": "Malipo ya ziada na marejesho",
+      "d": "Nimetuma nyingi sana, tafadhali rejesha pesa iliyotofautiana. Angalia salio halisi na upate idhini ya mmiliki."
+     },
+     {
+      "t": "Kuuliza kwa misimbo",
+      "d": "Kamwe usishiriki au kuuliza PIN, OTP, manenosiri au misimbo ya uthibitishaji."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Pili, malipo ya ziada. Nilituma 50,000 badala ya 5,000 kimakosa, tafadhali rudisha 45,000. Angalia salio halisi kwanza, na urejeshe pesa kwa idhini ya mmiliki pekee."
+   ],
+   "panel": {
+    "kicker": "Ulaghai",
+    "heading": "Tapeli tatu kubaini",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Arifa ya malipo bandia",
+      "d": "Picha ya skrini na kasi ya kutoa bidhaa. Thibitisha kuwa pesa ziko kwenye akaunti ya biashara kwanza."
+     },
+     {
+      "t": "Malipo ya ziada na marejesho",
+      "d": "Nimetuma nyingi sana, tafadhali rejesha pesa iliyotofautiana. Angalia salio halisi na upate idhini ya mmiliki."
+     },
+     {
+      "t": "Kuuliza kwa misimbo",
+      "d": "Kamwe usishiriki au kuuliza PIN, OTP, manenosiri au misimbo ya uthibitishaji."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Tatu, kuuliza misimbo. Biashara halisi haihitaji kamwe PIN ya mteja, OTP, nenosiri au msimbo wa WhatsApp. Washa uthibitishaji wa hatua mbili kwa nambari ya biashara."
+   ],
+   "panel": {
+    "kicker": "Ulaghai",
+    "heading": "Tapeli tatu kubaini",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Arifa ya malipo bandia",
+      "d": "Picha ya skrini na kasi ya kutoa bidhaa. Thibitisha kuwa pesa ziko kwenye akaunti ya biashara kwanza."
+     },
+     {
+      "t": "Malipo ya ziada na marejesho",
+      "d": "Nimetuma nyingi sana, tafadhali rejesha pesa iliyotofautiana. Angalia salio halisi na upate idhini ya mmiliki."
+     },
+     {
+      "t": "Kuuliza kwa misimbo",
+      "d": "Kamwe usishiriki au kuuliza PIN, OTP, manenosiri au misimbo ya uthibitishaji."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Bisi anapata agizo na ombi la dharura. Mteja anasema anasafiri baada ya saa moja."
+   ],
+   "card": {
+    "title": "Kugundua arifa ya uwongo",
+    "rows": [],
+    "note": "Bei za Naira ni takriban."
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Agizo ni benki 4 za nguvu kwa naira 18,000 kila moja, ambayo ni 72,000. Anatuma picha ya skrini ya uhamisho wa 72,000. Bisi anajibu: tutatuma mara tu malipo yatakapoonekana katika akaunti yetu ya biashara."
+   ],
+   "card": {
+    "title": "Kugundua arifa ya uwongo",
+    "rows": [
+     [
+      "benki 4 za nguvu kwa 18,000 kila moja",
+      "72,000"
+     ],
+     [
+      "Picha ya skrini ambayo mteja alituma",
+      "72,000"
+     ]
+    ],
+    "note": "Bei za Naira ni takriban."
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Mmiliki huangalia programu ya benki. Baada ya dakika 20, hakuna kitu kilichofika. Mteja anakuwa mkali, kisha anaacha kujibu.",
+    "Hakuna bidhaa zilizopotea. Uharaka na shinikizo vilikuwa ishara za onyo. Akaunti ya biashara ilikuwa uthibitisho pekee uliohesabiwa."
+   ],
+   "card": {
+    "title": "Kugundua arifa ya uwongo",
+    "rows": [
+     [
+      "benki 4 za nguvu kwa 18,000 kila moja",
+      "72,000"
+     ],
+     [
+      "Picha ya skrini ambayo mteja alituma",
+      "72,000"
+     ],
+     [
+      "Katika akaunti ya biashara",
+      "0"
+     ]
+    ],
+    "note": "Bei za Naira ni takriban."
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Kukumbuka. Timiza ahadi zako tatu. Changanua kwanza, kisha weka kipaumbele matatizo na mambo ya pesa. Binafsisha kila jibu la haraka. Thibitisha malipo katika akaunti ya biashara pekee.",
+    "Na kukusanya tu data ya kibinafsi unayohitaji, na usichapishe soga au risiti ya mteja popote."
+   ],
+   "panel": {
+    "kicker": "Pointi muhimu",
+    "heading": "Kumbuka",
+    "items": [
+     "Kasi, uwazi na ufuatiliaji",
+     "Changanua ujumbe wote, kisha uweke kipaumbele",
+     "Majibu ya haraka, ya kibinafsi kila wakati",
+     "Malipo yamethibitishwa katika akaunti ya biashara pekee",
+     "Kusanya tu data unayohitaji; weka salama"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_map",
+   "say": [
+    "Zamu yako. Ramani ya njia ambazo biashara yako hutumia. Sanidi wasifu, salamu na ujumbe wa mbali. Hifadhi angalau majibu 5 ya haraka na uunde lebo nne.",
+    "Kisha andika jibu la malipo linalosema hutawahi kuuliza PIN au misimbo, na ujumbe tulivu wa mipaka kwa mazungumzo ya matusi.",
+    "Endelea na masomo hapa chini."
+   ],
+   "panel": {
+    "kicker": "Mazoezi ya kazi",
+    "heading": "Kazi zako za mazoezi",
+    "items": [
+     "Ramani ya vituo vyako vya usaidizi",
+     "Sanidi wasifu, ujumbe wa salamu na wa mbali",
+     "Hifadhi angalau majibu 5 ya haraka na lebo 4",
+     "Andika jibu lako la malipo na ujumbe wa mipaka"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

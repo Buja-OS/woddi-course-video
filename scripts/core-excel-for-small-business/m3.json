@@ -1,0 +1,448 @@
+{
+ "course": "core-excel-for-small-business",
+ "module": "m3",
+ "title": "Clean data, category totals and charts that tell the truth",
+ "course_title": "Excel and Google Sheets for Small Business",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Clean data, category totals, and charts that tell the truth.",
+    "This is the video for Module 3 of Excel and Google Sheets for Small Business."
+   ]
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "After a few weeks of entries, you will want answers. What were my biggest sales? How much did I spend on transport?",
+    "Sorting, filtering and drop-down lists keep your data tidy as it grows."
+   ],
+   "panel": {
+    "kicker": "In this module",
+    "heading": "Turn records into evidence",
+    "items": [
+     "Sort and filter without breaking rows",
+     "Drop-down lists stop spelling mistakes",
+     "SUMIF totals by category and customer",
+     "Charts that answer one question"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Then SUMIF and charts turn that data into evidence of how your business is really doing."
+   ],
+   "panel": {
+    "kicker": "In this module",
+    "heading": "Turn records into evidence",
+    "items": [
+     "Sort and filter without breaking rows",
+     "Drop-down lists stop spelling mistakes",
+     "SUMIF totals by category and customer",
+     "Charts that answer one question"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "To sort, tap any single cell inside your data, then choose Data, Sort, and tick that your data has headers. Then pick the column and the order, such as largest first."
+   ],
+   "panel": {
+    "kicker": "Sort safely",
+    "heading": "Sort the whole range, never one column",
+    "mode": "compare",
+    "left_h": "Do this",
+    "left": [
+     "Tap one cell inside your data",
+     "Data, Sort, with headers ticked",
+     "Accept Expand the selection"
+    ],
+    "right_h": "Never this",
+    "right": [
+     "Select only the Amount column",
+     "Sort it alone",
+     "Amounts move, items stay behind"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Here is the common mistake. If you select only the Amount column and sort it, the amounts move but the dates and items beside them do not. Every row is now wrong.",
+    "Excel warns you and offers Expand the selection. Always accept it. If it happens, undo straight away."
+   ],
+   "panel": {
+    "kicker": "Sort safely",
+    "heading": "Sort the whole range, never one column",
+    "mode": "compare",
+    "left_h": "Do this",
+    "left": [
+     "Tap one cell inside your data",
+     "Data, Sort, with headers ticked",
+     "Accept Expand the selection"
+    ],
+    "right_h": "Never this",
+    "right": [
+     "Select only the Amount column",
+     "Sort it alone",
+     "Amounts move, items stay behind"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Halima suspects transport is eating her profit. A filter hides the rows she does not need for a moment.",
+    "She taps the arrow on Category and ticks only Transport."
+   ],
+   "card": {
+    "title": "Halima's transport spending",
+    "rows": [],
+    "note": "SUBTOTAL(9, range) adds only the visible rows."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "4 rows remain. Above her headings she has SUBTOTAL, 9, then her Amount range. The 9 tells it to add up."
+   ],
+   "card": {
+    "title": "Halima's transport spending",
+    "rows": [
+     [
+      "Trip 1",
+      "2,500"
+     ],
+     [
+      "Trip 2",
+      "3,000"
+     ],
+     [
+      "Trip 3",
+      "1,500"
+     ],
+     [
+      "Trip 4",
+      "4,000"
+     ]
+    ],
+    "note": "SUBTOTAL(9, range) adds only the visible rows."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Transport comes to 11000 naira. SUM would still add all 40 rows, which is why SUBTOTAL is the right tool when filtering. Clear the filter when you are done."
+   ],
+   "card": {
+    "title": "Halima's transport spending",
+    "rows": [
+     [
+      "Trip 1",
+      "2,500"
+     ],
+     [
+      "Trip 2",
+      "3,000"
+     ],
+     [
+      "Trip 3",
+      "1,500"
+     ],
+     [
+      "Trip 4",
+      "4,000"
+     ]
+    ],
+    "note": "SUBTOTAL(9, range) adds only the visible rows."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Next, drop-down lists. Select the whole Type column, below the heading."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Add a drop-down list",
+    "items": [
+     "Select the whole Type column below the heading",
+     "Excel: Data, Data Validation, List",
+     "Sheets: Insert, Dropdown",
+     "Options: Sale, Expense",
+     "Do the same for Category"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "In Excel choose Data, Data Validation, and under Allow pick List. In Google Sheets choose Insert, Dropdown."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Add a drop-down list",
+    "items": [
+     "Select the whole Type column below the heading",
+     "Excel: Data, Data Validation, List",
+     "Sheets: Insert, Dropdown",
+     "Options: Sale, Expense",
+     "Do the same for Category"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Add the options Sale and Expense. Then do the same for Category, with your own list, like Foodstuff, Gas, Packaging and Transport."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Add a drop-down list",
+    "items": [
+     "Select the whole Type column below the heading",
+     "Excel: Data, Data Validation, List",
+     "Sheets: Insert, Dropdown",
+     "Options: Sale, Expense",
+     "Do the same for Category"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Why does this matter? IF, SUMIF and COUNTIF match text exactly. A list makes every entry identical, so they never silently miss a row."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Add a drop-down list",
+    "items": [
+     "Select the whole Type column below the heading",
+     "Excel: Data, Data Validation, List",
+     "Sheets: Insert, Dropdown",
+     "Options: Sale, Expense",
+     "Do the same for Category"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Same spelling every time, so your formulas never miss a row",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Filters answer one question at a time. SUMIF answers it permanently.",
+    "The pattern is SUMIF, the range to check, the condition, then the range to add. Bisi puts dollar signs on both ranges so she can copy the formula down her list of categories."
+   ],
+   "card": {
+    "title": "Bisi's expenses by category",
+    "rows": [],
+    "note": "Category totals must add up to the overall total."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Foodstuff is 67000 naira. Gas is 9000, packaging 10500, and transport 6000. COUNTIF counts how many entries each one has."
+   ],
+   "card": {
+    "title": "Bisi's expenses by category",
+    "rows": [
+     [
+      "Foodstuff, 2 entries",
+      "67,000"
+     ],
+     [
+      "Gas, 1 entry",
+      "9,000"
+     ],
+     [
+      "Packaging, 2 entries",
+      "10,500"
+     ],
+     [
+      "Transport, 3 entries",
+      "6,000"
+     ]
+    ],
+    "note": "Category totals must add up to the overall total."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "The total is 92500, and it matches the SUM of her whole Amount column. Always do this cross-check. If they differ, a category is misspelt or missing."
+   ],
+   "card": {
+    "title": "Bisi's expenses by category",
+    "rows": [
+     [
+      "Foodstuff, 2 entries",
+      "67,000"
+     ],
+     [
+      "Gas, 1 entry",
+      "9,000"
+     ],
+     [
+      "Packaging, 2 entries",
+      "10,500"
+     ],
+     [
+      "Transport, 3 entries",
+      "6,000"
+     ]
+    ],
+    "note": "Category totals must add up to the overall total."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "A good chart answers one question. A line chart shows change over time. A column chart compares. A pie shows shares of one whole, with only about five slices."
+   ],
+   "panel": {
+    "kicker": "Charts",
+    "heading": "Pick the chart for the question",
+    "items": [
+     "Change over time: line chart",
+     "Compare months or products: column chart",
+     "Share of spending: pie, about 5 slices",
+     "Title states the message, units shown",
+     "Columns start at zero"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "For example, Funke in Abeokuta charts six months of sales. Her title says Sales rose 50% from July to December, not just Chart 1.",
+    "And start column charts at zero. An axis starting higher makes a small rise look huge."
+   ],
+   "panel": {
+    "kicker": "Charts",
+    "heading": "Pick the chart for the question",
+    "items": [
+     "Change over time: line chart",
+     "Compare months or products: column chart",
+     "Share of spending: pie, about 5 slices",
+     "Title states the message, units shown",
+     "Columns start at zero"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "If you sell on credit, SUMIF on an Unpaid column gives the total owed to you.",
+    "But names, phone numbers and debts are personal information. Nigeria's Data Protection Act 2023 expects you to collect only what you need and keep it secure."
+   ],
+   "panel": {
+    "kicker": "Protect people",
+    "heading": "Customer details are personal data",
+    "items": [
+     "Collect only what you need",
+     "Restrict who can open the file",
+     "Share totals, not customer lists"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Share totals in groups, not customer lists. And never post a debtors list publicly to shame customers."
+   ],
+   "panel": {
+    "kicker": "Protect people",
+    "heading": "Customer details are personal data",
+    "items": [
+     "Collect only what you need",
+     "Restrict who can open the file",
+     "Share totals, not customer lists"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Never post a debtors list publicly to shame customers",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "To remember. Sort the whole range. Use SUBTOTAL when filtering. Drop-downs keep spelling identical.",
+    "Check that category totals match the grand total. And give each chart one question, a clear title, and an axis from zero."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "Sort the whole range, never one column",
+     "SUBTOTAL totals only visible rows",
+     "Drop-downs keep spelling identical",
+     "Category totals must match the grand total",
+     "One question per chart, axis from zero"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Now your turn. Tidy your tracker with drop-down lists, build a Summary tab with SUMIF, and make two charts with titles that state the message.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice task",
+    "heading": "Your practice tasks",
+    "items": [
+     "Tidy your tracker with drop-downs",
+     "Make a Summary tab with SUMIF",
+     "Chart your business"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

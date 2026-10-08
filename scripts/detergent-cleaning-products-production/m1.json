@@ -1,0 +1,204 @@
+{
+  "course": "detergent-cleaning-products-production",
+  "module": "m1",
+  "title": "Cleaning Science and a Safe Production Room",
+  "shots": [
+    {
+      "demo": "title_workshop",
+      "say": [
+        "Welcome to Cleaning Science and a Safe Production Room, module 1 of this course.",
+        "Before you mix anything, learn why each product works, what sits in your store, and how to keep this room safe."
+      ]
+    },
+    {
+      "demo": "spray_wipe",
+      "label": "Surfactant at work",
+      "say": [
+        "Look at this greasy surface. Water alone can not move grease, because oil and water do not mix.",
+        "This spray carries a surfactant, a molecule with one end that loves water and one that loves oil.",
+        "As we wipe, the grease breaks into tiny droplets wrapped in surfactant, and they float away."
+      ]
+    },
+    {
+      "demo": "ph_test",
+      "label": "pH paper strip",
+      "card": {
+        "title": "Match the dirt to the pH",
+        "rows": [
+          [
+            "Grease, body soil",
+            "Alkaline, about 9 to 11"
+          ],
+          [
+            "Plates, everyday grease",
+            "Neutral, about 6 to 8"
+          ],
+          [
+            "Limescale, urine scale",
+            "Acid, about 2"
+          ],
+          [
+            "Mirrors, light smears",
+            "About 7"
+          ]
+        ],
+        "note": "From the course pH table"
+      },
+      "say": [
+        "Watch the strip change colour. We match it against the chart.",
+        "The pH scale runs from 0 to 14. Pure water is 7, neutral. Below 7 is acid, above 7 is alkaline.",
+        "Grease needs alkaline. A toilet ring needs acid. Germs need a disinfectant after cleaning."
+      ]
+    },
+    {
+      "demo": "disinfect_timer",
+      "label": "Time: contact before rinsing",
+      "say": [
+        "See the timer running while the surface stays wet? Time is one of the four cleaning forces.",
+        "The others are chemistry, action like scrubbing, and temperature. If one goes down, another must go up.",
+        "When your toilet cleaner label says leave for 10 minutes, time is doing the work."
+      ]
+    },
+    {
+      "demo": "mixing_rule",
+      "label": "Bleach and acid cleaner",
+      "banner": "Never mix bleach with acid or ammonia",
+      "say": [
+        "These two bottles stay apart: bleach on one side, acid toilet cleaner on the other.",
+        "Bleach with acid releases chlorine gas. Bleach with ammonia releases toxic chloramine gases. Both harm eyes and lungs."
+      ]
+    },
+    {
+      "demo": "caustic_flakes",
+      "label": "Caustic soda (sodium hydroxide)",
+      "say": [
+        "This white, flaky powder is caustic soda, which chemists call sodium hydroxide. It also comes as pearls.",
+        "It neutralises LABSA, the dark brown sulphonic acid, about 96% active, that becomes your main surfactant.",
+        "It is corrosive and heats up strongly in water."
+      ]
+    },
+    {
+      "demo": "scale_weigh",
+      "label": "Checking a delivery",
+      "card": {
+        "title": "Bisi's 25 kg SLES delivery",
+        "rows": [
+          [
+            "Full jerrycan",
+            "26.4 kg"
+          ],
+          [
+            "Empty jerrycan",
+            "1.4 kg"
+          ],
+          [
+            "Net SLES 70%",
+            "25.0 kg"
+          ],
+          [
+            "SLES per dish batch",
+            "2.0 kg"
+          ],
+          [
+            "Full batches",
+            "12, with 1.0 kg left"
+          ]
+        ],
+        "note": "From the course worked example"
+      },
+      "say": [
+        "Every delivery goes on the scale. Bisi in Ibadan weighs her jerrycan of SLES 70%, which traders call texapon.",
+        "Full, it weighs 26.4 kg. The empty can weighs 1.4 kg, so she has 25.0 kg.",
+        "Ask suppliers for a safety data sheet and a certificate of analysis. No documents? Buy a little and mark it strength unknown."
+      ]
+    },
+    {
+      "demo": "chemical_store",
+      "label": "Four storage zones",
+      "say": [
+        "Look at this shelf. Every container is closed and labelled, with a clear gap between groups.",
+        "Acids sit together: LABSA and citric acid. Alkalis sit together: caustic soda and soda ash. Bleach stays alone.",
+        "Isopropyl alcohol and fragrances go in a fourth spot, away from heat, sockets and any flame."
+      ]
+    },
+    {
+      "demo": "caustic_storage",
+      "label": "Sealed, off the floor",
+      "say": [
+        "Watch the lid going on tight. Caustic soda pulls water from the air and goes lumpy, so powders stay sealed and off the floor.",
+        "And please, never store any chemical in a water bottle, soft-drink bottle or food tub. People have drunk cleaning chemicals from familiar bottles."
+      ]
+    },
+    {
+      "demo": "ppe_set",
+      "label": "Goggles, gloves, apron",
+      "say": [
+        "Here is your protection: closed splash goggles, thick rubber gloves and an apron, with long sleeves and closed shoes.",
+        "Sunglasses will not stop a splash from the side, and eyes cannot be replaced."
+      ]
+    },
+    {
+      "demo": "ventilated_room",
+      "label": "One-way room layout",
+      "card": {
+        "title": "Hauwa's 3 m by 4 m room",
+        "rows": [
+          [
+            "Far wall",
+            "Store shelves, four zones"
+          ],
+          [
+            "Beside store",
+            "Table with the scale"
+          ],
+          [
+            "Under window",
+            "Two 50-litre mixing drums"
+          ],
+          [
+            "Near door",
+            "Filling and finished goods"
+          ],
+          [
+            "By the drums",
+            "25-litre water, eye-wash, sand"
+          ]
+        ],
+        "note": "From the course worked example"
+      },
+      "say": [
+        "This mixing table sits by an open window, so fumes and dust move outside.",
+        "Materials move one way: store, weighing, mixing, resting and testing, filling, then the finished-goods shelf.",
+        "Nobody carries concentrate back past someone filling bottles, and clean water sits beside every splash point."
+      ]
+    },
+    {
+      "demo": "lye_mix",
+      "label": "Caustic soda INTO water",
+      "banner": "Never pour water onto caustic soda",
+      "step": 1,
+      "say": [
+        "Watch: the flakes go slowly into cold water, a little at a time, never the other way round. See the heat rising?",
+        "Use a heat-resistant plastic container, never aluminium, because caustic soda attacks it.",
+        "LABSA also goes into water, with stirring. And label every bucket, even if it is only for an hour."
+      ]
+    },
+    {
+      "demo": "first_aid_rinse",
+      "label": "Running water and eye-wash",
+      "banner": "Rinse eyes and skin for at least 15 minutes",
+      "say": [
+        "If something splashes your eye, rinse it under gently running clean water for at least 15 minutes, holding the eyelids open.",
+        "On skin, take off the wet clothing and rinse the same way. Never use vinegar to neutralise a splash.",
+        "If someone swallows a product, don't make them vomit. Rinse the mouth and get medical help at once, with the label."
+      ]
+    },
+    {
+      "demo": "outro_workshop",
+      "say": [
+        "You now know why products clean, how to store your materials, and how to protect yourself.",
+        "Go through the lessons below, then do the practice tasks: your dirt map, your raw-material register and your safety station photo."
+      ]
+    }
+  ]
+}

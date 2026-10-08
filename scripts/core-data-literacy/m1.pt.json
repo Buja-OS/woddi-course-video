@@ -1,0 +1,510 @@
+{
+ "course": "core-data-literacy",
+ "module": "m1",
+ "title": "De uma preocupação a uma questão de dados, com segurança",
+ "course_title": "Alfabetização em dados: planilhas, gráficos e métricas de negócios",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "De uma preocupação a uma questão de dados, com segurança.",
+    "Este é o vídeo do módulo 1 de Alfabetização em Dados."
+   ]
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Os dados são simplesmente fatos registrados. As garrafas de zobo que você vendeu no sábado ou a data em que um membro pagou sua contribuição.",
+    "Quando os fatos são anotados de forma organizada, você pode contá-los, compará-los e aprender com eles."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Dados são simplesmente fatos registrados",
+    "items": [
+     "Fatos escritos podem ser contados e comparados",
+     "Fatos em sua cabeça se transformam em suposições",
+     "Alfabetização em dados: leia, questione e fale sobre dados",
+     "Não é necessária matemática avançada"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Quando ficam na sua cabeça, se transformam em suposições."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Dados são simplesmente fatos registrados",
+    "items": [
+     "Fatos escritos podem ser contados e comparados",
+     "Fatos em sua cabeça se transformam em suposições",
+     "Alfabetização em dados: leia, questione e fale sobre dados",
+     "Não é necessária matemática avançada"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "A alfabetização em dados significa que você pode olhar um registro de vendas ou um gráfico e perguntar: o que isso realmente mostra, é preciso e o que devo fazer? Não precisa de matemática avançada."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Dados são simplesmente fatos registrados",
+    "items": [
+     "Fatos escritos podem ser contados e comparados",
+     "Fatos em sua cabeça se transformam em suposições",
+     "Alfabetização em dados: leia, questione e fale sobre dados",
+     "Não é necessária matemática avançada"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Números, como garrafas vendidas ou valor pago, podem ser somados e calculados em média."
+   ],
+   "panel": {
+    "kicker": "Conheça seus dados",
+    "heading": "Quatro tipos de dados",
+    "items": [
+     "Números: valores que você pode somar ou calcular a média",
+     "Categorias: rótulos como dinheiro, transferência, POS",
+     "Datas e horários: quando algo aconteceu",
+     "Texto livre: palavras que as pessoas escrevem ou dizem"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "As categorias só podem ser contadas. Um ID de membro como 0457 é um rótulo, portanto não faz sentido adicionar IDs de membro juntos."
+   ],
+   "panel": {
+    "kicker": "Conheça seus dados",
+    "heading": "Quatro tipos de dados",
+    "items": [
+     "Números: valores que você pode somar ou calcular a média",
+     "Categorias: rótulos como dinheiro, transferência, POS",
+     "Datas e horários: quando algo aconteceu",
+     "Texto livre: palavras que as pessoas escrevem ou dizem"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "As datas permitem agrupar por dia, semana ou mês e ver tendências."
+   ],
+   "panel": {
+    "kicker": "Conheça seus dados",
+    "heading": "Quatro tipos de dados",
+    "items": [
+     "Números: valores que você pode somar ou calcular a média",
+     "Categorias: rótulos como dinheiro, transferência, POS",
+     "Datas e horários: quando algo aconteceu",
+     "Texto livre: palavras que as pessoas escrevem ou dizem"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "E o texto livre, como se a garrafa não estivesse fria o suficiente, é lido em busca de temas e reclamações repetidas."
+   ],
+   "panel": {
+    "kicker": "Conheça seus dados",
+    "heading": "Quatro tipos de dados",
+    "items": [
+     "Números: valores que você pode somar ou calcular a média",
+     "Categorias: rótulos como dinheiro, transferência, POS",
+     "Datas e horários: quando algo aconteceu",
+     "Texto livre: palavras que as pessoas escrevem ou dizem"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Por exemplo, Amaka vende zobo refrigerado perto de um parque de autocarros em Ibadan e muitas vezes deita fora garrafas não vendidas. Os negócios estão lentos é uma preocupação. Uma boa pergunta indica o que você mede e quando."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Que dia precisa de zobo extra?",
+    "items": [
+     "Pergunte: quantas garrafas eu vendo por dia?",
+     "Coletar: uma contagem todas as noites",
+     "Organizar: some a semana, 138 garrafas",
+     "Análise: média de cerca de 19,7 por dia",
+     "Decida: ganhe mais sexta e sábado"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false,
+    "rule": "Comece com uma pergunta clara, não com uma planilha.",
+    "showRule": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Ela escreve uma contagem todas as noites durante uma semana: 18, 15, 17, 16, depois 26 na sexta, 34 no sábado e 12 no domingo. São 138 garrafas."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Que dia precisa de zobo extra?",
+    "items": [
+     "Pergunte: quantas garrafas eu vendo por dia?",
+     "Coletar: uma contagem todas as noites",
+     "Organizar: some a semana, 138 garrafas",
+     "Análise: média de cerca de 19,7 por dia",
+     "Decida: ganhe mais sexta e sábado"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Comece com uma pergunta clara, não com uma planilha.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "138 dividido por 7 equivale a cerca de 19,7 garrafas por dia. Sexta e sábado estão bem acima disso, e domingo está bem abaixo."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Que dia precisa de zobo extra?",
+    "items": [
+     "Pergunte: quantas garrafas eu vendo por dia?",
+     "Coletar: uma contagem todas as noites",
+     "Organizar: some a semana, 138 garrafas",
+     "Análise: média de cerca de 19,7 por dia",
+     "Decida: ganhe mais sexta e sábado"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Comece com uma pergunta clara, não com uma planilha.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Então ela ganha cerca de 30 na sexta, 35 no sábado e apenas 12 no domingo.",
+    "Mas uma semana pode ser incomum por causa da chuva ou de um feriado, então ela continua gravando por mais três semanas antes de qualquer grande mudança."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Que dia precisa de zobo extra?",
+    "items": [
+     "Pergunte: quantas garrafas eu vendo por dia?",
+     "Coletar: uma contagem todas as noites",
+     "Organizar: some a semana, 138 garrafas",
+     "Análise: média de cerca de 19,7 por dia",
+     "Decida: ganhe mais sexta e sábado"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Comece com uma pergunta clara, não com uma planilha.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Por exemplo, Halima administra um quiosque de provisões em Kaduna. Sete clientes gastam entre 1.500 e 3.500 nairas, mais um fornecedor que gasta 20.000.",
+    "A média soma tudo e divide por 7. Isso dá cerca de 4.929 nairas, mas apenas um cliente gastou mais do que isso."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Quanto um cliente típico gasta?",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Média: cerca de ₦ 4.929",
+      "d": "Some todos os 7 valores, 34.500 naira, e divida por 7. Um grande comprador puxa para cima."
+     },
+     {
+      "t": "Mediana: ₦2.500",
+      "d": "Classifique os valores e escolha o do meio. Este é o cliente típico."
+     },
+     {
+      "t": "Modo: ₦2.000",
+      "d": "A quantia que aparece com mais frequência. Faixa: 20.000 menos 1.500 é ₦18.500."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "A mediana é o valor médio depois de classificados: 2.500 nairas. Essa é a melhor resposta, porque um grande comprador puxou a média para cima."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Quanto um cliente típico gasta?",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Média: cerca de ₦ 4.929",
+      "d": "Some todos os 7 valores, 34.500 naira, e divida por 7. Um grande comprador puxa para cima."
+     },
+     {
+      "t": "Mediana: ₦2.500",
+      "d": "Classifique os valores e escolha o do meio. Este é o cliente típico."
+     },
+     {
+      "t": "Modo: ₦2.000",
+      "d": "A quantia que aparece com mais frequência. Faixa: 20.000 menos 1.500 é ₦18.500."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "A moda é o valor mais comum, 2.000. O intervalo mostra quão dispersos estão os valores."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Quanto um cliente típico gasta?",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Média: cerca de ₦ 4.929",
+      "d": "Some todos os 7 valores, 34.500 naira, e divida por 7. Um grande comprador puxa para cima."
+     },
+     {
+      "t": "Mediana: ₦2.500",
+      "d": "Classifique os valores e escolha o do meio. Este é o cliente típico."
+     },
+     {
+      "t": "Modo: ₦2.000",
+      "d": "A quantia que aparece com mais frequência. Faixa: 20.000 menos 1.500 é ₦18.500."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Use a média quando os valores forem bastante semelhantes."
+   ],
+   "panel": {
+    "kicker": "Escolha bem",
+    "heading": "Média ou mediana?",
+    "mode": "compare",
+    "left_h": "Use a média",
+    "left": [
+     "Os valores são bastante semelhantes",
+     "Sem altos ou baixos extremos",
+     "Você precisa de um valor baseado no total"
+    ],
+    "right_h": "Use a mediana",
+    "right": [
+     "Um ou dois valores são extremos",
+     "Rendimentos, preços, aluguéis de casas",
+     "Você quer o caso típico"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Quando um ou dois valores são extremos, como acontece com rendimentos, preços e aluguéis, relate a mediana."
+   ],
+   "panel": {
+    "kicker": "Escolha bem",
+    "heading": "Média ou mediana?",
+    "mode": "compare",
+    "left_h": "Use a média",
+    "left": [
+     "Os valores são bastante semelhantes",
+     "Sem altos ou baixos extremos",
+     "Você precisa de um valor baseado no total"
+    ],
+    "right_h": "Use a mediana",
+    "right": [
+     "Um ou dois valores são extremos",
+     "Rendimentos, preços, aluguéis de casas",
+     "Você quer o caso típico"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Uma porcentagem compara uma parte com um todo: parte dividida pelo todo, vezes 100. A variação percentual é o novo menos o antigo, dividido pelo antigo, vezes 100."
+   ],
+   "card": {
+    "title": "As vendas realmente cresceram?",
+    "rows": [],
+    "note": "Sempre divida pelo valor antigo."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "As vendas foram de 250 mil nairas em agosto e 300 mil em setembro. A variação é 50.000 dividido por 250.000, vezes 100. Isso representa um crescimento de 20%.",
+    "O erro comum é dividir pelo novo valor. Isso dá cerca de 16,7%, o que está errado."
+   ],
+   "card": {
+    "title": "As vendas realmente cresceram?",
+    "rows": [
+     [
+      "Vendas em agosto (antigo)",
+      "250,000"
+     ],
+     [
+      "Vendas em setembro (novo)",
+      "300,000"
+     ]
+    ],
+    "note": "Sempre divida pelo valor antigo."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "O Planilhas Google é gratuito, funciona no seu telefone e salva automaticamente no Google Drive, portanto, um telefone perdido não significa perda de registros.",
+    "Proteja-o. Use uma senha longa e ative a verificação em duas etapas. Compartilhe como Visualizador e forneça o Editor apenas para pessoas que realmente precisam dele."
+   ],
+   "panel": {
+    "kicker": "Mantenha-o seguro",
+    "heading": "Protegendo suas planilhas Google",
+    "items": [
+     "Uma frase de senha longa e exclusiva",
+     "Verificação em duas etapas ativada",
+     "Compartilhar como visualizador por padrão",
+     "Ninguém com o link para registros de dinheiro",
+     "Histórico de versões para desfazer erros"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Os dados pessoais são uma responsabilidade ao abrigo da Lei de Protecção de Dados da Nigéria de 2023. Por exemplo, Fátima é tesoureira de um grupo de poupança de 25 membros em Kano. Ela usa códigos de membros e mantém a lista de nomes em um arquivo separado."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Registro de contribuição segura de Fátima",
+    "items": [
+     "Códigos de membro M01 a M25, não nomes completos",
+     "Lista de códigos mantida em um arquivo privado separado",
+     "Os membros podem visualizar; uma pessoa pode editar",
+     "Comprovante de pagamento enviado de forma privada, não no grupo"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Os membros podem visualizar e confirmar suas próprias entradas, e as capturas de tela de pagamento não aparecem mais em um bate-papo em grupo.",
+    "E nunca compartilhe seu OTP, BVN ou PIN bancário com ninguém, mesmo alguém que diga ser do seu banco."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Registro de contribuição segura de Fátima",
+    "items": [
+     "Códigos de membro M01 a M25, não nomes completos",
+     "Lista de códigos mantida em um arquivo privado separado",
+     "Os membros podem visualizar; uma pessoa pode editar",
+     "Comprovante de pagamento enviado de forma privada, não no grupo"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Para lembrar. Comece com uma pergunta incisiva. Conheça seus tipos de dados. Escolha média ou mediana com cuidado. Divida pelo valor antigo. E mantenha os dados de outras pessoas seguros."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Lembre-se",
+    "items": [
+     "Questionar, coletar, organizar, analisar, decidir",
+     "Os números se somam; categorias são contadas apenas",
+     "Valores extremos? Informe a mediana",
+     "Variação percentual: novo menos antigo, dividido pelo antigo",
+     "Colete apenas os dados pessoais que você precisa"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Sua vez. Transforme uma preocupação em uma pergunta, calcule as medidas em seus próprios números e estabeleça uma apostila segura.",
+    "Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Pratique tarefas",
+    "heading": "Suas tarefas práticas",
+    "items": [
+     "Transforme uma preocupação em uma questão de dados",
+     "Calcule as cinco medidas em seus próprios números",
+     "Configure um cofre chamado Planilha Google",
+     "Ative a verificação em duas etapas"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

@@ -1,0 +1,526 @@
+{
+ "course": "advanced-excel-dashboards",
+ "module": "m2",
+ "title": "Build, test and protect a dashboard an owner can trust",
+ "course_title": "Advanced Excel & Dashboards",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Build, test and protect a dashboard an owner can trust.",
+    "This is the video for module two of Advanced Excel and Dashboards."
+   ]
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Most dashboards are fed by exports from a POS system, a bank or accounting software. Cleaning them by hand every month is slow, and it is where errors creep in."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "A wrong number that looks right is dangerous",
+    "items": [
+     "Clean monthly exports automatically with Power Query",
+     "Lay out KPI cards, charts and slicers on one screen",
+     "Prove every number matches the source",
+     "Protect the file and write how it works"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "You will build one screen that answers the owner's repeated questions."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "A wrong number that looks right is dangerous",
+    "items": [
+     "Clean monthly exports automatically with Power Query",
+     "Lay out KPI cards, charts and slicers on one screen",
+     "Prove every number matches the source",
+     "Protect the file and write how it works"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "A wrong number that looks right is worse than an obvious error, because people act on it. So you will prove every number."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "A wrong number that looks right is dangerous",
+    "items": [
+     "Clean monthly exports automatically with Power Query",
+     "Lay out KPI cards, charts and slicers on one screen",
+     "Prove every number matches the source",
+     "Protect the file and write how it works"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "And you will protect and document the file so someone else can run it without you."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "A wrong number that looks right is dangerous",
+    "items": [
+     "Clean monthly exports automatically with Power Query",
+     "Lay out KPI cards, charts and slicers on one screen",
+     "Prove every number matches the source",
+     "Protect the file and write how it works"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Ada is admin officer for a pharmacy with three branches in Abuja. She saves every branch export in one folder called POS Exports."
+   ],
+   "panel": {
+    "kicker": "Power Query",
+    "heading": "Combine monthly files from a folder",
+    "items": [
+     "Save every export in one folder",
+     "Get Data, From Folder, Combine & Transform",
+     "Remove title rows, use first row as headers",
+     "Set types; trim names; replace odd labels",
+     "Close & Load to a Table, then check row counts"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Power Query stacks the files into one query. Every step she takes is recorded under Applied Steps, and her original files are never changed."
+   ],
+   "panel": {
+    "kicker": "Power Query",
+    "heading": "Combine monthly files from a folder",
+    "items": [
+     "Save every export in one folder",
+     "Get Data, From Folder, Combine & Transform",
+     "Remove title rows, use first row as headers",
+     "Set types; trim names; replace odd labels",
+     "Close & Load to a Table, then check row counts"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "She removes the 4 title lines and promotes the first row to headers."
+   ],
+   "panel": {
+    "kicker": "Power Query",
+    "heading": "Combine monthly files from a folder",
+    "items": [
+     "Save every export in one folder",
+     "Get Data, From Folder, Combine & Transform",
+     "Remove title rows, use first row as headers",
+     "Set types; trim names; replace odd labels",
+     "Close & Load to a Table, then check row counts"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "She sets Amount as a number, trims spaces from names, and replaces PCM 500 with Paracetamol 500mg."
+   ],
+   "panel": {
+    "kicker": "Power Query",
+    "heading": "Combine monthly files from a folder",
+    "items": [
+     "Save every export in one folder",
+     "Get Data, From Folder, Combine & Transform",
+     "Remove title rows, use first row as headers",
+     "Set types; trim names; replace odd labels",
+     "Close & Load to a Table, then check row counts"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "She loads it to a Table and checks the row count. January's three reports give 2,140 plus 1,875 plus 1,310, which is 5,325 rows. The query shows 5,325."
+   ],
+   "panel": {
+    "kicker": "Power Query",
+    "heading": "Combine monthly files from a folder",
+    "items": [
+     "Save every export in one folder",
+     "Get Data, From Folder, Combine & Transform",
+     "Remove title rows, use first row as headers",
+     "Set types; trim names; replace odd labels",
+     "Close & Load to a Table, then check row counts"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Watch the date trap. Some computers read 03/04 as 4 March. Set the date type Using Locale, English Nigeria, and check a date like 13/05 in the result.",
+    "Next month, she saves three new files and clicks Refresh All."
+   ],
+   "panel": {
+    "kicker": "Power Query",
+    "heading": "Combine monthly files from a folder",
+    "items": [
+     "Save every export in one folder",
+     "Get Data, From Folder, Combine & Transform",
+     "Remove title rows, use first row as headers",
+     "Set types; trim names; replace odd labels",
+     "Close & Load to a Table, then check row counts"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Set dates Using Locale, then check a date like 13/05.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Put three to five KPI cards across the top left, where the eye lands first. Trends go beneath, then breakdowns, then detail lists."
+   ],
+   "card": {
+    "title": "KPI cards for a pharmacy owner",
+    "rows": [],
+    "note": "Illustrative figures."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Sales this month are 18,600,000 naira against 17,200,000 last month. Percentage change divides by the previous period, so the change is 8.1 percent."
+   ],
+   "card": {
+    "title": "KPI cards for a pharmacy owner",
+    "rows": [
+     [
+      "Sales this month",
+      "18,600,000"
+     ],
+     [
+      "Sales last month",
+      "17,200,000"
+     ]
+    ],
+    "note": "Illustrative figures."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Gross profit is 4,650,000, so the margin is 25 percent. Always calculate margin from totals, never by averaging item margins."
+   ],
+   "card": {
+    "title": "KPI cards for a pharmacy owner",
+    "rows": [
+     [
+      "Sales this month",
+      "18,600,000"
+     ],
+     [
+      "Sales last month",
+      "17,200,000"
+     ],
+     [
+      "Gross profit",
+      "4,650,000"
+     ]
+    ],
+    "note": "Illustrative figures."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "6,200 transactions give an average basket of 3,000 naira. A fourth card counts 14 items below reorder level."
+   ],
+   "card": {
+    "title": "KPI cards for a pharmacy owner",
+    "rows": [
+     [
+      "Sales this month",
+      "18,600,000"
+     ],
+     [
+      "Sales last month",
+      "17,200,000"
+     ],
+     [
+      "Gross profit",
+      "4,650,000"
+     ],
+     [
+      "Average basket",
+      "3,000"
+     ]
+    ],
+    "note": "Illustrative figures."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Use a line chart for sales over months, and a bar chart sorted largest to smallest for branches. Avoid 3D effects."
+   ],
+   "panel": {
+    "kicker": "Make it interactive",
+    "heading": "Charts, slicers and live lists",
+    "items": [
+     "Line chart for months, sorted bars for branches",
+     "Slicer and timeline, with Report Connections",
+     "FILTER for exceptions, such as overdue accounts",
+     "Never rely on colour alone"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Insert a Branch slicer and a Date timeline. Use Report Connections to tick every pivot, so one click on Kubwa filters the whole screen."
+   ],
+   "panel": {
+    "kicker": "Make it interactive",
+    "heading": "Charts, slicers and live lists",
+    "items": [
+     "Line chart for months, sorted bars for branches",
+     "Slicer and timeline, with Report Connections",
+     "FILTER for exceptions, such as overdue accounts",
+     "Never rely on colour alone"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "FILTER can list every unpaid account over 30 days. Leave the cells below it empty, or you get a spill error."
+   ],
+   "panel": {
+    "kicker": "Make it interactive",
+    "heading": "Charts, slicers and live lists",
+    "items": [
+     "Line chart for months, sorted bars for branches",
+     "Slicer and timeline, with Report Connections",
+     "FILTER for exceptions, such as overdue accounts",
+     "Never rely on colour alone"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Some readers cannot tell red from green, so add a plus or minus sign, and give each chart a title that states the message."
+   ],
+   "panel": {
+    "kicker": "Make it interactive",
+    "heading": "Charts, slicers and live lists",
+    "items": [
+     "Line chart for months, sorted bars for branches",
+     "Slicer and timeline, with Report Connections",
+     "FILTER for exceptions, such as overdue accounts",
+     "Never rely on colour alone"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Create a Checks area. Each check compares two numbers that must agree, and the difference should be 0."
+   ],
+   "card": {
+    "title": "Finding the 312,500 naira gap",
+    "rows": [],
+    "note": "Illustrative figures."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Ada's source Table adds up to 18,912,500 naira, but the dashboard shows 18,600,000."
+   ],
+   "card": {
+    "title": "Finding the 312,500 naira gap",
+    "rows": [
+     [
+      "Source Table total",
+      "18,912,500"
+     ],
+     [
+      "Dashboard sales total",
+      "18,600,000"
+     ]
+    ],
+    "note": "Illustrative figures."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "The gap is 312,500. The pivot pointed to a fixed range, so 5 late invoices of 62,500 each were left out. She points the pivot at tblSales, refreshes, and the check returns 0."
+   ],
+   "card": {
+    "title": "Finding the 312,500 naira gap",
+    "rows": [
+     [
+      "Source Table total",
+      "18,912,500"
+     ],
+     [
+      "Dashboard sales total",
+      "18,600,000"
+     ]
+    ],
+    "note": "Illustrative figures."
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Add data validation to input cells, unlock only those cells, then protect the sheet. Test that the slicers still work. But sheet protection only prevents accidents."
+   ],
+   "panel": {
+    "kicker": "Safety first",
+    "heading": "Protection is not security",
+    "mode": "compare",
+    "left_h": "Protect Sheet",
+    "left": [
+     "Stops accidental changes",
+     "Unlock only the input cells",
+     "Passwords can be removed"
+    ],
+    "right_h": "Encrypt the file",
+    "right": [
+     "Keeps confidential data private",
+     "For salaries, customers, bank details",
+     "Share password separately"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_security",
+   "say": [
+    "For salaries, customer details or bank information, use Encrypt with Password, with a strong password sent through a different channel.",
+    "Exports often hold customer names and phone numbers. Remove columns you do not need, and never forward raw exports on personal WhatsApp."
+   ],
+   "panel": {
+    "kicker": "Safety first",
+    "heading": "Protection is not security",
+    "mode": "compare",
+    "left_h": "Protect Sheet",
+    "left": [
+     "Stops accidental changes",
+     "Unlock only the input cells",
+     "Passwords can be removed"
+    ],
+    "right_h": "Encrypt the file",
+    "right": [
+     "Keeps confidential data private",
+     "For salaries, customers, bank details",
+     "Share password separately"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Before you send the file, tick every item. Test with awkward data on purpose: a blank quantity, a date typed as text, a duplicate invoice.",
+    "Do not hide errors with IFERROR and a zero, because a broken lookup then looks like a real zero.",
+    "Finally, write a How It Works sheet and ask someone else to follow it without your help."
+   ],
+   "panel": {
+    "kicker": "Before handover",
+    "heading": "Handover checklist",
+    "items": [
+     "Totals reconcile to source",
+     "Row counts match exports",
+     "Blank and odd inputs tested",
+     "Formula cells locked",
+     "How It Works sheet written"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Automate an import from a folder of at least three files. Build your one-screen dashboard with cards, charts and a connected slicer. Then add check cells, protect it and write the How It Works sheet.",
+    "Now continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice task",
+    "heading": "Your tasks for this module",
+    "items": [
+     "Automate a monthly import with Power Query",
+     "Build your one-screen dashboard",
+     "Make your dashboard handover-ready"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

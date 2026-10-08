@@ -1,0 +1,712 @@
+{
+ "course": "ai-literacy",
+ "module": "m1",
+ "title": "Comment fonctionne l’IA et où l’utiliser en toute sécurité",
+ "course_title": "Maîtrise de l'IA : utiliser l'IA de manière judicieuse, sûre et critique",
+ "shots": [
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Comment fonctionne l’IA et où l’utiliser en toute sécurité.",
+    "Ceci est la vidéo du module 1 de AI Literacy."
+   ]
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Vous utilisez l’IA depuis des années. Le filtre anti-spam de Gmail, les suggestions de mots de votre clavier et le déverrouillage du visage sont tous issus de l'IA."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "L'IA est déjà sur votre téléphone",
+    "items": [
+     "L'IA est déjà présente dans votre téléphone et vos applications",
+     "L'IA générative écrit de nouveaux textes et images",
+     "Une réponse sûre n'est pas toujours correcte",
+     "Vous restez responsable de ce que vous envoyez"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Depuis fin 2022, l’IA générative est devenue populaire. Il produit du nouveau texte, des images ou du son lorsque vous tapez une demande."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "L'IA est déjà sur votre téléphone",
+    "items": [
+     "L'IA est déjà présente dans votre téléphone et vos applications",
+     "L'IA générative écrit de nouveaux textes et images",
+     "Une réponse sûre n'est pas toujours correcte",
+     "Vous restez responsable de ce que vous envoyez"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Aujourd’hui, vous apprendrez comment un chatbot construit sa réponse et pourquoi il invente parfois des choses."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "L'IA est déjà sur votre téléphone",
+    "items": [
+     "L'IA est déjà présente dans votre téléphone et vos applications",
+     "L'IA générative écrit de nouveaux textes et images",
+     "Une réponse sûre n'est pas toujours correcte",
+     "Vous restez responsable de ce que vous envoyez"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Et vous apprendrez un test simple pour savoir où l’IA peut vous aider en toute sécurité."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "L'IA est déjà sur votre téléphone",
+    "items": [
+     "L'IA est déjà présente dans votre téléphone et vos applications",
+     "L'IA générative écrit de nouveaux textes et images",
+     "Une réponse sûre n'est pas toujours correcte",
+     "Vous restez responsable de ce que vous envoyez"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "L'IA prédictive apprend des modèles à partir de données passées pour les trier, les noter ou faire des prévisions, comme l'alerte à la fraude de votre banque."
+   ],
+   "panel": {
+    "kicker": "Deux familles",
+    "heading": "IA prédictive et IA générative",
+    "mode": "compare",
+    "left_h": "IA prédictive",
+    "left": [
+     "Tris, scores ou prévisions",
+     "Filtre anti-spam",
+     "Alerte à la fraude de votre banque",
+     "Estimation du trafic sur une carte"
+    ],
+    "right_h": "IA générative",
+    "right": [
+     "Crée un nouveau contenu à partir d'une invite",
+     "Un chatbot rédigeant une lettre",
+     "Photo transformée en dessin animé",
+     "Une voix IA lisant le texte à haute voix"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "L'IA générative produit un nouveau contenu en réponse à une requête, appelée invite. Ni l’un ni l’autre ne comprend le monde de la même manière qu’une personne."
+   ],
+   "panel": {
+    "kicker": "Deux familles",
+    "heading": "IA prédictive et IA générative",
+    "mode": "compare",
+    "left_h": "IA prédictive",
+    "left": [
+     "Tris, scores ou prévisions",
+     "Filtre anti-spam",
+     "Alerte à la fraude de votre banque",
+     "Estimation du trafic sur une carte"
+    ],
+    "right_h": "IA générative",
+    "right": [
+     "Crée un nouveau contenu à partir d'une invite",
+     "Un chatbot rédigeant une lettre",
+     "Photo transformée en dessin animé",
+     "Une voix IA lisant le texte à haute voix"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Les chatbots fonctionnent sur un grand modèle de langage, ou LLM, formé pour prédire ce qui va suivre.",
+    "Étape 1. Vous tapez une invite."
+   ],
+   "panel": {
+    "kicker": "À l'intérieur du chatbot",
+    "heading": "Comment un chatbot construit une réponse",
+    "items": [
+     "Vous tapez une invite",
+     "Votre texte est divisé en jetons",
+     "Le modèle prédit le prochain jeton",
+     "Il ajoute ce jeton et répète",
+     "La réponse apparaît sur votre écran"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Étape 2. Vos mots sont divisés en jetons, petits morceaux de texte. Un jeton anglais comporte environ 4 caractères."
+   ],
+   "panel": {
+    "kicker": "À l'intérieur du chatbot",
+    "heading": "Comment un chatbot construit une réponse",
+    "items": [
+     "Vous tapez une invite",
+     "Votre texte est divisé en jetons",
+     "Le modèle prédit le prochain jeton",
+     "Il ajoute ce jeton et répète",
+     "La réponse apparaît sur votre écran"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Étape 3. Le modèle prédit le prochain jeton."
+   ],
+   "panel": {
+    "kicker": "À l'intérieur du chatbot",
+    "heading": "Comment un chatbot construit une réponse",
+    "items": [
+     "Vous tapez une invite",
+     "Votre texte est divisé en jetons",
+     "Le modèle prédit le prochain jeton",
+     "Il ajoute ce jeton et répète",
+     "La réponse apparaît sur votre écran"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Étape 4. Il l’ajoute et le répète encore et encore. C'est pourquoi les réponses apparaissent mot par mot."
+   ],
+   "panel": {
+    "kicker": "À l'intérieur du chatbot",
+    "heading": "Comment un chatbot construit une réponse",
+    "items": [
+     "Vous tapez une invite",
+     "Votre texte est divisé en jetons",
+     "Le modèle prédit le prochain jeton",
+     "Il ajoute ce jeton et répète",
+     "La réponse apparaît sur votre écran"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Étape 5. Vous voyez la réponse. Rien dans cette boucle ne le compare à la réalité. Le modèle choisit des mots probables. Il ne vérifie pas les faits."
+   ],
+   "panel": {
+    "kicker": "À l'intérieur du chatbot",
+    "heading": "Comment un chatbot construit une réponse",
+    "items": [
+     "Vous tapez une invite",
+     "Votre texte est divisé en jetons",
+     "Le modèle prédit le prochain jeton",
+     "Il ajoute ce jeton et répète",
+     "La réponse apparaît sur votre écran"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Il choisit des mots probables. Il ne vérifie pas les faits.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "flipchart",
+   "say": [
+    "Une réponse sûre et fausse s’appelle une hallucination, comme une fausse loi ou un livre qui n’existe pas.",
+    "La première cause réside dans les lacunes dans les données de formation. Là où il y a peu de texte, le modèle devine."
+   ],
+   "panel": {
+    "kicker": "Hallucinations",
+    "heading": "Pourquoi les chatbots inventent les choses",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Lacunes dans les données de formation",
+      "d": "Moins de texte sur un sujet signifie plus de devinettes. Les sujets locaux nigérians sont souvent rares."
+     },
+     {
+      "t": "Seuil de connaissances",
+      "d": "Tout ce qui a changé après la formation, comme de nouveaux frais ou une nouvelle politique, est inconnu du modèle."
+     },
+     {
+      "t": "Pression pour répondre",
+      "d": "Les modèles sont formés pour être utiles, ils donnent donc une réponse au lieu de dire je ne sais pas."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "flipchart",
+   "say": [
+    "La seconde est la limite de connaissances, la date après laquelle le modèle n’a rien appris de nouveau."
+   ],
+   "panel": {
+    "kicker": "Hallucinations",
+    "heading": "Pourquoi les chatbots inventent les choses",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Lacunes dans les données de formation",
+      "d": "Moins de texte sur un sujet signifie plus de devinettes. Les sujets locaux nigérians sont souvent rares."
+     },
+     {
+      "t": "Seuil de connaissances",
+      "d": "Tout ce qui a changé après la formation, comme de nouveaux frais ou une nouvelle politique, est inconnu du modèle."
+     },
+     {
+      "t": "Pression pour répondre",
+      "d": "Les modèles sont formés pour être utiles, ils donnent donc une réponse au lieu de dire je ne sais pas."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Le troisième est la pression pour répondre. Et une mauvaise réponse semble aussi calme et fluide qu’une bonne."
+   ],
+   "panel": {
+    "kicker": "Hallucinations",
+    "heading": "Pourquoi les chatbots inventent les choses",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Lacunes dans les données de formation",
+      "d": "Moins de texte sur un sujet signifie plus de devinettes. Les sujets locaux nigérians sont souvent rares."
+     },
+     {
+      "t": "Seuil de connaissances",
+      "d": "Tout ce qui a changé après la formation, comme de nouveaux frais ou une nouvelle politique, est inconnu du modèle."
+     },
+     {
+      "t": "Pression pour répondre",
+      "d": "Les modèles sont formés pour être utiles, ils donnent donc une réponse au lieu de dire je ne sais pas."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "La meilleure protection est de donner vous-même la source. Collez votre document et dites, répondez uniquement à partir du texte ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Coupez les erreurs",
+    "heading": "Qu'est-ce qui réduit les hallucinations",
+    "items": [
+     "Coller la source : répondre uniquement à partir de ce texte",
+     "Demandez-lui de dire non indiqué dans le texte",
+     "Utilisez la recherche sur le Web, puis ouvrez les liens",
+     "Demandez des devis précis que vous pouvez trouver",
+     "Démarrer une nouvelle discussion pour une nouvelle tâche"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Dites-lui de dire non indiqué dans le texte si la réponse manque."
+   ],
+   "panel": {
+    "kicker": "Coupez les erreurs",
+    "heading": "Qu'est-ce qui réduit les hallucinations",
+    "items": [
+     "Coller la source : répondre uniquement à partir de ce texte",
+     "Demandez-lui de dire non indiqué dans le texte",
+     "Utilisez la recherche sur le Web, puis ouvrez les liens",
+     "Demandez des devis précis que vous pouvez trouver",
+     "Démarrer une nouvelle discussion pour une nouvelle tâche"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Pour connaître les faits actuels, utilisez la recherche sur le Web, puis ouvrez les liens affichés."
+   ],
+   "panel": {
+    "kicker": "Coupez les erreurs",
+    "heading": "Qu'est-ce qui réduit les hallucinations",
+    "items": [
+     "Coller la source : répondre uniquement à partir de ce texte",
+     "Demandez-lui de dire non indiqué dans le texte",
+     "Utilisez la recherche sur le Web, puis ouvrez les liens",
+     "Demandez des devis précis que vous pouvez trouver",
+     "Démarrer une nouvelle discussion pour une nouvelle tâche"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Demandez-lui de citer d'où vient chaque point. Aucune citation signifie peu fiable."
+   ],
+   "panel": {
+    "kicker": "Coupez les erreurs",
+    "heading": "Qu'est-ce qui réduit les hallucinations",
+    "items": [
+     "Coller la source : répondre uniquement à partir de ce texte",
+     "Demandez-lui de dire non indiqué dans le texte",
+     "Utilisez la recherche sur le Web, puis ouvrez les liens",
+     "Demandez des devis précis que vous pouvez trouver",
+     "Démarrer une nouvelle discussion pour une nouvelle tâche"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Et démarrez une nouvelle discussion pour une nouvelle tâche."
+   ],
+   "panel": {
+    "kicker": "Coupez les erreurs",
+    "heading": "Qu'est-ce qui réduit les hallucinations",
+    "items": [
+     "Coller la source : répondre uniquement à partir de ce texte",
+     "Demandez-lui de dire non indiqué dans le texte",
+     "Utilisez la recherche sur le Web, puis ouvrez les liens",
+     "Demandez des devis précis que vous pouvez trouver",
+     "Démarrer une nouvelle discussion pour une nouvelle tâche"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Avant d'utiliser l'IA, posez deux questions. Premièrement, quelle est la fiabilité de l’IA pour cette tâche ? La rédaction est élevée. Les faits précis et les règles locales sont faibles."
+   ],
+   "panel": {
+    "kicker": "Avant d'utiliser l'IA",
+    "heading": "Le test de fiabilité et de risque",
+    "items": [
+     "Quelle est la fiabilité de l’IA pour cette tâche ?",
+     "Quel mal une erreur causerait-elle ?",
+     "Haute fiabilité, faible dommage : utilisation, contrôle de la lumière",
+     "Dommage moyen : utilisez-le, puis vérifiez chaque fait",
+     "Faible fiabilité, préjudice élevé : aller à la source"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Deuxièmement, quel mal une erreur causerait-elle ? Des frais, un dosage, un délai légal ou des coordonnées bancaires erronés constituent un préjudice grave."
+   ],
+   "panel": {
+    "kicker": "Avant d'utiliser l'IA",
+    "heading": "Le test de fiabilité et de risque",
+    "items": [
+     "Quelle est la fiabilité de l’IA pour cette tâche ?",
+     "Quel mal une erreur causerait-elle ?",
+     "Haute fiabilité, faible dommage : utilisation, contrôle de la lumière",
+     "Dommage moyen : utilisez-le, puis vérifiez chaque fait",
+     "Faible fiabilité, préjudice élevé : aller à la source"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Haute fiabilité et faible danger : utilisez-le librement avec un léger contrôle."
+   ],
+   "panel": {
+    "kicker": "Avant d'utiliser l'IA",
+    "heading": "Le test de fiabilité et de risque",
+    "items": [
+     "Quelle est la fiabilité de l’IA pour cette tâche ?",
+     "Quel mal une erreur causerait-elle ?",
+     "Haute fiabilité, faible dommage : utilisation, contrôle de la lumière",
+     "Dommage moyen : utilisez-le, puis vérifiez chaque fait",
+     "Faible fiabilité, préjudice élevé : aller à la source"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Dommage plus élevé : utilisez-le, puis vérifiez chaque fait."
+   ],
+   "panel": {
+    "kicker": "Avant d'utiliser l'IA",
+    "heading": "Le test de fiabilité et de risque",
+    "items": [
+     "Quelle est la fiabilité de l’IA pour cette tâche ?",
+     "Quel mal une erreur causerait-elle ?",
+     "Haute fiabilité, faible dommage : utilisation, contrôle de la lumière",
+     "Dommage moyen : utilisez-le, puis vérifiez chaque fait",
+     "Faible fiabilité, préjudice élevé : aller à la source"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Faible fiabilité et dommages élevés : évitez l’IA et adressez-vous à la source officielle ou à une personne qualifiée. La santé, l’argent et les questions juridiques nécessitent cette attention."
+   ],
+   "panel": {
+    "kicker": "Avant d'utiliser l'IA",
+    "heading": "Le test de fiabilité et de risque",
+    "items": [
+     "Quelle est la fiabilité de l’IA pour cette tâche ?",
+     "Quel mal une erreur causerait-elle ?",
+     "Haute fiabilité, faible dommage : utilisation, contrôle de la lumière",
+     "Dommage moyen : utilisez-le, puis vérifiez chaque fait",
+     "Faible fiabilité, préjudice élevé : aller à la source"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Faites correspondre le nombre de vérifications au préjudice qu’une erreur pourrait causer.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Par exemple, Amaka gère une coopérative de femmes à Owerri. Elle place cinq tâches sur la grille avant d'ouvrir un outil d'IA."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Amaka trie sa semaine",
+    "items": [
+     "Message de remerciement : l'IA rédige, elle édite",
+     "Résumé du rapport de 12 pages : IA, puis vérifiez les chiffres",
+     "Frais du CAC : elle consulte le site du CAC",
+     "Fièvre d'un enfant : elle s'adresse à une clinique",
+     "Idées de slogans : l’IA donne des idées, elle en choisit 2"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Un message de remerciement aux bénévoles : AI le rédige et elle édite les noms."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Amaka trie sa semaine",
+    "items": [
+     "Message de remerciement : l'IA rédige, elle édite",
+     "Résumé du rapport de 12 pages : IA, puis vérifiez les chiffres",
+     "Frais du CAC : elle consulte le site du CAC",
+     "Fièvre d'un enfant : elle s'adresse à une clinique",
+     "Idées de slogans : l’IA donne des idées, elle en choisit 2"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Résumé d'un rapport de 12 pages : elle utilise l'IA, puis vérifie chaque chiffre."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Amaka trie sa semaine",
+    "items": [
+     "Message de remerciement : l'IA rédige, elle édite",
+     "Résumé du rapport de 12 pages : IA, puis vérifiez les chiffres",
+     "Frais du CAC : elle consulte le site du CAC",
+     "Fièvre d'un enfant : elle s'adresse à une clinique",
+     "Idées de slogans : l’IA donne des idées, elle en choisit 2"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Les frais d'inscription actuels au CAC : elle consulte le site Internet du CAC et appelle le bureau."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Amaka trie sa semaine",
+    "items": [
+     "Message de remerciement : l'IA rédige, elle édite",
+     "Résumé du rapport de 12 pages : IA, puis vérifiez les chiffres",
+     "Frais du CAC : elle consulte le site du CAC",
+     "Fièvre d'un enfant : elle s'adresse à une clinique",
+     "Idées de slogans : l’IA donne des idées, elle en choisit 2"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Enfant d'un adhérent fiévreux : pas de chatbot. Elle oriente le membre vers une clinique."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Amaka trie sa semaine",
+    "items": [
+     "Message de remerciement : l'IA rédige, elle édite",
+     "Résumé du rapport de 12 pages : IA, puis vérifiez les chiffres",
+     "Frais du CAC : elle consulte le site du CAC",
+     "Fièvre d'un enfant : elle s'adresse à une clinique",
+     "Idées de slogans : l’IA donne des idées, elle en choisit 2"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Idées de slogan : l'IA en suggère dix et elle en choisit 2. Elle gagne du temps sans faire confiance à l'IA là où elle est faible."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Amaka trie sa semaine",
+    "items": [
+     "Message de remerciement : l'IA rédige, elle édite",
+     "Résumé du rapport de 12 pages : IA, puis vérifiez les chiffres",
+     "Frais du CAC : elle consulte le site du CAC",
+     "Fièvre d'un enfant : elle s'adresse à une clinique",
+     "Idées de slogans : l’IA donne des idées, elle en choisit 2"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "À retenir. L'IA générative crée du nouveau contenu à partir de votre invite. Il prédit les mots probables et ne vérifie pas les faits.",
+    "Il est fort aux brouillons et faible aux faits. Demandez à quel point il est fiable et quelle serait la gravité d'une erreur, et collez votre propre source."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "L'IA générative crée du nouveau contenu à partir d'une invite",
+     "Il prédit les mots probables ; il ne vérifie pas les faits",
+     "Fort aux dames, faible aux faits et aux détails locaux",
+     "Demandez : dans quelle mesure une erreur est-elle fiable et grave ?",
+     "Collez votre source et demandez des devis"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Maintenant, planifiez votre propre semaine. Notez 8 tâches réelles, marquez la fiabilité et les dommages, placez chacune sur la grille et encerclez les 2 où l'IA fait gagner le plus de temps en toute sécurité.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâche pratique",
+    "heading": "Votre tâche pratique",
+    "items": [
+     "Notez 8 vraies tâches de votre semaine",
+     "Marquez la fiabilité et les dommages de l'IA pour chacun",
+     "Placer chaque tâche sur la grille avec une action",
+     "Encerclez les 2 tâches pour lesquelles l'IA fait gagner le plus de temps"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

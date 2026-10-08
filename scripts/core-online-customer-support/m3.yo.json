@@ -1,0 +1,660 @@
+{
+ "course": "core-online-customer-support",
+ "module": "m3",
+ "title": "Tọpinpin gbogbo tikẹti, duro ooto, wiwọn iṣẹ rẹ",
+ "course_title": "Online Onibara Support",
+ "shots": [
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Tọpinpin gbogbo tikẹti, duro ooto, ki o wọn iṣẹ rẹ.",
+    "Eyi ni fidio fun module 3 ti Atilẹyin Onibara Ayelujara."
+   ]
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Tiketi jẹ igbasilẹ kan ti ibeere alabara kan, lati akoko ti o de titi o fi di pipade. Iwe Google ọfẹ kan le ṣe iṣẹ yii."
+   ],
+   "panel": {
+    "kicker": "Kini idi ti eyi ṣe pataki",
+    "heading": "Ko si ohun ti o da lori iranti rẹ",
+    "items": [
+     "Tiketi kan: ibeere kan, lati dide si pipade",
+     "Awọn eto imulo kikọ funni ni idahun ododo kanna",
+     "Metiriki tan Mo ṣiṣẹ takuntakun sinu eri"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Awọn eto imulo kikọ ati awọn FAQs tumọ si pe gbogbo alabara gba idahun ododo kanna."
+   ],
+   "panel": {
+    "kicker": "Kini idi ti eyi ṣe pataki",
+    "heading": "Ko si ohun ti o da lori iranti rẹ",
+    "items": [
+     "Tiketi kan: ibeere kan, lati dide si pipade",
+     "Awọn eto imulo kikọ funni ni idahun ododo kanna",
+     "Metiriki tan Mo ṣiṣẹ takuntakun sinu eri"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Ati awọn metiriki yipada Mo ṣiṣẹ takuntakun sinu ẹri ti agbanisiṣẹ le rii."
+   ],
+   "panel": {
+    "kicker": "Kini idi ti eyi ṣe pataki",
+    "heading": "Ko si ohun ti o da lori iranti rẹ",
+    "items": [
+     "Tiketi kan: ibeere kan, lati dide si pipade",
+     "Awọn eto imulo kikọ funni ni idahun ododo kanna",
+     "Metiriki tan Mo ṣiṣẹ takuntakun sinu eri"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Fun kọọkan tiketi nọmba kan, ki o si kọ awọn gidi akoko ti o ti gba."
+   ],
+   "panel": {
+    "kicker": "Olutọpa rẹ",
+    "heading": "Awọn ọwọn bọtini ninu iwe tikẹti rẹ",
+    "items": [
+     "Tiketi ID ati akoko gba",
+     "Onibara akọkọ orukọ ati ikanni",
+     "Ẹka ati ayo",
+     "Akoko idahun akọkọ ati ipo",
+     "Akoko ipinnu ati awọn akọsilẹ"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Ṣe akiyesi orukọ alabara akọkọ ati ikanni, nitorinaa o le wa iwiregbe lẹẹkansi."
+   ],
+   "panel": {
+    "kicker": "Olutọpa rẹ",
+    "heading": "Awọn ọwọn bọtini ninu iwe tikẹti rẹ",
+    "items": [
+     "Tiketi ID ati akoko gba",
+     "Onibara akọkọ orukọ ati ikanni",
+     "Ẹka ati ayo",
+     "Akoko idahun akọkọ ati ipo",
+     "Akoko ipinnu ati awọn akọsilẹ"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Yan ẹka kan, bii ifijiṣẹ tabi nkan ti ko tọ, ati pataki kan. Lo awọn atokọ silẹ ki gbogbo eniyan tẹ awọn ọrọ kanna."
+   ],
+   "panel": {
+    "kicker": "Olutọpa rẹ",
+    "heading": "Awọn ọwọn bọtini ninu iwe tikẹti rẹ",
+    "items": [
+     "Tiketi ID ati akoko gba",
+     "Onibara akọkọ orukọ ati ikanni",
+     "Ẹka ati ayo",
+     "Akoko idahun akọkọ ati ipo",
+     "Akoko ipinnu ati awọn akọsilẹ"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Ṣe igbasilẹ akoko idahun akọkọ rẹ ati ipo: Titun, Nduro fun alabara, Nduro fun wa, tabi Ti yanju."
+   ],
+   "panel": {
+    "kicker": "Olutọpa rẹ",
+    "heading": "Awọn ọwọn bọtini ninu iwe tikẹti rẹ",
+    "items": [
+     "Tiketi ID ati akoko gba",
+     "Onibara akọkọ orukọ ati ikanni",
+     "Ẹka ati ayo",
+     "Akoko idahun akọkọ ati ipo",
+     "Akoko ipinnu ati awọn akọsilẹ"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Nikẹhin, akoko ipinnu ati akọsilẹ kukuru ti ohun ti o ṣẹlẹ. Ni gbogbo aṣalẹ, àlẹmọ fun Nduro fun wa ati ṣeto awọn olurannileti.",
+    "Dabobo dì. Pinpin pẹlu awọn ẹlẹgbẹ ti o nilo rẹ, ati pe ko tọju awọn alaye banki tabi awọn nọmba ID ninu rẹ rara."
+   ],
+   "panel": {
+    "kicker": "Olutọpa rẹ",
+    "heading": "Awọn ọwọn bọtini ninu iwe tikẹti rẹ",
+    "items": [
+     "Tiketi ID ati akoko gba",
+     "Onibara akọkọ orukọ ati ikanni",
+     "Ẹka ati ayo",
+     "Akoko idahun akọkọ ati ipo",
+     "Akoko ipinnu ati awọn akọsilẹ"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Idojukọ giga tumọ si owo ti o gba ṣugbọn ko si ẹru, eyikeyi ọran aabo, tabi alabara kan ti o ti lepa lẹmeji. Fun apẹẹrẹ, Ruth forukọsilẹ fun alabara kan ti o san 23,000 naira ni ọjọ meji sẹhin laisi ifijiṣẹ. O lepa fifiranṣẹ ni ẹẹkan."
+   ],
+   "panel": {
+    "kicker": "Awọn ayo",
+    "heading": "Kini lati mu akọkọ",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Ga",
+      "d": "Owo ti o gba ṣugbọn ko si ẹru, awọn ọran ailewu bii ifa awọ, alabara kan ti o lepa lẹmeji."
+     },
+     {
+      "t": "Deede",
+      "d": "Nkan ti ko tọ, ifijiṣẹ pẹ sinu akoko ti o tọ, ọpọlọpọ awọn ẹdun ọkan."
+     },
+     {
+      "t": "Kekere",
+      "d": "Awọn ibeere gbogbogbo, awọn esi, awọn ibeere fun awọn ọja iwaju."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Ni ayo deede ni wiwa ohun kan ti ko tọ, ifijiṣẹ pẹ laarin akoko ti o tọ, ati ọpọlọpọ awọn ẹdun ọkan."
+   ],
+   "panel": {
+    "kicker": "Awọn ayo",
+    "heading": "Kini lati mu akọkọ",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Ga",
+      "d": "Owo ti o gba ṣugbọn ko si ẹru, awọn ọran ailewu bii ifa awọ, alabara kan ti o lepa lẹmeji."
+     },
+     {
+      "t": "Deede",
+      "d": "Nkan ti ko tọ, ifijiṣẹ pẹ sinu akoko ti o tọ, ọpọlọpọ awọn ẹdun ọkan."
+     },
+     {
+      "t": "Kekere",
+      "d": "Awọn ibeere gbogbogbo, awọn esi, awọn ibeere fun awọn ọja iwaju."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Ni ayo kekere ni wiwa awọn ibeere gbogbogbo ati esi. Dahun wọn, ṣugbọn lẹhin awọn ọran pajawiri."
+   ],
+   "panel": {
+    "kicker": "Awọn ayo",
+    "heading": "Kini lati mu akọkọ",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Ga",
+      "d": "Owo ti o gba ṣugbọn ko si ẹru, awọn ọran ailewu bii ifa awọ, alabara kan ti o lepa lẹmeji."
+     },
+     {
+      "t": "Deede",
+      "d": "Nkan ti ko tọ, ifijiṣẹ pẹ sinu akoko ti o tọ, ọpọlọpọ awọn ẹdun ọkan."
+     },
+     {
+      "t": "Kekere",
+      "d": "Awọn ibeere gbogbogbo, awọn esi, awọn ibeere fun awọn ọja iwaju."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_map",
+   "say": [
+    "Ti alabara ba ṣe ijabọ iṣesi awọ ara, aisan lẹhin ounjẹ, tabi mọnamọna lati ẹrọ kan, tọju rẹ bi pataki to gaju."
+   ],
+   "panel": {
+    "kicker": "Ailewu akọkọ",
+    "heading": "Nigbati alabara kan ṣe ijabọ ipalara",
+    "items": [
+     "Toju o bi High ni ayo",
+     "Han ibakcdun; maṣe jiyan",
+     "Imọran: da lilo rẹ duro, wa iranlọwọ iṣoogun",
+     "Beere fun orukọ ọja, nọmba ipele, awọn fọto",
+     "Lọ si oluwa lẹsẹkẹsẹ"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_map",
+   "say": [
+    "Han ibakcdun. Maṣe sọ rara, ko si ẹnikan ti o rojọ."
+   ],
+   "panel": {
+    "kicker": "Ailewu akọkọ",
+    "heading": "Nigbati alabara kan ṣe ijabọ ipalara",
+    "items": [
+     "Toju o bi High ni ayo",
+     "Han ibakcdun; maṣe jiyan",
+     "Imọran: da lilo rẹ duro, wa iranlọwọ iṣoogun",
+     "Beere fun orukọ ọja, nọmba ipele, awọn fọto",
+     "Lọ si oluwa lẹsẹkẹsẹ"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_map",
+   "say": [
+    "Gba ọ ni imọran lati da lilo ọja naa duro ati lati wo dokita tabi oniwosan oogun ti o ba ni awọn ami aisan."
+   ],
+   "panel": {
+    "kicker": "Ailewu akọkọ",
+    "heading": "Nigbati alabara kan ṣe ijabọ ipalara",
+    "items": [
+     "Toju o bi High ni ayo",
+     "Han ibakcdun; maṣe jiyan",
+     "Imọran: da lilo rẹ duro, wa iranlọwọ iṣoogun",
+     "Beere fun orukọ ọja, nọmba ipele, awọn fọto",
+     "Lọ si oluwa lẹsẹkẹsẹ"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Beere fun orukọ ọja, nọmba ipele ati awọn fọto."
+   ],
+   "panel": {
+    "kicker": "Ailewu akọkọ",
+    "heading": "Nigbati alabara kan ṣe ijabọ ipalara",
+    "items": [
+     "Toju o bi High ni ayo",
+     "Han ibakcdun; maṣe jiyan",
+     "Imọran: da lilo rẹ duro, wa iranlọwọ iṣoogun",
+     "Beere fun orukọ ọja, nọmba ipele, awọn fọto",
+     "Lọ si oluwa lẹsẹkẹsẹ"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Lọ si oluwa lẹsẹkẹsẹ. Ounjẹ, oogun ati ohun ikunra ṣubu labẹ NAFDAC, ati pe oniwun le nilo lati ṣiṣẹ lori ipele naa."
+   ],
+   "panel": {
+    "kicker": "Ailewu akọkọ",
+    "heading": "Nigbati alabara kan ṣe ijabọ ipalara",
+    "items": [
+     "Toju o bi High ni ayo",
+     "Han ibakcdun; maṣe jiyan",
+     "Imọran: da lilo rẹ duro, wa iranlọwọ iṣoogun",
+     "Beere fun orukọ ọja, nọmba ipele, awọn fọto",
+     "Lọ si oluwa lẹsẹkẹsẹ"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Ranti, o ko funni ni imọran iṣoogun ati daba ko si awọn itọju."
+   ],
+   "panel": {
+    "kicker": "Ailewu akọkọ",
+    "heading": "Nigbati alabara kan ṣe ijabọ ipalara",
+    "items": [
+     "Toju o bi High ni ayo",
+     "Han ibakcdun; maṣe jiyan",
+     "Imọran: da lilo rẹ duro, wa iranlọwọ iṣoogun",
+     "Beere fun orukọ ọja, nọmba ipele, awọn fọto",
+     "Lọ si oluwa lẹsẹkẹsẹ"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Iwọ kii ṣe alamọdaju ilera. Ma ṣe daba awọn itọju.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Awọn alabara gbekele iṣowo ti o tọju ọrọ rẹ. Nítorí náà, má ṣe ṣèlérí ohun tí o kò lè ṣàkóso, má ṣe fi àwọn ìṣòro tí a mọ̀ mọ́ra pa mọ́, má sì ṣe sọ ìdí kan."
+   ],
+   "panel": {
+    "kicker": "Otitọ",
+    "heading": "Atilẹyin otitọ, ni gbogbo igba",
+    "mode": "compare",
+    "left_h": "Àìṣòótọ́",
+    "left": [
+     "Dajudaju yoo de Ọjọbọ",
+     "Nọmbafoonu a mọ idaduro",
+     "Titẹ lati pa awọn ẹdun rẹ",
+     "Idi ti a ṣe"
+    ],
+    "right_h": "Otitọ",
+    "right": [
+     "Oluranse naa ṣe iṣiro Ọjọbọ",
+     "Sọ fun awọn onibara ti nduro ni akọkọ",
+     "Ṣe atunṣe iṣoro naa dipo",
+     "Emi yoo mu ọ dojuiwọn ni agogo meji alẹ"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Sọ Oluranse ifoju Thursday. Sọ fun awọn onibara ti nduro nipa idaduro ṣaaju ki wọn lepa ọ. Ati nigbati o ko ba mọ, sọ: Emi yoo wa jade ki o si mu o nipa 2 pm."
+   ],
+   "panel": {
+    "kicker": "Otitọ",
+    "heading": "Atilẹyin otitọ, ni gbogbo igba",
+    "mode": "compare",
+    "left_h": "Àìṣòótọ́",
+    "left": [
+     "Dajudaju yoo de Ọjọbọ",
+     "Nọmbafoonu a mọ idaduro",
+     "Titẹ lati pa awọn ẹdun rẹ",
+     "Idi ti a ṣe"
+    ],
+    "right_h": "Otitọ",
+    "right": [
+     "Oluranse naa ṣe iṣiro Ọjọbọ",
+     "Sọ fun awọn onibara ti nduro ni akọkọ",
+     "Ṣe atunṣe iṣoro naa dipo",
+     "Emi yoo mu ọ dojuiwọn ni agogo meji alẹ"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Akoko idahun akọkọ jẹ bii awọn alabara ṣe duro de idahun eniyan akọkọ. Ada àkọọlẹ 5 tiketi. Awọn idaduro jẹ 7, 25, 6, 48 ati 14 iṣẹju."
+   ],
+   "panel": {
+    "kicker": "Awọn iwọn",
+    "heading": "Akoko idahun akọkọ, ṣiṣẹ jade",
+    "items": [
+     "Fun tikẹti kọọkan: esi akọkọ iyokuro akoko ti o gba",
+     "Fi gbogbo awọn akoko idaduro kun",
+     "Pin nipasẹ awọn nọmba ti tiketi",
+     "Ṣayẹwo idaduro to gun julọ paapaa"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Ni afikun, iyẹn jẹ iṣẹju 100."
+   ],
+   "panel": {
+    "kicker": "Awọn iwọn",
+    "heading": "Akoko idahun akọkọ, ṣiṣẹ jade",
+    "items": [
+     "Fun tikẹti kọọkan: esi akọkọ iyokuro akoko ti o gba",
+     "Fi gbogbo awọn akoko idaduro kun",
+     "Pin nipasẹ awọn nọmba ti tiketi",
+     "Ṣayẹwo idaduro to gun julọ paapaa"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Pin nipasẹ awọn tikẹti 5, ati apapọ rẹ jẹ iṣẹju 20."
+   ],
+   "panel": {
+    "kicker": "Awọn iwọn",
+    "heading": "Akoko idahun akọkọ, ṣiṣẹ jade",
+    "items": [
+     "Fun tikẹti kọọkan: esi akọkọ iyokuro akoko ti o gba",
+     "Fi gbogbo awọn akoko idaduro kun",
+     "Pin nipasẹ awọn nọmba ti tiketi",
+     "Ṣayẹwo idaduro to gun julọ paapaa"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_map",
+   "say": [
+    "Apapọ le tọju awọn iṣoro. Tiketi kan duro fun iṣẹju 48, lakoko ti Ada wa ni ipade kan. Nitorinaa o gbero lati ṣayẹwo awọn ibaraẹnisọrọ laarin awọn ipade."
+   ],
+   "panel": {
+    "kicker": "Awọn iwọn",
+    "heading": "Akoko idahun akọkọ, ṣiṣẹ jade",
+    "items": [
+     "Fun tikẹti kọọkan: esi akọkọ iyokuro akoko ti o gba",
+     "Fi gbogbo awọn akoko idaduro kun",
+     "Pin nipasẹ awọn nọmba ti tiketi",
+     "Ṣayẹwo idaduro to gun julọ paapaa"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_map",
+   "say": [
+    "Idahun eniyan gidi nikan ni o ka bi esi akọkọ."
+   ],
+   "panel": {
+    "kicker": "Awọn iwọn",
+    "heading": "Akoko idahun akọkọ, ṣiṣẹ jade",
+    "items": [
+     "Fun tikẹti kọọkan: esi akọkọ iyokuro akoko ti o gba",
+     "Fi gbogbo awọn akoko idaduro kun",
+     "Pin nipasẹ awọn nọmba ti tiketi",
+     "Ṣayẹwo idaduro to gun julọ paapaa"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Ikini aifọwọyi ati awọn ifiranṣẹ kuro ko ka.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "O ga oṣuwọn ti wa ni resolved tiketi pin nipa tiketi gba, igba 100. Ada resolved 72 ti 80, ki 90%."
+   ],
+   "panel": {
+    "kicker": "Awọn iwọn",
+    "heading": "Ada ká ọsẹ ni meta awọn nọmba",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Oṣuwọn ipinnu 90%",
+      "d": "72 pinnu ninu 80 ti a gba, igba 100."
+     },
+     {
+      "t": "Olubasọrọ akọkọ 62.5%",
+      "d": "45 yanju ni akọkọ esi, jade ti 72 resolved."
+     },
+     {
+      "t": "CSAT 85%",
+      "d": "Awọn onibara 34 fun 4 tabi 5, ninu awọn idahun 40."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Ipinnu olubasọrọ akọkọ jẹ ipinnu ipinnu ni idahun akọkọ. 45 ti 72 yoo fun 62.5%."
+   ],
+   "panel": {
+    "kicker": "Awọn iwọn",
+    "heading": "Ada ká ọsẹ ni meta awọn nọmba",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Oṣuwọn ipinnu 90%",
+      "d": "72 pinnu ninu 80 ti a gba, igba 100."
+     },
+     {
+      "t": "Olubasọrọ akọkọ 62.5%",
+      "d": "45 yanju ni akọkọ esi, jade ti 72 resolved."
+     },
+     {
+      "t": "CSAT 85%",
+      "d": "Awọn onibara 34 fun 4 tabi 5, ninu awọn idahun 40."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "CSAT, itẹlọrun alabara, jẹ awọn iwọn idunnu ti o pin nipasẹ gbogbo awọn idahun. 34 ti 40 fun 4 tabi 5, nitorina 85%. Nigbagbogbo sọ iye awọn onibara ti o dahun.",
+    "Ati ki o maṣe pa awọn tikẹti ni kiakia ju lati gbe nọmba kan soke. Iyẹn dinku itẹlọrun."
+   ],
+   "panel": {
+    "kicker": "Awọn iwọn",
+    "heading": "Ada ká ọsẹ ni meta awọn nọmba",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Oṣuwọn ipinnu 90%",
+      "d": "72 pinnu ninu 80 ti a gba, igba 100."
+     },
+     {
+      "t": "Olubasọrọ akọkọ 62.5%",
+      "d": "45 yanju ni akọkọ esi, jade ti 72 resolved."
+     },
+     {
+      "t": "CSAT 85%",
+      "d": "Awọn onibara 34 fun 4 tabi 5, ninu awọn idahun 40."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Lati ranti. Wọle gbogbo ibeere bi tikẹti kan. Owo ati ailewu wa akọkọ. Fun eyikeyi ipalara, ni imọran didaduro lilo ati mu soke ni ẹẹkan.",
+    "Kọ awọn FAQ rẹ lati awọn ẹka ti o wọpọ julọ. Ati pari gbogbo ijabọ oju-iwe idaji-meji ni ọsẹ kọọkan pẹlu iṣe kan."
+   ],
+   "panel": {
+    "kicker": "Awọn ojuami pataki",
+    "heading": "Ranti",
+    "items": [
+     "Wọle gbogbo ibeere bi tikẹti kan",
+     "Ga ni ayo: owo, ailewu, lé lemeji",
+     "Ẹdun aabo: da lilo duro, pọ si, ko si imọran iṣoogun",
+     "Kọ awọn FAQs lati awọn ẹka tikẹti oke rẹ",
+     "Gbogbo ijabọ ọsẹ pari pẹlu iṣe kan"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Iyipada rẹ. Kọ olutọpa rẹ ki o wọle o kere ju awọn tikẹti 10. Kọ eto imulo oju-iwe kan, awọn idahun FAQ mẹta ati awọn ipele escalation mẹta. Lẹhinna ṣe iṣiro awọn metiriki rẹ ki o kọ ijabọ oju-iwe idaji kan pẹlu iṣe kan.",
+    "Tẹsiwaju pẹlu awọn ẹkọ ni isalẹ."
+   ],
+   "panel": {
+    "kicker": "Ṣiṣe awọn iṣẹ ṣiṣe",
+    "heading": "Awọn iṣẹ ṣiṣe adaṣe rẹ",
+    "items": [
+     "Kọ olutọpa kan ki o wọle o kere ju awọn tikẹti 10",
+     "Kọ eto imulo oju-iwe kan ati awọn FAQ mẹta",
+     "Kọ mẹta escalation awọn ipele",
+     "Ṣe iṣiro awọn metiriki rẹ ki o kọ ijabọ kan"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

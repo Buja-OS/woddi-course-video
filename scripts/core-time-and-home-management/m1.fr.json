@@ -1,0 +1,527 @@
+{
+ "course": "core-time-and-home-management",
+ "module": "m1",
+ "title": "Trouvez vos heures : comptez votre semaine et réalisez un audit des temps",
+ "course_title": "Gestion du temps et de la maison",
+ "shots": [
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Trouvez vos heures : comptez votre semaine et effectuez un audit des temps.",
+    "Ceci est la vidéo du module 1, Comprendre votre temps."
+   ]
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Chaque semaine compte exactement 168 heures. Cela fait 7 jours de 24 heures. Personne n’en obtient plus.",
+    "Ce qui diffère d’une femme à l’autre, c’est la part de ce temps déjà réservée."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Chaque semaine compte 168 heures",
+    "items": [
+     "Personne n'a droit à plus de 168 heures",
+     "Heure fixe : difficile de se déplacer",
+     "Horaires flexibles : le reste, souvent en fuite",
+     "L’énergie compte autant que les heures"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Le temps fixe est le temps que vous ne pouvez pas facilement déplacer. Le sommeil, vos heures de travail ou de magasin, le fonctionnement de l'école, la préparation du repas principal, les services de culte auxquels vous assistez chaque semaine."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Chaque semaine compte 168 heures",
+    "items": [
+     "Personne n'a droit à plus de 168 heures",
+     "Heure fixe : difficile de se déplacer",
+     "Horaires flexibles : le reste, souvent en fuite",
+     "L’énergie compte autant que les heures"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Les horaires flexibles sont tout le reste. Pour la plupart des femmes, il est plus gros qu’il n’y paraît, car il s’écoule en petits morceaux de 10 à 20 minutes."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Chaque semaine compte 168 heures",
+    "items": [
+     "Personne n'a droit à plus de 168 heures",
+     "Heure fixe : difficile de se déplacer",
+     "Horaires flexibles : le reste, souvent en fuite",
+     "L’énergie compte autant que les heures"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Et l’énergie compte. Une heure à 6 heures du matin après un bon sommeil n'est pas la même chose qu'une heure à 22 heures. Utilisez vos meilleures heures pour réfléchir au travail."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Chaque semaine compte 168 heures",
+    "items": [
+     "Personne n'a droit à plus de 168 heures",
+     "Heure fixe : difficile de se déplacer",
+     "Horaires flexibles : le reste, souvent en fuite",
+     "L’énergie compte autant que les heures"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Par exemple, Ngozi gère un petit magasin de provisions à Enugu et a deux enfants. Elle note ses horaires fixes avec un crayon.",
+    "La plupart des adultes ont besoin de 7 heures de sommeil ou plus, donc 7 heures fois 7 nuits équivalent à 49 heures."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Ngozi compte ses heures fixes",
+    "items": [
+     "Sommeil : 7 heures x 7 nuits = 49 heures",
+     "Boutique : 9 heures x 6 jours = 54 heures",
+     "Course scolaire et marché : environ 9 heures",
+     "Cuisine, vaisselle, lessive : 17,5 heures",
+     "Église : environ 5 heures",
+     "Fixe 134,5 heures. Flexible 33,5 heures"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Sa boutique est ouverte 9 heures par jour, 6 jours par semaine. Cela fait 54 heures."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Ngozi compte ses heures fixes",
+    "items": [
+     "Sommeil : 7 heures x 7 nuits = 49 heures",
+     "Boutique : 9 heures x 6 jours = 54 heures",
+     "Course scolaire et marché : environ 9 heures",
+     "Cuisine, vaisselle, lessive : 17,5 heures",
+     "Église : environ 5 heures",
+     "Fixe 134,5 heures. Flexible 33,5 heures"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Les courses scolaires et les sorties au marché durent environ 1h30 par jour pendant 6 jours, soit 9 heures."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Ngozi compte ses heures fixes",
+    "items": [
+     "Sommeil : 7 heures x 7 nuits = 49 heures",
+     "Boutique : 9 heures x 6 jours = 54 heures",
+     "Course scolaire et marché : environ 9 heures",
+     "Cuisine, vaisselle, lessive : 17,5 heures",
+     "Église : environ 5 heures",
+     "Fixe 134,5 heures. Flexible 33,5 heures"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "La cuisine, la vaisselle et la lessive prennent environ 2,5 heures par jour. Sur 7 jours, cela fait 17,5 heures."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Ngozi compte ses heures fixes",
+    "items": [
+     "Sommeil : 7 heures x 7 nuits = 49 heures",
+     "Boutique : 9 heures x 6 jours = 54 heures",
+     "Course scolaire et marché : environ 9 heures",
+     "Cuisine, vaisselle, lessive : 17,5 heures",
+     "Église : environ 5 heures",
+     "Fixe 134,5 heures. Flexible 33,5 heures"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "L'église le dimanche et le service en milieu de semaine durent environ 5 heures."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Ngozi compte ses heures fixes",
+    "items": [
+     "Sommeil : 7 heures x 7 nuits = 49 heures",
+     "Boutique : 9 heures x 6 jours = 54 heures",
+     "Course scolaire et marché : environ 9 heures",
+     "Cuisine, vaisselle, lessive : 17,5 heures",
+     "Église : environ 5 heures",
+     "Fixe 134,5 heures. Flexible 33,5 heures"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Son temps fixe totalise 134,5 heures. Prenez cela de 168 et elle a 33,5 heures flexibles. Elle avait cru qu'elle n'en avait pas."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Ngozi compte ses heures fixes",
+    "items": [
+     "Sommeil : 7 heures x 7 nuits = 49 heures",
+     "Boutique : 9 heures x 6 jours = 54 heures",
+     "Course scolaire et marché : environ 9 heures",
+     "Cuisine, vaisselle, lessive : 17,5 heures",
+     "Église : environ 5 heures",
+     "Fixe 134,5 heures. Flexible 33,5 heures"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "La mémoire n'est pas fiable, donc un audit du temps signifie écrire ce que vous avez réellement fait, au fur et à mesure, pendant une semaine.",
+    "Première étape. Choisissez une semaine normale, pas une période de fêtes."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Effectuer un audit des temps sur sept jours",
+    "items": [
+     "Choisissez une semaine normale, pas festive",
+     "Faites un journal par lignes de 30 minutes",
+     "Remplissez-le toutes les deux ou trois heures",
+     "Soyez honnête sur ce qui s'est réellement passé",
+     "Étiquetez chaque bloc avec une lettre de catégorie"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Deuxième étape. Faites un journal sur une page de cahier ou sur un téléphone, par lignes de 30 minutes, du réveil au sommeil."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Effectuer un audit des temps sur sept jours",
+    "items": [
+     "Choisissez une semaine normale, pas festive",
+     "Faites un journal par lignes de 30 minutes",
+     "Remplissez-le toutes les deux ou trois heures",
+     "Soyez honnête sur ce qui s'est réellement passé",
+     "Étiquetez chaque bloc avec une lettre de catégorie"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Troisième étape. Toutes les deux ou trois heures, arrêtez-vous et indiquez ce que vous avez fait dans chaque bloc."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Effectuer un audit des temps sur sept jours",
+    "items": [
+     "Choisissez une semaine normale, pas festive",
+     "Faites un journal par lignes de 30 minutes",
+     "Remplissez-le toutes les deux ou trois heures",
+     "Soyez honnête sur ce qui s'est réellement passé",
+     "Étiquetez chaque bloc avec une lettre de catégorie"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Quatrième étape. Soyez honnête. Écrivez au téléphone, sur TikTok ou discutez avec un voisin, si c'est ce qui s'est produit. Personne d'autre n'a besoin de le voir."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Effectuer un audit des temps sur sept jours",
+    "items": [
+     "Choisissez une semaine normale, pas festive",
+     "Faites un journal par lignes de 30 minutes",
+     "Remplissez-le toutes les deux ou trois heures",
+     "Soyez honnête sur ce qui s'est réellement passé",
+     "Étiquetez chaque bloc avec une lettre de catégorie"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Cinquième étape. À la fin de chaque journée, marquez chaque bloc avec une lettre. W pour travail, H pour maison, C pour soins, T pour voyage et attente, P pour téléphone, R pour repos et S pour social.",
+    "La règle essentielle est de le remplir au fur et à mesure. Attendre la nuit, c'est oublier les petites fuites."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Effectuer un audit des temps sur sept jours",
+    "items": [
+     "Choisissez une semaine normale, pas festive",
+     "Faites un journal par lignes de 30 minutes",
+     "Remplissez-le toutes les deux ou trois heures",
+     "Soyez honnête sur ce qui s'est réellement passé",
+     "Étiquetez chaque bloc avec une lettre de catégorie"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Remplissez le journal au fur et à mesure. N'attendez pas la nuit.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Après sept jours, comptez les blocs pour chaque lettre et divisez par deux pour obtenir des heures. Comparez ensuite avec votre estimation.",
+    "Par exemple, Halima, une enseignante à Kaduna qui prépare des gâteaux, a deviné environ 1 heure par jour sur son téléphone."
+   ],
+   "panel": {
+    "kicker": "Lire les résultats",
+    "heading": "Halima : sa supposition et son journal",
+    "mode": "compare",
+    "left_h": "Elle a deviné",
+    "left": [
+     "Environ 1h par jour au téléphone",
+     "7 heures de téléphone par semaine"
+    ],
+    "right_h": "Son journal montrait",
+    "right": [
+     "46 blocs téléphoniques = 23 heures",
+     "Environ 3,3 heures par jour",
+     "Un écart de 16 heures"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Son journal indiquait 46 blocs de temps passé au téléphone. 46 divisé par 2 équivaut à 23 heures, soit environ 3,3 heures par jour. L'écart est de 16 heures.",
+    "Elle a apporté un changement : pas de réseaux sociaux avant que ses commandes de pâtisseries ne soient terminées, en utilisant une minuterie d'application."
+   ],
+   "panel": {
+    "kicker": "Lire les résultats",
+    "heading": "Halima : sa supposition et son journal",
+    "mode": "compare",
+    "left_h": "Elle a deviné",
+    "left": [
+     "Environ 1h par jour au téléphone",
+     "7 heures de téléphone par semaine"
+    ],
+    "right_h": "Son journal montrait",
+    "right": [
+     "46 blocs téléphoniques = 23 heures",
+     "Environ 3,3 heures par jour",
+     "Un écart de 16 heures"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Réduire deux ou trois des plus grosses fuites peut libérer plusieurs heures par semaine. Le téléphone passe généralement en premier : le temps passé au téléphone est souvent deux à trois fois plus long que ce que les gens pensent."
+   ],
+   "panel": {
+    "kicker": "Fuites courantes",
+    "heading": "Trois grosses pertes de temps, trois correctifs",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Le téléphone",
+      "d": "Réglez les minuteries des applications, coupez le son des groupes WhatsApp occupés et répondez aux messages à deux ou trois heures fixes."
+     },
+     {
+      "t": "Rechercher des choses",
+      "d": "Un emplacement fixe pour chaque élément : un crochet pour les clés, un dossier pour les documents et reçus."
+     },
+     {
+      "t": "Visites de marché supplémentaires",
+      "d": "Gardez une liste de courses sur le réfrigérateur ou sur le téléphone et allez au marché une fois par semaine."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Rechercher des choses en est une autre. Donnez à chaque objet une place fixe, comme un crochet pour les clés et une boîte à dossiers pour les reçus et les papiers scolaires."
+   ],
+   "panel": {
+    "kicker": "Fuites courantes",
+    "heading": "Trois grosses pertes de temps, trois correctifs",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Le téléphone",
+      "d": "Réglez les minuteries des applications, coupez le son des groupes WhatsApp occupés et répondez aux messages à deux ou trois heures fixes."
+     },
+     {
+      "t": "Rechercher des choses",
+      "d": "Un emplacement fixe pour chaque élément : un crochet pour les clés, un dossier pour les documents et reçus."
+     },
+     {
+      "t": "Visites de marché supplémentaires",
+      "d": "Gardez une liste de courses sur le réfrigérateur ou sur le téléphone et allez au marché une fois par semaine."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Les petits déplacements au marché pour un article manquant coûtent beaucoup de temps de trajet. Une liste hebdomadaire corrige une grande partie de cela.",
+    "Par exemple, Funke à Ibadan a fait les trois et a récupéré environ 2 heures par jour."
+   ],
+   "panel": {
+    "kicker": "Fuites courantes",
+    "heading": "Trois grosses pertes de temps, trois correctifs",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Le téléphone",
+      "d": "Réglez les minuteries des applications, coupez le son des groupes WhatsApp occupés et répondez aux messages à deux ou trois heures fixes."
+     },
+     {
+      "t": "Rechercher des choses",
+      "d": "Un emplacement fixe pour chaque élément : un crochet pour les clés, un dossier pour les documents et reçus."
+     },
+     {
+      "t": "Visites de marché supplémentaires",
+      "d": "Gardez une liste de courses sur le réfrigérateur ou sur le téléphone et allez au marché une fois par semaine."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Parfois, le problème est l’énergie et non le temps. Cochez-les chaque soir pendant une semaine.",
+    "Si vous vous sentez épuisé la plupart du temps, même après le repos, ou si vous vous sentez faible pendant des semaines, consultez un médecin ou un agent de santé. La fatigue persistante peut avoir des causes médicales, comme l'anémie."
+   ],
+   "panel": {
+    "kicker": "Chaque soir",
+    "heading": "Bilan énergétique quotidien",
+    "items": [
+     "J'ai dormi 7 heures ou plus",
+     "A pris un bon petit-déjeuner",
+     "J'ai bu de l'eau toute la journée",
+     "Espace de travail effacé",
+     "Des soucis écrits"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "À retenir. Comptez vos horaires fixes pour trouver vos horaires flexibles. Enregistrez votre vraie semaine. Réparez d’abord les plus grosses fuites. Réfléchissez pendant vos heures les plus énergiques. Et commencez petit, avec deux habitudes et un bilan hebdomadaire de 15 minutes."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "168 heures par semaine : comptez les horaires fixes pour en trouver des horaires flexibles",
+     "Enregistrez votre vraie semaine en blocs de 30 minutes",
+     "Réparez d’abord les deux ou trois plus grosses fuites",
+     "Penser au travail pendant vos heures les plus énergiques",
+     "Commencez petit : deux habitudes et un bilan hebdomadaire"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "C'est maintenant votre tour. Comptez votre semaine, effectuez votre audit de sept jours, réparez trois fuites et conservez deux habitudes pendant deux semaines.",
+    "L’audit est une information et non un jugement, alors soyez indulgent avec vous-même. Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâche pratique",
+    "heading": "Vos tâches pratiques",
+    "items": [
+     "Comptez votre semaine sur une seule feuille",
+     "Exécutez votre audit de sept jours",
+     "Réparer trois fuites",
+     "Gardez deux habitudes pendant deux semaines"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

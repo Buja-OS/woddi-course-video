@@ -1,0 +1,566 @@
+{
+ "course": "core-digital-payments-and-pos-basics",
+ "module": "m2",
+ "title": "Awọn apamọwọ, awọn gbigbe, USSD ati awọn owo-owo: ṣiṣe ni deede ni gbogbo igba",
+ "course_title": "Awọn sisanwo oni-nọmba & Awọn ipilẹ POS",
+ "shots": [
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Awọn apamọwọ, awọn gbigbe, USSD ati awọn owo-owo: ṣiṣe ni deede ni gbogbo igba.",
+    "Eyi ni fidio fun module 2 ti Awọn sisanwo oni-nọmba ati Awọn ipilẹ POS."
+   ]
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Gbigbe gba to kere ju iṣẹju kan, ṣugbọn ọpọlọpọ awọn aṣiṣe ṣẹlẹ ni iṣẹju yẹn. Nitorinaa iwọ yoo kọ ẹkọ iṣe deede."
+   ],
+   "panel": {
+    "kicker": "Kini idi ti eyi ṣe pataki",
+    "heading": "Pupọ awọn aṣiṣe ṣẹlẹ ni iṣẹju kan",
+    "items": [
+     "Ṣayẹwo ohun elo apamọwọ ṣaaju ki o to gbẹkẹle",
+     "Firanṣẹ gbigbe pẹlu iṣẹ ṣiṣe",
+     "Sanwo laisi data, lilo USSD",
+     "Gba owo laisi ẹtan"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Iwọ yoo tun sanwo laisi intanẹẹti, san awọn owo, ati gba owo lailewu."
+   ],
+   "panel": {
+    "kicker": "Kini idi ti eyi ṣe pataki",
+    "heading": "Pupọ awọn aṣiṣe ṣẹlẹ ni iṣẹju kan",
+    "items": [
+     "Ṣayẹwo ohun elo apamọwọ ṣaaju ki o to gbẹkẹle",
+     "Firanṣẹ gbigbe pẹlu iṣẹ ṣiṣe",
+     "Sanwo laisi data, lilo USSD",
+     "Gba owo laisi ẹtan"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Awọn ohun elo apamọwọ bii Opay, PalmPay ati Moniepoint gbọdọ jẹ ṣiṣe nipasẹ awọn ile-iṣẹ ti o ni iwe-aṣẹ. Fun apẹẹrẹ, Joy, oluṣe irun kan ni Port Harcourt, ri awọn ohun elo meji pẹlu aami kanna, o si yan eyi ti olutẹwe rẹ baamu ile-iṣẹ naa.",
+    "O rii alaye iwe-aṣẹ, lo nọmba tirẹ, ṣeto PIN to lagbara ati atilẹyin ti o fipamọ. Ko si alaye iwe-aṣẹ? Maṣe tọju owo nibẹ."
+   ],
+   "panel": {
+    "kicker": "Ṣaaju ki o to lo apamọwọ kan",
+    "heading": "Awọn sọwedowo marun fun ohun elo apamọwọ eyikeyi",
+    "items": [
+     "Alaye iwe-aṣẹ ri",
+     "Orukọ atẹjade baamu ile-iṣẹ naa",
+     "Ti forukọsilẹ pẹlu nọmba foonu tirẹ",
+     "PIN ti o lagbara ati titiipa app",
+     "Ikanni atilẹyin ti o fipamọ"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Fun apẹẹrẹ, Grace ni Abuja san owo ile-iwe ti 45,000 naira. O tẹ nọmba akọọlẹ naa lati isokuso ọya ati ṣayẹwo rẹ ni awọn ẹgbẹ ti awọn nọmba 3, 3 ati 4."
+   ],
+   "panel": {
+    "kicker": "Ilana gbigbe",
+    "heading": "Awọn igbesẹ mẹfa, ni gbogbo igba kan",
+    "items": [
+     "Yan banki, tẹ nọmba sii",
+     "Ka orukọ naa soke",
+     "Ṣayẹwo iye ati awọn odo",
+     "Ṣafikun alaye asọye",
+     "Ka owo naa, lẹhinna fọwọsi",
+     "Fi iwe-ẹri pamọ"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Ìfilọlẹ naa fihan orukọ ile-iwe ti a forukọsilẹ. O baramu isokuso."
+   ],
+   "panel": {
+    "kicker": "Ilana gbigbe",
+    "heading": "Awọn igbesẹ mẹfa, ni gbogbo igba kan",
+    "items": [
+     "Yan banki, tẹ nọmba sii",
+     "Ka orukọ naa soke",
+     "Ṣayẹwo iye ati awọn odo",
+     "Ṣafikun alaye asọye",
+     "Ka owo naa, lẹhinna fọwọsi",
+     "Fi iwe-ẹri pamọ"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "O sọwedowo iboju sọ 45,000, kii ṣe 4,500 tabi 450,000."
+   ],
+   "panel": {
+    "kicker": "Ilana gbigbe",
+    "heading": "Awọn igbesẹ mẹfa, ni gbogbo igba kan",
+    "items": [
+     "Yan banki, tẹ nọmba sii",
+     "Ka orukọ naa soke",
+     "Ṣayẹwo iye ati awọn odo",
+     "Ṣafikun alaye asọye",
+     "Ka owo naa, lẹhinna fọwọsi",
+     "Fi iwe-ẹri pamọ"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Ninu alaye naa o tẹ orukọ ọmọ rẹ, kilasi ati awọn idiyele igba keji, nitorinaa bursar le baamu rẹ."
+   ],
+   "panel": {
+    "kicker": "Ilana gbigbe",
+    "heading": "Awọn igbesẹ mẹfa, ni gbogbo igba kan",
+    "items": [
+     "Yan banki, tẹ nọmba sii",
+     "Ka orukọ naa soke",
+     "Ṣayẹwo iye ati awọn odo",
+     "Ṣafikun alaye asọye",
+     "Ka owo naa, lẹhinna fọwọsi",
+     "Fi iwe-ẹri pamọ"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "O ka owo naa, ṣayẹwo iwọntunwọnsi rẹ, o tẹ PIN rẹ sii, o si fi iwe-ẹri pamọ sinu folda foonu kan."
+   ],
+   "panel": {
+    "kicker": "Ilana gbigbe",
+    "heading": "Awọn igbesẹ mẹfa, ni gbogbo igba kan",
+    "items": [
+     "Yan banki, tẹ nọmba sii",
+     "Ka orukọ naa soke",
+     "Ṣayẹwo iye ati awọn odo",
+     "Ṣafikun alaye asọye",
+     "Ka owo naa, lẹhinna fọwọsi",
+     "Fi iwe-ẹri pamọ"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Ifiranṣẹ ti o sọ pe olupese tabi ile-iwe ni akọọlẹ tuntun jẹ ẹtan ti o wọpọ. Jẹrisi nipa pipe nọmba ti o ni tẹlẹ.",
+    "Ti o ba firanṣẹ si akọọlẹ aṣiṣe, jabo si banki rẹ ni ẹẹkan pẹlu ID igba."
+   ],
+   "panel": {
+    "kicker": "Ilana gbigbe",
+    "heading": "Awọn igbesẹ mẹfa, ni gbogbo igba kan",
+    "items": [
+     "Yan banki, tẹ nọmba sii",
+     "Ka orukọ naa soke",
+     "Ṣayẹwo iye ati awọn odo",
+     "Ṣafikun alaye asọye",
+     "Ka owo naa, lẹhinna fọwọsi",
+     "Fi iwe-ẹri pamọ"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "rule": "Iwe akọọlẹ tuntun fun olupese kan? Pe nọmba ti o gbẹkẹle tẹlẹ.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "USSD jẹ koodu kukuru ti o bẹrẹ pẹlu irawọ kan ti o pari pẹlu hash. O ṣiṣẹ lori foonu eyikeyi pẹlu ifihan agbara, laisi data. Gba koodu lati kaadi rẹ tabi oju opo wẹẹbu banki rẹ."
+   ],
+   "panel": {
+    "kicker": "USSD",
+    "heading": "Sisanwo pẹlu ko si data",
+    "items": [
+     "Gba koodu lati kaadi rẹ tabi oju opo wẹẹbu banki rẹ",
+     "Lo SIM ti a forukọsilẹ si akọọlẹ rẹ",
+     "Kọ awọn alaye silẹ ṣaaju ki o to tẹ",
+     "Ṣayẹwo orukọ naa, lẹhinna tẹ PIN USSD rẹ sii"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "O ṣiṣẹ nikan pẹlu SIM ti a forukọsilẹ si akọọlẹ rẹ. Iyẹn jẹ apakan ti aabo rẹ."
+   ],
+   "panel": {
+    "kicker": "USSD",
+    "heading": "Sisanwo pẹlu ko si data",
+    "items": [
+     "Gba koodu lati kaadi rẹ tabi oju opo wẹẹbu banki rẹ",
+     "Lo SIM ti a forukọsilẹ si akọọlẹ rẹ",
+     "Kọ awọn alaye silẹ ṣaaju ki o to tẹ",
+     "Ṣayẹwo orukọ naa, lẹhinna tẹ PIN USSD rẹ sii"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Fun apẹẹrẹ, Mercy ni gbese agbe kan, Musa, 3,000 naira ni abule ti ko ni data. Awọn akoko ti jade ni kiakia, nitorinaa o kọ nọmba akọọlẹ rẹ lori iwe ni akọkọ."
+   ],
+   "panel": {
+    "kicker": "USSD",
+    "heading": "Sisanwo pẹlu ko si data",
+    "items": [
+     "Gba koodu lati kaadi rẹ tabi oju opo wẹẹbu banki rẹ",
+     "Lo SIM ti a forukọsilẹ si akọọlẹ rẹ",
+     "Kọ awọn alaye silẹ ṣaaju ki o to tẹ",
+     "Ṣayẹwo orukọ naa, lẹhinna tẹ PIN USSD rẹ sii"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Iboju naa fihan orukọ Musa. Ó kà á sókè, ó sì fìdí rẹ̀ múlẹ̀. Lẹhinna o tẹ PIN USSD rẹ sii. Maṣe tẹ koodu kan ti alejò fi ranṣẹ si ọ."
+   ],
+   "panel": {
+    "kicker": "USSD",
+    "heading": "Sisanwo pẹlu ko si data",
+    "items": [
+     "Gba koodu lati kaadi rẹ tabi oju opo wẹẹbu banki rẹ",
+     "Lo SIM ti a forukọsilẹ si akọọlẹ rẹ",
+     "Kọ awọn alaye silẹ ṣaaju ki o to tẹ",
+     "Ṣayẹwo orukọ naa, lẹhinna tẹ PIN USSD rẹ sii"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Gbogbo owo tẹle ilana kan: iṣẹ, nọmba, iye, ṣayẹwo, fọwọsi, tọju ẹri.",
+    "Fun akoko afẹfẹ, yan nẹtiwọki ti o baamu nọmba naa, tabi o le lọ si nọmba ti o yatọ."
+   ],
+   "panel": {
+    "kicker": "Awọn owo sisan",
+    "heading": "Ṣayẹwo nọmba ṣaaju ki o to sanwo",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Airtime ati data",
+      "d": "Yan nẹtiwọki ti o baamu nọmba foonu naa. Ṣayẹwo gbogbo awọn nọmba."
+     },
+     {
+      "t": "itanna àmi",
+      "d": "Tẹ nọmba mita sii gangan. Ṣayẹwo orukọ ti o han. Tẹ ami ami oni-nọmba 20 sinu mita naa."
+     },
+     {
+      "t": "TV alabapin",
+      "d": "Tẹ smartcard tabi nọmba IUC lati oluyipada. Jeki o lati gba imudojuiwọn."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Fun ina ti a ti san tẹlẹ, tẹ nọmba mita rẹ sii gangan ki o ṣayẹwo orukọ ti o han. Aami oni-nọmba 20 n ṣiṣẹ lori mita yẹn nikan. Ti o ba kọ, tun tẹ laiyara ni akọkọ."
+   ],
+   "panel": {
+    "kicker": "Awọn owo sisan",
+    "heading": "Ṣayẹwo nọmba ṣaaju ki o to sanwo",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Airtime ati data",
+      "d": "Yan nẹtiwọki ti o baamu nọmba foonu naa. Ṣayẹwo gbogbo awọn nọmba."
+     },
+     {
+      "t": "itanna àmi",
+      "d": "Tẹ nọmba mita sii gangan. Ṣayẹwo orukọ ti o han. Tẹ ami ami oni-nọmba 20 sinu mita naa."
+     },
+     {
+      "t": "TV alabapin",
+      "d": "Tẹ smartcard tabi nọmba IUC lati oluyipada. Jeki o lati gba imudojuiwọn."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Fun TV, tẹ smartcard tabi nọmba IUC sii ki o jẹ ki oluyipada naa wa ni titan. Ti owo kan ko ba fi jiṣẹ, ṣayẹwo itan rẹ ni akọkọ. Maṣe sanwo lẹẹkansi."
+   ],
+   "panel": {
+    "kicker": "Awọn owo sisan",
+    "heading": "Ṣayẹwo nọmba ṣaaju ki o to sanwo",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Airtime ati data",
+      "d": "Yan nẹtiwọki ti o baamu nọmba foonu naa. Ṣayẹwo gbogbo awọn nọmba."
+     },
+     {
+      "t": "itanna àmi",
+      "d": "Tẹ nọmba mita sii gangan. Ṣayẹwo orukọ ti o han. Tẹ ami ami oni-nọmba 20 sinu mita naa."
+     },
+     {
+      "t": "TV alabapin",
+      "d": "Tẹ smartcard tabi nọmba IUC lati oluyipada. Jeki o lati gba imudojuiwọn."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Sùúrù ní 20,000 naira láti ná lórí iná mànàmáná lọ́sẹ̀ yìí."
+   ],
+   "card": {
+    "title": "Meji mita, ọkan isuna",
+    "rows": [],
+    "note": null
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Awọn firisa nlo agbara pupọ julọ, nitorina o ra 12,000 fun ile itaja naa. Orukọ ti o wa loju iboju baamu, nitorina o sanwo ati fi aami pamọ."
+   ],
+   "card": {
+    "title": "Meji mita, ọkan isuna",
+    "rows": [
+     [
+      "Itaja mita àmi",
+      "12,000"
+     ]
+    ],
+    "note": null
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Ile n gba iyokù, 8,000. Orukọ ti o han jẹ ti onile rẹ, bi o ṣe reti."
+   ],
+   "card": {
+    "title": "Meji mita, ọkan isuna",
+    "rows": [
+     [
+      "Itaja mita àmi",
+      "12,000"
+     ],
+     [
+      "Home mita àmi",
+      "8,000"
+     ]
+    ],
+    "note": null
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "20,000 lapapọ, pẹlu awọn owo-owo meji ati awọn ami ami meji ti o fipamọ ni ọran ti mita kan kọ ọkan."
+   ],
+   "card": {
+    "title": "Meji mita, ọkan isuna",
+    "rows": [
+     [
+      "Itaja mita àmi",
+      "12,000"
+     ],
+     [
+      "Home mita àmi",
+      "8,000"
+     ]
+    ],
+    "note": null
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Fun apẹẹrẹ, Aisha n ta aṣọ ni Ilorin. Ni pipade, iwe akiyesi rẹ fihan awọn tita gbigbe 6, 55,500 naira."
+   ],
+   "panel": {
+    "kicker": "Ayẹwo ipari-ọjọ",
+    "heading": "Aisha ri owo ti o padanu",
+    "mode": "compare",
+    "left_h": "Iwe ajako rẹ",
+    "left": [
+     "6 tita gbigbe",
+     "Lapapọ 55,500 naira"
+    ],
+    "right_h": "Rẹ app itan",
+    "right": [
+     "5 kirediti",
+     "Lapapọ 49,500 naira",
+     "6,000 sonu"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Itan ohun elo rẹ fihan 49,500 nikan. 6,000 ti sonu, lati ọdọ obinrin ti o ṣe afihan sikirinifoto nigbati ibi iduro naa nšišẹ.",
+    "Tu awọn ẹru silẹ nikan nigbati kirẹditi ba wa ninu itan app tirẹ."
+   ],
+   "panel": {
+    "kicker": "Ayẹwo ipari-ọjọ",
+    "heading": "Aisha ri owo ti o padanu",
+    "mode": "compare",
+    "left_h": "Iwe ajako rẹ",
+    "left": [
+     "6 tita gbigbe",
+     "Lapapọ 55,500 naira"
+    ],
+    "right_h": "Rẹ app itan",
+    "right": [
+     "5 kirediti",
+     "Lapapọ 49,500 naira",
+     "6,000 sonu"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Nigba miiran olupe kan sọ pe o fi owo ranṣẹ nipasẹ aṣiṣe, ati pe ki o firanṣẹ pada. Ṣayẹwo iwọntunwọnsi rẹ, kii ṣe SMS, ati maṣe lo owo ti o ko nireti."
+   ],
+   "panel": {
+    "kicker": "Owo ti kii ṣe tirẹ",
+    "heading": "Asise gbese",
+    "items": [
+     "Ṣayẹwo iwọntunwọnsi rẹ, kii ṣe SMS",
+     "Maṣe lo owo ti o ko nireti",
+     "Jabọ si atilẹyin osise ti banki rẹ",
+     "Jeki itọkasi ẹdun"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Sọ fun u lati jabo si banki tirẹ. Jabọ si tirẹ, ki o tọju itọkasi naa. Ti owo naa ba jẹ gidi, awọn banki yoo gbe e pada. Ti itaniji ba jẹ iro, o ko padanu nkankan."
+   ],
+   "panel": {
+    "kicker": "Owo ti kii ṣe tirẹ",
+    "heading": "Asise gbese",
+    "items": [
+     "Ṣayẹwo iwọntunwọnsi rẹ, kii ṣe SMS",
+     "Maṣe lo owo ti o ko nireti",
+     "Jabọ si atilẹyin osise ti banki rẹ",
+     "Jeki itọkasi ẹdun"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Maṣe firanṣẹ gbigbe aṣiṣe pada funrararẹ.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Lati ranti. Ṣayẹwo iwe-aṣẹ ṣaaju ki o to gbẹkẹle apamọwọ kan. Ṣayẹwo orukọ, nọmba ati awọn odo ṣaaju PIN rẹ. Lo USSD nigbati data ba jade. Ṣayẹwo awọn nọmba owo ṣaaju ki o to sanwo. Ati tu awọn ẹru silẹ nikan nigbati owo ba fihan ninu itan tirẹ."
+   ],
+   "panel": {
+    "kicker": "Awọn ojuami pataki",
+    "heading": "Ranti",
+    "items": [
+     "Ṣayẹwo iwe-aṣẹ ṣaaju ki o to gbẹkẹle apamọwọ kan",
+     "Orukọ, nọmba ni awọn ẹgbẹ, iye, lẹhinna PIN",
+     "USSD ṣiṣẹ laisi data, lori SIM tirẹ",
+     "Ṣayẹwo mita tabi awọn nọmba foonu ṣaaju ki o to san owo",
+     "Tu awọn ẹru silẹ nikan nigbati kirẹditi ba fihan"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Ṣayẹwo ohun elo apamọwọ kan, firanṣẹ gbigbe adaṣe ti 100 naira si ọrẹ ti o gbẹkẹle, ṣe ayẹwo iwọntunwọnsi USSD kan, san owo-owo kan, ati ṣiṣe ayẹwo ipari-ọjọ kan.",
+    "Tẹsiwaju pẹlu awọn ẹkọ ni isalẹ."
+   ],
+   "panel": {
+    "kicker": "Ṣiṣe adaṣe",
+    "heading": "Rẹ awọn iṣẹ-ṣiṣe fun yi module",
+    "items": [
+     "Ṣayẹwo ohun elo apamọwọ kan",
+     "Ṣe adaṣe gbigbe 100 naira lailewu",
+     "Ṣe ayẹwo iwọntunwọnsi USSD akọkọ rẹ",
+     "San owo-owo kan ati ṣiṣe ayẹwo ipari-ọjọ kan"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}
