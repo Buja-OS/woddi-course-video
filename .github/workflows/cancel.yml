@@ -1,0 +1,17 @@
+name: cancel-x
+on:
+  push:
+    branches: ['cancel-x-*']
+permissions:
+  actions: write
+  contents: write
+jobs:
+  cancel:
+    runs-on: ubuntu-latest
+    steps:
+      - env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          B="${GITHUB_REF_NAME#cancel-x-}"
+          gh run list -R ${{ github.repository }} --branch "$B" --json databaseId,status,workflowName --limit 20 | tee runs.json
+          for id in $(jq -r '.[] | select(.status!="completed") | .databaseId' runs.json); do gh run cancel -R ${{ github.repository }} $id && echo "cancelled $id"; done
