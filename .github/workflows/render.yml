@@ -15,7 +15,7 @@ jobs:
         run: echo "jobs=$(cat jobs.json)" >> "$GITHUB_OUTPUT"
       - env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh release create "clips-${GITHUB_REF_NAME#render-}" -R ${{ github.repository }} --title "3D clips ${GITHUB_REF_NAME#render-}" --notes "Rendered demonstration clips (original WODDI scenes)." || true
+        run: gh release create "clips-r4" -R ${{ github.repository }} --title "3D clips ${GITHUB_REF_NAME#render-}" --notes "Rendered demonstration clips (original WODDI scenes)." || true
   render:
     needs: setup
     runs-on: ubuntu-latest
@@ -54,4 +54,4 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          for i in 1 2 3 4 5; do gh release upload "clips-${GITHUB_REF_NAME#render-}" "${{ matrix.demo }}-v${{ matrix.v }}.mp4" --clobber -R ${{ github.repository }} && break; sleep $((i*7)); done
+          for i in 1 2 3 4 5; do gh release upload "clips-r4" "${{ matrix.demo }}-v${{ matrix.v }}.mp4" --clobber -R ${{ github.repository }} && break; sleep $((i*7)); done
