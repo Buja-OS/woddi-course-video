@@ -1,0 +1,57 @@
++ sudo apt-get update -qq
++ sudo apt-get install -y -qq ffmpeg
+
+Running kernel seems to be up-to-date.
+
+No services need to be restarted.
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
++ pip install -q torch torchaudio --index-url https://download.pytorch.org/whl/cpu
++ tail -1
++ pip install -q outetts uroman transformers soundfile inflect
++ tail -2
++ git clone -q https://github.com/saheedniyi02/yarngpt.git
++ pip install -q -e yarngpt
++ tail -1
+ERROR: file:///home/runner/work/woddi-course-video/woddi-course-video/yarngpt does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.
++ curl -sSL -o wavtokenizer_mediumdata_frame75_3s_nq1_code4096_dim512_kmeans200_attn.yaml https://huggingface.co/novateur/WavTokenizer-medium-speech-75token/resolve/main/wavtokenizer_mediumdata_frame75_3s_nq1_code4096_dim512_kmeans200_attn.yaml
++ curl -sSL -o wavtokenizer_large_speech_320_24k.ckpt https://huggingface.co/novateur/WavTokenizer-large-speech-75token/resolve/main/wavtokenizer_large_speech_320_24k.ckpt
++ ls -la wavtokenizer_large_speech_320_24k.ckpt wavtokenizer_mediumdata_frame75_3s_nq1_code4096_dim512_kmeans200_attn.yaml
+-rw-r--r-- 1 runner runner   15 Oct  8 09:03 wavtokenizer_large_speech_320_24k.ckpt
+-rw-r--r-- 1 runner runner 2791 Oct  8 09:03 wavtokenizer_mediumdata_frame75_3s_nq1_code4096_dim512_kmeans200_attn.yaml
++ python3 yarn_test.py
++ grep -E 'OK|FAIL|speakers|Error|error'
++ head -30
+    raise pickle.UnpicklingError(_get_wo_message(str(e))) from None
+_pickle.UnpicklingError: Weights only load failed. In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.
+Please file an issue with the following so that we can make `weights_only=True` compatible with your use case: WeightsUnpickler error: 
++ cp -r out/job.log /home/runner/work/woddi-course-video/woddi-course-video/out/
++ true
++ for q in swahili-tts swahili arabic-tts yoruba-tts hausa-tts igbo-tts
++ curl -s 'https://huggingface.co/api/models?search=swahili-tts&filter=text-to-speech&sort=downloads&limit=15'
++ python3 -c 'import json,sys;print('\''swahili-tts'\'',[(m['\''id'\''],m.get('\''downloads'\'')) for m in json.load(sys.stdin)])'
+swahili-tts [('mussacharles60/swahili-tts-female-voice', 91), ('Mwau/waxal_swahili-tts-mms', 73), ('multilingual-tts/VITS-OpenBible-Swahili', 59), ('multilingual-tts/F5-TTS-OpenBible-Swahili', 35), ('stano03/jambogpt-swahili-tts-v1', 25), ('Benjamin-png/swahili-mms-tts-train', 5), ('Engeryx/eryx-swahili-tts-v1', 0), ('multilingual-tts/EveryVoice-OpenBible-Swahili', 0), ('drmhse/qwen3-tts-swahili', 0)]
++ for q in swahili-tts swahili arabic-tts yoruba-tts hausa-tts igbo-tts
++ curl -s 'https://huggingface.co/api/models?search=swahili&filter=text-to-speech&sort=downloads&limit=15'
++ python3 -c 'import json,sys;print('\''swahili'\'',[(m['\''id'\''],m.get('\''downloads'\'')) for m in json.load(sys.stdin)])'
+swahili [('mussacharles60/swahili-tts-female-voice', 91), ('Mwau/waxal_swahili-tts-mms', 73), ('multilingual-tts/VITS-OpenBible-Swahili', 59), ('multilingual-tts/F5-TTS-OpenBible-Swahili', 35), ('stano03/jambogpt-swahili-tts-v1', 25), ('FarmerlineML/voxcpm2-swahili-sft', 20), ('mosesdaudu/omnivoice-swahili-2p5h', 7), ('samuelleecong/speecht5_finetuned_swahili', 6), ('mosesdaudu/omnivoice-swahili-5h', 6), ('mosesdaudu/omnivoice-swahili-1h', 6), ('Benjamin-png/swahili-mms-tts-train', 5), ('Engeryx/eryx-swahili-tts-v1', 0), ('multilingual-tts/EveryVoice-OpenBible-Swahili', 0), ('mnigr/swahili_text_to_speech', 0), ('drmhse/qwen3-tts-swahili', 0)]
++ for q in swahili-tts swahili arabic-tts yoruba-tts hausa-tts igbo-tts
++ curl -s 'https://huggingface.co/api/models?search=arabic-tts&filter=text-to-speech&sort=downloads&limit=15'
++ python3 -c 'import json,sys;print('\''arabic-tts'\'',[(m['\''id'\''],m.get('\''downloads'\'')) for m in json.load(sys.stdin)])'
+arabic-tts [('facebook/mms-tts-urd-script_arabic', 10212), ('facebook/mms-tts-uig-script_arabic', 1309), ('facebook/mms-tts-kmr-script_arabic', 1108), ('IbrahimSalah/Arabic-TTS-Spark', 887), ('mradermacher/saudi-arabic-tts-GGUF', 537), ('facebook/mms-tts-bcc-script_arabic', 535), ('facebook/mms-tts-rif-script_arabic', 525), ('facebook/mms-tts-tuk-script_arabic', 487), ('itshamdi404/Egy_Arabic_Qwen3-TTS-12Hz-1.7B-Base', 209), ('IbrahimSalah/F5-TTS-Arabic', 169), ('MAdel121/f5-tts-egyptian-arabic', 122), ('AhmedEladl/Magpie-TTS-Saudi-Arabic', 105), ('AhmedEladl/Magpie-TTS-Emirates-Arabic', 67), ('Moeeldouma/arabic-tts-xtts-v2', 65), ('multilingual-tts/VITS-OpenBible-Arabic-Standard', 48)]
++ for q in swahili-tts swahili arabic-tts yoruba-tts hausa-tts igbo-tts
++ curl -s 'https://huggingface.co/api/models?search=yoruba-tts&filter=text-to-speech&sort=downloads&limit=15'
++ python3 -c 'import json,sys;print('\''yoruba-tts'\'',[(m['\''id'\''],m.get('\''downloads'\'')) for m in json.load(sys.stdin)])'
+yoruba-tts [('multilingual-tts/VITS-OpenBible-Yoruba', 47), ('naijaml/f5-tts-yoruba', 28), ('LyngualLabs/YorubaEnglish-CodeSwitching-TTS', 22), ('ImhotepAI/yoruba-tts', 12), ('multilingual-tts/F5-TTS-OpenBible-Yoruba', 9), ('Sam4rano/omnivoice-yoruba-tts', 8), ('multilingual-tts/EveryVoice-OpenBible-Yoruba', 0)]
++ for q in swahili-tts swahili arabic-tts yoruba-tts hausa-tts igbo-tts
++ curl -s 'https://huggingface.co/api/models?search=hausa-tts&filter=text-to-speech&sort=downloads&limit=15'
++ python3 -c 'import json,sys;print('\''hausa-tts'\'',[(m['\''id'\''],m.get('\''downloads'\'')) for m in json.load(sys.stdin)])'
+hausa-tts [('adab-tech/murya-piper-hausa-tts', 62), ('CLEAR-Global/TWB-Voice-Hausa-TTS-1.0', 51), ('multilingual-tts/VITS-OpenBible-Hausa', 44), ('Baghdad99/hausa_voice_tts', 20), ('multilingual-tts/F5-TTS-OpenBible-Hausa', 13), ('ghananlpcommunity/F5-TTS-OpenBible-Hausa', 10), ('vaghawan/xtts-v2-stage-a-bibletts-hausa-1epoch-87h-bible_tts_speaker', 9), ('zeustek/jummai-hausa-tts', 8), ('dammyogt/hausa-tts', 7), ('vaghawan/xtts-v2-stage-c-balanced-dual-voice-3epoch-1h-bible_tts_speaker-hausa-speaker-female-waxalnlp-3', 7), ('suleiman2003/hausa-multi-speaker-vits-tts', 0), ('multilingual-tts/EveryVoice-OpenBible-Hausa', 0), ('OpenVoiceOS/F5-TTS-OpenBible-Hausa', 0)]
++ for q in swahili-tts swahili arabic-tts yoruba-tts hausa-tts igbo-tts
++ curl -s 'https://huggingface.co/api/models?search=igbo-tts&filter=text-to-speech&sort=downloads&limit=15'
++ python3 -c 'import json,sys;print('\''igbo-tts'\'',[(m['\''id'\''],m.get('\''downloads'\'')) for m in json.load(sys.stdin)])'
+igbo-tts [('multilingual-tts/VITS-OpenBible-Igbo', 43), ('multilingual-tts/F5-TTS-OpenBible-Igbo', 15), ('kosinebolisa/igbo-tts-model', 1), ('chimezie90/igbo-tts-f5', 0), ('multilingual-tts/EveryVoice-OpenBible-Igbo', 0)]
