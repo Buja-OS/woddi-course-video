@@ -1,0 +1,530 @@
+{
+ "course": "remote-work-team-collaboration",
+ "module": "m1",
+ "title": "Jinsi timu zilizosambazwa hufanya kazi kweli: andika kwanza, ukubali, jenga uaminifu",
+ "course_title": "Kazi ya Mbali na Ushirikiano wa Timu: Timu Zinazoongoza Zinazosambazwa",
+ "shots": [
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Jinsi timu zilizosambazwa zinavyofanya kazi kweli.",
+    "Hii ni video ya moduli ya kwanza ya Kazi ya Mbali na Ushirikiano wa Timu."
+   ]
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Timu iliyosambazwa ni timu yoyote ambayo washiriki wake hawashiriki sehemu moja ya kazi kila siku."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Timu iliyosambazwa inapoteza nini",
+    "items": [
+     "Hakuna swali la haraka kwenye dawati",
+     "Hakuna masasisho yaliyosikika",
+     "Hakuna mtu anayeweza kuona ni nani yuko busy",
+     "Kwa hivyo tunajenga tabia za makusudi badala yake"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Wanapoteza ofisi: swali la haraka, sasisho lililosikilizwa, meneja anayeweza kuona ni nani yuko busy."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Timu iliyosambazwa inapoteza nini",
+    "items": [
+     "Hakuna swali la haraka kwenye dawati",
+     "Hakuna masasisho yaliyosikika",
+     "Hakuna mtu anayeweza kuona ni nani yuko busy",
+     "Kwa hivyo tunajenga tabia za makusudi badala yake"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Kwa hivyo tunajenga tabia za makusudi badala yake. Kuandika kwanza, kukubaliana jinsi tunavyowasiliana, na kujenga uaminifu kupitia kazi inayoonekana."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Timu iliyosambazwa inapoteza nini",
+    "items": [
+     "Hakuna swali la haraka kwenye dawati",
+     "Hakuna masasisho yaliyosikika",
+     "Hakuna mtu anayeweza kuona ni nani yuko busy",
+     "Kwa hivyo tunajenga tabia za makusudi badala yake"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Kusawazisha, au kusawazisha, kunamaanisha wakati halisi, kama simu au simu ya video. Ni haraka kwa hisia, migogoro, mawazo na dharura, kwa sababu toni inasomwa kwa urahisi katika maandishi."
+   ],
+   "panel": {
+    "kicker": "Njia mbili",
+    "heading": "Usawazishaji au usawazishaji?",
+    "mode": "compare",
+    "left_h": "Sawazisha: wakati halisi",
+    "left": [
+     "Hisia na migogoro",
+     "Kuchambua mawazo mapya",
+     "Dharura, kama tovuti chini"
+    ],
+    "right_h": "Async: jibu baadaye",
+    "right": [
+     "Masasisho ya maendeleo ya kila wiki",
+     "Maamuzi yanayohitaji kufikiriwa",
+     "Chochote katika maeneo ya saa"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Asynchronous, au async, inamaanisha msomaji anaweza kujibu baadaye, ndani ya saa zilizokubaliwa. Ni bora kwa masasisho, maamuzi yanayohitaji mawazo, na maeneo mengine ya saa.",
+    "Async-kwanza haimaanishi hakuna mikutano. Inamaanisha mkutano ni chaguo la makusudi, na chaguo-msingi ni kuandika mambo."
+   ],
+   "panel": {
+    "kicker": "Njia mbili",
+    "heading": "Usawazishaji au usawazishaji?",
+    "mode": "compare",
+    "left_h": "Sawazisha: wakati halisi",
+    "left": [
+     "Hisia na migogoro",
+     "Kuchambua mawazo mapya",
+     "Dharura, kama tovuti chini"
+    ],
+    "right_h": "Async: jibu baadaye",
+    "right": [
+     "Masasisho ya maendeleo ya kila wiki",
+     "Maamuzi yanayohitaji kufikiriwa",
+     "Chochote katika maeneo ya saa"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Anza na kituo kisichokatiza zaidi ambacho bado kitafanya kazi kwa wakati. Msingi ni hati iliyoshirikiwa au maoni ya kazi."
+   ],
+   "panel": {
+    "kicker": "Utulie",
+    "heading": "Ngazi ya kupanda",
+    "items": [
+     "Hati iliyoshirikiwa au maoni ya kazi",
+     "Kituo cha timu: kinahitajika wiki hii",
+     "Ujumbe wa moja kwa moja: unahitajika leo",
+     "Simu ya video: migogoro, mazungumzo magumu",
+     "Simu: dharura pekee"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Kisha kituo cha timu cha wiki hii, na ujumbe wa moja kwa moja wa leo."
+   ],
+   "panel": {
+    "kicker": "Utulie",
+    "heading": "Ngazi ya kupanda",
+    "items": [
+     "Hati iliyoshirikiwa au maoni ya kazi",
+     "Kituo cha timu: kinahitajika wiki hii",
+     "Ujumbe wa moja kwa moja: unahitajika leo",
+     "Simu ya video: migogoro, mazungumzo magumu",
+     "Simu: dharura pekee"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Simu za video ni za migogoro na mazungumzo changamano. Simu ni za dharura pekee.",
+    "Kila hatua ya kupanda inakatiza watu wengi zaidi, kwa hivyo panda tu hadi unapolazimika."
+   ],
+   "panel": {
+    "kicker": "Utulie",
+    "heading": "Ngazi ya kupanda",
+    "items": [
+     "Hati iliyoshirikiwa au maoni ya kazi",
+     "Kituo cha timu: kinahitajika wiki hii",
+     "Ujumbe wa moja kwa moja: unahitajika leo",
+     "Simu ya video: migogoro, mazungumzo magumu",
+     "Simu: dharura pekee"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Ustadi wa msingi wa kazi ya async ni ujumbe kamili hivi kwamba msomaji anaweza kutenda bila kukuuliza chochote.",
+    "Tumia sehemu tano. Swali, unachohitaji hasa, na tarehe ya mwisho na eneo la saa."
+   ],
+   "panel": {
+    "kicker": "Ustadi wa msingi",
+    "heading": "Ujumbe ambao hauitaji mkutano",
+    "items": [
+     "Swali: nini hasa unahitaji",
+     "Tarehe ya mwisho, pamoja na eneo la saa",
+     "Muktadha: hii inahusu nini",
+     "Chaguzi au mapendekezo yako",
+     "Ambapo nyenzo huishi"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Kisha muktadha, na chaguzi au mapendekezo yako."
+   ],
+   "panel": {
+    "kicker": "Ustadi wa msingi",
+    "heading": "Ujumbe ambao hauitaji mkutano",
+    "items": [
+     "Swali: nini hasa unahitaji",
+     "Tarehe ya mwisho, pamoja na eneo la saa",
+     "Muktadha: hii inahusu nini",
+     "Chaguzi au mapendekezo yako",
+     "Ambapo nyenzo huishi"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Mwishowe, sema mahali nyenzo inayosaidia inaishi, na ubandike kiunga."
+   ],
+   "panel": {
+    "kicker": "Ustadi wa msingi",
+    "heading": "Ujumbe ambao hauitaji mkutano",
+    "items": [
+     "Swali: nini hasa unahitaji",
+     "Tarehe ya mwisho, pamoja na eneo la saa",
+     "Muktadha: hii inahusu nini",
+     "Chaguzi au mapendekezo yako",
+     "Ambapo nyenzo huishi"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Weka swali kwenye mstari wa kwanza, kwa sababu watu wengi husoma onyesho la kukagua tu kwenye simu zao."
+   ],
+   "panel": {
+    "kicker": "Ustadi wa msingi",
+    "heading": "Ujumbe ambao hauitaji mkutano",
+    "items": [
+     "Swali: nini hasa unahitaji",
+     "Tarehe ya mwisho, pamoja na eneo la saa",
+     "Muktadha: hii inahusu nini",
+     "Chaguzi au mapendekezo yako",
+     "Ambapo nyenzo huishi"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Weka swali kwenye mstari wa kwanza. Wengi husoma onyesho la kukagua tu.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Rasimu ya kwanza ya Amaka ilisema: Halo, uko huru? Haja ya kuzungumza juu ya ukumbi. Haina kuuliza na hakuna tarehe ya mwisho."
+   ],
+   "card": {
+    "title": "Uamuzi wa ukumbi wa Amaka",
+    "rows": [],
+    "note": "Bei za Naira ni makadirio ya bei."
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Kuandika upya kwake kunaanza: uamuzi unaohitajika kufikia Alhamisi saa 5 jioni saa za Lagos, kuidhinisha Ukumbi B.",
+    "Ukumbi A ni kama naira 450,000 kwa siku mbili. Ukumbi B ni takriban naira 380,000. Nukuu hizi ni za makadirio."
+   ],
+   "card": {
+    "title": "Uamuzi wa ukumbi wa Amaka",
+    "rows": [
+     [
+      "Ukumbi A, siku mbili",
+      "450,000"
+     ],
+     [
+      "Ukumbi B, siku mbili",
+      "380,000"
+     ]
+    ],
+    "note": "Bei za Naira ni makadirio ya bei."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Anapendekeza Ukumbi B, kwa sababu ina jenereta mbadala na iko dakika 10 kutoka kwa kituo cha basi.",
+    "Anaunganisha manukuu na kuongeza mrejesho: ikiwa sitasikia chochote kufikia tarehe ya mwisho, nitaweka nafasi ya Ukumbi B. Hakuna mkutano uliohitajika."
+   ],
+   "card": {
+    "title": "Uamuzi wa ukumbi wa Amaka",
+    "rows": [
+     [
+      "Ukumbi A, siku mbili",
+      "450,000"
+     ],
+     [
+      "Ukumbi B, siku mbili",
+      "380,000"
+     ]
+    ],
+    "note": "Bei za Naira ni makadirio ya bei."
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Makubaliano ya kazi ya timu huandika vituo, saa za kujibu, saa za kazi na mahali faili zinapoishi. Sehemu moja muhimu ni saa zinazopishana, wakati kila mtu yuko ndani ya siku yake ya kazi."
+   ],
+   "panel": {
+    "kicker": "Mkataba wa kufanya kazi",
+    "heading": "Tafuta saa zinazopishana za timu yako",
+    "items": [
+     "Kusanya saa za kazi za kila mtu",
+     "Badilisha kila moja kuwa UTC",
+     "Tafuta mahali ambapo safu zinakutana",
+     "Angalia tena saa zinapobadilika"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Badilisha saa za kila mtu kuwa UTC, ambayo ina maana ya Muda Ulioratibiwa wa Universal. Kwa mfano, 9 hadi 5 Lagos ni 08:00 hadi 16:00 UTC."
+   ],
+   "panel": {
+    "kicker": "Mkataba wa kufanya kazi",
+    "heading": "Tafuta saa zinazopishana za timu yako",
+    "items": [
+     "Kusanya saa za kazi za kila mtu",
+     "Badilisha kila moja kuwa UTC",
+     "Tafuta mahali ambapo safu zinakutana",
+     "Angalia tena saa zinapobadilika"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Ifeoma alipofanya hivi kwa Lagos, Nairobi, London na Toronto mnamo Januari, hakukuwa na saa iliyoshirikiwa hata kidogo. Kwa hivyo alipiga simu ndogo, na sasisho la kila wiki lililoandikwa likawa mahali ambapo wote wanne hukutana."
+   ],
+   "panel": {
+    "kicker": "Mkataba wa kufanya kazi",
+    "heading": "Tafuta saa zinazopishana za timu yako",
+    "items": [
+     "Kusanya saa za kazi za kila mtu",
+     "Badilisha kila moja kuwa UTC",
+     "Tafuta mahali ambapo safu zinakutana",
+     "Angalia tena saa zinapobadilika"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Nchi zingine hubadilisha saa zao, kwa hivyo angalia kuingiliana mnamo Machi, na Oktoba au Novemba. Nigeria hukaa kwenye UTC plus 1 mwaka mzima."
+   ],
+   "panel": {
+    "kicker": "Mkataba wa kufanya kazi",
+    "heading": "Tafuta saa zinazopishana za timu yako",
+    "items": [
+     "Kusanya saa za kazi za kila mtu",
+     "Badilisha kila moja kuwa UTC",
+     "Tafuta mahali ambapo safu zinakutana",
+     "Angalia tena saa zinapobadilika"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Nigeria ni UTC+1 mwaka mzima, bila kuokoa mchana.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Uaminifu wa mbali hutegemea vitu vitatu vinavyoonekana. Kwanza, watu hufanya kile walichosema. Jibu kazi kwa kile utakachowasilisha."
+   ],
+   "panel": {
+    "kicker": "Amini kwa mbali",
+    "heading": "Kuaminiana kunategemea mambo matatu yanayoonekana",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Do what you said",
+      "d": "Unapokubali kazi, jibu utakachowasilisha. Kisha peleka."
+     },
+     {
+      "t": "By when you said",
+      "d": "Kubali matokeo, tarehe ya mwisho na mmiliki. Dhibiti matokeo, si saa mtandaoni."
+     },
+     {
+      "t": "Say early if you cannot",
+      "d": "Kitu kinapoteleza, chapisha sasisho kabla ya tarehe ya mwisho, sio baada yake."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Pili, waliposema. Kubali matokeo, tarehe ya mwisho na mmiliki, kisha waache watu wapange muda wao wenyewe."
+   ],
+   "panel": {
+    "kicker": "Amini kwa mbali",
+    "heading": "Kuaminiana kunategemea mambo matatu yanayoonekana",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Do what you said",
+      "d": "Unapokubali kazi, jibu utakachowasilisha. Kisha peleka."
+     },
+     {
+      "t": "By when you said",
+      "d": "Kubali matokeo, tarehe ya mwisho na mmiliki. Dhibiti matokeo, si saa mtandaoni."
+     },
+     {
+      "t": "Say early if you cannot",
+      "d": "Kitu kinapoteleza, chapisha sasisho kabla ya tarehe ya mwisho, sio baada yake."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Tatu, sema mapema wakati huwezi, kabla ya tarehe ya mwisho, sio baada.",
+    "Makosa ya kawaida ni ufuatiliaji, kama vile kudai kamera siku nzima. Hilo kwa kawaida huharibu uaminifu na hufanya kazi kuwa mbaya zaidi."
+   ],
+   "panel": {
+    "kicker": "Amini kwa mbali",
+    "heading": "Kuaminiana kunategemea mambo matatu yanayoonekana",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Do what you said",
+      "d": "Unapokubali kazi, jibu utakachowasilisha. Kisha peleka."
+     },
+     {
+      "t": "By when you said",
+      "d": "Kubali matokeo, tarehe ya mwisho na mmiliki. Dhibiti matokeo, si saa mtandaoni."
+     },
+     {
+      "t": "Say early if you cannot",
+      "d": "Kitu kinapoteleza, chapisha sasisho kabla ya tarehe ya mwisho, sio baada yake."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Kukumbuka. Sawazisha kwa hisia na dharura, usawazishaji kwa masasisho na maamuzi yanayozingatiwa.",
+    "Panda ngazi tu kadri unavyopaswa. Weka swali kwanza na saa za eneo katika tarehe ya mwisho.",
+    "Tumia UTC kupata mwingiliano. Na ujenge uaminifu kwa kuweka, au kujadiliana upya kwa uaminifu, kila ahadi."
+   ],
+   "panel": {
+    "kicker": "Pointi muhimu",
+    "heading": "Kumbuka",
+    "items": [
+     "Sawazisha kwa hisia na dharura; async kwa wengine",
+     "Panda ngazi ya kupanda tu kadri inavyohitajika",
+     "Uliza, tarehe ya mwisho na eneo la saa, muktadha, kiungo",
+     "Badilisha saa ziwe UTC ili kupata mwingiliano",
+     "Amini: jitolee, toa au uripoti mapema, endelea kuonekana"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Sasa fanya mazoezi. Andika upya jumbe tatu ambazo hazieleweki ukitumia sehemu tano, andika makubaliano ya kazi ya ukurasa mmoja na saa zako zinazoingiliana, na usanidi hati iliyoshirikiwa ya mtu-mmoja.",
+    "Endelea na masomo hapa chini."
+   ],
+   "panel": {
+    "kicker": "Mazoezi ya kazi",
+    "heading": "Kazi zako za mazoezi",
+    "items": [
+     "Andika upya jumbe tatu zisizoeleweka",
+     "Rasimu ya makubaliano ya kazi ya ukurasa mmoja",
+     "Sanidi hati ya moja kwa moja"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

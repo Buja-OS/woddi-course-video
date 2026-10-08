@@ -1,0 +1,539 @@
+{
+ "course": "advanced-knitting-crochet",
+ "module": "m1",
+ "title": "Lisez n'importe quel motif, vérifiez votre jauge et redimensionnez en toute confiance",
+ "course_title": "Tricot et crochet avancés",
+ "shots": [
+  {
+   "demo": "yarn_crochet",
+   "say": [
+    "Lisez n'importe quel motif, vérifiez votre jauge et redimensionnez en toute confiance.",
+    "Ceci est la vidéo du premier module du tricot et du crochet avancés."
+   ]
+  },
+  {
+   "demo": "thread_spools",
+   "say": [
+    "Lisez le modèle une fois, du début à la fin, avant de monter ou d'enchaîner.",
+    "Vérifiez le matériel : pouvez-vous vous procurer ce fil et avez-vous l'aiguille ou le crochet ? Puis la jauge. Dans quel point est-il mesuré ?"
+   ],
+   "panel": {
+    "kicker": "Anatomie du motif",
+    "heading": "Scannez six sections, dans cet ordre",
+    "items": [
+     "Matériel : fil, aiguille ou crochet, notions",
+     "Jauge : mailles et rangs en 10 cm",
+     "Tailles et mesures finies",
+     "Abréviations et points spéciaux",
+     "Instructions, avec nombre de points",
+     "Finition : blocages, coutures, bordures"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "thread_spools",
+   "say": [
+    "Choisissez votre taille par mesure terminée, pas par lettre. Encerclez ensuite chaque numéro correspondant à votre taille tout au long du motif, afin de ne jamais lire le mauvais numéro au milieu de la rangée."
+   ],
+   "panel": {
+    "kicker": "Anatomie du motif",
+    "heading": "Scannez six sections, dans cet ordre",
+    "items": [
+     "Matériel : fil, aiguille ou crochet, notions",
+     "Jauge : mailles et rangs en 10 cm",
+     "Tailles et mesures finies",
+     "Abréviations et points spéciaux",
+     "Instructions, avec nombre de points",
+     "Finition : blocages, coutures, bordures"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Vérifiez les abréviations, puis les instructions. Un nombre de points à la fin d'une rangée, comme 48 points, est votre point de contrôle. Comptez après chaque rangée de mise en forme. Enfin, lisez les notes finales."
+   ],
+   "panel": {
+    "kicker": "Anatomie du motif",
+    "heading": "Scannez six sections, dans cet ordre",
+    "items": [
+     "Matériel : fil, aiguille ou crochet, notions",
+     "Jauge : mailles et rangs en 10 cm",
+     "Tailles et mesures finies",
+     "Abréviations et points spéciaux",
+     "Instructions, avec nombre de points",
+     "Finition : blocages, coutures, bordures"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "yarn_crochet",
+   "say": [
+    "Voici l'erreur à éviter. Le même nom signifie des points différents. Un crochet simple américain est un crochet double britannique.",
+    "Si vous suivez un modèle américain avec des points britanniques, chaque point est trop haut d'un cran et la pièce devient plus longue et plus large que prévu."
+   ],
+   "panel": {
+    "kicker": "Erreur courante",
+    "heading": "Les termes du crochet aux États-Unis et au Royaume-Uni diffèrent",
+    "mode": "compare",
+    "left_h": "Le modèle américain dit",
+    "left": [
+     "maille serrée (ms)",
+     "demi-crochet double (hdc)",
+     "crochet double (br)",
+     "sauter"
+    ],
+    "right_h": "Le modèle britannique dit",
+    "right": [
+     "crochet double (br)",
+     "demi-aigus (htr)",
+     "aigus (tr)",
+     "mademoiselle"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "pattern_paper",
+   "say": [
+    "Cherchez des indices. Les modèles américains utilisent sc et hdc. Les modèles britanniques utilisent htr et disent tension et manque au lieu de jauge et saut."
+   ],
+   "panel": {
+    "kicker": "Erreur courante",
+    "heading": "Les termes du crochet aux États-Unis et au Royaume-Uni diffèrent",
+    "mode": "compare",
+    "left_h": "Le modèle américain dit",
+    "left": [
+     "maille serrée (ms)",
+     "demi-crochet double (hdc)",
+     "crochet double (br)",
+     "sauter"
+    ],
+    "right_h": "Le modèle britannique dit",
+    "right": [
+     "crochet double (br)",
+     "demi-aigus (htr)",
+     "aigus (tr)",
+     "mademoiselle"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "market_stall",
+   "say": [
+    "Sur un tableau, chaque carré représente un point et la clé explique chaque symbole. Trouvez la rangée 1. Elle se trouve en bas, car le tissu pousse vers le haut."
+   ],
+   "panel": {
+    "kicker": "Lire un graphique",
+    "heading": "Un carré est un point",
+    "items": [
+     "Trouvez la ligne 1 en bas",
+     "À plat : rangées de droite, de droite à gauche",
+     "À plat : rangs sur l'envers, de gauche à droite",
+     "En rond : tous les rangs de droite à gauche",
+     "Gardez une règle au-dessus de votre ligne de travail"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false,
+    "rule": "La rangée 1 est en bas, car le tissu pousse vers le haut.",
+    "showRule": true
+   }
+  },
+  {
+   "demo": "market_stall",
+   "say": [
+    "Pour le tricot plat, lisez les rangées du côté droit de droite à gauche et les rangées du mauvais côté de gauche à droite."
+   ],
+   "panel": {
+    "kicker": "Lire un graphique",
+    "heading": "Un carré est un point",
+    "items": [
+     "Trouvez la ligne 1 en bas",
+     "À plat : rangées de droite, de droite à gauche",
+     "À plat : rangs sur l'envers, de gauche à droite",
+     "En rond : tous les rangs de droite à gauche",
+     "Gardez une règle au-dessus de votre ligne de travail"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "La rangée 1 est en bas, car le tissu pousse vers le haut.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "handbag",
+   "say": [
+    "En rond, lisez chaque ligne de droite à gauche, car vous êtes toujours face au côté droit. Gardez une règle au-dessus de la rangée sur laquelle vous travaillez."
+   ],
+   "panel": {
+    "kicker": "Lire un graphique",
+    "heading": "Un carré est un point",
+    "items": [
+     "Trouvez la ligne 1 en bas",
+     "À plat : rangées de droite, de droite à gauche",
+     "À plat : rangs sur l'envers, de gauche à droite",
+     "En rond : tous les rangs de droite à gauche",
+     "Gardez une règle au-dessus de votre ligne de travail"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "La rangée 1 est en bas, car le tissu pousse vers le haut.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "yarn_crochet",
+   "say": [
+    "La jauge, appelée tension dans les modèles britanniques, indique le nombre de points et de rangs qui tiennent dans 10 cm. Deux femmes avec le même fil et les mêmes aiguilles peuvent avoir des épaisseurs différentes.",
+    "Utilisez le fil du projet et réalisez un échantillon d'environ 15 cm de côté, car les bords sont toujours inégaux."
+   ],
+   "panel": {
+    "kicker": "Échantillon de jauge",
+    "heading": "Créez un échantillon auquel vous pouvez faire confiance",
+    "items": [
+     "Même fil, aiguille ou crochet suggéré",
+     "Carré d'environ 15 cm",
+     "Travaillez le point avec les noms des jauges",
+     "Laver et sécher à plat",
+     "Comptez sur 15 cm, puis divisez"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "yarn_crochet",
+   "say": [
+    "Travaillez le point en fonction des noms des lignes de jauge. Bloquez-le ensuite de la même manière que vous laverez l'article fini : faites-le tremper, essorez-le avec une serviette et séchez-le à plat."
+   ],
+   "panel": {
+    "kicker": "Échantillon de jauge",
+    "heading": "Créez un échantillon auquel vous pouvez faire confiance",
+    "items": [
+     "Même fil, aiguille ou crochet suggéré",
+     "Carré d'environ 15 cm",
+     "Travaillez le point avec les noms des jauges",
+     "Laver et sécher à plat",
+     "Comptez sur 15 cm, puis divisez"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Échantillonnez le point avec les noms des lignes de jauge, puis lavez-le.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "thread_spools",
+   "say": [
+    "Mesurez sur 15 cm et divisez. Un demi-point par centimètre change beaucoup la taille."
+   ],
+   "panel": {
+    "kicker": "Échantillon de jauge",
+    "heading": "Créez un échantillon auquel vous pouvez faire confiance",
+    "items": [
+     "Même fil, aiguille ou crochet suggéré",
+     "Carré d'environ 15 cm",
+     "Travaillez le point avec les noms des jauges",
+     "Laver et sécher à plat",
+     "Comptez sur 15 cm, puis divisez"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Échantillonnez le point avec les noms des lignes de jauge, puis lavez-le.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Par exemple, Funke à Ibadan fabrique un pull en coton. La jauge du patron est de 22 mailles à 10 cm avec des aiguilles n° 4, et le devant est de 110 mailles."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Le pull Funke : pourquoi 2 points sont importants",
+    "items": [
+     "Patron : 22 mailles tous les 10 cm, devant 110",
+     "Son échantillon : 30 mailles en 15 cm = 20",
+     "Largeur du motif : 110 / 2,2 = 50 cm",
+     "Sa largeur : 110 / 2.0 = 55 cm",
+     "Fix : aiguilles 3,5 mm, 33 en 15 cm = 22"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Son échantillon lavé comporte 30 mailles sur 15 cm. Cela représente 2,0 points par cm, soit 20 par 10 cm."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Le pull Funke : pourquoi 2 points sont importants",
+    "items": [
+     "Patron : 22 mailles tous les 10 cm, devant 110",
+     "Son échantillon : 30 mailles en 15 cm = 20",
+     "Largeur du motif : 110 / 2,2 = 50 cm",
+     "Sa largeur : 110 / 2.0 = 55 cm",
+     "Fix : aiguilles 3,5 mm, 33 en 15 cm = 22"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pattern_paper",
+   "say": [
+    "Le motif devant serait de 110 divisé par 2,2, soit 50 cm. La sienne mesurerait 55 cm. Devant et dos ensemble, le pull serait 10 cm trop grand."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Le pull Funke : pourquoi 2 points sont importants",
+    "items": [
+     "Patron : 22 mailles tous les 10 cm, devant 110",
+     "Son échantillon : 30 mailles en 15 cm = 20",
+     "Largeur du motif : 110 / 2,2 = 50 cm",
+     "Sa largeur : 110 / 2.0 = 55 cm",
+     "Fix : aiguilles 3,5 mm, 33 en 15 cm = 22"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pattern_paper",
+   "say": [
+    "Son tissu est plus souple, elle descend donc aux aiguilles de 3,5 mm. Le nouvel échantillon compte 33 mailles par 15 cm, soit exactement 22 par 10 cm. Une soirée d'échantillonnage a sauvé tout le sauteur."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Le pull Funke : pourquoi 2 points sont importants",
+    "items": [
+     "Patron : 22 mailles tous les 10 cm, devant 110",
+     "Son échantillon : 30 mailles en 15 cm = 20",
+     "Largeur du motif : 110 / 2,2 = 50 cm",
+     "Sa largeur : 110 / 2.0 = 55 cm",
+     "Fix : aiguilles 3,5 mm, 33 en 15 cm = 22"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "market_stall",
+   "say": [
+    "Lorsque les tailles ne correspondent pas au corps, vous pouvez redimensionner. Commencez par la mesure finale souhaitée, y compris la facilité, et non par la mesure du corps.",
+    "Les points sont égaux à la largeur cible en centimètres multipliée par les points par centimètre."
+   ],
+   "panel": {
+    "kicker": "Redimensionnement",
+    "heading": "Trois formules pour toutes les tailles",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Points de suture",
+      "d": "Largeur cible en cm x points par cm. Les points par cm correspondent à votre jauge divisée par 10."
+     },
+     {
+      "t": "Rows",
+      "d": "Longueur cible en cm x rangées par cm. Ajoutez de la longueur dans les sections simples, pas dans la mise en forme."
+     },
+     {
+      "t": "Yarn",
+      "d": "Le fil monte avec les mailles : 20 % plus large nécessite environ 20 % de fil en plus. Achetez un lot de teinture."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "market_stall",
+   "say": [
+    "Les rangées sont égales à la longueur cible multipliée par les rangées par centimètre. Ajoutez de la longueur dans la section unie sous l'emmanchure."
+   ],
+   "panel": {
+    "kicker": "Redimensionnement",
+    "heading": "Trois formules pour toutes les tailles",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Points de suture",
+      "d": "Largeur cible en cm x points par cm. Les points par cm correspondent à votre jauge divisée par 10."
+     },
+     {
+      "t": "Rows",
+      "d": "Longueur cible en cm x rangées par cm. Ajoutez de la longueur dans les sections simples, pas dans la mise en forme."
+     },
+     {
+      "t": "Yarn",
+      "d": "Le fil monte avec les mailles : 20 % plus large nécessite environ 20 % de fil en plus. Achetez un lot de teinture."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "handbag",
+   "say": [
+    "Et le fil monte avec les mailles. Achetez le supplément du même lot de teinture."
+   ],
+   "panel": {
+    "kicker": "Redimensionnement",
+    "heading": "Trois formules pour toutes les tailles",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Points de suture",
+      "d": "Largeur cible en cm x points par cm. Les points par cm correspondent à votre jauge divisée par 10."
+     },
+     {
+      "t": "Rows",
+      "d": "Longueur cible en cm x rangées par cm. Ajoutez de la longueur dans les sections simples, pas dans la mise en forme."
+     },
+     {
+      "t": "Yarn",
+      "d": "Le fil monte avec les mailles : 20 % plus large nécessite environ 20 % de fil en plus. Achetez un lot de teinture."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "thread_spools",
+   "say": [
+    "Par exemple, Grace à Jos a besoin d'un dos de cardigan d'environ 56 cm. A 2 points par cm, cela fait 112 points. Mais sa côte câblée est un multiple de 6 plus 2."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Le cardigan de Grace : adapter la répétition",
+    "items": [
+     "Cible dos 56 cm x 2 = 112 mailles",
+     "Répétition : multiple de 6 plus 2",
+     "112 moins 2 = 110, non divisible par 6",
+     "Choisissez 18 x 6 + 2 = 110 points",
+     "Revérifier : 110 / 2 = 55 cm"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "thread_spools",
+   "say": [
+    "112 moins 2 fait 110, et 110 ne divise pas par 6. Donc 112 brisera le modèle."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Le cardigan de Grace : adapter la répétition",
+    "items": [
+     "Cible dos 56 cm x 2 = 112 mailles",
+     "Répétition : multiple de 6 plus 2",
+     "112 moins 2 = 110, non divisible par 6",
+     "Choisissez 18 x 6 + 2 = 110 points",
+     "Revérifier : 110 / 2 = 55 cm"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Les chiffres les plus proches qui lui conviennent sont 110 ou 116. Elle choisit 110 mailles, un dos de 55 cm, ce qui donne quand même environ 8 cm d'aisance.",
+    "N'ajoutez jamais un ou deux points au milieu d'un motif. Arrondissez à un nombre qui vous convient, puis revérifiez la largeur."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Le cardigan de Grace : adapter la répétition",
+    "items": [
+     "Cible dos 56 cm x 2 = 112 mailles",
+     "Répétition : multiple de 6 plus 2",
+     "112 moins 2 = 110, non divisible par 6",
+     "Choisissez 18 x 6 + 2 = 110 points",
+     "Revérifier : 110 / 2 = 55 cm"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Arrondissez à un nombre qui correspond à la répétition, puis revérifiez la largeur.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pattern_paper",
+   "say": [
+    "À retenir. Scannez les six sections à chaque fois. Sachez si vos termes de crochet sont américains ou britanniques. Echantillonnez 15 cm et lavez-le avant de mesurer. La largeur est égale aux points divisés par les points par centimètre. Et arrondissez pour ajuster la répétition, puis revérifiez la largeur."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Scannez les six sections à chaque fois",
+     "Crochet simple américain = crochet double britannique",
+     "Echantillon de 15 cm, lavez-le, puis mesurez",
+     "Largeur = points / points par cm",
+     "Arrondir pour s'adapter à la répétition, revérifier la largeur"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "market_stall",
+   "say": [
+    "Décodez maintenant un motif intermédiaire gratuit, créez et étiquetez un échantillon de jauge et redimensionnez une pièce du motif avec un petit dessin de vos nouveaux numéros.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâche pratique",
+    "heading": "Vos tâches pour ce module",
+    "items": [
+     "Décoder un modèle intermédiaire",
+     "Créer et étiqueter un échantillon de jauge",
+     "Redimensionner une pièce du patron"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

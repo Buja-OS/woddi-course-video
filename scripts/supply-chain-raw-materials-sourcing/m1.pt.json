@@ -1,0 +1,587 @@
+{
+ "course": "supply-chain-raw-materials-sourcing",
+ "module": "m1",
+ "title": "Veja sua cadeia de suprimentos: liste, rastreie, classifique e especifique",
+ "course_title": "Cadeia de suprimentos e fornecimento de matérias-primas",
+ "shots": [
+  {
+   "demo": "globe_export",
+   "say": [
+    "Veja sua cadeia de suprimentos: liste, rastreie, classifique e especifique.",
+    "Este é o vídeo do módulo um de Supply Chain e Raw Materials Sourcing."
+   ]
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Uma cadeia de suprimentos é cada etapa pela qual um material passa antes de se tornar seu produto: fazenda ou fábrica, atacadista, comerciante, transporte e sua loja.",
+    "Uma vez que os clientes dependem de você, um material perdido se torna uma promessa quebrada."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Um material faltando é uma promessa quebrada",
+    "items": [
+     "Conheça todos os materiais do seu produto",
+     "Rastreie de onde cada um realmente vem",
+     "Classifique os materiais por valor e risco",
+     "Escreva exatamente o que você aceita"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Então, primeiro, você rastreia de onde realmente vem cada material."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Um material faltando é uma promessa quebrada",
+    "items": [
+     "Conheça todos os materiais do seu produto",
+     "Rastreie de onde cada um realmente vem",
+     "Classifique os materiais por valor e risco",
+     "Escreva exatamente o que você aceita"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "grain_sacks",
+   "say": [
+    "Em seguida, você classifica os materiais por valor e risco e anota exatamente o que aceitará."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Um material faltando é uma promessa quebrada",
+    "items": [
+     "Conheça todos os materiais do seu produto",
+     "Rastreie de onde cada um realmente vem",
+     "Classifique os materiais por valor e risco",
+     "Escreva exatamente o que você aceita"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "globe_export",
+   "say": [
+    "Uma lista de materiais, ou BOM, lista todas as entradas de um lote, com quantidade e custo.",
+    "Amaka fabrica zobo em lotes de 100 garrafas. Seus preços são ilustrativos e aproximados."
+   ],
+   "card": {
+    "title": "Uma lista de materiais para Zobo",
+    "rows": [],
+    "note": "Os preços da Naira são ilustrativos e aproximados."
+   }
+  },
+  {
+   "demo": "globe_export",
+   "say": [
+    "O hibisco seco custa cerca de 4.500 naira, o açúcar 7.200 e o gengibre fresco 1.000."
+   ],
+   "card": {
+    "title": "Uma lista de materiais para Zobo",
+    "rows": [
+     [
+      "Hibisco, 1,5 kg",
+      "4,500"
+     ],
+     [
+      "Açúcar, 4kg",
+      "7,200"
+     ],
+     [
+      "Gengibre, 0,5 kg",
+      "1,000"
+     ]
+    ],
+    "note": "Os preços da Naira são ilustrativos e aproximados."
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "100 garrafas com tampa custam cerca de 6.000 nairas e 100 rótulos 2.500."
+   ],
+   "card": {
+    "title": "Uma lista de materiais para Zobo",
+    "rows": [
+     [
+      "Hibisco, 1,5 kg",
+      "4,500"
+     ],
+     [
+      "Açúcar, 4kg",
+      "7,200"
+     ],
+     [
+      "Gengibre, 0,5 kg",
+      "1,000"
+     ],
+     [
+      "100 garrafas com tampa",
+      "6,000"
+     ],
+     [
+      "100 etiquetas impressas",
+      "2,500"
+     ]
+    ],
+    "note": "Os preços da Naira são ilustrativos e aproximados."
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "São 21.200 nairas por lote, ou 212 nairas por garrafa.",
+    "Açúcar e garrafas juntos representam cerca de 62% de seu custo de material, então um problema com qualquer um deles a atinge com mais força do que um problema com gengibre."
+   ],
+   "card": {
+    "title": "Uma lista de materiais para Zobo",
+    "rows": [
+     [
+      "Hibisco, 1,5 kg",
+      "4,500"
+     ],
+     [
+      "Açúcar, 4kg",
+      "7,200"
+     ],
+     [
+      "Gengibre, 0,5 kg",
+      "1,000"
+     ],
+     [
+      "100 garrafas com tampa",
+      "6,000"
+     ],
+     [
+      "100 etiquetas impressas",
+      "2,500"
+     ]
+    ],
+    "note": "Os preços da Naira são ilustrativos e aproximados."
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Seu fornecedor de nível 1 é a pessoa a quem você paga diretamente."
+   ],
+   "panel": {
+    "kicker": "Etapa dois",
+    "heading": "Rastreie cada material através de suas camadas",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Tier 1",
+      "d": "A pessoa a quem você paga diretamente, por exemplo, um comerciante no mercado principal."
+     },
+     {
+      "t": "Tier 2",
+      "d": "Quem abastece o seu comerciante, por exemplo um atacadista ou um distribuidor de fábrica."
+     },
+     {
+      "t": "Tier 3",
+      "d": "A fazenda, o processador ou o fabricante estrangeiro."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "O nível 2 é quem fornece esse comerciante, como um atacadista."
+   ],
+   "panel": {
+    "kicker": "Etapa dois",
+    "heading": "Rastreie cada material através de suas camadas",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Tier 1",
+      "d": "A pessoa a quem você paga diretamente, por exemplo, um comerciante no mercado principal."
+     },
+     {
+      "t": "Tier 2",
+      "d": "Quem abastece o seu comerciante, por exemplo um atacadista ou um distribuidor de fábrica."
+     },
+     {
+      "t": "Tier 3",
+      "d": "A fazenda, o processador ou o fabricante estrangeiro."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "O nível 3 pode ser a fazenda ou a fábrica. Você raramente os controla, mas um problema chega até você dias ou semanas depois.",
+    "Então pergunte ao seu comerciante de onde vem. Amaka aprendeu que suas garrafas vêm de um distribuidor de uma única fábrica."
+   ],
+   "panel": {
+    "kicker": "Etapa dois",
+    "heading": "Rastreie cada material através de suas camadas",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Tier 1",
+      "d": "A pessoa a quem você paga diretamente, por exemplo, um comerciante no mercado principal."
+     },
+     {
+      "t": "Tier 2",
+      "d": "Quem abastece o seu comerciante, por exemplo um atacadista ou um distribuidor de fábrica."
+     },
+     {
+      "t": "Tier 3",
+      "d": "A fazenda, o processador ou o fabricante estrangeiro."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Um material é crítico se você não puder produzir sem ele e não puder trocá-lo rapidamente. Faça três perguntas. Posso fazer o produto sem ele?"
+   ],
+   "panel": {
+    "kicker": "Etapa três",
+    "heading": "Este material é crítico?",
+    "items": [
+     "Posso fazer o produto sem ele?",
+     "Posso mudar de fonte dentro de uma semana?",
+     "Os clientes notariam uma mudança?",
+     "Circule qualquer filial com apenas um fornecedor"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Posso mudar para outra fonte dentro de uma semana? Amaka não pode: seus rótulos e tampas cabem apenas em sua garrafa."
+   ],
+   "panel": {
+    "kicker": "Etapa três",
+    "heading": "Este material é crítico?",
+    "items": [
+     "Posso fazer o produto sem ele?",
+     "Posso mudar de fonte dentro de uma semana?",
+     "Os clientes notariam uma mudança?",
+     "Circule qualquer filial com apenas um fornecedor"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Os clientes notariam uma mudança? Se sim, um substituto acarreta risco de qualidade."
+   ],
+   "panel": {
+    "kicker": "Etapa três",
+    "heading": "Este material é crítico?",
+    "items": [
+     "Posso fazer o produto sem ele?",
+     "Posso mudar de fonte dentro de uma semana?",
+     "Os clientes notariam uma mudança?",
+     "Circule qualquer filial com apenas um fornecedor"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Um fornecedor cuja ausência interromperia a produção é um ponto único de falha. Se apenas a sua impressora mantiver o design da etiqueta, a solução é gratuita: guarde a sua própria cópia e compartilhe-a com uma segunda impressora."
+   ],
+   "panel": {
+    "kicker": "Etapa três",
+    "heading": "Este material é crítico?",
+    "items": [
+     "Posso fazer o produto sem ele?",
+     "Posso mudar de fonte dentro de uma semana?",
+     "Os clientes notariam uma mudança?",
+     "Circule qualquer filial com apenas um fornecedor"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Materiais de primeira classificação por gasto anual. Esta é a análise ABC. Na oficina de uniformes de Bisi, dois tecidos em oito materiais representam 75% de seus gastos.",
+    "Em seguida, adicione o risco de oferta, utilizando a matriz de Kraljic."
+   ],
+   "panel": {
+    "kicker": "Classifique por valor e risco",
+    "heading": "Quatro caixas para seus materiais",
+    "items": [
+     "Estratégico: parceiro, backup, estoque de segurança",
+     "Alavancagem: compare cotações, negocie",
+     "Gargalo: estoque extra ou segunda fonte",
+     "Não crítico: continue comprando de forma simples"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Itens estratégicos têm grandes gastos e poucas boas fontes, como o tecido xadrez colorido escolar de Bisi. Construa um relacionamento próximo e aprove um backup antes de uma crise."
+   ],
+   "panel": {
+    "kicker": "Classifique por valor e risco",
+    "heading": "Quatro caixas para seus materiais",
+    "items": [
+     "Estratégico: parceiro, backup, estoque de segurança",
+     "Alavancagem: compare cotações, negocie",
+     "Gargalo: estoque extra ou segunda fonte",
+     "Não crítico: continue comprando de forma simples"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Itens de alavancagem têm grandes gastos, mas muitos fornecedores, como camisas brancas. Compare orçamentos e negocie."
+   ],
+   "panel": {
+    "kicker": "Classifique por valor e risco",
+    "heading": "Quatro caixas para seus materiais",
+    "items": [
+     "Estratégico: parceiro, backup, estoque de segurança",
+     "Alavancagem: compare cotações, negocie",
+     "Gargalo: estoque extra ou segunda fonte",
+     "Não crítico: continue comprando de forma simples"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "grain_sacks",
+   "say": [
+    "Itens gargalos são baratos, mas difíceis de conseguir, como zíperes na cor exigida pela escola. O esgotamento interrompe a entrega, portanto, mantenha estoque extra ou encontre uma segunda fonte."
+   ],
+   "panel": {
+    "kicker": "Classifique por valor e risco",
+    "heading": "Quatro caixas para seus materiais",
+    "items": [
+     "Estratégico: parceiro, backup, estoque de segurança",
+     "Alavancagem: compare cotações, negocie",
+     "Gargalo: estoque extra ou segunda fonte",
+     "Não crítico: continue comprando de forma simples"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "grain_sacks",
+   "say": [
+    "Itens não críticos, como linha, precisam do mínimo de tempo possível para pensar."
+   ],
+   "panel": {
+    "kicker": "Classifique por valor e risco",
+    "heading": "Quatro caixas para seus materiais",
+    "items": [
+     "Estratégico: parceiro, backup, estoque de segurança",
+     "Alavancagem: compare cotações, negocie",
+     "Gargalo: estoque extra ou segunda fonte",
+     "Não crítico: continue comprando de forma simples"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "globe_export",
+   "say": [
+    "Uma boa manteiga de karité significa algo diferente para cada comerciante. Uma especificação é uma breve descrição escrita exatamente do que você aceita.",
+    "Por exemplo, Funke escreve: manteiga de karité não refinada, para uso cosmético."
+   ],
+   "panel": {
+    "kicker": "Especificações",
+    "heading": "Escreva uma especificação que você possa realmente verificar",
+    "items": [
+     "Nome, tipo e nota",
+     "Aparência, cheiro e sensação",
+     "Embalagem e rotulagem",
+     "Mantenha uma amostra de referência",
+     "Teste: medir o desperdício"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "globe_export",
+   "say": [
+    "Marfim a amarelo pálido, liso, sem areia ou gotas de água. Cheiro suave de nozes. Rejeite se estiver azedo ou rançoso."
+   ],
+   "panel": {
+    "kicker": "Especificações",
+    "heading": "Escreva uma especificação que você possa realmente verificar",
+    "items": [
+     "Nome, tipo e nota",
+     "Aparência, cheiro e sensação",
+     "Embalagem e rotulagem",
+     "Mantenha uma amostra de referência",
+     "Teste: medir o desperdício"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Baldes limpos e selados com a data de embalagem na tampa. E ela mantém como padrão um pote de 250 g de entrega aprovada."
+   ],
+   "panel": {
+    "kicker": "Especificações",
+    "heading": "Escreva uma especificação que você possa realmente verificar",
+    "items": [
+     "Nome, tipo e nota",
+     "Aparência, cheiro e sensação",
+     "Embalagem e rotulagem",
+     "Mantenha uma amostra de referência",
+     "Teste: medir o desperdício"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Para um novo fornecedor, ela derrete e coa 1kg. A nova manteiga deixou 100 g de grãos, ou 10% de desperdício. O fornecedor aprovado dela era de cerca de 1%.",
+    "Use verificações que você realmente pode fazer: olhar, cheirar, pesar, medir ou um pequeno lote de teste."
+   ],
+   "panel": {
+    "kicker": "Especificações",
+    "heading": "Escreva uma especificação que você possa realmente verificar",
+    "items": [
+     "Nome, tipo e nota",
+     "Aparência, cheiro e sensação",
+     "Embalagem e rotulagem",
+     "Mantenha uma amostra de referência",
+     "Teste: medir o desperdício"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Aprove um novo fornecedor somente após um pequeno teste.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Se você comprar produtos químicos como soda cáustica ou ácidos, aceite apenas o recipiente original selado e rotulado, com uma ficha de dados de segurança sempre que possível.",
+    "Nunca aceite um produto químico em uma garrafa de água sem rótulo. Armazene os produtos químicos longe dos alimentos e fora do alcance das crianças.",
+    "Os golpistas se passam por fornecedores online. Comece com uma pequena avaliação, pague em uma conta cujo nome corresponda ao da empresa e guarde o recibo."
+   ],
+   "panel": {
+    "kicker": "Segurança em primeiro lugar",
+    "heading": "Regras de compra segura",
+    "items": [
+     "Produtos químicos: recipiente original selado e rotulado",
+     "Peça uma ficha de dados de segurança sempre que possível",
+     "Armazene produtos químicos longe de alimentos e crianças",
+     "Novo fornecedor: pequeno pedido experimental primeiro",
+     "Pague apenas para uma conta correspondente à empresa",
+     "Guarde todos os recibos de transferência"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Para lembrar. Sua lista de materiais mostra para onde vai seu dinheiro. Muitas escassezes começam no nível 2 ou 3. Um fornecedor é um ponto único de falha.",
+    "Itens estratégicos precisam de um backup testado. E uma especificação escrita torna a qualidade verificável."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Lembre-se",
+    "items": [
+     "Sua lista técnica mostra para onde vai o dinheiro",
+     "Muitas carências começam no nível 2 ou 3",
+     "Um fornecedor significa um único ponto de falha",
+     "Itens estratégicos precisam de um backup testado",
+     "Uma especificação escrita torna a qualidade verificável"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Agora pratique. Escreva uma lista de materiais e um mapa de suprimentos para seu produto mais vendido, classifique seus materiais e escreva uma especificação com suas regras de fornecimento.",
+    "Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Tarefa prática",
+    "heading": "Suas tarefas práticas",
+    "items": [
+     "Mapeie a cadeia de suprimentos de um produto",
+     "Classifique seus materiais",
+     "Escreva uma especificação e suas regras de fornecimento"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

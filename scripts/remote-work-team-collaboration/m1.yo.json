@@ -1,0 +1,530 @@
+{
+ "course": "remote-work-team-collaboration",
+ "module": "m1",
+ "title": "Bawo ni awọn ẹgbẹ pinpin ṣiṣẹ gaan: kọ akọkọ, gba, kọ igbẹkẹle",
+ "course_title": "Iṣẹ Latọna jijin & Ifowosowopo Egbe: Awọn ẹgbẹ ti a pin kaakiri",
+ "shots": [
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Bawo ni awọn ẹgbẹ pinpin ṣiṣẹ gaan.",
+    "Eyi ni fidio fun module ọkan ti Iṣẹ Latọna jijin ati Ifowosowopo Ẹgbẹ."
+   ]
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Ẹgbẹ ti a pin kaakiri jẹ ẹgbẹ eyikeyi ti awọn ọmọ ẹgbẹ ko pin aaye iṣẹ kan lojoojumọ."
+   ],
+   "panel": {
+    "kicker": "Kini idi ti eyi ṣe pataki",
+    "heading": "Ohun ti a pin egbe npadanu",
+    "items": [
+     "Ko si ibeere ti o yara kọja tabili naa",
+     "Ko si awọn imudojuiwọn gbo",
+     "Ko si eniti o le ri ẹniti o nšišẹ",
+     "Nitorinaa a kọ awọn isesi mimọ dipo"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Wọn padanu ọfiisi: ibeere iyara, imudojuiwọn ti a gbọ, oluṣakoso ti o le rii ẹni ti o nšišẹ."
+   ],
+   "panel": {
+    "kicker": "Kini idi ti eyi ṣe pataki",
+    "heading": "Ohun ti a pin egbe npadanu",
+    "items": [
+     "Ko si ibeere ti o yara kọja tabili naa",
+     "Ko si awọn imudojuiwọn gbo",
+     "Ko si eniti o le ri ẹniti o nšišẹ",
+     "Nitorinaa a kọ awọn isesi mimọ dipo"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Nitorinaa a kọ awọn isesi mimọ dipo. Kikọ akọkọ, gbigba bi a ṣe n ṣe ibaraẹnisọrọ, ati ṣiṣe igbẹkẹle nipasẹ iṣẹ ti o han."
+   ],
+   "panel": {
+    "kicker": "Kini idi ti eyi ṣe pataki",
+    "heading": "Ohun ti a pin egbe npadanu",
+    "items": [
+     "Ko si ibeere ti o yara kọja tabili naa",
+     "Ko si awọn imudojuiwọn gbo",
+     "Ko si eniti o le ri ẹniti o nšišẹ",
+     "Nitorinaa a kọ awọn isesi mimọ dipo"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Amuṣiṣẹpọ, tabi amuṣiṣẹpọ, tumọ si akoko gidi, bii foonu tabi ipe fidio. O yara fun awọn ikunsinu, rogbodiyan, iṣaro-ọpọlọ ati awọn pajawiri, nitori ohun orin ni irọrun ka ni ọrọ."
+   ],
+   "panel": {
+    "kicker": "Awọn ọna meji",
+    "heading": "Muṣiṣẹpọ tabi async?",
+    "mode": "compare",
+    "left_h": "Amuṣiṣẹpọ: akoko gidi",
+    "left": [
+     "Awọn ikunsinu ati ija",
+     "Brainstorming titun ero",
+     "Awọn pajawiri, bi aaye kan si isalẹ"
+    ],
+    "right_h": "Async: fesi nigbamii",
+    "right": [
+     "Awọn imudojuiwọn ilọsiwaju ọsẹ",
+     "Awọn ipinnu ti o nilo ero",
+     "Ohunkohun kọja awọn agbegbe akoko"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Asynchronous, tabi async, tumọ si pe oluka le dahun nigbamii, laarin awọn wakati ti o gba. O dara julọ fun awọn imudojuiwọn, awọn ipinnu ti o nilo ero, ati awọn agbegbe akoko miiran.",
+    "Async-akọkọ ko tumọ si awọn ipade. O tumọ si pe ipade jẹ yiyan ti o mọọmọ, ati pe aiyipada ni lati kọ awọn nkan silẹ."
+   ],
+   "panel": {
+    "kicker": "Awọn ọna meji",
+    "heading": "Muṣiṣẹpọ tabi async?",
+    "mode": "compare",
+    "left_h": "Amuṣiṣẹpọ: akoko gidi",
+    "left": [
+     "Awọn ikunsinu ati ija",
+     "Brainstorming titun ero",
+     "Awọn pajawiri, bi aaye kan si isalẹ"
+    ],
+    "right_h": "Async: fesi nigbamii",
+    "right": [
+     "Awọn imudojuiwọn ilọsiwaju ọsẹ",
+     "Awọn ipinnu ti o nilo ero",
+     "Ohunkohun kọja awọn agbegbe akoko"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Bẹrẹ pẹlu ikanni idalọwọduro ti o kere julọ ti yoo tun ṣiṣẹ ni akoko. Ipilẹ jẹ iwe pinpin tabi asọye iṣẹ-ṣiṣe."
+   ],
+   "panel": {
+    "kicker": "Duro tunu",
+    "heading": "The escalation akaba",
+    "items": [
+     "Pipin iwe tabi asọye iṣẹ-ṣiṣe",
+     "Egbe ikanni: nilo ose yi",
+     "Ifiranṣẹ taara: nilo loni",
+     "Ipe fidio: rogbodiyan, eka Kariaye",
+     "Ipe foonu: awọn pajawiri nikan"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Lẹhinna ikanni ẹgbẹ fun ọsẹ yii, ati ifiranṣẹ taara fun oni."
+   ],
+   "panel": {
+    "kicker": "Duro tunu",
+    "heading": "The escalation akaba",
+    "items": [
+     "Pipin iwe tabi asọye iṣẹ-ṣiṣe",
+     "Egbe ikanni: nilo ose yi",
+     "Ifiranṣẹ taara: nilo loni",
+     "Ipe fidio: rogbodiyan, eka Kariaye",
+     "Ipe foonu: awọn pajawiri nikan"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Awọn ipe fidio jẹ fun rogbodiyan ati eka Kariaye. Awọn ipe foonu wa fun awọn pajawiri nikan.",
+    "Igbesẹ kọọkan n ṣe idiwọ awọn eniyan diẹ sii, nitorinaa ngun nikan bi o ṣe gbọdọ."
+   ],
+   "panel": {
+    "kicker": "Duro tunu",
+    "heading": "The escalation akaba",
+    "items": [
+     "Pipin iwe tabi asọye iṣẹ-ṣiṣe",
+     "Egbe ikanni: nilo ose yi",
+     "Ifiranṣẹ taara: nilo loni",
+     "Ipe fidio: rogbodiyan, eka Kariaye",
+     "Ipe foonu: awọn pajawiri nikan"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Imọye pataki ti iṣẹ async jẹ ifiranṣẹ ti o pari ti oluka le ṣe laisi beere lọwọ rẹ ohunkohun.",
+    "Lo awọn ẹya marun. Beere naa, deede ohun ti o nilo, ati akoko ipari pẹlu agbegbe aago."
+   ],
+   "panel": {
+    "kicker": "mojuto olorijori",
+    "heading": "Ifiranṣẹ ti ko nilo ipade kan",
+    "items": [
+     "Ibeere naa: gangan ohun ti o nilo",
+     "Akoko ipari, pẹlu agbegbe aago",
+     "Ọrọ: kini eyi jẹ nipa",
+     "Awọn aṣayan tabi iṣeduro rẹ",
+     "Nibiti ohun elo ngbe"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Lẹhinna ọrọ-ọrọ, ati awọn aṣayan tabi iṣeduro rẹ."
+   ],
+   "panel": {
+    "kicker": "mojuto olorijori",
+    "heading": "Ifiranṣẹ ti ko nilo ipade kan",
+    "items": [
+     "Ibeere naa: gangan ohun ti o nilo",
+     "Akoko ipari, pẹlu agbegbe aago",
+     "Ọrọ: kini eyi jẹ nipa",
+     "Awọn aṣayan tabi iṣeduro rẹ",
+     "Nibiti ohun elo ngbe"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Nikẹhin, sọ ibi ti ohun elo atilẹyin n gbe, ki o si lẹẹmọ ọna asopọ naa."
+   ],
+   "panel": {
+    "kicker": "mojuto olorijori",
+    "heading": "Ifiranṣẹ ti ko nilo ipade kan",
+    "items": [
+     "Ibeere naa: gangan ohun ti o nilo",
+     "Akoko ipari, pẹlu agbegbe aago",
+     "Ọrọ: kini eyi jẹ nipa",
+     "Awọn aṣayan tabi iṣeduro rẹ",
+     "Nibiti ohun elo ngbe"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Fi ibeere naa si laini akọkọ, nitori ọpọlọpọ eniyan ka awotẹlẹ nikan lori foonu wọn."
+   ],
+   "panel": {
+    "kicker": "mojuto olorijori",
+    "heading": "Ifiranṣẹ ti ko nilo ipade kan",
+    "items": [
+     "Ibeere naa: gangan ohun ti o nilo",
+     "Akoko ipari, pẹlu agbegbe aago",
+     "Ọrọ: kini eyi jẹ nipa",
+     "Awọn aṣayan tabi iṣeduro rẹ",
+     "Nibiti ohun elo ngbe"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Fi ibeere naa si laini akọkọ. Ọpọlọpọ ka awotẹlẹ nikan.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Akọsilẹ akọkọ ti Amaka sọ pe: Hi, ṣe o ni ominira? Nilo lati sọrọ nipa aaye naa. Ko ni ibeere ati pe ko si akoko ipari."
+   ],
+   "card": {
+    "title": "Amaka ká ibi isere ipinnu",
+    "rows": [],
+    "note": "Awọn idiyele Naira jẹ awọn agbasọ isunmọ."
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Atunkọ rẹ bẹrẹ: ipinnu nilo nipasẹ Ọjọbọ 5 pm aago Lagos, fọwọsi ibi isere B.",
+    "Ibi isere A jẹ bii 450,000 naira fun ọjọ meji. Ibi isere B jẹ bi 380,000 naira. Awọn agbasọ wọnyi jẹ isunmọ."
+   ],
+   "card": {
+    "title": "Amaka ká ibi isere ipinnu",
+    "rows": [
+     [
+      "Ibi isere A, ọjọ meji",
+      "450,000"
+     ],
+     [
+      "Ibi isere B, ọjọ meji",
+      "380,000"
+     ]
+    ],
+    "note": "Awọn idiyele Naira jẹ awọn agbasọ isunmọ."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "O ṣeduro Ibi isere B, nitori pe o ni olupilẹṣẹ afẹyinti ati pe o jẹ iṣẹju mẹwa 10 lati papa ọkọ akero naa.",
+    "O ṣopọ mọ awọn agbasọ naa o si ṣe afikun ipadabọ: ti MO ba gbọ ohunkohun nipasẹ akoko ipari, Emi yoo kọ aaye B. Ko si ipade ti a nilo."
+   ],
+   "card": {
+    "title": "Amaka ká ibi isere ipinnu",
+    "rows": [
+     [
+      "Ibi isere A, ọjọ meji",
+      "450,000"
+     ],
+     [
+      "Ibi isere B, ọjọ meji",
+      "380,000"
+     ]
+    ],
+    "note": "Awọn idiyele Naira jẹ awọn agbasọ isunmọ."
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Adehun iṣẹ ẹgbẹ kan kọ awọn ikanni silẹ, awọn akoko idahun, awọn wakati iṣẹ ati nibiti awọn faili n gbe. Apa bọtini kan jẹ awọn wakati agbekọja, nigbati gbogbo eniyan wa ninu ọjọ iṣẹ wọn."
+   ],
+   "panel": {
+    "kicker": "Adehun iṣẹ",
+    "heading": "Wa awọn wakati agbekọja ẹgbẹ rẹ",
+    "items": [
+     "Gba awọn wakati iṣẹ gbogbo eniyan",
+     "Iyipada kọọkan si UTC",
+     "Wa ibi ti awọn sakani pade",
+     "Tun ṣayẹwo nigbati awọn aago yipada"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Yipada awọn wakati gbogbo eniyan sinu UTC, eyiti o tumọ si Aago Iṣọkan gbogbo agbaye. Fun apẹẹrẹ, 9 si 5 ni Lagos jẹ 08:00 si 16:00 UTC."
+   ],
+   "panel": {
+    "kicker": "Adehun iṣẹ",
+    "heading": "Wa awọn wakati agbekọja ẹgbẹ rẹ",
+    "items": [
+     "Gba awọn wakati iṣẹ gbogbo eniyan",
+     "Iyipada kọọkan si UTC",
+     "Wa ibi ti awọn sakani pade",
+     "Tun ṣayẹwo nigbati awọn aago yipada"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Nigba ti Ifeoma ṣe eyi fun Eko, Nairobi, London ati Toronto ni Oṣu Kini, ko si wakati pinpin rara. Nitorinaa o ṣe awọn ipe ti o kere ju, ati imudojuiwọn ọsẹ ti a kọ silẹ di aaye nibiti gbogbo awọn mẹrin ti pade."
+   ],
+   "panel": {
+    "kicker": "Adehun iṣẹ",
+    "heading": "Wa awọn wakati agbekọja ẹgbẹ rẹ",
+    "items": [
+     "Gba awọn wakati iṣẹ gbogbo eniyan",
+     "Iyipada kọọkan si UTC",
+     "Wa ibi ti awọn sakani pade",
+     "Tun ṣayẹwo nigbati awọn aago yipada"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Diẹ ninu awọn orilẹ-ede yi awọn aago wọn pada, nitorina ṣayẹwo ni lqkan ni Oṣu Kẹta, ati ni Oṣu Kẹwa tabi Oṣu kọkanla. Nigeria duro lori UTC plus 1 gbogbo odun."
+   ],
+   "panel": {
+    "kicker": "Adehun iṣẹ",
+    "heading": "Wa awọn wakati agbekọja ẹgbẹ rẹ",
+    "items": [
+     "Gba awọn wakati iṣẹ gbogbo eniyan",
+     "Iyipada kọọkan si UTC",
+     "Wa ibi ti awọn sakani pade",
+     "Tun ṣayẹwo nigbati awọn aago yipada"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Naijiria jẹ UTC + 1 ni gbogbo ọdun, laisi fifipamọ imọlẹ oju-ọjọ.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Igbẹkẹle jijin duro lori awọn nkan ti o han mẹta. Ni akọkọ, awọn eniyan ṣe ohun ti wọn sọ. Fesi si iṣẹ-ṣiṣe kan pẹlu ohun ti o yoo fi."
+   ],
+   "panel": {
+    "kicker": "Gbẹkẹle ni ijinna kan",
+    "heading": "Igbekele wa lori awọn nkan ti o han mẹta",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Do what you said",
+      "d": "Nigbati o ba gba iṣẹ-ṣiṣe kan, fesi pẹlu ohun ti o yoo fi jiṣẹ. Lẹhinna firanṣẹ."
+     },
+     {
+      "t": "By when you said",
+      "d": "Gba abajade, akoko ipari ati eni to ni. Ṣakoso awọn abajade, kii ṣe awọn wakati lori ayelujara."
+     },
+     {
+      "t": "Say early if you cannot",
+      "d": "Nigbati nkan ba yọ kuro, firanṣẹ imudojuiwọn ṣaaju akoko ipari, kii ṣe lẹhin rẹ."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Keji, nipa nigbati nwọn wi. Gba abajade, akoko ipari ati oniwun, lẹhinna jẹ ki eniyan ṣeto akoko tiwọn."
+   ],
+   "panel": {
+    "kicker": "Gbẹkẹle ni ijinna kan",
+    "heading": "Igbekele wa lori awọn nkan ti o han mẹta",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Do what you said",
+      "d": "Nigbati o ba gba iṣẹ-ṣiṣe kan, fesi pẹlu ohun ti o yoo fi jiṣẹ. Lẹhinna firanṣẹ."
+     },
+     {
+      "t": "By when you said",
+      "d": "Gba abajade, akoko ipari ati eni to ni. Ṣakoso awọn abajade, kii ṣe awọn wakati lori ayelujara."
+     },
+     {
+      "t": "Say early if you cannot",
+      "d": "Nigbati nkan ba yọ kuro, firanṣẹ imudojuiwọn ṣaaju akoko ipari, kii ṣe lẹhin rẹ."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Kẹta, sọ ni kutukutu nigbati o ko ba le, ṣaaju akoko ipari, kii ṣe lẹhin.",
+    "Aṣiṣe ti o wọpọ jẹ iwo-kakiri, bii awọn kamẹra ti n beere ni gbogbo ọjọ. Iyẹn nigbagbogbo ba igbẹkẹle jẹ ati pe iṣẹ ti o buru sii."
+   ],
+   "panel": {
+    "kicker": "Gbẹkẹle ni ijinna kan",
+    "heading": "Igbekele wa lori awọn nkan ti o han mẹta",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Do what you said",
+      "d": "Nigbati o ba gba iṣẹ-ṣiṣe kan, fesi pẹlu ohun ti o yoo fi jiṣẹ. Lẹhinna firanṣẹ."
+     },
+     {
+      "t": "By when you said",
+      "d": "Gba abajade, akoko ipari ati eni to ni. Ṣakoso awọn abajade, kii ṣe awọn wakati lori ayelujara."
+     },
+     {
+      "t": "Say early if you cannot",
+      "d": "Nigbati nkan ba yọ kuro, firanṣẹ imudojuiwọn ṣaaju akoko ipari, kii ṣe lẹhin rẹ."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Lati ranti. Muṣiṣẹpọ fun imolara ati awọn pajawiri, async fun awọn imudojuiwọn ati awọn ipinnu ti a gbero.",
+    "Ga lori akaba nikan bi o ṣe gbọdọ. Fi ibeere naa si akọkọ ati agbegbe aago ni akoko ipari.",
+    "Lo UTC lati wa ni lqkan. Ki o si kọ igbekele nipa titọju, tabi ni otitọ irapada, gbogbo ileri."
+   ],
+   "panel": {
+    "kicker": "Awọn ojuami pataki",
+    "heading": "Ranti",
+    "items": [
+     "Amuṣiṣẹpọ fun imolara ati awọn pajawiri; async fun awọn iyokù",
+     "Gùn àkàbà escalation nikan bi o ti nilo",
+     "Beere, akoko ipari pẹlu agbegbe aago, ọrọ-ọrọ, ọna asopọ",
+     "Yipada awọn wakati si UTC lati wa agbekọja",
+     "Gbẹkẹle: ṣe, firanṣẹ tabi asia ni kutukutu, duro han"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Bayi ṣe adaṣe. Tun awọn ifiranṣẹ aiduro mẹta kọ nipa lilo awọn apakan marun, ṣe adehun adehun iṣẹ oju-iwe kan pẹlu awọn wakati agbekọja rẹ, ki o ṣeto iwe-ipamọ ọkan-si-ọkan ti o pin.",
+    "Tẹsiwaju pẹlu awọn ẹkọ ni isalẹ."
+   ],
+   "panel": {
+    "kicker": "Ṣiṣe awọn iṣẹ ṣiṣe",
+    "heading": "Awọn iṣẹ ṣiṣe adaṣe rẹ",
+    "items": [
+     "Tun mẹta aiduro awọn ifiranṣẹ",
+     "Akọpamọ adehun iṣẹ-oju-iwe kan",
+     "Ṣeto iwe-ipamọ ọkan-si-ọkan"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

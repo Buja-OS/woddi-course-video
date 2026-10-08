@@ -1,0 +1,527 @@
+{
+ "course": "advanced-excel-dashboards",
+ "module": "m2",
+ "title": "Créez, testez et protégez un tableau de bord auquel le propriétaire peut faire confiance",
+ "course_title": "Excel avancé et tableaux de bord",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Créez, testez et protégez un tableau de bord auquel le propriétaire peut faire confiance.",
+    "Ceci est la vidéo du module deux d'Excel avancé et des tableaux de bord."
+   ]
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "La plupart des tableaux de bord sont alimentés par les exports d'un système de point de vente, d'une banque ou d'un logiciel de comptabilité. Les nettoyer à la main tous les mois est lent et c’est là que les erreurs s’insinuent."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Un mauvais numéro qui semble correct est dangereux",
+    "items": [
+     "Nettoyer automatiquement les exportations mensuelles avec Power Query",
+     "Disposez des cartes KPI, des graphiques et des slicers sur un seul écran",
+     "Prouvez que chaque numéro correspond à la source",
+     "Protégez le fichier et écrivez comment il fonctionne"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Vous construirez un écran qui répondra aux questions répétées du propriétaire."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Un mauvais numéro qui semble correct est dangereux",
+    "items": [
+     "Nettoyer automatiquement les exportations mensuelles avec Power Query",
+     "Disposez des cartes KPI, des graphiques et des slicers sur un seul écran",
+     "Prouvez que chaque numéro correspond à la source",
+     "Protégez le fichier et écrivez comment il fonctionne"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Un mauvais chiffre qui semble correct est pire qu’une erreur évidente, car les gens agissent en conséquence. Ainsi, vous prouverez chaque chiffre."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Un mauvais numéro qui semble correct est dangereux",
+    "items": [
+     "Nettoyer automatiquement les exportations mensuelles avec Power Query",
+     "Disposez des cartes KPI, des graphiques et des slicers sur un seul écran",
+     "Prouvez que chaque numéro correspond à la source",
+     "Protégez le fichier et écrivez comment il fonctionne"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Et vous protégerez et documenterez le fichier afin que quelqu’un d’autre puisse l’exécuter sans vous."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Un mauvais numéro qui semble correct est dangereux",
+    "items": [
+     "Nettoyer automatiquement les exportations mensuelles avec Power Query",
+     "Disposez des cartes KPI, des graphiques et des slicers sur un seul écran",
+     "Prouvez que chaque numéro correspond à la source",
+     "Protégez le fichier et écrivez comment il fonctionne"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Ada est responsable administrative d'une pharmacie possédant trois succursales à Abuja. Elle enregistre chaque exportation de branche dans un dossier appelé POS Exports."
+   ],
+   "panel": {
+    "kicker": "Requête puissante",
+    "heading": "Combiner les fichiers mensuels d'un dossier",
+    "items": [
+     "Enregistrez chaque exportation dans un dossier",
+     "Obtenez des données, à partir d'un dossier, combinez et transformez",
+     "Supprimez les lignes de titre, utilisez la première ligne comme en-têtes",
+     "Définir les types ; couper les noms ; remplacer les étiquettes impaires",
+     "Fermez et chargez dans une table, puis vérifiez le nombre de lignes"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Power Query empile les fichiers en une seule requête. Chaque pas qu'elle fait est enregistré sous Étapes appliquées et ses fichiers originaux ne sont jamais modifiés."
+   ],
+   "panel": {
+    "kicker": "Requête puissante",
+    "heading": "Combiner les fichiers mensuels d'un dossier",
+    "items": [
+     "Enregistrez chaque exportation dans un dossier",
+     "Obtenez des données, à partir d'un dossier, combinez et transformez",
+     "Supprimez les lignes de titre, utilisez la première ligne comme en-têtes",
+     "Définir les types ; couper les noms ; remplacer les étiquettes impaires",
+     "Fermez et chargez dans une table, puis vérifiez le nombre de lignes"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Elle supprime les 4 lignes de titre et promeut la première ligne en en-têtes."
+   ],
+   "panel": {
+    "kicker": "Requête puissante",
+    "heading": "Combiner les fichiers mensuels d'un dossier",
+    "items": [
+     "Enregistrez chaque exportation dans un dossier",
+     "Obtenez des données, à partir d'un dossier, combinez et transformez",
+     "Supprimez les lignes de titre, utilisez la première ligne comme en-têtes",
+     "Définir les types ; couper les noms ; remplacer les étiquettes impaires",
+     "Fermez et chargez dans une table, puis vérifiez le nombre de lignes"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Elle définit la quantité sous forme de nombre, supprime les espaces dans les noms et remplace PCM 500 par Paracétamol 500 mg."
+   ],
+   "panel": {
+    "kicker": "Requête puissante",
+    "heading": "Combiner les fichiers mensuels d'un dossier",
+    "items": [
+     "Enregistrez chaque exportation dans un dossier",
+     "Obtenez des données, à partir d'un dossier, combinez et transformez",
+     "Supprimez les lignes de titre, utilisez la première ligne comme en-têtes",
+     "Définir les types ; couper les noms ; remplacer les étiquettes impaires",
+     "Fermez et chargez dans une table, puis vérifiez le nombre de lignes"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Elle le charge dans une table et vérifie le nombre de lignes. Les trois rapports de janvier donnent 2 140 plus 1 875 plus 1 310, soit 5 325 lignes. La requête affiche 5 325."
+   ],
+   "panel": {
+    "kicker": "Requête puissante",
+    "heading": "Combiner les fichiers mensuels d'un dossier",
+    "items": [
+     "Enregistrez chaque exportation dans un dossier",
+     "Obtenez des données, à partir d'un dossier, combinez et transformez",
+     "Supprimez les lignes de titre, utilisez la première ligne comme en-têtes",
+     "Définir les types ; couper les noms ; remplacer les étiquettes impaires",
+     "Fermez et chargez dans une table, puis vérifiez le nombre de lignes"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Regardez le piège des rendez-vous. Certains ordinateurs lisent le 03/04 comme étant le 4 mars. Définissez le type de date en utilisant les paramètres régionaux, English Nigeria, et vérifiez une date comme 13/05 dans le résultat.",
+    "Le mois prochain, elle enregistre trois nouveaux fichiers et clique sur Actualiser tout."
+   ],
+   "panel": {
+    "kicker": "Requête puissante",
+    "heading": "Combiner les fichiers mensuels d'un dossier",
+    "items": [
+     "Enregistrez chaque exportation dans un dossier",
+     "Obtenez des données, à partir d'un dossier, combinez et transformez",
+     "Supprimez les lignes de titre, utilisez la première ligne comme en-têtes",
+     "Définir les types ; couper les noms ; remplacer les étiquettes impaires",
+     "Fermez et chargez dans une table, puis vérifiez le nombre de lignes"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Définissez des dates à l'aide de Locale, puis vérifiez une date comme le 13/05.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Placez trois à cinq cartes KPI en haut à gauche, là où l'œil atterrit en premier. Les tendances apparaissent en dessous, puis les ventilations, puis les listes détaillées."
+   ],
+   "card": {
+    "title": "Cartes KPI pour un propriétaire de pharmacie",
+    "rows": [],
+    "note": "Chiffres illustratifs."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Les ventes ce mois-ci s'élèvent à 18 600 000 naira contre 17 200 000 le mois dernier. La variation en pourcentage est divisée par la période précédente, la variation est donc de 8,1 pour cent."
+   ],
+   "card": {
+    "title": "Cartes KPI pour un propriétaire de pharmacie",
+    "rows": [
+     [
+      "Ventes ce mois-ci",
+      "18,600,000"
+     ],
+     [
+      "Ventes le mois dernier",
+      "17,200,000"
+     ]
+    ],
+    "note": "Chiffres illustratifs."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Le bénéfice brut est de 4 650 000, donc la marge est de 25 pour cent. Calculez toujours la marge à partir des totaux, jamais en faisant la moyenne des marges des articles."
+   ],
+   "card": {
+    "title": "Cartes KPI pour un propriétaire de pharmacie",
+    "rows": [
+     [
+      "Ventes ce mois-ci",
+      "18,600,000"
+     ],
+     [
+      "Ventes le mois dernier",
+      "17,200,000"
+     ],
+     [
+      "Bénéfice brut",
+      "4,650,000"
+     ]
+    ],
+    "note": "Chiffres illustratifs."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "6 200 transactions donnent un panier moyen de 3 000 nairas. Une quatrième carte compte 14 articles en dessous du niveau de réapprovisionnement."
+   ],
+   "card": {
+    "title": "Cartes KPI pour un propriétaire de pharmacie",
+    "rows": [
+     [
+      "Ventes ce mois-ci",
+      "18,600,000"
+     ],
+     [
+      "Ventes le mois dernier",
+      "17,200,000"
+     ],
+     [
+      "Bénéfice brut",
+      "4,650,000"
+     ],
+     [
+      "Panier moyen",
+      "3,000"
+     ]
+    ],
+    "note": "Chiffres illustratifs."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Utilisez un graphique linéaire pour les ventes sur plusieurs mois et un graphique à barres trié du plus grand au plus petit pour les succursales. Évitez les effets 3D."
+   ],
+   "panel": {
+    "kicker": "Rendez-le interactif",
+    "heading": "Graphiques, slicers et listes en direct",
+    "items": [
+     "Graphique linéaire pour les mois, barres triées pour les branches",
+     "Slicer et chronologie, avec connexions de rapports",
+     "FILTRER les exceptions, telles que les comptes en souffrance",
+     "Ne comptez jamais uniquement sur la couleur"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Insérez un trancheur de branche et une chronologie de date. Utilisez Report Connections pour cocher chaque pivot, donc un clic sur Kubwa filtre tout l'écran."
+   ],
+   "panel": {
+    "kicker": "Rendez-le interactif",
+    "heading": "Graphiques, slicers et listes en direct",
+    "items": [
+     "Graphique linéaire pour les mois, barres triées pour les branches",
+     "Slicer et chronologie, avec connexions de rapports",
+     "FILTRER les exceptions, telles que les comptes en souffrance",
+     "Ne comptez jamais uniquement sur la couleur"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "FILTER peut répertorier tous les comptes impayés sur 30 jours. Laissez les cellules en dessous vides, sinon vous obtenez une erreur de déversement."
+   ],
+   "panel": {
+    "kicker": "Rendez-le interactif",
+    "heading": "Graphiques, slicers et listes en direct",
+    "items": [
+     "Graphique linéaire pour les mois, barres triées pour les branches",
+     "Slicer et chronologie, avec connexions de rapports",
+     "FILTRER les exceptions, telles que les comptes en souffrance",
+     "Ne comptez jamais uniquement sur la couleur"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Certains lecteurs ne peuvent pas distinguer le rouge du vert, alors ajoutez un signe plus ou moins et donnez à chaque graphique un titre qui énonce le message."
+   ],
+   "panel": {
+    "kicker": "Rendez-le interactif",
+    "heading": "Graphiques, slicers et listes en direct",
+    "items": [
+     "Graphique linéaire pour les mois, barres triées pour les branches",
+     "Slicer et chronologie, avec connexions de rapports",
+     "FILTRER les exceptions, telles que les comptes en souffrance",
+     "Ne comptez jamais uniquement sur la couleur"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Créez une zone Chèques. Chaque vérification compare deux nombres qui doivent correspondre et la différence doit être de 0."
+   ],
+   "card": {
+    "title": "Trouver l'écart de 312 500 nairas",
+    "rows": [],
+    "note": "Chiffres illustratifs."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Le tableau source d'Ada totalise 18 912 500 nairas, mais le tableau de bord indique 18 600 000."
+   ],
+   "card": {
+    "title": "Trouver l'écart de 312 500 nairas",
+    "rows": [
+     [
+      "Source Total du tableau",
+      "18,912,500"
+     ],
+     [
+      "Total des ventes du tableau de bord",
+      "18,600,000"
+     ]
+    ],
+    "note": "Chiffres illustratifs."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "L’écart est de 312 500. Le pivot indiquait une fourchette fixe, donc 5 factures en retard de 62 500 chacune ont été laissées de côté. Elle pointe le pivot vers tblSales, actualise et le chèque renvoie 0."
+   ],
+   "card": {
+    "title": "Trouver l'écart de 312 500 nairas",
+    "rows": [
+     [
+      "Source Total du tableau",
+      "18,912,500"
+     ],
+     [
+      "Total des ventes du tableau de bord",
+      "18,600,000"
+     ]
+    ],
+    "note": "Chiffres illustratifs."
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Ajoutez la validation des données aux cellules d'entrée, déverrouillez uniquement ces cellules, puis protégez la feuille. Vérifiez que les trancheuses fonctionnent toujours. Mais la protection en tôle évite uniquement les accidents."
+   ],
+   "panel": {
+    "kicker": "La sécurité avant tout",
+    "heading": "La protection n'est pas la sécurité",
+    "mode": "compare",
+    "left_h": "Feuille de protection",
+    "left": [
+     "Arrête les changements accidentels",
+     "Déverrouillez uniquement les cellules d'entrée",
+     "Les mots de passe peuvent être supprimés"
+    ],
+    "right_h": "Chiffrer le fichier",
+    "right": [
+     "Garde les données confidentielles privées",
+     "Pour les salaires, les clients, les coordonnées bancaires",
+     "Partager le mot de passe séparément"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_security",
+   "say": [
+    "Pour les salaires, les coordonnées des clients ou les informations bancaires, utilisez Chiffrer avec mot de passe, avec un mot de passe fort envoyé via un autre canal.",
+    "Les exportations contiennent souvent des noms et des numéros de téléphone de clients. Supprimez les colonnes dont vous n'avez pas besoin et ne transférez jamais d'exportations brutes sur WhatsApp personnel."
+   ],
+   "panel": {
+    "kicker": "La sécurité avant tout",
+    "heading": "La protection n'est pas la sécurité",
+    "mode": "compare",
+    "left_h": "Feuille de protection",
+    "left": [
+     "Arrête les changements accidentels",
+     "Déverrouillez uniquement les cellules d'entrée",
+     "Les mots de passe peuvent être supprimés"
+    ],
+    "right_h": "Chiffrer le fichier",
+    "right": [
+     "Garde les données confidentielles privées",
+     "Pour les salaires, les clients, les coordonnées bancaires",
+     "Partager le mot de passe séparément"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Avant d'envoyer le fichier, cochez chaque élément. Testez volontairement avec des données gênantes : une quantité vide, une date saisie sous forme de texte, une facture en double.",
+    "Ne cachez pas les erreurs avec SIERREUR et un zéro, car une recherche interrompue ressemble alors à un vrai zéro.",
+    "Enfin, rédigez une feuille Comment ça marche et demandez à quelqu'un d'autre de la suivre sans votre aide."
+   ],
+   "panel": {
+    "kicker": "Avant la remise",
+    "heading": "Liste de contrôle de transfert",
+    "items": [
+     "Les totaux sont rapprochés de la source",
+     "Le nombre de lignes correspond aux exportations",
+     "Entrées vides et impaires testées",
+     "Cellules de formule verrouillées",
+     "Fiche Comment ça marche rédigée"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Automatisez une importation à partir d’un dossier d’au moins trois fichiers. Créez votre tableau de bord sur un écran avec des cartes, des graphiques et un slicer connecté. Ajoutez ensuite des cellules de contrôle, protégez-les et rédigez la feuille Comment ça marche.",
+    "Continuez maintenant avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâche pratique",
+    "heading": "Vos tâches pour ce module",
+    "items": [
+     "Automatisez une importation mensuelle avec Power Query",
+     "Créez votre tableau de bord sur un écran",
+     "Préparez votre tableau de bord pour le transfert"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

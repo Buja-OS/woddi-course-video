@@ -1,0 +1,486 @@
+{
+ "course": "core-time-and-home-management",
+ "module": "m2",
+ "title": "Planifiez votre semaine : des gros rochers d'abord et un gentil non",
+ "course_title": "Gestion du temps et de la maison",
+ "shots": [
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Planifiez votre semaine : de gros rochers d'abord, et un gentil non.",
+    "Ceci est la vidéo du module 2, Planification et priorisation."
+   ]
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Lorsque tout semble devoir être fait aujourd’hui, vous avez besoin d’un moyen rapide pour décider de ce qui vient en premier. Posez deux questions pour chaque tâche.",
+    "D’abord, est-ce urgent ? A-t-il besoin d’attention maintenant, avec de réelles conséquences s’il attend ? Une commande à rendre aujourd'hui à 16 heures, ou un enfant avec une forte fièvre."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Les choses urgentes crient, les choses importantes chuchotent",
+    "items": [
+     "Urgent : nécessite une attention immédiate ou très bientôt",
+     "Important : sert vos objectifs et votre bien-être",
+     "Planifiez les tâches importantes avant qu’elles ne deviennent urgentes"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Deuxièmement, est-ce important ? Est-ce que cela vous permet d'atteindre vos objectifs ou de protéger la santé, les revenus ou le bien-être de votre famille ? Économisez pour les frais de scolarité, vérifiez vos dossiers professionnels, reposez-vous."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Les choses urgentes crient, les choses importantes chuchotent",
+    "items": [
+     "Urgent : nécessite une attention immédiate ou très bientôt",
+     "Important : sert vos objectifs et votre bien-être",
+     "Planifiez les tâches importantes avant qu’elles ne deviennent urgentes"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Les choses urgentes crient. Les choses importantes se murmurent souvent et ne sont jamais urgentes jusqu'à ce qu'il soit trop tard, comme l'entretien du générateur."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Les choses urgentes crient, les choses importantes chuchotent",
+    "items": [
+     "Urgent : nécessite une attention immédiate ou très bientôt",
+     "Important : sert vos objectifs et votre bien-être",
+     "Planifiez les tâches importantes avant qu’elles ne deviennent urgentes"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "La matrice urgent-important vous donne quatre cases. L’encadré 1 est urgent et important. Faites-le maintenant, vous-même. Un tuyau qui fuit, loyer dû demain."
+   ],
+   "panel": {
+    "kicker": "La matrice d'Eisenhower",
+    "heading": "Quatre cases, quatre actions",
+    "items": [
+     "1. Urgent et important : faites-le maintenant",
+     "2. Important, pas urgent : planifiez-le",
+     "3. Urgent, pas important : délégué ou batch",
+     "4. Ni l'un ni l'autre : suppression ou limite"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "L’encadré 2 est important mais pas urgent. Donnez-lui un jour et une heure. Planification, économies, apprentissage, bilan de santé.",
+    "C'est la boîte à clés. Faites l'entretien du générateur un samedi prévu et il ne tombe pas en panne la veille d'un examen."
+   ],
+   "panel": {
+    "kicker": "La matrice d'Eisenhower",
+    "heading": "Quatre cases, quatre actions",
+    "items": [
+     "1. Urgent et important : faites-le maintenant",
+     "2. Important, pas urgent : planifiez-le",
+     "3. Urgent, pas important : délégué ou batch",
+     "4. Ni l'un ni l'autre : suppression ou limite"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "La case 3 est urgente mais n’est pas importante pour vous. Déléguez-le, raccourcissez-le ou regroupez-le. La plupart des appels et des messages restent ici.",
+    "Lorsque vous déléguez, dites à quoi, quand et à quoi ressemble ce qui est fait. Ensuite, vérifiez une fois, gentiment, et faites confiance à la personne."
+   ],
+   "panel": {
+    "kicker": "La matrice d'Eisenhower",
+    "heading": "Quatre cases, quatre actions",
+    "items": [
+     "1. Urgent et important : faites-le maintenant",
+     "2. Important, pas urgent : planifiez-le",
+     "3. Urgent, pas important : délégué ou batch",
+     "4. Ni l'un ni l'autre : suppression ou limite"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "L’encadré 4 n’est ni l’un ni l’autre. Défilement sans fin, messages en chaîne, longs potins. Supprimez-le ou limitez-le.",
+    "L’erreur courante est de tout mettre dans la case 1. Demandez honnêtement : que se passe-t-il si cela attend jusqu’à demain ?"
+   ],
+   "panel": {
+    "kicker": "La matrice d'Eisenhower",
+    "heading": "Quatre cases, quatre actions",
+    "items": [
+     "1. Urgent et important : faites-le maintenant",
+     "2. Important, pas urgent : planifiez-le",
+     "3. Urgent, pas important : délégué ou batch",
+     "4. Ni l'un ni l'autre : suppression ou limite"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Choisissez une heure fixe chaque semaine, par exemple le dimanche soir. Donnez à chaque étape environ 5 minutes.",
+    "Première étape. Bilan de la semaine dernière : ce qui a été fait, ce qui n’a pas été fait et pourquoi."
+   ],
+   "panel": {
+    "kicker": "30 minutes, une fois par semaine",
+    "heading": "Votre séance de planification hebdomadaire",
+    "items": [
+     "Bilan de la semaine dernière",
+     "Rédiger des engagements fixes les jours",
+     "Choisissez 3 à 5 gros rochers",
+     "Placez d'abord les grosses pierres",
+     "Ajouter le rythme de la maison",
+     "Laisser le temps tampon"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Deuxième étape. Écrivez vos engagements fixes sur les jours. Horaires de travail, événements scolaires, rendez-vous, culte, livraisons."
+   ],
+   "panel": {
+    "kicker": "30 minutes, une fois par semaine",
+    "heading": "Votre séance de planification hebdomadaire",
+    "items": [
+     "Bilan de la semaine dernière",
+     "Rédiger des engagements fixes les jours",
+     "Choisissez 3 à 5 gros rochers",
+     "Placez d'abord les grosses pierres",
+     "Ajouter le rythme de la maison",
+     "Laisser le temps tampon"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Troisième étape. Choisissez vos gros cailloux, les trois à cinq tâches les plus importantes de la semaine, principalement dans la case 2."
+   ],
+   "panel": {
+    "kicker": "30 minutes, une fois par semaine",
+    "heading": "Votre séance de planification hebdomadaire",
+    "items": [
+     "Bilan de la semaine dernière",
+     "Rédiger des engagements fixes les jours",
+     "Choisissez 3 à 5 gros rochers",
+     "Placez d'abord les grosses pierres",
+     "Ajouter le rythme de la maison",
+     "Laisser le temps tampon"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Quatrième étape. Donnez à chaque gros rocher un jour et une heure, pendant vos heures les plus énergiques.",
+    "Pensez à un pot. Versez d'abord du sable et les gros rochers ne rentrent pas. Mettez les roches en premier et le sable se dépose autour d'elles."
+   ],
+   "panel": {
+    "kicker": "30 minutes, une fois par semaine",
+    "heading": "Votre séance de planification hebdomadaire",
+    "items": [
+     "Bilan de la semaine dernière",
+     "Rédiger des engagements fixes les jours",
+     "Choisissez 3 à 5 gros rochers",
+     "Placez d'abord les grosses pierres",
+     "Ajouter le rythme de la maison",
+     "Laisser le temps tampon"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Les gros rochers entrent en premier. Les petites tâches trouvent toujours de la place.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Cinquième étape, ajoutez votre rythme domestique : jour de marché, jour de lessive, jours de cuisine. Et sixième étape, laissez au moins une heure libre la plupart des jours pour les imprévus."
+   ],
+   "panel": {
+    "kicker": "30 minutes, une fois par semaine",
+    "heading": "Votre séance de planification hebdomadaire",
+    "items": [
+     "Bilan de la semaine dernière",
+     "Rédiger des engagements fixes les jours",
+     "Choisissez 3 à 5 gros rochers",
+     "Placez d'abord les grosses pierres",
+     "Ajouter le rythme de la maison",
+     "Laisser le temps tampon"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "rule": "Les gros rochers entrent en premier. Les petites tâches trouvent toujours de la place.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Par exemple, Aisha est une infirmière de jour à Kano qui vend des huiles de parfum sur WhatsApp. Le dimanche soir, elle écrit ses quarts de travail, une réunion PTA et une visite familiale les jours suivants."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Aisha planifie sa semaine",
+    "items": [
+     "Fixe : quatre équipes, réunion PTA, visite familiale",
+     "Test de vue et réapprovisionnement mercredi, son jour de congé",
+     "Publication du catalogue jeudi 19h",
+     "Marché le samedi à 8h, ragoûts le dimanche",
+     "Buffer : vendredi soir gratuit"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Elle place ses gros cailloux. L'examen de la vue et le réapprovisionnement de sa fille ont lieu mercredi, son jour de congé. La publication du catalogue a lieu jeudi à 19 heures."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Aisha planifie sa semaine",
+    "items": [
+     "Fixe : quatre équipes, réunion PTA, visite familiale",
+     "Test de vue et réapprovisionnement mercredi, son jour de congé",
+     "Publication du catalogue jeudi 19h",
+     "Marché le samedi à 8h, ragoûts le dimanche",
+     "Buffer : vendredi soir gratuit"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Puis rythme maison, marché le samedi à 8h et deux ragoûts cuisinés et surgelés le dimanche. Et elle part vendredi soir libre.",
+    "Lorsque son quart de travail arrive tard le vendredi, rien d'important n'est perdu. Les quatre gros rochers étaient terminés jeudi soir."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Aisha planifie sa semaine",
+    "items": [
+     "Fixe : quatre équipes, réunion PTA, visite familiale",
+     "Test de vue et réapprovisionnement mercredi, son jour de congé",
+     "Publication du catalogue jeudi 19h",
+     "Marché le samedi à 8h, ragoûts le dimanche",
+     "Buffer : vendredi soir gratuit"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Les objectifs vous aident à choisir vos gros rochers. Mais des objectifs vagues comme la sauvegarde se produisent plus rarement."
+   ],
+   "panel": {
+    "kicker": "Objectifs SMART",
+    "heading": "D'un souhait à un objectif",
+    "mode": "compare",
+    "left_h": "Vœu vague",
+    "left": [
+     "Économisez davantage",
+     "Aucun montant",
+     "Pas de date"
+    ],
+    "right_h": "Objectif SMART",
+    "right": [
+     "Économisez 150 000 naira pour les frais de scolarité",
+     "15 000 nairas chaque semaine",
+     "Avant le 1er septembre"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Un objectif SMART est spécifique, mesurable, réalisable, pertinent et limité dans le temps. Économisez environ 150 000 naira pour les prochains frais de scolarité de mon fils d'ici le 1er septembre, en mettant de côté 15 000 naira chaque semaine.",
+    "Vous pouvez désormais vérifier chaque semaine si vous êtes sur la bonne voie."
+   ],
+   "panel": {
+    "kicker": "Objectifs SMART",
+    "heading": "D'un souhait à un objectif",
+    "mode": "compare",
+    "left_h": "Vœu vague",
+    "left": [
+     "Économisez davantage",
+     "Aucun montant",
+     "Pas de date"
+    ],
+    "right_h": "Objectif SMART",
+    "right": [
+     "Économisez 150 000 naira pour les frais de scolarité",
+     "15 000 nairas chaque semaine",
+     "Avant le 1er septembre"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Votre plan sera testé par les demandes. L’outil le plus puissant est la pause. Dites : laissez-moi vérifier ma semaine et je vous réponds ce soir."
+   ],
+   "panel": {
+    "kicker": "Dire non gentiment",
+    "heading": "Faites une pause avant de répondre",
+    "items": [
+     "Pause : laissez-moi vérifier ma semaine",
+     "Vérifiez votre forfait",
+     "Demandez : est-ce important pour moi ?",
+     "Choisissez oui, un plus petit oui ou non",
+     "Répondez gentiment et clairement"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Vérifiez ensuite votre plan et demandez à quoi vous renonceriez."
+   ],
+   "panel": {
+    "kicker": "Dire non gentiment",
+    "heading": "Faites une pause avant de répondre",
+    "items": [
+     "Pause : laissez-moi vérifier ma semaine",
+     "Vérifiez votre forfait",
+     "Demandez : est-ce important pour moi ?",
+     "Choisissez oui, un plus petit oui ou non",
+     "Répondez gentiment et clairement"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Par exemple, la tante de Patience a demandé son samedi entier, mais elle avait des commandes de couture à rendre lundi. Patience m'a proposé un petit oui, 2 heures le samedi matin.",
+    "Un non aimable a une ouverture chaleureuse, une réponse claire et souvent une alternative. Les longues explications invitent à la discussion."
+   ],
+   "panel": {
+    "kicker": "Dire non gentiment",
+    "heading": "Faites une pause avant de répondre",
+    "items": [
+     "Pause : laissez-moi vérifier ma semaine",
+     "Vérifiez votre forfait",
+     "Demandez : est-ce important pour moi ?",
+     "Choisissez oui, un plus petit oui ou non",
+     "Répondez gentiment et clairement"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Chaque oui est aussi un non à quelque chose au cours de vos 168 heures.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Les escroqueries utilisent l’urgence pour vous empêcher de réfléchir. Un message indique qu'un parent est en difficulté ou que vous devez payer des frais pour recevoir un prix.",
+    "Pause. Appelez directement la personne sur un numéro que vous connaissez déjà. Et ne partagez jamais votre code PIN bancaire ou votre mot de passe à usage unique avec qui que ce soit."
+   ],
+   "panel": {
+    "kicker": "Restez en sécurité avec l'argent",
+    "heading": "Lorsqu'un message dit d'envoyer de l'argent maintenant",
+    "items": [
+     "Faites une pause, ne vous précipitez pas",
+     "Appelez la personne sur un numéro que vous connaissez",
+     "Ne partagez jamais votre code PIN ou OTP bancaire"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Maintenant, essayez-le. Triez votre vraie liste, planifiez la semaine prochaine, écrivez un objectif SMART et pratiquez la pause. Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâches d'entraînement",
+    "heading": "Vos tâches pratiques",
+    "items": [
+     "Triez votre vraie liste en quatre cases",
+     "Planifiez la semaine prochaine en 30 minutes",
+     "Écrivez un objectif SMART avec des étapes",
+     "Pratiquez la pause pendant une semaine"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

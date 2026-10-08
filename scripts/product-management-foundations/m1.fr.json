@@ -1,0 +1,527 @@
+{
+ "course": "product-management-foundations",
+ "module": "m1",
+ "title": "Pensez comme un chef de produit : résultats, risques et tests",
+ "course_title": "Fondements de la gestion de produits",
+ "shots": [
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Pensez comme un chef de produit : résultats, risques et tests.",
+    "Ceci est la vidéo du premier module des Fondements de la gestion de produits."
+   ]
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Une équipe produit peut écrire un excellent code et quand même échouer. L’application fonctionne, mais les gens ne l’utilisent pas ou l’entreprise perd encore de l’argent."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Une équipe peut bien se construire et quand même échouer",
+    "items": [
+     "Un bon code ne suffit pas si personne ne l'utilise",
+     "Le PM réduit ce danger",
+     "Quel problème, pour qui, comment saurons-nous",
+     "Vous formulerez des problèmes que vous pourrez tester"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Le chef de produit, ou PM, est la personne dont le travail consiste à réduire ce danger. Elle n’écrit généralement pas le code ni ne dessine les écrans."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Une équipe peut bien se construire et quand même échouer",
+    "items": [
+     "Un bon code ne suffit pas si personne ne l'utilise",
+     "Le PM réduit ce danger",
+     "Quel problème, pour qui, comment saurons-nous",
+     "Vous formulerez des problèmes que vous pourrez tester"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Elle décide, avec l’équipe, quel problème résoudre ensuite, pour qui et comment nous saurons que cela a fonctionné."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Une équipe peut bien se construire et quand même échouer",
+    "items": [
+     "Un bon code ne suffit pas si personne ne l'utilise",
+     "Le PM réduit ce danger",
+     "Quel problème, pour qui, comment saurons-nous",
+     "Vous formulerez des problèmes que vous pourrez tester"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "À la fin de ce module, vous définirez un problème de produit comme un résultat, un ensemble de risques et une hypothèse que vous pourrez tester."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Une équipe peut bien se construire et quand même échouer",
+    "items": [
+     "Un bon code ne suffit pas si personne ne l'utilise",
+     "Le PM réduit ce danger",
+     "Quel problème, pour qui, comment saurons-nous",
+     "Vous formulerez des problèmes que vous pourrez tester"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Un résultat est quelque chose que l'équipe livre : un nouvel écran, une fonctionnalité, une version. Les résultats sont faciles à compter, donc les équipes faibles les célèbrent."
+   ],
+   "panel": {
+    "kicker": "La première habitude",
+    "heading": "Produits versus résultats",
+    "mode": "compare",
+    "left_h": "Sortie",
+    "left": [
+     "Un nouvel écran",
+     "Une fonctionnalité",
+     "Une libération",
+     "Coché le jour de la sortie"
+    ],
+    "right_h": "Résultat",
+    "right": [
+     "De plus en plus de commerçants paient leurs fournisseurs",
+     "Moins de livraisons ratées",
+     "Moins d'appels au support",
+     "Vous attendez et observez le comportement"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Un résultat est un changement dans ce que font les gens et qui est important pour l’entreprise. Voici un test simple. Si vous pouvez le cocher le jour de la sortie, c'est une sortie. Si vous devez attendre et observer le comportement des utilisateurs, c'est un résultat.",
+    "Une fonctionnalité que personne n’utilise est un coût sans valeur."
+   ],
+   "panel": {
+    "kicker": "La première habitude",
+    "heading": "Produits versus résultats",
+    "mode": "compare",
+    "left_h": "Sortie",
+    "left": [
+     "Un nouvel écran",
+     "Une fonctionnalité",
+     "Une libération",
+     "Coché le jour de la sortie"
+    ],
+    "right_h": "Résultat",
+    "right": [
+     "De plus en plus de commerçants paient leurs fournisseurs",
+     "Moins de livraisons ratées",
+     "Moins d'appels au support",
+     "Vous attendez et observez le comportement"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Chaque idée comporte quatre risques. Valeur : les clients choisiront-ils de l’utiliser ? Le PM mène ici."
+   ],
+   "panel": {
+    "kicker": "Chaque idée les porte",
+    "heading": "Les quatre grands risques produits",
+    "items": [
+     "Valeur : l'utiliseront-ils ? (après midi)",
+     "Utilisabilité : peuvent-ils l’utiliser ? (concepteur)",
+     "Faisabilité : peut-on le construire ? (ingénieur)",
+     "Viabilité : est-ce que ça marche pour nous ? (après midi)"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Convivialité : les utilisateurs peuvent-ils le comprendre ? Le concepteur mène."
+   ],
+   "panel": {
+    "kicker": "Chaque idée les porte",
+    "heading": "Les quatre grands risques produits",
+    "items": [
+     "Valeur : l'utiliseront-ils ? (après midi)",
+     "Utilisabilité : peuvent-ils l’utiliser ? (concepteur)",
+     "Faisabilité : peut-on le construire ? (ingénieur)",
+     "Viabilité : est-ce que ça marche pour nous ? (après midi)"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Faisabilité : nos ingénieurs peuvent-ils le construire avec le temps et les compétences dont nous disposons ?"
+   ],
+   "panel": {
+    "kicker": "Chaque idée les porte",
+    "heading": "Les quatre grands risques produits",
+    "items": [
+     "Valeur : l'utiliseront-ils ? (après midi)",
+     "Utilisabilité : peuvent-ils l’utiliser ? (concepteur)",
+     "Faisabilité : peut-on le construire ? (ingénieur)",
+     "Viabilité : est-ce que ça marche pour nous ? (après midi)"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Viabilité : est-ce que cela fonctionne pour le juridique, la finance, le support et les partenaires ? Le Premier ministre en est également propriétaire. Une idée n’est prête qu’avec des preuves sur les quatre."
+   ],
+   "panel": {
+    "kicker": "Chaque idée les porte",
+    "heading": "Les quatre grands risques produits",
+    "items": [
+     "Valeur : l'utiliseront-ils ? (après midi)",
+     "Utilisabilité : peuvent-ils l’utiliser ? (concepteur)",
+     "Faisabilité : peut-on le construire ? (ingénieur)",
+     "Viabilité : est-ce que ça marche pour nous ? (après midi)"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Voici un exemple concret. Amaka est PM d'une application d'épargne utilisée par les commerçants du marché de Lagos. Un directeur souhaite que les traders bloquent leurs économies pendant 90 jours à un taux plus élevé.",
+    "Concernant la valeur, 6 des 40 dernières discussions d'assistance ont posé des questions sur les économies fixes. C'est un signal, pas une preuve."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Amaka vérifie une idée d'épargne",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Value: a signal",
+      "d": "6 des 40 dernières discussions d'assistance ont posé des questions sur les économies fixes. Un signal, pas une preuve."
+     },
+     {
+      "t": "Feasibility: yes",
+      "d": "Le grand livre peut contenir des dates de fin. Une première version représente environ deux semaines de travail."
+     },
+     {
+      "t": "Viability: open",
+      "d": "Les Finances doivent confirmer le taux plus élevé. La conformité doit vérifier la licence."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Concernant la faisabilité, l'ingénieur affirme qu'une première version nécessite environ deux semaines de travail."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Amaka vérifie une idée d'épargne",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Value: a signal",
+      "d": "6 des 40 dernières discussions d'assistance ont posé des questions sur les économies fixes. Un signal, pas une preuve."
+     },
+     {
+      "t": "Feasibility: yes",
+      "d": "Le grand livre peut contenir des dates de fin. Une première version représente environ deux semaines de travail."
+     },
+     {
+      "t": "Viability: open",
+      "d": "Les Finances doivent confirmer le taux plus élevé. La conformité doit vérifier la licence."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Mais la viabilité est ouverte, alors Amaka laisse l'idée de côté jusqu'à ce que les finances et la conformité répondent. Cela évite à l’équipe de construire quelque chose qui pourrait être retiré."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Amaka vérifie une idée d'épargne",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Value: a signal",
+      "d": "6 des 40 dernières discussions d'assistance ont posé des questions sur les économies fixes. Un signal, pas une preuve."
+     },
+     {
+      "t": "Feasibility: yes",
+      "d": "Le grand livre peut contenir des dates de fin. Une première version représente environ deux semaines de travail."
+     },
+     {
+      "t": "Viability: open",
+      "d": "Les Finances doivent confirmer le taux plus élevé. La conformité doit vérifier la licence."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Première étape. Écrivez un énoncé du problème : l'utilisateur, la situation et ce que cela lui coûte aujourd'hui, sans nommer de fonctionnalité."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "De l'idée à la preuve",
+    "items": [
+     "Problème : utilisateur, situation, coût. Aucune fonctionnalité.",
+     "Hypothèse : changement, résultat, signal, heure",
+     "MVP : le plus petit test, peut-être pas de code",
+     "Mesurez honnêtement le signal",
+     "Construire, modifier ou supprimer"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Deuxième étape. Écrivez une hypothèse, une croyance que vous pouvez prouver fausse, avec un signal mesurable et une limite de temps."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "De l'idée à la preuve",
+    "items": [
+     "Problème : utilisateur, situation, coût. Aucune fonctionnalité.",
+     "Hypothèse : changement, résultat, signal, heure",
+     "MVP : le plus petit test, peut-être pas de code",
+     "Mesurez honnêtement le signal",
+     "Construire, modifier ou supprimer"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Troisième étape. Concevoir un MVP, un produit minimum viable. C'est le plus petit test qui vous apprend quelque chose, pas un produit bon marché cassé. Il peut s'agir simplement d'un numéro WhatsApp ou d'un formulaire Google."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "De l'idée à la preuve",
+    "items": [
+     "Problème : utilisateur, situation, coût. Aucune fonctionnalité.",
+     "Hypothèse : changement, résultat, signal, heure",
+     "MVP : le plus petit test, peut-être pas de code",
+     "Mesurez honnêtement le signal",
+     "Construire, modifier ou supprimer"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Ensuite, mesurez et construisez, modifiez ou abandonnez l'idée."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "De l'idée à la preuve",
+    "items": [
+     "Problème : utilisateur, situation, coût. Aucune fonctionnalité.",
+     "Hypothèse : changement, résultat, signal, heure",
+     "MVP : le plus petit test, peut-être pas de code",
+     "Mesurez honnêtement le signal",
+     "Construire, modifier ou supprimer"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "L’erreur courante est de déplacer la cible après un résultat décevant. Cela cache la leçon. Écrivez d'abord votre signal."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "De l'idée à la preuve",
+    "items": [
+     "Problème : utilisateur, situation, coût. Aucune fonctionnalité.",
+     "Hypothèse : changement, résultat, signal, heure",
+     "MVP : le plus petit test, peut-être pas de code",
+     "Mesurez honnêtement le signal",
+     "Construire, modifier ou supprimer"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Écrivez votre signal de réussite avant le début du test.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Bisi gère des produits pour une start-up logistique à Ibadan. Le fondateur souhaite une application de suivi complète. Bisi teste d'abord une idée moins chère : un SMS au retrait et à la livraison, envoyé en main propre à 20 vendeurs pendant quatre semaines."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Bisi teste avant de créer une application",
+    "mode": "compare",
+    "left_h": "Avant l'épreuve",
+    "left": [
+     "Le fondateur veut une application de suivi complète",
+     "Environ 300 requêtes par semaine",
+     "A partir de 20 vendeurs"
+    ],
+    "right_h": "Après 4 semaines",
+    "right": [
+     "SMS manuel à l'enlèvement et à la livraison",
+     "Environ 120 requêtes par semaine",
+     "Une baisse de 60%, pas de code"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Les requêtes passent d'environ 300 par semaine à environ 120. Cela représente une baisse de 60 % sans code écrit. C'est seulement maintenant qu'elle demande à l'ingénierie d'automatiser les messages."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Bisi teste avant de créer une application",
+    "mode": "compare",
+    "left_h": "Avant l'épreuve",
+    "left": [
+     "Le fondateur veut une application de suivi complète",
+     "Environ 300 requêtes par semaine",
+     "A partir de 20 vendeurs"
+    ],
+    "right_h": "Après 4 semaines",
+    "right": [
+     "SMS manuel à l'enlèvement et à la livraison",
+     "Environ 120 requêtes par semaine",
+     "Une baisse de 60%, pas de code"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "De nombreux utilisateurs disposent de téléphones d’entrée de gamme, de données coûteuses et d’un signal inégal. Exécutez toutes les fonctionnalités majeures via cette vérification.",
+    "Est-ce que cela fonctionne sur Android d'entrée de gamme et survit-il à une panne de réseau ? Les gens peuvent-ils y accéder par USSD, SMS ou WhatsApp ? Est-ce que cela renforce la confiance, en langage simple ?",
+    "Et vérifiez les règles de licence et de données. En vertu de la loi nigériane sur la protection des données de 2023, collectez uniquement ce dont vous avez besoin."
+   ],
+   "panel": {
+    "kicker": "Construire pour de vrais utilisateurs",
+    "heading": "Vérification des produits dans le contexte africain",
+    "items": [
+     "Fonctionne sur Android d'entrée de gamme",
+     "Survit à un réseau abandonné",
+     "Accessible sans l'application",
+     "Établit visiblement la confiance",
+     "Clair dans un langage simple",
+     "Règles de licence et de données vérifiées"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "À retenir. Mesurez les résultats, pas seulement les extrants. Vérifiez chaque idée pour les quatre risques. Commencez par le problème, pas par une fonctionnalité. Écrivez votre signal et votre limite de temps avant de tester. Et gardez votre MVP aussi petit que possible."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Mesurer les résultats, pas seulement les extrants",
+     "Vérifier la valeur, la convivialité, la faisabilité, la viabilité",
+     "Problème d'abord, sans nommer de fonctionnalité",
+     "Signal et délai écrit avant l'épreuve",
+     "Un MVP est le plus petit test, pas un produit cassé"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Maintenant, entraînez-vous. Exécutez la vérification des quatre risques sur une fonctionnalité que vous avez vue demandée. Écrivez votre premier problème, votre hypothèse et votre MVP. Notez une application que vous connaissez sur la liste de contrôle contextuelle et lisez deux vraies offres d'emploi PM.",
+    "Conservez vos notes pour votre synthèse et continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâches d'entraînement",
+    "heading": "Vos tâches pratiques",
+    "items": [
+     "Exécutez le contrôle des quatre risques sur une idée réelle",
+     "Écrire un problème, une hypothèse et un MVP",
+     "Noter une application sur la liste de contrôle contextuelle",
+     "Comparez deux vraies offres d'emploi PM"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

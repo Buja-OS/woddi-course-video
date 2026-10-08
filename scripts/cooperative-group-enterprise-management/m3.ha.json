@@ -1,0 +1,533 @@
+{
+ "course": "cooperative-group-enterprise-management",
+ "module": "m3",
+ "title": "Yi girma ba tare da rasa iko ba: tayi, membobi da AGM",
+ "course_title": "Haɗin kai & Gudanar da Kasuwancin Rukuni",
+ "shots": [
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Yi girma ba tare da rasa iko ba: manyan tayi, membobi, da AGM.",
+    "Wannan shi ne bidiyo don tsari na uku na Haɗin gwiwa da Gudanarwar Kasuwancin Rukuni."
+   ]
+  },
+  {
+   "demo": "market_stall",
+   "say": [
+    "Ƙungiya mai kyau tana jawo hankalin manyan masu siye, masu rarrabawa da shirye-shirye, saboda yana ba da damar fiye da ɗaya mai samarwa."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Kyakkyawan hankali, sharuddan haɗari",
+    "items": [
+     "Manyan masu siye suna son ƙarfin ƙungiyar ku",
+     "Wasu sharuɗɗan na iya nutsar da ƙaramin haɗin gwiwa",
+     "Dole ne membobin su ci gaba da sarrafawa",
+     "Tsarin gaskiya yana haɗa membobin tare"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "market_stall",
+   "say": [
+    "Amma manyan tayi na iya zuwa tare da dogon jinkirin biyan kuɗi, keɓancewa, hukunci, ko abokin tarayya wanda ke son faɗin yadda ake tafiyar da ƙungiyar."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Kyakkyawan hankali, sharuddan haɗari",
+    "items": [
+     "Manyan masu siye suna son ƙarfin ƙungiyar ku",
+     "Wasu sharuɗɗan na iya nutsar da ƙaramin haɗin gwiwa",
+     "Dole ne membobin su ci gaba da sarrafawa",
+     "Tsarin gaskiya yana haɗa membobin tare"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Ƙa'ida ta 4 ta ce duk wata yarjejeniya ta waje dole ne ta kiyaye tsarin dimokuradiyya daga membobin. Kuma a ciki, tsarin rayuwar memba mai adalci da AGM na gaskiya suna kiyaye ƙungiyar tare."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Kyakkyawan hankali, sharuddan haɗari",
+    "items": [
+     "Manyan masu siye suna son ƙarfin ƙungiyar ku",
+     "Wasu sharuɗɗan na iya nutsar da ƙaramin haɗin gwiwa",
+     "Dole ne membobin su ci gaba da sarrafawa",
+     "Tsarin gaskiya yana haɗa membobin tare"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Yi tambayoyi hudu kafin mambobin su kada kuri'a. Cash: nawa ne kungiyar ta kashe kafin biyan farko ya zo? Wannan babban jari ne na aiki, kuɗin da kuke buƙatar ci gaba da samarwa yayin da kuke jira a biya ku."
+   ],
+   "panel": {
+    "kicker": "Tambayoyi hudu",
+    "heading": "Gwada kowane babban tayin",
+    "items": [
+     "Cash: me za mu kashe kafin biya?",
+     "Ƙarfi: shin za mu iya isarwa, tare da buffer kashi 20?",
+     "Sarrafa: shin wani sashi yana ba da iko?",
+     "Fita: shin kowane bangare zai iya ƙare shi da sanarwa?"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Ƙarfi: shin za mu iya samar da wannan adadin, zuwa ma'auni, tare da buffer lokaci na kashi 20?"
+   ],
+   "panel": {
+    "kicker": "Tambayoyi hudu",
+    "heading": "Gwada kowane babban tayin",
+    "items": [
+     "Cash: me za mu kashe kafin biya?",
+     "Ƙarfi: shin za mu iya isarwa, tare da buffer kashi 20?",
+     "Sarrafa: shin wani sashi yana ba da iko?",
+     "Fita: shin kowane bangare zai iya ƙare shi da sanarwa?"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Sarrafa: shin akwai wani sashe yana ba abokin tarayya iko akan membobinmu, jami'anmu, farashi ko ƙa'idodi?"
+   ],
+   "panel": {
+    "kicker": "Tambayoyi hudu",
+    "heading": "Gwada kowane babban tayin",
+    "items": [
+     "Cash: me za mu kashe kafin biya?",
+     "Ƙarfi: shin za mu iya isarwa, tare da buffer kashi 20?",
+     "Sarrafa: shin wani sashi yana ba da iko?",
+     "Fita: shin kowane bangare zai iya ƙare shi da sanarwa?"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Fita: shin kowane bangare zai iya ƙare shi da sanarwa mai ma'ana?",
+    "Kuma ku yi hattara da masu siye ko masu ba da tallafi waɗanda suka nemi kuɗin sarrafawa da farko. Tabbatar da su kai tsaye, kuma kada ku biya kuɗi zuwa asusun sirri."
+   ],
+   "panel": {
+    "kicker": "Tambayoyi hudu",
+    "heading": "Gwada kowane babban tayin",
+    "items": [
+     "Cash: me za mu kashe kafin biya?",
+     "Ƙarfi: shin za mu iya isarwa, tare da buffer kashi 20?",
+     "Sarrafa: shin wani sashi yana ba da iko?",
+     "Fita: shin kowane bangare zai iya ƙare shi da sanarwa?"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Kada ku taɓa biyan kuɗi don sakin oda ko kyauta.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Misali, dillali yana ba wa Kamfanin Adire Cooperative guda 300 duk wata a kan Naira 9,000 kowane wata, ana biyan su kwana 60 bayan an kawo su, ba tare da siyar da wani shago ba. Kowanne guntu naira 6,500, kuma kungiyar tana da jarin aikin naira miliyan 1,500,000.",
+    "Kudin wata Naira miliyan 1,950 ne. Da kudin farko, kungiyar za ta biya naira miliyan 5,850,000."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Kemi's adire tayin da counter-offer",
+    "mode": "compare",
+    "left_h": "tayin dillali",
+    "left": [
+     "guda 300 a wata",
+     "An biya kwanaki 60 bayan haihuwa",
+     "Babu tallace-tallace zuwa wasu shaguna",
+     "Yana bukatar naira 5,850,000"
+    ],
+    "right_h": "Bayar-baya",
+    "right": [
+     "guda 150 a wata",
+     "30% ajiya tare da kowane oda",
+     "Babu keɓantacce, sanarwar kwanaki 30",
+     "Bukatar akalla Naira 1,140,000"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Don haka kwamitin ya tsara tayin gaba: guda 150 a wata, ajiyar kashi 30 cikin 100, ma'auni na kwanaki 30 bayan bayarwa, kuma babu keɓancewa.",
+    "Wannan yana bukatar akalla Naira 1,140,000, yana rike kwastomomi, kuma har yanzu yana samun Naira 375,000 duk wata. Dukansu nau'ikan suna zuwa ga babban taron ƙuri'a."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Kemi's adire tayin da counter-offer",
+    "mode": "compare",
+    "left_h": "tayin dillali",
+    "left": [
+     "guda 300 a wata",
+     "An biya kwanaki 60 bayan haihuwa",
+     "Babu tallace-tallace zuwa wasu shaguna",
+     "Yana bukatar naira 5,850,000"
+    ],
+    "right_h": "Bayar-baya",
+    "right": [
+     "guda 150 a wata",
+     "30% ajiya tare da kowane oda",
+     "Babu keɓantacce, sanarwar kwanaki 30",
+     "Bukatar akalla Naira 1,140,000"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Yawancin rikice-rikice suna komawa zuwa maƙasudin rauni a cikin rayuwar memba. Aiwatar da ƙa'idodin shigar da rubutu iri ɗaya ga kowane mai nema, kuma karanta mata ƙa'idodin a cikin yaren da ta fi so."
+   ],
+   "panel": {
+    "kicker": "Rayuwar membobi",
+    "heading": "Daga shiga zuwa fita",
+    "items": [
+     "Dokokin shigar da aka rubuta iri ɗaya ga kowa",
+     "Gabatarwa ta gogaggen memba",
+     "Horo da aka biya daga asusun ilimi",
+     "Rigima ta hau tsani, mataki-mataki"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "A cikin watanta na farko, wani gogaggen memba yana ɗaukar ta ta hanyar SOP, takaddun ƙayyadaddun bayanai da ka'idojin kuɗi."
+   ],
+   "panel": {
+    "kicker": "Rayuwar membobi",
+    "heading": "Daga shiga zuwa fita",
+    "items": [
+     "Dokokin shigar da aka rubuta iri ɗaya ga kowa",
+     "Gabatarwa ta gogaggen memba",
+     "Horo da aka biya daga asusun ilimi",
+     "Rigima ta hau tsani, mataki-mataki"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "wrap_label",
+   "say": [
+    "Horowa aiki ne a ƙarƙashin ƙa'ida ta 5. Memba wanda zai iya karanta asusun ba shi da yuwuwar tuhumar jami'an ba tare da dalili ba."
+   ],
+   "panel": {
+    "kicker": "Rayuwar membobi",
+    "heading": "Daga shiga zuwa fita",
+    "items": [
+     "Dokokin shigar da aka rubuta iri ɗaya ga kowa",
+     "Gabatarwa ta gogaggen memba",
+     "Horo da aka biya daga asusun ilimi",
+     "Rigima ta hau tsani, mataki-mataki"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "wrap_label",
+   "say": [
+    "Don jayayya, fara da zance na sirri, sannan sasantawa, sannan a saurari kwamiti. Kafin kowane takunkumi, memba koyaushe yana da hakkin a saurare shi."
+   ],
+   "panel": {
+    "kicker": "Rayuwar membobi",
+    "heading": "Daga shiga zuwa fita",
+    "items": [
+     "Dokokin shigar da aka rubuta iri ɗaya ga kowa",
+     "Gabatarwa ta gogaggen memba",
+     "Horo da aka biya daga asusun ilimi",
+     "Rigima ta hau tsani, mataki-mataki"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Lokacin da memba ta tafi, yawanci tana samun babban rabonta, da duk wani abin da aka bayyana ba a biya ba tukuna, ban da abin da take bi."
+   ],
+   "card": {
+    "title": "Abin da ake bin memba mai barin",
+    "rows": [],
+    "note": "Babu rabon ajiyar. Figures misali."
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Ronke ya biya naira 25,000 a jarin jari, ana binsa bashin naira 18,400, kuma har yanzu yana bin naira 12,000 na injin injin."
+   ],
+   "card": {
+    "title": "Abin da ake bin memba mai barin",
+    "rows": [
+     [
+      "Babban hannun jarin da aka biya",
+      "25,000"
+     ],
+     [
+      "Ba a biya kuɗaɗen da aka bayyana ba tukuna",
+      "18,400"
+     ],
+     [
+      "Rage: gaba ta bashi",
+      "12,000"
+     ]
+    ],
+    "note": "Babu rabon ajiyar. Figures misali."
+   }
+  },
+  {
+   "demo": "market_stall",
+   "say": [
+    "Don haka tana karbar Naira 31,400, tare da sa hannun hannu, ta hanyar canja wuri zuwa asusunta.",
+    "Ba ta da wani kaso na ajiyar. Dokokin sun sa ba za a iya raba shi ba, don haka ya kasance don kare membobin da suka rage."
+   ],
+   "card": {
+    "title": "Abin da ake bin memba mai barin",
+    "rows": [
+     [
+      "Babban hannun jarin da aka biya",
+      "25,000"
+     ],
+     [
+      "Ba a biya kuɗaɗen da aka bayyana ba tukuna",
+      "18,400"
+     ],
+     [
+      "Rage: gaba ta bashi",
+      "12,000"
+     ]
+    ],
+    "note": "Babu rabon ajiyar. Figures misali."
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "A babban taron shekara-shekara, membobin suna karɓar asusun, amincewa da rarar rarar kuɗi da zabar jami'ai. Kungiyar Kemi ta samu rarar naira miliyan biyu da hamsin (2,250,000). Maido da kuɗaɗen tallafin ya kai Naira 750 a kowane yanki, don haka kowace mamba za ta iya duba kuɗinta."
+   ],
+   "panel": {
+    "kicker": "Farashin AGM",
+    "heading": "Ayyuka uku a taron shekara-shekara",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Report in plain numbers",
+      "d": "Tallace-tallace, farashi, ragi da rabon da ke ƙara dawowa daidai. Kungiyar Kemi: Naira 750 akan kowani guda."
+     },
+     {
+      "t": "Elect fairly",
+      "d": "Biyu da ba 'yan takara suna ƙidaya. Zaɓen sirri lokacin da aka yi takara. Memba daya, kuri'a daya."
+     },
+     {
+      "t": "Community by vote",
+      "d": "Ana kashe kuɗaɗen al'umma ne akan shawarwarin da membobin suka amince da su, ba ta zaɓin shugaba ba."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Don zaɓe, zaɓi mambobi biyu waɗanda ba 'yan takara ba don ƙidaya, kuma amfani da katin jefa ƙuri'a a asirce lokacin da aka yi takara."
+   ],
+   "panel": {
+    "kicker": "Farashin AGM",
+    "heading": "Ayyuka uku a taron shekara-shekara",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Report in plain numbers",
+      "d": "Tallace-tallace, farashi, ragi da rabon da ke ƙara dawowa daidai. Kungiyar Kemi: Naira 750 akan kowani guda."
+     },
+     {
+      "t": "Elect fairly",
+      "d": "Biyu da ba 'yan takara suna ƙidaya. Zaɓen sirri lokacin da aka yi takara. Memba daya, kuri'a daya."
+     },
+     {
+      "t": "Community by vote",
+      "d": "Ana kashe kuɗaɗen al'umma ne akan shawarwarin da membobin suka amince da su, ba ta zaɓin shugaba ba."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Ƙarƙashin ƙa'ida ta 7, asusun al'umma yana kashewa ne kawai akan shawarar da membobin suka zaɓe, kamar horar da 'yan mata biyu a matsayin masu koyo."
+   ],
+   "panel": {
+    "kicker": "Farashin AGM",
+    "heading": "Ayyuka uku a taron shekara-shekara",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Report in plain numbers",
+      "d": "Tallace-tallace, farashi, ragi da rabon da ke ƙara dawowa daidai. Kungiyar Kemi: Naira 750 akan kowani guda."
+     },
+     {
+      "t": "Elect fairly",
+      "d": "Biyu da ba 'yan takara suna ƙidaya. Zaɓen sirri lokacin da aka yi takara. Memba daya, kuri'a daya."
+     },
+     {
+      "t": "Community by vote",
+      "d": "Ana kashe kuɗaɗen al'umma ne akan shawarwarin da membobin suka amince da su, ba ta zaɓin shugaba ba."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Ƙarshen AGM ta hanyar amincewa da babban gibin ku guda ɗaya na mulki, kamar babu asusun masu sa hannu biyu ko babu rubutacciyar ragi."
+   ],
+   "panel": {
+    "kicker": "Bayan AGM",
+    "heading": "Tsarin mulkin ku na kwanaki 90",
+    "items": [
+     "Kwanaki 1 zuwa 15: yarda da gibin",
+     "Kwanaki 16 zuwa 45: zayyana da shawara",
+     "Kwanaki 46 zuwa 60: jefa kuri'a a taro",
+     "Kwanaki 61 zuwa 90: nema da duba",
+     "Ranar 90: bayar da rahoto ga membobin"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Zana gyara, tuntuɓi membobi, kuma ku jefa kuri'a a kai a taro."
+   ],
+   "panel": {
+    "kicker": "Bayan AGM",
+    "heading": "Tsarin mulkin ku na kwanaki 90",
+    "items": [
+     "Kwanaki 1 zuwa 15: yarda da gibin",
+     "Kwanaki 16 zuwa 45: zayyana da shawara",
+     "Kwanaki 46 zuwa 60: jefa kuri'a a taro",
+     "Kwanaki 61 zuwa 90: nema da duba",
+     "Ranar 90: bayar da rahoto ga membobin"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Sa'an nan kuma yi amfani da shi, duba shi, kuma ku yi rahoto a ranar 90."
+   ],
+   "panel": {
+    "kicker": "Bayan AGM",
+    "heading": "Tsarin mulkin ku na kwanaki 90",
+    "items": [
+     "Kwanaki 1 zuwa 15: yarda da gibin",
+     "Kwanaki 16 zuwa 45: zayyana da shawara",
+     "Kwanaki 46 zuwa 60: jefa kuri'a a taro",
+     "Kwanaki 61 zuwa 90: nema da duba",
+     "Ranar 90: bayar da rahoto ga membobin"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Kowane aiki yana buƙatar mai shi, kwanan wata da shaida.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "wrap_label",
+   "say": [
+    "Don tunawa. Gwada kowane tayin akan tsabar kuɗi, iya aiki, sarrafawa da fita, da ƙima lokacin da ake buƙata. Yi wa membobi adalci daga shiga zuwa fita. Kuma bari AGM, membobin su yanke shawara."
+   ],
+   "panel": {
+    "kicker": "Mabuɗin mahimmanci",
+    "heading": "Ka tuna",
+    "items": [
+     "Gwajin tayi akan tsabar kuɗi, iya aiki, sarrafawa, fita",
+     "Bayar da ƙima tare da adibas, babu keɓancewa",
+     "A ji kowane memba kafin takunkumi",
+     "Wuraren ajiya; membobin sun yanke shawara a AGM"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Yanzu gwada tayin, taswirar rayuwar memba ku, kuma shirya fakitin AGM ɗinku tare da shirin kwanaki 90.",
+    "Ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi ayyuka",
+    "heading": "Ayyukan aikin ku",
+    "items": [
+     "Gwada tayin",
+     "Taswirar tsarin rayuwar membobin ku",
+     "Shirya fakitin AGM ɗinku"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

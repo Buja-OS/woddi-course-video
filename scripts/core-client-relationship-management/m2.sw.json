@@ -1,0 +1,545 @@
+{
+ "course": "core-client-relationship-management",
+ "module": "m2",
+ "title": "Kifuatiliaji cha mteja wako, mdundo wa ufuatiliaji na maoni ya mteja",
+ "course_title": "Usimamizi wa Uhusiano wa Mteja",
+ "shots": [
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Kifuatiliaji cha mteja wako, mdundo wako wa ufuatiliaji, na maoni ya mteja.",
+    "Hii ni video ya moduli ya 2 ya Usimamizi wa Uhusiano wa Mteja."
+   ]
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Tengeneza lahajedwali inayoitwa Kifuatiliaji cha Mteja na vichupo viwili. Wateja wana safu mlalo moja kwa kila mtu, pamoja na maelezo yake na hatua inayofuata. Maagizo yana safu mlalo moja kwa kila agizo, kwa hivyo Majedwali ya Google yanaweza kukuongezea historia yake."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Unda kifuatiliaji chako katika Majedwali ya Google",
+    "items": [
+     "Tabo mbili: Wateja na Maagizo",
+     "Orodha kunjuzi za hali na majina",
+     "COUNTIF na SUMIF kwa maagizo na matumizi",
+     "Vitendo vilivyochelewa vinageuka kuwa nyekundu"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Ongeza orodha kunjuzi, ili hali iandikwe kila mara kwa njia ile ile: Mpya, Inayotumika, Iliyotulia au Iliyopita. Unganisha majina ya wateja katika Maagizo kwenye orodha ya wateja, ili kila jina liandikwe sawa sawa."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Unda kifuatiliaji chako katika Majedwali ya Google",
+    "items": [
+     "Tabo mbili: Wateja na Maagizo",
+     "Orodha kunjuzi za hali na majina",
+     "COUNTIF na SUMIF kwa maagizo na matumizi",
+     "Vitendo vilivyochelewa vinageuka kuwa nyekundu"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "COUNTIF huhesabu ni maagizo mangapi ambayo kila mteja ameagiza. SUMIF inaongeza kile ambacho ametumia."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Unda kifuatiliaji chako katika Majedwali ya Google",
+    "items": [
+     "Tabo mbili: Wateja na Maagizo",
+     "Orodha kunjuzi za hali na majina",
+     "COUNTIF na SUMIF kwa maagizo na matumizi",
+     "Vitendo vilivyochelewa vinageuka kuwa nyekundu"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Kisha tumia umbizo la masharti ili mteja yeyote ambaye tarehe yake ya hatua inayofuata imepita awe nyekundu. Kila asubuhi, safu mlalo nyekundu ni orodha yako ya ufuatiliaji."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Unda kifuatiliaji chako katika Majedwali ya Google",
+    "items": [
+     "Tabo mbili: Wateja na Maagizo",
+     "Orodha kunjuzi za hali na majina",
+     "COUNTIF na SUMIF kwa maagizo na matumizi",
+     "Vitendo vilivyochelewa vinageuka kuwa nyekundu"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Weka laha kwa faragha. Usiishiriki na mtu yeyote, au mfanyakazi anayeaminika pekee, ili nambari za simu za mteja ziwe salama."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Unda kifuatiliaji chako katika Majedwali ya Google",
+    "items": [
+     "Tabo mbili: Wateja na Maagizo",
+     "Orodha kunjuzi za hali na majina",
+     "COUNTIF na SUMIF kwa maagizo na matumizi",
+     "Vitendo vilivyochelewa vinageuka kuwa nyekundu"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Usishiriki kamwe laha kama \"Mtu yeyote aliye na kiungo\".",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Jaribu fomula zako mara moja kwa kikokotoo, ili uweze kuziamini."
+   ],
+   "card": {
+    "title": "Angalia fomula mara moja kwa mkono",
+    "rows": [],
+    "note": "Bei za Naira ni takriban."
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Kichupo cha Maagizo cha Ngozi kinaonyesha oda 4 za Ifeoma: 18,000, 22,000, 18,000 na 25,000 naira."
+   ],
+   "card": {
+    "title": "Angalia fomula mara moja kwa mkono",
+    "rows": [
+     [
+      "5 Jan",
+      "18,000"
+     ],
+     [
+      "14 Feb",
+      "22,000"
+     ],
+     [
+      "2 Apr",
+      "18,000"
+     ],
+     [
+      "30 Mei",
+      "25,000"
+     ]
+    ],
+    "note": "Bei za Naira ni takriban."
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Hiyo inaongeza hadi naira 83,000, sawa na laha.",
+    "Lakini agizo moja lilikuwa limechapwa kama Ifeoma na nafasi ya ziada, na hesabu ikakosa. Ndiyo maana orodha za kushuka ni muhimu. Pia chapa kiasi kama nambari wazi, bila ishara ya naira."
+   ],
+   "card": {
+    "title": "Angalia fomula mara moja kwa mkono",
+    "rows": [
+     [
+      "5 Jan",
+      "18,000"
+     ],
+     [
+      "14 Feb",
+      "22,000"
+     ],
+     [
+      "2 Apr",
+      "18,000"
+     ],
+     [
+      "30 Mei",
+      "25,000"
+     ]
+    ],
+    "note": "Bei za Naira ni takriban."
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Matatizo mengi huanza kabla ya kujifungua, wakati mteja na biashara walielewa mambo tofauti. Wazo moja Ijumaa lilimaanisha asubuhi. Nyingine ilimaanisha jioni."
+   ],
+   "panel": {
+    "kicker": "Weka matarajio",
+    "heading": "Uthibitisho wa agizo wazi",
+    "items": [
+     "Ni nini hasa anachopata",
+     "Bei ya jumla, na inajumuisha nini",
+     "Amana, na wakati salio ni kutokana",
+     "Tarehe ya utoaji na dirisha la wakati",
+     "Mabadiliko yanaruhusiwa, na jinsi utakavyomsasisha"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Kwa hivyo mara tu anapokubali, tuma uthibitisho mfupi wa WhatsApp unaohusu pointi hizi tano, na umwombe ajibu amethibitishwa.",
+    "Ihifadhi kama jibu la haraka, na ubadilishe maelezo kila wakati."
+   ],
+   "panel": {
+    "kicker": "Weka matarajio",
+    "heading": "Uthibitisho wa agizo wazi",
+    "items": [
+     "Ni nini hasa anachopata",
+     "Bei ya jumla, na inajumuisha nini",
+     "Amana, na wakati salio ni kutokana",
+     "Tarehe ya utoaji na dirisha la wakati",
+     "Mabadiliko yanaruhusiwa, na jinsi utakavyomsasisha"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Tuma uthibitishaji siku ya 0, sasisho la maendeleo kabla ya kujifungua, na dokezo la makabidhiano siku ya kujifungua."
+   ],
+   "panel": {
+    "kicker": "Mdundo wa ufuatiliaji",
+    "heading": "Miguso mitano kwa kila agizo",
+    "items": [
+     "Siku 0: uthibitisho",
+     "Kabla ya kujifungua: sasisho la maendeleo",
+     "Siku ya utoaji: noti ya makabidhiano",
+     "Siku ya 3: ukaguzi wa baada ya huduma",
+     "Panga upya hatua: ukumbusho"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Siku ya 3, tuma ukaguzi mfupi baada ya utunzaji. Natumai trei zilikwenda vizuri kwenye mkutano. Je, idadi hiyo ilikuwa sawa kwa wageni wako?"
+   ],
+   "panel": {
+    "kicker": "Mdundo wa ufuatiliaji",
+    "heading": "Miguso mitano kwa kila agizo",
+    "items": [
+     "Siku 0: uthibitisho",
+     "Kabla ya kujifungua: sasisho la maendeleo",
+     "Siku ya utoaji: noti ya makabidhiano",
+     "Siku ya 3: ukaguzi wa baada ya huduma",
+     "Panga upya hatua: ukumbusho"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Na mkumbushe wakati kuna uwezekano wa kukuhitaji tena.",
+    "Usimsonge. Kati ya maagizo, usitume zaidi ya ujumbe mmoja usio wa mauzo kwa mwezi, isipokuwa aanze mazungumzo."
+   ],
+   "panel": {
+    "kicker": "Mdundo wa ufuatiliaji",
+    "heading": "Miguso mitano kwa kila agizo",
+    "items": [
+     "Siku 0: uthibitisho",
+     "Kabla ya kujifungua: sasisho la maendeleo",
+     "Siku ya utoaji: noti ya makabidhiano",
+     "Siku ya 3: ukaguzi wa baada ya huduma",
+     "Panga upya hatua: ukumbusho"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Kwa mfano, Funmi hutoa sabuni ya maji kwa duka la mahitaji ya Halima. Halima aliamuru tarehe 3 Februari, 1 Machi, 4 Aprili na 2 Mei."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Funmi anatatua pengo la Halima la kupanga upya",
+    "items": [
+     "Maagizo: 3 Feb, 1 Machi, 4 Apr, 2 Mei",
+     "3 Februari hadi 2 Mei ni siku 88",
+     "Maagizo 4 inamaanisha mapungufu 3: kama siku 29",
+     "Kumbusha siku chache mapema: 28 Mei"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Kutoka kwa agizo lake la kwanza hadi la mwisho ni siku 88."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Funmi anatatua pengo la Halima la kupanga upya",
+    "items": [
+     "Maagizo: 3 Feb, 1 Machi, 4 Apr, 2 Mei",
+     "3 Februari hadi 2 Mei ni siku 88",
+     "Maagizo 4 inamaanisha mapungufu 3: kama siku 29",
+     "Kumbusha siku chache mapema: 28 Mei"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Maagizo 4 inamaanisha mapungufu 3. 88 ikigawanywa na 3 ni takriban siku 29. Hilo ni pengo lake la kupanga upya."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Funmi anatatua pengo la Halima la kupanga upya",
+    "items": [
+     "Maagizo: 3 Feb, 1 Machi, 4 Apr, 2 Mei",
+     "3 Februari hadi 2 Mei ni siku 88",
+     "Maagizo 4 inamaanisha mapungufu 3: kama siku 29",
+     "Kumbusha siku chache mapema: 28 Mei"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Kwa hivyo ujumbe wa Funmi mnamo tarehe 28 Mei: uwasilishaji wako wa mwisho ulikuwa tarehe 2 Mei. Je, nitaleta kegi 6 za kawaida siku ya Ijumaa?",
+    "Halima anakumbushwa kabla hajaishiwa, hivyo asinunue kwingine."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Funmi anatatua pengo la Halima la kupanga upya",
+    "items": [
+     "Maagizo: 3 Feb, 1 Machi, 4 Apr, 2 Mei",
+     "3 Februari hadi 2 Mei ni siku 88",
+     "Maagizo 4 inamaanisha mapungufu 3: kama siku 29",
+     "Kumbusha siku chache mapema: 28 Mei"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Wateja mara chache hutangaza kwamba wanaondoka. Uhusiano mzuri unaonekana kama maagizo, majibu na marejeleo thabiti."
+   ],
+   "panel": {
+    "kicker": "Ishara za uhusiano",
+    "heading": "Ishara za afya na ishara za onyo",
+    "mode": "compare",
+    "left_h": "Mwenye afya",
+    "left": [
+     "Amri ndani ya pengo lake la kawaida",
+     "Agiza saizi thabiti au inakua",
+     "Majibu, wakati mwingine gumzo",
+     "Inarejelea marafiki"
+    ],
+    "right_h": "Onyo",
+    "right": [
+     "Pengo linakuwa refu kila wakati",
+     "Maagizo madogo kuliko hapo awali",
+     "Anasoma lakini hajibu",
+     "Maombi mapya ya punguzo"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Ishara za onyo ni mapengo marefu, maagizo madogo na ujumbe ambao haujajibiwa. Ishara moja inaweza kumaanisha chochote. Wawili au zaidi wanastahili kuingia kwa upole na kwa uaminifu. Usimkosee. Uliza kama huduma yako bado inakidhi mahitaji yake."
+   ],
+   "panel": {
+    "kicker": "Ishara za uhusiano",
+    "heading": "Ishara za afya na ishara za onyo",
+    "mode": "compare",
+    "left_h": "Mwenye afya",
+    "left": [
+     "Amri ndani ya pengo lake la kawaida",
+     "Agiza saizi thabiti au inakua",
+     "Majibu, wakati mwingine gumzo",
+     "Inarejelea marafiki"
+    ],
+    "right_h": "Onyo",
+    "right": [
+     "Pengo linakuwa refu kila wakati",
+     "Maagizo madogo kuliko hapo awali",
+     "Anasoma lakini hajibu",
+     "Maombi mapya ya punguzo"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Uliza maswali 2 au 3 mafupi, ikijumuisha: kwa kipimo cha 0 hadi 10, una uwezekano gani wa kunipendekeza kwa rafiki?",
+    "Kwa mfano, Ruth huwafunza wanafunzi huko Lagos na kuwauliza wazazi 20. 12 jibu 9 au 10. Ni watangazaji, asilimia 60."
+   ],
+   "panel": {
+    "kicker": "Maoni",
+    "heading": "Alama ya Kukuza Wavu, hatua kwa hatua",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Promoters: 9 or 10",
+      "d": "Ruth anauliza wazazi 20. 12 jibu 9 au 10. Hiyo ni asilimia 60."
+     },
+     {
+      "t": "Passives: 7 or 8",
+      "d": "5 wazazi. Hazitumiwi katika fomula."
+     },
+     {
+      "t": "Detractors: 0 to 6",
+      "d": "Wazazi 3, ambayo ni asilimia 15. NPS ni 60 minus 15, ambayo ni 45."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "5 jibu 7 au 8. Ni vitendea kazi, na huachwa nje."
+   ],
+   "panel": {
+    "kicker": "Maoni",
+    "heading": "Alama ya Kukuza Wavu, hatua kwa hatua",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Promoters: 9 or 10",
+      "d": "Ruth anauliza wazazi 20. 12 jibu 9 au 10. Hiyo ni asilimia 60."
+     },
+     {
+      "t": "Passives: 7 or 8",
+      "d": "5 wazazi. Hazitumiwi katika fomula."
+     },
+     {
+      "t": "Detractors: 0 to 6",
+      "d": "Wazazi 3, ambayo ni asilimia 15. NPS ni 60 minus 15, ambayo ni 45."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "3 jibu 6 au chini. Wao ni wapinzani, asilimia 15. Alama yake ni 60 kasoro 15, ambayo ni 45.",
+    "Muhimu zaidi bado, wapinzani wawili walisema nyakati za masomo zilibadilika bila taarifa. Kwa hiyo sasa Ruthu atoa taarifa ya juma moja kuhusu mabadiliko yoyote."
+   ],
+   "panel": {
+    "kicker": "Maoni",
+    "heading": "Alama ya Kukuza Wavu, hatua kwa hatua",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Promoters: 9 or 10",
+      "d": "Ruth anauliza wazazi 20. 12 jibu 9 au 10. Hiyo ni asilimia 60."
+     },
+     {
+      "t": "Passives: 7 or 8",
+      "d": "5 wazazi. Hazitumiwi katika fomula."
+     },
+     {
+      "t": "Detractors: 0 to 6",
+      "d": "Wazazi 3, ambayo ni asilimia 15. NPS ni 60 minus 15, ambayo ni 45."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Kukumbuka. Weka safu mlalo moja kwa kila mteja na moja kwa agizo. Thibitisha kila agizo kwa maandishi. Kabla ya kuweka agizo kuwa Limelipwa, angalia programu yako ya benki, kwa sababu picha ya skrini si dhibitisho la malipo.",
+    "Vikumbusho vya wakati kutoka kwa pengo lake mwenyewe la kupanga upya. Na wakati mteja anatoa maoni, badilisha jambo moja na umwambie ulifanya."
+   ],
+   "panel": {
+    "kicker": "Pointi muhimu",
+    "heading": "Kumbuka",
+    "items": [
+     "Safu mlalo moja kwa kila mteja, safu mlalo moja kwa kila agizo",
+     "Thibitisha kila agizo kwa maandishi",
+     "Angalia malipo katika programu yako ya benki, si picha za skrini",
+     "Wakumbushe wateja kutoka kwa pengo lao la kupanga upya",
+     "Tenda kwa sehemu moja ya maoni, kisha mwambie"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Sasa fanya mazoezi. Jenga kifuatiliaji chako na angalau wateja 10 halisi na ujaribu jumla moja kwa mkono. Hifadhi uthibitisho wako kama jibu la haraka na utatue mapengo matatu ya kupanga upya. Kisha tuma maswali ya maoni kwa wateja watano na uhesabu alama zako.",
+    "Endelea na masomo hapa chini."
+   ],
+   "panel": {
+    "kicker": "Mazoezi ya kazi",
+    "heading": "Mazoezi yako katika moduli hii",
+    "items": [
+     "Jenga na ujaribu kifuatiliaji cha mteja wako",
+     "Sanidi mdundo wako wa ufuatiliaji",
+     "Tekeleza duru ndogo ya maoni"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

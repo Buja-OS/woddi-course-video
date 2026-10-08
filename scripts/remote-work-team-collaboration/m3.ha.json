@@ -1,0 +1,497 @@
+{
+ "course": "remote-work-team-collaboration",
+ "module": "m3",
+ "title": "Bincike, farashi da jagora: inganta ƙungiyar da aka rarraba",
+ "course_title": "Aiki mai nisa & Haɗin gwiwar Ƙungiya: Ƙungiyoyin Rarraba Masu Jagora",
+ "shots": [
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Bincike, farashi da jagora: inganta ƙungiyar da aka rarraba.",
+    "Wannan shi ne bidiyon don tsari na uku na Aiki Nesa da Haɗin gwiwar Ƙungiya."
+   ]
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Ko kun shiga ƙungiya mai nisa, jagoranta, ko ba ku shawara, aikinku na farko shine fahimtar yadda aiki ke gudana da gaske. Ƙungiyoyi sukan bayyana yadda suke so suyi aiki."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Nemo yadda ƙungiyar ke aiki da gaske",
+    "items": [
+     "Ƙungiyoyin sun bayyana yadda suke so suyi aiki",
+     "Nemi shaida: nuna mani",
+     "Yi magana cikin matakai da wurare",
+     "Ba da rahoton alamu, ba sunaye ba"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Don haka ku nemi hujja, ba kawai ra'ayi ba. Ina kasafin kudin yanzu? Nuna mani."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Nemo yadda ƙungiyar ke aiki da gaske",
+    "items": [
+     "Ƙungiyoyin sun bayyana yadda suke so suyi aiki",
+     "Nemi shaida: nuna mani",
+     "Yi magana cikin matakai da wurare",
+     "Ba da rahoton alamu, ba sunaye ba"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Yi magana da mutane a matakai da wurare daban-daban, gami da wanda ya shiga kwanan nan. A kiyaye abin da suka faɗa a asirce, kuma a ba da rahoton tsari, ba sunaye ba."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Nemo yadda ƙungiyar ke aiki da gaske",
+    "items": [
+     "Ƙungiyoyin sun bayyana yadda suke so suyi aiki",
+     "Nemi shaida: nuna mani",
+     "Yi magana cikin matakai da wurare",
+     "Ba da rahoton alamu, ba sunaye ba"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Saka maki takwas, kamar tashoshi, tushen gaskiya, mallaka, tarurruka da yanke shawara. Maki na 1 yana nufin babu aikin da aka raba."
+   ],
+   "panel": {
+    "kicker": "Audit",
+    "heading": "Yi maki takwas daga 1 zuwa 5",
+    "items": [
+     "1: babu wani aiki da aka raba",
+     "3: aiki, amfani da rashin daidaituwa",
+     "5: rubuta, kuma mafi yawan mutane suna bin sa",
+     "Ƙara maki; sami mafi ƙasƙanci yankunan"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "3 yana nufin akwai aiki amma ana amfani da shi ba daidai ba. 5 yana nufin rubutaccen aikin da yawancin mutane ke bi."
+   ],
+   "panel": {
+    "kicker": "Audit",
+    "heading": "Yi maki takwas daga 1 zuwa 5",
+    "items": [
+     "1: babu wani aiki da aka raba",
+     "3: aiki, amfani da rashin daidaituwa",
+     "5: rubuta, kuma mafi yawan mutane suna bin sa",
+     "Ƙara maki; sami mafi ƙasƙanci yankunan"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Misali, Grace ta sake duba hanyar sadarwar sa kai kuma ta ci 17 cikin 40. Ya ɗauki mintuna 11 da mutane uku don nemo jerin masu sa kai na yanzu, kuma nau'ikan biyu sun ƙi yarda da sunaye 23."
+   ],
+   "panel": {
+    "kicker": "Audit",
+    "heading": "Yi maki takwas daga 1 zuwa 5",
+    "items": [
+     "1: babu wani aiki da aka raba",
+     "3: aiki, amfani da rashin daidaituwa",
+     "5: rubuta, kuma mafi yawan mutane suna bin sa",
+     "Ƙara maki; sami mafi ƙasƙanci yankunan"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Maki kayan aiki ne don tattaunawa, ba hukunci ba. Don haka nuna shaidar bayan kowace lamba."
+   ],
+   "panel": {
+    "kicker": "Audit",
+    "heading": "Yi maki takwas daga 1 zuwa 5",
+    "items": [
+     "1: babu wani aiki da aka raba",
+     "3: aiki, amfani da rashin daidaituwa",
+     "5: rubuta, kuma mafi yawan mutane suna bin sa",
+     "Ƙara maki; sami mafi ƙasƙanci yankunan"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Maki fara magana. Nuna shaida ga kowane ɗayan.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Kada kayi kokarin gyara komai. Sanya kowane gyara ta nawa zai taimaka akan yadda yake da wahala.",
+    "Fara da saurin nasara. Don Grace, rajistan yanke shawara da jerin masu sa kai guda ɗaya suna ɗaukar sa'o'i kaɗan kowace."
+   ],
+   "panel": {
+    "kicker": "Me za a fara gyarawa",
+    "heading": "Tasiri da ƙoƙari",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Nasara mai sauri: yi yanzu",
+      "d": "Babban tasiri, ƙananan ƙoƙari. Don Grace: rangwamen yanke shawara da aka raba da jerin masu sa kai guda ɗaya."
+     },
+     {
+      "t": "Big projects: plan",
+      "d": "Babban tasiri, babban ƙoƙari. Don Grace: cikakken littafin jagora, kwata na gaba."
+     },
+     {
+      "t": "Avoid for now",
+      "d": "Ƙananan ƙima da tsada. Don Grace: siyan kayan aiki da aka biya, saboda matsalar al'ada ce."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Shirya manyan ayyuka a hankali, kamar cikakken littafin jagora na kwata na gaba."
+   ],
+   "panel": {
+    "kicker": "Me za a fara gyarawa",
+    "heading": "Tasiri da ƙoƙari",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Nasara mai sauri: yi yanzu",
+      "d": "Babban tasiri, ƙananan ƙoƙari. Don Grace: rangwamen yanke shawara da aka raba da jerin masu sa kai guda ɗaya."
+     },
+     {
+      "t": "Big projects: plan",
+      "d": "Babban tasiri, babban ƙoƙari. Don Grace: cikakken littafin jagora, kwata na gaba."
+     },
+     {
+      "t": "Avoid for now",
+      "d": "Ƙananan ƙima da tsada. Don Grace: siyan kayan aiki da aka biya, saboda matsalar al'ada ce."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Kuma guje wa aiki mai tsada, ƙarancin ƙima. Siyan kayan aikin da aka biya ba zai taimaka ba, saboda matsalar al'ada ce, ba software ba."
+   ],
+   "panel": {
+    "kicker": "Me za a fara gyarawa",
+    "heading": "Tasiri da ƙoƙari",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Nasara mai sauri: yi yanzu",
+      "d": "Babban tasiri, ƙananan ƙoƙari. Don Grace: rangwamen yanke shawara da aka raba da jerin masu sa kai guda ɗaya."
+     },
+     {
+      "t": "Big projects: plan",
+      "d": "Babban tasiri, babban ƙoƙari. Don Grace: cikakken littafin jagora, kwata na gaba."
+     },
+     {
+      "t": "Avoid for now",
+      "d": "Ƙananan ƙima da tsada. Don Grace: siyan kayan aiki da aka biya, saboda matsalar al'ada ce."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Juya kowace shawarwarin zuwa abin isarwa wanda za'a iya dubawa, sannan farashinta azaman adadin kwanakin kwanakin da aka kiyasta.",
+    "Bimpe na biyan Naira 800,000 a wata, kuma tana sa ran za ta biya kusan kwanaki 10, don haka adadin ranarta ya kai Naira 80,000."
+   ],
+   "card": {
+    "title": "Farashi aikin kwanaki 10",
+    "rows": [],
+    "note": "Ƙididdigar Naira na kwatanta, ba farashin kasuwa ba."
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Ta kiyasta kwanaki 10 na aiki, wanda ya ba da tushe na naira 800,000. Ta kara kashi 10 na wadanda ba a san su ba, Naira 80,000."
+   ],
+   "card": {
+    "title": "Farashi aikin kwanaki 10",
+    "rows": [
+     [
+      "Tushen: kwanaki 10 x 80,000",
+      "800,000"
+     ],
+     [
+      "Matsala, 10%",
+      "80,000"
+     ]
+    ],
+    "note": "Ƙididdigar Naira na kwatanta, ba farashin kasuwa ba."
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Kayyade farashinta ya kai naira 880,000. Rabin ana biyan kuɗin sa hannu, da rabi lokacin da aka karɓi abubuwan da aka kawo.",
+    "Ta kuma rubuta abin da bai dace ba, kamar siyan software da ake biya. Waɗannan alkalumman misalai ne, ba farashin kasuwa ba."
+   ],
+   "card": {
+    "title": "Farashi aikin kwanaki 10",
+    "rows": [
+     [
+      "Tushen: kwanaki 10 x 80,000",
+      "800,000"
+     ],
+     [
+      "Matsala, 10%",
+      "80,000"
+     ]
+    ],
+    "note": "Ƙididdigar Naira na kwatanta, ba farashin kasuwa ba."
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Scope creep sau da yawa yana zuwa azaman saƙon WhatsApp na yau da kullun: yayin da kuke ciki, kuna iya kafa hukumar don kuɗi? Kada ku ƙi, kuma kada ku yarda da shiru. Aika gajeriyar buƙatar canji."
+   ],
+   "panel": {
+    "kicker": "Kare iyaka",
+    "heading": "Lokacin da ƙarin buƙata ya zo",
+    "items": [
+     "Bayyana sabon buƙatar a taƙaice",
+     "Ƙimar ƙarin kwanaki da farashi",
+     "Bayyana tasirin akan tsarin lokaci",
+     "Tambayi wanda ya yarda ya karba a rubuce"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Bayyana buƙatar, kuma kimanta farashi. Misali, karin kwanaki 2 sau 80,000 shine naira 160,000."
+   ],
+   "panel": {
+    "kicker": "Kare iyaka",
+    "heading": "Lokacin da ƙarin buƙata ya zo",
+    "items": [
+     "Bayyana sabon buƙatar a taƙaice",
+     "Ƙimar ƙarin kwanaki da farashi",
+     "Bayyana tasirin akan tsarin lokaci",
+     "Tambayi wanda ya yarda ya karba a rubuce"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Faɗi yadda tsarin lokacin ke motsawa, kuma ka tambayi mai ba da izini mai suna ya karɓa a rubuce. Amsar imel ta isa."
+   ],
+   "panel": {
+    "kicker": "Kare iyaka",
+    "heading": "Lokacin da ƙarin buƙata ya zo",
+    "items": [
+     "Bayyana sabon buƙatar a taƙaice",
+     "Ƙimar ƙarin kwanaki da farashi",
+     "Bayyana tasirin akan tsarin lokaci",
+     "Tambayi wanda ya yarda ya karba a rubuce"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Fara ƙarin aikin kawai bayan amincewar rubuce-rubuce, kuma shigar da shi tare da yanke shawarar aikin."
+   ],
+   "panel": {
+    "kicker": "Kare iyaka",
+    "heading": "Lokacin da ƙarin buƙata ya zo",
+    "items": [
+     "Bayyana sabon buƙatar a taƙaice",
+     "Ƙimar ƙarin kwanaki da farashi",
+     "Bayyana tasirin akan tsarin lokaci",
+     "Tambayi wanda ya yarda ya karba a rubuce"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Fara ƙarin aiki kawai bayan amincewar rubuce-rubuce.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Kare kudin ma. Tabbatar da bayanan banki ta waya tare da sanannen lamba kafin kowane canja wuri.",
+    "Yi shakkun umarnin sabon asusun kwatsam ta imel ko WhatsApp. Tsarin zamba ne gama gari.",
+    "Idan kana rajista da CAC, daftari a cikin wannan sunan. Kuma kiyaye rubuce-rubucen abokin ciniki a matsayin rikodin ku."
+   ],
+   "panel": {
+    "kicker": "Amincin kudi",
+    "heading": "Biyan kuɗi da zamba",
+    "items": [
+     "Tabbatar da bayanan banki ta waya tukuna",
+     "Shakku kwatsam sabbin saƙonnin asusu",
+     "Daftari a cikin sunan kasuwancin ku mai rijista",
+     "Samun karbuwa a rubuce ta imel"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Ana amincewa da shugabanni lokacin da aikin nasu ya kasance abin dogara kuma a bayyane. Duk lokacin da ka ce zan, ƙara shi zuwa lissafi ɗaya a cikin sa'a, tare da kwanan wata."
+   ],
+   "panel": {
+    "kicker": "Tsarin ku",
+    "heading": "Kama, shirya, yi, bita",
+    "items": [
+     "Ɗauki duk abin da zan so a cikin sa'a",
+     "Litinin: zaɓi sakamako masu mahimmanci guda uku",
+     "Katange lokaci da kare aikin mayar da hankali",
+     "Layin farko na ranar da ƙarshen rana",
+     "Jumma'a: bita da sake tattaunawa da wuri"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "A ranar Litinin zaɓi sakamako mafi mahimmanci guda uku, kuma ka toshe lokacin mayar da hankali a gare su."
+   ],
+   "panel": {
+    "kicker": "Tsarin ku",
+    "heading": "Kama, shirya, yi, bita",
+    "items": [
+     "Ɗauki duk abin da zan so a cikin sa'a",
+     "Litinin: zaɓi sakamako masu mahimmanci guda uku",
+     "Katange lokaci da kare aikin mayar da hankali",
+     "Layin farko na ranar da ƙarshen rana",
+     "Jumma'a: bita da sake tattaunawa da wuri"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Buga ɗan gajeren layin farawa na rana da ƙarshen rana. A ranar Juma'a, bincika kowane alƙawari kuma sake yin shawarwari da wuri.",
+    "Uche ya bi diddigin alkawurra 14 kuma ya same ta da wani abu daya makare da aka yi mata alkawarin a waya ba a kama ta ba. Yanzu ta rubuta shi bayan kowane kira."
+   ],
+   "panel": {
+    "kicker": "Tsarin ku",
+    "heading": "Kama, shirya, yi, bita",
+    "items": [
+     "Ɗauki duk abin da zan so a cikin sa'a",
+     "Litinin: zaɓi sakamako masu mahimmanci guda uku",
+     "Katange lokaci da kare aikin mayar da hankali",
+     "Layin farko na ranar da ƙarshen rana",
+     "Jumma'a: bita da sake tattaunawa da wuri"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Don tunawa. Yi bincike tare da shaida kuma maki maki takwas. Gyara saurin nasara da farko.",
+    "Farashi daga ƙimar yini da kiyasin kwanaki, tare da ƙayyadaddun ƙayyadaddun ƙayyadaddun sharuɗɗan biyan kuɗi.",
+    "Karɓar ƙarin buƙatun a rubuce. Kuma ku cika alkawuran ku a bayyane, ku sake tattaunawa da wuri maimakon yin ɓacewa cikin shiru."
+   ],
+   "panel": {
+    "kicker": "Mabuɗin mahimmanci",
+    "heading": "Ka tuna",
+    "items": [
+     "Nemi shaida, maki maki takwas",
+     "Saurin nasara na farko; bayyana iyakokin ku",
+     "Farashin: ƙimar rana x kwanaki, da abubuwan da ke faruwa",
+     "Canja buƙatun a rubuce kafin ƙarin aiki",
+     "Kame kowane alkawari; sake tattaunawa da wuri"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Yanzu yi aiki. Gudanar da ƙaramin duba, rubuta shawara mai shafi ɗaya tare da lissafin ku, gwada tsarin lissafin ku na makonni biyu, sannan rubuta shirinku na kwanaki 90.",
+    "Ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi ayyuka",
+    "heading": "Ayyukan aikin ku",
+    "items": [
+     "Gudanar da karamin duba",
+     "Rubuta shawara mai shafi ɗaya",
+     "Gwada tsarin ku na makonni biyu",
+     "Rubuta shirin ku na kwanaki 90"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

@@ -1,0 +1,582 @@
+{
+ "course": "core-seo-search-engine-optimisation",
+ "module": "m1",
+ "title": "Comment Google trouve votre page et les outils gratuits pour la vérifier",
+ "course_title": "SEO : optimisation des moteurs de recherche",
+ "shots": [
+  {
+   "demo": "phone_social",
+   "say": [
+    "Comment Google trouve votre page et les outils gratuits pour la vérifier.",
+    "Ceci est la vidéo du premier module du cours SEO."
+   ]
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "SEO signifie optimisation des moteurs de recherche.",
+    "Cela signifie permettre aux moteurs de recherche de trouver, de comprendre et de montrer plus facilement un site Web aux bonnes personnes, sans payer pour chaque clic."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Ce que vous pourrez faire",
+    "items": [
+     "Dites ce que signifie le référencement en termes simples",
+     "Expliquer comment Google explore, indexe et diffuse",
+     "Vérifiez si une page est dans Google avec site :",
+     "Configurer la Search Console en toute sécurité"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Lorsqu'une femme d'Ibadan cherche un tailleur près de Bodija, les entreprises qui apparaissent en premier ne sont pas arrivées là par hasard."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Ce que vous pourrez faire",
+    "items": [
+     "Dites ce que signifie le référencement en termes simples",
+     "Expliquer comment Google explore, indexe et diffuse",
+     "Vérifiez si une page est dans Google avec site :",
+     "Configurer la Search Console en toute sécurité"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Dans cette vidéo, vous apprendrez comment cela se produit, comment vérifier une page vous-même et comment configurer vos outils gratuits en toute sécurité."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Ce que vous pourrez faire",
+    "items": [
+     "Dites ce que signifie le référencement en termes simples",
+     "Expliquer comment Google explore, indexe et diffuse",
+     "Vérifiez si une page est dans Google avec site :",
+     "Configurer la Search Console en toute sécurité"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "La première étape consiste à ramper. Google utilise des programmes automatiques appelés robots d'exploration. Le robot d'exploration de Google s'appelle Googlebot.",
+    "Les robots d'exploration trouvent de nouvelles pages principalement en suivant des liens et à partir de plans de site, qui sont des fichiers répertoriant les pages d'un site."
+   ],
+   "panel": {
+    "kicker": "Comment fonctionne la recherche",
+    "heading": "Trois étapes franchies par chaque page",
+    "items": [
+     "Crawling : Googlebot visite les pages via des liens",
+     "Indexation : Google comprend et stocke la page",
+     "Servir : Google affiche les correspondances les plus utiles"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "La deuxième étape est l’indexation. Google lit le texte, les titres, les images et le titre, et peut stocker la page dans son index, une énorme base de données de pages.",
+    "Les copies, les pages très fines et les pages comportant une instruction noindex sont généralement laissées de côté."
+   ],
+   "panel": {
+    "kicker": "Comment fonctionne la recherche",
+    "heading": "Trois étapes franchies par chaque page",
+    "items": [
+     "Crawling : Googlebot visite les pages via des liens",
+     "Indexation : Google comprend et stocke la page",
+     "Servir : Google affiche les correspondances les plus utiles"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "La troisième étape consiste à produire des résultats. Lorsqu'un internaute effectue une recherche, Google renvoie les pages qu'il juge les plus pertinentes et les plus utiles."
+   ],
+   "panel": {
+    "kicker": "Comment fonctionne la recherche",
+    "heading": "Trois étapes franchies par chaque page",
+    "items": [
+     "Crawling : Googlebot visite les pages via des liens",
+     "Indexation : Google comprend et stocke la page",
+     "Servir : Google affiche les correspondances les plus utiles"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Alors rappelez-vous ceci. Une page ne peut être classée qu'après avoir été explorée et indexée. Un problème au début du flux bloque tout ce qui suit."
+   ],
+   "panel": {
+    "kicker": "Comment fonctionne la recherche",
+    "heading": "Trois étapes franchies par chaque page",
+    "items": [
+     "Crawling : Googlebot visite les pages via des liens",
+     "Indexation : Google comprend et stocke la page",
+     "Servir : Google affiche les correspondances les plus utiles"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Pas d'analyse, pas d'index. Pas d'index, pas de classement.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Par exemple, Ngozi dirige une petite entreprise de côtelettes à Lekki, Lagos. Sa créatrice a ajouté une page de packs de fête il y a deux semaines, mais elle ne la trouve pas sur Google."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Ngozi consulte sa nouvelle page",
+    "items": [
+     "Site de recherche:ngozichops.com, voir 6 résultats",
+     "Rechercher sur la page des packs de fête : aucun résultat",
+     "Attention : aucun lien ne pointe vers la nouvelle page",
+     "Ajoutez des liens vers le menu et la page d'accueil, soumettez le plan du site",
+     "Dix jours plus tard, la page apparaît"
+    ],
+    "show": 0,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Elle tape site, deux points, puis son domaine dans Google. Cette recherche spéciale affiche les pages que Google a indexées à partir de son site. Elle voit 6 résultats, mais pas de packs de fête."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Ngozi consulte sa nouvelle page",
+    "items": [
+     "Site de recherche:ngozichops.com, voir 6 résultats",
+     "Rechercher sur la page des packs de fête : aucun résultat",
+     "Attention : aucun lien ne pointe vers la nouvelle page",
+     "Ajoutez des liens vers le menu et la page d'accueil, soumettez le plan du site",
+     "Dix jours plus tard, la page apparaît"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Elle recherche l'adresse exacte de la page de la même manière. Aucun résultat. Il n'est pas encore dans l'index."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Ngozi consulte sa nouvelle page",
+    "items": [
+     "Site de recherche:ngozichops.com, voir 6 résultats",
+     "Rechercher sur la page des packs de fête : aucun résultat",
+     "Attention : aucun lien ne pointe vers la nouvelle page",
+     "Ajoutez des liens vers le menu et la page d'accueil, soumettez le plan du site",
+     "Dix jours plus tard, la page apparaît"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ads",
+   "say": [
+    "Elle vérifie sa page d'accueil et son menu. Rien ne renvoie vers la nouvelle page, les robots d'exploration n'ont donc aucun chemin vers celle-ci."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Ngozi consulte sa nouvelle page",
+    "items": [
+     "Site de recherche:ngozichops.com, voir 6 résultats",
+     "Rechercher sur la page des packs de fête : aucun résultat",
+     "Attention : aucun lien ne pointe vers la nouvelle page",
+     "Ajoutez des liens vers le menu et la page d'accueil, soumettez le plan du site",
+     "Dix jours plus tard, la page apparaît"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ads",
+   "say": [
+    "Elle demande au concepteur d'ajouter un lien Party Packs au menu et à la page d'accueil, et de soumettre le plan du site dans la Search Console."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Ngozi consulte sa nouvelle page",
+    "items": [
+     "Site de recherche:ngozichops.com, voir 6 résultats",
+     "Rechercher sur la page des packs de fête : aucun résultat",
+     "Attention : aucun lien ne pointe vers la nouvelle page",
+     "Ajoutez des liens vers le menu et la page d'accueil, soumettez le plan du site",
+     "Dix jours plus tard, la page apparaît"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ads",
+   "say": [
+    "Dix jours plus tard, la page apparaît. Le correctif était des liens et un plan du site."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Ngozi consulte sa nouvelle page",
+    "items": [
+     "Site de recherche:ngozichops.com, voir 6 résultats",
+     "Rechercher sur la page des packs de fête : aucun résultat",
+     "Attention : aucun lien ne pointe vers la nouvelle page",
+     "Ajoutez des liens vers le menu et la page d'accueil, soumettez le plan du site",
+     "Dix jours plus tard, la page apparaît"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_social",
+   "say": [
+    "Vous pouvez contrôler si vos pages peuvent être explorées, ce qu'elles disent, leur rapidité et leur convivialité pour les appareils mobiles, ainsi que l'apparence de votre profil d'entreprise Google."
+   ],
+   "panel": {
+    "kicker": "Soyez honnête à propos du référencement",
+    "heading": "Ce que vous pouvez et ne pouvez pas contrôler",
+    "mode": "compare",
+    "left_h": "Vous pouvez contrôler",
+    "left": [
+     "Si les pages peuvent être explorées",
+     "Ce que disent vos pages",
+     "Vitesse et disposition mobile",
+     "Votre profil d'entreprise"
+    ],
+    "right_h": "Vous ne pouvez pas contrôler",
+    "right": [
+     "Les systèmes de classement de Google",
+     "Vos concurrents",
+     "Combien de personnes recherchent",
+     "Une première place garantie"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_camera",
+   "say": [
+    "Vous ne pouvez pas contrôler les systèmes de classement de Google, vos concurrents ou le nombre de personnes effectuant des recherches.",
+    "Personne ne peut garantir une position de numéro un. Google lui-même avertit les propriétaires de sites de faire attention à quiconque promet cela."
+   ],
+   "panel": {
+    "kicker": "Soyez honnête à propos du référencement",
+    "heading": "Ce que vous pouvez et ne pouvez pas contrôler",
+    "mode": "compare",
+    "left_h": "Vous pouvez contrôler",
+    "left": [
+     "Si les pages peuvent être explorées",
+     "Ce que disent vos pages",
+     "Vitesse et disposition mobile",
+     "Votre profil d'entreprise"
+    ],
+    "right_h": "Vous ne pouvez pas contrôler",
+    "right": [
+     "Les systèmes de classement de Google",
+     "Vos concurrents",
+     "Combien de personnes recherchent",
+     "Une première place garantie"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Tout d’abord, activez la vérification en deux étapes afin qu’un mot de passe volé ne puisse à lui seul ouvrir votre compte Google."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Configurer la Search Console en toute sécurité",
+    "items": [
+     "Activer la vérification en deux étapes",
+     "Ajoutez votre site dans la Search Console",
+     "Vérifiez que vous en êtes propriétaire",
+     "Soumettez votre plan de site",
+     "Ajouter des assistants en tant qu'utilisateurs"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Ensuite, accédez à Search Console et ajoutez votre site. Une propriété de domaine couvre chaque version du site. Une propriété de préfixe d'URL couvre une adresse exacte et offre davantage de moyens de vérification."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Configurer la Search Console en toute sécurité",
+    "items": [
+     "Activer la vérification en deux étapes",
+     "Ajoutez votre site dans la Search Console",
+     "Vérifiez que vous en êtes propriétaire",
+     "Soumettez votre plan de site",
+     "Ajouter des assistants en tant qu'utilisateurs"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Vérifiez la propriété. Par exemple, Chioma n’avait qu’un téléphone. Elle a collé le code de la balise HTML dans ses paramètres Yoast SEO dans WordPress et a appuyé sur Vérifier."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Configurer la Search Console en toute sécurité",
+    "items": [
+     "Activer la vérification en deux étapes",
+     "Ajoutez votre site dans la Search Console",
+     "Vérifiez que vous en êtes propriétaire",
+     "Soumettez votre plan de site",
+     "Ajouter des assistants en tant qu'utilisateurs"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Ensuite, ouvrez le rapport Plans de site et soumettez l'adresse de votre plan de site. Chioma a pris environ 20 minutes au total."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Configurer la Search Console en toute sécurité",
+    "items": [
+     "Activer la vérification en deux étapes",
+     "Ajoutez votre site dans la Search Console",
+     "Vérifiez que vous en êtes propriétaire",
+     "Soumettez votre plan de site",
+     "Ajouter des assistants en tant qu'utilisateurs"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Enfin, si un concepteur ou un bénévole vous aide, ne partagez jamais votre mot de passe. Ajoutez-les en tant qu'utilisateur avec une autorisation complète ou restreinte et supprimez leur accès le jour même où ils cessent de travailler avec vous."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Configurer la Search Console en toute sécurité",
+    "items": [
+     "Activer la vérification en deux étapes",
+     "Ajoutez votre site dans la Search Console",
+     "Vérifiez que vous en êtes propriétaire",
+     "Soumettez votre plan de site",
+     "Ajouter des assistants en tant qu'utilisateurs"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Ne partagez jamais votre mot de passe Google. Ajoutez des assistants en tant qu'utilisateurs.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Les petites entreprises reçoivent de nombreux messages frauduleux. La première promesse garantit le numéro un sur Google en 7 jours. Les propres conseils de Google indiquent que personne ne peut le garantir."
+   ],
+   "panel": {
+    "kicker": "Protéger l'entreprise",
+    "heading": "Escroqueries SEO courantes à refuser",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Guaranteed number one",
+      "d": "Promesses de numéro un sur Google en 7 jours. Aucun référencement honnête ne peut garantir un premier classement."
+     },
+     {
+      "t": "Bought links or reviews",
+      "d": "Offres de milliers de backlinks ou d’avis. Les acheter enfreint les politiques de Google et peut nuire à votre site."
+     },
+     {
+      "t": "Pay or be removed",
+      "d": "Les e-mails prétendant que votre site seront supprimés de Google à moins que vous ne payiez. Ignorez-les."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "La seconde propose de vendre des milliers de backlinks ou d’avis. Les acheter enfreint les politiques de Google et peut nuire à votre site."
+   ],
+   "panel": {
+    "kicker": "Protéger l'entreprise",
+    "heading": "Escroqueries SEO courantes à refuser",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Guaranteed number one",
+      "d": "Promesses de numéro un sur Google en 7 jours. Aucun référencement honnête ne peut garantir un premier classement."
+     },
+     {
+      "t": "Bought links or reviews",
+      "d": "Offres de milliers de backlinks ou d’avis. Les acheter enfreint les politiques de Google et peut nuire à votre site."
+     },
+     {
+      "t": "Pay or be removed",
+      "d": "Les e-mails prétendant que votre site seront supprimés de Google à moins que vous ne payiez. Ignorez-les."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "La troisième affirme que votre site sera supprimé de Google si vous ne payez pas. Ne payez pas."
+   ],
+   "panel": {
+    "kicker": "Protéger l'entreprise",
+    "heading": "Escroqueries SEO courantes à refuser",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Guaranteed number one",
+      "d": "Promesses de numéro un sur Google en 7 jours. Aucun référencement honnête ne peut garantir un premier classement."
+     },
+     {
+      "t": "Bought links or reviews",
+      "d": "Offres de milliers de backlinks ou d’avis. Les acheter enfreint les politiques de Google et peut nuire à votre site."
+     },
+     {
+      "t": "Pay or be removed",
+      "d": "Les e-mails prétendant que votre site seront supprimés de Google à moins que vous ne payiez. Ignorez-les."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Cochez chaque élément avant de commencer à changer de page.",
+    "Ensuite, notez une référence : les clics et les impressions des 28 derniers jours, ainsi que vos cinq principales recherches. Sans point de départ, vous ne pouvez pas prouver que votre travail a fait une différence."
+   ],
+   "panel": {
+    "kicker": "Avant de changer de page",
+    "heading": "Liste de contrôle de configuration sécurisée",
+    "items": [
+     "Vérification en deux étapes sur",
+     "Search Console vérifiée",
+     "Plan du site soumis",
+     "Fiche d'établissement revendiquée",
+     "Assistants ajoutés en tant qu'utilisateurs",
+     "Mots de passe jamais partagés"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_ads",
+   "say": [
+    "À retenir. Google explore, indexe, puis sert. Les robots trouvent des pages via des liens et des plans de site. Utilisez la recherche sur le site pour une vérification rapide. Protégez votre compte et ne partagez jamais vos mots de passe. Et personne ne peut garantir une position de premier plan."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Google fonctionne en trois étapes : explorer, indexer, servir",
+     "Les robots trouvent des pages via des liens et des plans de site",
+     "Utilisez site:votredomaine.com pour une vérification rapide de l'index",
+     "Activez la vérification en 2 étapes ; ne partagez jamais vos mots de passe",
+     "Personne ne peut garantir une position de premier plan"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_social",
+   "say": [
+    "Maintenant, essayez-le. Exécutez une recherche de site sur un site Web que vous connaissez, mappez cinq recherches de clients à leur intention, puis vérifiez un site dans la Search Console et soumettez son plan du site.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâche pratique",
+    "heading": "Vos tâches pratiques",
+    "items": [
+     "Gérer un site : effectuer une recherche sur un vrai site Web",
+     "Mapper cinq recherches à l’intention",
+     "Vérifier un site dans la Search Console",
+     "Proposer son plan du site"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

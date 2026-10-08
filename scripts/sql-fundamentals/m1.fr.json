@@ -1,0 +1,583 @@
+{
+ "course": "sql-fundamentals",
+ "module": "m1",
+ "title": "Comment pensent les bases de données : tables, requêtes et résumés",
+ "course_title": "Fondamentaux de SQL",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Comment pensent les bases de données : tables, requêtes et résumés.",
+    "Ceci est la vidéo du module 1 des principes fondamentaux de SQL."
+   ]
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Votre application bancaire, une application de covoiturage, une boutique en ligne : presque tous conservent leurs enregistrements dans une base de données relationnelle. Les données se trouvent dans plusieurs tableaux, liés par des numéros d'identification partagés."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Chaque application conserve ses enregistrements dans des tableaux",
+    "items": [
+     "Les données se trouvent dans des tableaux liés par des numéros d'identification",
+     "Une table contient un genre de chose",
+     "Une colonne est un fait ; une ligne est un enregistrement",
+     "SQL est le langage pour poser des questions"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Notre activité commerciale appartient par exemple à Kemi, qui vend du Ankara, de la dentelle et des cravates. Sa base de données contient un tableau des clients, un tableau des commandes et un tableau des articles commandés."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Chaque application conserve ses enregistrements dans des tableaux",
+    "items": [
+     "Les données se trouvent dans des tableaux liés par des numéros d'identification",
+     "Une table contient un genre de chose",
+     "Une colonne est un fait ; une ligne est un enregistrement",
+     "SQL est le langage pour poser des questions"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Chaque colonne représente un fait, comme la ville. Chaque ligne correspond à un client ou à une commande."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Chaque application conserve ses enregistrements dans des tableaux",
+    "items": [
+     "Les données se trouvent dans des tableaux liés par des numéros d'identification",
+     "Une table contient un genre de chose",
+     "Une colonne est un fait ; une ligne est un enregistrement",
+     "SQL est le langage pour poser des questions"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "SQL, Structured Query Language, est la façon dont vous posez des questions à ces tables. Les mêmes commandes principales fonctionnent dans PostgreSQL, MySQL, SQLite et plus encore."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Chaque application conserve ses enregistrements dans des tableaux",
+    "items": [
+     "Les données se trouvent dans des tableaux liés par des numéros d'identification",
+     "Une table contient un genre de chose",
+     "Une colonne est un fait ; une ligne est un enregistrement",
+     "SQL est le langage pour poser des questions"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Une clé primaire est une colonne unique pour chaque ligne et jamais vide. Chez les clients, Amaka est le numéro 1."
+   ],
+   "panel": {
+    "kicker": "Trois idées clés",
+    "heading": "Clés et stockage de chaque fait une fois",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Primary key",
+      "d": "Unique pour chaque ligne, jamais vide. Amaka est customer_id 1, et personne d'autre ne peut avoir 1."
+     },
+     {
+      "t": "Foreign key",
+      "d": "Pointe vers une autre table. La commande 101 a customer_id 1, elle appartient donc à Amaka."
+     },
+     {
+      "t": "Normalisation",
+      "d": "Stockez chaque fait une fois. La ville d'Amaka ne vit que de clients, les rapports ne sont donc jamais en désaccord."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Une clé étrangère contient la clé primaire d'une autre table. La commande 101 a customer_id 1, elle appartient donc à Amaka. Ce numéro vous permet de rejoindre des tables plus tard."
+   ],
+   "panel": {
+    "kicker": "Trois idées clés",
+    "heading": "Clés et stockage de chaque fait une fois",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Primary key",
+      "d": "Unique pour chaque ligne, jamais vide. Amaka est customer_id 1, et personne d'autre ne peut avoir 1."
+     },
+     {
+      "t": "Foreign key",
+      "d": "Pointe vers une autre table. La commande 101 a customer_id 1, elle appartient donc à Amaka."
+     },
+     {
+      "t": "Normalisation",
+      "d": "Stockez chaque fait une fois. La ville d'Amaka ne vit que de clients, les rapports ne sont donc jamais en désaccord."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Pourquoi pas une grande feuille ? Si la ville d'Amaka est saisie sur chaque commande et qu'elle se déplace, vous devez changer chaque ligne, et si vous en manquez une, vos rapports ne sont pas d'accord. Le stockage de chaque fait une seule fois s’appelle la normalisation."
+   ],
+   "panel": {
+    "kicker": "Trois idées clés",
+    "heading": "Clés et stockage de chaque fait une fois",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Primary key",
+      "d": "Unique pour chaque ligne, jamais vide. Amaka est customer_id 1, et personne d'autre ne peut avoir 1."
+     },
+     {
+      "t": "Foreign key",
+      "d": "Pointe vers une autre table. La commande 101 a customer_id 1, elle appartient donc à Amaka."
+     },
+     {
+      "t": "Normalisation",
+      "d": "Stockez chaque fait une fois. La ville d'Amaka ne vit que de clients, les rapports ne sont donc jamais en désaccord."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Integer contient des nombres entiers, comme les identifiants et les quantités."
+   ],
+   "panel": {
+    "kicker": "Types de données",
+    "heading": "Choisissez volontairement le type de chaque colonne",
+    "items": [
+     "ENTIER : nombres entiers, identifiants, quantités",
+     "DECIMAL : nombres exacts pour de l'argent",
+     "TEXTE : noms, mais aussi numéros de téléphone",
+     "DATE : toujours AAAA-MM-JJ",
+     "BOOLÉEN : vrai ou faux"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Le nombre décimal, ou numérique, contient des nombres exacts. Utilisez-le pour de l'argent, jamais pour un type flottant, ce qui peut provoquer de minuscules erreurs d'arrondi."
+   ],
+   "panel": {
+    "kicker": "Types de données",
+    "heading": "Choisissez volontairement le type de chaque colonne",
+    "items": [
+     "ENTIER : nombres entiers, identifiants, quantités",
+     "DECIMAL : nombres exacts pour de l'argent",
+     "TEXTE : noms, mais aussi numéros de téléphone",
+     "DATE : toujours AAAA-MM-JJ",
+     "BOOLÉEN : vrai ou faux"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Le texte contient des mots. Les numéros de téléphone sont également du texte, car un zéro non significatif, comme dans 0803, serait perdu s'il était stocké sous forme de numéro."
+   ],
+   "panel": {
+    "kicker": "Types de données",
+    "heading": "Choisissez volontairement le type de chaque colonne",
+    "items": [
+     "ENTIER : nombres entiers, identifiants, quantités",
+     "DECIMAL : nombres exacts pour de l'argent",
+     "TEXTE : noms, mais aussi numéros de téléphone",
+     "DATE : toujours AAAA-MM-JJ",
+     "BOOLÉEN : vrai ou faux"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Stockez les dates sous forme d’année, de mois, de jour, afin qu’elles soient triées correctement. Et booléen est simplement vrai ou faux."
+   ],
+   "panel": {
+    "kicker": "Types de données",
+    "heading": "Choisissez volontairement le type de chaque colonne",
+    "items": [
+     "ENTIER : nombres entiers, identifiants, quantités",
+     "DECIMAL : nombres exacts pour de l'argent",
+     "TEXTE : noms, mais aussi numéros de téléphone",
+     "DATE : toujours AAAA-MM-JJ",
+     "BOOLÉEN : vrai ou faux"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Une requête est une demande polie et précise. SELECT nomme les colonnes souhaitées. FROM nomme la table."
+   ],
+   "panel": {
+    "kicker": "Votre première requête",
+    "heading": "Cinq mots-clés répondent à la plupart des questions",
+    "items": [
+     "SELECT : les colonnes souhaitées",
+     "DE : la table",
+     "OÙ : conserver les lignes qui correspondent",
+     "ORDER BY : trier, DESC pour le plus grand en premier",
+     "LIMITE : ne conserver que les premières lignes"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "WHERE conserve uniquement les lignes où une condition est vraie. Le texte est placé entre guillemets simples, pas les chiffres. Lorsque vous mélangez AND avec OR, utilisez des parenthèses, car AND est calculé en premier."
+   ],
+   "panel": {
+    "kicker": "Votre première requête",
+    "heading": "Cinq mots-clés répondent à la plupart des questions",
+    "items": [
+     "SELECT : les colonnes souhaitées",
+     "DE : la table",
+     "OÙ : conserver les lignes qui correspondent",
+     "ORDER BY : trier, DESC pour le plus grand en premier",
+     "LIMITE : ne conserver que les premières lignes"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "ORDER BY trie le résultat. Ajoutez DESC pour le plus grand en premier."
+   ],
+   "panel": {
+    "kicker": "Votre première requête",
+    "heading": "Cinq mots-clés répondent à la plupart des questions",
+    "items": [
+     "SELECT : les colonnes souhaitées",
+     "DE : la table",
+     "OÙ : conserver les lignes qui correspondent",
+     "ORDER BY : trier, DESC pour le plus grand en premier",
+     "LIMITE : ne conserver que les premières lignes"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "LIMIT 3 ne conserve que les trois premières lignes après le tri. C’est ainsi que vous obtenez un top trois."
+   ],
+   "panel": {
+    "kicker": "Votre première requête",
+    "heading": "Cinq mots-clés répondent à la plupart des questions",
+    "items": [
+     "SELECT : les colonnes souhaitées",
+     "DE : la table",
+     "OÙ : conserver les lignes qui correspondent",
+     "ORDER BY : trier, DESC pour le plus grand en premier",
+     "LIMITE : ne conserver que les premières lignes"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Un piège. Une valeur manquante est NULL, ce qui signifie inconnu, et elle n'est jamais égale à quoi que ce soit. Alors WHERE phone = NULL ne renvoie rien. Écrivez toujours IS NULL."
+   ],
+   "panel": {
+    "kicker": "Votre première requête",
+    "heading": "Cinq mots-clés répondent à la plupart des questions",
+    "items": [
+     "SELECT : les colonnes souhaitées",
+     "DE : la table",
+     "OÙ : conserver les lignes qui correspondent",
+     "ORDER BY : trier, DESC pour le plus grand en premier",
+     "LIMITE : ne conserver que les premières lignes"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Les valeurs manquantes sont NULL. Testez avec IS NULL, jamais = NULL.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Kemi écrit : SÉLECTIONNEZ l'ID de la commande, la date et le montant de la commande, FROM les commandes, OÙ le canal est WhatsApp ET le statut est livré, COMMANDEZ PAR montant, décroissant."
+   ],
+   "card": {
+    "title": "Les plus grosses commandes WhatsApp livrées par Kemi",
+    "rows": [],
+    "note": "Des chiffres pratiques, pas des prix réels du marché."
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Quatre rangées reviennent. La plus importante est la commande 105, à 61 000 naira, puis 101, 106 et 103."
+   ],
+   "card": {
+    "title": "Les plus grosses commandes WhatsApp livrées par Kemi",
+    "rows": [
+     [
+      "Commande 105",
+      "61,000"
+     ],
+     [
+      "Commande 101",
+      "18,500"
+     ],
+     [
+      "Ordonnance 106",
+      "12,500"
+     ],
+     [
+      "Commande 103",
+      "9,000"
+     ]
+    ],
+    "note": "Des chiffres pratiques, pas des prix réels du marché."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Maintenant, vérifiez-le. La commande 109 est une commande WhatsApp, mais elle est en attente, elle est donc correctement laissée de côté. Vérifiez toujours ce qui ne devrait pas être là."
+   ],
+   "card": {
+    "title": "Les plus grosses commandes WhatsApp livrées par Kemi",
+    "rows": [
+     [
+      "Commande 105",
+      "61,000"
+     ],
+     [
+      "Commande 101",
+      "18,500"
+     ],
+     [
+      "Ordonnance 106",
+      "12,500"
+     ],
+     [
+      "Commande 103",
+      "9,000"
+     ]
+    ],
+    "note": "Des chiffres pratiques, pas des prix réels du marché."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Les managers veulent des réponses, pas des listes. COUNT, SUM et AVG transforment plusieurs lignes en un seul nombre. GROUP BY donne un numéro par groupe."
+   ],
+   "card": {
+    "title": "Ventes réalisées par canal",
+    "rows": [],
+    "note": "Des chiffres pratiques, pas des prix réels du marché."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Kemi a réalisé des ventes par canal : WhatsApp 101 000 naira, Instagram 83 000 et le site Web 27 500."
+   ],
+   "card": {
+    "title": "Ventes réalisées par canal",
+    "rows": [
+     [
+      "WhatsApp, 4 commandes",
+      "101,000"
+     ],
+     [
+      "Instagram, 3 commandes",
+      "83,000"
+     ],
+     [
+      "Site Internet, 1 commande",
+      "27,500"
+     ]
+    ],
+    "note": "Des chiffres pratiques, pas des prix réels du marché."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Maintenant, réconciliez-vous. Les groupes doivent ajouter au total. 101 000 plus 83 000 plus 27 500 font 211 500, et 4 plus 3 plus 1 font 8 ordres. Si les pièces ne s’additionnent pas, quelque chose ne va pas.",
+    "Et rappelez-vous : chaque colonne de SELECT doit être à l'intérieur d'une fonction ou répertoriée dans GROUP BY."
+   ],
+   "card": {
+    "title": "Ventes réalisées par canal",
+    "rows": [
+     [
+      "WhatsApp, 4 commandes",
+      "101,000"
+     ],
+     [
+      "Instagram, 3 commandes",
+      "83,000"
+     ],
+     [
+      "Site Internet, 1 commande",
+      "27,500"
+     ]
+    ],
+    "note": "Des chiffres pratiques, pas des prix réels du marché."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "WHERE filtre les lignes individuelles avant de les regrouper, par exemple en ne conservant que les commandes livrées."
+   ],
+   "panel": {
+    "kicker": "Filtrage",
+    "heading": "OÙ ou AVOIR ?",
+    "mode": "compare",
+    "left_h": "OÙ",
+    "left": [
+     "S'exécute avant le regroupement",
+     "Teste des lignes simples",
+     "statut = 'livré'",
+     "Impossible d'utiliser SUM ou COUNT"
+    ],
+    "right_h": "AVOIR",
+    "right": [
+     "S'exécute après le regroupement",
+     "Teste des groupes entiers",
+     "COMPTE(*) >= 2",
+     "Utilise les résultats agrégés"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "HAVING filtre des groupes entiers une fois les totaux effectués. AVOIR UN NOMBRE de commandes d'au moins 2 permet de trouver les acheteurs réguliers de Kemi : le client 1 avec 3 commandes et le client 2 avec 2."
+   ],
+   "panel": {
+    "kicker": "Filtrage",
+    "heading": "OÙ ou AVOIR ?",
+    "mode": "compare",
+    "left_h": "OÙ",
+    "left": [
+     "S'exécute avant le regroupement",
+     "Teste des lignes simples",
+     "statut = 'livré'",
+     "Impossible d'utiliser SUM ou COUNT"
+    ],
+    "right_h": "AVOIR",
+    "right": [
+     "S'exécute après le regroupement",
+     "Teste des groupes entiers",
+     "COMPTE(*) >= 2",
+     "Utilise les résultats agrégés"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "À retenir. Les tables sont liées par des clés et chaque fait est stocké une fois. Cinq mots-clés répondent à la plupart des questions. Testez les valeurs manquantes avec IS NULL. Et vérifiez toujours que vos groupes contribuent au total."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Tables liées par des clés primaires et étrangères",
+     "Stocker chaque fait une fois",
+     "SÉLECTIONNER, DEPUIS, OÙ, COMMANDER PAR, LIMITE",
+     "EST NULL, jamais = NULL",
+     "Les totaux de groupe doivent s'additionner au tout"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Concevez maintenant une petite base de données sur papier, rédigez vos cinq premières requêtes et créez un mini résumé des ventes avec des graduations de rapprochement.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâches d'entraînement",
+    "heading": "Votre travail pour ce module",
+    "items": [
+     "Concevoir une petite base de données sur papier",
+     "Répondez à cinq questions avec des requêtes simples",
+     "Créer un mini résumé des ventes"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

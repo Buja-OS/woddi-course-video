@@ -1,0 +1,569 @@
+{
+ "course": "core-pricing-costing-and-profit-planning",
+ "module": "m3",
+ "title": "Objectifs de profit, votre P&L mensuel et votre flux de trésorerie",
+ "course_title": "Planification des prix, des coûts et des bénéfices",
+ "shots": [
+  {
+   "demo": "cash_count",
+   "say": [
+    "Objectifs de profit, vos profits et pertes mensuels et vos flux de trésorerie.",
+    "Il s'agit de la vidéo du module 3 sur la tarification, l'établissement des coûts et la planification des bénéfices."
+   ]
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Le seuil de rentabilité vous indique comment arrêter de perdre de l’argent. Un objectif de profit vous indique comment gagner l’argent que vous souhaitez. Ajoutez simplement le bénéfice souhaité à vos coûts fixes, puis divisez-le par votre contribution par unité."
+   ],
+   "card": {
+    "title": "Travaillez à partir du profit que vous souhaitez",
+    "rows": [],
+    "note": "Les prix en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Les frais fixes de Ngozi s'élèvent à 110 000 nairas par mois. Son propre salaire est déjà à l'intérieur."
+   ],
+   "card": {
+    "title": "Travaillez à partir du profit que vous souhaitez",
+    "rows": [
+     [
+      "Frais fixes mensuels, avec salaire",
+      "110,000"
+     ]
+    ],
+    "note": "Les prix en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Elle veut en plus gagner 100 000 nairas, afin d'économiser pour une friteuse plus grande."
+   ],
+   "card": {
+    "title": "Travaillez à partir du profit que vous souhaitez",
+    "rows": [
+     [
+      "Frais fixes mensuels, avec salaire",
+      "110,000"
+     ],
+     [
+      "Objectif de profit pour une friteuse plus grande",
+      "100,000"
+     ]
+    ],
+    "note": "Les prix en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Au total, cela représente 210 000 naira. Divisé par 760, cela fait 276,3. Round up : 277 packs par mois.",
+    "Cela devient 70 paquets par semaine, ou 11 paquets par jour. Un numéro qu'elle peut cocher sur son carnet."
+   ],
+   "card": {
+    "title": "Travaillez à partir du profit que vous souhaitez",
+    "rows": [
+     [
+      "Frais fixes mensuels, avec salaire",
+      "110,000"
+     ],
+     [
+      "Objectif de profit pour une friteuse plus grande",
+      "100,000"
+     ]
+    ],
+    "note": "Les prix en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Un objectif n'est utile que si vous pouvez l'atteindre. Pouvez-vous y arriver ? Ngozi peut frire 6 à 8 lots par mois, alors oui."
+   ],
+   "panel": {
+    "kicker": "Vérification de la réalité",
+    "heading": "Vérifiez la cible, puis tirez un levier",
+    "items": [
+     "Puis-je y arriver ? Compter les lots",
+     "Puis-je le vendre ? Comparer avec le mois dernier",
+     "Puis-je le financer ? Chaque lot a d'abord besoin d'argent",
+     "Leviers : prix, coût variable, coût fixe, volume"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Pouvez-vous le vendre ? Elle a vendu environ 250 paquets le mois dernier, donc 277 représente une augmentation d'environ 11 pour cent, ce n'est pas un fantasme."
+   ],
+   "panel": {
+    "kicker": "Vérification de la réalité",
+    "heading": "Vérifiez la cible, puis tirez un levier",
+    "items": [
+     "Puis-je y arriver ? Compter les lots",
+     "Puis-je le vendre ? Comparer avec le mois dernier",
+     "Puis-je le financer ? Chaque lot a d'abord besoin d'argent",
+     "Leviers : prix, coût variable, coût fixe, volume"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Pouvez-vous le financer ? Chaque lot coûte 47 000 nairas avant que l'argent ne revienne."
+   ],
+   "panel": {
+    "kicker": "Vérification de la réalité",
+    "heading": "Vérifiez la cible, puis tirez un levier",
+    "items": [
+     "Puis-je y arriver ? Compter les lots",
+     "Puis-je le vendre ? Comparer avec le mois dernier",
+     "Puis-je le financer ? Chaque lot a d'abord besoin d'argent",
+     "Leviers : prix, coût variable, coût fixe, volume"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Choisissez ensuite votre levier : augmenter le prix, réduire les coûts variables, réduire les coûts fixes ou vendre plus. À 1 500 nairas, Ngozi aurait besoin de 375 paquets pour le même bénéfice. Les prix bas exigent beaucoup plus de travail et d’argent."
+   ],
+   "panel": {
+    "kicker": "Vérification de la réalité",
+    "heading": "Vérifiez la cible, puis tirez un levier",
+    "items": [
+     "Puis-je y arriver ? Compter les lots",
+     "Puis-je le vendre ? Comparer avec le mois dernier",
+     "Puis-je le financer ? Chaque lot a d'abord besoin d'argent",
+     "Leviers : prix, coût variable, coût fixe, volume"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Un relevé de profits et pertes est votre tableau de bord mensuel. Commencez par les ventes : tout ce que vous avez vendu, y compris les ventes à crédit."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Vos profits et pertes mensuels",
+    "items": [
+     "Ventes : tout est vendu, y compris le crédit",
+     "Moins le coût des marchandises vendues",
+     "Égal au bénéfice brut",
+     "Moins les dépenses de fonctionnement",
+     "Égal au bénéfice ou à la perte net"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Soustrayez le coût des marchandises vendues. Il s’agit du coût variable des unités que vous avez réellement vendues."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Vos profits et pertes mensuels",
+    "items": [
+     "Ventes : tout est vendu, y compris le crédit",
+     "Moins le coût des marchandises vendues",
+     "Égal au bénéfice brut",
+     "Moins les dépenses de fonctionnement",
+     "Égal au bénéfice ou à la perte net"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Cela donne un bénéfice brut. Les unités encore sur votre étagère sont en stock et non au prix de ce mois-ci."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Vos profits et pertes mensuels",
+    "items": [
+     "Ventes : tout est vendu, y compris le crédit",
+     "Moins le coût des marchandises vendues",
+     "Égal au bénéfice brut",
+     "Moins les dépenses de fonctionnement",
+     "Égal au bénéfice ou à la perte net"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Comptez uniquement le coût variable des unités vendues. Les unités invendues sont en stock.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Soustrayez vos dépenses de fonctionnement : loyer, votre salaire, données, prélèvements et usure du matériel."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Vos profits et pertes mensuels",
+    "items": [
+     "Ventes : tout est vendu, y compris le crédit",
+     "Moins le coût des marchandises vendues",
+     "Égal au bénéfice brut",
+     "Moins les dépenses de fonctionnement",
+     "Égal au bénéfice ou à la perte net"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Comptez uniquement le coût variable des unités vendues. Les unités invendues sont en stock.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Ce qui reste, c'est votre bénéfice net, ou votre perte nette. Avec de bons enregistrements quotidiens, cela prend environ 30 minutes."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Vos profits et pertes mensuels",
+    "items": [
+     "Ventes : tout est vendu, y compris le crédit",
+     "Moins le coût des marchandises vendues",
+     "Égal au bénéfice brut",
+     "Moins les dépenses de fonctionnement",
+     "Égal au bénéfice ou à la perte net"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Comptez uniquement le coût variable des unités vendues. Les unités invendues sont en stock.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Voici un vrai mois. Ngozi a confectionné 350 paquets. Elle en a vendu 260 à 1 700 naira et 60 à 1 400 naira, et 30 étaient encore en stock."
+   ],
+   "card": {
+    "title": "P&L de Ngozi sur un mois",
+    "rows": [],
+    "note": "Les prix en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Ses ventes totales s'élevaient à 526 000 naira."
+   ],
+   "card": {
+    "title": "P&L de Ngozi sur un mois",
+    "rows": [
+     [
+      "Ventes totales",
+      "526,000"
+     ]
+    ],
+    "note": "Les prix en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "320 paquets vendus, à 940 naira chacun, représentent un coût de 300 800 naira pour les marchandises vendues. Son bénéfice brut est de 225 200 naira."
+   ],
+   "card": {
+    "title": "P&L de Ngozi sur un mois",
+    "rows": [
+     [
+      "Ventes totales",
+      "526,000"
+     ],
+     [
+      "Coût des marchandises vendues, 320 paquets",
+      "300,800"
+     ],
+     [
+      "Bénéfice brut",
+      "225,200"
+     ]
+    ],
+    "note": "Les prix en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Après 110 000 nairas de dépenses de fonctionnement, son bénéfice net est de 115 200 nairas. Cela dépasse son objectif de 15 200 nairas.",
+    "Surveillez votre marge brute et votre marge nette chaque mois. Les siennes sont d'environ 42,8 pour cent et 21,9 pour cent."
+   ],
+   "card": {
+    "title": "P&L de Ngozi sur un mois",
+    "rows": [
+     [
+      "Ventes totales",
+      "526,000"
+     ],
+     [
+      "Coût des marchandises vendues, 320 paquets",
+      "300,800"
+     ],
+     [
+      "Bénéfice brut",
+      "225,200"
+     ],
+     [
+      "Dépenses de fonctionnement",
+      "110,000"
+     ],
+     [
+      "Bénéfice net",
+      "115,200"
+     ]
+    ],
+    "note": "Les prix en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Le flux de trésorerie est le mouvement réel d’entrée et de sortie d’argent. De nombreuses petites entreprises échouent non pas parce qu’elles ne sont pas rentables, mais parce qu’elles manquent de liquidités.",
+    "Les ventes à crédit comptent comme des ventes, mais aucun argent n’arrive tant que le client n’a pas payé."
+   ],
+   "panel": {
+    "kicker": "Le profit n'est pas de l'argent",
+    "heading": "Pourquoi les bénéfices et les liquidités diffèrent",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Credit sales",
+      "d": "Compté comme des ventes dans le compte de résultat, mais aucun argent n'arrive tant que le client n'a pas payé."
+     },
+     {
+      "t": "Unsold stock",
+      "d": "Vous avez payé cash pour le réaliser, mais cela ne constitue pas encore un coût dans le P&L."
+     },
+     {
+      "t": "Loan repayments",
+      "d": "L'argent liquide s'en va, mais le remboursement du montant du prêt n'est pas une dépense dans le compte de résultat."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Les stocks invendus ont été payés en cash, mais ne constituent pas encore une charge dans le P&L."
+   ],
+   "panel": {
+    "kicker": "Le profit n'est pas de l'argent",
+    "heading": "Pourquoi les bénéfices et les liquidités diffèrent",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Credit sales",
+      "d": "Compté comme des ventes dans le compte de résultat, mais aucun argent n'arrive tant que le client n'a pas payé."
+     },
+     {
+      "t": "Unsold stock",
+      "d": "Vous avez payé cash pour le réaliser, mais cela ne constitue pas encore un coût dans le P&L."
+     },
+     {
+      "t": "Loan repayments",
+      "d": "L'argent liquide s'en va, mais le remboursement du montant du prêt n'est pas une dépense dans le compte de résultat."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Et les remboursements de prêts enlèvent de l’argent, sans constituer une dépense dans le compte de résultat."
+   ],
+   "panel": {
+    "kicker": "Le profit n'est pas de l'argent",
+    "heading": "Pourquoi les bénéfices et les liquidités diffèrent",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Credit sales",
+      "d": "Compté comme des ventes dans le compte de résultat, mais aucun argent n'arrive tant que le client n'a pas payé."
+     },
+     {
+      "t": "Unsold stock",
+      "d": "Vous avez payé cash pour le réaliser, mais cela ne constitue pas encore un coût dans le P&L."
+     },
+     {
+      "t": "Loan repayments",
+      "d": "L'argent liquide s'en va, mais le remboursement du montant du prêt n'est pas une dépense dans le compte de résultat."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Ngozi a réalisé un bénéfice de 115 200 nairas. Alors, où est son argent ?"
+   ],
+   "card": {
+    "title": "Rentable, mais à court de liquidités",
+    "rows": [],
+    "note": "Les prix en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Seules ses ventes au détail, 442 000 nairas, ont été versées. Les 84 000 nairas du supermarché ne seront pas dus avant le mois prochain."
+   ],
+   "card": {
+    "title": "Rentable, mais à court de liquidités",
+    "rows": [
+     [
+      "Encaissement : ventes au détail",
+      "442,000"
+     ]
+    ],
+    "note": "Les prix en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Il en est ressorti 466 000 naira pour 7 lots, frais fixes et remboursement du prêt."
+   ],
+   "card": {
+    "title": "Rentable, mais à court de liquidités",
+    "rows": [
+     [
+      "Encaissement : ventes au détail",
+      "442,000"
+     ],
+     [
+      "Encaissement : lots, frais, prêt",
+      "466,000"
+     ]
+    ],
+    "note": "Les prix en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Son argent est tombé à 16 000 nairas, soit pas assez pour un seul lot de 47 000 nairas. C'est pourquoi vous prévoyez des liquidités semaine après semaine et agissez tôt pour toute semaine qui se termine négativement."
+   ],
+   "card": {
+    "title": "Rentable, mais à court de liquidités",
+    "rows": [
+     [
+      "Encaissement : ventes au détail",
+      "442,000"
+     ],
+     [
+      "Encaissement : lots, frais, prêt",
+      "466,000"
+     ],
+     [
+      "Clôture en espèces",
+      "16,000"
+     ]
+    ],
+    "note": "Les prix en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Prenez un acompte, par exemple 50 pour cent, avant de commencer les commandes personnalisées. Accordez du crédit uniquement aux clients connus, par écrit, avec une date d'échéance. Conservez une réserve d’au moins un mois de frais fixes.",
+    "N’empruntez pas pour couvrir une perte. Et méfiez-vous des placements qui offrent des rendements mensuels prometteurs."
+   ],
+   "panel": {
+    "kicker": "Contrôler le risque",
+    "heading": "Protégez votre argent",
+    "items": [
+     "Acceptez un dépôt sur les commandes personnalisées",
+     "Écrire les montants des crédits et les dates d'échéance",
+     "Conservez un mois de frais fixes comme tampon",
+     "N'empruntez jamais pour cacher une perte",
+     "Évitez les offres d’investissement à haut rendement"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "À retenir. Ajoutez votre objectif de profit aux coûts fixes et divisez par contribution. Transformez-le en un numéro quotidien. Construisez votre P&L chaque mois. N'oubliez pas que le profit n'est pas de l'argent liquide. Et prévoyez des liquidités chaque semaine, afin d'agir avant qu'une semaine ne devienne négative."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Unités pour cible = (fixe + profit) / contribution",
+     "Transformez l'objectif en chiffres quotidiens",
+     "Ventes, moins COGS, moins dépenses = bénéfice net",
+     "Le profit n'est pas de l'argent liquide : crédit, actions et prêts",
+     "Prévoir la trésorerie chaque semaine ; agir sur les semaines négatives"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Définissez maintenant votre propre objectif de profit avec des chiffres quotidiens et hebdomadaires, préparez les profits et les pertes du mois dernier et établissez une prévision de trésorerie sur quatre semaines.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâches d'entraînement",
+    "heading": "Vos tâches pour ce module",
+    "items": [
+     "Fixez votre propre objectif de profit",
+     "Préparer le P&L du mois dernier",
+     "Établir une prévision de trésorerie sur quatre semaines"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

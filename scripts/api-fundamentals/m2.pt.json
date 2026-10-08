@@ -1,0 +1,500 @@
+{
+ "course": "api-fundamentals",
+ "module": "m2",
+ "title": "Teste com segurança, guarde suas chaves, planeje o fracasso",
+ "course_title": "Fundamentos de API",
+ "shots": [
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Teste com segurança, guarde suas chaves e planeje o fracasso.",
+    "Este é o vídeo do módulo dois de Fundamentos de API."
+   ]
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "A barra de endereço do navegador só pode enviar solicitações GET e oculta os cabeçalhos. Para testar APIs reais você precisa de um cliente API, uma ferramenta onde você escolhe o método, URL, cabeçalhos e corpo, e vê a resposta completa."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Um sucesso é apenas o começo",
+    "items": [
+     "Use um cliente API adequado",
+     "Leia a documentação primeiro",
+     "Prove o fluxo no modo de teste",
+     "Planeje erros, páginas e repetições"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "O verdadeiro trabalho da API começa com uma necessidade, como: queremos saber automaticamente quando um cliente pagou. Você lê a documentação e testa com segurança antes que qualquer coisa seja lançada."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Um sucesso é apenas o começo",
+    "items": [
+     "Use um cliente API adequado",
+     "Leia a documentação primeiro",
+     "Prove o fluxo no modo de teste",
+     "Planeje erros, páginas e repetições"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "E uma integração confiável se comporta de maneira sensata quando as coisas dão errado."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Um sucesso é apenas o começo",
+    "items": [
+     "Use um cliente API adequado",
+     "Leia a documentação primeiro",
+     "Prove o fluxo no modo de teste",
+     "Planeje erros, páginas e repetições"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Muitos alunos começam com amarelinha no telefone. É gratuito e leve em dados."
+   ],
+   "panel": {
+    "kicker": "Seu kit de ferramentas",
+    "heading": "Amarelinha ou Carteiro?",
+    "mode": "compare",
+    "left_h": "Amarelinha",
+    "left": [
+     "Funciona em qualquer navegador, até mesmo em um telefone",
+     "Gratuito, sem instalação",
+     "Dados leves"
+    ],
+    "right_h": "Carteiro",
+    "right": [
+     "Aplicativo de desktop ou web",
+     "Salva coleções e compartilha com uma equipe",
+     "Grande download em dados móveis"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Carteiro carrega coleções e comandos salvos em um laptop.",
+    "Aprenda também a ler curl, porque a maior parte da documentação mostra exemplos dessa forma. O traço H adiciona um cabeçalho, o traço d é o corpo e o traço X define o método.",
+    "Pratique em APIs falsas como JSONPlaceholder, que apenas finge salvar. Nunca experimente DELETE em uma conta comercial real."
+   ],
+   "panel": {
+    "kicker": "Seu kit de ferramentas",
+    "heading": "Amarelinha ou Carteiro?",
+    "mode": "compare",
+    "left_h": "Amarelinha",
+    "left": [
+     "Funciona em qualquer navegador, até mesmo em um telefone",
+     "Gratuito, sem instalação",
+     "Dados leves"
+    ],
+    "right_h": "Carteiro",
+    "right": [
+     "Aplicativo de desktop ou web",
+     "Salva coleções e compartilha com uma equipe",
+     "Grande download em dados móveis"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Uma boa documentação sempre responde às mesmas perguntas. Encontre o URL base, onde cada endpoint começa. Então como você prova quem você é. A maioria das APIs usa uma chave no cabeçalho de autorização como um token de portador."
+   ],
+   "panel": {
+    "kicker": "Lendo os documentos",
+    "heading": "Encontre-os antes de enviar",
+    "items": [
+     "URL base",
+     "Autenticação: para onde vai a chave",
+     "Endpoints, campos e exemplos de respostas",
+     "Unidades, como dinheiro em kobo",
+     "Modo de teste ou sandbox",
+     "Erros, limites de taxa e páginas"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Observe o método, caminho e campos obrigatórios de cada endpoint e as unidades, como dinheiro em kobo."
+   ],
+   "panel": {
+    "kicker": "Lendo os documentos",
+    "heading": "Encontre-os antes de enviar",
+    "items": [
+     "URL base",
+     "Autenticação: para onde vai a chave",
+     "Endpoints, campos e exemplos de respostas",
+     "Unidades, como dinheiro em kobo",
+     "Modo de teste ou sandbox",
+     "Erros, limites de taxa e páginas"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Encontre o modo de teste, onde nada real acontece, e o formato do erro, limites de taxa e tamanhos de página.",
+    "Ignorar a documentação ou a etapa de teste é onde começa a maioria das integrações com falha."
+   ],
+   "panel": {
+    "kicker": "Lendo os documentos",
+    "heading": "Encontre-os antes de enviar",
+    "items": [
+     "URL base",
+     "Autenticação: para onde vai a chave",
+     "Endpoints, campos e exemplos de respostas",
+     "Unidades, como dinheiro em kobo",
+     "Modo de teste ou sandbox",
+     "Erros, limites de taxa e páginas"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Por exemplo, Ruth vende tecido adire em Abeokuta e deseja um link de pagamento para um pedido de 15.000 nairas. Seu desenvolvedor fornece a ela a chave de teste Paystack no Postman. Nada no modo de teste movimenta dinheiro real."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Pagamento de teste de Ruth, de ponta a ponta",
+    "items": [
+     "Necessário: um link de pagamento de 15.000 nairas",
+     "Converter: 15.000 x 100 = 1.500.000 kobo",
+     "POST com chave de teste do portador e corpo JSON",
+     "Abra o link, conclua a verificação do teste",
+     "Verifique: status, moeda NGN, valor"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "A quantia vai em kobo, então 15.000 vezes 100 é 1.500.000."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Pagamento de teste de Ruth, de ponta a ponta",
+    "items": [
+     "Necessário: um link de pagamento de 15.000 nairas",
+     "Converter: 15.000 x 100 = 1.500.000 kobo",
+     "POST com chave de teste do portador e corpo JSON",
+     "Abra o link, conclua a verificação do teste",
+     "Verifique: status, moeda NGN, valor"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Ela envia um POST para o endpoint de inicialização, com a chave de teste no cabeçalho de Autorização e o email e valor no corpo."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Pagamento de teste de Ruth, de ponta a ponta",
+    "items": [
+     "Necessário: um link de pagamento de 15.000 nairas",
+     "Converter: 15.000 x 100 = 1.500.000 kobo",
+     "POST com chave de teste do portador e corpo JSON",
+     "Abra o link, conclua a verificação do teste",
+     "Verifique: status, moeda NGN, valor"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_social",
+   "say": [
+    "A resposta contém um link de checkout e uma referência. Ela conclui a verificação do teste."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Pagamento de teste de Ruth, de ponta a ponta",
+    "items": [
+     "Necessário: um link de pagamento de 15.000 nairas",
+     "Converter: 15.000 x 100 = 1.500.000 kobo",
+     "POST com chave de teste do portador e corpo JSON",
+     "Abra o link, conclua a verificação do teste",
+     "Verifique: status, moeda NGN, valor"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_social",
+   "say": [
+    "Em seguida, ela verifica com a referência: status de sucesso, moeda NGN e um valor que se divide em 15.000 nairas. Só agora seu desenvolvedor mudará para chaves ativas."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Pagamento de teste de Ruth, de ponta a ponta",
+    "items": [
+     "Necessário: um link de pagamento de 15.000 nairas",
+     "Converter: 15.000 x 100 = 1.500.000 kobo",
+     "POST com chave de teste do portador e corpo JSON",
+     "Abra o link, conclua a verificação do teste",
+     "Verifique: status, moeda NGN, valor"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Verifique o valor e a moeda, não apenas a palavra sucesso.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Uma chave secreta pode atuar em toda a conta, incluindo dinheiro. Mantenha-o apenas no servidor, nunca no download do código do aplicativo. Nunca envie por WhatsApp ou e-mail, nem cole em bate-papos de IA, capturas de tela ou documentos compartilhados. Mantenha-o fora do GitHub.",
+    "Se uma chave tiver vazado, gere uma nova imediatamente, o que impedirá o funcionamento da antiga."
+   ],
+   "panel": {
+    "kicker": "Segurança",
+    "heading": "Trate uma chave secreta como o PIN do seu banco",
+    "items": [
+     "Mantenha-o apenas no lado do servidor",
+     "Nunca no WhatsApp, e-mail ou bate-papos com IA",
+     "Nunca em capturas de tela ou documentos compartilhados",
+     "Mantenha-o fora do código no GitHub",
+     "Se pode ter vazado, gere um novo"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Primeiro, limites de taxa. Um 429 significa muitas solicitações. Aguarde o tempo que o cabeçalho Retry-After diz. Para erros temporários do servidor, espere e duplique a espera a cada vez. Nunca repita automaticamente um POST que movimenta dinheiro."
+   ],
+   "panel": {
+    "kicker": "Testando para falha",
+    "heading": "Três coisas que dão errado",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "429 Too Many Requests",
+      "d": "Espere o tempo que Retry-After diz. 3.600 segundos equivalem a uma hora. Para 5xx, recue: 1, 2, 4, 8 segundos."
+     },
+     {
+      "t": "As listas vêm em páginas",
+      "d": "230 registros a 50 por página equivalem a 5 páginas. Conte o total em relação a uma segunda fonte."
+     },
+     {
+      "t": "Webhooks arrive twice",
+      "d": "Verifique a assinatura, responda 200 OK rapidamente, pule as repetições, verifique antes de entregar."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Em segundo lugar, páginas. Grace em Kaduna precisava de 230 transações a 50 por página, ou seja, 5 páginas. Se ela tivesse parado na página 1, 180 teriam desaparecido."
+   ],
+   "panel": {
+    "kicker": "Testando para falha",
+    "heading": "Três coisas que dão errado",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "429 Too Many Requests",
+      "d": "Espere o tempo que Retry-After diz. 3.600 segundos equivalem a uma hora. Para 5xx, recue: 1, 2, 4, 8 segundos."
+     },
+     {
+      "t": "As listas vêm em páginas",
+      "d": "230 registros a 50 por página equivalem a 5 páginas. Conte o total em relação a uma segunda fonte."
+     },
+     {
+      "t": "Webhooks arrive twice",
+      "d": "Verifique a assinatura, responda 200 OK rapidamente, pule as repetições, verifique antes de entregar."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Terceiro, webhooks, onde o provedor chama sua URL quando algo acontece, como um pagamento. Verifique a assinatura, responda 200 OK de uma vez e espere o mesmo evento mais de uma vez.",
+    "Nunca divulgue produtos em uma captura de tela ou em um webhook não verificado. Os golpistas enviam alertas falsos."
+   ],
+   "panel": {
+    "kicker": "Testando para falha",
+    "heading": "Três coisas que dão errado",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "429 Too Many Requests",
+      "d": "Espere o tempo que Retry-After diz. 3.600 segundos equivalem a uma hora. Para 5xx, recue: 1, 2, 4, 8 segundos."
+     },
+     {
+      "t": "As listas vêm em páginas",
+      "d": "230 registros a 50 por página equivalem a 5 páginas. Conte o total em relação a uma segunda fonte."
+     },
+     {
+      "t": "Webhooks arrive twice",
+      "d": "Verifique a assinatura, responda 200 OK rapidamente, pule as repetições, verifique antes de entregar."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "As APIs mudam, as chaves expiram e o construtor segue em frente. Uma planilha de pequena tiragem permite que outra pessoa a mantenha funcionando. Registre a necessidade do negócio, seu proprietário e as páginas exatas da documentação."
+   ],
+   "panel": {
+    "kicker": "Entregue",
+    "heading": "A planilha de execução da API",
+    "items": [
+     "Objetivo e proprietário",
+     "Provedor, URL base e links de documentos",
+     "Terminais, campos e unidades",
+     "Onde as chaves são armazenadas, nunca as chaves",
+     "Erros, limites, testes e contatos"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Liste cada endpoint com suas unidades. Registre onde as chaves estão armazenadas e quem pode acessá-las, mas nunca as próprias chaves."
+   ],
+   "panel": {
+    "kicker": "Entregue",
+    "heading": "A planilha de execução da API",
+    "items": [
+     "Objetivo e proprietário",
+     "Provedor, URL base e links de documentos",
+     "Terminais, campos e unidades",
+     "Onde as chaves são armazenadas, nunca as chaves",
+     "Erros, limites, testes e contatos"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Termine com regras de erro, resultados de testes com datas e quem contatar."
+   ],
+   "panel": {
+    "kicker": "Entregue",
+    "heading": "A planilha de execução da API",
+    "items": [
+     "Objetivo e proprietário",
+     "Provedor, URL base e links de documentos",
+     "Terminais, campos e unidades",
+     "Onde as chaves são armazenadas, nunca as chaves",
+     "Erros, limites, testes e contatos"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Para lembrar. Pratique em APIs falsas e em modo de teste. Verifique o valor e a moeda. Mantenha as chaves secretas no servidor e substitua qualquer vazamento. Respeite Retry-After e conte cada página."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Lembre-se",
+    "items": [
+     "Pratique em APIs falsas e modo de teste",
+     "Verifique o valor e a moeda, não apenas o sucesso",
+     "As chaves secretas permanecem no lado do servidor",
+     "Respeite Repetir Depois; conte cada página"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Agora execute e registre quatro solicitações de prática, escreva uma ficha informativa de API de uma página e escreva um plano de teste e uma planilha de execução.",
+    "Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Pratique tarefas",
+    "heading": "Suas tarefas práticas",
+    "items": [
+     "Execute e registre quatro solicitações de prática",
+     "Escreva uma ficha informativa da API de uma página",
+     "Escreva um plano de teste e uma planilha de execução"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

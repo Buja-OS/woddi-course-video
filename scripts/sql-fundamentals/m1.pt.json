@@ -1,0 +1,583 @@
+{
+ "course": "sql-fundamentals",
+ "module": "m1",
+ "title": "Como pensam os bancos de dados: tabelas, consultas e resumos",
+ "course_title": "Fundamentos de SQL",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Como pensam os bancos de dados: tabelas, consultas e resumos.",
+    "Este é o vídeo do módulo 1 de Fundamentos de SQL."
+   ]
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Seu aplicativo de banco, um aplicativo de carona, uma loja online: quase todos mantêm seus registros em um banco de dados relacional. Os dados ficam em diversas tabelas, vinculadas por números de identificação compartilhados."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Cada aplicativo mantém seus registros em tabelas",
+    "items": [
+     "Os dados ficam em tabelas vinculadas por números de identificação",
+     "Uma mesa contém um tipo de coisa",
+     "Uma coluna é um fato; uma linha é um registro",
+     "SQL é a linguagem para fazer perguntas"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Nosso negócio de consultórios pertence a Kemi, por exemplo, que vende Ancara, rendas e gravatas. Seu banco de dados possui uma tabela de clientes, uma tabela de pedidos e uma tabela de itens de pedidos."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Cada aplicativo mantém seus registros em tabelas",
+    "items": [
+     "Os dados ficam em tabelas vinculadas por números de identificação",
+     "Uma mesa contém um tipo de coisa",
+     "Uma coluna é um fato; uma linha é um registro",
+     "SQL é a linguagem para fazer perguntas"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Cada coluna é um fato, como uma cidade. Cada linha representa um cliente ou um pedido."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Cada aplicativo mantém seus registros em tabelas",
+    "items": [
+     "Os dados ficam em tabelas vinculadas por números de identificação",
+     "Uma mesa contém um tipo de coisa",
+     "Uma coluna é um fato; uma linha é um registro",
+     "SQL é a linguagem para fazer perguntas"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "SQL, Structured Query Language, é como você faz perguntas a essas tabelas. Os mesmos comandos principais funcionam em PostgreSQL, MySQL, SQLite e muito mais."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Cada aplicativo mantém seus registros em tabelas",
+    "items": [
+     "Os dados ficam em tabelas vinculadas por números de identificação",
+     "Uma mesa contém um tipo de coisa",
+     "Uma coluna é um fato; uma linha é um registro",
+     "SQL é a linguagem para fazer perguntas"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Uma chave primária é uma coluna exclusiva para cada linha e nunca vazia. Em clientes, a Amaka é a número 1."
+   ],
+   "panel": {
+    "kicker": "Três ideias principais",
+    "heading": "Chaves e armazenamento de cada fato uma vez",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Primary key",
+      "d": "Único para cada linha, nunca vazio. Amaka é customer_id 1 e ninguém mais pode ser 1."
+     },
+     {
+      "t": "Foreign key",
+      "d": "Aponta para outra tabela. O pedido 101 tem customer_id 1, portanto pertence à Amaka."
+     },
+     {
+      "t": "Normalisation",
+      "d": "Armazene cada fato uma vez. A cidade de Amaka vive apenas de clientes, por isso os relatórios nunca discordam."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Uma chave estrangeira contém a chave primária de outra tabela. O pedido 101 tem customer_id 1, portanto pertence à Amaka. Esse número permite que você junte mesas mais tarde."
+   ],
+   "panel": {
+    "kicker": "Três ideias principais",
+    "heading": "Chaves e armazenamento de cada fato uma vez",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Primary key",
+      "d": "Único para cada linha, nunca vazio. Amaka é customer_id 1 e ninguém mais pode ser 1."
+     },
+     {
+      "t": "Foreign key",
+      "d": "Aponta para outra tabela. O pedido 101 tem customer_id 1, portanto pertence à Amaka."
+     },
+     {
+      "t": "Normalisation",
+      "d": "Armazene cada fato uma vez. A cidade de Amaka vive apenas de clientes, por isso os relatórios nunca discordam."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Por que não uma folha grande? Se a cidade de Amaka for digitada em todos os pedidos e ela se mover, você deverá alterar todas as linhas e, se errar alguma, seus relatórios discordarão. Armazenar cada fato uma vez é chamado de normalização."
+   ],
+   "panel": {
+    "kicker": "Três ideias principais",
+    "heading": "Chaves e armazenamento de cada fato uma vez",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Primary key",
+      "d": "Único para cada linha, nunca vazio. Amaka é customer_id 1 e ninguém mais pode ser 1."
+     },
+     {
+      "t": "Foreign key",
+      "d": "Aponta para outra tabela. O pedido 101 tem customer_id 1, portanto pertence à Amaka."
+     },
+     {
+      "t": "Normalisation",
+      "d": "Armazene cada fato uma vez. A cidade de Amaka vive apenas de clientes, por isso os relatórios nunca discordam."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Inteiro contém números inteiros, como IDs e quantidades."
+   ],
+   "panel": {
+    "kicker": "Tipos de dados",
+    "heading": "Escolha o tipo de cada coluna propositalmente",
+    "items": [
+     "INTEGER: números inteiros, IDs, quantidades",
+     "DECIMAL: números exatos para dinheiro",
+     "TEXTO: nomes e números de telefone também",
+     "DATA: sempre AAAA-MM-DD",
+     "BOOLEAN: verdadeiro ou falso"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Decimal, ou numérico, contém números exatos. Use-o para dinheiro, nunca um tipo flutuante, que pode cometer pequenos erros de arredondamento."
+   ],
+   "panel": {
+    "kicker": "Tipos de dados",
+    "heading": "Escolha o tipo de cada coluna propositalmente",
+    "items": [
+     "INTEGER: números inteiros, IDs, quantidades",
+     "DECIMAL: números exatos para dinheiro",
+     "TEXTO: nomes e números de telefone também",
+     "DATA: sempre AAAA-MM-DD",
+     "BOOLEAN: verdadeiro ou falso"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "O texto contém palavras. Os números de telefone também são texto, porque um zero à esquerda, como em 0803, seria perdido se armazenado como um número."
+   ],
+   "panel": {
+    "kicker": "Tipos de dados",
+    "heading": "Escolha o tipo de cada coluna propositalmente",
+    "items": [
+     "INTEGER: números inteiros, IDs, quantidades",
+     "DECIMAL: números exatos para dinheiro",
+     "TEXTO: nomes e números de telefone também",
+     "DATA: sempre AAAA-MM-DD",
+     "BOOLEAN: verdadeiro ou falso"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Armazene as datas como ano, mês, dia, para que sejam classificadas corretamente. E booleano é simplesmente verdadeiro ou falso."
+   ],
+   "panel": {
+    "kicker": "Tipos de dados",
+    "heading": "Escolha o tipo de cada coluna propositalmente",
+    "items": [
+     "INTEGER: números inteiros, IDs, quantidades",
+     "DECIMAL: números exatos para dinheiro",
+     "TEXTO: nomes e números de telefone também",
+     "DATA: sempre AAAA-MM-DD",
+     "BOOLEAN: verdadeiro ou falso"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Uma consulta é uma solicitação educada e precisa. SELECT nomeia as colunas que você deseja. FROM nomeia a tabela."
+   ],
+   "panel": {
+    "kicker": "Sua primeira consulta",
+    "heading": "Cinco palavras-chave respondem à maioria das perguntas",
+    "items": [
+     "SELECT: as colunas que você deseja",
+     "DE: a mesa",
+     "ONDE: mantenha as linhas correspondentes",
+     "ORDER BY: classificar, DESC para o maior primeiro",
+     "LIMITE: mantenha apenas as primeiras linhas"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "WHERE mantém apenas as linhas onde uma condição é verdadeira. O texto fica entre aspas simples, os números não. Ao misturar AND com OR, use colchetes, porque AND é resolvido primeiro."
+   ],
+   "panel": {
+    "kicker": "Sua primeira consulta",
+    "heading": "Cinco palavras-chave respondem à maioria das perguntas",
+    "items": [
+     "SELECT: as colunas que você deseja",
+     "DE: a mesa",
+     "ONDE: mantenha as linhas correspondentes",
+     "ORDER BY: classificar, DESC para o maior primeiro",
+     "LIMITE: mantenha apenas as primeiras linhas"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "ORDER BY classifica o resultado. Adicione DESC para o maior primeiro."
+   ],
+   "panel": {
+    "kicker": "Sua primeira consulta",
+    "heading": "Cinco palavras-chave respondem à maioria das perguntas",
+    "items": [
+     "SELECT: as colunas que você deseja",
+     "DE: a mesa",
+     "ONDE: mantenha as linhas correspondentes",
+     "ORDER BY: classificar, DESC para o maior primeiro",
+     "LIMITE: mantenha apenas as primeiras linhas"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "LIMIT 3 mantém apenas as três primeiras linhas após a classificação. É assim que você consegue um dos três primeiros."
+   ],
+   "panel": {
+    "kicker": "Sua primeira consulta",
+    "heading": "Cinco palavras-chave respondem à maioria das perguntas",
+    "items": [
+     "SELECT: as colunas que você deseja",
+     "DE: a mesa",
+     "ONDE: mantenha as linhas correspondentes",
+     "ORDER BY: classificar, DESC para o maior primeiro",
+     "LIMITE: mantenha apenas as primeiras linhas"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Uma armadilha. Um valor ausente é NULL, o que significa desconhecido, e nunca é igual a nada. Então WHERE phone = NULL não retorna nada. Sempre escreva É NULO."
+   ],
+   "panel": {
+    "kicker": "Sua primeira consulta",
+    "heading": "Cinco palavras-chave respondem à maioria das perguntas",
+    "items": [
+     "SELECT: as colunas que você deseja",
+     "DE: a mesa",
+     "ONDE: mantenha as linhas correspondentes",
+     "ORDER BY: classificar, DESC para o maior primeiro",
+     "LIMITE: mantenha apenas as primeiras linhas"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Os valores ausentes são NULL. Teste com IS NULL, nunca = NULL.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Kemi escreve: SELECIONE ID do pedido, data e valor do pedido, DOS pedidos, ONDE o canal é WhatsApp E o status é entregue, ORDER BY valor, decrescente."
+   ],
+   "card": {
+    "title": "Os maiores pedidos de WhatsApp entregues por Kemi",
+    "rows": [],
+    "note": "Pratique números, não preços reais de mercado."
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Quatro linhas voltam. O maior é o pedido 105, com 61.000 nairas, depois 101, 106 e 103."
+   ],
+   "card": {
+    "title": "Os maiores pedidos de WhatsApp entregues por Kemi",
+    "rows": [
+     [
+      "Pedido 105",
+      "61,000"
+     ],
+     [
+      "Pedido 101",
+      "18,500"
+     ],
+     [
+      "Pedido 106",
+      "12,500"
+     ],
+     [
+      "Pedido 103",
+      "9,000"
+     ]
+    ],
+    "note": "Pratique números, não preços reais de mercado."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Agora verifique. O pedido 109 é um pedido do WhatsApp, mas está pendente, por isso foi corretamente omitido. Sempre verifique o que não deveria estar lá."
+   ],
+   "card": {
+    "title": "Os maiores pedidos de WhatsApp entregues por Kemi",
+    "rows": [
+     [
+      "Pedido 105",
+      "61,000"
+     ],
+     [
+      "Pedido 101",
+      "18,500"
+     ],
+     [
+      "Pedido 106",
+      "12,500"
+     ],
+     [
+      "Pedido 103",
+      "9,000"
+     ]
+    ],
+    "note": "Pratique números, não preços reais de mercado."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Os gestores querem respostas, não listas. COUNT, SUM e AVG transformam muitas linhas em um número. GROUP BY fornece um número por grupo."
+   ],
+   "card": {
+    "title": "Vendas entregues por canal",
+    "rows": [],
+    "note": "Pratique números, não preços reais de mercado."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "As vendas da Kemi foram entregues por canal: WhatsApp 101.000 naira, Instagram 83.000 e site 27.500."
+   ],
+   "card": {
+    "title": "Vendas entregues por canal",
+    "rows": [
+     [
+      "WhatsApp, 4 pedidos",
+      "101,000"
+     ],
+     [
+      "Instagram, 3 pedidos",
+      "83,000"
+     ],
+     [
+      "Site, 1 pedido",
+      "27,500"
+     ]
+    ],
+    "note": "Pratique números, não preços reais de mercado."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Agora reconcilie-se. Os grupos devem somar novamente ao total. 101.000 mais 83.000 mais 27.500 são 211.500 e 4 mais 3 mais 1 são 8 pedidos. Se as peças não baterem, algo está errado.",
+    "E lembre-se: toda coluna em SELECT deve estar dentro de uma função ou listada em GROUP BY."
+   ],
+   "card": {
+    "title": "Vendas entregues por canal",
+    "rows": [
+     [
+      "WhatsApp, 4 pedidos",
+      "101,000"
+     ],
+     [
+      "Instagram, 3 pedidos",
+      "83,000"
+     ],
+     [
+      "Site, 1 pedido",
+      "27,500"
+     ]
+    ],
+    "note": "Pratique números, não preços reais de mercado."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "WHERE filtra linhas únicas antes de agrupar, como manter apenas pedidos entregues."
+   ],
+   "panel": {
+    "kicker": "Filtragem",
+    "heading": "ONDE ou TENDO?",
+    "mode": "compare",
+    "left_h": "ONDE",
+    "left": [
+     "Executa antes do agrupamento",
+     "Testa linhas únicas",
+     "status = 'entregue'",
+     "Não é possível usar SUM ou COUNT"
+    ],
+    "right_h": "TER",
+    "right": [
+     "Executa após o agrupamento",
+     "Testa grupos inteiros",
+     "CONTAGEM(*) >= 2",
+     "Usa resultados agregados"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "HAVING filtra grupos inteiros depois que os totais são feitos. TER CONTAGEM de pedidos de pelo menos 2 encontra compradores recorrentes de Kemi: cliente 1 com 3 pedidos e cliente 2 com 2."
+   ],
+   "panel": {
+    "kicker": "Filtragem",
+    "heading": "ONDE ou TENDO?",
+    "mode": "compare",
+    "left_h": "ONDE",
+    "left": [
+     "Executa antes do agrupamento",
+     "Testa linhas únicas",
+     "status = 'entregue'",
+     "Não é possível usar SUM ou COUNT"
+    ],
+    "right_h": "TER",
+    "right": [
+     "Executa após o agrupamento",
+     "Testa grupos inteiros",
+     "CONTAGEM(*) >= 2",
+     "Usa resultados agregados"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Para lembrar. As tabelas são vinculadas por chaves e cada fato é armazenado uma vez. Cinco palavras-chave respondem à maioria das perguntas. Teste os valores ausentes com IS NULL. E sempre verifique se seus grupos somam o total."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Lembre-se",
+    "items": [
+     "Tabelas vinculadas por chaves primárias e estrangeiras",
+     "Armazene cada fato uma vez",
+     "SELECIONE, DE, ONDE, ORDENAR POR, LIMITE",
+     "É NULO, nunca = NULO",
+     "Os totais do grupo devem ser somados ao total"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Agora projete um pequeno banco de dados no papel, escreva suas primeiras cinco consultas e crie um mini resumo de vendas com ticks de reconciliação.",
+    "Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Pratique tarefas",
+    "heading": "Seu trabalho para este módulo",
+    "items": [
+     "Projete um pequeno banco de dados no papel",
+     "Responda cinco perguntas com perguntas simples",
+     "Crie um mini resumo de vendas"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

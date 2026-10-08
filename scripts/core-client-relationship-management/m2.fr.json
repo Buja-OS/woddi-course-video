@@ -1,0 +1,545 @@
+{
+ "course": "core-client-relationship-management",
+ "module": "m2",
+ "title": "Votre tracker client, rythme de suivi et feedback client",
+ "course_title": "Gestion de la relation client",
+ "shots": [
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Votre suivi client, votre rythme de suivi et les retours clients.",
+    "Ceci est la vidéo du module 2 de Gestion de la relation client."
+   ]
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Créez une feuille de calcul appelée Client tracker avec deux onglets. Les clients ont une ligne par personne, avec ses détails et l'action suivante. Les commandes comportent une ligne par commande, afin que Sheets puisse additionner son historique pour vous."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Créez votre tracker dans Google Sheets",
+    "items": [
+     "Deux onglets : Clients et Commandes",
+     "Listes déroulantes pour le statut et les noms",
+     "COUNTIF et SUMIF pour les commandes et les dépenses",
+     "Les prochaines actions en retard deviennent rouges"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Ajoutez des listes déroulantes pour qu'un statut soit toujours écrit de la même manière : Nouveau, Actif, Silencieux ou Périmé. Liez les noms des clients dans Commandes à la liste des clients, afin que chaque nom soit orthographié exactement de la même manière."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Créez votre tracker dans Google Sheets",
+    "items": [
+     "Deux onglets : Clients et Commandes",
+     "Listes déroulantes pour le statut et les noms",
+     "COUNTIF et SUMIF pour les commandes et les dépenses",
+     "Les prochaines actions en retard deviennent rouges"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "COUNTIF compte le nombre de commandes passées par chaque client. SUMIF additionne ce qu'elle a dépensé."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Créez votre tracker dans Google Sheets",
+    "items": [
+     "Deux onglets : Clients et Commandes",
+     "Listes déroulantes pour le statut et les noms",
+     "COUNTIF et SUMIF pour les commandes et les dépenses",
+     "Les prochaines actions en retard deviennent rouges"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Utilisez ensuite la mise en forme conditionnelle pour que tout client dont la prochaine date d'action est dépassée devienne rouge. Chaque matin, les lignes rouges constituent votre liste de suivi."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Créez votre tracker dans Google Sheets",
+    "items": [
+     "Deux onglets : Clients et Commandes",
+     "Listes déroulantes pour le statut et les noms",
+     "COUNTIF et SUMIF pour les commandes et les dépenses",
+     "Les prochaines actions en retard deviennent rouges"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Gardez la feuille privée. Ne le partagez avec personne, ou uniquement avec un membre du personnel de confiance, afin que les numéros de téléphone des clients restent en sécurité."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Créez votre tracker dans Google Sheets",
+    "items": [
+     "Deux onglets : Clients et Commandes",
+     "Listes déroulantes pour le statut et les noms",
+     "COUNTIF et SUMIF pour les commandes et les dépenses",
+     "Les prochaines actions en retard deviennent rouges"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Ne partagez jamais la feuille en tant que « personne disposant du lien ».",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Testez vos formules une fois avec une calculatrice pour pouvoir leur faire confiance."
+   ],
+   "card": {
+    "title": "Vérifiez les formules une fois à la main",
+    "rows": [],
+    "note": "Les prix en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "L'onglet Commandes de Ngozi affiche 4 commandes pour Ifeoma : 18 000, 22 000, 18 000 et 25 000 naira."
+   ],
+   "card": {
+    "title": "Vérifiez les formules une fois à la main",
+    "rows": [
+     [
+      "5 janvier",
+      "18,000"
+     ],
+     [
+      "14 février",
+      "22,000"
+     ],
+     [
+      "2 avril",
+      "18,000"
+     ],
+     [
+      "30 mai",
+      "25,000"
+     ]
+    ],
+    "note": "Les prix en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Cela représente 83 000 nairas, soit le même montant que le drap.",
+    "Mais une commande avait été saisie comme Ifeoma avec un espace supplémentaire, et le décompte l'a manquée. C'est exactement pourquoi les listes déroulantes sont importantes. Tapez également les montants sous forme de chiffres simples, sans le signe naira."
+   ],
+   "card": {
+    "title": "Vérifiez les formules une fois à la main",
+    "rows": [
+     [
+      "5 janvier",
+      "18,000"
+     ],
+     [
+      "14 février",
+      "22,000"
+     ],
+     [
+      "2 avril",
+      "18,000"
+     ],
+     [
+      "30 mai",
+      "25,000"
+     ]
+    ],
+    "note": "Les prix en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "De nombreux problèmes commencent avant la livraison, lorsque le client et l’entreprise ont compris des choses différentes. On pensait que vendredi signifiait matin. L'autre signifiait le soir."
+   ],
+   "panel": {
+    "kicker": "Définir les attentes",
+    "heading": "Une confirmation de commande claire",
+    "items": [
+     "Qu'est-ce qu'elle obtient exactement",
+     "Prix total et ce qu'il comprend",
+     "Dépôt et date d'échéance du solde",
+     "Date et plage horaire de livraison",
+     "Modifications autorisées et comment vous la mettrez à jour"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Donc, une fois qu'elle est d'accord, envoyez une courte confirmation WhatsApp couvrant ces cinq points et demandez-lui de répondre confirmée.",
+    "Enregistrez-le sous forme de réponse rapide et modifiez les détails à chaque fois."
+   ],
+   "panel": {
+    "kicker": "Définir les attentes",
+    "heading": "Une confirmation de commande claire",
+    "items": [
+     "Qu'est-ce qu'elle obtient exactement",
+     "Prix total et ce qu'il comprend",
+     "Dépôt et date d'échéance du solde",
+     "Date et plage horaire de livraison",
+     "Modifications autorisées et comment vous la mettrez à jour"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Envoyez une confirmation le jour 0, une mise à jour de l'avancement avant la livraison et une note de remise le jour de la livraison."
+   ],
+   "panel": {
+    "kicker": "Rythme de suivi",
+    "heading": "Cinq touches pour chaque commande",
+    "items": [
+     "Jour 0 : confirmation",
+     "Avant livraison : mise à jour des progrès",
+     "Jour de livraison : bon de remise",
+     "Jour 3 : contrôle post-traitement",
+     "Point de commande : rappel"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Le troisième jour, envoyez un court chèque de suivi. J'espère que les plateaux se sont bien passés lors de la réunion. La quantité était-elle adaptée à vos invités ?"
+   ],
+   "panel": {
+    "kicker": "Rythme de suivi",
+    "heading": "Cinq touches pour chaque commande",
+    "items": [
+     "Jour 0 : confirmation",
+     "Avant livraison : mise à jour des progrès",
+     "Jour de livraison : bon de remise",
+     "Jour 3 : contrôle post-traitement",
+     "Point de commande : rappel"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Et rappelez-lui quand elle aura probablement à nouveau besoin de vous.",
+    "Ne la surchargez pas. Entre les commandes, n'envoyez pas plus d'un message non commercial par mois, à moins qu'elle ne démarre la conversation."
+   ],
+   "panel": {
+    "kicker": "Rythme de suivi",
+    "heading": "Cinq touches pour chaque commande",
+    "items": [
+     "Jour 0 : confirmation",
+     "Avant livraison : mise à jour des progrès",
+     "Jour de livraison : bon de remise",
+     "Jour 3 : contrôle post-traitement",
+     "Point de commande : rappel"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Par exemple, Funmi fournit du savon liquide au magasin de provisions d'Halima. Halima a commandé les 3 février, 1er mars, 4 avril et 2 mai."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Funmi comble le déficit de réapprovisionnement d'Halima",
+    "items": [
+     "Commandes : 3 février, 1er mars, 4 avril, 2 mai",
+     "Du 3 février au 2 mai, c'est 88 jours",
+     "4 commandes signifie 3 écarts : environ 29 jours",
+     "Rappel quelques jours plus tôt : 28 mai"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "De sa première commande à sa dernière, il y a 88 jours."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Funmi comble le déficit de réapprovisionnement d'Halima",
+    "items": [
+     "Commandes : 3 février, 1er mars, 4 avril, 2 mai",
+     "Du 3 février au 2 mai, c'est 88 jours",
+     "4 commandes signifie 3 écarts : environ 29 jours",
+     "Rappel quelques jours plus tôt : 28 mai"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "4 commandes signifie 3 écarts. 88 divisé par 3 fait environ 29 jours. C'est son écart de réapprovisionnement."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Funmi comble le déficit de réapprovisionnement d'Halima",
+    "items": [
+     "Commandes : 3 février, 1er mars, 4 avril, 2 mai",
+     "Du 3 février au 2 mai, c'est 88 jours",
+     "4 commandes signifie 3 écarts : environ 29 jours",
+     "Rappel quelques jours plus tôt : 28 mai"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Donc messages Funmi le 28 mai : votre dernière livraison date du 2 mai. Dois-je apporter les 6 fûts habituels vendredi ?",
+    "On rappelle Halima avant qu'elle n'en manque, elle n'achète donc pas ailleurs."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Funmi comble le déficit de réapprovisionnement d'Halima",
+    "items": [
+     "Commandes : 3 février, 1er mars, 4 avril, 2 mai",
+     "Du 3 février au 2 mai, c'est 88 jours",
+     "4 commandes signifie 3 écarts : environ 29 jours",
+     "Rappel quelques jours plus tôt : 28 mai"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Les clients annoncent rarement leur départ. Une relation saine ressemble à des commandes, des réponses et des références régulières."
+   ],
+   "panel": {
+    "kicker": "Signaux relationnels",
+    "heading": "Signes de santé et signes d’avertissement",
+    "mode": "compare",
+    "left_h": "Sain",
+    "left": [
+     "Commandes dans son intervalle habituel",
+     "Tailles des commandes stables ou en croissance",
+     "Réponses, parfois chats",
+     "Réfère des amis"
+    ],
+    "right_h": "Avertissement",
+    "right": [
+     "L'écart s'allonge à chaque fois",
+     "Des commandes plus petites qu’avant",
+     "Lit mais ne répond pas",
+     "Nouvelles demandes de réductions"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Les signes d’avertissement sont des intervalles plus longs, des commandes plus petites et des messages sans réponse. Un signe peut ne rien dire. Deux ou plus valent un enregistrement doux et honnête. Ne la culpabilisez pas. Demandez si votre service répond toujours à ses besoins."
+   ],
+   "panel": {
+    "kicker": "Signaux relationnels",
+    "heading": "Signes de santé et signes d’avertissement",
+    "mode": "compare",
+    "left_h": "Sain",
+    "left": [
+     "Commandes dans son intervalle habituel",
+     "Tailles des commandes stables ou en croissance",
+     "Réponses, parfois chats",
+     "Réfère des amis"
+    ],
+    "right_h": "Avertissement",
+    "right": [
+     "L'écart s'allonge à chaque fois",
+     "Des commandes plus petites qu’avant",
+     "Lit mais ne répond pas",
+     "Nouvelles demandes de réductions"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Posez 2 ou 3 questions courtes, notamment : sur une échelle de 0 à 10, quelle est la probabilité que vous me recommandiez à un ami ?",
+    "Par exemple, Ruth donne des cours particuliers à des élèves à Lagos et interroge 20 parents. 12 répondez 9 ou 10. Ce sont des promoteurs, à 60 pour cent."
+   ],
+   "panel": {
+    "kicker": "Commentaires",
+    "heading": "Net Promoter Score, étape par étape",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Promoters: 9 or 10",
+      "d": "Ruth demande à 20 parents. 12 répondez 9 ou 10. Cela fait 60 pour cent."
+     },
+     {
+      "t": "Passives: 7 or 8",
+      "d": "5 parents. Ils ne sont pas utilisés dans la formule."
+     },
+     {
+      "t": "Detractors: 0 to 6",
+      "d": "3 parents, soit 15 pour cent. Le NPS est égal à 60 moins 15, soit 45."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "5, répondez 7 ou 8. Ils sont passifs et sont laissés de côté."
+   ],
+   "panel": {
+    "kicker": "Commentaires",
+    "heading": "Net Promoter Score, étape par étape",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Promoters: 9 or 10",
+      "d": "Ruth demande à 20 parents. 12 répondez 9 ou 10. Cela fait 60 pour cent."
+     },
+     {
+      "t": "Passives: 7 or 8",
+      "d": "5 parents. Ils ne sont pas utilisés dans la formule."
+     },
+     {
+      "t": "Detractors: 0 to 6",
+      "d": "3 parents, soit 15 pour cent. Le NPS est égal à 60 moins 15, soit 45."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "3 réponse 6 ou moins. Ce sont des détracteurs, 15 pour cent. Son score est de 60 moins 15, soit 45.",
+    "Plus utile encore, deux détracteurs ont déclaré que les horaires des cours avaient été modifiés sans préavis. Ruth donne donc désormais un préavis d'une semaine en cas de changement."
+   ],
+   "panel": {
+    "kicker": "Commentaires",
+    "heading": "Net Promoter Score, étape par étape",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Promoters: 9 or 10",
+      "d": "Ruth demande à 20 parents. 12 répondez 9 ou 10. Cela fait 60 pour cent."
+     },
+     {
+      "t": "Passives: 7 or 8",
+      "d": "5 parents. Ils ne sont pas utilisés dans la formule."
+     },
+     {
+      "t": "Detractors: 0 to 6",
+      "d": "3 parents, soit 15 pour cent. Le NPS est égal à 60 moins 15, soit 45."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "À retenir. Gardez une ligne par client et une par commande. Confirmez chaque commande par écrit. Avant de marquer une commande comme Payée, vérifiez votre application bancaire, car une capture d'écran ne constitue pas une preuve de paiement.",
+    "Rappels de temps de son propre intervalle de réapprovisionnement. Et lorsqu'un client donne son avis, changez une chose et dites-lui que vous l'avez fait."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Une ligne par client, une ligne par commande",
+     "Confirmer chaque commande par écrit",
+     "Vérifiez les paiements dans votre application bancaire, pas dans des captures d'écran",
+     "Rappelez aux clients leur propre manque de réapprovisionnement",
+     "Agissez sur un feedback, puis dites-lui"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Maintenant, entraînez-vous. Construisez votre tracker avec au moins 10 vrais clients et testez-en un au total à la main. Enregistrez votre confirmation sous forme de réponse rapide et comblez trois lacunes de réapprovisionnement. Envoyez ensuite les questions de feedback à cinq clients et calculez votre score.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâches d'entraînement",
+    "heading": "Votre pratique dans ce module",
+    "items": [
+     "Créez et testez votre suivi client",
+     "Configurez votre rythme de suivi",
+     "Organisez un mini cycle de feedback"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

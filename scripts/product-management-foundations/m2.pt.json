@@ -1,0 +1,502 @@
+{
+ "course": "product-management-foundations",
+ "module": "m2",
+ "title": "Descubra, priorize e escreva histórias que sua equipe pode construir",
+ "course_title": "Fundações de gerenciamento de produtos",
+ "shots": [
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Descubra, priorize e escreva histórias que sua equipe pode construir.",
+    "Este é o vídeo do módulo dois de Fundamentos de gerenciamento de produtos."
+   ]
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Cada ideia de produto é um conjunto de crenças. A descoberta torna essas crenças visíveis e testa primeiro as mais perigosas."
+   ],
+   "panel": {
+    "kicker": "O ciclo central",
+    "heading": "Três empregos em um ciclo de trabalho",
+    "items": [
+     "Encontre e teste as suposições mais arriscadas",
+     "Escolha o que construir e explique por quê",
+     "Escreva o trabalho para que a equipe o construa corretamente"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Aí você terá mais ideias boas do que tempo, então deverá escolher o que fazer agora, com raciocínio que as pessoas possam ver."
+   ],
+   "panel": {
+    "kicker": "O ciclo central",
+    "heading": "Três empregos em um ciclo de trabalho",
+    "items": [
+     "Encontre e teste as suposições mais arriscadas",
+     "Escolha o que construir e explique por quê",
+     "Escreva o trabalho para que a equipe o construa corretamente"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Por fim, você escreve o trabalho escolhido com tanta clareza que a equipe constrói a coisa certa, incluindo o que acontece quando as coisas dão errado."
+   ],
+   "panel": {
+    "kicker": "O ciclo central",
+    "heading": "Três empregos em um ciclo de trabalho",
+    "items": [
+     "Encontre e teste as suposições mais arriscadas",
+     "Escolha o que construir e explique por quê",
+     "Escreva o trabalho para que a equipe o construa corretamente"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Primeiro passo. Escreva todas as crenças que devem ser verdadeiras, pelo menos 10, agrupadas em valor, usabilidade, viabilidade e viabilidade. Por exemplo, os farmacêuticos fazem novos pedidos pelo menos uma vez por semana."
+   ],
+   "panel": {
+    "kicker": "Descoberta",
+    "heading": "Mapeie as suposições e teste as mais arriscadas",
+    "items": [
+     "Escreva pelo menos 10 crenças que podem ser falsas",
+     "Avalie cada um: quão importante, quanta evidência",
+     "Escolha os importantes com evidências fracas",
+     "Teste-os da maneira mais barata e útil"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Etapa dois. Coloque cada um deles em um mapa de suposições: quão importante é e quantas evidências você já possui?"
+   ],
+   "panel": {
+    "kicker": "Descoberta",
+    "heading": "Mapeie as suposições e teste as mais arriscadas",
+    "items": [
+     "Escreva pelo menos 10 crenças que podem ser falsas",
+     "Avalie cada um: quão importante, quanta evidência",
+     "Escolha os importantes com evidências fracas",
+     "Teste-os da maneira mais barata e útil"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Etapa três. Teste aqueles que são críticos, mas têm poucas evidências. Use uma entrevista, um teste de porta falsa, um teste de concierge ou um protótipo, o que for mais barato e realmente mudar sua decisão."
+   ],
+   "panel": {
+    "kicker": "Descoberta",
+    "heading": "Mapeie as suposições e teste as mais arriscadas",
+    "items": [
+     "Escreva pelo menos 10 crenças que podem ser falsas",
+     "Avalie cada um: quão importante, quanta evidência",
+     "Escolha os importantes com evidências fracas",
+     "Teste-os da maneira mais barata e útil"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Esta é a regra. Crítico e não comprovado vem primeiro."
+   ],
+   "panel": {
+    "kicker": "Descoberta",
+    "heading": "Mapeie as suposições e teste as mais arriscadas",
+    "items": [
+     "Escreva pelo menos 10 crenças que podem ser falsas",
+     "Avalie cada um: quão importante, quanta evidência",
+     "Escolha os importantes com evidências fracas",
+     "Teste-os da maneira mais barata e útil"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Teste primeiro: crítico, com poucas evidências.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "As pessoas são gentis. Se você perguntar se usaria isso, a maioria dirá que sim. Isso não lhe diz nada. Este é o erro de descoberta mais comum."
+   ],
+   "panel": {
+    "kicker": "Entrevistas",
+    "heading": "Pergunte sobre o passado, não sobre sua ideia",
+    "mode": "compare",
+    "left_h": "Pergunta fraca",
+    "left": [
+     "Você usaria um aplicativo para isso?",
+     "Quanto você pagaria?",
+     "Esta é uma boa ideia?"
+    ],
+    "right_h": "Melhor pergunta",
+    "right": [
+     "Conte-me sobre a última vez...",
+     "O que você gasta agora?",
+     "O que você já tentou?"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Em vez disso, pergunte sobre eventos passados específicos. Conte-me sobre a última vez que você ficou sem estoque. O que você fez a seguir? Quanto isso custou para você? Fale menos e ouça mais, e não lance."
+   ],
+   "panel": {
+    "kicker": "Entrevistas",
+    "heading": "Pergunte sobre o passado, não sobre sua ideia",
+    "mode": "compare",
+    "left_h": "Pergunta fraca",
+    "left": [
+     "Você usaria um aplicativo para isso?",
+     "Quanto você pagaria?",
+     "Esta é uma boa ideia?"
+    ],
+    "right_h": "Melhor pergunta",
+    "right": [
+     "Conte-me sobre a última vez...",
+     "O que você gasta agora?",
+     "O que você já tentou?"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Por exemplo, Halima está a explorar uma aplicação de reordenamento de stock para pequenas farmácias em Abuja. Sua equipe lista 14 suposições e duas caem no canto mais arriscado."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "A semana de descobertas de Halima",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "14 assumptions",
+      "d": "Dois ficam no canto mais arriscado: reordenar semanalmente e pagar um novo fornecedor antes da entrega."
+     },
+     {
+      "t": "Reordering: yes",
+      "d": "5 em cada 6 farmacêuticos fazem novos pedidos pelo menos semanalmente, por telefone ou WhatsApp."
+     },
+     {
+      "t": "Prepaying: no",
+      "d": "Apenas 1 em cada 6 pagou um novo fornecedor antes da entrega. O modelo de pagamento deve mudar."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Ela entrevista 6 farmacêuticos sobre seu último pedido. 5 de 6 faça novos pedidos pelo menos uma vez por semana. Essa suposição ganha evidência."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "A semana de descobertas de Halima",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "14 assumptions",
+      "d": "Dois ficam no canto mais arriscado: reordenar semanalmente e pagar um novo fornecedor antes da entrega."
+     },
+     {
+      "t": "Reordering: yes",
+      "d": "5 em cada 6 farmacêuticos fazem novos pedidos pelo menos semanalmente, por telefone ou WhatsApp."
+     },
+     {
+      "t": "Prepaying: no",
+      "d": "Apenas 1 em cada 6 pagou um novo fornecedor antes da entrega. O modelo de pagamento deve mudar."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Mas apenas 1 em cada 6 pagou um novo fornecedor antes da entrega. Em uma semana, sem código, Halima descobre que o modelo de pagamento provavelmente falharia e redireciona a equipe para pagar na entrega."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "A semana de descobertas de Halima",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "14 assumptions",
+      "d": "Dois ficam no canto mais arriscado: reordenar semanalmente e pagar um novo fornecedor antes da entrega."
+     },
+     {
+      "t": "Reordering: yes",
+      "d": "5 em cada 6 farmacêuticos fazem novos pedidos pelo menos semanalmente, por telefone ou WhatsApp."
+     },
+     {
+      "t": "Prepaying: no",
+      "d": "Apenas 1 em cada 6 pagou um novo fornecedor antes da entrega. O modelo de pagamento deve mudar."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "O resultado de Halima é que mais farmácias façam um segundo pedido em 30 dias. Sua equipe concorda com quatro critérios: impacto no cliente 40%, adequação estratégica 25%, confiança nas evidências 20% e facilidade de construção 15%."
+   ],
+   "panel": {
+    "kicker": "Priorizando",
+    "heading": "Pontuação ponderada, passo a passo",
+    "items": [
+     "Escolha de 3 a 5 critérios do seu resultado",
+     "Dê pesos que somam 100%",
+     "Pontue cada opção de 1 a 5",
+     "Multiplique, some e trate pequenas lacunas como empates"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Eles pontuam cada opção de 1 a 5. Os engenheiros são os donos das pontuações de facilidade."
+   ],
+   "panel": {
+    "kicker": "Priorizando",
+    "heading": "Pontuação ponderada, passo a passo",
+    "items": [
+     "Escolha de 3 a 5 critérios do seu resultado",
+     "Dê pesos que somam 100%",
+     "Pontue cada opção de 1 a 5",
+     "Multiplique, some e trate pequenas lacunas como empates"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Pontuação de pagamento na entrega 4.10. Reordenação com um toque pontua 4,05. Os pontos de fidelidade pontuam 2,40. Uma diferença de 0,05 é um empate, então Halima verifica o que os usuários esperam: pagar na entrega é obrigatório para a maioria dos farmacêuticos."
+   ],
+   "panel": {
+    "kicker": "Priorizando",
+    "heading": "Pontuação ponderada, passo a passo",
+    "items": [
+     "Escolha de 3 a 5 critérios do seu resultado",
+     "Dê pesos que somam 100%",
+     "Pontue cada opção de 1 a 5",
+     "Multiplique, some e trate pequenas lacunas como empates"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Combine primeiro os critérios, para que ninguém ajuste os números para favorecer uma ideia preferida. Em seguida, rotule a liberação: Deve, pagar na entrega. Deveria, reordenar com um toque. Não vou desta vez, pontos de fidelidade."
+   ],
+   "panel": {
+    "kicker": "Priorizando",
+    "heading": "Pontuação ponderada, passo a passo",
+    "items": [
+     "Escolha de 3 a 5 critérios do seu resultado",
+     "Dê pesos que somam 100%",
+     "Pontue cada opção de 1 a 5",
+     "Multiplique, some e trate pequenas lacunas como empates"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Combine critérios e pesos antes que alguém marque pontos.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Agora escreva o trabalho. Como farmacêutico que faz um pedido, quero optar pelo pagamento na entrega, para só pagar quando o estoque estiver em minhas mãos. O benefício diz à equipe por que isso é importante."
+   ],
+   "panel": {
+    "kicker": "Entrega",
+    "heading": "Escreva uma história que a equipe possa construir",
+    "items": [
+     "Como [usuário], quero [capacidade], para que [benefício]",
+     "Confira com a INVEST",
+     "Critérios dados, quando, então",
+     "Cubra também os caminhos da falha"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Verifique com a INVEST: independente, negociável, valioso, estimável, pequeno e testável."
+   ],
+   "panel": {
+    "kicker": "Entrega",
+    "heading": "Escreva uma história que a equipe possa construir",
+    "items": [
+     "Como [usuário], quero [capacidade], para que [benefício]",
+     "Confira com a INVEST",
+     "Critérios dados, quando, então",
+     "Cubra também os caminhos da falha"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Em seguida, escreva os critérios de aceitação. Dado um pedido acima do limite, quando o farmacêutico seleciona pagar na entrega, o aplicativo explica o limite e se oferece para dividir o pedido ou pagar agora."
+   ],
+   "panel": {
+    "kicker": "Entrega",
+    "heading": "Escreva uma história que a equipe possa construir",
+    "items": [
+     "Como [usuário], quero [capacidade], para que [benefício]",
+     "Confira com a INVEST",
+     "Critérios dados, quando, então",
+     "Cubra também os caminhos da falha"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Cubra o caminho normal e os caminhos de falha importantes. Um terceiro critério promete um recebimento por SMS dentro de um minuto após o pagamento."
+   ],
+   "panel": {
+    "kicker": "Entrega",
+    "heading": "Escreva uma história que a equipe possa construir",
+    "items": [
+     "Como [usuário], quero [capacidade], para que [benefício]",
+     "Confira com a INVEST",
+     "Critérios dados, quando, então",
+     "Cubra também os caminhos da falha"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Ao dividir um grande recurso em pequenas histórias, libere a jornada mais sutil que funciona de ponta a ponta.",
+    "Mas nunca corte os critérios que protegem o dinheiro ou os dados pessoais para tornar uma história menor.",
+    "A confirmação de pagamento, limites, recibos e controle de acesso permanecem. Recursos do Slice, não proteções."
+   ],
+   "panel": {
+    "kicker": "Proteja dinheiro e dados",
+    "heading": "Recursos de fatia, nunca salvaguardas",
+    "items": [
+     "Confirmação de pagamento",
+     "Limites",
+     "Recibos",
+     "Controle de acesso"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Para lembrar. Teste primeiro as suposições importantes e não comprovadas. Pergunte sobre comportamentos passados, não sobre opiniões. Combine os critérios antes de pontuar. Escreva histórias com um usuário real e um benefício. E escreva critérios que cubram o fracasso, sem eliminar as salvaguardas."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Lembre-se",
+    "items": [
+     "Teste primeiro suposições importantes e não comprovadas",
+     "Pergunte sobre comportamento passado, não opiniões",
+     "Combine os critérios antes de pontuar",
+     "As histórias nomeiam o usuário, a capacidade e o benefício",
+     "Os critérios cobrem caminhos de falha; mantenha salvaguardas"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Agora pratique. Mapeie suas suposições e entreviste duas pessoas. Priorize cinco recursos com uma tabela de pontuação. Em seguida, escreva três histórias prontas para entrega com seus critérios.",
+    "Salve cada um deles como ponto final e continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Pratique tarefas",
+    "heading": "Suas tarefas práticas",
+    "items": [
+     "Mapeie e teste uma suposição arriscada",
+     "Priorize cinco recursos",
+     "Escreva três histórias prontas para entrega"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

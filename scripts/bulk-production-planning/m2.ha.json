@@ -1,0 +1,722 @@
+{
+ "course": "bulk-production-planning",
+ "module": "m2",
+ "title": "Tsara, ƙofofin inganci da tsarin kuɗi",
+ "course_title": "Shirye-shiryen Samar da Jumla",
+ "shots": [
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Tsara, ƙofofin inganci da tsarin kuɗi.",
+    "Wannan shi ne bidiyon don ƙirar 2 na Tsarin Samar da Girma."
+   ]
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Yawancin abubuwan da aka kawo a ƙarshen lokacin ana yanke shawarar ranar farko, lokacin da mai ƙira ya fara latti."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Late, kuskure ko maras araha: tsara shi",
+    "items": [
+     "Yawancin bayarwa a makare suna farawa a rana ta ɗaya",
+     "Laifi na iya ɓoyewa a cikin dubban raka'a",
+     "Babban oda zai iya sa ku talauci",
+     "Shirye-shiryen uku: kwanakin, inganci, tsabar kudi"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "A kan gudu na 5,000, matsalar da aka samu a ƙarshe na iya kasancewa cikin dubban raka'a."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Late, kuskure ko maras araha: tsara shi",
+    "items": [
+     "Yawancin bayarwa a makare suna farawa a rana ta ɗaya",
+     "Laifi na iya ɓoyewa a cikin dubban raka'a",
+     "Babban oda zai iya sa ku talauci",
+     "Shirye-shiryen uku: kwanakin, inganci, tsabar kudi"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Kuma babban oda zai iya sa kasuwanci ya yi talauci idan an sayo shi daga ƙananan farashi."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Late, kuskure ko maras araha: tsara shi",
+    "items": [
+     "Yawancin bayarwa a makare suna farawa a rana ta ɗaya",
+     "Laifi na iya ɓoyewa a cikin dubban raka'a",
+     "Babban oda zai iya sa ku talauci",
+     "Shirye-shiryen uku: kwanakin, inganci, tsabar kudi"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Don haka za ku gina tsare-tsare guda uku: jadawalin baya, ƙofofi masu inganci, da tsarin kuɗi."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Late, kuskure ko maras araha: tsara shi",
+    "items": [
+     "Yawancin bayarwa a makare suna farawa a rana ta ɗaya",
+     "Laifi na iya ɓoyewa a cikin dubban raka'a",
+     "Babban oda zai iya sa ku talauci",
+     "Shirye-shiryen uku: kwanakin, inganci, tsabar kudi"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Jadawalin baya yana farawa daga ranar bayarwa kuma yana rage kowane mataki. Misali, Kemi dole ne ta kawo fakiti 5,000 na guntun plantain a ranar Alhamis 10 ga Disamba."
+   ],
+   "panel": {
+    "kicker": "Jadawalin baya",
+    "heading": "Kidaya baya daga ranar bayarwa",
+    "items": [
+     "Bayarwa: Alhamis 10 Disamba",
+     "Dubawa na ƙarshe da lodi: 9 Disamba",
+     "Buffer: 7 da 8 Disamba",
+     "Production: kwanaki 11 daga 24 Nuwamba",
+     "Rubutun farko: 23 Nuwamba",
+     "Bukatun oda nan da 10 ga Nuwamba"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Ranar da ta gabata, ta kirga kwali, ta yi gwajin ingancin ƙarshe kuma ta shirya takardu."
+   ],
+   "panel": {
+    "kicker": "Jadawalin baya",
+    "heading": "Kidaya baya daga ranar bayarwa",
+    "items": [
+     "Bayarwa: Alhamis 10 Disamba",
+     "Dubawa na ƙarshe da lodi: 9 Disamba",
+     "Buffer: 7 da 8 Disamba",
+     "Production: kwanaki 11 daga 24 Nuwamba",
+     "Rubutun farko: 23 Nuwamba",
+     "Bukatun oda nan da 10 ga Nuwamba"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Kafin haka, kwanaki 2 na buffer, an ajiye su ba komai don yanke wutar lantarki, rashin lafiya ko mara kyau."
+   ],
+   "panel": {
+    "kicker": "Jadawalin baya",
+    "heading": "Kidaya baya daga ranar bayarwa",
+    "items": [
+     "Bayarwa: Alhamis 10 Disamba",
+     "Dubawa na ƙarshe da lodi: 9 Disamba",
+     "Buffer: 7 da 8 Disamba",
+     "Production: kwanaki 11 daga 24 Nuwamba",
+     "Rubutun farko: 23 Nuwamba",
+     "Bukatun oda nan da 10 ga Nuwamba"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Samfurin shine kwanaki 11 na aiki a ƙimar ta, don haka yana farawa ranar Talata 24 ga Nuwamba."
+   ],
+   "panel": {
+    "kicker": "Jadawalin baya",
+    "heading": "Kidaya baya daga ranar bayarwa",
+    "items": [
+     "Bayarwa: Alhamis 10 Disamba",
+     "Dubawa na ƙarshe da lodi: 9 Disamba",
+     "Buffer: 7 da 8 Disamba",
+     "Production: kwanaki 11 daga 24 Nuwamba",
+     "Rubutun farko: 23 Nuwamba",
+     "Bukatun oda nan da 10 ga Nuwamba"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Ranar da ta gabata, ɗan gajeren labarin farko ya bincika cewa layin ya dace da samfurin zinare."
+   ],
+   "panel": {
+    "kicker": "Jadawalin baya",
+    "heading": "Kidaya baya daga ranar bayarwa",
+    "items": [
+     "Bayarwa: Alhamis 10 Disamba",
+     "Dubawa na ƙarshe da lodi: 9 Disamba",
+     "Buffer: 7 da 8 Disamba",
+     "Production: kwanaki 11 daga 24 Nuwamba",
+     "Rubutun farko: 23 Nuwamba",
+     "Bukatun oda nan da 10 ga Nuwamba"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Jakunkuna da aka buga suna ɗaukar kwanaki 10 na aiki, don haka dole ne a ba da odar su zuwa ranar Talata 10 ga Nuwamba, cikakken wata kafin bayarwa.",
+    "Ƙidaya kwanakin aiki kawai. Shirin da ke kirga ranar Lahadi a hankali ya makara kafin ya fara."
+   ],
+   "panel": {
+    "kicker": "Jadawalin baya",
+    "heading": "Kidaya baya daga ranar bayarwa",
+    "items": [
+     "Bayarwa: Alhamis 10 Disamba",
+     "Dubawa na ƙarshe da lodi: 9 Disamba",
+     "Buffer: 7 da 8 Disamba",
+     "Production: kwanaki 11 daga 24 Nuwamba",
+     "Rubutun farko: 23 Nuwamba",
+     "Bukatun oda nan da 10 ga Nuwamba"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "rule": "Kidaya kwanakin aiki, ba kwanakin kalanda ba.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Sanya matakai 25, 50, 75 da 100% akan takardar bango, kuma cika ainihin fakiti masu kyau kowace maraice. Rukunin rata shine lamba mafi mahimmanci."
+   ],
+   "panel": {
+    "kicker": "Daily tracker",
+    "heading": "Kalli tazarar kowace maraice",
+    "items": [
+     "Tsari, ainihin da ginshiƙan rata",
+     "Rata a ƙarƙashin 5%: murmurewa a cikin sa'o'i na al'ada",
+     "Rata 5 zuwa 10%: karin lokaci a bakin kwalba",
+     "Sama da 10% ko rabin abin da aka yi amfani da shi: mai siye kira"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Bayan kwana uku Kemi tana bayan fakiti 70, kusan kashi 5% na shirin. Wannan yana da sauƙin murmurewa yanzu."
+   ],
+   "panel": {
+    "kicker": "Daily tracker",
+    "heading": "Kalli tazarar kowace maraice",
+    "items": [
+     "Tsari, ainihin da ginshiƙan rata",
+     "Rata a ƙarƙashin 5%: murmurewa a cikin sa'o'i na al'ada",
+     "Rata 5 zuwa 10%: karin lokaci a bakin kwalba",
+     "Sama da 10% ko rabin abin da aka yi amfani da shi: mai siye kira"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Babban gibi yana buƙatar shirin ƙarin lokaci a cikin ƙugiya kawai, cikin amintattun lokutan aiki."
+   ],
+   "panel": {
+    "kicker": "Daily tracker",
+    "heading": "Kalli tazarar kowace maraice",
+    "items": [
+     "Tsari, ainihin da ginshiƙan rata",
+     "Rata a ƙarƙashin 5%: murmurewa a cikin sa'o'i na al'ada",
+     "Rata 5 zuwa 10%: karin lokaci a bakin kwalba",
+     "Sama da 10% ko rabin abin da aka yi amfani da shi: mai siye kira"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Idan gibin ya wuce 10%, ko rabin abin da aka yi amfani da shi, kira mai siye a rana guda tare da gaskiyar da shirin da aka sake dubawa.",
+    "Kwanakin buffer sune kariyar mai siye. Kada ku yi shirin amfani da su."
+   ],
+   "panel": {
+    "kicker": "Daily tracker",
+    "heading": "Kalli tazarar kowace maraice",
+    "items": [
+     "Tsari, ainihin da ginshiƙan rata",
+     "Rata a ƙarƙashin 5%: murmurewa a cikin sa'o'i na al'ada",
+     "Rata 5 zuwa 10%: karin lokaci a bakin kwalba",
+     "Sama da 10% ko rabin abin da aka yi amfani da shi: mai siye kira"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "An shirya wuraren bincike masu inganci, kowanne yana da ma'auni mai ma'ana da ƙa'ida don gazawa. Ƙofar 1 tana bincika kowane isar da ƙayyadaddun bayanai."
+   ],
+   "panel": {
+    "kicker": "Ƙofofin inganci",
+    "heading": "Ƙofofi biyar ta hanyar gudu",
+    "items": [
+     "Abubuwan da aka karɓa",
+     "Labari na farko kowace rana",
+     "Binciken tazarar: fakiti 5 kowane 100",
+     "Ƙididdigar ƙarshen rana",
+     "Duban jigilar kaya; tsafta bai taba tsallakewa ba"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Ƙofar 2 tana kwatanta raka'a na farko na kowace rana tare da samfurin zinare, kafin cikakken gudu."
+   ],
+   "panel": {
+    "kicker": "Ƙofofin inganci",
+    "heading": "Ƙofofi biyar ta hanyar gudu",
+    "items": [
+     "Abubuwan da aka karɓa",
+     "Labari na farko kowace rana",
+     "Binciken tazarar: fakiti 5 kowane 100",
+     "Ƙididdigar ƙarshen rana",
+     "Duban jigilar kaya; tsafta bai taba tsallakewa ba"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Ƙofar 3 tana duba ƙaramin samfurin a tsayayyen tazara, misali fakiti 5 kowane fakiti 100, don nauyi, hatimi, launi da dandano."
+   ],
+   "panel": {
+    "kicker": "Ƙofofin inganci",
+    "heading": "Ƙofofi biyar ta hanyar gudu",
+    "items": [
+     "Abubuwan da aka karɓa",
+     "Labari na farko kowace rana",
+     "Binciken tazarar: fakiti 5 kowane 100",
+     "Ƙididdigar ƙarshen rana",
+     "Duban jigilar kaya; tsafta bai taba tsallakewa ba"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Ƙofar 4 tana ƙirga raka'a masu kyau kuma ta ƙi a ƙarshen rana."
+   ],
+   "panel": {
+    "kicker": "Ƙofofin inganci",
+    "heading": "Ƙofofi biyar ta hanyar gudu",
+    "items": [
+     "Abubuwan da aka karɓa",
+     "Labari na farko kowace rana",
+     "Binciken tazarar: fakiti 5 kowane 100",
+     "Ƙididdigar ƙarshen rana",
+     "Duban jigilar kaya; tsafta bai taba tsallakewa ba"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Ƙofar 5 tana zana samfurin daga kwali daban-daban kafin lodawa.",
+    "Kuma tsafta ba ta raguwa har zuwa lokacin da aka kayyade. Wanke hannu, murfin gashi da tsaftataccen wuri ba a taɓa tsallakewa, kuma duk wanda ke da gudawa ko amai ya nisanci sarrafa abinci."
+   ],
+   "panel": {
+    "kicker": "Ƙofofin inganci",
+    "heading": "Ƙofofi biyar ta hanyar gudu",
+    "items": [
+     "Abubuwan da aka karɓa",
+     "Labari na farko kowace rana",
+     "Binciken tazarar: fakiti 5 kowane 100",
+     "Ƙididdigar ƙarshen rana",
+     "Duban jigilar kaya; tsafta bai taba tsallakewa ba"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Kemi ya cika g 103 don haka bambancin al'ada ya tsaya sama da 100 g akan lakabin. A rana ta 4, duba 4 ya gano fakiti 2 cikin 5 marasa nauyi."
+   ],
+   "panel": {
+    "kicker": "Dokar tsayawa",
+    "heading": "Rana ta 4: ƙwanƙwasa da ke riƙe ƙasa",
+    "items": [
+     "Duba 4: 2 na fakiti 5 marasa nauyi",
+     "Dakatar da cikawa da rufewa",
+     "Dalili: sabon diba, ya cika kusan 99 g",
+     "Sake auna fakiti 100 na ƙarshe",
+     "Cika 11 a ƙarƙashin 100 g kuma shigar da shi"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Dokar tasha ta ce: idan 2 ko fiye na fakitin samfurin 5 sun gaza, dakatar da wannan tasha."
+   ],
+   "panel": {
+    "kicker": "Dokar tsayawa",
+    "heading": "Rana ta 4: ƙwanƙwasa da ke riƙe ƙasa",
+    "items": [
+     "Duba 4: 2 na fakiti 5 marasa nauyi",
+     "Dakatar da cikawa da rufewa",
+     "Dalili: sabon diba, ya cika kusan 99 g",
+     "Sake auna fakiti 100 na ƙarshe",
+     "Cika 11 a ƙarƙashin 100 g kuma shigar da shi"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "rule": "2 ko fiye sun kasa cikin fakiti 5: tsaya, nemo sanadin, sannan a sake farawa.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Dalilin: ma'auni ya canza scoops bayan abincin rana, kuma sabon ɗigon yana riƙe da ƙasa."
+   ],
+   "panel": {
+    "kicker": "Dokar tsayawa",
+    "heading": "Rana ta 4: ƙwanƙwasa da ke riƙe ƙasa",
+    "items": [
+     "Duba 4: 2 na fakiti 5 marasa nauyi",
+     "Dakatar da cikawa da rufewa",
+     "Dalili: sabon diba, ya cika kusan 99 g",
+     "Sake auna fakiti 100 na ƙarshe",
+     "Cika 11 a ƙarƙashin 100 g kuma shigar da shi"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "2 ko fiye sun kasa cikin fakiti 5: tsaya, nemo sanadin, sannan a sake farawa.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Ta dawo wurin da aka yiwa alama, ta sake auna fakiti 100 na ƙarshe, kuma ta sake cika 11 ƙarƙashin 100 g. Matsalar ta tsaya a cikin fakiti 100, ba dubbai ba."
+   ],
+   "panel": {
+    "kicker": "Dokar tsayawa",
+    "heading": "Rana ta 4: ƙwanƙwasa da ke riƙe ƙasa",
+    "items": [
+     "Duba 4: 2 na fakiti 5 marasa nauyi",
+     "Dakatar da cikawa da rufewa",
+     "Dalili: sabon diba, ya cika kusan 99 g",
+     "Sake auna fakiti 100 na ƙarshe",
+     "Cika 11 a ƙarƙashin 100 g kuma shigar da shi"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "2 ko fiye sun kasa cikin fakiti 5: tsaya, nemo sanadin, sannan a sake farawa.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Yanzu kudi. Kudin gudu daga adadin da za ku saya a zahiri, bayan tattarawa."
+   ],
+   "card": {
+    "title": "Farashin duka gudu",
+    "rows": [],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Kayayyakin Kemi sun kai kimanin naira 2,561,300. Ma'aikata, gami da kwanakin horo na 2 na ma'aikatan wucin gadi, shine 328,000. Gas shine 275,000."
+   ],
+   "card": {
+    "title": "Farashin duka gudu",
+    "rows": [
+     [
+      "Kayan aiki, kamar yadda aka saya a zahiri",
+      "2,561,300"
+     ],
+     [
+      "Aiki, gami da kwanakin horo",
+      "328,000"
+     ],
+     [
+      "Gas don kwanakin samarwa 11",
+      "275,000"
+     ]
+    ],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Bayarwa shine 60,000 kuma gwajin yana gudana 20,000."
+   ],
+   "card": {
+    "title": "Farashin duka gudu",
+    "rows": [
+     [
+      "Kayan aiki, kamar yadda aka saya a zahiri",
+      "2,561,300"
+     ],
+     [
+      "Aiki, gami da kwanakin horo",
+      "328,000"
+     ],
+     [
+      "Gas don kwanakin samarwa 11",
+      "275,000"
+     ],
+     [
+      "Bayarwa",
+      "60,000"
+     ],
+     [
+      "Gwajin labarin farko",
+      "20,000"
+     ]
+    ],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Kudin kai tsaye naira 3,244,300. Ta kara da kashi 5%, don haka cikakken kudin ya kai kusan Naira 681 a kowace fakiti.",
+    "A farashi mai yawa na Naira 950, ribar kusan kashi 28% na kudaden shiga ne. Farashin 700 ba zai bar kusan komai ba."
+   ],
+   "card": {
+    "title": "Farashin duka gudu",
+    "rows": [
+     [
+      "Kayan aiki, kamar yadda aka saya a zahiri",
+      "2,561,300"
+     ],
+     [
+      "Aiki, gami da kwanakin horo",
+      "328,000"
+     ],
+     [
+      "Gas don kwanakin samarwa 11",
+      "275,000"
+     ],
+     [
+      "Bayarwa",
+      "60,000"
+     ],
+     [
+      "Gwajin labarin farko",
+      "20,000"
+     ]
+    ],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Kemi tana biyan kuɗaɗen jaka, plantain da albashi na makonni kafin ma'auni ya shigo. Lissafta kowane biyan kuɗi ta kwanan wata. Mafi ƙarancin ma'auni mai gudana shine gibin kuɗin ku."
+   ],
+   "panel": {
+    "kicker": "Tazarar kuɗi",
+    "heading": "Riba ba tsabar kudi ba ne",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Find the lowest point",
+      "d": "Lissafin kowane biyan kuɗi a ciki da waje ta kwanan wata. Tare da ajiya kashi 40%, mafi ƙarancin ma'auni na Kemi kusan naira 1,344,300 ne."
+     },
+     {
+      "t": "Close the gap",
+      "d": "Kashi 50% na ajiya ya rage tazarar da naira 475,000. Biyan da aka tsara wani zaɓi ne."
+     },
+     {
+      "t": "Check the money",
+      "d": "Adadin ajiya yana ƙidaya ne kawai lokacin da ya bayyana a cikin asusun ku. Ba hoton allo ko faɗakarwar SMS ba."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Nemi babban ajiya, ko biyan kuɗi, misali 40% akan oda, 30% lokacin da mai siye ya amince da fakiti na farko, da 30% akan bayarwa."
+   ],
+   "panel": {
+    "kicker": "Tazarar kuɗi",
+    "heading": "Riba ba tsabar kudi ba ne",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Find the lowest point",
+      "d": "Lissafin kowane biyan kuɗi a ciki da waje ta kwanan wata. Tare da ajiya kashi 40%, mafi ƙarancin ma'auni na Kemi kusan naira 1,344,300 ne."
+     },
+     {
+      "t": "Close the gap",
+      "d": "Kashi 50% na ajiya ya rage tazarar da naira 475,000. Biyan da aka tsara wani zaɓi ne."
+     },
+     {
+      "t": "Check the money",
+      "d": "Adadin ajiya yana ƙidaya ne kawai lokacin da ya bayyana a cikin asusun ku. Ba hoton allo ko faɗakarwar SMS ba."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Kuma kada ku taɓa yin oda bugu na jaka akan alkawari. Hotunan canja wurin karya sun zama ruwan dare gama gari."
+   ],
+   "panel": {
+    "kicker": "Tazarar kuɗi",
+    "heading": "Riba ba tsabar kudi ba ne",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Find the lowest point",
+      "d": "Lissafin kowane biyan kuɗi a ciki da waje ta kwanan wata. Tare da ajiya kashi 40%, mafi ƙarancin ma'auni na Kemi kusan naira 1,344,300 ne."
+     },
+     {
+      "t": "Close the gap",
+      "d": "Kashi 50% na ajiya ya rage tazarar da naira 475,000. Biyan da aka tsara wani zaɓi ne."
+     },
+     {
+      "t": "Check the money",
+      "d": "Adadin ajiya yana ƙidaya ne kawai lokacin da ya bayyana a cikin asusun ku. Ba hoton allo ko faɗakarwar SMS ba."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Karɓa kawai idan jadawalin ya yi daidai da buffer, farashin ya bar gefen ku, kuma zaku iya rufe gibin kuɗi. Idan mutum ya gaza, yi shawara kafin ka ce eh."
+   ],
+   "panel": {
+    "kicker": "Mabuɗin mahimmanci",
+    "heading": "Ka ce eh kawai lokacin da duka ukun suka yi aiki",
+    "items": [
+     "Jadawalin ya yi daidai, tare da buffer",
+     "Farashin yana barin gefen ku bayan rashin tabbas",
+     "Kuna iya rufe gibin kuɗi",
+     "Yi aiki akan ƙananan giɓi da wuri",
+     "Ajiye rikodin inganci azaman shaida"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Juyin ku. Gina jaddawalin baya, tsara ƙofofin ku masu inganci, sannan ku kashe odar ku kuma nemo gibin kuɗin ku.",
+    "Ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi ayyuka",
+    "heading": "Ayyukan aikin ku",
+    "items": [
+     "Gina jadawalin ku na baya",
+     "Zana ingantaccen tsarin ƙofar ku",
+     "Kudin odar ku kuma nemo gibin kuɗin ku"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

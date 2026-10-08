@@ -1,0 +1,528 @@
+{
+ "course": "factory-workshop-setup-small-scale",
+ "module": "m2",
+ "title": "Mpangilio, usalama na kiasi gani karakana yako inaweza kutengeneza",
+ "course_title": "Usanidi wa Kiwanda na Warsha (Wadogo)",
+ "shots": [
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Mpangilio, usalama, na kiasi gani karakana yako inaweza kutengeneza.",
+    "Hii ni video ya moduli ya pili ya Usanidi wa Kiwanda na Warsha."
+   ]
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Katika moduli hii nafasi yako inakuwa mfumo wa kufanya kazi. Kwanza, mpango wa sakafu umeundwa karibu na jinsi bidhaa inavyosonga, sio mahali ambapo samani inafaa."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Badilisha nafasi yako kuwa mfumo wa kufanya kazi",
+    "items": [
+     "Maeneo yanayofuata bidhaa yako",
+     "Tathmini ya hatari iliyoandikwa",
+     "Jua dari yako na sakafu yako"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Pili, tathmini rahisi iliyoandikwa ya hatari kwa moto, umeme, mafusho, kemikali na huduma ya kwanza."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Badilisha nafasi yako kuwa mfumo wa kufanya kazi",
+    "items": [
+     "Maeneo yanayofuata bidhaa yako",
+     "Tathmini ya hatari iliyoandikwa",
+     "Jua dari yako na sakafu yako"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Tatu, nambari mbili: nyingi zaidi semina yako inaweza kutengeneza, na ndogo zaidi ni lazima iuze ili kujilipia."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Badilisha nafasi yako kuwa mfumo wa kufanya kazi",
+    "items": [
+     "Maeneo yanayofuata bidhaa yako",
+     "Tathmini ya hatari iliyoandikwa",
+     "Jua dari yako na sakafu yako"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Andika mchakato wako kama hatua. Kila hatua inakuwa kanda, iliyowekwa kwa mpangilio, kwa hivyo kazi inapita kwa njia moja badala ya kuvuka-kuvuka.",
+    "Kupokea huenda karibu na mlango, kwa hivyo magunia mazito hayabebiwi kupitia kazi."
+   ],
+   "panel": {
+    "kicker": "Zoning",
+    "heading": "Maeneo katika mpangilio wa bidhaa",
+    "items": [
+     "Kupokea na kuhifadhi vifaa, karibu na mlango",
+     "Kuandaa na kukata",
+     "Tengeneza au kusanyika",
+     "Maliza na uhakiki",
+     "Pakia na uhifadhi bidhaa zilizokamilishwa"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Weka kazi ya vumbi, moto au yenye harufu karibu na dirisha na feni ikipulizia. Weka mashine karibu na soketi ili hakuna kebo inayovuka kinjia."
+   ],
+   "panel": {
+    "kicker": "Zoning",
+    "heading": "Maeneo katika mpangilio wa bidhaa",
+    "items": [
+     "Kupokea na kuhifadhi vifaa, karibu na mlango",
+     "Kuandaa na kukata",
+     "Tengeneza au kusanyika",
+     "Maliza na uhakiki",
+     "Pakia na uhifadhi bidhaa zilizokamilishwa"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Weka malighafi na bidhaa zilizokamilishwa kando, na uweke njia moja wazi ya kutoka.",
+    "Kosa la kawaida ni kuhifadhi bidhaa zilizokamilishwa kwenye njia ya kutembea kwa ajili ya leo. Inakuwa ya kudumu na inazuia kutoka."
+   ],
+   "panel": {
+    "kicker": "Zoning",
+    "heading": "Maeneo katika mpangilio wa bidhaa",
+    "items": [
+     "Kupokea na kuhifadhi vifaa, karibu na mlango",
+     "Kuandaa na kukata",
+     "Tengeneza au kusanyika",
+     "Maliza na uhakiki",
+     "Pakia na uhifadhi bidhaa zilizokamilishwa"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Katika mtiririko wa mstari wa moja kwa moja, vifaa huingia mwisho mmoja na kuondoka kwa upande mwingine. Inafaa vyumba virefu na milango miwili."
+   ],
+   "panel": {
+    "kicker": "Maumbo mawili",
+    "heading": "Mstari ulionyooka au umbo la U?",
+    "mode": "compare",
+    "left_h": "Mstari wa moja kwa moja",
+    "left": [
+     "Katika mwisho mmoja, nje kwa upande mwingine",
+     "Inafaa kwa vyumba virefu, nyembamba",
+     "Nzuri na milango miwili"
+    ],
+    "right_h": "U-umbo",
+    "right": [
+     "Inamalizia karibu na mahali ilipoanzia",
+     "Inafaa vyumba vilivyo na mlango mmoja",
+     "Mtu mmoja anaweza kusaidia vituo viwili"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Katika umbo la U, kazi huenda chini upande mmoja na kuunga mkono mwingine. Kwa mfano, Hauwa huko Kano ina chumba cha mita za mraba 24 na mlango mmoja, kwa hiyo alichagua U-umbo.",
+    "Chora mpango wako wa kupima, kisha uweke alama kwenye kanda kwenye sakafu halisi kwa kutumia mkanda na uendeshe kundi moja kabla ya kumlipa seremala."
+   ],
+   "panel": {
+    "kicker": "Maumbo mawili",
+    "heading": "Mstari ulionyooka au umbo la U?",
+    "mode": "compare",
+    "left_h": "Mstari wa moja kwa moja",
+    "left": [
+     "Katika mwisho mmoja, nje kwa upande mwingine",
+     "Inafaa kwa vyumba virefu, nyembamba",
+     "Nzuri na milango miwili"
+    ],
+    "right_h": "U-umbo",
+    "right": [
+     "Inamalizia karibu na mahali ilipoanzia",
+     "Inafaa vyumba vilivyo na mlango mmoja",
+     "Mtu mmoja anaweza kusaidia vituo viwili"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Hatari ni kitu chochote kinachoweza kusababisha madhara. Hatari ni jinsi uwezekano wa madhara ni, na jinsi mbaya. Tembea semina yako na daftari."
+   ],
+   "panel": {
+    "kicker": "Tathmini ya hatari",
+    "heading": "Tafuta hatari, alama, tenda",
+    "items": [
+     "Tembea kwenye warsha na uorodhe hatari",
+     "Uwezekano wa kupata alama 1 hadi 3, ukali 1 hadi 3",
+     "Kuzidisha: 6 au 9 inamaanisha tenda sasa",
+     "Dhibiti alama za juu zaidi kwanza",
+     "Kagua jambo lolote linapobadilika"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Alama ya uwezekano na ukali kutoka 1 hadi 3 na kuzidisha. Alama ya 6 au 9 inahitaji hatua sasa. 3 au 4 inahitaji hatua hivi karibuni."
+   ],
+   "panel": {
+    "kicker": "Tathmini ya hatari",
+    "heading": "Tafuta hatari, alama, tenda",
+    "items": [
+     "Tembea kwenye warsha na uorodhe hatari",
+     "Uwezekano wa kupata alama 1 hadi 3, ukali 1 hadi 3",
+     "Kuzidisha: 6 au 9 inamaanisha tenda sasa",
+     "Dhibiti alama za juu zaidi kwanza",
+     "Kagua jambo lolote linapobadilika"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Kwa mfano, Kemi huko Ibadan alipata lacquer nyembamba zaidi kando ya sahani ya moto. Ambayo ilipata alama 9. Aliihamisha ile nyembamba kwenye kabati la chuma lililofungwa na kubadilisha sahani ya moto na njia ya gundi isiyohitaji mwali."
+   ],
+   "panel": {
+    "kicker": "Tathmini ya hatari",
+    "heading": "Tafuta hatari, alama, tenda",
+    "items": [
+     "Tembea kwenye warsha na uorodhe hatari",
+     "Uwezekano wa kupata alama 1 hadi 3, ukali 1 hadi 3",
+     "Kuzidisha: 6 au 9 inamaanisha tenda sasa",
+     "Dhibiti alama za juu zaidi kwanza",
+     "Kagua jambo lolote linapobadilika"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Fanya kazi kutoka juu ya safu ya udhibiti. Ondoa, kisha ubadilishe, kisha mhandisi, kisha sheria na mafunzo. Vifaa vya kinga huja mwisho."
+   ],
+   "panel": {
+    "kicker": "Tathmini ya hatari",
+    "heading": "Tafuta hatari, alama, tenda",
+    "items": [
+     "Tembea kwenye warsha na uorodhe hatari",
+     "Uwezekano wa kupata alama 1 hadi 3, ukali 1 hadi 3",
+     "Kuzidisha: 6 au 9 inamaanisha tenda sasa",
+     "Dhibiti alama za juu zaidi kwanza",
+     "Kagua jambo lolote linapobadilika"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Ondoa hatari kwanza. Vifaa vya kinga ni mstari wa mwisho.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "first_aid_kit",
+   "say": [
+    "Moto unahitaji joto, mafuta na oksijeni. Matambara, vumbi la mbao na vifungashio ni mafuta. Weka vitu vinavyoweza kuwaka mbali na joto, na weka kizima moto karibu na njia ya kutokea.",
+    "Kamwe usitumie maji kwenye moto wa umeme au mafuta inayowaka. Nambari ya dharura nchini Nigeria ni 112."
+   ],
+   "panel": {
+    "kicker": "Mifumo ya usalama",
+    "heading": "Moto, mafusho na huduma ya kwanza",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Moto",
+      "d": "Kamwe usitumie maji kwenye moto wa umeme au mafuta. Kizima moto kwa njia ya kutoka. Chapisha 112 karibu na mlango."
+     },
+     {
+      "t": "Fumes and chemicals",
+      "d": "Shabiki akipiga nje. Vyombo asili vilivyo na lebo, vilivyohifadhiwa chini. Weka bleach na asidi kando."
+     },
+     {
+      "t": "First aid",
+      "d": "Msaidizi wa kwanza aliyetajwa na seti iliyojaa. Chochote zaidi ya kupunguzwa kidogo huenda kwa kliniki."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "first_aid_kit",
+   "say": [
+    "Fanya kazi na mafusho na vumbi karibu na dirisha lililofunguliwa na feni inayopepea. Weka kila kemikali kwenye kontena yake asili iliyo na lebo, usiwe chupa ya kinywaji, na utenganishe asidi na bleach."
+   ],
+   "panel": {
+    "kicker": "Mifumo ya usalama",
+    "heading": "Moto, mafusho na huduma ya kwanza",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Moto",
+      "d": "Kamwe usitumie maji kwenye moto wa umeme au mafuta. Kizima moto kwa njia ya kutoka. Chapisha 112 karibu na mlango."
+     },
+     {
+      "t": "Fumes and chemicals",
+      "d": "Shabiki akipiga nje. Vyombo asili vilivyo na lebo, vilivyohifadhiwa chini. Weka bleach na asidi kando."
+     },
+     {
+      "t": "First aid",
+      "d": "Msaidizi wa kwanza aliyetajwa na seti iliyojaa. Chochote zaidi ya kupunguzwa kidogo huenda kwa kliniki."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Taja mtu mmoja anayesimamia huduma ya kwanza na uweke seti iliyojaa ambapo kila mtu anaweza kuifikia. Andika kila tukio au karibu kukosa katika logi."
+   ],
+   "panel": {
+    "kicker": "Mifumo ya usalama",
+    "heading": "Moto, mafusho na huduma ya kwanza",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Moto",
+      "d": "Kamwe usitumie maji kwenye moto wa umeme au mafuta. Kizima moto kwa njia ya kutoka. Chapisha 112 karibu na mlango."
+     },
+     {
+      "t": "Fumes and chemicals",
+      "d": "Shabiki akipiga nje. Vyombo asili vilivyo na lebo, vilivyohifadhiwa chini. Weka bleach na asidi kando."
+     },
+     {
+      "t": "First aid",
+      "d": "Msaidizi wa kwanza aliyetajwa na seti iliyojaa. Chochote zaidi ya kupunguzwa kidogo huenda kwa kliniki."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Saa kila hatua kwa kutumia saa ya kusimamisha simu. Ikiwa mashine mbili zinafanya kazi sawa, gawanya na mbili. Hauwa hushona begi kwa dakika 30 kwenye kila mashine mbili, kwa hivyo dakika 15 kwa begi."
+   ],
+   "panel": {
+    "kicker": "Dari yako",
+    "heading": "Tafuta kizuizi na uwezo wako",
+    "items": [
+     "Muda kwa kila hatua kwa kitengo kimoja",
+     "Gawanya na mashine sambamba au wafanyikazi",
+     "Muda mrefu zaidi ni kizuizi",
+     "Panga 80% ya dakika za kazi"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Kushona ni hatua yake ndefu zaidi, kwa hivyo ni kizuizi."
+   ],
+   "panel": {
+    "kicker": "Dari yako",
+    "heading": "Tafuta kizuizi na uwezo wako",
+    "items": [
+     "Muda kwa kila hatua kwa kitengo kimoja",
+     "Gawanya na mashine sambamba au wafanyikazi",
+     "Muda mrefu zaidi ni kizuizi",
+     "Panga 80% ya dakika za kazi"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Siku yake ina dakika 420 za kazi. Mashine hazizai kila dakika, kwa hivyo anapanga kwa asilimia 80: dakika 336. Hiyo inatoa mifuko 22 kwa siku, au mifuko 528 kwa mwezi.",
+    "Kuharakisha kukata hakubadili chochote. Anahitaji muda zaidi wa kushona."
+   ],
+   "panel": {
+    "kicker": "Dari yako",
+    "heading": "Tafuta kizuizi na uwezo wako",
+    "items": [
+     "Muda kwa kila hatua kwa kitengo kimoja",
+     "Gawanya na mashine sambamba au wafanyikazi",
+     "Muda mrefu zaidi ni kizuizi",
+     "Panga 80% ya dakika za kazi"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Warsha nzima inaweza tu kwenda haraka kama kizuizi chake.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Gharama za uendeshaji huja kila mwezi, iwe unazalisha au huna. Ziweke tofauti na gharama za usanidi wa mara moja."
+   ],
+   "card": {
+    "title": "Gharama za uendeshaji za Hauwa za kila mwezi",
+    "rows": [],
+    "note": "Bei za Naira ni takriban."
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Hauwa hulipa kodi, umeme na mafuta, maji na kusafisha, mafundi wawili na matengenezo."
+   ],
+   "card": {
+    "title": "Gharama za uendeshaji za Hauwa za kila mwezi",
+    "rows": [
+     [
+      "Kodisha",
+      "50,000"
+     ],
+     [
+      "Nguvu na mafuta",
+      "60,000"
+     ],
+     [
+      "Maji na kusafisha",
+      "8,000"
+     ],
+     [
+      "Mishahara ya mafundi wawili",
+      "150,000"
+     ],
+     [
+      "Matengenezo",
+      "12,000"
+     ]
+    ],
+    "note": "Bei za Naira ni takriban."
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Hiyo ni takriban naira 280,000 kwa mwezi. Kila mfuko huacha naira 3,000 baada ya vifaa na ufungaji. 280,000 ikigawanywa na 3,000 ina maana kwamba lazima auze mifuko 94 kwa mwezi ili kugharamia warsha. Anauza takriban 450, kwa hivyo nafasi inajilipia yenyewe."
+   ],
+   "card": {
+    "title": "Gharama za uendeshaji za Hauwa za kila mwezi",
+    "rows": [
+     [
+      "Kodisha",
+      "50,000"
+     ],
+     [
+      "Nguvu na mafuta",
+      "60,000"
+     ],
+     [
+      "Maji na kusafisha",
+      "8,000"
+     ],
+     [
+      "Mishahara ya mafundi wawili",
+      "150,000"
+     ],
+     [
+      "Matengenezo",
+      "12,000"
+     ]
+    ],
+    "note": "Bei za Naira ni takriban."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Kukumbuka. Kanda hufuata bidhaa. Weka alama za hatari na urekebishe mbaya zaidi kwanza. Hakuna maji kwenye moto wa umeme au mafuta. Kikwazo huweka uwezo wako. Na ugawanye gharama za uendeshaji kulingana na kile kila kitengo huchangia kupata mapumziko yako."
+   ],
+   "panel": {
+    "kicker": "Pointi muhimu",
+    "heading": "Kumbuka",
+    "items": [
+     "Kanda hufuata bidhaa, kwa njia moja kupitia",
+     "Alama hatari na urekebishe ya juu zaidi kwanza",
+     "Hakuna maji kwenye moto wa umeme au mafuta",
+     "Kikwazo huweka uwezo wako",
+     "Kuvunja-sawa = gharama za uendeshaji / mchango"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Kazi zako: chora mpango wako wa sakafu iliyopangwa na uijaribu kwa mkanda, andika tathmini yako ya hatari iliyopatikana, na uhesabu uwezo wako na uvunja usawa.",
+    "Endelea na masomo hapa chini."
+   ],
+   "panel": {
+    "kicker": "Mazoezi ya kazi",
+    "heading": "Kazi zako za mazoezi",
+    "items": [
+     "Chora mpango wako wa sakafu ya eneo",
+     "Andika tathmini yako ya hatari",
+     "Kuhesabu dari yako na sakafu yako"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

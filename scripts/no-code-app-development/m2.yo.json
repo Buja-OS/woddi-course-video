@@ -1,0 +1,602 @@
+{
+ "course": "no-code-app-development",
+ "module": "m2",
+ "title": "Kọ, ṣe idanwo ati fi ọja iṣura ati ohun elo titaja lọwọ",
+ "course_title": "Ko si-koodu App Development",
+ "shots": [
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Kọ, ṣe idanwo ati fi ọja iṣura ati ohun elo titaja lọwọ.",
+    "Eyi ni fidio fun module meji ti Ko si koodu App Development."
+   ]
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Ninu module yii o kọ ohun elo gidi kan. Fun apẹẹrẹ, Esther nṣiṣẹ ile itaja agro-input ni Makurdi, pẹlu awọn oṣiṣẹ tita meji. O fẹ lati da kika awọn baagi duro ni gbogbo aṣalẹ."
+   ],
+   "panel": {
+    "kicker": "Ohun ti o yoo kọ",
+    "heading": "Ohun elo itaja agro-input Esther",
+    "items": [
+     "Tọpinpin awọn ọja, awọn ifijiṣẹ ati tita",
+     "Kilọ fun eni nigbati ọja ba lọ silẹ",
+     "Idanwo, ni ifipamo ati ni akọsilẹ"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Ìfilọlẹ rẹ yoo tọpa awọn ọja, awọn ifijiṣẹ ati awọn tita, kilọ fun u nigbati ọja ba lọ silẹ, ati idanwo ati ṣe akọsilẹ ki ẹlomiran le ṣiṣe. Gbogbo rẹ ṣiṣẹ lori ipele prototyping ọfẹ ti AppSheet."
+   ],
+   "panel": {
+    "kicker": "Ohun ti o yoo kọ",
+    "heading": "Ohun elo itaja agro-input Esther",
+    "items": [
+     "Tọpinpin awọn ọja, awọn ifijiṣẹ ati tita",
+     "Kilọ fun eni nigbati ọja ba lọ silẹ",
+     "Idanwo, ni ifipamo ati ni akọsilẹ"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Pupọ awọn iṣoro ibẹrẹ wa lati awọn iwe idoti. AppSheet ka taabu kọọkan bi tabili kan, pẹlu ori ila akọsori kan lori oke."
+   ],
+   "panel": {
+    "kicker": "Igbesẹ 1",
+    "heading": "Mura iwe naa daradara",
+    "items": [
+     "Tabili kan fun taabu: Awọn ọja, Iṣura Ni, Tita",
+     "Gangan ori ila akọsori kan ni ila 1",
+     "Ko si awọn sẹẹli ti a dapọ, lapapọ awọn ori ila tabi awọn ori ila ofo",
+     "Iwe ID akọkọ ni gbogbo taabu",
+     "3 si 5 awọn ori ila apẹẹrẹ ojulowo"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Yọ awọn sẹẹli ti a dapọ ati lapapọ awọn ori ila. Esther paarẹ lapapọ ila kan ni isalẹ ti taabu Tita rẹ, nitori AppSheet yoo ka bi tita."
+   ],
+   "panel": {
+    "kicker": "Igbesẹ 1",
+    "heading": "Mura iwe naa daradara",
+    "items": [
+     "Tabili kan fun taabu: Awọn ọja, Iṣura Ni, Tita",
+     "Gangan ori ila akọsori kan ni ila 1",
+     "Ko si awọn sẹẹli ti a dapọ, lapapọ awọn ori ila tabi awọn ori ila ofo",
+     "Iwe ID akọkọ ni gbogbo taabu",
+     "3 si 5 awọn ori ila apẹẹrẹ ojulowo"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Fi iwe ID kan si akọkọ, ki o ṣafikun awọn ori ila apẹẹrẹ diẹ ki AppSheet le gboju awọn iru ọwọn."
+   ],
+   "panel": {
+    "kicker": "Igbesẹ 1",
+    "heading": "Mura iwe naa daradara",
+    "items": [
+     "Tabili kan fun taabu: Awọn ọja, Iṣura Ni, Tita",
+     "Gangan ori ila akọsori kan ni ila 1",
+     "Ko si awọn sẹẹli ti a dapọ, lapapọ awọn ori ila tabi awọn ori ila ofo",
+     "Iwe ID akọkọ ni gbogbo taabu",
+     "3 si 5 awọn ori ila apẹẹrẹ ojulowo"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Lẹhin ti dì, ṣayẹwo gbogbo iwe. Awọn bọtini gba iye ibẹrẹ UNIQUEID(), ati pe o wa ni pamọ. Awọn ọjọ bẹrẹ bi LONI(). Tita Nipasẹ awọn igbasilẹ USEREMAIL()."
+   ],
+   "panel": {
+    "kicker": "Igbese nipa igbese",
+    "heading": "Ibere ile fun eyikeyi AppSheet app",
+    "items": [
+     "Nu dì",
+     "Ṣeto awọn bọtini ati awọn iru",
+     "Fi awọn itọkasi",
+     "Awọn iwo apẹrẹ",
+     "Fi awọn ofin ati adaṣiṣẹ"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Oju-iwe ọja ni Titaja ati Iṣura In di Ref si Awọn ọja, sisopọ gbogbo tita si ọja kan."
+   ],
+   "panel": {
+    "kicker": "Igbese nipa igbese",
+    "heading": "Ibere ile fun eyikeyi AppSheet app",
+    "items": [
+     "Nu dì",
+     "Ṣeto awọn bọtini ati awọn iru",
+     "Fi awọn itọkasi",
+     "Awọn iwo apẹrẹ",
+     "Fi awọn ofin ati adaṣiṣẹ"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Awọn iwo apẹrẹ fun oṣiṣẹ ni counter pẹlu foonu kan ni ọwọ kan. Titaja tuntun lọ ni akọkọ ninu akojọ aṣayan, nitori pe o jẹ iṣẹ-ṣiṣe loorekoore julọ."
+   ],
+   "panel": {
+    "kicker": "Igbese nipa igbese",
+    "heading": "Ibere ile fun eyikeyi AppSheet app",
+    "items": [
+     "Nu dì",
+     "Ṣeto awọn bọtini ati awọn iru",
+     "Fi awọn itọkasi",
+     "Awọn iwo apẹrẹ",
+     "Fi awọn ofin ati adaṣiṣẹ"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Tẹle aṣẹ yii. Yiyipada awọn data lẹhin ti awọn iwo ti wa ni itumọ ti fa rework. Ati idanwo lori foonu gidi, kii ṣe ninu olootu nikan."
+   ],
+   "panel": {
+    "kicker": "Igbese nipa igbese",
+    "heading": "Ibere ile fun eyikeyi AppSheet app",
+    "items": [
+     "Nu dì",
+     "Ṣeto awọn bọtini ati awọn iru",
+     "Fi awọn itọkasi",
+     "Awọn iwo apẹrẹ",
+     "Fi awọn ofin ati adaṣiṣẹ"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Maṣe gba awọn amoro ọwọn AppSheet ni afọju.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Logic ti kọ bi awọn ikosile, awọn agbekalẹ kukuru pẹlu awọn orukọ ọwọn ni awọn biraketi onigun mẹrin. Ṣafikun ọwọn foju ti a pe ni Iṣura lọwọlọwọ. NPK bẹrẹ oṣu pẹlu awọn apo 40."
+   ],
+   "panel": {
+    "kicker": "Logbon",
+    "heading": "Iṣura ti wa ni iṣiro, ko tẹ rara",
+    "items": [
+     "Ọja ṣiṣi: Awọn baagi 40 ti NPK",
+     "Plus awọn ifijiṣẹ: 25 baagi",
+     "Iyokuro tita ose yi: 52 baagi",
+     "Iṣura lọwọlọwọ: 40 + 25 - 52 = 13"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Yan ati SUM ṣafikun gbogbo ifijiṣẹ fun ọja yii: awọn apo 25."
+   ],
+   "panel": {
+    "kicker": "Logbon",
+    "heading": "Iṣura ti wa ni iṣiro, ko tẹ rara",
+    "items": [
+     "Ọja ṣiṣi: Awọn baagi 40 ti NPK",
+     "Plus awọn ifijiṣẹ: 25 baagi",
+     "Iyokuro tita ose yi: 52 baagi",
+     "Iṣura lọwọlọwọ: 40 + 25 - 52 = 13"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Lẹhinna yọkuro gbogbo tita: 52 baagi."
+   ],
+   "panel": {
+    "kicker": "Logbon",
+    "heading": "Iṣura ti wa ni iṣiro, ko tẹ rara",
+    "items": [
+     "Ọja ṣiṣi: Awọn baagi 40 ti NPK",
+     "Plus awọn ifijiṣẹ: 25 baagi",
+     "Iyokuro tita ose yi: 52 baagi",
+     "Iṣura lọwọlọwọ: 40 + 25 - 52 = 13"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Ìfilọlẹ naa fihan awọn baagi 13 ti o ku laisi ẹnikẹni kika. Pẹlu ipele atunto ti 15, NPK ṣe afihan atunbere ni pupa."
+   ],
+   "panel": {
+    "kicker": "Logbon",
+    "heading": "Iṣura ti wa ni iṣiro, ko tẹ rara",
+    "items": [
+     "Ọja ṣiṣi: Awọn baagi 40 ti NPK",
+     "Plus awọn ifijiṣẹ: 25 baagi",
+     "Iyokuro tita ose yi: 52 baagi",
+     "Iṣura lọwọlọwọ: 40 + 25 - 52 = 13"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "13 wa ni tabi ni isalẹ ipele atunbere ti 15: akoko lati tunto.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Ṣe Qty ati Ọja ti a beere."
+   ],
+   "panel": {
+    "kicker": "Awọn ofin ti o da awọn aṣiṣe duro",
+    "heading": "Duro data buburu ni titẹsi",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Ti beere fun",
+      "d": "Qty ati Ọja gbọdọ kun, nitorinaa ko si tita ti o fipamọ laisi wọn."
+     },
+     {
+      "t": "Valid If",
+      "d": "Qty loke 0 ati pe ko si ju Iṣura lọwọlọwọ lọ. Fi ifiranṣẹ aṣiṣe ti o han gbangba kun."
+     },
+     {
+      "t": "Initial value",
+      "d": "Iye Unit daakọ idiyele ọja ni akoko tita. Ko si atuntẹ."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Ṣafikun Wulo Ti, nitorinaa opoiye gbọdọ wa ni oke 0 ko si ju ọja lọ. Ṣafikun ifiranṣẹ bii, awọn baagi 13 nikan ni o ku, nitorinaa oṣiṣẹ mọ ohun ti ko tọ."
+   ],
+   "panel": {
+    "kicker": "Awọn ofin ti o da awọn aṣiṣe duro",
+    "heading": "Duro data buburu ni titẹsi",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Ti beere fun",
+      "d": "Qty ati Ọja gbọdọ kun, nitorinaa ko si tita ti o fipamọ laisi wọn."
+     },
+     {
+      "t": "Valid If",
+      "d": "Qty loke 0 ati pe ko si ju Iṣura lọwọlọwọ lọ. Fi ifiranṣẹ aṣiṣe ti o han gbangba kun."
+     },
+     {
+      "t": "Initial value",
+      "d": "Iye Unit daakọ idiyele ọja ni akoko tita. Ko si atuntẹ."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Ati daakọ iye owo sinu tita nigbati o ba ṣe, nitorina itan-akọọlẹ duro otitọ."
+   ],
+   "panel": {
+    "kicker": "Awọn ofin ti o da awọn aṣiṣe duro",
+    "heading": "Duro data buburu ni titẹsi",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Ti beere fun",
+      "d": "Qty ati Ọja gbọdọ kun, nitorinaa ko si tita ti o fipamọ laisi wọn."
+     },
+     {
+      "t": "Valid If",
+      "d": "Qty loke 0 ati pe ko si ju Iṣura lọwọlọwọ lọ. Fi ifiranṣẹ aṣiṣe ti o han gbangba kun."
+     },
+     {
+      "t": "Initial value",
+      "d": "Iye Unit daakọ idiyele ọja ni akoko tita. Ko si atuntẹ."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Bot kan n wo iṣẹlẹ kan, lẹhinna ṣiṣe awọn igbesẹ funrararẹ. Nibi iṣẹlẹ naa jẹ ila tuntun ni Titaja."
+   ],
+   "panel": {
+    "kicker": "Adaṣiṣẹ",
+    "heading": "A kekere-iṣura bot",
+    "items": [
+     "Iṣẹlẹ: tita ti wa ni afikun",
+     "Ipo: iṣura ni tabi ni isalẹ ipele atunto",
+     "Iṣẹ-ṣiṣe: imeeli oniwun",
+     "Idanwo titi ti imeeli yoo fi de"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Ipo naa ṣayẹwo ọja ọja naa lodi si ipele atunto rẹ. Ti o ba jẹ otitọ, o fi imeeli ranṣẹ si Esther orukọ ọja ati ọja."
+   ],
+   "panel": {
+    "kicker": "Adaṣiṣẹ",
+    "heading": "A kekere-iṣura bot",
+    "items": [
+     "Iṣẹlẹ: tita ti wa ni afikun",
+     "Ipo: iṣura ni tabi ni isalẹ ipele atunto",
+     "Iṣẹ-ṣiṣe: imeeli oniwun",
+     "Idanwo titi ti imeeli yoo fi de"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Ṣe igbasilẹ awọn tita idanwo titi ti ipo yoo fi pade, ati jẹrisi imeeli ti de. Jeki eru fomula diẹ, nitori won fa fifalẹ awọn app bi awọn tabili dagba."
+   ],
+   "panel": {
+    "kicker": "Adaṣiṣẹ",
+    "heading": "A kekere-iṣura bot",
+    "items": [
+     "Iṣẹlẹ: tita ti wa ni afikun",
+     "Ipo: iṣura ni tabi ni isalẹ ipele atunto",
+     "Iṣẹ-ṣiṣe: imeeli oniwun",
+     "Idanwo titi ti imeeli yoo fi de"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "A bot ina nikan nigbati iṣẹlẹ ati ipo jẹ otitọ mejeeji.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Fun apẹẹrẹ, Amina n pari ohun elo Esther. O kọ awọn ọran idanwo 14, pẹlu tita gangan apo ti o kẹhin, ati titẹ odo tabi awọn ofo. O nṣiṣẹ wọn bi olumulo idanwo oṣiṣẹ tita."
+   ],
+   "panel": {
+    "kicker": "Idanwo",
+    "heading": "Amina ká igbeyewo akosile",
+    "items": [
+     "Kọ awọn ọran 14 pẹlu awọn abajade ti o nireti",
+     "Fi awọn ọran eti ati awọn titẹ sii ti ko tọ si",
+     "11 ti 14 kọja; fix awọn 3 ikuna",
+     "Tun gbogbo awọn ọran 14 ṣiṣẹ"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "3 kuna. Opoiye 0 ti fipamọ, awọn ọja meji le pin orukọ kan, ati pe oṣiṣẹ le ṣatunkọ ọja ṣiṣi. O ṣe atunṣe ọkọọkan."
+   ],
+   "panel": {
+    "kicker": "Idanwo",
+    "heading": "Amina ká igbeyewo akosile",
+    "items": [
+     "Kọ awọn ọran 14 pẹlu awọn abajade ti o nireti",
+     "Fi awọn ọran eti ati awọn titẹ sii ti ko tọ si",
+     "11 ti 14 kọja; fix awọn 3 ikuna",
+     "Tun gbogbo awọn ọran 14 ṣiṣẹ"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Lẹhinna o tun ṣe gbogbo 14, nitori awọn atunṣe le fọ awọn nkan miiran. Gbogbo kọja, ati awọn igbeyewo log sinu handover pack."
+   ],
+   "panel": {
+    "kicker": "Idanwo",
+    "heading": "Amina ká igbeyewo akosile",
+    "items": [
+     "Kọ awọn ọran 14 pẹlu awọn abajade ti o nireti",
+     "Fi awọn ọran eti ati awọn titẹ sii ti ko tọ si",
+     "11 ti 14 kọja; fix awọn 3 ikuna",
+     "Tun gbogbo awọn ọran 14 ṣiṣẹ"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Lẹhin eyikeyi atunṣe, tun ṣe gbogbo ọran, kii ṣe awọn ikuna nikan.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Beere iwọle, ati lo tabili Awọn olumulo pẹlu awọn ipa nitoribẹẹ oniwun nikan ni yi awọn idiyele pada. Ẹnikẹni ti o ni iraye si satunkọ Google Sheet le yi data pada, nitorinaa pin pẹlu oniwun ati akọle nikan."
+   ],
+   "panel": {
+    "kicker": "Ailewu akọkọ",
+    "heading": "Wiwọle, data ati lilo aisinipo",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Sign-in and roles",
+      "d": "Pin pẹlu awọn imeeli osise ti a npè ni. Oniwun nikan ni o yipada awọn idiyele ati ọja iṣura. Idiwọn ti o satunkọ awọn dì."
+     },
+     {
+      "t": "Personal data",
+      "d": "Gba nikan ohun ti o nilo. Maṣe gba BVN, NIN tabi awọn alaye kaadi ni ohun elo ko si koodu."
+     },
+     {
+      "t": "Sync daily",
+      "d": "Awọn ọjọ aisinipo le tun kọ awọn iyipada awọn miiran. Ṣiṣẹpọ awọn oṣiṣẹ ni o kere ju lojoojumọ."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Awọn nọmba foonu onibara jẹ data ti ara ẹni. Ofin Idaabobo Data Nigeria 2023 nireti pe ki o gba ohun ti o nilo nikan ki o tọju rẹ ni aabo."
+   ],
+   "panel": {
+    "kicker": "Ailewu akọkọ",
+    "heading": "Wiwọle, data ati lilo aisinipo",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Sign-in and roles",
+      "d": "Pin pẹlu awọn imeeli osise ti a npè ni. Oniwun nikan ni o yipada awọn idiyele ati ọja iṣura. Idiwọn ti o satunkọ awọn dì."
+     },
+     {
+      "t": "Personal data",
+      "d": "Gba nikan ohun ti o nilo. Maṣe gba BVN, NIN tabi awọn alaye kaadi ni ohun elo ko si koodu."
+     },
+     {
+      "t": "Sync daily",
+      "d": "Awọn ọjọ aisinipo le tun kọ awọn iyipada awọn miiran. Ṣiṣẹpọ awọn oṣiṣẹ ni o kere ju lojoojumọ."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "AppSheet n ṣiṣẹ ni aisinipo, ṣugbọn aisinipo foonu fun awọn ọjọ le tunkọ awọn ayipada eniyan miiran nigbati o ba muṣiṣẹpọ. Ṣe idanwo ni ipo ọkọ ofurufu."
+   ],
+   "panel": {
+    "kicker": "Ailewu akọkọ",
+    "heading": "Wiwọle, data ati lilo aisinipo",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Sign-in and roles",
+      "d": "Pin pẹlu awọn imeeli osise ti a npè ni. Oniwun nikan ni o yipada awọn idiyele ati ọja iṣura. Idiwọn ti o satunkọ awọn dì."
+     },
+     {
+      "t": "Personal data",
+      "d": "Gba nikan ohun ti o nilo. Maṣe gba BVN, NIN tabi awọn alaye kaadi ni ohun elo ko si koodu."
+     },
+     {
+      "t": "Sync daily",
+      "d": "Awọn ọjọ aisinipo le tun kọ awọn iyipada awọn miiran. Ṣiṣẹpọ awọn oṣiṣẹ ni o kere ju lojoojumọ."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Lati ranti. Nu iwe naa ki o ṣayẹwo gbogbo ọwọn. Ṣe iṣiro ọja iṣura, ma ṣe tẹ ẹ rara. Dina buburu awọn titẹ sii. Tun gbogbo awọn idanwo ṣiṣẹ lẹhin awọn atunṣe. Ki o si fi idii afọwọṣe kan ranṣẹ, nitorinaa ẹnikan miiran ju iwọ le jẹ ki ohun elo naa wa laaye."
+   ],
+   "panel": {
+    "kicker": "Awọn ojuami pataki",
+    "heading": "Ranti",
+    "items": [
+     "Mọ sheets akọkọ; ṣayẹwo gbogbo ọwọn",
+     "Ṣe iṣiro ọja iṣura lati awọn ori ila ti o sopọ",
+     "Wulo Ti o ba nilo ati da awọn titẹ sii buburu duro",
+     "Tun ṣe gbogbo idanwo lẹhin atunṣe kan",
+     "Pack imudani: awoṣe, awọn ofin, awọn olumulo, awọn idiyele, awọn idanwo"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Awọn iṣẹ ṣiṣe rẹ: kọ ẹya akọkọ lati inu iwe mimọ, ṣafikun ọgbọn ati bot ọja kekere, lẹhinna ṣe idanwo, ni aabo ati ṣe igbasilẹ app rẹ.",
+    "Tẹsiwaju pẹlu awọn ẹkọ ni isalẹ."
+   ],
+   "panel": {
+    "kicker": "Ṣiṣe awọn iṣẹ ṣiṣe",
+    "heading": "Awọn iṣẹ ṣiṣe adaṣe rẹ",
+    "items": [
+     "Kọ akọkọ ti ikede",
+     "Fi awọn kannaa ati awọn kekere-iṣura bot",
+     "Idanwo, aabo ati iwe"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

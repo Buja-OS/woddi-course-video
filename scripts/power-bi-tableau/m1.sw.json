@@ -1,0 +1,569 @@
+{
+ "course": "power-bi-tableau",
+ "module": "m1",
+ "title": "Anza na swali, tengeneza data, amini nambari",
+ "course_title": "Power BI na Jedwali: Dashibodi za Biashara Zinazoingiliana",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Anza na swali, tengeneza data, na uamini nambari.",
+    "Hii ni video ya moduli ya kwanza ya Power BI na Tableau: jinsi zana za BI zinavyofikiri kuhusu data."
+   ]
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Dashibodi ni skrini moja inayojibu maswali machache muhimu ya biashara kwa haraka, chati za kujiunga, nambari za vichwa vya habari na vichujio."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Nini dashibodi hufanya kweli",
+    "items": [
+     "Skrini moja, maswali machache muhimu",
+     "Bofya ili kuchunguza jibu zaidi",
+     "Power BI na Tableau hushiriki mawazo mengi",
+     "Mifano nzuri na hatua hufanya kuaminika"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Mtazamaji anaweza kubofya ili kuchunguza, na kuona kinachoendelea, wapi, na kwa nini, ndani ya dakika moja."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Nini dashibodi hufanya kweli",
+    "items": [
+     "Skrini moja, maswali machache muhimu",
+     "Bofya ili kuchunguza jibu zaidi",
+     "Power BI na Tableau hushiriki mawazo mengi",
+     "Mifano nzuri na hatua hufanya kuaminika"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Power BI na Tableau ndizo zana mbili zilizotajwa zaidi katika matangazo ya kazi ya uchanganuzi wa data. Jifunze moja vizuri, na karibu theluthi mbili ya mawazo yanaendelea."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Nini dashibodi hufanya kweli",
+    "items": [
+     "Skrini moja, maswali machache muhimu",
+     "Bofya ili kuchunguza jibu zaidi",
+     "Power BI na Tableau hushiriki mawazo mengi",
+     "Mifano nzuri na hatua hufanya kuaminika"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Sehemu hii inafundisha kinachotenganisha dashibodi ya kitaalamu kutoka kwa lahajedwali nzuri: muundo mzuri wa data na hatua sahihi."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Nini dashibodi hufanya kweli",
+    "items": [
+     "Skrini moja, maswali machache muhimu",
+     "Bofya ili kuchunguza jibu zaidi",
+     "Power BI na Tableau hushiriki mawazo mengi",
+     "Mifano nzuri na hatua hufanya kuaminika"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Kwanza, amua ni aina gani ya dashibodi unayounda, kwa sababu inaamua karibu kila kitu kingine.",
+    "Dashibodi ya kimkakati ni ya wakurugenzi. Nambari chache za kichwa, kwa kawaida huangaliwa kila mwezi."
+   ],
+   "panel": {
+    "kicker": "Jua hadhira yako",
+    "heading": "Aina tatu za dashibodi",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Strategic",
+      "d": "Kwa wakurugenzi na bodi. Nambari chache za vichwa vya habari kama vile mapato na ukingo, kwa kawaida huangaliwa kila mwezi."
+     },
+     {
+      "t": "Operational",
+      "d": "Kwa wasimamizi wanaoendesha kazi za kila siku. Maagizo ya leo, hisa ya chini, uwasilishaji wa marehemu. Inakaguliwa kila siku au saa."
+     },
+     {
+      "t": "Analytical",
+      "d": "Kwa wachambuzi wanaouliza kwanini. Vichujio zaidi, vinu na majedwali ya maelezo ili kuchunguza tatizo."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Dashibodi inayofanya kazi ni ya wasimamizi wanaofanya kazi za kila siku, kama vile maagizo ya leo na uwasilishaji wa marehemu. Inaangaliwa kila siku au hata saa."
+   ],
+   "panel": {
+    "kicker": "Jua hadhira yako",
+    "heading": "Aina tatu za dashibodi",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Strategic",
+      "d": "Kwa wakurugenzi na bodi. Nambari chache za vichwa vya habari kama vile mapato na ukingo, kwa kawaida huangaliwa kila mwezi."
+     },
+     {
+      "t": "Operational",
+      "d": "Kwa wasimamizi wanaoendesha kazi za kila siku. Maagizo ya leo, hisa ya chini, uwasilishaji wa marehemu. Inakaguliwa kila siku au saa."
+     },
+     {
+      "t": "Analytical",
+      "d": "Kwa wachambuzi wanaouliza kwanini. Vichujio zaidi, vinu na majedwali ya maelezo ili kuchunguza tatizo."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Dashibodi ya uchanganuzi ni ya watu wanaouliza ni kwa nini, kwa hivyo ina vichujio zaidi, vinu na maelezo zaidi."
+   ],
+   "panel": {
+    "kicker": "Jua hadhira yako",
+    "heading": "Aina tatu za dashibodi",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Strategic",
+      "d": "Kwa wakurugenzi na bodi. Nambari chache za vichwa vya habari kama vile mapato na ukingo, kwa kawaida huangaliwa kila mwezi."
+     },
+     {
+      "t": "Operational",
+      "d": "Kwa wasimamizi wanaoendesha kazi za kila siku. Maagizo ya leo, hisa ya chini, uwasilishaji wa marehemu. Inakaguliwa kila siku au saa."
+     },
+     {
+      "t": "Analytical",
+      "d": "Kwa wachambuzi wanaouliza kwanini. Vichujio zaidi, vinu na majedwali ya maelezo ili kuchunguza tatizo."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Wataalamu huanza na muhtasari mfupi wa maandishi, sio na zana.",
+    "Kwa mfano, Ngozi alitumia siku mbili hivi kila mwezi katika ripoti ya kurasa 20 kwamba mkurugenzi wake mkuu hakusoma mara chache ukurasa wa 3 uliopita. Kwa hiyo akamuuliza anakagua nini hasa."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Andika muhtasari kabla ya kujenga",
+    "items": [
+     "Uliza mtumiaji kile anachoangalia",
+     "Geuza hilo kuwa maswali matatu ya dashibodi",
+     "Zingatia hadhira na ni mara ngapi wanatazama",
+     "Orodhesha data ambayo kila swali linahitaji"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Aligeuza jibu lake kuwa maswali matatu. Je, tuko kwenye lengo? Ni tawi gani ambalo liko nyuma zaidi? Ni aina gani zimeanguka ikilinganishwa na mwaka jana?"
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Andika muhtasari kabla ya kujenga",
+    "items": [
+     "Uliza mtumiaji kile anachoangalia",
+     "Geuza hilo kuwa maswali matatu ya dashibodi",
+     "Zingatia hadhira na ni mara ngapi wanatazama",
+     "Orodhesha data ambayo kila swali linahitaji"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Alibaini watazamaji: mkurugenzi mmoja, akitazama kila mwezi, haswa kwenye simu yake. Hiyo inaifanya dashibodi ya kimkakati yenye vichujio vichache."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Andika muhtasari kabla ya kujenga",
+    "items": [
+     "Uliza mtumiaji kile anachoangalia",
+     "Geuza hilo kuwa maswali matatu ya dashibodi",
+     "Zingatia hadhira na ni mara ngapi wanatazama",
+     "Orodhesha data ambayo kila swali linahitaji"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Kisha akaorodhesha data inayohitajika, pamoja na angalau miezi 13 ya historia, kwa hivyo mwezi huo huo mwaka jana upo.",
+    "Hapa kuna kanuni. Kila taswira unayoongeza lazima ijibu moja ya maswali yako. Ikiwa haijibu chochote, haiendi kwenye ukurasa."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Andika muhtasari kabla ya kujenga",
+    "items": [
+     "Uliza mtumiaji kile anachoangalia",
+     "Geuza hilo kuwa maswali matatu ya dashibodi",
+     "Zingatia hadhira na ni mara ngapi wanatazama",
+     "Orodhesha data ambayo kila swali linahitaji"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Kila taswira lazima ijibu swali. Ikiwa haijibu chochote, iache.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Data nyingi za biashara hufika kama laha moja pana, ambayo inakuwa kubwa na polepole katika zana ya BI. Kwa hivyo unaigawanya katika schema ya nyota.",
+    "Jedwali la ukweli hurekodi matukio unayohesabu au kuongeza, kama vile kila mauzo."
+   ],
+   "panel": {
+    "kicker": "Schema ya nyota",
+    "heading": "Jedwali la ukweli na meza za vipimo",
+    "mode": "compare",
+    "left_h": "Jedwali la ukweli",
+    "left": [
+     "Matukio unayohesabu au kuongeza",
+     "Muda mrefu: safu nyingi",
+     "Mara nyingi nambari na misimbo ya vitambulisho",
+     "Mfano: kila mstari wa mauzo"
+    ],
+    "right_h": "Jedwali la vipimo",
+    "right": [
+     "Inaeleza mambo yanayohusika",
+     "Fupi: safu mlalo chache",
+     "Maandishi unayochuja na kupanga kulingana",
+     "Mfano: matawi, bidhaa, tarehe"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Jedwali la vipimo linaelezea mambo yanayohusika: matawi, bidhaa, wateja na tarehe.",
+    "Katika mfano wa Ngozi, jina la tawi lilikuwa limehifadhiwa mara 18,000. Sasa imehifadhiwa mara 4."
+   ],
+   "panel": {
+    "kicker": "Schema ya nyota",
+    "heading": "Jedwali la ukweli na meza za vipimo",
+    "mode": "compare",
+    "left_h": "Jedwali la ukweli",
+    "left": [
+     "Matukio unayohesabu au kuongeza",
+     "Muda mrefu: safu nyingi",
+     "Mara nyingi nambari na misimbo ya vitambulisho",
+     "Mfano: kila mstari wa mauzo"
+    ],
+    "right_h": "Jedwali la vipimo",
+    "right": [
+     "Inaeleza mambo yanayohusika",
+     "Fupi: safu mlalo chache",
+     "Maandishi unayochuja na kupanga kulingana",
+     "Mfano: matawi, bidhaa, tarehe"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Andika nafaka: safu mlalo moja ya jedwali la ukweli inamaanisha nini, kama vile bidhaa moja kwenye ankara moja. Kuchanganya nafaka husababisha kuhesabu mara mbili."
+   ],
+   "panel": {
+    "kicker": "Sheria za mfano",
+    "heading": "Sheria tano za muundo wa sauti",
+    "items": [
+     "Andika kiini cha jedwali la ukweli",
+     "Weka kila ufunguo wa vipimo kuwa wa kipekee",
+     "Vichujio vya mwelekeo mmoja hadi vingi",
+     "Tengeneza jedwali kamili la tarehe",
+     "Weka malengo katika jedwali lao ndogo"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Weka kila ufunguo wa vipimo kuwa wa kipekee. Ikiwa nambari ya bidhaa P-104 inaonekana mara mbili na tahajia mbili, mauzo yake yanaweza kuhesabiwa mara mbili."
+   ],
+   "panel": {
+    "kicker": "Sheria za mfano",
+    "heading": "Sheria tano za muundo wa sauti",
+    "items": [
+     "Andika kiini cha jedwali la ukweli",
+     "Weka kila ufunguo wa vipimo kuwa wa kipekee",
+     "Vichujio vya mwelekeo mmoja hadi vingi",
+     "Tengeneza jedwali kamili la tarehe",
+     "Weka malengo katika jedwali lao ndogo"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Unganisha kila kipimo kwenye jedwali la ukweli na uhusiano wa moja hadi nyingi, na uweke mwelekeo wa kichujio kimoja, ili vichujio vitiririke kutoka kwa vipimo hadi ukweli."
+   ],
+   "panel": {
+    "kicker": "Sheria za mfano",
+    "heading": "Sheria tano za muundo wa sauti",
+    "items": [
+     "Andika kiini cha jedwali la ukweli",
+     "Weka kila ufunguo wa vipimo kuwa wa kipekee",
+     "Vichujio vya mwelekeo mmoja hadi vingi",
+     "Tengeneza jedwali kamili la tarehe",
+     "Weka malengo katika jedwali lao ndogo"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Ulinganisho kama vile mwaka hadi sasa unahitaji jedwali la tarehe na kila tarehe na hakuna mapungufu."
+   ],
+   "panel": {
+    "kicker": "Sheria za mfano",
+    "heading": "Sheria tano za muundo wa sauti",
+    "items": [
+     "Andika kiini cha jedwali la ukweli",
+     "Weka kila ufunguo wa vipimo kuwa wa kipekee",
+     "Vichujio vya mwelekeo mmoja hadi vingi",
+     "Tengeneza jedwali kamili la tarehe",
+     "Weka malengo katika jedwali lao ndogo"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Na kuweka malengo katika meza yao wenyewe. Kubandika lengo la kila mwezi kwenye kila safu mlalo ya mauzo hulizidisha kwa idadi ya ankara."
+   ],
+   "panel": {
+    "kicker": "Sheria za mfano",
+    "heading": "Sheria tano za muundo wa sauti",
+    "items": [
+     "Andika kiini cha jedwali la ukweli",
+     "Weka kila ufunguo wa vipimo kuwa wa kipekee",
+     "Vichujio vya mwelekeo mmoja hadi vingi",
+     "Tengeneza jedwali kamili la tarehe",
+     "Weka malengo katika jedwali lao ndogo"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Safu wima iliyohesabiwa inafanywa mara moja, safu kwa safu, wakati data inapakia. Itumie kupanga au kuchuja, kama bendi ya bei kwa kila bidhaa."
+   ],
+   "panel": {
+    "kicker": "Mahesabu",
+    "heading": "Safu wima iliyohesabiwa au kipimo?",
+    "mode": "compare",
+    "left_h": "Safu wima iliyohesabiwa",
+    "left": [
+     "Imekokotolewa mara moja kwa kila safu",
+     "Imehifadhiwa kwenye meza",
+     "Tumia kwa kikundi au kuchuja"
+    ],
+    "right_h": "Pima",
+    "right": [
+     "Imekokotwa wakati taswira inapouliza",
+     "Hujibu kila kichujio",
+     "Tumia kwa jumla na uwiano"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Kipimo huhesabiwa wakati taswira inapoiuliza, kwa hivyo inajibu kila kichujio. Tumia vipimo kwa jumla na uwiano, kama vile ukingo wa faida."
+   ],
+   "panel": {
+    "kicker": "Mahesabu",
+    "heading": "Safu wima iliyohesabiwa au kipimo?",
+    "mode": "compare",
+    "left_h": "Safu wima iliyohesabiwa",
+    "left": [
+     "Imekokotolewa mara moja kwa kila safu",
+     "Imehifadhiwa kwenye meza",
+     "Tumia kwa kikundi au kuchuja"
+    ],
+    "right_h": "Pima",
+    "right": [
+     "Imekokotwa wakati taswira inapouliza",
+     "Hujibu kila kichujio",
+     "Tumia kwa jumla na uwiano"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Hapa kuna kosa la kawaida la hesabu. Mkurugenzi wa Ngozi anaomba kiwango cha faida cha pamoja cha matawi mawili."
+   ],
+   "card": {
+    "title": "Kosa la wastani la uwiano",
+    "rows": [],
+    "note": "Kulia: 900,000 ÷ 5,000,000 = 18%, si 22.5%"
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Lagos iliuza naira 4,000,000 na faida ya naira 600,000. Hiyo ni kiasi cha 15%."
+   ],
+   "card": {
+    "title": "Kosa la wastani la uwiano",
+    "rows": [
+     [
+      "Uuzaji wa Lagos",
+      "4,000,000"
+     ],
+     [
+      "Lagos faida",
+      "600,000"
+     ]
+    ],
+    "note": "Kulia: 900,000 ÷ 5,000,000 = 18%, si 22.5%"
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Kano iliuza naira 1,000,000 na faida ya naira 300,000. Hiyo ni 30%.",
+    "Njia isiyo sahihi ina wastani wa kambi mbili na kupata 22.5%.",
+    "Njia sahihi huongeza kwanza, kisha hugawanya. 900,000 ikigawanywa na 5,000,000 ni 18%.",
+    "Uwiano lazima ugawanywe kwa jumla, sio wastani wa uwiano. Jaribu kila kipimo kipya katika jedwali la kawaida ukitumia kikokotoo kabla ya kukichora."
+   ],
+   "card": {
+    "title": "Kosa la wastani la uwiano",
+    "rows": [
+     [
+      "Uuzaji wa Lagos",
+      "4,000,000"
+     ],
+     [
+      "Lagos faida",
+      "600,000"
+     ],
+     [
+      "Uuzaji wa Kano",
+      "1,000,000"
+     ],
+     [
+      "Kano faida",
+      "300,000"
+     ]
+    ],
+    "note": "Kulia: 900,000 ÷ 5,000,000 = 18%, si 22.5%"
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Kukumbuka. Andika maswali yako na hadhira kwanza. Ukweli hushikilia matukio, vipimo vinashikilia maelezo.",
+    "Weka funguo za kipekee na jedwali lako la tarehe liwe kamili. Tumia vipimo kwa kitu chochote ambacho lazima kijibu vichujio, na ukokote uwiano kama jumla ikigawanywa kwa jumla."
+   ],
+   "panel": {
+    "kicker": "Pointi muhimu",
+    "heading": "Kumbuka",
+    "items": [
+     "Andika maswali na hadhira kabla ya kujenga",
+     "Ukweli unashikilia matukio; vipimo hushikilia maelezo",
+     "Vifunguo vya kipekee, mwelekeo mmoja, meza kamili ya tarehe",
+     "Hatua za chochote ambacho lazima kijibu vichujio",
+     "Uwiano: jumla kugawanywa na jumla, kamwe wastani"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Sasa ni zamu yako. Andika muhtasari wa ukurasa mmoja, jenga schema ya nyota, na unda hatua tano unazoangalia kwa mkono.",
+    "Endelea na masomo hapa chini."
+   ],
+   "panel": {
+    "kicker": "Kazi ya mazoezi",
+    "heading": "Kazi zako za mazoezi",
+    "items": [
+     "Andika muhtasari wako wa kwanza wa dashibodi",
+     "Chora na ujenge schema ya nyota",
+     "Jenga na uangalie hatua tano"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

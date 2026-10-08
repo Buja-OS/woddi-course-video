@@ -1,0 +1,486 @@
+{
+ "course": "core-data-literacy",
+ "module": "m2",
+ "title": "Tableaux bien rangés, formules de travail et graphiques honnêtes",
+ "course_title": "Maîtrise des données : feuilles de calcul, graphiques et indicateurs commerciaux",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Des tableaux bien rangés, des formules de travail et des graphiques honnêtes.",
+    "Ceci est la vidéo du module 2 de Data Literacy."
+   ]
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "La plupart des problèmes liés aux feuilles de calcul commencent par la mise en page et non par les formules. Si le tableau est bien disposé, chaque calcul prend quelques secondes."
+   ],
+   "panel": {
+    "kicker": "Ce que tu feras",
+    "heading": "D'une feuille blanche à un graphique clair",
+    "items": [
+     "Établissez un journal de ventes bien rangé",
+     "Laissez les formules faire l'arithmétique",
+     "Résumez des centaines de lignes par catégorie",
+     "Choisir et lire correctement les graphiques"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Ensuite, vous laissez les formules faire l'addition et transformez un mois entier de lignes en un petit tableau qui répond à une question."
+   ],
+   "panel": {
+    "kicker": "Ce que tu feras",
+    "heading": "D'une feuille blanche à un graphique clair",
+    "items": [
+     "Établissez un journal de ventes bien rangé",
+     "Laissez les formules faire l'arithmétique",
+     "Résumez des centaines de lignes par catégorie",
+     "Choisir et lire correctement les graphiques"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Enfin, vous choisissez un graphique qui correspond à votre question et vous l'étiquetez honnêtement."
+   ],
+   "panel": {
+    "kicker": "Ce que tu feras",
+    "heading": "D'une feuille blanche à un graphique clair",
+    "items": [
+     "Établissez un journal de ventes bien rangé",
+     "Laissez les formules faire l'arithmétique",
+     "Résumez des centaines de lignes par catégorie",
+     "Choisir et lire correctement les graphiques"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Chaque vente a sa propre ligne. Et chaque fait a sa propre colonne. N'écrivez pas 3 sacs de riz dans une cellule. Divisez-le en quantité 3 et en article riz."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Les règles de données ordonnées",
+    "items": [
+     "Une ligne pour chaque vente, paiement ou commande",
+     "Une colonne pour chaque fait : date, article, quantité",
+     "Une ligne d'en-tête en haut",
+     "Pas de cellules fusionnées, de lignes vides ou de totaux moyens",
+     "Même style d’orthographe et de date à chaque fois"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "rule": "Une ligne par enregistrement. Une colonne par variable.",
+    "showRule": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Mettez des titres courts et clairs dans la ligne 1, tels que Date, Article, Quantité, Prix unitaire, Montant et Paiement."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Les règles de données ordonnées",
+    "items": [
+     "Une ligne pour chaque vente, paiement ou commande",
+     "Une colonne pour chaque fait : date, article, quantité",
+     "Une ligne d'en-tête en haut",
+     "Pas de cellules fusionnées, de lignes vides ou de totaux moyens",
+     "Même style d’orthographe et de date à chaque fois"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Une ligne par enregistrement. Une colonne par variable.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Conservez les totaux dans une zone séparée. Écrivez toujours Rice de la même manière et tapez les montants sous forme de chiffres simples, sans le signe naira ou k. Le texte est exclu des totaux."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Les règles de données ordonnées",
+    "items": [
+     "Une ligne pour chaque vente, paiement ou commande",
+     "Une colonne pour chaque fait : date, article, quantité",
+     "Une ligne d'en-tête en haut",
+     "Pas de cellules fusionnées, de lignes vides ou de totaux moyens",
+     "Même style d’orthographe et de date à chaque fois"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Une ligne par enregistrement. Une colonne par variable.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Chaque formule commence par un signe égal. Par exemple, Chioma vend des produits alimentaires sur le marché principal d'Onitsha. Garri : 6 seaux à 2 500 naira. Sa formule, C4 fois D4, donne 15 000.",
+    "Elle copie la formule dans la colonne et chaque ligne s'ajuste d'elle-même."
+   ],
+   "panel": {
+    "kicker": "Premières formules",
+    "heading": "Des formules qui font le travail",
+    "items": [
+     "=C2*D2 multiplie la quantité par le prix unitaire",
+     "=SOMME(E2:E31) ajoute chaque montant",
+     "= MOYENNE et = MÉDIANE pour une vente typique",
+     "=COUNT compte les ventes enregistrées",
+     "=MAX et =MIN trouvent le plus grand et le plus petit"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "SUM ajoute toute une gamme de cellules, de haut en bas."
+   ],
+   "panel": {
+    "kicker": "Premières formules",
+    "heading": "Des formules qui font le travail",
+    "items": [
+     "=C2*D2 multiplie la quantité par le prix unitaire",
+     "=SOMME(E2:E31) ajoute chaque montant",
+     "= MOYENNE et = MÉDIANE pour une vente typique",
+     "=COUNT compte les ventes enregistrées",
+     "=MAX et =MIN trouvent le plus grand et le plus petit"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "MOYENNE, MÉDIANE, COMPTE, MAX et MIN répondent à la plupart des premières questions.",
+    "Chaque fois que Chioma ajoute une vente, ses totaux sont mis à jour. Plus besoin d'additionner le cahier la nuit, et plus de fautes arithmétiques."
+   ],
+   "panel": {
+    "kicker": "Premières formules",
+    "heading": "Des formules qui font le travail",
+    "items": [
+     "=C2*D2 multiplie la quantité par le prix unitaire",
+     "=SOMME(E2:E31) ajoute chaque montant",
+     "= MOYENNE et = MÉDIANE pour une vente typique",
+     "=COUNT compte les ventes enregistrées",
+     "=MAX et =MIN trouvent le plus grand et le plus petit"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Un mois peut contenir des centaines de lignes. Personne ne voit un motif en faisant défiler. SUMIF additionne uniquement les lignes qui correspondent à une condition, comme le mot Rice."
+   ],
+   "card": {
+    "title": "D'où vient l'argent d'Ada ?",
+    "rows": [],
+    "note": "Totaux par article en utilisant SUMIF."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Ada répertorie chaque élément et utilise SUMIF à côté. Le riz rapporte 180 000 nairas. Cela équivaut à 180 000 divisé par 400 000, multiplié par 100, soit 45 %."
+   ],
+   "card": {
+    "title": "D'où vient l'argent d'Ada ?",
+    "rows": [
+     [
+      "Riz",
+      "180,000"
+     ],
+     [
+      "Haricots",
+      "72,000"
+     ],
+     [
+      "Huile de palme",
+      "60,000"
+     ],
+     [
+      "Garri",
+      "48,000"
+     ],
+     [
+      "D'autres",
+      "40,000"
+     ]
+    ],
+    "note": "Totaux par article en utilisant SUMIF."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Ses objets totalisent 400 000, soit la SOMME de chaque montant, et ses actions totalisent 100 %. Exécutez toujours cette vérification. Si cela ne correspond pas, certaines lignes sont orthographiées différemment.",
+    "Le riz représente près de la moitié de ses ventes, elle garde donc au moins deux sacs en stock."
+   ],
+   "card": {
+    "title": "D'où vient l'argent d'Ada ?",
+    "rows": [
+     [
+      "Riz",
+      "180,000"
+     ],
+     [
+      "Haricots",
+      "72,000"
+     ],
+     [
+      "Huile de palme",
+      "60,000"
+     ],
+     [
+      "Garri",
+      "48,000"
+     ],
+     [
+      "D'autres",
+      "40,000"
+     ]
+    ],
+    "note": "Totaux par article en utilisant SUMIF."
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "COUNTIF compte les lignes qui correspondent. Ada trouve 120 virements, 70 espèces et 30 points de vente, et les chèques totalisent 220."
+   ],
+   "panel": {
+    "kicker": "Résumer",
+    "heading": "Comptez, additionnez, puis vérifiez",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "COUNTIF counts",
+      "d": "Compte les lignes qui correspondent. Ada : 120 transferts, 70 cash, 30 POS, soit 220 ventes."
+     },
+     {
+      "t": "Share of total",
+      "d": "Catégorie divisée par le total, multipliée par 100. Les transferts représentent environ 54,5 % des paiements d'Ada."
+     },
+     {
+      "t": "Act safely",
+      "d": "Avec autant de virements, elle affiche les détails de son compte et vérifie chaque alerte dans son application bancaire."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "120 divisé par 220, multiplié par 100, équivaut à environ 54,5 %. Plus de la moitié de ses clients paient par virement."
+   ],
+   "panel": {
+    "kicker": "Résumer",
+    "heading": "Comptez, additionnez, puis vérifiez",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "COUNTIF counts",
+      "d": "Compte les lignes qui correspondent. Ada : 120 transferts, 70 cash, 30 POS, soit 220 ventes."
+     },
+     {
+      "t": "Share of total",
+      "d": "Catégorie divisée par le total, multipliée par 100. Les transferts représentent environ 54,5 % des paiements d'Ada."
+     },
+     {
+      "t": "Act safely",
+      "d": "Avec autant de virements, elle affiche les détails de son compte et vérifie chaque alerte dans son application bancaire."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Elle imprime donc clairement les détails de son compte et vérifie chaque alerte dans son application bancaire avant de libérer les marchandises. Un bon résumé mène à une décision."
+   ],
+   "panel": {
+    "kicker": "Résumer",
+    "heading": "Comptez, additionnez, puis vérifiez",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "COUNTIF counts",
+      "d": "Compte les lignes qui correspondent. Ada : 120 transferts, 70 cash, 30 POS, soit 220 ventes."
+     },
+     {
+      "t": "Share of total",
+      "d": "Catégorie divisée par le total, multipliée par 100. Les transferts représentent environ 54,5 % des paiements d'Ada."
+     },
+     {
+      "t": "Act safely",
+      "d": "Avec autant de virements, elle affiche les détails de son compte et vérifie chaque alerte dans son application bancaire."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Les barres comparent les catégories. Les lignes montrent le changement au fil du temps. Par exemple, Ruth vend des petites côtelettes à Port Harcourt. Ses six semaines totalisent 356 000 nairas, soit une moyenne d'environ 59 333 nairas, elle utilise donc un graphique linéaire."
+   ],
+   "panel": {
+    "kicker": "Graphiques",
+    "heading": "Associez le tableau à la question",
+    "items": [
+     "Lequel se vend le plus ? Graphique à barres ou à colonnes",
+     "Changer avec le temps ? Graphique linéaire",
+     "Part d'un tout ? Tarte, 2 à 5 tranches seulement",
+     "Lien entre deux mesures ? Graphique à nuages de points",
+     "Besoin de chiffres précis ? Une petite table"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "La semaine 4 à la semaine 5 a augmenté d'environ 14,8 %, puis a chuté d'environ 5,7 %. Elle ajoute une note selon laquelle la semaine 3 a eu de fortes pluies. Son titre dit ce qu'il montre : les ventes hebdomadaires ont tendance à augmenter, semaines 1 à 6, en naira."
+   ],
+   "panel": {
+    "kicker": "Graphiques",
+    "heading": "Associez le tableau à la question",
+    "items": [
+     "Lequel se vend le plus ? Graphique à barres ou à colonnes",
+     "Changer avec le temps ? Graphique linéaire",
+     "Part d'un tout ? Tarte, 2 à 5 tranches seulement",
+     "Lien entre deux mesures ? Graphique à nuages de points",
+     "Besoin de chiffres précis ? Une petite table"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Utilisez une tarte uniquement pour quelques parties et un tableau lorsque quelqu'un a besoin de chiffres exacts."
+   ],
+   "panel": {
+    "kicker": "Graphiques",
+    "heading": "Associez le tableau à la question",
+    "items": [
+     "Lequel se vend le plus ? Graphique à barres ou à colonnes",
+     "Changer avec le temps ? Graphique linéaire",
+     "Part d'un tout ? Tarte, 2 à 5 tranches seulement",
+     "Lien entre deux mesures ? Graphique à nuages de points",
+     "Besoin de chiffres précis ? Une petite table"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Lisez chaque graphique de l'extérieur vers l'intérieur. Ventes 70 pourrait signifier 70 bouteilles ou 70 000 naira, alors vérifiez les unités. Sur un graphique à barres, l’axe des valeurs doit commencer à zéro, sinon les petites différences semblent énormes.",
+    "Montrez ensuite votre tableau à une personne. Si elle ne peut pas exprimer le message en une seule phrase, améliorez-le."
+   ],
+   "panel": {
+    "kicker": "A lire avec attention",
+    "heading": "Cinq vérifications lors de la lecture d'un graphique",
+    "items": [
+     "Que prétend le titre ?",
+     "Que mesurent les axes ?",
+     "Quelles sont les unités ?",
+     "L'échelle commence-t-elle à zéro ?",
+     "Qui l’a réalisé, à partir de quelles données ?"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "À retenir. Gardez votre table bien rangée. Laissez les formules faire le travail. Résumez par catégorie et vérifiez toujours que cela correspond. Et choisissez un graphique honnête avec un titre et des unités clairs."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Une ligne par enregistrement, une colonne par variable",
+     "Les formules commencent par = et se mettent à jour",
+     "SUMIF ajoute par catégorie ; COUNTIF compte",
+     "Les totaux des catégories doivent correspondre à la SOMME globale",
+     "Les barres se comparent, les lignes affichent l'heure, les tartes restent petites"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "À votre tour. Créez votre propre journal, résumez-le et créez un graphique que quelqu'un d'autre peut comprendre en une phrase.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâches d'entraînement",
+    "heading": "Vos tâches pratiques",
+    "items": [
+     "Construisez un journal bien rangé avec au moins 15 enregistrements",
+     "Résumez-le avec SUMIF et COUNTIF",
+     "Vérifiez vos partages et ajoutez-les à 100 %",
+     "Faites un graphique et testez-le sur une personne"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

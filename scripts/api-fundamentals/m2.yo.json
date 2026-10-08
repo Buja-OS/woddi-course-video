@@ -1,0 +1,500 @@
+{
+ "course": "api-fundamentals",
+ "module": "m2",
+ "title": "Idanwo lailewu, ṣọ awọn bọtini rẹ, gbero fun ikuna",
+ "course_title": "API Awọn ipilẹ",
+ "shots": [
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Ṣe idanwo lailewu, tọju awọn bọtini rẹ, ati gbero fun ikuna.",
+    "Eyi ni fidio fun module meji ti Awọn ipilẹ API."
+   ]
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Ọpa adirẹsi aṣawakiri le firanṣẹ awọn ibeere GET nikan, ati pe o tọju awọn akọle. Lati ṣe idanwo awọn API gidi o nilo alabara API kan, irinṣẹ nibiti o ti mu ọna, URL, awọn akọle ati ara, ati wo idahun ni kikun."
+   ],
+   "panel": {
+    "kicker": "Kini idi ti eyi ṣe pataki",
+    "heading": "Aṣeyọri kan jẹ ibẹrẹ nikan",
+    "items": [
+     "Lo alabara API to dara",
+     "Ka iwe akọkọ",
+     "Ṣe afihan sisan ni ipo idanwo",
+     "Gbero fun awọn aṣiṣe, awọn oju-iwe ati awọn atunṣe"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Iṣẹ API gidi bẹrẹ pẹlu iwulo kan, gẹgẹbi: a fẹ lati mọ laifọwọyi nigbati alabara ba ti sanwo. O ka iwe naa, lẹhinna ṣe idanwo lailewu ṣaaju ki ohunkohun to lọ laaye."
+   ],
+   "panel": {
+    "kicker": "Kini idi ti eyi ṣe pataki",
+    "heading": "Aṣeyọri kan jẹ ibẹrẹ nikan",
+    "items": [
+     "Lo alabara API to dara",
+     "Ka iwe akọkọ",
+     "Ṣe afihan sisan ni ipo idanwo",
+     "Gbero fun awọn aṣiṣe, awọn oju-iwe ati awọn atunṣe"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Ati iṣọpọ ti o gbẹkẹle ṣe ihuwasi ni oye nigbati awọn nkan ba lọ aṣiṣe."
+   ],
+   "panel": {
+    "kicker": "Kini idi ti eyi ṣe pataki",
+    "heading": "Aṣeyọri kan jẹ ibẹrẹ nikan",
+    "items": [
+     "Lo alabara API to dara",
+     "Ka iwe akọkọ",
+     "Ṣe afihan sisan ni ipo idanwo",
+     "Gbero fun awọn aṣiṣe, awọn oju-iwe ati awọn atunṣe"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Ọpọlọpọ awọn akẹkọ bẹrẹ pẹlu Hoppscotch lori foonu kan. O jẹ ọfẹ ati ina lori data."
+   ],
+   "panel": {
+    "kicker": "Ohun elo irinṣẹ rẹ",
+    "heading": "Hoppscotch tabi Postman?",
+    "mode": "compare",
+    "left_h": "Hoppscotch",
+    "left": [
+     "Ṣiṣe ni eyikeyi ẹrọ aṣawakiri, paapaa foonu kan",
+     "Ọfẹ, ko si fifi sori ẹrọ",
+     "Imọlẹ lori data"
+    ],
+    "right_h": "Oṣiṣẹ ifiweranṣẹ",
+    "right": [
+     "Ohun elo tabili tabi wẹẹbu",
+     "Fipamọ awọn ikojọpọ, pin pẹlu ẹgbẹ kan",
+     "Gbigbasilẹ nla lori data alagbeka"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Postman baamu awọn ikojọpọ ti o fipamọ ati awọn ẹgbẹ lori kọǹpútà alágbèéká kan.",
+    "Tun kọ ẹkọ lati ka curl, nitori pupọ julọ awọn iwe-ipamọ fihan awọn apẹẹrẹ ni ọna yẹn. Dash H ṣe afikun akọsori kan, dash d jẹ ara, ati dash X ṣeto ọna naa.",
+    "Ṣe adaṣe lori awọn API iro bi JSONPlaceholder, eyiti o ṣebi ẹni pe o fipamọ nikan. Maṣe ṣe idanwo pẹlu DELETE lori akọọlẹ iṣowo gidi kan."
+   ],
+   "panel": {
+    "kicker": "Ohun elo irinṣẹ rẹ",
+    "heading": "Hoppscotch tabi Postman?",
+    "mode": "compare",
+    "left_h": "Hoppscotch",
+    "left": [
+     "Ṣiṣe ni eyikeyi ẹrọ aṣawakiri, paapaa foonu kan",
+     "Ọfẹ, ko si fifi sori ẹrọ",
+     "Imọlẹ lori data"
+    ],
+    "right_h": "Oṣiṣẹ ifiweranṣẹ",
+    "right": [
+     "Ohun elo tabili tabi wẹẹbu",
+     "Fipamọ awọn ikojọpọ, pin pẹlu ẹgbẹ kan",
+     "Gbigbasilẹ nla lori data alagbeka"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Iwe ti o dara dahun awọn ibeere kanna ni gbogbo igba. Wa URL ipilẹ, nibiti gbogbo aaye ipari ti bẹrẹ. Lẹhinna bawo ni o ṣe jẹrisi ẹniti o jẹ. Pupọ julọ awọn API gba bọtini kan ninu akọsori Aṣẹ gẹgẹbi ami Oluduro."
+   ],
+   "panel": {
+    "kicker": "Kika awọn iwe aṣẹ",
+    "heading": "Wa awọn wọnyi ṣaaju ki o to firanṣẹ",
+    "items": [
+     "URL mimọ",
+     "Ijeri: ibi ti awọn bọtini lọ",
+     "Awọn aaye ipari, awọn aaye ati awọn idahun ayẹwo",
+     "Awọn ẹya, gẹgẹbi owo ni kobo",
+     "Ipo idanwo tabi apoti iyanrin",
+     "Awọn aṣiṣe, awọn opin oṣuwọn ati awọn oju-iwe"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Ṣe akiyesi ọna ipari kọọkan, ọna ati awọn aaye ti a beere, ati awọn ẹya, gẹgẹbi owo ni kobo."
+   ],
+   "panel": {
+    "kicker": "Kika awọn iwe aṣẹ",
+    "heading": "Wa awọn wọnyi ṣaaju ki o to firanṣẹ",
+    "items": [
+     "URL mimọ",
+     "Ijeri: ibi ti awọn bọtini lọ",
+     "Awọn aaye ipari, awọn aaye ati awọn idahun ayẹwo",
+     "Awọn ẹya, gẹgẹbi owo ni kobo",
+     "Ipo idanwo tabi apoti iyanrin",
+     "Awọn aṣiṣe, awọn opin oṣuwọn ati awọn oju-iwe"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Wa ipo idanwo, nibiti ko si ohun gidi ti o ṣẹlẹ, ati ọna kika aṣiṣe, awọn opin oṣuwọn ati awọn iwọn oju-iwe.",
+    "Foju iwe-ipamọ tabi igbesẹ idanwo ni ibiti awọn iṣọpọ ti kuna pupọ julọ bẹrẹ."
+   ],
+   "panel": {
+    "kicker": "Kika awọn iwe aṣẹ",
+    "heading": "Wa awọn wọnyi ṣaaju ki o to firanṣẹ",
+    "items": [
+     "URL mimọ",
+     "Ijeri: ibi ti awọn bọtini lọ",
+     "Awọn aaye ipari, awọn aaye ati awọn idahun ayẹwo",
+     "Awọn ẹya, gẹgẹbi owo ni kobo",
+     "Ipo idanwo tabi apoti iyanrin",
+     "Awọn aṣiṣe, awọn opin oṣuwọn ati awọn oju-iwe"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Fun apẹẹrẹ, Ruth n ta aṣọ adire ni Abeokuta ati pe o fẹ ọna asopọ sisan fun aṣẹ 15,000 naira. Olùgbéejáde rẹ fun u ni bọtini idanwo Paystack ni Postman. Ko si ohun ti o wa ni ipo idanwo ti o gbe owo gidi lọ."
+   ],
+   "panel": {
+    "kicker": "Apẹẹrẹ ṣiṣẹ",
+    "heading": "Owo idanwo Rutu, opin de opin",
+    "items": [
+     "Nilo: ọna asopọ isanwo 15,000 naira",
+     "Iyipada: 15,000 x 100 = 1,500,000 kobo",
+     "POST pẹlu bọtini idanwo Bearer ati ara JSON",
+     "Ṣii ọna asopọ, pipe isanwo idanwo",
+     "Daju: ipo, owo NGN, iye"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Iye naa n lọ ni kobo, nitorina 15,000 igba 100 jẹ 1,500,000."
+   ],
+   "panel": {
+    "kicker": "Apẹẹrẹ ṣiṣẹ",
+    "heading": "Owo idanwo Rutu, opin de opin",
+    "items": [
+     "Nilo: ọna asopọ isanwo 15,000 naira",
+     "Iyipada: 15,000 x 100 = 1,500,000 kobo",
+     "POST pẹlu bọtini idanwo Bearer ati ara JSON",
+     "Ṣii ọna asopọ, pipe isanwo idanwo",
+     "Daju: ipo, owo NGN, iye"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "O fi POST ranṣẹ si aaye ipari ibẹrẹ, pẹlu bọtini idanwo ni akọsori Aṣẹ ati imeeli ati iye ninu ara."
+   ],
+   "panel": {
+    "kicker": "Apẹẹrẹ ṣiṣẹ",
+    "heading": "Owo idanwo Rutu, opin de opin",
+    "items": [
+     "Nilo: ọna asopọ isanwo 15,000 naira",
+     "Iyipada: 15,000 x 100 = 1,500,000 kobo",
+     "POST pẹlu bọtini idanwo Bearer ati ara JSON",
+     "Ṣii ọna asopọ, pipe isanwo idanwo",
+     "Daju: ipo, owo NGN, iye"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_social",
+   "say": [
+    "Idahun naa ni ọna asopọ isanwo ati itọkasi kan. O pari isanwo idanwo naa."
+   ],
+   "panel": {
+    "kicker": "Apẹẹrẹ ṣiṣẹ",
+    "heading": "Owo idanwo Rutu, opin de opin",
+    "items": [
+     "Nilo: ọna asopọ isanwo 15,000 naira",
+     "Iyipada: 15,000 x 100 = 1,500,000 kobo",
+     "POST pẹlu bọtini idanwo Bearer ati ara JSON",
+     "Ṣii ọna asopọ, pipe isanwo idanwo",
+     "Daju: ipo, owo NGN, iye"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_social",
+   "say": [
+    "Lẹhinna o jẹrisi pẹlu itọkasi: aṣeyọri ipo, NGN owo, ati iye ti o pin pada si 15,000 naira. Ni bayi nikan ni olupilẹṣẹ rẹ yoo yipada si awọn bọtini laaye."
+   ],
+   "panel": {
+    "kicker": "Apẹẹrẹ ṣiṣẹ",
+    "heading": "Owo idanwo Rutu, opin de opin",
+    "items": [
+     "Nilo: ọna asopọ isanwo 15,000 naira",
+     "Iyipada: 15,000 x 100 = 1,500,000 kobo",
+     "POST pẹlu bọtini idanwo Bearer ati ara JSON",
+     "Ṣii ọna asopọ, pipe isanwo idanwo",
+     "Daju: ipo, owo NGN, iye"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Ṣayẹwo iye ati owo, kii ṣe ọrọ aṣeyọri nikan.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Bọtini ikoko le ṣiṣẹ lori gbogbo akọọlẹ, pẹlu owo. Jeki o lori olupin nikan, ko si ni app koodu awọn olumulo gbaa lati ayelujara. Maṣe fi ranṣẹ si WhatsApp tabi imeeli, tabi lẹẹmọ rẹ sinu awọn ibaraẹnisọrọ AI, awọn sikirinisoti tabi awọn iwe aṣẹ pinpin. Jeki o kuro ni GitHub.",
+    "Ti bọtini kan ba ti jo, ṣe ipilẹṣẹ tuntun ni ẹẹkan, eyiti o da ti atijọ duro."
+   ],
+   "panel": {
+    "kicker": "Aabo",
+    "heading": "Ṣe itọju bọtini aṣiri bi PIN banki rẹ",
+    "items": [
+     "Jeki ni ẹgbẹ olupin nikan",
+     "Maṣe lori WhatsApp, imeeli tabi awọn iwiregbe AI",
+     "Maṣe wa ninu awọn sikirinisoti tabi awọn iwe aṣẹ pinpin",
+     "Jeki o kuro ni koodu lori GitHub",
+     "Ti o ba ti jo, ṣe agbejade tuntun kan"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Ni akọkọ, awọn idiwọn oṣuwọn. A 429 tumo si ọpọlọpọ awọn ibeere. Duro niwọn igba ti akọsori Tun gbiyanju-Lẹhin ti sọ. Fun awọn aṣiṣe olupin igba diẹ, duro ati ilọpo meji idaduro ni igba kọọkan. Maṣe tun POST kan ti o n gbe owo gbiyanju laifọwọyi."
+   ],
+   "panel": {
+    "kicker": "Idanwo fun ikuna",
+    "heading": "Awọn nkan mẹta ti ko tọ",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "429 Too Many Requests",
+      "d": "Duro niwọn igba ti Tun gbiyanju-Lẹhin ti sọ. 3,600 aaya jẹ wakati kan. Fun 5xx, sẹhin kuro: 1, 2, 4, 8 aaya."
+     },
+     {
+      "t": "Awọn akojọ wa ni awọn oju-iwe",
+      "d": "Awọn igbasilẹ 230 ni 50 fun oju-iwe kan jẹ awọn oju-iwe 5. Ka lapapọ si orisun keji."
+     },
+     {
+      "t": "Webhooks arrive twice",
+      "d": "Ṣayẹwo ibuwọlu naa, dahun 200 O dara ni iyara, foo awọn atunwi, rii daju ṣaaju fifiranṣẹ."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Keji, awọn oju-iwe. Grace ni Kaduna nilo awọn iṣowo 230 ni 50 fun oju-iwe kan, nitorina awọn oju-iwe 5. Ti o ba duro ni oju-iwe 1, 180 yoo ti padanu."
+   ],
+   "panel": {
+    "kicker": "Idanwo fun ikuna",
+    "heading": "Awọn nkan mẹta ti ko tọ",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "429 Too Many Requests",
+      "d": "Duro niwọn igba ti Tun gbiyanju-Lẹhin ti sọ. 3,600 aaya jẹ wakati kan. Fun 5xx, sẹhin kuro: 1, 2, 4, 8 aaya."
+     },
+     {
+      "t": "Awọn akojọ wa ni awọn oju-iwe",
+      "d": "Awọn igbasilẹ 230 ni 50 fun oju-iwe kan jẹ awọn oju-iwe 5. Ka lapapọ si orisun keji."
+     },
+     {
+      "t": "Webhooks arrive twice",
+      "d": "Ṣayẹwo ibuwọlu naa, dahun 200 O dara ni iyara, foo awọn atunwi, rii daju ṣaaju fifiranṣẹ."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Kẹta, webhooks, nibiti olupese n pe URL rẹ nigbati nkan kan ba ṣẹlẹ, gẹgẹbi sisanwo. Ṣayẹwo ibuwọlu, fesi 200 O dara ni ẹẹkan, ati nireti iṣẹlẹ kanna diẹ sii ju ẹẹkan lọ.",
+    "Maṣe tu awọn ẹru silẹ lori sikirinifoto tabi kio wẹẹbu ti ko rii daju. Scammers rán iro titaniji."
+   ],
+   "panel": {
+    "kicker": "Idanwo fun ikuna",
+    "heading": "Awọn nkan mẹta ti ko tọ",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "429 Too Many Requests",
+      "d": "Duro niwọn igba ti Tun gbiyanju-Lẹhin ti sọ. 3,600 aaya jẹ wakati kan. Fun 5xx, sẹhin kuro: 1, 2, 4, 8 aaya."
+     },
+     {
+      "t": "Awọn akojọ wa ni awọn oju-iwe",
+      "d": "Awọn igbasilẹ 230 ni 50 fun oju-iwe kan jẹ awọn oju-iwe 5. Ka lapapọ si orisun keji."
+     },
+     {
+      "t": "Webhooks arrive twice",
+      "d": "Ṣayẹwo ibuwọlu naa, dahun 200 O dara ni iyara, foo awọn atunwi, rii daju ṣaaju fifiranṣẹ."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Awọn API yipada, awọn bọtini dopin, ati pe olupilẹṣẹ n tẹsiwaju. Iwe ṣiṣe kukuru kan jẹ ki ẹlomiran jẹ ki o ṣiṣẹ. Ṣe igbasilẹ iwulo iṣowo, oniwun rẹ, ati awọn oju-iwe iwe deede."
+   ],
+   "panel": {
+    "kicker": "Fi ọwọ le",
+    "heading": "Iwe ṣiṣe API",
+    "items": [
+     "Idi ati eni",
+     "Olupese, URL ipilẹ ati awọn ọna asopọ docs",
+     "Awọn aaye ipari, awọn aaye ati awọn sipo",
+     "Nibiti awọn bọtini ti wa ni ipamọ, kii ṣe awọn bọtini",
+     "Awọn aṣiṣe, awọn opin, awọn idanwo ati awọn olubasọrọ"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Ṣe atokọ aaye ipari kọọkan pẹlu awọn ẹya rẹ. Gba silẹ nibiti awọn bọtini ti wa ni ipamọ ati tani o le wọle si wọn, ṣugbọn kii ṣe awọn bọtini funrararẹ."
+   ],
+   "panel": {
+    "kicker": "Fi ọwọ le",
+    "heading": "Iwe ṣiṣe API",
+    "items": [
+     "Idi ati eni",
+     "Olupese, URL ipilẹ ati awọn ọna asopọ docs",
+     "Awọn aaye ipari, awọn aaye ati awọn sipo",
+     "Nibiti awọn bọtini ti wa ni ipamọ, kii ṣe awọn bọtini",
+     "Awọn aṣiṣe, awọn opin, awọn idanwo ati awọn olubasọrọ"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Pari pẹlu awọn ofin aṣiṣe, awọn abajade idanwo pẹlu awọn ọjọ, ati tani lati kan si."
+   ],
+   "panel": {
+    "kicker": "Fi ọwọ le",
+    "heading": "Iwe ṣiṣe API",
+    "items": [
+     "Idi ati eni",
+     "Olupese, URL ipilẹ ati awọn ọna asopọ docs",
+     "Awọn aaye ipari, awọn aaye ati awọn sipo",
+     "Nibiti awọn bọtini ti wa ni ipamọ, kii ṣe awọn bọtini",
+     "Awọn aṣiṣe, awọn opin, awọn idanwo ati awọn olubasọrọ"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Lati ranti. Ṣe adaṣe lori awọn API iro ati ni ipo idanwo. Daju iye ati owo. Tọju awọn bọtini ikoko sori olupin naa, ki o rọpo eyikeyi ti o jo. Ọwọ Tun gbiyanju-Lẹhin, ati kika gbogbo oju-iwe."
+   ],
+   "panel": {
+    "kicker": "Awọn ojuami pataki",
+    "heading": "Ranti",
+    "items": [
+     "Ṣe adaṣe lori awọn API iro ati ipo idanwo",
+     "Ṣayẹwo iye ati owo, kii ṣe aṣeyọri nikan",
+     "Awọn bọtini ikoko duro olupin-ẹgbẹ",
+     "Ọwọ Tun gbiyanju-Lẹhin; ka gbogbo oju-iwe"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Bayi ṣiṣe ati ṣe igbasilẹ awọn ibeere adaṣe mẹrin, kọ oju-iwe oju-iwe API kan, ki o kọ ero idanwo ati iwe ṣiṣe.",
+    "Tẹsiwaju pẹlu awọn ẹkọ ni isalẹ."
+   ],
+   "panel": {
+    "kicker": "Ṣiṣe awọn iṣẹ ṣiṣe",
+    "heading": "Awọn iṣẹ ṣiṣe adaṣe rẹ",
+    "items": [
+     "Ṣiṣe ati ṣe igbasilẹ awọn ibeere adaṣe mẹrin",
+     "Kọ iwe otitọ oju-iwe API kan",
+     "Kọ eto idanwo ati ṣiṣe iwe"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

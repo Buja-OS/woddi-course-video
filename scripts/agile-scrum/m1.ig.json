@@ -1,0 +1,454 @@
+{
+ "course": "agile-scrum",
+ "module": "m1",
+ "title": "Kedu ka Agile na Scrum si arụ ọrụ n'ezie, yana mgbe ị ga-eji Kanban",
+ "course_title": "Agile & Scrum na Omume",
+ "shots": [
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Kedu ka Agile na Scrum si arụ ọrụ n'ezie, yana mgbe ị ga-eji Kanban.",
+    "Nke a bụ vidiyo maka modul 1 nke Agile na Scrum in Practice."
+   ]
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Were anya hụ otu ndị na-arụ ebe a na-akwụ ụgwọ ụlọ akwụkwọ na Abuja. N'ime ọrụ a na-eme atụmatụ, nke a na-akpọkarị mmiri mmiri, ha na-ebu ụzọ chịkọta ihe niile achọrọ, wuo ọnwa, ma nwalee na njedebe. Ndị nwe ụlọ akwụkwọ ahụ ahụghị ihe ọ bụla a ga-eji eme ya ruo ọnwa isii."
+   ],
+   "panel": {
+    "kicker": "Gịnị mere Agile",
+    "heading": "Atụmatụ na-ebute nnyefe Agile",
+    "mode": "compare",
+    "left_h": "Atụmatụ na-eduzi",
+    "left": [
+     "Ihe niile achọrọ n'ihu",
+     "Otu nnyefe na njedebe",
+     "Mgbanwe dị oke ọnụ ma na-eguzogide ya",
+     "Achọpụtara ihe egwu n'oge"
+    ],
+    "right_h": "Agile",
+    "right": [
+     "Chọrọ nụchaa okirikiri ọ bụla",
+     "Iberibe ọrụ kwa izu 1 ruo 4",
+     "Gbanwee echere na emebere ya",
+     "Ekpughere ihe egwu n'oge"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Otu Agile na-arụ ọrụ na obere okirikiri nke 1 ruo 4 izu. Usoro nke ọ bụla na-ejedebe na obere mpempe ọrụ nke ezigbo ndị ọrụ nwere ike ịnwale. Ha na-anakọta nzaghachi ma dozie atụmatụ ahụ.",
+    "Agile apụtaghị na ọ dịghị atụmatụ. Ụzọ abụọ a na-eme atụmatụ. Ihe dị iche bụ ugboro ole atụmatụ a na-ezute eziokwu."
+   ],
+   "panel": {
+    "kicker": "Gịnị mere Agile",
+    "heading": "Atụmatụ na-ebute nnyefe Agile",
+    "mode": "compare",
+    "left_h": "Atụmatụ na-eduzi",
+    "left": [
+     "Ihe niile achọrọ n'ihu",
+     "Otu nnyefe na njedebe",
+     "Mgbanwe dị oke ọnụ ma na-eguzogide ya",
+     "Achọpụtara ihe egwu n'oge"
+    ],
+    "right_h": "Agile",
+    "right": [
+     "Chọrọ nụchaa okirikiri ọ bụla",
+     "Iberibe ọrụ kwa izu 1 ruo 4",
+     "Gbanwee echere na emebere ya",
+     "Ekpughere ihe egwu n'oge"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Ndị otu ahụ chere na ndị nne na nna ga-akwụ ụgwọ site na kaadị. Ọtụtụ na-akwụ ụgwọ site na mbufe ụlọ akụ ma ọ bụ USSD."
+   ],
+   "card": {
+    "title": "Ọnụ nke nchọpụta mbubreyo",
+    "rows": [],
+    "note": "Ihe atụ, ọnụ ọgụgụ dị nso."
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Ebe ndị mmepe 4 nọ ihe dị ka puku naira iri abụọ na ise kwa ụbọchị, otu a na-efu otu narị naira otu ụbọchị."
+   ],
+   "card": {
+    "title": "Ọnụ nke nchọpụta mbubreyo",
+    "rows": [
+     [
+      "Ọnụ otu otu kwa ụbọchị",
+      "100,000"
+     ]
+    ],
+    "note": "Ihe atụ, ọnụ ọgụgụ dị nso."
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Na mmiri mmiri, njehie na-apụta na nnwale mgbe ụbọchị 60 gachara. 30% nke ọrụ dabere na ya, yabụ ụbọchị 18 ga-emerịrịrịrị. Nke ahụ bụ 1,800,000 naira."
+   ],
+   "card": {
+    "title": "Ọnụ nke nchọpụta mbubreyo",
+    "rows": [
+     [
+      "Ọnụ otu otu kwa ụbọchị",
+      "100,000"
+     ],
+     [
+      "Waterfall rework, 18 ụbọchị",
+      "1,800,000"
+     ]
+    ],
+    "note": "Ihe atụ, ọnụ ọgụgụ dị nso."
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Na Agile, ndị nne na nna na-anwale ihuenyo ịkwụ ụgwọ mbụ mgbe sprint 1. Naanị ihe dị ka ụbọchị 3 nke ọrụ na-adabere na echiche na-ezighị ezi. Nke ahụ bụ puku naira atọ.",
+    "Otu ụzọ n'ụzọ isii nke ọnụ ahịa, na ihe dị ka ọnwa abụọ nke igbu oge zere. Nke ahụ bụ isi arụmụka maka obere okirikiri: nyochaa ihe mere n'ezie, wee gbanwee."
+   ],
+   "card": {
+    "title": "Ọnụ nke nchọpụta mbubreyo",
+    "rows": [
+     [
+      "Ọnụ otu otu kwa ụbọchị",
+      "100,000"
+     ],
+     [
+      "Waterfall rework, 18 ụbọchị",
+      "1,800,000"
+     ],
+     [
+      "Agile rework, 3 ụbọchị",
+      "300,000"
+     ]
+    ],
+    "note": "Ihe atụ, ọnụ ọgụgụ dị nso."
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Scrum bụ usoro eji eme ihe maka itinye Agile n'ọrụ. A kọwapụtara ya na ntuziaka Scrum efu, emelitere ikpeazụ na Nọvemba 2020. Otu Scrum na-abụkarị mmadụ 10 ma ọ bụ ole na ole, nwere akaụntụ atọ.",
+    "Onye nwe ngwaahịa bụ otu onye, ọ bụghị kọmitii. Ọ na-ebuli uru ma nye iwu Backlog Product."
+   ],
+   "panel": {
+    "kicker": "Ndị otu Scrum",
+    "heading": "Akaụntụ atọ",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Product Owner",
+      "d": "Otu onye, ​​ọ bụghị kọmitii. Na-ebuli uru ma na-enye iwu ndekọ ndabere ngwaahịa."
+     },
+     {
+      "t": "Scrum Master",
+      "d": "Onye ndu nke na-eje ozi: ndị na-enye ọzụzụ, na-eme ka ọ dị mfe, na-ewepụ ihe mgbochi. Ọ bụghị onye njikwa ọrụ."
+     },
+     {
+      "t": "Ndị mmepe",
+      "d": "Mepụta mmụba enwere ike iji Sprint ọ bụla. Ndị na-anwale, ndị na-emepụta ihe na ndị ode akwụkwọ na-agụkwa."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Scrum Master bụ onye ndu na-eje ozi. Ọ na-azụ ma na-ewepụ ihe mgbochi. Otu ndudue a na-ahụkarị bụ ịrụ ọrụ dị ka onye njikwa ọrụ na-ekenye ọrụ."
+   ],
+   "panel": {
+    "kicker": "Ndị otu Scrum",
+    "heading": "Akaụntụ atọ",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Product Owner",
+      "d": "Otu onye, ​​ọ bụghị kọmitii. Na-ebuli uru ma na-enye iwu ndekọ ndabere ngwaahịa."
+     },
+     {
+      "t": "Scrum Master",
+      "d": "Onye ndu nke na-eje ozi: ndị na-enye ọzụzụ, na-eme ka ọ dị mfe, na-ewepụ ihe mgbochi. Ọ bụghị onye njikwa ọrụ."
+     },
+     {
+      "t": "Ndị mmepe",
+      "d": "Mepụta mmụba enwere ike iji Sprint ọ bụla. Ndị na-anwale, ndị na-emepụta ihe na ndị ode akwụkwọ na-agụkwa."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Ndị mmepe na-emepụta Mmụba enwere ike iji Sprint ọ bụla. Onye nrụpụta apụtaghị naanị ndị mmemme. Ndị na-anwale, ndị na-emepụta ihe na ndị ode akwụkwọ bụkwa ndị mmepe."
+   ],
+   "panel": {
+    "kicker": "Ndị otu Scrum",
+    "heading": "Akaụntụ atọ",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Product Owner",
+      "d": "Otu onye, ​​ọ bụghị kọmitii. Na-ebuli uru ma na-enye iwu ndekọ ndabere ngwaahịa."
+     },
+     {
+      "t": "Scrum Master",
+      "d": "Onye ndu nke na-eje ozi: ndị na-enye ọzụzụ, na-eme ka ọ dị mfe, na-ewepụ ihe mgbochi. Ọ bụghị onye njikwa ọrụ."
+     },
+     {
+      "t": "Ndị mmepe",
+      "d": "Mepụta mmụba enwere ike iji Sprint ọ bụla. Ndị na-anwale, ndị na-emepụta ihe na ndị ode akwụkwọ na-agụkwa."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Igbe oge bụ ogologo oge kacha. Sprint na-ejide mmemme ndị ọzọ niile. Ọtụtụ ndị otu na-eji izu 2, nke bụ ụbọchị ọrụ 10."
+   ],
+   "panel": {
+    "kicker": "Ihe omume ise",
+    "heading": "Sprint izu 2, mmemme site na mmemme",
+    "items": [
+     "The Sprint: 2 izu, ogologo ogologo",
+     "Atụmatụ Sprint: ihe dị ka awa 4",
+     "Scrum kwa ụbọchị: nkeji 15 kwa ụbọchị",
+     "Nyocha Sprint: ihe dị ka awa 2",
+     "Nleghachi azụ Sprint: ihe dị ka awa 1.5"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Atụmatụ Sprint na-ekpebi ihe kpatara Sprint a ji baa uru yana ihe enwere ike ime. Ihe dị ka awa 4 maka izu abụọ."
+   ],
+   "panel": {
+    "kicker": "Ihe omume ise",
+    "heading": "Sprint izu 2, mmemme site na mmemme",
+    "items": [
+     "The Sprint: 2 izu, ogologo ogologo",
+     "Atụmatụ Sprint: ihe dị ka awa 4",
+     "Scrum kwa ụbọchị: nkeji 15 kwa ụbọchị",
+     "Nyocha Sprint: ihe dị ka awa 2",
+     "Nleghachi azụ Sprint: ihe dị ka awa 1.5"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Daily Scrum bụ nkeji iri na ise kwa ụbọchị ọrụ. Ndị mmepe na-enyocha ọganihu na ebumnuche Sprint wee mezie atụmatụ ahụ."
+   ],
+   "panel": {
+    "kicker": "Ihe omume ise",
+    "heading": "Sprint izu 2, mmemme site na mmemme",
+    "items": [
+     "The Sprint: 2 izu, ogologo ogologo",
+     "Atụmatụ Sprint: ihe dị ka awa 4",
+     "Scrum kwa ụbọchị: nkeji 15 kwa ụbọchị",
+     "Nyocha Sprint: ihe dị ka awa 2",
+     "Nleghachi azụ Sprint: ihe dị ka awa 1.5"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Nyochaa Sprint na-enyocha nsonaazụ ya na ndị aka ya, yana Retrospective na-atụkwa anya ka esi arụ ọrụ nke ọma.",
+    "Dịka ọmụmaatụ, ndị otu Amaka na-etinye awa 10 maka onye ọ bụla na mmemme n'ime ihe dịka 80. Nke ahụ bụ 12.5%. Ọ bara uru mgbe onye njikwa jụrụ, gịnị kpatara ọtụtụ nzukọ?"
+   ],
+   "panel": {
+    "kicker": "Ihe omume ise",
+    "heading": "Sprint izu 2, mmemme site na mmemme",
+    "items": [
+     "The Sprint: 2 izu, ogologo ogologo",
+     "Atụmatụ Sprint: ihe dị ka awa 4",
+     "Scrum kwa ụbọchị: nkeji 15 kwa ụbọchị",
+     "Nyocha Sprint: ihe dị ka awa 2",
+     "Nleghachi azụ Sprint: ihe dị ka awa 1.5"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Kanban enweghị Sprints na enweghị ọrụ kwụ ọtọ. Nke mbụ, gosi ọrụ na bọọdụ nwere ogidi dị ka Ime, Ime, Nyochaa, Emeela."
+   ],
+   "panel": {
+    "kicker": "Kanban",
+    "heading": "Kanban na omume anọ",
+    "items": [
+     "Jiri anya nke uche hụ ọrụ a na bọọdụ",
+     "Machie ọrụ na-aga n'ihu",
+     "Tụọ oge ntinye na okirikiri",
+     "Na-emewanyewanye mgbe niile"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Nke abụọ, mechie ọrụ na-aga n'ihu. Dịka ọmụmaatụ, ọ bụghị karịa kaadị 3 na Ime. Mgbe kọlụm ahụ jupụtara, buru ụzọ mechaa ihe."
+   ],
+   "panel": {
+    "kicker": "Kanban",
+    "heading": "Kanban na omume anọ",
+    "items": [
+     "Jiri anya nke uche hụ ọrụ a na bọọdụ",
+     "Machie ọrụ na-aga n'ihu",
+     "Tụọ oge ntinye na okirikiri",
+     "Na-emewanyewanye mgbe niile"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "rule": "Mgbe Ime zuru, mechaa ihe tupu ịmalite ọzọ.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Nke atọ, tụọ eruba. Iwu Little na-ekwu na oge okirikiri nhata ọrụ na-aga n'ihu site na ntinye nke kewara.",
+    "Dịka ọmụmaatụ, ndị otu nkwado Funmi nwere tiketi 30 mepere emepe ma mechie 10 kwa ụbọchị. Nke ahụ bụ ụbọchị 3 kwa tiketi. Ọ na-amachi tiketi oghe ka ọ bụrụ 15, yabụ tiketi mmalite ọ bụla na-ewe ụbọchị 1.5."
+   ],
+   "panel": {
+    "kicker": "Kanban",
+    "heading": "Kanban na omume anọ",
+    "items": [
+     "Jiri anya nke uche hụ ọrụ a na bọọdụ",
+     "Machie ọrụ na-aga n'ihu",
+     "Tụọ oge ntinye na okirikiri",
+     "Na-emewanyewanye mgbe niile"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Mgbe Ime zuru, mechaa ihe tupu ịmalite ọzọ.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Nke anọ, nyochaa bọọdụ ma wepụ ihe mgbochi. Mana ọ bụrụ na tiketi 20 na-abịarute otu ụbọchị yana naanị 10 nso, enweghị oke nwere ike zoo nke ahụ. Nwee mkparịta ụka ikike n'eziokwu."
+   ],
+   "panel": {
+    "kicker": "Kanban",
+    "heading": "Kanban na omume anọ",
+    "items": [
+     "Jiri anya nke uche hụ ọrụ a na bọọdụ",
+     "Machie ọrụ na-aga n'ihu",
+     "Tụọ oge ntinye na okirikiri",
+     "Na-emewanyewanye mgbe niile"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Mgbe Ime zuru, mechaa ihe tupu ịmalite ọzọ.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Dakọtara usoro maka ọrụ ahụ. Ngwa ọhụrụ dabara Scrum, n'ihi na azịza ya ejighị n'aka. Oche enyemaka dabara Kanban, n'ihi na ọrụ na-abịarute kwa elekere.",
+    "Ọgba mmiri n'ụdị a ma ama dabara atụmatụ edobere anya. Mgbasa ozi gbakwunyere arịrịọ ngwa ngwa dabara ngwakọ.",
+    "Ọ bụrụ na ọrụ ngwa ngwa mebiri atụmatụ ahụ ọ fọrọ nke nta ka ọ bụrụ izu ọ bụla n'ọnwa gara aga, họrọ Kanban ma ọ bụ debe ikike n'efu."
+   ],
+   "panel": {
+    "kicker": "Họrọ nke ọma",
+    "heading": "Kedu usoro dabara na ọrụ ahụ?",
+    "items": [
+     "Ngwa ọhụrụ ma ọ bụ webụsaịtị: Scrum",
+     "Desktọpụ enyemaka ma ọ bụ nkwado: Kanban",
+     "olulu mmiri n'ụdị a ma ama: a na-eme atụmatụ",
+     "Mgbasa ozi gbakwunyere ọrụ ngwa ngwa: ngwakọ"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Icheta. Agile pụtara obere iberibe ọrụ, na-enyocha ya na ndị ọrụ n'ezie. Nchọpụta oge na-efu karịa n'oge.",
+    "Scrum nwere onye nwe ngwaahịa, Scrum Master na ndị nrụpụta. Scrum kwa ụbọchị bụ nkeji iri na ise. Na obere ọrụ na-aga n'ihu pụtara imecha ngwa ngwa."
+   ],
+   "panel": {
+    "kicker": "Isi ihe",
+    "heading": "Cheta",
+    "items": [
+     "Agile pụtara obere iberibe arụ ọrụ, a na-enyochakarị",
+     "Nchọpụta oge na-efu karịa n'oge",
+     "Onye nwe ngwaahịa, Scrum Master, Ndị nrụpụta",
+     "Scrum kwa ụbọchị bụ nkeji 15",
+     "Oge okirikiri = ọrụ na-aga n'ihu ÷ mmepụta ihe"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Ọrụ gị: chọpụta nchọpụta oge na ọrụ ị maara, wuo kalenda Sprint wee gụọ oge mmemme wee chọpụta ụdị ọrụ atọ na Iwu Little.",
+    "Gaa n'ihu na nkuzi ndị dị n'okpuru."
+   ],
+   "panel": {
+    "kicker": "Mee ọrụ",
+    "heading": "Ọrụ omume gị",
+    "items": [
+     "Chọpụta nchoputa oge gara aga",
+     "Mepụta kalenda Sprint gị",
+     "Chọpụta ụdị ọrụ atọ"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

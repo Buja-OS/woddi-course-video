@@ -1,0 +1,459 @@
+{
+ "course": "core-data-literacy",
+ "module": "m4",
+ "title": "Sua apostila de insights, um relatório sobre o qual as pessoas agem e seu plano",
+ "course_title": "Alfabetização em dados: planilhas, gráficos e métricas de negócios",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Sua apostila de insights, um relatório sobre o qual as pessoas agem e seu plano.",
+    "Este é o vídeo do módulo 4 de Alfabetização em Dados."
+   ]
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Seu ponto culminante é um arquivo do Planilhas Google que transforma registros reais de confusos em significativos. Escolha os dados de seu interesse: suas vendas, as contribuições do seu grupo ou seus pedidos."
+   ],
+   "panel": {
+    "kicker": "O que você fará",
+    "heading": "Da análise ao impacto",
+    "items": [
+     "Crie uma pasta de trabalho a partir de seus próprios registros",
+     "Escreva até três descobertas com números",
+     "Apresente-os para que as pessoas ajam",
+     "Mantenha um hábito semanal e um plano de 90 dias"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Depois você transforma isso em descobertas e as apresenta para que um cliente, empregador, doador ou seu grupo realmente aja."
+   ],
+   "panel": {
+    "kicker": "O que você fará",
+    "heading": "Da análise ao impacto",
+    "items": [
+     "Crie uma pasta de trabalho a partir de seus próprios registros",
+     "Escreva até três descobertas com números",
+     "Apresente-os para que as pessoas ajam",
+     "Mantenha um hábito semanal e um plano de 90 dias"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Finalmente, você transforma os dados em um hábito semanal."
+   ],
+   "panel": {
+    "kicker": "O que você fará",
+    "heading": "Da análise ao impacto",
+    "items": [
+     "Crie uma pasta de trabalho a partir de seus próprios registros",
+     "Escreva até três descobertas com números",
+     "Apresente-os para que as pessoas ajam",
+     "Mantenha um hábito semanal e um plano de 90 dias"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Mantenha os registros originais intactos no Raw e limpe uma cópia."
+   ],
+   "panel": {
+    "kicker": "A pedra angular",
+    "heading": "As cinco folhas da sua pasta de trabalho",
+    "items": [
+     "Raw: os registros originais, nunca editados",
+     "Limpo: rótulos consistentes, sem duplicatas",
+     "Resumo: SUMIF, COUNTIF, ações, métricas",
+     "Gráficos: dois ou três, cada um com um título de mensagem",
+     "Notas: pergunta, dicionário, registro, descobertas"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Resuma e crie um gráfico dos dados limpos, com um título de mensagem em cada gráfico."
+   ],
+   "panel": {
+    "kicker": "A pedra angular",
+    "heading": "As cinco folhas da sua pasta de trabalho",
+    "items": [
+     "Raw: os registros originais, nunca editados",
+     "Limpo: rótulos consistentes, sem duplicatas",
+     "Resumo: SUMIF, COUNTIF, ações, métricas",
+     "Gráficos: dois ou três, cada um com um título de mensagem",
+     "Notas: pergunta, dicionário, registro, descobertas"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "No Notes, escreva sua pergunta e um dicionário de dados: nome de cada coluna, significado, tipo e valores permitidos. Permite que outra pessoa verifique seu trabalho sem perguntar a você.",
+    "Não invente registros. O objetivo é praticar com dados reais e imperfeitos."
+   ],
+   "panel": {
+    "kicker": "A pedra angular",
+    "heading": "As cinco folhas da sua pasta de trabalho",
+    "items": [
+     "Raw: os registros originais, nunca editados",
+     "Limpo: rótulos consistentes, sem duplicatas",
+     "Resumo: SUMIF, COUNTIF, ações, métricas",
+     "Gráficos: dois ou três, cada um com um título de mensagem",
+     "Notas: pergunta, dicionário, registro, descobertas"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Ngozi pergunta: meu negócio está crescendo e por que alguns clientes estão insatisfeitos? Ela remove 2 pedidos duplicados e preenche datas de entrega ausentes em seus chats."
+   ],
+   "card": {
+    "title": "A apostila de três meses de Ngozi",
+    "rows": [],
+    "note": "Receita por mês, de SUMIF e COUNTIF."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "A receita cresce a cada mês: cerca de 23,8% de julho a agosto e cerca de 21,2% até setembro."
+   ],
+   "card": {
+    "title": "A apostila de três meses de Ngozi",
+    "rows": [
+     [
+      "Julho, 24 pedidos",
+      "210,000"
+     ],
+     [
+      "Agosto, 28 pedidos",
+      "260,000"
+     ],
+     [
+      "Setembro, 32 pedidos",
+      "315,000"
+     ]
+    ],
+    "note": "Receita por mês, de SUMIF e COUNTIF."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "No total, 785.000 nairas. Mas CONT.SE mostra 10 pedidos atrasados ​​de 84, e 8 dos 10 eram pedidos de grupo também ebi.",
+    "Sua recomendação: cotar pedidos de grupo por mais tempo, receber depósitos mais cedo e verificar se o atraso cai abaixo de 5% no próximo trimestre."
+   ],
+   "card": {
+    "title": "A apostila de três meses de Ngozi",
+    "rows": [
+     [
+      "Julho, 24 pedidos",
+      "210,000"
+     ],
+     [
+      "Agosto, 28 pedidos",
+      "260,000"
+     ],
+     [
+      "Setembro, 32 pedidos",
+      "315,000"
+     ]
+    ],
+    "note": "Receita por mês, de SUMIF e COUNTIF."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Escreva no máximo três descobertas, cada uma com um número, e nomeie o que os dados não podem mostrar. Os dados de Ngozi não conseguem mostrar se os clientes saíram devido ao atraso, por isso ela planeja perguntar.",
+    "Em seguida, execute essas seis verificações antes de enviar."
+   ],
+   "panel": {
+    "kicker": "Antes de enviar",
+    "heading": "Verificações de precisão e privacidade",
+    "items": [
+     "Linhas limpas e total explicado no log",
+     "Os totais da categoria somam o total geral",
+     "As ações de um todo somam 100%",
+     "Os gráficos têm títulos, unidades e eixos zero",
+     "Códigos, não nomes ou números de telefone",
+     "Cada coluna explicada no dicionário"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Um gerente ou doador ocupado não lerá sua planilha. Comece pela resposta: perguntamos por que as entregas atrasam e o principal motivo são os pedidos em grupo."
+   ],
+   "panel": {
+    "kicker": "Apresentando",
+    "heading": "A estrutura do relatório de uma página",
+    "items": [
+     "Mensagem principal em uma frase",
+     "Dois ou três números de apoio",
+     "Um gráfico claro",
+     "O que isso significa",
+     "O que devemos fazer"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false,
+    "rule": "Comece com a resposta, não com a ordem em que você fez o trabalho.",
+    "showRule": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Dê dois ou três números e um gráfico. Ao falar, arredonde-os: cerca de um em cada oito pedidos, e não 11,9%."
+   ],
+   "panel": {
+    "kicker": "Apresentando",
+    "heading": "A estrutura do relatório de uma página",
+    "items": [
+     "Mensagem principal em uma frase",
+     "Dois ou três números de apoio",
+     "Um gráfico claro",
+     "O que isso significa",
+     "O que devemos fazer"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Comece com a resposta, não com a ordem em que você fez o trabalho.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Em seguida, diga o que isso significa e conclua com a decisão de que você precisa, quem fará o quê e quando."
+   ],
+   "panel": {
+    "kicker": "Apresentando",
+    "heading": "A estrutura do relatório de uma página",
+    "items": [
+     "Mensagem principal em uma frase",
+     "Dois ou três números de apoio",
+     "Um gráfico claro",
+     "O que isso significa",
+     "O que devemos fazer"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Comece com a resposta, não com a ordem em que você fez o trabalho.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Por exemplo, um programa comunitário em Ilorin treinou mulheres em contabilidade. Os resultados são o que você entregou: 38 de 45 concluídos."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Produtos, resultados e honestidade",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Outputs",
+      "d": "O que você entregou: 45 inscritos, 38 concluídos, cerca de 84,4%."
+     },
+     {
+      "t": "Outcomes",
+      "d": "O que mudou: 25 dos 38 mantêm registros semanais de vendas, cerca de 65,8%."
+     },
+     {
+      "t": "Honest gaps",
+      "d": "7 não terminou por causa dos dias de mercado. Então ela pede para financiar um grupo de sábado."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Os resultados são o que mudou. Um acompanhamento telefônico três meses depois atingiu todos os 38, e 25 agora mantêm registros semanais. A manchete do doador: dois em cada três graduados agora mantêm registros semanais de vendas."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Produtos, resultados e honestidade",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Outputs",
+      "d": "O que você entregou: 45 inscritos, 38 concluídos, cerca de 84,4%."
+     },
+     {
+      "t": "Outcomes",
+      "d": "O que mudou: 25 dos 38 mantêm registros semanais de vendas, cerca de 65,8%."
+     },
+     {
+      "t": "Honest gaps",
+      "d": "7 não terminou por causa dos dias de mercado. Então ela pede para financiar um grupo de sábado."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Ela também relata os 7 que não terminaram e por quê. Os financiadores geralmente percebem a falta de números e admitir limites aumenta a confiança.",
+    "Para os membros, ela envia uma curta mensagem no WhatsApp com os mesmos fatos e um próximo passo claro."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Produtos, resultados e honestidade",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Outputs",
+      "d": "O que você entregou: 45 inscritos, 38 concluídos, cerca de 84,4%."
+     },
+     {
+      "t": "Outcomes",
+      "d": "O que mudou: 25 dos 38 mantêm registros semanais de vendas, cerca de 65,8%."
+     },
+     {
+      "t": "Honest gaps",
+      "d": "7 não terminou por causa dos dias de mercado. Então ela pede para financiar um grupo de sábado."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Crescer meu negócio não pode ser verificado. Uma meta nomeia a métrica, o ponto de partida, a meta e a data."
+   ],
+   "panel": {
+    "kicker": "Seu plano de 90 dias",
+    "heading": "Metas vagas ou metas mensuráveis",
+    "mode": "compare",
+    "left_h": "Objetivo vago",
+    "left": [
+     "Mantenha registros melhores",
+     "Ganhe mais",
+     "Mantenha os clientes"
+    ],
+    "right_h": "Meta mensurável",
+    "right": [
+     "Recorde 100% das vendas por 12 semanas",
+     "Margem de 24% a 26% no dia 90",
+     "Repita a taxa do cliente em 50% até o dia 90"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Por exemplo, o quiosque de Halima ganha cerca de 95.000 nairas por semana, com uma margem bruta de 24%. Em 90 dias, ela registrará todas as vendas, aumentará a margem para 26%, medirá os clientes recorrentes e testará uma mudança, como um desconto para compras em grandes quantidades por duas semanas.",
+    "Limite-se a cerca de três metas e gaste 30 minutos por semana em seus registros e painel."
+   ],
+   "panel": {
+    "kicker": "Seu plano de 90 dias",
+    "heading": "Metas vagas ou metas mensuráveis",
+    "mode": "compare",
+    "left_h": "Objetivo vago",
+    "left": [
+     "Mantenha registros melhores",
+     "Ganhe mais",
+     "Mantenha os clientes"
+    ],
+    "right_h": "Meta mensurável",
+    "right": [
+     "Recorde 100% das vendas por 12 semanas",
+     "Margem de 24% a 26% no dia 90",
+     "Repita a taxa do cliente em 50% até o dia 90"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Para lembrar. Construa sua pasta de trabalho a partir de registros reais. Comece com a resposta. Relate honestamente. Para ganhar seu certificado, complete o capstone e acerte pelo menos 70% no questionário final. Isso é 9 de 12 perguntas."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Lembre-se",
+    "items": [
+     "Cinco folhas: Raw, Clean, Summary, Charts, Notes",
+     "Até três descobertas, cada uma com um número",
+     "Comece com a resposta, depois com a evidência e depois com a ação",
+     "Relate resultados, resultados e lacunas honestas",
+     "Certificado: conclusão mais 9 de 12 no questionário"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Sua vez. Elabore sua apostila, apresente suas descobertas duas vezes e escreva seu plano de 90 dias.",
+    "Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Pratique tarefas",
+    "heading": "Suas tarefas práticas",
+    "items": [
+     "Crie sua pasta de trabalho de cinco folhas",
+     "Escreva um relatório de uma página e um resumo do WhatsApp",
+     "Defina um horário fixo de dados semanais",
+     "Escreva seu plano de 90 dias com três metas"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

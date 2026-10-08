@@ -1,0 +1,629 @@
+{
+ "course": "core-data-literacy",
+ "module": "m3",
+ "title": "Data mimọ, awọn ẹtọ ododo ati awọn metiriki ti o ṣe pataki",
+ "course_title": "Imọwe Data: Awọn iwe kaakiri, Awọn aworan apẹrẹ ati Awọn Metiriki Iṣowo",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Awọn data mimọ, awọn ẹtọ ododo, ati awọn metiriki ti o ṣe pataki.",
+    "Eyi ni fidio fun module 3 ti Data Literacy."
+   ]
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Real data jẹ ṣọwọn mọ. Eniyan tẹ yarayara, eniyan meji ṣe igbasilẹ tita kanna, odo kan yoo ṣafikun nipasẹ aṣiṣe. Ọkan ti ko tọ kana le yi a lapapọ tabi a ipinnu."
+   ],
+   "panel": {
+    "kicker": "Kini idi ti eyi ṣe pataki",
+    "heading": "Awọn nọmba gbọdọ jẹ deede ati otitọ",
+    "items": [
+     "Ọkan ti ko tọ kana le yi a ipinnu",
+     "Awọn alaye pipe tun le ṣee lo ni buburu",
+     "Awọn tita to gaju le tun tumọ si sisọnu owo"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Data tun le jẹ deede ṣugbọn o lo ni buburu: ṣiṣafihan awọn alaye ikọkọ, tabi titari oluka si ipari ti ko tọ."
+   ],
+   "panel": {
+    "kicker": "Kini idi ti eyi ṣe pataki",
+    "heading": "Awọn nọmba gbọdọ jẹ deede ati otitọ",
+    "items": [
+     "Ọkan ti ko tọ kana le yi a ipinnu",
+     "Awọn alaye pipe tun le ṣee lo ni buburu",
+     "Awọn tita to gaju le tun tumọ si sisọnu owo"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Ati ọpọlọpọ awọn iṣowo kekere tọpa awọn tita nikan. Ninu module yii o kọ awọn nọmba ti o fihan boya o n ṣe owo gaan."
+   ],
+   "panel": {
+    "kicker": "Kini idi ti eyi ṣe pataki",
+    "heading": "Awọn nọmba gbọdọ jẹ deede ati otitọ",
+    "items": [
+     "Ọkan ti ko tọ kana le yi a ipinnu",
+     "Awọn alaye pipe tun le ṣee lo ni buburu",
+     "Awọn tita to gaju le tun tumọ si sisọnu owo"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Jos North, Jos North, ati Jos North pẹlu awọn aaye meji di awọn ẹgbẹ mẹta ninu akopọ rẹ. TRIM yọ awọn aaye afikun kuro ati PROPER ṣe atunṣe awọn olu."
+   ],
+   "panel": {
+    "kicker": "Wa ati ṣatunṣe",
+    "heading": "Awọn iṣoro ti o wọpọ ati awọn irinṣẹ wọn",
+    "items": [
+     "Awọn aaye afikun ati awọn nla: = PROPER(TRIM(B2))",
+     "Awọn ẹda-iwe: iwe oluranlọwọ COUNTIF kan",
+     "Awọn òfo: =COUNTBLANK, lẹhinna ṣayẹwo awọn owo-owo",
+     "Awọn nọmba ọrọ bi 5k: tun ṣe bi awọn nọmba itele",
+     "Awọn oriṣi: ṣayẹwo = Max ati = MIN lori gbogbo ọwọn"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Oju-iwe oluranlọwọ COUNTIF fihan TÒÓTỌ fun nọmba gbigba eyikeyi ti o han diẹ sii ju ẹẹkan lọ."
+   ],
+   "panel": {
+    "kicker": "Wa ati ṣatunṣe",
+    "heading": "Awọn iṣoro ti o wọpọ ati awọn irinṣẹ wọn",
+    "items": [
+     "Awọn aaye afikun ati awọn nla: = PROPER(TRIM(B2))",
+     "Awọn ẹda-iwe: iwe oluranlọwọ COUNTIF kan",
+     "Awọn òfo: =COUNTBLANK, lẹhinna ṣayẹwo awọn owo-owo",
+     "Awọn nọmba ọrọ bi 5k: tun ṣe bi awọn nọmba itele",
+     "Awọn oriṣi: ṣayẹwo = Max ati = MIN lori gbogbo ọwọn"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "COUNTBLANK sọ fun ọ iye awọn sẹẹli ti o ṣofo. Ati awọn nọmba ti a tẹ bi ọrọ ti wa ni osi jade ti SUM."
+   ],
+   "panel": {
+    "kicker": "Wa ati ṣatunṣe",
+    "heading": "Awọn iṣoro ti o wọpọ ati awọn irinṣẹ wọn",
+    "items": [
+     "Awọn aaye afikun ati awọn nla: = PROPER(TRIM(B2))",
+     "Awọn ẹda-iwe: iwe oluranlọwọ COUNTIF kan",
+     "Awọn òfo: =COUNTBLANK, lẹhinna ṣayẹwo awọn owo-owo",
+     "Awọn nọmba ọrọ bi 5k: tun ṣe bi awọn nọmba itele",
+     "Awọn oriṣi: ṣayẹwo = Max ati = MIN lori gbogbo ọwọn"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Ṣayẹwo awọn iye ti o tobi julọ ati ti o kere julọ. Ifunni 500,000 naira ni ẹgbẹ kan nibiti ọpọlọpọ san 5,000 nilo ṣiṣe ayẹwo lodi si iwe-ẹri naa."
+   ],
+   "panel": {
+    "kicker": "Wa ati ṣatunṣe",
+    "heading": "Awọn iṣoro ti o wọpọ ati awọn irinṣẹ wọn",
+    "items": [
+     "Awọn aaye afikun ati awọn nla: = PROPER(TRIM(B2))",
+     "Awọn ẹda-iwe: iwe oluranlọwọ COUNTIF kan",
+     "Awọn òfo: =COUNTBLANK, lẹhinna ṣayẹwo awọn owo-owo",
+     "Awọn nọmba ọrọ bi 5k: tun ṣe bi awọn nọmba itele",
+     "Awọn oriṣi: ṣayẹwo = Max ati = MIN lori gbogbo ọwọn"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Grace gba atokọ 60-ila kan Oṣu Kẹsan ti a ṣe lati awọn ijabọ WhatsApp ẹka mẹta. Apapọ rẹ jẹ 612,000 naira. Awọn Akọtọ marun ti awọn orukọ ẹka ṣubu si mẹta."
+   ],
+   "card": {
+    "title": "Oore-ọfẹ nu akojọ ilowosi kan nu",
+    "rows": [
+     [
+      "Bibẹrẹ lapapọ",
+      "612,000"
+     ]
+    ],
+    "note": "Lapapọ ti mọtoto ni ibamu pẹlu alaye banki naa."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Owo sisan 5,000 naira mẹta ni wọn fi ranṣẹ lẹẹmeji. O yọ 15,000 kuro."
+   ],
+   "card": {
+    "title": "Oore-ọfẹ nu akojọ ilowosi kan nu",
+    "rows": [
+     [
+      "Bibẹrẹ lapapọ",
+      "612,000"
+     ],
+     [
+      "A yọkuro awọn ẹda-iwe (iyokuro)",
+      "15,000"
+     ]
+    ],
+    "note": "Lapapọ ti mọtoto ni ibamu pẹlu alaye banki naa."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Meji oye wà òfo. Awọn owo-owo fihan awọn ọmọ ẹgbẹ mejeeji san 5,000, nitorinaa lapapọ dide nipasẹ 10,000."
+   ],
+   "card": {
+    "title": "Oore-ọfẹ nu akojọ ilowosi kan nu",
+    "rows": [
+     [
+      "Bibẹrẹ lapapọ",
+      "612,000"
+     ],
+     [
+      "A yọkuro awọn ẹda-iwe (iyokuro)",
+      "15,000"
+     ],
+     [
+      "Awọn òfo meji kun (pẹlu)",
+      "10,000"
+     ]
+    ],
+    "note": "Lapapọ ti mọtoto ni ibamu pẹlu alaye banki naa."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Akọsilẹ kan sọ 50,000, ṣugbọn iwe-ẹri naa sọ 5,000. O ṣe atunṣe."
+   ],
+   "card": {
+    "title": "Oore-ọfẹ nu akojọ ilowosi kan nu",
+    "rows": [
+     [
+      "Bibẹrẹ lapapọ",
+      "612,000"
+     ],
+     [
+      "A yọkuro awọn ẹda-iwe (iyokuro)",
+      "15,000"
+     ],
+     [
+      "Awọn òfo meji kun (pẹlu)",
+      "10,000"
+     ],
+     [
+      "Atunse titẹ (iyokuro)",
+      "45,000"
+     ]
+    ],
+    "note": "Lapapọ ti mọtoto ni ibamu pẹlu alaye banki naa."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Apapọ tuntun naa jẹ 562,000 naira, ati pe o baamu pẹlu banki bayi. O ṣe igbasilẹ gbogbo iyipada ninu iwe mimọ, nitorinaa alaṣẹ le rii ohun ti a ṣe atunṣe ati idi."
+   ],
+   "card": {
+    "title": "Oore-ọfẹ nu akojọ ilowosi kan nu",
+    "rows": [
+     [
+      "Bibẹrẹ lapapọ",
+      "612,000"
+     ],
+     [
+      "A yọkuro awọn ẹda-iwe (iyokuro)",
+      "15,000"
+     ],
+     [
+      "Awọn òfo meji kun (pẹlu)",
+      "10,000"
+     ],
+     [
+      "Atunse titẹ (iyokuro)",
+      "45,000"
+     ]
+    ],
+    "note": "Lapapọ ti mọtoto ni ibamu pẹlu alaye banki naa."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Lo afọwọsi data lati ṣafikun silẹ silẹ, gẹgẹbi Owo, Gbigbe ati POS. Awọn eniyan mu dipo titẹ, nitorinaa akọtọ duro kanna. Gba awọn ijabọ nipasẹ fọọmu pinpin kan."
+   ],
+   "panel": {
+    "kicker": "Dena awọn aṣiṣe",
+    "heading": "Duro awọn aṣiṣe ṣaaju ki wọn to bẹrẹ",
+    "items": [
+     "Sisọ silẹ fun gbogbo iwe ẹka",
+     "Fọọmu pinpin kan dipo awọn ijabọ ti o dapọ",
+     "Ṣe afihan awọn iye ifura ni pupa",
+     "Lẹẹmọ awọn ọwọn mimọ bi awọn iye nikan",
+     "Tọju iwe mimọ oni-iwe mẹrin kan"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Lo ọna kika ipo lati ṣe awọ awọn iye ifura. Lẹhin nu pẹlu agbekalẹ kan, lẹẹmọ ọwọn mimọ bi awọn iye nikan."
+   ],
+   "panel": {
+    "kicker": "Dena awọn aṣiṣe",
+    "heading": "Duro awọn aṣiṣe ṣaaju ki wọn to bẹrẹ",
+    "items": [
+     "Sisọ silẹ fun gbogbo iwe ẹka",
+     "Fọọmu pinpin kan dipo awọn ijabọ ti o dapọ",
+     "Ṣe afihan awọn iye ifura ni pupa",
+     "Lẹẹmọ awọn ọwọn mimọ bi awọn iye nikan",
+     "Tọju iwe mimọ oni-iwe mẹrin kan"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Nigbagbogbo tọju faili aise atilẹba laifọwọkan, ki o tọju akọọlẹ kan: ọjọ, igbasilẹ, kini aṣiṣe, kini o yipada."
+   ],
+   "panel": {
+    "kicker": "Dena awọn aṣiṣe",
+    "heading": "Duro awọn aṣiṣe ṣaaju ki wọn to bẹrẹ",
+    "items": [
+     "Sisọ silẹ fun gbogbo iwe ẹka",
+     "Fọọmu pinpin kan dipo awọn ijabọ ti o dapọ",
+     "Ṣe afihan awọn iye ifura ni pupa",
+     "Lẹẹmọ awọn ọwọn mimọ bi awọn iye nikan",
+     "Tọju iwe mimọ oni-iwe mẹrin kan"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Jeki awọn aise faili untouched. Mọ ẹda kan.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Iwa data iṣẹ aabo fun eniyan. Gba ohun ti o nilo nikan, ki o sọ ni oke iwadi kini awọn idahun fun."
+   ],
+   "panel": {
+    "kicker": "Dabobo eniyan",
+    "heading": "Asiri ṣaaju pinpin",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Collect the minimum",
+      "d": "Kika awọn ti o lọ? O ko nilo awọn adirẹsi ile."
+     },
+     {
+      "t": "Anonymise",
+      "d": "Awọn koodu bii P01 dipo awọn orukọ, ko si awọn nọmba foonu, ko si si awọn sikirinisoti ti awọn atokọ ọmọ ẹgbẹ."
+     },
+     {
+      "t": "Watch small groups",
+      "d": "Opo 1 ni Ward 3 le ṣe idanimọ rẹ. Darapọ awọn ẹgbẹ kekere tabi jabo diẹ sii ni fifẹ."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Rọpo awọn orukọ pẹlu awọn koodu ṣaaju pinpin. Sikirinifoto ti a fiweranṣẹ ni ẹgbẹ WhatsApp nla kan le firanṣẹ siwaju nibikibi laarin awọn iṣẹju."
+   ],
+   "panel": {
+    "kicker": "Dabobo eniyan",
+    "heading": "Asiri ṣaaju pinpin",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Collect the minimum",
+      "d": "Kika awọn ti o lọ? O ko nilo awọn adirẹsi ile."
+     },
+     {
+      "t": "Anonymise",
+      "d": "Awọn koodu bii P01 dipo awọn orukọ, ko si awọn nọmba foonu, ko si si awọn sikirinisoti ti awọn atokọ ọmọ ẹgbẹ."
+     },
+     {
+      "t": "Watch small groups",
+      "d": "Opo 1 ni Ward 3 le ṣe idanimọ rẹ. Darapọ awọn ẹgbẹ kekere tabi jabo diẹ sii ni fifẹ."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Ati ki o wo awọn ẹgbẹ kekere pupọ, nitori nọmba kekere kan le tọka si eniyan gidi kan."
+   ],
+   "panel": {
+    "kicker": "Dabobo eniyan",
+    "heading": "Asiri ṣaaju pinpin",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Collect the minimum",
+      "d": "Kika awọn ti o lọ? O ko nilo awọn adirẹsi ile."
+     },
+     {
+      "t": "Anonymise",
+      "d": "Awọn koodu bii P01 dipo awọn orukọ, ko si awọn nọmba foonu, ko si si awọn sikirinisoti ti awọn atokọ ọmọ ẹgbẹ."
+     },
+     {
+      "t": "Watch small groups",
+      "d": "Opo 1 ni Ward 3 le ṣe idanimọ rẹ. Darapọ awọn ẹgbẹ kekere tabi jabo diẹ sii ni fifẹ."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Fun apẹẹrẹ, ẹgbẹ awọn obinrin kan ni Enugu ni awọn ọmọ ẹgbẹ 120. Alakoso fi ọna asopọ Fọọmu Google ranṣẹ, ati idahun 48. 36 ti wọn yan Satidee fun ikẹkọ."
+   ],
+   "panel": {
+    "kicker": "Apẹẹrẹ ṣiṣẹ",
+    "heading": "Tani o padanu lati inu iwadi naa?",
+    "items": [
+     "48 ti 120 omo egbe fesi: a 40% esi oṣuwọn",
+     "36 ti 48 yan Satidee: 75%",
+     "Awọn ọmọ ẹgbẹ agbalagba pẹlu awọn foonu ipilẹ ti nsọnu",
+     "Awọn oludari gba awọn idahun ti o padanu nipasẹ foonu"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Ṣugbọn o fẹrẹ jẹ pe ko si awọn ọmọ ẹgbẹ agbalagba ti o dahun, nitori ọpọlọpọ lo awọn foonu ipilẹ laisi data. Eyi jẹ aiṣedeede iṣapẹẹrẹ.",
+    "Nitorinaa o ṣe ijabọ: 75% ti awọn ọmọ ẹgbẹ 48 ti o dahun lori ayelujara fẹran Satidee, ati pe a n gba awọn idahun miiran ṣaaju ṣiṣe ipinnu."
+   ],
+   "panel": {
+    "kicker": "Apẹẹrẹ ṣiṣẹ",
+    "heading": "Tani o padanu lati inu iwadi naa?",
+    "items": [
+     "48 ti 120 omo egbe fesi: a 40% esi oṣuwọn",
+     "36 ti 48 yan Satidee: 75%",
+     "Awọn ọmọ ẹgbẹ agbalagba pẹlu awọn foonu ipilẹ ti nsọnu",
+     "Awọn oludari gba awọn idahun ti o padanu nipasẹ foonu"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Jẹ ifura ti awọn wọnyi. Ati ki o ranti, ibamu kii ṣe idi. Zobo ati awọn tita onijakidijagan dide papọ nitori oju ojo gbona, kii ṣe nitori ọkan fa ekeji.",
+    "Awọn ileri ti o wa titi, awọn ipadabọ oṣooṣu giga jẹ ami ikilọ Ponzi Ayebaye kan. Ṣayẹwo iforukọsilẹ pẹlu Securities and Exchange Commission Nigeria ṣaaju sisanwo."
+   ],
+   "panel": {
+    "kicker": "Aami ẹtan naa",
+    "heading": "Awọn nọmba sinilona lati wo fun",
+    "items": [
+     "Ge-pa àáké ti o exaggerate ayipada",
+     "Nikan ti o dara ju osu han",
+     "Soke 100% le tumọ si lati awọn aṣẹ 2 si 4",
+     "Awọn iwọn ti o tọju tan kaakiri",
+     "Awọn ipadabọ giga ti o duro ni ileri: ṣayẹwo SEC"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Awọn tita to gaju ko ṣe iṣeduro èrè. Ada ká ​​isiro ni o wa illustrative."
+   ],
+   "card": {
+    "title": "Je Ada ká Kẹsán ere?",
+    "rows": [],
+    "note": "Awọn isiro alaworan. Lapapọ jẹ èrè apapọ."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Owo ti n wọle iyokuro iye owo ọja ti a n ta jẹ èrè nla: 110,000 naira. Pin nipasẹ owo-wiwọle ati awọn akoko 100, ati pe ala rẹ lapapọ jẹ 27.5%."
+   ],
+   "card": {
+    "title": "Je Ada ká Kẹsán ere?",
+    "rows": [
+     [
+      "Wiwọle, 220 tita",
+      "400,000"
+     ],
+     [
+      "Iye owo ti awọn ọja tita",
+      "290,000"
+     ],
+     [
+      "èrè ti o pọju",
+      "110,000"
+     ]
+    ],
+    "note": "Awọn isiro alaworan. Lapapọ jẹ èrè apapọ."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Lẹhin 20,000 naira ti awọn idiyele ṣiṣe, èrè apapọ rẹ jẹ 90,000, ala apapọ ti 22.5%.",
+    "Ti olupese rẹ ba gbe owo soke ati pe ko ṣe atunṣe, yoo rii akọkọ ni ala ti o ṣubu."
+   ],
+   "card": {
+    "title": "Je Ada ká Kẹsán ere?",
+    "rows": [
+     [
+      "Wiwọle, 220 tita",
+      "400,000"
+     ],
+     [
+      "Iye owo ti awọn ọja tita",
+      "290,000"
+     ],
+     [
+      "èrè ti o pọju",
+      "110,000"
+     ],
+     [
+      "Awọn idiyele ṣiṣe",
+      "20,000"
+     ]
+    ],
+    "note": "Awọn isiro alaworan. Lapapọ jẹ èrè apapọ."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Bireki-paapaa ni ibiti o ti bo gbogbo awọn idiyele. Onisowo ni iye owo ti o wa titi ti 20,000 naira ni oṣu kan. garawa garri kookan fi egberun lona eedegbeta naira, bee ni egberun lona ogun (20,000) ti a pin si 500 je ogoji garawa."
+   ],
+   "panel": {
+    "kicker": "Adehun-paapaa",
+    "heading": "Awọn garawa melo ni o gbọdọ ta?",
+    "mode": "compare",
+    "left_h": "Iye owo Garri ₦2,000",
+    "left": [
+     "Tita ni ₦2,500",
+     "₦500 osi lati inu garawa kọọkan",
+     "Bireki-paapaa: 40 garawa"
+    ],
+    "right_h": "Iye owó Garri ₦2,200",
+    "right": [
+     "Ṣi n ta ni ₦2,500",
+     "Nikan ₦300 osi lati ọkọọkan",
+     "Bireki-ani: nipa 67 garawa"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Ti iye owo naa ba ga si 2,200, garawa kọọkan fi silẹ nikan 300, ati pe o nilo bii 67 garawa. Ti o ni idi ti ipasẹ iye owo bi Elo bi titele tita."
+   ],
+   "panel": {
+    "kicker": "Adehun-paapaa",
+    "heading": "Awọn garawa melo ni o gbọdọ ta?",
+    "mode": "compare",
+    "left_h": "Iye owo Garri ₦2,000",
+    "left": [
+     "Tita ni ₦2,500",
+     "₦500 osi lati inu garawa kọọkan",
+     "Bireki-paapaa: 40 garawa"
+    ],
+    "right_h": "Iye owó Garri ₦2,200",
+    "right": [
+     "Ṣi n ta ni ₦2,500",
+     "Nikan ₦300 osi lati ọkọọkan",
+     "Bireki-ani: nipa 67 garawa"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Lati ranti. Mọ ṣaaju ki o to ka. Dabobo eniyan ki o jabo ni otitọ. Ati orin awọn nọmba bọtini 3 si 5 ni gbogbo ọsẹ, pẹlu ala, kii ṣe awọn tita nikan."
+   ],
+   "panel": {
+    "kicker": "Awọn ojuami pataki",
+    "heading": "Ranti",
+    "items": [
+     "Ṣayẹwo lapapọ, awọn ofo, awọn ẹda-ẹda ati awọn iwọn",
+     "Pa orukọ rẹ mọ, ki o beere tani ko le dahun",
+     "Ibaṣepọ jẹ olobo, kii ṣe ẹri",
+     "Àpapọ̀ ala = èrè ńlá ÷ wiwọle × 100",
+     "Tọpinpin 3 si 5 KPI ni ọsẹ kan lodi si awọn ibi-afẹde"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Iyipada rẹ. Nu atokọ gidi kan, ṣe ijabọ kan lailewu ati ooto, ati ṣiṣẹ awọn metiriki ipilẹ tirẹ.",
+    "Tẹsiwaju pẹlu awọn ẹkọ ni isalẹ."
+   ],
+   "panel": {
+    "kicker": "Ṣiṣe awọn iṣẹ ṣiṣe",
+    "heading": "Awọn iṣẹ ṣiṣe adaṣe rẹ",
+    "items": [
+     "Nu atokọ gidi ti awọn ori ila 30, pẹlu akọọlẹ kan",
+     "Pa iroyin mọ ki o ṣe akiyesi ẹniti o nsọnu",
+     "Ṣe iṣiro awọn ala ti ara rẹ ki o fọ-paapaa",
+     "Ṣeto dasibodu pẹlu awọn KPI mẹta"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

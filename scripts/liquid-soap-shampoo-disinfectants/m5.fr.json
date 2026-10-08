@@ -1,0 +1,293 @@
+{
+ "course": "liquid-soap-shampoo-disinfectants",
+ "module": "m5",
+ "title": "Désinfectants, solution hydroalcoolique, étiquettes, vente",
+ "shots": [
+  {
+   "demo": "title_liquid",
+   "say": [
+    "Désinfectants, solution hydroalcoolique, étiquetage et croissance de l'entreprise. Voici le module 5, le dernier module du cours.",
+    "Ces produits protègent la santé, donc ils ont les règles les plus strictes. Faisons-les bien."
+   ]
+  },
+  {
+   "demo": "spray_wipe",
+   "label": "D'abord nettoyer, puis rincer",
+   "say": [
+    "Regardez ce plan de travail, d'abord vaporisé et essuyé avec un détergent. La saleté et la graisse protègent les microbes et usent le désinfectant.",
+    "Alors l'ordre est toujours : nettoyer d'abord, rincer, puis désinfecter."
+   ]
+  },
+  {
+   "demo": "ppe_set",
+   "label": "Gants et protection des yeux",
+   "say": [
+    "Avant de diluer l'eau de Javel, mettez des gants et une protection pour les yeux. Utilisez de l'eau fraîche dans un endroit aéré."
+   ]
+  },
+  {
+   "demo": "dilution_ladder",
+   "label": "Eau de Javel (hypochlorite de sodium)",
+   "card": {
+    "title": "Les dilutions de Javel de Grace",
+    "rows": [
+     [
+      "Force sur l'étiquette",
+      "3.5%"
+     ],
+     [
+      "0.1% pour surfaces, 10 L",
+      "environ 286 ml de Javel"
+     ],
+     [
+      "0.5% pour déversements, 2 L",
+      "environ 286 ml de Javel"
+     ],
+     [
+      "Formule",
+      "C1 x V1 = C2 x V2"
+     ],
+     [
+      "Durée de la dilution",
+      "refaire chaque jour"
+     ]
+    ],
+    "note": "OMS : 0.1% surfaces courantes, 0.5% taches de sang"
+   },
+   "say": [
+    "Ces gobelets vont de l'eau de Javel forte à la dilution faible. On calcule avec C1 fois V1 égale C2 fois V2.",
+    "Grace, à Ilorin, voulait du 0.1% pour les sols et du 0.5% pour un kit contre les déversements. Les deux ont pris environ 286 millilitres de sa Javel à 3.5%, simplement complétés à des volumes différents.",
+    "Elle étiquette chaque seau avec la force, la date et l'heure, et ne complète jamais un vieux seau."
+   ]
+  },
+  {
+   "demo": "mixing_rule",
+   "label": "Javel et nettoyant acide",
+   "banner": "Ne mélangez jamais Javel et acide ou ammoniaque",
+   "say": [
+    "Gardez ces deux séparés. Ne mélangez jamais l'eau de Javel avec des acides, de l'ammoniaque ou d'autres nettoyants.",
+    "Rangez la Javel diluée dans des récipients étiquetés, à l'abri du soleil et loin des enfants. Rincez les surfaces en métal après le temps de contact."
+   ]
+  },
+  {
+   "demo": "disinfect_timer",
+   "label": "Chlorure de benzalkonium (BKC)",
+   "card": {
+    "title": "Calcul d'essai de BKC de Musa",
+    "rows": [
+     [
+      "Dose indiquée",
+      "0.2% actif (pour l'exercice)"
+     ],
+     [
+      "Actif pour 10 litres",
+      "20 g"
+     ],
+     [
+      "Concentré à 50% nécessaire",
+      "40 g"
+     ],
+     [
+      "Étiquette du seau",
+      "force, date, temps de contact"
+     ]
+    ],
+    "note": "Suivez toujours l'étiquette du vrai produit"
+   },
+   "say": [
+    "Voyez la surface rester mouillée pendant que le minuteur tourne. C'est le temps de contact, et essuyer trop tôt est une erreur fréquente.",
+    "Les quats, ces désinfectants comme le BKC, sont bloqués par les restes de savon, alors rincez d'abord. Musa a pesé 40 grammes de concentré à 50% dans environ 9 litres, puis a complété à 10."
+   ]
+  },
+  {
+   "demo": "chemical_store",
+   "label": "Seulement des produits enregistrés",
+   "say": [
+    "Des mots comme « désinfectant » ou « tue 99.9% des microbes » sont des promesses de santé. Au Nigeria, il faut l'enregistrement NAFDAC et des tests d'efficacité.",
+    "En attendant, vendez honnêtement comme nettoyants, et apprenez aux clients à bien utiliser les désinfectants enregistrés."
+   ]
+  },
+  {
+   "demo": "hand_rub_mix",
+   "label": "Formule 1 de l'OMS pour les mains",
+   "card": {
+    "title": "Formule 1 de l'OMS, 10 litres",
+    "rows": [
+     [
+      "Éthanol 96%",
+      "8,333 ml"
+     ],
+     [
+      "Eau oxygénée 3%",
+      "417 ml"
+     ],
+     [
+      "Glycérol 98%",
+      "145 ml"
+     ],
+     [
+      "Eau bouillie et refroidie",
+      "jusqu'à 10,000 ml"
+     ],
+     [
+      "Force finale",
+      "80% v/v d'éthanol"
+     ]
+    ],
+    "note": "Formule 2 : alcool isopropylique 99.8%, 7,515 ml"
+   },
+   "say": [
+    "Maintenant, la solution hydroalcoolique. Ces éprouvettes contiennent l'alcool, l'eau oxygénée et le glycérol, la formule de l'OMS.",
+    "L'eau oxygénée s'occupe des spores, et le glycérol protège la peau. Si vous changez la formule, ce n'est plus la formulation de l'OMS."
+   ]
+  },
+  {
+   "demo": "ventilated_room",
+   "label": "Pas de flamme, pas de groupe",
+   "banner": "N'utilisez jamais de méthanol",
+   "say": [
+    "Le méthanol est un poison, par la peau et si on l'avale. Achetez de l'éthanol ou de l'alcool isopropylique avec un certificat d'analyse.",
+    "La vapeur d'alcool prend feu facilement. Mélangez près d'une fenêtre ouverte, sans flamme, sans gaz de cuisine, sans cigarette et sans groupe électrogène à côté."
+   ]
+  },
+  {
+   "demo": "hand_rub_mix",
+   "label": "Alcoomètre : lecture 90%",
+   "card": {
+    "title": "L'essai de 2 litres de Hadiza",
+    "rows": [
+     [
+      "Éthanol de la recette à 96%",
+      "1,667 ml"
+     ],
+     [
+      "Éthanol pur nécessaire",
+      "1,600 ml (80%)"
+     ],
+     [
+      "Son éthanol est à 90%",
+      "1,600 / 0.90 = 1,778 ml"
+     ],
+     [
+      "Eau oxygénée, glycérol",
+      "83 ml, 29 ml"
+     ],
+     [
+      "Eau",
+      "jusqu'à exactement 2,000 ml"
+     ]
+    ],
+    "note": "Sans cette correction : seulement environ 75%"
+   },
+   "say": [
+    "Hadiza, à Sokoto, a vérifié son éthanol avec un alcoomètre. Il était à 90%, pas à 96%.",
+    "Alors elle a mesuré 1,778 millilitres au lieu de 1,667, et la solution finie a quand même atteint 80%."
+   ]
+  },
+  {
+   "demo": "bottle_fill",
+   "label": "Remplir, fermer, quarantaine",
+   "say": [
+    "Remplissez, fermez et étiquetez chaque flacon avec le pourcentage d'alcool, le numéro de lot, la date et « Inflammable : tenir loin du feu et des flammes ».",
+    "Ensuite, gardez-les 72 heures avant usage. La quarantaine fait partie de la formulation."
+   ]
+  },
+  {
+   "demo": "shampoo_bottles",
+   "label": "Une marque, des étiquettes claires",
+   "card": {
+    "title": "Le code de lot d'Ada",
+    "rows": [
+     [
+      "HW",
+      "savon mains (hand wash)"
+     ],
+     [
+      "260314",
+      "14 mars 2026"
+     ],
+     [
+      "02",
+      "deuxième lot du jour"
+     ],
+     [
+      "Code sur la fiche de lot",
+      "lots, poids, pH, fabricant"
+     ]
+    ],
+    "note": "HW-260314-02"
+   },
+   "say": [
+    "Chaque étiquette doit avoir le nom, le contenu net, les ingrédients du plus abondant au moins abondant, le mode d'emploi, les précautions, le fabricant, le numéro NAFDAC et les détails du lot.",
+    "Ada, à Lagos, a retrouvé en quelques minutes la fiche d'un flacon trop liquide, grâce à un code comme celui-ci."
+   ]
+  },
+  {
+   "demo": "costing_desk",
+   "card": {
+    "title": "Savon mains de 20 kg de Comfort",
+    "rows": [
+     [
+      "Ingrédients",
+      "₦12,500"
+     ],
+     [
+      "Emballage, 40 flacons",
+      "₦12,000"
+     ],
+     [
+      "Main-d'œuvre et frais",
+      "₦6,000"
+     ],
+     [
+      "Coût par flacon de 500 ml",
+      "₦762.50"
+     ],
+     [
+      "Prix de gros",
+      "₦1,100, environ 31%"
+     ]
+    ],
+    "note": "Exemple, montants en naira approximatifs"
+   },
+   "say": [
+    "À son bureau, Comfort, à Asaba, a additionné les trois couches de coûts et divisé par 40 flacons.",
+    "L'emballage coûtait presque autant que le liquide. Alors elle cherche une pompe moins chère avant d'augmenter son prix.",
+    "Grandissez par étapes, 20 kilos, puis 50 kilos, puis 100 kilos, en testant à chaque étape."
+   ]
+  },
+  {
+   "demo": "market_stall",
+   "label": "Acheteurs institutionnels",
+   "card": {
+    "title": "Devis de Ngozi, hôtel de 40 chambres",
+    "rows": [
+     [
+      "Valeur de la commande par mois",
+      "₦44,000"
+     ],
+     [
+      "Son coût, environ 70%",
+      "₦30,800"
+     ],
+     [
+      "Paiement demandé",
+      "crédit à 30 jours"
+     ]
+    ],
+    "note": "Prix d'exemple tirés du cours"
+   },
+   "say": [
+    "Les hôtels, les écoles et les bureaux recommandent chaque mois. Ngozi a fait un essai de deux semaines, puis a fait son devis à partir de la vraie consommation.",
+    "Avec un crédit à 30 jours, elle doit financer environ 30,800 naira de stock chaque mois. Mettez les conditions par écrit, et ne fournissez jamais de produits non enregistrés aux cliniques."
+   ]
+  },
+  {
+   "demo": "outro_bottles",
+   "say": [
+    "Maintenant, suivez les leçons ci-dessous. Faites votre tableau de dilution, votre lot de solution hydroalcoolique sur papier, vos étiquettes et votre fiche de coûts, puis préparez une offre pour une institution.",
+    "Bravo d'avoir terminé le cours."
+   ]
+  }
+ ]
+}

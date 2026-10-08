@@ -1,0 +1,471 @@
+{
+ "course": "api-fundamentals",
+ "module": "m3",
+ "title": "Kutoka kwa maumivu ya mteja hadi ujumuishaji wa bei na kwingineko",
+ "course_title": "Misingi ya API",
+ "shots": [
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Kutoka kwa maumivu ya mteja hadi muunganisho wa bei, na kwingineko yako.",
+    "Hii ni video ya moduli ya tatu ya Misingi ya API."
+   ]
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Wateja mara chache huuliza API. Wanasema: wafanyakazi wangu hutumia mchana kutwa kuangalia nani amelipa. Ugunduzi ni mazungumzo yaliyopangwa ambayo hugeuza maumivu hayo kuwa muunganisho wazi, au wakati mwingine kuwa ushauri wa uaminifu ambao hauhitajiki."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Wateja wanaelezea maumivu, sio API",
+    "items": [
+     "Ugunduzi hugeuza maumivu kuwa kazi moja wazi",
+     "A spec inasema nini hasa kitatokea",
+     "Bei nzuri hurejea kwenye kazi",
+     "Kwingineko inathibitisha unachoweza kufanya"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Kisha unaandika kielelezo cha ukurasa mmoja, na bei yake kulingana na kazi."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Wateja wanaelezea maumivu, sio API",
+    "items": [
+     "Ugunduzi hugeuza maumivu kuwa kazi moja wazi",
+     "A spec inasema nini hasa kitatokea",
+     "Bei nzuri hurejea kwenye kazi",
+     "Kwingineko inathibitisha unachoweza kufanya"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Hatimaye, kwingineko huonyesha wateja kile unachoelewa, kwa sababu wanaweza tu kuona kile ambacho umeandika."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Wateja wanaelezea maumivu, sio API",
+    "items": [
+     "Ugunduzi hugeuza maumivu kuwa kazi moja wazi",
+     "A spec inasema nini hasa kitatokea",
+     "Bei nzuri hurejea kwenye kazi",
+     "Kwingineko inathibitisha unachoweza kufanya"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Uliza nini kinapaswa kuwa tofauti wakati hii inafanya kazi. Kisha uulize kuona mchakato wa sasa, sio tu kusikia kuuhusu. Kutazama malipo moja yakithibitishwa mara nyingi hufichua hatua zilizofichwa."
+   ],
+   "panel": {
+    "kicker": "Ugunduzi",
+    "heading": "Maeneo sita ya kuuliza",
+    "items": [
+     "Matokeo: nini kinapaswa kuwa tofauti?",
+     "Mchakato wa sasa: mara ngapi, muda gani?",
+     "Data: ni sehemu gani, maelezo yoyote ya mteja?",
+     "Mtoa huduma: hati, hali ya majaribio, ada, mipaka",
+     "Kushindwa: vipi ikiwa API iko chini?",
+     "Umiliki: ni nani anamiliki funguo na marekebisho?"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Uliza ni sehemu zipi hasa za data zinazohitajika, na iwapo zipo tambua wateja. Hakikisha kuwa mtoa huduma ana hati za umma, hali ya majaribio na ada au vikomo ambavyo mteja anaweza kuishi navyo."
+   ],
+   "panel": {
+    "kicker": "Ugunduzi",
+    "heading": "Maeneo sita ya kuuliza",
+    "items": [
+     "Matokeo: nini kinapaswa kuwa tofauti?",
+     "Mchakato wa sasa: mara ngapi, muda gani?",
+     "Data: ni sehemu gani, maelezo yoyote ya mteja?",
+     "Mtoa huduma: hati, hali ya majaribio, ada, mipaka",
+     "Kushindwa: vipi ikiwa API iko chini?",
+     "Umiliki: ni nani anamiliki funguo na marekebisho?"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Panga njia mbadala ikiwa API iko chini kwa siku, kawaida mchakato wa zamani wa mwongozo. Na ukubali nani anamiliki funguo na marekebisho yajayo."
+   ],
+   "panel": {
+    "kicker": "Ugunduzi",
+    "heading": "Maeneo sita ya kuuliza",
+    "items": [
+     "Matokeo: nini kinapaswa kuwa tofauti?",
+     "Mchakato wa sasa: mara ngapi, muda gani?",
+     "Data: ni sehemu gani, maelezo yoyote ya mteja?",
+     "Mtoa huduma: hati, hali ya majaribio, ada, mipaka",
+     "Kushindwa: vipi ikiwa API iko chini?",
+     "Umiliki: ni nani anamiliki funguo na marekebisho?"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Kwa mfano, Bisi anauza vyakula mtandaoni Lagos kupitia Paystack na anamwomba Nkechi, mshauri wa API, aunganishe kila kitu. Bisi anataka maagizo yajazwe ndani ya saa moja baada ya malipo, na hakuna bidhaa zozote zinazotolewa kwa arifa ghushi."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Duka la vyakula la Bisi",
+    "items": [
+     "Lengo: pakiti ndani ya saa moja, hakuna arifa bandia",
+     "Msingi: maagizo 40 x dakika 3 = saa 2",
+     "Nambari za simu zinazoshirikiwa na vifungashio pekee",
+     "Kurudi nyuma: ukaguzi wa mikono kwa siku hiyo",
+     "Mpango: cheti cha wavuti kilichotiwa saini pamoja na uthibitishe simu"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Nkechi hutazama msaidizi: karibu maagizo 40 kwa siku, dakika 3 kila moja. Hiyo ni dakika 120, au saa 2, kila siku."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Duka la vyakula la Bisi",
+    "items": [
+     "Lengo: pakiti ndani ya saa moja, hakuna arifa bandia",
+     "Msingi: maagizo 40 x dakika 3 = saa 2",
+     "Nambari za simu zinazoshirikiwa na vifungashio pekee",
+     "Kurudi nyuma: ukaguzi wa mikono kwa siku hiyo",
+     "Mpango: cheti cha wavuti kilichotiwa saini pamoja na uthibitishe simu"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Nambari za simu za mteja ni data ya kibinafsi, kwa hivyo ni wafanyikazi wa wapakiaji pekee wanaoziona. Na ikiwa mfumo uko chini, msaidizi huangalia kwa mkono siku hiyo."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Duka la vyakula la Bisi",
+    "items": [
+     "Lengo: pakiti ndani ya saa moja, hakuna arifa bandia",
+     "Msingi: maagizo 40 x dakika 3 = saa 2",
+     "Nambari za simu zinazoshirikiwa na vifungashio pekee",
+     "Kurudi nyuma: ukaguzi wa mikono kwa siku hiyo",
+     "Mpango: cheti cha wavuti kilichotiwa saini pamoja na uthibitishe simu"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Nkechi anapendekeza kazi moja inayolenga: kitabu cha wavuti kilichotiwa saini pamoja na simu ya uthibitishaji inayoashiria maagizo kuwa yamelipwa. Ni wazi kutosha kwa bei."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Duka la vyakula la Bisi",
+    "items": [
+     "Lengo: pakiti ndani ya saa moja, hakuna arifa bandia",
+     "Msingi: maagizo 40 x dakika 3 = saa 2",
+     "Nambari za simu zinazoshirikiwa na vifungashio pekee",
+     "Kurudi nyuma: ukaguzi wa mikono kwa siku hiyo",
+     "Mpango: cheti cha wavuti kilichotiwa saini pamoja na uthibitishe simu"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Ushirikiano mmoja uliozingatia, sio \"unganisha kila kitu\".",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Kazi ya API hubeba kutokuwa na uhakika, kwa hivyo kadiria kila kazi, iongeze, kisha uongeze bafa unayosema wazi. Majukumu ya Nkechi yanaongeza saa 24. Na asilimia 25 imeongezwa, hiyo ni saa 30."
+   ],
+   "card": {
+    "title": "Kupanga bei mradi wa Nkechi",
+    "rows": [],
+    "note": "Kiwango cha kielelezo. Ada za Paystack ni tofauti."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Kwa kielelezo cha naira 8,000 kwa saa, ada ya mradi ni naira 240,000."
+   ],
+   "card": {
+    "title": "Kupanga bei mradi wa Nkechi",
+    "rows": [
+     [
+      "Kiwango chake kwa saa",
+      "8,000"
+     ],
+     [
+      "Ada ya mradi: masaa 30",
+      "240,000"
+     ]
+    ],
+    "note": "Kiwango cha kielelezo. Ada za Paystack ni tofauti."
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Usaidizi wa hiari ni saa 2 kwa mwezi, naira 16,000, kwa mzunguko wa ufunguo na marekebisho madogo.",
+    "Ada za muamala za Paystack zimeorodheshwa tofauti, zinazolipwa na mteja moja kwa moja. Anaomba naira 120,000 kabla ya ujenzi na 120,000 wakati majaribio yatapita."
+   ],
+   "card": {
+    "title": "Kupanga bei mradi wa Nkechi",
+    "rows": [
+     [
+      "Kiwango chake kwa saa",
+      "8,000"
+     ],
+     [
+      "Ada ya mradi: masaa 30",
+      "240,000"
+     ],
+     [
+      "Usaidizi wa hiari kila mwezi",
+      "16,000"
+     ]
+    ],
+    "note": "Kiwango cha kielelezo. Ada za Paystack ni tofauti."
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Andika ni nini hasa katika upeo."
+   ],
+   "panel": {
+    "kicker": "Upeo",
+    "heading": "Katika wigo, au ombi la mabadiliko?",
+    "mode": "compare",
+    "left_h": "Katika upeo",
+    "left": [
+     "Webhook iliyo na saini",
+     "Thibitisha kiasi na sarafu",
+     "Muundo wa majaribio na majaribio matano",
+     "Karatasi ya kukimbia na makabidhiano moja"
+    ],
+    "right_h": "Nukuu tofauti",
+    "right": [
+     "Marejesho na matukio mengine",
+     "Ujumbe wa SMS au WhatsApp",
+     "Mabadiliko ya muundo wa tovuti"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Wakati mteja anauliza kitu kingine, karibisha wazo hilo, liandike kama ombi la mabadiliko na makadirio yake, na waache waamue. Nyongeza ndogo zisizolipwa ni jinsi miradi ya bei isiyobadilika inavyokuwa hasara.",
+    "Na mteja daima anamiliki akaunti ya mtoa huduma na funguo. Usiwahi kuwashika mateka."
+   ],
+   "panel": {
+    "kicker": "Upeo",
+    "heading": "Katika wigo, au ombi la mabadiliko?",
+    "mode": "compare",
+    "left_h": "Katika upeo",
+    "left": [
+     "Webhook iliyo na saini",
+     "Thibitisha kiasi na sarafu",
+     "Muundo wa majaribio na majaribio matano",
+     "Karatasi ya kukimbia na makabidhiano moja"
+    ],
+    "right_h": "Nukuu tofauti",
+    "right": [
+     "Marejesho na matukio mengine",
+     "Ujumbe wa SMS au WhatsApp",
+     "Mabadiliko ya muundo wa tovuti"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Kwa mfano, Zainab huko Kano aliuliza Open-Meteo kwa siku tatu za kiwango cha juu na cha chini zaidi cha halijoto, akatuma ombi baya kimakusudi ili kurekodi hitilafu ya 400, na akabainisha kuwa bila mpangilio wa saa za eneo, nyakati zinarudi katika UTC."
+   ],
+   "panel": {
+    "kicker": "Kwingineko yako",
+    "heading": "Vipande vitatu vya kuanza",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Exploration write-up",
+      "d": "Swali lako, ombi kamili, hali, dondoo la jibu, usomaji wako, na hitilafu moja ya makusudi."
+     },
+     {
+      "t": "Documentation summary",
+      "d": "Takriban maneno 300 kwenye API ya biashara, kwa maneno yako mwenyewe, yale tu ambayo hati zinasema."
+     },
+     {
+      "t": "A 90-day plan",
+      "d": "Malengo ya kila wiki unaweza kuangalia, kukaguliwa kila baada ya wiki mbili."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Kisha, fanya muhtasari wa API ya biashara kama Paystack kwa takriban maneno 300. Ikiwa huna uhakika, sema haijafunikwa kwenye kurasa nilizosoma, badala ya kubahatisha."
+   ],
+   "panel": {
+    "kicker": "Kwingineko yako",
+    "heading": "Vipande vitatu vya kuanza",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Exploration write-up",
+      "d": "Swali lako, ombi kamili, hali, dondoo la jibu, usomaji wako, na hitilafu moja ya makusudi."
+     },
+     {
+      "t": "Documentation summary",
+      "d": "Takriban maneno 300 kwenye API ya biashara, kwa maneno yako mwenyewe, yale tu ambayo hati zinasema."
+     },
+     {
+      "t": "A 90-day plan",
+      "d": "Malengo ya kila wiki unaweza kuangalia, kukaguliwa kila baada ya wiki mbili."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Tatu, mpango wa siku 90 wenye malengo yanayoweza kukaguliwa, kama vile maombi 20 yaliyowekwa katika wiki ya 1 hadi 2. Lengo likiteleza, lipunguze badala ya kuliacha."
+   ],
+   "panel": {
+    "kicker": "Kwingineko yako",
+    "heading": "Vipande vitatu vya kuanza",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Exploration write-up",
+      "d": "Swali lako, ombi kamili, hali, dondoo la jibu, usomaji wako, na hitilafu moja ya makusudi."
+     },
+     {
+      "t": "Documentation summary",
+      "d": "Takriban maneno 300 kwenye API ya biashara, kwa maneno yako mwenyewe, yale tu ambayo hati zinasema."
+     },
+     {
+      "t": "A 90-day plan",
+      "d": "Malengo ya kila wiki unaweza kuangalia, kukaguliwa kila baada ya wiki mbili."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Kabla ya kushiriki picha yoyote ya skrini au kuandika, ondoa funguo, hata funguo za majaribio, tokeni na sahihi.",
+    "Ondoa majina ya wateja, barua pepe, nambari za simu na marejeleo halisi ya miamala na utumie data ya majaribio au bandia. Ufunguo mmoja uliovuja unaweza kutendua uaminifu ambao kwingineko ilikusudiwa kuunda."
+   ],
+   "panel": {
+    "kicker": "Usalama",
+    "heading": "Safi kabla ya kuchapisha",
+    "items": [
+     "Ondoa funguo, ishara na saini",
+     "Ondoa majina ya wateja, barua pepe, simu",
+     "Ondoa marejeleo halisi ya miamala",
+     "Tumia hali ya majaribio au data ghushi"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Kukumbuka. Anza ugunduzi na matokeo na msingi uliopimwa. Bei kazi kwa kazi na bafa wazi. Weka ada za mtoa huduma tofauti. Badilisha mawazo mapya kuwa maombi ya mabadiliko. Na safi kila kipande cha kwingineko kabla ya kukishiriki."
+   ],
+   "panel": {
+    "kicker": "Pointi muhimu",
+    "heading": "Kumbuka",
+    "items": [
+     "Pima msingi wa mwongozo kwanza",
+     "Bei kazi kwa kazi, na bafa maalum",
+     "Weka ada za mtoa huduma tofauti na zako",
+     "Mawazo ya ziada huwa maombi ya mabadiliko ya bei"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Sasa endesha ugunduzi wa mazoezi, bainisha na uweke bei ya muunganisho mmoja, na uandike rasimu yako ya kwanza ya jalada kwa mpango wa siku 90.",
+    "Endelea na masomo hapa chini."
+   ],
+   "panel": {
+    "kicker": "Mazoezi ya kazi",
+    "heading": "Kazi zako za mazoezi",
+    "items": [
+     "Endesha ugunduzi wa mazoezi",
+     "Maalum na bei moja ushirikiano",
+     "Rasimu sehemu yako ya kwanza ya kwingineko"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

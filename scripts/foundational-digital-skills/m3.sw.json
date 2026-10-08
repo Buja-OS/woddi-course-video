@@ -1,0 +1,823 @@
+{
+ "course": "foundational-digital-skills",
+ "module": "m3",
+ "title": "Endelea kudhibiti simu yako, na ushiriki ujuzi wako",
+ "course_title": "Ujuzi wa Msingi wa Dijiti",
+ "shots": [
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Endelea kudhibiti simu yako, na ushiriki ujuzi wako.",
+    "Hii ni video ya moduli ya 3 ya Ujuzi wa Msingi wa Dijiti."
+   ]
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Ikiwa simu yako imeibiwa, mtu asiyemjua anaweza kuingia? Na unaweza kupata taarifa zako tena?"
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Ilinde, itengeneze, ipitishe",
+    "items": [
+     "Funga simu na uihifadhi",
+     "Jua saa yako ya kwanza ikiwa imepotea",
+     "Rekebisha matatizo ya kawaida kwa utulivu",
+     "Mfundishe mwanamke mwingine"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Utafanya mpango kwa saa ya kwanza baada ya simu kupotea."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Ilinde, itengeneze, ipitishe",
+    "items": [
+     "Funga simu na uihifadhi",
+     "Jua saa yako ya kwanza ikiwa imepotea",
+     "Rekebisha matatizo ya kawaida kwa utulivu",
+     "Mfundishe mwanamke mwingine"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Utajifunza utaratibu wa utulivu ili kurekebisha matatizo mengi bila msaada."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Ilinde, itengeneze, ipitishe",
+    "items": [
+     "Funga simu na uihifadhi",
+     "Jua saa yako ya kwanza ikiwa imepotea",
+     "Rekebisha matatizo ya kawaida kwa utulivu",
+     "Mfundishe mwanamke mwingine"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Na utapitisha ujuzi kwa mwanamke mwingine, njia sahihi."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Ilinde, itengeneze, ipitishe",
+    "items": [
+     "Funga simu na uihifadhi",
+     "Jua saa yako ya kwanza ikiwa imepotea",
+     "Rekebisha matatizo ya kawaida kwa utulivu",
+     "Mfundishe mwanamke mwingine"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_map",
+   "say": [
+    "Hatua ya 1. Katika Mipangilio, tafuta Kifunga skrini na uchague PIN ya angalau tarakimu 6."
+   ],
+   "panel": {
+    "kicker": "Linda simu",
+    "heading": "Kifunge na uwashe Tafuta Kifaa Changu",
+    "items": [
+     "Weka PIN ya angalau tarakimu 6",
+     "Epuka 123456, miaka ya kuzaliwa, mifumo",
+     "Ficha arifa nyeti za skrini iliyofungwa",
+     "Washa Tafuta Kifaa Changu na Mahali",
+     "Piga *#06# na uandike IMEI yako"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_map",
+   "say": [
+    "Hatua ya 2. Epuka 123456, mwaka wako wa kuzaliwa au nambari yako ya simu."
+   ],
+   "panel": {
+    "kicker": "Linda simu",
+    "heading": "Kifunge na uwashe Tafuta Kifaa Changu",
+    "items": [
+     "Weka PIN ya angalau tarakimu 6",
+     "Epuka 123456, miaka ya kuzaliwa, mifumo",
+     "Ficha arifa nyeti za skrini iliyofungwa",
+     "Washa Tafuta Kifaa Changu na Mahali",
+     "Piga *#06# na uandike IMEI yako"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_map",
+   "say": [
+    "Hatua ya 3. Ficha maudhui nyeti kwenye skrini iliyofungwa, ili arifa za benki na OTP zisionyeshe."
+   ],
+   "panel": {
+    "kicker": "Linda simu",
+    "heading": "Kifunge na uwashe Tafuta Kifaa Changu",
+    "items": [
+     "Weka PIN ya angalau tarakimu 6",
+     "Epuka 123456, miaka ya kuzaliwa, mifumo",
+     "Ficha arifa nyeti za skrini iliyofungwa",
+     "Washa Tafuta Kifaa Changu na Mahali",
+     "Piga *#06# na uandike IMEI yako"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Hatua ya 4. Washa Tafuta Kifaa Changu na Mahali. Kutoka google.com/android/find kwenye kivinjari chochote, unaweza kupiga, kufunga au kufuta simu iliyopotea."
+   ],
+   "panel": {
+    "kicker": "Linda simu",
+    "heading": "Kifunge na uwashe Tafuta Kifaa Changu",
+    "items": [
+     "Weka PIN ya angalau tarakimu 6",
+     "Epuka 123456, miaka ya kuzaliwa, mifumo",
+     "Ficha arifa nyeti za skrini iliyofungwa",
+     "Washa Tafuta Kifaa Changu na Mahali",
+     "Piga *#06# na uandike IMEI yako"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Hatua ya 5. Piga *#06#. Skrini inaonyesha IMEI yako, nambari ya tarakimu 15 inayotambulisha simu. Iandike kwenye karatasi na kuiweka nyumbani."
+   ],
+   "panel": {
+    "kicker": "Linda simu",
+    "heading": "Kifunge na uwashe Tafuta Kifaa Changu",
+    "items": [
+     "Weka PIN ya angalau tarakimu 6",
+     "Epuka 123456, miaka ya kuzaliwa, mifumo",
+     "Ficha arifa nyeti za skrini iliyofungwa",
+     "Washa Tafuta Kifaa Changu na Mahali",
+     "Piga *#06# na uandike IMEI yako"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Kufuta huondoa data yako, kwa hivyo tafuta kila wakati na ufunge kwanza."
+   ],
+   "panel": {
+    "kicker": "Linda simu",
+    "heading": "Kifunge na uwashe Tafuta Kifaa Changu",
+    "items": [
+     "Weka PIN ya angalau tarakimu 6",
+     "Epuka 123456, miaka ya kuzaliwa, mifumo",
+     "Ficha arifa nyeti za skrini iliyofungwa",
+     "Washa Tafuta Kifaa Changu na Mahali",
+     "Piga *#06# na uandike IMEI yako"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Tafuta na ufunge kwanza. Futa tu ikiwa imeenda kwa uzuri.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Hifadhi nakala kabla ya chochote kwenda vibaya. Unapohifadhi mwasiliani, angalia kuwa inaenda kwenye akaunti yako ya Google."
+   ],
+   "panel": {
+    "kicker": "Hifadhi nakala sasa",
+    "heading": "Hifadhi nakala kabla ya chochote kwenda vibaya",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Contacts",
+      "d": "Hifadhi anwani mpya kwenye akaunti yako ya Google, si kwa SIM au simu pekee."
+     },
+     {
+      "t": "Photos",
+      "d": "Washa kipengele cha Kuhifadhi Nakala katika Picha kwenye Google. Chagua Wi-Fi tu ikiwa data ni ghali."
+     },
+     {
+      "t": "WhatsApp chats",
+      "d": "Mipangilio, Gumzo, Hifadhi rudufu ya Gumzo. Unganisha akaunti yako ya Google."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Katika Picha kwenye Google, washa kipengele cha Kuhifadhi Nakala, ukitumia Wi-Fi ikiwa tu data ni ghali."
+   ],
+   "panel": {
+    "kicker": "Hifadhi nakala sasa",
+    "heading": "Hifadhi nakala kabla ya chochote kwenda vibaya",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Contacts",
+      "d": "Hifadhi anwani mpya kwenye akaunti yako ya Google, si kwa SIM au simu pekee."
+     },
+     {
+      "t": "Photos",
+      "d": "Washa kipengele cha Kuhifadhi Nakala katika Picha kwenye Google. Chagua Wi-Fi tu ikiwa data ni ghali."
+     },
+     {
+      "t": "WhatsApp chats",
+      "d": "Mipangilio, Gumzo, Hifadhi rudufu ya Gumzo. Unganisha akaunti yako ya Google."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_camera",
+   "say": [
+    "Na katika WhatsApp, fungua chelezo cha Gumzo na uunganishe akaunti yako ya Google."
+   ],
+   "panel": {
+    "kicker": "Hifadhi nakala sasa",
+    "heading": "Hifadhi nakala kabla ya chochote kwenda vibaya",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Contacts",
+      "d": "Hifadhi anwani mpya kwenye akaunti yako ya Google, si kwa SIM au simu pekee."
+     },
+     {
+      "t": "Photos",
+      "d": "Washa kipengele cha Kuhifadhi Nakala katika Picha kwenye Google. Chagua Wi-Fi tu ikiwa data ni ghali."
+     },
+     {
+      "t": "WhatsApp chats",
+      "d": "Mipangilio, Gumzo, Hifadhi rudufu ya Gumzo. Unganisha akaunti yako ya Google."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Kwa mfano, Grace aliacha simu yake kwenye basi huko Port Harcourt saa 6:30 jioni."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Saa ya kwanza ya Grace baada ya kupoteza simu yake",
+    "items": [
+     "Piga na ukipate kutoka Pata Kifaa Changu",
+     "Ifunge kwa ujumbe na nambari",
+     "Piga simu benki ili kuzuia benki ya simu",
+     "Uliza mtandao kuzuia SIM",
+     "Ripoti wizi ukitumia IMEI yako"
+    ],
+    "show": 0,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Saa 6:45 jioni, kwenye simu ya dadake, aliingia katika akaunti ya Tafuta Kifaa Changu."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Saa ya kwanza ya Grace baada ya kupoteza simu yake",
+    "items": [
+     "Piga na ukipate kutoka Pata Kifaa Changu",
+     "Ifunge kwa ujumbe na nambari",
+     "Piga simu benki ili kuzuia benki ya simu",
+     "Uliza mtandao kuzuia SIM",
+     "Ripoti wizi ukitumia IMEI yako"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Aliifunga kwa ujumbe: Simu hii imepotea. Tafadhali mpigie dada yangu, na nambari ya dada yake."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Saa ya kwanza ya Grace baada ya kupoteza simu yake",
+    "items": [
+     "Piga na ukipate kutoka Pata Kifaa Changu",
+     "Ifunge kwa ujumbe na nambari",
+     "Piga simu benki ili kuzuia benki ya simu",
+     "Uliza mtandao kuzuia SIM",
+     "Ripoti wizi ukitumia IMEI yako"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Alipiga simu kwa simu ya usaidizi ya benki yake, nambari iliyochapishwa kwenye kadi yake ya benki, ili kuzuia huduma ya benki ya rununu kwenye simu iliyopotea."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Saa ya kwanza ya Grace baada ya kupoteza simu yake",
+    "items": [
+     "Piga na ukipate kutoka Pata Kifaa Changu",
+     "Ifunge kwa ujumbe na nambari",
+     "Piga simu benki ili kuzuia benki ya simu",
+     "Uliza mtandao kuzuia SIM",
+     "Ripoti wizi ukitumia IMEI yako"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Aliuliza mtandao wake kuzuia SIM. Asubuhi iliyofuata dereva akapiga simu, naye akaipokea."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Saa ya kwanza ya Grace baada ya kupoteza simu yake",
+    "items": [
+     "Piga na ukipate kutoka Pata Kifaa Changu",
+     "Ifunge kwa ujumbe na nambari",
+     "Piga simu benki ili kuzuia benki ya simu",
+     "Uliza mtandao kuzuia SIM",
+     "Ripoti wizi ukitumia IMEI yako"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Ikiibiwa, badilisha nenosiri lako la Google na uripoti kwa kutumia IMEI yako."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Saa ya kwanza ya Grace baada ya kupoteza simu yake",
+    "items": [
+     "Piga na ukipate kutoka Pata Kifaa Changu",
+     "Ifunge kwa ujumbe na nambari",
+     "Piga simu benki ili kuzuia benki ya simu",
+     "Uliza mtandao kuzuia SIM",
+     "Ripoti wizi ukitumia IMEI yako"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Walaghai wanaweza kupiga simu wakijifanya kuwa benki. Tumia nambari ya usaidizi kwenye kadi yako au programu rasmi pekee."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Saa ya kwanza ya Grace baada ya kupoteza simu yake",
+    "items": [
+     "Piga na ukipate kutoka Pata Kifaa Changu",
+     "Ifunge kwa ujumbe na nambari",
+     "Piga simu benki ili kuzuia benki ya simu",
+     "Uliza mtandao kuzuia SIM",
+     "Ripoti wizi ukitumia IMEI yako"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Kamwe usishiriki OTP au PIN na mtu yeyote anayekupigia.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Hatua ya 1. Andika hasa kile kinachotokea, wakati, katika programu gani, na upiga picha ya skrini kosa lolote."
+   ],
+   "panel": {
+    "kicker": "Rekebisha mwenyewe",
+    "heading": "Utaratibu wa utatuzi wa hatua tano",
+    "items": [
+     "Eleza tatizo hasa",
+     "Angalia muunganisho na betri",
+     "Funga programu, kisha uanze upya",
+     "Angalia hifadhi na masasisho",
+     "Tafuta ujumbe halisi wa hitilafu"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Hatua ya 2. Je, data imewashwa? Kifurushi chako kimekamilika? Washa hali ya ndegeni kwa sekunde kumi, kisha uzime, ili kuunganisha tena."
+   ],
+   "panel": {
+    "kicker": "Rekebisha mwenyewe",
+    "heading": "Utaratibu wa utatuzi wa hatua tano",
+    "items": [
+     "Eleza tatizo hasa",
+     "Angalia muunganisho na betri",
+     "Funga programu, kisha uanze upya",
+     "Angalia hifadhi na masasisho",
+     "Tafuta ujumbe halisi wa hitilafu"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Hatua ya 3. Telezesha kidole mbali na uifungue tena. Ikiwa hiyo itashindikana, fungua upya simu."
+   ],
+   "panel": {
+    "kicker": "Rekebisha mwenyewe",
+    "heading": "Utaratibu wa utatuzi wa hatua tano",
+    "items": [
+     "Eleza tatizo hasa",
+     "Angalia muunganisho na betri",
+     "Funga programu, kisha uanze upya",
+     "Angalia hifadhi na masasisho",
+     "Tafuta ujumbe halisi wa hitilafu"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Hatua ya 4. Angalia hifadhi. Kufuta akiba ya programu huondoa faili za muda na ni salama."
+   ],
+   "panel": {
+    "kicker": "Rekebisha mwenyewe",
+    "heading": "Utaratibu wa utatuzi wa hatua tano",
+    "items": [
+     "Eleza tatizo hasa",
+     "Angalia muunganisho na betri",
+     "Funga programu, kisha uanze upya",
+     "Angalia hifadhi na masasisho",
+     "Tafuta ujumbe halisi wa hitilafu"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Hatua ya 5. Tafuta hitilafu haswa na muundo wa simu yako, na upendelea tovuti rasmi za usaidizi. Usisakinishe programu safi zisizojulikana."
+   ],
+   "panel": {
+    "kicker": "Rekebisha mwenyewe",
+    "heading": "Utaratibu wa utatuzi wa hatua tano",
+    "items": [
+     "Eleza tatizo hasa",
+     "Angalia muunganisho na betri",
+     "Funga programu, kisha uanze upya",
+     "Angalia hifadhi na masasisho",
+     "Tafuta ujumbe halisi wa hitilafu"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Data wazi ni tofauti. Huweka upya programu na inaweza kufuta maelezo yako uliyohifadhi, kwa hivyo weka nakala kwanza."
+   ],
+   "panel": {
+    "kicker": "Rekebisha mwenyewe",
+    "heading": "Utaratibu wa utatuzi wa hatua tano",
+    "items": [
+     "Eleza tatizo hasa",
+     "Angalia muunganisho na betri",
+     "Funga programu, kisha uanze upya",
+     "Angalia hifadhi na masasisho",
+     "Tafuta ujumbe halisi wa hitilafu"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Futa akiba ni salama. Futa data inaweza kufuta maelezo yako.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Kwa mfano, Chiamaka huko Owerri hakuweza kupiga picha. GB 1.4 pekee ndiyo ilikuwa bure."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Chiamaka anatoa GB 9.7",
+    "items": [
+     "Hifadhi imejaa: GB 1.4 pekee bila malipo",
+     "Video zilizotumwa kwa WhatsApp: GB 4.2",
+     "Takataka 0.9 GB na nakala 1.1 GB",
+     "Picha zilizohifadhiwa: GB 3.5",
+     "Sasa GB 11.1 bila malipo, hakuna kilichopotea"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Katika WhatsApp, Dhibiti hifadhi, video zilizosambazwa zilizotumiwa GB 4.2. Alizifuta."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Chiamaka anatoa GB 9.7",
+    "items": [
+     "Hifadhi imejaa: GB 1.4 pekee bila malipo",
+     "Video zilizotumwa kwa WhatsApp: GB 4.2",
+     "Takataka 0.9 GB na nakala 1.1 GB",
+     "Picha zilizohifadhiwa: GB 3.5",
+     "Sasa GB 11.1 bila malipo, hakuna kilichopotea"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Files by Google iliondoa GB 0.9 ya takataka na GB 1.1 ya nakala za picha."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Chiamaka anatoa GB 9.7",
+    "items": [
+     "Hifadhi imejaa: GB 1.4 pekee bila malipo",
+     "Video zilizotumwa kwa WhatsApp: GB 4.2",
+     "Takataka 0.9 GB na nakala 1.1 GB",
+     "Picha zilizohifadhiwa: GB 3.5",
+     "Sasa GB 11.1 bila malipo, hakuna kilichopotea"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Picha zake tayari zilikuwa zimechelezwa, kwa hivyo akaachilia GB 3.5 nyingine."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Chiamaka anatoa GB 9.7",
+    "items": [
+     "Hifadhi imejaa: GB 1.4 pekee bila malipo",
+     "Video zilizotumwa kwa WhatsApp: GB 4.2",
+     "Takataka 0.9 GB na nakala 1.1 GB",
+     "Picha zilizohifadhiwa: GB 3.5",
+     "Sasa GB 11.1 bila malipo, hakuna kilichopotea"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Katika takriban dakika 15 alikuwa na GB 11.1 bila malipo, na hakupoteza chochote muhimu.",
+    "Lakini ikiwa betri imevimba, ina joto sana, ina harufu ya kuungua, au imekuwa ndani ya maji, acha. Usichaji. Ipeleke kwa mrekebishaji anayeaminika."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Chiamaka anatoa GB 9.7",
+    "items": [
+     "Hifadhi imejaa: GB 1.4 pekee bila malipo",
+     "Video zilizotumwa kwa WhatsApp: GB 4.2",
+     "Takataka 0.9 GB na nakala 1.1 GB",
+     "Picha zilizohifadhiwa: GB 3.5",
+     "Sasa GB 11.1 bila malipo, hakuna kilichopotea"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_map",
+   "say": [
+    "Kwa mfano, Kemi alimfundisha jirani yake Mama Tunde huko Osogbo kuweka ukumbusho. mimi hufanya. Mama Tunde alifungua simu yake mwenyewe, na Kemi akaonyesha hatua mara moja, taratibu."
+   ],
+   "panel": {
+    "kicker": "Mfundishe mwanamke mwingine",
+    "heading": "Ninafanya, Tunafanya, Unafanya",
+    "items": [
+     "Ninafanya: onyesha polepole, mara moja",
+     "Tunafanya: anagonga, unaelekeza na jina",
+     "Unafanya: anafanya peke yake",
+     "Angalia: anaelezea tena"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_map",
+   "say": [
+    "Sisi hufanya. Mama Tunde aligonga kila kitufe huku Kemi akionyesha na kutaja kila kitu."
+   ],
+   "panel": {
+    "kicker": "Mfundishe mwanamke mwingine",
+    "heading": "Ninafanya, Tunafanya, Unafanya",
+    "items": [
+     "Ninafanya: onyesha polepole, mara moja",
+     "Tunafanya: anagonga, unaelekeza na jina",
+     "Unafanya: anafanya peke yake",
+     "Angalia: anaelezea tena"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_map",
+   "say": [
+    "Unafanya. Mama Tunde alifanya tukio la pili peke yake."
+   ],
+   "panel": {
+    "kicker": "Mfundishe mwanamke mwingine",
+    "heading": "Ninafanya, Tunafanya, Unafanya",
+    "items": [
+     "Ninafanya: onyesha polepole, mara moja",
+     "Tunafanya: anagonga, unaelekeza na jina",
+     "Unafanya: anafanya peke yake",
+     "Angalia: anaelezea tena"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Angalia. Mama Tunde alielezea hatua za kurudi kwa Kiyoruba, kwa maneno yake mwenyewe."
+   ],
+   "panel": {
+    "kicker": "Mfundishe mwanamke mwingine",
+    "heading": "Ninafanya, Tunafanya, Unafanya",
+    "items": [
+     "Ninafanya: onyesha polepole, mara moja",
+     "Tunafanya: anagonga, unaelekeza na jina",
+     "Unafanya: anafanya peke yake",
+     "Angalia: anaelezea tena"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Makosa ya kawaida ni kuchukua simu na kuifanya haraka wewe mwenyewe. Weka mikono yako mbali, na uangalie kando anapoandika maelezo ya faragha."
+   ],
+   "panel": {
+    "kicker": "Mfundishe mwanamke mwingine",
+    "heading": "Ninafanya, Tunafanya, Unafanya",
+    "items": [
+     "Ninafanya: onyesha polepole, mara moja",
+     "Tunafanya: anagonga, unaelekeza na jina",
+     "Unafanya: anafanya peke yake",
+     "Angalia: anaelezea tena"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Simu yake, mikono yake. Usiulize kamwe PIN au manenosiri yake.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Kukumbuka. Tumia PIN yenye tarakimu 6 na uwashe Tafuta Kifaa Changu. Hifadhi nakala kabla ya chochote kwenda vibaya. Weka IMEI yako kwenye karatasi. Anzisha upya kwanza, na ufute akiba, sio data. Na kufundisha kwenye simu yake, na mikono yako mbali."
+   ],
+   "panel": {
+    "kicker": "Pointi muhimu",
+    "heading": "Kumbuka",
+    "items": [
+     "PIN yenye tarakimu 6, na Tafuta Kifaa Changu umewashwa",
+     "Hifadhi nakala za anwani, picha na WhatsApp",
+     "Weka IMEI yako kwenye karatasi nyumbani",
+     "Anzisha upya kwanza; futa kashe, sio data",
+     "Mfundishe kwa simu yake, akiwa amezima mikono"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Sasa salama na uhifadhi nakala ya simu yako, na uandike mpango wako wa simu iliyopotea. Safisha hifadhi yako, fundisha ujuzi mmoja, jitathmini upya na uandike mpango wako wa siku 90.",
+    "Endelea na masomo hapa chini."
+   ],
+   "panel": {
+    "kicker": "Kazi ya mazoezi",
+    "heading": "Kazi zako za mazoezi",
+    "items": [
+     "Linda na uhifadhi nakala ya simu yako",
+     "Safisha hifadhi na uanzishe logi ya tatizo",
+     "Fundisha ujuzi mmoja na uweke kumbukumbu",
+     "Jipime tena alama; andika mpango wa siku 90"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

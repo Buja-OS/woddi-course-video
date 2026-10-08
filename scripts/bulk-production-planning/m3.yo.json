@@ -1,0 +1,568 @@
+{
+ "course": "bulk-production-planning",
+ "module": "m3",
+ "title": "Awọn eniyan, awọn alabaṣiṣẹpọ, ifijiṣẹ ati ero imurasilẹ rẹ",
+ "course_title": "Olopobobo Production Planning",
+ "shots": [
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Awọn eniyan, awọn alabaṣiṣẹpọ, ifijiṣẹ ati ero imurasilẹ rẹ.",
+    "Eyi ni fidio fun module 3 ti Ilana iṣelọpọ Bulk."
+   ]
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Nigba miiran aṣẹ naa tobi ju agbara idaduro rẹ lọ. Iwọ yoo ṣe idanwo awọn aṣayan rẹ pẹlu awọn nọmba."
+   ],
+   "panel": {
+    "kicker": "Kini idi ti eyi ṣe pataki",
+    "heading": "Lati ero lati pari ifijiṣẹ",
+    "items": [
+     "Pa aafo agbara pẹlu awọn nọmba",
+     "Oṣiṣẹ ila lilo takt akoko",
+     "Dari pẹlu huddles ati ailewu wakati",
+     "Firanṣẹ, ṣe atunyẹwo ati jẹrisi rẹ"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Iwọ yoo ṣe iwọn awọn atukọ rẹ nitorinaa ko si ibudo duro ati pe ko si ẹnikan ti o duro laišišẹ."
+   ],
+   "panel": {
+    "kicker": "Kini idi ti eyi ṣe pataki",
+    "heading": "Lati ero lati pari ifijiṣẹ",
+    "items": [
+     "Pa aafo agbara pẹlu awọn nọmba",
+     "Oṣiṣẹ ila lilo takt akoko",
+     "Dari pẹlu huddles ati ailewu wakati",
+     "Firanṣẹ, ṣe atunyẹwo ati jẹrisi rẹ"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Iwọ yoo ṣe itọsọna ṣiṣe pẹlu huddle ojoojumọ kukuru ati awọn wakati iṣẹ ailewu."
+   ],
+   "panel": {
+    "kicker": "Kini idi ti eyi ṣe pataki",
+    "heading": "Lati ero lati pari ifijiṣẹ",
+    "items": [
+     "Pa aafo agbara pẹlu awọn nọmba",
+     "Oṣiṣẹ ila lilo takt akoko",
+     "Dari pẹlu huddles ati ailewu wakati",
+     "Firanṣẹ, ṣe atunyẹwo ati jẹrisi rẹ"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Ati pe iwọ yoo firanṣẹ, ṣe atunyẹwo ṣiṣe, ki o tọju ẹri ti o ṣẹgun aṣẹ olopobobo ti nbọ."
+   ],
+   "panel": {
+    "kicker": "Kini idi ti eyi ṣe pataki",
+    "heading": "Lati ero lati pari ifijiṣẹ",
+    "items": [
+     "Pa aafo agbara pẹlu awọn nọmba",
+     "Oṣiṣẹ ila lilo takt akoko",
+     "Dari pẹlu huddles ati ailewu wakati",
+     "Firanṣẹ, ṣe atunyẹwo ati jẹrisi rẹ"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Fun apẹẹrẹ, olura bayi beere Kemi fun awọn akopọ 8,000 ni ọjọ kanna. Pẹlu 2% apọju, iyẹn nilo nipa awọn akopọ 742 ni ọjọ kan. Oṣuwọn idaduro rẹ jẹ 470, nitorinaa aafo naa jẹ nipa 272 ni ọjọ kan."
+   ],
+   "panel": {
+    "kicker": "Apẹẹrẹ ṣiṣẹ",
+    "heading": "Awọn akopọ 8,000 nipasẹ ọjọ kanna",
+    "items": [
+     "Nilo 742 fun ọjọ kan; Iwọn idaduro jẹ 470",
+     "A: gun wakati: nipa 605, lewu",
+     "B: fryer keji nikan: nipa 529",
+     "C: awọn ibudo tuntun mẹta: nipa 881",
+     "D: alabaṣepọ ṣe awọn akopọ 3,000"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Aṣayan A, 2 afikun fryer wakati ọjọ kan, yoo fun nikan nipa 605. Ati awọn wakati 60 ni ọsẹ kan ju ipele 55-wakati ti WHO ati ILO ṣe asopọ si ewu ti o ga julọ ti ikọlu ati arun ọkan. Ti kọ."
+   ],
+   "panel": {
+    "kicker": "Apẹẹrẹ ṣiṣẹ",
+    "heading": "Awọn akopọ 8,000 nipasẹ ọjọ kanna",
+    "items": [
+     "Nilo 742 fun ọjọ kan; Iwọn idaduro jẹ 470",
+     "A: gun wakati: nipa 605, lewu",
+     "B: fryer keji nikan: nipa 529",
+     "C: awọn ibudo tuntun mẹta: nipa 881",
+     "D: alabaṣepọ ṣe awọn akopọ 3,000"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Aṣayan B, fryer keji nikan, ṣe lilẹ ọrun igo tuntun. Nikan nipa 529. Jina kukuru."
+   ],
+   "panel": {
+    "kicker": "Apẹẹrẹ ṣiṣẹ",
+    "heading": "Awọn akopọ 8,000 nipasẹ ọjọ kanna",
+    "items": [
+     "Nilo 742 fun ọjọ kan; Iwọn idaduro jẹ 470",
+     "A: gun wakati: nipa 605, lewu",
+     "B: fryer keji nikan: nipa 529",
+     "C: awọn ibudo tuntun mẹta: nipa 881",
+     "D: alabaṣepọ ṣe awọn akopọ 3,000"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Aṣayan C ṣe afikun fryer, sealer ati peeler, fifun nipa 881. To, ṣugbọn awọn eniyan titun mẹta lati ṣe ikẹkọ laarin awọn ọjọ."
+   ],
+   "panel": {
+    "kicker": "Apẹẹrẹ ṣiṣẹ",
+    "heading": "Awọn akopọ 8,000 nipasẹ ọjọ kanna",
+    "items": [
+     "Nilo 742 fun ọjọ kan; Iwọn idaduro jẹ 470",
+     "A: gun wakati: nipa 605, lewu",
+     "B: fryer keji nikan: nipa 529",
+     "C: awọn ibudo tuntun mẹta: nipa 881",
+     "D: alabaṣepọ ṣe awọn akopọ 3,000"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Aṣayan D: Kemi ntọju laini ti o ni idaniloju, ati alabaṣepọ ti o gbẹkẹle pẹlu awọn idii 300 ti a fihan ni ọjọ kan ṣe awọn akopọ 3,000 miiran."
+   ],
+   "panel": {
+    "kicker": "Apẹẹrẹ ṣiṣẹ",
+    "heading": "Awọn akopọ 8,000 nipasẹ ọjọ kanna",
+    "items": [
+     "Nilo 742 fun ọjọ kan; Iwọn idaduro jẹ 470",
+     "A: gun wakati: nipa 605, lewu",
+     "B: fryer keji nikan: nipa 529",
+     "C: awọn ibudo tuntun mẹta: nipa 881",
+     "D: alabaṣepọ ṣe awọn akopọ 3,000"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Yan alabaṣepọ ti iṣẹ rẹ ti ri. Ṣabẹwo, wo ipele kan, ṣayẹwo imọtoto ati awọn igbasilẹ iṣẹjade wọn, ki o si fi sii kikọ."
+   ],
+   "card": {
+    "title": "Kini idii alabaṣepọ n gba Kemi",
+    "rows": [],
+    "note": "Awọn idiyele Naira jẹ isunmọ."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Egberun lona aadota (950) naira ni eniti o ra ra. Kemi san 720 alabaṣepọ rẹ fun idii ti o gba, o si n lo nipa 20 fun ayẹwo ati gbigbe."
+   ],
+   "card": {
+    "title": "Kini idii alabaṣepọ n gba Kemi",
+    "rows": [
+     [
+      "Olura sanwo fun idii",
+      "950"
+     ],
+     [
+      "Sanwo si alabaṣepọ fun idii",
+      "720"
+     ],
+     [
+      "Ayewo Kemi ati gbigbe",
+      "20"
+     ]
+    ],
+    "note": "Awọn idiyele Naira jẹ isunmọ."
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Iyen fi nkan bii 210 naira silẹ idii kan, bii 630,000 lori awọn akopọ 3,000. Kere ju awọn akopọ tirẹ lọ, ṣugbọn pẹlu eewu ti o kere pupọ.",
+    "Fun alabaṣepọ ni iwe sipesifikesonu ati apẹẹrẹ goolu kan, pese awọn apo ti a tẹjade funrararẹ, ki o sọ fun olura nipa alabaṣepọ naa. O duro lodidi fun gbogbo pack."
+   ],
+   "card": {
+    "title": "Kini idii alabaṣepọ n gba Kemi",
+    "rows": [
+     [
+      "Olura sanwo fun idii",
+      "950"
+     ],
+     [
+      "Sanwo si alabaṣepọ fun idii",
+      "720"
+     ],
+     [
+      "Ayewo Kemi ati gbigbe",
+      "20"
+     ]
+    ],
+    "note": "Awọn idiyele Naira jẹ isunmọ."
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Akoonu iṣẹ tumọ si awọn iṣẹju-iṣẹju eniyan ti ibudo nilo fun awọn ẹya 100. Pin o nipasẹ takt akoko fun 100 sipo. Kemi's takt jẹ bii iṣẹju 89 fun awọn akopọ 100."
+   ],
+   "panel": {
+    "kicker": "Iwontunwonsi ila",
+    "heading": "Eniyan fun ibudo = iṣẹ / takt",
+    "items": [
+     "Takt: nipa awọn iṣẹju 89 fun awọn akopọ 100",
+     "Peeli 100 / 89 = 1.1, nitorina eniyan 2",
+     "Fry 75/89 = 0.8, bẹ 1 eniyan",
+     "Igbẹhin 67 / 89 = 0.75, bẹ 1 eniyan",
+     "Akoko plus aami 70/89: 1 eniyan"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Peeling nilo iṣẹju-iṣẹju eniyan 100, nitorinaa eniyan 1.1, ti yika si 2."
+   ],
+   "panel": {
+    "kicker": "Iwontunwonsi ila",
+    "heading": "Eniyan fun ibudo = iṣẹ / takt",
+    "items": [
+     "Takt: nipa awọn iṣẹju 89 fun awọn akopọ 100",
+     "Peeli 100 / 89 = 1.1, nitorina eniyan 2",
+     "Fry 75/89 = 0.8, bẹ 1 eniyan",
+     "Igbẹhin 67 / 89 = 0.75, bẹ 1 eniyan",
+     "Akoko plus aami 70/89: 1 eniyan"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Frying ati lilẹ kọọkan nilo 1 eniyan."
+   ],
+   "panel": {
+    "kicker": "Iwontunwonsi ila",
+    "heading": "Eniyan fun ibudo = iṣẹ / takt",
+    "items": [
+     "Takt: nipa awọn iṣẹju 89 fun awọn akopọ 100",
+     "Peeli 100 / 89 = 1.1, nitorina eniyan 2",
+     "Fry 75/89 = 0.8, bẹ 1 eniyan",
+     "Igbẹhin 67 / 89 = 0.75, bẹ 1 eniyan",
+     "Akoko plus aami 70/89: 1 eniyan"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Akoko ati isamisi jẹ ina, nitorinaa eniyan kan ṣe mejeeji. Iyẹn jẹ oṣiṣẹ ti 5, pẹlu abojuto Kemi.",
+    "Awọn oṣiṣẹ igba diẹ ti o gba ikẹkọ meji gba awọn aaye peeling. RÍ osise pa fryer ati sealer."
+   ],
+   "panel": {
+    "kicker": "Iwontunwonsi ila",
+    "heading": "Eniyan fun ibudo = iṣẹ / takt",
+    "items": [
+     "Takt: nipa awọn iṣẹju 89 fun awọn akopọ 100",
+     "Peeli 100 / 89 = 1.1, nitorina eniyan 2",
+     "Fry 75/89 = 0.8, bẹ 1 eniyan",
+     "Igbẹhin 67 / 89 = 0.75, bẹ 1 eniyan",
+     "Akoko plus aami 70/89: 1 eniyan"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Awọn oṣiṣẹ ti o ni iriri mu igo ati awọn igbesẹ didara.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "flipchart",
+   "say": [
+    "Awọn oṣiṣẹ ti ko ni ikẹkọ le ṣẹda atunṣe diẹ sii ju iṣelọpọ lọ. Kemi isuna 2 san ikẹkọ ọjọ. Oṣiṣẹ tuntun n wo iyipo ni kikun, lẹhinna ṣiṣẹ lẹgbẹẹ eniyan ti o ni iriri.",
+    "O ṣiṣẹ nikan lẹhin ṣiṣe awọn sọwedowo mẹta ni ọna kan. Awọn ofin aabo wa ni ọjọ kan, ati awọn oṣiṣẹ igba diẹ ko ṣiṣẹ fryer."
+   ],
+   "panel": {
+    "kicker": "Awọn oṣiṣẹ igba diẹ",
+    "heading": "Kọ ẹkọ ati forukọsilẹ ṣaaju ọjọ kan",
+    "items": [
+     "2 san ikẹkọ ọjọ",
+     "Fihan, lẹhinna ṣe lẹgbẹẹ amoye kan",
+     "Kọ ofin didara pẹlu apẹẹrẹ",
+     "Iforukọsilẹ: awọn sọwedowo mẹta kọja ni ọna kan",
+     "Awọn oṣiṣẹ igba diẹ ko ṣiṣẹ fryer"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Awọn oṣiṣẹ ti o rẹwẹsi ṣe awọn aṣiṣe ati ki o farapa. Kemi ngbero awọn wakati 48 ni ọsẹ kan pẹlu ọjọ isinmi ni kikun, daradara labẹ 55, ati yiyi eniyan pada lori awọn iṣẹ ṣiṣe atunwi."
+   ],
+   "panel": {
+    "kicker": "Asiwaju awọn sure",
+    "heading": "Awọn wakati ailewu, tapa-pipa ati huddle",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Safe hours",
+      "d": "8-wakati iṣinipo, 6 ọjọ: 48 wakati pẹlu kan ni kikun isinmi ọjọ. Awọn isinmi, omi ati ounjẹ to dara."
+     },
+     {
+      "t": "20-minute kick-off",
+      "d": "Bere fun, ọjọ, apẹẹrẹ goolu, ibi-afẹde ibudo kọọkan, ofin iduro, mimọ ati ailewu."
+     },
+     {
+      "t": "10-minute huddle",
+      "d": "Aafo ana ati awọn abawọn, awọn iṣoro, ibi-afẹde oni, ati ọpẹ si ẹnikan."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Ṣaaju ki o to ọjọ kini, ipasẹ iṣẹju 20 kan. Ẹnikẹ́ni tí ó bá rí ìṣòro gbọ́dọ̀ sọ̀rọ̀, àti dídúró ìlà fún àbùkù gidi ni a gbóríyìn fún, kì í ṣe níyà."
+   ],
+   "panel": {
+    "kicker": "Asiwaju awọn sure",
+    "heading": "Awọn wakati ailewu, tapa-pipa ati huddle",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Safe hours",
+      "d": "8-wakati iṣinipo, 6 ọjọ: 48 wakati pẹlu kan ni kikun isinmi ọjọ. Awọn isinmi, omi ati ounjẹ to dara."
+     },
+     {
+      "t": "20-minute kick-off",
+      "d": "Bere fun, ọjọ, apẹẹrẹ goolu, ibi-afẹde ibudo kọọkan, ofin iduro, mimọ ati ailewu."
+     },
+     {
+      "t": "10-minute huddle",
+      "d": "Aafo ana ati awọn abawọn, awọn iṣoro, ibi-afẹde oni, ati ọpẹ si ẹnikan."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Ni gbogbo owurọ, itosi iṣẹju mẹwa 10 ti o duro lẹgbẹẹ olutọpa naa."
+   ],
+   "panel": {
+    "kicker": "Asiwaju awọn sure",
+    "heading": "Awọn wakati ailewu, tapa-pipa ati huddle",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Safe hours",
+      "d": "8-wakati iṣinipo, 6 ọjọ: 48 wakati pẹlu kan ni kikun isinmi ọjọ. Awọn isinmi, omi ati ounjẹ to dara."
+     },
+     {
+      "t": "20-minute kick-off",
+      "d": "Bere fun, ọjọ, apẹẹrẹ goolu, ibi-afẹde ibudo kọọkan, ofin iduro, mimọ ati ailewu."
+     },
+     {
+      "t": "10-minute huddle",
+      "d": "Aafo ana ati awọn abawọn, awọn iṣoro, ibi-afẹde oni, ati ọpẹ si ẹnikan."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_camera",
+   "say": [
+    "Paali ti o padanu jẹ rọrun lati yanju ni ẹnu-ọna ati lile pupọ ni ọsẹ kan lẹhinna. Ka papọ, jẹ ki akọsilẹ ifijiṣẹ fowo si ati ọjọ, ki o ya aworan rẹ pẹlu awọn paali tolera.",
+    "Tọju awọn akopọ diẹ lati ọjọ kọọkan, ki o firanṣẹ WhatsApp ni ọjọ kanna pẹlu fọto ati olurannileti ti ọjọ iwọntunwọnsi."
+   ],
+   "panel": {
+    "kicker": "Ọjọ ifijiṣẹ",
+    "heading": "Fi ọwọ silẹ ni mimọ",
+    "items": [
+     "Invoice pẹlu iwontunwonsi nitori",
+     "Akọsilẹ Ifijiṣẹ: awọn paali ati awọn sipo",
+     "Ka awọn paali pẹlu olugba",
+     "Ti fowo si, akọsilẹ ọjọ, ti ya aworan",
+     "Awọn ayẹwo idaduro lati ọjọ kọọkan"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Laarin ọsẹ kan, joko pẹlu alabojuto rẹ ki o lo awọn igbasilẹ rẹ, kii ṣe iranti. Kemi ngbero 470 awọn akopọ ti o dara ni ọjọ kan. Laisi ọjọ-gige agbara, o jẹ iwọn 448."
+   ],
+   "panel": {
+    "kicker": "Lẹhin-igbese awotẹlẹ",
+    "heading": "Awọn ibeere mẹrin laarin ọsẹ kan",
+    "items": [
+     "Kini a gbero?",
+     "Kini o ṣẹlẹ gangan?",
+     "Kini idi ti iyatọ wa?",
+     "Kini a yoo ṣe yatọ si?"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Kí nìdí? Awọn peelers igba diẹ dinku ni awọn ọjọ mẹta akọkọ. O jiṣẹ ni akoko nitori ifipamọ, kii ṣe nitori pe ero naa jẹ deede."
+   ],
+   "panel": {
+    "kicker": "Lẹhin-igbese awotẹlẹ",
+    "heading": "Awọn ibeere mẹrin laarin ọsẹ kan",
+    "items": [
+     "Kini a gbero?",
+     "Kini o ṣẹlẹ gangan?",
+     "Kini idi ti iyatọ wa?",
+     "Kini a yoo ṣe yatọ si?"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Nigbamii ti o gbero pẹlu iwọn 450 ni ọjọ kan, ṣafikun ọjọ ikẹkọ kan, ati ṣeto agbara afẹyinti."
+   ],
+   "panel": {
+    "kicker": "Lẹhin-igbese awotẹlẹ",
+    "heading": "Awọn ibeere mẹrin laarin ọsẹ kan",
+    "items": [
+     "Kini a gbero?",
+     "Kini o ṣẹlẹ gangan?",
+     "Kini idi ti iyatọ wa?",
+     "Kini a yoo ṣe yatọ si?"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Gbero aṣẹ atẹle pẹlu awọn nọmba gidi, kii ṣe ero atijọ.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Lati ranti. Ṣe iwọn aafo ati idanwo gbogbo aṣayan lori gbogbo laini. Fun awọn alabaṣepọ kanna sipesifikesonu ati ẹnu-bode. Pa awọn wakati mọ lailewu, ati gba akọsilẹ ifijiṣẹ fowo si.",
+    "Lẹhinna tọju portfolio ti ẹri gidi: alaye agbara rẹ, awọn akopọ aṣẹ, awọn fọto ati itọkasi olura."
+   ],
+   "panel": {
+    "kicker": "Awọn ojuami pataki",
+    "heading": "Ranti",
+    "items": [
+     "Ṣe iwọn aafo naa, awọn aṣayan idanwo lori gbogbo ila",
+     "A alabaṣepọ nilo kanna spec ati ibode",
+     "Gbero awọn wakati daradara ni isalẹ 55 ni ọsẹ kan",
+     "Gba iwe-aṣẹ ti o fowo si, ti ọjọ ifijiṣẹ",
+     "Jeki a olopobobo imurasilẹ portfolio"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Iyipada rẹ. Ṣe idanwo awọn aṣayan agbara rẹ, gbero awọn atukọ rẹ ati tapa, lẹhinna ṣe atunyẹwo aṣẹ kan ki o kọ portfolio rẹ pẹlu ero ọjọ-90 kan.",
+    "Tẹsiwaju pẹlu awọn ẹkọ ni isalẹ."
+   ],
+   "panel": {
+    "kicker": "Ṣiṣe awọn iṣẹ ṣiṣe",
+    "heading": "Awọn iṣẹ ṣiṣe adaṣe rẹ",
+    "items": [
+     "Ṣe idanwo awọn aṣayan agbara rẹ",
+     "Gbero rẹ atuko ati huddle",
+     "Ṣiṣe atunyẹwo ki o kọ portfolio rẹ"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

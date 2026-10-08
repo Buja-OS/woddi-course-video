@@ -1,0 +1,473 @@
+{
+ "course": "power-bi-tableau",
+ "module": "m3",
+ "title": "Chọpụta, ọnụahịa na chebe: ịtụgharị dashboard ka ọ bụrụ ọrụ akwụ ụgwọ",
+ "course_title": "Ike BI na Isiokwu: Dashboards azụmahịa mmekọrịta",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Chọpụta, ọnụahịa na chebe: ịtụgharị dashboard ka ọ bụrụ ọrụ akwụ ụgwọ.",
+    "Nke a bụ vidiyo maka modul atọ nke Power BI na Tableau: nyocha, ịnye ọnụahịa na ọrụ dashboard gị."
+   ]
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Nka nka na-enweta dashboard wuru. Nkà ndụmọdụ na-eji ya wee kwụọ ya ụgwọ.",
+    "Ọtụtụ ọrụ dashboard na-ada na-eme ya tupu ewuo chaatị ọ bụla."
+   ],
+   "panel": {
+    "kicker": "Ihe mere nke a ji dị mkpa",
+    "heading": "Nkà na-ewuli ya, ndụmọdụ na-akwụ ya ụgwọ",
+    "items": [
+     "Ọtụtụ ọrụ dara ada tupu chaatị ọ bụla",
+     "Nchọpụta na-achọpụta ezigbo mkpa na data",
+     "Ndị ahịa enweghị ike ịhụ ọrụ nhicha na ịlele ọrụ",
+     "Pọtụfoliyo na-egosi ihe ị nwere ike ime"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Onye nyocha ahụ wuru ihe ọ chere na ọ dị mkpa, enweghị ike ịnweta data ahụ, ma ọ bụ enweghị ike ịkekọrịta dashboard ahụ n'aka ndị kwesịrị ekwesị. Nzukọ nchọpụta dị mma na-egbochi atọ ahụ."
+   ],
+   "panel": {
+    "kicker": "Ihe mere nke a ji dị mkpa",
+    "heading": "Nkà na-ewuli ya, ndụmọdụ na-akwụ ya ụgwọ",
+    "items": [
+     "Ọtụtụ ọrụ dara ada tupu chaatị ọ bụla",
+     "Nchọpụta na-achọpụta ezigbo mkpa na data",
+     "Ndị ahịa enweghị ike ịhụ ọrụ nhicha na ịlele ọrụ",
+     "Pọtụfoliyo na-egosi ihe ị nwere ike ime"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Ọrụ dashboard dịkwa mfe karịa ọnụ ahịa, n'ihi na eserese ahụ na-ewe obere oge, ndị ahịa enweghịkwa ike ịhụ nhicha na ịlele."
+   ],
+   "panel": {
+    "kicker": "Ihe mere nke a ji dị mkpa",
+    "heading": "Nkà na-ewuli ya, ndụmọdụ na-akwụ ya ụgwọ",
+    "items": [
+     "Ọtụtụ ọrụ dara ada tupu chaatị ọ bụla",
+     "Nchọpụta na-achọpụta ezigbo mkpa na data",
+     "Ndị ahịa enweghị ike ịhụ ọrụ nhicha na ịlele ọrụ",
+     "Pọtụfoliyo na-egosi ihe ị nwere ike ime"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Na iji merie ọrụ, ị chọrọ ihe akaebe. Obere Pọtụfoliyo nke ọrụ akọwara nke ọma na-akụri ogologo ndepụta nkuzi."
+   ],
+   "panel": {
+    "kicker": "Ihe mere nke a ji dị mkpa",
+    "heading": "Nkà na-ewuli ya, ndụmọdụ na-akwụ ya ụgwọ",
+    "items": [
+     "Ọtụtụ ọrụ dara ada tupu chaatị ọ bụla",
+     "Nchọpụta na-achọpụta ezigbo mkpa na data",
+     "Ndị ahịa enweghị ike ịhụ ọrụ nhicha na ịlele ọrụ",
+     "Pọtụfoliyo na-egosi ihe ị nwere ike ime"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Mee atụmatụ 45 ruo 60 nkeji, detuo ihe, ma kpuchie mpaghara ise.",
+    "Mkpebi. Kedu ihe dashboard a ga-enyere gị aka ikpebi? A ga-ahapụ dashboard nke na-agbanwe mkpebi ọ bụla."
+   ],
+   "panel": {
+    "kicker": "Nzukọ nchọpụta",
+    "heading": "Ebe ise ga-ekpuchi oge ọ bụla",
+    "items": [
+     "Mkpebi: kedu ihe nke a ga-enyere gị aka ikpebi?",
+     "Ndị na-ege ntị: onye na-ele ya anya, ugboro ole, kedu ngwaọrụ?",
+     "Isi mmalite data: kedu ebe ọnụọgụ ọ bụla bi?",
+     "Nwee ume: kwa ọnwa, kwa izu ma ọ bụ kwa ụbọchị?",
+     "Nweta na nzuzo: onye nwere ike ịhụ gịnị?"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Ndị na-ege ntị. Ònye ga-ele ya, ugboro ole, na na kedu ngwaọrụ? Nke ahụ na-ekpebi imewe na nhazi ekwentị."
+   ],
+   "panel": {
+    "kicker": "Nzukọ nchọpụta",
+    "heading": "Ebe ise ga-ekpuchi oge ọ bụla",
+    "items": [
+     "Mkpebi: kedu ihe nke a ga-enyere gị aka ikpebi?",
+     "Ndị na-ege ntị: onye na-ele ya anya, ugboro ole, kedu ngwaọrụ?",
+     "Isi mmalite data: kedu ebe ọnụọgụ ọ bụla bi?",
+     "Nwee ume: kwa ọnwa, kwa izu ma ọ bụ kwa ụbọchị?",
+     "Nweta na nzuzo: onye nwere ike ịhụ gịnị?"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Isi mmalite data. Ebee ka ọnụ ọgụgụ nke ọ bụla bi taa, oleekwa onye nwere ike ibupụ ya? Rịọ maka mbupụ sample tupu ị kwuo okwu."
+   ],
+   "panel": {
+    "kicker": "Nzukọ nchọpụta",
+    "heading": "Ebe ise ga-ekpuchi oge ọ bụla",
+    "items": [
+     "Mkpebi: kedu ihe nke a ga-enyere gị aka ikpebi?",
+     "Ndị na-ege ntị: onye na-ele ya anya, ugboro ole, kedu ngwaọrụ?",
+     "Isi mmalite data: kedu ebe ọnụọgụ ọ bụla bi?",
+     "Nwee ume: kwa ọnwa, kwa izu ma ọ bụ kwa ụbọchị?",
+     "Nweta na nzuzo: onye nwere ike ịhụ gịnị?"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Weghachite ume. Kedu ka data ahụ ga-adị ọhụrụ, onye ga-pịa ume ọhụrụ?"
+   ],
+   "panel": {
+    "kicker": "Nzukọ nchọpụta",
+    "heading": "Ebe ise ga-ekpuchi oge ọ bụla",
+    "items": [
+     "Mkpebi: kedu ihe nke a ga-enyere gị aka ikpebi?",
+     "Ndị na-ege ntị: onye na-ele ya anya, ugboro ole, kedu ngwaọrụ?",
+     "Isi mmalite data: kedu ebe ọnụọgụ ọ bụla bi?",
+     "Nwee ume: kwa ọnwa, kwa izu ma ọ bụ kwa ụbọchị?",
+     "Nweta na nzuzo: onye nwere ike ịhụ gịnị?"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Nweta na nzuzo. Onye nwere ike ịhụ ihe, yana data ahụ gụnyere nkọwa nkeonwe?",
+    "Emechaa, zipu nchịkọta ederede wee rịọ onye ahịa ka ọ mezie ya."
+   ],
+   "panel": {
+    "kicker": "Nzukọ nchọpụta",
+    "heading": "Ebe ise ga-ekpuchi oge ọ bụla",
+    "items": [
+     "Mkpebi: kedu ihe nke a ga-enyere gị aka ikpebi?",
+     "Ndị na-ege ntị: onye na-ele ya anya, ugboro ole, kedu ngwaọrụ?",
+     "Isi mmalite data: kedu ebe ọnụọgụ ọ bụla bi?",
+     "Nwee ume: kwa ọnwa, kwa izu ma ọ bụ kwa ụbọchị?",
+     "Nweta na nzuzo: onye nwere ike ịhụ gịnị?"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Bipụta na webụ na Power BI, yana Ọha ọha, mee ka onye ọ bụla hụ ọrụ gị. Jiri ha maka naanị data ọha, ọ bụghị maka data ndị ahịa ma ọ bụ ndị ọrụ."
+   ],
+   "panel": {
+    "kicker": "Nchekwa mbụ",
+    "heading": "Na-ekekọrịta n'enweghị nsogbu yana n'ụzọ iwu kwadoro",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Public means public",
+      "d": "Biputere na webụ yana Ọha Tableau bụ maka naanị data ọha. Ejila ha maka data ndị ahịa ma ọ bụ ndị ọrụ."
+     },
+     {
+      "t": "Row-level security",
+      "d": "Na-egosi onye ọ bụla na-ekiri naanị ahịrị nke ha, mana naanị mgbe a na-ekerịta site na ọrụ ahụ, ọ bụghị na faịlụ e-mail."
+     },
+     {
+      "t": "Personal data law",
+      "d": "Chịkọta naanị kọlụm ịchọrọ, kpuchie aha na ekwentị, chedo ngwaọrụ, hichapụ mbipụta na njedebe."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Nchekwa ọkwa ọkwa na-ahapụ otu dashboard gosi onye ọ bụla na-ekiri naanị ahịrị nke ha, dị ka onye nhazi na-ahụ naanị steeti ya. Ọ na-arụ ọrụ naanị mgbe a na-ekekọrịta ya site na ọrụ ahụ, ọ bụghị na faịlụ ị na-ezitere."
+   ],
+   "panel": {
+    "kicker": "Nchekwa mbụ",
+    "heading": "Na-ekekọrịta n'enweghị nsogbu yana n'ụzọ iwu kwadoro",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Public means public",
+      "d": "Biputere na webụ yana Ọha Tableau bụ maka naanị data ọha. Ejila ha maka data ndị ahịa ma ọ bụ ndị ọrụ."
+     },
+     {
+      "t": "Row-level security",
+      "d": "Na-egosi onye ọ bụla na-ekiri naanị ahịrị nke ha, mana naanị mgbe a na-ekerịta site na ọrụ ahụ, ọ bụghị na faịlụ e-mail."
+     },
+     {
+      "t": "Personal data law",
+      "d": "Chịkọta naanị kọlụm ịchọrọ, kpuchie aha na ekwentị, chedo ngwaọrụ, hichapụ mbipụta na njedebe."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Iwu nchekwa data Naijiria 2023 na-ewepụta ọrụ maka onye ọ bụla na-eji data nkeonwe. Chịkọta naanị ihe ị chọrọ, kpuchie aha na nọmba ekwentị, chedo ngwaọrụ gị, ma hichapụ mbipụta mgbe ọrụ ahụ kwụsịrị.",
+    "Ebupụla nbanye ma ọ bụ mbupu data n'ime otu WhatsApp mepere emepe."
+   ],
+   "panel": {
+    "kicker": "Nchekwa mbụ",
+    "heading": "Na-ekekọrịta n'enweghị nsogbu yana n'ụzọ iwu kwadoro",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Public means public",
+      "d": "Biputere na webụ yana Ọha Tableau bụ maka naanị data ọha. Ejila ha maka data ndị ahịa ma ọ bụ ndị ọrụ."
+     },
+     {
+      "t": "Row-level security",
+      "d": "Na-egosi onye ọ bụla na-ekiri naanị ahịrị nke ha, mana naanị mgbe a na-ekerịta site na ọrụ ahụ, ọ bụghị na faịlụ e-mail."
+     },
+     {
+      "t": "Personal data law",
+      "d": "Chịkọta naanị kọlụm ịchọrọ, kpuchie aha na ekwentị, chedo ngwaọrụ, hichapụ mbipụta na njedebe."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Dịka ọmụmaatụ, Chioma na-ehota dashboard ahịa nwere ibe abụọ. Ọ na-agbaji ya n'usoro. Nchọpụta na-ewe awa 4. Ịnweta na ihicha data na-ewe 16."
+   ],
+   "panel": {
+    "kicker": "Nzọụkwụ site nzọụkwụ",
+    "heading": "Wepụta oge elekere site na nkeji",
+    "items": [
+     "Nchọpụta na nkenke: 4 awa",
+     "Nweta na ihicha data: awa 16",
+     "Ụdị na nha: awa 10",
+     "Ibe abụọ na nhazi ekwentị: awa iri na abụọ",
+     "QA na imezigharị: awa 6",
+     "Ọzụzụ na inyefe: 4 awa"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Ụdị na usoro na-ewe awa 10, yana iji nhazi ekwentị wuo ibe abụọ na-ewe 12."
+   ],
+   "panel": {
+    "kicker": "Nzọụkwụ site nzọụkwụ",
+    "heading": "Wepụta oge elekere site na nkeji",
+    "items": [
+     "Nchọpụta na nkenke: 4 awa",
+     "Nweta na ihicha data: awa 16",
+     "Ụdị na nha: awa 10",
+     "Ibe abụọ na nhazi ekwentị: awa iri na abụọ",
+     "QA na imezigharị: awa 6",
+     "Ọzụzụ na inyefe: 4 awa"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Nyocha mma na-ewe awa 6, yana ọzụzụ na inyefe 4. Nke ahụ bụ awa 52 na mkpokọta.",
+    "Rịba ama na ihicha bụ ihe dịka 31% nke mbọ ahụ. Kọwaara onye ahịa ya nke ahụ, ma dekọba ndekọ nke awa n'ezie ka atụmatụ gị na-esote ga-akawanye mma."
+   ],
+   "panel": {
+    "kicker": "Nzọụkwụ site nzọụkwụ",
+    "heading": "Wepụta oge elekere site na nkeji",
+    "items": [
+     "Nchọpụta na nkenke: 4 awa",
+     "Nweta na ihicha data: awa 16",
+     "Ụdị na nha: awa 10",
+     "Ibe abụọ na nhazi ekwentị: awa iri na abụọ",
+     "QA na imezigharị: awa 6",
+     "Ọzụzụ na inyefe: 4 awa"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "rule": "Nhicha data na-abụkarị akụkụ kachasị ukwuu. Tinye ihe ndapụta.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Ugbu a ọ na-ere ya ọnụ. Ọnụ ego ya bụ puku naira iri na ise kwa elekere bụ maka ihe atụ naanị, ọ bụghị ọnụ ahịa ahịa."
+   ],
+   "card": {
+    "title": "Chioma na-akwụ dashboard ọnụ ahịa",
+    "rows": [],
+    "note": "Naanị ihe atụ, ọ bụghị ọnụ ahịa ahịa."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Awa 52 na-enye ọnụ ahịa ala nke 780,000 naira. Ọ gbakwụnyere 15% contingency maka nsogbu data amaghị, 117,000 naira, na-eme 897,000."
+   ],
+   "card": {
+    "title": "Chioma na-akwụ dashboard ọnụ ahịa",
+    "rows": [
+     [
+      "Ọnụahịa ntọala, awa 52",
+      "780,000"
+     ],
+     [
+      "Ọnwụ, 15%",
+      "117,000"
+     ],
+     [
+      "Mkpokọta",
+      "897,000"
+     ]
+    ],
+    "note": "Naanị ihe atụ, ọ bụghị ọnụ ahịa ahịa."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Ọ na-agbago na 900,000 naịra a kapịrị ọnụ maka ebe akọwapụtara ya.",
+    "Atụmatụ ịkwụ ụgwọ ya bụ nkwụnye ego naịra 450,000 tupu ịmalite, 270,000 mgbe akwadoro akwụkwọ mbụ, yana 180,000 na ntinye aka."
+   ],
+   "card": {
+    "title": "Chioma na-akwụ dashboard ọnụ ahịa",
+    "rows": [
+     [
+      "Ọnụahịa ntọala, awa 52",
+      "780,000"
+     ],
+     [
+      "Ọnwụ, 15%",
+      "117,000"
+     ],
+     [
+      "Mkpokọta",
+      "897,000"
+     ]
+    ],
+    "note": "Naanị ihe atụ, ọ bụghị ọnụ ahịa ahịa."
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Chebe ego gị. Were nkwụnye ego tupu ịmalite, nata ugwo site na ọwa enwere ike ịchọta dịka nnyefe ụlọ akụ.",
+    "Kpachara anya maka ndị ahịa si mba ofesi na-ezigara oke ma rịọ maka nkwụghachi nke ọdịiche ahụ. Nke ahụ bụ ojoro a na-ahụkarị. Ekekọrịtala okwuntughe ụlọ akụ ma ọ bụ koodu otu oge.",
+    "Ma mgbe onye ahịa rịọrọ maka ihe ndị ọzọ, lelee oke ederede wee ziga arịrịọ mgbanwe ọnụ ahịa."
+   ],
+   "panel": {
+    "kicker": "Nchekwa ego",
+    "heading": "Chebe ugwo gi",
+    "items": [
+     "Were nkwụnye ego tupu ịmalite",
+     "Nweta ụgwọ site na ọwa enwere ike ịchọta",
+     "Kpachara anya na nkwụghachi ụgwọ ngafe",
+     "Ekekọrịtala okwuntughe ma ọ bụ koodu otu oge",
+     "Ọnụ arịrịọ ọ bụla agbakwunyere dị ka mgbanwe"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Icheta. Mechie mpaghara nchọpụta ise niile. Jiri ngwa ọha naanị maka data ọha. Nyochaa n'otu oge ma gbakwunye ọnọdụ.",
+    "Wulite ọrụ Pọtụfoliyo atọ, nke ọ bụla nwere obere mkpirisi nyocha nke mkpebi gị na nlele gị, na ejila data ndị ahịa n'ime ha."
+   ],
+   "panel": {
+    "kicker": "Isi ihe",
+    "heading": "Cheta",
+    "items": [
+     "Mechie mpaghara nchọpụta ise niile",
+     "Ngwa ọha naanị maka data ọha",
+     "Nyochaa n'otu oge ma gbakwunye ọnọdụ",
+     "Wulite oru ngo atọ na obere ihe ọmụmụ",
+     "etinyela data ndị ahịa na pọtụfoliyo gị"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Ugbu a mee ihe. Soro onye n'ezie mee nzukọ nchọpụta, kwụọ ụgwọ ma kwuo maka ọrụ ahụ, wee dee atụmatụ izu iri na atọ yana nọmba ị nwere ike itinye akara kwa izu.",
+    "Gaa n'ihu na nkuzi ndị dị n'okpuru."
+   ],
+   "panel": {
+    "kicker": "Mee ọrụ",
+    "heading": "Ọrụ omume gị",
+    "items": [
+     "Gbaa nzukọ nchọpụta omume",
+     "Ahịa ma kwuo na ezigbo oru ngo",
+     "Depụta pọtụfoliyo gị na atụmatụ ụbọchị 90"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

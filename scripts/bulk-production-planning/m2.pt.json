@@ -1,0 +1,722 @@
+{
+ "course": "bulk-production-planning",
+ "module": "m2",
+ "title": "Agendamento, portões de qualidade e plano de dinheiro",
+ "course_title": "Planejamento de produção em massa",
+ "shots": [
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Agendamento, portões de qualidade e plano de dinheiro.",
+    "Este é o vídeo do módulo 2 do Planejamento de Produção a Granel."
+   ]
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "A maioria das entregas atrasadas são decididas no primeiro dia, quando o produtor começa tarde demais."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Atrasado, com defeito ou inacessível: planeje",
+    "items": [
+     "A maioria das entregas atrasadas começa no primeiro dia",
+     "Uma falha pode se esconder em milhares de unidades",
+     "Uma grande encomenda pode torná-lo mais pobre",
+     "Três planos: datas, qualidade, dinheiro"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Numa tiragem de 5.000, um problema encontrado no final pode já estar dentro de milhares de unidades."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Atrasado, com defeito ou inacessível: planeje",
+    "items": [
+     "A maioria das entregas atrasadas começa no primeiro dia",
+     "Uma falha pode se esconder em milhares de unidades",
+     "Uma grande encomenda pode torná-lo mais pobre",
+     "Três planos: datas, qualidade, dinheiro"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "E um pedido grande pode tornar uma empresa mais pobre se for precificado com base nos custos de pequenos lotes."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Atrasado, com defeito ou inacessível: planeje",
+    "items": [
+     "A maioria das entregas atrasadas começa no primeiro dia",
+     "Uma falha pode se esconder em milhares de unidades",
+     "Uma grande encomenda pode torná-lo mais pobre",
+     "Três planos: datas, qualidade, dinheiro"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Portanto, você construirá três planos: um cronograma retroativo, portões de qualidade e um plano de caixa."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Atrasado, com defeito ou inacessível: planeje",
+    "items": [
+     "A maioria das entregas atrasadas começa no primeiro dia",
+     "Uma falha pode se esconder em milhares de unidades",
+     "Uma grande encomenda pode torná-lo mais pobre",
+     "Três planos: datas, qualidade, dinheiro"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "A programação regressiva começa na data de entrega e subtrai todas as etapas. Por exemplo, Kemi deve entregar 5.000 pacotes de chips de banana na quinta-feira, 10 de dezembro."
+   ],
+   "panel": {
+    "kicker": "Agendamento regressivo",
+    "heading": "Contagem regressiva a partir da data de entrega",
+    "items": [
+     "Entrega: quinta-feira, 10 de dezembro",
+     "Verificação final e carregamento: 9 de dezembro",
+     "Buffer: 7 e 8 de dezembro",
+     "Produção: 11 dias a partir de 24 de novembro",
+     "Publicação do primeiro artigo: 23 de novembro",
+     "Encomende bolsas até 10 de novembro"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "No dia anterior, ela conta as caixas, faz a verificação final de qualidade e prepara os documentos."
+   ],
+   "panel": {
+    "kicker": "Agendamento regressivo",
+    "heading": "Contagem regressiva a partir da data de entrega",
+    "items": [
+     "Entrega: quinta-feira, 10 de dezembro",
+     "Verificação final e carregamento: 9 de dezembro",
+     "Buffer: 7 e 8 de dezembro",
+     "Produção: 11 dias a partir de 24 de novembro",
+     "Publicação do primeiro artigo: 23 de novembro",
+     "Encomende bolsas até 10 de novembro"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Antes disso, 2 dias de buffer, mantidos vazios para cortes de energia, doenças ou lote ruim."
+   ],
+   "panel": {
+    "kicker": "Agendamento regressivo",
+    "heading": "Contagem regressiva a partir da data de entrega",
+    "items": [
+     "Entrega: quinta-feira, 10 de dezembro",
+     "Verificação final e carregamento: 9 de dezembro",
+     "Buffer: 7 e 8 de dezembro",
+     "Produção: 11 dias a partir de 24 de novembro",
+     "Publicação do primeiro artigo: 23 de novembro",
+     "Encomende bolsas até 10 de novembro"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "A produção dura 11 dias úteis no ritmo comprovado, então começa na terça-feira, 24 de novembro."
+   ],
+   "panel": {
+    "kicker": "Agendamento regressivo",
+    "heading": "Contagem regressiva a partir da data de entrega",
+    "items": [
+     "Entrega: quinta-feira, 10 de dezembro",
+     "Verificação final e carregamento: 9 de dezembro",
+     "Buffer: 7 e 8 de dezembro",
+     "Produção: 11 dias a partir de 24 de novembro",
+     "Publicação do primeiro artigo: 23 de novembro",
+     "Encomende bolsas até 10 de novembro"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "No dia anterior, uma breve leitura do primeiro artigo verifica se a linha corresponde à amostra dourada."
+   ],
+   "panel": {
+    "kicker": "Agendamento regressivo",
+    "heading": "Contagem regressiva a partir da data de entrega",
+    "items": [
+     "Entrega: quinta-feira, 10 de dezembro",
+     "Verificação final e carregamento: 9 de dezembro",
+     "Buffer: 7 e 8 de dezembro",
+     "Produção: 11 dias a partir de 24 de novembro",
+     "Publicação do primeiro artigo: 23 de novembro",
+     "Encomende bolsas até 10 de novembro"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "As bolsas impressas levam 10 dias úteis, portanto devem ser encomendadas até terça-feira, 10 de novembro, um mês inteiro antes da entrega.",
+    "Conte apenas os dias úteis. Um plano que conta silenciosamente os domingos chega atrasado antes de começar."
+   ],
+   "panel": {
+    "kicker": "Agendamento regressivo",
+    "heading": "Contagem regressiva a partir da data de entrega",
+    "items": [
+     "Entrega: quinta-feira, 10 de dezembro",
+     "Verificação final e carregamento: 9 de dezembro",
+     "Buffer: 7 e 8 de dezembro",
+     "Produção: 11 dias a partir de 24 de novembro",
+     "Publicação do primeiro artigo: 23 de novembro",
+     "Encomende bolsas até 10 de novembro"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "rule": "Conte os dias úteis, não os dias corridos.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Coloque marcos de 25, 50, 75 e 100% em uma folha de parede e preencha pacotes realmente bons todas as noites. A coluna de lacuna é o número mais importante."
+   ],
+   "panel": {
+    "kicker": "Rastreador diário",
+    "heading": "Observe a lacuna todas as noites",
+    "items": [
+     "Colunas planejadas, reais e de lacunas",
+     "Gap inferior a 5%: recuperação em horário normal",
+     "Gap 5 a 10%: tempo extra no gargalo",
+     "Mais de 10% ou metade do buffer utilizado: ligue para o comprador"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Depois de três dias, Kemi está 70 maços atrasado, cerca de 5% do planejado. Isso é fácil de recuperar agora."
+   ],
+   "panel": {
+    "kicker": "Rastreador diário",
+    "heading": "Observe a lacuna todas as noites",
+    "items": [
+     "Colunas planejadas, reais e de lacunas",
+     "Gap inferior a 5%: recuperação em horário normal",
+     "Gap 5 a 10%: tempo extra no gargalo",
+     "Mais de 10% ou metade do buffer utilizado: ligue para o comprador"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Uma lacuna maior necessita de tempo extra planeado apenas no ponto de estrangulamento, dentro de horários de trabalho seguros."
+   ],
+   "panel": {
+    "kicker": "Rastreador diário",
+    "heading": "Observe a lacuna todas as noites",
+    "items": [
+     "Colunas planejadas, reais e de lacunas",
+     "Gap inferior a 5%: recuperação em horário normal",
+     "Gap 5 a 10%: tempo extra no gargalo",
+     "Mais de 10% ou metade do buffer utilizado: ligue para o comprador"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Se a diferença ultrapassar 10%, ou metade do buffer for usado, ligue para o comprador no mesmo dia com os fatos e um plano revisado.",
+    "Os dias de buffer são a proteção do comprador. Não planeje usá-los."
+   ],
+   "panel": {
+    "kicker": "Rastreador diário",
+    "heading": "Observe a lacuna todas as noites",
+    "items": [
+     "Colunas planejadas, reais e de lacunas",
+     "Gap inferior a 5%: recuperação em horário normal",
+     "Gap 5 a 10%: tempo extra no gargalo",
+     "Mais de 10% ou metade do buffer utilizado: ligue para o comprador"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Os portões de qualidade são pontos de verificação planejados, cada um com uma medida clara e uma regra para falhas. O portão 1 verifica cada entrega em relação às especificações."
+   ],
+   "panel": {
+    "kicker": "Portões de qualidade",
+    "heading": "Cinco portões através da corrida",
+    "items": [
+     "Materiais recebidos",
+     "Primeiro artigo de cada dia",
+     "Verificações de intervalo: 5 pacotes a cada 100",
+     "Contagem de fim de dia",
+     "Verificação pré-embarque; higiene nunca pulou"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "O portão 2 compara as primeiras unidades de cada dia com a amostra dourada, antes da velocidade máxima."
+   ],
+   "panel": {
+    "kicker": "Portões de qualidade",
+    "heading": "Cinco portões através da corrida",
+    "items": [
+     "Materiais recebidos",
+     "Primeiro artigo de cada dia",
+     "Verificações de intervalo: 5 pacotes a cada 100",
+     "Contagem de fim de dia",
+     "Verificação pré-embarque; higiene nunca pulou"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "O portão 3 verifica uma pequena amostra em um intervalo fixo, por exemplo, 5 embalagens a cada 100 embalagens, quanto ao peso, vedação, cor e sabor."
+   ],
+   "panel": {
+    "kicker": "Portões de qualidade",
+    "heading": "Cinco portões através da corrida",
+    "items": [
+     "Materiais recebidos",
+     "Primeiro artigo de cada dia",
+     "Verificações de intervalo: 5 pacotes a cada 100",
+     "Contagem de fim de dia",
+     "Verificação pré-embarque; higiene nunca pulou"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "O portão 4 conta as unidades boas e as rejeita no final do dia."
+   ],
+   "panel": {
+    "kicker": "Portões de qualidade",
+    "heading": "Cinco portões através da corrida",
+    "items": [
+     "Materiais recebidos",
+     "Primeiro artigo de cada dia",
+     "Verificações de intervalo: 5 pacotes a cada 100",
+     "Contagem de fim de dia",
+     "Verificação pré-embarque; higiene nunca pulou"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "O Portão 5 retira uma amostra de diferentes caixas antes do carregamento.",
+    "E a higiene nunca atrasa os prazos. A lavagem das mãos, a proteção do cabelo e a limpeza das superfícies nunca são omitidas, e qualquer pessoa com diarreia ou vómitos evita a manipulação de alimentos."
+   ],
+   "panel": {
+    "kicker": "Portões de qualidade",
+    "heading": "Cinco portões através da corrida",
+    "items": [
+     "Materiais recebidos",
+     "Primeiro artigo de cada dia",
+     "Verificações de intervalo: 5 pacotes a cada 100",
+     "Contagem de fim de dia",
+     "Verificação pré-embarque; higiene nunca pulou"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Kemi enche até 103 g, então a variação normal fica acima dos 100 g do rótulo. No dia 4, a verificação 4 encontra 2 de 5 embalagens abaixo do peso."
+   ],
+   "panel": {
+    "kicker": "A regra de parada",
+    "heading": "Dia 4: um furo que continha menos",
+    "items": [
+     "Verificação 4: 2 de 5 embalagens abaixo do peso",
+     "Pare de encher e selar",
+     "Causa: nova colher, preenche cerca de 99 g",
+     "Pese novamente os últimos 100 pacotes",
+     "Reabasteça os 11 com menos de 100 g e registre-os"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Sua regra de parada diz: se 2 ou mais dos 5 pacotes amostrados falharem, pare aquela estação."
+   ],
+   "panel": {
+    "kicker": "A regra de parada",
+    "heading": "Dia 4: um furo que continha menos",
+    "items": [
+     "Verificação 4: 2 de 5 embalagens abaixo do peso",
+     "Pare de encher e selar",
+     "Causa: nova colher, preenche cerca de 99 g",
+     "Pese novamente os últimos 100 pacotes",
+     "Reabasteça os 11 com menos de 100 g e registre-os"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "rule": "2 ou mais falhas em 5 pacotes: pare, encontre a causa e reinicie.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "A causa: o pesador trocou as colheres depois do almoço e a nova colher comporta menos."
+   ],
+   "panel": {
+    "kicker": "A regra de parada",
+    "heading": "Dia 4: um furo que continha menos",
+    "items": [
+     "Verificação 4: 2 de 5 embalagens abaixo do peso",
+     "Pare de encher e selar",
+     "Causa: nova colher, preenche cerca de 99 g",
+     "Pese novamente os últimos 100 pacotes",
+     "Reabasteça os 11 com menos de 100 g e registre-os"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "2 ou mais falhas em 5 pacotes: pare, encontre a causa e reinicie.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Ela retorna à colher marcada, pesa novamente os últimos 100 pacotes e reabastece os 11 com menos de 100 g. O problema ficou em 100 pacotes, não em milhares."
+   ],
+   "panel": {
+    "kicker": "A regra de parada",
+    "heading": "Dia 4: um furo que continha menos",
+    "items": [
+     "Verificação 4: 2 de 5 embalagens abaixo do peso",
+     "Pare de encher e selar",
+     "Causa: nova colher, preenche cerca de 99 g",
+     "Pese novamente os últimos 100 pacotes",
+     "Reabasteça os 11 com menos de 100 g e registre-os"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "2 ou mais falhas em 5 pacotes: pare, encontre a causa e reinicie.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Agora o dinheiro. Custeie a corrida a partir das quantidades que você realmente irá comprar, após arredondamento."
+   ],
+   "card": {
+    "title": "Custando toda a corrida",
+    "rows": [],
+    "note": "Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Os materiais de Kemi chegam a cerca de 2.561.300 nairas. A mão-de-obra, incluindo 2 dias de formação para trabalhadores temporários, é de 328.000. O gás é 275.000."
+   ],
+   "card": {
+    "title": "Custando toda a corrida",
+    "rows": [
+     [
+      "Materiais, como realmente comprados",
+      "2,561,300"
+     ],
+     [
+      "Trabalho, incluindo dias de treinamento",
+      "328,000"
+     ],
+     [
+      "Gás por 11 dias de produção",
+      "275,000"
+     ]
+    ],
+    "note": "Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "A entrega é de 60.000 e o teste é de 20.000."
+   ],
+   "card": {
+    "title": "Custando toda a corrida",
+    "rows": [
+     [
+      "Materiais, como realmente comprados",
+      "2,561,300"
+     ],
+     [
+      "Trabalho, incluindo dias de treinamento",
+      "328,000"
+     ],
+     [
+      "Gás por 11 dias de produção",
+      "275,000"
+     ],
+     [
+      "Entrega",
+      "60,000"
+     ],
+     [
+      "Julgamento do primeiro artigo",
+      "20,000"
+     ]
+    ],
+    "note": "Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "O custo direto é de 3.244.300 nairas. Ela acrescenta uma contingência de 5%, então o custo total é de cerca de 681 nairas por pacote.",
+    "A um preço de atacado de 950 nairas, o lucro representa cerca de 28% da receita. Um preço de 700 não teria deixado quase nada."
+   ],
+   "card": {
+    "title": "Custando toda a corrida",
+    "rows": [
+     [
+      "Materiais, como realmente comprados",
+      "2,561,300"
+     ],
+     [
+      "Trabalho, incluindo dias de treinamento",
+      "328,000"
+     ],
+     [
+      "Gás por 11 dias de produção",
+      "275,000"
+     ],
+     [
+      "Entrega",
+      "60,000"
+     ],
+     [
+      "Julgamento do primeiro artigo",
+      "20,000"
+     ]
+    ],
+    "note": "Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Kemi paga por bolsas, banana-da-terra e salários semanas antes de o saldo chegar. Liste todos os pagamentos por data. O saldo corrente mais baixo é a sua lacuna de caixa."
+   ],
+   "panel": {
+    "kicker": "A lacuna de dinheiro",
+    "heading": "Lucro não é dinheiro",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Find the lowest point",
+      "d": "Liste todos os pagamentos entrados e saídos por data. Com um depósito de 40%, o saldo mais baixo de Kemi é de cerca de 1.344.300 naira negativos."
+     },
+     {
+      "t": "Close the gap",
+      "d": "Um depósito de 50% reduz a diferença em 475.000 nairas. O pagamento faseado é outra opção."
+     },
+     {
+      "t": "Check the money",
+      "d": "Um depósito conta apenas quando aparece na sua conta. Não é uma captura de tela ou alerta por SMS."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Peça um depósito maior, ou pagamento faseado, por exemplo 40% na encomenda, 30% quando o comprador aprovar os packs do primeiro artigo e 30% na entrega."
+   ],
+   "panel": {
+    "kicker": "A lacuna de dinheiro",
+    "heading": "Lucro não é dinheiro",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Find the lowest point",
+      "d": "Liste todos os pagamentos entrados e saídos por data. Com um depósito de 40%, o saldo mais baixo de Kemi é de cerca de 1.344.300 naira negativos."
+     },
+     {
+      "t": "Close the gap",
+      "d": "Um depósito de 50% reduz a diferença em 475.000 nairas. O pagamento faseado é outra opção."
+     },
+     {
+      "t": "Check the money",
+      "d": "Um depósito conta apenas quando aparece na sua conta. Não é uma captura de tela ou alerta por SMS."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "E nunca peça bolsas impressas com promessa. Capturas de tela de transferência falsas são comuns."
+   ],
+   "panel": {
+    "kicker": "A lacuna de dinheiro",
+    "heading": "Lucro não é dinheiro",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Find the lowest point",
+      "d": "Liste todos os pagamentos entrados e saídos por data. Com um depósito de 40%, o saldo mais baixo de Kemi é de cerca de 1.344.300 naira negativos."
+     },
+     {
+      "t": "Close the gap",
+      "d": "Um depósito de 50% reduz a diferença em 475.000 nairas. O pagamento faseado é outra opção."
+     },
+     {
+      "t": "Check the money",
+      "d": "Um depósito conta apenas quando aparece na sua conta. Não é uma captura de tela ou alerta por SMS."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Aceite apenas se o cronograma se enquadrar no buffer, o preço sair da sua margem e você puder cobrir a lacuna de caixa. Se um falhar, negocie antes de dizer sim."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Diga sim apenas quando todos os três funcionarem",
+    "items": [
+     "O cronograma se ajusta, com buffer",
+     "O preço sai da sua margem após contingência",
+     "Você pode cobrir a lacuna de caixa",
+     "Aja cedo em pequenas lacunas",
+     "Mantenha um registro de qualidade como prova"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Sua vez. Crie um cronograma retroativo, projete seus portões de qualidade, calcule seu pedido e encontre sua lacuna de caixa.",
+    "Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Pratique tarefas",
+    "heading": "Suas tarefas práticas",
+    "items": [
+     "Construa sua programação retroativa",
+     "Projete seu plano de portão de qualidade",
+     "Custeie seu pedido e encontre sua lacuna de dinheiro"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

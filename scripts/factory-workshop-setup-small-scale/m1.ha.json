@@ -1,0 +1,582 @@
+{
+ "course": "factory-workshop-setup-small-scale",
+ "module": "m1",
+ "title": "Zaɓi, ƙarfafawa da tsara taron bitar ku",
+ "course_title": "Saita Masana'antu & Bita (Ƙananan Sikeli)",
+ "shots": [
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Zaɓi, ƙarfafawa da tsara taron bitar ku.",
+    "Wannan shi ne bidiyon don module ɗaya na Factory and Workshop Setup."
+   ]
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Taron bita kawai wuri ne da aka tsara a kusa da samar da ku, don haka aiki yana tafiya cikin surutu da aminci daga ɗanyen abu zuwa ƙãre samfurin."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Shirya sarari kafin ku ciyar",
+    "items": [
+     "An shirya taron bita a kusa da samarwa",
+     "Girma ba shi da kyau ta atomatik",
+     "San farashin ku da buƙatun ikon ku"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Girma ba shi da kyau ta atomatik. Daki mai murabba'in murabba'in 20 da aka tsara shi sau da yawa yana samar da fiye da guda ɗaya na murabba'in murabba'in murabba'in 40, saboda mutane suna tafiya ƙasa kuma suna bincike kaɗan."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Shirya sarari kafin ku ciyar",
+    "items": [
+     "An shirya taron bita a kusa da samarwa",
+     "Girma ba shi da kyau ta atomatik",
+     "San farashin ku da buƙatun ikon ku"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Don haka kafin ku yi hayan ko siyan wani abu, auna, ƙidaya kuɗin ku kuma tsara ikon ku."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Shirya sarari kafin ku ciyar",
+    "items": [
+     "An shirya taron bita a kusa da samarwa",
+     "Girma ba shi da kyau ta atomatik",
+     "San farashin ku da buƙatun ikon ku"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Mataki na daya. Auna cikin mita, kuma ninka tsayi da nisa don yankin bene."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Auna da taswira kafin ka zaɓa",
+    "items": [
+     "Auna tsayi da nisa; yanki = tsayi x nisa",
+     "Alama ƙofofi, tagogi, kwasfa, akwatin fiusi, magudanar ruwa",
+     "Zana zanen spaghetti na tsari guda",
+     "Duba wayoyi, iska, ruwa, samun dama, tsaro, tserewa",
+     "Rubuta matsalolin 3 zuwa 5 dole ne sarari ya warware"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Mataki na biyu. Zane ɗakin kuma yi alama kafaffun fasali. Sun yanke shawarar shimfidawar ku, saboda suna da tsada don motsawa."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Auna da taswira kafin ka zaɓa",
+    "items": [
+     "Auna tsayi da nisa; yanki = tsayi x nisa",
+     "Alama ƙofofi, tagogi, kwasfa, akwatin fiusi, magudanar ruwa",
+     "Zana zanen spaghetti na tsari guda",
+     "Duba wayoyi, iska, ruwa, samun dama, tsaro, tserewa",
+     "Rubuta matsalolin 3 zuwa 5 dole ne sarari ya warware"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Mataki na uku. Zana layi duk lokacin da kuka yi tafiya a wani wuri yayin tsari ɗaya. A cikin tsari mara kyau, layukan suna tangle kamar spaghetti.",
+    "Misali, Chiamaka da ke Enugu ta ajiye shadda a gefen teburinta na yankan ta kuma ta ajiye kusan mita 360 na tafiya a rana."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Auna da taswira kafin ka zaɓa",
+    "items": [
+     "Auna tsayi da nisa; yanki = tsayi x nisa",
+     "Alama ƙofofi, tagogi, kwasfa, akwatin fiusi, magudanar ruwa",
+     "Zana zanen spaghetti na tsari guda",
+     "Duba wayoyi, iska, ruwa, samun dama, tsaro, tserewa",
+     "Rubuta matsalolin 3 zuwa 5 dole ne sarari ya warware"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Mataki na hudu. Duba kowane sabon rukunin yanar gizo. Idan kwasfa sun kone ko dumi, sami ƙwararren ma'aikacin lantarki don dubawa kafin ka sa hannu."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Auna da taswira kafin ka zaɓa",
+    "items": [
+     "Auna tsayi da nisa; yanki = tsayi x nisa",
+     "Alama ƙofofi, tagogi, kwasfa, akwatin fiusi, magudanar ruwa",
+     "Zana zanen spaghetti na tsari guda",
+     "Duba wayoyi, iska, ruwa, samun dama, tsaro, tserewa",
+     "Rubuta matsalolin 3 zuwa 5 dole ne sarari ya warware"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Mataki na biyar. Rubuta matsalolin da taron ya kamata ya gyara. Daki mai arha wanda ya gaza biyu daga cikin abubuwan da zaku samu ba arha bane."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Auna da taswira kafin ka zaɓa",
+    "items": [
+     "Auna tsayi da nisa; yanki = tsayi x nisa",
+     "Alama ƙofofi, tagogi, kwasfa, akwatin fiusi, magudanar ruwa",
+     "Zana zanen spaghetti na tsari guda",
+     "Duba wayoyi, iska, ruwa, samun dama, tsaro, tserewa",
+     "Rubuta matsalolin 3 zuwa 5 dole ne sarari ya warware"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Yi hukunci akan kowane ɗaki akan jerin abubuwan da aka rubuta dole na warwarewa.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Masu gidaje sukan nemi hayar shekara a gaba, don haka kwatanta zaɓuɓɓuka sama da watanni 12: farashi na lokaci ɗaya da watanni 12 na farashin gudu."
+   ],
+   "card": {
+    "title": "Kwatanta cikakken shekara, ba wata daya ba",
+    "rows": [],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Daki a gida Chiamaka ya kai kimanin naira 330,000 a shekara. Yana da arha, amma rayuwar iyali da aiki suna shiga cikin hanyar juna."
+   ],
+   "card": {
+    "title": "Kwatanta cikakken shekara, ba wata daya ba",
+    "rows": [
+     [
+      "Dakin gida, watanni 12",
+      "330,000"
+     ]
+    ],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Taron karawa juna sani ya kai kimanin naira 560,000. Yana raba haya, amma yana buƙatar rubutattun yarjejeniyoyin akan jadawali da ajiya."
+   ],
+   "card": {
+    "title": "Kwatanta cikakken shekara, ba wata daya ba",
+    "rows": [
+     [
+      "Dakin gida, watanni 12",
+      "330,000"
+     ],
+     [
+      "Tarin da aka raba, watanni 12",
+      "560,000"
+     ]
+    ],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Rukunin kanti na haya ya kai kimanin Naira 1,150,000, tare da biyan hayar a gaba.",
+    "Ta zabi dakin gida a yanzu, tare da rubuta shirin matsawa zuwa gungu idan ta kara na'ura ta uku."
+   ],
+   "card": {
+    "title": "Kwatanta cikakken shekara, ba wata daya ba",
+    "rows": [
+     [
+      "Dakin gida, watanni 12",
+      "330,000"
+     ],
+     [
+      "Tarin da aka raba, watanni 12",
+      "560,000"
+     ],
+     [
+      "Rukunin kantin haya, watanni 12",
+      "1,150,000"
+     ]
+    ],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Kwafi watts daga alamar kowace injin kuma ƙara su. Injin Chiamaka, ƙarfe, kwararan fitila, fanfo da caja suna zuwa watts 2,300."
+   ],
+   "panel": {
+    "kicker": "Tsarin wutar lantarki",
+    "heading": "Yi aiki da abin da kayan aikin ku ke zana",
+    "items": [
+     "Lissafin kowane inji da watts ɗin sa daga alamar",
+     "Ƙara su: wannan shine jimlar nauyin ku",
+     "A halin yanzu a cikin amps = watts / 230",
+     "Ƙara tazarar kashi 25% don farawa",
+     "Generator VA = watts / 0.8"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Abubuwan da ake samar da kayan aiki shine 230 volts, don haka raba watts da 230 don samun amps. Wato 10 amps."
+   ],
+   "panel": {
+    "kicker": "Tsarin wutar lantarki",
+    "heading": "Yi aiki da abin da kayan aikin ku ke zana",
+    "items": [
+     "Lissafin kowane inji da watts ɗin sa daga alamar",
+     "Ƙara su: wannan shine jimlar nauyin ku",
+     "A halin yanzu a cikin amps = watts / 230",
+     "Ƙara tazarar kashi 25% don farawa",
+     "Generator VA = watts / 0.8"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Motoci suna jawo ƙarin ƙarfi lokacin da suka fara, don haka ƙara kashi 25 cikin ɗari. Wannan yana ba da 2,875 watts."
+   ],
+   "panel": {
+    "kicker": "Tsarin wutar lantarki",
+    "heading": "Yi aiki da abin da kayan aikin ku ke zana",
+    "items": [
+     "Lissafin kowane inji da watts ɗin sa daga alamar",
+     "Ƙara su: wannan shine jimlar nauyin ku",
+     "A halin yanzu a cikin amps = watts / 230",
+     "Ƙara tazarar kashi 25% don farawa",
+     "Generator VA = watts / 0.8"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Watts masu amfani sun kai kusan sau 0.8 na janareta na kVA, don haka tana buƙatar kusan saitin kVA 3.6. Ko kuma ta shirya aiki don haka ƙarfe da injinan biyu ba su taɓa gudu tare ba."
+   ],
+   "panel": {
+    "kicker": "Tsarin wutar lantarki",
+    "heading": "Yi aiki da abin da kayan aikin ku ke zana",
+    "items": [
+     "Lissafin kowane inji da watts ɗin sa daga alamar",
+     "Ƙara su: wannan shine jimlar nauyin ku",
+     "A halin yanzu a cikin amps = watts / 230",
+     "Ƙara tazarar kashi 25% don farawa",
+     "Generator VA = watts / 0.8"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Kar a taba tsammani. Bincika da'irorin ku tare da mai lantarki.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Ba kowane na'ura mai nauyi soket ɗinsa, kar a taɓa sarkar allo mai tsawo, kuma cire duk wata kebul tare da fallasa wayoyi ko alamomi."
+   ],
+   "panel": {
+    "kicker": "Tsaro na farko",
+    "heading": "Tsaro na lantarki da janareta",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "One socket each",
+      "d": "Na'urori masu nauyi suna samun nasu soket. Kar a taba sarkar allon tsawo. Cire igiyoyi masu fashe ko ƙonawa."
+     },
+     {
+      "t": "Fit an RCD",
+      "d": "Tambayi ma'aikacin wutar lantarki RCD ɗin da bai wuce 30mA ba, kuma danna maɓallin gwajinsa akai-akai."
+     },
+     {
+      "t": "Generator outdoors only",
+      "d": "Tushen yana da carbon monoxide, wanda zai iya kashewa. A kwantar da shi kafin a sha mai; adana mai a cikin rufaffiyar akwati."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Tambayi ma'aikacin wutar lantarki ɗin ku ya dace da sauran na'urar yanzu, RCD, wanda aka ƙididdige shi a sama da milliamps 30. Danna maɓallin gwaji akai-akai."
+   ],
+   "panel": {
+    "kicker": "Tsaro na farko",
+    "heading": "Tsaro na lantarki da janareta",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "One socket each",
+      "d": "Na'urori masu nauyi suna samun nasu soket. Kar a taba sarkar allon tsawo. Cire igiyoyi masu fashe ko ƙonawa."
+     },
+     {
+      "t": "Fit an RCD",
+      "d": "Tambayi ma'aikacin wutar lantarki RCD ɗin da bai wuce 30mA ba, kuma danna maɓallin gwajinsa akai-akai."
+     },
+     {
+      "t": "Generator outdoors only",
+      "d": "Tushen yana da carbon monoxide, wanda zai iya kashewa. A kwantar da shi kafin a sha mai; adana mai a cikin rufaffiyar akwati."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Guda janareta a waje kawai. Shaye-shaye ya ƙunshi carbon monoxide, iskar gas da ba za ku iya gani ko warin da zai iya kashewa ba. Bari ya huce kafin a sake mai."
+   ],
+   "panel": {
+    "kicker": "Tsaro na farko",
+    "heading": "Tsaro na lantarki da janareta",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "One socket each",
+      "d": "Na'urori masu nauyi suna samun nasu soket. Kar a taba sarkar allon tsawo. Cire igiyoyi masu fashe ko ƙonawa."
+     },
+     {
+      "t": "Fit an RCD",
+      "d": "Tambayi ma'aikacin wutar lantarki RCD ɗin da bai wuce 30mA ba, kuma danna maɓallin gwajinsa akai-akai."
+     },
+     {
+      "t": "Generator outdoors only",
+      "d": "Tushen yana da carbon monoxide, wanda zai iya kashewa. A kwantar da shi kafin a sha mai; adana mai a cikin rufaffiyar akwati."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Taron bita baya tsayawa bisa kuskure. Yi amfani da 5S. Nau'i: ja-tag duk wani abu da ba shi da tabbas, kuma idan babu wanda ke buƙatar shi a cikin wata guda, zai tafi."
+   ],
+   "panel": {
+    "kicker": "Ci gaba da tsari",
+    "heading": "Tsarin 5S",
+    "items": [
+     "Tsara: cire abin da ba a buƙata",
+     "Saita tsari: kafaffen gida don komai",
+     "Shine: tsabta, kuma duba yayin da kuke tsaftacewa",
+     "Daidaitawa: lakabi, shaci, hotuna",
+     "Dorewa: sake saitin yau da kullun da maki na mako-mako"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Saita tsari: ƙayyadadden gida don komai, kusa da inda ake amfani da shi. Allon inuwa yana nuna kayan aiki da ya ɓace a kallo."
+   ],
+   "panel": {
+    "kicker": "Ci gaba da tsari",
+    "heading": "Tsarin 5S",
+    "items": [
+     "Tsara: cire abin da ba a buƙata",
+     "Saita tsari: kafaffen gida don komai",
+     "Shine: tsabta, kuma duba yayin da kuke tsaftacewa",
+     "Daidaitawa: lakabi, shaci, hotuna",
+     "Dorewa: sake saitin yau da kullun da maki na mako-mako"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Shine: yayin da kuke goge injin, kun lura da kebul ɗin da ya lalace."
+   ],
+   "panel": {
+    "kicker": "Ci gaba da tsari",
+    "heading": "Tsarin 5S",
+    "items": [
+     "Tsara: cire abin da ba a buƙata",
+     "Saita tsari: kafaffen gida don komai",
+     "Shine: tsabta, kuma duba yayin da kuke tsaftacewa",
+     "Daidaitawa: lakabi, shaci, hotuna",
+     "Dorewa: sake saitin yau da kullun da maki na mako-mako"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Daidaitacce: lakabin shelves da sanya hoton yadda kowane benci yakamata ya kasance."
+   ],
+   "panel": {
+    "kicker": "Ci gaba da tsari",
+    "heading": "Tsarin 5S",
+    "items": [
+     "Tsara: cire abin da ba a buƙata",
+     "Saita tsari: kafaffen gida don komai",
+     "Shine: tsabta, kuma duba yayin da kuke tsaftacewa",
+     "Daidaitawa: lakabi, shaci, hotuna",
+     "Dorewa: sake saitin yau da kullun da maki na mako-mako"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Dorewa Misali, Kemi a Ibadan ta maye gurbin sa'o'i 19.5 na neman kayan aiki a wata tare da sake saitin ƙarshen rana na minti 10."
+   ],
+   "panel": {
+    "kicker": "Ci gaba da tsari",
+    "heading": "Tsarin 5S",
+    "items": [
+     "Tsara: cire abin da ba a buƙata",
+     "Saita tsari: kafaffen gida don komai",
+     "Shine: tsabta, kuma duba yayin da kuke tsaftacewa",
+     "Daidaitawa: lakabi, shaci, hotuna",
+     "Dorewa: sake saitin yau da kullun da maki na mako-mako"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Wasu dokoki suna kare mutane da dukiyoyi, don haka ba za su taɓa zama na zaɓi ba. Rubuta su a shafi ɗaya kuma sanya shi a bango.",
+    "Ci gaba da fitowa fili. Kada a bar zafi ba tare da kula ba. A kiyaye alamomin sinadarai, kada a cikin kwalabe na abin sha. Bayar da hadura lokaci guda. Kashe kuma kulle.",
+    "Koyar da waɗannan a rana ɗaya, kafin hatsarin farko."
+   ],
+   "panel": {
+    "kicker": "Wadanda ba za a iya sasantawa ba",
+    "heading": "Dokokin da ba na zaɓi ba",
+    "items": [
+     "Hanyar fita da na'urar kashe wuta ba a taɓa toshewa ba",
+     "Babu inji ko zafi da aka bari kuma ba a kula ba",
+     "Chemicals kawai a cikin kwantena masu lakabi",
+     "Ba da rahoton zubewa da haɗari nan da nan",
+     "Mutum na ƙarshe ya kashe ya kulle"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Don tunawa. Auna da taswira da farko. Kwatanta zaɓuɓɓukan sama da shekara guda. Yi aikin amps ɗin ku kuma ƙara gefe. A ajiye janareta a waje.",
+    "Kuma ci gaba da 5S, tare da dokokin ku akan bango."
+   ],
+   "panel": {
+    "kicker": "Mabuɗin mahimmanci",
+    "heading": "Ka tuna",
+    "items": [
+     "Auna, taswira da jeri dole ne a magance farko",
+     "Kwatanta zaɓuɓɓukan saitin sama da watanni 12",
+     "Watts / 230 = amps; ƙara gefe don motoci",
+     "Generators suna aiki a waje kawai",
+     "5S sake zagayowar ne; dokoki suna tafiya a bango"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Yanzu lokacin ku ne. Auna da taswirar sararin ku, gina farashin ku da takardar wutar lantarki, kuma ku gudanar da 5S a wuri ɗaya tare da hotuna kafin da bayan.",
+    "Ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi ayyuka",
+    "heading": "Ayyukan aikin ku",
+    "items": [
+     "Auna da taswira sararin samaniya na yanzu",
+     "Gina farashin ku da takardar wutar lantarki",
+     "Gudun 5S akan yanki ɗaya"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

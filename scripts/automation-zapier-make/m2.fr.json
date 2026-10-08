@@ -1,0 +1,598 @@
+{
+ "course": "automation-zapier-make",
+ "module": "m2",
+ "title": "Construisez-le, cassez-le exprès, puis remettez-le",
+ "course_title": "Automatisation avec Zapier & Make",
+ "shots": [
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Construisez-le, cassez-le exprès, puis remettez-le.",
+    "Ceci est la vidéo du module deux d'Automation avec Zapier et Make."
+   ]
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Dans ce module, vous construisez un véritable Zap. Chaque fois qu'une personne remplit un formulaire Google, elle reçoit un e-mail de confirmation."
+   ],
+   "panel": {
+    "kicker": "Ce que tu feras",
+    "heading": "De la première construction à la livraison",
+    "items": [
+     "Construire un Zap : formulaire vers email de confirmation",
+     "Créer un scénario Make qui achemine les commandes",
+     "Test avec des données désordonnées",
+     "Remettre avec un run book d'une page"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Ensuite, vous créez un scénario Make qui envoie chaque commande sur le bon chemin."
+   ],
+   "panel": {
+    "kicker": "Ce que tu feras",
+    "heading": "De la première construction à la livraison",
+    "items": [
+     "Construire un Zap : formulaire vers email de confirmation",
+     "Créer un scénario Make qui achemine les commandes",
+     "Test avec des données désordonnées",
+     "Remettre avec un run book d'une page"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Vous le testez avec des données désordonnées, car une ligne de test propre ne signifie pas qu'il est terminé."
+   ],
+   "panel": {
+    "kicker": "Ce que tu feras",
+    "heading": "De la première construction à la livraison",
+    "items": [
+     "Construire un Zap : formulaire vers email de confirmation",
+     "Créer un scénario Make qui achemine les commandes",
+     "Test avec des données désordonnées",
+     "Remettre avec un run book d'une page"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Et vous laissez un run book afin que le client puisse le faire fonctionner sans vous."
+   ],
+   "panel": {
+    "kicker": "Ce que tu feras",
+    "heading": "De la première construction à la livraison",
+    "items": [
+     "Construire un Zap : formulaire vers email de confirmation",
+     "Créer un scénario Make qui achemine les commandes",
+     "Test avec des données désordonnées",
+     "Remettre avec un run book d'une page"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Créez un formulaire avec le nom complet, l'e-mail, le téléphone, l'article commandé et la quantité. Dans l'onglet Réponses, associez-le à une nouvelle feuille Google. Chaque réponse devient une nouvelle ligne."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Votre premier Zap",
+    "items": [
+     "Associer un formulaire Google à une nouvelle feuille Google",
+     "Déclencheur : Google Sheets, nouvelle ligne de feuille de calcul",
+     "Soumettez une entrée de test, puis testez le déclencheur",
+     "Action : Gmail, Envoyer un e-mail, avec champs mappés",
+     "Testez, lisez-le en tant que client, puis publiez"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Dans Zapier, créez un Zap. Le déclencheur est Google Sheets, Nouvelle ligne de feuille de calcul, sur la feuille de réponses."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Votre premier Zap",
+    "items": [
+     "Associer un formulaire Google à une nouvelle feuille Google",
+     "Déclencheur : Google Sheets, nouvelle ligne de feuille de calcul",
+     "Soumettez une entrée de test, puis testez le déclencheur",
+     "Action : Gmail, Envoyer un e-mail, avec champs mappés",
+     "Testez, lisez-le en tant que client, puis publiez"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Soumettez vous-même une entrée de test, puis testez le déclencheur pour que Zapier crée une véritable ligne avec tous ses champs."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Votre premier Zap",
+    "items": [
+     "Associer un formulaire Google à une nouvelle feuille Google",
+     "Déclencheur : Google Sheets, nouvelle ligne de feuille de calcul",
+     "Soumettez une entrée de test, puis testez le déclencheur",
+     "Action : Gmail, Envoyer un e-mail, avec champs mappés",
+     "Testez, lisez-le en tant que client, puis publiez"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "L'action est Gmail, Envoyer un e-mail. Mappez la zone À au champ E-mail. Utilisez le nom complet, l'article commandé et la quantité dans le sujet et le corps."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Votre premier Zap",
+    "items": [
+     "Associer un formulaire Google à une nouvelle feuille Google",
+     "Déclencheur : Google Sheets, nouvelle ligne de feuille de calcul",
+     "Soumettez une entrée de test, puis testez le déclencheur",
+     "Action : Gmail, Envoyer un e-mail, avec champs mappés",
+     "Testez, lisez-le en tant que client, puis publiez"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Testez l'action, lisez l'e-mail comme le ferait un client, puis publiez le Zap."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Votre premier Zap",
+    "items": [
+     "Associer un formulaire Google à une nouvelle feuille Google",
+     "Déclencheur : Google Sheets, nouvelle ligne de feuille de calcul",
+     "Soumettez une entrée de test, puis testez le déclencheur",
+     "Action : Gmail, Envoyer un e-mail, avec champs mappés",
+     "Testez, lisez-le en tant que client, puis publiez"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Gardez la feuille de déclenchement propre. Le Zap trouve les champs par ligne d'en-tête, donc ne les renommez ou ne les réorganisez jamais, et ne saisissez jamais de notes ou de totaux dans cette feuille. Faites des calculs sur un deuxième onglet."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Votre premier Zap",
+    "items": [
+     "Associer un formulaire Google à une nouvelle feuille Google",
+     "Déclencheur : Google Sheets, nouvelle ligne de feuille de calcul",
+     "Soumettez une entrée de test, puis testez le déclencheur",
+     "Action : Gmail, Envoyer un e-mail, avec champs mappés",
+     "Testez, lisez-le en tant que client, puis publiez"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Ne renommez jamais les en-têtes et ne saisissez jamais de notes dans la feuille de réponses.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Par exemple, Grace vend des sacs de perles à Port Harcourt et s'attend à environ 60 commandes par mois. Son email dit : merci d'avoir commandé 2 fois Mini pochette perlée."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Le magasin de perles de Grace Zap",
+    "items": [
+     "Environ 60 commandes par mois",
+     "Une action par exécution : 60 tâches",
+     "Dans les 100 tâches gratuites",
+     "L'e-mail arrive dans environ 15 minutes"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Son Zap a une action, donc chaque commande utilise une tâche. Cela représente 60 tâches par mois."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Le magasin de perles de Grace Zap",
+    "items": [
+     "Environ 60 commandes par mois",
+     "Une action par exécution : 60 tâches",
+     "Dans les 100 tâches gratuites",
+     "L'e-mail arrive dans environ 15 minutes"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Cela correspond aux 100 tâches gratuites."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Le magasin de perles de Grace Zap",
+    "items": [
+     "Environ 60 commandes par mois",
+     "Une action par exécution : 60 tâches",
+     "Dans les 100 tâches gratuites",
+     "L'e-mail arrive dans environ 15 minutes"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Sa sœur teste depuis son propre téléphone. L'e-mail arrive dans un délai d'environ 15 minutes, comme prévu pour un déclencheur d'interrogation."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Le magasin de perles de Grace Zap",
+    "items": [
+     "Environ 60 commandes par mois",
+     "Une action par exécution : 60 tâches",
+     "Dans les 100 tâches gratuites",
+     "L'e-mail arrive dans environ 15 minutes"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Un point de sécurité concernant l'argent. Les fraudeurs copient les noms d’entreprises et envoient de faux numéros de compte. Conservez donc les détails de paiement au même endroit que le propriétaire contrôle et vérifiez chaque message automatisé mentionnant de l’argent.",
+    "L'e-mail de Grace indique que les détails de paiement seront envoyés sur WhatsApp à partir de son numéro professionnel connu."
+   ],
+   "panel": {
+    "kicker": "Sécurité financière",
+    "heading": "Protégez les informations de paiement",
+    "mode": "compare",
+    "left_h": "Faire",
+    "left": [
+     "Conservez les détails de paiement au même endroit",
+     "Vérifiez chaque message sur l'argent",
+     "Envoyez-les depuis un numéro connu"
+    ],
+    "right_h": "Jamais",
+    "right": [
+     "Laissez le SMS du client décider du paiement",
+     "Envoyer des coordonnées bancaires non vérifiées",
+     "Faites confiance à une automatisation déverrouillée"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Ne laissez jamais le texte saisi par le client décider où l'argent est payé."
+   ],
+   "panel": {
+    "kicker": "Sécurité financière",
+    "heading": "Protégez les informations de paiement",
+    "mode": "compare",
+    "left_h": "Faire",
+    "left": [
+     "Conservez les détails de paiement au même endroit",
+     "Vérifiez chaque message sur l'argent",
+     "Envoyez-les depuis un numéro connu"
+    ],
+    "right_h": "Jamais",
+    "right": [
+     "Laissez le SMS du client décider du paiement",
+     "Envoyer des coordonnées bancaires non vérifiées",
+     "Faites confiance à une automatisation déverrouillée"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Par exemple, Kemi vend des produits capillaires de Lagos. Dans Make, le déclencheur surveille sa feuille de commande pour détecter de nouvelles lignes. Lors d'un essai, un contrôle toutes les 2 heures est judicieux."
+   ],
+   "panel": {
+    "kicker": "Branchement dans Make",
+    "heading": "Le routeur de commande de Kemi",
+    "items": [
+     "Regarder de nouvelles lignes, selon un calendrier",
+     "Routeur après le déclenchement",
+     "Itinéraire de Lagos : envoyez un e-mail au coureur",
+     "Autres États : ajouter une ligne Interstate",
+     "Voie de repli pour toute autre chose"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Vient ensuite un routeur. Il n'utilise aucun crédit et permet à chaque commande de suivre des itinéraires différents."
+   ],
+   "panel": {
+    "kicker": "Branchement dans Make",
+    "heading": "Le routeur de commande de Kemi",
+    "items": [
+     "Regarder de nouvelles lignes, selon un calendrier",
+     "Routeur après le déclenchement",
+     "Itinéraire de Lagos : envoyez un e-mail au coureur",
+     "Autres États : ajouter une ligne Interstate",
+     "Voie de repli pour toute autre chose"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Sur le premier itinéraire, un filtre laisse passer l'État égal à Lagos et Gmail envoie un e-mail au passager."
+   ],
+   "panel": {
+    "kicker": "Branchement dans Make",
+    "heading": "Le routeur de commande de Kemi",
+    "items": [
+     "Regarder de nouvelles lignes, selon un calendrier",
+     "Routeur après le déclenchement",
+     "Itinéraire de Lagos : envoyez un e-mail au coureur",
+     "Autres États : ajouter une ligne Interstate",
+     "Voie de repli pour toute autre chose"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Sur le second, State n'est pas Lagos, donc une ligne est ajoutée à l'onglet Interstate pour le coursier."
+   ],
+   "panel": {
+    "kicker": "Branchement dans Make",
+    "heading": "Le routeur de commande de Kemi",
+    "items": [
+     "Regarder de nouvelles lignes, selon un calendrier",
+     "Routeur après le déclenchement",
+     "Itinéraire de Lagos : envoyez un e-mail au coureur",
+     "Autres États : ajouter une ligne Interstate",
+     "Voie de repli pour toute autre chose"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Que se passe-t-il si l'État est vide ou saisi avec un espace supplémentaire ? Réduisez les espaces, faites correspondre sans vous soucier des majuscules et ajoutez un itinéraire de secours qui alerte le propriétaire."
+   ],
+   "panel": {
+    "kicker": "Branchement dans Make",
+    "heading": "Le routeur de commande de Kemi",
+    "items": [
+     "Regarder de nouvelles lignes, selon un calendrier",
+     "Routeur après le déclenchement",
+     "Itinéraire de Lagos : envoyez un e-mail au coureur",
+     "Autres États : ajouter une ligne Interstate",
+     "Voie de repli pour toute autre chose"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Ajoutez un itinéraire de secours pour qu'aucune commande ne disparaisse silencieusement.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Testez volontairement avec de mauvaises données. Essayez des champs vides, des numéros de téléphone saisis de différentes manières, des noms avec des apostrophes et un client qui soumet deux fois."
+   ],
+   "panel": {
+    "kicker": "Les données réelles sont compliquées",
+    "heading": "Trois choses à tester",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Edge cases",
+      "d": "Champs vides, numéros de téléphone saisis de différentes manières, noms étranges, le même client soumettant deux fois."
+     },
+     {
+      "t": "Failures",
+      "d": "Supprimez volontairement une connexion. Vérifiez que l'erreur est enregistrée et qu'une personne est alertée."
+     },
+     {
+      "t": "Stored runs",
+      "d": "Dans Make, stockez les exécutions incomplètes afin qu'une exécution ayant échoué puisse être réessayée et non perdue."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Testez également un échec. Make, par défaut, désactive un scénario planifié après 3 erreurs consécutives. Envoyez donc des alertes d'erreur à vous et à une personne nommée chez le client."
+   ],
+   "panel": {
+    "kicker": "Les données réelles sont compliquées",
+    "heading": "Trois choses à tester",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Edge cases",
+      "d": "Champs vides, numéros de téléphone saisis de différentes manières, noms étranges, le même client soumettant deux fois."
+     },
+     {
+      "t": "Failures",
+      "d": "Supprimez volontairement une connexion. Vérifiez que l'erreur est enregistrée et qu'une personne est alertée."
+     },
+     {
+      "t": "Stored runs",
+      "d": "Dans Make, stockez les exécutions incomplètes afin qu'une exécution ayant échoué puisse être réessayée et non perdue."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Par exemple, le scénario d'inscription de Chidinma s'est arrêté lorsque l'administrateur a modifié un mot de passe Google. Musa a vu l'alerte ce matin-là. Elle s'est reconnectée, a réessayé les analyses stockées et les 9 inscriptions en attente ont été traitées."
+   ],
+   "panel": {
+    "kicker": "Les données réelles sont compliquées",
+    "heading": "Trois choses à tester",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Edge cases",
+      "d": "Champs vides, numéros de téléphone saisis de différentes manières, noms étranges, le même client soumettant deux fois."
+     },
+     {
+      "t": "Failures",
+      "d": "Supprimez volontairement une connexion. Vérifiez que l'erreur est enregistrée et qu'une personne est alertée."
+     },
+     {
+      "t": "Stored runs",
+      "d": "Dans Make, stockez les exécutions incomplètes afin qu'une exécution ayant échoué puisse être réessayée et non perdue."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Cochez chaque case avant de remettre. Le cas normal passe. Les cas extrêmes sont traités ou signalés. Les alertes de panne parviennent à une personne.",
+    "Les données personnelles sont conservées selon les besoins de chaque étape. Le Nigeria a la Nigeria Data Protection Act 2023, alors créez les propres comptes du client et supprimez votre accès à la fin.",
+    "Et le run book est rédigé et partagé."
+   ],
+   "panel": {
+    "kicker": "Avant de l'allumer",
+    "heading": "Prêt pour une utilisation réelle ?",
+    "items": [
+     "Le cas normal passe",
+     "Cas extrêmes traités ou signalés",
+     "Les alertes de panne parviennent à une personne",
+     "Données personnelles minimisées",
+     "Exécuter un livre écrit et partagé"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "À retenir. Gardez la feuille de déclenchement propre. Testez avec une vraie soumission. Donnez à chaque routeur une solution de secours. Envoyez des alertes d’erreur à une personne réelle. Et rédigez un livre d'exploitation d'une page : ce qu'il fait, quels comptes il utilise, comment dire qu'il fonctionne et qui appeler."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Gardez la feuille de déclenchement propre et les en-têtes inchangés",
+     "Testez le déclencheur avec une vraie soumission",
+     "Chaque routeur a besoin d'une route de secours",
+     "Envoyer des alertes d'erreur à une personne réelle",
+     "Un runbook d'une page permet au client de l'exécuter"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Créez maintenant votre premier Zap et testez-le à partir de deux appareils. Créez un scénario à deux itinéraires avec une solution de repli. Ensuite, rompez votre propre automatisation avec un plan de test et rédigez le run book.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâche pratique",
+    "heading": "Vos tâches pratiques",
+    "items": [
+     "Construisez et testez votre premier Zap",
+     "Construire un scénario Make à deux itinéraires",
+     "Brisez votre propre automatisation et rédigez un run book"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

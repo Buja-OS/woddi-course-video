@@ -1,0 +1,528 @@
+{
+ "course": "factory-workshop-setup-small-scale",
+ "module": "m2",
+ "title": "Aménagement, sécurité et combien votre atelier peut rapporter",
+ "course_title": "Configuration d'usine et d'atelier (à petite échelle)",
+ "shots": [
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Aménagement, sécurité et combien votre atelier peut rapporter.",
+    "Ceci est la vidéo du module deux de la configuration d'usine et d'atelier."
+   ]
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Dans ce module, votre espace devient un système fonctionnel. Tout d’abord, un plan d’étage conçu en fonction de la façon dont le produit se déplace, et non de l’emplacement des meubles."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Transformez votre espace en un système fonctionnel",
+    "items": [
+     "Zones qui suivent votre produit",
+     "Une évaluation écrite des risques",
+     "Connaissez votre plafond et votre sol"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Deuxièmement, une simple évaluation écrite des risques d’incendie, d’électricité, de fumées, de produits chimiques et de premiers secours."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Transformez votre espace en un système fonctionnel",
+    "items": [
+     "Zones qui suivent votre produit",
+     "Une évaluation écrite des risques",
+     "Connaissez votre plafond et votre sol"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Troisièmement, deux chiffres : le maximum que votre atelier peut gagner, et le minimum qu'il doit vendre pour s'autofinancer."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Transformez votre espace en un système fonctionnel",
+    "items": [
+     "Zones qui suivent votre produit",
+     "Une évaluation écrite des risques",
+     "Connaissez votre plafond et votre sol"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Écrivez votre processus sous forme d’étapes. Chaque étape devient une zone, placée dans l'ordre, de sorte que le travail se déroule dans un sens au lieu de s'entrecroiser.",
+    "La réception se fait près de la porte, ce qui évite de transporter des sacs lourds pendant le travail."
+   ],
+   "panel": {
+    "kicker": "Zonage",
+    "heading": "Zones dans l'ordre dans lequel le produit se déplace",
+    "items": [
+     "Réceptionner et entreposer le matériel, près de la porte",
+     "Préparer et couper",
+     "Fabriquer ou assembler",
+     "Terminer et inspecter",
+     "Emballer et stocker les produits finis"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Placez un travail poussiéreux, chaud ou malodorant près d'une fenêtre avec un ventilateur qui souffle. Placez les machines à proximité des prises afin qu'aucun câble ne traverse une passerelle."
+   ],
+   "panel": {
+    "kicker": "Zonage",
+    "heading": "Zones dans l'ordre dans lequel le produit se déplace",
+    "items": [
+     "Réceptionner et entreposer le matériel, près de la porte",
+     "Préparer et couper",
+     "Fabriquer ou assembler",
+     "Terminer et inspecter",
+     "Emballer et stocker les produits finis"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Séparez les matières premières des produits finis et gardez un passage dégagé vers la sortie.",
+    "Une erreur courante consiste à stocker les produits finis dans l’allée juste pour aujourd’hui. Il devient permanent et bloque la sortie."
+   ],
+   "panel": {
+    "kicker": "Zonage",
+    "heading": "Zones dans l'ordre dans lequel le produit se déplace",
+    "items": [
+     "Réceptionner et entreposer le matériel, près de la porte",
+     "Préparer et couper",
+     "Fabriquer ou assembler",
+     "Terminer et inspecter",
+     "Emballer et stocker les produits finis"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Dans un flux rectiligne, les matériaux entrent par une extrémité et sortent par l’autre. Il convient aux pièces longues avec deux portes."
+   ],
+   "panel": {
+    "kicker": "Deux formes",
+    "heading": "Ligne droite ou forme en U ?",
+    "mode": "compare",
+    "left_h": "Ligne droite",
+    "left": [
+     "Dedans par un bout, dehors par l'autre",
+     "Convient aux pièces longues et étroites",
+     "Bien avec deux portes"
+    ],
+    "right_h": "en forme de U",
+    "right": [
+     "Se termine près de l'endroit où il a commencé",
+     "Convient aux pièces avec une porte",
+     "Une personne peut aider deux stations"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "En forme de U, le travail descend d’un côté et remonte de l’autre. Par exemple, Hauwa à Kano possède une pièce de 24 mètres carrés avec une porte, elle a donc choisi une forme en U.",
+    "Dessinez votre plan à l'échelle, puis marquez les zones sur le sol réel avec du ruban adhésif et exécutez un lot avant de payer un menuisier."
+   ],
+   "panel": {
+    "kicker": "Deux formes",
+    "heading": "Ligne droite ou forme en U ?",
+    "mode": "compare",
+    "left_h": "Ligne droite",
+    "left": [
+     "Dedans par un bout, dehors par l'autre",
+     "Convient aux pièces longues et étroites",
+     "Bien avec deux portes"
+    ],
+    "right_h": "en forme de U",
+    "right": [
+     "Se termine près de l'endroit où il a commencé",
+     "Convient aux pièces avec une porte",
+     "Une personne peut aider deux stations"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Un danger est tout ce qui pourrait causer un dommage. Le risque correspond à la probabilité et à la gravité du préjudice. Parcourez votre atelier avec un cahier."
+   ],
+   "panel": {
+    "kicker": "Évaluation des risques",
+    "heading": "Trouvez les dangers, marquez-les, agissez",
+    "items": [
+     "Parcourez l’atelier et listez les dangers",
+     "Probabilité du score 1 à 3, gravité 1 à 3",
+     "Multiplier : 6 ou 9 signifie agir maintenant",
+     "Contrôlez d'abord le score le plus élevé",
+     "Examinez quand quelque chose change"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Notez la probabilité et la gravité de 1 à 3 et multipliez. Un score de 6 ou 9 nécessite une action immédiate. 3 ou 4 nécessitent une action prochainement."
+   ],
+   "panel": {
+    "kicker": "Évaluation des risques",
+    "heading": "Trouvez les dangers, marquez-les, agissez",
+    "items": [
+     "Parcourez l’atelier et listez les dangers",
+     "Probabilité du score 1 à 3, gravité 1 à 3",
+     "Multiplier : 6 ou 9 signifie agir maintenant",
+     "Contrôlez d'abord le score le plus élevé",
+     "Examinez quand quelque chose change"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Par exemple, Kemi, à Ibadan, a trouvé du diluant pour laque à côté d'une plaque chauffante. Cela a obtenu un score de 9. Elle a déplacé le diluant dans une armoire métallique fermée et a remplacé la plaque chauffante par une méthode de colle qui ne nécessite pas de flamme."
+   ],
+   "panel": {
+    "kicker": "Évaluation des risques",
+    "heading": "Trouvez les dangers, marquez-les, agissez",
+    "items": [
+     "Parcourez l’atelier et listez les dangers",
+     "Probabilité du score 1 à 3, gravité 1 à 3",
+     "Multiplier : 6 ou 9 signifie agir maintenant",
+     "Contrôlez d'abord le score le plus élevé",
+     "Examinez quand quelque chose change"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Travaillez depuis le sommet de la hiérarchie de contrôle. Éliminer, puis remplacer, puis concevoir, puis règles et formation. L’équipement de protection vient en dernier."
+   ],
+   "panel": {
+    "kicker": "Évaluation des risques",
+    "heading": "Trouvez les dangers, marquez-les, agissez",
+    "items": [
+     "Parcourez l’atelier et listez les dangers",
+     "Probabilité du score 1 à 3, gravité 1 à 3",
+     "Multiplier : 6 ou 9 signifie agir maintenant",
+     "Contrôlez d'abord le score le plus élevé",
+     "Examinez quand quelque chose change"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Supprimez d’abord un danger. L'équipement de protection est la dernière ligne.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "first_aid_kit",
+   "say": [
+    "Le feu a besoin de chaleur, de combustible et d'oxygène. Les chiffons, la sciure et les emballages sont des carburants. Gardez les produits inflammables à l'écart de la chaleur et gardez l'extincteur près de la sortie.",
+    "N'utilisez jamais d'eau sur un feu électrique ou sur un feu brûlant d'huile. Le numéro d’urgence au Nigeria est le 112."
+   ],
+   "panel": {
+    "kicker": "Systèmes de sécurité",
+    "heading": "Incendie, fumées et premiers secours",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Feu",
+      "d": "N'utilisez jamais d'eau sur des feux électriques ou de mazout. Extincteur près de la sortie. Poste 112 près de la porte."
+     },
+     {
+      "t": "Fumes and chemicals",
+      "d": "Le ventilateur s'éteint. Contenants étiquetés d'origine, stockés à un niveau bas. Gardez l'eau de Javel et les acides séparés."
+     },
+     {
+      "t": "First aid",
+      "d": "Un secouriste nommé et un kit approvisionné. Tout ce qui va au-delà des coupures mineures est envoyé à une clinique."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "first_aid_kit",
+   "say": [
+    "Travaillez avec des fumées et de la poussière près d’une fenêtre ouverte avec un ventilateur qui souffle. Conservez chaque produit chimique dans son contenant d’origine étiqueté, jamais dans une bouteille de boisson, et séparez les acides et l’eau de Javel."
+   ],
+   "panel": {
+    "kicker": "Systèmes de sécurité",
+    "heading": "Incendie, fumées et premiers secours",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Feu",
+      "d": "N'utilisez jamais d'eau sur des feux électriques ou de mazout. Extincteur près de la sortie. Poste 112 près de la porte."
+     },
+     {
+      "t": "Fumes and chemicals",
+      "d": "Le ventilateur s'éteint. Contenants étiquetés d'origine, stockés à un niveau bas. Gardez l'eau de Javel et les acides séparés."
+     },
+     {
+      "t": "First aid",
+      "d": "Un secouriste nommé et un kit approvisionné. Tout ce qui va au-delà des coupures mineures est envoyé à une clinique."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Nommez une personne responsable des premiers soins et conservez une trousse bien approvisionnée à la portée de tous. Écrivez chaque incident ou quasi-accident dans un journal."
+   ],
+   "panel": {
+    "kicker": "Systèmes de sécurité",
+    "heading": "Incendie, fumées et premiers secours",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Feu",
+      "d": "N'utilisez jamais d'eau sur des feux électriques ou de mazout. Extincteur près de la sortie. Poste 112 près de la porte."
+     },
+     {
+      "t": "Fumes and chemicals",
+      "d": "Le ventilateur s'éteint. Contenants étiquetés d'origine, stockés à un niveau bas. Gardez l'eau de Javel et les acides séparés."
+     },
+     {
+      "t": "First aid",
+      "d": "Un secouriste nommé et un kit approvisionné. Tout ce qui va au-delà des coupures mineures est envoyé à une clinique."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Chronométrez chaque étape avec un chronomètre téléphonique. Si deux machines font le même travail, divisez par deux. Hauwa coud un sac en 30 minutes sur chacune des deux machines, soit 15 minutes par sac."
+   ],
+   "panel": {
+    "kicker": "Votre plafond",
+    "heading": "Trouvez le goulot d'étranglement et votre capacité",
+    "items": [
+     "Chronométrez chaque étape pour une unité",
+     "Diviser par machines ou travailleurs parallèles",
+     "Le temps le plus long est le goulot d'étranglement",
+     "Prévoyez 80% de minutes de travail"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "La couture est son étape la plus longue, c'est donc le goulot d'étranglement."
+   ],
+   "panel": {
+    "kicker": "Votre plafond",
+    "heading": "Trouvez le goulot d'étranglement et votre capacité",
+    "items": [
+     "Chronométrez chaque étape pour une unité",
+     "Diviser par machines ou travailleurs parallèles",
+     "Le temps le plus long est le goulot d'étranglement",
+     "Prévoyez 80% de minutes de travail"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Sa journée compte 420 minutes de travail. Les machines ne sont pas productives toutes les minutes, elle prévoit donc 80 % : 336 minutes. Cela donne 22 sacs par jour, soit 528 sacs par mois.",
+    "Accélérer la coupe ne change rien. Elle a besoin de plus de temps pour coudre."
+   ],
+   "panel": {
+    "kicker": "Votre plafond",
+    "heading": "Trouvez le goulot d'étranglement et votre capacité",
+    "items": [
+     "Chronométrez chaque étape pour une unité",
+     "Diviser par machines ou travailleurs parallèles",
+     "Le temps le plus long est le goulot d'étranglement",
+     "Prévoyez 80% de minutes de travail"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "L'ensemble de l'atelier ne peut aller qu'à la vitesse de son goulot d'étranglement.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Les frais de fonctionnement surviennent chaque mois, que vous produisiez ou non. Gardez-les séparés des coûts d’installation ponctuels."
+   ],
+   "card": {
+    "title": "Frais de fonctionnement mensuels de Hauwa",
+    "rows": [],
+    "note": "Les prix en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Hauwa paie le loyer, l'électricité et le carburant, l'eau et le nettoyage, deux machinistes et l'entretien."
+   ],
+   "card": {
+    "title": "Frais de fonctionnement mensuels de Hauwa",
+    "rows": [
+     [
+      "Louer",
+      "50,000"
+     ],
+     [
+      "Puissance et carburant",
+      "60,000"
+     ],
+     [
+      "Eau et nettoyage",
+      "8,000"
+     ],
+     [
+      "Salaire de deux machinistes",
+      "150,000"
+     ],
+     [
+      "Entretien",
+      "12,000"
+     ]
+    ],
+    "note": "Les prix en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Cela représente environ 280 000 nairas par mois. Chaque sac laisse 3 000 nairas après matériaux et emballage. 280 000 divisé par 3 000 signifie qu'elle doit vendre 94 sacs par mois rien que pour couvrir l'atelier. Elle en vend environ 450, donc l’espace est rentabilisé."
+   ],
+   "card": {
+    "title": "Frais de fonctionnement mensuels de Hauwa",
+    "rows": [
+     [
+      "Louer",
+      "50,000"
+     ],
+     [
+      "Puissance et carburant",
+      "60,000"
+     ],
+     [
+      "Eau et nettoyage",
+      "8,000"
+     ],
+     [
+      "Salaire de deux machinistes",
+      "150,000"
+     ],
+     [
+      "Entretien",
+      "12,000"
+     ]
+    ],
+    "note": "Les prix en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "À retenir. Les zones suivent le produit. Notez les dangers et corrigez d'abord le pire. Pas d'eau sur les feux électriques ou fioul. Le goulot d’étranglement définit votre capacité. Et divisez les coûts de fonctionnement par la contribution de chaque unité pour atteindre votre seuil de rentabilité."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Les zones suivent le produit, dans un sens",
+     "Marquez les dangers et corrigez le plus élevé en premier",
+     "Pas d'eau sur les feux électriques ou de fioul",
+     "Le goulot d’étranglement définit votre capacité",
+     "Seuil de rentabilité = frais de fonctionnement / cotisation"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Vos tâches : dessinez votre plan d'étage zoné et testez-le avec du ruban adhésif, rédigez votre évaluation des risques notée et calculez votre capacité et votre seuil de rentabilité.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâches d'entraînement",
+    "heading": "Vos tâches pratiques",
+    "items": [
+     "Dessinez votre plan d'étage zoné",
+     "Rédigez votre évaluation des risques",
+     "Calculez votre plafond et votre sol"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

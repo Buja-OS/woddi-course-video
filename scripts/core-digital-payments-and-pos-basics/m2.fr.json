@@ -1,0 +1,566 @@
+{
+ "course": "core-digital-payments-and-pos-basics",
+ "module": "m2",
+ "title": "Portefeuilles, virements, USSD et factures : bien faire les choses à chaque fois",
+ "course_title": "Paiements numériques et bases du point de vente",
+ "shots": [
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Portefeuilles, virements, USSD et factures : bien faire les choses à chaque fois.",
+    "Ceci est la vidéo du module 2 de Paiements numériques et bases du point de vente."
+   ]
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Un transfert prend moins d’une minute, mais la plupart des erreurs se produisent au cours de cette minute. Vous apprendrez donc une routine."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "La plupart des erreurs se produisent en une minute",
+    "items": [
+     "Vérifiez une application de portefeuille avant de lui faire confiance",
+     "Envoyer un transfert avec une routine",
+     "Payez sans données, en utilisant USSD",
+     "Recevez de l'argent sans vous faire tromper"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Vous paierez également sans Internet, paierez vos factures et recevrez de l’argent en toute sécurité."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "La plupart des erreurs se produisent en une minute",
+    "items": [
+     "Vérifiez une application de portefeuille avant de lui faire confiance",
+     "Envoyer un transfert avec une routine",
+     "Payez sans données, en utilisant USSD",
+     "Recevez de l'argent sans vous faire tromper"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Les applications de portefeuille comme Opay, PalmPay et Moniepoint doivent être gérées par des sociétés agréées. Par exemple, Joy, coiffeuse à Port Harcourt, a trouvé deux applications portant le même logo et a choisi celle dont l'éditeur correspondait à l'entreprise.",
+    "Elle a trouvé le relevé de licence, a utilisé son propre numéro, a défini un code PIN solide et a enregistré l'assistance. Pas de déclaration de licence ? N'y gardez pas d'argent."
+   ],
+   "panel": {
+    "kicker": "Avant d'utiliser un portefeuille",
+    "heading": "Cinq chèques pour n'importe quelle application de portefeuille",
+    "items": [
+     "Déclaration de licence trouvée",
+     "Le nom de l'éditeur correspond à l'entreprise",
+     "Inscrit avec votre propre numéro de téléphone",
+     "Code PIN fort et verrouillage de l'application",
+     "Canal d'assistance enregistré"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Par exemple, Grace à Abuja paie des frais de scolarité de 45 000 naira. Elle saisit le numéro de compte figurant sur le bulletin d'honoraires et le vérifie par groupes de 3, 3 et 4 chiffres."
+   ],
+   "panel": {
+    "kicker": "La routine du transfert",
+    "heading": "Six étapes, à chaque fois",
+    "items": [
+     "Choisissez la banque, entrez le numéro",
+     "Lisez le nom à haute voix",
+     "Vérifiez le montant et les zéros",
+     "Ajouter une narration claire",
+     "Lisez les frais, puis approuvez",
+     "Conservez le reçu"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "L'application affiche le nom enregistré de l'école. Cela correspond au bordereau."
+   ],
+   "panel": {
+    "kicker": "La routine du transfert",
+    "heading": "Six étapes, à chaque fois",
+    "items": [
+     "Choisissez la banque, entrez le numéro",
+     "Lisez le nom à haute voix",
+     "Vérifiez le montant et les zéros",
+     "Ajouter une narration claire",
+     "Lisez les frais, puis approuvez",
+     "Conservez le reçu"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Elle vérifie que l'écran indique 45 000, pas 4 500 ou 450 000."
+   ],
+   "panel": {
+    "kicker": "La routine du transfert",
+    "heading": "Six étapes, à chaque fois",
+    "items": [
+     "Choisissez la banque, entrez le numéro",
+     "Lisez le nom à haute voix",
+     "Vérifiez le montant et les zéros",
+     "Ajouter une narration claire",
+     "Lisez les frais, puis approuvez",
+     "Conservez le reçu"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Dans la narration, elle tape le nom de son fils, la classe et les frais du 2e trimestre, afin que l'économe puisse les faire correspondre."
+   ],
+   "panel": {
+    "kicker": "La routine du transfert",
+    "heading": "Six étapes, à chaque fois",
+    "items": [
+     "Choisissez la banque, entrez le numéro",
+     "Lisez le nom à haute voix",
+     "Vérifiez le montant et les zéros",
+     "Ajouter une narration claire",
+     "Lisez les frais, puis approuvez",
+     "Conservez le reçu"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Elle lit les frais, vérifie que son solde les couvre, saisit son code PIN et enregistre le reçu dans un dossier téléphonique."
+   ],
+   "panel": {
+    "kicker": "La routine du transfert",
+    "heading": "Six étapes, à chaque fois",
+    "items": [
+     "Choisissez la banque, entrez le numéro",
+     "Lisez le nom à haute voix",
+     "Vérifiez le montant et les zéros",
+     "Ajouter une narration claire",
+     "Lisez les frais, puis approuvez",
+     "Conservez le reçu"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Un message indiquant qu'un fournisseur ou une école a un nouveau compte est une astuce courante. Confirmez en appelant le numéro que vous possédez déjà.",
+    "Si vous envoyez vers un mauvais compte, signalez-le immédiatement à votre banque avec l'ID de session."
+   ],
+   "panel": {
+    "kicker": "La routine du transfert",
+    "heading": "Six étapes, à chaque fois",
+    "items": [
+     "Choisissez la banque, entrez le numéro",
+     "Lisez le nom à haute voix",
+     "Vérifiez le montant et les zéros",
+     "Ajouter une narration claire",
+     "Lisez les frais, puis approuvez",
+     "Conservez le reçu"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "rule": "Un nouveau compte pour un fournisseur ? Appelez un numéro en qui vous avez déjà confiance.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "USSD est un code court qui commence par une étoile et se termine par un hachage. Cela fonctionne sur n'importe quel téléphone avec signal, sans données. Obtenez le code sur le site Web de votre carte ou de votre banque."
+   ],
+   "panel": {
+    "kicker": "USSD",
+    "heading": "Payer sans données",
+    "items": [
+     "Obtenez le code sur le site de votre carte ou de votre banque",
+     "Utilisez la SIM enregistrée sur votre compte",
+     "Notez les détails avant de composer",
+     "Vérifiez le nom, puis entrez votre code PIN USSD"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Cela ne fonctionne qu'avec la carte SIM enregistrée sur votre compte. Cela fait partie de sa sécurité."
+   ],
+   "panel": {
+    "kicker": "USSD",
+    "heading": "Payer sans données",
+    "items": [
+     "Obtenez le code sur le site de votre carte ou de votre banque",
+     "Utilisez la SIM enregistrée sur votre compte",
+     "Notez les détails avant de composer",
+     "Vérifiez le nom, puis entrez votre code PIN USSD"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Par exemple, Mercy doit 3 000 nairas à un agriculteur, Musa, dans un village sans données. Les sessions expirent rapidement, alors elle écrit d'abord son numéro de compte sur papier."
+   ],
+   "panel": {
+    "kicker": "USSD",
+    "heading": "Payer sans données",
+    "items": [
+     "Obtenez le code sur le site de votre carte ou de votre banque",
+     "Utilisez la SIM enregistrée sur votre compte",
+     "Notez les détails avant de composer",
+     "Vérifiez le nom, puis entrez votre code PIN USSD"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "L'écran affiche le nom de Musa. Elle le lit à haute voix et il confirme. Elle saisit ensuite son code PIN USSD. Ne composez jamais un code qu’un inconnu vous envoie."
+   ],
+   "panel": {
+    "kicker": "USSD",
+    "heading": "Payer sans données",
+    "items": [
+     "Obtenez le code sur le site de votre carte ou de votre banque",
+     "Utilisez la SIM enregistrée sur votre compte",
+     "Notez les détails avant de composer",
+     "Vérifiez le nom, puis entrez votre code PIN USSD"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Chaque facture suit un schéma : service, numéro, montant, vérifier, approuver, conserver la preuve.",
+    "Pour le temps d'antenne, choisissez le réseau qui correspond au numéro, ou il peut être dirigé vers un numéro différent."
+   ],
+   "panel": {
+    "kicker": "Payer les factures",
+    "heading": "Vérifiez le numéro avant de payer",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Temps d'antenne et données",
+      "d": "Choisissez le réseau qui correspond au numéro de téléphone. Vérifiez chaque chiffre."
+     },
+     {
+      "t": "Electricity token",
+      "d": "Entrez exactement le numéro du compteur. Vérifiez le nom affiché. Tapez le jeton à 20 chiffres dans le compteur."
+     },
+     {
+      "t": "Abonnement télé",
+      "d": "Saisissez le numéro de carte à puce ou le numéro IUC du décodeur. Gardez-le pour recevoir la mise à jour."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Pour l'électricité prépayée, saisissez exactement votre numéro de compteur et vérifiez le nom affiché. Le jeton à 20 chiffres ne fonctionne que sur ce compteur. S'il est rejeté, retapez-le d'abord lentement."
+   ],
+   "panel": {
+    "kicker": "Payer les factures",
+    "heading": "Vérifiez le numéro avant de payer",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Temps d'antenne et données",
+      "d": "Choisissez le réseau qui correspond au numéro de téléphone. Vérifiez chaque chiffre."
+     },
+     {
+      "t": "Electricity token",
+      "d": "Entrez exactement le numéro du compteur. Vérifiez le nom affiché. Tapez le jeton à 20 chiffres dans le compteur."
+     },
+     {
+      "t": "Abonnement télé",
+      "d": "Saisissez le numéro de carte à puce ou le numéro IUC du décodeur. Gardez-le pour recevoir la mise à jour."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Pour la TV, saisissez le numéro de carte à puce ou le numéro IUC et laissez le décodeur allumé. Si une facture n’est pas livrée, vérifiez d’abord votre historique. Ne payez plus."
+   ],
+   "panel": {
+    "kicker": "Payer les factures",
+    "heading": "Vérifiez le numéro avant de payer",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Temps d'antenne et données",
+      "d": "Choisissez le réseau qui correspond au numéro de téléphone. Vérifiez chaque chiffre."
+     },
+     {
+      "t": "Electricity token",
+      "d": "Entrez exactement le numéro du compteur. Vérifiez le nom affiché. Tapez le jeton à 20 chiffres dans le compteur."
+     },
+     {
+      "t": "Abonnement télé",
+      "d": "Saisissez le numéro de carte à puce ou le numéro IUC du décodeur. Gardez-le pour recevoir la mise à jour."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Patience a 20 000 nairas à dépenser en électricité cette semaine."
+   ],
+   "card": {
+    "title": "Deux mètres, un budget",
+    "rows": [],
+    "note": null
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Le congélateur consomme le plus d'énergie, elle en achète donc 12 000 pour le magasin. Le nom à l'écran correspond, alors elle paie et enregistre le jeton."
+   ],
+   "card": {
+    "title": "Deux mètres, un budget",
+    "rows": [
+     [
+      "Jeton de compteur de magasin",
+      "12,000"
+     ]
+    ],
+    "note": null
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "La maison reçoit le reste, 8 000. Le nom indiqué est celui de son propriétaire, comme elle s'y attendait."
+   ],
+   "card": {
+    "title": "Deux mètres, un budget",
+    "rows": [
+     [
+      "Jeton de compteur de magasin",
+      "12,000"
+     ],
+     [
+      "Jeton de compteur domestique",
+      "8,000"
+     ]
+    ],
+    "note": null
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "20 000 au total, avec deux reçus et deux jetons conservés au cas où un compteur en rejetterait un."
+   ],
+   "card": {
+    "title": "Deux mètres, un budget",
+    "rows": [
+     [
+      "Jeton de compteur de magasin",
+      "12,000"
+     ],
+     [
+      "Jeton de compteur domestique",
+      "8,000"
+     ]
+    ],
+    "note": null
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Par exemple, Aisha vend du tissu à Ilorin. A la clôture, son carnet fait état de 6 ventes de transfert, soit 55 500 naira."
+   ],
+   "panel": {
+    "kicker": "Contrôle de fin de journée",
+    "heading": "Aisha trouve un paiement manquant",
+    "mode": "compare",
+    "left_h": "Son carnet",
+    "left": [
+     "6 ventes de transfert",
+     "Total 55 500 nairas"
+    ],
+    "right_h": "L'historique de ses applications",
+    "right": [
+     "5 crédits",
+     "Total 49 500 nairas",
+     "6 000 disparus"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "L’historique de ses applications n’en affiche que 49 500. Il en manque 6 000, de la part de la femme qui a montré une capture d'écran alors que le stand était occupé.",
+    "Libérez les marchandises uniquement lorsque le crédit figure dans l'historique de votre propre application."
+   ],
+   "panel": {
+    "kicker": "Contrôle de fin de journée",
+    "heading": "Aisha trouve un paiement manquant",
+    "mode": "compare",
+    "left_h": "Son carnet",
+    "left": [
+     "6 ventes de transfert",
+     "Total 55 500 nairas"
+    ],
+    "right_h": "L'historique de ses applications",
+    "right": [
+     "5 crédits",
+     "Total 49 500 nairas",
+     "6 000 disparus"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Parfois, un appelant vous dit qu'il vous a envoyé de l'argent par erreur et vous demande de le lui renvoyer. Vérifiez votre solde, pas les SMS, et ne dépensez pas d'argent auquel vous ne vous attendiez pas."
+   ],
+   "panel": {
+    "kicker": "L'argent qui n'est pas le vôtre",
+    "heading": "Un crédit erroné",
+    "items": [
+     "Vérifiez votre solde, pas le SMS",
+     "Ne dépensez pas d’argent auquel vous ne vous attendiez pas",
+     "Signalez-le au support officiel de votre banque",
+     "Conserver la référence de la réclamation"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Dites-lui de le signaler à sa propre banque. Signalez-le au vôtre et conservez la référence. Si l’argent est réel, les banques le restitueront. Si l'alerte était fausse, vous n'avez rien perdu."
+   ],
+   "panel": {
+    "kicker": "L'argent qui n'est pas le vôtre",
+    "heading": "Un crédit erroné",
+    "items": [
+     "Vérifiez votre solde, pas le SMS",
+     "Ne dépensez pas d’argent auquel vous ne vous attendiez pas",
+     "Signalez-le au support officiel de votre banque",
+     "Conserver la référence de la réclamation"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Ne renvoyez jamais vous-même un virement erroné.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "À retenir. Vérifiez la licence avant de faire confiance à un portefeuille. Vérifiez le nom, le numéro et les zéros devant votre code PIN. Utilisez USSD lorsque les données sont épuisées. Vérifiez les numéros de facture avant de payer. Et ne libérez les marchandises que lorsque l’argent apparaît dans votre propre histoire."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Vérifiez la licence avant de faire confiance à un portefeuille",
+     "Nom, numéro en groupes, montant, puis code PIN",
+     "USSD fonctionne sans données, sur votre propre SIM",
+     "Vérifiez le compteur ou les numéros de téléphone avant de payer les factures",
+     "Libérer les marchandises uniquement lorsque le crédit apparaît"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Vérifiez une application de portefeuille, envoyez un transfert pratique de 100 naira à un ami de confiance, effectuez une vérification du solde USSD, payez une facture et effectuez un contrôle de fin de journée.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâche pratique",
+    "heading": "Vos tâches pour ce module",
+    "items": [
+     "Vérifiez une application de portefeuille",
+     "Pratiquez un transfert de 100 naira en toute sécurité",
+     "Faites votre première vérification du solde USSD",
+     "Payez une facture et effectuez un contrôle de fin de journée"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

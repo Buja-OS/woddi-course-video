@@ -1,0 +1,621 @@
+{
+ "course": "production-scaling-quality-assurance",
+ "module": "m1",
+ "title": "Rendre un produit prêt à évoluer",
+ "course_title": "Mise à l’échelle de la production et assurance qualité",
+ "shots": [
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Rendre un produit prêt à évoluer.",
+    "Ceci est la vidéo du module 1 sur la mise à l'échelle de la production et l'assurance qualité."
+   ]
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Lorsque vous gagnez dix fois plus, trois choses changent. Les montants que vous pouvez calculer."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Pas simplement dix fois tout",
+    "items": [
+     "Montants : vous pouvez les calculer",
+     "Pertes : il faut les mesurer",
+     "Processus : changement de chaleur et de mélange",
+     "Prouvez-le avec un essai pilote"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Les pertes, qu'il faut mesurer."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Pas simplement dix fois tout",
+    "items": [
+     "Montants : vous pouvez les calculer",
+     "Pertes : il faut les mesurer",
+     "Processus : changement de chaleur et de mélange",
+     "Prouvez-le avec un essai pilote"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Et le comportement du processus. Le mélange, le chauffage et le refroidissement prennent plus de temps avec plus de matière."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Pas simplement dix fois tout",
+    "items": [
+     "Montants : vous pouvez les calculer",
+     "Pertes : il faut les mesurer",
+     "Processus : changement de chaleur et de mélange",
+     "Prouvez-le avec un essai pilote"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Ainsi, dans ce module, vous calculez vos chiffres, vérifiez dans quelle mesure votre production varie et prouvez le plus gros lot avec une exécution pilote."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Pas simplement dix fois tout",
+    "items": [
+     "Montants : vous pouvez les calculer",
+     "Pertes : il faut les mesurer",
+     "Processus : changement de chaleur et de mélange",
+     "Prouvez-le avec un essai pilote"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Les tasses, les boîtes et un petit sachet changent de jour en jour. Utilisez une balance numérique qui indique jusqu'à 1 g et pesez chaque ingrédient, y compris les liquides et les œufs."
+   ],
+   "panel": {
+    "kicker": "Connaissez votre recette",
+    "heading": "Poids, pourcentages et rendement",
+    "items": [
+     "Pesez tout, même les œufs et l'eau",
+     "Formule % : ingrédient / total x 100",
+     "Rendement : vendable / intrant x 100",
+     "Mesurer la perte d'emballage séparément"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Divisez chaque poids par le total et multipliez par 100. Ces pourcentages de formule ne changent pas avec la taille du lot. Ils sont l'identité de votre produit."
+   ],
+   "panel": {
+    "kicker": "Connaissez votre recette",
+    "heading": "Poids, pourcentages et rendement",
+    "items": [
+     "Pesez tout, même les œufs et l'eau",
+     "Formule % : ingrédient / total x 100",
+     "Rendement : vendable / intrant x 100",
+     "Mesurer la perte d'emballage séparément"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Le rendement est la quantité de produit vendable que vous obtenez à partir de ce que vous y mettez. La friture et la cuisson perdent de l'eau, et certains morceaux se cassent ou brûlent, alors mesurez-le sur deux ou trois lots de test. Un lot peut porter chance."
+   ],
+   "panel": {
+    "kicker": "Connaissez votre recette",
+    "heading": "Poids, pourcentages et rendement",
+    "items": [
+     "Pesez tout, même les œufs et l'eau",
+     "Formule % : ingrédient / total x 100",
+     "Rendement : vendable / intrant x 100",
+     "Mesurer la perte d'emballage séparément"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Mesurez ensuite les pertes d’emballage : déversements, échantillons et emballages qui échouent au contrôle d’étanchéité."
+   ],
+   "panel": {
+    "kicker": "Connaissez votre recette",
+    "heading": "Poids, pourcentages et rendement",
+    "items": [
+     "Pesez tout, même les œufs et l'eau",
+     "Formule % : ingrédient / total x 100",
+     "Rendement : vendable / intrant x 100",
+     "Mesurer la perte d'emballage séparément"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Par exemple, Kemi à Ibadan vend du chin-chin en paquets de 250 g. Une école veut 400 packs. Cela représente 100 000 g de produit fini."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Kemi : 400 paquets de menton-menton",
+    "items": [
+     "400 x 250 g = 100 000 g de produit",
+     "Perte d'emballage 2% : faire 102 041 g",
+     "Rendement 85% : préparer 120 048 g de pâte",
+     "Multiplicateur 70,6 : 70,6 kg de farine",
+     "Arrondir : 8 charges de 9 kg = 72 kg"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Sa perte d'emballage est de 2 %, elle doit donc produire environ 102 041 g."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Kemi : 400 paquets de menton-menton",
+    "items": [
+     "400 x 250 g = 100 000 g de produit",
+     "Perte d'emballage 2% : faire 102 041 g",
+     "Rendement 85% : préparer 120 048 g de pâte",
+     "Multiplicateur 70,6 : 70,6 kg de farine",
+     "Arrondir : 8 charges de 9 kg = 72 kg"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Son rendement mesuré est de 85 %, il lui faut donc environ 120 048 g de pâte."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Kemi : 400 paquets de menton-menton",
+    "items": [
+     "400 x 250 g = 100 000 g de produit",
+     "Perte d'emballage 2% : faire 102 041 g",
+     "Rendement 85% : préparer 120 048 g de pâte",
+     "Multiplicateur 70,6 : 70,6 kg de farine",
+     "Arrondir : 8 charges de 9 kg = 72 kg"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Sa pâte à tester pèse 1 700 g, le multiplicateur est donc de 70,6. Cela signifie 70,6 kg de farine."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Kemi : 400 paquets de menton-menton",
+    "items": [
+     "400 x 250 g = 100 000 g de produit",
+     "Perte d'emballage 2% : faire 102 041 g",
+     "Rendement 85% : préparer 120 048 g de pâte",
+     "Multiplicateur 70,6 : 70,6 kg de farine",
+     "Arrondir : 8 charges de 9 kg = 72 kg"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Son mélangeur loué prend jusqu'à 10 kg de farine, elle arrondit donc jusqu'à 8 charges égales de 9 kg. Cela donne environ 407 packs.",
+    "Elle a d'abord deviné 40 kg de farine en doublant la quantité. L'arithmétique a sauvé la commande."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Kemi : 400 paquets de menton-menton",
+    "items": [
+     "400 x 250 g = 100 000 g de produit",
+     "Perte d'emballage 2% : faire 102 041 g",
+     "Rendement 85% : préparer 120 048 g de pâte",
+     "Multiplicateur 70,6 : 70,6 kg de farine",
+     "Arrondir : 8 charges de 9 kg = 72 kg"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Travaillez à rebours à partir de ce que l’acheteur reçoit.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "De grandes quantités d'huile chaude sont dangereuses. Gardez la friteuse sur une surface stable et plane, hors de portée des enfants, ne la laissez jamais sans surveillance, gardez un couvercle ou une couverture anti-feu à proximité et ne versez jamais d'eau sur de l'huile en feu."
+   ],
+   "panel": {
+    "kicker": "Sécurité",
+    "heading": "Des lots plus gros, des risques plus importants",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Hot oil",
+      "d": "Surface stable et plane. Jamais sans surveillance. Couvercle ou couverture anti-feu à proximité. Ne jamais arroser sur de l’huile brûlante."
+     },
+     {
+      "t": "Heavy loads",
+      "d": "Soulevez des sacs et des pots lourds avec les genoux pliés ou avec de l'aide."
+     },
+     {
+      "t": "Food hygiene",
+      "d": "Se laver les mains et couvrir les cheveux. Gardez les œufs crus à l'écart du produit fini."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Soulevez des sacs et des pots lourds avec les genoux pliés ou avec de l'aide."
+   ],
+   "panel": {
+    "kicker": "Sécurité",
+    "heading": "Des lots plus gros, des risques plus importants",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Hot oil",
+      "d": "Surface stable et plane. Jamais sans surveillance. Couvercle ou couverture anti-feu à proximité. Ne jamais arroser sur de l’huile brûlante."
+     },
+     {
+      "t": "Heavy loads",
+      "d": "Soulevez des sacs et des pots lourds avec les genoux pliés ou avec de l'aide."
+     },
+     {
+      "t": "Food hygiene",
+      "d": "Se laver les mains et couvrir les cheveux. Gardez les œufs crus à l'écart du produit fini."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Lavez-vous les mains et couvrez-vous les cheveux avant de manipuler des aliments, et gardez les œufs crus à l’écart du produit fini."
+   ],
+   "panel": {
+    "kicker": "Sécurité",
+    "heading": "Des lots plus gros, des risques plus importants",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Hot oil",
+      "d": "Surface stable et plane. Jamais sans surveillance. Couvercle ou couverture anti-feu à proximité. Ne jamais arroser sur de l’huile brûlante."
+     },
+     {
+      "t": "Heavy loads",
+      "d": "Soulevez des sacs et des pots lourds avec les genoux pliés ou avec de l'aide."
+     },
+     {
+      "t": "Food hygiene",
+      "d": "Se laver les mains et couvrir les cheveux. Gardez les œufs crus à l'écart du produit fini."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Il n’y a pas deux éléments exactement identiques. Cette différence est une variation, et la mise à l’échelle la multiplie. Par exemple, Ruth à Oyo emballe la farine d'igname dans des sacs de 1 kg. Jamais en dessous de 1 000 g, ni au-dessus de 1 030 g."
+   ],
+   "panel": {
+    "kicker": "Variante",
+    "heading": "Sacs de 1 kg de farine d'igname Ruth's",
+    "items": [
+     "Spécification : 1 000 g à 1 030 g",
+     "25 sachets : en moyenne 1 007,08 g",
+     "Écart type : 3,21 g",
+     "Cp 1.56 : la propagation est bonne",
+     "Cpk 0,74 : cible trop proche de 1 000 g"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Elle pèse 25 sacs pour une matinée normale. La moyenne est de 1 007,08 g."
+   ],
+   "panel": {
+    "kicker": "Variante",
+    "heading": "Sacs de 1 kg de farine d'igname Ruth's",
+    "items": [
+     "Spécification : 1 000 g à 1 030 g",
+     "25 sachets : en moyenne 1 007,08 g",
+     "Écart type : 3,21 g",
+     "Cp 1.56 : la propagation est bonne",
+     "Cpk 0,74 : cible trop proche de 1 000 g"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "L'écart type de sa feuille de calcul, la distance typique par rapport à la moyenne, est de 3,21 g."
+   ],
+   "panel": {
+    "kicker": "Variante",
+    "heading": "Sacs de 1 kg de farine d'igname Ruth's",
+    "items": [
+     "Spécification : 1 000 g à 1 030 g",
+     "25 sachets : en moyenne 1 007,08 g",
+     "Écart type : 3,21 g",
+     "Cp 1.56 : la propagation est bonne",
+     "Cpk 0,74 : cible trop proche de 1 000 g"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Cp compare le spread avec la spécification. Le sien est de 1,56, donc l’écart serait ajusté s’il était centré."
+   ],
+   "panel": {
+    "kicker": "Variante",
+    "heading": "Sacs de 1 kg de farine d'igname Ruth's",
+    "items": [
+     "Spécification : 1 000 g à 1 030 g",
+     "25 sachets : en moyenne 1 007,08 g",
+     "Écart type : 3,21 g",
+     "Cp 1.56 : la propagation est bonne",
+     "Cpk 0,74 : cible trop proche de 1 000 g"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Mais Cpk, qui vérifie la limite la plus proche, n'est que de 0,74. Son objectif est trop proche de 1 000 g, donc des sacs de poids insuffisant sont attendus.",
+    "Déplacer la cible à 1 012 g élève Cpk à 1,25. Une cuillère à volume fixe et une fine cuillère d'appoint sont la solution la moins chère à long terme. Et 25 valeurs ne sont qu’un premier aperçu."
+   ],
+   "panel": {
+    "kicker": "Variante",
+    "heading": "Sacs de 1 kg de farine d'igname Ruth's",
+    "items": [
+     "Spécification : 1 000 g à 1 030 g",
+     "25 sachets : en moyenne 1 007,08 g",
+     "Écart type : 3,21 g",
+     "Cp 1.56 : la propagation est bonne",
+     "Cpk 0,74 : cible trop proche de 1 000 g"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Ne corrigez jamais l’insuffisance pondérale en devinant. Élevez d'abord la cible.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Une exécution pilote est un lot grandeur nature dans des conditions réelles, avant de promettre du volume. Écrivez son objectif et répondez aux critères en chiffres, comme un rendement d'au moins 83 %."
+   ],
+   "panel": {
+    "kicker": "Exécution pilote",
+    "heading": "Rédigez le plan avant le jour",
+    "items": [
+     "Objectif",
+     "Réussir les critères en chiffres",
+     "Rôles : une seule personne observe",
+     "Quoi enregistrer",
+     "Règles d'arrêt"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Donnez des rôles. Une seule personne, souvent vous, ne fait que regarder et chronométrer."
+   ],
+   "panel": {
+    "kicker": "Exécution pilote",
+    "heading": "Rédigez le plan avant le jour",
+    "items": [
+     "Objectif",
+     "Réussir les critères en chiffres",
+     "Rôles : une seule personne observe",
+     "Quoi enregistrer",
+     "Règles d'arrêt"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Enregistrez les temps, les températures et les poids, et convenez de règles d'arrêt, comme fumer de l'huile. Effectuez ensuite une vérification du premier article : inspectez les premiers éléments par rapport à chaque point avant de faire le reste."
+   ],
+   "panel": {
+    "kicker": "Exécution pilote",
+    "heading": "Rédigez le plan avant le jour",
+    "items": [
+     "Objectif",
+     "Réussir les critères en chiffres",
+     "Rôles : une seule personne observe",
+     "Quoi enregistrer",
+     "Règles d'arrêt"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Kemi pilote trois charges de 9 kg. Le contrôle du premier article détecte une pâte épaisse sur la charge 1. La charge 2 se déroule comme prévu. Sur la charge 3, Tolu se précipite et double presque la charge de wok. L'huile refroidit et le menton devient pâle et gras."
+   ],
+   "panel": {
+    "kicker": "Le pilote de Kemi",
+    "heading": "Corrigez et répétez, ne partez pas",
+    "mode": "compare",
+    "left_h": "Que s'est-il passé",
+    "left": [
+     "Charge 1 : pâte trop épaisse, 84%",
+     "Charge 2 : tout est conforme au plan, 86 %",
+     "Charge 3 : wok trop rempli, 79 %"
+    ],
+    "right_h": "Ce qui a changé",
+    "right": [
+     "Guide de coupe défini et enregistré",
+     "Un bol marqué pour chaque charge de wok",
+     "Minuterie de cuisine pour chaque charge",
+     "Charges 4 et 5 : 85 % et 86 %"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Lors d'un débriefing le jour même, elle demande ce que nous avions prévu, ce qui s'est passé, pourquoi et ce que nous allons changer. Elle ajoute un bol marqué et une minuterie, changeant une chose à la fois.",
+    "Ce n’est qu’après trois chargements consécutifs qu’elle accepte la commande."
+   ],
+   "panel": {
+    "kicker": "Le pilote de Kemi",
+    "heading": "Corrigez et répétez, ne partez pas",
+    "mode": "compare",
+    "left_h": "Que s'est-il passé",
+    "left": [
+     "Charge 1 : pâte trop épaisse, 84%",
+     "Charge 2 : tout est conforme au plan, 86 %",
+     "Charge 3 : wok trop rempli, 79 %"
+    ],
+    "right_h": "Ce qui a changé",
+    "right": [
+     "Guide de coupe défini et enregistré",
+     "Un bol marqué pour chaque charge de wok",
+     "Minuterie de cuisine pour chaque charge",
+     "Charges 4 et 5 : 85 % et 86 %"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "À retenir. Pesez et utilisez des pourcentages. Mesurez le rendement et les pertes. Travaillez à rebours par rapport à la commande. Vérifiez votre spread et votre centre. Et n'y allez que lorsque plusieurs pilotes s'exécutent d'affilée."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Les pourcentages de formule sont l'identité de votre produit",
+     "Mesurer le rendement et la perte d'emballage",
+     "Travailler à rebours, des paquets à la farine",
+     "Faible Cpk : déplacer la cible ; faible Cp : réduit la propagation",
+     "N'y allez qu'après plusieurs passages"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "À votre tour. Créez une feuille de mise à l'échelle à partir d'un lot pesé, mesurez 25 articles et calculez Cp et Cpk, puis planifiez et exécutez un projet pilote avec un débriefing.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâches d'entraînement",
+    "heading": "Vos tâches pratiques",
+    "items": [
+     "Construisez votre fiche de mise à l'échelle",
+     "Exécutez votre première vérification de capacité",
+     "Planifiez et exécutez votre pilote"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

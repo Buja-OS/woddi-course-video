@@ -1,0 +1,545 @@
+{
+ "course": "cybersecurity-fundamentals",
+ "module": "m2",
+ "title": "Bloqueie contas, faça backup e lide com e-mails hackeados",
+ "course_title": "Fundamentos de segurança cibernética",
+ "shots": [
+  {
+   "demo": "security_lock",
+   "say": [
+    "Bloqueie contas, faça backup e lide com e-mails hackeados.",
+    "Este é o vídeo do módulo 2 dos Fundamentos de Segurança Cibernética."
+   ]
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Três ferramentas baratas fazem a maior parte do trabalho de proteção: um gerenciador de senhas, autenticação multifator, que chamamos de MFA, e dispositivos bem configurados."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Proteja primeiro, depois esteja pronto",
+    "items": [
+     "Gerenciador de senhas, MFA, dispositivos seguros",
+     "Backups que você realmente testou",
+     "Um manual para o dia ruim",
+     "Um log que registra tudo"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Os backups são a sua resposta a ransomware, roubo e erros, mas apenas se você os testar."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Proteja primeiro, depois esteja pronto",
+    "items": [
+     "Gerenciador de senhas, MFA, dispositivos seguros",
+     "Backups que você realmente testou",
+     "Um manual para o dia ruim",
+     "Um log que registra tudo"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_security",
+   "say": [
+    "E como as pessoas estressadas tomam decisões erradas, você escreve as etapas do incidente antes que algo dê errado e registra cada ação em um registro."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Proteja primeiro, depois esteja pronto",
+    "items": [
+     "Gerenciador de senhas, MFA, dispositivos seguros",
+     "Backups que você realmente testou",
+     "Um manual para o dia ruim",
+     "Um log que registra tudo"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Por exemplo, Chiamaka está escolhendo uma senha mestra. Imagine um invasor que pode tentar 10 bilhões de tentativas por segundo. Essa velocidade é ilustrativa.",
+    "8 letras minúsculas aleatórias caem em cerca de 21 segundos."
+   ],
+   "panel": {
+    "kicker": "A aritmética",
+    "heading": "Por que o comprimento supera a inteligência",
+    "items": [
+     "8 letras aleatórias: cerca de 21 segundos",
+     "4 palavras aleatórias: aproximadamente 4 dias",
+     "5 palavras aleatórias: cerca de 90 anos",
+     "Cada palavra extra multiplica o trabalho por 7.776"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "4 palavras aleatórias da lista de palavras da EFF levam cerca de 4 dias."
+   ],
+   "panel": {
+    "kicker": "A aritmética",
+    "heading": "Por que o comprimento supera a inteligência",
+    "items": [
+     "8 letras aleatórias: cerca de 21 segundos",
+     "4 palavras aleatórias: aproximadamente 4 dias",
+     "5 palavras aleatórias: cerca de 90 anos",
+     "Cada palavra extra multiplica o trabalho por 7.776"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "5 palavras aleatórias levam cerca de 90 anos."
+   ],
+   "panel": {
+    "kicker": "A aritmética",
+    "heading": "Por que o comprimento supera a inteligência",
+    "items": [
+     "8 letras aleatórias: cerca de 21 segundos",
+     "4 palavras aleatórias: aproximadamente 4 dias",
+     "5 palavras aleatórias: cerca de 90 anos",
+     "Cada palavra extra multiplica o trabalho por 7.776"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Cada palavra extra multiplica o trabalho do atacante por 7.776, muito mais do que adicionar um símbolo. Chiamaka escolhe seis palavras aleatórias.",
+    "Você memoriza apenas esse. O gerenciador de senhas cria uma senha exclusiva para todas as outras contas, portanto, um vazamento não pode desbloquear o resto. Senhas reutilizadas são a maior causa real de controle de contas."
+   ],
+   "panel": {
+    "kicker": "A aritmética",
+    "heading": "Por que o comprimento supera a inteligência",
+    "items": [
+     "8 letras aleatórias: cerca de 21 segundos",
+     "4 palavras aleatórias: aproximadamente 4 dias",
+     "5 palavras aleatórias: cerca de 90 anos",
+     "Cada palavra extra multiplica o trabalho por 7.776"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Uma senha por si só é a mais fraca. Os códigos SMS são melhores do que nada, mas podem ser roubados por meio de fraude de troca de SIM ou enganados por pessoas ao telefone."
+   ],
+   "panel": {
+    "kicker": "Segundos fatores",
+    "heading": "Nem todos os MFA são iguais",
+    "mode": "compare",
+    "left_h": "Mais fraco",
+    "left": [
+     "Somente senha",
+     "SMS ou códigos de voz"
+    ],
+    "right_h": "Mais forte",
+    "right": [
+     "Códigos do aplicativo autenticador",
+     "Senhas e chaves de segurança"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_security",
+   "say": [
+    "Os aplicativos autenticadores geram um código de seis dígitos no próprio telefone, que muda a cada 30 segundos. As chaves de acesso e de segurança vão além: elas só funcionam no site real, portanto, uma página de login falsa não recebe nada.",
+    "Use o método mais forte que cada serviço oferece, pelo menos para administração de e-mail, serviços bancários e redes sociais. Mantenha os códigos de recuperação em papel, trancados."
+   ],
+   "panel": {
+    "kicker": "Segundos fatores",
+    "heading": "Nem todos os MFA são iguais",
+    "mode": "compare",
+    "left_h": "Mais fraco",
+    "left": [
+     "Somente senha",
+     "SMS ou códigos de voz"
+    ],
+    "right_h": "Mais forte",
+    "right": [
+     "Códigos do aplicativo autenticador",
+     "Senhas e chaves de segurança"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "A regra 3-2-1 diz para manter 3 cópias de dados importantes. Por exemplo, Hauwa administra TI para uma consultoria de seis pessoas em Kano. Ela mantém os arquivos de trabalho, uma cópia na nuvem com histórico de versões e um drive externo."
+   ],
+   "panel": {
+    "kicker": "Cópias de segurança",
+    "heading": "A regra de backup 3-2-1",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "3 copies",
+      "d": "Hauwa mantém arquivos de trabalho, uma cópia na nuvem com histórico de versões e uma unidade externa."
+     },
+     {
+      "t": "2 storage types",
+      "d": "Armazenamento em nuvem mais um disco rígido externo de 1 TB. Ela dimensionou o plano de nuvem para 12 meses de crescimento."
+     },
+     {
+      "t": "1 off-site, offline",
+      "d": "Mensalmente ela copia para o drive, desconecta e mantém fora do local. A cada trimestre ela testa uma restauração."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Em 2 tipos de armazenamento. A pasta tem 40 gigabytes e cresce cerca de 2 por mês, então em 12 meses serão 64. Ela escolhe um plano de nuvem de pelo menos 100."
+   ],
+   "panel": {
+    "kicker": "Cópias de segurança",
+    "heading": "A regra de backup 3-2-1",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "3 copies",
+      "d": "Hauwa mantém arquivos de trabalho, uma cópia na nuvem com histórico de versões e uma unidade externa."
+     },
+     {
+      "t": "2 storage types",
+      "d": "Armazenamento em nuvem mais um disco rígido externo de 1 TB. Ela dimensionou o plano de nuvem para 12 meses de crescimento."
+     },
+     {
+      "t": "1 off-site, offline",
+      "d": "Mensalmente ela copia para o drive, desconecta e mantém fora do local. A cada trimestre ela testa uma restauração."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Com 1 cópia externa. O ransomware pode criptografar qualquer unidade deixada conectada, então, uma vez por mês, ele copia a pasta, desconecta a unidade e a leva embora.",
+    "A cada trimestre ela restaura alguns arquivos e os abre, registrando a data e o resultado. Muitas equipes descobrem tarde demais que seu backup foi interrompido há meses."
+   ],
+   "panel": {
+    "kicker": "Cópias de segurança",
+    "heading": "A regra de backup 3-2-1",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "3 copies",
+      "d": "Hauwa mantém arquivos de trabalho, uma cópia na nuvem com histórico de versões e uma unidade externa."
+     },
+     {
+      "t": "2 storage types",
+      "d": "Armazenamento em nuvem mais um disco rígido externo de 1 TB. Ela dimensionou o plano de nuvem para 12 meses de crescimento."
+     },
+     {
+      "t": "1 off-site, offline",
+      "d": "Mensalmente ela copia para o drive, desconecta e mantém fora do local. A cada trimestre ela testa uma restauração."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "O controle de e-mail é o incidente mais comum, então escreva este manual primeiro. Primeiro passo. Em um dispositivo limpo, altere a senha para uma nova e exclusiva."
+   ],
+   "panel": {
+    "kicker": "Manual",
+    "heading": "Quando uma conta de e-mail é hackeada",
+    "items": [
+     "Em um dispositivo limpo, altere a senha",
+     "Sair de todas as outras sessões",
+     "Remover encaminhamento e filtros desconhecidos",
+     "Corrigir e-mail e telefone de recuperação",
+     "Ative o MFA do aplicativo ou da senha",
+     "Avise os contatos e registre todas as ações"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Etapa dois. Saia de todas as outras sessões."
+   ],
+   "panel": {
+    "kicker": "Manual",
+    "heading": "Quando uma conta de e-mail é hackeada",
+    "items": [
+     "Em um dispositivo limpo, altere a senha",
+     "Sair de todas as outras sessões",
+     "Remover encaminhamento e filtros desconhecidos",
+     "Corrigir e-mail e telefone de recuperação",
+     "Ative o MFA do aplicativo ou da senha",
+     "Avise os contatos e registre todas as ações"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Etapa três. Verifique os endereços de encaminhamento, filtros e respostas automáticas que o invasor adicionou. Faça uma captura de tela deles primeiro, com data e hora, pois bancos, polícia e reguladores podem precisar deles. Em seguida, remova-os."
+   ],
+   "panel": {
+    "kicker": "Manual",
+    "heading": "Quando uma conta de e-mail é hackeada",
+    "items": [
+     "Em um dispositivo limpo, altere a senha",
+     "Sair de todas as outras sessões",
+     "Remover encaminhamento e filtros desconhecidos",
+     "Corrigir e-mail e telefone de recuperação",
+     "Ative o MFA do aplicativo ou da senha",
+     "Avise os contatos e registre todas as ações"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Faça uma captura de tela da evidência antes de excluir qualquer coisa.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Etapa quatro. Verifique o e-mail e o telefone de recuperação e corrija quaisquer alterações."
+   ],
+   "panel": {
+    "kicker": "Manual",
+    "heading": "Quando uma conta de e-mail é hackeada",
+    "items": [
+     "Em um dispositivo limpo, altere a senha",
+     "Sair de todas as outras sessões",
+     "Remover encaminhamento e filtros desconhecidos",
+     "Corrigir e-mail e telefone de recuperação",
+     "Ative o MFA do aplicativo ou da senha",
+     "Avise os contatos e registre todas as ações"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Faça uma captura de tela da evidência antes de excluir qualquer coisa.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Etapa cinco. Ative o MFA, de preferência um aplicativo ou chave de acesso, e remova aplicativos desconhecidos conectados."
+   ],
+   "panel": {
+    "kicker": "Manual",
+    "heading": "Quando uma conta de e-mail é hackeada",
+    "items": [
+     "Em um dispositivo limpo, altere a senha",
+     "Sair de todas as outras sessões",
+     "Remover encaminhamento e filtros desconhecidos",
+     "Corrigir e-mail e telefone de recuperação",
+     "Ative o MFA do aplicativo ou da senha",
+     "Avise os contatos e registre todas as ações"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Faça uma captura de tela da evidência antes de excluir qualquer coisa.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Etapa seis. Verifique a pasta Enviados, avise os contatos que possam ter recebido fraude e registre cada ação com horário e nome."
+   ],
+   "panel": {
+    "kicker": "Manual",
+    "heading": "Quando uma conta de e-mail é hackeada",
+    "items": [
+     "Em um dispositivo limpo, altere a senha",
+     "Sair de todas as outras sessões",
+     "Remover encaminhamento e filtros desconhecidos",
+     "Corrigir e-mail e telefone de recuperação",
+     "Ative o MFA do aplicativo ou da senha",
+     "Avise os contatos e registre todas as ações"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "rule": "Faça uma captura de tela da evidência antes de excluir qualquer coisa.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Por exemplo, Ifeoma é líder voluntário de TI de uma associação de pais em Lagos, com uma planilha de 420 famílias. Às 14h de terça-feira, um membro do comitê disse que se inscreveu em uma página estranha. Ifeoma registra. Esse é o momento da consciência."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Relógio de 72 horas de Ifeoma",
+    "items": [
+     "14:00 Terça-feira: relatório registrado, relógio inicia",
+     "14:20: senha alterada, regra removida",
+     "Planilha familiar foi exposta",
+     "Prazo final: Sexta-feira, 14:00",
+     "NDPC notificado quinta-feira; pais avisaram"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Às 14h20 ela alterou a senha, desconectou todas as sessões e encontrou e removeu uma regra de encaminhamento, após uma captura de tela."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Relógio de 72 horas de Ifeoma",
+    "items": [
+     "14:00 Terça-feira: relatório registrado, relógio inicia",
+     "14:20: senha alterada, regra removida",
+     "Planilha familiar foi exposta",
+     "Prazo final: Sexta-feira, 14:00",
+     "NDPC notificado quinta-feira; pais avisaram"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "O invasor abriu a planilha da família. Números de telefone e detalhes de crianças podem permitir golpes direcionados, portanto, esta é uma violação reportável."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Relógio de 72 horas de Ifeoma",
+    "items": [
+     "14:00 Terça-feira: relatório registrado, relógio inicia",
+     "14:20: senha alterada, regra removida",
+     "Planilha familiar foi exposta",
+     "Prazo final: Sexta-feira, 14:00",
+     "NDPC notificado quinta-feira; pais avisaram"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "72 horas de terça-feira às 14h00 até sexta-feira às 14h00. Ela notifica o NDPC na quinta-feira e alerta os pais para ignorarem ligações pedindo dinheiro ou códigos."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Relógio de 72 horas de Ifeoma",
+    "items": [
+     "14:00 Terça-feira: relatório registrado, relógio inicia",
+     "14:20: senha alterada, regra removida",
+     "Planilha familiar foi exposta",
+     "Prazo final: Sexta-feira, 14:00",
+     "NDPC notificado quinta-feira; pais avisaram"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Para lembrar. Uma senha longa e senhas geradas exclusivas para todo o resto. Códigos e senhas de aplicativos superam o SMS. Mantenha backups 3-2-1 e teste restaurações.",
+    "Em um incidente, faça uma captura de tela da evidência e depois contenha. E o relógio de 72 horas do NDPC começa quando você toma consciência."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Lembre-se",
+    "items": [
+     "Uma senha longa, senhas exclusivas em outros lugares",
+     "Códigos e senhas de aplicativos superam SMS",
+     "Backups 3-2-1, com restaurações testadas",
+     "Evidência de captura de tela e contém",
+     "O relógio de 72 horas começa na consciência"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Suas tarefas: instalar e fortalecer seu próprio kit de ferramentas, executar um ciclo de proteção com uma restauração testada e escrever seu plano de incidente de uma página com uma execução prática.",
+    "Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Tarefa prática",
+    "heading": "Suas tarefas práticas",
+    "items": [
+     "Instale e proteja seu próprio kit de ferramentas",
+     "Execute um ciclo de proteção e teste uma restauração",
+     "Escreva seu plano de incidente de uma página"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

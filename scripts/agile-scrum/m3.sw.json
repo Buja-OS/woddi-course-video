@@ -1,0 +1,474 @@
+{
+ "course": "agile-scrum",
+ "module": "m3",
+ "title": "Tambua timu, bei ya kazi yako, thibitisha ujuzi wako",
+ "course_title": "Agile & Scrum katika Mazoezi",
+ "shots": [
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Tambua timu, bei ya kazi yako, na uthibitishe ujuzi wako.",
+    "Hii ni video ya moduli ya 3 ya Agile na Scrum katika Mazoezi."
+   ]
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Unapojiunga na timu kama Scrum Master au kocha, kazi yako ya kwanza si kufundisha Scrum. Ni kuelewa kile kinachotokea, na kuipima."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Elewa kabla ya kufundisha",
+    "items": [
+     "Tafuta ni nini hasa kinatokea",
+     "Badilisha maoni kuwa nambari",
+     "Bei na ulinde wigo wako",
+     "Onyesha ushahidi wa kweli"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Kisha unaweka wigo na bei ya kazi yako ili ilindwe, na unaunda ushahidi wa kweli ambao waajiri na wateja wanaweza kuamini."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Elewa kabla ya kufundisha",
+    "items": [
+     "Tafuta ni nini hasa kinatokea",
+     "Badilisha maoni kuwa nambari",
+     "Bei na ulinde wigo wako",
+     "Onyesha ushahidi wa kweli"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Uliza juu ya mchakato. Nitembeze kwenye Sprint yako ya mwisho. Lengo la Sprint lilikuwa nini? Je, ilikutana?"
+   ],
+   "panel": {
+    "kicker": "Ugunduzi",
+    "heading": "Maeneo manne ya kuuliza",
+    "items": [
+     "Mchakato: Sprint yako ya mwisho, anza hadi kumaliza",
+     "Watu: Tatizo liliibuliwa mara ya mwisho lini?",
+     "Zana na data: nionyeshe ubao wako",
+     "Uongozi: ni nani anayeweza kuongeza kazi kwenye timu?"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Uliza kuhusu watu. Ni lini mtu aliibua tatizo mara ya mwisho kwenye Retrospective, na nini kilifanyika baadaye? Sikiliza kwa woga, ukimya au lawama."
+   ],
+   "panel": {
+    "kicker": "Ugunduzi",
+    "heading": "Maeneo manne ya kuuliza",
+    "items": [
+     "Mchakato: Sprint yako ya mwisho, anza hadi kumaliza",
+     "Watu: Tatizo liliibuliwa mara ya mwisho lini?",
+     "Zana na data: nionyeshe ubao wako",
+     "Uongozi: ni nani anayeweza kuongeza kazi kwenye timu?"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Uliza kuona ubao. Ilisasishwa mara ya mwisho lini?"
+   ],
+   "panel": {
+    "kicker": "Ugunduzi",
+    "heading": "Maeneo manne ya kuuliza",
+    "items": [
+     "Mchakato: Sprint yako ya mwisho, anza hadi kumaliza",
+     "Watu: Tatizo liliibuliwa mara ya mwisho lini?",
+     "Zana na data: nionyeshe ubao wako",
+     "Uongozi: ni nani anayeweza kuongeza kazi kwenye timu?"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Na uulize ni nani anayeweza kuongeza kazi, na jinsi tarehe za mwisho zimewekwa.",
+    "Uliza watu kadhaa tofauti, kisha utazame Scrum halisi ya Kila Siku bila kuongea. Andika ukweli, sio maamuzi: Scrum ya Kila siku ilidumu kwa dakika 34, sio mkutano ulikuwa mbaya."
+   ],
+   "panel": {
+    "kicker": "Ugunduzi",
+    "heading": "Maeneo manne ya kuuliza",
+    "items": [
+     "Mchakato: Sprint yako ya mwisho, anza hadi kumaliza",
+     "Watu: Tatizo liliibuliwa mara ya mwisho lini?",
+     "Zana na data: nionyeshe ubao wako",
+     "Uongozi: ni nani anayeweza kuongeza kazi kwenye timu?"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Ifuatayo, ukaguzi wa afya uliwekwa alama. Kwa mfano, Kemi ndiye Mwalimu mpya wa Scrum kwa timu ya mafunzo ya NGO ya watu 7 huko Enugu. Kila mtu hupata taarifa nane kutoka 1 hadi 5, bila kujulikana, katika Fomu ya Google. Tunamaliza kile tunachoanza kwa wastani wa 2.14 tu."
+   ],
+   "panel": {
+    "kicker": "Uchunguzi wa afya",
+    "heading": "Kemi anafunga timu yake kutoka 1 hadi 5",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "We finish what we start",
+      "d": "Alama saba zisizojulikana kwa jumla 15. Wastani: 15 ÷ 7 = 2.14."
+     },
+     {
+      "t": "Product Owner available",
+      "d": "Jumla ya alama 13. Wastani: 1.86, kiwango cha chini zaidi kuliko vyote."
+     },
+     {
+      "t": "Two experiments",
+      "d": "Naibu aliyetajwa anajibu maswali ya kila siku; maombi yote mapya yanaingia kwenye kumbukumbu kwanza."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Mmiliki wa Bidhaa zetu anapatikana kwa wastani wa 1.86. Kujisikia salama kuongeza matatizo ni wastani wa 4.3, kwa hivyo usalama sio suala. Mahojiano yanaonyesha mkurugenzi mara nyingi anasafiri, na maombi ya wafadhili huenda moja kwa moja kwa wafanyikazi."
+   ],
+   "panel": {
+    "kicker": "Uchunguzi wa afya",
+    "heading": "Kemi anafunga timu yake kutoka 1 hadi 5",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "We finish what we start",
+      "d": "Alama saba zisizojulikana kwa jumla 15. Wastani: 15 ÷ 7 = 2.14."
+     },
+     {
+      "t": "Product Owner available",
+      "d": "Jumla ya alama 13. Wastani: 1.86, kiwango cha chini zaidi kuliko vyote."
+     },
+     {
+      "t": "Two experiments",
+      "d": "Naibu aliyetajwa anajibu maswali ya kila siku; maombi yote mapya yanaingia kwenye kumbukumbu kwanza."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Akiwa na timu, Kemi anakubali majaribio mawili: naibu aliyetajwa kwa maswali ya kila siku, na maombi yote mapya yanaingia kwenye kumbukumbu kwanza. Mafanikio yanamaanisha kuwa wastani wote hupanda zaidi ya 3 katika wiki nne. Shiriki ruwaza, usiwahi majina."
+   ],
+   "panel": {
+    "kicker": "Uchunguzi wa afya",
+    "heading": "Kemi anafunga timu yake kutoka 1 hadi 5",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "We finish what we start",
+      "d": "Alama saba zisizojulikana kwa jumla 15. Wastani: 15 ÷ 7 = 2.14."
+     },
+     {
+      "t": "Product Owner available",
+      "d": "Jumla ya alama 13. Wastani: 1.86, kiwango cha chini zaidi kuliko vyote."
+     },
+     {
+      "t": "Two experiments",
+      "d": "Naibu aliyetajwa anajibu maswali ya kila siku; maombi yote mapya yanaingia kwenye kumbukumbu kwanza."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Ili kuweka kiwango cha siku, gawanya mapato ya kila mwezi unayohitaji kwa siku ambazo unaweza kulipia. Kwa mfano, naira 1,000,000 kwa takriban siku 12 hutoa sakafu ya takriban naira 83,000 kwa siku.",
+    "Ifeoma hutumia naira 80,000 kwa siku kama kielelezo."
+   ],
+   "card": {
+    "title": "Ifeoma bei chaguzi mbili",
+    "rows": [],
+    "note": "Takwimu za kielelezo, si kiwango cha soko."
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Chaguo A ni kifurushi cha siku 7 cha kuanza: naira 560,000."
+   ],
+   "card": {
+    "title": "Ifeoma bei chaguzi mbili",
+    "rows": [
+     [
+      "Chaguo A: kuanza, siku 7",
+      "560,000"
+     ]
+    ],
+    "note": "Takwimu za kielelezo, si kiwango cha soko."
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Chaguo B ni jukumu la Mwalimu wa Scrum la muda, siku 8 kwa mwezi: naira 640,000. Na punguzo la 10% kwa kulipa kila mwezi mapema, ni 576,000."
+   ],
+   "card": {
+    "title": "Ifeoma bei chaguzi mbili",
+    "rows": [
+     [
+      "Chaguo A: kuanza, siku 7",
+      "560,000"
+     ],
+     [
+      "Chaguo B: kwa mwezi, siku 8",
+      "640,000"
+     ],
+     [
+      "Chaguo B lenye punguzo la 10%.",
+      "576,000"
+     ]
+    ],
+    "note": "Takwimu za kielelezo, si kiwango cha soko."
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Midway, mteja anataka timu ya pili iongezwe. Ujumbe wake wa mabadiliko: Siku 6 za ziada, naira 480,000, zilizotiwa saini kabla ya kazi kuanza. Hiyo ni kazi ya kulipwa, sio wigo wa bure."
+   ],
+   "card": {
+    "title": "Ifeoma bei chaguzi mbili",
+    "rows": [
+     [
+      "Chaguo A: kuanza, siku 7",
+      "560,000"
+     ],
+     [
+      "Chaguo B: kwa mwezi, siku 8",
+      "640,000"
+     ],
+     [
+      "Chaguo B lenye punguzo la 10%.",
+      "576,000"
+     ],
+     [
+      "Badilisha kumbuka: timu ya pili",
+      "480,000"
+     ]
+    ],
+    "note": "Takwimu za kielelezo, si kiwango cha soko."
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Pendekezo lako linasema hali, matokeo yanayoweza kupimika, ni nini hasa utafanya, na kile ambacho hakijumuishwi, kama vile kufundisha timu ya pili.",
+    "Inatoa tarehe zilizo na ukaguzi wa katikati, na ada, masharti ya malipo na jinsi mabadiliko yanavyoshughulikiwa. Kuandika vizuizi ndiko kunakofanya dokezo la mabadiliko liwezekane baadaye."
+   ],
+   "panel": {
+    "kicker": "Pendekezo lako",
+    "heading": "Pendekezo fupi lina nini",
+    "items": [
+     "Hali, kwa maneno ya mteja",
+     "Matokeo na hatua",
+     "Shughuli: nini, mara ngapi, na nani",
+     "Vighairi",
+     "Muda na mapitio ya katikati",
+     "Ada, masharti ya malipo, mabadiliko ya kushughulikia"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Tumia makubaliano yaliyoandikwa na ankara kwa kila kazi, chukua amana kutoka kwa wateja wapya, na upokee malipo kupitia akaunti yako ya biashara au kichakataji kama Paystack. Lipia vyeti kwenye tovuti rasmi pekee."
+   ],
+   "panel": {
+    "kicker": "Linda pesa zako",
+    "heading": "Malipo salama, ulaghai unaojulikana",
+    "mode": "compare",
+    "left_h": "Fanya",
+    "left": [
+     "Makubaliano yaliyoandikwa na ankara",
+     "Amana kutoka kwa wateja wapya",
+     "Akaunti ya biashara au Paystack",
+     "Lipa kwenye tovuti rasmi pekee"
+    ],
+    "right_h": "Jihadhari",
+    "right": [
+     "Lipa zaidi, kisha uombe kurejeshewa pesa",
+     "Lipia mafunzo kabla ya kuajiri",
+     "Kazi iliyohakikishwa baada ya cheti",
+     "Utupaji wa mitihani, akaunti za kibinafsi"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Kuwa mwangalifu na wateja wanaolipa zaidi na kuomba kurejeshewa tofauti hiyo, au wanaokuuliza ulipie programu au mafunzo kabla ya kukuajiri. Epuka mtu yeyote anayekuhakikishia kazi, anauza sehemu za mitihani, au anataka malipo kwa akaunti ya kibinafsi."
+   ],
+   "panel": {
+    "kicker": "Linda pesa zako",
+    "heading": "Malipo salama, ulaghai unaojulikana",
+    "mode": "compare",
+    "left_h": "Fanya",
+    "left": [
+     "Makubaliano yaliyoandikwa na ankara",
+     "Amana kutoka kwa wateja wapya",
+     "Akaunti ya biashara au Paystack",
+     "Lipa kwenye tovuti rasmi pekee"
+    ],
+    "right_h": "Jihadhari",
+    "right": [
+     "Lipa zaidi, kisha uombe kurejeshewa pesa",
+     "Lipia mafunzo kabla ya kuajiri",
+     "Kazi iliyohakikishwa baada ya cheti",
+     "Utupaji wa mitihani, akaunti za kibinafsi"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "PSM Nahitaji tu tathmini ya mtandaoni. CSM inahitaji kozi na Mkufunzi wa Scrum Aliyeidhinishwa. Daima angalia ada za sasa kwenye tovuti rasmi. Ili kutayarisha, soma Mwongozo wa Scrum polepole, mara mbili."
+   ],
+   "panel": {
+    "kicker": "Uthibitisho",
+    "heading": "Jitayarishe kwa tathmini ya Scrum",
+    "items": [
+     "Soma Mwongozo wa Scrum polepole, mara mbili",
+     "Fupisha kila sehemu kwa mstari mmoja",
+     "Rudia majaribio ya mazoezi bila malipo",
+     "Tazama kwa lazima, daima na pekee",
+     "Jadiliana katika kikundi cha somo"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Andika mstari mmoja kwa kila sehemu, kisha fanya majaribio ya bila malipo ya mazoezi hadi upate alama nzuri kila wakati, ukisoma kila maelezo."
+   ],
+   "panel": {
+    "kicker": "Uthibitisho",
+    "heading": "Jitayarishe kwa tathmini ya Scrum",
+    "items": [
+     "Soma Mwongozo wa Scrum polepole, mara mbili",
+     "Fupisha kila sehemu kwa mstari mmoja",
+     "Rudia majaribio ya mazoezi bila malipo",
+     "Tazama kwa lazima, daima na pekee",
+     "Jadiliana katika kikundi cha somo"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Tazama maneno ya hila kama lazima, daima na pekee. Na ulizana maswali katika kikundi kidogo cha masomo cha WhatsApp."
+   ],
+   "panel": {
+    "kicker": "Uthibitisho",
+    "heading": "Jitayarishe kwa tathmini ya Scrum",
+    "items": [
+     "Soma Mwongozo wa Scrum polepole, mara mbili",
+     "Fupisha kila sehemu kwa mstari mmoja",
+     "Rudia majaribio ya mazoezi bila malipo",
+     "Tazama kwa lazima, daima na pekee",
+     "Jadiliana katika kikundi cha somo"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Ikiwa Mwongozo wa Scrum hausemi, Scrum hauitaji.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Kukumbuka. Mahojiano, tazama, kisha pima. Fanya kazi kwenye maeneo mawili ya chini kabisa na majaribio yaliyopimwa. Bei kila chaguo kutoka kwa kiwango cha siku moja, na udhibiti wigo kwa madokezo ya mabadiliko yaliyotiwa saini.",
+    "Na onyesha nambari za uaminifu. Kwa mfano, kitengo cha vijana wa kanisa la Zainab kilipandisha kazi kwa wakati kutoka 57% hadi 83%. Hiyo inashinda neno lolote kwenye CV."
+   ],
+   "panel": {
+    "kicker": "Pointi muhimu",
+    "heading": "Kumbuka",
+    "items": [
+     "Mahojiano, tazama, kisha pima",
+     "Rekebisha maeneo mawili ya chini kabisa kwa majaribio",
+     "Bei kila chaguo kutoka kwa bei ya siku moja",
+     "Upeo wa udhibiti wa madokezo yaliyotiwa saini",
+     "Nambari za uaminifu hushinda maneno mengi"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Majukumu yako: fanya ukaguzi mdogo wa afya na timu unayojua, andika pendekezo la ukurasa mmoja na chaguo mbili za bei, na uandike uchunguzi wako wa kifani na mpango wa siku 90.",
+    "Endelea na masomo hapa chini."
+   ],
+   "panel": {
+    "kicker": "Kazi ya mazoezi",
+    "heading": "Kazi zako za mazoezi",
+    "items": [
+     "Fanya ukaguzi mdogo wa afya",
+     "Andika pendekezo la ukurasa mmoja",
+     "Andika kesi yako na mpango wa siku 90"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

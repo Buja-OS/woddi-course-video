@@ -1,0 +1,530 @@
+{
+ "course": "remote-work-team-collaboration",
+ "module": "m1",
+ "title": "Comment fonctionnent réellement les équipes distribuées : écrivez d'abord, acceptez, instaurez la confiance",
+ "course_title": "Travail à distance et collaboration d'équipe : diriger des équipes distribuées",
+ "shots": [
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Comment fonctionnent réellement les équipes distribuées.",
+    "Ceci est la vidéo du premier module du travail à distance et de la collaboration en équipe."
+   ]
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Une équipe distribuée est toute équipe dont les membres ne partagent pas un lieu de travail chaque jour."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Ce que perd une équipe distribuée",
+    "items": [
+     "Pas de question rapide à travers le bureau",
+     "Aucune mise à jour entendue",
+     "Personne ne peut voir qui est occupé",
+     "Nous construisons donc des habitudes délibérées"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Ils perdent le bureau : la question rapide, la mise à jour entendue, le manager qui peut voir qui est occupé."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Ce que perd une équipe distribuée",
+    "items": [
+     "Pas de question rapide à travers le bureau",
+     "Aucune mise à jour entendue",
+     "Personne ne peut voir qui est occupé",
+     "Nous construisons donc des habitudes délibérées"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Nous construisons donc plutôt des habitudes délibérées. Écrire d’abord, convenir de la manière dont nous communiquons et instaurer la confiance grâce à un travail visible."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Ce que perd une équipe distribuée",
+    "items": [
+     "Pas de question rapide à travers le bureau",
+     "Aucune mise à jour entendue",
+     "Personne ne peut voir qui est occupé",
+     "Nous construisons donc des habitudes délibérées"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Synchronique, ou synchronisation, signifie temps réel, comme un appel téléphonique ou vidéo. C'est rapide pour les sentiments, les conflits, les brainstormings et les urgences, car le ton est facilement mal interprété dans le texte."
+   ],
+   "panel": {
+    "kicker": "Deux modes",
+    "heading": "Synchronisé ou asynchrone ?",
+    "mode": "compare",
+    "left_h": "Synchronisation : en temps réel",
+    "left": [
+     "Sentiments et conflits",
+     "Réfléchir à de nouvelles idées",
+     "Urgences, comme un site en panne"
+    ],
+    "right_h": "Async : répondez plus tard",
+    "right": [
+     "Mises à jour hebdomadaires des progrès",
+     "Des décisions qui méritent réflexion",
+     "Tout ce qui concerne les fuseaux horaires"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Asynchrone, ou asynchrone, signifie que le lecteur peut répondre plus tard, dans les heures convenues. C'est mieux pour les mises à jour, les décisions qui nécessitent une réflexion et les autres fuseaux horaires.",
+    "Async-first ne signifie pas pas de réunions. Cela signifie qu’une réunion est un choix délibéré et que la valeur par défaut est d’écrire les choses."
+   ],
+   "panel": {
+    "kicker": "Deux modes",
+    "heading": "Synchronisé ou asynchrone ?",
+    "mode": "compare",
+    "left_h": "Synchronisation : en temps réel",
+    "left": [
+     "Sentiments et conflits",
+     "Réfléchir à de nouvelles idées",
+     "Urgences, comme un site en panne"
+    ],
+    "right_h": "Async : répondez plus tard",
+    "right": [
+     "Mises à jour hebdomadaires des progrès",
+     "Des décisions qui méritent réflexion",
+     "Tout ce qui concerne les fuseaux horaires"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Commencez par le canal le moins perturbateur qui fonctionnera encore à temps. La base est un document partagé ou un commentaire de tâche."
+   ],
+   "panel": {
+    "kicker": "Reste calme",
+    "heading": "L'échelle d'escalade",
+    "items": [
+     "Document partagé ou commentaire de tâche",
+     "Canal d'équipe : nécessaire cette semaine",
+     "Message direct : nécessaire aujourd'hui",
+     "Appel vidéo : conflit, discussions complexes",
+     "Appel téléphonique : urgences uniquement"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Ensuite, le canal de l'équipe pour cette semaine et un message direct pour aujourd'hui."
+   ],
+   "panel": {
+    "kicker": "Reste calme",
+    "heading": "L'échelle d'escalade",
+    "items": [
+     "Document partagé ou commentaire de tâche",
+     "Canal d'équipe : nécessaire cette semaine",
+     "Message direct : nécessaire aujourd'hui",
+     "Appel vidéo : conflit, discussions complexes",
+     "Appel téléphonique : urgences uniquement"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Les appels vidéo sont destinés aux conflits et aux discussions complexes. Les appels téléphoniques sont réservés aux urgences.",
+    "Chaque montée en puissance interrompt davantage de personnes, alors ne montez que ce qui est nécessaire."
+   ],
+   "panel": {
+    "kicker": "Reste calme",
+    "heading": "L'échelle d'escalade",
+    "items": [
+     "Document partagé ou commentaire de tâche",
+     "Canal d'équipe : nécessaire cette semaine",
+     "Message direct : nécessaire aujourd'hui",
+     "Appel vidéo : conflit, discussions complexes",
+     "Appel téléphonique : urgences uniquement"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "La compétence principale du travail asynchrone est un message si complet que le lecteur peut agir sans rien vous demander.",
+    "Utilisez les cinq parties. Demandez exactement ce dont vous avez besoin et la date limite avec le fuseau horaire."
+   ],
+   "panel": {
+    "kicker": "Compétence de base",
+    "heading": "Un message qui n'a pas besoin de rendez-vous",
+    "items": [
+     "La question : exactement ce dont vous avez besoin",
+     "Date limite, avec le fuseau horaire",
+     "Contexte : de quoi s'agit-il",
+     "Options ou votre recommandation",
+     "Où vit le matériau"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Ensuite le contexte, et les options ou votre recommandation."
+   ],
+   "panel": {
+    "kicker": "Compétence de base",
+    "heading": "Un message qui n'a pas besoin de rendez-vous",
+    "items": [
+     "La question : exactement ce dont vous avez besoin",
+     "Date limite, avec le fuseau horaire",
+     "Contexte : de quoi s'agit-il",
+     "Options ou votre recommandation",
+     "Où vit le matériau"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Enfin, indiquez où se trouve le matériel justificatif et collez le lien."
+   ],
+   "panel": {
+    "kicker": "Compétence de base",
+    "heading": "Un message qui n'a pas besoin de rendez-vous",
+    "items": [
+     "La question : exactement ce dont vous avez besoin",
+     "Date limite, avec le fuseau horaire",
+     "Contexte : de quoi s'agit-il",
+     "Options ou votre recommandation",
+     "Où vit le matériau"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Mettez la demande sur la première ligne, car de nombreuses personnes ne lisent que l'aperçu sur leur téléphone."
+   ],
+   "panel": {
+    "kicker": "Compétence de base",
+    "heading": "Un message qui n'a pas besoin de rendez-vous",
+    "items": [
+     "La question : exactement ce dont vous avez besoin",
+     "Date limite, avec le fuseau horaire",
+     "Contexte : de quoi s'agit-il",
+     "Options ou votre recommandation",
+     "Où vit le matériau"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Mettez la demande sur la première ligne. Beaucoup ne lisent que l’aperçu.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "La première ébauche d'Amaka disait : Salut, es-tu libre ? Il faut parler du lieu. Il n’y a aucune demande ni aucune date limite."
+   ],
+   "card": {
+    "title": "La décision du lieu d'Amaka",
+    "rows": [],
+    "note": "Les prix en naira sont des prix approximatifs."
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Sa réécriture commence : décision requise d'ici jeudi 17 heures, heure de Lagos, approuver le lieu B.",
+    "Le lieu A coûte environ 450 000 nairas pour deux jours. Le lieu B coûte environ 380 000 nairas. Ces citations sont approximatives."
+   ],
+   "card": {
+    "title": "La décision du lieu d'Amaka",
+    "rows": [
+     [
+      "Lieu A, deux jours",
+      "450,000"
+     ],
+     [
+      "Lieu B, deux jours",
+      "380,000"
+     ]
+    ],
+    "note": "Les prix en naira sont des prix approximatifs."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Elle recommande le lieu B, car il dispose d'un générateur de secours et se trouve à 10 minutes du parking des bus.",
+    "Elle relie les citations et ajoute une solution de secours : si je n'entends rien avant la date limite, je réserverai la salle B. Aucune réunion n'était nécessaire."
+   ],
+   "card": {
+    "title": "La décision du lieu d'Amaka",
+    "rows": [
+     [
+      "Lieu A, deux jours",
+      "450,000"
+     ],
+     [
+      "Lieu B, deux jours",
+      "380,000"
+     ]
+    ],
+    "note": "Les prix en naira sont des prix approximatifs."
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Un accord de travail en équipe indique les canaux, les délais de réponse, les heures de travail et l'emplacement des fichiers. Un élément clé est le chevauchement des heures, lorsque tout le monde est dans sa journée de travail."
+   ],
+   "panel": {
+    "kicker": "Accord de travail",
+    "heading": "Trouvez les heures de chevauchement de votre équipe",
+    "items": [
+     "Collectez les heures de travail de chacun",
+     "Convertissez chacun en UTC",
+     "Trouvez où les gammes se rencontrent",
+     "Revérifiez quand les horloges changent"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Convertissez les heures de chaque personne en UTC, ce qui signifie temps universel coordonné. Par exemple, de 9h à 17h à Lagos, c'est de 08h00 à 16h00 UTC."
+   ],
+   "panel": {
+    "kicker": "Accord de travail",
+    "heading": "Trouvez les heures de chevauchement de votre équipe",
+    "items": [
+     "Collectez les heures de travail de chacun",
+     "Convertissez chacun en UTC",
+     "Trouvez où les gammes se rencontrent",
+     "Revérifiez quand les horloges changent"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Lorsque Ifeoma a fait cela pour Lagos, Nairobi, Londres et Toronto en janvier, il n’y avait aucune heure partagée. Elle a donc organisé des appels plus petits et la mise à jour hebdomadaire écrite est devenue le lieu où tous les quatre se rencontrent."
+   ],
+   "panel": {
+    "kicker": "Accord de travail",
+    "heading": "Trouvez les heures de chevauchement de votre équipe",
+    "items": [
+     "Collectez les heures de travail de chacun",
+     "Convertissez chacun en UTC",
+     "Trouvez où les gammes se rencontrent",
+     "Revérifiez quand les horloges changent"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Certains pays changent d'horloge, alors vérifiez les chevauchements en mars et en octobre ou novembre. Le Nigeria reste à l’UTC plus 1 toute l’année."
+   ],
+   "panel": {
+    "kicker": "Accord de travail",
+    "heading": "Trouvez les heures de chevauchement de votre équipe",
+    "items": [
+     "Collectez les heures de travail de chacun",
+     "Convertissez chacun en UTC",
+     "Trouvez où les gammes se rencontrent",
+     "Revérifiez quand les horloges changent"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Le Nigéria est UTC+1 toute l’année, sans heure d’été.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "La confiance à distance repose sur trois éléments visibles. Premièrement, les gens font ce qu’ils disent. Répondez à une tâche avec ce que vous allez livrer."
+   ],
+   "panel": {
+    "kicker": "Faire confiance à distance",
+    "heading": "La confiance repose sur trois choses visibles",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Do what you said",
+      "d": "Lorsque vous acceptez une tâche, répondez avec ce que vous allez livrer. Puis livrez-le."
+     },
+     {
+      "t": "By when you said",
+      "d": "Convenez du résultat, du délai et du propriétaire. Gérez les résultats, pas les heures en ligne."
+     },
+     {
+      "t": "Say early if you cannot",
+      "d": "Lorsque quelque chose glisse, publiez une mise à jour avant la date limite, pas après."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Deuxièmement, à quel moment ils l'ont dit. Convenez du résultat, du délai et du propriétaire, puis laissez les gens organiser leur propre temps."
+   ],
+   "panel": {
+    "kicker": "Faire confiance à distance",
+    "heading": "La confiance repose sur trois choses visibles",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Do what you said",
+      "d": "Lorsque vous acceptez une tâche, répondez avec ce que vous allez livrer. Puis livrez-le."
+     },
+     {
+      "t": "By when you said",
+      "d": "Convenez du résultat, du délai et du propriétaire. Gérez les résultats, pas les heures en ligne."
+     },
+     {
+      "t": "Say early if you cannot",
+      "d": "Lorsque quelque chose glisse, publiez une mise à jour avant la date limite, pas après."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Troisièmement, dites-le tôt lorsque vous ne pouvez pas, avant la date limite, pas après.",
+    "L’erreur courante est la surveillance, comme exiger des caméras allumées toute la journée. Cela nuit généralement à la confiance et empire le travail."
+   ],
+   "panel": {
+    "kicker": "Faire confiance à distance",
+    "heading": "La confiance repose sur trois choses visibles",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Do what you said",
+      "d": "Lorsque vous acceptez une tâche, répondez avec ce que vous allez livrer. Puis livrez-le."
+     },
+     {
+      "t": "By when you said",
+      "d": "Convenez du résultat, du délai et du propriétaire. Gérez les résultats, pas les heures en ligne."
+     },
+     {
+      "t": "Say early if you cannot",
+      "d": "Lorsque quelque chose glisse, publiez une mise à jour avant la date limite, pas après."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "À retenir. Synchronisez pour les émotions et les urgences, asynchrone pour les mises à jour et les décisions réfléchies.",
+    "Montez l’échelle aussi loin que nécessaire. Mettez la demande en premier et le fuseau horaire dans la date limite.",
+    "Utilisez UTC pour trouver le chevauchement. Et renforcez la confiance en tenant ou en renégociant honnêtement chaque promesse."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Synchronisation pour l'émotion et les urgences ; asynchrone pour le reste",
+     "Montez l’échelle d’escalade seulement aussi loin que nécessaire",
+     "Demander, date limite avec fuseau horaire, contexte, lien",
+     "Convertissez les heures en UTC pour trouver le chevauchement",
+     "Confiance : engagez-vous, livrez ou signalez tôt, restez visible"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Maintenant, entraînez-vous. Réécrivez trois messages vagues en utilisant les cinq parties, rédigez un accord de travail d'une page avec vos heures de chevauchement et établissez un document individuel partagé.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâches d'entraînement",
+    "heading": "Vos tâches pratiques",
+    "items": [
+     "Réécrivez trois messages vagues",
+     "Rédiger un accord de travail d'une page",
+     "Configurer un document individuel"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

@@ -1,0 +1,539 @@
+{
+ "course": "advanced-knitting-crochet",
+ "module": "m1",
+ "title": "Leia qualquer padrão, verifique seu medidor e redimensione com confiança",
+ "course_title": "Tricô e Crochê Avançado",
+ "shots": [
+  {
+   "demo": "yarn_crochet",
+   "say": [
+    "Leia qualquer padrão, verifique seu medidor e redimensione com confiança.",
+    "Este é o vídeo do módulo um de Tricô e Crochê Avançado."
+   ]
+  },
+  {
+   "demo": "thread_spools",
+   "say": [
+    "Leia o padrão uma vez, do início ao fim, antes de montar ou encadear.",
+    "Verifique os materiais: você consegue esse fio e tem a agulha ou a agulha? Depois o medidor. Em que ponto é medido?"
+   ],
+   "panel": {
+    "kicker": "Anatomia padrão",
+    "heading": "Digitalize seis seções, nesta ordem",
+    "items": [
+     "Materiais: fio, agulha ou agulha, noções",
+     "Medida: pontos e carreiras em 10 cm",
+     "Tamanhos e medidas acabadas",
+     "Abreviações e pontos especiais",
+     "Instruções, com contagem de pontos",
+     "Acabamento: bloqueios, costuras, orlas"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "thread_spools",
+   "say": [
+    "Escolha o seu tamanho pela medida final, não pela letra. Em seguida, circule cada número do seu tamanho em todo o padrão, para nunca ler o número errado no meio da linha."
+   ],
+   "panel": {
+    "kicker": "Anatomia padrão",
+    "heading": "Digitalize seis seções, nesta ordem",
+    "items": [
+     "Materiais: fio, agulha ou agulha, noções",
+     "Medida: pontos e carreiras em 10 cm",
+     "Tamanhos e medidas acabadas",
+     "Abreviações e pontos especiais",
+     "Instruções, com contagem de pontos",
+     "Acabamento: bloqueios, costuras, orlas"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Verifique as abreviaturas e depois as instruções. Uma contagem de pontos no final de uma carreira, como 48 pontos, é o seu ponto de verificação. Conte após cada linha de modelagem. Por fim, leia as notas finais."
+   ],
+   "panel": {
+    "kicker": "Anatomia padrão",
+    "heading": "Digitalize seis seções, nesta ordem",
+    "items": [
+     "Materiais: fio, agulha ou agulha, noções",
+     "Medida: pontos e carreiras em 10 cm",
+     "Tamanhos e medidas acabadas",
+     "Abreviações e pontos especiais",
+     "Instruções, com contagem de pontos",
+     "Acabamento: bloqueios, costuras, orlas"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "yarn_crochet",
+   "say": [
+    "Aqui está o erro a evitar. O mesmo nome significa pontos diferentes. Um crochê simples dos EUA é um crochê duplo do Reino Unido.",
+    "Se você seguir um padrão dos EUA com pontos do Reino Unido, cada ponto será um passo mais alto e a peça ficará mais longa e larga do que o planejado."
+   ],
+   "panel": {
+    "kicker": "Erro comum",
+    "heading": "Os termos de crochê dos EUA e do Reino Unido diferem",
+    "mode": "compare",
+    "left_h": "O padrão dos EUA diz",
+    "left": [
+     "crochê simples (sc)",
+     "meio ponto alto duplo (hdc)",
+     "ponto alto duplo (dc)",
+     "pular"
+    ],
+    "right_h": "O padrão do Reino Unido diz",
+    "right": [
+     "ponto alto duplo (dc)",
+     "meio agudo (htr)",
+     "agudos (tr)",
+     "senhorita"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "pattern_paper",
+   "say": [
+    "Procure pistas. Os padrões dos EUA usam sc e hdc. Os padrões do Reino Unido usam htr e dizem tensão e erro em vez de medir e pular."
+   ],
+   "panel": {
+    "kicker": "Erro comum",
+    "heading": "Os termos de crochê dos EUA e do Reino Unido diferem",
+    "mode": "compare",
+    "left_h": "O padrão dos EUA diz",
+    "left": [
+     "crochê simples (sc)",
+     "meio ponto alto duplo (hdc)",
+     "ponto alto duplo (dc)",
+     "pular"
+    ],
+    "right_h": "O padrão do Reino Unido diz",
+    "right": [
+     "ponto alto duplo (dc)",
+     "meio agudo (htr)",
+     "agudos (tr)",
+     "senhorita"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "market_stall",
+   "say": [
+    "Em um gráfico, cada quadrado representa um ponto e a chave explica cada símbolo. Encontre a linha 1. Está na parte inferior, porque o tecido cresce para cima."
+   ],
+   "panel": {
+    "kicker": "Lendo um gráfico",
+    "heading": "Um quadrado é um ponto",
+    "items": [
+     "Encontre a linha 1 na parte inferior",
+     "Plano: linhas do lado direito da direita para a esquerda",
+     "Plano: linhas do lado avesso da esquerda para a direita",
+     "Em redondo: todas as carreiras da direita para a esquerda",
+     "Mantenha uma régua acima da sua linha de trabalho"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false,
+    "rule": "A linha 1 fica na parte inferior, porque o tecido cresce para cima.",
+    "showRule": true
+   }
+  },
+  {
+   "demo": "market_stall",
+   "say": [
+    "Para tricô plano, leia as carreiras do direito da direita para a esquerda e as carreiras do avesso da esquerda para a direita."
+   ],
+   "panel": {
+    "kicker": "Lendo um gráfico",
+    "heading": "Um quadrado é um ponto",
+    "items": [
+     "Encontre a linha 1 na parte inferior",
+     "Plano: linhas do lado direito da direita para a esquerda",
+     "Plano: linhas do lado avesso da esquerda para a direita",
+     "Em redondo: todas as carreiras da direita para a esquerda",
+     "Mantenha uma régua acima da sua linha de trabalho"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "A linha 1 fica na parte inferior, porque o tecido cresce para cima.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "handbag",
+   "say": [
+    "Em redondo, leia todas as linhas da direita para a esquerda, pois você sempre fica de frente para o lado direito. Mantenha uma régua acima da linha em que você está trabalhando."
+   ],
+   "panel": {
+    "kicker": "Lendo um gráfico",
+    "heading": "Um quadrado é um ponto",
+    "items": [
+     "Encontre a linha 1 na parte inferior",
+     "Plano: linhas do lado direito da direita para a esquerda",
+     "Plano: linhas do lado avesso da esquerda para a direita",
+     "Em redondo: todas as carreiras da direita para a esquerda",
+     "Mantenha uma régua acima da sua linha de trabalho"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "A linha 1 fica na parte inferior, porque o tecido cresce para cima.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "yarn_crochet",
+   "say": [
+    "O medidor, chamado de tensão nos padrões do Reino Unido, é quantos pontos e linhas cabem em 10 cm. Duas mulheres com o mesmo fio e agulhas podem obter medidas diferentes.",
+    "Use o fio do projeto e faça a amostra com cerca de 15 cm de quadrado, pois as bordas são sempre irregulares."
+   ],
+   "panel": {
+    "kicker": "Amostra de medidor",
+    "heading": "Faça uma amostra em que você possa confiar",
+    "items": [
+     "Mesmo fio, agulha ou gancho sugerido",
+     "Cerca de 15 cm quadrados",
+     "Trabalhe o ponto com os nomes dos medidores",
+     "Lave e seque na horizontal",
+     "Conte 15 cm e divida"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "yarn_crochet",
+   "say": [
+    "Trabalhe o ponto nos nomes das linhas de medição. Em seguida, bloqueie a maneira como você lavará a peça acabada: molhe, esprema a água em uma toalha e seque bem."
+   ],
+   "panel": {
+    "kicker": "Amostra de medidor",
+    "heading": "Faça uma amostra em que você possa confiar",
+    "items": [
+     "Mesmo fio, agulha ou gancho sugerido",
+     "Cerca de 15 cm quadrados",
+     "Trabalhe o ponto com os nomes dos medidores",
+     "Lave e seque na horizontal",
+     "Conte 15 cm e divida"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Coloque no ponto os nomes das linhas do medidor e depois lave-o.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "thread_spools",
+   "say": [
+    "Meça 15 cm e divida. Meio ponto por centímetro muda muito o tamanho."
+   ],
+   "panel": {
+    "kicker": "Amostra de medidor",
+    "heading": "Faça uma amostra em que você possa confiar",
+    "items": [
+     "Mesmo fio, agulha ou gancho sugerido",
+     "Cerca de 15 cm quadrados",
+     "Trabalhe o ponto com os nomes dos medidores",
+     "Lave e seque na horizontal",
+     "Conte 15 cm e divida"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Coloque no ponto os nomes das linhas do medidor e depois lave-o.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Por exemplo, a Funke em Ibadan está fazendo um suéter de algodão. A medida do padrão é de 22 pontos a 10 cm nas agulhas de 4 mm, e a frente tem 110 pontos."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Suéter de Funke: por que 2 pontos são importantes",
+    "items": [
+     "Padrão: 22 pontos por 10 cm, frente 110",
+     "A amostra dela: 30 pontos em 15 cm = 20",
+     "Largura do padrão: 110 / 2,2 = 50 cm",
+     "Largura dela: 110 / 2,0 = 55 cm",
+     "Correção: agulhas de 3,5 mm, 33 em 15 cm = 22"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Sua amostra lavada tem 30 pontos em 15 cm. São 2,0 pontos por cm ou 20 por 10 cm."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Suéter de Funke: por que 2 pontos são importantes",
+    "items": [
+     "Padrão: 22 pontos por 10 cm, frente 110",
+     "A amostra dela: 30 pontos em 15 cm = 20",
+     "Largura do padrão: 110 / 2,2 = 50 cm",
+     "Largura dela: 110 / 2,0 = 55 cm",
+     "Correção: agulhas de 3,5 mm, 33 em 15 cm = 22"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pattern_paper",
+   "say": [
+    "O padrão frontal seria 110 dividido por 2,2, que dá 50 cm. O dela seria 55 cm. Juntos na frente e atrás, o suéter ficaria 10 cm maior que o diâmetro."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Suéter de Funke: por que 2 pontos são importantes",
+    "items": [
+     "Padrão: 22 pontos por 10 cm, frente 110",
+     "A amostra dela: 30 pontos em 15 cm = 20",
+     "Largura do padrão: 110 / 2,2 = 50 cm",
+     "Largura dela: 110 / 2,0 = 55 cm",
+     "Correção: agulhas de 3,5 mm, 33 em 15 cm = 22"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pattern_paper",
+   "say": [
+    "O tecido dela é mais solto, então ela desce para agulhas de 3,5 mm. A nova amostra conta 33 pontos em 15 cm, exatamente 22 por 10 cm. Uma noite de amostragem salvou todo o saltador."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Suéter de Funke: por que 2 pontos são importantes",
+    "items": [
+     "Padrão: 22 pontos por 10 cm, frente 110",
+     "A amostra dela: 30 pontos em 15 cm = 20",
+     "Largura do padrão: 110 / 2,2 = 50 cm",
+     "Largura dela: 110 / 2,0 = 55 cm",
+     "Correção: agulhas de 3,5 mm, 33 em 15 cm = 22"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "market_stall",
+   "say": [
+    "Quando os tamanhos não cabem no corpo, você pode redimensionar. Comece pela medida final desejada, incluindo facilidade, não pela medida do corpo.",
+    "Os pontos têm a mesma largura alvo em centímetros vezes os pontos por centímetro."
+   ],
+   "panel": {
+    "kicker": "Redimensionar",
+    "heading": "Três fórmulas para qualquer tamanho",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Pontos",
+      "d": "Largura alvo em cm x pontos por cm. Pontos por cm é a sua medida dividida por 10."
+     },
+     {
+      "t": "Rows",
+      "d": "Comprimento alvo em cm x linhas por cm. Adicione comprimento em seções simples, não na modelagem."
+     },
+     {
+      "t": "Yarn",
+      "d": "O fio sobe com os pontos: 20% mais largo precisa de cerca de 20% mais fio. Compre um lote de tintura."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "market_stall",
+   "say": [
+    "As linhas são iguais ao comprimento alvo vezes as linhas por centímetro. Adicione comprimento na seção lisa abaixo da cava."
+   ],
+   "panel": {
+    "kicker": "Redimensionar",
+    "heading": "Três fórmulas para qualquer tamanho",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Pontos",
+      "d": "Largura alvo em cm x pontos por cm. Pontos por cm é a sua medida dividida por 10."
+     },
+     {
+      "t": "Rows",
+      "d": "Comprimento alvo em cm x linhas por cm. Adicione comprimento em seções simples, não na modelagem."
+     },
+     {
+      "t": "Yarn",
+      "d": "O fio sobe com os pontos: 20% mais largo precisa de cerca de 20% mais fio. Compre um lote de tintura."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "handbag",
+   "say": [
+    "E o fio sobe com os pontos. Compre o extra do mesmo lote de tintura."
+   ],
+   "panel": {
+    "kicker": "Redimensionar",
+    "heading": "Três fórmulas para qualquer tamanho",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Pontos",
+      "d": "Largura alvo em cm x pontos por cm. Pontos por cm é a sua medida dividida por 10."
+     },
+     {
+      "t": "Rows",
+      "d": "Comprimento alvo em cm x linhas por cm. Adicione comprimento em seções simples, não na modelagem."
+     },
+     {
+      "t": "Yarn",
+      "d": "O fio sobe com os pontos: 20% mais largo precisa de cerca de 20% mais fio. Compre um lote de tintura."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "thread_spools",
+   "say": [
+    "Por exemplo, Grace in Jos precisa de um cardigã com cerca de 56 cm nas costas. Com 2 pontos por cm, são 112 pontos. Mas a costela dela é um múltiplo de 6 mais 2."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Cardigan da Grace: encaixe na repetição",
+    "items": [
+     "Alvo de volta 56 cm x 2 = 112 pontos",
+     "Repita: múltiplo de 6 mais 2",
+     "112 menos 2 = 110, não divisível por 6",
+     "Escolha 18 x 6 + 2 = 110 pontos",
+     "Verifique novamente: 110/2 = 55 cm"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "thread_spools",
+   "say": [
+    "112 menos 2 é 110 e 110 não é divisível por 6. Portanto, 112 quebrará o padrão."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Cardigan da Grace: encaixe na repetição",
+    "items": [
+     "Alvo de volta 56 cm x 2 = 112 pontos",
+     "Repita: múltiplo de 6 mais 2",
+     "112 menos 2 = 110, não divisível por 6",
+     "Escolha 18 x 6 + 2 = 110 pontos",
+     "Verifique novamente: 110/2 = 55 cm"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "As contagens mais próximas que cabem são 110 ou 116. Ela escolhe 110 pontos, costas de 55 cm, o que ainda dá uns 8 cm de facilidade.",
+    "Nunca adicione um ou dois pontos no meio de uma repetição. Arredonde para uma contagem adequada e verifique novamente a largura."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Cardigan da Grace: encaixe na repetição",
+    "items": [
+     "Alvo de volta 56 cm x 2 = 112 pontos",
+     "Repita: múltiplo de 6 mais 2",
+     "112 menos 2 = 110, não divisível por 6",
+     "Escolha 18 x 6 + 2 = 110 pontos",
+     "Verifique novamente: 110/2 = 55 cm"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Arredonde para uma contagem adequada à repetição e verifique novamente a largura.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pattern_paper",
+   "say": [
+    "Para lembrar. Digitalize as seis seções todas as vezes. Saiba se os seus termos de crochê são EUA ou Reino Unido. Corte 15 cm e lave antes de medir. A largura é dividida em pontos por pontos por centímetro. E arredonde para ajustar a repetição e verifique novamente a largura."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Lembre-se",
+    "items": [
+     "Digitalize as seis seções sempre",
+     "Crochê simples dos EUA = crochê duplo do Reino Unido",
+     "Faça uma amostra de 15 cm, lave e meça",
+     "Largura = pontos/pontos por cm",
+     "Arredonde para ajustar a repetição, verifique novamente a largura"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "market_stall",
+   "say": [
+    "Agora decodifique um padrão intermediário livre, faça e rotule uma amostra de medidor e redimensione uma peça do padrão com um pequeno desenho de seus novos números.",
+    "Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Tarefa prática",
+    "heading": "Suas tarefas para este módulo",
+    "items": [
+     "Decodifique um padrão intermediário",
+     "Faça e rotule uma amostra de medidor",
+     "Redimensionar uma peça padrão"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

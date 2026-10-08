@@ -1,0 +1,581 @@
+{
+ "course": "core-reporting-and-performance-tracking",
+ "module": "m3",
+ "title": "Graphiques honnêtes, rapports honnêtes et tableau de bord d'une page",
+ "course_title": "Rapports et suivi des performances",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Des graphiques honnêtes, des rapports honnêtes et un tableau de bord d'une page.",
+    "Ceci est la vidéo du module 3 de Reporting et de suivi des performances."
+   ]
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Un bon graphique permet à un lecteur occupé de voir votre point principal en quelques secondes. Pour montrer les changements au fil du temps, utilisez un graphique linéaire."
+   ],
+   "panel": {
+    "kicker": "Choisissez le bon graphique",
+    "heading": "Faites correspondre le graphique au message",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Graphique linéaire",
+      "d": "Comment un chiffre a changé au fil du temps, comme les ventes mensuelles de janvier à juin."
+     },
+     {
+      "t": "Graphique à colonnes ou à barres",
+      "d": "Quelle catégorie est la plus grande, comme les ventes par canal : WhatsApp, Walk-in, Instagram."
+     },
+     {
+      "t": "Pie chart, with care",
+      "d": "Comment un tout se divise en parties, seulement avec 2 à 5 tranches. Jamais pour changer au fil du temps."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Pour comparer les catégories, utilisez un graphique à colonnes ou à barres."
+   ],
+   "panel": {
+    "kicker": "Choisissez le bon graphique",
+    "heading": "Faites correspondre le graphique au message",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Graphique linéaire",
+      "d": "Comment un chiffre a changé au fil du temps, comme les ventes mensuelles de janvier à juin."
+     },
+     {
+      "t": "Graphique à colonnes ou à barres",
+      "d": "Quelle catégorie est la plus grande, comme les ventes par canal : WhatsApp, Walk-in, Instagram."
+     },
+     {
+      "t": "Pie chart, with care",
+      "d": "Comment un tout se divise en parties, seulement avec 2 à 5 tranches. Jamais pour changer au fil du temps."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Pour montrer comment un tout se divise en parties, un diagramme circulaire ne fonctionne qu'avec 2 à 5 tranches.",
+    "Et lorsque votre lecteur a besoin de chiffres exacts, comme un bailleur de fonds vérifiant chaque cible, un simple tableau est préférable."
+   ],
+   "panel": {
+    "kicker": "Choisissez le bon graphique",
+    "heading": "Faites correspondre le graphique au message",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Graphique linéaire",
+      "d": "Comment un chiffre a changé au fil du temps, comme les ventes mensuelles de janvier à juin."
+     },
+     {
+      "t": "Graphique à colonnes ou à barres",
+      "d": "Quelle catégorie est la plus grande, comme les ventes par canal : WhatsApp, Walk-in, Instagram."
+     },
+     {
+      "t": "Pie chart, with care",
+      "d": "Comment un tout se divise en parties, seulement avec 2 à 5 tranches. Jamais pour changer au fil du temps."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Par exemple, les ventes de Bisi étaient de 250 000 nairas en janvier et de 262 000 en février."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Comment un axe coupé induit en erreur",
+    "items": [
+     "250 000 janvier, 262 000 naira février",
+     "Hausse réelle : 4,8%",
+     "Axis commence à 240 000 : la barre semble 2,2 fois plus haute",
+     "Correction : définir le minimum de l'axe à 0",
+     "Titre : Les ventes ont légèrement augmenté en février"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Cela représente une hausse réelle de 4,8 %. Une petite mais constante amélioration."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Comment un axe coupé induit en erreur",
+    "items": [
+     "250 000 janvier, 262 000 naira février",
+     "Hausse réelle : 4,8%",
+     "Axis commence à 240 000 : la barre semble 2,2 fois plus haute",
+     "Correction : définir le minimum de l'axe à 0",
+     "Titre : Les ventes ont légèrement augmenté en février"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Mais Sheets a commencé l'axe de son graphique à 240 000. Ainsi, la barre de janvier n'en indiquait que 10 000, et celle de février en indiquait 22 000. Février semblait 2,2 fois plus élevé, comme si les ventes avaient plus que doublé."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Comment un axe coupé induit en erreur",
+    "items": [
+     "250 000 janvier, 262 000 naira février",
+     "Hausse réelle : 4,8%",
+     "Axis commence à 240 000 : la barre semble 2,2 fois plus haute",
+     "Correction : définir le minimum de l'axe à 0",
+     "Titre : Les ventes ont légèrement augmenté en février"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Elle le corrige dans l'éditeur de graphiques en définissant le minimum de l'axe vertical à 0."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Comment un axe coupé induit en erreur",
+    "items": [
+     "250 000 janvier, 262 000 naira février",
+     "Hausse réelle : 4,8%",
+     "Axis commence à 240 000 : la barre semble 2,2 fois plus haute",
+     "Correction : définir le minimum de l'axe à 0",
+     "Titre : Les ventes ont légèrement augmenté en février"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Et elle écrit un titre qui énonce le constat : les ventes ont légèrement augmenté en février, en hausse de 4,8 %."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Comment un axe coupé induit en erreur",
+    "items": [
+     "250 000 janvier, 262 000 naira février",
+     "Hausse réelle : 4,8%",
+     "Axis commence à 240 000 : la barre semble 2,2 fois plus haute",
+     "Correction : définir le minimum de l'axe à 0",
+     "Titre : Les ventes ont légèrement augmenté en février"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Les lecteurs jugent les barres en fonction de leur longueur, alors commencez toujours les graphiques à barres et à colonnes à zéro. Étiquetez les unités et les dates et vérifiez chaque graphique sur l'écran d'un téléphone."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Comment un axe coupé induit en erreur",
+    "items": [
+     "250 000 janvier, 262 000 naira février",
+     "Hausse réelle : 4,8%",
+     "Axis commence à 240 000 : la barre semble 2,2 fois plus haute",
+     "Correction : définir le minimum de l'axe à 0",
+     "Titre : Les ventes ont légèrement augmenté en février"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Commencez les graphiques à barres et à colonnes à zéro.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Un gestionnaire ou un bailleur de fonds qui détecte un chiffre exagéré doutera de tous les chiffres suivants."
+   ],
+   "panel": {
+    "kicker": "Reportage honnête",
+    "heading": "Façons dont les rapports induisent en erreur",
+    "items": [
+     "Sélection de la meilleure semaine",
+     "Changer les définitions en silence",
+     "Double comptage de la même personne",
+     "Cacher le dénominateur : 30 sur combien ?",
+     "Invoquer une cause sans preuve"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Ne montrez pas seulement votre meilleure semaine. Ne changez pas ce que vous comptez sans le dire."
+   ],
+   "panel": {
+    "kicker": "Reportage honnête",
+    "heading": "Façons dont les rapports induisent en erreur",
+    "items": [
+     "Sélection de la meilleure semaine",
+     "Changer les définitions en silence",
+     "Double comptage de la même personne",
+     "Cacher le dénominateur : 30 sur combien ?",
+     "Invoquer une cause sans preuve"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Ne comptez pas deux fois une femme car elle a suivi deux formations."
+   ],
+   "panel": {
+    "kicker": "Reportage honnête",
+    "heading": "Façons dont les rapports induisent en erreur",
+    "items": [
+     "Sélection de la meilleure semaine",
+     "Changer les définitions en silence",
+     "Double comptage de la même personne",
+     "Cacher le dénominateur : 30 sur combien ?",
+     "Invoquer une cause sans preuve"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Donnez toujours le dénominateur. 30 femmes ont créé leur entreprise, sur 40 formées, ou sur 400 ?"
+   ],
+   "panel": {
+    "kicker": "Reportage honnête",
+    "heading": "Façons dont les rapports induisent en erreur",
+    "items": [
+     "Sélection de la meilleure semaine",
+     "Changer les définitions en silence",
+     "Double comptage de la même personne",
+     "Cacher le dénominateur : 30 sur combien ?",
+     "Invoquer une cause sans preuve"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Et n’invoquez pas de cause sans preuve. Les ventes ont peut-être augmenté grâce à votre dépliant ou parce que décembre apporte toujours plus de fêtes. Dites-le prudemment : cela est probablement dû en partie à la période des fêtes."
+   ],
+   "panel": {
+    "kicker": "Reportage honnête",
+    "heading": "Façons dont les rapports induisent en erreur",
+    "items": [
+     "Sélection de la meilleure semaine",
+     "Changer les définitions en silence",
+     "Double comptage de la même personne",
+     "Cacher le dénominateur : 30 sur combien ?",
+     "Invoquer une cause sans preuve"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Par exemple, l'objectif de la subvention d'Halima était de former 100 femmes d'ici fin juin. 82 terminés. Elle rapporte honnêtement 82% et ne compte pas les femmes venues à une seule séance."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Halima signale une cible manquée",
+    "items": [
+     "Nombre réel : 82 sur 100, soit 82 %",
+     "Raison : salle inondée, 2 séances annulées",
+     "Preuve : registres et message d'annulation",
+     "Plan : une séance de rattrapage en juillet"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Elle en explique la cause en une phrase : deux séances ont été annulées après que de fortes pluies ont inondé la salle."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Halima signale une cible manquée",
+    "items": [
+     "Nombre réel : 82 sur 100, soit 82 %",
+     "Raison : salle inondée, 2 séances annulées",
+     "Preuve : registres et message d'annulation",
+     "Plan : une séance de rattrapage en juillet"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Elle en témoigne : les registres de présence et le message d'annulation de la salle."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Halima signale une cible manquée",
+    "items": [
+     "Nombre réel : 82 sur 100, soit 82 %",
+     "Raison : salle inondée, 2 séances annulées",
+     "Preuve : registres et message d'annulation",
+     "Plan : une séance de rattrapage en juillet"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Et elle propose une séance de rattrapage en juillet, financée avec l'argent non dépensé de la salle.",
+    "Cela crée bien plus de confiance qu'un vague message : environ 100 femmes ont été atteintes. Si vous subissez des pressions pour gonfler un chiffre, indiquez le chiffre réel et faites part de votre préoccupation par écrit."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Halima signale une cible manquée",
+    "items": [
+     "Nombre réel : 82 sur 100, soit 82 %",
+     "Raison : salle inondée, 2 séances annulées",
+     "Preuve : registres et message d'annulation",
+     "Plan : une séance de rattrapage en juillet"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "En vertu de la loi nigériane sur la protection des données de 2023, les données personnelles doivent être conservées en sécurité. N'envoyez donc pas l'intégralité de l'onglet Données, ne nommez pas les femmes qui ont abandonné ou publiez des liens vers des feuilles dans de grands groupes."
+   ],
+   "panel": {
+    "kicker": "La sécurité avant tout",
+    "heading": "Confidentialité lorsque vous partagez un rapport",
+    "mode": "compare",
+    "left_h": "Au lieu de ça",
+    "left": [
+     "Envoi de l'intégralité de l'onglet Données",
+     "Nommer les femmes qui ont abandonné leurs études",
+     "Liens de feuille dans les grands groupes WhatsApp",
+     "Quelqu'un ayant le lien"
+    ],
+    "right_h": "Fais ceci",
+    "right": [
+     "Envoyer l'onglet Résumé ou un PDF",
+     "Signaler le nombre et les raisons",
+     "Partager avec des e-mails nommés, en tant que spectateur",
+     "Définir le partage sur Restreint"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Partagez les totaux, les pourcentages et les codes. Envoyez le résumé ou un PDF. Partagez avec des adresses e-mail nommées en tant que visionneuse et définissez le partage sur Restreint afin qu'un lien transféré ne s'ouvre pas aux étrangers."
+   ],
+   "panel": {
+    "kicker": "La sécurité avant tout",
+    "heading": "Confidentialité lorsque vous partagez un rapport",
+    "mode": "compare",
+    "left_h": "Au lieu de ça",
+    "left": [
+     "Envoi de l'intégralité de l'onglet Données",
+     "Nommer les femmes qui ont abandonné leurs études",
+     "Liens de feuille dans les grands groupes WhatsApp",
+     "Quelqu'un ayant le lien"
+    ],
+    "right_h": "Fais ceci",
+    "right": [
+     "Envoyer l'onglet Résumé ou un PDF",
+     "Signaler le nombre et les raisons",
+     "Partager avec des e-mails nommés, en tant que spectateur",
+     "Définir le partage sur Restreint"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Un tableau de bord est un écran affichant 3 à 5 KPI par rapport à leurs objectifs. Liez chaque cellule avec une formule, ne saisissez jamais de chiffres, pour qu'elle se mette à jour. Ajoutez ensuite les couleurs vert, ambre et rouge avec une mise en forme conditionnelle."
+   ],
+   "panel": {
+    "kicker": "Tableau de bord",
+    "heading": "Tableau de bord de mars de Bisi",
+    "items": [
+     "Ventes : 280 000 sur 300 000 naira, 93 %, ambre",
+     "Commandes : 64 contre 60, 107%, vert",
+     "Conversion : 26% contre 25%, 104%, vert",
+     "Clients réguliers : 31 % contre 40 %, 78 %, rouge"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Par exemple, les ventes de Bisi en mars s'élèvent à 280 000 nairas contre un objectif de 300 000 nairas. Cela représente 93 %, donc il est orange."
+   ],
+   "panel": {
+    "kicker": "Tableau de bord",
+    "heading": "Tableau de bord de mars de Bisi",
+    "items": [
+     "Ventes : 280 000 sur 300 000 naira, 93 %, ambre",
+     "Commandes : 64 contre 60, 107%, vert",
+     "Conversion : 26% contre 25%, 104%, vert",
+     "Clients réguliers : 31 % contre 40 %, 78 %, rouge"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Les commandes sont de 64 contre 60, et la conversion est de 26% contre 25%. Tous deux verts."
+   ],
+   "panel": {
+    "kicker": "Tableau de bord",
+    "heading": "Tableau de bord de mars de Bisi",
+    "items": [
+     "Ventes : 280 000 sur 300 000 naira, 93 %, ambre",
+     "Commandes : 64 contre 60, 107%, vert",
+     "Conversion : 26% contre 25%, 104%, vert",
+     "Clients réguliers : 31 % contre 40 %, 78 %, rouge"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Mais les clients fidèles sont 31% contre 40%, soit seulement 78%. Rouge.",
+    "Sa prochaine action consiste donc à fidéliser les clients, et non à faire davantage de publicité. Un bon tableau de bord indique la prochaine décision. Gardez également le pourcentage visible, car certains lecteurs ne peuvent pas distinguer le rouge du vert."
+   ],
+   "panel": {
+    "kicker": "Tableau de bord",
+    "heading": "Tableau de bord de mars de Bisi",
+    "items": [
+     "Ventes : 280 000 sur 300 000 naira, 93 %, ambre",
+     "Commandes : 64 contre 60, 107%, vert",
+     "Conversion : 26% contre 25%, 104%, vert",
+     "Clients réguliers : 31 % contre 40 %, 78 %, rouge"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "À retenir. Choisissez le graphique qui correspond au message, commencez les barres à zéro et laissez le titre exprimer le point.",
+    "Donnez les dénominateurs et revendiquez les causes avec soin. Signalez honnêtement les objectifs manqués, avec une raison et un plan. Et limitez votre tableau de bord à quelques KPI liés."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Ligne pour les tendances, barres pour comparer, tableau pour les valeurs exactes",
+     "Commencer les barres à zéro ; les titres exposent la conclusion",
+     "Donnez des dénominateurs ; réclamer les causes avec soin",
+     "Signaler les objectifs manqués avec raison et plan",
+     "Tableau de bord : 3 à 5 KPI liés avec des couleurs"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Maintenant, entraînez-vous. Créez un tableau honnête avec un titre qui énonce la conclusion. Vérifiez un rapport par rapport au contrôle d'honnêteté en cinq points et définissez votre feuille sur Restreint. Créez ensuite votre tableau de bord avec des couleurs de feux tricolores et une tendance.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâches d'entraînement",
+    "heading": "Votre pratique dans ce module",
+    "items": [
+     "Faites un graphique honnête",
+     "Vérifier l'honnêteté d'un rapport",
+     "Créez votre tableau de bord d'une page"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

@@ -1,0 +1,545 @@
+{
+ "course": "core-client-relationship-management",
+ "module": "m2",
+ "title": "Mai bin diddigin abokin cinikin ku, kari mai biyo baya da ra'ayin abokin ciniki",
+ "course_title": "Gudanar da Dangantakar Abokin Ciniki",
+ "shots": [
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Mai bin diddigin abokin cinikin ku, kariyar bin ka, da ra'ayin abokin ciniki.",
+    "Wannan shine bidiyon don ƙirar 2 na Gudanar da Dangantakar Abokin Ciniki."
+   ]
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Yi maɓalli mai suna Client tracker tare da shafuka biyu. Abokan ciniki suna da layi ɗaya ga mutum ɗaya, tare da cikakkun bayananta da mataki na gaba. Oda yana da layi ɗaya a kowane oda, don haka Sheets na iya ƙara muku tarihinta."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Gina mai bin diddigin ku a cikin Google Sheets",
+    "items": [
+     "Shafukan biyu: Abokan ciniki da oda",
+     "Jerin abubuwan da aka saukar don matsayi da sunaye",
+     "COUNTIF da SUMIF don oda da kashewa",
+     "Ayyuka na gaba da suka wuce sun zama ja"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Ƙara lissafin da aka saukar, don haka koyaushe ana rubuta matsayi iri ɗaya: Sabuwa, Aiki, Natsuwa ko Lapsed. Haɗa sunayen abokin ciniki a cikin oda zuwa lissafin abokin ciniki, don haka kowane suna ana rubuta shi daidai."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Gina mai bin diddigin ku a cikin Google Sheets",
+    "items": [
+     "Shafukan biyu: Abokan ciniki da oda",
+     "Jerin abubuwan da aka saukar don matsayi da sunaye",
+     "COUNTIF da SUMIF don oda da kashewa",
+     "Ayyuka na gaba da suka wuce sun zama ja"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "COUNTIF yana ƙididdige umarni nawa kowane abokin ciniki ya yi. SUMIF ta had'a abinda ta kashe."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Gina mai bin diddigin ku a cikin Google Sheets",
+    "items": [
+     "Shafukan biyu: Abokan ciniki da oda",
+     "Jerin abubuwan da aka saukar don matsayi da sunaye",
+     "COUNTIF da SUMIF don oda da kashewa",
+     "Ayyuka na gaba da suka wuce sun zama ja"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Sannan yi amfani da tsari na sharaɗi don kowane abokin ciniki wanda kwanan watan aikin sa na gaba ya zama ja. Kowace safiya, jajayen layuka sune jerin abubuwan da kuke bi."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Gina mai bin diddigin ku a cikin Google Sheets",
+    "items": [
+     "Shafukan biyu: Abokan ciniki da oda",
+     "Jerin abubuwan da aka saukar don matsayi da sunaye",
+     "COUNTIF da SUMIF don oda da kashewa",
+     "Ayyuka na gaba da suka wuce sun zama ja"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "A kiyaye takardar sirri. Raba shi ba kowa, ko amintaccen ma'aikaci kawai, don haka lambobin wayar abokin ciniki su kasance lafiya."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Gina mai bin diddigin ku a cikin Google Sheets",
+    "items": [
+     "Shafukan biyu: Abokan ciniki da oda",
+     "Jerin abubuwan da aka saukar don matsayi da sunaye",
+     "COUNTIF da SUMIF don oda da kashewa",
+     "Ayyuka na gaba da suka wuce sun zama ja"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Kar a taɓa raba takardar azaman \"Duk wanda ke da hanyar haɗin gwiwa\".",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Gwada dabarun ku sau ɗaya tare da kalkuleta, don ku iya amincewa da su."
+   ],
+   "card": {
+    "title": "Bincika dabarun sau ɗaya da hannu",
+    "rows": [],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Shafin Ngozi's Orders yana nuna oda 4 na Ifeoma: 18,000, 22,000, 18,000 da 25,000 naira."
+   ],
+   "card": {
+    "title": "Bincika dabarun sau ɗaya da hannu",
+    "rows": [
+     [
+      "5 Jan",
+      "18,000"
+     ],
+     [
+      "14 ga Fabrairu",
+      "22,000"
+     ],
+     [
+      "2 Afrilu",
+      "18,000"
+     ],
+     [
+      "30 ga Mayu",
+      "25,000"
+     ]
+    ],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Hakan ya kai Naira 83,000, daidai da takardar.",
+    "Amma an buga oda ɗaya kamar Ifeoma tare da ƙarin sarari, kuma adadin ya ɓace. Shi ya sa lissafin da aka saukar ke da mahimmanci. Hakanan a rubuta adadin a matsayin lambobi masu bayyanannu, ba tare da alamar naira ba."
+   ],
+   "card": {
+    "title": "Bincika dabarun sau ɗaya da hannu",
+    "rows": [
+     [
+      "5 Jan",
+      "18,000"
+     ],
+     [
+      "14 ga Fabrairu",
+      "22,000"
+     ],
+     [
+      "2 Afrilu",
+      "18,000"
+     ],
+     [
+      "30 ga Mayu",
+      "25,000"
+     ]
+    ],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Matsaloli da yawa suna farawa kafin bayarwa, lokacin da abokin ciniki da kasuwancin suka fahimci abubuwa daban-daban. Tunani daya juma'a yake nufi da safe. Dayan ya nufi yamma."
+   ],
+   "panel": {
+    "kicker": "Saita tsammanin",
+    "heading": "Tabbatar da tsari bayyananne",
+    "items": [
+     "Me take samu",
+     "Jimlar farashin, da abin da ya haɗa",
+     "Deposit, da kuma lokacin da ma'auni ya dace",
+     "Tagan kwanan watan da lokacin bayarwa",
+     "Canje-canje an yarda, da kuma yadda zaku sabunta ta"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Don haka da zarar ta amince, sai ku aiko da wani gajeren tabbaci na WhatsApp wanda ya kunshi wadannan abubuwa guda biyar, sannan a ce ta amsa ta tabbata.",
+    "Ajiye shi azaman amsa mai sauri, kuma canza cikakkun bayanai kowane lokaci."
+   ],
+   "panel": {
+    "kicker": "Saita tsammanin",
+    "heading": "Tabbatar da tsari bayyananne",
+    "items": [
+     "Me take samu",
+     "Jimlar farashin, da abin da ya haɗa",
+     "Deposit, da kuma lokacin da ma'auni ya dace",
+     "Tagan kwanan watan da lokacin bayarwa",
+     "Canje-canje an yarda, da kuma yadda zaku sabunta ta"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Aika tabbatarwa a ranar 0, sabuntawar ci gaba kafin bayarwa, da bayanin mika mulki a ranar bayarwa."
+   ],
+   "panel": {
+    "kicker": "Rikicin bin hanya",
+    "heading": "Shafi biyar don kowane oda",
+    "items": [
+     "Ranar 0: tabbatarwa",
+     "Kafin bayarwa: sabunta ci gaba",
+     "Ranar bayarwa: bayanin kula",
+     "Rana ta 3: duba bayan kulawa",
+     "Sake oda batu: tunatarwa"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "A rana ta 3, aika ɗan gajeren duban kulawa. Ina fatan tirenin sun yi kyau a taron. Shin adadin daidai ne ga baƙi?"
+   ],
+   "panel": {
+    "kicker": "Rikicin bin hanya",
+    "heading": "Shafi biyar don kowane oda",
+    "items": [
+     "Ranar 0: tabbatarwa",
+     "Kafin bayarwa: sabunta ci gaba",
+     "Ranar bayarwa: bayanin kula",
+     "Rana ta 3: duba bayan kulawa",
+     "Sake oda batu: tunatarwa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Kuma ka tunatar da ita lokacin da mai yiwuwa ta sake buƙatar ka.",
+    "Kar ku cushe ta. Tsakanin umarni, kada a aika da saƙon da ba na siyarwa ba fiye da ɗaya a wata, sai dai idan ta fara magana."
+   ],
+   "panel": {
+    "kicker": "Rikicin bin hanya",
+    "heading": "Shafi biyar don kowane oda",
+    "items": [
+     "Ranar 0: tabbatarwa",
+     "Kafin bayarwa: sabunta ci gaba",
+     "Ranar bayarwa: bayanin kula",
+     "Rana ta 3: duba bayan kulawa",
+     "Sake oda batu: tunatarwa"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Misali, Funmi ta ba da sabulun ruwa zuwa shagon kayan abinci na Halima. Halima ta ba da umarnin a ranakun 3 ga Fabrairu, 1 ga Maris, 4 ga Afrilu da 2 ga Mayu."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Funmi ta gyara gibin Halima",
+    "items": [
+     "Umarni: 3 Feb, 1 Mar, 4 Afrilu, 2 ga Mayu",
+     "3 ga Fabrairu zuwa 2 ga Mayu kwanaki 88 ne",
+     "4 umarni yana nufin 3 rata: game da kwanaki 29",
+     "Tuna ƴan kwanaki da wuri: 28 ga Mayu"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Daga umarninta na farko zuwa na ƙarshe shine kwanaki 88."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Funmi ta gyara gibin Halima",
+    "items": [
+     "Umarni: 3 Feb, 1 Mar, 4 Afrilu, 2 ga Mayu",
+     "3 ga Fabrairu zuwa 2 ga Mayu kwanaki 88 ne",
+     "4 umarni yana nufin 3 rata: game da kwanaki 29",
+     "Tuna ƴan kwanaki da wuri: 28 ga Mayu"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "4 umarni yana nufin 3 rata. 88 raba ta 3 shine kusan kwanaki 29. Wato ta sake tsara tazarar ta."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Funmi ta gyara gibin Halima",
+    "items": [
+     "Umarni: 3 Feb, 1 Mar, 4 Afrilu, 2 ga Mayu",
+     "3 ga Fabrairu zuwa 2 ga Mayu kwanaki 88 ne",
+     "4 umarni yana nufin 3 rata: game da kwanaki 29",
+     "Tuna ƴan kwanaki da wuri: 28 ga Mayu"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Don haka saƙonnin Funmi akan 28 ga Mayu: isar da ku na ƙarshe shine 2 ga Mayu. Shin zan kawo maki 6 da aka saba ranar Juma'a?",
+    "Ana tunowa Halima kafin ta karaso, dan haka bata siya wani waje."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Funmi ta gyara gibin Halima",
+    "items": [
+     "Umarni: 3 Feb, 1 Mar, 4 Afrilu, 2 ga Mayu",
+     "3 ga Fabrairu zuwa 2 ga Mayu kwanaki 88 ne",
+     "4 umarni yana nufin 3 rata: game da kwanaki 29",
+     "Tuna ƴan kwanaki da wuri: 28 ga Mayu"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Abokan ciniki ba safai suke ba da sanarwar cewa za su tafi. Kyakkyawar dangantaka tana kama da tsayayyen umarni, amsoshi da shawarwari."
+   ],
+   "panel": {
+    "kicker": "Alamun alaƙa",
+    "heading": "Alamun lafiya da alamun gargaɗi",
+    "mode": "compare",
+    "left_h": "Lafiyayyan",
+    "left": [
+     "Umarni a cikin tazarar da ta saba",
+     "Yi oda masu girma dabam tsaye ko girma",
+     "Amsa, wani lokacin hira",
+     "Yana nufin abokai"
+    ],
+    "right_h": "Gargadi",
+    "right": [
+     "Tazarar tana samun tsayi kowane lokaci",
+     "Ƙananan umarni fiye da baya",
+     "Ya karanta amma bai amsa ba",
+     "Sabbin buƙatun don rangwame"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Alamomin faɗakarwa sune ɗigo masu tsayi, ƙananan umarni da saƙonnin da ba a amsa ba. Alama ɗaya na iya nufin komai. Biyu ko fiye sun cancanci a hankali, shigar da gaskiya. Kar kayi mata laifi. Tambayi ko har yanzu sabis ɗin ku ya dace da bukatunta."
+   ],
+   "panel": {
+    "kicker": "Alamun alaƙa",
+    "heading": "Alamun lafiya da alamun gargaɗi",
+    "mode": "compare",
+    "left_h": "Lafiyayyan",
+    "left": [
+     "Umarni a cikin tazarar da ta saba",
+     "Yi oda masu girma dabam tsaye ko girma",
+     "Amsa, wani lokacin hira",
+     "Yana nufin abokai"
+    ],
+    "right_h": "Gargadi",
+    "right": [
+     "Tazarar tana samun tsayi kowane lokaci",
+     "Ƙananan umarni fiye da baya",
+     "Ya karanta amma bai amsa ba",
+     "Sabbin buƙatun don rangwame"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Yi gajerun tambayoyi 2 ko 3, gami da: akan sikelin 0 zuwa 10, ta yaya za ku iya ba ni shawara ga aboki?",
+    "Misali, Ruth tana koyar da yara a Legas kuma ta tambayi iyaye 20. 12 amsa 9 ko 10. Su ne masu tallatawa, kashi 60 cikin 100."
+   ],
+   "panel": {
+    "kicker": "Jawabin",
+    "heading": "Net Promoter Score, mataki-mataki",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Promoters: 9 or 10",
+      "d": "Ruth ta tambayi iyaye 20. 12 amsa 9 ko 10. Wato kashi 60 cikin 100 kenan."
+     },
+     {
+      "t": "Passives: 7 or 8",
+      "d": "5 iyaye. Ba a amfani da su a cikin dabara."
+     },
+     {
+      "t": "Detractors: 0 to 6",
+      "d": "3 iyaye, wanda shine kashi 15 cikin dari. NPS shine 60 minus 15, wanda shine 45."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "5 Amsa 7 ko 8. Su ne m, kuma an bar su."
+   ],
+   "panel": {
+    "kicker": "Jawabin",
+    "heading": "Net Promoter Score, mataki-mataki",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Promoters: 9 or 10",
+      "d": "Ruth ta tambayi iyaye 20. 12 amsa 9 ko 10. Wato kashi 60 cikin 100 kenan."
+     },
+     {
+      "t": "Passives: 7 or 8",
+      "d": "5 iyaye. Ba a amfani da su a cikin dabara."
+     },
+     {
+      "t": "Detractors: 0 to 6",
+      "d": "3 iyaye, wanda shine kashi 15 cikin dari. NPS shine 60 minus 15, wanda shine 45."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "3 amsa 6 ko ƙasa. Masu zagi ne, kashi 15 cikin ɗari. Makinta shine 60 a debe 15, wanda shine 45.",
+    "Ƙarin amfani har yanzu, masu zagi guda biyu sun ce lokutan darasi sun canza ba tare da sanarwa ba. Saboda haka, Ruth ta ba da sanarwar mako guda na kowane canji."
+   ],
+   "panel": {
+    "kicker": "Jawabin",
+    "heading": "Net Promoter Score, mataki-mataki",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Promoters: 9 or 10",
+      "d": "Ruth ta tambayi iyaye 20. 12 amsa 9 ko 10. Wato kashi 60 cikin 100 kenan."
+     },
+     {
+      "t": "Passives: 7 or 8",
+      "d": "5 iyaye. Ba a amfani da su a cikin dabara."
+     },
+     {
+      "t": "Detractors: 0 to 6",
+      "d": "3 iyaye, wanda shine kashi 15 cikin dari. NPS shine 60 minus 15, wanda shine 45."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Don tunawa. Ajiye layi ɗaya kowane abokin ciniki da ɗaya akan kowane oda. Tabbatar da kowane oda a rubuce. Kafin kayi alamar oda a matsayin Biya, duba app ɗin bankin ku, saboda hoton allo ba hujjar biyan kuɗi ba ne.",
+    "Tunasarwar lokaci daga tata ta sake tsarawa. Kuma idan abokin ciniki ya ba da ra'ayi, canza abu ɗaya kuma gaya mata kun yi."
+   ],
+   "panel": {
+    "kicker": "Mabuɗin mahimmanci",
+    "heading": "Ka tuna",
+    "items": [
+     "Layi ɗaya ga abokin ciniki, jere ɗaya kowane oda",
+     "Tabbatar da kowane oda a rubuce",
+     "Bincika biyan kuɗi a cikin app ɗin bankin ku, ba hotunan kariyar kwamfuta ba",
+     "Tunatar da abokan ciniki daga gibin sake yin odar su",
+     "Yi aiki da wani ra'ayi ɗaya, sannan ku gaya mata"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Yanzu yi aiki. Gina mabiyan ku tare da aƙalla abokan ciniki na gaske 10 kuma gwada jimlar ɗaya da hannu. Ajiye tabbatarwar ku azaman amsa mai sauri kuma aiwatar da sake tsara gibi uku. Sannan aika tambayoyin amsawa ga abokan ciniki guda biyar kuma ku lissafta maki.",
+    "Ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi ayyuka",
+    "heading": "Ayyukan ku a cikin wannan tsarin",
+    "items": [
+     "Gina kuma gwada abokin cinikin ku",
+     "Saita kari na bibiyar ku",
+     "Guda karamin ra'ayi zagaye"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

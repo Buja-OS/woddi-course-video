@@ -1,0 +1,497 @@
+{
+ "course": "prompt-engineering",
+ "module": "m1",
+ "title": "Comment l'IA lit votre invite et comment en rédiger une qui fonctionne",
+ "course_title": "Ingénierie rapide",
+ "shots": [
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Comment l'IA lit votre invite et comment en rédiger une qui fonctionne.",
+    "Ceci est la vidéo du premier module de Prompt Engineering."
+   ]
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Des outils tels que ChatGPT, Gemini, Claude et Copilot sont construits sur de grands modèles de langage. Étant donné du texte, le modèle prédit quel texte devrait suivre. Il ne s'agit pas de rechercher une réponse stockée."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Le modèle ne sait que ce que vous lui donnez",
+    "items": [
+     "Comprenez ce que le modèle fait avec vos mots",
+     "Sachez pourquoi les réponses sûres peuvent être fausses",
+     "Utilisez une invite en six parties pour le travail qui compte",
+     "Choisissez où l'incitation est vraiment payante"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "C’est pourquoi une réponse peut paraître juste tout en restant fausse."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Le modèle ne sait que ce que vous lui donnez",
+    "items": [
+     "Comprenez ce que le modèle fait avec vos mots",
+     "Sachez pourquoi les réponses sûres peuvent être fausses",
+     "Utilisez une invite en six parties pour le travail qui compte",
+     "Choisissez où l'incitation est vraiment payante"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Si votre invite est vague, la réponse la plus probable est vague et moyenne. Si elle nomme le lecteur, le but et le format, la réponse devient précise."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Le modèle ne sait que ce que vous lui donnez",
+    "items": [
+     "Comprenez ce que le modèle fait avec vos mots",
+     "Sachez pourquoi les réponses sûres peuvent être fausses",
+     "Utilisez une invite en six parties pour le travail qui compte",
+     "Choisissez où l'incitation est vraiment payante"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Et vous apprendrez lesquelles de vos propres tâches en valent la peine."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Le modèle ne sait que ce que vous lui donnez",
+    "items": [
+     "Comprenez ce que le modèle fait avec vos mots",
+     "Sachez pourquoi les réponses sûres peuvent être fausses",
+     "Utilisez une invite en six parties pour le travail qui compte",
+     "Choisissez où l'incitation est vraiment payante"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Les modèles lisent les jetons. Un mot anglais courant peut être un jeton, mais un mot yoruba, haoussa ou igbo peut être divisé en plusieurs. À titre indicatif, 1 000 jetons correspondent à environ 750 mots anglais."
+   ],
+   "panel": {
+    "kicker": "Comment ça marche",
+    "heading": "Quatre choses à savoir sur le modèle",
+    "items": [
+     "Il lit les jetons, des morceaux de texte, pas des mots",
+     "La fenêtre contextuelle limite ce qu'elle peut considérer",
+     "Il peut énoncer de faux faits en toute confiance",
+     "Chaque nouvelle discussion commence vide par défaut"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "La fenêtre contextuelle est tout ce qu'il peut prendre en compte à la fois, y compris votre invite, tout document collé et la réponse. Lors d'une très longue conversation, des détails antérieurs peuvent être supprimés. Démarrez une nouvelle discussion et collez un court résumé."
+   ],
+   "panel": {
+    "kicker": "Comment ça marche",
+    "heading": "Quatre choses à savoir sur le modèle",
+    "items": [
+     "Il lit les jetons, des morceaux de texte, pas des mots",
+     "La fenêtre contextuelle limite ce qu'elle peut considérer",
+     "Il peut énoncer de faux faits en toute confiance",
+     "Chaque nouvelle discussion commence vide par défaut"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Les réponses sûres mais fausses sont appelées hallucinations. Ils se produisent le plus souvent avec des noms, des chiffres exacts, des événements récents et des références. Vérifiez tout ce que vous publierez ou sur quoi vous agirez."
+   ],
+   "panel": {
+    "kicker": "Comment ça marche",
+    "heading": "Quatre choses à savoir sur le modèle",
+    "items": [
+     "Il lit les jetons, des morceaux de texte, pas des mots",
+     "La fenêtre contextuelle limite ce qu'elle peut considérer",
+     "Il peut énoncer de faux faits en toute confiance",
+     "Chaque nouvelle discussion commence vide par défaut"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Et à moins que vous n’activiez une fonction de mémoire, chaque nouvelle conversation ne sait rien de vous."
+   ],
+   "panel": {
+    "kicker": "Comment ça marche",
+    "heading": "Quatre choses à savoir sur le modèle",
+    "items": [
+     "Il lit les jetons, des morceaux de texte, pas des mots",
+     "La fenêtre contextuelle limite ce qu'elle peut considérer",
+     "Il peut énoncer de faux faits en toute confiance",
+     "Chaque nouvelle discussion commence vide par défaut"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Par exemple, Halima coordonne une coopérative de femmes à Kaduna. Elle doit informer 40 membres que le lieu de la réunion a changé. Sa première invite reçoit une lettre formelle et générique avec des espaces vides là où les faits devraient se trouver."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Une tâche, deux invites",
+    "mode": "compare",
+    "left_h": "Invite A",
+    "left": [
+     "Écrire un message concernant un changement de lieu",
+     "Formel, générique, environ 180 mots",
+     "Espaces réservés, pas de date"
+    ],
+    "right_h": "Invite B",
+    "right": [
+     "Lecteurs, date, lieux, raison",
+     "WhatsApp, moins de 60 mots",
+     "Utilisable après une petite modification"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Sa deuxième invite nomme les lecteurs, principalement des commerçants âgés de 30 à 60 ans, la date, l'ancien et le nouveau lieu, l'heure, la raison, le canal et une limite de 60 mots.",
+    "La réponse est de 52 mots et prête à être envoyée. Le modèle n'est pas devenu plus intelligent. Halima lui a donné les faits dont elle avait besoin."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Une tâche, deux invites",
+    "mode": "compare",
+    "left_h": "Invite A",
+    "left": [
+     "Écrire un message concernant un changement de lieu",
+     "Formel, générique, environ 180 mots",
+     "Espaces réservés, pas de date"
+    ],
+    "right_h": "Invite B",
+    "right": [
+     "Lecteurs, date, lieux, raison",
+     "WhatsApp, moins de 60 mots",
+     "Utilisable après une petite modification"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Ngozi travaille dans une ONG à Enugu. Elle doit transformer un rapport de terrain de 9 pages en un mémoire d'une page. Sa tâche commence par un verbe fort : rédiger un mémoire de décision d’une page."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "L'invite en six parties",
+    "items": [
+     "Tâche : un verbe clair",
+     "Contexte : lecteur et objectif",
+     "Entrée : matériel à l'intérieur des délimiteurs",
+     "Format : forme et longueur",
+     "Contraintes : limites et incontournables",
+     "Exemples: afficher un bon résultat"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Contexte : le lecteur est son directeur, qui dispose de 5 minutes avant un appel au bailleur de fonds."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "L'invite en six parties",
+    "items": [
+     "Tâche : un verbe clair",
+     "Contexte : lecteur et objectif",
+     "Entrée : matériel à l'intérieur des délimiteurs",
+     "Format : forme et longueur",
+     "Contraintes : limites et incontournables",
+     "Exemples: afficher un bon résultat"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Entrée : le rapport collé entre les balises du rapport, afin que le modèle ne le confonde pas avec ses instructions."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "L'invite en six parties",
+    "items": [
+     "Tâche : un verbe clair",
+     "Contexte : lecteur et objectif",
+     "Entrée : matériel à l'intérieur des délimiteurs",
+     "Format : forme et longueur",
+     "Contraintes : limites et incontournables",
+     "Exemples: afficher un bon résultat"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Format : quatre titres, puces, moins de 300 mots."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "L'invite en six parties",
+    "items": [
+     "Tâche : un verbe clair",
+     "Contexte : lecteur et objectif",
+     "Entrée : matériel à l'intérieur des délimiteurs",
+     "Format : forme et longueur",
+     "Contraintes : limites et incontournables",
+     "Exemples: afficher un bon résultat"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Contraintes : utiliser uniquement des chiffres dans le rapport. Lorsqu’il n’y a pas de chiffre, écrivez NON DÉCLARÉ."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "L'invite en six parties",
+    "items": [
+     "Tâche : un verbe clair",
+     "Contexte : lecteur et objectif",
+     "Entrée : matériel à l'intérieur des délimiteurs",
+     "Format : forme et longueur",
+     "Contraintes : limites et incontournables",
+     "Exemples: afficher un bon résultat"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Exemples : un mémoire passé dont le réalisateur a fait l'éloge. Son vague message avait inventé un chiffre qui ne figurait pas dans le rapport. L'invite en six parties donnait 270 mots sans chiffres inventés, et elle vérifiait toujours chaque chiffre."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "L'invite en six parties",
+    "items": [
+     "Tâche : un verbe clair",
+     "Contexte : lecteur et objectif",
+     "Entrée : matériel à l'intérieur des délimiteurs",
+     "Format : forme et longueur",
+     "Contraintes : limites et incontournables",
+     "Exemples: afficher un bon résultat"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "rule": "Dites-lui quoi faire lorsqu’une information manque : ne devinez pas.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Listez vos tâches pendant une semaine, puis cartographiez chacune d'elles en fonction de la valeur du temps gagné et du risque en cas d'erreur. Commencez par des tâches de grande valeur et à faible risque."
+   ],
+   "panel": {
+    "kicker": "Valeur et risque",
+    "heading": "Là où l'incitation est payante",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "High value, low risk",
+      "d": "Notes internes, mises à jour hebdomadaires, premières ébauches. Invite d'abord, puis une légère vérification."
+     },
+     {
+      "t": "High value, high risk",
+      "d": "Rapports des donateurs, résumés financiers. Cela vaut la peine d'être invité, mais vérifiez chaque chiffre et chaque affirmation."
+     },
+     {
+      "t": "Restez dirigé par l’humain",
+      "d": "Deuil, excuses, décisions concernant des personnes, jugement juridique, médical ou financier."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Un travail de grande valeur mais à haut risque mérite toujours d’être encouragé, avec des contrôles minutieux."
+   ],
+   "panel": {
+    "kicker": "Valeur et risque",
+    "heading": "Là où l'incitation est payante",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "High value, low risk",
+      "d": "Notes internes, mises à jour hebdomadaires, premières ébauches. Invite d'abord, puis une légère vérification."
+     },
+     {
+      "t": "High value, high risk",
+      "d": "Rapports des donateurs, résumés financiers. Cela vaut la peine d'être invité, mais vérifiez chaque chiffre et chaque affirmation."
+     },
+     {
+      "t": "Restez dirigé par l’humain",
+      "d": "Deuil, excuses, décisions concernant des personnes, jugement juridique, médical ou financier."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Certaines tâches restent avec les gens : les messages de deuil ou d'excuses, l'embauche et les notes, et tout ce qui nécessite un jugement juridique, médical ou financier."
+   ],
+   "panel": {
+    "kicker": "Valeur et risque",
+    "heading": "Là où l'incitation est payante",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "High value, low risk",
+      "d": "Notes internes, mises à jour hebdomadaires, premières ébauches. Invite d'abord, puis une légère vérification."
+     },
+     {
+      "t": "High value, high risk",
+      "d": "Rapports des donateurs, résumés financiers. Cela vaut la peine d'être invité, mais vérifiez chaque chiffre et chaque affirmation."
+     },
+     {
+      "t": "Restez dirigé par l’humain",
+      "d": "Deuil, excuses, décisions concernant des personnes, jugement juridique, médical ou financier."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Traitez tout ce que vous saisissez dans un outil d’IA public comme une information échappant à votre contrôle.",
+    "Ne collez jamais de mots de passe, de numéros BVN ou NIN, de coordonnées bancaires, de numéros de téléphone de membres ou d'informations de santé privées. Remplacez les noms par des rôles avant de coller un vrai document."
+   ],
+   "panel": {
+    "kicker": "La sécurité avant tout",
+    "heading": "Ne collez jamais ce que vous ne publieriez pas",
+    "items": [
+     "Aucun mot de passe",
+     "Pas de numéros BVN ou NIN",
+     "Pas de coordonnées bancaires",
+     "Aucun numéro de téléphone ou information de santé des membres",
+     "Remplacez les noms par des rôles, comme le membre A"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Rappelez-vous. Le modèle prédit un texte probable, alors donnez-lui les faits. Utilisez les six parties pour tout ce qui compte.",
+    "Et mesurez honnêtement. Funmi, une administratrice d'école à Ibadan, a économisé environ 63 heures par an grâce à trois invites, et son temps de vérification n'a pas diminué. La vérification fait partie du travail."
+   ],
+   "panel": {
+    "kicker": "Rappelez-vous",
+    "heading": "Ce qu'il faut retenir de ce module",
+    "items": [
+     "Le modèle prédit le texte ; ça ne cherche pas les choses",
+     "Les détails manquants conduisent à des réponses génériques",
+     "Utilisez les six parties pour toute tâche importante",
+     "Gain de temps de mesure, y compris le temps de contrôle"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Envoyez une invite vague et une invite détaillée pour un vrai message et comparez-les. Reconstruisez une invite de travail avec les six parties. Dessinez ensuite votre carte de valeur et de risque avec au moins huit tâches.",
+    "Continuez maintenant avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâche pratique",
+    "heading": "Vos tâches pour ce module",
+    "items": [
+     "Comparez une invite vague avec une invite détaillée",
+     "Reconstruisez une invite de travail en utilisant les six parties",
+     "Dessinez votre cartographie des valeurs et des risques"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

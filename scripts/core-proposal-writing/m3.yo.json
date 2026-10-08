@@ -1,0 +1,593 @@
+{
+ "course": "core-proposal-writing",
+ "module": "m3",
+ "title": "Isuna, ibojuwo ati ohun ti o wa lẹhin ẹbun naa",
+ "course_title": "Kikọ igbero: Awọn ifunni ati Awọn igbero Iṣowo",
+ "shots": [
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Isuna, ibojuwo, ati ohun ti o wa lẹhin ẹbun naa.",
+    "Eyi ni fidio fun module mẹta ti kikọ igbero."
+   ]
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Isuna jẹ imọran rẹ ti a kọ sinu awọn nọmba. Ga ju wulẹ egbin. O kere ju ni imọran pe o ko loye iṣẹ naa."
+   ],
+   "panel": {
+    "kicker": "Isuna-ila-nkan",
+    "heading": "Gbogbo ila isuna fihan",
+    "items": [
+     "Nkan naa",
+     "Ẹka naa: ọjọ, oṣu, eniyan, nkan",
+     "Opoiye",
+     "Awọn iye owo kuro",
+     "Lapapọ: iye owo awọn akoko opoiye"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Laini kọọkan fihan ohun kan, ẹyọkan, opoiye ati iye owo ẹyọ. Fun apẹẹrẹ, awọn olukọni 2, fun ọjọ mejila, ni 25,000 naira fun ọjọ kan."
+   ],
+   "panel": {
+    "kicker": "Isuna-ila-nkan",
+    "heading": "Gbogbo ila isuna fihan",
+    "items": [
+     "Nkan naa",
+     "Ẹka naa: ọjọ, oṣu, eniyan, nkan",
+     "Opoiye",
+     "Awọn iye owo kuro",
+     "Lapapọ: iye owo awọn akoko opoiye"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Lapapọ jẹ iye owo igba iye: 600,000 naira. Ṣe akojọpọ awọn laini rẹ sinu awọn ẹka, ati nigbagbogbo lo awoṣe agbateru ti o ba fun ọkan."
+   ],
+   "panel": {
+    "kicker": "Isuna-ila-nkan",
+    "heading": "Gbogbo ila isuna fihan",
+    "items": [
+     "Nkan naa",
+     "Ẹka naa: ọjọ, oṣu, eniyan, nkan",
+     "Opoiye",
+     "Awọn iye owo kuro",
+     "Lapapọ: iye owo awọn akoko opoiye"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Fun apẹẹrẹ, Amaka ṣe idiyele gbogbo laini lati awọn agbasọ ọja 2 tabi 3 ni Lafia. Awọn isiro dajudaju jẹ apejuwe ati isunmọ."
+   ],
+   "card": {
+    "title": "Isuna oṣu mẹfa ti Amaka",
+    "rows": [],
+    "note": "Apejuwe, awọn isiro naira isunmọ."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Ènìyàn, olùṣekòkáárí ìgbà díẹ̀ àti olùkọ́nilẹ́kọ̀ọ́ méjì: 1,200,000 naira."
+   ],
+   "card": {
+    "title": "Isuna oṣu mẹfa ti Amaka",
+    "rows": [
+     [
+      "Eniyan",
+      "1,200,000"
+     ]
+    ],
+    "note": "Apejuwe, awọn isiro naira isunmọ."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Awọn ohun elo, pẹlu awọn ohun elo ibẹrẹ 40 ati ohun elo aabo: 1,320,000 naira."
+   ],
+   "card": {
+    "title": "Isuna oṣu mẹfa ti Amaka",
+    "rows": [
+     [
+      "Eniyan",
+      "1,200,000"
+     ],
+     [
+      "Ohun elo ati ailewu jia",
+      "1,320,000"
+     ]
+    ],
+    "note": "Apejuwe, awọn isiro naira isunmọ."
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Ibi isere, gbigbe ati mimu: 1,440,000 naira."
+   ],
+   "card": {
+    "title": "Isuna oṣu mẹfa ti Amaka",
+    "rows": [
+     [
+      "Eniyan",
+      "1,200,000"
+     ],
+     [
+      "Ohun elo ati ailewu jia",
+      "1,320,000"
+     ],
+     [
+      "Ibi isere ati eekaderi",
+      "1,440,000"
+     ]
+    ],
+    "note": "Apejuwe, awọn isiro naira isunmọ."
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Atilẹyin iṣowo, 290,000 naira, ati abojuto ati igbelewọn, 250,000 naira."
+   ],
+   "card": {
+    "title": "Isuna oṣu mẹfa ti Amaka",
+    "rows": [
+     [
+      "Eniyan",
+      "1,200,000"
+     ],
+     [
+      "Ohun elo ati ailewu jia",
+      "1,320,000"
+     ],
+     [
+      "Ibi isere ati eekaderi",
+      "1,440,000"
+     ],
+     [
+      "Atilẹyin iṣowo",
+      "290,000"
+     ],
+     [
+      "Abojuto ati igbelewọn",
+      "250,000"
+     ]
+    ],
+    "note": "Apejuwe, awọn isiro naira isunmọ."
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Owo taara wa si 4,500,000 naira. Isakoso ni 7%, laarin fila ipe, ṣe afikun 315,000 naira. Ibeere rẹ jẹ 4,815,000 naira, labẹ 5,000,000 ti o pọju."
+   ],
+   "card": {
+    "title": "Isuna oṣu mẹfa ti Amaka",
+    "rows": [
+     [
+      "Eniyan",
+      "1,200,000"
+     ],
+     [
+      "Ohun elo ati ailewu jia",
+      "1,320,000"
+     ],
+     [
+      "Ibi isere ati eekaderi",
+      "1,440,000"
+     ],
+     [
+      "Atilẹyin iṣowo",
+      "290,000"
+     ],
+     [
+      "Abojuto ati igbelewọn",
+      "250,000"
+     ]
+    ],
+    "note": "Apejuwe, awọn isiro naira isunmọ."
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Awọn idiyele taara ni a lo lori iṣẹ akanṣe yii nikan."
+   ],
+   "panel": {
+    "kicker": "Awọn oriṣi ti iye owo",
+    "heading": "Taara, aiṣe-taara ati ni iru",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Direct costs",
+      "d": "Lo lori iṣẹ akanṣe yii nikan, gẹgẹbi awọn idiyele awọn olukọni, awọn ohun elo ati iyalo ibi isere."
+     },
+     {
+      "t": "Indirect costs",
+      "d": "Awọn idiyele ṣiṣe ti o pin bii ṣiṣe-owo ati intanẹẹti. Maṣe kọja fila ipe naa rara."
+     },
+     {
+      "t": "In-kind",
+      "d": "Ohun ti o fun laisi beere lọwọ oluṣowo, bii yara ibi ipamọ ọfẹ. Ṣe afihan iye rẹ."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Awọn idiyele aiṣe-taara jẹ awọn idiyele ṣiṣe pinpin rẹ. Ọpọlọpọ awọn agbateru gba wọn laaye nikan si ipin ogorun ti a sọ. Maṣe kọja rẹ rara."
+   ],
+   "panel": {
+    "kicker": "Awọn oriṣi ti iye owo",
+    "heading": "Taara, aiṣe-taara ati ni iru",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Direct costs",
+      "d": "Lo lori iṣẹ akanṣe yii nikan, gẹgẹbi awọn idiyele awọn olukọni, awọn ohun elo ati iyalo ibi isere."
+     },
+     {
+      "t": "Indirect costs",
+      "d": "Awọn idiyele ṣiṣe ti o pin bii ṣiṣe-owo ati intanẹẹti. Maṣe kọja fila ipe naa rara."
+     },
+     {
+      "t": "In-kind",
+      "d": "Ohun ti o fun laisi beere lọwọ oluṣowo, bii yara ibi ipamọ ọfẹ. Ṣe afihan iye rẹ."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Awọn ilowosi inu-iru jẹ awọn nkan ti o pese funrararẹ. Ifowosowopo Amaka funni ni yara ipamọ ti o tọ 180,000 naira. Fihan ni iwe ti o yatọ, nitori pe o ṣe afihan ifaramọ.",
+    "Ki o si fi awọn idiyele ti ko yẹ silẹ, bii awọn ọkọ, jade patapata."
+   ],
+   "panel": {
+    "kicker": "Awọn oriṣi ti iye owo",
+    "heading": "Taara, aiṣe-taara ati ni iru",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Direct costs",
+      "d": "Lo lori iṣẹ akanṣe yii nikan, gẹgẹbi awọn idiyele awọn olukọni, awọn ohun elo ati iyalo ibi isere."
+     },
+     {
+      "t": "Indirect costs",
+      "d": "Awọn idiyele ṣiṣe ti o pin bii ṣiṣe-owo ati intanẹẹti. Maṣe kọja fila ipe naa rara."
+     },
+     {
+      "t": "In-kind",
+      "d": "Ohun ti o fun laisi beere lọwọ oluṣowo, bii yara ibi ipamọ ọfẹ. Ṣe afihan iye rẹ."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Awọn akọsilẹ isuna ṣe alaye laini kọọkan ni awọn gbolohun ọrọ kan si mẹta. Fun apẹẹrẹ: 1,000 naira fun obinrin fun ọjọ ikẹkọ ni wiwa owo ipadabọ. Laisi rẹ, awọn ọmọ ẹgbẹ talaka julọ ko le lọ."
+   ],
+   "panel": {
+    "kicker": "Awọn akọsilẹ isuna ati awọn sọwedowo",
+    "heading": "Da gbogbo laini lare, lẹhinna ṣayẹwo",
+    "items": [
+     "Kọ akọsilẹ kan: kini, kilode, bawo ni iṣiro",
+     "Gbogbo aṣayan iṣẹ-ṣiṣe ni laini iye owo",
+     "Awọn idiyele ẹyọkan wa lati awọn agbasọ gidi",
+     "Ko si awọn idiyele ti ko yẹ; admin laarin fila",
+     "Lapapọ baramu ni gbogbo apakan"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Ṣayẹwo pe gbogbo aṣayan iṣẹ-ṣiṣe ni laini iye owo, ati gbogbo laini iye owo ni asopọ si iṣẹ kan."
+   ],
+   "panel": {
+    "kicker": "Awọn akọsilẹ isuna ati awọn sọwedowo",
+    "heading": "Da gbogbo laini lare, lẹhinna ṣayẹwo",
+    "items": [
+     "Kọ akọsilẹ kan: kini, kilode, bawo ni iṣiro",
+     "Gbogbo aṣayan iṣẹ-ṣiṣe ni laini iye owo",
+     "Awọn idiyele ẹyọkan wa lati awọn agbasọ gidi",
+     "Ko si awọn idiyele ti ko yẹ; admin laarin fila",
+     "Lapapọ baramu ni gbogbo apakan"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Jeki rẹ avvon lori faili."
+   ],
+   "panel": {
+    "kicker": "Awọn akọsilẹ isuna ati awọn sọwedowo",
+    "heading": "Da gbogbo laini lare, lẹhinna ṣayẹwo",
+    "items": [
+     "Kọ akọsilẹ kan: kini, kilode, bawo ni iṣiro",
+     "Gbogbo aṣayan iṣẹ-ṣiṣe ni laini iye owo",
+     "Awọn idiyele ẹyọkan wa lati awọn agbasọ gidi",
+     "Ko si awọn idiyele ti ko yẹ; admin laarin fila",
+     "Lapapọ baramu ni gbogbo apakan"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Fi awọn idiyele ti ko yẹ silẹ, ki o tọju iṣakoso laarin fila naa."
+   ],
+   "panel": {
+    "kicker": "Awọn akọsilẹ isuna ati awọn sọwedowo",
+    "heading": "Da gbogbo laini lare, lẹhinna ṣayẹwo",
+    "items": [
+     "Kọ akọsilẹ kan: kini, kilode, bawo ni iṣiro",
+     "Gbogbo aṣayan iṣẹ-ṣiṣe ni laini iye owo",
+     "Awọn idiyele ẹyọkan wa lati awọn agbasọ gidi",
+     "Ko si awọn idiyele ti ko yẹ; admin laarin fila",
+     "Lapapọ baramu ni gbogbo apakan"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Lo iwe kaunti kan ki lapapọ ṣe iṣiro laifọwọyi, lẹhinna ṣayẹwo pe akopọ, itan-akọọlẹ ati lẹta ideri gbogbo wọn ṣafihan awọn isiro kanna."
+   ],
+   "panel": {
+    "kicker": "Awọn akọsilẹ isuna ati awọn sọwedowo",
+    "heading": "Da gbogbo laini lare, lẹhinna ṣayẹwo",
+    "items": [
+     "Kọ akọsilẹ kan: kini, kilode, bawo ni iṣiro",
+     "Gbogbo aṣayan iṣẹ-ṣiṣe ni laini iye owo",
+     "Awọn idiyele ẹyọkan wa lati awọn agbasọ gidi",
+     "Ko si awọn idiyele ti ko yẹ; admin laarin fila",
+     "Lapapọ baramu ni gbogbo apakan"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Ṣayẹwo isiro ni igba mẹta. Gbogbo lapapọ gbọdọ baramu.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Mimojuto awọn iṣẹ ṣiṣe ati awọn abajade lakoko ti iṣẹ akanṣe n ṣiṣẹ. Awọn onidajọ igbelewọn boya awọn abajade ti waye. Gbogbo atọka nilo ipilẹ kan, ibi-afẹde kan, orisun data kan, akoko ati eniyan ti o ni iduro."
+   ],
+   "panel": {
+    "kicker": "Abojuto ati igbelewọn",
+    "heading": "Osu 4 Amaka ṣayẹwo",
+    "items": [
+     "Oṣu 4: 22 ti 40 tita. Àfojúsùn: 30",
+     "Apẹrẹ: awọn obinrin ti o jinna, ko si awọn olura deede",
+     "Yipada: tita ẹgbẹ, bursars ile-iwe 3",
+     "Oṣu 6: 31 ti 40 ti n ta nigbagbogbo"
+    ],
+    "show": 0,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Ni opin oṣu 4, awọn igbasilẹ tita Amaka fihan 22 ti awọn obinrin 40 ti n ta o kere ju lẹmeji oṣu kan. Ibi-afẹde rẹ jẹ 30."
+   ],
+   "panel": {
+    "kicker": "Abojuto ati igbelewọn",
+    "heading": "Osu 4 Amaka ṣayẹwo",
+    "items": [
+     "Oṣu 4: 22 ti 40 tita. Àfojúsùn: 30",
+     "Apẹrẹ: awọn obinrin ti o jinna, ko si awọn olura deede",
+     "Yipada: tita ẹgbẹ, bursars ile-iwe 3",
+     "Oṣu 6: 31 ti 40 ti n ta nigbagbogbo"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "O n wa apẹrẹ kan. Pupọ julọ awọn obinrin ti ko ta laaye ni jijin si ọja ati pe ko ni awọn olura nigbagbogbo."
+   ],
+   "panel": {
+    "kicker": "Abojuto ati igbelewọn",
+    "heading": "Osu 4 Amaka ṣayẹwo",
+    "items": [
+     "Oṣu 4: 22 ti 40 tita. Àfojúsùn: 30",
+     "Apẹrẹ: awọn obinrin ti o jinna, ko si awọn olura deede",
+     "Yipada: tita ẹgbẹ, bursars ile-iwe 3",
+     "Oṣu 6: 31 ti 40 ti n ta nigbagbogbo"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Nitorinaa o so awọn obinrin pọ lati ta papọ ni ọja ọsẹ, ati ṣafihan awọn bursars ile-iwe 3 si ẹgbẹ naa. Ni oṣu 5, 27 ta nigbagbogbo."
+   ],
+   "panel": {
+    "kicker": "Abojuto ati igbelewọn",
+    "heading": "Osu 4 Amaka ṣayẹwo",
+    "items": [
+     "Oṣu 4: 22 ti 40 tita. Àfojúsùn: 30",
+     "Apẹrẹ: awọn obinrin ti o jinna, ko si awọn olura deede",
+     "Yipada: tita ẹgbẹ, bursars ile-iwe 3",
+     "Oṣu 6: 31 ti 40 ti n ta nigbagbogbo"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Ni oṣu 6, 31 ti 40 ta nigbagbogbo, loke ibi-afẹde. Iroyin rẹ sọ nọmba kekere, idi, iyipada ati abajade."
+   ],
+   "panel": {
+    "kicker": "Abojuto ati igbelewọn",
+    "heading": "Osu 4 Amaka ṣayẹwo",
+    "items": [
+     "Oṣu 4: 22 ti 40 tita. Àfojúsùn: 30",
+     "Apẹrẹ: awọn obinrin ti o jinna, ko si awọn olura deede",
+     "Yipada: tita ẹgbẹ, bursars ile-iwe 3",
+     "Oṣu 6: 31 ti 40 ti n ta nigbagbogbo"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Jabọ awọn iṣoro ni otitọ. Funders iye eko.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Iduroṣinṣin tumọ si ṣiṣe alaye iru awọn anfani ti o kẹhin lẹhin ti owo pari, ati bii. Ijọba ipinlẹ yoo gba iṣakoso ko lagbara, ayafi ti o ba ni lẹta ti o sọ bẹ."
+   ],
+   "panel": {
+    "kicker": "Iduroṣinṣin",
+    "heading": "A ireti tabi a siseto?",
+    "mode": "compare",
+    "left_h": "Alailagbara",
+    "left": [
+     "Ijọba yoo gba",
+     "Ise agbese na yoo tẹsiwaju"
+    ],
+    "right_h": "Alagbara",
+    "right": [
+     "Awọn ọmọ ẹgbẹ san 5,000 fun ibi kan, gba",
+     "6 obinrin oṣiṣẹ bi ẹlẹgbẹ olukọni",
+     "500 ti o fipamọ lati gbogbo 5,000 ti awọn tita",
+     "Awọn ọna asopọ pẹlu awọn ile-iwe 3"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Amaka yoo fun nja ise sise. Ifowosowopo naa yoo gba awọn ọmọ ẹgbẹ 5,000 naira fun aaye kan fun ikẹkọ keji, gẹgẹbi adehun ni ipade gbogbogbo rẹ. 6 ti awọn obinrin ti o lagbara julọ di awọn olukọni ẹlẹgbẹ.",
+    "Obinrin kọọkan n fipamọ 500 naira lati gbogbo 5,000 naira ti tita lati ra ipele ti o tẹle, ati asopọ pẹlu awọn ile-iwe 3 ṣẹda awọn olura deede."
+   ],
+   "panel": {
+    "kicker": "Iduroṣinṣin",
+    "heading": "A ireti tabi a siseto?",
+    "mode": "compare",
+    "left_h": "Alailagbara",
+    "left": [
+     "Ijọba yoo gba",
+     "Ise agbese na yoo tẹsiwaju"
+    ],
+    "right_h": "Alagbara",
+    "right": [
+     "Awọn ọmọ ẹgbẹ san 5,000 fun ibi kan, gba",
+     "6 obinrin oṣiṣẹ bi ẹlẹgbẹ olukọni",
+     "500 ti o fipamọ lati gbogbo 5,000 ti awọn tita",
+     "Awọn ọna asopọ pẹlu awọn ile-iwe 3"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "first_aid_kit",
+   "say": [
+    "Wipe ko si awọn eewu dabi òfo. Ṣe atokọ ohun ti o le jẹ aṣiṣe, bawo ni o ṣe ṣee ṣe ati bi o ṣe le to, ati idahun rẹ.",
+    "Nitoripe ikẹkọ rẹ nlo omi onisuga caustic, Amaka ngbero fun awọn gbigbo kemikali: ohun elo aabo fun gbogbo obinrin, ifihan ailewu lye akọkọ, ati ohun elo iranlọwọ akọkọ ati omi mimọ ni gbogbo igba.",
+    "O tun ra awọn ohun elo ni olopobobo ni oṣu 1, o si gba iṣeto pẹlu awọn olukopa lati yago fun ogbin ti o nšišẹ ati awọn ọsẹ ajọdun."
+   ],
+   "panel": {
+    "kicker": "Awọn ewu, pẹlu ailewu",
+    "heading": "Awọn idahun ewu Amaka",
+    "items": [
+     "Kemikali sisun: jia ailewu fun gbogbo eniyan",
+     "Olukọni ṣe afihan ailewu lye akọkọ",
+     "Ohun elo iranlowo akọkọ ati omi mimọ ni gbogbo igba",
+     "Iye owo dide: ra awọn ohun elo ni olopobobo ni oṣu 1",
+     "Wiwa kekere: gba iṣeto ni akọkọ"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Iwa rẹ. Kọ isuna rẹ ni iwe kaunti kan, pẹlu awọn agbasọ gidi ati awọn akọsilẹ fun awọn laini nla rẹ. Akọpamọ tabili ero M&E rẹ. Kọ o kere ju awọn ilana imuduro mẹta ati tabili eewu kan.",
+    "Lẹhinna ṣe iṣiro iwe kikọ rẹ lodi si awọn ibeere olufunni. Bayi tẹsiwaju pẹlu awọn ẹkọ ni isalẹ."
+   ],
+   "panel": {
+    "kicker": "Iwa rẹ",
+    "heading": "Jẹ ki imọran rẹ jẹ igbẹkẹle",
+    "items": [
+     "Kọ iwe kaunti isuna rẹ ati awọn akọsilẹ",
+     "Akọpamọ tabili ero M&E rẹ",
+     "Kọ awọn ilana imuduro mẹta",
+     "Kọ tabili eewu kan ki o ṣe ami iyasọtọ rẹ funrararẹ"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

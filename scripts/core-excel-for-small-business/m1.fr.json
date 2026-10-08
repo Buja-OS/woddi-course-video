@@ -1,0 +1,614 @@
+{
+ "course": "core-excel-for-small-business",
+ "module": "m1",
+ "title": "Votre première fiche de visite : enregistrements vierges et premières formules",
+ "course_title": "Excel et Google Sheets pour les petites entreprises",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Votre première fiche commerciale : des dossiers propres et des premières formules.",
+    "Il s'agit de la vidéo du module 1 d'Excel et de Google Sheets pour Small Business."
+   ]
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Beaucoup d’entre nous gardent des notes dans un cahier d’exercices ou dans notre tête. Cela fonctionne jusqu'à ce que vous ayez besoin d'une réponse rapide, comme combien ai-je vendu le mois dernier ?"
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Laisse la feuille faire les calculs",
+    "items": [
+     "Des réponses en quelques secondes, pas la nuit avec une calculatrice",
+     "Excel ou Google Sheets, téléphone ou ordinateur",
+     "Tapez les faits une fois, les formules font l'arithmétique",
+     "Protégez vos dossiers contre la perte et les escroqueries"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Une feuille de calcul est une grille sur votre téléphone ou votre ordinateur qui stocke vos enregistrements et effectue les calculs pour vous. Excel et Google Sheets fonctionnent presque de la même manière, alors choisissez celui que vous pouvez ouvrir le plus facilement."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Laisse la feuille faire les calculs",
+    "items": [
+     "Des réponses en quelques secondes, pas la nuit avec une calculatrice",
+     "Excel ou Google Sheets, téléphone ou ordinateur",
+     "Tapez les faits une fois, les formules font l'arithmétique",
+     "Protégez vos dossiers contre la perte et les escroqueries"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Changez un numéro et chaque total qui en dépend se met à jour tout seul."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Laisse la feuille faire les calculs",
+    "items": [
+     "Des réponses en quelques secondes, pas la nuit avec une calculatrice",
+     "Excel ou Google Sheets, téléphone ou ordinateur",
+     "Tapez les faits une fois, les formules font l'arithmétique",
+     "Protégez vos dossiers contre la perte et les escroqueries"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Et votre fichier sera sauvegardé et protégé."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Laisse la feuille faire les calculs",
+    "items": [
+     "Des réponses en quelques secondes, pas la nuit avec une calculatrice",
+     "Excel ou Google Sheets, téléphone ou ordinateur",
+     "Tapez les faits une fois, les formules font l'arithmétique",
+     "Protégez vos dossiers contre la perte et les escroqueries"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Tout d’abord, quelques mots. Une colonne monte et descend, nommée par une lettre."
+   ],
+   "panel": {
+    "kicker": "Nouveaux mots",
+    "heading": "Les parties d'une feuille de calcul",
+    "items": [
+     "Colonne : une ligne verticale, nommée par une lettre",
+     "Ligne : une ligne horizontale, nommée par un numéro",
+     "Cellule : où ils se rencontrent, comme C5",
+     "Plage : un bloc de cellules, tel que C2:C10",
+     "Barre de formule : montre ce qu'il y a réellement dans une cellule"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Une ligne traverse, nommée par un numéro."
+   ],
+   "panel": {
+    "kicker": "Nouveaux mots",
+    "heading": "Les parties d'une feuille de calcul",
+    "items": [
+     "Colonne : une ligne verticale, nommée par une lettre",
+     "Ligne : une ligne horizontale, nommée par un numéro",
+     "Cellule : où ils se rencontrent, comme C5",
+     "Plage : un bloc de cellules, tel que C2:C10",
+     "Barre de formule : montre ce qu'il y a réellement dans une cellule"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Une cellule est une case où elles se rencontrent, nommée lettre de colonne puis numéro de ligne, donc C5."
+   ],
+   "panel": {
+    "kicker": "Nouveaux mots",
+    "heading": "Les parties d'une feuille de calcul",
+    "items": [
+     "Colonne : une ligne verticale, nommée par une lettre",
+     "Ligne : une ligne horizontale, nommée par un numéro",
+     "Cellule : où ils se rencontrent, comme C5",
+     "Plage : un bloc de cellules, tel que C2:C10",
+     "Barre de formule : montre ce qu'il y a réellement dans une cellule"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Une plage est un bloc de cellules. C2 côlon C10 signifie C2 jusqu'à C10."
+   ],
+   "panel": {
+    "kicker": "Nouveaux mots",
+    "heading": "Les parties d'une feuille de calcul",
+    "items": [
+     "Colonne : une ligne verticale, nommée par une lettre",
+     "Ligne : une ligne horizontale, nommée par un numéro",
+     "Cellule : où ils se rencontrent, comme C5",
+     "Plage : un bloc de cellules, tel que C2:C10",
+     "Barre de formule : montre ce qu'il y a réellement dans une cellule"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "La barre de formule, marquée f x, montre ce qu'il y a réellement à l'intérieur d'une cellule. La cellule affiche la réponse, la barre de formule affiche la formule."
+   ],
+   "panel": {
+    "kicker": "Nouveaux mots",
+    "heading": "Les parties d'une feuille de calcul",
+    "items": [
+     "Colonne : une ligne verticale, nommée par une lettre",
+     "Ligne : une ligne horizontale, nommée par un numéro",
+     "Cellule : où ils se rencontrent, comme C5",
+     "Plage : un bloc de cellules, tel que C2:C10",
+     "Barre de formule : montre ce qu'il y a réellement dans une cellule"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Étape 1. Ouvrez Google Sheets ou Excel et créez un nouveau fichier vierge."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Configurez votre fiche de vente",
+    "items": [
+     "Créer un nouveau fichier vierge",
+     "Nommez-le : le nom de votre entreprise et l'année",
+     "Renommez le premier onglet en Ventes",
+     "Ligne 1 : Date, Article, Quantité, Prix unitaire, Montant",
+     "Tapez une vente. En E2 tapez =C2*D2"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Étape 2. Donnez au fichier un nom clair, par exemple le nom de votre entreprise et l'année."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Configurez votre fiche de vente",
+    "items": [
+     "Créer un nouveau fichier vierge",
+     "Nommez-le : le nom de votre entreprise et l'année",
+     "Renommez le premier onglet en Ventes",
+     "Ligne 1 : Date, Article, Quantité, Prix unitaire, Montant",
+     "Tapez une vente. En E2 tapez =C2*D2"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Étape 3. Renommez le premier onglet en Ventes. Sur un téléphone, appuyez sur l'onglet et choisissez Renommer."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Configurez votre fiche de vente",
+    "items": [
+     "Créer un nouveau fichier vierge",
+     "Nommez-le : le nom de votre entreprise et l'année",
+     "Renommez le premier onglet en Ventes",
+     "Ligne 1 : Date, Article, Quantité, Prix unitaire, Montant",
+     "Tapez une vente. En E2 tapez =C2*D2"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Étape 4. Dans la ligne 1, saisissez les titres. Date, article, quantité, prix unitaire et montant."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Configurez votre fiche de vente",
+    "items": [
+     "Créer un nouveau fichier vierge",
+     "Nommez-le : le nom de votre entreprise et l'année",
+     "Renommez le premier onglet en Ventes",
+     "Ligne 1 : Date, Article, Quantité, Prix unitaire, Montant",
+     "Tapez une vente. En E2 tapez =C2*D2"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Étape 5. Tapez une vente dans la ligne 2. Dans la cellule E2, tapez égal à C2 étoile D2 et appuyez sur Entrée. L'étoile signifie multiplier."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Configurez votre fiche de vente",
+    "items": [
+     "Créer un nouveau fichier vierge",
+     "Nommez-le : le nom de votre entreprise et l'année",
+     "Renommez le premier onglet en Ventes",
+     "Ligne 1 : Date, Article, Quantité, Prix unitaire, Montant",
+     "Tapez une vente. En E2 tapez =C2*D2"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Rappelez-vous cette règle. Chaque formule commence par un signe égal. Sans cela, la feuille de calcul traite ce que vous tapez comme du texte brut."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Configurez votre fiche de vente",
+    "items": [
+     "Créer un nouveau fichier vierge",
+     "Nommez-le : le nom de votre entreprise et l'année",
+     "Renommez le premier onglet en Ventes",
+     "Ligne 1 : Date, Article, Quantité, Prix unitaire, Montant",
+     "Tapez une vente. En E2 tapez =C2*D2"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Chaque formule commence par un signe égal =",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Voici un exemple concret. Ngozi gère un petit magasin de provisions à Enugu et souhaite arrêter de compter les ventes sur une calculatrice la nuit."
+   ],
+   "card": {
+    "title": "Les trois premières ventes de Ngozi",
+    "rows": [],
+    "note": "Les prix sont indicatifs et approximatifs."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Elle vend 2 cartons de nouilles à 9500, donc équivaut à C2, l'étoile D2 donne 19000.",
+    "3 bouteilles d'huile d'arachide à 3200 donnent 9600. 6 pains de savon à 700 donnent 4200."
+   ],
+   "card": {
+    "title": "Les trois premières ventes de Ngozi",
+    "rows": [
+     [
+      "Carton de nouilles, 2 x 9500",
+      "19,000"
+     ],
+     [
+      "Huile d'arachide, 3 x 3200",
+      "9,600"
+     ],
+     [
+      "Pain de savon, 6 x 700",
+      "4,200"
+     ]
+    ],
+    "note": "Les prix sont indicatifs et approximatifs."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Dans E5, elle les additionne. Le total de la journée est de 32 800 naira.",
+    "Plus tard, elle corrige le prix du savon à 750. E4 devient 4500 et le total 33100, sans qu'elle fasse autre chose."
+   ],
+   "card": {
+    "title": "Les trois premières ventes de Ngozi",
+    "rows": [
+     [
+      "Carton de nouilles, 2 x 9500",
+      "19,000"
+     ],
+     [
+      "Huile d'arachide, 3 x 3200",
+      "9,600"
+     ],
+     [
+      "Pain de savon, 6 x 700",
+      "4,200"
+     ]
+    ],
+    "note": "Les prix sont indicatifs et approximatifs."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Une feuille de calcul ne peut calculer que ce qu'elle comprend. Tapez 5000 sous forme de nombre simple, puis laissez le formatage ajouter le signe naira et les virgules.",
+    "Conservez une ligne pour chaque vente ou dépense, une colonne pour chaque détail et les titres de la ligne 1 uniquement."
+   ],
+   "panel": {
+    "kicker": "Nettoyer les données",
+    "heading": "Tapez des nombres que la feuille de calcul comprend",
+    "mode": "compare",
+    "left_h": "Fais ceci",
+    "left": [
+     "5000, puis ajoutez un format naira",
+     "Quantité 3, prix unitaire 2000",
+     "Une ligne par transaction",
+     "Titres de la ligne 1, pas de lignes vides"
+    ],
+    "right_h": "Évitez cela",
+    "right": [
+     "N5000 ou 5k",
+     "3 sacs @ 2000 dans une cellule",
+     "Cellules fusionnées et gros titres",
+     "Transport et transport"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "C'est l'erreur courante. Si vous tapez N5000 ou 5k, la feuille voit des mots, pas un nombre, et vos totaux seront tout simplement faux.",
+    "Vérification rapide. Les chiffres se trouvent à droite de la cellule, le texte à gauche. Si un montant se trouve à gauche, retapez-le."
+   ],
+   "panel": {
+    "kicker": "Nettoyer les données",
+    "heading": "Tapez des nombres que la feuille de calcul comprend",
+    "mode": "compare",
+    "left_h": "Fais ceci",
+    "left": [
+     "5000, puis ajoutez un format naira",
+     "Quantité 3, prix unitaire 2000",
+     "Une ligne par transaction",
+     "Titres de la ligne 1, pas de lignes vides"
+    ],
+    "right_h": "Évitez cela",
+    "right": [
+     "N5000 ou 5k",
+     "3 sacs @ 2000 dans une cellule",
+     "Cellules fusionnées et gros titres",
+     "Transport et transport"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Maintenant, les fonctions. Ce sont des calculs prêts à l'emploi avec des noms. Bisi vend du riz et du ragoût à Ibadan et tape ses recettes quotidiennes pendant 6 jours dans les cellules B2 à B7."
+   ],
+   "card": {
+    "title": "La semaine des soldes de Bisi",
+    "rows": [],
+    "note": "AVERAGE compte les zéros mais ignore les cellules vides."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "SUM ajoute toute la gamme. Sa semaine s'élève à 97 000 naira."
+   ],
+   "card": {
+    "title": "La semaine des soldes de Bisi",
+    "rows": [
+     [
+      "Total, =SOMME(B2:B7)",
+      "97,000"
+     ]
+    ],
+    "note": "AVERAGE compte les zéros mais ignore les cellules vides."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "MIN trouve son pire jour, 8000 mardi. MAX trouve son meilleur jour, 30500 samedi.",
+    "AVERAGE compte les zéros mais ignore les cellules vides. Elle laisse donc vide le dimanche, lorsqu'elle est fermée, et sa moyenne reflète uniquement les jours de bourse."
+   ],
+   "card": {
+    "title": "La semaine des soldes de Bisi",
+    "rows": [
+     [
+      "Total, =SOMME(B2:B7)",
+      "97,000"
+     ],
+     [
+      "Pire jour, =MIN(B2:B7)",
+      "8,000"
+     ],
+     [
+      "Meilleur jour, =MAX(B2:B7)",
+      "30,500"
+     ]
+    ],
+    "note": "AVERAGE compte les zéros mais ignore les cellules vides."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Vos dossiers représentent de l’argent, alors protégez-les. Enregistrez en ligne. Un téléphone volé ou tombé dans l’eau ne doit pas emporter vos dossiers avec lui."
+   ],
+   "panel": {
+    "kicker": "Gardez-le en sécurité",
+    "heading": "Protégez votre dossier professionnel",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Save online",
+      "d": "Google Sheets enregistre sur Google Drive. Dans Excel, enregistrez sur OneDrive avec l’enregistrement automatique activé."
+     },
+     {
+      "t": "Version history",
+      "d": "Revenez à la copie d'hier si quelque chose est supprimé. Téléchargez une sauvegarde une fois par mois."
+     },
+     {
+      "t": "Beware of scams",
+      "d": "N'activez jamais les macros dans un fichier provenant d'un étranger. Les vraies alertes bancaires arrivent par SMS ou par votre application."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Utilisez l'historique des versions pour revenir à une copie antérieure et téléchargez une sauvegarde une fois par mois."
+   ],
+   "panel": {
+    "kicker": "Gardez-le en sécurité",
+    "heading": "Protégez votre dossier professionnel",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Save online",
+      "d": "Google Sheets enregistre sur Google Drive. Dans Excel, enregistrez sur OneDrive avec l’enregistrement automatique activé."
+     },
+     {
+      "t": "Version history",
+      "d": "Revenez à la copie d'hier si quelque chose est supprimé. Téléchargez une sauvegarde une fois par mois."
+     },
+     {
+      "t": "Beware of scams",
+      "d": "N'activez jamais les macros dans un fichier provenant d'un étranger. Les vraies alertes bancaires arrivent par SMS ou par votre application."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Et n’ouvrez jamais les pièces jointes d’une feuille de calcul provenant d’inconnus qui vous demandent d’activer les macros pour voir une facture ou une alerte de paiement. C'est une manière courante d'installer des logiciels nuisibles."
+   ],
+   "panel": {
+    "kicker": "Gardez-le en sécurité",
+    "heading": "Protégez votre dossier professionnel",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Save online",
+      "d": "Google Sheets enregistre sur Google Drive. Dans Excel, enregistrez sur OneDrive avec l’enregistrement automatique activé."
+     },
+     {
+      "t": "Version history",
+      "d": "Revenez à la copie d'hier si quelque chose est supprimé. Téléchargez une sauvegarde une fois par mois."
+     },
+     {
+      "t": "Beware of scams",
+      "d": "N'activez jamais les macros dans un fichier provenant d'un étranger. Les vraies alertes bancaires arrivent par SMS ou par votre application."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "À retenir. Les cellules sont nommées lettre de colonne, puis numéro de ligne. Tapez les faits une fois et laissez les formules faire le calcul.",
+    "Tapez des nombres simples, sans N ni k. Utilisez SOMME, MOYENNE, MIN et MAX. Et conservez votre fichier enregistré en ligne et à l’abri des escroqueries."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Les cellules sont nommées lettre de colonne, puis numéro de ligne",
+     "Tapez les faits bruts une fois ; des formules comme =C2*D2 font le calcul",
+     "Nombres simples uniquement : pas de N, pas de k",
+     "SUM, AVERAGE, MIN, MAX répondent aux questions du quotidien",
+     "Enregistrez en ligne et n'activez jamais les macros d'étrangers"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "C'est maintenant votre tour. Créez votre propre feuille de vente avec trois ventes réelles, nettoyez-la et formatez-la, puis calculez votre semaine en chiffres.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâche pratique",
+    "heading": "Vos tâches pratiques",
+    "items": [
+     "Créez votre propre fiche de vente",
+     "Nettoyez-le et formatez-le, figez la ligne 1",
+     "Votre semaine en chiffres : SOMME, MOYENNE, MIN, MAX"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

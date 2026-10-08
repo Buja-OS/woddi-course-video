@@ -1,0 +1,701 @@
+{
+ "course": "blockchain-digital-assets-literacy",
+ "module": "m1",
+ "title": "Comment fonctionne réellement une blockchain et où elle échoue",
+ "course_title": "Connaissance de la blockchain et des actifs numériques",
+ "shots": [
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Comment fonctionne réellement une blockchain et où elle échoue.",
+    "Ceci est la vidéo du module 1 de Blockchain and Digital Assets Literacy."
+   ]
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Un grand livre est simplement un enregistrement de qui possède quoi et qui a payé qui. Votre trésorier ajo ou esusu en garde un dans un cahier."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Un record sans gardien unique",
+    "items": [
+     "Un grand livre enregistre qui a payé qui",
+     "Habituellement, nous faisons confiance à un seul gardien",
+     "Une blockchain le copie sur de nombreux ordinateurs",
+     "Sachez comment cela fonctionne avant de lui faire confiance"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Tout le monde fait confiance à un seul gardien. Si elle fait une erreur, perd le livre ou triche, les membres ont un problème."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Un record sans gardien unique",
+    "items": [
+     "Un grand livre enregistre qui a payé qui",
+     "Habituellement, nous faisons confiance à un seul gardien",
+     "Une blockchain le copie sur de nombreux ordinateurs",
+     "Sachez comment cela fonctionne avant de lui faire confiance"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Une blockchain est un registre copié simultanément sur plusieurs ordinateurs, appelés nœuds. Il n’y a pas un seul gardien."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Un record sans gardien unique",
+    "items": [
+     "Un grand livre enregistre qui a payé qui",
+     "Habituellement, nous faisons confiance à un seul gardien",
+     "Une blockchain le copie sur de nombreux ordinateurs",
+     "Sachez comment cela fonctionne avant de lui faire confiance"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Dans cette vidéo, vous verrez comment cela fonctionne et ses limites honnêtes."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Un record sans gardien unique",
+    "items": [
+     "Un grand livre enregistre qui a payé qui",
+     "Habituellement, nous faisons confiance à un seul gardien",
+     "Une blockchain le copie sur de nombreux ordinateurs",
+     "Sachez comment cela fonctionne avant de lui faire confiance"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Étape 1. Un paiement est envoyé au réseau."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Comment un paiement arrive sur une blockchain",
+    "items": [
+     "Le paiement est diffusé",
+     "Les nœuds le vérifient par rapport aux règles",
+     "Les paiements sont regroupés en bloc",
+     "Le bloc est lié par son hachage",
+     "Chaque copie est mise à jour"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Étape 2. De nombreux ordinateurs indépendants le vérifient par rapport aux règles convenues."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Comment un paiement arrive sur une blockchain",
+    "items": [
+     "Le paiement est diffusé",
+     "Les nœuds le vérifient par rapport aux règles",
+     "Les paiements sont regroupés en bloc",
+     "Le bloc est lié par son hachage",
+     "Chaque copie est mise à jour"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Étape 3. Les paiements sont regroupés en bloc, avec un horodatage."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Comment un paiement arrive sur une blockchain",
+    "items": [
+     "Le paiement est diffusé",
+     "Les nœuds le vérifient par rapport aux règles",
+     "Les paiements sont regroupés en bloc",
+     "Le bloc est lié par son hachage",
+     "Chaque copie est mise à jour"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Étape 4. Le bloc stocke le hachage du bloc qui le précède. Un hachage est un code court, comme une empreinte digitale pour les données. Changez une lettre et le hachage change complètement.",
+    "Parce que chaque bloc porte l’empreinte digitale du précédent, les blocs forment une chaîne."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Comment un paiement arrive sur une blockchain",
+    "items": [
+     "Le paiement est diffusé",
+     "Les nœuds le vérifient par rapport aux règles",
+     "Les paiements sont regroupés en bloc",
+     "Le bloc est lié par son hachage",
+     "Chaque copie est mise à jour"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Étape 5. Chaque copie est mise à jour. La règle qui décide quel bloc est accepté est appelée consensus. Il remplace le trésorier de confiance."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Comment un paiement arrive sur une blockchain",
+    "items": [
+     "Le paiement est diffusé",
+     "Les nœuds le vérifient par rapport aux règles",
+     "Les paiements sont regroupés en bloc",
+     "Le bloc est lié par son hachage",
+     "Chaque copie est mise à jour"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Mais rappelez-vous. Une blockchain prouve seulement qu’un enregistrement n’a pas été modifié. Si de fausses informations entrent, le système conserve ce faux enregistrement pour toujours."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Comment un paiement arrive sur une blockchain",
+    "items": [
+     "Le paiement est diffusé",
+     "Les nœuds le vérifient par rapport aux règles",
+     "Les paiements sont regroupés en bloc",
+     "Le bloc est lié par son hachage",
+     "Chaque copie est mise à jour"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Inviolable ne veut pas dire vrai.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Par exemple, cinq commerçants dirigés par Amaka conservent chacun une copie d’un enregistrement enchaîné de leurs contributions hebdomadaires."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Comment la chaîne expose la tricherie",
+    "items": [
+     "Bloc 1 : Amaka et Bola paient 5 000 chacun",
+     "Le bloc 2 stocke l'empreinte digitale du bloc 1",
+     "Bola édite sa copie à 50 000",
+     "Son empreinte digitale change ; la chaîne casse",
+     "4 copies honnêtes sont en minorité 1 copie altérée"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Le bloc 1 indique qu'Amaka a payé 5 000 naira et que Bola a payé 5 000 naira."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Comment la chaîne expose la tricherie",
+    "items": [
+     "Bloc 1 : Amaka et Bola paient 5 000 chacun",
+     "Le bloc 2 stocke l'empreinte digitale du bloc 1",
+     "Bola édite sa copie à 50 000",
+     "Son empreinte digitale change ; la chaîne casse",
+     "4 copies honnêtes sont en minorité 1 copie altérée"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Le bloc 2 enregistre deux paiements supplémentaires et stocke également l'empreinte digitale du bloc 1."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Comment la chaîne expose la tricherie",
+    "items": [
+     "Bloc 1 : Amaka et Bola paient 5 000 chacun",
+     "Le bloc 2 stocke l'empreinte digitale du bloc 1",
+     "Bola édite sa copie à 50 000",
+     "Son empreinte digitale change ; la chaîne casse",
+     "4 copies honnêtes sont en minorité 1 copie altérée"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Bola édite secrètement sa copie du bloc 1 pour dire qu'il a payé 50 000 naira."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Comment la chaîne expose la tricherie",
+    "items": [
+     "Bloc 1 : Amaka et Bola paient 5 000 chacun",
+     "Le bloc 2 stocke l'empreinte digitale du bloc 1",
+     "Bola édite sa copie à 50 000",
+     "Son empreinte digitale change ; la chaîne casse",
+     "4 copies honnêtes sont en minorité 1 copie altérée"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Désormais, le bloc 1 a une nouvelle empreinte digitale et le bloc 2 n'y est plus lié."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Comment la chaîne expose la tricherie",
+    "items": [
+     "Bloc 1 : Amaka et Bola paient 5 000 chacun",
+     "Le bloc 2 stocke l'empreinte digitale du bloc 1",
+     "Bola édite sa copie à 50 000",
+     "Son empreinte digitale change ; la chaîne casse",
+     "4 copies honnêtes sont en minorité 1 copie altérée"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Les quatre autres copies correspondent toujours, le réseau rejette donc sa version. La modification est visible immédiatement et mise en minorité."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Comment la chaîne expose la tricherie",
+    "items": [
+     "Bloc 1 : Amaka et Bola paient 5 000 chacun",
+     "Le bloc 2 stocke l'empreinte digitale du bloc 1",
+     "Bola édite sa copie à 50 000",
+     "Son empreinte digitale change ; la chaîne casse",
+     "4 copies honnêtes sont en minorité 1 copie altérée"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Avec une banque, une entreprise tient le registre. Un paiement peut souvent être annulé en raison d'un litige et le service client corrige les erreurs."
+   ],
+   "panel": {
+    "kicker": "Connaître la différence",
+    "heading": "Grand livre bancaire et blockchain publique",
+    "mode": "compare",
+    "left_h": "Grand livre bancaire",
+    "left": [
+     "La banque tient le registre",
+     "Les paiements peuvent souvent être annulés",
+     "Le service client corrige les erreurs",
+     "Lié à votre BVN et à votre nom"
+    ],
+    "right_h": "Blockchain publique",
+    "right": [
+     "Des milliers de nœuds le conservent",
+     "Les paiements confirmés sont définitifs",
+     "Mauvaise adresse : argent généralement perdu",
+     "Pseudonyme, pas anonyme"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Sur une blockchain publique, les paiements confirmés sont définitifs. Personne ne corrige une erreur. Une mauvaise adresse signifie généralement que l’argent est perdu.",
+    "Et c'est pseudonyme, pas anonyme. Une fois qu’une adresse vous est liée, tout votre historique peut être lu."
+   ],
+   "panel": {
+    "kicker": "Connaître la différence",
+    "heading": "Grand livre bancaire et blockchain publique",
+    "mode": "compare",
+    "left_h": "Grand livre bancaire",
+    "left": [
+     "La banque tient le registre",
+     "Les paiements peuvent souvent être annulés",
+     "Le service client corrige les erreurs",
+     "Lié à votre BVN et à votre nom"
+    ],
+    "right_h": "Blockchain publique",
+    "right": [
+     "Des milliers de nœuds le conservent",
+     "Les paiements confirmés sont définitifs",
+     "Mauvaise adresse : argent généralement perdu",
+     "Pseudonyme, pas anonyme"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Bitcoin utilise une preuve de travail. Des ordinateurs appelés mineurs s’affrontent pour résoudre un casse-tête de hachage, en utilisant beaucoup d’électricité. Un nouveau bloc arrive environ toutes les 10 minutes et l’offre est plafonnée à 21 millions de bitcoins."
+   ],
+   "panel": {
+    "kicker": "Se mettre d'accord sur les blocages",
+    "heading": "Preuve de travail et preuve d’enjeu",
+    "mode": "compare",
+    "left_h": "Preuve de travail",
+    "left": [
+     "Les mineurs dépensent de l'électricité",
+     "Le gagnant résout une énigme de hachage",
+     "Utilisé par Bitcoin",
+     "Offre plafonnée à 21 millions"
+    ],
+    "right_h": "Preuve de mise",
+    "right": [
+     "Les validateurs verrouillent les pièces",
+     "La tricherie coûte leur dépôt",
+     "Utilisé par Ethereum depuis 2022",
+     "Exécute des contrats intelligents"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Ethereum utilise la preuve de participation depuis septembre 2022. Les validateurs bloquent leur propre éther comme dépôt et en perdent une partie s'ils trichent.",
+    "Ethereum exécute également des contrats intelligents : un code qui s'exécute exactement comme il est écrit, erreurs incluses."
+   ],
+   "panel": {
+    "kicker": "Se mettre d'accord sur les blocages",
+    "heading": "Preuve de travail et preuve d’enjeu",
+    "mode": "compare",
+    "left_h": "Preuve de travail",
+    "left": [
+     "Les mineurs dépensent de l'électricité",
+     "Le gagnant résout une énigme de hachage",
+     "Utilisé par Bitcoin",
+     "Offre plafonnée à 21 millions"
+    ],
+    "right_h": "Preuve de mise",
+    "right": [
+     "Les validateurs verrouillent les pièces",
+     "La tricherie coûte leur dépôt",
+     "Utilisé par Ethereum depuis 2022",
+     "Exécute des contrats intelligents"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Traiter toutes les cryptomonnaies comme une seule et même chose est l’erreur la plus courante. Tout d’abord, demandez de quelle catégorie il s’agit."
+   ],
+   "panel": {
+    "kicker": "Nommez la catégorie",
+    "heading": "Toutes les cryptomonnaies ne sont pas identiques",
+    "items": [
+     "eNaira : de la monnaie de banque centrale, pas de crypto",
+     "Stablecoins : aussi bons que l’émetteur",
+     "Crypto établie : BTC, ETH, grandes fluctuations",
+     "NFT : peu de demande de revente, contrefaçons",
+     "Nouveaux jetons et memecoins : les plus risqués"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "L'eNaira, lancée en octobre 2021, est émise par la Banque centrale du Nigeria. Ce n'est pas une crypto-monnaie."
+   ],
+   "panel": {
+    "kicker": "Nommez la catégorie",
+    "heading": "Toutes les cryptomonnaies ne sont pas identiques",
+    "items": [
+     "eNaira : de la monnaie de banque centrale, pas de crypto",
+     "Stablecoins : aussi bons que l’émetteur",
+     "Crypto établie : BTC, ETH, grandes fluctuations",
+     "NFT : peu de demande de revente, contrefaçons",
+     "Nouveaux jetons et memecoins : les plus risqués"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Les Stablecoins visent à conserver une valeur de 1 dollar américain, mais l'émetteur peut geler les jetons. En mai 2022, TerraUSD a perdu sa valeur en dollars en quelques jours."
+   ],
+   "panel": {
+    "kicker": "Nommez la catégorie",
+    "heading": "Toutes les cryptomonnaies ne sont pas identiques",
+    "items": [
+     "eNaira : de la monnaie de banque centrale, pas de crypto",
+     "Stablecoins : aussi bons que l’émetteur",
+     "Crypto établie : BTC, ETH, grandes fluctuations",
+     "NFT : peu de demande de revente, contrefaçons",
+     "Nouveaux jetons et memecoins : les plus risqués"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Les crypto-monnaies établies comme le bitcoin et l’éther ont une longue histoire, mais des fluctuations de prix très importantes."
+   ],
+   "panel": {
+    "kicker": "Nommez la catégorie",
+    "heading": "Toutes les cryptomonnaies ne sont pas identiques",
+    "items": [
+     "eNaira : de la monnaie de banque centrale, pas de crypto",
+     "Stablecoins : aussi bons que l’émetteur",
+     "Crypto établie : BTC, ETH, grandes fluctuations",
+     "NFT : peu de demande de revente, contrefaçons",
+     "Nouveaux jetons et memecoins : les plus risqués"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Les NFT ont souvent peu de demande de revente."
+   ],
+   "panel": {
+    "kicker": "Nommez la catégorie",
+    "heading": "Toutes les cryptomonnaies ne sont pas identiques",
+    "items": [
+     "eNaira : de la monnaie de banque centrale, pas de crypto",
+     "Stablecoins : aussi bons que l’émetteur",
+     "Crypto établie : BTC, ETH, grandes fluctuations",
+     "NFT : peu de demande de revente, contrefaçons",
+     "Nouveaux jetons et memecoins : les plus risqués"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Les nouveaux jetons et memecoins sont les plus risqués. Beaucoup s’effondrent à zéro."
+   ],
+   "panel": {
+    "kicker": "Nommez la catégorie",
+    "heading": "Toutes les cryptomonnaies ne sont pas identiques",
+    "items": [
+     "eNaira : de la monnaie de banque centrale, pas de crypto",
+     "Stablecoins : aussi bons que l’émetteur",
+     "Crypto établie : BTC, ETH, grandes fluctuations",
+     "NFT : peu de demande de revente, contrefaçons",
+     "Nouveaux jetons et memecoins : les plus risqués"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Avant d’agir, connaissez trois limites honnêtes. Premièrement, les paiements sont définitifs. Une erreur ou un paiement frauduleux ne peut généralement pas être annulé."
+   ],
+   "panel": {
+    "kicker": "Protégez votre argent",
+    "heading": "Trois limites honnêtes",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Payments are final",
+      "d": "Aucun service client ne peut annuler une erreur ou un paiement frauduleux."
+     },
+     {
+      "t": "Garbage in, garbage out",
+      "d": "Une blockchain conserve les fausses données aussi fidèlement que les vraies données."
+     },
+     {
+      "t": "Rules keep changing",
+      "d": "Vérifiez les annonces actuelles de la CBN et de la SEC Nigeria avant d'agir."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Deuxièmement, un registre foncier ou un registre de livraison sur une blockchain est aussi vrai que la personne qui saisit les données."
+   ],
+   "panel": {
+    "kicker": "Protégez votre argent",
+    "heading": "Trois limites honnêtes",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Payments are final",
+      "d": "Aucun service client ne peut annuler une erreur ou un paiement frauduleux."
+     },
+     {
+      "t": "Garbage in, garbage out",
+      "d": "Une blockchain conserve les fausses données aussi fidèlement que les vraies données."
+     },
+     {
+      "t": "Rules keep changing",
+      "d": "Vérifiez les annonces actuelles de la CBN et de la SEC Nigeria avant d'agir."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Troisièmement, les règles au Nigeria ne cessent de changer. La loi sur les investissements et les valeurs mobilières de 2025 traite désormais les actifs numériques comme des titres sous la SEC Nigeria.",
+    "Consultez toujours les sites Web de la CBN et de la SEC Nigeria avant d'agir."
+   ],
+   "panel": {
+    "kicker": "Protégez votre argent",
+    "heading": "Trois limites honnêtes",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Payments are final",
+      "d": "Aucun service client ne peut annuler une erreur ou un paiement frauduleux."
+     },
+     {
+      "t": "Garbage in, garbage out",
+      "d": "Une blockchain conserve les fausses données aussi fidèlement que les vraies données."
+     },
+     {
+      "t": "Rules keep changing",
+      "d": "Vérifiez les annonces actuelles de la CBN et de la SEC Nigeria avant d'agir."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "À retenir. Une blockchain est un registre partagé sans gardien unique. Chaque bloc stocke l'empreinte digitale du précédent, ainsi les modifications s'affichent. Mais inviolable ne veut pas dire vrai. Les paiements sont définitifs. Et nommez toujours la catégorie avant de la juger."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Une blockchain est un registre sans gardien unique",
+     "Chaque bloc stocke le hachage du bloc précédent",
+     "Inviolable ne veut pas dire vrai",
+     "Les paiements confirmés sont définitifs",
+     "Nommez toujours la catégorie d’actif"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Dessinez maintenant trois blocs sur papier, modifiez un paiement et encerclez chaque lien brisé. Expliquez-le à un ami en moins de deux minutes.",
+    "Construisez ensuite votre carte de vocabulaire et coûtez un véritable transfert. Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâche pratique",
+    "heading": "Vos tâches pratiques",
+    "items": [
+     "Dessinez une chaîne à trois blocs sur papier",
+     "Construisez votre carte de vocabulaire",
+     "Coût d'un transfert réel depuis l'étranger"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

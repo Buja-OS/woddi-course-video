@@ -1,0 +1,701 @@
+{
+ "course": "blockchain-digital-assets-literacy",
+ "module": "m1",
+ "title": "Como um blockchain realmente funciona e onde ele falha",
+ "course_title": "Alfabetização em Blockchain e Ativos Digitais",
+ "shots": [
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Como um blockchain realmente funciona e onde ele falha.",
+    "Este é o vídeo do módulo 1 de Alfabetização em Blockchain e Ativos Digitais."
+   ]
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Um livro-razão é simplesmente um registro de quem possui o quê e quem pagou a quem. Seu tesoureiro ajo ou esusu mantém um em um caderno."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Um recorde sem um único detentor",
+    "items": [
+     "Um livro-razão registra quem pagou quem",
+     "Geralmente confiamos em um goleiro",
+     "Um blockchain o copia para muitos computadores",
+     "Saiba como funciona antes de confiar nele"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Todo mundo confia em um goleiro. Se ela cometer um erro, perder o livro ou trapacear, os membros terão um problema."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Um recorde sem um único detentor",
+    "items": [
+     "Um livro-razão registra quem pagou quem",
+     "Geralmente confiamos em um goleiro",
+     "Um blockchain o copia para muitos computadores",
+     "Saiba como funciona antes de confiar nele"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Um blockchain é um livro-razão copiado em vários computadores ao mesmo tempo, chamados de nós. Não existe um único guardião."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Um recorde sem um único detentor",
+    "items": [
+     "Um livro-razão registra quem pagou quem",
+     "Geralmente confiamos em um goleiro",
+     "Um blockchain o copia para muitos computadores",
+     "Saiba como funciona antes de confiar nele"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Neste vídeo você verá como funciona e seus limites honestos."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Um recorde sem um único detentor",
+    "items": [
+     "Um livro-razão registra quem pagou quem",
+     "Geralmente confiamos em um goleiro",
+     "Um blockchain o copia para muitos computadores",
+     "Saiba como funciona antes de confiar nele"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Passo 1. Um pagamento é enviado para a rede."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Como um pagamento chega a um blockchain",
+    "items": [
+     "O pagamento é transmitido",
+     "Os nós verificam isso em relação às regras",
+     "Os pagamentos são agrupados em um bloco",
+     "O bloco está vinculado por seu hash",
+     "Cada cópia é atualizada"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Passo 2. Muitos computadores independentes verificam isso de acordo com as regras acordadas."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Como um pagamento chega a um blockchain",
+    "items": [
+     "O pagamento é transmitido",
+     "Os nós verificam isso em relação às regras",
+     "Os pagamentos são agrupados em um bloco",
+     "O bloco está vinculado por seu hash",
+     "Cada cópia é atualizada"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Passo 3. Os pagamentos são agrupados em um bloco, com carimbo de data e hora."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Como um pagamento chega a um blockchain",
+    "items": [
+     "O pagamento é transmitido",
+     "Os nós verificam isso em relação às regras",
+     "Os pagamentos são agrupados em um bloco",
+     "O bloco está vinculado por seu hash",
+     "Cada cópia é atualizada"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Passo 4. O bloco armazena o hash do bloco anterior. Um hash é um código curto, como uma impressão digital para dados. Mude uma letra e o hash muda completamente.",
+    "Como cada bloco carrega a impressão digital do anterior, os blocos formam uma cadeia."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Como um pagamento chega a um blockchain",
+    "items": [
+     "O pagamento é transmitido",
+     "Os nós verificam isso em relação às regras",
+     "Os pagamentos são agrupados em um bloco",
+     "O bloco está vinculado por seu hash",
+     "Cada cópia é atualizada"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Passo 5. Cada cópia é atualizada. A regra que decide qual bloco será aceito é chamada de consenso. Substitui o tesoureiro de confiança."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Como um pagamento chega a um blockchain",
+    "items": [
+     "O pagamento é transmitido",
+     "Os nós verificam isso em relação às regras",
+     "Os pagamentos são agrupados em um bloco",
+     "O bloco está vinculado por seu hash",
+     "Cada cópia é atualizada"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Mas lembre-se. Um blockchain apenas prova que um registro não foi alterado. Se informações falsas entrarem, esse registro falso será mantido para sempre."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Como um pagamento chega a um blockchain",
+    "items": [
+     "O pagamento é transmitido",
+     "Os nós verificam isso em relação às regras",
+     "Os pagamentos são agrupados em um bloco",
+     "O bloco está vinculado por seu hash",
+     "Cada cópia é atualizada"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Inviolável não significa verdadeiro.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Por exemplo, cinco traders liderados por Amaka mantêm, cada um, uma cópia de um registro encadeado de suas contribuições semanais."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Como a rede expõe a trapaça",
+    "items": [
+     "Bloco 1: Amaka e Bola pagam 5.000 cada",
+     "O Bloco 2 armazena a impressão digital do Bloco 1",
+     "Bola edita sua cópia para 50.000",
+     "Sua impressão digital muda; a corrente quebra",
+     "4 cópias honestas superam 1 cópia alterada"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "O Bloco 1 registra que Amaka pagou 5.000 nairas e Bola pagou 5.000 nairas."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Como a rede expõe a trapaça",
+    "items": [
+     "Bloco 1: Amaka e Bola pagam 5.000 cada",
+     "O Bloco 2 armazena a impressão digital do Bloco 1",
+     "Bola edita sua cópia para 50.000",
+     "Sua impressão digital muda; a corrente quebra",
+     "4 cópias honestas superam 1 cópia alterada"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "O Bloco 2 registra mais dois pagamentos e também armazena a impressão digital do Bloco 1."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Como a rede expõe a trapaça",
+    "items": [
+     "Bloco 1: Amaka e Bola pagam 5.000 cada",
+     "O Bloco 2 armazena a impressão digital do Bloco 1",
+     "Bola edita sua cópia para 50.000",
+     "Sua impressão digital muda; a corrente quebra",
+     "4 cópias honestas superam 1 cópia alterada"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Bola edita secretamente sua cópia do Bloco 1 para dizer que pagou 50.000 nairas."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Como a rede expõe a trapaça",
+    "items": [
+     "Bloco 1: Amaka e Bola pagam 5.000 cada",
+     "O Bloco 2 armazena a impressão digital do Bloco 1",
+     "Bola edita sua cópia para 50.000",
+     "Sua impressão digital muda; a corrente quebra",
+     "4 cópias honestas superam 1 cópia alterada"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Agora o Bloco 1 tem uma nova impressão digital e o Bloco 2 não está mais vinculado a ela."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Como a rede expõe a trapaça",
+    "items": [
+     "Bloco 1: Amaka e Bola pagam 5.000 cada",
+     "O Bloco 2 armazena a impressão digital do Bloco 1",
+     "Bola edita sua cópia para 50.000",
+     "Sua impressão digital muda; a corrente quebra",
+     "4 cópias honestas superam 1 cópia alterada"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "As outras quatro cópias ainda coincidem, então a rede rejeita sua versão. A edição é visível imediatamente e superada na votação."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Como a rede expõe a trapaça",
+    "items": [
+     "Bloco 1: Amaka e Bola pagam 5.000 cada",
+     "O Bloco 2 armazena a impressão digital do Bloco 1",
+     "Bola edita sua cópia para 50.000",
+     "Sua impressão digital muda; a corrente quebra",
+     "4 cópias honestas superam 1 cópia alterada"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Com um banco, uma empresa mantém o registro. Muitas vezes, um pagamento pode ser revertido por meio de uma disputa e o atendimento ao cliente corrige erros."
+   ],
+   "panel": {
+    "kicker": "Conheça a diferença",
+    "heading": "Livro razão bancário e blockchain público",
+    "mode": "compare",
+    "left_h": "Livro razão do banco",
+    "left": [
+     "O banco mantém o registro",
+     "Os pagamentos muitas vezes podem ser revertidos",
+     "O atendimento ao cliente corrige erros",
+     "Vinculado ao seu BVN e nome"
+    ],
+    "right_h": "Blockchain público",
+    "right": [
+     "Milhares de nós o mantêm",
+     "Os pagamentos confirmados são finais",
+     "Endereço errado: dinheiro geralmente perdido",
+     "Pseudônimo, não anônimo"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Numa blockchain pública, os pagamentos confirmados são finais. Ninguém corrige um erro. Um endereço errado geralmente significa que o dinheiro foi perdido.",
+    "E é pseudônimo, não anônimo. Assim que um endereço estiver vinculado a você, todo o seu histórico poderá ser lido."
+   ],
+   "panel": {
+    "kicker": "Conheça a diferença",
+    "heading": "Livro razão bancário e blockchain público",
+    "mode": "compare",
+    "left_h": "Livro razão do banco",
+    "left": [
+     "O banco mantém o registro",
+     "Os pagamentos muitas vezes podem ser revertidos",
+     "O atendimento ao cliente corrige erros",
+     "Vinculado ao seu BVN e nome"
+    ],
+    "right_h": "Blockchain público",
+    "right": [
+     "Milhares de nós o mantêm",
+     "Os pagamentos confirmados são finais",
+     "Endereço errado: dinheiro geralmente perdido",
+     "Pseudônimo, não anônimo"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Bitcoin usa prova de trabalho. Computadores chamados mineradores competem para resolver um quebra-cabeça hash, usando muita eletricidade. Um novo bloco ocorre aproximadamente a cada 10 minutos e o fornecimento é limitado a 21 milhões de bitcoins."
+   ],
+   "panel": {
+    "kicker": "Concordando em blocos",
+    "heading": "Prova de trabalho e prova de participação",
+    "mode": "compare",
+    "left_h": "Prova de trabalho",
+    "left": [
+     "Mineiros gastam eletricidade",
+     "O vencedor resolve um quebra-cabeça hash",
+     "Usado por Bitcoin",
+     "Oferta limitada a 21 milhões"
+    ],
+    "right_h": "Prova de aposta",
+    "right": [
+     "Validadores bloqueiam moedas",
+     "Trapacear custa seu depósito",
+     "Usado pela Ethereum desde 2022",
+     "Executa contratos inteligentes"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Ethereum usa prova de aposta desde setembro de 2022. Os validadores bloqueiam seu próprio éter como depósito e perdem parte dele se trapacearem.",
+    "Ethereum também executa contratos inteligentes: código que é executado exatamente como foi escrito, incluindo erros."
+   ],
+   "panel": {
+    "kicker": "Concordando em blocos",
+    "heading": "Prova de trabalho e prova de participação",
+    "mode": "compare",
+    "left_h": "Prova de trabalho",
+    "left": [
+     "Mineiros gastam eletricidade",
+     "O vencedor resolve um quebra-cabeça hash",
+     "Usado por Bitcoin",
+     "Oferta limitada a 21 milhões"
+    ],
+    "right_h": "Prova de aposta",
+    "right": [
+     "Validadores bloqueiam moedas",
+     "Trapacear custa seu depósito",
+     "Usado pela Ethereum desde 2022",
+     "Executa contratos inteligentes"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Tratar todas as criptomoedas como uma só coisa é o erro mais comum. Primeiro, pergunte qual é a categoria."
+   ],
+   "panel": {
+    "kicker": "Nomeie a categoria",
+    "heading": "Nem todas as criptomoedas são iguais",
+    "items": [
+     "eNaira: dinheiro do banco central, não criptografia",
+     "Stablecoins: tão boas quanto o emissor",
+     "Criptografia estabelecida: BTC, ETH, grandes oscilações",
+     "NFTs: pouca demanda de revenda, falsificações",
+     "Novos tokens e memecoins: os mais arriscados"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "O eNaira, lançado em outubro de 2021, é emitido pelo Banco Central da Nigéria. Não é uma criptomoeda."
+   ],
+   "panel": {
+    "kicker": "Nomeie a categoria",
+    "heading": "Nem todas as criptomoedas são iguais",
+    "items": [
+     "eNaira: dinheiro do banco central, não criptografia",
+     "Stablecoins: tão boas quanto o emissor",
+     "Criptografia estabelecida: BTC, ETH, grandes oscilações",
+     "NFTs: pouca demanda de revenda, falsificações",
+     "Novos tokens e memecoins: os mais arriscados"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Os Stablecoins pretendem continuar valendo 1 dólar americano, mas o emissor pode congelar os tokens. Em maio de 2022, o TerraUSD perdeu seu valor em dólares em poucos dias."
+   ],
+   "panel": {
+    "kicker": "Nomeie a categoria",
+    "heading": "Nem todas as criptomoedas são iguais",
+    "items": [
+     "eNaira: dinheiro do banco central, não criptografia",
+     "Stablecoins: tão boas quanto o emissor",
+     "Criptografia estabelecida: BTC, ETH, grandes oscilações",
+     "NFTs: pouca demanda de revenda, falsificações",
+     "Novos tokens e memecoins: os mais arriscados"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Criptomoedas estabelecidas como bitcoin e éter têm uma longa história, mas oscilações de preços muito grandes."
+   ],
+   "panel": {
+    "kicker": "Nomeie a categoria",
+    "heading": "Nem todas as criptomoedas são iguais",
+    "items": [
+     "eNaira: dinheiro do banco central, não criptografia",
+     "Stablecoins: tão boas quanto o emissor",
+     "Criptografia estabelecida: BTC, ETH, grandes oscilações",
+     "NFTs: pouca demanda de revenda, falsificações",
+     "Novos tokens e memecoins: os mais arriscados"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Os NFTs geralmente têm pouca demanda de revenda."
+   ],
+   "panel": {
+    "kicker": "Nomeie a categoria",
+    "heading": "Nem todas as criptomoedas são iguais",
+    "items": [
+     "eNaira: dinheiro do banco central, não criptografia",
+     "Stablecoins: tão boas quanto o emissor",
+     "Criptografia estabelecida: BTC, ETH, grandes oscilações",
+     "NFTs: pouca demanda de revenda, falsificações",
+     "Novos tokens e memecoins: os mais arriscados"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Novos tokens e memecoins são os mais arriscados. Muitos caem a zero."
+   ],
+   "panel": {
+    "kicker": "Nomeie a categoria",
+    "heading": "Nem todas as criptomoedas são iguais",
+    "items": [
+     "eNaira: dinheiro do banco central, não criptografia",
+     "Stablecoins: tão boas quanto o emissor",
+     "Criptografia estabelecida: BTC, ETH, grandes oscilações",
+     "NFTs: pouca demanda de revenda, falsificações",
+     "Novos tokens e memecoins: os mais arriscados"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Antes de agir, conheça três limites honestos. Primeiro, os pagamentos são finais. Um erro ou pagamento fraudulento geralmente não pode ser desfeito."
+   ],
+   "panel": {
+    "kicker": "Proteja seu dinheiro",
+    "heading": "Três limites honestos",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Payments are final",
+      "d": "Nenhum atendimento ao cliente pode reverter um erro ou um pagamento fraudulento."
+     },
+     {
+      "t": "Garbage in, garbage out",
+      "d": "Um blockchain mantém dados falsos tão fielmente quanto dados verdadeiros."
+     },
+     {
+      "t": "Rules keep changing",
+      "d": "Verifique os anúncios atuais da CBN e SEC Nigéria antes de agir."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Em segundo lugar, um registro de terreno ou registro de entrega em um blockchain só é tão verdadeiro quanto a pessoa que digita os dados."
+   ],
+   "panel": {
+    "kicker": "Proteja seu dinheiro",
+    "heading": "Três limites honestos",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Payments are final",
+      "d": "Nenhum atendimento ao cliente pode reverter um erro ou um pagamento fraudulento."
+     },
+     {
+      "t": "Garbage in, garbage out",
+      "d": "Um blockchain mantém dados falsos tão fielmente quanto dados verdadeiros."
+     },
+     {
+      "t": "Rules keep changing",
+      "d": "Verifique os anúncios atuais da CBN e SEC Nigéria antes de agir."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Terceiro, as regras na Nigéria estão sempre a mudar. A Lei de Investimentos e Valores Mobiliários de 2025 agora trata os ativos digitais como títulos sob a SEC Nigéria.",
+    "Sempre verifique os sites da CBN e SEC Nigéria antes de agir."
+   ],
+   "panel": {
+    "kicker": "Proteja seu dinheiro",
+    "heading": "Três limites honestos",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Payments are final",
+      "d": "Nenhum atendimento ao cliente pode reverter um erro ou um pagamento fraudulento."
+     },
+     {
+      "t": "Garbage in, garbage out",
+      "d": "Um blockchain mantém dados falsos tão fielmente quanto dados verdadeiros."
+     },
+     {
+      "t": "Rules keep changing",
+      "d": "Verifique os anúncios atuais da CBN e SEC Nigéria antes de agir."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Para lembrar. Um blockchain é um livro-razão compartilhado sem um único detentor. Cada bloco armazena a impressão digital do anterior, para que as edições sejam exibidas. Mas inviolável não significa verdadeiro. Os pagamentos são finais. E sempre nomeie a categoria antes de julgá-la."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Lembre-se",
+    "items": [
+     "Um blockchain é um livro-razão sem um único guardião",
+     "Cada bloco armazena o hash do bloco anterior",
+     "Inviolável não significa verdadeiro",
+     "Os pagamentos confirmados são finais",
+     "Sempre nomeie a categoria do ativo"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Agora desenhe três blocos no papel, altere um pagamento e circule cada link quebrado. Explique isso a um amigo em menos de dois minutos.",
+    "Em seguida, construa seu cartão de vocabulário e custe uma transferência real. Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Tarefa prática",
+    "heading": "Suas tarefas práticas",
+    "items": [
+     "Desenhe uma corrente de três blocos no papel",
+     "Construa seu cartão de vocabulário",
+     "Custa uma transferência real do exterior"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

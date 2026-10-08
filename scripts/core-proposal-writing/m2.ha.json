@@ -1,0 +1,586 @@
+{
+ "course": "core-proposal-writing",
+ "module": "m2",
+ "title": "Daga matsala zuwa tsari: manufofi, ayyuka da dabaru na aikin",
+ "course_title": "Rubutun Shawara: Tallafi da Shawarwari na Kasuwanci",
+ "shots": [
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Daga matsala zuwa tsari: manufofi, ayyuka da dabaru na aikin.",
+    "Wannan shi ne bidiyo na samfuri na biyu na Rubutun Shawara."
+   ]
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Maganar matsalar ita ce ginshiƙin shawarar ku. Dole ne manufofin ku su gyara matsalar da kuka bayyana, kuma ayyukanku dole ne su magance musabbabin ta."
+   ],
+   "panel": {
+    "kicker": "Maganar matsala",
+    "heading": "Tambayoyi hudu don amsa",
+    "items": [
+     "Wanene abin ya shafa?",
+     "Ina, kuma nawa?",
+     "Menene matsalar, kuma yaya girma?",
+     "Me yasa hakan ke faruwa?"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Wanene abin ya shafa? Kasance takamaimai. Mata masu shekaru 25 zuwa 50 suna kasuwanci a babbar kasuwar Lafia, ba mata a Afirka ba."
+   ],
+   "panel": {
+    "kicker": "Maganar matsala",
+    "heading": "Tambayoyi hudu don amsa",
+    "items": [
+     "Wanene abin ya shafa?",
+     "Ina, kuma nawa?",
+     "Menene matsalar, kuma yaya girma?",
+     "Me yasa hakan ke faruwa?"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Ina, kuma nawa? Sunan al'umma kuma ba da lambobi da za ku iya tallafawa."
+   ],
+   "panel": {
+    "kicker": "Maganar matsala",
+    "heading": "Tambayoyi hudu don amsa",
+    "items": [
+     "Wanene abin ya shafa?",
+     "Ina, kuma nawa?",
+     "Menene matsalar, kuma yaya girma?",
+     "Me yasa hakan ke faruwa?"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Menene matsalar, a cikin ma'auni kamar kudin shiga ko farashi?"
+   ],
+   "panel": {
+    "kicker": "Maganar matsala",
+    "heading": "Tambayoyi hudu don amsa",
+    "items": [
+     "Wanene abin ya shafa?",
+     "Ina, kuma nawa?",
+     "Menene matsalar, kuma yaya girma?",
+     "Me yasa hakan ke faruwa?"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Kuma me yasa hakan ke faruwa? Sunan tushen abubuwan da aikinku zai magance.",
+    "Kuskuren gama gari shine kiran rashin maganin ku matsalar. Babu cibiyar yin sabulu ba shine matsala ba. Low kudin shiga ne."
+   ],
+   "panel": {
+    "kicker": "Maganar matsala",
+    "heading": "Tambayoyi hudu don amsa",
+    "items": [
+     "Wanene abin ya shafa?",
+     "Ina, kuma nawa?",
+     "Menene matsalar, kuma yaya girma?",
+     "Me yasa hakan ke faruwa?"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Yawancin bayanan ku sune mafi tabbataccen shaida, saboda ba kasafai masu kishin kasa ke bayyana unguwar ku ba. Misali, Amaka ta yi nazari a kan mambobi 40 na kungiyar hadin gwiwarta a cikin mako guda, tare da fom na takarda mai shafi daya. Kwas ɗin yana amfani da sakamako na misali."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Binciken Amaka na kansa na mambobi 40",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "29 of 40",
+      "d": "ya samu kasa da ribar naira 20,000 a kowane wata daga ciniki."
+     },
+     {
+      "t": "34 of 40",
+      "d": "ba shi da fasaha na samarwa."
+     },
+     {
+      "t": "26 and 22",
+      "d": "Mata 26 sun bayyana rashin samun horo a matsayin babban shinge, kuma 22 sun bayyana sunan jarin fara aiki."
+     }
+    ],
+    "show": 0
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "29 daga cikin 40 din suna samun riba kasa da naira 20,000 a wata."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Binciken Amaka na kansa na mambobi 40",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "29 of 40",
+      "d": "ya samu kasa da ribar naira 20,000 a kowane wata daga ciniki."
+     },
+     {
+      "t": "34 of 40",
+      "d": "ba shi da fasaha na samarwa."
+     },
+     {
+      "t": "26 and 22",
+      "d": "Mata 26 sun bayyana rashin samun horo a matsayin babban shinge, kuma 22 sun bayyana sunan jarin fara aiki."
+     }
+    ],
+    "show": 1,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "34 ba su da fasaha na samarwa."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Binciken Amaka na kansa na mambobi 40",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "29 of 40",
+      "d": "ya samu kasa da ribar naira 20,000 a kowane wata daga ciniki."
+     },
+     {
+      "t": "34 of 40",
+      "d": "ba shi da fasaha na samarwa."
+     },
+     {
+      "t": "26 and 22",
+      "d": "Mata 26 sun bayyana rashin samun horo a matsayin babban shinge, kuma 22 sun bayyana sunan jarin fara aiki."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "26 sun bayyana rashin horo a matsayin babban shinge, kuma 22 sun ba da babban jari. Don haka aikinta zai magance waɗannan tushe guda biyu: ƙwarewa da babban jari.",
+    "Yi amfani da adadi daidai yadda tushen ku ya ba su. Kada a taɓa ƙirƙira ko tattara ƙididdiga."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Binciken Amaka na kansa na mambobi 40",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "29 of 40",
+      "d": "ya samu kasa da ribar naira 20,000 a kowane wata daga ciniki."
+     },
+     {
+      "t": "34 of 40",
+      "d": "ba shi da fasaha na samarwa."
+     },
+     {
+      "t": "26 and 22",
+      "d": "Mata 26 sun bayyana rashin samun horo a matsayin babban shinge, kuma 22 sun bayyana sunan jarin fara aiki."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Manufofin su ne takamaiman canje-canjen da aikin ku zai cimma da aunawa. Ƙaddamar da mata a fannin tattalin arziki yana da kyau, amma ba shi da lamba kuma babu kwanan wata."
+   ],
+   "panel": {
+    "kicker": "Manufofin SMART",
+    "heading": "Raunan manufa ko SMART?",
+    "mode": "compare",
+    "left_h": "Mai rauni",
+    "left": [
+     "Karfafa mata a fannin tattalin arziki",
+     "Horar da mata da yawa aikin sabulu",
+     "Ƙara yawan kuɗin shiga"
+    ],
+    "right_h": "SMART",
+    "right": [
+     "Watan 6: 30 na 40 ana siyarwa akai-akai",
+     "Watan 3: 40 cika kwanakin horo 12",
+     "Wata 6: 25 suna samun ƙarin 10,000 a wata"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "SMART yana nufin takamaiman, abin aunawa, mai yiwuwa, dacewa, da ɗaure lokaci. Amaka ta rubuta cewa: a wata 3, mata 40 sun kammala horo na kwanaki 12.",
+    "A wata 6, akalla 30 suna sayar da kayayyakinsu a kalla sau biyu a wata, sannan akalla 25 suna bayar da rahoton karin ribar naira 10,000 ko fiye a kowane wata.",
+    "Kasance mai gaskiya, ba burgewa ba. Haɗu da maƙasudin ƙayyadaddun ƙayyadaddun manufa yana gina amincin mai kuɗi."
+   ],
+   "panel": {
+    "kicker": "Manufofin SMART",
+    "heading": "Raunan manufa ko SMART?",
+    "mode": "compare",
+    "left_h": "Mai rauni",
+    "left": [
+     "Karfafa mata a fannin tattalin arziki",
+     "Horar da mata da yawa aikin sabulu",
+     "Ƙara yawan kuɗin shiga"
+    ],
+    "right_h": "SMART",
+    "right": [
+     "Watan 6: 30 na 40 ana siyarwa akai-akai",
+     "Watan 3: 40 cika kwanakin horo 12",
+     "Wata 6: 25 suna samun ƙarin 10,000 a wata"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Rubuta kowace manufa a saman shafi."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Daga maƙasudai zuwa tsarin aiki",
+    "items": [
+     "Rubuta kowace manufa a saman shafi",
+     "Jerin ayyukan, kowanne yana farawa da fi'ili",
+     "Ba kowane aiki mai alhakin guda ɗaya",
+     "Alama watannin farawa da ƙarewa",
+     "Daidaita kowane aiki zuwa layin kasafin kuɗi"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "A ƙarƙashinsa, jera kowane aiki, farawa da fi'ili: daukar ma'aikata, saya, horarwa, jagora, bincike, rahoto."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Daga maƙasudai zuwa tsarin aiki",
+    "items": [
+     "Rubuta kowace manufa a saman shafi",
+     "Jerin ayyukan, kowanne yana farawa da fi'ili",
+     "Ba kowane aiki mai alhakin guda ɗaya",
+     "Alama watannin farawa da ƙarewa",
+     "Daidaita kowane aiki zuwa layin kasafin kuɗi"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Ba kowane aiki mai alhakin guda ɗaya. Misali, masu horarwa suna ba da kwanakin horo 12, 2 a mako."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Daga maƙasudai zuwa tsarin aiki",
+    "items": [
+     "Rubuta kowace manufa a saman shafi",
+     "Jerin ayyukan, kowanne yana farawa da fi'ili",
+     "Ba kowane aiki mai alhakin guda ɗaya",
+     "Alama watannin farawa da ƙarewa",
+     "Daidaita kowane aiki zuwa layin kasafin kuɗi"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Yi alama lokacin farawa da ƙare kowane, kuma zana shi azaman ginshiƙi mai sauƙi tare da ayyuka kamar layuka da watanni azaman ginshiƙai. Ka guji yawan lokutan bukukuwa ko lokacin shuka."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Daga maƙasudai zuwa tsarin aiki",
+    "items": [
+     "Rubuta kowace manufa a saman shafi",
+     "Jerin ayyukan, kowanne yana farawa da fi'ili",
+     "Ba kowane aiki mai alhakin guda ɗaya",
+     "Alama watannin farawa da ƙarewa",
+     "Daidaita kowane aiki zuwa layin kasafin kuɗi"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Sannan a duba cewa kowane aiki yana da layin kasafin kudi, kuma kowane layin kasafin kudi yana da wani aiki. Masu dubawa sukan sami gibi anan."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Daga maƙasudai zuwa tsarin aiki",
+    "items": [
+     "Rubuta kowace manufa a saman shafi",
+     "Jerin ayyukan, kowanne yana farawa da fi'ili",
+     "Ba kowane aiki mai alhakin guda ɗaya",
+     "Alama watannin farawa da ƙarewa",
+     "Daidaita kowane aiki zuwa layin kasafin kuɗi"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Kowane aiki yana buƙatar fi'ili, mai shi da kwanan wata.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Masu ba da kuɗi suna son ganin dalilin da yasa ayyukan ku zai haifar da canjin da kuka yi alkawari. Abubuwan shigarwa sune albarkatun ku. Ayyuka shine abin da kuke yi da su."
+   ],
+   "panel": {
+    "kicker": "Dabarar aikin",
+    "heading": "Sarkar sakamako",
+    "items": [
+     "Abubuwan shigarwa: kuɗi, mutane, kayan aiki",
+     "Ayyuka: abin da kuke yi",
+     "Sakamakon: abin da kuke bayarwa",
+     "Sakamakon: canji a cikin mutane",
+     "Tasiri: canji na dogon lokaci"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Fitowa shine abin da kuke bayarwa, cikakke ƙarƙashin ikon ku, kamar mata 40 da aka horar."
+   ],
+   "panel": {
+    "kicker": "Dabarar aikin",
+    "heading": "Sarkar sakamako",
+    "items": [
+     "Abubuwan shigarwa: kuɗi, mutane, kayan aiki",
+     "Ayyuka: abin da kuke yi",
+     "Sakamakon: abin da kuke bayarwa",
+     "Sakamakon: canji a cikin mutane",
+     "Tasiri: canji na dogon lokaci"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Sakamako shine canjin da ke haifarwa, kamar yadda mata ke siyarwa da samun ƙarin kuɗi. Kar a sanya mata da aka horar a matakai biyu."
+   ],
+   "panel": {
+    "kicker": "Dabarar aikin",
+    "heading": "Sarkar sakamako",
+    "items": [
+     "Abubuwan shigarwa: kuɗi, mutane, kayan aiki",
+     "Ayyuka: abin da kuke yi",
+     "Sakamakon: abin da kuke bayarwa",
+     "Sakamakon: canji a cikin mutane",
+     "Tasiri: canji na dogon lokaci"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Tasiri shine canji na dogon lokaci da kuke ba da gudummawa a kai. Ci gaba tare da sarkar, ƙarancin iko da kuke da shi."
+   ],
+   "panel": {
+    "kicker": "Dabarar aikin",
+    "heading": "Sarkar sakamako",
+    "items": [
+     "Abubuwan shigarwa: kuɗi, mutane, kayan aiki",
+     "Ayyuka: abin da kuke yi",
+     "Sakamakon: abin da kuke bayarwa",
+     "Sakamakon: canji a cikin mutane",
+     "Tasiri: canji na dogon lokaci"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Ka'idar canji ita ce sarkar idan, sannan maganganu. Idan mata 40 sun sami horo na aiki, to za su sami ƙwarewar yin kayayyaki masu kyau. Zato: za su iya halartar zaman 2 a mako."
+   ],
+   "panel": {
+    "kicker": "Ka'idar canji",
+    "heading": "Amaka ta idan-to sarkar",
+    "items": [
+     "IDAN an horar da su, to za su iya yin samfurori masu kyau",
+     "IDAN aka ba da kayan farawa, TO babu aro",
+     "IDAN aka yi musu jagora da kwanakin kasuwa, TO sai su sayar",
+     "IDAN sun sayar da biyan kuɗi, SANNAN kuɗin shiga ya tashi"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Idan sun karɓi kayan farawa, to za su iya samarwa ba tare da aro ba. Zato: kayan sun tsaya kusa da farashin kasafin kuɗi."
+   ],
+   "panel": {
+    "kicker": "Ka'idar canji",
+    "heading": "Amaka ta idan-to sarkar",
+    "items": [
+     "IDAN an horar da su, to za su iya yin samfurori masu kyau",
+     "IDAN aka ba da kayan farawa, TO babu aro",
+     "IDAN aka yi musu jagora da kwanakin kasuwa, TO sai su sayar",
+     "IDAN sun sayar da biyan kuɗi, SANNAN kuɗin shiga ya tashi"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Idan sun sami jagoranci da kwanakin kasuwa, to za su sayar akai-akai."
+   ],
+   "panel": {
+    "kicker": "Ka'idar canji",
+    "heading": "Amaka ta idan-to sarkar",
+    "items": [
+     "IDAN an horar da su, to za su iya yin samfurori masu kyau",
+     "IDAN aka ba da kayan farawa, TO babu aro",
+     "IDAN aka yi musu jagora da kwanakin kasuwa, TO sai su sayar",
+     "IDAN sun sayar da biyan kuɗi, SANNAN kuɗin shiga ya tashi"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Idan sun sayar da biyan kuɗi, to, kuɗin shiga zai karu. Masu horarwa suna juyawa ba zato ba ne. Aikinku kenan."
+   ],
+   "panel": {
+    "kicker": "Ka'idar canji",
+    "heading": "Amaka ta idan-to sarkar",
+    "items": [
+     "IDAN an horar da su, to za su iya yin samfurori masu kyau",
+     "IDAN aka ba da kayan farawa, TO babu aro",
+     "IDAN aka yi musu jagora da kwanakin kasuwa, TO sai su sayar",
+     "IDAN sun sayar da biyan kuɗi, SANNAN kuɗin shiga ya tashi"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Zato wani yanayi ne da ke waje da ikon ku kai tsaye.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Wurin loggia yana sanya dabaru iri ɗaya a cikin tebur: manufa, sakamako, fitarwa da ayyuka. Karanta kowane jere.",
+    "Yana buƙatar taƙaitaccen bayani, ɗaya zuwa uku masu nuni tare da maƙasudi, ainihin tushen shaida kamar takaddun halarta ko safiyo, da zato na gaskiya.",
+    "Yi amfani da samfurin mai ba da kuɗi idan akwai ɗaya."
+   ],
+   "panel": {
+    "kicker": "The logframe",
+    "heading": "Bincika kowane jere na logframe ɗin ku",
+    "items": [
+     "Bayanin taƙaitaccen labari",
+     "Manuniya ɗaya zuwa uku, kowanne da manufa",
+     "Ainihin hanyar tabbatarwa",
+     "Zato da gaske ba sa iya sarrafa ku"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Ayyukanku. Zana itace matsala kuma tattara aƙalla shaida ɗaya. Rubuta bayanin matsala na kalmomi 200 zuwa 300. Rubuta manufofin SMART 2 ko 3 tare da taswirar tsarin aiki mai sauƙi.",
+    "Sa'an nan kuma rubuta sarkar ku idan-sai kuma ku cika katako. Yanzu ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Ayyukanku",
+    "heading": "Gina zuciyar shawarar ku",
+    "items": [
+     "Zana itace matsala kuma tattara shaida",
+     "Rubuta bayanin matsalar kalmomi 200 zuwa 300",
+     "Rubuta 2 ko 3 SMART manufofin da ginshiƙi",
+     "Rubuta idan-sannan hanyoyin haɗin yanar gizo kuma cika logframe"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

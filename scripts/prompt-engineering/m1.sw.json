@@ -1,0 +1,497 @@
+{
+ "course": "prompt-engineering",
+ "module": "m1",
+ "title": "Jinsi AI inasoma haraka yako, na jinsi ya kuandika ambayo inafanya kazi",
+ "course_title": "Uhandisi wa haraka",
+ "shots": [
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Jinsi AI inasoma haraka yako, na jinsi ya kuandika ambayo inafanya kazi.",
+    "Hii ni video ya moduli ya kwanza ya Uhandisi wa Haraka."
+   ]
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Zana kama vile ChatGPT, Gemini, Claude na Copilot zimeundwa kwa miundo mikubwa ya lugha. Kwa kuzingatia maandishi fulani, modeli hutabiri maandishi yatakayofuata. Sio kutafuta jibu lililohifadhiwa."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Mfano anajua tu kile unachompa",
+    "items": [
+     "Elewa kile mtindo hufanya na maneno yako",
+     "Jua kwa nini majibu ya uhakika yanaweza kuwa sio sahihi",
+     "Tumia kidokezo cha sehemu sita kwa kazi ambayo ni muhimu",
+     "Chagua mahali ambapo ushawishi unalipa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Ndio maana jibu linaweza kusikika kuwa sawa na bado likawa la uwongo."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Mfano anajua tu kile unachompa",
+    "items": [
+     "Elewa kile mtindo hufanya na maneno yako",
+     "Jua kwa nini majibu ya uhakika yanaweza kuwa sio sahihi",
+     "Tumia kidokezo cha sehemu sita kwa kazi ambayo ni muhimu",
+     "Chagua mahali ambapo ushawishi unalipa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Ikiwa kidokezo chako hakieleweki, jibu linalowezekana zaidi ni lisilo wazi na wastani. Ikiwa inataja msomaji, madhumuni na muundo, jibu huwa maalum."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Mfano anajua tu kile unachompa",
+    "items": [
+     "Elewa kile mtindo hufanya na maneno yako",
+     "Jua kwa nini majibu ya uhakika yanaweza kuwa sio sahihi",
+     "Tumia kidokezo cha sehemu sita kwa kazi ambayo ni muhimu",
+     "Chagua mahali ambapo ushawishi unalipa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Na utajifunza ni kazi gani kati ya kazi zako zinazofaa kujitahidi."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Mfano anajua tu kile unachompa",
+    "items": [
+     "Elewa kile mtindo hufanya na maneno yako",
+     "Jua kwa nini majibu ya uhakika yanaweza kuwa sio sahihi",
+     "Tumia kidokezo cha sehemu sita kwa kazi ambayo ni muhimu",
+     "Chagua mahali ambapo ushawishi unalipa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Mifano husoma tokeni. Neno la kawaida la Kiingereza linaweza kuwa ishara moja, lakini neno la Kiyoruba, Kihausa au Igbo linaweza kugawanywa katika kadhaa. Kama mwongozo mbaya, tokeni 1,000 ni kama maneno 750 ya Kiingereza."
+   ],
+   "panel": {
+    "kicker": "Jinsi inavyofanya kazi",
+    "heading": "Mambo manne ya kujua kuhusu mfano",
+    "items": [
+     "Inasoma ishara, vipande vya maandishi, sio maneno",
+     "Dirisha la muktadha huweka mipaka ya kile kinachoweza kuzingatia",
+     "Inaweza kusema ukweli wa uwongo kwa ujasiri",
+     "Kila soga mpya huanza tupu kwa chaguomsingi"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Dirisha la muktadha ndilo linaloweza kuzingatia zaidi kwa wakati mmoja, ikijumuisha kidokezo chako, hati yoyote iliyobandikwa na jibu. Katika mazungumzo marefu sana, maelezo ya awali yanaweza kuachwa. Anzisha gumzo jipya na ubandike muhtasari mfupi."
+   ],
+   "panel": {
+    "kicker": "Jinsi inavyofanya kazi",
+    "heading": "Mambo manne ya kujua kuhusu mfano",
+    "items": [
+     "Inasoma ishara, vipande vya maandishi, sio maneno",
+     "Dirisha la muktadha huweka mipaka ya kile kinachoweza kuzingatia",
+     "Inaweza kusema ukweli wa uwongo kwa ujasiri",
+     "Kila soga mpya huanza tupu kwa chaguomsingi"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Majibu ya kujiamini lakini ya uwongo yanaitwa ndoto. Hutokea zaidi kwa majina, takwimu halisi, matukio ya hivi karibuni na marejeleo. Angalia chochote utakachochapisha au kuchukua hatua."
+   ],
+   "panel": {
+    "kicker": "Jinsi inavyofanya kazi",
+    "heading": "Mambo manne ya kujua kuhusu mfano",
+    "items": [
+     "Inasoma ishara, vipande vya maandishi, sio maneno",
+     "Dirisha la muktadha huweka mipaka ya kile kinachoweza kuzingatia",
+     "Inaweza kusema ukweli wa uwongo kwa ujasiri",
+     "Kila soga mpya huanza tupu kwa chaguomsingi"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Na isipokuwa uwashe kipengele cha kumbukumbu, kila gumzo jipya halijui lolote kukuhusu."
+   ],
+   "panel": {
+    "kicker": "Jinsi inavyofanya kazi",
+    "heading": "Mambo manne ya kujua kuhusu mfano",
+    "items": [
+     "Inasoma ishara, vipande vya maandishi, sio maneno",
+     "Dirisha la muktadha huweka mipaka ya kile kinachoweza kuzingatia",
+     "Inaweza kusema ukweli wa uwongo kwa ujasiri",
+     "Kila soga mpya huanza tupu kwa chaguomsingi"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Kwa mfano, Halima anaratibu ushirika wa wanawake huko Kaduna. Anahitaji kuwaambia wanachama 40 eneo la mkutano limebadilika. Kidokezo chake cha kwanza anapata barua rasmi, ya jumla iliyo na nafasi zilizo wazi ambapo ukweli unapaswa kuwa."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Kazi moja, vidokezo viwili",
+    "mode": "compare",
+    "left_h": "Mwongozo wa A",
+    "left": [
+     "Andika ujumbe kuhusu mabadiliko ya ukumbi",
+     "Rasmi, generic, kuhusu maneno 180",
+     "Vishika nafasi, hakuna tarehe"
+    ],
+    "right_h": "Mwongozo B",
+    "right": [
+     "Wasomaji, tarehe, mahali, sababu",
+     "WhatsApp, chini ya maneno 60",
+     "Inaweza kutumika baada ya uhariri mmoja mdogo"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Agizo lake la pili linawataja wasomaji, wengi wao wakiwa wafanyabiashara wenye umri wa miaka 30 hadi 60, tarehe, ukumbi wa zamani na mpya, wakati, sababu, chaneli, na kikomo cha maneno 60.",
+    "Jibu ni maneno 52 na tayari kutuma. Mfano haukuwa nadhifu. Halima alitoa ukweli unaohitaji."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Kazi moja, vidokezo viwili",
+    "mode": "compare",
+    "left_h": "Mwongozo wa A",
+    "left": [
+     "Andika ujumbe kuhusu mabadiliko ya ukumbi",
+     "Rasmi, generic, kuhusu maneno 180",
+     "Vishika nafasi, hakuna tarehe"
+    ],
+    "right_h": "Mwongozo B",
+    "right": [
+     "Wasomaji, tarehe, mahali, sababu",
+     "WhatsApp, chini ya maneno 60",
+     "Inaweza kutumika baada ya uhariri mmoja mdogo"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Ngozi anafanya kazi katika shirika lisilo la kiserikali huko Enugu. Ni lazima abadilishe ripoti ya uga yenye kurasa 9 kuwa muhtasari wa ukurasa mmoja. Kazi yake inaanza na kitenzi kimoja chenye nguvu: andika muhtasari wa uamuzi wa ukurasa mmoja."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Agizo la sehemu sita",
+    "items": [
+     "Kazi: kitenzi kimoja wazi",
+     "Muktadha: msomaji na kusudi",
+     "Ingizo: nyenzo ndani ya vikomo",
+     "Muundo: sura na urefu",
+     "Vikwazo: mipaka na lazima-sio",
+     "Mifano: onyesha matokeo mazuri"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Muktadha: msomaji ni mkurugenzi wake, ambaye ana dakika 5 kabla ya simu ya mfadhili."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Agizo la sehemu sita",
+    "items": [
+     "Kazi: kitenzi kimoja wazi",
+     "Muktadha: msomaji na kusudi",
+     "Ingizo: nyenzo ndani ya vikomo",
+     "Muundo: sura na urefu",
+     "Vikwazo: mipaka na lazima-sio",
+     "Mifano: onyesha matokeo mazuri"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Ingizo: ripoti ilibandikwa kati ya lebo za ripoti, ili modeli asiichanganye na maagizo yake."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Agizo la sehemu sita",
+    "items": [
+     "Kazi: kitenzi kimoja wazi",
+     "Muktadha: msomaji na kusudi",
+     "Ingizo: nyenzo ndani ya vikomo",
+     "Muundo: sura na urefu",
+     "Vikwazo: mipaka na lazima-sio",
+     "Mifano: onyesha matokeo mazuri"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Muundo: vichwa vinne, pointi za risasi, chini ya maneno 300."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Agizo la sehemu sita",
+    "items": [
+     "Kazi: kitenzi kimoja wazi",
+     "Muktadha: msomaji na kusudi",
+     "Ingizo: nyenzo ndani ya vikomo",
+     "Muundo: sura na urefu",
+     "Vikwazo: mipaka na lazima-sio",
+     "Mifano: onyesha matokeo mazuri"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Vikwazo: tumia nambari pekee kwenye ripoti. Ambapo hakuna takwimu, andika HAIJASIKIWA."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Agizo la sehemu sita",
+    "items": [
+     "Kazi: kitenzi kimoja wazi",
+     "Muktadha: msomaji na kusudi",
+     "Ingizo: nyenzo ndani ya vikomo",
+     "Muundo: sura na urefu",
+     "Vikwazo: mipaka na lazima-sio",
+     "Mifano: onyesha matokeo mazuri"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Mifano: muhtasari wa siku za nyuma mkurugenzi alisifu. Haraka yake isiyoeleweka ilikuwa imevumbua takwimu ambayo haikuwa kwenye ripoti. Agizo la sehemu sita lilitoa maneno 270 bila takwimu zilizobuniwa, na bado aliangalia kila nambari."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Agizo la sehemu sita",
+    "items": [
+     "Kazi: kitenzi kimoja wazi",
+     "Muktadha: msomaji na kusudi",
+     "Ingizo: nyenzo ndani ya vikomo",
+     "Muundo: sura na urefu",
+     "Vikwazo: mipaka na lazima-sio",
+     "Mifano: onyesha matokeo mazuri"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "rule": "Iambie nini cha kufanya wakati habari inakosekana: usikisie.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Orodhesha kazi zako kwa wiki moja, kisha upange kila moja kulingana na thamani ya muda uliohifadhiwa na hatari ikiwa si sahihi. Anza na thamani ya juu, kazi za hatari ndogo."
+   ],
+   "panel": {
+    "kicker": "Thamani na hatari",
+    "heading": "Ambapo ushawishi hulipa",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "High value, low risk",
+      "d": "Vidokezo vya ndani, sasisho za kila wiki, rasimu za kwanza. Haraka kwanza, kisha angalia mwanga."
+     },
+     {
+      "t": "High value, high risk",
+      "d": "Ripoti za wafadhili, muhtasari wa fedha. Inastahili kuombwa, lakini angalia kila takwimu na dai."
+     },
+     {
+      "t": "Endelea kuongozwa na mwanadamu",
+      "d": "Huzuni, msamaha, maamuzi kuhusu watu, hukumu ya kisheria, kimatibabu au ya kifedha."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Thamani ya juu lakini kazi yenye hatari kubwa bado inafaa kuombwa, kwa ukaguzi wa makini."
+   ],
+   "panel": {
+    "kicker": "Thamani na hatari",
+    "heading": "Ambapo ushawishi hulipa",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "High value, low risk",
+      "d": "Vidokezo vya ndani, sasisho za kila wiki, rasimu za kwanza. Haraka kwanza, kisha angalia mwanga."
+     },
+     {
+      "t": "High value, high risk",
+      "d": "Ripoti za wafadhili, muhtasari wa fedha. Inastahili kuombwa, lakini angalia kila takwimu na dai."
+     },
+     {
+      "t": "Endelea kuongozwa na mwanadamu",
+      "d": "Huzuni, msamaha, maamuzi kuhusu watu, hukumu ya kisheria, kimatibabu au ya kifedha."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Baadhi ya kazi hukaa na watu: jumbe za huzuni au msamaha, uajiri na alama, na chochote kinachohitaji uamuzi wa kisheria, matibabu au kifedha."
+   ],
+   "panel": {
+    "kicker": "Thamani na hatari",
+    "heading": "Ambapo ushawishi hulipa",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "High value, low risk",
+      "d": "Vidokezo vya ndani, sasisho za kila wiki, rasimu za kwanza. Haraka kwanza, kisha angalia mwanga."
+     },
+     {
+      "t": "High value, high risk",
+      "d": "Ripoti za wafadhili, muhtasari wa fedha. Inastahili kuombwa, lakini angalia kila takwimu na dai."
+     },
+     {
+      "t": "Endelea kuongozwa na mwanadamu",
+      "d": "Huzuni, msamaha, maamuzi kuhusu watu, hukumu ya kisheria, kimatibabu au ya kifedha."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Tumia chochote unachoandika kwenye zana ya umma ya AI kama taarifa inayoacha udhibiti wako.",
+    "Usibandike kamwe manenosiri, nambari za BVN au NIN, maelezo ya benki, nambari za simu za wanachama au maelezo ya kibinafsi ya afya. Badilisha majina na majukumu kabla ya kubandika hati halisi."
+   ],
+   "panel": {
+    "kicker": "Usalama kwanza",
+    "heading": "Usibandike kamwe kile ambacho hungechapisha",
+    "items": [
+     "Hakuna manenosiri",
+     "Hakuna nambari za BVN au NIN",
+     "Hakuna maelezo ya benki",
+     "Hakuna nambari za simu za wanachama au taarifa za afya",
+     "Badilisha majina na majukumu, kama vile Mwanachama A"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Kumbuka. Mfano huo unatabiri maandishi yanayowezekana, kwa hivyo yape ukweli. Tumia sehemu sita kwa jambo lolote muhimu.",
+    "Na pima kwa uaminifu. Funmi, msimamizi wa shule huko Ibadan, aliokoa takriban saa 63 kwa mwaka kutokana na vidokezo vitatu, na muda wake wa kuangalia haukupungua. Kuangalia ni sehemu ya kazi."
+   ],
+   "panel": {
+    "kicker": "Kumbuka",
+    "heading": "Nini cha kuweka kutoka kwa moduli hii",
+    "items": [
+     "Mfano unatabiri maandishi; haiangalii mambo",
+     "Maelezo yanayokosekana husababisha majibu ya jumla",
+     "Tumia sehemu sita kwa kazi yoyote muhimu",
+     "Pima muda uliohifadhiwa, pamoja na wakati wa kuangalia"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Tuma kidokezo kisichoeleweka na cha kina kwa ujumbe halisi, na ulinganishe. Jenga upya haraka moja ya kazi na sehemu zote sita. Kisha chora thamani yako na ramani ya hatari kwa angalau kazi nane.",
+    "Sasa endelea na masomo hapa chini."
+   ],
+   "panel": {
+    "kicker": "Kazi ya mazoezi",
+    "heading": "Kazi zako za moduli hii",
+    "items": [
+     "Linganisha onyesho lisiloeleweka na lenye maelezo",
+     "Jenga upya haraka moja ya kazi kwa kutumia sehemu zote sita",
+     "Chora thamani yako na ramani ya hatari"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

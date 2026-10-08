@@ -1,0 +1,547 @@
+{
+ "course": "core-digital-payments-and-pos-basics",
+ "module": "m4",
+ "title": "Kuwa salama na ufanye malipo ya kidijitali yakufae",
+ "course_title": "Malipo ya Kidijitali & Misingi ya POS",
+ "shots": [
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Kuwa salama na ufanye malipo ya kidijitali yakufae.",
+    "Hii ni video ya moduli ya 4 ya Malipo ya Kidijitali na Misingi ya POS."
+   ]
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Sasa unaweza kulipa na kulipwa kwa kila njia ya kawaida. Sehemu hii inalinda ulichounda, kutoka kwa hila na kutoka kwa simu iliyoibiwa."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Ilinde, kisha ifanye kazi",
+    "items": [
+     "Doa tricks na kupunguza kasi",
+     "Funga simu yako na upange wizi",
+     "Bajeti kutoka kwa taarifa yako",
+     "Kusanya malipo ya biashara na kupanga siku 30"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Kisha itafanyia kazi malipo yako: bajeti kutoka kwa taarifa yako, njia sahihi ya kukusanya pesa za biashara, na mpango wa siku 30."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Ilinde, kisha ifanye kazi",
+    "items": [
+     "Doa tricks na kupunguza kasi",
+     "Funga simu yako na upange wizi",
+     "Bajeti kutoka kwa taarifa yako",
+     "Kusanya malipo ya biashara na kupanga siku 30"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Takriban kila hila huleta mkanganyiko au haraka, kwa hivyo unakabidhi kadi, PIN, OTP au bidhaa yako kabla ya kuangalia.",
+    "Kwa mfano, kadi ya Comfort haitoki kwenye ATM ya Uyo. Kijana anamwambia aandike PIN yake tena akiwa ameshikilia nafasi."
+   ],
+   "panel": {
+    "kicker": "Sitisha na uangalie",
+    "heading": "Haraka yoyote ni sababu ya kupungua",
+    "items": [
+     "Angalia haraka",
+     "Acha, usilipe",
+     "Angalia katika programu yako mwenyewe",
+     "Piga nambari rasmi",
+     "Amua kwa utulivu"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Anatambua muundo. Anarudi nyuma, haingii tena PIN yake, na kupiga nambari iliyohifadhiwa kwenye simu yake ili kuzuia kadi."
+   ],
+   "panel": {
+    "kicker": "Sitisha na uangalie",
+    "heading": "Haraka yoyote ni sababu ya kupungua",
+    "items": [
+     "Angalia haraka",
+     "Acha, usilipe",
+     "Angalia katika programu yako mwenyewe",
+     "Piga nambari rasmi",
+     "Amua kwa utulivu"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Alipoteza kadi, ambayo inaweza kubadilishwa, si akiba yake."
+   ],
+   "panel": {
+    "kicker": "Sitisha na uangalie",
+    "heading": "Haraka yoyote ni sababu ya kupungua",
+    "items": [
+     "Angalia haraka",
+     "Acha, usilipe",
+     "Angalia katika programu yako mwenyewe",
+     "Piga nambari rasmi",
+     "Amua kwa utulivu"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Baada ya kushindwa kwa malipo, akaunti feki za huduma kwa wateja hujibu kwenye mitandao ya kijamii zikiuliza PIN yako, OTP au ada ya kubadilisha. Benki za kweli haziulizi kamwe hizi."
+   ],
+   "panel": {
+    "kicker": "Sitisha na uangalie",
+    "heading": "Haraka yoyote ni sababu ya kupungua",
+    "items": [
+     "Angalia haraka",
+     "Acha, usilipe",
+     "Angalia katika programu yako mwenyewe",
+     "Piga nambari rasmi",
+     "Amua kwa utulivu"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "PIN, OTP, au ada ya kurejesha pesa zako? Ni ulaghai.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Wauzaji wanalengwa pia. Mteja anaonyesha risiti ya uhamisho wakati foleni ni ndefu. Angalia historia yako mwenyewe kwanza."
+   ],
+   "panel": {
+    "kicker": "Tricks juu ya wauzaji",
+    "heading": "Linda duka lako",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Busy-time screenshot",
+      "d": "Risiti iliyoonyeshwa kwenye foleni ndefu. Angalia historia ya programu yako kabla ya kutoa chochote."
+     },
+     {
+      "t": "Reversal after delivery",
+      "d": "Anakusanya, kisha anaiambia benki yake imeshindwa. Weka risiti ILIYOIDHINISHWA na RRN."
+     },
+     {
+      "t": "Fake staff visit",
+      "d": "Mtu anataka kuchukua au kusasisha terminal yako. Piga simu kwa nambari rasmi ya mtoa huduma kwanza."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Mteja analipa, anakusanya, kisha anaiambia benki yake malipo yameshindwa. Risiti yako ILIYOIDHINISHWA na ingizo la kitabu cha rekodi vitajibu mzozo."
+   ],
+   "panel": {
+    "kicker": "Tricks juu ya wauzaji",
+    "heading": "Linda duka lako",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Busy-time screenshot",
+      "d": "Risiti iliyoonyeshwa kwenye foleni ndefu. Angalia historia ya programu yako kabla ya kutoa chochote."
+     },
+     {
+      "t": "Reversal after delivery",
+      "d": "Anakusanya, kisha anaiambia benki yake imeshindwa. Weka risiti ILIYOIDHINISHWA na RRN."
+     },
+     {
+      "t": "Fake staff visit",
+      "d": "Mtu anataka kuchukua au kusasisha terminal yako. Piga simu kwa nambari rasmi ya mtoa huduma kwanza."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Na ikiwa mtu atasema anatoka kwa mtoa huduma wako wa afya na lazima achukue kituo chako, piga nambari rasmi ya mtoa huduma kabla ya kukabidhi chochote."
+   ],
+   "panel": {
+    "kicker": "Tricks juu ya wauzaji",
+    "heading": "Linda duka lako",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Busy-time screenshot",
+      "d": "Risiti iliyoonyeshwa kwenye foleni ndefu. Angalia historia ya programu yako kabla ya kutoa chochote."
+     },
+     {
+      "t": "Reversal after delivery",
+      "d": "Anakusanya, kisha anaiambia benki yake imeshindwa. Weka risiti ILIYOIDHINISHWA na RRN."
+     },
+     {
+      "t": "Fake staff visit",
+      "d": "Mtu anataka kuchukua au kusasisha terminal yako. Piga simu kwa nambari rasmi ya mtoa huduma kwanza."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Kwa mfano, simu ya Folake inanyakuliwa kwenye basi mjini Lagos saa 6:15 jioni. Saa 6:20 anaazima simu ya mwenzake na kumpigia simu benki yake kwa nambari iliyoandikwa kwenye kadi yake, ili kuzuia benki ya simu na USSD."
+   ],
+   "panel": {
+    "kicker": "Mpango wa simu iliyopotea",
+    "heading": "Simu imeibiwa? Funga kila mlango",
+    "items": [
+     "Piga benki yako: block mobile na USSD",
+     "Piga simu mtoa huduma wako wa pochi",
+     "Piga mtandao wako: zuia SIM",
+     "Siku inayofuata: angalia akaunti, SIM mpya, PIN mpya"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Saa 6:30 anampigia simu mtoa pochi yake, kutoka kwa nambari iliyo kwenye daftari lake."
+   ],
+   "panel": {
+    "kicker": "Mpango wa simu iliyopotea",
+    "heading": "Simu imeibiwa? Funga kila mlango",
+    "items": [
+     "Piga benki yako: block mobile na USSD",
+     "Piga simu mtoa huduma wako wa pochi",
+     "Piga mtandao wako: zuia SIM",
+     "Siku inayofuata: angalia akaunti, SIM mpya, PIN mpya"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Saa 6:45 anapiga simu kwenye mtandao wake ili kuzuia SIM, ili hakuna mtu anayeweza kupokea OTP zake."
+   ],
+   "panel": {
+    "kicker": "Mpango wa simu iliyopotea",
+    "heading": "Simu imeibiwa? Funga kila mlango",
+    "items": [
+     "Piga benki yako: block mobile na USSD",
+     "Piga simu mtoa huduma wako wa pochi",
+     "Piga mtandao wako: zuia SIM",
+     "Siku inayofuata: angalia akaunti, SIM mpya, PIN mpya"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Asubuhi iliyofuata hapati deni. Weka nambari zako za usaidizi kwenye karatasi pia. Funga simu na programu zako, na ufiche uhakiki wa OTP kwenye skrini iliyofungwa."
+   ],
+   "panel": {
+    "kicker": "Mpango wa simu iliyopotea",
+    "heading": "Simu imeibiwa? Funga kila mlango",
+    "items": [
+     "Piga benki yako: block mobile na USSD",
+     "Piga simu mtoa huduma wako wa pochi",
+     "Piga mtandao wako: zuia SIM",
+     "Siku inayofuata: angalia akaunti, SIM mpya, PIN mpya"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Pakua taarifa ya mwezi uliopita na upange malipo katika vikundi vitano au sita, kama vile chakula, usafiri, muda wa maongezi na data, bili, hisa za biashara na ada. Usihesabu hatua kati ya akaunti yako mwenyewe."
+   ],
+   "panel": {
+    "kicker": "Bajeti kutoka kwa taarifa yako",
+    "heading": "Taarifa yako ni rekodi ya bure",
+    "items": [
+     "Pakua taarifa ya mwezi uliopita",
+     "Panga deni katika vikundi 5 au 6",
+     "Tafuta malipo na malipo madogo yanayorudiwa",
+     "Chagua mabadiliko moja ya mwezi ujao"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Kwa mfano, Hadiza, mhudumu wa chakula huko Abuja, alipata naira 16,000 zilizotumika kwa muda mdogo wa maongezi na uongezaji data. Debit yoyote ambayo huitambui? Ripoti kwa benki yako mara moja."
+   ],
+   "panel": {
+    "kicker": "Bajeti kutoka kwa taarifa yako",
+    "heading": "Taarifa yako ni rekodi ya bure",
+    "items": [
+     "Pakua taarifa ya mwezi uliopita",
+     "Panga deni katika vikundi 5 au 6",
+     "Tafuta malipo na malipo madogo yanayorudiwa",
+     "Chagua mabadiliko moja ya mwezi ujao"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Kwa hivyo atanunua mpango mmoja wa data wa kila mwezi badala yake. Chagua badiliko moja, na usome sheria na masharti kabla ya kutumia kipengele chochote cha kuokoa programu."
+   ],
+   "panel": {
+    "kicker": "Bajeti kutoka kwa taarifa yako",
+    "heading": "Taarifa yako ni rekodi ya bure",
+    "items": [
+     "Pakua taarifa ya mwezi uliopita",
+     "Panga deni katika vikundi 5 au 6",
+     "Tafuta malipo na malipo madogo yanayorudiwa",
+     "Chagua mabadiliko moja ya mwezi ujao"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Tumia uhamishaji wa moja kwa moja kwa wateja unaowajua, POS kwa kadi ana kwa ana, na kiungo cha malipo kwa wateja wapya walio mbali zaidi.",
+    "Ada ya ndani ya Paystack iliyochapishwa, iliyoangaliwa Oktoba 2026, ni 1.5% pamoja na naira 100, na 100 zimeondolewa chini ya 2,500. Kwa hivyo agizo la Ifeoma la naira 2,000 linagharimu 30."
+   ],
+   "panel": {
+    "kicker": "Viungo vya malipo",
+    "heading": "Ada ya malipo kwa maagizo matatu",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Order of 2,000 naira",
+      "d": "Chini ya 2,500, kwa hivyo 100 imeondolewa. 1.5% ni ada ya naira 30."
+     },
+     {
+      "t": "Order of 15,000 naira",
+      "d": "1.5% ni 225, pamoja na 100. Ada ya naira 325."
+     },
+     {
+      "t": "Order of 200,000 naira",
+      "d": "1.5% pamoja na 100 ni 3,100, juu ya upeo. Ada ni naira 2,000."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Agizo la naira 15,000 linagharimu 325."
+   ],
+   "panel": {
+    "kicker": "Viungo vya malipo",
+    "heading": "Ada ya malipo kwa maagizo matatu",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Order of 2,000 naira",
+      "d": "Chini ya 2,500, kwa hivyo 100 imeondolewa. 1.5% ni ada ya naira 30."
+     },
+     {
+      "t": "Order of 15,000 naira",
+      "d": "1.5% ni 225, pamoja na 100. Ada ya naira 325."
+     },
+     {
+      "t": "Order of 200,000 naira",
+      "d": "1.5% pamoja na 100 ni 3,100, juu ya upeo. Ada ni naira 2,000."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Agizo la naira 200,000 linafikia kikomo, kwa hivyo ada ni 2,000. Bei zinabadilika, kwa hivyo angalia ukurasa rasmi wa bei kila wakati. Na endesha biashara kupitia akaunti yake mwenyewe."
+   ],
+   "panel": {
+    "kicker": "Viungo vya malipo",
+    "heading": "Ada ya malipo kwa maagizo matatu",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Order of 2,000 naira",
+      "d": "Chini ya 2,500, kwa hivyo 100 imeondolewa. 1.5% ni ada ya naira 30."
+     },
+     {
+      "t": "Order of 15,000 naira",
+      "d": "1.5% ni 225, pamoja na 100. Ada ya naira 325."
+     },
+     {
+      "t": "Order of 200,000 naira",
+      "d": "1.5% pamoja na 100 ni 3,100, juu ya upeo. Ada ni naira 2,000."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Panga siku 30 kwa kuzingatia moja kwa wiki. Wiki ya 1, usanidi na usalama. Wiki 2, aina tatu za malipo. Wiki ya 3, biashara au bili. Wiki ya 4, ukaguzi wa taarifa yako."
+   ],
+   "card": {
+    "title": "Mwezi wa Rahma wa kufuatilia",
+    "rows": [],
+    "note": null
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Kila wiki, Rahma hutumia dakika kumi na historia ya programu yake. Pesa ilikuwa 21,000, kisha 24,500, kisha 27,000, kisha naira 25,500."
+   ],
+   "card": {
+    "title": "Mwezi wa Rahma wa kufuatilia",
+    "rows": [
+     [
+      "Wiki 1 ya pesa",
+      "21,000"
+     ],
+     [
+      "Wiki 2 pesa",
+      "24,500"
+     ],
+     [
+      "Wiki 3 ya pesa",
+      "27,000"
+     ],
+     [
+      "Wiki 4 pesa ndani",
+      "25,500"
+     ]
+    ],
+    "note": null
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "98,000 ndani, dhidi ya 68,000 nje. Shika risiti zako na meza za cheti chako, na mfundishe mwanamke mwingine, kwa kumwongoza wakati anafanya mwenyewe."
+   ],
+   "card": {
+    "title": "Mwezi wa Rahma wa kufuatilia",
+    "rows": [
+     [
+      "Wiki 1 ya pesa",
+      "21,000"
+     ],
+     [
+      "Wiki 2 pesa",
+      "24,500"
+     ],
+     [
+      "Wiki 3 ya pesa",
+      "27,000"
+     ],
+     [
+      "Wiki 4 pesa ndani",
+      "25,500"
+     ]
+    ],
+    "note": null
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Kukumbuka. Haraka ni ishara yako ya kuacha. Hakuna mtu wa kweli anayeuliza PIN yako, OTP au ada ya kurejesha pesa zako. Ikiwa simu yako imeibiwa, zuia benki, pochi na SIM ndani ya saa moja. Kagua taarifa yako ya kila mwezi, na ulinganishe njia ya kulipa na mteja."
+   ],
+   "panel": {
+    "kicker": "Pointi muhimu",
+    "heading": "Kumbuka",
+    "items": [
+     "Haraka ni ishara ya kuacha na kuangalia",
+     "Hakuna mtu wa kweli anayeuliza PIN au OTP yako",
+     "Simu imeibiwa: block bank, pochi na SIM",
+     "Kagua taarifa yako kila mwezi",
+     "Linganisha njia ya malipo na mteja"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Tengeneza kadi yako ya kugundua hila, funga simu yako, andika kadi yako ya dharura, kagua taarifa ya mwezi uliopita na uanze mpango wako wa siku 30.",
+    "Endelea na masomo hapa chini."
+   ],
+   "panel": {
+    "kicker": "Kazi ya mazoezi",
+    "heading": "Kazi zako za moduli hii",
+    "items": [
+     "Tengeneza kadi yako ya kugundua hila",
+     "Funga simu yako, andika kadi ya dharura",
+     "Kagua taarifa ya mwezi uliopita",
+     "Andika na uanze mpango wako wa siku 30"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

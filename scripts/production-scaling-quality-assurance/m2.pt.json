@@ -1,0 +1,648 @@
+{
+ "course": "production-scaling-quality-assurance",
+ "module": "m2",
+ "title": "Qualidade e operações em volume",
+ "course_title": "Dimensionamento de produção e garantia de qualidade",
+ "shots": [
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Qualidade e operações em volume.",
+    "Este é o vídeo do módulo 2 de Escalonamento de Produção e Garantia de Qualidade."
+   ]
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Quando você faz 20 itens, seus olhos detectam a maioria dos problemas. Quando uma equipe ganha 2.000, os problemas passam despercebidos, a menos que o próprio processo os detecte."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Construa qualidade no processo",
+    "items": [
+     "Com 2.000 itens, os problemas escapam",
+     "Um plano de controle para cada etapa",
+     "Gráficos que acompanham o processo",
+     "Seu gargalo e custo unitário real"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Então, primeiro, um plano de controle à prova de erros."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Construa qualidade no processo",
+    "items": [
+     "Com 2.000 itens, os problemas escapam",
+     "Um plano de controle para cada etapa",
+     "Gráficos que acompanham o processo",
+     "Seu gargalo e custo unitário real"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Em seguida, um gráfico de controle simples que observa o processo enquanto ele é executado."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Construa qualidade no processo",
+    "items": [
+     "Com 2.000 itens, os problemas escapam",
+     "Um plano de controle para cada etapa",
+     "Gráficos que acompanham o processo",
+     "Seu gargalo e custo unitário real"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "E, finalmente, sua verdadeira capacidade e seu verdadeiro custo por unidade de bem."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Construa qualidade no processo",
+    "items": [
+     "Com 2.000 itens, os problemas escapam",
+     "Um plano de controle para cada etapa",
+     "Gráficos que acompanham o processo",
+     "Seu gargalo e custo unitário real"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Não verifique tudo. Escolha características críticas: coisas que o cliente notará ou que podem prejudicar alguém. Para um lanche frito, isso inclui temperatura do óleo, resfriamento e peso da embalagem."
+   ],
+   "panel": {
+    "kicker": "Plano de controle",
+    "heading": "Seis colunas, uma página",
+    "items": [
+     "Característica: o que verificamos",
+     "Padrão: em números",
+     "Método: qual ferramenta ou teste",
+     "Frequência: com que frequência",
+     "Quem verifica e assina",
+     "Reação: consertar produto e processo"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Para cada um, escreva o padrão em números, a ferramenta e com que frequência. Por exemplo, Kemi verifica se o óleo está a 170 °C com um termômetro de sonda antes de cada carga no wok."
+   ],
+   "panel": {
+    "kicker": "Plano de controle",
+    "heading": "Seis colunas, uma página",
+    "items": [
+     "Característica: o que verificamos",
+     "Padrão: em números",
+     "Método: qual ferramenta ou teste",
+     "Frequência: com que frequência",
+     "Quem verifica e assina",
+     "Reação: consertar produto e processo"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Escreva quem verifica e assina o registro."
+   ],
+   "panel": {
+    "kicker": "Plano de controle",
+    "heading": "Seis colunas, uma página",
+    "items": [
+     "Característica: o que verificamos",
+     "Padrão: em números",
+     "Método: qual ferramenta ou teste",
+     "Frequência: com que frequência",
+     "Quem verifica e assina",
+     "Reação: consertar produto e processo"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "O plano de reação é a coluna que as pessoas esquecem. Tem duas partes: corrigir o produto já feito e consertar o processo. Se um pacote for leve, o empacotador de Kemi segura a carga, verifica cada pacote, completa e avisa o supervisor.",
+    "Mantenha-o em uma página, com uma foto do produto de referência ao lado."
+   ],
+   "panel": {
+    "kicker": "Plano de controle",
+    "heading": "Seis colunas, uma página",
+    "items": [
+     "Característica: o que verificamos",
+     "Padrão: em números",
+     "Método: qual ferramenta ou teste",
+     "Frequência: com que frequência",
+     "Quem verifica e assina",
+     "Reação: consertar produto e processo"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "A proteção contra erros, chamada poka-yoke, projeta o trabalho de forma que o erro não aconteça ou seja percebido imediatamente. Funciona em todos os itens, sempre. Os kits pré-pesados ​​são unilaterais."
+   ],
+   "panel": {
+    "kicker": "À prova de erros",
+    "heading": "Tornar o caminho errado difícil",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Pre-weighed kits",
+      "d": "Pequenos ingredientes em sacos etiquetados no dia anterior. Uma sacola não utilizada mostra que algo foi perdido."
+     },
+     {
+      "t": "Guides and jigs",
+      "d": "Anéis-guia em um rolo, uma colher de volume fixo, uma tigela marcada para uma carga de wok."
+     },
+     {
+      "t": "Visual signals",
+      "d": "Bandeja vermelha para produto retido, bandeja verde para produto passado. Nada em uma bandeja vermelha está embalado."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Guias e gabaritos são outra. Um rolo com anéis guia faz com que cada folha tenha 5 mm."
+   ],
+   "panel": {
+    "kicker": "À prova de erros",
+    "heading": "Tornar o caminho errado difícil",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Pre-weighed kits",
+      "d": "Pequenos ingredientes em sacos etiquetados no dia anterior. Uma sacola não utilizada mostra que algo foi perdido."
+     },
+     {
+      "t": "Guides and jigs",
+      "d": "Anéis-guia em um rolo, uma colher de volume fixo, uma tigela marcada para uma carga de wok."
+     },
+     {
+      "t": "Visual signals",
+      "d": "Bandeja vermelha para produto retido, bandeja verde para produto passado. Nada em uma bandeja vermelha está embalado."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "E sinais visuais. Nada em uma bandeja vermelha é embalado.",
+    "Para a alimentação, acrescente higiene ao plano: mãos, superfícies e equipamentos limpos, ovos crus separados e cabelos cobertos. Escreva quem verifica e quando."
+   ],
+   "panel": {
+    "kicker": "À prova de erros",
+    "heading": "Tornar o caminho errado difícil",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Pre-weighed kits",
+      "d": "Pequenos ingredientes em sacos etiquetados no dia anterior. Uma sacola não utilizada mostra que algo foi perdido."
+     },
+     {
+      "t": "Guides and jigs",
+      "d": "Anéis-guia em um rolo, uma colher de volume fixo, uma tigela marcada para uma carga de wok."
+     },
+     {
+      "t": "Visual signals",
+      "d": "Bandeja vermelha para produto retido, bandeja verde para produto passado. Nada em uma bandeja vermelha está embalado."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Por exemplo, Ruth verifica 20 sacos aleatórios de farinha de inhame de cada lote e aceita o lote apenas se nenhum estiver abaixo do peso."
+   ],
+   "panel": {
+    "kicker": "Amostragem",
+    "heading": "Uma verificação final não pode criar qualidade",
+    "items": [
+     "Ruth verifica 20 malas, aceita se 0 for ruim",
+     "1% ruim: lote passa de 82 em 100",
+     "5% ruim: ainda passa de 36 em 100",
+     "A qualidade deve ser feita, não capturada"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Se 1% do lote estiver abaixo do peso, ainda assim passa cerca de 82 vezes em 100."
+   ],
+   "panel": {
+    "kicker": "Amostragem",
+    "heading": "Uma verificação final não pode criar qualidade",
+    "items": [
+     "Ruth verifica 20 malas, aceita se 0 for ruim",
+     "1% ruim: lote passa de 82 em 100",
+     "5% ruim: ainda passa de 36 em 100",
+     "A qualidade deve ser feita, não capturada"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Mesmo com 5% de baixo peso, passa cerca de 36 vezes em 100."
+   ],
+   "panel": {
+    "kicker": "Amostragem",
+    "heading": "Uma verificação final não pode criar qualidade",
+    "items": [
+     "Ruth verifica 20 malas, aceita se 0 for ruim",
+     "1% ruim: lote passa de 82 em 100",
+     "5% ruim: ainda passa de 36 em 100",
+     "A qualidade deve ser feita, não capturada"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "A amostragem é um filtro com furos. Portanto, Ruth mantém o controle, mas confia em seu método de coleta e em um gráfico de controle para impedir a fabricação de sacolas abaixo do peso."
+   ],
+   "panel": {
+    "kicker": "Amostragem",
+    "heading": "Uma verificação final não pode criar qualidade",
+    "items": [
+     "Ruth verifica 20 malas, aceita se 0 for ruim",
+     "1% ruim: lote passa de 82 em 100",
+     "5% ruim: ainda passa de 36 em 100",
+     "A qualidade deve ser feita, não capturada"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Depois de mudar para uma colher fixa, Ruth pesa 20 sacos na ordem em que os encheu."
+   ],
+   "panel": {
+    "kicker": "Gráfico de controle",
+    "heading": "Gráfico individual de Ruth",
+    "items": [
+     "Pesar 20 sacos na ordem de enchimento",
+     "Média: 1.010,05 g",
+     "Alcance móvel médio: 2,37 g",
+     "Limites: média ± 2,66 x 2,37",
+     "Plote um saco a cada 30 minutos"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "A média, 1.010,05 g, é sua linha central."
+   ],
+   "panel": {
+    "kicker": "Gráfico de controle",
+    "heading": "Gráfico individual de Ruth",
+    "items": [
+     "Pesar 20 sacos na ordem de enchimento",
+     "Média: 1.010,05 g",
+     "Alcance móvel médio: 2,37 g",
+     "Limites: média ± 2,66 x 2,37",
+     "Plote um saco a cada 30 minutos"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "A faixa móvel é a diferença entre cada bolsa e a anterior. A média deles é de 2,37 g."
+   ],
+   "panel": {
+    "kicker": "Gráfico de controle",
+    "heading": "Gráfico individual de Ruth",
+    "items": [
+     "Pesar 20 sacos na ordem de enchimento",
+     "Média: 1.010,05 g",
+     "Alcance móvel médio: 2,37 g",
+     "Limites: média ± 2,66 x 2,37",
+     "Plote um saco a cada 30 minutos"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Os limites são a média mais ou menos 2,66 vezes isso, ou seja, 1.003,75 ga 1.016,35 g. Seu limite inferior agora está acima da afirmação do rótulo de 1.000 g."
+   ],
+   "panel": {
+    "kicker": "Gráfico de controle",
+    "heading": "Gráfico individual de Ruth",
+    "items": [
+     "Pesar 20 sacos na ordem de enchimento",
+     "Média: 1.010,05 g",
+     "Alcance móvel médio: 2,37 g",
+     "Limites: média ± 2,66 x 2,37",
+     "Plote um saco a cada 30 minutos"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Ela plota uma sacola a cada 30 minutos. Um ponto fora do limite, ou oito consecutivos de um lado, significa parar e descobrir o que mudou.",
+    "Sem sinal, deixe o processo em paz. Ajustar após cada pequena diferença adiciona variação."
+   ],
+   "panel": {
+    "kicker": "Gráfico de controle",
+    "heading": "Gráfico individual de Ruth",
+    "items": [
+     "Pesar 20 sacos na ordem de enchimento",
+     "Média: 1.010,05 g",
+     "Alcance móvel médio: 2,37 g",
+     "Limites: média ± 2,66 x 2,37",
+     "Plote um saco a cada 30 minutos"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Os limites de controle vêm dos seus dados, não da especificação.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "O takt time é o tempo disponível dividido pela demanda do cliente. Kemi tem 2.100 minutos por semana e as lojas querem 2.000 pacotes. Portanto, um pacote a cada 1,05 minutos."
+   ],
+   "panel": {
+    "kicker": "Takt e gargalo",
+    "heading": "Kemi consegue fazer 2.000 embalagens por semana?",
+    "items": [
+     "Takt: 2.100 / 2.000 = 1,05 min por pacote",
+     "Mistura 0,48: abaixo do takt",
+     "Corte 1,73: o gargalo",
+     "Fritar 1.18: acima do takt",
+     "Sheeter e segundo wok: cerca de 2.187"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Cronometre cada estágio por carga e depois divida por pacotes por carga. A mistura é de 0,48 minutos por pacote."
+   ],
+   "panel": {
+    "kicker": "Takt e gargalo",
+    "heading": "Kemi consegue fazer 2.000 embalagens por semana?",
+    "items": [
+     "Takt: 2.100 / 2.000 = 1,05 min por pacote",
+     "Mistura 0,48: abaixo do takt",
+     "Corte 1,73: o gargalo",
+     "Fritar 1.18: acima do takt",
+     "Sheeter e segundo wok: cerca de 2.187"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Rolar e cortar é 1,73, o mais lento. Não fritar, como Kemi esperava. Sua linha produz apenas cerca de 1.214 embalagens por semana."
+   ],
+   "panel": {
+    "kicker": "Takt e gargalo",
+    "heading": "Kemi consegue fazer 2.000 embalagens por semana?",
+    "items": [
+     "Takt: 2.100 / 2.000 = 1,05 min por pacote",
+     "Mistura 0,48: abaixo do takt",
+     "Corte 1,73: o gargalo",
+     "Fritar 1.18: acima do takt",
+     "Sheeter e segundo wok: cerca de 2.187"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "A fritura, a 1,18, também ultrapassou o takt."
+   ],
+   "panel": {
+    "kicker": "Takt e gargalo",
+    "heading": "Kemi consegue fazer 2.000 embalagens por semana?",
+    "items": [
+     "Takt: 2.100 / 2.000 = 1,05 min por pacote",
+     "Mistura 0,48: abaixo do takt",
+     "Corte 1,73: o gargalo",
+     "Fritar 1.18: acima do takt",
+     "Sheeter e segundo wok: cerca de 2.187"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Ela adiciona uma folha de massa manual e acende um segundo queimador de wok. A capacidade aumenta para cerca de 2.187 embalagens por semana.",
+    "Um mixer mais rápido não teria ajudado em nada."
+   ],
+   "panel": {
+    "kicker": "Takt e gargalo",
+    "heading": "Kemi consegue fazer 2.000 embalagens por semana?",
+    "items": [
+     "Takt: 2.100 / 2.000 = 1,05 min por pacote",
+     "Mistura 0,48: abaixo do takt",
+     "Corte 1,73: o gargalo",
+     "Fritar 1.18: acima do takt",
+     "Sheeter e segundo wok: cerca de 2.187"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Corrija primeiro o estágio mais lento. Compre equipamentos apenas para isso.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "O rendimento na primeira passagem é a parcela de unidades que passam em todas as verificações pela primeira vez. O de Kemi é 368 de 400, o que é 92%."
+   ],
+   "card": {
+    "title": "O verdadeiro custo de um bom pacote",
+    "rows": [],
+    "note": "Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Seu lote custa cerca de 180.000 nairas. Reembalar 20 pacotes acrescenta cerca de 1.200."
+   ],
+   "card": {
+    "title": "O verdadeiro custo de um bom pacote",
+    "rows": [
+     [
+      "Custo do lote para 400 pacotes",
+      "180,000"
+     ],
+     [
+      "Retrabalho: 20 pacotes reembalados",
+      "1,200"
+     ]
+    ],
+    "note": "Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "São 181.200 nairas para 388 pacotes bons, ou seja, 467 nairas cada, e não os 450 que ela recebe do plano.",
+    "Mais de 2.000 maços por semana, essa diferença é de cerca de 34.000 nairas. Portanto, preço a partir do custo por unidade do bem, nunca a partir do plano."
+   ],
+   "card": {
+    "title": "O verdadeiro custo de um bom pacote",
+    "rows": [
+     [
+      "Custo do lote para 400 pacotes",
+      "180,000"
+     ],
+     [
+      "Retrabalho: 20 pacotes reembalados",
+      "1,200"
+     ]
+    ],
+    "note": "Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Para lembrar. Escreva um plano de controle de uma página com reações. Torne os erros difíceis com a prova de erros. Use gráficos para observar o processo. Corrija o gargalo primeiro. E preço do custo por unidade boa."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Lembre-se",
+    "items": [
+     "Plano de controle de uma página com reações",
+     "Inspeção de batidas à prova de erros",
+     "A amostragem julga muito; gráficos observam o processo",
+     "O gargalo define sua capacidade",
+     "Preço a partir do custo por unidade de bem"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Sua vez. Elabore seu plano de controle com dois dispositivos à prova de erros, inicie um gráfico de controle para uma medição e encontre seu gargalo e custo real por unidade boa.",
+    "Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Pratique tarefas",
+    "heading": "Suas tarefas práticas",
+    "items": [
+     "Elabore seu plano de controle de uma página",
+     "Iniciar um gráfico de controle",
+     "Encontre seu gargalo e custo unitário real"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

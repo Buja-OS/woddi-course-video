@@ -1,0 +1,426 @@
+{
+ "course": "paid-advertising-meta-ads",
+ "module": "m3",
+ "title": "Win and keep ad clients: audit, price, prove",
+ "course_title": "Paid Advertising (Meta Ads)",
+ "shots": [
+  {
+   "demo": "phone_social",
+   "say": [
+    "Win and keep ad clients: audit, price, prove.",
+    "This is the video for module three of Paid Advertising with Meta Ads."
+   ]
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Clients say, my ads are not working. Your job is to turn that into numbers. Ask about average order value, what each order costs, and where sales close: website, WhatsApp or shop."
+   ],
+   "panel": {
+    "kicker": "Discovery call",
+    "heading": "Turn my ads are not working into numbers",
+    "items": [
+     "Business economics: order value, costs",
+     "Sales process: where sales close",
+     "Customers: who buys and why",
+     "History and assets",
+     "Constraints: budget, approvals, stock"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_ads",
+   "say": [
+    "Ask who the best customers are, what has been tried before, and what monthly budget they can sustain for at least three months.",
+    "If they get many WhatsApp messages but few orders, more ads will not help. Slow replies or unclear prices may be the problem. Say so honestly."
+   ],
+   "panel": {
+    "kicker": "Discovery call",
+    "heading": "Turn my ads are not working into numbers",
+    "items": [
+     "Business economics: order value, costs",
+     "Sales process: where sales close",
+     "Customers: who buys and why",
+     "History and assets",
+     "Constraints: budget, approvals, stock"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Ask the client to add your business portfolio as a partner. Start with tracking, because without the right events nothing else can be optimised."
+   ],
+   "panel": {
+    "kicker": "The audit",
+    "heading": "Audit the last 90 days",
+    "items": [
+     "Tracking: which events fire?",
+     "Structure: too many thin ad sets?",
+     "Creative: how old, what frequency?",
+     "Account health: rejections, access, 2FA",
+     "Sort findings by impact and effort"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Then check the structure, the creative and the account health. Write down evidence for every finding, a screenshot or a number."
+   ],
+   "panel": {
+    "kicker": "The audit",
+    "heading": "Audit the last 90 days",
+    "items": [
+     "Tracking: which events fire?",
+     "Structure: too many thin ad sets?",
+     "Creative: how old, what frequency?",
+     "Account health: rejections, access, 2FA",
+     "Sort findings by impact and effort"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Sort findings by impact and effort, and present quick wins first."
+   ],
+   "panel": {
+    "kicker": "The audit",
+    "heading": "Audit the last 90 days",
+    "items": [
+     "Tracking: which events fire?",
+     "Structure: too many thin ad sets?",
+     "Creative: how old, what frequency?",
+     "Account health: rejections, access, 2FA",
+     "Sort findings by impact and effort"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "And never offer to create a new account that you control. The client owns everything."
+   ],
+   "panel": {
+    "kicker": "The audit",
+    "heading": "Audit the last 90 days",
+    "items": [
+     "Tracking: which events fire?",
+     "Structure: too many thin ad sets?",
+     "Creative: how old, what frequency?",
+     "Account health: rejections, access, 2FA",
+     "Sort findings by impact and effort"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Access only as a partner. Never accept a password.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_camera",
+   "say": [
+    "Here is what an audit can reveal. The Pixel fires PageView only, so all 6 campaigns use the Traffic objective. Meta has never been told what a sale looks like."
+   ],
+   "card": {
+    "title": "Grace audits an Abuja décor shop",
+    "rows": [],
+    "note": "Naira amounts are approximate."
+   }
+  },
+  {
+   "demo": "phone_camera",
+   "say": [
+    "The shop spent about 300,000 naira and recorded 5 website orders worth 225,000 naira. That is a real ROAS of 0.75."
+   ],
+   "card": {
+    "title": "Grace audits an Abuja décor shop",
+    "rows": [
+     [
+      "Ad spend last month",
+      "300,000"
+     ],
+     [
+      "Revenue from 5 web orders",
+      "225,000"
+     ]
+    ],
+    "note": "Naira amounts are approximate."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Gross profit per order is about 18,000 naira, so that is the break-even cost. But they paid about 60,000 per order.",
+    "Her quick wins: install Purchase with value, exclude past buyers, and pause old ads with frequency above 6."
+   ],
+   "card": {
+    "title": "Grace audits an Abuja décor shop",
+    "rows": [
+     [
+      "Ad spend last month",
+      "300,000"
+     ],
+     [
+      "Revenue from 5 web orders",
+      "225,000"
+     ],
+     [
+      "Break-even cost per order",
+      "18,000"
+     ],
+     [
+      "Real cost per order",
+      "60,000"
+     ]
+    ],
+    "note": "Naira amounts are approximate."
+   }
+  },
+  {
+   "demo": "laptop_social",
+   "say": [
+    "Keep two amounts separate. Ad spend goes to Meta from the client's own payment method. Your management fee pays for your time. These figures are illustrative, not market rates."
+   ],
+   "card": {
+    "title": "Bisi prices a first retainer",
+    "rows": [],
+    "note": "Illustrative, not market rates."
+   }
+  },
+  {
+   "demo": "laptop_social",
+   "say": [
+    "Bisi wants about 7,500 naira per working hour."
+   ],
+   "card": {
+    "title": "Bisi prices a first retainer",
+    "rows": [
+     [
+      "Her target per working hour",
+      "7,500"
+     ]
+    ],
+    "note": "Illustrative, not market rates."
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "She charges a one-off set-up fee of 120,000 naira for the Pixel, Conversions API, audiences and first creatives."
+   ],
+   "card": {
+    "title": "Bisi prices a first retainer",
+    "rows": [
+     [
+      "Her target per working hour",
+      "7,500"
+     ],
+     [
+      "One-off set-up fee",
+      "120,000"
+     ]
+    ],
+    "note": "Illustrative, not market rates."
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "At 14 hours a month, her fee would be 28.75 percent of spend, which feels too high. So she trims to 11 hours with a shared dashboard and fortnightly calls. Her fee becomes 90,000 naira, about 22.5 percent."
+   ],
+   "card": {
+    "title": "Bisi prices a first retainer",
+    "rows": [
+     [
+      "Her target per working hour",
+      "7,500"
+     ],
+     [
+      "One-off set-up fee",
+      "120,000"
+     ],
+     [
+      "Monthly fee, 11 hours plus 10%",
+      "90,000"
+     ]
+    ],
+    "note": "Illustrative, not market rates."
+   }
+  },
+  {
+   "demo": "laptop_ads",
+   "say": [
+    "Write the goal and target, what you deliver, what the client provides, and what is not included. Take your fee in advance each month, agree a notice period such as 30 days, and state that the client owns the account and creative."
+   ],
+   "panel": {
+    "kicker": "The proposal",
+    "heading": "Promise a process, not miracles",
+    "mode": "compare",
+    "left_h": "Put in writing",
+    "left": [
+     "Goal and target CPA or ROAS",
+     "Deliverables and exclusions",
+     "Fee paid in advance monthly",
+     "30-day notice; client owns all"
+    ],
+    "right_h": "Never promise",
+    "right": [
+     "Triple sales in 30 days",
+     "Guaranteed results",
+     "Free extra work, unrecorded"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Never promise triple sales in 30 days. Promise a testing plan and transparent reporting.",
+    "When a client asks you to design a flyer or reply to comments, say kindly: that is outside our agreement. I can quote for it, or recommend someone."
+   ],
+   "panel": {
+    "kicker": "The proposal",
+    "heading": "Promise a process, not miracles",
+    "mode": "compare",
+    "left_h": "Put in writing",
+    "left": [
+     "Goal and target CPA or ROAS",
+     "Deliverables and exclusions",
+     "Fee paid in advance monthly",
+     "30-day notice; client owns all"
+    ],
+    "right_h": "Never promise",
+    "right": [
+     "Triple sales in 30 days",
+     "Guaranteed results",
+     "Free extra work, unrecorded"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ads",
+   "say": [
+    "New ad managers are targeted with fake job offers. They ask you to log in through a link or download campaign files. Real clients add you as a partner from their own Business settings.",
+    "Never pay to unlock a job, never run ads on an account you do not know, and never advertise products you suspect are fake or unregistered."
+   ],
+   "panel": {
+    "kicker": "Stay safe",
+    "heading": "Fake job offers and risky products",
+    "items": [
+     "Never log in to Meta through a link",
+     "Never download campaign files",
+     "Never pay to unlock a job",
+     "Real clients add you as a partner",
+     "No ads for fake or unregistered products"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Clients buy evidence. Zainab ran a 4-week pilot for a tailoring school in Kaduna, spending 240,000 naira on lead ads and testing a classroom video against a carousel."
+   ],
+   "panel": {
+    "kicker": "Your evidence",
+    "heading": "A case study clients believe",
+    "items": [
+     "Client and goal",
+     "Starting point",
+     "What you did: objective, tests",
+     "Results in the client's terms",
+     "What you learned, with permission"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "The school's own register showed 18 enrolments, about 13,300 naira each. She uses real numbers only, never rounded up, and shares them with the school's permission."
+   ],
+   "panel": {
+    "kicker": "Your evidence",
+    "heading": "A case study clients believe",
+    "items": [
+     "Client and goal",
+     "Starting point",
+     "What you did: objective, tests",
+     "Results in the client's terms",
+     "What you learned, with permission"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_camera",
+   "say": [
+    "To remember. Discovery turns complaints into numbers. Use partner access only. Audit tracking first, and lead with quick wins. Keep ad spend and your fee separate. And use only real, permitted numbers in your case studies."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "Discovery turns complaints into numbers",
+     "Partner access only, never passwords",
+     "Audit tracking first; quick wins first",
+     "Keep ad spend and fee separate",
+     "Real, permitted numbers in case studies"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Now practise. Run a 20-minute discovery call and a mini audit for a real business. Write your proposal with your fee calculation. Then write your niche statement, research three businesses in the Ad Library, and plan your first 90 days.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice tasks",
+    "heading": "Your practice tasks",
+    "items": [
+     "Run a mini audit",
+     "Write your proposal",
+     "Plan your first 90 days"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

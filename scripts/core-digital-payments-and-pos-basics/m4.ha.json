@@ -1,0 +1,547 @@
+{
+ "course": "core-digital-payments-and-pos-basics",
+ "module": "m4",
+ "title": "Kasance lafiya kuma ku sanya biyan kuɗi na dijital aiki a gare ku",
+ "course_title": "Biyan Dijital & Ka'idodin POS",
+ "shots": [
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Kasance lafiya kuma ku sanya biyan kuɗi na dijital aiki a gare ku.",
+    "Wannan shine bidiyon don ƙirar 4 na Biyan Dijital da Basics POS."
+   ]
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Yanzu za ku iya biya kuma a biya ku ta kowace hanya gama gari. Wannan tsarin yana kare abin da kuka gina, daga dabaru da kuma satar wayar."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Kare shi, sannan sanya shi aiki",
+    "items": [
+     "Nemo dabaru kuma rage gudu",
+     "Kulle wayarka kuma kuyi shirin sata",
+     "Kasafin kudi daga bayanin ku",
+     "Tattara kuɗin kasuwanci da tsara kwanaki 30"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Sannan yana sanya biyan kuɗin ku aiki: kasafin kuɗi daga bayanin ku, hanyar da ta dace don karɓar kuɗin kasuwanci, da shirin kwanaki 30."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Kare shi, sannan sanya shi aiki",
+    "items": [
+     "Nemo dabaru kuma rage gudu",
+     "Kulle wayarka kuma kuyi shirin sata",
+     "Kasafin kudi daga bayanin ku",
+     "Tattara kuɗin kasuwanci da tsara kwanaki 30"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Kusan kowace dabara tana haifar da gaggawa ko rudani, don haka ka mika katinka, PIN, OTP ko kayanka kafin ka duba.",
+    "Misali, Katin Comfort baya fitowa daga ATM a Uyo. Wani saurayi ya gaya mata ta sake buga PIN ɗinta yayin da yake riƙe da ramin."
+   ],
+   "panel": {
+    "kicker": "Dakata da dubawa",
+    "heading": "Duk wani gaggawa dalili ne na raguwa",
+    "items": [
+     "Ka lura da sauri",
+     "Tsaya, kar a biya",
+     "Duba cikin naku app",
+     "Kira lambar hukuma",
+     "Yanke shawara a hankali"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Ta gane tsarin. Ta koma baya, bata sake shigar da PIN ba, sannan ta kira lambar da aka ajiye a wayarta ta toshe katin."
+   ],
+   "panel": {
+    "kicker": "Dakata da dubawa",
+    "heading": "Duk wani gaggawa dalili ne na raguwa",
+    "items": [
+     "Ka lura da sauri",
+     "Tsaya, kar a biya",
+     "Duba cikin naku app",
+     "Kira lambar hukuma",
+     "Yanke shawara a hankali"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Ta rasa katin, wanda za a iya maye gurbinsa, ba ajiyarta ba."
+   ],
+   "panel": {
+    "kicker": "Dakata da dubawa",
+    "heading": "Duk wani gaggawa dalili ne na raguwa",
+    "items": [
+     "Ka lura da sauri",
+     "Tsaya, kar a biya",
+     "Duba cikin naku app",
+     "Kira lambar hukuma",
+     "Yanke shawara a hankali"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Bayan rashin biyan kuɗi, asusun kula da abokin ciniki na jabu suna amsawa akan kafofin watsa labarun suna neman PIN, OTP ko kuɗin juyawa. Bankunan gaske ba su taɓa tambayar waɗannan ba."
+   ],
+   "panel": {
+    "kicker": "Dakata da dubawa",
+    "heading": "Duk wani gaggawa dalili ne na raguwa",
+    "items": [
+     "Ka lura da sauri",
+     "Tsaya, kar a biya",
+     "Duba cikin naku app",
+     "Kira lambar hukuma",
+     "Yanke shawara a hankali"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "PIN, OTP, ko kuɗi don dawo da kuɗin ku? Zamba ne.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Masu siyarwa kuma an yi niyya. Abokin ciniki yana nuna rasidin canja wuri lokacin da layin yayi tsayi. Duba tarihin ku tukuna."
+   ],
+   "panel": {
+    "kicker": "Dabaru akan masu siyarwa",
+    "heading": "Kare rumbunka",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Busy-time screenshot",
+      "d": "An nuna rasit a cikin dogon layi. Bincika tarihin app ɗin ku kafin sakin wani abu."
+     },
+     {
+      "t": "Reversal after delivery",
+      "d": "Ya tattara, sannan ya gaya wa bankinsa ya gaza. Kiyaye ARZIKI da RRN."
+     },
+     {
+      "t": "Fake staff visit",
+      "d": "Wani yana so ya ɗauka ko sabunta tashar ku. Kira lambar hukuma ta mai badawa tukuna."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Abokin ciniki ya biya, karba, sannan ya gaya wa bankinsa abin da ya gaza biya. Rasidin ku DA AKA YARDA da kuma shigar da littafin zai amsa takaddamar."
+   ],
+   "panel": {
+    "kicker": "Dabaru akan masu siyarwa",
+    "heading": "Kare rumbunka",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Busy-time screenshot",
+      "d": "An nuna rasit a cikin dogon layi. Bincika tarihin app ɗin ku kafin sakin wani abu."
+     },
+     {
+      "t": "Reversal after delivery",
+      "d": "Ya tattara, sannan ya gaya wa bankinsa ya gaza. Kiyaye ARZIKI da RRN."
+     },
+     {
+      "t": "Fake staff visit",
+      "d": "Wani yana so ya ɗauka ko sabunta tashar ku. Kira lambar hukuma ta mai badawa tukuna."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Kuma idan wani ya ce ya fito daga mai ba da sabis ɗin ku kuma dole ne ya ɗauki tashar ku, kira lambar hukuma kafin a ba da wani abu."
+   ],
+   "panel": {
+    "kicker": "Dabaru akan masu siyarwa",
+    "heading": "Kare rumbunka",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Busy-time screenshot",
+      "d": "An nuna rasit a cikin dogon layi. Bincika tarihin app ɗin ku kafin sakin wani abu."
+     },
+     {
+      "t": "Reversal after delivery",
+      "d": "Ya tattara, sannan ya gaya wa bankinsa ya gaza. Kiyaye ARZIKI da RRN."
+     },
+     {
+      "t": "Fake staff visit",
+      "d": "Wani yana so ya ɗauka ko sabunta tashar ku. Kira lambar hukuma ta mai badawa tukuna."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Misali, an kwace wayar Folake a cikin wata motar bas a Legas da karfe 6:15 na yamma. Karfe 6:20 ta amshi wayar abokin aikinta ta kira bankinta akan lambar da aka rubuta akan katinta, don toshe wayar hannu da bankin USSD."
+   ],
+   "panel": {
+    "kicker": "Tsarin wayar da ya ɓace",
+    "heading": "An sace waya? Rufe kowace kofa",
+    "items": [
+     "Kira bankin ku: toshe wayar hannu da USSD",
+     "Kira mai ba da walat ɗin ku",
+     "Kira cibiyar sadarwar ku: toshe SIM",
+     "Rana ta gaba: duba asusu, sabon SIM, sabbin PIN"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Karfe 6:30 ta kira mai bada wallet dinta, daga lambar dake cikin littafinta."
+   ],
+   "panel": {
+    "kicker": "Tsarin wayar da ya ɓace",
+    "heading": "An sace waya? Rufe kowace kofa",
+    "items": [
+     "Kira bankin ku: toshe wayar hannu da USSD",
+     "Kira mai ba da walat ɗin ku",
+     "Kira cibiyar sadarwar ku: toshe SIM",
+     "Rana ta gaba: duba asusu, sabon SIM, sabbin PIN"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Karfe 6:45 ta kira network dinta don toshe SIM din, don haka babu wanda zai iya karbar OTP dinta."
+   ],
+   "panel": {
+    "kicker": "Tsarin wayar da ya ɓace",
+    "heading": "An sace waya? Rufe kowace kofa",
+    "items": [
+     "Kira bankin ku: toshe wayar hannu da USSD",
+     "Kira mai ba da walat ɗin ku",
+     "Kira cibiyar sadarwar ku: toshe SIM",
+     "Rana ta gaba: duba asusu, sabon SIM, sabbin PIN"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Washe gari bata samu ba. Ajiye lambobin tallafi akan takarda kuma. Kulle wayarka da aikace-aikacenku, kuma ɓoye samfoti na OTP akan allon kulle."
+   ],
+   "panel": {
+    "kicker": "Tsarin wayar da ya ɓace",
+    "heading": "An sace waya? Rufe kowace kofa",
+    "items": [
+     "Kira bankin ku: toshe wayar hannu da USSD",
+     "Kira mai ba da walat ɗin ku",
+     "Kira cibiyar sadarwar ku: toshe SIM",
+     "Rana ta gaba: duba asusu, sabon SIM, sabbin PIN"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Zazzage bayanin watan da ya gabata sannan a rarraba cirorin zuwa rukuni biyar ko shida, kamar abinci, sufuri, lokacin iska da bayanai, takardar kudi, haja na kasuwanci da caji. Kada ku ƙidaya motsi tsakanin asusunku."
+   ],
+   "panel": {
+    "kicker": "Kasafin kudi daga bayanin ku",
+    "heading": "Bayanin ku rikodin ne kyauta",
+    "items": [
+     "Zazzage bayanin watan jiya",
+     "Rarraba biyan kuɗi zuwa ƙungiyoyi 5 ko 6",
+     "Nemo ƙananan biyan kuɗi da caji",
+     "Zaɓi sauyi ɗaya don wata mai zuwa"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Misali, Hadiza, wata ma’aikaciyar abinci a Abuja, ta gano Naira 16,000 ne aka tafi da su cikin kankanin lokaci da tattara bayanai. Duk wani zare da baku gane ba? Bayar da rahoto ga bankin ku lokaci guda."
+   ],
+   "panel": {
+    "kicker": "Kasafin kudi daga bayanin ku",
+    "heading": "Bayanin ku rikodin ne kyauta",
+    "items": [
+     "Zazzage bayanin watan jiya",
+     "Rarraba biyan kuɗi zuwa ƙungiyoyi 5 ko 6",
+     "Nemo ƙananan biyan kuɗi da caji",
+     "Zaɓi sauyi ɗaya don wata mai zuwa"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Don haka za ta sayi tsarin data na wata daya maimakon. Zaɓi canji ɗaya, kuma karanta sharuɗɗan kafin amfani da kowane fasalin ajiyar app."
+   ],
+   "panel": {
+    "kicker": "Kasafin kudi daga bayanin ku",
+    "heading": "Bayanin ku rikodin ne kyauta",
+    "items": [
+     "Zazzage bayanin watan jiya",
+     "Rarraba biyan kuɗi zuwa ƙungiyoyi 5 ko 6",
+     "Nemo ƙananan biyan kuɗi da caji",
+     "Zaɓi sauyi ɗaya don wata mai zuwa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Yi amfani da canja wuri kai tsaye don abokan cinikin da kuka sani, POS don katunan a cikin mutum, da hanyar biyan kuɗi don sabbin kwastomomi masu nisa.",
+    "Kudin gida da aka buga Paystack, wanda aka duba a watan Oktoba 2026, shine 1.5% da naira 100, tare da 100 da aka yaye a kasa da 2,500. Don haka odar Ifeoma naira 2,000 yakai 30."
+   ],
+   "panel": {
+    "kicker": "Hanyoyin biyan kuɗi",
+    "heading": "Kudin biya akan umarni uku",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Order of 2,000 naira",
+      "d": "Kasa da 2,500, don haka an yi watsi da 100. Kashi 1.5% na Naira 30 ne."
+     },
+     {
+      "t": "Order of 15,000 naira",
+      "d": "1.5% shine 225, da 100. Kudin Naira 325."
+     },
+     {
+      "t": "Order of 200,000 naira",
+      "d": "1.5% da 100 shine 3,100, sama da hula. Kudin Naira 2,000 ne."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Kudin odar Naira 15,000 ya kai 325."
+   ],
+   "panel": {
+    "kicker": "Hanyoyin biyan kuɗi",
+    "heading": "Kudin biya akan umarni uku",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Order of 2,000 naira",
+      "d": "Kasa da 2,500, don haka an yi watsi da 100. Kashi 1.5% na Naira 30 ne."
+     },
+     {
+      "t": "Order of 15,000 naira",
+      "d": "1.5% shine 225, da 100. Kudin Naira 325."
+     },
+     {
+      "t": "Order of 200,000 naira",
+      "d": "1.5% da 100 shine 3,100, sama da hula. Kudin Naira 2,000 ne."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Kudin Naira 200,000 ya hau kan iyaka, don haka kudin ya kai 2,000. Farashin yana canzawa, don haka koyaushe duba shafin farashin hukuma. Kuma gudanar da harkokin kasuwanci ta hanyar asusunsa."
+   ],
+   "panel": {
+    "kicker": "Hanyoyin biyan kuɗi",
+    "heading": "Kudin biya akan umarni uku",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Order of 2,000 naira",
+      "d": "Kasa da 2,500, don haka an yi watsi da 100. Kashi 1.5% na Naira 30 ne."
+     },
+     {
+      "t": "Order of 15,000 naira",
+      "d": "1.5% shine 225, da 100. Kudin Naira 325."
+     },
+     {
+      "t": "Order of 200,000 naira",
+      "d": "1.5% da 100 shine 3,100, sama da hula. Kudin Naira 2,000 ne."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Shirya kwanaki 30 tare da mayar da hankali daya a mako. Mako na 1, saitin da aminci. Mako na 2, nau'ikan biyan kuɗi uku. Mako na 3, kasuwanci ko takardar kudi. Mako na 4, bayanin bayanin ku."
+   ],
+   "card": {
+    "title": "Watan Rahma ta bibiya",
+    "rows": [],
+    "note": null
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Kowace mako, Rahma tana shafe mintuna goma da tarihin app dinta. Kudaden da suka shiga sun kai 21,000, sai 24,500, sai 27,000, sai naira 25,500."
+   ],
+   "card": {
+    "title": "Watan Rahma ta bibiya",
+    "rows": [
+     [
+      "Kudi na sati 1",
+      "21,000"
+     ],
+     [
+      "Kudi na sati 2",
+      "24,500"
+     ],
+     [
+      "Kudi na sati 3",
+      "27,000"
+     ],
+     [
+      "Kudi na sati 4",
+      "25,500"
+     ]
+    ],
+    "note": null
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "98,000 in, a kan 68,000. Ajiye rasit ɗinku da teburan takardar shaidarku, kuma ku koya wa wata mace, ta hanyar shiryar da ita yayin da ta yi da kanta."
+   ],
+   "card": {
+    "title": "Watan Rahma ta bibiya",
+    "rows": [
+     [
+      "Kudi na sati 1",
+      "21,000"
+     ],
+     [
+      "Kudi na sati 2",
+      "24,500"
+     ],
+     [
+      "Kudi na sati 3",
+      "27,000"
+     ],
+     [
+      "Kudi na sati 4",
+      "25,500"
+     ]
+    ],
+    "note": null
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Don tunawa. Yi sauri siginar ku don tsayawa. Babu wanda da gaske ya nemi PIN, OTP ko kuɗi don dawo da kuɗin ku. Idan an sace wayarka, toshe banki, walat da SIM a cikin sa'a. Yi bitar bayanin ku kowane wata, kuma daidaita hanyar biyan kuɗi ga abokin ciniki."
+   ],
+   "panel": {
+    "kicker": "Mabuɗin mahimmanci",
+    "heading": "Ka tuna",
+    "items": [
+     "Yi sauri siginar tsayawa da dubawa",
+     "Babu wanda ya nemi PIN ko OTP na gaske",
+     "An sace waya: toshe banki, walat da SIM",
+     "Yi bitar bayanin ku kowane wata",
+     "Daidaita hanyar biyan kuɗi ga abokin ciniki"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Yi katin hange na yaudara, kulle wayarka, rubuta katin gaggawa, bitar bayanin watan da ya gabata, sannan fara shirinku na kwanaki 30.",
+    "Ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi aiki",
+    "heading": "Ayyukanku na wannan tsarin",
+    "items": [
+     "Yi katin tabo da zamba",
+     "Kulle wayarka, rubuta katin gaggawa",
+     "Yi bitar bayanin watan da ya gabata",
+     "Rubuta kuma fara shirin ku na kwanaki 30"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

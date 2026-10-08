@@ -1,0 +1,629 @@
+{
+ "course": "core-data-literacy",
+ "module": "m3",
+ "title": "Dados limpos, afirmações honestas e as métricas que importam",
+ "course_title": "Alfabetização em dados: planilhas, gráficos e métricas de negócios",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Dados limpos, afirmações honestas e as métricas que importam.",
+    "Este é o vídeo do módulo 3 do Data Literacy."
+   ]
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Os dados reais raramente são limpos. As pessoas digitam rapidamente, duas pessoas registram a mesma venda, um zero é adicionado por engano. Uma linha errada pode alterar um total ou uma decisão."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Os números devem ser precisos e honestos",
+    "items": [
+     "Uma linha errada pode mudar uma decisão",
+     "Dados precisos ainda podem ser mal utilizados",
+     "Vendas altas ainda podem significar perda de dinheiro"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Os dados também podem ser precisos, mas mal utilizados: expondo detalhes privados ou levando o leitor a uma conclusão errada."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Os números devem ser precisos e honestos",
+    "items": [
+     "Uma linha errada pode mudar uma decisão",
+     "Dados precisos ainda podem ser mal utilizados",
+     "Vendas altas ainda podem significar perda de dinheiro"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "E muitas pequenas empresas monitoram apenas as vendas. Neste módulo você aprende os números que mostram se você está realmente ganhando dinheiro."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Os números devem ser precisos e honestos",
+    "items": [
+     "Uma linha errada pode mudar uma decisão",
+     "Dados precisos ainda podem ser mal utilizados",
+     "Vendas altas ainda podem significar perda de dinheiro"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Jos North, jos north e Jos North com dois espaços tornam-se três grupos em seu resumo. TRIM remove espaços extras e PROPER corrige as maiúsculas."
+   ],
+   "panel": {
+    "kicker": "Encontre e corrija",
+    "heading": "Problemas comuns e suas ferramentas",
+    "items": [
+     "Espaços extras e maiúsculas: =PROPER(TRIM(B2))",
+     "Duplicatas: uma coluna auxiliar COUNTIF",
+     "Espaços em branco: =CONTAR EM BRANCO e, em seguida, verifique os recibos",
+     "Números de texto como 5k: digite novamente como números simples",
+     "Erros de digitação: verifique =MAX e =MIN em todas as colunas"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Uma coluna auxiliar CONT.SE mostra TRUE para qualquer número de recibo que apareça mais de uma vez."
+   ],
+   "panel": {
+    "kicker": "Encontre e corrija",
+    "heading": "Problemas comuns e suas ferramentas",
+    "items": [
+     "Espaços extras e maiúsculas: =PROPER(TRIM(B2))",
+     "Duplicatas: uma coluna auxiliar COUNTIF",
+     "Espaços em branco: =CONTAR EM BRANCO e, em seguida, verifique os recibos",
+     "Números de texto como 5k: digite novamente como números simples",
+     "Erros de digitação: verifique =MAX e =MIN em todas as colunas"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "COUNTBLANK informa quantas células estão vazias. E os números digitados como texto são deixados de fora do SUM."
+   ],
+   "panel": {
+    "kicker": "Encontre e corrija",
+    "heading": "Problemas comuns e suas ferramentas",
+    "items": [
+     "Espaços extras e maiúsculas: =PROPER(TRIM(B2))",
+     "Duplicatas: uma coluna auxiliar COUNTIF",
+     "Espaços em branco: =CONTAR EM BRANCO e, em seguida, verifique os recibos",
+     "Números de texto como 5k: digite novamente como números simples",
+     "Erros de digitação: verifique =MAX e =MIN em todas as colunas"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Verifique os maiores e menores valores. Uma contribuição de 500.000 nairas num grupo onde a maioria paga 5.000 precisa ser verificada no recibo."
+   ],
+   "panel": {
+    "kicker": "Encontre e corrija",
+    "heading": "Problemas comuns e suas ferramentas",
+    "items": [
+     "Espaços extras e maiúsculas: =PROPER(TRIM(B2))",
+     "Duplicatas: uma coluna auxiliar COUNTIF",
+     "Espaços em branco: =CONTAR EM BRANCO e, em seguida, verifique os recibos",
+     "Números de texto como 5k: digite novamente como números simples",
+     "Erros de digitação: verifique =MAX e =MIN em todas as colunas"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Grace recebe uma lista de setembro de 60 linhas criada a partir de relatórios do WhatsApp de três filiais. O total é de 612.000 nairas. Cinco grafias de nomes de filiais se dividem em três."
+   ],
+   "card": {
+    "title": "Grace limpa uma lista de contribuições",
+    "rows": [
+     [
+      "Total inicial",
+      "612,000"
+     ]
+    ],
+    "note": "O total limpo corresponde ao extrato bancário."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Três pagamentos de 5.000 nairas foram lançados duas vezes. Ela remove 15.000."
+   ],
+   "card": {
+    "title": "Grace limpa uma lista de contribuições",
+    "rows": [
+     [
+      "Total inicial",
+      "612,000"
+     ],
+     [
+      "Duplicatas removidas (menos)",
+      "15,000"
+     ]
+    ],
+    "note": "O total limpo corresponde ao extrato bancário."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Dois valores ficaram em branco. Os recibos mostram que ambos os membros pagaram 5.000, então o total aumenta em 10.000."
+   ],
+   "card": {
+    "title": "Grace limpa uma lista de contribuições",
+    "rows": [
+     [
+      "Total inicial",
+      "612,000"
+     ],
+     [
+      "Duplicatas removidas (menos)",
+      "15,000"
+     ],
+     [
+      "Dois espaços em branco preenchidos (mais)",
+      "10,000"
+     ]
+    ],
+    "note": "O total limpo corresponde ao extrato bancário."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Uma entrada diz 50.000, mas o recibo diz 5.000. Ela corrige."
+   ],
+   "card": {
+    "title": "Grace limpa uma lista de contribuições",
+    "rows": [
+     [
+      "Total inicial",
+      "612,000"
+     ],
+     [
+      "Duplicatas removidas (menos)",
+      "15,000"
+     ],
+     [
+      "Dois espaços em branco preenchidos (mais)",
+      "10,000"
+     ],
+     [
+      "Erro de digitação corrigido (menos)",
+      "45,000"
+     ]
+    ],
+    "note": "O total limpo corresponde ao extrato bancário."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "O novo total é de 562.000 nairas e agora corresponde ao banco. Ela registra cada alteração em um registro de limpeza, para que o executivo possa ver o que foi corrigido e por quê."
+   ],
+   "card": {
+    "title": "Grace limpa uma lista de contribuições",
+    "rows": [
+     [
+      "Total inicial",
+      "612,000"
+     ],
+     [
+      "Duplicatas removidas (menos)",
+      "15,000"
+     ],
+     [
+      "Dois espaços em branco preenchidos (mais)",
+      "10,000"
+     ],
+     [
+      "Erro de digitação corrigido (menos)",
+      "45,000"
+     ]
+    ],
+    "note": "O total limpo corresponde ao extrato bancário."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Use a validação de dados para adicionar um menu suspenso, como Dinheiro, Transferência e PDV. As pessoas escolhem em vez de digitar, então a ortografia permanece a mesma. Colete relatórios por meio de um formulário compartilhado."
+   ],
+   "panel": {
+    "kicker": "Evite erros",
+    "heading": "Pare os erros antes que eles comecem",
+    "items": [
+     "Menus suspensos para cada coluna de categoria",
+     "Um formulário compartilhado em vez de relatórios mistos",
+     "Destaque valores suspeitos em vermelho",
+     "Colar colunas limpas apenas como valores",
+     "Mantenha um registro de limpeza de quatro colunas"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Use formatação condicional para colorir valores suspeitos. Após a limpeza com uma fórmula, cole a coluna limpa apenas como valores."
+   ],
+   "panel": {
+    "kicker": "Evite erros",
+    "heading": "Pare os erros antes que eles comecem",
+    "items": [
+     "Menus suspensos para cada coluna de categoria",
+     "Um formulário compartilhado em vez de relatórios mistos",
+     "Destaque valores suspeitos em vermelho",
+     "Colar colunas limpas apenas como valores",
+     "Mantenha um registro de limpeza de quatro colunas"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Sempre mantenha o arquivo bruto original intacto e mantenha um registro: data, registro, o que estava errado, o que você alterou."
+   ],
+   "panel": {
+    "kicker": "Evite erros",
+    "heading": "Pare os erros antes que eles comecem",
+    "items": [
+     "Menus suspensos para cada coluna de categoria",
+     "Um formulário compartilhado em vez de relatórios mistos",
+     "Destaque valores suspeitos em vermelho",
+     "Colar colunas limpas apenas como valores",
+     "Mantenha um registro de limpeza de quatro colunas"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Mantenha o arquivo bruto intacto. Limpe uma cópia.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "O trabalho ético com dados protege as pessoas. Colete apenas o que você precisa e diga no início de uma pesquisa para que servem as respostas."
+   ],
+   "panel": {
+    "kicker": "Proteja as pessoas",
+    "heading": "Privacidade antes de compartilhar",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Collect the minimum",
+      "d": "Contando quem compareceu? Você não precisa de endereços residenciais."
+     },
+     {
+      "t": "Anonymise",
+      "d": "Códigos como P01 em vez de nomes, sem números de telefone e sem capturas de tela das listas de membros."
+     },
+     {
+      "t": "Watch small groups",
+      "d": "1 viúva no Distrito 3 pode identificá-la. Combine pequenos grupos ou relate de forma mais ampla."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Substitua os nomes por códigos antes de compartilhar. Uma captura de tela postada em um grande grupo do WhatsApp pode ser encaminhada para qualquer lugar em poucos minutos."
+   ],
+   "panel": {
+    "kicker": "Proteja as pessoas",
+    "heading": "Privacidade antes de compartilhar",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Collect the minimum",
+      "d": "Contando quem compareceu? Você não precisa de endereços residenciais."
+     },
+     {
+      "t": "Anonymise",
+      "d": "Códigos como P01 em vez de nomes, sem números de telefone e sem capturas de tela das listas de membros."
+     },
+     {
+      "t": "Watch small groups",
+      "d": "1 viúva no Distrito 3 pode identificá-la. Combine pequenos grupos ou relate de forma mais ampla."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "E observe grupos muito pequenos, porque um número minúsculo pode apontar para uma pessoa real."
+   ],
+   "panel": {
+    "kicker": "Proteja as pessoas",
+    "heading": "Privacidade antes de compartilhar",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Collect the minimum",
+      "d": "Contando quem compareceu? Você não precisa de endereços residenciais."
+     },
+     {
+      "t": "Anonymise",
+      "d": "Códigos como P01 em vez de nomes, sem números de telefone e sem capturas de tela das listas de membros."
+     },
+     {
+      "t": "Watch small groups",
+      "d": "1 viúva no Distrito 3 pode identificá-la. Combine pequenos grupos ou relate de forma mais ampla."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Por exemplo, um grupo de mulheres em Enugu tem 120 membros. O coordenador envia um link do Formulários Google e 48 respondem. 36 deles escolhem o sábado para treinar."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Quem está faltando na pesquisa?",
+    "items": [
+     "48 de 120 membros responderam: uma taxa de resposta de 40%",
+     "36 dos 48 escolheram o sábado: 75%",
+     "Membros mais velhos com telefones básicos estavam faltando",
+     "Os líderes coletam as respostas que faltam por telefone"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Mas quase nenhum membro mais velho respondeu, porque muitos usam telefones básicos sem dados. Isso é viés de amostragem.",
+    "Então ela relata: 75% dos 48 membros que responderam online preferem o sábado, e estamos coletando as demais respostas antes de decidir."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Quem está faltando na pesquisa?",
+    "items": [
+     "48 de 120 membros responderam: uma taxa de resposta de 40%",
+     "36 dos 48 escolheram o sábado: 75%",
+     "Membros mais velhos com telefones básicos estavam faltando",
+     "Os líderes coletam as respostas que faltam por telefone"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Desconfie disso. E lembre-se, correlação não é causalidade. As vendas de Zobo e de ventiladores aumentam juntas por causa do clima quente, não porque uma causa a outra.",
+    "Promessas de retornos mensais elevados e fixos são um clássico sinal de alerta Ponzi. Verifique o registro na Securities and Exchange Commission da Nigéria antes de pagar."
+   ],
+   "panel": {
+    "kicker": "Descubra o truque",
+    "heading": "Números enganosos a serem observados",
+    "items": [
+     "Eixos de corte que exageram a mudança",
+     "Apenas os melhores meses mostrados",
+     "Até 100% pode significar de 2 a 4 pedidos",
+     "Médias que escondem o spread",
+     "Promessas de altos retornos constantes: verifique SEC"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Vendas altas não garantem lucro. Os números de Ada são ilustrativos."
+   ],
+   "card": {
+    "title": "O setembro de Ada foi lucrativo?",
+    "rows": [],
+    "note": "Figuras ilustrativas. Total é o lucro líquido."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "A receita menos o custo dos produtos vendidos é o lucro bruto: 110.000 nairas. Divida pela receita e vezes 100, e a margem bruta dela é de 27,5%."
+   ],
+   "card": {
+    "title": "O setembro de Ada foi lucrativo?",
+    "rows": [
+     [
+      "Receita, 220 vendas",
+      "400,000"
+     ],
+     [
+      "Custo das mercadorias vendidas",
+      "290,000"
+     ],
+     [
+      "Lucro bruto",
+      "110,000"
+     ]
+    ],
+    "note": "Figuras ilustrativas. Total é o lucro líquido."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Após 20.000 nairas em custos operacionais, seu lucro líquido é de 90.000, uma margem líquida de 22,5%.",
+    "Se o seu fornecedor aumentar os preços e ela não se ajustar, ela verá isso primeiro numa margem bruta decrescente."
+   ],
+   "card": {
+    "title": "O setembro de Ada foi lucrativo?",
+    "rows": [
+     [
+      "Receita, 220 vendas",
+      "400,000"
+     ],
+     [
+      "Custo das mercadorias vendidas",
+      "290,000"
+     ],
+     [
+      "Lucro bruto",
+      "110,000"
+     ],
+     [
+      "Custos operacionais",
+      "20,000"
+     ]
+    ],
+    "note": "Figuras ilustrativas. Total é o lucro líquido."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "O ponto de equilíbrio é onde você cobre todos os custos. Um comerciante tem custos fixos de 20.000 nairas por mês. Cada balde de garri deixa 500 nairas, então 20.000 dividido por 500 são 40 baldes."
+   ],
+   "panel": {
+    "kicker": "Ponto de equilíbrio",
+    "heading": "Quantos baldes ela deve vender?",
+    "mode": "compare",
+    "left_h": "Garri custou ₦ 2.000",
+    "left": [
+     "É vendido por ₦ 2.500",
+     "₦500 restantes de cada balde",
+     "Ponto de equilíbrio: 40 baldes"
+    ],
+    "right_h": "Garri custou ₦ 2.200",
+    "right": [
+     "Ainda é vendido por ₦ 2.500",
+     "Restam apenas ₦300 de cada",
+     "Ponto de equilíbrio: cerca de 67 baldes"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Se o custo subir para 2.200, cada balde deixa apenas 300 e ela precisa de cerca de 67 baldes. É por isso que acompanhar os custos é tão importante quanto acompanhar as vendas."
+   ],
+   "panel": {
+    "kicker": "Ponto de equilíbrio",
+    "heading": "Quantos baldes ela deve vender?",
+    "mode": "compare",
+    "left_h": "Garri custou ₦ 2.000",
+    "left": [
+     "É vendido por ₦ 2.500",
+     "₦500 restantes de cada balde",
+     "Ponto de equilíbrio: 40 baldes"
+    ],
+    "right_h": "Garri custou ₦ 2.200",
+    "right": [
+     "Ainda é vendido por ₦ 2.500",
+     "Restam apenas ₦300 de cada",
+     "Ponto de equilíbrio: cerca de 67 baldes"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Para lembrar. Limpe antes de contar. Proteja as pessoas e relate honestamente. E acompanhe de 3 a 5 números importantes todas as semanas, incluindo margem, não apenas vendas."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Lembre-se",
+    "items": [
+     "Verifique totais, espaços em branco, duplicatas e extremos",
+     "Anonimize e pergunte quem não conseguiu responder",
+     "A correlação é uma pista, não uma prova",
+     "Margem bruta = lucro bruto ÷ receita × 100",
+     "Acompanhe de 3 a 5 KPIs semanalmente em relação às metas"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Sua vez. Limpe uma lista real, faça um relatório seguro e honesto e elabore suas próprias métricas principais.",
+    "Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Pratique tarefas",
+    "heading": "Suas tarefas práticas",
+    "items": [
+     "Limpe uma lista real de 30 linhas, com um log",
+     "Anonimize uma denúncia e anote quem está desaparecido",
+     "Calcule suas próprias margens e ponto de equilíbrio",
+     "Configure um painel com três KPIs"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

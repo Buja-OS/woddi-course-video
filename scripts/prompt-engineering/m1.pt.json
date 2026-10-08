@@ -1,0 +1,497 @@
+{
+ "course": "prompt-engineering",
+ "module": "m1",
+ "title": "Como a IA lê seu prompt e como escrever um que funcione",
+ "course_title": "Engenharia imediata",
+ "shots": [
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Como a IA lê seu prompt e como escrever um que funcione.",
+    "Este é o vídeo do módulo um da Prompt Engineering."
+   ]
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Ferramentas como ChatGPT, Gemini, Claude e Copilot são construídas em grandes modelos de linguagem. Dado algum texto, o modelo prevê qual texto deve vir a seguir. Não está procurando uma resposta armazenada."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "O modelo só sabe o que você dá",
+    "items": [
+     "Entenda o que o modelo faz com suas palavras",
+     "Saiba por que respostas confiantes podem estar erradas",
+     "Use um prompt de seis partes para trabalhos importantes",
+     "Escolha onde a solicitação realmente vale a pena"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "É por isso que uma resposta pode parecer correta e ainda assim ser falsa."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "O modelo só sabe o que você dá",
+    "items": [
+     "Entenda o que o modelo faz com suas palavras",
+     "Saiba por que respostas confiantes podem estar erradas",
+     "Use um prompt de seis partes para trabalhos importantes",
+     "Escolha onde a solicitação realmente vale a pena"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Se a sua solicitação for vaga, a resposta mais provável será vaga e mediana. Se nomear o leitor, o propósito e o formato, a resposta torna-se específica."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "O modelo só sabe o que você dá",
+    "items": [
+     "Entenda o que o modelo faz com suas palavras",
+     "Saiba por que respostas confiantes podem estar erradas",
+     "Use um prompt de seis partes para trabalhos importantes",
+     "Escolha onde a solicitação realmente vale a pena"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "E você aprenderá quais de suas tarefas valem o esforço."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "O modelo só sabe o que você dá",
+    "items": [
+     "Entenda o que o modelo faz com suas palavras",
+     "Saiba por que respostas confiantes podem estar erradas",
+     "Use um prompt de seis partes para trabalhos importantes",
+     "Escolha onde a solicitação realmente vale a pena"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Os modelos leem tokens. Uma palavra comum em inglês pode ser um símbolo, mas uma palavra iorubá, hausa ou igbo pode ser dividida em várias. Como um guia aproximado, 1.000 tokens equivalem a cerca de 750 palavras em inglês."
+   ],
+   "panel": {
+    "kicker": "Como funciona",
+    "heading": "Quatro coisas que você deve saber sobre o modelo",
+    "items": [
+     "Ele lê tokens, pedaços de texto, não palavras",
+     "A janela de contexto limita o que pode considerar",
+     "Pode declarar fatos falsos com confiança",
+     "Cada novo chat começa em branco por padrão"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "A janela de contexto é o máximo que ele pode considerar de uma só vez, incluindo seu prompt, qualquer documento colado e a resposta. Em um bate-papo muito longo, detalhes anteriores podem ser esquecidos. Inicie um novo bate-papo e cole um breve resumo."
+   ],
+   "panel": {
+    "kicker": "Como funciona",
+    "heading": "Quatro coisas que você deve saber sobre o modelo",
+    "items": [
+     "Ele lê tokens, pedaços de texto, não palavras",
+     "A janela de contexto limita o que pode considerar",
+     "Pode declarar fatos falsos com confiança",
+     "Cada novo chat começa em branco por padrão"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Respostas confiantes, mas falsas, são chamadas de alucinações. Acontecem mais com nomes, números exatos, eventos recentes e referências. Verifique tudo o que você publicará ou agirá."
+   ],
+   "panel": {
+    "kicker": "Como funciona",
+    "heading": "Quatro coisas que você deve saber sobre o modelo",
+    "items": [
+     "Ele lê tokens, pedaços de texto, não palavras",
+     "A janela de contexto limita o que pode considerar",
+     "Pode declarar fatos falsos com confiança",
+     "Cada novo chat começa em branco por padrão"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "E a menos que você ative um recurso de memória, cada novo bate-papo não saberá nada sobre você."
+   ],
+   "panel": {
+    "kicker": "Como funciona",
+    "heading": "Quatro coisas que você deve saber sobre o modelo",
+    "items": [
+     "Ele lê tokens, pedaços de texto, não palavras",
+     "A janela de contexto limita o que pode considerar",
+     "Pode declarar fatos falsos com confiança",
+     "Cada novo chat começa em branco por padrão"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Por exemplo, Halima coordena uma cooperativa de mulheres em Kaduna. Ela precisa informar a 40 membros que o local da reunião mudou. Sua primeira solicitação recebe uma carta formal e genérica com espaços em branco onde os fatos deveriam estar."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Uma tarefa, duas solicitações",
+    "mode": "compare",
+    "left_h": "Alerta A",
+    "left": [
+     "Escreva uma mensagem sobre uma mudança de local",
+     "Formal, genérico, cerca de 180 palavras",
+     "Espaços reservados, sem data"
+    ],
+    "right_h": "Alerta B",
+    "right": [
+     "Leitores, data, locais, motivo",
+     "WhatsApp, menos de 60 palavras",
+     "Utilizável após uma pequena edição"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Seu segundo prompt nomeia os leitores, em sua maioria traders com idade entre 30 e 60 anos, a data, o antigo e o novo local, a hora, o motivo, o canal e um limite de 60 palavras.",
+    "A resposta tem 52 palavras e está pronta para ser enviada. O modelo não ficou mais inteligente. Halima forneceu os fatos necessários."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Uma tarefa, duas solicitações",
+    "mode": "compare",
+    "left_h": "Alerta A",
+    "left": [
+     "Escreva uma mensagem sobre uma mudança de local",
+     "Formal, genérico, cerca de 180 palavras",
+     "Espaços reservados, sem data"
+    ],
+    "right_h": "Alerta B",
+    "right": [
+     "Leitores, data, locais, motivo",
+     "WhatsApp, menos de 60 palavras",
+     "Utilizável após uma pequena edição"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Ngozi trabalha numa ONG em Enugu. Ela deve transformar um relatório de campo de 9 páginas em um resumo de uma página. Sua tarefa começa com um verbo forte: escrever um resumo de decisão de uma página."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "O prompt de seis partes",
+    "items": [
+     "Tarefa: um verbo claro",
+     "Contexto: leitor e propósito",
+     "Entrada: material dentro dos delimitadores",
+     "Formato: forma e comprimento",
+     "Restrições: limites e impossibilidades",
+     "Exemplos: mostrar boa saída"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Contexto: o leitor é o seu diretor, que tem 5 minutos antes da chamada do financiador."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "O prompt de seis partes",
+    "items": [
+     "Tarefa: um verbo claro",
+     "Contexto: leitor e propósito",
+     "Entrada: material dentro dos delimitadores",
+     "Formato: forma e comprimento",
+     "Restrições: limites e impossibilidades",
+     "Exemplos: mostrar boa saída"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Entrada: o relatório colado entre as tags do relatório, para que a modelo não o confunda com suas instruções."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "O prompt de seis partes",
+    "items": [
+     "Tarefa: um verbo claro",
+     "Contexto: leitor e propósito",
+     "Entrada: material dentro dos delimitadores",
+     "Formato: forma e comprimento",
+     "Restrições: limites e impossibilidades",
+     "Exemplos: mostrar boa saída"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Formato: quatro títulos, marcadores, menos de 300 palavras."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "O prompt de seis partes",
+    "items": [
+     "Tarefa: um verbo claro",
+     "Contexto: leitor e propósito",
+     "Entrada: material dentro dos delimitadores",
+     "Formato: forma e comprimento",
+     "Restrições: limites e impossibilidades",
+     "Exemplos: mostrar boa saída"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Restrições: use apenas números no relatório. Onde não houver algarismo, escreva NÃO DECLARADO."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "O prompt de seis partes",
+    "items": [
+     "Tarefa: um verbo claro",
+     "Contexto: leitor e propósito",
+     "Entrada: material dentro dos delimitadores",
+     "Formato: forma e comprimento",
+     "Restrições: limites e impossibilidades",
+     "Exemplos: mostrar boa saída"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Exemplos: um briefing passado que o diretor elogiou. Sua vaga sugestão inventou um número que não constava do relatório. O prompt de seis partes continha 270 palavras sem números inventados, e ela ainda verificava cada número."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "O prompt de seis partes",
+    "items": [
+     "Tarefa: um verbo claro",
+     "Contexto: leitor e propósito",
+     "Entrada: material dentro dos delimitadores",
+     "Formato: forma e comprimento",
+     "Restrições: limites e impossibilidades",
+     "Exemplos: mostrar boa saída"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "rule": "Diga-lhe o que fazer quando faltar informação: não adivinhe.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Liste suas tarefas para uma semana e mapeie cada uma de acordo com o valor do tempo economizado e o risco se estiver errado. Comece com tarefas de alto valor e baixo risco."
+   ],
+   "panel": {
+    "kicker": "Valor e risco",
+    "heading": "Onde a solicitação vale a pena",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "High value, low risk",
+      "d": "Notas internas, atualizações semanais, primeiros rascunhos. Avise primeiro e depois uma verificação leve."
+     },
+     {
+      "t": "High value, high risk",
+      "d": "Relatórios de doadores, resumos financeiros. Vale a pena avisar, mas verifique cada valor e afirmação."
+     },
+     {
+      "t": "Mantenha-se liderado por humanos",
+      "d": "Luto, pedido de desculpas, decisões sobre pessoas, julgamento legal, médico ou financeiro."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Ainda vale a pena solicitar trabalhos de alto valor, mas de alto risco, com verificações cuidadosas."
+   ],
+   "panel": {
+    "kicker": "Valor e risco",
+    "heading": "Onde a solicitação vale a pena",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "High value, low risk",
+      "d": "Notas internas, atualizações semanais, primeiros rascunhos. Avise primeiro e depois uma verificação leve."
+     },
+     {
+      "t": "High value, high risk",
+      "d": "Relatórios de doadores, resumos financeiros. Vale a pena avisar, mas verifique cada valor e afirmação."
+     },
+     {
+      "t": "Mantenha-se liderado por humanos",
+      "d": "Luto, pedido de desculpas, decisões sobre pessoas, julgamento legal, médico ou financeiro."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Algumas tarefas ficam com as pessoas: mensagens de pesar ou desculpas, contratações e notas, e qualquer coisa que necessite de julgamento jurídico, médico ou financeiro."
+   ],
+   "panel": {
+    "kicker": "Valor e risco",
+    "heading": "Onde a solicitação vale a pena",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "High value, low risk",
+      "d": "Notas internas, atualizações semanais, primeiros rascunhos. Avise primeiro e depois uma verificação leve."
+     },
+     {
+      "t": "High value, high risk",
+      "d": "Relatórios de doadores, resumos financeiros. Vale a pena avisar, mas verifique cada valor e afirmação."
+     },
+     {
+      "t": "Mantenha-se liderado por humanos",
+      "d": "Luto, pedido de desculpas, decisões sobre pessoas, julgamento legal, médico ou financeiro."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Trate tudo o que você digita em uma ferramenta pública de IA como informação que sai do seu controle.",
+    "Nunca cole senhas, números BVN ou NIN, dados bancários, números de telefone de membros ou informações privadas de saúde. Substitua nomes por funções antes de colar um documento real."
+   ],
+   "panel": {
+    "kicker": "Segurança em primeiro lugar",
+    "heading": "Nunca cole o que você não postaria",
+    "items": [
+     "Sem senhas",
+     "Sem números BVN ou NIN",
+     "Sem dados bancários",
+     "Nenhum número de telefone ou informações de saúde dos membros",
+     "Substitua nomes por funções, como Membro A"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Lembre-se. O modelo prevê texto provável, então forneça os fatos. Use as seis partes para qualquer coisa que importe.",
+    "E meça honestamente. Funmi, administradora de uma escola em Ibadan, economizou cerca de 63 horas por ano com três solicitações, e seu tempo de verificação não diminuiu. Verificar faz parte do trabalho."
+   ],
+   "panel": {
+    "kicker": "Lembre-se",
+    "heading": "O que manter neste módulo",
+    "items": [
+     "O modelo prevê texto; não procura as coisas",
+     "Detalhes ausentes levam a respostas genéricas",
+     "Use as seis partes para qualquer tarefa importante",
+     "Meça o tempo economizado, incluindo a verificação do tempo"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Envie um prompt vago e outro detalhado para uma mensagem real e compare-os. Reconstrua um prompt de trabalho com todas as seis partes. Em seguida, desenhe seu mapa de valor e risco com pelo menos oito tarefas.",
+    "Agora continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Tarefa prática",
+    "heading": "Suas tarefas para este módulo",
+    "items": [
+     "Compare uma solicitação vaga com uma detalhada",
+     "Reconstrua um prompt de trabalho usando todas as seis partes",
+     "Desenhe seu mapa de valor e risco"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

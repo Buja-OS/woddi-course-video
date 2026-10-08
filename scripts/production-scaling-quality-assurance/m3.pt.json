@@ -1,0 +1,647 @@
+{
+ "course": "production-scaling-quality-assurance",
+ "module": "m3",
+ "title": "Crescimento, pessoas e provas",
+ "course_title": "Dimensionamento de produção e garantia de qualidade",
+ "shots": [
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Crescimento, pessoas e provas.",
+    "Este é o vídeo do módulo 3 de Escalonamento de Produção e Garantia de Qualidade."
+   ]
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Uma escola pede 400 maços até sexta-feira. Um supermercado pede 300 maços toda segunda-feira, durante meses. Quebrar essa promessa uma vez pode perder a conta."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "O dimensionamento só compensa se você cumprir as promessas",
+    "items": [
+     "Prometa apenas o que você pode cumprir",
+     "Lidar com defeitos sem ocultá-los",
+     "Prove de onde veio cada pacote",
+     "Um plano de 90 dias que você pode conferir"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "No volume, os defeitos são certos. O que importa é o que acontece a seguir."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "O dimensionamento só compensa se você cumprir as promessas",
+    "items": [
+     "Prometa apenas o que você pode cumprir",
+     "Lidar com defeitos sem ocultá-los",
+     "Prove de onde veio cada pacote",
+     "Um plano de 90 dias que você pode conferir"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Você deve rastrear qualquer pacote até seus materiais e encaminhá-lo aos clientes."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "O dimensionamento só compensa se você cumprir as promessas",
+    "items": [
+     "Prometa apenas o que você pode cumprir",
+     "Lidar com defeitos sem ocultá-los",
+     "Prove de onde veio cada pacote",
+     "Um plano de 90 dias que você pode conferir"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "E você terminará com um plano de expansão de 90 dias."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "O dimensionamento só compensa se você cumprir as promessas",
+    "items": [
+     "Prometa apenas o que você pode cumprir",
+     "Lidar com defeitos sem ocultá-los",
+     "Prove de onde veio cada pacote",
+     "Um plano de 90 dias que você pode conferir"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Planeje com capacidade demonstrada: o que você realmente produziu de acordo com as especificações em uma semana normal. Para Kemi, 2.100 maços por semana."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Kemi deveria levar mais 500 maços por semana?",
+    "items": [
+     "Capacidade demonstrada: 2.100 por semana",
+     "Agora: 1.500 pacotes, 71% de utilização",
+     "Mais 500: 95%, apenas 100 sobressalentes",
+     "Um dia perdido = 420 pacotes",
+     "Contra-oferta 300: 86%, 300 sobras"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "A utilização é a demanda comprometida dividida pela capacidade. Ela já fornece 1.500 pacotes, ou seja, 71%."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Kemi deveria levar mais 500 maços por semana?",
+    "items": [
+     "Capacidade demonstrada: 2.100 por semana",
+     "Agora: 1.500 pacotes, 71% de utilização",
+     "Mais 500: 95%, apenas 100 sobressalentes",
+     "Um dia perdido = 420 pacotes",
+     "Contra-oferta 300: 86%, 300 sobras"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Um supermercado quer mais 500 toda segunda-feira. Isso é 95%, com apenas 100 pacotes sobrando."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Kemi deveria levar mais 500 maços por semana?",
+    "items": [
+     "Capacidade demonstrada: 2.100 por semana",
+     "Agora: 1.500 pacotes, 71% de utilização",
+     "Mais 500: 95%, apenas 100 sobressalentes",
+     "Um dia perdido = 420 pacotes",
+     "Contra-oferta 300: 86%, 300 sobras"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Seus registros mostram que ela perde cerca de um dia por mês devido a cortes de energia e doenças. Um dia perdido equivale a 420 maços. Com 100 sobressalentes, a recuperação leva mais de 4 semanas."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Kemi deveria levar mais 500 maços por semana?",
+    "items": [
+     "Capacidade demonstrada: 2.100 por semana",
+     "Agora: 1.500 pacotes, 71% de utilização",
+     "Mais 500: 95%, apenas 100 sobressalentes",
+     "Um dia perdido = 420 pacotes",
+     "Contra-oferta 300: 86%, 300 sobras"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Então ela oferece 300 por semana durante 6 semanas. Isso deixa 300 sobras e um dia perdido é recuperado em 1,4 semanas. Após 6 semanas de entrega no prazo, ela tem evidências de mais."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Kemi deveria levar mais 500 maços por semana?",
+    "items": [
+     "Capacidade demonstrada: 2.100 por semana",
+     "Agora: 1.500 pacotes, 71% de utilização",
+     "Mais 500: 95%, apenas 100 sobressalentes",
+     "Um dia perdido = 420 pacotes",
+     "Contra-oferta 300: 86%, 300 sobras"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Deixe o volume seguir suas evidências, nunca corra à frente delas.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Mantenha uma pequena quantidade de produto aprovado para que um dia ruim não se torne uma entrega perdida. Rotule cada caixa e sempre entregue primeiro o estoque mais antigo."
+   ],
+   "panel": {
+    "kicker": "Buffer e prazos de entrega",
+    "heading": "Prometa honestamente",
+    "mode": "compare",
+    "left_h": "Buffer de estoque",
+    "left": [
+     "Cerca de uma entrega por cliente",
+     "Código do lote e validade nas caixas",
+     "Fresco e seco",
+     "Primeiro expirou, primeiro saiu"
+    ],
+    "right_h": "Prazo de entrega honesto",
+    "right": [
+     "Pedido extra/capacidade sobressalente",
+     "1.000/300 = 3,3 semanas",
+     "Adicione tempo de compra e entrega",
+     "Cite 4 semanas, não 1"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Para um pedido único, divida-o pela capacidade disponível e adicione o tempo de compra e entrega. Kemi cita 4 semanas mais entrega, não 1 semana.",
+    "E observe os longos prazos de pagamento: esperar 30 dias significa que você mesmo financia as ações."
+   ],
+   "panel": {
+    "kicker": "Buffer e prazos de entrega",
+    "heading": "Prometa honestamente",
+    "mode": "compare",
+    "left_h": "Buffer de estoque",
+    "left": [
+     "Cerca de uma entrega por cliente",
+     "Código do lote e validade nas caixas",
+     "Fresco e seco",
+     "Primeiro expirou, primeiro saiu"
+    ],
+    "right_h": "Prazo de entrega honesto",
+    "right": [
+     "Pedido extra/capacidade sobressalente",
+     "1.000/300 = 3,3 semanas",
+     "Adicione tempo de compra e entrega",
+     "Cite 4 semanas, não 1"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Qualquer item que falhe na verificação vai para uma área de espera marcada, com uma etiqueta. Nada sai sem uma decisão. Na dúvida, coloque na bandeja vermelha e agradeça às pessoas que utilizam."
+   ],
+   "panel": {
+    "kicker": "Defeitos",
+    "heading": "Espere, decida, retrabalhe de acordo com as regras",
+    "items": [
+     "Item com falha: bandeja vermelha, com uma etiqueta",
+     "O supervisor decide; escreva",
+     "Retrabalhar por método escrito, uma vez",
+     "Verifique novamente as especificações completas",
+     "Caiu, mofado, contaminado: sucata"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "A decisão é retrabalhar, rebaixar, descartar ou usar como está, e ela é anotada."
+   ],
+   "panel": {
+    "kicker": "Defeitos",
+    "heading": "Espere, decida, retrabalhe de acordo com as regras",
+    "items": [
+     "Item com falha: bandeja vermelha, com uma etiqueta",
+     "O supervisor decide; escreva",
+     "Retrabalhar por método escrito, uma vez",
+     "Verifique novamente as especificações completas",
+     "Caiu, mofado, contaminado: sucata"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Retrabalhe apenas por método escrito, verifique tudo novamente, registre e permita apenas uma vez."
+   ],
+   "panel": {
+    "kicker": "Defeitos",
+    "heading": "Espere, decida, retrabalhe de acordo com as regras",
+    "items": [
+     "Item com falha: bandeja vermelha, com uma etiqueta",
+     "O supervisor decide; escreva",
+     "Retrabalhar por método escrito, uma vez",
+     "Verifique novamente as especificações completas",
+     "Caiu, mofado, contaminado: sucata"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Algumas falhas alimentares nunca podem ser retrabalhadas. Qualquer coisa que caia, esteja contaminada, mofada ou vencida é descartada.",
+    "Nunca esconda um problema de segurança alimentar. Encontre a causa e, se foi vendido, entre em contato com os compradores."
+   ],
+   "panel": {
+    "kicker": "Defeitos",
+    "heading": "Espere, decida, retrabalhe de acordo com as regras",
+    "items": [
+     "Item com falha: bandeja vermelha, com uma etiqueta",
+     "O supervisor decide; escreva",
+     "Retrabalhar por método escrito, uma vez",
+     "Verifique novamente as especificações completas",
+     "Caiu, mofado, contaminado: sucata"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Mantenha um registro de defeitos. Durante duas semanas, a equipe de Kemi registrou 100 embalagens defeituosas entre cerca de 4.000."
+   ],
+   "panel": {
+    "kicker": "Encontre a causa",
+    "heading": "Pareto, depois espinha de peixe",
+    "items": [
+     "Duas semanas: 100 pacotes com defeito",
+     "Queimado 46, quebrado 30: juntos 76%",
+     "Espinha de peixe com a equipe, 20 minutos",
+     "Causa: últimas cargas, óleo mais antigo",
+     "Rotação da fritadeira e regra de troca de óleo"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Classifique-os primeiro. Embalagens queimadas e quebradas causam 76% de todos os defeitos. Esta é uma tabela de Pareto. Mostra onde gastar seu esforço."
+   ],
+   "panel": {
+    "kicker": "Encontre a causa",
+    "heading": "Pareto, depois espinha de peixe",
+    "items": [
+     "Duas semanas: 100 pacotes com defeito",
+     "Queimado 46, quebrado 30: juntos 76%",
+     "Espinha de peixe com a equipe, 20 minutos",
+     "Causa: últimas cargas, óleo mais antigo",
+     "Rotação da fritadeira e regra de troca de óleo"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Em seguida, uma sessão de espinha de peixe de 20 minutos: a equipe lista as possíveis causas em pessoas, equipamentos, métodos, materiais, medições e ambiente."
+   ],
+   "panel": {
+    "kicker": "Encontre a causa",
+    "heading": "Pareto, depois espinha de peixe",
+    "items": [
+     "Duas semanas: 100 pacotes com defeito",
+     "Queimado 46, quebrado 30: juntos 76%",
+     "Espinha de peixe com a equipe, 20 minutos",
+     "Causa: últimas cargas, óleo mais antigo",
+     "Rotação da fritadeira e regra de troca de óleo"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "O registro de defeitos mostra que a maioria dos pacotes queimados veio das últimas cargas do dia, quando a fritadeira estava cansada e o óleo mais antigo."
+   ],
+   "panel": {
+    "kicker": "Encontre a causa",
+    "heading": "Pareto, depois espinha de peixe",
+    "items": [
+     "Duas semanas: 100 pacotes com defeito",
+     "Queimado 46, quebrado 30: juntos 76%",
+     "Espinha de peixe com a equipe, 20 minutos",
+     "Causa: últimas cargas, óleo mais antigo",
+     "Rotação da fritadeira e regra de troca de óleo"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Suas ações corretivas: rotação da fritadeira a cada duas horas, troca de óleo em um número fixo de cargas e reinicialização do temporizador escrita no método. Duas semanas depois, ela verifica o registro novamente."
+   ],
+   "panel": {
+    "kicker": "Encontre a causa",
+    "heading": "Pareto, depois espinha de peixe",
+    "items": [
+     "Duas semanas: 100 pacotes com defeito",
+     "Queimado 46, quebrado 30: juntos 76%",
+     "Espinha de peixe com a equipe, 20 minutos",
+     "Causa: últimas cargas, óleo mais antigo",
+     "Rotação da fritadeira e regra de troca de óleo"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Uma correção corrige o produto. Uma ação corretiva remove a causa.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Uma loja envia a Kemi a foto de uma embalagem com gosto rançoso e oleoso. O código do lote é KC261006-3: queixo-queixo feito em 6 de outubro de 2026, carga de mistura 3."
+   ],
+   "panel": {
+    "kicker": "Rastreabilidade",
+    "heading": "Códigos de lote e registros de lote",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Lot code",
+      "d": "KC261006-3: Queixo de Kemi, 6 de outubro de 2026, carga 3. Em cada embalagem e caixa."
+     },
+     {
+      "t": "Batch record",
+      "d": "Lotes de materiais, cada cheque com leitura e iniciais, saída, amostra retida, liberação."
+     },
+     {
+      "t": "Registro de despacho",
+      "d": "Qual cliente recebeu quantos de cada lote e quando."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Seu registro de lote mostra que o óleo não foi trocado naquele dia e que a fritadeira era uma nova ajudante. A amostra retida da carga 3 está obsoleta; carga 2 está bem."
+   ],
+   "panel": {
+    "kicker": "Rastreabilidade",
+    "heading": "Códigos de lote e registros de lote",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Lot code",
+      "d": "KC261006-3: Queixo de Kemi, 6 de outubro de 2026, carga 3. Em cada embalagem e caixa."
+     },
+     {
+      "t": "Batch record",
+      "d": "Lotes de materiais, cada cheque com leitura e iniciais, saída, amostra retida, liberação."
+     },
+     {
+      "t": "Registro de despacho",
+      "d": "Qual cliente recebeu quantos de cada lote e quando."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Seu registro de despacho mostra que 30 pacotes foram para a loja e 22 para clientes nomeados do WhatsApp. Em uma tarde, ela os substitui, treina novamente o ajudante e adiciona uma caixa de seleção para troca de óleo."
+   ],
+   "panel": {
+    "kicker": "Rastreabilidade",
+    "heading": "Códigos de lote e registros de lote",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Lot code",
+      "d": "KC261006-3: Queixo de Kemi, 6 de outubro de 2026, carga 3. Em cada embalagem e caixa."
+     },
+     {
+      "t": "Batch record",
+      "d": "Lotes de materiais, cada cheque com leitura e iniciais, saída, amostra retida, liberação."
+     },
+     {
+      "t": "Registro de despacho",
+      "d": "Qual cliente recebeu quantos de cada lote e quando."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Nos primeiros 30 dias, teste o novo tamanho de carga, teste a correção do gargalo e treine um ajudante por estágio."
+   ],
+   "panel": {
+    "kicker": "Plano de 90 dias",
+    "heading": "Marcos que você pode verificar",
+    "items": [
+     "Dias 1 a 30: piloto e correção do gargalo",
+     "Dias 31-60: novo volume, três semanas consecutivas",
+     "Dias 61-90: ofereça volume comprovado",
+     "Orçamento de duas cotações de fornecedores",
+     "Mude as datas, nunca o padrão de qualidade"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "No dia 60, alcance o novo volume por pelo menos três semanas seguidas, com um gráfico de controle sendo executado diariamente."
+   ],
+   "panel": {
+    "kicker": "Plano de 90 dias",
+    "heading": "Marcos que você pode verificar",
+    "items": [
+     "Dias 1 a 30: piloto e correção do gargalo",
+     "Dias 31-60: novo volume, três semanas consecutivas",
+     "Dias 61-90: ofereça volume comprovado",
+     "Orçamento de duas cotações de fornecedores",
+     "Mude as datas, nunca o padrão de qualidade"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "No dia 90, ofereça o volume comprovado a um comprador regular, com registros de lote completos e um teste de rastreamento aprovado."
+   ],
+   "panel": {
+    "kicker": "Plano de 90 dias",
+    "heading": "Marcos que você pode verificar",
+    "items": [
+     "Dias 1 a 30: piloto e correção do gargalo",
+     "Dias 31-60: novo volume, três semanas consecutivas",
+     "Dias 61-90: ofereça volume comprovado",
+     "Orçamento de duas cotações de fornecedores",
+     "Mude as datas, nunca o padrão de qualidade"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Defina o preço de cada item de equipamento de pelo menos dois fornecedores e revise o plano a cada duas semanas. Ajuste as datas, nunca o padrão de qualidade."
+   ],
+   "panel": {
+    "kicker": "Plano de 90 dias",
+    "heading": "Marcos que você pode verificar",
+    "items": [
+     "Dias 1 a 30: piloto e correção do gargalo",
+     "Dias 31-60: novo volume, três semanas consecutivas",
+     "Dias 61-90: ofereça volume comprovado",
+     "Orçamento de duas cotações de fornecedores",
+     "Mude as datas, nunca o padrão de qualidade"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Para lembrar. Promessa de capacidade demonstrada, com almofada e amortecedor. Retenha os itens com falha e siga as regras de retrabalho. Remova as causas com Pareto e espinha de peixe. E coloque muito código em cada pacote."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Lembre-se",
+    "items": [
+     "Planeje com capacidade demonstrada",
+     "Mantenha uma almofada e um amortecedor",
+     "Reter itens com falha; retrabalhar uma vez, de acordo com as regras",
+     "Pareto primeiro, depois espinha de peixe",
+     "Código de lote em cada embalagem e caixa"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Sua vez. Teste um compromisso de fornecimento, execute uma revisão de defeitos com uma tabela de Pareto e, em seguida, crie seus códigos de lote, registro de lote e plano de 90 dias.",
+    "Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Pratique tarefas",
+    "heading": "Suas tarefas práticas",
+    "items": [
+     "Teste um compromisso de fornecimento",
+     "Execute sua primeira revisão de defeito",
+     "Crie seu pacote e plano de rastreabilidade"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

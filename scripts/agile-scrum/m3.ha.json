@@ -1,0 +1,474 @@
+{
+ "course": "agile-scrum",
+ "module": "m3",
+ "title": "Gano ƙungiyar, farashin aikinku, tabbatar da ƙwarewar ku",
+ "course_title": "Agile & Scrum in Practice",
+ "shots": [
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Bincika ƙungiyar, farashin aikinku, kuma tabbatar da ƙwarewar ku.",
+    "Wannan shine bidiyon don module 3 na Agile da Scrum a Kwarewa."
+   ]
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Lokacin da kuka shiga ƙungiya a matsayin Scrum Master ko koci, aikinku na farko ba shine koyar da Scrum ba. Shi ne don fahimtar ainihin abin da ke faruwa, da kuma auna shi."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Ku fahimta kafin ku koyar",
+    "items": [
+     "Gano ainihin abin da ke faruwa",
+     "Juya ra'ayi zuwa lambobi",
+     "Farashi da kare iyakokin ku",
+     "Nuna hujja ta gaskiya"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Sa'an nan kuma ku ƙididdige ƙimar aikin ku don samun kariya, kuma kuna gina shaida ta gaskiya cewa masu aiki da abokan ciniki za su iya amincewa."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Ku fahimta kafin ku koyar",
+    "items": [
+     "Gano ainihin abin da ke faruwa",
+     "Juya ra'ayi zuwa lambobi",
+     "Farashi da kare iyakokin ku",
+     "Nuna hujja ta gaskiya"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Tambayi game da tsari. Yi tafiya da ni cikin Gudun Gudunku na ƙarshe. Menene Manufar Gudu? An hadu?"
+   ],
+   "panel": {
+    "kicker": "Ganowa",
+    "heading": "Wurare huɗu don tambaya akai",
+    "items": [
+     "Tsari: Gudun Gudunku na ƙarshe, fara zuwa gamawa",
+     "Jama'a: yaushe aka ta da matsala ta karshe?",
+     "Kayan aiki da bayanai: nuna mini allon ku",
+     "Jagoranci: wa zai iya ƙara aiki ga ƙungiyar?"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Tambayi game da mutane. Yaushe ne wani ya tada matsala ta ƙarshe a cikin Retrospective, kuma menene ya faru daga baya? Ji tsoro, shiru ko zargi."
+   ],
+   "panel": {
+    "kicker": "Ganowa",
+    "heading": "Wurare huɗu don tambaya akai",
+    "items": [
+     "Tsari: Gudun Gudunku na ƙarshe, fara zuwa gamawa",
+     "Jama'a: yaushe aka ta da matsala ta karshe?",
+     "Kayan aiki da bayanai: nuna mini allon ku",
+     "Jagoranci: wa zai iya ƙara aiki ga ƙungiyar?"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Nemi don ganin allon. Yaushe aka sabunta ta ƙarshe?"
+   ],
+   "panel": {
+    "kicker": "Ganowa",
+    "heading": "Wurare huɗu don tambaya akai",
+    "items": [
+     "Tsari: Gudun Gudunku na ƙarshe, fara zuwa gamawa",
+     "Jama'a: yaushe aka ta da matsala ta karshe?",
+     "Kayan aiki da bayanai: nuna mini allon ku",
+     "Jagoranci: wa zai iya ƙara aiki ga ƙungiyar?"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Kuma tambayi wanda zai iya ƙara aiki, da kuma yadda aka saita kwanakin ƙarshe.",
+    "Tambayi mutane da yawa daban, sannan kalli ainihin Scrum na Daily ba tare da magana ba. Rubuta gaskiya, ba hukunce-hukunce ba: Daily Scrum ya dau tsawon mintuna 34, ba taron ya yi muni ba."
+   ],
+   "panel": {
+    "kicker": "Ganowa",
+    "heading": "Wurare huɗu don tambaya akai",
+    "items": [
+     "Tsari: Gudun Gudunku na ƙarshe, fara zuwa gamawa",
+     "Jama'a: yaushe aka ta da matsala ta karshe?",
+     "Kayan aiki da bayanai: nuna mini allon ku",
+     "Jagoranci: wa zai iya ƙara aiki ga ƙungiyar?"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Na gaba, gwajin lafiyar da aka sha. Misali, Kemi ita ce sabuwar Scrum Master don horar da kungiyoyi masu zaman kansu na mutum 7 a Enugu. Kowa yayi maki takwas daga 1 zuwa 5, ba tare da sunansa ba, a cikin Google Form. Mun gama abin da muka fara matsakaita kawai 2.14."
+   ],
+   "panel": {
+    "kicker": "Duban lafiya",
+    "heading": "Kemi ta ci tawagarta daga 1 zuwa 5",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "We finish what we start",
+      "d": "Maki bakwai da ba a san su ba duka 15. Matsakaici: 15 ÷ 7 = 2.14."
+     },
+     {
+      "t": "Product Owner available",
+      "d": "Maki duka 13. Matsakaici: 1.86, mafi ƙanƙanta duka."
+     },
+     {
+      "t": "Two experiments",
+      "d": "Mataimakin mai suna yana amsa tambayoyin yau da kullun; duk sabbin buƙatun suna zuwa kan bayanan baya da farko."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Mai samfurin mu yana samuwa matsakaicin 1.86. Jin lafiya don tayar da matsalolin matsakaita 4.3, don haka aminci ba shine batun ba. Tambayoyi sun nuna darektan yana yawan tafiya, kuma buƙatun masu ba da gudummawa suna zuwa kai tsaye ga ma'aikata."
+   ],
+   "panel": {
+    "kicker": "Duban lafiya",
+    "heading": "Kemi ta ci tawagarta daga 1 zuwa 5",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "We finish what we start",
+      "d": "Maki bakwai da ba a san su ba duka 15. Matsakaici: 15 ÷ 7 = 2.14."
+     },
+     {
+      "t": "Product Owner available",
+      "d": "Maki duka 13. Matsakaici: 1.86, mafi ƙanƙanta duka."
+     },
+     {
+      "t": "Two experiments",
+      "d": "Mataimakin mai suna yana amsa tambayoyin yau da kullun; duk sabbin buƙatun suna zuwa kan bayanan baya da farko."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Tare da ƙungiyar, Kemi ta yarda da gwaje-gwaje guda biyu: mataimaki mai suna don tambayoyin yau da kullun, kuma duk sabbin buƙatun sun fara shiga bayanan baya. Nasara yana nufin duka matsakaicin sun tashi sama da 3 a cikin makonni huɗu. Raba alamu, ba sunaye ba."
+   ],
+   "panel": {
+    "kicker": "Duban lafiya",
+    "heading": "Kemi ta ci tawagarta daga 1 zuwa 5",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "We finish what we start",
+      "d": "Maki bakwai da ba a san su ba duka 15. Matsakaici: 15 ÷ 7 = 2.14."
+     },
+     {
+      "t": "Product Owner available",
+      "d": "Maki duka 13. Matsakaici: 1.86, mafi ƙanƙanta duka."
+     },
+     {
+      "t": "Two experiments",
+      "d": "Mataimakin mai suna yana amsa tambayoyin yau da kullun; duk sabbin buƙatun suna zuwa kan bayanan baya da farko."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Don saita ƙimar rana, raba kuɗin shiga na wata-wata da kuke buƙata ta kwanakin da zaku iya lissafin gaske. Misali, Naira 1,000,000 a cikin kimanin kwanaki 12 yana ba da bene na kusan Naira 83,000 a rana.",
+    "Ifeoma tana amfani da Naira 80,000 a rana, a matsayin misali."
+   ],
+   "card": {
+    "title": "Ifeoma tana farashin zaɓuɓɓuka biyu",
+    "rows": [],
+    "note": "Ƙididdiga masu kwatanta, ba ƙimar kasuwa ba."
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Zabin A kunshin farawa ne na kwanaki 7: Naira 560,000."
+   ],
+   "card": {
+    "title": "Ifeoma tana farashin zaɓuɓɓuka biyu",
+    "rows": [
+     [
+      "Zabin A: farawa, kwanaki 7",
+      "560,000"
+     ]
+    ],
+    "note": "Ƙididdiga masu kwatanta, ba ƙimar kasuwa ba."
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Zaɓin B shine aikin Scrum Master na ɗan lokaci, kwana 8 a wata: Naira 640,000. Tare da 10% kashe don biyan kowane wata a gaba, shine 576,000."
+   ],
+   "card": {
+    "title": "Ifeoma tana farashin zaɓuɓɓuka biyu",
+    "rows": [
+     [
+      "Zabin A: farawa, kwanaki 7",
+      "560,000"
+     ],
+     [
+      "Zaɓin B: kowane wata, kwanaki 8",
+      "640,000"
+     ],
+     [
+      "Zaɓin B tare da rangwame 10%.",
+      "576,000"
+     ]
+    ],
+    "note": "Ƙididdiga masu kwatanta, ba ƙimar kasuwa ba."
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Midway, abokin ciniki yana son ƙara ƙungiyar ta biyu. Takardar canjin ta: ƙarin kwanaki 6, Naira 480,000, ta sanya hannu kafin a fara aikin. Wato aikin da ake biya, ba kyauta ba ne."
+   ],
+   "card": {
+    "title": "Ifeoma tana farashin zaɓuɓɓuka biyu",
+    "rows": [
+     [
+      "Zabin A: farawa, kwanaki 7",
+      "560,000"
+     ],
+     [
+      "Zaɓin B: kowane wata, kwanaki 8",
+      "640,000"
+     ],
+     [
+      "Zaɓin B tare da rangwame 10%.",
+      "576,000"
+     ],
+     [
+      "Canja bayanin kula: ƙungiya ta biyu",
+      "480,000"
+     ]
+    ],
+    "note": "Ƙididdiga masu kwatanta, ba ƙimar kasuwa ba."
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Shawarar ku ta bayyana halin da ake ciki, sakamakon da za a iya aunawa, daidai abin da za ku yi, da abin da aka cire, kamar horar da ƙungiya ta biyu.",
+    "Yana ba da kwanan wata tare da bita na tsakiya, da kudade, sharuɗɗan biyan kuɗi da yadda ake sarrafa canje-canje. Rubutun keɓancewa shine abin da ke sa bayanin canji ya yiwu daga baya."
+   ],
+   "panel": {
+    "kicker": "Shawarar ku",
+    "heading": "Me gajeriyar shawara ta kunsa",
+    "items": [
+     "Halin, a cikin kalmomin abokin ciniki",
+     "Sakamakon tare da matakan",
+     "Ayyuka: menene, sau nawa, tare da wane",
+     "Keɓancewa",
+     "Tsawon lokaci da nazari na tsakiya",
+     "Kudade, sharuɗɗan biyan kuɗi, canjin kulawa"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Yi amfani da rubutacciyar yarjejeniya da daftari don kowane aiki, ɗauki ajiya daga sabbin abokan ciniki, kuma karɓar kuɗi ta asusun kasuwancin ku ko na'ura mai sarrafawa kamar Paystack. Biyan takaddun shaida kawai akan rukunin yanar gizon hukuma."
+   ],
+   "panel": {
+    "kicker": "Kare kuɗin ku",
+    "heading": "Amintaccen biyan kuɗi, sanannun zamba",
+    "mode": "compare",
+    "left_h": "Yi",
+    "left": [
+     "Yarjejeniyar da aka rubuta da daftari",
+     "Deposit daga sababbin abokan ciniki",
+     "Account Account ko Paystack",
+     "Biya akan shafukan hukuma kawai"
+    ],
+    "right_h": "Hattara",
+    "right": [
+     "Biya fiye da kima, sannan a nemi maidowa",
+     "Biyan horo kafin daukar aiki",
+     "Garanti aiki bayan takardar shaida",
+     "Zubar da jarrabawa, asusun sirri"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Yi hankali da abokan ciniki waɗanda ke biyan kuɗi fiye da kima kuma suna neman maido da bambancin, ko kuma waɗanda suka nemi ku biya software ko horo kafin su ɗauke ku aiki. Ka guji duk wanda ya ba da garantin aiki, sayar da jujjuyawar jarrabawa, ko yana son biyan kuɗi zuwa asusun sirri."
+   ],
+   "panel": {
+    "kicker": "Kare kuɗin ku",
+    "heading": "Amintaccen biyan kuɗi, sanannun zamba",
+    "mode": "compare",
+    "left_h": "Yi",
+    "left": [
+     "Yarjejeniyar da aka rubuta da daftari",
+     "Deposit daga sababbin abokan ciniki",
+     "Account Account ko Paystack",
+     "Biya akan shafukan hukuma kawai"
+    ],
+    "right_h": "Hattara",
+    "right": [
+     "Biya fiye da kima, sannan a nemi maidowa",
+     "Biyan horo kafin daukar aiki",
+     "Garanti aiki bayan takardar shaida",
+     "Zubar da jarrabawa, asusun sirri"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "PSM Ina bukatan kiman kan layi kawai. CSM yana buƙatar kwas tare da Certified Scrum Trainer. Koyaushe bincika kuɗaɗen halin yanzu akan rukunin yanar gizon. Don shirya, karanta Jagorar Scrum a hankali, sau biyu."
+   ],
+   "panel": {
+    "kicker": "Takaddun shaida",
+    "heading": "Shirya don tantancewar Scrum",
+    "items": [
+     "Karanta Jagoran Scrum a hankali, sau biyu",
+     "Taƙaita kowane sashe a layi ɗaya",
+     "Maimaita gwajin aikin kyauta",
+     "Duba don dole, koyaushe kuma kawai",
+     "Tambayoyi da juna a cikin rukunin nazari"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Rubuta layi ɗaya a kowane sashe, sannan ku ɗauki gwaje-gwajen aikin kyauta har sai kun ci da kyau kowane lokaci, karanta kowane bayani."
+   ],
+   "panel": {
+    "kicker": "Takaddun shaida",
+    "heading": "Shirya don tantancewar Scrum",
+    "items": [
+     "Karanta Jagoran Scrum a hankali, sau biyu",
+     "Taƙaita kowane sashe a layi ɗaya",
+     "Maimaita gwajin aikin kyauta",
+     "Duba don dole, koyaushe kuma kawai",
+     "Tambayoyi da juna a cikin rukunin nazari"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Kula da kalmomi masu wayo kamar dole, koyaushe kuma kawai. Kuma a yi wa juna tambayoyi a cikin ƙaramin rukunin nazarin WhatsApp."
+   ],
+   "panel": {
+    "kicker": "Takaddun shaida",
+    "heading": "Shirya don tantancewar Scrum",
+    "items": [
+     "Karanta Jagoran Scrum a hankali, sau biyu",
+     "Taƙaita kowane sashe a layi ɗaya",
+     "Maimaita gwajin aikin kyauta",
+     "Duba don dole, koyaushe kuma kawai",
+     "Tambayoyi da juna a cikin rukunin nazari"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Idan Jagoran Scrum bai faɗi hakan ba, Scrum baya buƙatar sa.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Don tunawa. Hira, lura, sannan auna. Yi aiki akan mafi ƙasƙanci wurare biyu tare da gwaje-gwajen da aka auna. Farashin kowane zaɓi daga ƙimar rana ɗaya, da ikon sarrafawa tare da sa hannun bayanan canji.",
+    "Kuma nuna lambobin gaskiya. Misali, kungiyar matasan cocin Zainab ta kara ayyuka akan lokaci daga kashi 57% zuwa 83%. Wannan ya doke kowane buzzword akan CV."
+   ],
+   "panel": {
+    "kicker": "Mabuɗin mahimmanci",
+    "heading": "Ka tuna",
+    "items": [
+     "Hira, lura, sannan auna",
+     "Gyara mafi ƙasƙanci wurare biyu tare da gwaje-gwaje",
+     "Farashin kowane zaɓi daga ƙimar rana ɗaya",
+     "Sa hannu kan ikon sarrafa bayanin kula canje-canje",
+     "Lambobin gaskiya sun buzzwords"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Ayyukanku: gudanar da ƙaramin duba lafiya tare da ƙungiyar da kuka sani, rubuta shawara mai shafi ɗaya tare da zaɓuɓɓukan farashi guda biyu, kuma rubuta binciken shari'ar ku da shirin kwanaki 90.",
+    "Ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi aiki",
+    "heading": "Ayyukan aikin ku",
+    "items": [
+     "Gudanar da karamin duba lafiya",
+     "Rubuta shawara mai shafi ɗaya",
+     "Rubuta binciken shari'ar ku da shirin kwanaki 90"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

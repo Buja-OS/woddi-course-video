@@ -1,0 +1,602 @@
+{
+ "course": "no-code-app-development",
+ "module": "m2",
+ "title": "Crie, teste e entregue um aplicativo de estoque e vendas",
+ "course_title": "Desenvolvimento de aplicativos sem código",
+ "shots": [
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Crie, teste e entregue um aplicativo de estoque e vendas.",
+    "Este é o vídeo do módulo dois do Desenvolvimento de aplicativos sem código."
+   ]
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Neste módulo você constrói um aplicativo real. Por exemplo, Esther gere uma loja de insumos agrícolas em Makurdi, com dois vendedores. Ela quer parar de contar sacolas todas as noites."
+   ],
+   "panel": {
+    "kicker": "O que você vai construir",
+    "heading": "Aplicativo da loja de agroinsumos da Esther",
+    "items": [
+     "Acompanhe produtos, entregas e vendas",
+     "Avise o proprietário quando o estoque acabar",
+     "Testado, protegido e documentado"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Seu aplicativo rastreará produtos, entregas e vendas, avisará quando o estoque estiver baixo e será testado e documentado para que outra pessoa possa executá-lo. Tudo funciona no estágio de prototipagem gratuita do AppSheet."
+   ],
+   "panel": {
+    "kicker": "O que você vai construir",
+    "heading": "Aplicativo da loja de agroinsumos da Esther",
+    "items": [
+     "Acompanhe produtos, entregas e vendas",
+     "Avise o proprietário quando o estoque acabar",
+     "Testado, protegido e documentado"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "A maioria dos primeiros problemas vem de lençóis bagunçados. O AppSheet lê cada guia como uma tabela, com uma linha de cabeçalho no topo."
+   ],
+   "panel": {
+    "kicker": "Passo 1",
+    "heading": "Prepare a folha adequadamente",
+    "items": [
+     "Uma tabela por guia: Produtos, Estoque, Vendas",
+     "Exatamente uma linha de cabeçalho na linha 1",
+     "Sem células mescladas, linhas de totais ou linhas em branco",
+     "Uma coluna de ID primeiro em cada guia",
+     "3 a 5 linhas de amostra realistas"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Remova células mescladas e linhas de totais. Esther excluiu uma linha TOTAL na parte inferior da guia Vendas, porque o AppSheet a leria como uma venda."
+   ],
+   "panel": {
+    "kicker": "Passo 1",
+    "heading": "Prepare a folha adequadamente",
+    "items": [
+     "Uma tabela por guia: Produtos, Estoque, Vendas",
+     "Exatamente uma linha de cabeçalho na linha 1",
+     "Sem células mescladas, linhas de totais ou linhas em branco",
+     "Uma coluna de ID primeiro em cada guia",
+     "3 a 5 linhas de amostra realistas"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Coloque uma coluna de ID primeiro e adicione algumas linhas de amostra para que o AppSheet possa adivinhar os tipos de coluna."
+   ],
+   "panel": {
+    "kicker": "Passo 1",
+    "heading": "Prepare a folha adequadamente",
+    "items": [
+     "Uma tabela por guia: Produtos, Estoque, Vendas",
+     "Exatamente uma linha de cabeçalho na linha 1",
+     "Sem células mescladas, linhas de totais ou linhas em branco",
+     "Uma coluna de ID primeiro em cada guia",
+     "3 a 5 linhas de amostra realistas"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Após a planilha, verifique cada coluna. As chaves obtêm o valor inicial UNIQUEID() e ficam ocultas. As datas começam como HOJE(). Vendido por registros USEREMAIL()."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Ordem de construção para qualquer aplicativo AppSheet",
+    "items": [
+     "Limpe a folha",
+     "Definir chaves e tipos",
+     "Adicionar referências",
+     "Visualizações de projeto",
+     "Adicione regras e automação"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "A coluna Produto em Vendas e Estoque torna-se uma referência para Produtos, vinculando cada venda a um produto."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Ordem de construção para qualquer aplicativo AppSheet",
+    "items": [
+     "Limpe a folha",
+     "Definir chaves e tipos",
+     "Adicionar referências",
+     "Visualizações de projeto",
+     "Adicione regras e automação"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Visualizações de design para funcionários em um balcão com um telefone na mão. A nova venda entra primeiro no cardápio, pois é a tarefa mais frequente."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Ordem de construção para qualquer aplicativo AppSheet",
+    "items": [
+     "Limpe a folha",
+     "Definir chaves e tipos",
+     "Adicionar referências",
+     "Visualizações de projeto",
+     "Adicione regras e automação"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Siga esta ordem. Alterar os dados após a construção das visualizações causa retrabalho. E teste em um telefone real, não apenas no editor."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Ordem de construção para qualquer aplicativo AppSheet",
+    "items": [
+     "Limpe a folha",
+     "Definir chaves e tipos",
+     "Adicionar referências",
+     "Visualizações de projeto",
+     "Adicione regras e automação"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Nunca aceite cegamente as estimativas das colunas do AppSheet.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "A lógica é escrita como expressões, fórmulas curtas com nomes de colunas entre colchetes. Adicione uma coluna virtual chamada Estoque Atual. NPK inicia o mês com 40 sacas."
+   ],
+   "panel": {
+    "kicker": "Lógica",
+    "heading": "O estoque é calculado, nunca digitado",
+    "items": [
+     "Estoque inicial: 40 sacos de NPK",
+     "Mais entregas: 25 sacolas",
+     "Menos vendas esta semana: 52 sacolas",
+     "Estoque atual: 40 + 25 - 52 = 13"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "SELECT e SUM adicionam cada entrega deste produto: 25 sacos."
+   ],
+   "panel": {
+    "kicker": "Lógica",
+    "heading": "O estoque é calculado, nunca digitado",
+    "items": [
+     "Estoque inicial: 40 sacos de NPK",
+     "Mais entregas: 25 sacolas",
+     "Menos vendas esta semana: 52 sacolas",
+     "Estoque atual: 40 + 25 - 52 = 13"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Depois subtraia cada venda: 52 sacas."
+   ],
+   "panel": {
+    "kicker": "Lógica",
+    "heading": "O estoque é calculado, nunca digitado",
+    "items": [
+     "Estoque inicial: 40 sacos de NPK",
+     "Mais entregas: 25 sacolas",
+     "Menos vendas esta semana: 52 sacolas",
+     "Estoque atual: 40 + 25 - 52 = 13"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "O aplicativo mostra 13 malas restantes sem ninguém contar. Com um nível de reordenamento de 15, NPK mostra Reordenar em vermelho."
+   ],
+   "panel": {
+    "kicker": "Lógica",
+    "heading": "O estoque é calculado, nunca digitado",
+    "items": [
+     "Estoque inicial: 40 sacos de NPK",
+     "Mais entregas: 25 sacolas",
+     "Menos vendas esta semana: 52 sacolas",
+     "Estoque atual: 40 + 25 - 52 = 13"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "13 está no nível de novo pedido ou abaixo dele: 15: hora de fazer novo pedido.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Faça a quantidade e o produto necessários."
+   ],
+   "panel": {
+    "kicker": "Regras que impedem erros",
+    "heading": "Interrompa dados incorretos na entrada",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Obrigatório",
+      "d": "A Quantidade e o Produto devem ser preenchidos, portanto nenhuma venda é salva sem eles."
+     },
+     {
+      "t": "Valid If",
+      "d": "Quantidade acima de 0 e não superior ao Estoque Atual. Adicione uma mensagem de erro clara."
+     },
+     {
+      "t": "Initial value",
+      "d": "Preço Unitário copia o preço do produto no momento da venda. Sem redigitação."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Adicione um If válido, então a quantidade deve estar acima de 0 e não maior que o estoque. Adicione uma mensagem como restam apenas 13 sacolas, para que a equipe saiba o que deu errado."
+   ],
+   "panel": {
+    "kicker": "Regras que impedem erros",
+    "heading": "Interrompa dados incorretos na entrada",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Obrigatório",
+      "d": "A Quantidade e o Produto devem ser preenchidos, portanto nenhuma venda é salva sem eles."
+     },
+     {
+      "t": "Valid If",
+      "d": "Quantidade acima de 0 e não superior ao Estoque Atual. Adicione uma mensagem de erro clara."
+     },
+     {
+      "t": "Initial value",
+      "d": "Preço Unitário copia o preço do produto no momento da venda. Sem redigitação."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "E copie o preço na venda quando ela for realizada, para que a história permaneça verdadeira."
+   ],
+   "panel": {
+    "kicker": "Regras que impedem erros",
+    "heading": "Interrompa dados incorretos na entrada",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Obrigatório",
+      "d": "A Quantidade e o Produto devem ser preenchidos, portanto nenhuma venda é salva sem eles."
+     },
+     {
+      "t": "Valid If",
+      "d": "Quantidade acima de 0 e não superior ao Estoque Atual. Adicione uma mensagem de erro clara."
+     },
+     {
+      "t": "Initial value",
+      "d": "Preço Unitário copia o preço do produto no momento da venda. Sem redigitação."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Um bot observa um evento e depois executa as etapas sozinho. Aqui o evento é uma nova linha em Vendas."
+   ],
+   "panel": {
+    "kicker": "Automação",
+    "heading": "Um bot com pouco estoque",
+    "items": [
+     "Evento: uma venda é adicionada",
+     "Condição: estoque igual ou inferior ao nível de novo pedido",
+     "Tarefa: enviar e-mail ao proprietário",
+     "Teste até o e-mail chegar"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "A condição verifica o estoque do produto em relação ao nível de novo pedido. Se for verdade, envia um e-mail para Esther com o nome do produto e o estoque."
+   ],
+   "panel": {
+    "kicker": "Automação",
+    "heading": "Um bot com pouco estoque",
+    "items": [
+     "Evento: uma venda é adicionada",
+     "Condição: estoque igual ou inferior ao nível de novo pedido",
+     "Tarefa: enviar e-mail ao proprietário",
+     "Teste até o e-mail chegar"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Registre as vendas de teste até que a condição seja atendida e confirme a chegada do e-mail. Mantenha poucas fórmulas pesadas, pois elas tornam o aplicativo mais lento à medida que as tabelas crescem."
+   ],
+   "panel": {
+    "kicker": "Automação",
+    "heading": "Um bot com pouco estoque",
+    "items": [
+     "Evento: uma venda é adicionada",
+     "Condição: estoque igual ou inferior ao nível de novo pedido",
+     "Tarefa: enviar e-mail ao proprietário",
+     "Teste até o e-mail chegar"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Um bot é acionado somente quando o evento e a condição são verdadeiros.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Por exemplo, Amina está terminando o aplicativo de Esther. Ela escreve 14 casos de teste, incluindo vender exatamente a última sacola e inserir zero ou espaços em branco. Ela os executa como usuária de teste da equipe de vendas."
+   ],
+   "panel": {
+    "kicker": "Teste",
+    "heading": "Roteiro de teste de Amina",
+    "items": [
+     "Escreva 14 casos com resultados esperados",
+     "Incluir casos extremos e entradas erradas",
+     "11 de 14 passam; consertar as 3 falhas",
+     "Execute novamente todos os 14 casos"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "3 falhar. Uma quantidade de 0 foi salva, dois produtos poderiam compartilhar um nome e a equipe poderia editar o estoque inicial. Ela conserta cada um."
+   ],
+   "panel": {
+    "kicker": "Teste",
+    "heading": "Roteiro de teste de Amina",
+    "items": [
+     "Escreva 14 casos com resultados esperados",
+     "Incluir casos extremos e entradas erradas",
+     "11 de 14 passam; consertar as 3 falhas",
+     "Execute novamente todos os 14 casos"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Então ela repete todos os 14, porque as correções podem quebrar outras coisas. Todos passam e o log de teste vai para o pacote de transferência."
+   ],
+   "panel": {
+    "kicker": "Teste",
+    "heading": "Roteiro de teste de Amina",
+    "items": [
+     "Escreva 14 casos com resultados esperados",
+     "Incluir casos extremos e entradas erradas",
+     "11 de 14 passam; consertar as 3 falhas",
+     "Execute novamente todos os 14 casos"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Após qualquer correção, execute novamente todos os casos, não apenas as falhas.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Exija login e use uma tabela Usuários com funções para que apenas o proprietário altere os preços. Qualquer pessoa com acesso para edição na Planilha Google pode alterar os dados, portanto, compartilhe-os apenas com o proprietário e o construtor."
+   ],
+   "panel": {
+    "kicker": "Segurança em primeiro lugar",
+    "heading": "Acesso, dados e uso offline",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Sign-in and roles",
+      "d": "Compartilhe e-mails com funcionários nomeados. Somente o proprietário altera preços e estoque. Limite quem edita a planilha."
+     },
+     {
+      "t": "Personal data",
+      "d": "Colete apenas o que você precisa. Nunca colete dados de BVN, NIN ou cartão em um aplicativo sem código."
+     },
+     {
+      "t": "Sync daily",
+      "d": "Dias off-line podem substituir as alterações de outras pessoas. A equipe sincroniza pelo menos diariamente."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Os números de telefone dos clientes são dados pessoais. A Lei de Proteção de Dados da Nigéria de 2023 espera que você colete apenas o que precisa e o mantenha seguro."
+   ],
+   "panel": {
+    "kicker": "Segurança em primeiro lugar",
+    "heading": "Acesso, dados e uso offline",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Sign-in and roles",
+      "d": "Compartilhe e-mails com funcionários nomeados. Somente o proprietário altera preços e estoque. Limite quem edita a planilha."
+     },
+     {
+      "t": "Personal data",
+      "d": "Colete apenas o que você precisa. Nunca colete dados de BVN, NIN ou cartão em um aplicativo sem código."
+     },
+     {
+      "t": "Sync daily",
+      "d": "Dias off-line podem substituir as alterações de outras pessoas. A equipe sincroniza pelo menos diariamente."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "O AppSheet funciona off-line, mas um telefone off-line por dias pode substituir as alterações de outras pessoas ao sincronizar. Teste-o no modo avião."
+   ],
+   "panel": {
+    "kicker": "Segurança em primeiro lugar",
+    "heading": "Acesso, dados e uso offline",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Sign-in and roles",
+      "d": "Compartilhe e-mails com funcionários nomeados. Somente o proprietário altera preços e estoque. Limite quem edita a planilha."
+     },
+     {
+      "t": "Personal data",
+      "d": "Colete apenas o que você precisa. Nunca colete dados de BVN, NIN ou cartão em um aplicativo sem código."
+     },
+     {
+      "t": "Sync daily",
+      "d": "Dias off-line podem substituir as alterações de outras pessoas. A equipe sincroniza pelo menos diariamente."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Para lembrar. Limpe a planilha e verifique cada coluna. Calcule o estoque, nunca digite. Bloqueie entradas incorretas. Execute novamente todos os testes após as correções. E entregue um pacote de entrega, para que outra pessoa além de você possa manter o aplicativo ativo."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Lembre-se",
+    "items": [
+     "Limpe os lençóis primeiro; verifique cada coluna",
+     "Calcular o estoque a partir de linhas vinculadas",
+     "Válido se e obrigatório parar entradas incorretas",
+     "Execute novamente todos os testes após uma correção",
+     "Pacote de transferência: modelo, regras, usuários, custos, testes"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Suas tarefas: construir a primeira versão a partir de uma folha em branco, adicionar a lógica e o bot de baixo estoque e, em seguida, testar, proteger e documentar seu aplicativo.",
+    "Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Pratique tarefas",
+    "heading": "Suas tarefas práticas",
+    "items": [
+     "Construa a primeira versão",
+     "Adicione a lógica e o bot de baixo estoque",
+     "Teste, proteja e documente"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

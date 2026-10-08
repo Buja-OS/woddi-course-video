@@ -1,0 +1,501 @@
+{
+ "course": "core-simple-record-keeping-visual-and-practical",
+ "module": "m4",
+ "title": "Tumia rekodi zako: faida halisi, mikopo salama na rekodi za simu",
+ "course_title": "Utunzaji Rahisi wa Rekodi (Inayoonekana na Kivitendo)",
+ "shots": [
+  {
+   "demo": "cash_count",
+   "say": [
+    "Tumia rekodi zako: faida halisi, mikopo salama na rekodi za simu.",
+    "Hii ni video ya Moduli ya 4, Kutumia rekodi kukuza biashara yako."
+   ]
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Kuandika rekodi kila siku ni sehemu ngumu. Kuzisoma ni sehemu yenye thawabu.",
+    "Mara moja kwa mwezi, uliza maswali matano. Je, mauzo yanapanda au kushuka? Je, ni bidhaa gani zinaingiza pesa nyingi zaidi? Je, hisa inapotea? Je, madeni yanaongezeka? Na je, kuna pesa taslimu za kutosha kuweka akiba tena?"
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Kuandika ni ngumu. Kusoma kunathawabisha.",
+    "items": [
+     "Uliza maswali matano kila mwezi",
+     "Tafuta bidhaa zinazopata mapato kweli",
+     "Utafutaji mmoja, hatua moja ya tarehe"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Kwa kila bidhaa kuu unahitaji nambari mbili: unacholipa, na kile unachouza. Tofauti ni faida yako kwa kila kitu."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Kuandika ni ngumu. Kusoma kunathawabisha.",
+    "items": [
+     "Uliza maswali matano kila mwezi",
+     "Tafuta bidhaa zinazopata mapato kweli",
+     "Utafutaji mmoja, hatua moja ya tarehe"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Usijaribu kurekebisha kila kitu mara moja. Chagua utafutaji mmoja muhimu zaidi na hatua moja wazi yenye tarehe."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Kuandika ni ngumu. Kusoma kunathawabisha.",
+    "items": [
+     "Uliza maswali matano kila mwezi",
+     "Tafuta bidhaa zinazopata mapato kweli",
+     "Utafutaji mmoja, hatua moja ya tarehe"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Kwa mfano, Ifeoma huuza bidhaa za nyumbani huko Onitsha. Kifurushi cha sabuni kinamgharimu takriban naira 1,500 na kinauzwa 1,800. Hiyo ni faida ya naira 300 pekee. Lakini anauza takriban 60 kwa wiki, hivyo anapata naira 18,000."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Bidhaa mbili za Ifeoma",
+    "mode": "compare",
+    "left_h": "Pakiti ya sabuni",
+    "left": [
+     "Faida ya naira 300 kwa pakiti",
+     "Takriban 60 ziliuzwa kwa wiki",
+     "faida ya naira 18,000 kwa wiki"
+    ],
+    "right_h": "Seti ya bakuli",
+    "right": [
+     "Faida ya naira 2,000 kwa seti",
+     "Takriban 5 ziliuzwa kwa wiki",
+     "faida ya naira 10,000 kwa wiki"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Seti ya bakuli inagharimu naira 4,000 na inauzwa 6,000, faida ya naira 2,000. Lakini anauza takriban 5 tu kwa wiki, kwa hivyo anapata 10,000.",
+    "Muuzaji wa haraka na faida ndogo anaweza kupata zaidi ya muuzaji polepole na kubwa. Kwa hivyo yeye huhifadhi sabuni kila wakati."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Bidhaa mbili za Ifeoma",
+    "mode": "compare",
+    "left_h": "Pakiti ya sabuni",
+    "left": [
+     "Faida ya naira 300 kwa pakiti",
+     "Takriban 60 ziliuzwa kwa wiki",
+     "faida ya naira 18,000 kwa wiki"
+    ],
+    "right_h": "Seti ya bakuli",
+    "right": [
+     "Faida ya naira 2,000 kwa seti",
+     "Takriban 5 ziliuzwa kwa wiki",
+     "faida ya naira 10,000 kwa wiki"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Ukinunua bidhaa lakini ukauza sehemu yake tu, bidhaa ambazo hazijauzwa bado ziko kwenye rafu yako. Kwa hivyo, kwanza tafuta gharama ya kile pekee kilichoacha duka. Ufunguzi wa hisa, pamoja na ununuzi, ukiondoa hisa za kufunga."
+   ],
+   "panel": {
+    "kicker": "Faida halisi",
+    "heading": "Njia tatu za faida",
+    "items": [
+     "Gharama ya bidhaa zinazouzwa = kufungua hisa + ununuzi - hisa za kufunga",
+     "Faida ya jumla = mauzo - gharama ya bidhaa zinazouzwa",
+     "Faida halisi = faida ya jumla - gharama za uendeshaji"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Kisha faida ya jumla ni mauzo ukiondoa gharama ya bidhaa zinazouzwa."
+   ],
+   "panel": {
+    "kicker": "Faida halisi",
+    "heading": "Njia tatu za faida",
+    "items": [
+     "Gharama ya bidhaa zinazouzwa = kufungua hisa + ununuzi - hisa za kufunga",
+     "Faida ya jumla = mauzo - gharama ya bidhaa zinazouzwa",
+     "Faida halisi = faida ya jumla - gharama za uendeshaji"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Kisha faida halisi ni faida ya jumla ukiondoa gharama za uendeshaji, kama vile usafiri, ushuru, vifungashio, simu, wafanyakazi, ada na madeni mabaya.",
+    "Thamani ya hisa kwa kile ulicholipa, si bei yako ya kuuza. Na usiruke hesabu ya hisa, au faida yako inaweza kuwa mbaya sana."
+   ],
+   "panel": {
+    "kicker": "Faida halisi",
+    "heading": "Njia tatu za faida",
+    "items": [
+     "Gharama ya bidhaa zinazouzwa = kufungua hisa + ununuzi - hisa za kufunga",
+     "Faida ya jumla = mauzo - gharama ya bidhaa zinazouzwa",
+     "Faida halisi = faida ya jumla - gharama za uendeshaji"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Thamani ya hisa kwa ulicholipa. Michoro sio gharama.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Kwa mfano, Halima anaendesha banda la masharti. Malipo yake ya ufunguzi yalikuwa na thamani ya takriban naira 150,000 kwa gharama. Alinunua 520,000 zaidi, na mwisho wa mwezi hisa yake ya kufunga ilikuwa 170,000."
+   ],
+   "card": {
+    "title": "Faida ya Oktoba ya Halima",
+    "rows": [],
+    "note": "Kiasi zote ni takriban."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Mauzo yake ya Oktoba, pamoja na mauzo ya mkopo, yalikuwa takriban naira 744,000."
+   ],
+   "card": {
+    "title": "Faida ya Oktoba ya Halima",
+    "rows": [
+     [
+      "Uuzaji: pesa taslimu, uhamishaji, mkopo",
+      "744,000"
+     ]
+    ],
+    "note": "Kiasi zote ni takriban."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Gharama yake ya bidhaa zinazouzwa ni 150,000 pamoja na 520,000 kasoro 170,000. Hiyo ni naira 500,000. Kwa hivyo faida yake ya jumla ni 244,000."
+   ],
+   "card": {
+    "title": "Faida ya Oktoba ya Halima",
+    "rows": [
+     [
+      "Uuzaji: pesa taslimu, uhamishaji, mkopo",
+      "744,000"
+     ],
+     [
+      "Kupunguza gharama ya bidhaa zinazouzwa",
+      "500,000"
+     ]
+    ],
+    "note": "Kiasi zote ni takriban."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Gharama zake za uendeshaji, pamoja na deni moja mbaya, zilikuwa naira 78,000."
+   ],
+   "card": {
+    "title": "Faida ya Oktoba ya Halima",
+    "rows": [
+     [
+      "Uuzaji: pesa taslimu, uhamishaji, mkopo",
+      "744,000"
+     ],
+     [
+      "Kupunguza gharama ya bidhaa zinazouzwa",
+      "500,000"
+     ],
+     [
+      "Ondoa gharama za uendeshaji",
+      "78,000"
+     ]
+    ],
+    "note": "Kiasi zote ni takriban."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Kwa hivyo faida yake halisi ni takriban naira 166,000. Alichota 80,000 kwa kaya, kwa hivyo takriban 86,000 walibaki kwenye biashara kama mtaji wa ziada."
+   ],
+   "card": {
+    "title": "Faida ya Oktoba ya Halima",
+    "rows": [
+     [
+      "Uuzaji: pesa taslimu, uhamishaji, mkopo",
+      "744,000"
+     ],
+     [
+      "Kupunguza gharama ya bidhaa zinazouzwa",
+      "500,000"
+     ],
+     [
+      "Ondoa gharama za uendeshaji",
+      "78,000"
+     ]
+    ],
+    "note": "Kiasi zote ni takriban."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Wakopeshaji wanataka kuona kuwa biashara yako ni ya kweli, thabiti na inaweza kulipa. Rekodi zako zinajibu hilo. Lakini angalia mwenyewe kwanza. Malipo lazima yatokane na faida, sio kutoka kwa mtaji.",
+    "Kwa mfano, biashara ya vinywaji ya Esther inapata faida halisi ya naira 120,000 kwa mwezi."
+   ],
+   "panel": {
+    "kicker": "Kabla ya kukopa",
+    "heading": "Je, Esther anaweza kumudu mkopo huu?",
+    "items": [
+     "Faida halisi: takriban naira 120,000 kwa mwezi",
+     "Mchoro wa kaya: naira 80,000",
+     "Kushoto baada ya kuchora: naira 40,000",
+     "Marejesho ya mkopo: naira 55,000",
+     "Muda mfupi wa naira 15,000 kila mwezi"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Anachota 80,000 kwa kaya, kwa hivyo 40,000 zimesalia."
+   ],
+   "panel": {
+    "kicker": "Kabla ya kukopa",
+    "heading": "Je, Esther anaweza kumudu mkopo huu?",
+    "items": [
+     "Faida halisi: takriban naira 120,000 kwa mwezi",
+     "Mchoro wa kaya: naira 80,000",
+     "Kushoto baada ya kuchora: naira 40,000",
+     "Marejesho ya mkopo: naira 55,000",
+     "Muda mfupi wa naira 15,000 kila mwezi"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Malipo ya mkopo yatakuwa naira 55,000 kwa mwezi. Angekuwa mfupi kwa 15,000 kila mwezi. Kwa hivyo anaomba mkopo mdogo au muda mrefu zaidi kabla ya kusaini chochote."
+   ],
+   "panel": {
+    "kicker": "Kabla ya kukopa",
+    "heading": "Je, Esther anaweza kumudu mkopo huu?",
+    "items": [
+     "Faida halisi: takriban naira 120,000 kwa mwezi",
+     "Mchoro wa kaya: naira 80,000",
+     "Kushoto baada ya kuchora: naira 40,000",
+     "Marejesho ya mkopo: naira 55,000",
+     "Muda mfupi wa naira 15,000 kila mwezi"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Usiwahi kulipa ada ya usindikaji kwa mtu anayekupigia simu au kukutumia ujumbe unaokupa mkopo au ruzuku."
+   ],
+   "panel": {
+    "kicker": "Kaa salama",
+    "heading": "Epuka ulaghai wa mkopo na simu",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "No upfront fees",
+      "d": "Usiwahi kulipa ada ya usindikaji kwa mtu anayetoa mkopo au ruzuku. Kuwa mwangalifu na ruzuku yoyote inayokuuliza ulipe kwanza."
+     },
+     {
+      "t": "Keep codes secret",
+      "d": "Kamwe usishiriki BVN yako, PIN ya kadi, nenosiri la Google au misimbo ya mara moja na mtu yeyote."
+     },
+     {
+      "t": "Check the lender",
+      "d": "Angalia kuwa programu ya mkopo iko kwenye orodha iliyoidhinishwa na FCCPC. Soma jumla utakayolipa."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Kamwe usishiriki BVN yako, PIN ya kadi au misimbo ya mara moja na mtu yeyote. Na usiweke PIN za benki au manenosiri kwenye lahajedwali yako."
+   ],
+   "panel": {
+    "kicker": "Kaa salama",
+    "heading": "Epuka ulaghai wa mkopo na simu",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "No upfront fees",
+      "d": "Usiwahi kulipa ada ya usindikaji kwa mtu anayetoa mkopo au ruzuku. Kuwa mwangalifu na ruzuku yoyote inayokuuliza ulipe kwanza."
+     },
+     {
+      "t": "Keep codes secret",
+      "d": "Kamwe usishiriki BVN yako, PIN ya kadi, nenosiri la Google au misimbo ya mara moja na mtu yeyote."
+     },
+     {
+      "t": "Check the lender",
+      "d": "Angalia kuwa programu ya mkopo iko kwenye orodha iliyoidhinishwa na FCCPC. Soma jumla utakayolipa."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_security",
+   "say": [
+    "Kabla ya kutumia programu ya mkopo, hakikisha kuwa iko kwenye orodha iliyoidhinishwa iliyochapishwa na Tume ya Shirikisho ya Ushindani na Ulinzi wa Watumiaji, FCCPC. Soma jumla ya kiasi utakacholipa, si tu takwimu ya kila mwezi."
+   ],
+   "panel": {
+    "kicker": "Kaa salama",
+    "heading": "Epuka ulaghai wa mkopo na simu",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "No upfront fees",
+      "d": "Usiwahi kulipa ada ya usindikaji kwa mtu anayetoa mkopo au ruzuku. Kuwa mwangalifu na ruzuku yoyote inayokuuliza ulipe kwanza."
+     },
+     {
+      "t": "Keep codes secret",
+      "d": "Kamwe usishiriki BVN yako, PIN ya kadi, nenosiri la Google au misimbo ya mara moja na mtu yeyote."
+     },
+     {
+      "t": "Check the lender",
+      "d": "Angalia kuwa programu ya mkopo iko kwenye orodha iliyoidhinishwa na FCCPC. Soma jumla utakayolipa."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Weka daftari lako kama rekodi asili, na uruhusu simu iongeze. Sakinisha Majedwali ya Google, ingia, na uandike vichwa vitano kwenye safu mlalo ya 1."
+   ],
+   "panel": {
+    "kicker": "Karatasi kwa simu",
+    "heading": "Kitabu cha pesa katika Majedwali ya Google",
+    "items": [
+     "Unda laha na uingie ukitumia Gmail",
+     "Vichwa: Tarehe, Maelezo, Pesa, Pesa, Salio",
+     "Andika salio la ufunguzi katika E2",
+     "Katika aina ya E3 = E2+C3-D3 na uinakili chini",
+     "Angalia salio la mwisho dhidi ya pesa taslimu yako"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Andika salio lako la ufunguzi kwenye seli E2. Katika E3, chapa ni sawa na E2 pamoja na C3 minus D3, na unakili chini. Lahajedwali inakuongezea."
+   ],
+   "panel": {
+    "kicker": "Karatasi kwa simu",
+    "heading": "Kitabu cha pesa katika Majedwali ya Google",
+    "items": [
+     "Unda laha na uingie ukitumia Gmail",
+     "Vichwa: Tarehe, Maelezo, Pesa, Pesa, Salio",
+     "Andika salio la ufunguzi katika E2",
+     "Katika aina ya E3 = E2+C3-D3 na uinakili chini",
+     "Angalia salio la mwisho dhidi ya pesa taslimu yako"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Kwa mfano, Kemi huandika jumla ya mkate wake kila usiku, na laha yake ilionyesha naira 31,600, zinazolingana na salio lake la pesa taslimu na programu. Funga simu yako na upige picha kurasa zako za karatasi kila wiki kama nakala rudufu."
+   ],
+   "panel": {
+    "kicker": "Karatasi kwa simu",
+    "heading": "Kitabu cha pesa katika Majedwali ya Google",
+    "items": [
+     "Unda laha na uingie ukitumia Gmail",
+     "Vichwa: Tarehe, Maelezo, Pesa, Pesa, Salio",
+     "Andika salio la ufunguzi katika E2",
+     "Katika aina ya E3 = E2+C3-D3 na uinakili chini",
+     "Angalia salio la mwisho dhidi ya pesa taslimu yako"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Sasa soma mwezi mmoja wa rekodi zako, hesabu faida ya mwezi mmoja, tengeneza kifurushi chako cha rekodi, na utengeneze kitabu chako cha pesa taslimu ya simu. Endelea na masomo hapa chini."
+   ],
+   "panel": {
+    "kicker": "Mazoezi ya kazi",
+    "heading": "Kazi zako za mazoezi",
+    "items": [
+     "Soma mwezi mmoja wa rekodi zako",
+     "Kuhesabu faida ya mwezi mmoja",
+     "Unda kifurushi chako cha rekodi",
+     "Tengeneza kitabu cha pesa cha simu yako"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

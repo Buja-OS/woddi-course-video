@@ -1,0 +1,621 @@
+{
+ "course": "production-scaling-quality-assurance",
+ "module": "m1",
+ "title": "Preparando um produto para escalar",
+ "course_title": "Dimensionamento de produção e garantia de qualidade",
+ "shots": [
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Preparando um produto para escalar.",
+    "Este é o vídeo do módulo 1 de Escalonamento de Produção e Garantia de Qualidade."
+   ]
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Quando você ganha dez vezes mais, três coisas mudam. Os valores que você pode calcular."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Não simplesmente dez vezes tudo",
+    "items": [
+     "Valores: você pode calculá-los",
+     "Perdas: você deve medi-las",
+     "Processo: calor e mudança de mistura",
+     "Prove isso com uma corrida piloto"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "As perdas, que você deve medir."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Não simplesmente dez vezes tudo",
+    "items": [
+     "Valores: você pode calculá-los",
+     "Perdas: você deve medi-las",
+     "Processo: calor e mudança de mistura",
+     "Prove isso com uma corrida piloto"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "E o comportamento do processo. A mistura, o aquecimento e o resfriamento demoram mais com mais material."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Não simplesmente dez vezes tudo",
+    "items": [
+     "Valores: você pode calculá-los",
+     "Perdas: você deve medi-las",
+     "Processo: calor e mudança de mistura",
+     "Prove isso com uma corrida piloto"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Portanto, neste módulo você calcula seus números, verifica o quanto sua produção varia e prova o lote maior com uma execução piloto."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Não simplesmente dez vezes tudo",
+    "items": [
+     "Valores: você pode calculá-los",
+     "Perdas: você deve medi-las",
+     "Processo: calor e mudança de mistura",
+     "Prove isso com uma corrida piloto"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Copos, latas e uma pequena saqueta mudam de dia para dia. Use uma balança digital com leitura de 1 g e pese todos os ingredientes, incluindo líquidos e ovos."
+   ],
+   "panel": {
+    "kicker": "Conheça sua receita",
+    "heading": "Pesos, porcentagens e rendimento",
+    "items": [
+     "Pese tudo, até ovos e água",
+     "Fórmula %: ingrediente/total x 100",
+     "Rendimento: vendável/entrada x 100",
+     "Meça a perda de embalagem separadamente"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Divida cada peso pelo total e multiplique por 100. Essas porcentagens da fórmula não mudam com o tamanho do lote. Eles são a identidade do seu produto."
+   ],
+   "panel": {
+    "kicker": "Conheça sua receita",
+    "heading": "Pesos, porcentagens e rendimento",
+    "items": [
+     "Pese tudo, até ovos e água",
+     "Fórmula %: ingrediente/total x 100",
+     "Rendimento: vendável/entrada x 100",
+     "Meça a perda de embalagem separadamente"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "O rendimento é a quantidade de produto vendável que você obtém com o que você coloca. Fritar e assar perdem água e alguns pedaços quebram ou queimam, então meça em dois ou três lotes de teste. Um lote pode dar sorte."
+   ],
+   "panel": {
+    "kicker": "Conheça sua receita",
+    "heading": "Pesos, porcentagens e rendimento",
+    "items": [
+     "Pese tudo, até ovos e água",
+     "Fórmula %: ingrediente/total x 100",
+     "Rendimento: vendável/entrada x 100",
+     "Meça a perda de embalagem separadamente"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Em seguida, meça a perda de embalagem: derramamento, amostras e embalagens que não passaram na verificação de vedação."
+   ],
+   "panel": {
+    "kicker": "Conheça sua receita",
+    "heading": "Pesos, porcentagens e rendimento",
+    "items": [
+     "Pese tudo, até ovos e água",
+     "Fórmula %: ingrediente/total x 100",
+     "Rendimento: vendável/entrada x 100",
+     "Meça a perda de embalagem separadamente"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Por exemplo, Kemi em Ibadan vende queixo-queixo em embalagens de 250 g. Uma escola quer 400 maços. São 100.000 g de produto acabado."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Kemi: 400 pacotes de queixo-queixo",
+    "items": [
+     "400 x 250 g = 100.000 g de produto",
+     "Perda de embalagem 2%: perfaz 102.041 g",
+     "Rendimento 85%: prepare 120.048 g de massa",
+     "Multiplicador 70,6: 70,6 kg de farinha",
+     "Arredondando: 8 cargas de 9 kg = 72 kg"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Sua perda de embalagem é de 2%, então ela deve produzir cerca de 102.041 g."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Kemi: 400 pacotes de queixo-queixo",
+    "items": [
+     "400 x 250 g = 100.000 g de produto",
+     "Perda de embalagem 2%: perfaz 102.041 g",
+     "Rendimento 85%: prepare 120.048 g de massa",
+     "Multiplicador 70,6: 70,6 kg de farinha",
+     "Arredondando: 8 cargas de 9 kg = 72 kg"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Seu rendimento medido é de 85%, então ela precisa de cerca de 120.048 g de massa."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Kemi: 400 pacotes de queixo-queixo",
+    "items": [
+     "400 x 250 g = 100.000 g de produto",
+     "Perda de embalagem 2%: perfaz 102.041 g",
+     "Rendimento 85%: prepare 120.048 g de massa",
+     "Multiplicador 70,6: 70,6 kg de farinha",
+     "Arredondando: 8 cargas de 9 kg = 72 kg"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "A massa de teste dela pesa 1.700 g, então o multiplicador é 70,6. Isso significa 70,6 kg de farinha."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Kemi: 400 pacotes de queixo-queixo",
+    "items": [
+     "400 x 250 g = 100.000 g de produto",
+     "Perda de embalagem 2%: perfaz 102.041 g",
+     "Rendimento 85%: prepare 120.048 g de massa",
+     "Multiplicador 70,6: 70,6 kg de farinha",
+     "Arredondando: 8 cargas de 9 kg = 72 kg"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Sua batedeira alugada leva até 10 kg de farinha, então ela arredonda até 8 cargas iguais de 9 kg. Isso dá cerca de 407 pacotes.",
+    "Ela primeiro adivinhou 40 kg de farinha dobrando. A aritmética salvou a ordem."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Kemi: 400 pacotes de queixo-queixo",
+    "items": [
+     "400 x 250 g = 100.000 g de produto",
+     "Perda de embalagem 2%: perfaz 102.041 g",
+     "Rendimento 85%: prepare 120.048 g de massa",
+     "Multiplicador 70,6: 70,6 kg de farinha",
+     "Arredondando: 8 cargas de 9 kg = 72 kg"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Trabalhe de trás para frente a partir do que o comprador recebe.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Grandes quantidades de óleo quente são perigosas. Mantenha a fritadeira em uma superfície estável e nivelada, longe do alcance das crianças, nunca a deixe sem vigilância, mantenha uma tampa ou cobertor anti-fogo por perto e nunca despeje água sobre óleo queimando."
+   ],
+   "panel": {
+    "kicker": "Segurança",
+    "heading": "Lotes maiores, riscos maiores",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Hot oil",
+      "d": "Superfície estável e nivelada. Nunca desacompanhado. Tampa ou cobertor anti-fogo próximo. Nunca regue com óleo em chamas."
+     },
+     {
+      "t": "Heavy loads",
+      "d": "Levante sacos pesados e potes com os joelhos dobrados ou com ajuda."
+     },
+     {
+      "t": "Food hygiene",
+      "d": "Lave as mãos e cubra os cabelos. Mantenha os ovos crus longe do produto acabado."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Levante sacos pesados e potes com os joelhos dobrados ou com ajuda."
+   ],
+   "panel": {
+    "kicker": "Segurança",
+    "heading": "Lotes maiores, riscos maiores",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Hot oil",
+      "d": "Superfície estável e nivelada. Nunca desacompanhado. Tampa ou cobertor anti-fogo próximo. Nunca regue com óleo em chamas."
+     },
+     {
+      "t": "Heavy loads",
+      "d": "Levante sacos pesados e potes com os joelhos dobrados ou com ajuda."
+     },
+     {
+      "t": "Food hygiene",
+      "d": "Lave as mãos e cubra os cabelos. Mantenha os ovos crus longe do produto acabado."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Lave as mãos e cubra os cabelos antes de manusear os alimentos e mantenha os ovos crus longe do produto acabado."
+   ],
+   "panel": {
+    "kicker": "Segurança",
+    "heading": "Lotes maiores, riscos maiores",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Hot oil",
+      "d": "Superfície estável e nivelada. Nunca desacompanhado. Tampa ou cobertor anti-fogo próximo. Nunca regue com óleo em chamas."
+     },
+     {
+      "t": "Heavy loads",
+      "d": "Levante sacos pesados e potes com os joelhos dobrados ou com ajuda."
+     },
+     {
+      "t": "Food hygiene",
+      "d": "Lave as mãos e cubra os cabelos. Mantenha os ovos crus longe do produto acabado."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Não existem dois itens exatamente iguais. Essa diferença é variação, e a escala a multiplica. Por exemplo, Ruth em Oyo embala farinha de inhame em sacos de 1 kg. Nunca abaixo de 1.000 ge nem acima de 1.030 g."
+   ],
+   "panel": {
+    "kicker": "Variação",
+    "heading": "Sacos de 1 kg de farinha de inhame Ruth's",
+    "items": [
+     "Especificações: 1.000 g a 1.030 g",
+     "25 sacos: média 1.007,08 g",
+     "Desvio padrão: 3,21 g",
+     "Cp 1.56: spread está bom",
+     "Cpk 0,74: meta muito próxima de 1.000 g"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Ela pesa 25 sacolas em uma manhã normal. A média é de 1.007,08 g."
+   ],
+   "panel": {
+    "kicker": "Variação",
+    "heading": "Sacos de 1 kg de farinha de inhame Ruth's",
+    "items": [
+     "Especificações: 1.000 g a 1.030 g",
+     "25 sacos: média 1.007,08 g",
+     "Desvio padrão: 3,21 g",
+     "Cp 1.56: spread está bom",
+     "Cpk 0,74: meta muito próxima de 1.000 g"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "O desvio padrão de sua planilha, a distância típica da média, é 3,21 g."
+   ],
+   "panel": {
+    "kicker": "Variação",
+    "heading": "Sacos de 1 kg de farinha de inhame Ruth's",
+    "items": [
+     "Especificações: 1.000 g a 1.030 g",
+     "25 sacos: média 1.007,08 g",
+     "Desvio padrão: 3,21 g",
+     "Cp 1.56: spread está bom",
+     "Cpk 0,74: meta muito próxima de 1.000 g"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Cp compara o spread com a especificação. O dela é 1,56, então o spread caberia se estivesse centralizado."
+   ],
+   "panel": {
+    "kicker": "Variação",
+    "heading": "Sacos de 1 kg de farinha de inhame Ruth's",
+    "items": [
+     "Especificações: 1.000 g a 1.030 g",
+     "25 sacos: média 1.007,08 g",
+     "Desvio padrão: 3,21 g",
+     "Cp 1.56: spread está bom",
+     "Cpk 0,74: meta muito próxima de 1.000 g"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Mas o Cpk, que verifica o limite mais próximo, é de apenas 0,74. Sua meta fica muito próxima de 1.000 g, então são esperadas algumas sacolas abaixo do peso.",
+    "Mover a meta para 1.012 g eleva o Cpk para 1,25. Uma colher de volume fixo e uma colher de reposição fina são a solução mais barata a longo prazo. E 25 valores é apenas uma primeira olhada."
+   ],
+   "panel": {
+    "kicker": "Variação",
+    "heading": "Sacos de 1 kg de farinha de inhame Ruth's",
+    "items": [
+     "Especificações: 1.000 g a 1.030 g",
+     "25 sacos: média 1.007,08 g",
+     "Desvio padrão: 3,21 g",
+     "Cp 1.56: spread está bom",
+     "Cpk 0,74: meta muito próxima de 1.000 g"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Nunca conserte o baixo peso adivinhando. Eleve o alvo primeiro.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Uma execução piloto é um lote de tamanho real em condições reais, antes de você prometer volume. Escreva sua finalidade e passe os critérios em números, como rendimento de pelo menos 83%."
+   ],
+   "panel": {
+    "kicker": "Corrida piloto",
+    "heading": "Escreva o plano antes do dia",
+    "items": [
+     "Objetivo",
+     "Passe critérios em números",
+     "Funções: uma pessoa apenas observa",
+     "O que gravar",
+     "Parar regras"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Dê papéis. Uma pessoa, muitas vezes você, apenas observa e cronometra."
+   ],
+   "panel": {
+    "kicker": "Corrida piloto",
+    "heading": "Escreva o plano antes do dia",
+    "items": [
+     "Objetivo",
+     "Passe critérios em números",
+     "Funções: uma pessoa apenas observa",
+     "O que gravar",
+     "Parar regras"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Registre tempos, temperaturas e pesos e estabeleça regras de parada, como fumar óleo. Em seguida, faça uma verificação do primeiro artigo: inspecione os primeiros itens em cada ponto antes de fazer o resto."
+   ],
+   "panel": {
+    "kicker": "Corrida piloto",
+    "heading": "Escreva o plano antes do dia",
+    "items": [
+     "Objetivo",
+     "Passe critérios em números",
+     "Funções: uma pessoa apenas observa",
+     "O que gravar",
+     "Parar regras"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Kemi pilota três cargas de 9 kg. A verificação do primeiro artigo detecta massa grossa na carga 1. A carga 2 segue conforme planejado. Na carga 3, Tolu acelera e quase dobra a carga do wok. O óleo esfria e o queixo fica pálido e oleoso."
+   ],
+   "panel": {
+    "kicker": "O piloto de Kemi",
+    "heading": "Corrija e repita, não vá",
+    "mode": "compare",
+    "left_h": "O que aconteceu",
+    "left": [
+     "Carga 1: massa muito grossa, 84%",
+     "Carga 2: tudo conforme planejado, 86%",
+     "Carga 3: wok cheio demais, 79%"
+    ],
+    "right_h": "O que mudou",
+    "right": [
+     "Guia de corte definida e gravada",
+     "Uma tigela marcada para cada carga de wok",
+     "Temporizador de cozinha para cada carga",
+     "Cargas 4 e 5: 85% e 86%"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Num interrogatório no mesmo dia, ela pergunta o que planejamos, o que aconteceu, por que e o que vamos mudar. Ela adiciona uma tigela marcada e um cronômetro, mudando uma coisa de cada vez.",
+    "Só depois de três cargas seguidas ela aceita o pedido."
+   ],
+   "panel": {
+    "kicker": "O piloto de Kemi",
+    "heading": "Corrija e repita, não vá",
+    "mode": "compare",
+    "left_h": "O que aconteceu",
+    "left": [
+     "Carga 1: massa muito grossa, 84%",
+     "Carga 2: tudo conforme planejado, 86%",
+     "Carga 3: wok cheio demais, 79%"
+    ],
+    "right_h": "O que mudou",
+    "right": [
+     "Guia de corte definida e gravada",
+     "Uma tigela marcada para cada carga de wok",
+     "Temporizador de cozinha para cada carga",
+     "Cargas 4 e 5: 85% e 86%"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Para lembrar. Pese e use porcentagens. Meça o rendimento e as perdas. Trabalhe de trás para frente a partir do pedido. Verifique seu spread e seu centro. E vá somente quando vários pilotos passarem em sequência."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Lembre-se",
+    "items": [
+     "As porcentagens da fórmula são a identidade do seu produto",
+     "Meça o rendimento e a perda de empacotamento",
+     "Trabalhe de trás para frente, dos pacotes até a farinha",
+     "Cpk baixo: move o alvo; Cp baixo: reduz o spread",
+     "Vá somente depois de várias corridas de ultrapassagem"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Sua vez. Construa uma planilha de aumento de escala a partir de um lote pesado, meça 25 itens e calcule Cp e Cpk, depois planeje e execute um piloto com um debrief.",
+    "Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Pratique tarefas",
+    "heading": "Suas tarefas práticas",
+    "items": [
+     "Crie sua planilha de aumento de escala",
+     "Execute sua primeira verificação de capacidade",
+     "Planeje e execute seu piloto"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

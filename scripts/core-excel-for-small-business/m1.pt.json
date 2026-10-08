@@ -1,0 +1,614 @@
+{
+ "course": "core-excel-for-small-business",
+ "module": "m1",
+ "title": "Sua primeira planilha de negócios: registros limpos e primeiras fórmulas",
+ "course_title": "Excel e Planilhas Google para pequenas empresas",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Sua primeira planilha de negócios: registros limpos e primeiras fórmulas.",
+    "Este é o vídeo do Módulo 1 do Excel e Planilhas Google para Pequenas Empresas."
+   ]
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Muitos de nós mantemos registros em um caderno ou em nossas cabeças. Isso funciona até que você precise de uma resposta rápida, como quanto vendi no mês passado?"
+   ],
+   "panel": {
+    "kicker": "Por que isso importa",
+    "heading": "Deixe a folha fazer as contas",
+    "items": [
+     "Respostas em segundos, não à noite com uma calculadora",
+     "Excel ou Planilhas Google, telefone ou computador",
+     "Digite os fatos uma vez, as fórmulas fazem a aritmética",
+     "Mantenha seus registros protegidos contra perdas e fraudes"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Uma planilha é uma grade no seu telefone ou computador que armazena seus registros e faz os cálculos para você. O Excel e o Planilhas Google funcionam quase da mesma forma, então escolha aquele que você pode abrir com mais facilidade."
+   ],
+   "panel": {
+    "kicker": "Por que isso importa",
+    "heading": "Deixe a folha fazer as contas",
+    "items": [
+     "Respostas em segundos, não à noite com uma calculadora",
+     "Excel ou Planilhas Google, telefone ou computador",
+     "Digite os fatos uma vez, as fórmulas fazem a aritmética",
+     "Mantenha seus registros protegidos contra perdas e fraudes"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Mude um número e todo total que depende dele será atualizado sozinho."
+   ],
+   "panel": {
+    "kicker": "Por que isso importa",
+    "heading": "Deixe a folha fazer as contas",
+    "items": [
+     "Respostas em segundos, não à noite com uma calculadora",
+     "Excel ou Planilhas Google, telefone ou computador",
+     "Digite os fatos uma vez, as fórmulas fazem a aritmética",
+     "Mantenha seus registros protegidos contra perdas e fraudes"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "E seu arquivo será copiado e protegido."
+   ],
+   "panel": {
+    "kicker": "Por que isso importa",
+    "heading": "Deixe a folha fazer as contas",
+    "items": [
+     "Respostas em segundos, não à noite com uma calculadora",
+     "Excel ou Planilhas Google, telefone ou computador",
+     "Digite os fatos uma vez, as fórmulas fazem a aritmética",
+     "Mantenha seus registros protegidos contra perdas e fraudes"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Primeiro, algumas palavras. Uma coluna sobe e desce, nomeada por uma letra."
+   ],
+   "panel": {
+    "kicker": "Novas palavras",
+    "heading": "As partes de uma planilha",
+    "items": [
+     "Coluna: uma linha vertical, nomeada por uma letra",
+     "Linha: uma linha horizontal, nomeada por um número",
+     "Célula: onde eles se encontram, como C5",
+     "Intervalo: um bloco de células, como C2:C10",
+     "Barra de fórmulas: mostra o que realmente está em uma célula"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Uma linha é atravessada, nomeada por um número."
+   ],
+   "panel": {
+    "kicker": "Novas palavras",
+    "heading": "As partes de uma planilha",
+    "items": [
+     "Coluna: uma linha vertical, nomeada por uma letra",
+     "Linha: uma linha horizontal, nomeada por um número",
+     "Célula: onde eles se encontram, como C5",
+     "Intervalo: um bloco de células, como C2:C10",
+     "Barra de fórmulas: mostra o que realmente está em uma célula"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Uma célula é uma caixa onde eles se encontram, denominada letra da coluna e depois número da linha, portanto C5."
+   ],
+   "panel": {
+    "kicker": "Novas palavras",
+    "heading": "As partes de uma planilha",
+    "items": [
+     "Coluna: uma linha vertical, nomeada por uma letra",
+     "Linha: uma linha horizontal, nomeada por um número",
+     "Célula: onde eles se encontram, como C5",
+     "Intervalo: um bloco de células, como C2:C10",
+     "Barra de fórmulas: mostra o que realmente está em uma célula"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Um intervalo é um bloco de células. C2 cólon C10 significa C2 até C10."
+   ],
+   "panel": {
+    "kicker": "Novas palavras",
+    "heading": "As partes de uma planilha",
+    "items": [
+     "Coluna: uma linha vertical, nomeada por uma letra",
+     "Linha: uma linha horizontal, nomeada por um número",
+     "Célula: onde eles se encontram, como C5",
+     "Intervalo: um bloco de células, como C2:C10",
+     "Barra de fórmulas: mostra o que realmente está em uma célula"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "A barra de fórmulas, marcada como f x, mostra o que realmente está dentro de uma célula. A célula mostra a resposta, a barra de fórmulas mostra a fórmula."
+   ],
+   "panel": {
+    "kicker": "Novas palavras",
+    "heading": "As partes de uma planilha",
+    "items": [
+     "Coluna: uma linha vertical, nomeada por uma letra",
+     "Linha: uma linha horizontal, nomeada por um número",
+     "Célula: onde eles se encontram, como C5",
+     "Intervalo: um bloco de células, como C2:C10",
+     "Barra de fórmulas: mostra o que realmente está em uma célula"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Passo 1. Abra o Planilhas Google ou Excel e crie um novo arquivo em branco."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Configure sua planilha de vendas",
+    "items": [
+     "Crie um novo arquivo em branco",
+     "Dê um nome: o nome da sua empresa e o ano",
+     "Renomeie a primeira guia para Vendas",
+     "Linha 1: Data, Item, Quantidade, Preço unitário, Valor",
+     "Digite uma venda. Em E2 digite =C2*D2"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Passo 2. Dê ao arquivo um nome claro, por exemplo, o nome da sua empresa e o ano."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Configure sua planilha de vendas",
+    "items": [
+     "Crie um novo arquivo em branco",
+     "Dê um nome: o nome da sua empresa e o ano",
+     "Renomeie a primeira guia para Vendas",
+     "Linha 1: Data, Item, Quantidade, Preço unitário, Valor",
+     "Digite uma venda. Em E2 digite =C2*D2"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Etapa 3. Renomeie a primeira guia para Vendas. Em um telefone, toque na guia e escolha Renomear."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Configure sua planilha de vendas",
+    "items": [
+     "Crie um novo arquivo em branco",
+     "Dê um nome: o nome da sua empresa e o ano",
+     "Renomeie a primeira guia para Vendas",
+     "Linha 1: Data, Item, Quantidade, Preço unitário, Valor",
+     "Digite uma venda. Em E2 digite =C2*D2"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Passo 4. Na linha 1, digite os títulos. Data, Item, Quantidade, Preço unitário e Valor."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Configure sua planilha de vendas",
+    "items": [
+     "Crie um novo arquivo em branco",
+     "Dê um nome: o nome da sua empresa e o ano",
+     "Renomeie a primeira guia para Vendas",
+     "Linha 1: Data, Item, Quantidade, Preço unitário, Valor",
+     "Digite uma venda. Em E2 digite =C2*D2"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Etapa 5. Digite uma venda na linha 2. Na célula E2, digite igual a C2 estrela D2 e pressione Enter. A estrela significa multiplicar."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Configure sua planilha de vendas",
+    "items": [
+     "Crie um novo arquivo em branco",
+     "Dê um nome: o nome da sua empresa e o ano",
+     "Renomeie a primeira guia para Vendas",
+     "Linha 1: Data, Item, Quantidade, Preço unitário, Valor",
+     "Digite uma venda. Em E2 digite =C2*D2"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Lembre-se desta regra. Toda fórmula começa com um sinal de igual. Sem ele, a planilha trata o que você digita como texto simples."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Configure sua planilha de vendas",
+    "items": [
+     "Crie um novo arquivo em branco",
+     "Dê um nome: o nome da sua empresa e o ano",
+     "Renomeie a primeira guia para Vendas",
+     "Linha 1: Data, Item, Quantidade, Preço unitário, Valor",
+     "Digite uma venda. Em E2 digite =C2*D2"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Toda fórmula começa com um sinal de igual =",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Aqui está um exemplo prático. Ngozi tem uma pequena loja de provisões em Enugu e quer parar de somar as vendas numa calculadora à noite."
+   ],
+   "card": {
+    "title": "As três primeiras vendas de Ngozi",
+    "rows": [],
+    "note": "Os preços são ilustrativos e aproximados."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Ela vende 2 caixas de macarrão por 9.500, então igual a estrela C2 D2 dá 19.000.",
+    "3 garrafas de óleo de amendoim a 3.200 dão 9.600. 6 barras de sabão a 700 dão 4.200."
+   ],
+   "card": {
+    "title": "As três primeiras vendas de Ngozi",
+    "rows": [
+     [
+      "Caixa de macarrão, 2 x 9500",
+      "19,000"
+     ],
+     [
+      "Óleo de amendoim, 3 x 3200",
+      "9,600"
+     ],
+     [
+      "Sabonete em barra, 6 x 700",
+      "4,200"
+     ]
+    ],
+    "note": "Os preços são ilustrativos e aproximados."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Em E5 ela soma. O total do dia é 32.800 naira.",
+    "Mais tarde ela corrige o preço do sabonete para 750. E4 passa a ser 4.500 e o total 33.100, sem que ela faça mais nada."
+   ],
+   "card": {
+    "title": "As três primeiras vendas de Ngozi",
+    "rows": [
+     [
+      "Caixa de macarrão, 2 x 9500",
+      "19,000"
+     ],
+     [
+      "Óleo de amendoim, 3 x 3200",
+      "9,600"
+     ],
+     [
+      "Sabonete em barra, 6 x 700",
+      "4,200"
+     ]
+    ],
+    "note": "Os preços são ilustrativos e aproximados."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Uma planilha só pode calcular o que entende. Digite 5000 como um número simples e deixe a formatação adicionar o sinal naira e as vírgulas.",
+    "Mantenha uma linha para cada venda ou despesa, uma coluna para cada detalhe e títulos apenas na linha 1."
+   ],
+   "panel": {
+    "kicker": "Limpar dados",
+    "heading": "Digite números que a planilha entende",
+    "mode": "compare",
+    "left_h": "Faça isso",
+    "left": [
+     "5000 e adicione um formato naira",
+     "Quantidade 3, preço unitário 2.000",
+     "Uma linha por transação",
+     "Títulos na linha 1, sem linhas em branco"
+    ],
+    "right_h": "Evite isso",
+    "right": [
+     "N5000 ou 5k",
+     "3 sacos @ 2.000 em uma célula",
+     "Células mescladas e grandes títulos",
+     "Transporte e Transpot"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Este é o erro comum. Se você digitar N5000 ou 5k, a planilha verá palavras, não um número, e seus totais estarão silenciosamente errados.",
+    "Verificação rápida. Os números ficam à direita da célula e o texto à esquerda. Se um valor estiver à esquerda, digite-o novamente."
+   ],
+   "panel": {
+    "kicker": "Limpar dados",
+    "heading": "Digite números que a planilha entende",
+    "mode": "compare",
+    "left_h": "Faça isso",
+    "left": [
+     "5000 e adicione um formato naira",
+     "Quantidade 3, preço unitário 2.000",
+     "Uma linha por transação",
+     "Títulos na linha 1, sem linhas em branco"
+    ],
+    "right_h": "Evite isso",
+    "right": [
+     "N5000 ou 5k",
+     "3 sacos @ 2.000 em uma célula",
+     "Células mescladas e grandes títulos",
+     "Transporte e Transpot"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Agora, funções. Estes são cálculos prontos com nomes. Bisi vende arroz e ensopado em Ibadan e digita sua ingestão diária durante 6 dias nas células B2 a B7."
+   ],
+   "card": {
+    "title": "Semana de vendas de Bisi",
+    "rows": [],
+    "note": "AVERAGE conta zeros, mas ignora células vazias."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "SUM adiciona todo o intervalo. A semana dela chega a 97.000 naira."
+   ],
+   "card": {
+    "title": "Semana de vendas de Bisi",
+    "rows": [
+     [
+      "Total, =SOMA(B2:B7)",
+      "97,000"
+     ]
+    ],
+    "note": "AVERAGE conta zeros, mas ignora células vazias."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "MIN encontra seu pior dia, 8.000 na terça-feira. MAX encontra seu melhor dia, 30.500 no sábado.",
+    "AVERAGE conta zeros, mas ignora células vazias. Então ela deixa o domingo em branco, quando está fechado, e sua média reflete apenas os dias de negociação."
+   ],
+   "card": {
+    "title": "Semana de vendas de Bisi",
+    "rows": [
+     [
+      "Total, =SOMA(B2:B7)",
+      "97,000"
+     ],
+     [
+      "Pior dia, =MIN(B2:B7)",
+      "8,000"
+     ],
+     [
+      "Melhor dia, =MAX(B2:B7)",
+      "30,500"
+     ]
+    ],
+    "note": "AVERAGE conta zeros, mas ignora células vazias."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Seus registros são dinheiro, então proteja-os. Economize on-line. Um telefone roubado ou que caia na água não deve levar seus registros consigo."
+   ],
+   "panel": {
+    "kicker": "Mantenha-o seguro",
+    "heading": "Proteja seu arquivo comercial",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Save online",
+      "d": "O Planilhas Google salva no Google Drive. No Excel, salve no OneDrive com AutoSave ativado."
+     },
+     {
+      "t": "Version history",
+      "d": "Volte para a cópia de ontem se algo for excluído. Baixe um backup uma vez por mês."
+     },
+     {
+      "t": "Beware of scams",
+      "d": "Nunca habilite macros em um arquivo de um estranho. Alertas bancários reais chegam por SMS ou pelo seu aplicativo."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Use o histórico de versões para voltar a uma cópia anterior e baixe um backup uma vez por mês."
+   ],
+   "panel": {
+    "kicker": "Mantenha-o seguro",
+    "heading": "Proteja seu arquivo comercial",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Save online",
+      "d": "O Planilhas Google salva no Google Drive. No Excel, salve no OneDrive com AutoSave ativado."
+     },
+     {
+      "t": "Version history",
+      "d": "Volte para a cópia de ontem se algo for excluído. Baixe um backup uma vez por mês."
+     },
+     {
+      "t": "Beware of scams",
+      "d": "Nunca habilite macros em um arquivo de um estranho. Alertas bancários reais chegam por SMS ou pelo seu aplicativo."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "E nunca abra anexos de planilhas de estranhos que peçam para você ativar macros para ver uma fatura ou alerta de pagamento. Essa é uma forma comum de instalar software prejudicial."
+   ],
+   "panel": {
+    "kicker": "Mantenha-o seguro",
+    "heading": "Proteja seu arquivo comercial",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Save online",
+      "d": "O Planilhas Google salva no Google Drive. No Excel, salve no OneDrive com AutoSave ativado."
+     },
+     {
+      "t": "Version history",
+      "d": "Volte para a cópia de ontem se algo for excluído. Baixe um backup uma vez por mês."
+     },
+     {
+      "t": "Beware of scams",
+      "d": "Nunca habilite macros em um arquivo de um estranho. Alertas bancários reais chegam por SMS ou pelo seu aplicativo."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Para lembrar. As células são nomeadas com a letra da coluna e depois com o número da linha. Digite os fatos uma vez e deixe as fórmulas fazerem as contas.",
+    "Digite números simples, sem N e sem k. Use SOMA, MÉDIA, MIN e MAX. E mantenha seu arquivo salvo online e protegido contra fraudes."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Lembre-se",
+    "items": [
+     "As células são nomeadas com a letra da coluna e depois com o número da linha",
+     "Digite os fatos brutos uma vez; fórmulas como =C2*D2 fazem as contas",
+     "Apenas números simples: sem N, sem k",
+     "SUM, AVERAGE, MIN, MAX respondem a perguntas do dia a dia",
+     "Economize online e nunca habilite macros de estranhos"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Agora é a sua vez. Monte sua própria planilha de vendas com três vendas reais, limpe-a e formate-a e, em seguida, calcule sua semana em números.",
+    "Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Tarefa prática",
+    "heading": "Suas tarefas práticas",
+    "items": [
+     "Configure sua própria planilha de vendas",
+     "Limpe e formate, congele a linha 1",
+     "Sua semana em números: SUM, AVERAGE, MIN, MAX"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

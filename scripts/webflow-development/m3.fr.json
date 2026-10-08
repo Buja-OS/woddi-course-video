@@ -1,0 +1,590 @@
+{
+ "course": "webflow-development",
+ "module": "m3",
+ "title": "Découverte, tarification, transfert : exécuter une pratique Webflow",
+ "course_title": "Développement de flux Web",
+ "shots": [
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Découverte, tarification et transfert : exécuter une pratique Webflow.",
+    "Ceci est la vidéo du module 3 de Webflow Development : Conseil, tarification et développement de votre pratique Webflow."
+   ]
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "La plupart des projets de sites Web qui ont échoué échouent avant le premier pixel. Le développeur a construit ce qu'il pensait, et non ce dont l'entreprise avait besoin. Commencez donc par un appel découverte de 30 à 45 minutes."
+   ],
+   "panel": {
+    "kicker": "Découverte",
+    "heading": "Cinq zones pour chaque appel découverte",
+    "items": [
+     "Objectif : que doit faire un visiteur ?",
+     "Public : qui visite, sur quel appareil ?",
+     "Contenu : texte, photos et logo prêts ?",
+     "Mises à jour : que vont-elles changer, à quelle fréquence ?",
+     "Budget et calendrier : une date de lancement fixe ?"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "But. Transformez vos souhaits en un objectif mesurable, par exemple en augmentant le nombre de demandes de renseignements d'environ 5 par mois à 15."
+   ],
+   "panel": {
+    "kicker": "Découverte",
+    "heading": "Cinq zones pour chaque appel découverte",
+    "items": [
+     "Objectif : que doit faire un visiteur ?",
+     "Public : qui visite, sur quel appareil ?",
+     "Contenu : texte, photos et logo prêts ?",
+     "Mises à jour : que vont-elles changer, à quelle fréquence ?",
+     "Budget et calendrier : une date de lancement fixe ?"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Public. Qui visite et sur quel appareil."
+   ],
+   "panel": {
+    "kicker": "Découverte",
+    "heading": "Cinq zones pour chaque appel découverte",
+    "items": [
+     "Objectif : que doit faire un visiteur ?",
+     "Public : qui visite, sur quel appareil ?",
+     "Contenu : texte, photos et logo prêts ?",
+     "Mises à jour : que vont-elles changer, à quelle fréquence ?",
+     "Budget et calendrier : une date de lancement fixe ?"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Contenu. Le texte, les photos et le logo sont-ils prêts, et qui rédige le nouveau contenu ?"
+   ],
+   "panel": {
+    "kicker": "Découverte",
+    "heading": "Cinq zones pour chaque appel découverte",
+    "items": [
+     "Objectif : que doit faire un visiteur ?",
+     "Public : qui visite, sur quel appareil ?",
+     "Contenu : texte, photos et logo prêts ?",
+     "Mises à jour : que vont-elles changer, à quelle fréquence ?",
+     "Budget et calendrier : une date de lancement fixe ?"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Mises à jour. Ce qu'ils changeront devient souvent une collection CMS."
+   ],
+   "panel": {
+    "kicker": "Découverte",
+    "heading": "Cinq zones pour chaque appel découverte",
+    "items": [
+     "Objectif : que doit faire un visiteur ?",
+     "Public : qui visite, sur quel appareil ?",
+     "Contenu : texte, photos et logo prêts ?",
+     "Mises à jour : que vont-elles changer, à quelle fréquence ?",
+     "Budget et calendrier : une date de lancement fixe ?"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Budget et calendrier. Et demandez à qui appartient le domaine et qui peut se connecter. Les connexions de domaine perdues retardent souvent les lancements."
+   ],
+   "panel": {
+    "kicker": "Découverte",
+    "heading": "Cinq zones pour chaque appel découverte",
+    "items": [
+     "Objectif : que doit faire un visiteur ?",
+     "Public : qui visite, sur quel appareil ?",
+     "Contenu : texte, photos et logo prêts ?",
+     "Mises à jour : que vont-elles changer, à quelle fréquence ?",
+     "Budget et calendrier : une date de lancement fixe ?"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Par exemple, Grace rencontre une école primaire privée à Ibadan. Les admissions ouvrent dans 10 semaines. L’école reçoit environ 8 demandes par mois et en souhaite 20."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Grace travaille à rebours à partir de 10 semaines",
+    "items": [
+     "Objectif : demandes d'environ 8 à 20 par mois",
+     "1 semaine pour planifier",
+     "4 semaines pour construire",
+     "1 semaine d'entrée au contenu, 1 semaine de tests et de formation",
+     "3 semaines de tampon pour les contenus en retard"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Elle travaille à rebours à partir de la date. 1 semaine pour planifier."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Grace travaille à rebours à partir de 10 semaines",
+    "items": [
+     "Objectif : demandes d'environ 8 à 20 par mois",
+     "1 semaine pour planifier",
+     "4 semaines pour construire",
+     "1 semaine d'entrée au contenu, 1 semaine de tests et de formation",
+     "3 semaines de tampon pour les contenus en retard"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "4 semaines pour construire."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Grace travaille à rebours à partir de 10 semaines",
+    "items": [
+     "Objectif : demandes d'environ 8 à 20 par mois",
+     "1 semaine pour planifier",
+     "4 semaines pour construire",
+     "1 semaine d'entrée au contenu, 1 semaine de tests et de formation",
+     "3 semaines de tampon pour les contenus en retard"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "1 semaine pour la saisie du contenu et 1 pour les tests et la formation."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Grace travaille à rebours à partir de 10 semaines",
+    "items": [
+     "Objectif : demandes d'environ 8 à 20 par mois",
+     "1 semaine pour planifier",
+     "4 semaines pour construire",
+     "1 semaine d'entrée au contenu, 1 semaine de tests et de formation",
+     "3 semaines de tampon pour les contenus en retard"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Cela laisse 3 semaines de tampon, car les photos et textes arrivent souvent en retard. Dans les 48 heures, elle envoie un mémoire d'une page pour approbation."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Grace travaille à rebours à partir de 10 semaines",
+    "items": [
+     "Objectif : demandes d'environ 8 à 20 par mois",
+     "1 semaine pour planifier",
+     "4 semaines pour construire",
+     "1 semaine d'entrée au contenu, 1 semaine de tests et de formation",
+     "3 semaines de tampon pour les contenus en retard"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Ne demandez jamais à un client d'envoyer des mots de passe dans un groupe WhatsApp ou par e-mail. Demandez-leur de vous inviter en tant que collaborateur et de supprimer votre accès après le transfert."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Grace travaille à rebours à partir de 10 semaines",
+    "items": [
+     "Objectif : demandes d'environ 8 à 20 par mois",
+     "1 semaine pour planifier",
+     "4 semaines pour construire",
+     "1 semaine d'entrée au contenu, 1 semaine de tests et de formation",
+     "3 semaines de tampon pour les contenus en retard"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Ne collectez jamais de mots de passe via le chat. Demandez plutôt à être invité.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Grace estime chaque tâche à partir de ses propres enregistrements : 5 pages statiques, 2 modèles, 2 collections, formulaires, tests et formation. Cela fait 58 heures.",
+    "Elle ajoute 20 pour cent pour la gestion de projet et les révisions, soit environ 12 heures, soit 70."
+   ],
+   "card": {
+    "title": "Tarification du site Web de l'école",
+    "rows": [],
+    "note": "À titre indicatif seulement. Fixez votre propre tarif."
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Au prix indicatif de 8 000 nairas de l'heure, cela représente 560 000 nairas."
+   ],
+   "card": {
+    "title": "Tarification du site Web de l'école",
+    "rows": [
+     [
+      "70 heures x 8 000 par heure",
+      "560,000"
+     ]
+    ],
+    "note": "À titre indicatif seulement. Fixez votre propre tarif."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Elle ajoute un tampon de 10 % pour les retards de contenu."
+   ],
+   "card": {
+    "title": "Tarification du site Web de l'école",
+    "rows": [
+     [
+      "70 heures x 8 000 par heure",
+      "560,000"
+     ],
+     [
+      "Tampon de 10 % pour les retards de contenu",
+      "56,000"
+     ]
+    ],
+    "note": "À titre indicatif seulement. Fixez votre propre tarif."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "616 000, arrondi à 620 000 naira. L'hébergement est proposé séparément, car l'école paie directement le plan Webflow Site."
+   ],
+   "card": {
+    "title": "Tarification du site Web de l'école",
+    "rows": [
+     [
+      "70 heures x 8 000 par heure",
+      "560,000"
+     ],
+     [
+      "Tampon de 10 % pour les retards de contenu",
+      "56,000"
+     ]
+    ],
+    "note": "À titre indicatif seulement. Fixez votre propre tarif."
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Divisez le prix en étapes. Dépôt de 40 pour cent, 248 000 naira, avant de commencer."
+   ],
+   "panel": {
+    "kicker": "Jalons",
+    "heading": "Soyez payé en trois étapes",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Deposit, 40%",
+      "d": "248 000 nairas avant le début des travaux."
+     },
+     {
+      "t": "Design approval, 40%",
+      "d": "248 000 naira lorsque la page d'accueil et le modèle sont approuvés."
+     },
+     {
+      "t": "Before publishing, 20%",
+      "d": "124 000 naira avant que le site ne soit transféré sur le domaine du client."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "40 % de plus lorsque la conception de la page d'accueil et du modèle est approuvée."
+   ],
+   "panel": {
+    "kicker": "Jalons",
+    "heading": "Soyez payé en trois étapes",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Deposit, 40%",
+      "d": "248 000 nairas avant le début des travaux."
+     },
+     {
+      "t": "Design approval, 40%",
+      "d": "248 000 naira lorsque la page d'accueil et le modèle sont approuvés."
+     },
+     {
+      "t": "Before publishing, 20%",
+      "d": "124 000 naira avant que le site ne soit transféré sur le domaine du client."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Et les 20 % restants, soit 124 000, avant la publication sur le domaine personnalisé. Ensemble, 620 000."
+   ],
+   "panel": {
+    "kicker": "Jalons",
+    "heading": "Soyez payé en trois étapes",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Deposit, 40%",
+      "d": "248 000 nairas avant le début des travaux."
+     },
+     {
+      "t": "Design approval, 40%",
+      "d": "248 000 naira lorsque la page d'accueil et le modèle sont approuvés."
+     },
+     {
+      "t": "Before publishing, 20%",
+      "d": "124 000 naira avant que le site ne soit transféré sur le domaine du client."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Un prix fixe ne vous protège que si le périmètre est clairement écrit. Énumérez ce qui est inclus."
+   ],
+   "panel": {
+    "kicker": "La proposition",
+    "heading": "Dis ce que le prix achète",
+    "mode": "compare",
+    "left_h": "Inclus",
+    "left": [
+     "Modèles de 5 pages",
+     "Collections d'actualités et d'événements",
+     "Formulaire de demande, tous les points d'arrêt",
+     "Formation d'une heure en tant qu'éditeur"
+    ],
+    "right_h": "Non inclus",
+    "right": [
+     "Rédaction et photographie",
+     "Création de logo",
+     "Paiements en ligne",
+     "Mises à jour continues après le lancement"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Ensuite, listez ce qui n’est pas inclus. Les exclusions préviennent la plupart des litiges. Lorsque le client demande quelque chose de nouveau, répondez chaleureusement et envoyez un bref ordre de modification : ce qui est ajouté, le prix supplémentaire et l'évolution du calendrier."
+   ],
+   "panel": {
+    "kicker": "La proposition",
+    "heading": "Dis ce que le prix achète",
+    "mode": "compare",
+    "left_h": "Inclus",
+    "left": [
+     "Modèles de 5 pages",
+     "Collections d'actualités et d'événements",
+     "Formulaire de demande, tous les points d'arrêt",
+     "Formation d'une heure en tant qu'éditeur"
+    ],
+    "right_h": "Non inclus",
+    "right": [
+     "Rédaction et photographie",
+     "Création de logo",
+     "Paiements en ligne",
+     "Mises à jour continues après le lancement"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Faites un dépôt avant de commencer. Conservez le site sur votre propre espace de travail ou hors du domaine du client jusqu'à ce que la dernière étape soit payée.",
+    "Confirmez chaque paiement dans votre banque actuelle ou dans le tableau de bord Paystack. Les fausses alertes de transfert et les reçus modifiés sont une arnaque connue."
+   ],
+   "panel": {
+    "kicker": "Sécurité des paiements",
+    "heading": "Protégez votre argent",
+    "items": [
+     "Faites un dépôt avant de commencer",
+     "Gardez le site sur votre espace de travail jusqu'au paiement",
+     "Confirmez dans votre banque ou dans le tableau de bord Paystack",
+     "Ne faites jamais confiance à une capture d'écran d'un transfert"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Un projet est terminé lorsque le client est propriétaire du site, peut le mettre à jour et vous recommande. Confirmez le paiement final, puis transférez le site."
+   ],
+   "panel": {
+    "kicker": "Transfert",
+    "heading": "Terminez pour que le client en soit propriétaire",
+    "items": [
+     "Confirmer le paiement final",
+     "Transférer le site au client",
+     "Enregistrez une courte vidéo explicative",
+     "Former en direct : le client effectue chaque tâche",
+     "Envoyer un document de transfert ; supprimer votre accès"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Enregistrez une courte vidéo sur l'ajout d'un élément CMS et entraînez-vous en direct pendant que le client effectue chaque tâche. Ce moment heureux est le meilleur moment pour demander un témoignage."
+   ],
+   "panel": {
+    "kicker": "Transfert",
+    "heading": "Terminez pour que le client en soit propriétaire",
+    "items": [
+     "Confirmer le paiement final",
+     "Transférer le site au client",
+     "Enregistrez une courte vidéo explicative",
+     "Former en direct : le client effectue chaque tâche",
+     "Envoyer un document de transfert ; supprimer votre accès"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Laissez un document de transfert et supprimez tout accès dont vous n’avez plus besoin. Plus tard, avec la permission, rédigez une étude de cas honnête en utilisant uniquement des résultats vérifiés."
+   ],
+   "panel": {
+    "kicker": "Transfert",
+    "heading": "Terminez pour que le client en soit propriétaire",
+    "items": [
+     "Confirmer le paiement final",
+     "Transférer le site au client",
+     "Enregistrez une courte vidéo explicative",
+     "Former en direct : le client effectue chaque tâche",
+     "Envoyer un document de transfert ; supprimer votre accès"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "À retenir. Obtenez un brief signé avec un objectif mesurable. Construisez votre prix à partir d'heures réelles et soyez payé par étapes. Rédigez les exclusions et utilisez les ordres de modification. Choisissez ensuite un créneau, comme les écoles ou les cliniques, et suivez votre sensibilisation tous les vendredis pendant 90 jours."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Un objectif mesurable et un brief signé",
+     "Prix à partir d'heures, tarif et tampon",
+     "Jalons ; confirmer les paiements dans votre tableau de bord",
+     "Les exclusions et les ordres de modification protègent la portée",
+     "Choisissez un créneau ; suivre la sensibilisation chaque semaine"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Entraînez-vous maintenant à la découverte et rédigez un brief, évaluez et proposez un projet, et construisez votre plan de 90 jours avec un modèle de transfert et une étude de cas.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâches d'entraînement",
+    "heading": "Votre travail pour ce module",
+    "items": [
+     "Pratiquez un appel de découverte et rédigez un brief",
+     "Tarifer et proposer, avec un ordre de modification",
+     "Planifiez vos 90 prochains jours"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

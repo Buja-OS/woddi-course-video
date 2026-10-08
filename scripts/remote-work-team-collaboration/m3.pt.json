@@ -1,0 +1,497 @@
+{
+ "course": "remote-work-team-collaboration",
+ "module": "m3",
+ "title": "Diagnosticar, precificar e liderar: melhorando uma equipe distribuída",
+ "course_title": "Trabalho remoto e colaboração em equipe: liderando equipes distribuídas",
+ "shots": [
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Diagnosticar, precificar e liderar: melhorando uma equipe distribuída.",
+    "Este é o vídeo do módulo três de Trabalho Remoto e Colaboração em Equipe."
+   ]
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Quer você integre uma equipe remota, lidere-a ou aconselhe-a, sua primeira tarefa é entender como o trabalho realmente flui. As equipes geralmente descrevem a maneira como gostariam de trabalhar."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Descubra como a equipe realmente funciona",
+    "items": [
+     "As equipes descrevem como gostariam de trabalhar",
+     "Peça evidências: mostre-me",
+     "Converse entre níveis e locais",
+     "Relate padrões, não nomes"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Portanto, peça evidências, não apenas opiniões. Onde está o orçamento atual? Mostre-me."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Descubra como a equipe realmente funciona",
+    "items": [
+     "As equipes descrevem como gostariam de trabalhar",
+     "Peça evidências: mostre-me",
+     "Converse entre níveis e locais",
+     "Relate padrões, não nomes"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Converse com pessoas de diferentes níveis e locais, incluindo alguém que ingressou recentemente. Mantenha o que eles dizem em sigilo e relate padrões, não nomes."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Descubra como a equipe realmente funciona",
+    "items": [
+     "As equipes descrevem como gostariam de trabalhar",
+     "Peça evidências: mostre-me",
+     "Converse entre níveis e locais",
+     "Relate padrões, não nomes"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Pontue oito áreas, como canais, fonte da verdade, propriedade, reuniões e decisões. Uma pontuação de 1 significa nenhuma prática compartilhada."
+   ],
+   "panel": {
+    "kicker": "A auditoria",
+    "heading": "Pontue oito áreas de 1 a 5",
+    "items": [
+     "1: nenhuma prática compartilhada",
+     "3: uma prática, usada de forma desigual",
+     "5: escrito, e a maioria das pessoas o segue",
+     "Adicione as pontuações; encontre as áreas mais baixas"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "3 significa que uma prática existe, mas é usada de forma desigual. 5 significa uma prática escrita que a maioria das pessoas segue."
+   ],
+   "panel": {
+    "kicker": "A auditoria",
+    "heading": "Pontue oito áreas de 1 a 5",
+    "items": [
+     "1: nenhuma prática compartilhada",
+     "3: uma prática, usada de forma desigual",
+     "5: escrito, e a maioria das pessoas o segue",
+     "Adicione as pontuações; encontre as áreas mais baixas"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Por exemplo, Grace revisou uma rede de voluntários e obteve 17 pontos em 40. Foram necessários 11 minutos e três pessoas para encontrar a lista atual de voluntários, e duas versões discordavam em 23 nomes."
+   ],
+   "panel": {
+    "kicker": "A auditoria",
+    "heading": "Pontue oito áreas de 1 a 5",
+    "items": [
+     "1: nenhuma prática compartilhada",
+     "3: uma prática, usada de forma desigual",
+     "5: escrito, e a maioria das pessoas o segue",
+     "Adicione as pontuações; encontre as áreas mais baixas"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "As pontuações são uma ferramenta de conversação, não um veredicto. Então mostre a evidência por trás de cada número."
+   ],
+   "panel": {
+    "kicker": "A auditoria",
+    "heading": "Pontue oito áreas de 1 a 5",
+    "items": [
+     "1: nenhuma prática compartilhada",
+     "3: uma prática, usada de forma desigual",
+     "5: escrito, e a maioria das pessoas o segue",
+     "Adicione as pontuações; encontre as áreas mais baixas"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "As pontuações iniciam uma conversa. Mostre as evidências de cada um.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Não tente consertar tudo. Avalie cada correção de acordo com o quanto ela ajuda e o quão difícil é.",
+    "Comece com vitórias rápidas. Para Grace, um registro de decisões e uma lista mestre de voluntários levam algumas horas cada."
+   ],
+   "panel": {
+    "kicker": "O que consertar primeiro",
+    "heading": "Impacto e esforço",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Vitórias rápidas: faça agora",
+      "d": "Alto impacto, baixo esforço. Para Grace: um registro de decisões compartilhado e uma lista mestre de voluntários."
+     },
+     {
+      "t": "Big projects: plan",
+      "d": "Alto impacto, alto esforço. Para Grace: um manual completo, próximo trimestre."
+     },
+     {
+      "t": "Avoid for now",
+      "d": "Baixo valor e caro. Para Grace: comprar uma ferramenta paga, porque o problema é o hábito."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Planeje os grandes projetos com cuidado, como um manual completo para o trimestre seguinte."
+   ],
+   "panel": {
+    "kicker": "O que consertar primeiro",
+    "heading": "Impacto e esforço",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Vitórias rápidas: faça agora",
+      "d": "Alto impacto, baixo esforço. Para Grace: um registro de decisões compartilhado e uma lista mestre de voluntários."
+     },
+     {
+      "t": "Big projects: plan",
+      "d": "Alto impacto, alto esforço. Para Grace: um manual completo, próximo trimestre."
+     },
+     {
+      "t": "Avoid for now",
+      "d": "Baixo valor e caro. Para Grace: comprar uma ferramenta paga, porque o problema é o hábito."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "E evite trabalhos dispendiosos e de baixo valor. Comprar uma ferramenta de projeto paga não ajudaria, porque o problema é o hábito, não o software."
+   ],
+   "panel": {
+    "kicker": "O que consertar primeiro",
+    "heading": "Impacto e esforço",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Vitórias rápidas: faça agora",
+      "d": "Alto impacto, baixo esforço. Para Grace: um registro de decisões compartilhado e uma lista mestre de voluntários."
+     },
+     {
+      "t": "Big projects: plan",
+      "d": "Alto impacto, alto esforço. Para Grace: um manual completo, próximo trimestre."
+     },
+     {
+      "t": "Avoid for now",
+      "d": "Baixo valor e caro. Para Grace: comprar uma ferramenta paga, porque o problema é o hábito."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Transforme cada recomendação em uma entrega que possa ser verificada e, em seguida, avalie-a como uma taxa diária multiplicada pelos dias estimados.",
+    "Bimpe pretende ganhar 800.000 nairas por mês e espera faturar cerca de 10 dias, então sua diária é de 80.000 nairas."
+   ],
+   "card": {
+    "title": "Preço de um projeto de 10 dias",
+    "rows": [],
+    "note": "Números ilustrativos de naira, não taxas de mercado."
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Ela estima 10 dias de trabalho, o que dá uma base de 800 mil nairas. Ela acrescenta 10% para incógnitas, 80.000 nairas."
+   ],
+   "card": {
+    "title": "Preço de um projeto de 10 dias",
+    "rows": [
+     [
+      "Base: 10 dias x 80.000",
+      "800,000"
+     ],
+     [
+      "Contingência, 10%",
+      "80,000"
+     ]
+    ],
+    "note": "Números ilustrativos de naira, não taxas de mercado."
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Seu preço fixo é de 880.000 nairas. Metade é paga na assinatura e metade quando as entregas são aceitas.",
+    "Ela também escreve o que está fora do escopo, como comprar software pago. Esses números são ilustrativos e não taxas de mercado."
+   ],
+   "card": {
+    "title": "Preço de um projeto de 10 dias",
+    "rows": [
+     [
+      "Base: 10 dias x 80.000",
+      "800,000"
+     ],
+     [
+      "Contingência, 10%",
+      "80,000"
+     ]
+    ],
+    "note": "Números ilustrativos de naira, não taxas de mercado."
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "O aumento do escopo geralmente chega como uma mensagem casual do WhatsApp: enquanto você está nisso, você também pode configurar o conselho financeiro? Não recuse e não concorde silenciosamente. Envie uma breve solicitação de alteração."
+   ],
+   "panel": {
+    "kicker": "Proteja o escopo",
+    "heading": "Quando chega uma solicitação extra",
+    "items": [
+     "Descreva brevemente a nova solicitação",
+     "Estime dias extras e custos",
+     "Indique o efeito na linha do tempo",
+     "Peça ao aprovador para aceitar por escrito"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Descreva a solicitação e estime o custo. Por exemplo, 2 dias extras vezes 80.000 equivalem a 160.000 nairas."
+   ],
+   "panel": {
+    "kicker": "Proteja o escopo",
+    "heading": "Quando chega uma solicitação extra",
+    "items": [
+     "Descreva brevemente a nova solicitação",
+     "Estime dias extras e custos",
+     "Indique o efeito na linha do tempo",
+     "Peça ao aprovador para aceitar por escrito"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Diga como o cronograma se move e peça ao aprovador nomeado que aceite por escrito. Uma resposta por e-mail é suficiente."
+   ],
+   "panel": {
+    "kicker": "Proteja o escopo",
+    "heading": "Quando chega uma solicitação extra",
+    "items": [
+     "Descreva brevemente a nova solicitação",
+     "Estime dias extras e custos",
+     "Indique o efeito na linha do tempo",
+     "Peça ao aprovador para aceitar por escrito"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Inicie o trabalho extra somente após aprovação por escrito e registre-o nas decisões do projeto."
+   ],
+   "panel": {
+    "kicker": "Proteja o escopo",
+    "heading": "Quando chega uma solicitação extra",
+    "items": [
+     "Descreva brevemente a nova solicitação",
+     "Estime dias extras e custos",
+     "Indique o efeito na linha do tempo",
+     "Peça ao aprovador para aceitar por escrito"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Comece o trabalho extra somente após aprovação por escrito.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Proteja o dinheiro também. Confirme os dados bancários por telefone com um contacto conhecido antes de qualquer transferência.",
+    "Desconfie de instruções repentinas de novas contas por e-mail ou WhatsApp. É um padrão de fraude comum.",
+    "Se você for cadastrado no CAC, fature nesse nome. E mantenha a aceitação por escrito do cliente como seu registro."
+   ],
+   "panel": {
+    "kicker": "Segurança monetária",
+    "heading": "Pagamentos e fraude",
+    "items": [
+     "Confirme primeiro os dados bancários por telefone",
+     "Duvide de mensagens repentinas de novas contas",
+     "Fatura no nome da sua empresa registrada",
+     "Obtenha aceitação por escrito por e-mail"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Os líderes são confiáveis quando o seu próprio trabalho é confiável e visível. Cada vez que você disser sim, adicione-o a uma lista dentro de uma hora, com uma data."
+   ],
+   "panel": {
+    "kicker": "Seu próprio sistema",
+    "heading": "Capture, planeje, faça, revise",
+    "items": [
+     "Capture tudo que eu quiser dentro de uma hora",
+     "Segunda-feira: escolha três resultados principais",
+     "Bloqueie o tempo e proteja o trabalho de foco",
+     "Publicar linhas de início e fim do dia",
+     "Sexta-feira: revisar e renegociar antecipadamente"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Na segunda-feira, escolha os três resultados mais importantes e reserve um tempo de foco para eles."
+   ],
+   "panel": {
+    "kicker": "Seu próprio sistema",
+    "heading": "Capture, planeje, faça, revise",
+    "items": [
+     "Capture tudo que eu quiser dentro de uma hora",
+     "Segunda-feira: escolha três resultados principais",
+     "Bloqueie o tempo e proteja o trabalho de foco",
+     "Publicar linhas de início e fim do dia",
+     "Sexta-feira: revisar e renegociar antecipadamente"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Publique uma breve linha de início e fim do dia. Na sexta-feira, verifique todos os compromissos e renegocie com antecedência.",
+    "Uche rastreou 14 compromissos e descobriu que um item atrasado foi prometido em uma ligação e nunca foi capturado. Agora ela anota depois de cada ligação."
+   ],
+   "panel": {
+    "kicker": "Seu próprio sistema",
+    "heading": "Capture, planeje, faça, revise",
+    "items": [
+     "Capture tudo que eu quiser dentro de uma hora",
+     "Segunda-feira: escolha três resultados principais",
+     "Bloqueie o tempo e proteja o trabalho de foco",
+     "Publicar linhas de início e fim do dia",
+     "Sexta-feira: revisar e renegociar antecipadamente"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Para lembrar. Diagnosticar com evidências e pontuar oito áreas. Conserte vitórias rápidas primeiro.",
+    "Preço a partir de uma diária e dias estimados, com contingência declarada e condições de pagamento claras.",
+    "Lide com solicitações extras por escrito. E mantenha suas próprias promessas visíveis, renegociando antecipadamente em vez de falhar silenciosamente."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Lembre-se",
+    "items": [
+     "Peça evidências, marque oito áreas",
+     "Vitórias rápidas primeiro; indique seus limites",
+     "Preço: diária x dias, mais contingência",
+     "Solicitações de alteração por escrito antes de trabalho extra",
+     "Capture cada promessa; renegociar cedo"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Agora pratique. Faça uma mini auditoria, escreva uma proposta de uma página com sua aritmética, teste seu sistema de prestação de contas por duas semanas e escreva seu plano de 90 dias.",
+    "Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Pratique tarefas",
+    "heading": "Suas tarefas práticas",
+    "items": [
+     "Faça uma mini auditoria",
+     "Escreva uma proposta de uma página",
+     "Teste seu sistema por duas semanas",
+     "Escreva seu plano de 90 dias"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

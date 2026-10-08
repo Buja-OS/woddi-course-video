@@ -1,0 +1,509 @@
+{
+ "course": "cybersecurity-fundamentals",
+ "module": "m3",
+ "title": "Gudu, farashi kuma tabbatar da ƙaramin binciken tsaro",
+ "course_title": "Tushen Tsaron Intanet",
+ "shots": [
+  {
+   "demo": "security_lock",
+   "say": [
+    "Gudu, farashi kuma tabbatar da ƙaramin binciken tsaro.",
+    "Wannan shi ne bidiyon don module 3 na Tushen Tsaro na Cyber."
+   ]
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Lokacin da kuka duba tsaron wani, takarda ta farko ba rahoton fasaha ba ne. An rubuta izini."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Juya ƙwarewar ku zuwa aikin amintaccen aiki",
+    "items": [
+     "Izinin rubutu yana zuwa na farko",
+     "Nemo ainihin gibin ta hanyar tambaya da dubawa",
+     "Farashi ta lokaci, tare da bayyanannen iyaka",
+     "Nuna sakamako a lambobi"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Sannan zaku sami ainihin gibin, galibi ta hanyar yin tambayoyi da duba saitunan tare da mai shi."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Juya ƙwarewar ku zuwa aikin amintaccen aiki",
+    "items": [
+     "Izinin rubutu yana zuwa na farko",
+     "Nemo ainihin gibin ta hanyar tambaya da dubawa",
+     "Farashi ta lokaci, tare da bayyanannen iyaka",
+     "Nuna sakamako a lambobi"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Kuna farashin aikin a fili, kuma kuna tabbatar da abin da ya canza, a lambobi. Wannan shine yadda amana, da aikin biya, ke girma."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Juya ƙwarewar ku zuwa aikin amintaccen aiki",
+    "items": [
+     "Izinin rubutu yana zuwa na farko",
+     "Nemo ainihin gibin ta hanyar tambaya da dubawa",
+     "Farashi ta lokaci, tare da bayyanannen iyaka",
+     "Nuna sakamako a lambobi"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Mataki na ɗaya izini ne da aka sanya hannu daga wani mai iko. Ya faɗi abin da za ku iya kallo, waɗanne tsarin, wane kwanan wata, da abin da ba dole ba ne ku yi.",
+    "Dokar Laifukan Intanet ta Najeriya 2015 ta sanya shiga ba tare da izini ba. Don haka kar a taɓa shiga, bincika ko aika gwajin phishing ba tare da bayyanannen izini a rubuce ba don ainihin hakan."
+   ],
+   "panel": {
+    "kicker": "Kasance doka",
+    "heading": "Daga kiran farko zuwa binciken",
+    "items": [
+     "Sa hannun izini da iyaka",
+     "Hira da shugaba",
+     "Hira da ma'aikatan da admins",
+     "Duba saituna tare da mai shi",
+     "Saka maki da ba da fifiko ga binciken"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false,
+    "rule": "Babu izini a rubuce, babu dubawa. Har abada.",
+    "showRule": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Bayan haka, yi hira da jagora, sannan ma'aikata da admins. Tambayi wanda ke kula da biyan kuɗi, su wanene admins, waɗanne asusu suna da tabbacin matakai biyu, da abin da ya faru a baya."
+   ],
+   "panel": {
+    "kicker": "Kasance doka",
+    "heading": "Daga kiran farko zuwa binciken",
+    "items": [
+     "Sa hannun izini da iyaka",
+     "Hira da shugaba",
+     "Hira da ma'aikatan da admins",
+     "Duba saituna tare da mai shi",
+     "Saka maki da ba da fifiko ga binciken"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Babu izini a rubuce, babu dubawa. Har abada.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_security",
+   "say": [
+    "Sannan duba saitunan tare. Mai shi yana dannawa, kuna kallo kuma kuna yin bayanin kula. Kalmomin sirri suna zama tare da mai su."
+   ],
+   "panel": {
+    "kicker": "Kasance doka",
+    "heading": "Daga kiran farko zuwa binciken",
+    "items": [
+     "Sa hannun izini da iyaka",
+     "Hira da shugaba",
+     "Hira da ma'aikatan da admins",
+     "Duba saituna tare da mai shi",
+     "Saka maki da ba da fifiko ga binciken"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Babu izini a rubuce, babu dubawa. Har abada.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_security",
+   "say": [
+    "A ƙarshe, ƙididdige kowane bincike tare da yiwuwar tasirin lokutan lokaci, kamar yadda kuka koya a module 1."
+   ],
+   "panel": {
+    "kicker": "Kasance doka",
+    "heading": "Daga kiran farko zuwa binciken",
+    "items": [
+     "Sa hannun izini da iyaka",
+     "Hira da shugaba",
+     "Hira da ma'aikatan da admins",
+     "Duba saituna tare da mai shi",
+     "Saka maki da ba da fifiko ga binciken"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Babu izini a rubuce, babu dubawa. Har abada.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Misali, Zainab ta yi bitar wata makarantar firamare mai zaman kanta a Ibadan mai asusun imel na ma’aikata 14. Tare da jami'in gudanarwa a gefenta, tana ƙirga asusu 11 tare da Tabbatar da Mataki na 2. Wato kusan kashi 79%."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Abin da zainab ta samu a makaranta",
+    "items": [
+     "11 cikin 14 asusu tare da mataki 2: kusan 79%",
+     "4 super admins, daya bar karshe term",
+     "Rubutun ɗalibi buɗe wa kowa mai hanyar haɗi",
+     "Canje-canje na banki an karɓa ba tare da sake kira ba"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Akwai super admin guda 4 harda malamin da ya bar last term. Makasudin shine 2."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Abin da zainab ta samu a makaranta",
+    "items": [
+     "11 cikin 14 asusu tare da mataki 2: kusan 79%",
+     "4 super admins, daya bar karshe term",
+     "Rubutun ɗalibi buɗe wa kowa mai hanyar haɗi",
+     "Canje-canje na banki an karɓa ba tare da sake kira ba"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Ana raba maƙunsar bayanan ɗaliban ga duk wanda ke da hanyar haɗin gwiwa. Wannan shine maki 4 sau 5, wanda shine 20, babban bincikenta."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Abin da zainab ta samu a makaranta",
+    "items": [
+     "11 cikin 14 asusu tare da mataki 2: kusan 79%",
+     "4 super admins, daya bar karshe term",
+     "Rubutun ɗalibi buɗe wa kowa mai hanyar haɗi",
+     "Canje-canje na banki an karɓa ba tare da sake kira ba"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Kuma bursar yana karɓar canjin banki ta imel ba tare da sake kira ba. Wannan ya kai maki 15.",
+    "Kowane binciken an rubuta shi azaman gaskiya, tare da dalilin da yasa yake da mahimmanci, makinsa, da gyara tare da mai shi da kwanan wata. Ba harshen tsoro, babu zargi."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Abin da zainab ta samu a makaranta",
+    "items": [
+     "11 cikin 14 asusu tare da mataki 2: kusan 79%",
+     "4 super admins, daya bar karshe term",
+     "Rubutun ɗalibi buɗe wa kowa mai hanyar haɗi",
+     "Canje-canje na banki an karɓa ba tare da sake kira ba"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Yanzu farashin. Zainab ta raba aikin zuwa matakai: gano awa 6, taurara 10, horo 4, da rahoto 3. Wato awanni 23 kenan."
+   ],
+   "card": {
+    "title": "Zainab ce ta kashe kudi",
+    "rows": [],
+    "note": "Matsakaicin misali ne kawai."
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "A kwatankwacin Naira 8,000 a sa’a guda, kudin tushe Naira 184,000 ne."
+   ],
+   "card": {
+    "title": "Zainab ce ta kashe kudi",
+    "rows": [
+     [
+      "Kudin tushe (awanni 23)",
+      "184,000"
+     ]
+    ],
+    "note": "Matsakaicin misali ne kawai."
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Ta kara kashi 15% na wadanda ba a san su ba, wato naira 27,600."
+   ],
+   "card": {
+    "title": "Zainab ce ta kashe kudi",
+    "rows": [
+     [
+      "Kudin tushe (awanni 23)",
+      "184,000"
+     ],
+     [
+      "Matsala (15%)",
+      "27,600"
+     ]
+    ],
+    "note": "Matsakaicin misali ne kawai."
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Naira 211,600 kenan, ta kai 212,000. Ta nemi kashi 50% akan sanya hannu da kashi 50% lokacin da take ba da rahoton.",
+    "Kayayyakin da makarantar ta siya, kamar ma’adanin ajiya, an jera su daban, ba a ɓoye a cikin kuɗinta ba."
+   ],
+   "card": {
+    "title": "Zainab ce ta kashe kudi",
+    "rows": [
+     [
+      "Kudin tushe (awanni 23)",
+      "184,000"
+     ],
+     [
+      "Matsala (15%)",
+      "27,600"
+     ]
+    ],
+    "note": "Matsakaicin misali ne kawai."
+   }
+  },
+  {
+   "demo": "laptop_security",
+   "say": [
+    "Rubuta lissafin biyu. A cikin iyaka: asusun ma'aikata 14, saitunan shafin Facebook, madadin tare da gwajin dawo da guda ɗaya, da rahoton rahoto da shirin abin da ya faru."
+   ],
+   "panel": {
+    "kicker": "Share iyaka",
+    "heading": "Abin da binciken ya kunsa",
+    "mode": "compare",
+    "left_h": "A cikin iyaka",
+    "left": [
+     "14 ma'aikata asusun Google Workspace",
+     "Saitunan admin na shafin Facebook",
+     "Saitin Ajiyayyen da gwajin mayarwa ɗaya",
+     "Rahoton da shirin aukuwa"
+    ],
+    "right_h": "Ya wuce iyaka",
+    "right": [
+     "Gwajin tashar banki",
+     "Lambar gidan yanar gizo ko gwajin shiga",
+     "Ci gaba da saka idanu bayan mika mulki",
+     "Garantin cewa babu wani hari da zai yi nasara"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Ban da iyaka: tashar banki, gwajin gidan yanar gizo, da saka idanu bayan mikawa. Kuma babu wani ƙwararren mai gaskiya da zai yi alkawari cewa babu wani hari da zai taɓa yin nasara. Yi alƙawarin ayyukan da za a iya bincika a maimakon haka.",
+    "Idan abokin ciniki ya nemi ƙarin aiki a tsakiyar hanya, rubuta shi, faɗi shi, kuma sami amincewa a rubuce tukuna."
+   ],
+   "panel": {
+    "kicker": "Share iyaka",
+    "heading": "Abin da binciken ya kunsa",
+    "mode": "compare",
+    "left_h": "A cikin iyaka",
+    "left": [
+     "14 ma'aikata asusun Google Workspace",
+     "Saitunan admin na shafin Facebook",
+     "Saitin Ajiyayyen da gwajin mayarwa ɗaya",
+     "Rahoton da shirin aukuwa"
+    ],
+    "right_h": "Ya wuce iyaka",
+    "right": [
+     "Gwajin tashar banki",
+     "Lambar gidan yanar gizo ko gwajin shiga",
+     "Ci gaba da saka idanu bayan mika mulki",
+     "Garantin cewa babu wani hari da zai yi nasara"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Misali, Ngozi ce ke jagorantar tsaro ga wata kungiya mai zaman kanta mai mutane 20 a Fatakwal. Kafin horo, 9 na ma'aikatan 20 suna da Tabbacin Mataki na 2. Wato kashi 45%."
+   ],
+   "panel": {
+    "kicker": "Auna canjin",
+    "heading": "Ngozi ta tabbatar da aikin horar da ta",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Before",
+      "d": "9 daga cikin ma'aikatan 20 suna da Tabbacin Mataki na 2: 45%. Ma'aikatan sun ba da rahoton imel 1 da ake tuhuma a wannan watan."
+     },
+     {
+      "t": "In the session",
+      "d": "Koyawa halaye uku kawai. Ma'aikata suna kunna 2-Mataki tare; 8 ƙarin rajista a cikin ɗakin."
+     },
+     {
+      "t": "After",
+      "d": "Bayan mako guda: 20 na 20, 100%. Wata mai zuwa ma'aikatan sun ba da rahoton saƙon imel guda 7 da ake tuhuma."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "A cikin zamanta ta koyar da halaye guda uku kawai: duba ainihin mai aikawa, sake kiran lambobin da ke cikin fayil, sannan ta ba da rahoton wani abu mara kyau lokaci guda. Kowa yana kunna mataki 2 tare, kuma ba da rahoto ba shi da laifi."
+   ],
+   "panel": {
+    "kicker": "Auna canjin",
+    "heading": "Ngozi ta tabbatar da aikin horar da ta",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Before",
+      "d": "9 daga cikin ma'aikatan 20 suna da Tabbacin Mataki na 2: 45%. Ma'aikatan sun ba da rahoton imel 1 da ake tuhuma a wannan watan."
+     },
+     {
+      "t": "In the session",
+      "d": "Koyawa halaye uku kawai. Ma'aikata suna kunna 2-Mataki tare; 8 ƙarin rajista a cikin ɗakin."
+     },
+     {
+      "t": "After",
+      "d": "Bayan mako guda: 20 na 20, 100%. Wata mai zuwa ma'aikatan sun ba da rahoton saƙon imel guda 7 da ake tuhuma."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "flipchart",
+   "say": [
+    "Bayan mako guda, duk 20 sun yi rajista. Wata mai zuwa, rahotanni sun tashi daga 1 zuwa 7. Wannan albishir ne: mutane sun lura kuma suna magana."
+   ],
+   "panel": {
+    "kicker": "Auna canjin",
+    "heading": "Ngozi ta tabbatar da aikin horar da ta",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Before",
+      "d": "9 daga cikin ma'aikatan 20 suna da Tabbacin Mataki na 2: 45%. Ma'aikatan sun ba da rahoton imel 1 da ake tuhuma a wannan watan."
+     },
+     {
+      "t": "In the session",
+      "d": "Koyawa halaye uku kawai. Ma'aikata suna kunna 2-Mataki tare; 8 ƙarin rajista a cikin ɗakin."
+     },
+     {
+      "t": "After",
+      "d": "Bayan mako guda: 20 na 20, 100%. Wata mai zuwa ma'aikatan sun ba da rahoton saƙon imel guda 7 da ake tuhuma."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Juya aikinku zuwa nazarin yanayi: halin da ake ciki, abin da kuka yi, sakamakon lambobi, takaddun da ba a san su ba, da ɗan gajeren tunani tare da izini.",
+    "Kada a taɓa nuna kalmomin shiga, lambobin dawowa, sunayen ma'aikata ko bayanan sirri. Amincewa shine ainihin samfurin aikin tsaro."
+   ],
+   "panel": {
+    "kicker": "Fayil ɗin ku",
+    "heading": "Wani bincike da ba a bayyana sunansa ya nuna",
+    "items": [
+     "Halin da babban damuwa",
+     "Abin da kuka yi",
+     "Sakamako a lambobi",
+     "Takardun da ba a san sunansu ba",
+     "Wani ɗan gajeren tunani, tare da izini"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Don tunawa. Samun izini a rubuce kafin kowane bita. Rubuta sakamakon a matsayin gaskiya tare da maki, gyara, mai shi da kwanan wata. Kuɗin ku shine ƙimar lokutan sa'o'i, da ƙayyadaddun yanayin da aka bayyana. Rubuta jeri guda biyu. Kuma auna kafin da bayan, don haka za ku iya nuna abin da ya canza."
+   ],
+   "panel": {
+    "kicker": "Mabuɗin mahimmanci",
+    "heading": "Ka tuna",
+    "items": [
+     "Izinin da aka rubuta kafin kowane bita",
+     "Nemo: gaskiya, maki, gyara, mai shi, kwanan wata",
+     "Kudi = awoyi x ƙimar da la'akari",
+     "Rubuta a cikin iyaka kuma baya iyawa",
+     "Auna kafin da kuma bayan"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Ayyukanku: gudanar da ƙaramin bincike tare da sa hannu kan izini, tsara tsarin binciken ku tare da kuɗin da aka nuna, da kuma gabatar da taron wayar da kan jama'a tare da gaba da bayan lambobi.",
+    "Ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi aiki",
+    "heading": "Ayyukan aikin ku",
+    "items": [
+     "Gudanar da ƙaramin ganowa tare da sa hannun izini",
+     "Zana tsarin binciken ku",
+     "Bayarwa da auna zaman wayar da kan jama'a"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

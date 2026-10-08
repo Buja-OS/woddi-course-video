@@ -1,0 +1,569 @@
+{
+ "course": "power-bi-tableau",
+ "module": "m1",
+ "title": "Comece com a pergunta, molde os dados, confie nos números",
+ "course_title": "Power BI e Tableau: painéis de negócios interativos",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Comece com a pergunta, molde os dados e confie nos números.",
+    "Este é o vídeo do módulo um do Power BI e Tableau: como as ferramentas de BI pensam sobre os dados."
+   ]
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Um painel é uma tela única que responde rapidamente a algumas questões importantes de negócios, unindo gráficos, números de títulos e filtros."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "O que um painel realmente faz",
+    "items": [
+     "Uma tela, algumas perguntas importantes",
+     "Clique para explorar mais a resposta",
+     "Power BI e Tableau compartilham a maior parte das ideias",
+     "Bons modelos e medidas tornam-no confiável"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "O espectador pode clicar para explorar e ver o que está acontecendo, onde e por que, em menos de um minuto."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "O que um painel realmente faz",
+    "items": [
+     "Uma tela, algumas perguntas importantes",
+     "Clique para explorar mais a resposta",
+     "Power BI e Tableau compartilham a maior parte das ideias",
+     "Bons modelos e medidas tornam-no confiável"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Power BI e Tableau são as duas ferramentas mais citadas em anúncios de emprego de analista de dados. Aprenda bem um e cerca de dois terços do pensamento serão transferidos."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "O que um painel realmente faz",
+    "items": [
+     "Uma tela, algumas perguntas importantes",
+     "Clique para explorar mais a resposta",
+     "Power BI e Tableau compartilham a maior parte das ideias",
+     "Bons modelos e medidas tornam-no confiável"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Este módulo ensina o que separa um painel profissional de uma planilha bonita: um modelo de dados sólido e medidas corretas."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "O que um painel realmente faz",
+    "items": [
+     "Uma tela, algumas perguntas importantes",
+     "Clique para explorar mais a resposta",
+     "Power BI e Tableau compartilham a maior parte das ideias",
+     "Bons modelos e medidas tornam-no confiável"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Primeiro, decida que tipo de painel você está construindo, porque ele decide quase todo o resto.",
+    "Um painel estratégico é para diretores. Alguns números de manchete, geralmente verificados mensalmente."
+   ],
+   "panel": {
+    "kicker": "Conheça seu público",
+    "heading": "Os três tipos de painel",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Strategic",
+      "d": "Para diretores e conselhos. Alguns números principais, como receita e margem, geralmente verificados mensalmente."
+     },
+     {
+      "t": "Operational",
+      "d": "Para supervisores que realizam trabalho diário. Pedidos de hoje, estoque baixo, entregas atrasadas. Verificado diariamente ou de hora em hora."
+     },
+     {
+      "t": "Analytical",
+      "d": "Para analistas perguntando por quê. Mais filtros, detalhamentos e tabelas de detalhes para investigar um problema."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Um painel operacional é para supervisores que executam o trabalho diário, como pedidos de hoje e entregas atrasadas. É verificado diariamente ou mesmo de hora em hora."
+   ],
+   "panel": {
+    "kicker": "Conheça seu público",
+    "heading": "Os três tipos de painel",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Strategic",
+      "d": "Para diretores e conselhos. Alguns números principais, como receita e margem, geralmente verificados mensalmente."
+     },
+     {
+      "t": "Operational",
+      "d": "Para supervisores que realizam trabalho diário. Pedidos de hoje, estoque baixo, entregas atrasadas. Verificado diariamente ou de hora em hora."
+     },
+     {
+      "t": "Analytical",
+      "d": "Para analistas perguntando por quê. Mais filtros, detalhamentos e tabelas de detalhes para investigar um problema."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Um painel analítico é para pessoas que perguntam por quê, por isso tem mais filtros, detalhamentos e detalhes."
+   ],
+   "panel": {
+    "kicker": "Conheça seu público",
+    "heading": "Os três tipos de painel",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Strategic",
+      "d": "Para diretores e conselhos. Alguns números principais, como receita e margem, geralmente verificados mensalmente."
+     },
+     {
+      "t": "Operational",
+      "d": "Para supervisores que realizam trabalho diário. Pedidos de hoje, estoque baixo, entregas atrasadas. Verificado diariamente ou de hora em hora."
+     },
+     {
+      "t": "Analytical",
+      "d": "Para analistas perguntando por quê. Mais filtros, detalhamentos e tabelas de detalhes para investigar um problema."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Os profissionais começam com um breve resumo escrito, não com a ferramenta.",
+    "Por exemplo, Ngozi passava cerca de dois dias por mês num relatório de 20 páginas que o seu diretor-gerente raramente lia além da página 3. Então ela perguntou-lhe o que ele realmente verificava."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Escreva o briefing antes de construir",
+    "items": [
+     "Pergunte ao usuário o que ele realmente verifica",
+     "Transforme isso em três perguntas do painel",
+     "Observe o público e a frequência com que ele visualiza",
+     "Liste os dados que cada pergunta precisa"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Ela transformou a resposta dele em três perguntas. Estamos no alvo? Qual ramo está mais atrás? Quais categorias caíram em comparação com o ano passado?"
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Escreva o briefing antes de construir",
+    "items": [
+     "Pergunte ao usuário o que ele realmente verifica",
+     "Transforme isso em três perguntas do painel",
+     "Observe o público e a frequência com que ele visualiza",
+     "Liste os dados que cada pergunta precisa"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Ela notou o público: um diretor, assistindo mensalmente, principalmente em seu telefone. Isso o torna um painel estratégico com poucos filtros."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Escreva o briefing antes de construir",
+    "items": [
+     "Pergunte ao usuário o que ele realmente verifica",
+     "Transforme isso em três perguntas do painel",
+     "Observe o público e a frequência com que ele visualiza",
+     "Liste os dados que cada pergunta precisa"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Em seguida, ela listou os dados necessários, incluindo pelo menos 13 meses de histórico, para que exista o mesmo mês do ano passado.",
+    "Aqui está a regra. Cada visual adicionado deve responder a uma de suas perguntas. Se não responder nada, não vai para a página."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Escreva o briefing antes de construir",
+    "items": [
+     "Pergunte ao usuário o que ele realmente verifica",
+     "Transforme isso em três perguntas do painel",
+     "Observe o público e a frequência com que ele visualiza",
+     "Liste os dados que cada pergunta precisa"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Cada visual deve responder a uma pergunta. Se não responder nada, deixe-o de fora.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "A maioria dos dados de negócios chega como uma planilha larga, que fica enorme e lenta em uma ferramenta de BI. Então você o divide em um esquema em estrela.",
+    "Uma tabela de fatos registra eventos que você conta ou soma, como cada linha de venda."
+   ],
+   "panel": {
+    "kicker": "O esquema em estrela",
+    "heading": "Tabelas de fatos e tabelas de dimensões",
+    "mode": "compare",
+    "left_h": "Tabela de fatos",
+    "left": [
+     "Eventos que você conta ou soma",
+     "Longo: muitas linhas",
+     "Principalmente números e códigos de identificação",
+     "Exemplo: cada linha de venda"
+    ],
+    "right_h": "Tabela de dimensões",
+    "right": [
+     "Descreve as coisas envolvidas",
+     "Curto: poucas linhas",
+     "Texto que você filtra e agrupa",
+     "Exemplo: filiais, produtos, datas"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Uma tabela de dimensões descreve os itens envolvidos: filiais, produtos, clientes e datas.",
+    "No modelo de Ngozi, o nome da agência costumava ser armazenado 18 mil vezes. Agora ele é armazenado 4 vezes."
+   ],
+   "panel": {
+    "kicker": "O esquema em estrela",
+    "heading": "Tabelas de fatos e tabelas de dimensões",
+    "mode": "compare",
+    "left_h": "Tabela de fatos",
+    "left": [
+     "Eventos que você conta ou soma",
+     "Longo: muitas linhas",
+     "Principalmente números e códigos de identificação",
+     "Exemplo: cada linha de venda"
+    ],
+    "right_h": "Tabela de dimensões",
+    "right": [
+     "Descreve as coisas envolvidas",
+     "Curto: poucas linhas",
+     "Texto que você filtra e agrupa",
+     "Exemplo: filiais, produtos, datas"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Anote o grão: o que significa uma linha da tabela de fatos, como um produto em uma fatura. A mistura de grãos causa contagem dupla."
+   ],
+   "panel": {
+    "kicker": "Regras do modelo",
+    "heading": "Cinco regras para um modelo sólido",
+    "items": [
+     "Anote a granularidade da tabela de fatos",
+     "Mantenha cada chave de dimensão única",
+     "Filtros de direção única um para muitos",
+     "Construa uma tabela de datas completa",
+     "Mantenha os alvos em sua própria pequena mesa"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Mantenha cada chave de dimensão única. Se o código do produto P-104 aparecer duas vezes com duas grafias, suas vendas poderão ser contabilizadas duas vezes."
+   ],
+   "panel": {
+    "kicker": "Regras do modelo",
+    "heading": "Cinco regras para um modelo sólido",
+    "items": [
+     "Anote a granularidade da tabela de fatos",
+     "Mantenha cada chave de dimensão única",
+     "Filtros de direção única um para muitos",
+     "Construa uma tabela de datas completa",
+     "Mantenha os alvos em sua própria pequena mesa"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Vincule cada dimensão à tabela de fatos com um relacionamento um-para-muitos e mantenha a direção do filtro única, para que os filtros fluam das dimensões para os fatos."
+   ],
+   "panel": {
+    "kicker": "Regras do modelo",
+    "heading": "Cinco regras para um modelo sólido",
+    "items": [
+     "Anote a granularidade da tabela de fatos",
+     "Mantenha cada chave de dimensão única",
+     "Filtros de direção única um para muitos",
+     "Construa uma tabela de datas completa",
+     "Mantenha os alvos em sua própria pequena mesa"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Comparações como o acumulado do ano precisam de uma tabela de datas com todas as datas e sem lacunas."
+   ],
+   "panel": {
+    "kicker": "Regras do modelo",
+    "heading": "Cinco regras para um modelo sólido",
+    "items": [
+     "Anote a granularidade da tabela de fatos",
+     "Mantenha cada chave de dimensão única",
+     "Filtros de direção única um para muitos",
+     "Construa uma tabela de datas completa",
+     "Mantenha os alvos em sua própria pequena mesa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "E mantenha as metas em sua própria tabela. Colar a meta mensal em cada linha de vendas multiplica-a pelo número de faturas."
+   ],
+   "panel": {
+    "kicker": "Regras do modelo",
+    "heading": "Cinco regras para um modelo sólido",
+    "items": [
+     "Anote a granularidade da tabela de fatos",
+     "Mantenha cada chave de dimensão única",
+     "Filtros de direção única um para muitos",
+     "Construa uma tabela de datas completa",
+     "Mantenha os alvos em sua própria pequena mesa"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Uma coluna calculada é calculada uma vez, linha por linha, quando os dados são carregados. Use-o para agrupar ou filtrar, como uma faixa de preço por produto."
+   ],
+   "panel": {
+    "kicker": "Cálculos",
+    "heading": "Coluna ou medida calculada?",
+    "mode": "compare",
+    "left_h": "Coluna calculada",
+    "left": [
+     "Calculado uma vez por linha",
+     "Armazenado na mesa",
+     "Use para agrupar ou filtrar"
+    ],
+    "right_h": "Medir",
+    "right": [
+     "Calculado quando um visual pergunta",
+     "Responde a todos os filtros",
+     "Use para totais e proporções"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Uma medida é calculada quando um visual a solicita, para que responda a todos os filtros. Use medidas para totais e índices, como margem de lucro."
+   ],
+   "panel": {
+    "kicker": "Cálculos",
+    "heading": "Coluna ou medida calculada?",
+    "mode": "compare",
+    "left_h": "Coluna calculada",
+    "left": [
+     "Calculado uma vez por linha",
+     "Armazenado na mesa",
+     "Use para agrupar ou filtrar"
+    ],
+    "right_h": "Medir",
+    "right": [
+     "Calculado quando um visual pergunta",
+     "Responde a todos os filtros",
+     "Use para totais e proporções"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Aqui está o erro de cálculo mais comum. O diretor de Ngozi pede a margem de lucro combinada das duas filiais."
+   ],
+   "card": {
+    "title": "O erro da média dos índices",
+    "rows": [],
+    "note": "Certo: 900.000 ÷ 5.000.000 = 18%, não 22,5%"
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Lagos vendeu 4.000.000 nairas com lucro de 600.000 nairas. Isso é uma margem de 15%."
+   ],
+   "card": {
+    "title": "O erro da média dos índices",
+    "rows": [
+     [
+      "Vendas em Lagos",
+      "4,000,000"
+     ],
+     [
+      "Lucro de Lagos",
+      "600,000"
+     ]
+    ],
+    "note": "Certo: 900.000 ÷ 5.000.000 = 18%, não 22,5%"
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Kano vendeu 1.000.000 nairas com lucro de 300.000 nairas. Isso é 30%.",
+    "O método errado calcula a média das duas margens e obtém 22,5%.",
+    "O método certo adiciona primeiro e depois divide. 900.000 dividido por 5.000.000 é 18%.",
+    "Os rácios devem ser uma soma dividida por soma, nunca uma média dos rácios. Teste cada nova medida em uma tabela simples com uma calculadora antes de traçar um gráfico."
+   ],
+   "card": {
+    "title": "O erro da média dos índices",
+    "rows": [
+     [
+      "Vendas em Lagos",
+      "4,000,000"
+     ],
+     [
+      "Lucro de Lagos",
+      "600,000"
+     ],
+     [
+      "Vendas Kano",
+      "1,000,000"
+     ],
+     [
+      "Lucro de Kano",
+      "300,000"
+     ]
+    ],
+    "note": "Certo: 900.000 ÷ 5.000.000 = 18%, não 22,5%"
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Para lembrar. Escreva suas perguntas e o público primeiro. Os fatos contêm eventos, as dimensões contêm descrições.",
+    "Mantenha as chaves exclusivas e sua tabela de datas completa. Use medidas para qualquer coisa que deva responder a filtros e calcule proporções como soma dividida por soma."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Lembre-se",
+    "items": [
+     "Escreva perguntas e público-alvo antes de construir",
+     "Os fatos sustentam os acontecimentos; dimensões contêm descrições",
+     "Chaves exclusivas, direção única, tabela de data completa",
+     "Medidas para qualquer coisa que deva responder a filtros",
+     "Razões: soma dividida pela soma, nunca calculada a média"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Agora é a sua vez. Escreva um resumo de uma página, construa um esquema em estrela e cinco medidas que você verifica manualmente.",
+    "Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Tarefa prática",
+    "heading": "Suas tarefas práticas",
+    "items": [
+     "Escreva seu primeiro resumo do painel",
+     "Esboce e construa um esquema em estrela",
+     "Construa e verifique cinco medidas"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

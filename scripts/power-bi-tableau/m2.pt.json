@@ -1,0 +1,582 @@
+{
+ "course": "power-bi-tableau",
+ "module": "m2",
+ "title": "Limpe, organize e verifique cada número",
+ "course_title": "Power BI e Tableau: painéis de negócios interativos",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Limpe-o, organize-o e verifique cada número.",
+    "Este é o vídeo do módulo dois do Power BI e Tableau: construção, teste e entrega de dashboards."
+   ]
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Analistas experientes dizem que a maior parte de um projeto de painel é gasta na preparação de dados. As exportações chegam com linhas de título, grafias mistas, linhas em branco e números armazenados como texto."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "A maior parte do trabalho não são os gráficos",
+    "items": [
+     "As exportações reais chegam confusas",
+     "Limpe com etapas que se repetem todos os meses",
+     "Esboce um wireframe antes de construir",
+     "Um número errado perde toda a confiança"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Você aprenderá a limpar dados de uma forma que se repete automaticamente todos os meses."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "A maior parte do trabalho não são os gráficos",
+    "items": [
+     "As exportações reais chegam confusas",
+     "Limpe com etapas que se repetem todos os meses",
+     "Esboce um wireframe antes de construir",
+     "Um número errado perde toda a confiança"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Em seguida, você esboça o layout antes de tocar na ferramenta."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "A maior parte do trabalho não são os gráficos",
+    "items": [
+     "As exportações reais chegam confusas",
+     "Limpe com etapas que se repetem todos os meses",
+     "Esboce um wireframe antes de construir",
+     "Um número errado perde toda a confiança"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "E você verifica todos os números, porque um painel que mostra um número errado perde a confiança do visualizador em todos os outros números nele contidos."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "A maior parte do trabalho não são os gráficos",
+    "items": [
+     "As exportações reais chegam confusas",
+     "Limpe com etapas que se repetem todos os meses",
+     "Esboce um wireframe antes de construir",
+     "Um número errado perde toda a confiança"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "No Power BI, abra o editor do Power Query. Cada alteração é registrada em Etapas Aplicadas e executada novamente quando você clica em Atualizar. No Tableau, use a página Fonte de dados e o Interpretador de dados.",
+    "Primeiro, remova as linhas de título e as linhas em branco."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "A lista de verificação de limpeza padrão",
+    "items": [
+     "Remova o título e as linhas em branco",
+     "Promova cabeçalhos, defina tipos de dados",
+     "Aparar espaços, corrigir ortografia",
+     "Remover duplicatas verdadeiras",
+     "Colunas mensais não dinâmicas",
+     "Verifique a contagem de linhas e totais"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Use a primeira linha como cabeçalho e defina o tipo de dados de cada coluna, de forma que os valores sejam números, não texto."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "A lista de verificação de limpeza padrão",
+    "items": [
+     "Remova o título e as linhas em branco",
+     "Promova cabeçalhos, defina tipos de dados",
+     "Aparar espaços, corrigir ortografia",
+     "Remover duplicatas verdadeiras",
+     "Colunas mensais não dinâmicas",
+     "Verifique a contagem de linhas e totais"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Corte espaços e corrija a grafia, para que Abuja, ABUJA e Abj se tornem um valor."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "A lista de verificação de limpeza padrão",
+    "items": [
+     "Remova o título e as linhas em branco",
+     "Promova cabeçalhos, defina tipos de dados",
+     "Aparar espaços, corrigir ortografia",
+     "Remover duplicatas verdadeiras",
+     "Colunas mensais não dinâmicas",
+     "Verifique a contagem de linhas e totais"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Remova duplicatas verdadeiras, como a mesma linha de fatura exportada duas vezes."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "A lista de verificação de limpeza padrão",
+    "items": [
+     "Remova o título e as linhas em branco",
+     "Promova cabeçalhos, defina tipos de dados",
+     "Aparar espaços, corrigir ortografia",
+     "Remover duplicatas verdadeiras",
+     "Colunas mensais não dinâmicas",
+     "Verifique a contagem de linhas e totais"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Transforme as colunas mensais em linhas para que os visualizadores possam filtrar por mês. Por exemplo, Tunde transformou 40 categorias por colunas de 12 meses em 480 linhas."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "A lista de verificação de limpeza padrão",
+    "items": [
+     "Remova o título e as linhas em branco",
+     "Promova cabeçalhos, defina tipos de dados",
+     "Aparar espaços, corrigir ortografia",
+     "Remover duplicatas verdadeiras",
+     "Colunas mensais não dinâmicas",
+     "Verifique a contagem de linhas e totais"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Então verifique. O editor do Tunde mostrou 480 linhas, e o total geral ainda correspondia à planilha original, então nada foi perdido.",
+    "A regra: nunca conserte o arquivo bruto manualmente. No próximo mês os mesmos problemas retornam. Mantenha os arquivos brutos intactos e deixe as etapas gravadas fazerem a limpeza."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "A lista de verificação de limpeza padrão",
+    "items": [
+     "Remova o título e as linhas em branco",
+     "Promova cabeçalhos, defina tipos de dados",
+     "Aparar espaços, corrigir ortografia",
+     "Remover duplicatas verdadeiras",
+     "Colunas mensais não dinâmicas",
+     "Verifique a contagem de linhas e totais"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "rule": "Nunca limpe o arquivo bruto manualmente. Deixe que as etapas gravadas façam isso.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Nomes de clientes, números de telefone e detalhes de contas estão sujeitos à Lei de Proteção de Dados da Nigéria de 2023.",
+    "Se uma coluna não for necessária para responder às perguntas do painel, remova-a na primeira etapa de limpeza."
+   ],
+   "panel": {
+    "kicker": "Segurança em primeiro lugar",
+    "heading": "Proteja os dados pessoais desde o início",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Remove unneeded columns",
+      "d": "Se uma coluna não responder a uma pergunta do painel, remova-a na primeira etapa de limpeza."
+     },
+     {
+      "t": "Not on Tableau Public",
+      "d": "Nunca carregue arquivos com dados pessoais no Tableau Public. Tudo o que é salvo lá é público."
+     },
+     {
+      "t": "Keep exports private",
+      "d": "Não envie exportações brutas por e-mail por meio de contas pessoais."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Nunca carregue arquivos contendo dados pessoais no Tableau Public, pois tudo o que é salvo lá pode ser visto por qualquer pessoa."
+   ],
+   "panel": {
+    "kicker": "Segurança em primeiro lugar",
+    "heading": "Proteja os dados pessoais desde o início",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Remove unneeded columns",
+      "d": "Se uma coluna não responder a uma pergunta do painel, remova-a na primeira etapa de limpeza."
+     },
+     {
+      "t": "Not on Tableau Public",
+      "d": "Nunca carregue arquivos com dados pessoais no Tableau Public. Tudo o que é salvo lá é público."
+     },
+     {
+      "t": "Keep exports private",
+      "d": "Não envie exportações brutas por e-mail por meio de contas pessoais."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "E não envie exportações brutas por e-mail por meio de contas pessoais."
+   ],
+   "panel": {
+    "kicker": "Segurança em primeiro lugar",
+    "heading": "Proteja os dados pessoais desde o início",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Remove unneeded columns",
+      "d": "Se uma coluna não responder a uma pergunta do painel, remova-a na primeira etapa de limpeza."
+     },
+     {
+      "t": "Not on Tableau Public",
+      "d": "Nunca carregue arquivos com dados pessoais no Tableau Public. Tudo o que é salvo lá é público."
+     },
+     {
+      "t": "Keep exports private",
+      "d": "Não envie exportações brutas por e-mail por meio de contas pessoais."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Um wireframe é um esboço que mostra onde cada cartão, gráfico e filtro ficará e a qual pergunta cada um responde. Demora dez minutos e economiza horas.",
+    "As pessoas escaneiam do canto superior esquerdo, então coloque os números dos títulos, chamados de cartões KPI, na parte superior."
+   ],
+   "panel": {
+    "kicker": "Disposição",
+    "heading": "Wireframe primeiro, depois construa",
+    "items": [
+     "Cartões de KPI de título na parte superior",
+     "Tendência principal ou comparação no meio",
+     "Tabelas de detalhes na parte inferior",
+     "Filtros em um local consistente",
+     "Apenas duas ou três cores"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Coloque a tendência principal ou gráfico de comparação no meio e as tabelas de detalhes na parte inferior."
+   ],
+   "panel": {
+    "kicker": "Disposição",
+    "heading": "Wireframe primeiro, depois construa",
+    "items": [
+     "Cartões de KPI de título na parte superior",
+     "Tendência principal ou comparação no meio",
+     "Tabelas de detalhes na parte inferior",
+     "Filtros em um local consistente",
+     "Apenas duas ou três cores"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Mantenha os filtros em um só lugar e use duas ou três cores: uma neutra, um destaque e vermelho ou âmbar apenas para avisos reais.",
+    "Em seguida, mostre a alguém por cinco segundos. Se eles não conseguirem lhe transmitir a mensagem principal, simplifique."
+   ],
+   "panel": {
+    "kicker": "Disposição",
+    "heading": "Wireframe primeiro, depois construa",
+    "items": [
+     "Cartões de KPI de título na parte superior",
+     "Tendência principal ou comparação no meio",
+     "Tabelas de detalhes na parte inferior",
+     "Filtros em um local consistente",
+     "Apenas duas ou três cores"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Para comparar filiais, use um gráfico de barras horizontais classificado. Para uma tendência ao longo de meses, um gráfico de linhas. Para real em relação ao alvo, uma barra com uma linha de alvo. Para valores exatos, uma tabela."
+   ],
+   "panel": {
+    "kicker": "Escolha do gráfico",
+    "heading": "Combine o gráfico com a pergunta",
+    "mode": "compare",
+    "left_h": "Boa escolha",
+    "left": [
+     "Comparar: barra horizontal classificada",
+     "Tendência: gráfico de linhas, meses em ordem",
+     "Alvo: barra com linha alvo",
+     "Valores exatos: tabela ou matriz"
+    ],
+    "right_h": "Evite",
+    "right": [
+     "Barras 3D",
+     "Tortas com muitas fatias minúsculas",
+     "Medidores mostrando um número",
+     "Mapas usados apenas para decoração"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Evite barras 3D, gráficos de pizza com muitas fatias minúsculas, medidores que ocupam espaço para mostrar um número e mapas usados apenas para decoração."
+   ],
+   "panel": {
+    "kicker": "Escolha do gráfico",
+    "heading": "Combine o gráfico com a pergunta",
+    "mode": "compare",
+    "left_h": "Boa escolha",
+    "left": [
+     "Comparar: barra horizontal classificada",
+     "Tendência: gráfico de linhas, meses em ordem",
+     "Alvo: barra com linha alvo",
+     "Valores exatos: tabela ou matriz"
+    ],
+    "right_h": "Evite",
+    "right": [
+     "Barras 3D",
+     "Tortas com muitas fatias minúsculas",
+     "Medidores mostrando um número",
+     "Mapas usados apenas para decoração"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Reconciliação significa comparar seus totais com um valor confiável, como o sistema contábil. Verifique o total geral, uma filial e um mês."
+   ],
+   "card": {
+    "title": "Encontrando uma diferença de 450.000 nairas",
+    "rows": [],
+    "note": null
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "O painel de Ngozi mostra 48.350.000 nairas para junho. Finanças mostra 47.900.000. O painel é 450.000 naira muito alto.",
+    "Ela filtra ramo por ramo. Apenas Port Harcourt está desativado."
+   ],
+   "card": {
+    "title": "Encontrando uma diferença de 450.000 nairas",
+    "rows": [
+     [
+      "Total do painel, junho",
+      "48,350,000"
+     ],
+     [
+      "Livro razão financeiro, junho",
+      "47,900,000"
+     ],
+     [
+      "Diferença, tudo em Port Harcourt",
+      "450,000"
+     ]
+    ],
+    "note": null
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Classificando suas faturas, ela encontra três faturas, cada uma aparecendo duas vezes, cada uma valendo 150.000 nairas. Três vezes 150.000 são exatamente 450.000. A filial havia exportado duas vezes."
+   ],
+   "card": {
+    "title": "Encontrando uma diferença de 450.000 nairas",
+    "rows": [
+     [
+      "Total do painel, junho",
+      "48,350,000"
+     ],
+     [
+      "Livro razão financeiro, junho",
+      "47,900,000"
+     ],
+     [
+      "Diferença, tudo em Port Harcourt",
+      "450,000"
+     ],
+     [
+      "Cada fatura duplicada (3)",
+      "150,000"
+     ]
+    ],
+    "note": null
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Ela adiciona uma etapa Remover Duplicados, atualiza e o total passa a 47.900.000 naira. Agora corresponde às finanças.",
+    "Cada diferença deve ser explicada, não ignorada."
+   ],
+   "card": {
+    "title": "Encontrando uma diferença de 450.000 nairas",
+    "rows": [
+     [
+      "Total do painel, junho",
+      "48,350,000"
+     ],
+     [
+      "Livro razão financeiro, junho",
+      "47,900,000"
+     ],
+     [
+      "Diferença, tudo em Port Harcourt",
+      "450,000"
+     ],
+     [
+      "Cada fatura duplicada (3)",
+      "150,000"
+     ]
+    ],
+    "note": null
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Execute essas verificações honestas de gráficos. Um eixo de barra que começa em 40 milhões de nairas em vez de zero pode fazer uma pequena diferença parecer enorme.",
+    "As barras começam em zero. Os gráficos comparados compartilham uma escala. Meses em ordem. Unidades em cada eixo. E se âmbar significa abaixo da meta, significa apenas isso."
+   ],
+   "panel": {
+    "kicker": "Antes de compartilhar",
+    "heading": "Verificações honestas de gráficos",
+    "items": [
+     "Os eixos das barras começam em zero",
+     "Mesma escala em gráficos comparados",
+     "Meses em ordem de calendário",
+     "Unidades mostradas em cada eixo",
+     "Cor significa uma coisa"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Para lembrar. Mantenha os arquivos brutos intactos e deixe as etapas gravadas limpas. Verifique contagens de linhas e totais. Remova dados pessoais desnecessários.",
+    "Coloque os títulos no topo e os detalhes abaixo. E reconcilie seus totais, explicando cada diferença."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Lembre-se",
+    "items": [
+     "Mantenha os arquivos brutos intactos; etapas gravadas limpas",
+     "Verifique contagens de linhas e totais após cada etapa",
+     "Remova primeiro os dados pessoais de que você não precisa",
+     "Título na parte superior, detalhe na parte inferior",
+     "Reconcilie e explique cada diferença"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Agora pratique. Limpe um arquivo bagunçado de ponta a ponta, crie um wireframe e crie uma página de painel e execute uma verificação de qualidade completa, registrada em um registro de controle de qualidade.",
+    "Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Tarefa prática",
+    "heading": "Suas tarefas práticas",
+    "items": [
+     "Limpe um arquivo bagunçado de ponta a ponta",
+     "Wireframe e construa uma página de painel",
+     "Execute uma passagem completa de controle de qualidade com um registro de controle de qualidade"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

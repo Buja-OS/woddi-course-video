@@ -1,0 +1,602 @@
+{
+ "course": "no-code-app-development",
+ "module": "m2",
+ "title": "Wulite, nwalee ma nyefee ngwa ahịa na ngwa ahịa",
+ "course_title": "Mmepe ngwa enweghị koodu",
+ "shots": [
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Wulite, nwalee ma nyefee ngwa ahịa na ngwa ahịa.",
+    "Nke a bụ vidiyo maka modul abụọ nke No-Code App Development."
+   ]
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Na modul a ị na-ewu otu ngwa ngwa. Dịka ọmụmaatụ, Esther na-azụ ụlọ ahịa agro-input na Makurdi, ya na ndị na-ere ahịa abụọ. Ọ chọrọ ịkwụsị ịgụ akpa ná mgbede ọ bụla."
+   ],
+   "panel": {
+    "kicker": "Ihe ị ga-ewu",
+    "heading": "Ngwa ụlọ ahịa agro-input Esther",
+    "items": [
+     "Soro ngwaahịa, nnyefe na ahịa",
+     "Dọ onye nwe ya aka na ntị mgbe ngwaahịa na-ada obere",
+     "Nwalere, chekwaa ma dekọba ya"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Ngwa ya ga-esochi ngwaahịa, nnyefe na ọrịre, dọọ ya aka ná ntị mgbe ngwaahịa dị ala, ma nwalee ma dekọọ ya ka onye ọzọ nwee ike ịgba ya. Ha niile na-arụ ọrụ na ọkwa prototyping efu nke AppSheet."
+   ],
+   "panel": {
+    "kicker": "Ihe ị ga-ewu",
+    "heading": "Ngwa ụlọ ahịa agro-input Esther",
+    "items": [
+     "Soro ngwaahịa, nnyefe na ahịa",
+     "Dọ onye nwe ya aka na ntị mgbe ngwaahịa na-ada obere",
+     "Nwalere, chekwaa ma dekọba ya"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Ọtụtụ nsogbu mbụ na-esite na mpempe akwụkwọ adịghị mma. AppSheet na-agụ taabụ ọ bụla dị ka tebụl, nwere otu ahịrị nkụnye eji isi mee n'elu."
+   ],
+   "panel": {
+    "kicker": "Nzọụkwụ 1",
+    "heading": "Kwadebe mpempe akwụkwọ ahụ nke ọma",
+    "items": [
+     "Otu tebụl kwa taabụ: Ngwaahịa, Ngwaahịa, Ahịa",
+     "Kpọmkwem otu ahịrị nkụnye eji isi mee n'ahịrị 1",
+     "Enweghị sel agbakọtara, ngụkọta ahịrị ma ọ bụ ahịrị oghere",
+     "Otu kọlụm ID mbụ na taabụ ọ bụla",
+     "Ahịrị nlele 3 ruo 5 nwere ezi uche"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Wepu mkpụrụ ndụ jikọtara ọnụ na ngụkọta ahịrị. Esther ehichapụrụ TOTAL ahịrị dị na ala nke taabụ ahịa ya, n'ihi na AppSheet ga-agụ ya ka ọrịre."
+   ],
+   "panel": {
+    "kicker": "Nzọụkwụ 1",
+    "heading": "Kwadebe mpempe akwụkwọ ahụ nke ọma",
+    "items": [
+     "Otu tebụl kwa taabụ: Ngwaahịa, Ngwaahịa, Ahịa",
+     "Kpọmkwem otu ahịrị nkụnye eji isi mee n'ahịrị 1",
+     "Enweghị sel agbakọtara, ngụkọta ahịrị ma ọ bụ ahịrị oghere",
+     "Otu kọlụm ID mbụ na taabụ ọ bụla",
+     "Ahịrị nlele 3 ruo 5 nwere ezi uche"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Tinye kọlụm ID mbụ, tinyekwa ahịrị nlele ole na ole ka AppSheet wee nwee ike ịkọ ụdị kọlụm."
+   ],
+   "panel": {
+    "kicker": "Nzọụkwụ 1",
+    "heading": "Kwadebe mpempe akwụkwọ ahụ nke ọma",
+    "items": [
+     "Otu tebụl kwa taabụ: Ngwaahịa, Ngwaahịa, Ahịa",
+     "Kpọmkwem otu ahịrị nkụnye eji isi mee n'ahịrị 1",
+     "Enweghị sel agbakọtara, ngụkọta ahịrị ma ọ bụ ahịrị oghere",
+     "Otu kọlụm ID mbụ na taabụ ọ bụla",
+     "Ahịrị nlele 3 ruo 5 nwere ezi uche"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Mgbe mpempe akwụkwọ ahụ gasịrị, lelee kọlụm ọ bụla. Igodo ga-enweta uru mbụ UNIQUEID(), ma ezoro ezo. Ụbọchị na-amalite dị ka TODAY(). E rere site na ndekọ USEREMAIL()."
+   ],
+   "panel": {
+    "kicker": "Nzọụkwụ site nzọụkwụ",
+    "heading": "Iwu iwu ụlọ maka ngwa AppSheet ọ bụla",
+    "items": [
+     "Hichaa mpempe akwụkwọ ahụ",
+     "Tọọ igodo na ụdị",
+     "Tinye ntụnyere aka",
+     "Echiche imewe",
+     "Tinye iwu na akpaaka"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Kọlụm ngwaahịa dị na Ahịa na Ahịa na-aghọ Ref na Ngwaahịa, na-ejikọ ire ọ bụla na otu ngwaahịa."
+   ],
+   "panel": {
+    "kicker": "Nzọụkwụ site nzọụkwụ",
+    "heading": "Iwu iwu ụlọ maka ngwa AppSheet ọ bụla",
+    "items": [
+     "Hichaa mpempe akwụkwọ ahụ",
+     "Tọọ igodo na ụdị",
+     "Tinye ntụnyere aka",
+     "Echiche imewe",
+     "Tinye iwu na akpaaka"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Chepụta echiche maka ndị ọrụ na counter nwere ekwentị n'otu aka. Ire ọhụrụ na-ebute ụzọ na menu, n'ihi na ọ bụ ọrụ a na-emekarị."
+   ],
+   "panel": {
+    "kicker": "Nzọụkwụ site nzọụkwụ",
+    "heading": "Iwu iwu ụlọ maka ngwa AppSheet ọ bụla",
+    "items": [
+     "Hichaa mpempe akwụkwọ ahụ",
+     "Tọọ igodo na ụdị",
+     "Tinye ntụnyere aka",
+     "Echiche imewe",
+     "Tinye iwu na akpaaka"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Soro usoro a. Ịgbanwe data mgbe emechara echiche na-akpata rework. Ma nwalee na ekwentị n'ezie, ọ bụghị naanị na nchịkọta akụkọ."
+   ],
+   "panel": {
+    "kicker": "Nzọụkwụ site nzọụkwụ",
+    "heading": "Iwu iwu ụlọ maka ngwa AppSheet ọ bụla",
+    "items": [
+     "Hichaa mpempe akwụkwọ ahụ",
+     "Tọọ igodo na ụdị",
+     "Tinye ntụnyere aka",
+     "Echiche imewe",
+     "Tinye iwu na akpaaka"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Anabatala kọlụm AppSheet n'echeghị echiche.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Edere mgbagha dị ka okwu, usoro mkpirisi nwere aha kọlụm na brackets square. Tinye kọlụm mebere nke a na-akpọ Ngwaahịa dị ugbu a. NPK na-amalite ọnwa na akpa 40."
+   ],
+   "panel": {
+    "kicker": "Ezi uche",
+    "heading": "A na-agbakọ ngwaahịa, pịnyeghị ya",
+    "items": [
+     "Ngwaahịa mmeghe: 40 akpa NPK",
+     "gbakwunyere nnyefe: 25 akpa",
+     "Mbelata ahịa n'izu a: akpa 52",
+     "Ahịa ugbu a: 40 + 25 - 52 = 13"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Họrọ na SUM na-agbakwunye nnyefe ọ bụla maka ngwaahịa a: akpa 25."
+   ],
+   "panel": {
+    "kicker": "Ezi uche",
+    "heading": "A na-agbakọ ngwaahịa, pịnyeghị ya",
+    "items": [
+     "Ngwaahịa mmeghe: 40 akpa NPK",
+     "gbakwunyere nnyefe: 25 akpa",
+     "Mbelata ahịa n'izu a: akpa 52",
+     "Ahịa ugbu a: 40 + 25 - 52 = 13"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Wepụ ire ere ọ bụla: akpa 52."
+   ],
+   "panel": {
+    "kicker": "Ezi uche",
+    "heading": "A na-agbakọ ngwaahịa, pịnyeghị ya",
+    "items": [
+     "Ngwaahịa mmeghe: 40 akpa NPK",
+     "gbakwunyere nnyefe: 25 akpa",
+     "Mbelata ahịa n'izu a: akpa 52",
+     "Ahịa ugbu a: 40 + 25 - 52 = 13"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Ngwa ahụ na-egosi akpa 13 fọdụrụ na-enweghị onye ọ bụla na-agụta. Site na nhazigharị ọkwa 15, NPK na-egosi Reorder na uhie."
+   ],
+   "panel": {
+    "kicker": "Ezi uche",
+    "heading": "A na-agbakọ ngwaahịa, pịnyeghị ya",
+    "items": [
+     "Ngwaahịa mmeghe: 40 akpa NPK",
+     "gbakwunyere nnyefe: 25 akpa",
+     "Mbelata ahịa n'izu a: akpa 52",
+     "Ahịa ugbu a: 40 + 25 - 52 = 13"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "13 nọ na ma ọ bụ n'okpuru ọkwa nhazigharị nke 15: oge ịhazigharị.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Mee Qty na ngwaahịa achọrọ."
+   ],
+   "panel": {
+    "kicker": "Iwu ndị na-akwụsị mmejọ",
+    "heading": "Kwụsị data ọjọọ na ntinye",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Achọrọ",
+      "d": "Qty na ngwaahịa ga-ejupụta, ya mere, a gaghị echekwa ire ere na-enweghị ha."
+     },
+     {
+      "t": "Valid If",
+      "d": "Qty n'elu 0 ma ọ bụghị karịa Ngwaahịa dị ugbu a. Tinye ozi mperi doro anya."
+     },
+     {
+      "t": "Initial value",
+      "d": "Ọnụ ahịa nkeji na-eṅomi ọnụahịa ngwaahịa n'oge ọrịre. Enweghị idegharị ọzọ."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Tinye ihe bara uru Ọ bụrụ, yabụ ọnụọgụ ga-adịrịrị karịa 0 ma ọ bụghị karịa ngwaahịa. Tinye ozi dịka, naanị akpa 13 fọdụrụ, ka ndị ọrụ mara ihe na-adịghị mma."
+   ],
+   "panel": {
+    "kicker": "Iwu ndị na-akwụsị mmejọ",
+    "heading": "Kwụsị data ọjọọ na ntinye",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Achọrọ",
+      "d": "Qty na ngwaahịa ga-ejupụta, ya mere, a gaghị echekwa ire ere na-enweghị ha."
+     },
+     {
+      "t": "Valid If",
+      "d": "Qty n'elu 0 ma ọ bụghị karịa Ngwaahịa dị ugbu a. Tinye ozi mperi doro anya."
+     },
+     {
+      "t": "Initial value",
+      "d": "Ọnụ ahịa nkeji na-eṅomi ọnụahịa ngwaahịa n'oge ọrịre. Enweghị idegharị ọzọ."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Na detuo ọnụ ahịa ahụ n'ime ire ere mgbe emere ya, yabụ akụkọ ihe mere eme na-abụ eziokwu."
+   ],
+   "panel": {
+    "kicker": "Iwu ndị na-akwụsị mmejọ",
+    "heading": "Kwụsị data ọjọọ na ntinye",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Achọrọ",
+      "d": "Qty na ngwaahịa ga-ejupụta, ya mere, a gaghị echekwa ire ere na-enweghị ha."
+     },
+     {
+      "t": "Valid If",
+      "d": "Qty n'elu 0 ma ọ bụghị karịa Ngwaahịa dị ugbu a. Tinye ozi mperi doro anya."
+     },
+     {
+      "t": "Initial value",
+      "d": "Ọnụ ahịa nkeji na-eṅomi ọnụahịa ngwaahịa n'oge ọrịre. Enweghị idegharị ọzọ."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Bot na-ekiri ihe omume, wee na-agba ọsọ naanị ya. Ebe ihe omume bụ ahịrị ọhụrụ na Ahịa."
+   ],
+   "panel": {
+    "kicker": "Akpaaka",
+    "heading": "Bot dị obere",
+    "items": [
+     "Ihe omume: a na-agbakwunye ire ere",
+     "Ọnọdụ: ngwaahịa na ma ọ bụ n'okpuru nhazi ọkwa",
+     "Ọrụ: email onye nwe ya",
+     "Nwalee ruo mgbe email rutere"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Ọnọdụ a na-enyocha ngwaahịa ngwaahịa ahụ megide ọkwa nhazigharị ya. Ọ bụrụ eziokwu, ọ na-ezigara Esther aha ngwaahịa na ngwaahịa."
+   ],
+   "panel": {
+    "kicker": "Akpaaka",
+    "heading": "Bot dị obere",
+    "items": [
+     "Ihe omume: a na-agbakwunye ire ere",
+     "Ọnọdụ: ngwaahịa na ma ọ bụ n'okpuru nhazi ọkwa",
+     "Ọrụ: email onye nwe ya",
+     "Nwalee ruo mgbe email rutere"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Dekọọ ire ahịa ule ruo mgbe ọnọdụ ahụ ga-ezute, ma gosi na email ahụ bịarutere. Debe usoro dị arọ ole na ole, n'ihi na ha na-ebelata ngwa ka tebụl na-eto."
+   ],
+   "panel": {
+    "kicker": "Akpaaka",
+    "heading": "Bot dị obere",
+    "items": [
+     "Ihe omume: a na-agbakwunye ire ere",
+     "Ọnọdụ: ngwaahịa na ma ọ bụ n'okpuru nhazi ọkwa",
+     "Ọrụ: email onye nwe ya",
+     "Nwalee ruo mgbe email rutere"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Bot na-agba ọkụ naanị mgbe ihe omume na ọnọdụ bụ eziokwu.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Dịka ọmụmaatụ, Amina na-emecha ngwa Esther. Ọ na-ede ikpe 14 ule, gụnyere ire kpọmkwem akpa ikpeazụ, na ịbanye efu ma ọ bụ oghere. Ọ na-agba ha ọsọ dị ka onye ọrụ nyocha ahịa ahịa."
+   ],
+   "panel": {
+    "kicker": "Nnwale",
+    "heading": "Edemede ule Amina",
+    "items": [
+     "Dee ikpe iri na anọ nwere nsonaazụ a tụrụ anya ya",
+     "Gụnye ikpe ihu na ndenye na-ezighi ezi",
+     "11 nke 14 gafere; dozie 3 ọdịda",
+     "Tinyegharịa ikpe iri na anọ niile"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "3 daa. A na-echekwa ọnụọgụ 0, ngwaahịa abụọ nwere ike ịkekọrịta aha, na ndị ọrụ nwere ike dezie ngwaahịa mmeghe. Ọ na-edozi nke ọ bụla."
+   ],
+   "panel": {
+    "kicker": "Nnwale",
+    "heading": "Edemede ule Amina",
+    "items": [
+     "Dee ikpe iri na anọ nwere nsonaazụ a tụrụ anya ya",
+     "Gụnye ikpe ihu na ndenye na-ezighi ezi",
+     "11 nke 14 gafere; dozie 3 ọdịda",
+     "Tinyegharịa ikpe iri na anọ niile"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Mgbe ahụ ọ na-emegharị ihe niile 14, n'ihi na ndozi nwere ike imebi ihe ndị ọzọ. Ha niile gafere, na ndekọ ule na-abanye na mkpọ inyefe."
+   ],
+   "panel": {
+    "kicker": "Nnwale",
+    "heading": "Edemede ule Amina",
+    "items": [
+     "Dee ikpe iri na anọ nwere nsonaazụ a tụrụ anya ya",
+     "Gụnye ikpe ihu na ndenye na-ezighi ezi",
+     "11 nke 14 gafere; dozie 3 ọdịda",
+     "Tinyegharịa ikpe iri na anọ niile"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Mgbe emezigharị ọ bụla, megharịa ikpe ọ bụla, ọ bụghị naanị ọdịda.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Chọrọ nbanye, ma jiri tebụl ọrụ nwere ọrụ ya mere naanị onye nwe ya gbanwere ọnụ ahịa. Onye ọ bụla nwere ohere dezie na Google Sheet nwere ike ịgbanwe data, yabụ kesaa ya naanị onye nwe ya na onye wuru ya."
+   ],
+   "panel": {
+    "kicker": "Nchekwa mbụ",
+    "heading": "Nweta, data na iji offline",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Sign-in and roles",
+      "d": "Kekọrịta ozi-e ndị ọrụ akpọrọ aha. Naanị onye nwe ya na-agbanwe ọnụ ahịa na ngwaahịa. Oke onye na-edezi mpempe akwụkwọ."
+     },
+     {
+      "t": "Personal data",
+      "d": "Chịkọta naanị ihe ị chọrọ. Anakọtala nkọwa BVN, NIN ma ọ bụ kaadị na ngwa enweghị koodu."
+     },
+     {
+      "t": "Sync daily",
+      "d": "Ụbọchị na-anọghị n'ịntanetị nwere ike idegharị mgbanwe ndị ọzọ. Ndị ọrụ na-emekọrịta ihe opekata mpe kwa ụbọchị."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Nọmba ekwentị ndị ahịa bụ data nkeonwe. Iwu nchekwa data Nigeria 2023 na-atụ anya ka ị nakọta naanị ihe ịchọrọ ma chekwaa ya."
+   ],
+   "panel": {
+    "kicker": "Nchekwa mbụ",
+    "heading": "Nweta, data na iji offline",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Sign-in and roles",
+      "d": "Kekọrịta ozi-e ndị ọrụ akpọrọ aha. Naanị onye nwe ya na-agbanwe ọnụ ahịa na ngwaahịa. Oke onye na-edezi mpempe akwụkwọ."
+     },
+     {
+      "t": "Personal data",
+      "d": "Chịkọta naanị ihe ị chọrọ. Anakọtala nkọwa BVN, NIN ma ọ bụ kaadị na ngwa enweghị koodu."
+     },
+     {
+      "t": "Sync daily",
+      "d": "Ụbọchị na-anọghị n'ịntanetị nwere ike idegharị mgbanwe ndị ọzọ. Ndị ọrụ na-emekọrịta ihe opekata mpe kwa ụbọchị."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "AppSheet na-arụ ọrụ na-anọghị n'ịntanetị, mana ekwentị na-anọghị n'ịntanetị maka ụbọchị nwere ike idegharị mgbanwe ndị ọzọ mgbe ọ mekọrịtara. Nwalee ya n'ụdị ụgbọ elu."
+   ],
+   "panel": {
+    "kicker": "Nchekwa mbụ",
+    "heading": "Nweta, data na iji offline",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Sign-in and roles",
+      "d": "Kekọrịta ozi-e ndị ọrụ akpọrọ aha. Naanị onye nwe ya na-agbanwe ọnụ ahịa na ngwaahịa. Oke onye na-edezi mpempe akwụkwọ."
+     },
+     {
+      "t": "Personal data",
+      "d": "Chịkọta naanị ihe ị chọrọ. Anakọtala nkọwa BVN, NIN ma ọ bụ kaadị na ngwa enweghị koodu."
+     },
+     {
+      "t": "Sync daily",
+      "d": "Ụbọchị na-anọghị n'ịntanetị nwere ike idegharị mgbanwe ndị ọzọ. Ndị ọrụ na-emekọrịta ihe opekata mpe kwa ụbọchị."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Icheta. Hichaa mpempe akwụkwọ ma lelee kọlụm ọ bụla. Gbakọọ ngwaahịa, pịnyeghị ya. Gbochie ndenye ọjọọ. Megharịa ule niile ka emezichara. Wepụtakwa mkpọ nnyefe, ka onye ọzọ na-abụghị gị nwee ike idowe ngwa ahụ ka ọ dị ndụ."
+   ],
+   "panel": {
+    "kicker": "Isi ihe",
+    "heading": "Cheta",
+    "items": [
+     "Ibé akwụkwọ dị ọcha nke mbụ; lelee kọlụm ọ bụla",
+     "Gbakọọ ngwaahịa sitere na ahịrị ejikọrọ",
+     "Kwesịrị ekwesị ma ọ bụrụ na achọrọ ịkwụsị ndenye ọjọọ",
+     "Tinyegharịa ule ọ bụla ka emechara ya",
+     "Ngwunye aka: ụdị, iwu, ndị ọrụ, ụgwọ, ule"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Ọrụ gị: wulite ụdị nke mbụ site na mpempe akwụkwọ dị ọcha, gbakwunye mgbagha na bot dị obere, wee nwalee, chekwaa ma detuo ngwa gị.",
+    "Gaa n'ihu na nkuzi ndị dị n'okpuru."
+   ],
+   "panel": {
+    "kicker": "Mee ihe omume",
+    "heading": "Ọrụ omume gị",
+    "items": [
+     "Mee ụdị nke mbụ",
+     "Tinye mgbagha na bot obere ngwaahịa",
+     "Nwalee, chekwaa na akwụkwọ"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

@@ -1,0 +1,647 @@
+{
+ "course": "production-scaling-quality-assurance",
+ "module": "m3",
+ "title": "Girma, mutane da hujja",
+ "course_title": "Ƙirƙirar Ƙirƙiri & Tabbacin Inganci",
+ "shots": [
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Girma, mutane da hujja.",
+    "Wannan shi ne bidiyon don ƙirar 3 na Ƙirƙirar Ƙirƙirar Ƙirƙira da Tabbataccen Ƙarfafa."
+   ]
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Makaranta tana neman fakiti 400 zuwa Juma'a. Babban kanti yana neman fakiti 300 kowace Litinin, tsawon watanni. Saba wannan alkawari sau ɗaya zai iya rasa asusun."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Scaling yana biya kawai idan kun cika alkawuran",
+    "items": [
+     "Yi alkawari kawai abin da za ku iya bayarwa",
+     "Karɓar lahani ba tare da ɓoye su ba",
+     "Tabbatar da inda kowane fakitin ya fito",
+     "Tsarin kwanaki 90 zaku iya dubawa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "A girma, lahani sun tabbata. Abin da ke da mahimmanci shine abin da zai faru a gaba."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Scaling yana biya kawai idan kun cika alkawuran",
+    "items": [
+     "Yi alkawari kawai abin da za ku iya bayarwa",
+     "Karɓar lahani ba tare da ɓoye su ba",
+     "Tabbatar da inda kowane fakitin ya fito",
+     "Tsarin kwanaki 90 zaku iya dubawa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Dole ne ku gano kowane fakitin baya ga kayan sa kuma ku turawa abokan cinikin sa."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Scaling yana biya kawai idan kun cika alkawuran",
+    "items": [
+     "Yi alkawari kawai abin da za ku iya bayarwa",
+     "Karɓar lahani ba tare da ɓoye su ba",
+     "Tabbatar da inda kowane fakitin ya fito",
+     "Tsarin kwanaki 90 zaku iya dubawa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Kuma za ku gama da shirin haɓaka na kwanaki 90."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Scaling yana biya kawai idan kun cika alkawuran",
+    "items": [
+     "Yi alkawari kawai abin da za ku iya bayarwa",
+     "Karɓar lahani ba tare da ɓoye su ba",
+     "Tabbatar da inda kowane fakitin ya fito",
+     "Tsarin kwanaki 90 zaku iya dubawa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Yi shiri tare da iyawa mai ƙarfi: abin da a zahiri kuka ƙirƙira don ƙayyadaddun bayanai a cikin sati na al'ada. Don Kemi, fakiti 2,100 a mako."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Shin yakamata Kemi ta ɗauki ƙarin fakiti 500 a mako?",
+    "items": [
+     "Ƙarfin da aka nuna: 2,100 a mako",
+     "Yanzu: fakiti 1,500, 71% amfani",
+     "Ƙari 500: 95%, kawai 100 spare",
+     "Rana daya bata = fakiti 420",
+     "Bayar-baya 300: 86%, 300 kayayyakin ajiya"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "An ƙaddamar da amfani da buƙatu zuwa ga iya aiki. Ta riga ta ba da fakiti 1,500, don haka 71%."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Shin yakamata Kemi ta ɗauki ƙarin fakiti 500 a mako?",
+    "items": [
+     "Ƙarfin da aka nuna: 2,100 a mako",
+     "Yanzu: fakiti 1,500, 71% amfani",
+     "Ƙari 500: 95%, kawai 100 spare",
+     "Rana daya bata = fakiti 420",
+     "Bayar-baya 300: 86%, 300 kayayyakin ajiya"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Babban kanti yana son ƙarin 500 kowace Litinin. Wannan shine 95%, tare da fakiti 100 kawai."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Shin yakamata Kemi ta ɗauki ƙarin fakiti 500 a mako?",
+    "items": [
+     "Ƙarfin da aka nuna: 2,100 a mako",
+     "Yanzu: fakiti 1,500, 71% amfani",
+     "Ƙari 500: 95%, kawai 100 spare",
+     "Rana daya bata = fakiti 420",
+     "Bayar-baya 300: 86%, 300 kayayyakin ajiya"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Bayanan nata sun nuna cewa tana asarar kusan kwana daya a wata saboda yanke wutar lantarki da rashin lafiya. Rana ɗaya da aka rasa shine fakiti 420. Tare da ragowar 100, farfadowa yana ɗaukar fiye da makonni 4."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Shin yakamata Kemi ta ɗauki ƙarin fakiti 500 a mako?",
+    "items": [
+     "Ƙarfin da aka nuna: 2,100 a mako",
+     "Yanzu: fakiti 1,500, 71% amfani",
+     "Ƙari 500: 95%, kawai 100 spare",
+     "Rana daya bata = fakiti 420",
+     "Bayar-baya 300: 86%, 300 kayayyakin ajiya"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Don haka tana ba da 300 a mako don makonni 6. Wannan ya bar ragowar 300, kuma an dawo da ranar da aka rasa a cikin makonni 1.4. Bayan makonni 6 na haihuwa akan lokaci, tana da shaidar ƙarin."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Shin yakamata Kemi ta ɗauki ƙarin fakiti 500 a mako?",
+    "items": [
+     "Ƙarfin da aka nuna: 2,100 a mako",
+     "Yanzu: fakiti 1,500, 71% amfani",
+     "Ƙari 500: 95%, kawai 100 spare",
+     "Rana daya bata = fakiti 420",
+     "Bayar-baya 300: 86%, 300 kayayyakin ajiya"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Bari ƙarar ta bi shaidar ku, kada ku yi gaba da shi.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Ajiye ƙaramin buffer na samfuran da aka wuce don kada mummunan rana ta zama isar da aka rasa. Yi wa kowane kartani lakabi, kuma koyaushe sadar da mafi kyawun hannun jari da farko."
+   ],
+   "panel": {
+    "kicker": "Buffer da lokacin jagora",
+    "heading": "Alkawarin gaskiya",
+    "mode": "compare",
+    "left_h": "Ma'ajiyar hannun jari",
+    "left": [
+     "Kimanin bayarwa ɗaya kowane abokin ciniki",
+     "Lambobin kuri'a da mafi kyawun-kafin a kan kwali",
+     "Sanyi kuma bushe",
+     "Farko ya ƙare, ya fara fita"
+    ],
+    "right_h": "Lokacin jagoran gaskiya",
+    "right": [
+     "Ƙarin oda / iya aiki",
+     "1,000/300 = makonni 3.3",
+     "Ƙara lokacin siye da bayarwa",
+     "Magana 4 makonni, ba 1"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Domin odar kashe-kashe, raba shi ta wurin iyawar ku, sannan ƙara lokacin siye da lokacin bayarwa. Kemi ta faɗi makonni 4 tare da bayarwa, ba sati 1 ba.",
+    "Kuma kallon dogon sharuɗɗan biyan kuɗi: jira kwanaki 30 yana nufin ku ba da kuɗin hannun jari da kanku."
+   ],
+   "panel": {
+    "kicker": "Buffer da lokacin jagora",
+    "heading": "Alkawarin gaskiya",
+    "mode": "compare",
+    "left_h": "Ma'ajiyar hannun jari",
+    "left": [
+     "Kimanin bayarwa ɗaya kowane abokin ciniki",
+     "Lambobin kuri'a da mafi kyawun-kafin a kan kwali",
+     "Sanyi kuma bushe",
+     "Farko ya ƙare, ya fara fita"
+    ],
+    "right_h": "Lokacin jagoran gaskiya",
+    "right": [
+     "Ƙarin oda / iya aiki",
+     "1,000/300 = makonni 3.3",
+     "Ƙara lokacin siye da bayarwa",
+     "Magana 4 makonni, ba 1"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Duk wani abu da ya gaza cak yana zuwa wurin da aka yi alama, tare da tambari. Ba abin da ya bar ba tare da yanke shawara ba. Idan kuna shakka, sanya shi a kan jan tire, kuma godiya ga mutanen da suke amfani da shi."
+   ],
+   "panel": {
+    "kicker": "Lalacewar",
+    "heading": "Riƙe, yanke shawara, sake yin aiki da ƙa'idodi",
+    "items": [
+     "Abun da ya gaza: tire ja, tare da tambari",
+     "Mai kulawa ya yanke shawara; rubuta shi",
+     "Sake yin aiki ta hanyar rubutacciyar hanya, sau ɗaya",
+     "Sake duba akan cikakken takamammen",
+     "Zuba, m, gurɓatacce: tarkace"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Shawarar ita ce sake yin aiki, ragewa, gogewa, ko amfani kamar yadda yake, kuma an rubuta shi."
+   ],
+   "panel": {
+    "kicker": "Lalacewar",
+    "heading": "Riƙe, yanke shawara, sake yin aiki da ƙa'idodi",
+    "items": [
+     "Abun da ya gaza: tire ja, tare da tambari",
+     "Mai kulawa ya yanke shawara; rubuta shi",
+     "Sake yin aiki ta hanyar rubutacciyar hanya, sau ɗaya",
+     "Sake duba akan cikakken takamammen",
+     "Zuba, m, gurɓatacce: tarkace"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Sake yin aiki ta hanyar rubutacciyar hanya kawai, sake duba komai, yi rikodin sa, kuma ba da izini sau ɗaya kawai."
+   ],
+   "panel": {
+    "kicker": "Lalacewar",
+    "heading": "Riƙe, yanke shawara, sake yin aiki da ƙa'idodi",
+    "items": [
+     "Abun da ya gaza: tire ja, tare da tambari",
+     "Mai kulawa ya yanke shawara; rubuta shi",
+     "Sake yin aiki ta hanyar rubutacciyar hanya, sau ɗaya",
+     "Sake duba akan cikakken takamammen",
+     "Zuba, m, gurɓatacce: tarkace"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Wasu kurakuran abinci ba za a taɓa sake yin su ba. Duk wani abu da aka faɗo, gurɓataccen, m ko ya wuce kwanan wata an soke shi.",
+    "Kar a taɓa ɓoye matsalar lafiyar abinci. Nemo dalilin, kuma idan an sayar da shi, tuntuɓi masu siye."
+   ],
+   "panel": {
+    "kicker": "Lalacewar",
+    "heading": "Riƙe, yanke shawara, sake yin aiki da ƙa'idodi",
+    "items": [
+     "Abun da ya gaza: tire ja, tare da tambari",
+     "Mai kulawa ya yanke shawara; rubuta shi",
+     "Sake yin aiki ta hanyar rubutacciyar hanya, sau ɗaya",
+     "Sake duba akan cikakken takamammen",
+     "Zuba, m, gurɓatacce: tarkace"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Ajiye gunkin lahani. Sama da makonni biyu ƙungiyar Kemi ta tattara fakiti 100 marasa lahani daga cikin kusan 4,000."
+   ],
+   "panel": {
+    "kicker": "Nemo dalilin",
+    "heading": "Pareto, sannan kashin kifi",
+    "items": [
+     "Makonni biyu: fakiti 100 mara kyau",
+     "Kone 46, karye 30: tare 76%",
+     "Kashin kifi tare da tawagar, mintuna 20",
+     "Dalili: lodi na ƙarshe, mafi tsufa mai",
+     "Juyawar Fryer da tsarin canjin mai"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Fara tsara su mafi girma. Fakitin ƙonawa da karye suna haifar da 76% na duk lahani. Wannan tebur Pareto ne. Yana nuna inda za ku kashe ƙoƙarin ku."
+   ],
+   "panel": {
+    "kicker": "Nemo dalilin",
+    "heading": "Pareto, sannan kashin kifi",
+    "items": [
+     "Makonni biyu: fakiti 100 mara kyau",
+     "Kone 46, karye 30: tare 76%",
+     "Kashin kifi tare da tawagar, mintuna 20",
+     "Dalili: lodi na ƙarshe, mafi tsufa mai",
+     "Juyawar Fryer da tsarin canjin mai"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Sannan zaman kashin kifi na minti 20: ƙungiyar ta lissafa abubuwan da za su iya faruwa a ƙarƙashin mutane, kayan aiki, hanya, kayan aiki, aunawa da muhalli."
+   ],
+   "panel": {
+    "kicker": "Nemo dalilin",
+    "heading": "Pareto, sannan kashin kifi",
+    "items": [
+     "Makonni biyu: fakiti 100 mara kyau",
+     "Kone 46, karye 30: tare 76%",
+     "Kashin kifi tare da tawagar, mintuna 20",
+     "Dalili: lodi na ƙarshe, mafi tsufa mai",
+     "Juyawar Fryer da tsarin canjin mai"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Lamban da aka samu ya nuna yawancin fakitin da suka kone sun fito ne daga lodin ƙarshe na ranar, lokacin da mai fryer ya gaji kuma mafi tsufan mai."
+   ],
+   "panel": {
+    "kicker": "Nemo dalilin",
+    "heading": "Pareto, sannan kashin kifi",
+    "items": [
+     "Makonni biyu: fakiti 100 mara kyau",
+     "Kone 46, karye 30: tare 76%",
+     "Kashin kifi tare da tawagar, mintuna 20",
+     "Dalili: lodi na ƙarshe, mafi tsufa mai",
+     "Juyawar Fryer da tsarin canjin mai"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Ayyukanta na gyarawa: jujjuyawar fryer kowane awa biyu, mai ya canza a ƙayyadadden adadin lodi, da sake saitin lokacin da aka rubuta cikin hanyar. Bayan sati biyu, ta sake duba gunkin."
+   ],
+   "panel": {
+    "kicker": "Nemo dalilin",
+    "heading": "Pareto, sannan kashin kifi",
+    "items": [
+     "Makonni biyu: fakiti 100 mara kyau",
+     "Kone 46, karye 30: tare 76%",
+     "Kashin kifi tare da tawagar, mintuna 20",
+     "Dalili: lodi na ƙarshe, mafi tsufa mai",
+     "Juyawar Fryer da tsarin canjin mai"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Gyara yana gyara samfurin. Aikin gyara yana kawar da sanadin.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Wani shago ya aika wa Kemi hoton wani fakitin da ya ɗanɗana datti da mai. Lambar kuri'a ita ce KC261006-3: chin-chin da aka yi a ranar 6 ga Oktoba, 2026, haɗa kaya 3."
+   ],
+   "panel": {
+    "kicker": "Abun iya ganowa",
+    "heading": "Lambobin kuri'a da rikodin tsari",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Lot code",
+      "d": "KC261006-3: Kemi's Chin-chin, 6 Oktoba 2026, lodi 3. A kan kowane fakiti da kwali."
+     },
+     {
+      "t": "Batch record",
+      "d": "Kuri'a na kayan aiki, kowane cak tare da karantawa da baƙaƙe, fitarwa, samfurin da aka riƙe, saki."
+     },
+     {
+      "t": "log log",
+      "d": "Wane abokin ciniki ya sami nawa daga kowane kuri'a, da kuma lokacin."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Rikodin nata ya nuna ba a canza mai ba a ranar, kuma mai soya sabon mataimaki ne. Samfurin da aka riƙe daga kaya 3 yana da tsayi; load 2 yayi kyau."
+   ],
+   "panel": {
+    "kicker": "Abun iya ganowa",
+    "heading": "Lambobin kuri'a da rikodin tsari",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Lot code",
+      "d": "KC261006-3: Kemi's Chin-chin, 6 Oktoba 2026, lodi 3. A kan kowane fakiti da kwali."
+     },
+     {
+      "t": "Batch record",
+      "d": "Kuri'a na kayan aiki, kowane cak tare da karantawa da baƙaƙe, fitarwa, samfurin da aka riƙe, saki."
+     },
+     {
+      "t": "log log",
+      "d": "Wane abokin ciniki ya sami nawa daga kowane kuri'a, da kuma lokacin."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Littafin da ta aika ya nuna fakiti 30 ne suka je shagon sannan 22 sun je suna sunayen abokan huldar WhatsApp. Da la'asar ta canza su, ta sake horar da mataimaki, kuma ta kara da akwati mai canza mai."
+   ],
+   "panel": {
+    "kicker": "Abun iya ganowa",
+    "heading": "Lambobin kuri'a da rikodin tsari",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Lot code",
+      "d": "KC261006-3: Kemi's Chin-chin, 6 Oktoba 2026, lodi 3. A kan kowane fakiti da kwali."
+     },
+     {
+      "t": "Batch record",
+      "d": "Kuri'a na kayan aiki, kowane cak tare da karantawa da baƙaƙe, fitarwa, samfurin da aka riƙe, saki."
+     },
+     {
+      "t": "log log",
+      "d": "Wane abokin ciniki ya sami nawa daga kowane kuri'a, da kuma lokacin."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "A cikin kwanaki 30 na farko, gwada sabon girman kaya, gwada gyaran ƙulli, kuma horar da mataimaki ɗaya kowane mataki."
+   ],
+   "panel": {
+    "kicker": "Tsarin kwanaki 90",
+    "heading": "Matsalolin da za ku iya bincika",
+    "items": [
+     "Kwanaki 1-30: matukin jirgi da gyara kwalabe",
+     "Kwanaki 31-60: sabon girma, makonni uku yana gudana",
+     "Kwanaki 61-90: bayar da ingantaccen girma",
+     "Kasafin kuɗi daga ƙididdiga masu kaya biyu",
+     "Matsar da kwanan wata, ba zai taɓa ma'aunin inganci ba"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "A rana ta 60, kai sabon ƙara na akalla makonni uku a jere, tare da ginshiƙi mai sarrafawa yana gudana kowace rana."
+   ],
+   "panel": {
+    "kicker": "Tsarin kwanaki 90",
+    "heading": "Matsalolin da za ku iya bincika",
+    "items": [
+     "Kwanaki 1-30: matukin jirgi da gyara kwalabe",
+     "Kwanaki 31-60: sabon girma, makonni uku yana gudana",
+     "Kwanaki 61-90: bayar da ingantaccen girma",
+     "Kasafin kuɗi daga ƙididdiga masu kaya biyu",
+     "Matsar da kwanan wata, ba zai taɓa ma'aunin inganci ba"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "A rana ta 90, bayar da ingantaccen ƙarar ga mai siye na yau da kullun, tare da cikakkun bayanai na tsari da gwajin ganowa guda ɗaya."
+   ],
+   "panel": {
+    "kicker": "Tsarin kwanaki 90",
+    "heading": "Matsalolin da za ku iya bincika",
+    "items": [
+     "Kwanaki 1-30: matukin jirgi da gyara kwalabe",
+     "Kwanaki 31-60: sabon girma, makonni uku yana gudana",
+     "Kwanaki 61-90: bayar da ingantaccen girma",
+     "Kasafin kuɗi daga ƙididdiga masu kaya biyu",
+     "Matsar da kwanan wata, ba zai taɓa ma'aunin inganci ba"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Farashin kowane kayan aiki daga aƙalla masu samar da kayayyaki biyu, da kuma duba tsarin kowane mako biyu. Daidaita kwanakin, ba ma'aunin inganci ba."
+   ],
+   "panel": {
+    "kicker": "Tsarin kwanaki 90",
+    "heading": "Matsalolin da za ku iya bincika",
+    "items": [
+     "Kwanaki 1-30: matukin jirgi da gyara kwalabe",
+     "Kwanaki 31-60: sabon girma, makonni uku yana gudana",
+     "Kwanaki 61-90: bayar da ingantaccen girma",
+     "Kasafin kuɗi daga ƙididdiga masu kaya biyu",
+     "Matsar da kwanan wata, ba zai taɓa ma'aunin inganci ba"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Don tunawa. Alkawari daga iya aiki da aka nuna, tare da matashin kai da ma'auni. Riƙe abubuwan da suka gaza kuma bi dokokin sake yin aiki. Cire abubuwan da ke haifar da Pareto da kashin kifi. Kuma sanya lamba mai yawa akan kowane fakitin."
+   ],
+   "panel": {
+    "kicker": "Mabuɗin mahimmanci",
+    "heading": "Ka tuna",
+    "items": [
+     "Tsara tare da iyawar da aka nuna",
+     "Ajiye matashin kai da majigi",
+     "Riƙe abubuwan da suka gaza; sake yin aiki sau ɗaya, ta dokoki",
+     "Pareto na farko, sannan kashin kifi",
+     "Lambar lamba akan kowane fakiti da kwali"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Juyin ku. Gwada sadaukarwar wadata, gudanar da bita na lahani tare da tebur Pareto, sannan gina lambobin ku, rikodin tsari da shirin kwanaki 90.",
+    "Ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi ayyuka",
+    "heading": "Ayyukan aikin ku",
+    "items": [
+     "Gwada sadaukarwar wadata",
+     "Gudanar da bitar naka ta farko",
+     "Gina fakitin ganowa da shirin ku"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

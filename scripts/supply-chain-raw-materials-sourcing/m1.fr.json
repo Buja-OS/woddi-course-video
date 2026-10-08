@@ -1,0 +1,587 @@
+{
+ "course": "supply-chain-raw-materials-sourcing",
+ "module": "m1",
+ "title": "Visualisez votre chaîne d'approvisionnement : répertoriez, tracez, classez et précisez",
+ "course_title": "Chaîne d’approvisionnement et approvisionnement en matières premières",
+ "shots": [
+  {
+   "demo": "globe_export",
+   "say": [
+    "Visualisez votre chaîne d'approvisionnement : répertoriez, tracez, classez et précisez.",
+    "Ceci est la vidéo du premier module de la chaîne d'approvisionnement et de l'approvisionnement en matières premières."
+   ]
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Une chaîne d'approvisionnement représente chaque étape par laquelle un matériau passe avant de devenir votre produit : ferme ou usine, grossiste, commerçant, transport et votre magasin.",
+    "Une fois que les clients comptent sur vous, un matériel manquant devient une promesse non tenue."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Un matériel manquant est une promesse non tenue",
+    "items": [
+     "Connaissez chaque matériau de votre produit",
+     "Tracez d'où chacun vient réellement",
+     "Classer les matériaux par valeur et risque",
+     "Écrivez exactement ce que vous acceptez"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Alors d’abord, vous tracez la provenance réelle de chaque matériau."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Un matériel manquant est une promesse non tenue",
+    "items": [
+     "Connaissez chaque matériau de votre produit",
+     "Tracez d'où chacun vient réellement",
+     "Classer les matériaux par valeur et risque",
+     "Écrivez exactement ce que vous acceptez"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "grain_sacks",
+   "say": [
+    "Ensuite, vous classez les matériaux par valeur et risque, et notez exactement ce que vous accepterez."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Un matériel manquant est une promesse non tenue",
+    "items": [
+     "Connaissez chaque matériau de votre produit",
+     "Tracez d'où chacun vient réellement",
+     "Classer les matériaux par valeur et risque",
+     "Écrivez exactement ce que vous acceptez"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "globe_export",
+   "say": [
+    "Une nomenclature, ou BOM, répertorie chaque entrée d'un lot, avec la quantité et le coût.",
+    "Amaka fabrique du zobo par lots de 100 bouteilles. Ses prix sont indicatifs et approximatifs."
+   ],
+   "card": {
+    "title": "Une nomenclature pour zobo",
+    "rows": [],
+    "note": "Les prix Naira sont indicatifs et approximatifs."
+   }
+  },
+  {
+   "demo": "globe_export",
+   "say": [
+    "L'hibiscus séché coûte environ 4 500 nairas, le sucre 7 200 et le gingembre frais 1 000."
+   ],
+   "card": {
+    "title": "Une nomenclature pour zobo",
+    "rows": [
+     [
+      "Hibiscus, 1,5kg",
+      "4,500"
+     ],
+     [
+      "Sucre, 4 kg",
+      "7,200"
+     ],
+     [
+      "Gingembre, 0,5 kg",
+      "1,000"
+     ]
+    ],
+    "note": "Les prix Naira sont indicatifs et approximatifs."
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "100 bouteilles avec bouchons coûtent environ 6 000 nairas et 100 étiquettes 2 500."
+   ],
+   "card": {
+    "title": "Une nomenclature pour zobo",
+    "rows": [
+     [
+      "Hibiscus, 1,5kg",
+      "4,500"
+     ],
+     [
+      "Sucre, 4 kg",
+      "7,200"
+     ],
+     [
+      "Gingembre, 0,5 kg",
+      "1,000"
+     ],
+     [
+      "100 bouteilles avec bouchons",
+      "6,000"
+     ],
+     [
+      "100 étiquettes imprimées",
+      "2,500"
+     ]
+    ],
+    "note": "Les prix Naira sont indicatifs et approximatifs."
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Cela représente 21 200 naira par lot, soit 212 naira par bouteille.",
+    "Le sucre et les bouteilles représentent ensemble environ 62 % de son coût matériel, donc un problème avec l'un ou l'autre la frappe plus durement qu'un problème avec le gingembre."
+   ],
+   "card": {
+    "title": "Une nomenclature pour zobo",
+    "rows": [
+     [
+      "Hibiscus, 1,5kg",
+      "4,500"
+     ],
+     [
+      "Sucre, 4 kg",
+      "7,200"
+     ],
+     [
+      "Gingembre, 0,5 kg",
+      "1,000"
+     ],
+     [
+      "100 bouteilles avec bouchons",
+      "6,000"
+     ],
+     [
+      "100 étiquettes imprimées",
+      "2,500"
+     ]
+    ],
+    "note": "Les prix Naira sont indicatifs et approximatifs."
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Votre fournisseur de niveau 1 est la personne que vous payez directement."
+   ],
+   "panel": {
+    "kicker": "Deuxième étape",
+    "heading": "Tracez chaque matériau à travers ses niveaux",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Tier 1",
+      "d": "La personne que vous payez directement, par exemple un commerçant du marché principal."
+     },
+     {
+      "t": "Tier 2",
+      "d": "Qui approvisionne votre commerçant, par exemple un grossiste ou un distributeur d'usine."
+     },
+     {
+      "t": "Tier 3",
+      "d": "L'exploitation agricole, le transformateur ou le fabricant étranger."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Le niveau 2 concerne celui qui approvisionne ce commerçant, comme un grossiste."
+   ],
+   "panel": {
+    "kicker": "Deuxième étape",
+    "heading": "Tracez chaque matériau à travers ses niveaux",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Tier 1",
+      "d": "La personne que vous payez directement, par exemple un commerçant du marché principal."
+     },
+     {
+      "t": "Tier 2",
+      "d": "Qui approvisionne votre commerçant, par exemple un grossiste ou un distributeur d'usine."
+     },
+     {
+      "t": "Tier 3",
+      "d": "L'exploitation agricole, le transformateur ou le fabricant étranger."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Le niveau 3 peut être la ferme ou l'usine. Vous les contrôlez rarement, mais un problème vous parvient des jours ou des semaines plus tard.",
+    "Demandez donc à votre commerçant d'où il vient. Amaka a appris que ses bouteilles provenaient d'un seul distributeur d'une seule usine."
+   ],
+   "panel": {
+    "kicker": "Deuxième étape",
+    "heading": "Tracez chaque matériau à travers ses niveaux",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Tier 1",
+      "d": "La personne que vous payez directement, par exemple un commerçant du marché principal."
+     },
+     {
+      "t": "Tier 2",
+      "d": "Qui approvisionne votre commerçant, par exemple un grossiste ou un distributeur d'usine."
+     },
+     {
+      "t": "Tier 3",
+      "d": "L'exploitation agricole, le transformateur ou le fabricant étranger."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Un matériau est critique si vous ne pouvez pas produire sans lui et si vous ne pouvez pas l’échanger rapidement. Posez trois questions. Puis-je fabriquer le produit sans ?"
+   ],
+   "panel": {
+    "kicker": "Troisième étape",
+    "heading": "Ce matériau est-il critique ?",
+    "items": [
+     "Puis-je fabriquer le produit sans ?",
+     "Puis-je changer de source en une semaine ?",
+     "Les clients remarqueraient-ils un changement ?",
+     "Entourez n’importe quelle succursale avec un seul fournisseur"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Puis-je passer à une autre source dans un délai d'une semaine ? Amaka ne le peut pas : ses étiquettes et ses bouchons ne s'adaptent qu'à sa bouteille."
+   ],
+   "panel": {
+    "kicker": "Troisième étape",
+    "heading": "Ce matériau est-il critique ?",
+    "items": [
+     "Puis-je fabriquer le produit sans ?",
+     "Puis-je changer de source en une semaine ?",
+     "Les clients remarqueraient-ils un changement ?",
+     "Entourez n’importe quelle succursale avec un seul fournisseur"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Les clients remarqueraient-ils un changement ? Si oui, un substitut comporte un risque de qualité."
+   ],
+   "panel": {
+    "kicker": "Troisième étape",
+    "heading": "Ce matériau est-il critique ?",
+    "items": [
+     "Puis-je fabriquer le produit sans ?",
+     "Puis-je changer de source en une semaine ?",
+     "Les clients remarqueraient-ils un changement ?",
+     "Entourez n’importe quelle succursale avec un seul fournisseur"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Un fournisseur dont l’absence arrêterait la production constitue un point de défaillance unique. Si seule votre imprimante contient le design de votre étiquette, la solution est gratuite : conservez votre propre copie et partagez-la avec une deuxième imprimante."
+   ],
+   "panel": {
+    "kicker": "Troisième étape",
+    "heading": "Ce matériau est-il critique ?",
+    "items": [
+     "Puis-je fabriquer le produit sans ?",
+     "Puis-je changer de source en une semaine ?",
+     "Les clients remarqueraient-ils un changement ?",
+     "Entourez n’importe quelle succursale avec un seul fournisseur"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Matériaux de premier rang en termes de dépenses annuelles. Il s’agit d’une analyse ABC. Dans l'atelier d'uniformes de Bisi, deux tissus sur huit représentent 75 % de ses dépenses.",
+    "Ajoutez ensuite le risque d’approvisionnement, en utilisant la matrice de Kraljic."
+   ],
+   "panel": {
+    "kicker": "Classement par valeur et risque",
+    "heading": "Quatre cartons pour vos matériaux",
+    "items": [
+     "Stratégique : partenaire, secours, stock de sécurité",
+     "Effet de levier : comparer les devis, négocier",
+     "Goulot d'étranglement : stock supplémentaire ou deuxième source",
+     "Non critique : continuez à acheter simplement"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Les articles stratégiques génèrent de grosses dépenses et peu de bonnes sources, comme le tissu à carreaux aux couleurs de l'école de Bisi. Construisez une relation étroite et approuvez une sauvegarde avant une crise."
+   ],
+   "panel": {
+    "kicker": "Classement par valeur et risque",
+    "heading": "Quatre cartons pour vos matériaux",
+    "items": [
+     "Stratégique : partenaire, secours, stock de sécurité",
+     "Effet de levier : comparer les devis, négocier",
+     "Goulot d'étranglement : stock supplémentaire ou deuxième source",
+     "Non critique : continuez à acheter simplement"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Les articles à effet de levier génèrent de grosses dépenses mais de nombreux fournisseurs, comme les chemises blanches. Comparez les devis et négociez."
+   ],
+   "panel": {
+    "kicker": "Classement par valeur et risque",
+    "heading": "Quatre cartons pour vos matériaux",
+    "items": [
+     "Stratégique : partenaire, secours, stock de sécurité",
+     "Effet de levier : comparer les devis, négocier",
+     "Goulot d'étranglement : stock supplémentaire ou deuxième source",
+     "Non critique : continuez à acheter simplement"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "grain_sacks",
+   "say": [
+    "Les articles goulot d'étranglement sont bon marché mais difficiles à obtenir, comme les fermetures éclair de la couleur exigée par l'école. Une rupture de stock arrête la livraison, alors conservez un stock supplémentaire ou trouvez une deuxième source."
+   ],
+   "panel": {
+    "kicker": "Classement par valeur et risque",
+    "heading": "Quatre cartons pour vos matériaux",
+    "items": [
+     "Stratégique : partenaire, secours, stock de sécurité",
+     "Effet de levier : comparer les devis, négocier",
+     "Goulot d'étranglement : stock supplémentaire ou deuxième source",
+     "Non critique : continuez à acheter simplement"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "grain_sacks",
+   "say": [
+    "Les éléments non critiques, comme le fil, nécessitent le moins de temps de réflexion possible."
+   ],
+   "panel": {
+    "kicker": "Classement par valeur et risque",
+    "heading": "Quatre cartons pour vos matériaux",
+    "items": [
+     "Stratégique : partenaire, secours, stock de sécurité",
+     "Effet de levier : comparer les devis, négocier",
+     "Goulot d'étranglement : stock supplémentaire ou deuxième source",
+     "Non critique : continuez à acheter simplement"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "globe_export",
+   "say": [
+    "Un bon beurre de karité signifie quelque chose de différent pour chaque commerçant. Une spécification est une brève description écrite de ce que vous acceptez exactement.",
+    "Par exemple, Funke écrit : du beurre de karité non raffiné, à usage cosmétique."
+   ],
+   "panel": {
+    "kicker": "Spécifications",
+    "heading": "Écrivez une spécification que vous pouvez réellement vérifier",
+    "items": [
+     "Nom, type et grade",
+     "Apparence, odeur et sensation",
+     "Emballage et étiquetage",
+     "Conserver un échantillon de référence",
+     "Essai : mesurer les déchets"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "globe_export",
+   "say": [
+    "Ivoire à jaune pâle, lisse, sans sable ni gouttes d'eau. Légère odeur de noisette. Rejeter s’il est aigre ou rance."
+   ],
+   "panel": {
+    "kicker": "Spécifications",
+    "heading": "Écrivez une spécification que vous pouvez réellement vérifier",
+    "items": [
+     "Nom, type et grade",
+     "Apparence, odeur et sensation",
+     "Emballage et étiquetage",
+     "Conserver un échantillon de référence",
+     "Essai : mesurer les déchets"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Seaux propres et scellés avec la date d'emballage sur le couvercle. Et elle conserve comme standard un pot de 250 g provenant d’une livraison approuvée."
+   ],
+   "panel": {
+    "kicker": "Spécifications",
+    "heading": "Écrivez une spécification que vous pouvez réellement vérifier",
+    "items": [
+     "Nom, type et grade",
+     "Apparence, odeur et sensation",
+     "Emballage et étiquetage",
+     "Conserver un échantillon de référence",
+     "Essai : mesurer les déchets"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Pour un nouveau fournisseur, elle fait fondre et égoutte 1 kg. Le nouveau beurre laissait 100 g de grains, soit 10 % de déchets. Celui de son fournisseur agréé était d'environ 1 %.",
+    "Utilisez des contrôles que vous pouvez vraiment faire : regardez, sentez, pesez, mesurez ou effectuez un petit lot de tests."
+   ],
+   "panel": {
+    "kicker": "Spécifications",
+    "heading": "Écrivez une spécification que vous pouvez réellement vérifier",
+    "items": [
+     "Nom, type et grade",
+     "Apparence, odeur et sensation",
+     "Emballage et étiquetage",
+     "Conserver un échantillon de référence",
+     "Essai : mesurer les déchets"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Approuvez un nouveau fournisseur seulement après un petit essai.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Si vous achetez des produits chimiques tels que de la soude caustique ou des acides, n'acceptez que le contenant d'origine scellé et étiqueté, accompagné si possible d'une fiche de données de sécurité.",
+    "N’acceptez jamais un produit chimique dans une bouteille d’eau sans étiquette. Conservez les produits chimiques loin des aliments et hors de portée des enfants.",
+    "Les fraudeurs se font passer pour des fournisseurs en ligne. Commencez par un petit essai, payez sur un compte dont le nom correspond à l'entreprise et conservez le reçu."
+   ],
+   "panel": {
+    "kicker": "La sécurité avant tout",
+    "heading": "Règles d'achat sûres",
+    "items": [
+     "Produits chimiques : contenant d'origine scellé et étiqueté",
+     "Demandez une fiche de données de sécurité si possible",
+     "Conservez les produits chimiques loin des aliments et des enfants",
+     "Nouveau fournisseur : petite commande à l'essai d'abord",
+     "Payez uniquement sur un compte correspondant à l'entreprise",
+     "Conservez chaque reçu de transfert"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "À retenir. Votre nomenclature montre où va votre argent. De nombreuses pénuries commencent au niveau 2 ou 3. Un seul fournisseur constitue un point de défaillance unique.",
+    "Les éléments stratégiques nécessitent une sauvegarde testée. Et une spécification écrite permet de vérifier la qualité."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Votre nomenclature montre où va l'argent",
+     "De nombreuses pénuries commencent au niveau 2 ou 3",
+     "Un fournisseur signifie un point de défaillance unique",
+     "Les éléments stratégiques nécessitent une sauvegarde testée",
+     "Une spécification écrite rend la qualité vérifiable"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Maintenant, entraînez-vous. Rédigez une nomenclature et une carte d'approvisionnement pour votre produit le plus vendu, classez vos matériaux et rédigez une spécification avec vos règles d'approvisionnement.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâche pratique",
+    "heading": "Vos tâches pratiques",
+    "items": [
+     "Cartographier la chaîne d'approvisionnement d'un produit",
+     "Classez vos matériaux",
+     "Rédigez une spécification et vos règles d'approvisionnement"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

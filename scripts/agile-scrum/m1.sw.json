@@ -1,0 +1,454 @@
+{
+ "course": "agile-scrum",
+ "module": "m1",
+ "title": "Jinsi Agile na Scrum hufanya kazi kweli, na wakati wa kutumia Kanban",
+ "course_title": "Agile & Scrum katika Mazoezi",
+ "shots": [
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Jinsi Agile na Scrum hufanya kazi kweli, na wakati wa kutumia Kanban.",
+    "Hii ni video ya moduli ya 1 ya Agile na Scrum katika Mazoezi."
+   ]
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Pichani timu inayojenga kituo cha karo za shule huko Abuja. Katika mradi unaoendeshwa na mpango, mara nyingi huitwa maporomoko ya maji, hukusanya kila mahitaji kwanza, hujenga kwa miezi, na kupima mwishoni. Wamiliki wa shule hawaoni chochote kinachoweza kutumika hadi mwezi wa sita."
+   ],
+   "panel": {
+    "kicker": "Kwanini Agile",
+    "heading": "Utoaji unaoendeshwa na mpango dhidi ya Agile",
+    "mode": "compare",
+    "left_h": "Inaendeshwa na mpango",
+    "left": [
+     "Mahitaji yote yamewekwa mapema",
+     "Utoaji mmoja mwishoni",
+     "Mabadiliko ni ya gharama kubwa na yanapingana",
+     "Hatari iligunduliwa marehemu"
+    ],
+    "right_h": "Agile",
+    "right": [
+     "Mahitaji yaliyosafishwa kila mzunguko",
+     "Sehemu ya kufanya kazi kila baada ya wiki 1 hadi 4",
+     "Mabadiliko yanayotarajiwa na yaliyopangwa",
+     "Hatari iliyojitokeza mapema"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Timu ya Agile hufanya kazi kwa mizunguko mifupi ya wiki 1 hadi 4. Kila mzunguko unaisha na kipande kidogo cha kufanya kazi ambacho watumiaji halisi wanaweza kujaribu. Wanakusanya maoni na kurekebisha mpango.",
+    "Agile haimaanishi hakuna mpango. Mbinu zote mbili zinapanga. Tofauti ni mara ngapi mpango huo unakutana na ukweli."
+   ],
+   "panel": {
+    "kicker": "Kwanini Agile",
+    "heading": "Utoaji unaoendeshwa na mpango dhidi ya Agile",
+    "mode": "compare",
+    "left_h": "Inaendeshwa na mpango",
+    "left": [
+     "Mahitaji yote yamewekwa mapema",
+     "Utoaji mmoja mwishoni",
+     "Mabadiliko ni ya gharama kubwa na yanapingana",
+     "Hatari iligunduliwa marehemu"
+    ],
+    "right_h": "Agile",
+    "right": [
+     "Mahitaji yaliyosafishwa kila mzunguko",
+     "Sehemu ya kufanya kazi kila baada ya wiki 1 hadi 4",
+     "Mabadiliko yanayotarajiwa na yaliyopangwa",
+     "Hatari iliyojitokeza mapema"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Timu ilidhani wazazi wangelipa kwa kadi. Wengi hulipa kwa uhamisho wa benki au USSD."
+   ],
+   "card": {
+    "title": "Gharama ya ugunduzi wa marehemu",
+    "rows": [],
+    "note": "Vielelezo, takwimu takriban."
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Ikiwa na watengenezaji 4 wenye thamani ya naira 25,000 kwa siku, timu inagharimu naira 100,000 kwa siku."
+   ],
+   "card": {
+    "title": "Gharama ya ugunduzi wa marehemu",
+    "rows": [
+     [
+      "Gharama ya timu kwa siku",
+      "100,000"
+     ]
+    ],
+    "note": "Vielelezo, takwimu takriban."
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Katika maporomoko ya maji, hitilafu inaonekana katika kupima baada ya siku 60. 30% ya kazi inategemea, hivyo siku 18 lazima zifanyike upya. Hiyo ni naira 1,800,000."
+   ],
+   "card": {
+    "title": "Gharama ya ugunduzi wa marehemu",
+    "rows": [
+     [
+      "Gharama ya timu kwa siku",
+      "100,000"
+     ],
+     [
+      "Rework ya maporomoko ya maji, siku 18",
+      "1,800,000"
+     ]
+    ],
+    "note": "Vielelezo, takwimu takriban."
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Katika Agile, wazazi hujaribu skrini ya kwanza ya malipo baada ya mbio 1. Takriban siku 3 tu za kazi zinategemea wazo lisilo sahihi. Hiyo ni naira 300,000.",
+    "Moja ya sita ya gharama, na karibu miezi miwili ya kuchelewa kuepukwa. Hiyo ndiyo hoja ya msingi kwa mizunguko mifupi: kagua kile kilichotokea, kisha ubadilishe."
+   ],
+   "card": {
+    "title": "Gharama ya ugunduzi wa marehemu",
+    "rows": [
+     [
+      "Gharama ya timu kwa siku",
+      "100,000"
+     ],
+     [
+      "Rework ya maporomoko ya maji, siku 18",
+      "1,800,000"
+     ],
+     [
+      "Rework agile, siku 3",
+      "300,000"
+     ]
+    ],
+    "note": "Vielelezo, takwimu takriban."
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Scrum ndio mfumo unaotumika zaidi kuweka Agile kufanya kazi. Imefafanuliwa katika Mwongozo usiolipishwa wa Scrum, uliosasishwa mara ya mwisho mnamo Novemba 2020. Timu ya Scrum kwa kawaida huwa ni watu 10 au wachache zaidi, wakiwa na uwajibikaji mara tatu.",
+    "Mmiliki wa Bidhaa ni mtu mmoja, si kamati. Yeye huongeza thamani na kuagiza Rejea ya Bidhaa."
+   ],
+   "panel": {
+    "kicker": "Timu ya Scrum",
+    "heading": "Uwajibikaji tatu",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Product Owner",
+      "d": "Mtu mmoja, sio kamati. Huongeza thamani na kuagiza Rejea ya Bidhaa."
+     },
+     {
+      "t": "Mwalimu wa Scrum",
+      "d": "Kiongozi anayetumikia: makocha, kuwezesha, kuondosha blockers. Sio msimamizi wa kazi."
+     },
+     {
+      "t": "Watengenezaji",
+      "d": "Unda Ongezeko linaloweza kutumika kila Sprint. Wajaribu, wabunifu na waandishi wanahesabu pia."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Scrum Master ni kiongozi anayehudumu. Anafundisha na kuondoa wazuiaji. Kosa la kawaida ni kufanya kazi kama meneja wa kazi anayekabidhi kazi."
+   ],
+   "panel": {
+    "kicker": "Timu ya Scrum",
+    "heading": "Uwajibikaji tatu",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Product Owner",
+      "d": "Mtu mmoja, sio kamati. Huongeza thamani na kuagiza Rejea ya Bidhaa."
+     },
+     {
+      "t": "Mwalimu wa Scrum",
+      "d": "Kiongozi anayetumikia: makocha, kuwezesha, kuondosha blockers. Sio msimamizi wa kazi."
+     },
+     {
+      "t": "Watengenezaji",
+      "d": "Unda Ongezeko linaloweza kutumika kila Sprint. Wajaribu, wabunifu na waandishi wanahesabu pia."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Wasanidi Programu huunda Ongezeko linaloweza kutumika kila Mbio. Msanidi programu haimaanishi watengenezaji programu pekee. Wajaribu, wabunifu na waandishi pia ni Wasanidi Programu."
+   ],
+   "panel": {
+    "kicker": "Timu ya Scrum",
+    "heading": "Uwajibikaji tatu",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Product Owner",
+      "d": "Mtu mmoja, sio kamati. Huongeza thamani na kuagiza Rejea ya Bidhaa."
+     },
+     {
+      "t": "Mwalimu wa Scrum",
+      "d": "Kiongozi anayetumikia: makocha, kuwezesha, kuondosha blockers. Sio msimamizi wa kazi."
+     },
+     {
+      "t": "Watengenezaji",
+      "d": "Unda Ongezeko linaloweza kutumika kila Sprint. Wajaribu, wabunifu na waandishi wanahesabu pia."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Sanduku la saa ni muda wa juu zaidi. Sprint inashikilia matukio mengine yote. Timu nyingi hutumia wiki 2, ambayo ni siku 10 za kazi."
+   ],
+   "panel": {
+    "kicker": "Matukio matano",
+    "heading": "Sprint ya wiki 2, tukio kwa tukio",
+    "items": [
+     "Sprint: Wiki 2, urefu uliowekwa",
+     "Upangaji wa Sprint: kama masaa 4",
+     "Scrum ya kila siku: dakika 15, kila siku",
+     "Mapitio ya Sprint: kama masaa 2",
+     "Sprint Retrospective: kuhusu 1.5 masaa"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Upangaji wa Sprint huamua kwa nini Sprint hii ni ya thamani na nini kinaweza kufanywa. Karibu masaa 4 kwa wiki 2."
+   ],
+   "panel": {
+    "kicker": "Matukio matano",
+    "heading": "Sprint ya wiki 2, tukio kwa tukio",
+    "items": [
+     "Sprint: Wiki 2, urefu uliowekwa",
+     "Upangaji wa Sprint: kama masaa 4",
+     "Scrum ya kila siku: dakika 15, kila siku",
+     "Mapitio ya Sprint: kama masaa 2",
+     "Sprint Retrospective: kuhusu 1.5 masaa"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Scrum ya Kila siku ni dakika 15 kila siku ya kazi. Wasanidi programu huangalia maendeleo kuelekea Lengo la Sprint na kurekebisha mpango."
+   ],
+   "panel": {
+    "kicker": "Matukio matano",
+    "heading": "Sprint ya wiki 2, tukio kwa tukio",
+    "items": [
+     "Sprint: Wiki 2, urefu uliowekwa",
+     "Upangaji wa Sprint: kama masaa 4",
+     "Scrum ya kila siku: dakika 15, kila siku",
+     "Mapitio ya Sprint: kama masaa 2",
+     "Sprint Retrospective: kuhusu 1.5 masaa"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Mapitio ya Sprint hukagua matokeo na wadau, na Retrospective inapanga jinsi ya kufanya kazi vizuri zaidi.",
+    "Kwa mfano, timu ya Amaka hutumia saa 10 kwa kila mtu kwa matukio kati ya takriban 80. Hiyo ni 12.5%. Inafaa wakati meneja anauliza, kwa nini mikutano mingi?"
+   ],
+   "panel": {
+    "kicker": "Matukio matano",
+    "heading": "Sprint ya wiki 2, tukio kwa tukio",
+    "items": [
+     "Sprint: Wiki 2, urefu uliowekwa",
+     "Upangaji wa Sprint: kama masaa 4",
+     "Scrum ya kila siku: dakika 15, kila siku",
+     "Mapitio ya Sprint: kama masaa 2",
+     "Sprint Retrospective: kuhusu 1.5 masaa"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Kanban hana Sprints na hana majukumu mahususi. Kwanza, onyesha kazi kwenye ubao iliyo na safu wima kama Kufanya, Kufanya, Kukagua, Kumaliza."
+   ],
+   "panel": {
+    "kicker": "Kanban",
+    "heading": "Kanban katika mazoea manne",
+    "items": [
+     "Tazama kazi kwenye ubao",
+     "Weka kikomo kazi inayoendelea",
+     "Pima muda wa matumizi na mzunguko",
+     "Kuboresha mfululizo"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Pili, punguza kazi inayoendelea. Kwa mfano, hakuna zaidi ya kadi 3 katika Kufanya. Wakati safu imejaa, maliza kitu kwanza."
+   ],
+   "panel": {
+    "kicker": "Kanban",
+    "heading": "Kanban katika mazoea manne",
+    "items": [
+     "Tazama kazi kwenye ubao",
+     "Weka kikomo kazi inayoendelea",
+     "Pima muda wa matumizi na mzunguko",
+     "Kuboresha mfululizo"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "rule": "Wakati Kufanya kumejaa, maliza kitu kabla ya kuanza zaidi.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Tatu, kupima mtiririko. Sheria ya Little inasema muda wa mzunguko ni sawa na kazi inayoendelea ikigawanywa na matokeo.",
+    "Kwa mfano, timu ya usaidizi ya Funmi ina tikiti 30 zilizofunguliwa na hufunga 10 kwa siku. Hiyo ni siku 3 kwa kila tikiti. Anaweka kikomo cha tikiti zilizofunguliwa hadi 15, kwa hivyo kila tikiti iliyoanza huchukua siku 1.5."
+   ],
+   "panel": {
+    "kicker": "Kanban",
+    "heading": "Kanban katika mazoea manne",
+    "items": [
+     "Tazama kazi kwenye ubao",
+     "Weka kikomo kazi inayoendelea",
+     "Pima muda wa matumizi na mzunguko",
+     "Kuboresha mfululizo"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Wakati Kufanya kumejaa, maliza kitu kabla ya kuanza zaidi.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Nne, kagua ubao na uondoe vikwazo. Lakini ikiwa tikiti 20 zitafika kwa siku na 10 tu kufungwa, hakuna kikomo kinachoweza kuficha hilo. Kuwa na mazungumzo ya uaminifu ya uwezo."
+   ],
+   "panel": {
+    "kicker": "Kanban",
+    "heading": "Kanban katika mazoea manne",
+    "items": [
+     "Tazama kazi kwenye ubao",
+     "Weka kikomo kazi inayoendelea",
+     "Pima muda wa matumizi na mzunguko",
+     "Kuboresha mfululizo"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Wakati Kufanya kumejaa, maliza kitu kabla ya kuanza zaidi.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Linganisha mbinu ya kazi. Programu mpya inafaa Scrum, kwa sababu suluhu haina uhakika. Dawati la usaidizi linafaa Kanban, kwa sababu kazi hufika kila saa.",
+    "Borehole kwa muundo unaojulikana inafaa mpango uliowekwa. Kampeni pamoja na maombi ya dharura yanafaa mseto.",
+    "Iwapo kazi ya dharura ilivunja mpango karibu kila wiki mwezi uliopita, chagua Kanban au weka bila uwezo."
+   ],
+   "panel": {
+    "kicker": "Chagua kwa busara",
+    "heading": "Ni mbinu gani inafaa kazi?",
+    "items": [
+     "Programu au tovuti mpya: Scrum",
+     "Dawati la usaidizi au usaidizi: Kanban",
+     "Borehole kwa muundo unaojulikana: mpango unaoendeshwa",
+     "Kampeni pamoja na kazi ya dharura: mseto"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Kukumbuka. Agile inamaanisha vipande vidogo vya kufanya kazi, vinavyoangaliwa na watumiaji halisi mara nyingi. Ugunduzi wa marehemu unagharimu zaidi kuliko mapema.",
+    "Scrum ina Mmiliki wa Bidhaa, Mwalimu wa Scrum na Wasanidi Programu. Scrum ya kila siku ni dakika 15. Na kazi ya chini inayoendelea inamaanisha kumaliza haraka."
+   ],
+   "panel": {
+    "kicker": "Pointi muhimu",
+    "heading": "Kumbuka",
+    "items": [
+     "Agile ina maana ya vipande vidogo vya kazi, vinavyoangaliwa mara nyingi",
+     "Ugunduzi wa marehemu unagharimu zaidi kuliko mapema",
+     "Mmiliki wa Bidhaa, Scrum Master, Watengenezaji",
+     "Scrum ya kila siku ni dakika 15",
+     "Muda wa mzunguko = kazi inaendelea ÷ upitishaji"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Majukumu yako: tambua ugunduzi wa marehemu katika mradi unaoujua, tengeneza kalenda ya Sprint na uhesabu saa za tukio, na utambue aina tatu za kazi ukitumia Sheria ya Kidogo.",
+    "Endelea na masomo hapa chini."
+   ],
+   "panel": {
+    "kicker": "Kazi ya mazoezi",
+    "heading": "Kazi zako za mazoezi",
+    "items": [
+     "Tambua ugunduzi wa marehemu katika mradi wa zamani",
+     "Unda kalenda yako ya Sprint",
+     "Tambua aina tatu za kazi"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

@@ -1,0 +1,518 @@
+{
+ "course": "factory-workshop-setup-small-scale",
+ "module": "m3",
+ "title": "Grandes pedidos, sua equipe e um plano de expansão de 90 dias",
+ "course_title": "Configuração de fábrica e oficina (pequena escala)",
+ "shots": [
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Grandes pedidos, sua equipe e um plano de expansão de 90 dias.",
+    "Este é o vídeo do módulo três de Configuração de Fábrica e Oficina."
+   ]
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Uma oficina organizada e segura ajuda você a conquistar compradores maiores. Mas apenas a capacidade honesta os mantém. Nunca prometa mais do que sua oficina pode produzir."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Cresça sem quebrar promessas",
+    "items": [
+     "Julgue uma grande ordem contra a capacidade",
+     "Treine as pessoas para que o trabalho nunca dependa de uma",
+     "Expanda no gargalo, com retorno honesto"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "À medida que as pessoas ingressam, as regras do seu espaço tornam-se regras pessoais."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Cresça sem quebrar promessas",
+    "items": [
+     "Julgue uma grande ordem contra a capacidade",
+     "Treine as pessoas para que o trabalho nunca dependa de uma",
+     "Expanda no gargalo, com retorno honesto"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "E quando você cresce, você gasta onde aumenta a produção, com números que você pode defender."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Cresça sem quebrar promessas",
+    "items": [
+     "Julgue uma grande ordem contra a capacidade",
+     "Treine as pessoas para que o trabalho nunca dependa de uma",
+     "Expanda no gargalo, com retorno honesto"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Por exemplo, um grupo hoteleiro pede a Hauwa 400 malas em 18 dias úteis. Ela faz 22 sacolas por dia e os clientes regulares levam 15. Então ela tem 7 sobras por dia."
+   ],
+   "panel": {
+    "kicker": "O pedido se encaixa?",
+    "heading": "Pedido de 400 sacolas da Hauwa em 18 dias",
+    "items": [
+     "Capacidade extra: 22 - 15 = 7 malas por dia",
+     "Mais de 18 dias: 7 x 18 = 126 malas",
+     "Déficit: 400 - 126 = 274 sacas",
+     "Opções de oferta: dividir, adicionar uma máquina ou parceiro"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Em 18 dias, são 126 sacas."
+   ],
+   "panel": {
+    "kicker": "O pedido se encaixa?",
+    "heading": "Pedido de 400 sacolas da Hauwa em 18 dias",
+    "items": [
+     "Capacidade extra: 22 - 15 = 7 malas por dia",
+     "Mais de 18 dias: 7 x 18 = 126 malas",
+     "Déficit: 400 - 126 = 274 sacas",
+     "Opções de oferta: dividir, adicionar uma máquina ou parceiro"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Ela tem 274 sacas a menos. Ela não pode cumprir a data como está."
+   ],
+   "panel": {
+    "kicker": "O pedido se encaixa?",
+    "heading": "Pedido de 400 sacolas da Hauwa em 18 dias",
+    "items": [
+     "Capacidade extra: 22 - 15 = 7 malas por dia",
+     "Mais de 18 dias: 7 x 18 = 126 malas",
+     "Déficit: 400 - 126 = 274 sacas",
+     "Opções de oferta: dividir, adicionar uma máquina ou parceiro"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Então ela oferece opções: entregar 126 agora e o restante mais tarde, adicionar uma terceira máquina e entregar em cerca de 4 semanas, ou subcontratar um produtor confiável sob um acordo por escrito.",
+    "Ela propõe 4 semanas com um depósito de 50%, por escrito."
+   ],
+   "panel": {
+    "kicker": "O pedido se encaixa?",
+    "heading": "Pedido de 400 sacolas da Hauwa em 18 dias",
+    "items": [
+     "Capacidade extra: 22 - 15 = 7 malas por dia",
+     "Mais de 18 dias: 7 x 18 = 126 malas",
+     "Déficit: 400 - 126 = 274 sacas",
+     "Opções de oferta: dividir, adicionar uma máquina ou parceiro"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Dizer não a um encontro impossível é melhor do que perdê-lo.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Verifique todos os cinco antes de dizer sim. Os materiais são comprados antes do comprador pagar, portanto, combine um depósito por escrito.",
+    "Obtenha a amostra aprovada por escrito e mantenha-a como padrão. Confirme qualquer transferência em seu próprio aplicativo bancário, não por meio de uma captura de tela ou alerta de texto, antes de liberar mercadorias."
+   ],
+   "panel": {
+    "kicker": "Antes de você dizer sim",
+    "heading": "Antes de aceitar um grande pedido",
+    "items": [
+     "A capacidade sobressalente cobre isso",
+     "O dinheiro para materiais está garantido",
+     "A qualidade pode ser mantida",
+     "A data de entrega é realista",
+     "Os termos estão por escrito"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "No primeiro dia, conduza uma nova pessoa por todo o fluxo. Mostre a saída, extintor, kit de primeiros socorros, interruptor principal e depósito de produtos químicos. Em seguida, treine cada tarefa em quatro etapas. Diga: explique a norma e os pontos de segurança."
+   ],
+   "panel": {
+    "kicker": "Treinando pessoas",
+    "heading": "Ensine qualquer tarefa em quatro etapas",
+    "items": [
+     "Diga: a tarefa, o padrão, os pontos de segurança",
+     "Show: faça devagar enquanto eles assistem",
+     "Façam juntos: eles fazem, você corrige",
+     "Verifique e assine: sozinho, de acordo com o padrão"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Show: faça devagar enquanto eles assistem."
+   ],
+   "panel": {
+    "kicker": "Treinando pessoas",
+    "heading": "Ensine qualquer tarefa em quatro etapas",
+    "items": [
+     "Diga: a tarefa, o padrão, os pontos de segurança",
+     "Show: faça devagar enquanto eles assistem",
+     "Façam juntos: eles fazem, você corrige",
+     "Verifique e assine: sozinho, de acordo com o padrão"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Façam juntos: eles fazem enquanto você assiste e corrigem na hora."
+   ],
+   "panel": {
+    "kicker": "Treinando pessoas",
+    "heading": "Ensine qualquer tarefa em quatro etapas",
+    "items": [
+     "Diga: a tarefa, o padrão, os pontos de segurança",
+     "Show: faça devagar enquanto eles assistem",
+     "Façam juntos: eles fazem, você corrige",
+     "Verifique e assine: sozinho, de acordo com o padrão"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Confira e assine: eles fazem isso sozinhos, conforme padrão, mais de uma vez, e você grava."
+   ],
+   "panel": {
+    "kicker": "Treinando pessoas",
+    "heading": "Ensine qualquer tarefa em quatro etapas",
+    "items": [
+     "Diga: a tarefa, o padrão, os pontos de segurança",
+     "Show: faça devagar enquanto eles assistem",
+     "Façam juntos: eles fazem, você corrige",
+     "Verifique e assine: sozinho, de acordo com o padrão"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "No primeiro dia, percorra todo o fluxo e mostre todos os pontos de segurança.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Uma matriz de competências pontua cada pessoa em cada tarefa, de 0, não treinado, a 3, pode treinar outras pessoas. Hauwa viu que só ela poderia cortar e inspecionar. Se ela viajar, ambas as etapas param. Então ela está treinando um maquinista e um aprendiz."
+   ],
+   "panel": {
+    "kicker": "Organizando pessoas",
+    "heading": "Três ferramentas para uma equipe pequena",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Skills matrix",
+      "d": "Pessoas na lateral, tarefas na parte superior, pontuadas de 0 a 3. Encontre tarefas que apenas uma pessoa pode realizar."
+     },
+     {
+      "t": "Zone owners",
+      "d": "Cada zona tem um proprietário nomeado que verifica diariamente se está abastecida, limpa e segura."
+     },
+     {
+      "t": "Cuidados com a máquina",
+      "d": "Cada máquina possui uma pessoa nomeada para cuidados de rotina, seguindo o manual."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Dê a cada zona um proprietário nomeado, que reportará qualquer coisa que esteja fraca ou quebrada."
+   ],
+   "panel": {
+    "kicker": "Organizando pessoas",
+    "heading": "Três ferramentas para uma equipe pequena",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Skills matrix",
+      "d": "Pessoas na lateral, tarefas na parte superior, pontuadas de 0 a 3. Encontre tarefas que apenas uma pessoa pode realizar."
+     },
+     {
+      "t": "Zone owners",
+      "d": "Cada zona tem um proprietário nomeado que verifica diariamente se está abastecida, limpa e segura."
+     },
+     {
+      "t": "Cuidados com a máquina",
+      "d": "Cada máquina possui uma pessoa nomeada para cuidados de rotina, seguindo o manual."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "E dê a cada máquina uma pessoa com nome para seus cuidados de rotina. Forneça equipamento de proteção gratuitamente e use-o você mesmo. Se o proprietário pular os óculos, todos o farão."
+   ],
+   "panel": {
+    "kicker": "Organizando pessoas",
+    "heading": "Três ferramentas para uma equipe pequena",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Skills matrix",
+      "d": "Pessoas na lateral, tarefas na parte superior, pontuadas de 0 a 3. Encontre tarefas que apenas uma pessoa pode realizar."
+     },
+     {
+      "t": "Zone owners",
+      "d": "Cada zona tem um proprietário nomeado que verifica diariamente se está abastecida, limpa e segura."
+     },
+     {
+      "t": "Cuidados com a máquina",
+      "d": "Cada máquina possui uma pessoa nomeada para cuidados de rotina, seguindo o manual."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Expanda no gargalo. Para Hauwa isso é costura, então ela avalia o preço de uma terceira máquina. A capacidade aumentaria para 792 sacas por mês, mas ela não presume que venderá todas. A partir das conversas com os compradores, ela espera inicialmente cerca de 60 sacolas extras."
+   ],
+   "card": {
+    "title": "Vale a pena uma terceira máquina?",
+    "rows": [],
+    "note": "Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "A máquina, a mesa e a tomada custaram cerca de 500 mil nairas. As malas extras rendem 180 mil nairas por mês. Um terceiro maquinista e energia custam 85.000."
+   ],
+   "card": {
+    "title": "Vale a pena uma terceira máquina?",
+    "rows": [
+     [
+      "Custo único",
+      "500,000"
+     ],
+     [
+      "Contribuição extra por mês",
+      "180,000"
+     ],
+     [
+      "Custos operacionais extras por mês",
+      "85,000"
+     ]
+    ],
+    "note": "Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Isso deixa um lucro extra de 95.000 nairas por mês. O retorno é o custo único dividido pelo lucro mensal extra: cerca de 5,3 meses."
+   ],
+   "card": {
+    "title": "Vale a pena uma terceira máquina?",
+    "rows": [
+     [
+      "Custo único",
+      "500,000"
+     ],
+     [
+      "Contribuição extra por mês",
+      "180,000"
+     ],
+     [
+      "Custos operacionais extras por mês",
+      "85,000"
+     ]
+    ],
+    "note": "Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Em vendas cautelosas, a máquina se paga em cerca de cinco a seis meses."
+   ],
+   "panel": {
+    "kicker": "Teste o caso ruim",
+    "heading": "E se as vendas forem mais fracas?",
+    "mode": "compare",
+    "left_h": "60 malas extras",
+    "left": [
+     "Lucro de 95.000 nairas por mês",
+     "Retorno de cerca de 5,3 meses"
+    ],
+    "right_h": "30 malas extras",
+    "right": [
+     "Lucro de 5.000 nairas por mês",
+     "Retorno 100 meses"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Mas se ela vender apenas 30 sacas extras, o lucro cai para 5.000 nairas por mês e o retorno passa a ser de 100 meses. É por isso que ela aguarda pedidos confirmados e um depósito antes de comprar. Nunca peça emprestado contra uma previsão de capacidade total."
+   ],
+   "panel": {
+    "kicker": "Teste o caso ruim",
+    "heading": "E se as vendas forem mais fracas?",
+    "mode": "compare",
+    "left_h": "60 malas extras",
+    "left": [
+     "Lucro de 95.000 nairas por mês",
+     "Retorno de cerca de 5,3 meses"
+    ],
+    "right_h": "30 malas extras",
+    "right": [
+     "Lucro de 5.000 nairas por mês",
+     "Retorno 100 meses"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Escreva seu plano em quatro fases. Confirme a demanda antes de comprar. Em seguida, instale, com uma tomada segura e um local que mantenha a passagem desobstruída."
+   ],
+   "panel": {
+    "kicker": "Seus 90 dias",
+    "heading": "Um plano de expansão de 90 dias",
+    "items": [
+     "Dias 1 a 30: confirme a demanda, obtenha cotações",
+     "Dias 31 a 60: comprar, instalar, conectar",
+     "Dias 61-75: contratar e treinar",
+     "Dias 76-90: executar, medir, revisar"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Reserve tempo para contratar e treinar antes de confiar na nova capacidade e atualize sua avaliação de riscos. No dia 90, revise a produção, as vendas, os custos operacionais e os incidentes."
+   ],
+   "panel": {
+    "kicker": "Seus 90 dias",
+    "heading": "Um plano de expansão de 90 dias",
+    "items": [
+     "Dias 1 a 30: confirme a demanda, obtenha cotações",
+     "Dias 31 a 60: comprar, instalar, conectar",
+     "Dias 61-75: contratar e treinar",
+     "Dias 76-90: executar, medir, revisar"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Para lembrar. Verifique a capacidade, o dinheiro e a qualidade antes de dizer sim. Faça treinamento cruzado para que nenhuma tarefa dependa de uma pessoa. Expanda no gargalo, calcule o retorno em vendas cautelosas e teste-o em um caso ruim."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Lembre-se",
+    "items": [
+     "Verifique capacidade, caixa e qualidade antes de sim",
+     "Treine em quatro etapas; tarefas-chave de treinamento cruzado",
+     "Expanda no gargalo",
+     "Retorno = custo único / lucro mensal extra",
+     "Teste o plano contra um caso ruim"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Suas tarefas: testar um grande pedido em relação à sua capacidade, construir sua matriz de habilidades e plano de indução e elaborar seu plano de expansão de 90 dias.",
+    "Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Pratique tarefas",
+    "heading": "Suas tarefas práticas",
+    "items": [
+     "Teste um grande pedido real ou imaginário",
+     "Construa sua matriz de habilidades e plano de indução",
+     "Elabore seu plano de expansão de 90 dias"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

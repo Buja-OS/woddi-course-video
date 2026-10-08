@@ -1,0 +1,526 @@
+{
+ "course": "no-code-app-development",
+ "module": "m1",
+ "title": "Um aplicativo é a resposta? Custos de dados, tabelas e plataforma",
+ "course_title": "Desenvolvimento de aplicativos sem código",
+ "shots": [
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Um aplicativo é a resposta? Dados, tabelas e custos de plataforma.",
+    "Este é o vídeo do módulo um do Desenvolvimento de aplicativos sem código."
+   ]
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Um construtor de aplicativos sem código permite criar um aplicativo funcional escolhendo telas, campos e regras, em vez de escrever código. Abaixo, cada aplicativo tem três partes. Dados, as informações que eles armazenam."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Cada aplicativo tem três partes",
+    "items": [
+     "Dados: as informações que armazena",
+     "Interface: as telas que as pessoas usam",
+     "Lógica: as regras sobre o que acontece"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Interface, as telas nas quais as pessoas tocam e digitam."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Cada aplicativo tem três partes",
+    "items": [
+     "Dados: as informações que armazena",
+     "Interface: as telas que as pessoas usam",
+     "Lógica: as regras sobre o que acontece"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "E a lógica, as regras sobre o que acontece e quando. O construtor escreve o código. Seu trabalho é projetar bem essas três partes."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Cada aplicativo tem três partes",
+    "items": [
+     "Dados: as informações que armazena",
+     "Interface: as telas que as pessoas usam",
+     "Lógica: as regras sobre o que acontece"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Bons construtores sabem quando não construir. Use a ferramenta mais simples que funciona: planilha, formulário, aplicativo sem código e código personalizado.",
+    "Por exemplo, Nneka dirige uma oficina de alfaiataria em Aba com três aprendizes. Quatro pessoas precisam ver os pedidos, então uma planilha privada não é suficiente."
+   ],
+   "panel": {
+    "kicker": "Antes de construir",
+    "heading": "Cinco perguntas: precisa de um aplicativo?",
+    "items": [
+     "Quantas pessoas tocam nos dados?",
+     "Onde o trabalho é feito?",
+     "Os registros estão vinculados entre si?",
+     "Os erros custam caro?",
+     "O público precisa usá-lo?"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "O trabalho acontece em mesas de corte, não em uma mesa, então os telefones são importantes."
+   ],
+   "panel": {
+    "kicker": "Antes de construir",
+    "heading": "Cinco perguntas: precisa de um aplicativo?",
+    "items": [
+     "Quantas pessoas tocam nos dados?",
+     "Onde o trabalho é feito?",
+     "Os registros estão vinculados entre si?",
+     "Os erros custam caro?",
+     "O público precisa usá-lo?"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Um cliente tem muitos pedidos. Esses são registros vinculados, onde os aplicativos brilham."
+   ],
+   "panel": {
+    "kicker": "Antes de construir",
+    "heading": "Cinco perguntas: precisa de um aplicativo?",
+    "items": [
+     "Quantas pessoas tocam nos dados?",
+     "Onde o trabalho é feito?",
+     "Os registros estão vinculados entre si?",
+     "Os erros custam caro?",
+     "O público precisa usá-lo?"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Duas vezes no mês passado, um vestido foi prometido para a data errada. Portanto, a primeira tela deve mostrar os pedidos com vencimento nos próximos 3 dias."
+   ],
+   "panel": {
+    "kicker": "Antes de construir",
+    "heading": "Cinco perguntas: precisa de um aplicativo?",
+    "items": [
+     "Quantas pessoas tocam nos dados?",
+     "Onde o trabalho é feito?",
+     "Os registros estão vinculados entre si?",
+     "Os erros custam caro?",
+     "O público precisa usá-lo?"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Os clientes continuam usando o WhatsApp, então o aplicativo permanece interno e mais simples. Cabe um aplicativo interno no Google AppSheet."
+   ],
+   "panel": {
+    "kicker": "Antes de construir",
+    "heading": "Cinco perguntas: precisa de um aplicativo?",
+    "items": [
+     "Quantas pessoas tocam nos dados?",
+     "Onde o trabalho é feito?",
+     "Os registros estão vinculados entre si?",
+     "Os erros custam caro?",
+     "O público precisa usá-lo?"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "O modelo de dados é o plano do que seu aplicativo armazena e como as peças se conectam. As telas são fáceis de mudar. A estrutura de dados não é.",
+    "Regra um: uma mesa por tipo de coisa. Evite colunas como Item1, Item2, Item3. Isso quebra o dia em que um cliente traz quatro itens."
+   ],
+   "panel": {
+    "kicker": "Modelagem de dados",
+    "heading": "Quatro regras para seu modelo de dados",
+    "items": [
+     "Uma mesa por tipo de coisa",
+     "Cada linha precisa de uma chave, como UNIQUEID()",
+     "Vincular tabelas com colunas Ref",
+     "Escolha o tipo de coluna correto"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Regra dois: cada linha precisa de uma chave, um valor diferente para cada linha. Nomes são chaves ruins, porque dois clientes podem ser chamados de Bênção."
+   ],
+   "panel": {
+    "kicker": "Modelagem de dados",
+    "heading": "Quatro regras para seu modelo de dados",
+    "items": [
+     "Uma mesa por tipo de coisa",
+     "Cada linha precisa de uma chave, como UNIQUEID()",
+     "Vincular tabelas com colunas Ref",
+     "Escolha o tipo de coluna correto"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Regra três: uma coluna Ref armazena a chave de uma linha em outra tabela. Um cliente, muitos pedidos. Esse é um link um-para-muitos."
+   ],
+   "panel": {
+    "kicker": "Modelagem de dados",
+    "heading": "Quatro regras para seu modelo de dados",
+    "items": [
+     "Uma mesa por tipo de coisa",
+     "Cada linha precisa de uma chave, como UNIQUEID()",
+     "Vincular tabelas com colunas Ref",
+     "Escolha o tipo de coluna correto"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Regra quatro: escolha tipos de coluna como Data, Enum ou Telefone. Eles oferecem verificação gratuita e o teclado certo."
+   ],
+   "panel": {
+    "kicker": "Modelagem de dados",
+    "heading": "Quatro regras para seu modelo de dados",
+    "items": [
+     "Uma mesa por tipo de coisa",
+     "Cada linha precisa de uma chave, como UNIQUEID()",
+     "Vincular tabelas com colunas Ref",
+     "Escolha o tipo de coluna correto"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Se você não consegue desenhar o modelo no papel, você não está pronto para construir.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Bisi possui quatro tabelas: Clientes, Lista de Preços, Pedidos e Itens do Pedido. Cada item do pedido é uma linha, vinculada ao seu pedido e ao seu item."
+   ],
+   "card": {
+    "title": "Pedido de lavanderia de Bisi, elaborado pelo app",
+    "rows": [],
+    "note": "Preços ilustrativos de naira."
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "O total de cada linha é a quantidade vezes o preço. 4 camisas rendem 3.200 nairas. 2 calças rendem 2.000. 1 edredom custa 5.000."
+   ],
+   "card": {
+    "title": "Pedido de lavanderia de Bisi, elaborado pelo app",
+    "rows": [
+     [
+      "4 camisas a 800",
+      "3,200"
+     ],
+     [
+      "2 calças por 1.000",
+      "2,000"
+     ],
+     [
+      "1 edredom por 5.000",
+      "5,000"
+     ]
+    ],
+    "note": "Preços ilustrativos de naira."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "O total do pedido é de 10.200 nairas, calculado pelo app. Adicionar um novo tipo de item requer uma nova linha, não uma nova coluna.",
+    "Um aviso. Para dinheiro, copie o preço na linha do pedido quando ele for criado. Caso contrário, aumentar o preço das camisas altera silenciosamente os pedidos do mês passado."
+   ],
+   "card": {
+    "title": "Pedido de lavanderia de Bisi, elaborado pelo app",
+    "rows": [
+     [
+      "4 camisas a 800",
+      "3,200"
+     ],
+     [
+      "2 calças por 1.000",
+      "2,000"
+     ],
+     [
+      "1 edredom por 5.000",
+      "5,000"
+     ]
+    ],
+    "note": "Preços ilustrativos de naira."
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Os profissionais informam antecipadamente os limites ao cliente. Primeiro, aprisionamento. Se os preços subirem, a mudança será uma reconstrução."
+   ],
+   "panel": {
+    "kicker": "Limites honestos",
+    "heading": "Dê um nome ao teto antes de construir",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Platform lock-in",
+      "d": "Telas e regras ficam na plataforma do fornecedor. A mudança é uma reconstrução, mas seus dados no Planilhas permanecem seus."
+     },
+     {
+      "t": "Per-user costs",
+      "d": "Muitas plataformas cobram por usuário por mês. Um aplicativo para 40 funcionários pode custar mais a cada ano do que a taxa de construção."
+     },
+     {
+      "t": "Performance",
+      "d": "Os aplicativos baseados em planilhas ficam mais lentos à medida que as tabelas ficam muito grandes ou as fórmulas ficam pesadas."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Em segundo lugar, o custo por usuário, que pode ser maior que a taxa de construção."
+   ],
+   "panel": {
+    "kicker": "Limites honestos",
+    "heading": "Dê um nome ao teto antes de construir",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Platform lock-in",
+      "d": "Telas e regras ficam na plataforma do fornecedor. A mudança é uma reconstrução, mas seus dados no Planilhas permanecem seus."
+     },
+     {
+      "t": "Per-user costs",
+      "d": "Muitas plataformas cobram por usuário por mês. Um aplicativo para 40 funcionários pode custar mais a cada ano do que a taxa de construção."
+     },
+     {
+      "t": "Performance",
+      "d": "Os aplicativos baseados em planilhas ficam mais lentos à medida que as tabelas ficam muito grandes ou as fórmulas ficam pesadas."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Terceiro, o desempenho diminui à medida que as tabelas crescem muito."
+   ],
+   "panel": {
+    "kicker": "Limites honestos",
+    "heading": "Dê um nome ao teto antes de construir",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Platform lock-in",
+      "d": "Telas e regras ficam na plataforma do fornecedor. A mudança é uma reconstrução, mas seus dados no Planilhas permanecem seus."
+     },
+     {
+      "t": "Per-user costs",
+      "d": "Muitas plataformas cobram por usuário por mês. Um aplicativo para 40 funcionários pode custar mais a cada ano do que a taxa de construção."
+     },
+     {
+      "t": "Performance",
+      "d": "Os aplicativos baseados em planilhas ficam mais lentos à medida que as tabelas ficam muito grandes ou as fórmulas ficam pesadas."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Sua taxa de construção é paga uma vez. A taxa da plataforma é paga mensalmente, geralmente pelo cliente. O AppSheet é gratuito enquanto você cria protótipos, com até 10 usuários de teste. Para implantar, o cliente precisa de um plano pago."
+   ],
+   "card": {
+    "title": "Custo mensal do AppSheet de Nneka",
+    "rows": [],
+    "note": "Taxa ilustrativa. Verifique os preços de hoje."
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "No Starter, com cerca de US$ 5 por usuário, Nneka pagaria US$ 20 por mês, cerca de 32 mil nairas."
+   ],
+   "card": {
+    "title": "Custo mensal do AppSheet de Nneka",
+    "rows": [
+     [
+      "Iniciante: 4 usuários por US$ 5",
+      "32,000"
+     ]
+    ],
+    "note": "Taxa ilustrativa. Verifique os preços de hoje."
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Ela quer que cada aprendiz veja apenas suas próprias ordens. Isso precisa de filtros de segurança, que precisam do Core. Portanto, ela orçamenta cerca de 40 dólares por mês, cerca de 64 mil nairas. Ela deveria ouvir isso antes de concordar com qualquer taxa de construção."
+   ],
+   "card": {
+    "title": "Custo mensal do AppSheet de Nneka",
+    "rows": [
+     [
+      "Iniciante: 4 usuários por US$ 5",
+      "32,000"
+     ],
+     [
+      "Núcleo: 4 usuários por US$ 10",
+      "64,000"
+     ]
+    ],
+    "note": "Taxa ilustrativa. Verifique os preços de hoje."
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Os clientes raramente pedem um aplicativo. Eles pedem para parar de perder estoque ou saber qual passageiro entregou o quê. Escolha um nicho, um tipo de cliente e um tipo de aplicativo, para que sua segunda construção reutilize a primeira.",
+    "Comece com ganhos rápidos: alto valor, baixo esforço, como um rastreador de ações com três tabelas."
+   ],
+   "panel": {
+    "kicker": "Oportunidades",
+    "heading": "Onde está o trabalho remunerado",
+    "items": [
+     "Cooperativas e grupos de poupança",
+     "Lojas e agregadores de insumos agropecuários",
+     "Lavanderias, alfaiataria, reparos, limpeza",
+     "ONGs e programas de campo",
+     "Despachar passageiros e logística"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Antes de fazer uma cotação, verifique a página oficial de preços daquele dia. Alguns cartões naira bloqueiam cobranças estrangeiras recorrentes, portanto, peça ao cliente para testar o pagamento com antecedência.",
+    "E clínicas, credores e grupos de poupança detêm dados confidenciais. De acordo com a Lei de Proteção de Dados da Nigéria de 2023, colete apenas o que for necessário e mantenha-o seguro. Comece com aplicativos de estoque, empregos e logística."
+   ],
+   "panel": {
+    "kicker": "Proteja seu cliente",
+    "heading": "Antes de citar",
+    "items": [
+     "Verifique a página oficial de preços de hoje",
+     "O cartão deles pode pagar uma assinatura em dólares americanos?",
+     "Mostrar estimativa de naira com a data da taxa",
+     "Colete apenas os dados necessários"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Para lembrar. Use a ferramenta mais simples que funciona. Dê a cada tabela uma chave e link com referências. Faça um orçamento de taxas mensais por usuário. E nomeie os limites antes de construir."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Lembre-se",
+    "items": [
+     "Use a ferramenta mais simples que funciona",
+     "Uma mesa por tipo de coisa, com chave",
+     "Colunas de referência ligam uma a muitas",
+     "As taxas da plataforma são mensais e por usuário",
+     "Nomeie os limites antes de construir"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Suas tarefas: executar o teste de cinco perguntas em dois problemas reais, desenhar um modelo de dados no papel e avaliar e classificar três ideias de aplicativos.",
+    "Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Pratique tarefas",
+    "heading": "Suas tarefas práticas",
+    "items": [
+     "Execute o teste de cinco perguntas",
+     "Desenhe um modelo de dados",
+     "Custo e classificação de três ideias de aplicativos"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

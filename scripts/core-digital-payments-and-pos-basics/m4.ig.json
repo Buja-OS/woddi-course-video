@@ -1,0 +1,547 @@
+{
+ "course": "core-digital-payments-and-pos-basics",
+ "module": "m4",
+ "title": "Nọrọ na nchekwa ma mee ka ịkwụ ụgwọ dijitalụ rụọ ọrụ maka gị",
+ "course_title": "Ịkwụ Ụgwọ Dijitalụ & Ntọala POS",
+ "shots": [
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Nọrọ na nchekwa ma mee ka ịkwụ ụgwọ dijitalụ rụọ ọrụ maka gị.",
+    "Nke a bụ vidiyo maka modul 4 nke ịkwụ ụgwọ dijitalụ na POS Basics."
+   ]
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Ị nwere ike ugbu a kwụọ ụgwọ ma kwụọ ụgwọ n'ụzọ ọ bụla. Modul a na-echekwa ihe ị wuru, site na aghụghọ yana na ekwentị ezuru."
+   ],
+   "panel": {
+    "kicker": "Ihe mere nke a ji dị mkpa",
+    "heading": "Chebe ya, wee tinye ya n'ọrụ",
+    "items": [
+     "Chọpụta aghụghọ ndị ahụ wee jiri nwayọọ",
+     "Kpọchie ekwentị gị wee mee atụmatụ maka izu ohi",
+     "Ego sitere na nkwupụta gị",
+     "Chịkọta ịkwụ ụgwọ azụmaahịa wee hazie ụbọchị 30"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Mgbe ahụ ọ na-etinye ụgwọ gị ka ọ rụọ ọrụ: mmefu ego sitere na nkwupụta gị, ụzọ ziri ezi isi nakọta ego azụmahịa, yana atụmatụ ụbọchị 30."
+   ],
+   "panel": {
+    "kicker": "Ihe mere nke a ji dị mkpa",
+    "heading": "Chebe ya, wee tinye ya n'ọrụ",
+    "items": [
+     "Chọpụta aghụghọ ndị ahụ wee jiri nwayọọ",
+     "Kpọchie ekwentị gị wee mee atụmatụ maka izu ohi",
+     "Ego sitere na nkwupụta gị",
+     "Chịkọta ịkwụ ụgwọ azụmaahịa wee hazie ụbọchị 30"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Ihe fọrọ nke nta ka ọ bụrụ aghụghọ ọ bụla na-emepụta ọsọ ọsọ ma ọ bụ mgbagwoju anya, yabụ nyefe kaadị gị, PIN, OTP ma ọ bụ ngwongwo gị tupu ịlele.",
+    "Dịka ọmụmaatụ, kaadị Comfort anaghị apụ na ATM dị na Uyo. Otu nwa okorobịa gwara ya ka ọ pịnye PIN ya ọzọ ka o jide oghere."
+   ],
+   "panel": {
+    "kicker": "Kwụsịtụ wee lelee",
+    "heading": "Ọsọ ọsọ ọ bụla bụ ihe kpatara ịbelata",
+    "items": [
+     "Rịba ama ngwa ngwa",
+     "Kwụsị, akwụla ụgwọ",
+     "Lelee na ngwa nke gị",
+     "Kpọọ nọmba gọọmentị",
+     "Were nwayọọ kpebie"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Ọ matara ụkpụrụ ahụ. Ọ laghachiri azụ, ọ dịghị etinye PIN ya ọzọ, wee kpọọ nọmba echekwara na ekwentị ya iji gbochie kaadị ahụ."
+   ],
+   "panel": {
+    "kicker": "Kwụsịtụ wee lelee",
+    "heading": "Ọsọ ọsọ ọ bụla bụ ihe kpatara ịbelata",
+    "items": [
+     "Rịba ama ngwa ngwa",
+     "Kwụsị, akwụla ụgwọ",
+     "Lelee na ngwa nke gị",
+     "Kpọọ nọmba gọọmentị",
+     "Were nwayọọ kpebie"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Kaadị ya tụfuru, bụ́ nke a pụrụ iji dochie anya ya, ọ bụghị ego o chekwakwara."
+   ],
+   "panel": {
+    "kicker": "Kwụsịtụ wee lelee",
+    "heading": "Ọsọ ọsọ ọ bụla bụ ihe kpatara ịbelata",
+    "items": [
+     "Rịba ama ngwa ngwa",
+     "Kwụsị, akwụla ụgwọ",
+     "Lelee na ngwa nke gị",
+     "Kpọọ nọmba gọọmentị",
+     "Were nwayọọ kpebie"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Mgbe akwụghị ụgwọ, akaụntụ nlekọta ndị ahịa adịgboroja na-aza na mgbasa ozi ọha na-arịọ maka PIN gị, OTP ma ọ bụ ụgwọ mgbagha. Ezigbo ụlọ akụ anaghị arịọ maka ndị a."
+   ],
+   "panel": {
+    "kicker": "Kwụsịtụ wee lelee",
+    "heading": "Ọsọ ọsọ ọ bụla bụ ihe kpatara ịbelata",
+    "items": [
+     "Rịba ama ngwa ngwa",
+     "Kwụsị, akwụla ụgwọ",
+     "Lelee na ngwa nke gị",
+     "Kpọọ nọmba gọọmentị",
+     "Were nwayọọ kpebie"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "PIN, OTP, ma ọ bụ ụgwọ iji nwetaghachi ego gị? Ọ bụ ojoro.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "A na-echekwa ndị na-ere ahịa. Onye ahịa na-egosi nnata mbufe mgbe kwụ n'ahịrị dị ogologo. Buru ụzọ lelee akụkọ nke gị."
+   ],
+   "panel": {
+    "kicker": "Aghụghọ na ndị na-ere ahịa",
+    "heading": "Chebe ụlọ ahịa gị",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Busy-time screenshot",
+      "d": "Akwụkwọ nnata egosiri n'ahịrị ogologo. Lelee akụkọ ngwa nke gị tupu ewepụta ihe ọ bụla."
+     },
+     {
+      "t": "Reversal after delivery",
+      "d": "Ọ na-anakọta, wee gwa ụlọ akụ ya na ọ dara. Debe nnata akwadoro na RRN."
+     },
+     {
+      "t": "Fake staff visit",
+      "d": "Mmadụ chọrọ iwere ma ọ bụ melite ọnụ ọnụ gị. Buru ụzọ kpọọ nọmba gọọmentị onye na-eweta ya."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Onye ahịa na-akwụ ụgwọ, na-anakọta, wee gwa ụlọ akụ ya na akwụghị ụgwọ ya. Nnata gị akwadoro na ntinye akwụkwọ ndekọ ga-aza esemokwu ahụ."
+   ],
+   "panel": {
+    "kicker": "Aghụghọ na ndị na-ere ahịa",
+    "heading": "Chebe ụlọ ahịa gị",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Busy-time screenshot",
+      "d": "Akwụkwọ nnata egosiri n'ahịrị ogologo. Lelee akụkọ ngwa nke gị tupu ewepụta ihe ọ bụla."
+     },
+     {
+      "t": "Reversal after delivery",
+      "d": "Ọ na-anakọta, wee gwa ụlọ akụ ya na ọ dara. Debe nnata akwadoro na RRN."
+     },
+     {
+      "t": "Fake staff visit",
+      "d": "Mmadụ chọrọ iwere ma ọ bụ melite ọnụ ọnụ gị. Buru ụzọ kpọọ nọmba gọọmentị onye na-eweta ya."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Ma ọ bụrụ na mmadụ asị na ya si n'aka onye na-eweta ọnụ na ọ ga-eburịrị ọdụ gị, kpọọ nọmba ọrụ onye na-eweta ya tupu ịnyefe ihe ọ bụla."
+   ],
+   "panel": {
+    "kicker": "Aghụghọ na ndị na-ere ahịa",
+    "heading": "Chebe ụlọ ahịa gị",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Busy-time screenshot",
+      "d": "Akwụkwọ nnata egosiri n'ahịrị ogologo. Lelee akụkọ ngwa nke gị tupu ewepụta ihe ọ bụla."
+     },
+     {
+      "t": "Reversal after delivery",
+      "d": "Ọ na-anakọta, wee gwa ụlọ akụ ya na ọ dara. Debe nnata akwadoro na RRN."
+     },
+     {
+      "t": "Fake staff visit",
+      "d": "Mmadụ chọrọ iwere ma ọ bụ melite ọnụ ọnụ gị. Buru ụzọ kpọọ nọmba gọọmentị onye na-eweta ya."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Dịka ọmụmaatụ, a napụrụ ekwentị Folake na bọs na Legọs n'elekere 6:15 mgbede. N'elekere 6:20 ọ gbaziri ekwentị onye otu ibe ya wee kpọọ ụlọ akụ ya na nọmba edere na kaadị ya, ka ọ gbochie ụlọ akụ ekwentị na USSD."
+   ],
+   "panel": {
+    "kicker": "Atụmatụ ekwentị efu",
+    "heading": "Ezuru ekwentị? Mechie ọnụ ụzọ ọ bụla",
+    "items": [
+     "Kpọọ ụlọ akụ gị: gbochie mobile na USSD",
+     "Kpọọ onye na-eweta obere akpa gị",
+     "Kpọọ netwọk gị: gbochie SIM",
+     "Ụbọchị na-esote: lelee akaụntụ, SIM ọhụrụ, PIN ọhụrụ"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Na 6:30 ọ na-akpọ onye na-eweta obere akpa ya, site na nọmba dị na akwụkwọ ndetu ya."
+   ],
+   "panel": {
+    "kicker": "Atụmatụ ekwentị efu",
+    "heading": "Ezuru ekwentị? Mechie ọnụ ụzọ ọ bụla",
+    "items": [
+     "Kpọọ ụlọ akụ gị: gbochie mobile na USSD",
+     "Kpọọ onye na-eweta obere akpa gị",
+     "Kpọọ netwọk gị: gbochie SIM",
+     "Ụbọchị na-esote: lelee akaụntụ, SIM ọhụrụ, PIN ọhụrụ"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Na 6:45 ọ na-akpọ netwọk ya ka ọ gbochie SIM, n'ihi ya, ọ dịghị onye nwere ike ịnweta OTP ya."
+   ],
+   "panel": {
+    "kicker": "Atụmatụ ekwentị efu",
+    "heading": "Ezuru ekwentị? Mechie ọnụ ụzọ ọ bụla",
+    "items": [
+     "Kpọọ ụlọ akụ gị: gbochie mobile na USSD",
+     "Kpọọ onye na-eweta obere akpa gị",
+     "Kpọọ netwọk gị: gbochie SIM",
+     "Ụbọchị na-esote: lelee akaụntụ, SIM ọhụrụ, PIN ọhụrụ"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "N'ụtụtụ echi ya ahụghị ụgwọ ọ bụla. Debe nọmba nkwado gị na akwụkwọ. Kpọchie ekwentị gị na ngwa, ma zoo nlele OTP na ihuenyo mkpọchi."
+   ],
+   "panel": {
+    "kicker": "Atụmatụ ekwentị efu",
+    "heading": "Ezuru ekwentị? Mechie ọnụ ụzọ ọ bụla",
+    "items": [
+     "Kpọọ ụlọ akụ gị: gbochie mobile na USSD",
+     "Kpọọ onye na-eweta obere akpa gị",
+     "Kpọọ netwọk gị: gbochie SIM",
+     "Ụbọchị na-esote: lelee akaụntụ, SIM ọhụrụ, PIN ọhụrụ"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Budata nkwupụta nke ọnwa gara aga wee hazie debits n'ime otu ise ma ọ bụ isii, dị ka nri, ụgbọ njem, oge ikuku na data, ụgwọ, ngwaahịa azụmaahịa na ụgwọ. Agụkwala mmegharị n'etiti akaụntụ nke gị."
+   ],
+   "panel": {
+    "kicker": "Ego sitere na nkwupụta gị",
+    "heading": "Nkwupụta gị bụ ndekọ efu",
+    "items": [
+     "Budata nkwupụta nke ọnwa gara aga",
+     "Hazie debits ka ọ bụrụ otu 5 ma ọ bụ 6",
+     "Chọọ maka obere ịkwụ ụgwọ na ụgwọ ugboro ugboro",
+     "Họrọ otu mgbanwe maka ọnwa na-abịa"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Dịka ọmụmaatụ, Hadiza, onye na-eri nri na Abuja, hụrụ na puku naira iri na isii gara n'obere oge ikuku na ntinye data. Debit ọ bụla ị na-amataghị? Wepụta ya n'ụlọ akụ gị ozugbo."
+   ],
+   "panel": {
+    "kicker": "Ego sitere na nkwupụta gị",
+    "heading": "Nkwupụta gị bụ ndekọ efu",
+    "items": [
+     "Budata nkwupụta nke ọnwa gara aga",
+     "Hazie debits ka ọ bụrụ otu 5 ma ọ bụ 6",
+     "Chọọ maka obere ịkwụ ụgwọ na ụgwọ ugboro ugboro",
+     "Họrọ otu mgbanwe maka ọnwa na-abịa"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Yabụ na ọ ga-azụta atụmatụ data otu ọnwa kama. Họrọ otu mgbanwe, wee gụọ usoro ndị ahụ tupu i jiri atụmatụ nchekwa ngwa ọ bụla."
+   ],
+   "panel": {
+    "kicker": "Ego sitere na nkwupụta gị",
+    "heading": "Nkwupụta gị bụ ndekọ efu",
+    "items": [
+     "Budata nkwupụta nke ọnwa gara aga",
+     "Hazie debits ka ọ bụrụ otu 5 ma ọ bụ 6",
+     "Chọọ maka obere ịkwụ ụgwọ na ụgwọ ugboro ugboro",
+     "Họrọ otu mgbanwe maka ọnwa na-abịa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Jiri mbufe ozugbo maka ndị ahịa ị maara, POS maka kaadị n'onwe gị, yana njikọ ịkwụ ụgwọ maka ndị ahịa ọhụrụ dị anya.",
+    "Ụgwọ obodo ebipụtara Paystack, enyochara na Ọktoba 2026, bụ 1.5% gbakwunyere 100 naira, ebe 100 ewepụrụ n'okpuru 2,500. Ya mere, ego nke Ifeoma puku naira abụọ na-efu iri atọ."
+   ],
+   "panel": {
+    "kicker": "Njikọ ịkwụ ụgwọ",
+    "heading": "Ụgwọ ịkwụ ụgwọ na iwu atọ",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Order of 2,000 naira",
+      "d": "N'okpuru 2,500, ya mere a napụrụ 100 ahụ. 1.5% bụ ụgwọ nke naira iri atọ."
+     },
+     {
+      "t": "Order of 15,000 naira",
+      "d": "1.5% bụ 225, gbakwunyere 100. Ụgwọ nke naira 325."
+     },
+     {
+      "t": "Order of 200,000 naira",
+      "d": "1.5% gbakwunyere 100 bụ 3,100, n'elu okpu. Ego a bụ puku naira abụọ."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Nri puku naira iri na ise na-efu 325."
+   ],
+   "panel": {
+    "kicker": "Njikọ ịkwụ ụgwọ",
+    "heading": "Ụgwọ ịkwụ ụgwọ na iwu atọ",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Order of 2,000 naira",
+      "d": "N'okpuru 2,500, ya mere a napụrụ 100 ahụ. 1.5% bụ ụgwọ nke naira iri atọ."
+     },
+     {
+      "t": "Order of 15,000 naira",
+      "d": "1.5% bụ 225, gbakwunyere 100. Ụgwọ nke naira 325."
+     },
+     {
+      "t": "Order of 200,000 naira",
+      "d": "1.5% gbakwunyere 100 bụ 3,100, n'elu okpu. Ego a bụ puku naira abụọ."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Ịtụ 200,000 naịra dara okpu, ya mere ego ahụ bụ 2,000. Ọnụ ahịa na-agbanwe, yabụ lelee ibe ọnụahịa gọọmentị mgbe niile. Ma na-arụ ọrụ ahụ site na akaụntụ nke ya."
+   ],
+   "panel": {
+    "kicker": "Njikọ ịkwụ ụgwọ",
+    "heading": "Ụgwọ ịkwụ ụgwọ na iwu atọ",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Order of 2,000 naira",
+      "d": "N'okpuru 2,500, ya mere a napụrụ 100 ahụ. 1.5% bụ ụgwọ nke naira iri atọ."
+     },
+     {
+      "t": "Order of 15,000 naira",
+      "d": "1.5% bụ 225, gbakwunyere 100. Ụgwọ nke naira 325."
+     },
+     {
+      "t": "Order of 200,000 naira",
+      "d": "1.5% gbakwunyere 100 bụ 3,100, n'elu okpu. Ego a bụ puku naira abụọ."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Mee atụmatụ ụbọchị 30 na otu mgbado anya n'izu. Izu 1, nhazi na nchekwa. Izu 2, ụdị ịkwụ ụgwọ atọ. Izu 3, azụmahịa ma ọ bụ ụgwọ. Izu 4, nyocha nkwupụta gị."
+   ],
+   "card": {
+    "title": "Ọnwa nleba anya nke Rahma",
+    "rows": [],
+    "note": null
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Kwa izu, Rahma na-etinye nkeji iri na akụkọ ngwa ya. Ego dị na ya bụ puku iri abụọ na otu, e mesịa 24,500, e mesịa 27,000, e mesịa 25,500 naira."
+   ],
+   "card": {
+    "title": "Ọnwa nleba anya nke Rahma",
+    "rows": [
+     [
+      "Ego 1 izu",
+      "21,000"
+     ],
+     [
+      "Izu 2 ego n'ime",
+      "24,500"
+     ],
+     [
+      "Izu 3 ego n'ime",
+      "27,000"
+     ],
+     [
+      "Izu 4 ego n'ime",
+      "25,500"
+     ]
+    ],
+    "note": null
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "98,000 na, megide 68,000 si. Debe akwụkwọ nnata gị na tebụl maka asambodo gị, kuziere otu nwanyị ọzọ, site n'ịdu ya ka ọ na-eme ya n'onwe ya."
+   ],
+   "card": {
+    "title": "Ọnwa nleba anya nke Rahma",
+    "rows": [
+     [
+      "Ego 1 izu",
+      "21,000"
+     ],
+     [
+      "Izu 2 ego n'ime",
+      "24,500"
+     ],
+     [
+      "Izu 3 ego n'ime",
+      "27,000"
+     ],
+     [
+      "Izu 4 ego n'ime",
+      "25,500"
+     ]
+    ],
+    "note": null
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Icheta. Ngwa ngwa bụ mgbaama gị ịkwụsị. Ọ nweghị onye na-arịọ maka PIN gị, OTP ma ọ bụ ụgwọ iji weghachi ego gị. Ọ bụrụ na ezuru ekwentị gị, gbochie ụlọ akụ, obere akpa na SIM n'ime elekere. Nyochaa nkwupụta gị kwa ọnwa, wee dakọọ usoro ịkwụ ụgwọ na onye ahịa."
+   ],
+   "panel": {
+    "kicker": "Isi ihe",
+    "heading": "Cheta",
+    "items": [
+     "Ngwa ngwa bụ mgbaama ịkwụsị ma lelee",
+     "Ọ nweghị onye na-arịọ maka PIN ma ọ bụ OTP gị",
+     "Ezuru ekwentị: ngọngọ ụlọ akụ, obere akpa na SIM",
+     "Nyochaa nkwupụta gị kwa ọnwa",
+     "Dakọtara usoro ịkwụ ụgwọ na onye ahịa"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Mepụta kaadị ntụpọ aghụghọ gị, mechie ekwentị gị, dee kaadị mberede gị, nyochaa nkwupụta nke ọnwa gara aga, wee malite atụmatụ ụbọchị 30 gị.",
+    "Gaa n'ihu na nkuzi ndị dị n'okpuru."
+   ],
+   "panel": {
+    "kicker": "Mee ọrụ",
+    "heading": "Ọrụ gị maka modul a",
+    "items": [
+     "Mepụta kaadị nhụta aghụghọ gị",
+     "Kpọchie ekwentị gị, dee kaadị mberede",
+     "Nyochaa nkwupụta nke ọnwa gara aga",
+     "Dee wee malite atụmatụ ụbọchị 30 gị"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

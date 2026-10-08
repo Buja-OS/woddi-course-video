@@ -1,0 +1,582 @@
+{
+ "course": "core-seo-search-engine-optimisation",
+ "module": "m1",
+ "title": "Como o Google encontra sua página e as ferramentas gratuitas para verificá-la",
+ "course_title": "SEO: otimização de mecanismos de pesquisa",
+ "shots": [
+  {
+   "demo": "phone_social",
+   "say": [
+    "Como o Google encontra sua página e as ferramentas gratuitas para verificá-la.",
+    "Este é o vídeo do módulo um do curso de SEO."
+   ]
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "SEO significa otimização de mecanismos de pesquisa.",
+    "Significa tornar um site mais fácil para os motores de busca encontrarem, compreenderem e mostrarem às pessoas certas, sem pagar por cada clique."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "O que você será capaz de fazer",
+    "items": [
+     "Diga o que SEO significa em palavras simples",
+     "Explicar como o Google rastreia, indexa e veicula",
+     "Verifique se uma página está no Google com site:",
+     "Configure o Search Console com segurança"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Quando uma mulher em Ibadan digita um alfaiate perto de Bodija, os negócios que aparecem primeiro não chegam lá por sorte."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "O que você será capaz de fazer",
+    "items": [
+     "Diga o que SEO significa em palavras simples",
+     "Explicar como o Google rastreia, indexa e veicula",
+     "Verifique se uma página está no Google com site:",
+     "Configure o Search Console com segurança"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Neste vídeo você aprenderá como isso acontece, como verificar uma página você mesmo e como configurar suas ferramentas gratuitas com segurança."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "O que você será capaz de fazer",
+    "items": [
+     "Diga o que SEO significa em palavras simples",
+     "Explicar como o Google rastreia, indexa e veicula",
+     "Verifique se uma página está no Google com site:",
+     "Configure o Search Console com segurança"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "O primeiro estágio está engatinhando. O Google usa programas automáticos chamados rastreadores. O rastreador do Google é chamado Googlebot.",
+    "Os rastreadores encontram novas páginas principalmente seguindo links e a partir de mapas de sites, que são arquivos que listam as páginas de um site."
+   ],
+   "panel": {
+    "kicker": "Como funciona a pesquisa",
+    "heading": "Três estágios que cada página passa",
+    "items": [
+     "Rastreamento: o Googlebot visita páginas por meio de links",
+     "Indexação: o Google entende e armazena a página",
+     "Exibição: o Google mostra as correspondências mais úteis"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "O segundo estágio é a indexação. O Google lê o texto, títulos, imagens e título, podendo armazenar a página em seu índice, um enorme banco de dados de páginas.",
+    "Cópias, páginas muito finas e páginas com instruções noindex geralmente ficam de fora."
+   ],
+   "panel": {
+    "kicker": "Como funciona a pesquisa",
+    "heading": "Três estágios que cada página passa",
+    "items": [
+     "Rastreamento: o Googlebot visita páginas por meio de links",
+     "Indexação: o Google entende e armazena a página",
+     "Exibição: o Google mostra as correspondências mais úteis"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "O terceiro estágio é servir resultados. Quando alguém pesquisa, o Google retorna as páginas que considera mais relevantes e úteis."
+   ],
+   "panel": {
+    "kicker": "Como funciona a pesquisa",
+    "heading": "Três estágios que cada página passa",
+    "items": [
+     "Rastreamento: o Googlebot visita páginas por meio de links",
+     "Indexação: o Google entende e armazena a página",
+     "Exibição: o Google mostra as correspondências mais úteis"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Então lembre-se disso. Uma página só pode ser classificada depois de ser rastreada e indexada. Um problema no início do fluxo bloqueia tudo depois dele."
+   ],
+   "panel": {
+    "kicker": "Como funciona a pesquisa",
+    "heading": "Três estágios que cada página passa",
+    "items": [
+     "Rastreamento: o Googlebot visita páginas por meio de links",
+     "Indexação: o Google entende e armazena a página",
+     "Exibição: o Google mostra as correspondências mais úteis"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Sem rastreamento, sem índice. Sem índice, sem classificação.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Por exemplo, Ngozi dirige um pequeno negócio de costeletas em Lekki, Lagos. Seu designer adicionou uma página de pacotes de festa há duas semanas, mas ela não consegue encontrá-la no Google."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Ngozi verifica sua nova página",
+    "items": [
+     "Site de busca:ngozichops.com, veja 6 resultados",
+     "Pesquise na página de pacotes de festa: nenhum resultado",
+     "Aviso: nenhum link aponta para a nova página",
+     "Adicione links de menu e página inicial, envie o mapa do site",
+     "Dez dias depois a página aparece"
+    ],
+    "show": 0,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Ela digita site, dois pontos e, em seguida, seu domínio no Google. Esta pesquisa especial mostra as páginas que o Google indexou em seu site. Ela vê 6 resultados, mas não pacotes de festa."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Ngozi verifica sua nova página",
+    "items": [
+     "Site de busca:ngozichops.com, veja 6 resultados",
+     "Pesquise na página de pacotes de festa: nenhum resultado",
+     "Aviso: nenhum link aponta para a nova página",
+     "Adicione links de menu e página inicial, envie o mapa do site",
+     "Dez dias depois a página aparece"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Ela pesquisa o endereço exato da página da mesma maneira. Sem resultados. Ainda não está no índice."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Ngozi verifica sua nova página",
+    "items": [
+     "Site de busca:ngozichops.com, veja 6 resultados",
+     "Pesquise na página de pacotes de festa: nenhum resultado",
+     "Aviso: nenhum link aponta para a nova página",
+     "Adicione links de menu e página inicial, envie o mapa do site",
+     "Dez dias depois a página aparece"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ads",
+   "say": [
+    "Ela verifica sua página inicial e o menu. Nada está vinculado à nova página, então os rastreadores não têm caminho para ela."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Ngozi verifica sua nova página",
+    "items": [
+     "Site de busca:ngozichops.com, veja 6 resultados",
+     "Pesquise na página de pacotes de festa: nenhum resultado",
+     "Aviso: nenhum link aponta para a nova página",
+     "Adicione links de menu e página inicial, envie o mapa do site",
+     "Dez dias depois a página aparece"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ads",
+   "say": [
+    "Ela pede ao designer para adicionar um link Party Packs ao menu e à página inicial e enviar o mapa do site no Search Console."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Ngozi verifica sua nova página",
+    "items": [
+     "Site de busca:ngozichops.com, veja 6 resultados",
+     "Pesquise na página de pacotes de festa: nenhum resultado",
+     "Aviso: nenhum link aponta para a nova página",
+     "Adicione links de menu e página inicial, envie o mapa do site",
+     "Dez dias depois a página aparece"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ads",
+   "say": [
+    "Dez dias depois a página aparece. A solução foram links e um mapa do site."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Ngozi verifica sua nova página",
+    "items": [
+     "Site de busca:ngozichops.com, veja 6 resultados",
+     "Pesquise na página de pacotes de festa: nenhum resultado",
+     "Aviso: nenhum link aponta para a nova página",
+     "Adicione links de menu e página inicial, envie o mapa do site",
+     "Dez dias depois a página aparece"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_social",
+   "say": [
+    "Você pode controlar se suas páginas podem ser rastreadas, o que elas dizem, quão rápidas e compatíveis com dispositivos móveis elas são e a aparência do seu Perfil da Empresa no Google."
+   ],
+   "panel": {
+    "kicker": "Seja honesto sobre SEO",
+    "heading": "O que você pode e não pode controlar",
+    "mode": "compare",
+    "left_h": "Você pode controlar",
+    "left": [
+     "Se as páginas podem ser rastreadas",
+     "O que suas páginas dizem",
+     "Velocidade e layout móvel",
+     "Seu perfil comercial"
+    ],
+    "right_h": "Você não pode controlar",
+    "right": [
+     "Sistemas de classificação do Google",
+     "Seus concorrentes",
+     "Quantas pessoas pesquisam",
+     "Uma posição de topo garantida"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_camera",
+   "say": [
+    "Você não pode controlar os sistemas de classificação do Google, seus concorrentes ou quantas pessoas pesquisam.",
+    "Ninguém pode garantir uma posição número um. O próprio Google alerta os proprietários de sites para terem cuidado com quem promete isso."
+   ],
+   "panel": {
+    "kicker": "Seja honesto sobre SEO",
+    "heading": "O que você pode e não pode controlar",
+    "mode": "compare",
+    "left_h": "Você pode controlar",
+    "left": [
+     "Se as páginas podem ser rastreadas",
+     "O que suas páginas dizem",
+     "Velocidade e layout móvel",
+     "Seu perfil comercial"
+    ],
+    "right_h": "Você não pode controlar",
+    "right": [
+     "Sistemas de classificação do Google",
+     "Seus concorrentes",
+     "Quantas pessoas pesquisam",
+     "Uma posição de topo garantida"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Primeiro, ative a verificação em duas etapas, para que uma senha roubada por si só não consiga abrir sua conta do Google."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Configure o Search Console com segurança",
+    "items": [
+     "Ative a verificação em duas etapas",
+     "Adicione seu site no Search Console",
+     "Verifique se você é o proprietário",
+     "Envie seu mapa do site",
+     "Adicione ajudantes como usuários"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Em seguida, vá para o Search Console e adicione seu site. Uma propriedade Domínio cobre todas as versões do site. Uma propriedade de prefixo de URL cobre um endereço exato e oferece mais maneiras de verificação."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Configure o Search Console com segurança",
+    "items": [
+     "Ative a verificação em duas etapas",
+     "Adicione seu site no Search Console",
+     "Verifique se você é o proprietário",
+     "Envie seu mapa do site",
+     "Adicione ajudantes como usuários"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Verifique a propriedade. Por exemplo, Chioma tinha apenas um telefone. Ela colou o código da tag HTML nas configurações do Yoast SEO no WordPress e tocou em Verificar."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Configure o Search Console com segurança",
+    "items": [
+     "Ative a verificação em duas etapas",
+     "Adicione seu site no Search Console",
+     "Verifique se você é o proprietário",
+     "Envie seu mapa do site",
+     "Adicione ajudantes como usuários"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Em seguida, abra o relatório Sitemaps e envie o endereço do seu sitemap. O de Chioma demorou cerca de 20 minutos no total."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Configure o Search Console com segurança",
+    "items": [
+     "Ative a verificação em duas etapas",
+     "Adicione seu site no Search Console",
+     "Verifique se você é o proprietário",
+     "Envie seu mapa do site",
+     "Adicione ajudantes como usuários"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Por fim, se um designer ou voluntário te ajudar, nunca compartilhe sua senha. Adicione-os como usuários com permissão total ou restrita e remova o acesso deles no mesmo dia em que pararem de trabalhar com você."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Configure o Search Console com segurança",
+    "items": [
+     "Ative a verificação em duas etapas",
+     "Adicione seu site no Search Console",
+     "Verifique se você é o proprietário",
+     "Envie seu mapa do site",
+     "Adicione ajudantes como usuários"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Nunca compartilhe sua senha do Google. Adicione ajudantes como usuários.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "As pequenas empresas recebem muitas mensagens fraudulentas. As primeiras promessas garantiram o número um no Google em 7 dias. O próprio conselho do Google diz que ninguém pode garantir isso."
+   ],
+   "panel": {
+    "kicker": "Proteja o negócio",
+    "heading": "Golpes comuns de SEO para recusar",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Guaranteed number one",
+      "d": "Promessas de número um no Google em 7 dias. Nenhum SEO honesto pode garantir uma classificação superior."
+     },
+     {
+      "t": "Bought links or reviews",
+      "d": "Ofertas de milhares de backlinks ou avaliações. Comprá-los viola as políticas do Google e pode prejudicar seu site."
+     },
+     {
+      "t": "Pay or be removed",
+      "d": "Os e-mails reivindicando seu site serão removidos do Google, a menos que você pague. Ignore-os."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "A segunda oferece a venda de milhares de backlinks ou avaliações. Comprá-los viola as políticas do Google e pode prejudicar seu site."
+   ],
+   "panel": {
+    "kicker": "Proteja o negócio",
+    "heading": "Golpes comuns de SEO para recusar",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Guaranteed number one",
+      "d": "Promessas de número um no Google em 7 dias. Nenhum SEO honesto pode garantir uma classificação superior."
+     },
+     {
+      "t": "Bought links or reviews",
+      "d": "Ofertas de milhares de backlinks ou avaliações. Comprá-los viola as políticas do Google e pode prejudicar seu site."
+     },
+     {
+      "t": "Pay or be removed",
+      "d": "Os e-mails reivindicando seu site serão removidos do Google, a menos que você pague. Ignore-os."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "A terceira afirma que seu site será removido do Google, a menos que você pague. Não pague."
+   ],
+   "panel": {
+    "kicker": "Proteja o negócio",
+    "heading": "Golpes comuns de SEO para recusar",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Guaranteed number one",
+      "d": "Promessas de número um no Google em 7 dias. Nenhum SEO honesto pode garantir uma classificação superior."
+     },
+     {
+      "t": "Bought links or reviews",
+      "d": "Ofertas de milhares de backlinks ou avaliações. Comprá-los viola as políticas do Google e pode prejudicar seu site."
+     },
+     {
+      "t": "Pay or be removed",
+      "d": "Os e-mails reivindicando seu site serão removidos do Google, a menos que você pague. Ignore-os."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Marque todos os itens antes de começar a mudar de página.",
+    "Em seguida, anote uma linha de base: cliques e impressões dos últimos 28 dias e suas cinco principais pesquisas. Sem um ponto de partida, você não pode provar que seu trabalho fez a diferença."
+   ],
+   "panel": {
+    "kicker": "Antes de mudar de página",
+    "heading": "Lista de verificação de configuração segura",
+    "items": [
+     "Verificação em duas etapas ativada",
+     "Search Console verificado",
+     "Mapa do site enviado",
+     "Perfil da empresa reivindicado",
+     "Ajudantes adicionados como usuários",
+     "Senhas nunca compartilhadas"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_ads",
+   "say": [
+    "Para lembrar. O Google rastreia, indexa e depois veicula. Os rastreadores encontram páginas por meio de links e mapas de sites. Use a pesquisa do site para uma verificação rápida. Proteja sua conta e nunca compartilhe senhas. E ninguém pode garantir uma posição de destaque."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Lembre-se",
+    "items": [
+     "O Google funciona em três etapas: rastrear, indexar, veicular",
+     "Os rastreadores encontram páginas por meio de links e mapas de sites",
+     "Use site:seudominio.com para uma verificação rápida do índice",
+     "Ative a verificação em duas etapas; nunca compartilhe senhas",
+     "Ninguém pode garantir uma posição de topo"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_social",
+   "say": [
+    "Agora experimente. Execute uma pesquisa em um site que você conhece, mapeie cinco pesquisas de clientes de acordo com suas intenções, verifique um site no Search Console e envie seu mapa do site.",
+    "Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Tarefa prática",
+    "heading": "Suas tarefas práticas",
+    "items": [
+     "Administre um site: pesquise em um site real",
+     "Mapeie cinco pesquisas com base na intenção",
+     "Verifique um site no Search Console",
+     "Envie o mapa do site"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

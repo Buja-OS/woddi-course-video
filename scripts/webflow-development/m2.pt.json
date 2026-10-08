@@ -1,0 +1,602 @@
+{
+ "course": "webflow-development",
+ "module": "m2",
+ "title": "Planeje, crie um CMS à prova de cliente e lance corretamente",
+ "course_title": "Desenvolvimento de fluxo web",
+ "shots": [
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Planeje o site, crie um CMS à prova de cliente e lance-o corretamente.",
+    "Este é o vídeo do módulo 2 do Webflow Development: Professional Build Workflow."
+   ]
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Reconstruir uma seção porque o conteúdo não cabia custa muito mais do que uma hora de planejamento. Primeiro, o mapa do site. Uma página estática, como Sobre, é projetada uma vez. Uma página de modelo é projetada uma vez, mas mostra qualquer item de uma coleção."
+   ],
+   "panel": {
+    "kicker": "Planeje antes de construir",
+    "heading": "Um plano de construção tem três partes",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Sitemap",
+      "d": "Quais páginas existem. Marque páginas estáticas e páginas de modelo CMS."
+     },
+     {
+      "t": "Content model",
+      "d": "Qual conteúdo se repete e os campos que cada coleção precisa."
+     },
+     {
+      "t": "Style guide",
+      "d": "Uma página oculta de títulos, botões e cores, armazenada como variáveis."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Em segundo lugar, o modelo de conteúdo. Se o cliente disser, adicionaremos um novo todo mês, esse conteúdo pertence ao CMS, com os campos corretos."
+   ],
+   "panel": {
+    "kicker": "Planeje antes de construir",
+    "heading": "Um plano de construção tem três partes",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Sitemap",
+      "d": "Quais páginas existem. Marque páginas estáticas e páginas de modelo CMS."
+     },
+     {
+      "t": "Content model",
+      "d": "Qual conteúdo se repete e os campos que cada coleção precisa."
+     },
+     {
+      "t": "Style guide",
+      "d": "Uma página oculta de títulos, botões e cores, armazenada como variáveis."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Terceiro, uma página de guia de estilo. Armazene cores e tamanhos como variáveis, para que quando a cor da marca mudar, você altere uma variável e todo o site seja atualizado."
+   ],
+   "panel": {
+    "kicker": "Planeje antes de construir",
+    "heading": "Um plano de construção tem três partes",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Sitemap",
+      "d": "Quais páginas existem. Marque páginas estáticas e páginas de modelo CMS."
+     },
+     {
+      "t": "Content model",
+      "d": "Qual conteúdo se repete e os campos que cada coleção precisa."
+     },
+     {
+      "t": "Style guide",
+      "d": "Uma página oculta de títulos, botões e cores, armazenada como variáveis."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Por exemplo, Funmi dirige um estúdio de design de interiores em Abuja e acrescenta cerca de dois projetos por mês. Ela precisa de 4 páginas estáticas."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Planejando um site de estúdio de design de interiores",
+    "items": [
+     "Páginas estáticas: Home, Sobre, Serviços, Contato",
+     "Coleções: Projetos e Depoimentos",
+     "Campo de opção para tipo de projeto; mudar para Destaque",
+     "4 estáticos + 1 modelo = 5 designs para construir"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Os projetos se repetem mensalmente, então se tornam uma Coleção. Depoimentos também, vinculados a projetos com área de referência. Planeje as referências com antecedência, pois elas são mais difíceis de adicionar posteriormente."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Planejando um site de estúdio de design de interiores",
+    "items": [
+     "Páginas estáticas: Home, Sobre, Serviços, Contato",
+     "Coleções: Projetos e Depoimentos",
+     "Campo de opção para tipo de projeto; mudar para Destaque",
+     "4 estáticos + 1 modelo = 5 designs para construir"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "O tipo de projeto é um campo Opção, portanto Residencial nunca se torna residencial. O destaque é uma opção sim ou não."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Planejando um site de estúdio de design de interiores",
+    "items": [
+     "Páginas estáticas: Home, Sobre, Serviços, Contato",
+     "Coleções: Projetos e Depoimentos",
+     "Campo de opção para tipo de projeto; mudar para Destaque",
+     "4 estáticos + 1 modelo = 5 designs para construir"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "São 5 designs para construir, mesmo que o site cresça para 50 páginas de projeto. Faça com que o cliente aprove este plano. Torna-se sua linha de base para o escopo."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Planejando um site de estúdio de design de interiores",
+    "items": [
+     "Páginas estáticas: Home, Sobre, Serviços, Contato",
+     "Coleções: Projetos e Depoimentos",
+     "Campo de opção para tipo de projeto; mudar para Destaque",
+     "4 estáticos + 1 modelo = 5 designs para construir"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Crie a Coleção, por exemplo Projetos, e adicione os campos do seu plano."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Da coleção às páginas ativas",
+    "items": [
+     "Crie a coleção e adicione seus campos",
+     "Escreva um texto de ajuda, por ex. paisagem, 1600 px de largura",
+     "Adicione três a cinco itens reais",
+     "Conecte a página do modelo aos campos",
+     "Adicionar uma lista de coleção à página inicial",
+     "Filtre, classifique e limite, por ex. últimos 3 em destaque"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Escreva um texto de ajuda em cada campo, para que o cliente saiba exatamente o que enviar."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Da coleção às páginas ativas",
+    "items": [
+     "Crie a coleção e adicione seus campos",
+     "Escreva um texto de ajuda, por ex. paisagem, 1600 px de largura",
+     "Adicione três a cinco itens reais",
+     "Conecte a página do modelo aos campos",
+     "Adicionar uma lista de coleção à página inicial",
+     "Filtre, classifique e limite, por ex. últimos 3 em destaque"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Adicione alguns itens reais, para que você projete com comprimentos de conteúdo reais."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Da coleção às páginas ativas",
+    "items": [
+     "Crie a coleção e adicione seus campos",
+     "Escreva um texto de ajuda, por ex. paisagem, 1600 px de largura",
+     "Adicione três a cinco itens reais",
+     "Conecte a página do modelo aos campos",
+     "Adicionar uma lista de coleção à página inicial",
+     "Filtre, classifique e limite, por ex. últimos 3 em destaque"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Na página do modelo, conecte cada elemento a um campo. O título mostra o nome do projeto, a imagem mostra a capa."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Da coleção às páginas ativas",
+    "items": [
+     "Crie a coleção e adicione seus campos",
+     "Escreva um texto de ajuda, por ex. paisagem, 1600 px de largura",
+     "Adicione três a cinco itens reais",
+     "Conecte a página do modelo aos campos",
+     "Adicionar uma lista de coleção à página inicial",
+     "Filtre, classifique e limite, por ex. últimos 3 em destaque"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Na página inicial, adicione uma lista de coleção, filtre para Em destaque, classifique o mais novo primeiro e limite-o a 3. A visibilidade condicional oculta um botão quando seu campo está vazio, em vez de mostrar um link quebrado."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Da coleção às páginas ativas",
+    "items": [
+     "Crie a coleção e adicione seus campos",
+     "Escreva um texto de ajuda, por ex. paisagem, 1600 px de largura",
+     "Adicione três a cinco itens reais",
+     "Conecte a página do modelo aos campos",
+     "Adicionar uma lista de coleção à página inicial",
+     "Filtre, classifique e limite, por ex. últimos 3 em destaque"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Em seguida, abra o modo Editor e aja como o cliente. Adicione um título muito longo e um item sem imagem. Corrija o que quebra agora, pois o cliente fará exatamente isso no primeiro mês."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Da coleção às páginas ativas",
+    "items": [
+     "Crie a coleção e adicione seus campos",
+     "Escreva um texto de ajuda, por ex. paisagem, 1600 px de largura",
+     "Adicione três a cinco itens reais",
+     "Conecte a página do modelo aos campos",
+     "Adicionar uma lista de coleção à página inicial",
+     "Filtre, classifique e limite, por ex. últimos 3 em destaque"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "rule": "Teste como um cliente: um título muito longo e um item sem imagem.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Uma interação une um gatilho, como um clique ou rolagem, a uma ação, como um fade. Bons usos ajudam as pessoas: uma abertura de menu, uma expansão de FAQ, um breve fade-in."
+   ],
+   "panel": {
+    "kicker": "Interações",
+    "heading": "Movimento com propósito",
+    "mode": "compare",
+    "left_h": "Bons usos",
+    "left": [
+     "Abertura do menu móvel",
+     "Expansão da resposta do FAQ",
+     "Fade-in curto, 0,2 a 0,5 segundos"
+    ],
+    "right_h": "Maus usos",
+    "right": [
+     "Animações longas que atrasam a leitura",
+     "Texto mostrado apenas ao passar o mouse",
+     "Efeitos pesados em telefones mais baratos"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Usos inadequados atrapalham. Os telefones não podem passar o mouse, portanto, nunca esconda o texto atrás do mouse. E o conteúdo deve ser legível mesmo que a animação não seja executada."
+   ],
+   "panel": {
+    "kicker": "Interações",
+    "heading": "Movimento com propósito",
+    "mode": "compare",
+    "left_h": "Bons usos",
+    "left": [
+     "Abertura do menu móvel",
+     "Expansão da resposta do FAQ",
+     "Fade-in curto, 0,2 a 0,5 segundos"
+    ],
+    "right_h": "Maus usos",
+    "right": [
+     "Animações longas que atrasam a leitura",
+     "Texto mostrado apenas ao passar o mouse",
+     "Efeitos pesados em telefones mais baratos"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Dê a cada campo um rótulo visível e ative o reCAPTCHA. Colete apenas o que você precisa. Se você solicitar nomes, números de telefone ou e-mails, adicione uma nota de privacidade e um link para a política. A Lei de Proteção de Dados de 2023 da Nigéria estabelece deveres aqui, portanto o cliente deve consultar-se.",
+    "Em seguida, teste todos os formulários no domínio ativo e confirme se o cliente realmente recebe o e-mail."
+   ],
+   "panel": {
+    "kicker": "Privacidade",
+    "heading": "Formulários que funcionam e respeitam a privacidade",
+    "items": [
+     "Um rótulo visível em cada campo",
+     "reCAPTCHA ativado para reduzir spam",
+     "Colete apenas o que você precisa",
+     "Uma nota de privacidade e um link para a política",
+     "Teste no domínio ativo; cliente recebe o e-mail"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "phone_camera",
+   "say": [
+    "O problema mais comum de velocidade do Webflow são fotos grandes direto de um telefone. Por exemplo, a página inicial do Ifeoma possui 6 imagens totalizando cerca de 14 MB."
+   ],
+   "panel": {
+    "kicker": "Velocidade",
+    "heading": "Ifeoma reduz o peso da página",
+    "items": [
+     "PageSpeed ​​Insights sinaliza 6 imagens, cerca de 14 MB",
+     "Herói: 6.000 px a 2.000 px, WebP, cerca de 300 KB",
+     "5 fotos de cartão: 1000 px de largura, cerca de 600 KB",
+     "Carregar os cartões com preguiça; refazer o teste"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_camera",
+   "say": [
+    "Ela redimensiona o herói para 2.000 pixels de largura e o converte para WebP. Cerca de 5 MB se tornam cerca de 300 KB."
+   ],
+   "panel": {
+    "kicker": "Velocidade",
+    "heading": "Ifeoma reduz o peso da página",
+    "items": [
+     "PageSpeed ​​Insights sinaliza 6 imagens, cerca de 14 MB",
+     "Herói: 6.000 px a 2.000 px, WebP, cerca de 300 KB",
+     "5 fotos de cartão: 1000 px de largura, cerca de 600 KB",
+     "Carregar os cartões com preguiça; refazer o teste"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "As fotos do cartão vão de cerca de 9 MB a cerca de 600 KB."
+   ],
+   "panel": {
+    "kicker": "Velocidade",
+    "heading": "Ifeoma reduz o peso da página",
+    "items": [
+     "PageSpeed ​​Insights sinaliza 6 imagens, cerca de 14 MB",
+     "Herói: 6.000 px a 2.000 px, WebP, cerca de 300 KB",
+     "5 fotos de cartão: 1000 px de largura, cerca de 600 KB",
+     "Carregar os cartões com preguiça; refazer o teste"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Ela os configura para carregamento lento e testa novamente. Uma economia de cerca de 94%, e isso é muito importante para um visitante em termos de dados móveis."
+   ],
+   "panel": {
+    "kicker": "Velocidade",
+    "heading": "Ifeoma reduz o peso da página",
+    "items": [
+     "PageSpeed ​​Insights sinaliza 6 imagens, cerca de 14 MB",
+     "Herói: 6.000 px a 2.000 px, WebP, cerca de 300 KB",
+     "5 fotos de cartão: 1000 px de largura, cerca de 600 KB",
+     "Carregar os cartões com preguiça; refazer o teste"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Menos de 1 MB de imagens em vez de 14 MB é importante quando os dados são caros.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Verifique o contraste das cores antes de construir."
+   ],
+   "panel": {
+    "kicker": "Antes do lançamento",
+    "heading": "Acessibilidade, pesquisa e domínio",
+    "items": [
+     "Contraste de pelo menos 4,5:1 para texto normal",
+     "Texto alternativo em imagens significativas; um H1",
+     "Navegue pela página e veja o foco",
+     "Títulos claros, por ex. Catering para eventos em Abuja",
+     "Redirecionamentos 301, registros DNS, SSL ativado"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Adicione texto alternativo a imagens significativas, use um H1 por página e mantenha os títulos em ordem."
+   ],
+   "panel": {
+    "kicker": "Antes do lançamento",
+    "heading": "Acessibilidade, pesquisa e domínio",
+    "items": [
+     "Contraste de pelo menos 4,5:1 para texto normal",
+     "Texto alternativo em imagens significativas; um H1",
+     "Navegue pela página e veja o foco",
+     "Títulos claros, por ex. Catering para eventos em Abuja",
+     "Redirecionamentos 301, registros DNS, SSL ativado"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Pressione Tab em todas as páginas e observe o contorno do foco."
+   ],
+   "panel": {
+    "kicker": "Antes do lançamento",
+    "heading": "Acessibilidade, pesquisa e domínio",
+    "items": [
+     "Contraste de pelo menos 4,5:1 para texto normal",
+     "Texto alternativo em imagens significativas; um H1",
+     "Navegue pela página e veja o foco",
+     "Títulos claros, por ex. Catering para eventos em Abuja",
+     "Redirecionamentos 301, registros DNS, SSL ativado"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Uma página intitulada Serviços diz pouco aos mecanismos de pesquisa. Catering para eventos em Abuja diz o que e onde."
+   ],
+   "panel": {
+    "kicker": "Antes do lançamento",
+    "heading": "Acessibilidade, pesquisa e domínio",
+    "items": [
+     "Contraste de pelo menos 4,5:1 para texto normal",
+     "Texto alternativo em imagens significativas; um H1",
+     "Navegue pela página e veja o foco",
+     "Títulos claros, por ex. Catering para eventos em Abuja",
+     "Redirecionamentos 301, registros DNS, SSL ativado"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Adicione redirecionamentos para endereços antigos, copie os registros DNS do Webflow em seu registrador, mantenha o SSL ativado e teste novamente no domínio ativo."
+   ],
+   "panel": {
+    "kicker": "Antes do lançamento",
+    "heading": "Acessibilidade, pesquisa e domínio",
+    "items": [
+     "Contraste de pelo menos 4,5:1 para texto normal",
+     "Texto alternativo em imagens significativas; um H1",
+     "Navegue pela página e veja o foco",
+     "Títulos claros, por ex. Catering para eventos em Abuja",
+     "Redirecionamentos 301, registros DNS, SSL ativado"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Para lembrar. Planeje antes de construir e obtenha a aprovação do plano. Coloque conteúdo repetido no CMS e torne-o à prova de cliente. Mantenha as páginas leves para dados móveis, acessíveis e com títulos claros. E teste os formulários e o domínio antes de você dizer que o site está pronto."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Lembre-se",
+    "items": [
+     "Sitemap, modelo de conteúdo e guia de estilo primeiro",
+     "O conteúdo repetido pertence ao CMS",
+     "O texto de ajuda e os campos de opção mantêm-no à prova do cliente",
+     "Redimensionar imagens; verifique contraste e teclado",
+     "Formulários: dados mínimos, nota de privacidade, teste ao vivo"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Agora escreva um plano de construção, crie um recurso CMS funcional e execute uma verificação completa de pré-lançamento com pontuações de velocidade antes e depois.",
+    "Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Pratique tarefas",
+    "heading": "Seu trabalho para este módulo",
+    "items": [
+     "Escreva um plano de construção com uma página do Guia de Estilo",
+     "Crie um recurso CMS funcional",
+     "Execute um controle de qualidade completo de pré-lançamento"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

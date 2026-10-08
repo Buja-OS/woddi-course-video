@@ -1,0 +1,647 @@
+{
+ "course": "production-scaling-quality-assurance",
+ "module": "m3",
+ "title": "Croissance, personnes et preuves",
+ "course_title": "Mise à l’échelle de la production et assurance qualité",
+ "shots": [
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Croissance, personnes et preuves.",
+    "Ceci est la vidéo du module 3 sur la mise à l'échelle de la production et l'assurance qualité."
+   ]
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Une école demande 400 packs d'ici vendredi. Un supermarché demande 300 paquets chaque lundi, pendant des mois. Rompre cette promesse une fois peut entraîner la perte du compte."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "La mise à l'échelle n'est payante que si vous tenez vos promesses",
+    "items": [
+     "Promettez seulement ce que vous pouvez livrer",
+     "Gérer les défauts sans les cacher",
+     "Prouvez d'où vient chaque paquet",
+     "Un plan de 90 jours que vous pouvez consulter"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Au volume, les défauts sont certains. Ce qui compte, c'est ce qui se passe ensuite."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "La mise à l'échelle n'est payante que si vous tenez vos promesses",
+    "items": [
+     "Promettez seulement ce que vous pouvez livrer",
+     "Gérer les défauts sans les cacher",
+     "Prouvez d'où vient chaque paquet",
+     "Un plan de 90 jours que vous pouvez consulter"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Vous devez retracer tout emballage jusqu'à ses matériaux et le transmettre à ses clients."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "La mise à l'échelle n'est payante que si vous tenez vos promesses",
+    "items": [
+     "Promettez seulement ce que vous pouvez livrer",
+     "Gérer les défauts sans les cacher",
+     "Prouvez d'où vient chaque paquet",
+     "Un plan de 90 jours que vous pouvez consulter"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Et vous terminerez avec un plan de mise à l'échelle de 90 jours."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "La mise à l'échelle n'est payante que si vous tenez vos promesses",
+    "items": [
+     "Promettez seulement ce que vous pouvez livrer",
+     "Gérer les défauts sans les cacher",
+     "Prouvez d'où vient chaque paquet",
+     "Un plan de 90 jours que vous pouvez consulter"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Planifiez avec une capacité démontrée : ce que vous avez réellement produit selon les spécifications au cours d'une semaine normale. Pour Kemi, 2 100 paquets par semaine."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Kemi devrait-elle prendre 500 paquets de plus par semaine ?",
+    "items": [
+     "Capacité démontrée : 2 100 par semaine",
+     "Actuellement : 1 500 packs, 71 % d'utilisation",
+     "Plus 500 : 95 %, seulement 100 de rechange",
+     "Un jour perdu = 420 packs",
+     "Contre-offre 300 : 86 %, 300 de rechange"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "L'utilisation est la demande engagée divisée par la capacité. Elle fournit déjà 1 500 packs, soit 71 %."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Kemi devrait-elle prendre 500 paquets de plus par semaine ?",
+    "items": [
+     "Capacité démontrée : 2 100 par semaine",
+     "Actuellement : 1 500 packs, 71 % d'utilisation",
+     "Plus 500 : 95 %, seulement 100 de rechange",
+     "Un jour perdu = 420 packs",
+     "Contre-offre 300 : 86 %, 300 de rechange"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Un supermarché en veut 500 de plus chaque lundi. Cela représente 95 %, avec seulement 100 packs de rechange."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Kemi devrait-elle prendre 500 paquets de plus par semaine ?",
+    "items": [
+     "Capacité démontrée : 2 100 par semaine",
+     "Actuellement : 1 500 packs, 71 % d'utilisation",
+     "Plus 500 : 95 %, seulement 100 de rechange",
+     "Un jour perdu = 420 packs",
+     "Contre-offre 300 : 86 %, 300 de rechange"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Ses dossiers montrent qu'elle perd environ une journée par mois à cause des coupures de courant et des maladies. Une journée perdue équivaut à 420 paquets. Avec 100 de rechange, la récupération prend plus de 4 semaines."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Kemi devrait-elle prendre 500 paquets de plus par semaine ?",
+    "items": [
+     "Capacité démontrée : 2 100 par semaine",
+     "Actuellement : 1 500 packs, 71 % d'utilisation",
+     "Plus 500 : 95 %, seulement 100 de rechange",
+     "Un jour perdu = 420 packs",
+     "Contre-offre 300 : 86 %, 300 de rechange"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Elle en propose donc 300 par semaine pendant 6 semaines. Cela laisse 300 personnes de rechange et une journée perdue est récupérée en 1,4 semaine. Après 6 semaines de livraison dans les délais, elle en a la preuve."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Kemi devrait-elle prendre 500 paquets de plus par semaine ?",
+    "items": [
+     "Capacité démontrée : 2 100 par semaine",
+     "Actuellement : 1 500 packs, 71 % d'utilisation",
+     "Plus 500 : 95 %, seulement 100 de rechange",
+     "Un jour perdu = 420 packs",
+     "Contre-offre 300 : 86 %, 300 de rechange"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Laissez le volume suivre votre témoignage, ne le devancez jamais.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Conservez une petite réserve de produits expédiés afin qu'une mauvaise journée ne se transforme pas en une livraison manquée. Étiquetez chaque carton et livrez toujours en premier le stock le plus ancien."
+   ],
+   "panel": {
+    "kicker": "Tampons et délais",
+    "heading": "Promets honnêtement",
+    "mode": "compare",
+    "left_h": "Stock tampon",
+    "left": [
+     "Environ une livraison par client",
+     "Code de lot et date de péremption sur les cartons",
+     "Frais et sec",
+     "Premier expiré, premier sorti"
+    ],
+    "right_h": "Délai honnête",
+    "right": [
+     "Commande supplémentaire / capacité disponible",
+     "1 000 / 300 = 3,3 semaines",
+     "Ajouter le délai d'achat et de livraison",
+     "Citation 4 semaines, pas 1"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Pour une commande ponctuelle, divisez-la par votre capacité disponible, puis ajoutez le délai d'achat et de livraison. Kemi cite 4 semaines plus la livraison, pas 1 semaine.",
+    "Et faites attention aux longs délais de paiement : attendre 30 jours signifie que vous financez le stock vous-même."
+   ],
+   "panel": {
+    "kicker": "Tampons et délais",
+    "heading": "Promets honnêtement",
+    "mode": "compare",
+    "left_h": "Stock tampon",
+    "left": [
+     "Environ une livraison par client",
+     "Code de lot et date de péremption sur les cartons",
+     "Frais et sec",
+     "Premier expiré, premier sorti"
+    ],
+    "right_h": "Délai honnête",
+    "right": [
+     "Commande supplémentaire / capacité disponible",
+     "1 000 / 300 = 3,3 semaines",
+     "Ajouter le délai d'achat et de livraison",
+     "Citation 4 semaines, pas 1"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Tout article qui échoue à une vérification est envoyé dans une zone de retenue marquée, avec une étiquette. Rien ne part sans décision. En cas de doute, déposez-le sur le plateau rouge, et remerciez les personnes qui l'utilisent."
+   ],
+   "panel": {
+    "kicker": "Défauts",
+    "heading": "Tenir, décider, retravailler selon les règles",
+    "items": [
+     "Article défaillant : plateau rouge, avec une étiquette",
+     "Le superviseur décide ; écris-le",
+     "Retravailler par une méthode écrite, une fois",
+     "Revérifiez par rapport aux spécifications complètes",
+     "Chuté, moisi, contaminé : ferraille"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "La décision est de retravailler, déclasser, mettre au rebut ou utiliser tel quel, et elle est écrite."
+   ],
+   "panel": {
+    "kicker": "Défauts",
+    "heading": "Tenir, décider, retravailler selon les règles",
+    "items": [
+     "Article défaillant : plateau rouge, avec une étiquette",
+     "Le superviseur décide ; écris-le",
+     "Retravailler par une méthode écrite, une fois",
+     "Revérifiez par rapport aux spécifications complètes",
+     "Chuté, moisi, contaminé : ferraille"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Retravaillez uniquement par une méthode écrite, revérifiez tout, enregistrez-le et autorisez-le une seule fois."
+   ],
+   "panel": {
+    "kicker": "Défauts",
+    "heading": "Tenir, décider, retravailler selon les règles",
+    "items": [
+     "Article défaillant : plateau rouge, avec une étiquette",
+     "Le superviseur décide ; écris-le",
+     "Retravailler par une méthode écrite, une fois",
+     "Revérifiez par rapport aux spécifications complètes",
+     "Chuté, moisi, contaminé : ferraille"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Certains défauts alimentaires ne pourront jamais être retravaillés. Tout ce qui est tombé, contaminé, moisi ou périmé est mis au rebut.",
+    "Ne cachez jamais un problème de sécurité alimentaire. Trouvez la cause, et s'il a été vendu, contactez les acheteurs."
+   ],
+   "panel": {
+    "kicker": "Défauts",
+    "heading": "Tenir, décider, retravailler selon les règles",
+    "items": [
+     "Article défaillant : plateau rouge, avec une étiquette",
+     "Le superviseur décide ; écris-le",
+     "Retravailler par une méthode écrite, une fois",
+     "Revérifiez par rapport aux spécifications complètes",
+     "Chuté, moisi, contaminé : ferraille"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Tenez un journal des défauts. En deux semaines, l'équipe de Kemi enregistre 100 packs défectueux sur environ 4 000."
+   ],
+   "panel": {
+    "kicker": "Trouver la cause",
+    "heading": "Pareto, puis arête de poisson",
+    "items": [
+     "Deux semaines : 100 packs défectueux",
+     "Brûlé 46, cassé 30 : ensemble 76%",
+     "Fishbone avec l'équipe, 20 minutes",
+     "Cause : derniers chargements, huile la plus ancienne",
+     "Règle de rotation des friteuses et de vidange d'huile"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Triez-les en premier. Les emballages brûlés et cassés sont à l'origine de 76 % de tous les défauts. Il s'agit d'un tableau de Pareto. Il montre où dépenser vos efforts."
+   ],
+   "panel": {
+    "kicker": "Trouver la cause",
+    "heading": "Pareto, puis arête de poisson",
+    "items": [
+     "Deux semaines : 100 packs défectueux",
+     "Brûlé 46, cassé 30 : ensemble 76%",
+     "Fishbone avec l'équipe, 20 minutes",
+     "Cause : derniers chargements, huile la plus ancienne",
+     "Règle de rotation des friteuses et de vidange d'huile"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Ensuite, une séance en arête de poisson de 20 minutes : l'équipe répertorie les causes possibles sous les rubriques personnes, équipement, méthode, matériaux, mesures et environnement."
+   ],
+   "panel": {
+    "kicker": "Trouver la cause",
+    "heading": "Pareto, puis arête de poisson",
+    "items": [
+     "Deux semaines : 100 packs défectueux",
+     "Brûlé 46, cassé 30 : ensemble 76%",
+     "Fishbone avec l'équipe, 20 minutes",
+     "Cause : derniers chargements, huile la plus ancienne",
+     "Règle de rotation des friteuses et de vidange d'huile"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Le journal des défauts montre que la plupart des packs brûlés provenaient des dernières charges de la journée, lorsque la friteuse était fatiguée et l'huile la plus vieille."
+   ],
+   "panel": {
+    "kicker": "Trouver la cause",
+    "heading": "Pareto, puis arête de poisson",
+    "items": [
+     "Deux semaines : 100 packs défectueux",
+     "Brûlé 46, cassé 30 : ensemble 76%",
+     "Fishbone avec l'équipe, 20 minutes",
+     "Cause : derniers chargements, huile la plus ancienne",
+     "Règle de rotation des friteuses et de vidange d'huile"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Ses actions correctives : une rotation de la friteuse toutes les deux heures, une vidange d'huile à un nombre fixe de charges et la réinitialisation de la minuterie inscrite dans la méthode. Deux semaines plus tard, elle vérifie à nouveau le journal."
+   ],
+   "panel": {
+    "kicker": "Trouver la cause",
+    "heading": "Pareto, puis arête de poisson",
+    "items": [
+     "Deux semaines : 100 packs défectueux",
+     "Brûlé 46, cassé 30 : ensemble 76%",
+     "Fishbone avec l'équipe, 20 minutes",
+     "Cause : derniers chargements, huile la plus ancienne",
+     "Règle de rotation des friteuses et de vidange d'huile"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Une correction corrige le produit. Une action corrective supprime la cause.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Un magasin envoie à Kemi une photo d'un paquet au goût rassis et gras. Le code de lot est KC261006-3 : chin-chin fabriqué le 6 octobre 2026, charge de mélange 3."
+   ],
+   "panel": {
+    "kicker": "Traçabilité",
+    "heading": "Codes de lot et enregistrements de lots",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Lot code",
+      "d": "KC261006-3 : Kemi's Chin-chin, 6 octobre 2026, chargement 3. Sur chaque paquet et carton."
+     },
+     {
+      "t": "Batch record",
+      "d": "Lots de matériel, chaque contrôle avec lecture et paraphe, sortie, échantillon retenu, libération."
+     },
+     {
+      "t": "Journal d'expédition",
+      "d": "Quel client a reçu combien de chaque lot et quand."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Son relevé de lots montre que l’huile n’a pas été changée ce jour-là et que la friteuse était une nouvelle aide. L'échantillon retenu du chargement 3 est périmé ; la charge 2 est très bien."
+   ],
+   "panel": {
+    "kicker": "Traçabilité",
+    "heading": "Codes de lot et enregistrements de lots",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Lot code",
+      "d": "KC261006-3 : Kemi's Chin-chin, 6 octobre 2026, chargement 3. Sur chaque paquet et carton."
+     },
+     {
+      "t": "Batch record",
+      "d": "Lots de matériel, chaque contrôle avec lecture et paraphe, sortie, échantillon retenu, libération."
+     },
+     {
+      "t": "Journal d'expédition",
+      "d": "Quel client a reçu combien de chaque lot et quand."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Son journal d'expédition montre que 30 colis ont été envoyés au magasin et 22 à des clients WhatsApp nommés. En un après-midi, elle les remplace, recycle l'assistant et ajoute une case à cocher pour la vidange d'huile."
+   ],
+   "panel": {
+    "kicker": "Traçabilité",
+    "heading": "Codes de lot et enregistrements de lots",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Lot code",
+      "d": "KC261006-3 : Kemi's Chin-chin, 6 octobre 2026, chargement 3. Sur chaque paquet et carton."
+     },
+     {
+      "t": "Batch record",
+      "d": "Lots de matériel, chaque contrôle avec lecture et paraphe, sortie, échantillon retenu, libération."
+     },
+     {
+      "t": "Journal d'expédition",
+      "d": "Quel client a reçu combien de chaque lot et quand."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Au cours des 30 premiers jours, testez la nouvelle taille de charge, testez la solution aux goulots d'étranglement et formez un assistant par étape."
+   ],
+   "panel": {
+    "kicker": "Plan de 90 jours",
+    "heading": "Jalons que vous pouvez vérifier",
+    "items": [
+     "Jours 1 à 30 : piloter et résoudre le goulot d'étranglement",
+     "Jours 31 à 60 : nouveau volume, trois semaines consécutives",
+     "Jours 61-90 : offrez un volume éprouvé",
+     "Budget à partir de deux devis fournisseurs",
+     "Les dates de déménagement, jamais le standard de qualité"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Au jour 60, atteignez le nouveau volume pendant au moins trois semaines consécutives, avec une carte de contrôle exécutée quotidiennement."
+   ],
+   "panel": {
+    "kicker": "Plan de 90 jours",
+    "heading": "Jalons que vous pouvez vérifier",
+    "items": [
+     "Jours 1 à 30 : piloter et résoudre le goulot d'étranglement",
+     "Jours 31 à 60 : nouveau volume, trois semaines consécutives",
+     "Jours 61-90 : offrez un volume éprouvé",
+     "Budget à partir de deux devis fournisseurs",
+     "Les dates de déménagement, jamais le standard de qualité"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Au jour 90, offrez le volume éprouvé à un acheteur régulier, avec des enregistrements de lots complets et un test de trace réussi."
+   ],
+   "panel": {
+    "kicker": "Plan de 90 jours",
+    "heading": "Jalons que vous pouvez vérifier",
+    "items": [
+     "Jours 1 à 30 : piloter et résoudre le goulot d'étranglement",
+     "Jours 31 à 60 : nouveau volume, trois semaines consécutives",
+     "Jours 61-90 : offrez un volume éprouvé",
+     "Budget à partir de deux devis fournisseurs",
+     "Les dates de déménagement, jamais le standard de qualité"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Évaluez chaque article d'équipement auprès d'au moins deux fournisseurs et révisez le plan toutes les deux semaines. Ajustez les dates, jamais le standard de qualité."
+   ],
+   "panel": {
+    "kicker": "Plan de 90 jours",
+    "heading": "Jalons que vous pouvez vérifier",
+    "items": [
+     "Jours 1 à 30 : piloter et résoudre le goulot d'étranglement",
+     "Jours 31 à 60 : nouveau volume, trois semaines consécutives",
+     "Jours 61-90 : offrez un volume éprouvé",
+     "Budget à partir de deux devis fournisseurs",
+     "Les dates de déménagement, jamais le standard de qualité"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "À retenir. Promesse de capacité démontrée, avec un coussin et un tampon. Conservez les éléments ayant échoué et suivez les règles de retouche. Supprimez les causes avec Pareto et Fishbone. Et mettez beaucoup de code sur chaque pack."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Plan avec capacité démontrée",
+     "Gardez un coussin et un tampon",
+     "Conserver les éléments ayant échoué ; retravailler une fois, selon les règles",
+     "Pareto d'abord, puis les arêtes de poisson",
+     "Code de lot sur chaque paquet et carton"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "À votre tour. Testez un engagement d'approvisionnement, effectuez une revue des défauts avec une table de Pareto, puis créez vos codes de lot, votre enregistrement de lot et votre plan sur 90 jours.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâches d'entraînement",
+    "heading": "Vos tâches pratiques",
+    "items": [
+     "Tester un engagement d'approvisionnement",
+     "Exécutez votre premier examen des défauts",
+     "Construisez votre pack et votre plan de traçabilité"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

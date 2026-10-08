@@ -1,0 +1,600 @@
+{
+ "course": "sql-fundamentals",
+ "module": "m3",
+ "title": "Kutoka kwa ombi lisiloeleweka hadi uchanganuzi unaolipiwa, unaoaminika",
+ "course_title": "Misingi ya SQL",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Kutoka kwa ombi lisilo wazi hadi uchanganuzi uliolipwa, unaoaminika.",
+    "Hii ni video ya moduli ya 3 ya Misingi ya SQL: Miradi ya Uchambuzi, Wateja na Kwingineko Yako."
+   ]
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Meneja anasema, nitumie wateja wetu bora. Ukianza kuandika mara moja, unajibu nadhani yako mwenyewe, si swali lake. Kwa hivyo uliza kwanza."
+   ],
+   "panel": {
+    "kicker": "Ugunduzi kwanza",
+    "heading": "Uliza kabla ya kuandika SQL yoyote",
+    "items": [
+     "Je, uamuzi huu utasaidia?",
+     "Je, unafafanuaje neno kuu?",
+     "Kipindi gani?",
+     "Nini kinapaswa kutengwa?",
+     "Ni muundo gani, lini, na mara ngapi?"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Je, uamuzi huu utasaidia? Kwa Kemi, kuchagua ni nani anayepata punguzo la uaminifu."
+   ],
+   "panel": {
+    "kicker": "Ugunduzi kwanza",
+    "heading": "Uliza kabla ya kuandika SQL yoyote",
+    "items": [
+     "Je, uamuzi huu utasaidia?",
+     "Je, unafafanuaje neno kuu?",
+     "Kipindi gani?",
+     "Nini kinapaswa kutengwa?",
+     "Ni muundo gani, lini, na mara ngapi?"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Je, unafafanuaje bora zaidi? Matumizi ya juu zaidi, sio idadi ya maagizo."
+   ],
+   "panel": {
+    "kicker": "Ugunduzi kwanza",
+    "heading": "Uliza kabla ya kuandika SQL yoyote",
+    "items": [
+     "Je, uamuzi huu utasaidia?",
+     "Je, unafafanuaje neno kuu?",
+     "Kipindi gani?",
+     "Nini kinapaswa kutengwa?",
+     "Ni muundo gani, lini, na mara ngapi?"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Kipindi gani? 1 Mei hadi 31 Agosti 2026."
+   ],
+   "panel": {
+    "kicker": "Ugunduzi kwanza",
+    "heading": "Uliza kabla ya kuandika SQL yoyote",
+    "items": [
+     "Je, uamuzi huu utasaidia?",
+     "Je, unafafanuaje neno kuu?",
+     "Kipindi gani?",
+     "Nini kinapaswa kutengwa?",
+     "Ni muundo gani, lini, na mara ngapi?"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Nini kinapaswa kuachwa? Maagizo yaliyoghairiwa na yanayosubiri."
+   ],
+   "panel": {
+    "kicker": "Ugunduzi kwanza",
+    "heading": "Uliza kabla ya kuandika SQL yoyote",
+    "items": [
+     "Je, uamuzi huu utasaidia?",
+     "Je, unafafanuaje neno kuu?",
+     "Kipindi gani?",
+     "Nini kinapaswa kutengwa?",
+     "Ni muundo gani, lini, na mara ngapi?"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Je, ni muundo gani, kwa wakati gani, na ni wa mapumziko mara moja au kila mwezi? Kisha andika ufafanuzi katika sentensi moja na upate ndiyo."
+   ],
+   "panel": {
+    "kicker": "Ugunduzi kwanza",
+    "heading": "Uliza kabla ya kuandika SQL yoyote",
+    "items": [
+     "Je, uamuzi huu utasaidia?",
+     "Je, unafafanuaje neno kuu?",
+     "Kipindi gani?",
+     "Nini kinapaswa kutengwa?",
+     "Ni muundo gani, lini, na mara ngapi?"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "CTE, usemi wa kawaida wa jedwali, hukuruhusu kutaja hatua moja na WITH, kisha uitumie kama jedwali. Hatua ya kwanza ya Kemi, inayoitwa matumizi, jumla ya maagizo yaliyoletwa kwa kila mteja."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Wateja bora, waliojengwa hatua kwa hatua",
+    "items": [
+     "NA kutumia AS: jumla iliyotolewa kwa kila mteja",
+     "Angalia: wateja 5, na kuongeza 211,500",
+     "Wastani kwa kila mteja anayenunua: 42,300",
+     "Weka walio juu yake: Dupe, Amaka, Bisi"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Endesha hatua hiyo peke yako. wateja 5, na kuongeza 211,500. Nzuri."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Wateja bora, waliojengwa hatua kwa hatua",
+    "items": [
+     "NA kutumia AS: jumla iliyotolewa kwa kila mteja",
+     "Angalia: wateja 5, na kuongeza 211,500",
+     "Wastani kwa kila mteja anayenunua: 42,300",
+     "Weka walio juu yake: Dupe, Amaka, Bisi"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Wastani wa mteja anayenunua ni 211,500 kugawanywa na 5, ambayo ni 42,300."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Wateja bora, waliojengwa hatua kwa hatua",
+    "items": [
+     "NA kutumia AS: jumla iliyotolewa kwa kila mteja",
+     "Angalia: wateja 5, na kuongeza 211,500",
+     "Wastani kwa kila mteja anayenunua: 42,300",
+     "Weka walio juu yake: Dupe, Amaka, Bisi"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Hoja ya mwisho huwaweka wateja juu ya kwamba: Dupe 61,000, Amaka 55,000, Bisi 54,500."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Wateja bora, waliojengwa hatua kwa hatua",
+    "items": [
+     "NA kutumia AS: jumla iliyotolewa kwa kila mteja",
+     "Angalia: wateja 5, na kuongeza 211,500",
+     "Wastani kwa kila mteja anayenunua: 42,300",
+     "Weka walio juu yake: Dupe, Amaka, Bisi"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Kisha sema nambari inaficha nini. Dupe alifanya ununuzi mmoja mkubwa, wakati Amaka alinunua mara tatu. Hiyo inaweza kubadilisha nani anapata ofa ipi."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Wateja bora, waliojengwa hatua kwa hatua",
+    "items": [
+     "NA kutumia AS: jumla iliyotolewa kwa kila mteja",
+     "Angalia: wateja 5, na kuongeza 211,500",
+     "Wastani kwa kila mteja anayenunua: 42,300",
+     "Weka walio juu yake: Dupe, Amaka, Bisi"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Angalia kila hatua ya CTE peke yake kabla ya kujenga juu yake.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Utendakazi wa dirisha hukokotoa katika safu mlalo huku ukiweka kila safu mlalo. SUM OVER inatoa jumla ya kukimbia. LAG huleta thamani kutoka kwa safu iliyotangulia, ili uweze kuona mabadiliko."
+   ],
+   "card": {
+    "title": "Mapato ya kila mwezi na jumla ya uendeshaji",
+    "rows": [],
+    "note": "Fanya mazoezi ya takwimu, si bei halisi ya soko."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Mei alileta naira 69,500. Juni ilileta 73,500, hadi 4,000, kwa hivyo jumla ya kukimbia ni 143,000."
+   ],
+   "card": {
+    "title": "Mapato ya kila mwezi na jumla ya uendeshaji",
+    "rows": [
+     [
+      "Mei",
+      "69,500"
+     ],
+     [
+      "Juni: +4,000",
+      "73,500"
+     ]
+    ],
+    "note": "Fanya mazoezi ya takwimu, si bei halisi ya soko."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Julai ilishuka hadi 60,500, na Agosti inaonyesha 8,000 tu."
+   ],
+   "card": {
+    "title": "Mapato ya kila mwezi na jumla ya uendeshaji",
+    "rows": [
+     [
+      "Mei",
+      "69,500"
+     ],
+     [
+      "Juni: +4,000",
+      "73,500"
+     ],
+     [
+      "Julai: -13,000",
+      "60,500"
+     ],
+     [
+      "Agosti: -52,500",
+      "8,000"
+     ]
+    ],
+    "note": "Fanya mazoezi ya takwimu, si bei halisi ya soko."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Jumla ya mwisho inayoendeshwa, 211,500, ni sawa na jumla iliyowasilishwa, kwa hivyo inakaguliwa. Lakini Agosti ina amri moja tu, hivyo kumbuka kwa uaminifu ni kwamba Agosti inaweza kuwa haijakamilika."
+   ],
+   "card": {
+    "title": "Mapato ya kila mwezi na jumla ya uendeshaji",
+    "rows": [
+     [
+      "Mei",
+      "69,500"
+     ],
+     [
+      "Juni: +4,000",
+      "73,500"
+     ],
+     [
+      "Julai: -13,000",
+      "60,500"
+     ],
+     [
+      "Agosti: -52,500",
+      "8,000"
+     ]
+    ],
+    "note": "Fanya mazoezi ya takwimu, si bei halisi ya soko."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Wanaoanza huweka bei tu wakati wa kuandika hoja ya mwisho. Kazi halisi inachukua muda mrefu zaidi. Halima anakadiria kila hatua: ugunduzi na upeo, saa 2. Ufikiaji na upakiaji, 3. Maswali ya kuandika na kupima, 5. Hundi, 2. Ripoti, 3.",
+    "Hiyo ni masaa 15. Anaongeza bafa ya asilimia 20, saa 3, kwa 18 kwa jumla."
+   ],
+   "card": {
+    "title": "Halima ananukuu mchanganuo wa mauzo",
+    "rows": [],
+    "note": "5,000 kwa saa ni kwa njia pekee, sio kiwango cha soko."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Kwa kielelezo cha naira 5,000 kwa saa, hiyo ni naira 90,000. Chunguza kiwango chako mwenyewe."
+   ],
+   "card": {
+    "title": "Halima ananukuu mchanganuo wa mauzo",
+    "rows": [
+     [
+      "Saa 18 x 5,000 kwa saa",
+      "90,000"
+     ]
+    ],
+    "note": "5,000 kwa saa ni kwa njia pekee, sio kiwango cha soko."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Anaomba asilimia 50, 45,000, kama amana kabla ya kufikia. Na maswali ya ziada hupata nukuu ya nyongeza ya kirafiki."
+   ],
+   "card": {
+    "title": "Halima ananukuu mchanganuo wa mauzo",
+    "rows": [
+     [
+      "Saa 18 x 5,000 kwa saa",
+      "90,000"
+     ],
+     [
+      "Amana kabla ya kufikia data, 50%",
+      "45,000"
+     ]
+    ],
+    "note": "5,000 kwa saa ni kwa njia pekee, sio kiwango cha soko."
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Data ya mauzo ina data ya kibinafsi, na Sheria ya Kulinda Data ya Nigeria ya 2023 inaweka sheria kwayo. Kwa hivyo omba ufikiaji wa kusoma tu. Kabla ya amri yoyote inayobadilisha data, kwanza endesha hali ile ile ya WHERE katika SELECT."
+   ],
+   "panel": {
+    "kicker": "Data ya mteja",
+    "heading": "Tabia salama za data kwa wachambuzi",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Read-only access",
+      "d": "Huwezi kubadilisha au kufuta rekodi kwa makosa. KUFUTA, KUSASISHA na DROP mara nyingi hakuna kutendua."
+     },
+     {
+      "t": "Only what you need",
+      "d": "Omba safu wima za chini zaidi. Badilisha majina na vitambulisho. Hakuna mauzo ya nje katika mazungumzo ya kibinafsi ya WhatsApp."
+     },
+     {
+      "t": "Delete at the end",
+      "d": "Hifadhi faili zilizo na uthibitishaji wa hatua mbili, zifute baada ya kazi, na uthibitishe kwa maandishi."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Uliza safuwima unazohitaji pekee. Huhitaji nambari za simu kuhesabu mauzo. Kamwe usitume bidhaa kupitia gumzo za kibinafsi za WhatsApp au zana za umma."
+   ],
+   "panel": {
+    "kicker": "Data ya mteja",
+    "heading": "Tabia salama za data kwa wachambuzi",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Read-only access",
+      "d": "Huwezi kubadilisha au kufuta rekodi kwa makosa. KUFUTA, KUSASISHA na DROP mara nyingi hakuna kutendua."
+     },
+     {
+      "t": "Only what you need",
+      "d": "Omba safu wima za chini zaidi. Badilisha majina na vitambulisho. Hakuna mauzo ya nje katika mazungumzo ya kibinafsi ya WhatsApp."
+     },
+     {
+      "t": "Delete at the end",
+      "d": "Hifadhi faili zilizo na uthibitishaji wa hatua mbili, zifute baada ya kazi, na uthibitishe kwa maandishi."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Hifadhi faili kwa usalama, zifute mwishoni mwa kazi, na uthibitishe kufuta kwa maandishi."
+   ],
+   "panel": {
+    "kicker": "Data ya mteja",
+    "heading": "Tabia salama za data kwa wachambuzi",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Read-only access",
+      "d": "Huwezi kubadilisha au kufuta rekodi kwa makosa. KUFUTA, KUSASISHA na DROP mara nyingi hakuna kutendua."
+     },
+     {
+      "t": "Only what you need",
+      "d": "Omba safu wima za chini zaidi. Badilisha majina na vitambulisho. Hakuna mauzo ya nje katika mazungumzo ya kibinafsi ya WhatsApp."
+     },
+     {
+      "t": "Delete at the end",
+      "d": "Hifadhi faili zilizo na uthibitishaji wa hatua mbili, zifute baada ya kazi, na uthibitishe kwa maandishi."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Vyeti vinasema ulisoma. Kwingineko inaonyesha unaweza kufanya kazi. Chukua seti moja ya data ya umma, kutoka Kaggle au Data Huria ya Benki ya Dunia, na uandike maswali 3 hadi 5 ambayo meneja angeuliza."
+   ],
+   "panel": {
+    "kicker": "Thibitisha ujuzi wako",
+    "heading": "Mradi wa kwingineko ambao unatambuliwa",
+    "items": [
+     "Maswali 3 hadi 5 ya biashara kama ufafanuzi",
+     "Hoja moja kila moja, hadi CTE na dirisha",
+     "Rekodi hundi zako na walichokamata",
+     "Matokeo ya lugha rahisi yenye chati moja au mbili",
+     "Chapisha kwenye GitHub na uibandike kwenye LinkedIn"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Andika swali moja kwa kila swali."
+   ],
+   "panel": {
+    "kicker": "Thibitisha ujuzi wako",
+    "heading": "Mradi wa kwingineko ambao unatambuliwa",
+    "items": [
+     "Maswali 3 hadi 5 ya biashara kama ufafanuzi",
+     "Hoja moja kila moja, hadi CTE na dirisha",
+     "Rekodi hundi zako na walichokamata",
+     "Matokeo ya lugha rahisi yenye chati moja au mbili",
+     "Chapisha kwenye GitHub na uibandike kwenye LinkedIn"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Rekodi hundi ulizoendesha, na walichokamata."
+   ],
+   "panel": {
+    "kicker": "Thibitisha ujuzi wako",
+    "heading": "Mradi wa kwingineko ambao unatambuliwa",
+    "items": [
+     "Maswali 3 hadi 5 ya biashara kama ufafanuzi",
+     "Hoja moja kila moja, hadi CTE na dirisha",
+     "Rekodi hundi zako na walichokamata",
+     "Matokeo ya lugha rahisi yenye chati moja au mbili",
+     "Chapisha kwenye GitHub na uibandike kwenye LinkedIn"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Andika matokeo ambayo msomaji asiye wa kiufundi anaweza kuyafanyia kazi."
+   ],
+   "panel": {
+    "kicker": "Thibitisha ujuzi wako",
+    "heading": "Mradi wa kwingineko ambao unatambuliwa",
+    "items": [
+     "Maswali 3 hadi 5 ya biashara kama ufafanuzi",
+     "Hoja moja kila moja, hadi CTE na dirisha",
+     "Rekodi hundi zako na walichokamata",
+     "Matokeo ya lugha rahisi yenye chati moja au mbili",
+     "Chapisha kwenye GitHub na uibandike kwenye LinkedIn"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Kisha ichapishe kwa README na uibandike kwenye LinkedIn. Zaidi ya siku 90: fanya mazoezi kila siku, jenga mradi, uchapishe, kisha utume ombi."
+   ],
+   "panel": {
+    "kicker": "Thibitisha ujuzi wako",
+    "heading": "Mradi wa kwingineko ambao unatambuliwa",
+    "items": [
+     "Maswali 3 hadi 5 ya biashara kama ufafanuzi",
+     "Hoja moja kila moja, hadi CTE na dirisha",
+     "Rekodi hundi zako na walichokamata",
+     "Matokeo ya lugha rahisi yenye chati moja au mbili",
+     "Chapisha kwenye GitHub na uibandike kwenye LinkedIn"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Kukumbuka. Kubali ufafanuzi kabla ya kuuliza. Jenga ndani iliyotajwa, hatua zilizochaguliwa. Bei kila hatua ya kazi, sio tu swali la mwisho. Na shughulikia data ya mteja kwa uangalifu kutoka kwa ufikiaji hadi kufutwa."
+   ],
+   "panel": {
+    "kicker": "Pointi muhimu",
+    "heading": "Kumbuka",
+    "items": [
+     "Kubali ufafanuzi wa sentensi moja kwanza",
+     "Taja kila hatua na CTE na uangalie",
+     "Vitendaji vya dirisha huhifadhi kila safu",
+     "Upeo, kadiria kila hatua, chukua amana",
+     "Ufikiaji wa kusoma pekee, kiwango cha chini cha data, futa mwisho"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Sasa endesha mazungumzo ya ugunduzi, andika upeo wa ukurasa mmoja na nukuu, na uanze kwingineko yako kwa mpango wa siku 90.",
+    "Endelea na masomo hapa chini."
+   ],
+   "panel": {
+    "kicker": "Mazoezi ya kazi",
+    "heading": "Kazi yako kwa moduli hii",
+    "items": [
+     "Endesha mazungumzo ya ugunduzi",
+     "Andika upeo wa ukurasa mmoja na nukuu",
+     "Anza kwingineko yako na mpango wa siku 90"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

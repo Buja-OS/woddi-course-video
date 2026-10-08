@@ -1,0 +1,497 @@
+{
+ "course": "remote-work-team-collaboration",
+ "module": "m3",
+ "title": "Tambua, bei na risasi: kuboresha timu iliyosambazwa",
+ "course_title": "Kazi ya Mbali na Ushirikiano wa Timu: Timu Zinazoongoza Zinazosambazwa",
+ "shots": [
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Tambua, bei na risasi: kuboresha timu iliyosambazwa.",
+    "Hii ni video ya moduli ya tatu ya Kazi ya Mbali na Ushirikiano wa Timu."
+   ]
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Ikiwa unajiunga na timu ya mbali, kuiongoza, au kuishauri, kazi yako ya kwanza ni kuelewa jinsi kazi inavyoendelea. Timu mara nyingi huelezea jinsi wanavyotamani wafanye kazi."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Tafuta jinsi timu inavyofanya kazi kweli",
+    "items": [
+     "Timu zinaelezea jinsi wanavyotamani wangefanya kazi",
+     "Uliza ushahidi: nionyeshe",
+     "Zungumza katika viwango na maeneo",
+     "Mifumo ya ripoti, sio majina"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Kwa hivyo omba ushahidi, sio maoni tu. Bajeti ya sasa iko wapi? Nionyeshe."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Tafuta jinsi timu inavyofanya kazi kweli",
+    "items": [
+     "Timu zinaelezea jinsi wanavyotamani wangefanya kazi",
+     "Uliza ushahidi: nionyeshe",
+     "Zungumza katika viwango na maeneo",
+     "Mifumo ya ripoti, sio majina"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Zungumza na watu katika viwango na maeneo tofauti, ikiwa ni pamoja na mtu aliyejiunga hivi majuzi. Weka wanachosema kuwa siri, na ripoti ruwaza, si majina."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Tafuta jinsi timu inavyofanya kazi kweli",
+    "items": [
+     "Timu zinaelezea jinsi wanavyotamani wangefanya kazi",
+     "Uliza ushahidi: nionyeshe",
+     "Zungumza katika viwango na maeneo",
+     "Mifumo ya ripoti, sio majina"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Alama maeneo nane, kama vile njia, chanzo cha ukweli, umiliki, mikutano na maamuzi. Alama ya 1 inamaanisha hakuna mazoezi ya pamoja."
+   ],
+   "panel": {
+    "kicker": "Ukaguzi",
+    "heading": "Alama maeneo nane kutoka 1 hadi 5",
+    "items": [
+     "1: hakuna mazoezi ya pamoja",
+     "3: mazoezi, kutumika bila usawa",
+     "5: imeandikwa, na watu wengi huifuata",
+     "Ongeza alama; tafuta maeneo ya chini kabisa"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "3 ina maana mazoezi yapo lakini yanatumika kwa usawa. 5 inamaanisha mazoezi ya maandishi ambayo watu wengi hufuata."
+   ],
+   "panel": {
+    "kicker": "Ukaguzi",
+    "heading": "Alama maeneo nane kutoka 1 hadi 5",
+    "items": [
+     "1: hakuna mazoezi ya pamoja",
+     "3: mazoezi, kutumika bila usawa",
+     "5: imeandikwa, na watu wengi huifuata",
+     "Ongeza alama; tafuta maeneo ya chini kabisa"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Kwa mfano, Grace alikagua mtandao wa kujitolea na akafunga 17 kati ya 40. Ilichukua dakika 11 na watu watatu kupata orodha ya sasa ya watu waliojitolea, na matoleo mawili yalitofautiana kwa majina 23."
+   ],
+   "panel": {
+    "kicker": "Ukaguzi",
+    "heading": "Alama maeneo nane kutoka 1 hadi 5",
+    "items": [
+     "1: hakuna mazoezi ya pamoja",
+     "3: mazoezi, kutumika bila usawa",
+     "5: imeandikwa, na watu wengi huifuata",
+     "Ongeza alama; tafuta maeneo ya chini kabisa"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Alama ni zana ya mazungumzo, sio uamuzi. Kwa hivyo onyesha ushahidi nyuma ya kila nambari."
+   ],
+   "panel": {
+    "kicker": "Ukaguzi",
+    "heading": "Alama maeneo nane kutoka 1 hadi 5",
+    "items": [
+     "1: hakuna mazoezi ya pamoja",
+     "3: mazoezi, kutumika bila usawa",
+     "5: imeandikwa, na watu wengi huifuata",
+     "Ongeza alama; tafuta maeneo ya chini kabisa"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Alama zinaanzisha mazungumzo. Onyesha ushahidi kwa kila mmoja.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Usijaribu kurekebisha kila kitu. Weka kila kurekebisha kwa kiasi gani inasaidia dhidi ya jinsi ilivyo ngumu.",
+    "Anza na ushindi wa haraka. Kwa Grace, logi ya maamuzi na orodha moja kuu ya kujitolea huchukua saa chache kila moja."
+   ],
+   "panel": {
+    "kicker": "Nini cha kurekebisha kwanza",
+    "heading": "Athari na juhudi",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Ushindi wa haraka: fanya sasa",
+      "d": "Athari ya juu, juhudi ndogo. Kwa Grace: logi ya maamuzi yaliyoshirikiwa na orodha moja kuu ya kujitolea."
+     },
+     {
+      "t": "Big projects: plan",
+      "d": "Athari ya juu, juhudi kubwa. Kwa Neema: kitabu kamili, robo ijayo."
+     },
+     {
+      "t": "Avoid for now",
+      "d": "Thamani ya chini na ya gharama kubwa. Kwa Neema: kununua zana iliyolipwa, kwa sababu shida ni tabia."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Panga miradi mikubwa kwa uangalifu, kama kijitabu kamili cha robo inayofuata."
+   ],
+   "panel": {
+    "kicker": "Nini cha kurekebisha kwanza",
+    "heading": "Athari na juhudi",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Ushindi wa haraka: fanya sasa",
+      "d": "Athari ya juu, juhudi ndogo. Kwa Grace: logi ya maamuzi yaliyoshirikiwa na orodha moja kuu ya kujitolea."
+     },
+     {
+      "t": "Big projects: plan",
+      "d": "Athari ya juu, juhudi kubwa. Kwa Neema: kitabu kamili, robo ijayo."
+     },
+     {
+      "t": "Avoid for now",
+      "d": "Thamani ya chini na ya gharama kubwa. Kwa Neema: kununua zana iliyolipwa, kwa sababu shida ni tabia."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Na epuka kazi ya gharama kubwa, isiyo na thamani. Kununua zana ya mradi iliyolipwa haitasaidia, kwa sababu shida ni tabia, sio programu."
+   ],
+   "panel": {
+    "kicker": "Nini cha kurekebisha kwanza",
+    "heading": "Athari na juhudi",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Ushindi wa haraka: fanya sasa",
+      "d": "Athari ya juu, juhudi ndogo. Kwa Grace: logi ya maamuzi yaliyoshirikiwa na orodha moja kuu ya kujitolea."
+     },
+     {
+      "t": "Big projects: plan",
+      "d": "Athari ya juu, juhudi kubwa. Kwa Neema: kitabu kamili, robo ijayo."
+     },
+     {
+      "t": "Avoid for now",
+      "d": "Thamani ya chini na ya gharama kubwa. Kwa Neema: kununua zana iliyolipwa, kwa sababu shida ni tabia."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Geuza kila pendekezo liwe linaloweza kuwasilishwa ambalo linaweza kuangaliwa, kisha lipe bei kama bei ya siku iliyokadiriwa siku.",
+    "Bimpe analenga kupata naira 800,000 kwa mwezi na anatarajia kutoza takriban siku 10, kwa hivyo kiwango chake cha siku ni naira 80,000."
+   ],
+   "card": {
+    "title": "Bei ya mradi wa siku 10",
+    "rows": [],
+    "note": "Takwimu za naira zinazoonyesha, si viwango vya soko."
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Anakadiria siku 10 za kazi, ambayo inatoa msingi wa naira 800,000. Anaongeza asilimia 10 kwa wasiojulikana, naira 80,000."
+   ],
+   "card": {
+    "title": "Bei ya mradi wa siku 10",
+    "rows": [
+     [
+      "Msingi: siku 10 x 80,000",
+      "800,000"
+     ],
+     [
+      "Dharura, 10%",
+      "80,000"
+     ]
+    ],
+    "note": "Takwimu za naira zinazoonyesha, si viwango vya soko."
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Bei yake isiyobadilika ni naira 880,000. Nusu hulipwa unapotia saini, na nusu wakati bidhaa zinazowasilishwa zinakubaliwa.",
+    "Pia anaandika kile ambacho hakipo, kama vile kununua programu zinazolipishwa. Takwimu hizi ni za kielelezo, si viwango vya soko."
+   ],
+   "card": {
+    "title": "Bei ya mradi wa siku 10",
+    "rows": [
+     [
+      "Msingi: siku 10 x 80,000",
+      "800,000"
+     ],
+     [
+      "Dharura, 10%",
+      "80,000"
+     ]
+    ],
+    "note": "Takwimu za naira zinazoonyesha, si viwango vya soko."
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Upeo mwingi mara nyingi hufika kama ujumbe wa kawaida wa WhatsApp: ukiwa hapo, unaweza pia kusanidi bodi ya fedha? Usikatae, na usikubali kimya kimya. Tuma ombi fupi la mabadiliko."
+   ],
+   "panel": {
+    "kicker": "Linda upeo",
+    "heading": "Wakati ombi la ziada linafika",
+    "items": [
+     "Eleza ombi jipya kwa ufupi",
+     "Kadiria siku za ziada na gharama",
+     "Taja athari kwenye rekodi ya matukio",
+     "Uliza mwidhinishaji kukubali kwa maandishi"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Eleza ombi, na ukadirie gharama. Kwa mfano, siku 2 za ziada mara 80,000 ni naira 160,000."
+   ],
+   "panel": {
+    "kicker": "Linda upeo",
+    "heading": "Wakati ombi la ziada linafika",
+    "items": [
+     "Eleza ombi jipya kwa ufupi",
+     "Kadiria siku za ziada na gharama",
+     "Taja athari kwenye rekodi ya matukio",
+     "Uliza mwidhinishaji kukubali kwa maandishi"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Sema jinsi ratiba ya matukio inavyosonga, na umwombe mwidhinishaji aliyetajwa kukubali kwa maandishi. Jibu la barua pepe linatosha."
+   ],
+   "panel": {
+    "kicker": "Linda upeo",
+    "heading": "Wakati ombi la ziada linafika",
+    "items": [
+     "Eleza ombi jipya kwa ufupi",
+     "Kadiria siku za ziada na gharama",
+     "Taja athari kwenye rekodi ya matukio",
+     "Uliza mwidhinishaji kukubali kwa maandishi"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Anza kazi ya ziada tu baada ya idhini iliyoandikwa, na uingie na maamuzi ya mradi."
+   ],
+   "panel": {
+    "kicker": "Linda upeo",
+    "heading": "Wakati ombi la ziada linafika",
+    "items": [
+     "Eleza ombi jipya kwa ufupi",
+     "Kadiria siku za ziada na gharama",
+     "Taja athari kwenye rekodi ya matukio",
+     "Uliza mwidhinishaji kukubali kwa maandishi"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Anza kazi ya ziada tu baada ya idhini iliyoandikwa.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Linda pesa pia. Thibitisha maelezo ya benki kwa njia ya simu na mtu anayejulikana kabla ya uhamisho wowote.",
+    "Kuwa na shaka na maagizo ya akaunti mpya ya ghafla kwa barua pepe au WhatsApp. Ni muundo wa kawaida wa udanganyifu.",
+    "Ikiwa umesajiliwa na CAC, ankara katika jina hilo. Na weka kukubalika kwa maandishi kwa mteja kama rekodi yako."
+   ],
+   "panel": {
+    "kicker": "Usalama wa pesa",
+    "heading": "Malipo na udanganyifu",
+    "items": [
+     "Thibitisha maelezo ya benki kwa simu kwanza",
+     "Shaka jumbe mpya za akaunti za ghafla",
+     "Ankara katika jina la biashara yako iliyosajiliwa",
+     "Pata kukubalika kwa maandishi kwa barua pepe"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Viongozi wanaaminika wakati kazi yao wenyewe ni ya kuaminika na inayoonekana. Kila wakati unasema nitafanya, ongeza kwenye orodha moja ndani ya saa moja, na tarehe."
+   ],
+   "panel": {
+    "kicker": "Mfumo wako mwenyewe",
+    "heading": "Piga picha, panga, fanya, kagua",
+    "items": [
+     "Nasa kila nitakacho ndani ya saa moja",
+     "Jumatatu: chagua matokeo matatu muhimu",
+     "Kuzuia muda na kulinda kazi ya kuzingatia",
+     "Chapisho la mwanzo wa siku na mistari ya mwisho wa siku",
+     "Ijumaa: kagua na ujadili upya mapema"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Siku ya Jumatatu chagua matokeo matatu muhimu zaidi, na uzuie wakati wa kuzingatia kwao."
+   ],
+   "panel": {
+    "kicker": "Mfumo wako mwenyewe",
+    "heading": "Piga picha, panga, fanya, kagua",
+    "items": [
+     "Nasa kila nitakacho ndani ya saa moja",
+     "Jumatatu: chagua matokeo matatu muhimu",
+     "Kuzuia muda na kulinda kazi ya kuzingatia",
+     "Chapisho la mwanzo wa siku na mistari ya mwisho wa siku",
+     "Ijumaa: kagua na ujadili upya mapema"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Chapisha mstari mfupi wa kuanza kwa siku na wa mwisho wa siku. Siku ya Ijumaa, angalia kila ahadi na ujadili upya mapema.",
+    "Uche alifuatilia ahadi 14 na akapata bidhaa yake iliyochelewa kuwa iliahidiwa kwenye simu na haikunaswa. Sasa anaiandika baada ya kila simu."
+   ],
+   "panel": {
+    "kicker": "Mfumo wako mwenyewe",
+    "heading": "Piga picha, panga, fanya, kagua",
+    "items": [
+     "Nasa kila nitakacho ndani ya saa moja",
+     "Jumatatu: chagua matokeo matatu muhimu",
+     "Kuzuia muda na kulinda kazi ya kuzingatia",
+     "Chapisho la mwanzo wa siku na mistari ya mwisho wa siku",
+     "Ijumaa: kagua na ujadili upya mapema"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Kukumbuka. Tambua kwa ushahidi na alama maeneo nane. Rekebisha ushindi wa haraka kwanza.",
+    "Bei kutoka kwa kiwango cha siku na siku zilizokadiriwa, pamoja na dharura iliyobainishwa na masharti ya malipo yaliyo wazi.",
+    "Shughulikia maombi ya ziada kwa maandishi. Na weka ahadi zako mwenyewe zionekane, jadili upya mapema badala ya kukosa kimya kimya."
+   ],
+   "panel": {
+    "kicker": "Pointi muhimu",
+    "heading": "Kumbuka",
+    "items": [
+     "Uliza ushahidi, alama maeneo nane",
+     "Mafanikio ya haraka kwanza; sema mipaka yako",
+     "Bei: kiwango cha siku x siku, pamoja na dharura",
+     "Badilisha maombi kwa maandishi kabla ya kazi ya ziada",
+     "Kukamata kila ahadi; kujadiliana upya mapema"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Sasa fanya mazoezi. Fanya ukaguzi mdogo, andika pendekezo la ukurasa mmoja na hesabu yako, jaribu mfumo wako wa uwajibikaji kwa wiki mbili, na uandike mpango wako wa siku 90.",
+    "Endelea na masomo hapa chini."
+   ],
+   "panel": {
+    "kicker": "Mazoezi ya kazi",
+    "heading": "Kazi zako za mazoezi",
+    "items": [
+     "Fanya ukaguzi mdogo",
+     "Andika pendekezo la ukurasa mmoja",
+     "Jaribu mfumo wako kwa wiki mbili",
+     "Andika mpango wako wa siku 90"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

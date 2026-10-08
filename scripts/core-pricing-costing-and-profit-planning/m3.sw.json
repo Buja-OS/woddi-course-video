@@ -1,0 +1,569 @@
+{
+ "course": "core-pricing-costing-and-profit-planning",
+ "module": "m3",
+ "title": "Malengo ya faida, P&L yako ya kila mwezi na mtiririko wa pesa",
+ "course_title": "Bei, Gharama na Upangaji wa Faida",
+ "shots": [
+  {
+   "demo": "cash_count",
+   "say": [
+    "Malengo ya faida, faida na hasara yako ya kila mwezi, na mtiririko wa pesa.",
+    "Hii ni video ya Moduli ya 3 ya Kupanga Bei, Gharama na Faida."
+   ]
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Break-hata inakuambia jinsi ya kuacha kupoteza pesa. Lengo la faida linakuambia jinsi ya kupata pesa unayotaka. Ongeza tu faida unayotaka kwa gharama zako zisizobadilika, kisha ugawe kwa mchango wako kwa kila kitengo."
+   ],
+   "card": {
+    "title": "Fanya kazi kutokana na faida unayotaka",
+    "rows": [],
+    "note": "Bei za Naira ni takriban."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Gharama za kudumu za Ngozi ni naira 110,000 kwa mwezi. Mshahara wake mwenyewe tayari uko ndani yao."
+   ],
+   "card": {
+    "title": "Fanya kazi kutokana na faida unayotaka",
+    "rows": [
+     [
+      "Gharama za kudumu za kila mwezi, pamoja na mshahara",
+      "110,000"
+     ]
+    ],
+    "note": "Bei za Naira ni takriban."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Anataka faida ya naira 100,000 juu, ili kuokoa kwa kikaango kikubwa zaidi."
+   ],
+   "card": {
+    "title": "Fanya kazi kutokana na faida unayotaka",
+    "rows": [
+     [
+      "Gharama za kudumu za kila mwezi, pamoja na mshahara",
+      "110,000"
+     ],
+     [
+      "Lenga faida kwa kikaango kikubwa zaidi",
+      "100,000"
+     ]
+    ],
+    "note": "Bei za Naira ni takriban."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Kwa pamoja hiyo ni naira 210,000. Imegawanywa na 760, ambayo ni 276.3. Mzunguko: pakiti 277 kwa mwezi.",
+    "Hiyo inakuwa pakiti 70 kwa wiki, au pakiti 11 kwa siku. Nambari ambayo anaweza kuweka alama kwenye daftari lake."
+   ],
+   "card": {
+    "title": "Fanya kazi kutokana na faida unayotaka",
+    "rows": [
+     [
+      "Gharama za kudumu za kila mwezi, pamoja na mshahara",
+      "110,000"
+     ],
+     [
+      "Lenga faida kwa kikaango kikubwa zaidi",
+      "100,000"
+     ]
+    ],
+    "note": "Bei za Naira ni takriban."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Lengo linafaa tu ikiwa unaweza kulifikia. Je, unaweza kuifanya? Ngozi anaweza kukaanga vipande 6 hadi 8 kwa mwezi, kwa hivyo ndio."
+   ],
+   "panel": {
+    "kicker": "Angalia ukweli",
+    "heading": "Angalia lengo, kisha kuvuta lever",
+    "items": [
+     "Je, ninaweza kuifanya? Hesabu batches",
+     "Je, ninaweza kuiuza? Linganisha na mwezi uliopita",
+     "Je, ninaweza kuifadhili? Kila kundi linahitaji pesa taslimu kwanza",
+     "Levers: bei, gharama ya kutofautiana, gharama ya kudumu, kiasi"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Je, unaweza kuiuza? Aliuza takriban pakiti 250 mwezi uliopita, kwa hivyo 277 ni sawa na asilimia 11, sio ndoto."
+   ],
+   "panel": {
+    "kicker": "Angalia ukweli",
+    "heading": "Angalia lengo, kisha kuvuta lever",
+    "items": [
+     "Je, ninaweza kuifanya? Hesabu batches",
+     "Je, ninaweza kuiuza? Linganisha na mwezi uliopita",
+     "Je, ninaweza kuifadhili? Kila kundi linahitaji pesa taslimu kwanza",
+     "Levers: bei, gharama ya kutofautiana, gharama ya kudumu, kiasi"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Je, unaweza kuifadhili? Kila kundi linagharimu naira 47,000 kabla ya pesa zozote kurudi."
+   ],
+   "panel": {
+    "kicker": "Angalia ukweli",
+    "heading": "Angalia lengo, kisha kuvuta lever",
+    "items": [
+     "Je, ninaweza kuifanya? Hesabu batches",
+     "Je, ninaweza kuiuza? Linganisha na mwezi uliopita",
+     "Je, ninaweza kuifadhili? Kila kundi linahitaji pesa taslimu kwanza",
+     "Levers: bei, gharama ya kutofautiana, gharama ya kudumu, kiasi"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Kisha chagua lever yako: ongeza bei, punguza gharama inayobadilika, punguza gharama isiyobadilika, au uuze zaidi. Kwa naira 1,500, Ngozi angehitaji pakiti 375 kwa faida sawa. Bei ya chini inahitaji kazi zaidi na pesa taslimu."
+   ],
+   "panel": {
+    "kicker": "Angalia ukweli",
+    "heading": "Angalia lengo, kisha kuvuta lever",
+    "items": [
+     "Je, ninaweza kuifanya? Hesabu batches",
+     "Je, ninaweza kuiuza? Linganisha na mwezi uliopita",
+     "Je, ninaweza kuifadhili? Kila kundi linahitaji pesa taslimu kwanza",
+     "Levers: bei, gharama ya kutofautiana, gharama ya kudumu, kiasi"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Taarifa ya faida na hasara ni alama yako ya kila mwezi. Anza na mauzo: kila kitu ulichouza, pamoja na mauzo kwa mkopo."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Faida na hasara yako ya kila mwezi",
+    "items": [
+     "Uuzaji: kila kitu kilichouzwa, pamoja na mkopo",
+     "Kupunguza gharama ya bidhaa zinazouzwa",
+     "Inalingana na faida ya jumla",
+     "Ondoa gharama za uendeshaji",
+     "Inalingana na faida halisi au hasara"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Ondoa gharama ya bidhaa zinazouzwa. Hiyo ndiyo gharama inayobadilika ya vitengo ulivyouza."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Faida na hasara yako ya kila mwezi",
+    "items": [
+     "Uuzaji: kila kitu kilichouzwa, pamoja na mkopo",
+     "Kupunguza gharama ya bidhaa zinazouzwa",
+     "Inalingana na faida ya jumla",
+     "Ondoa gharama za uendeshaji",
+     "Inalingana na faida halisi au hasara"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Hiyo inatoa faida kubwa. Vipimo ambavyo bado kwenye rafu ni vya akiba, si gharama ya mwezi huu."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Faida na hasara yako ya kila mwezi",
+    "items": [
+     "Uuzaji: kila kitu kilichouzwa, pamoja na mkopo",
+     "Kupunguza gharama ya bidhaa zinazouzwa",
+     "Inalingana na faida ya jumla",
+     "Ondoa gharama za uendeshaji",
+     "Inalingana na faida halisi au hasara"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Hesabu tu gharama inayobadilika ya vitengo vinavyouzwa. Vitengo visivyouzwa ni hisa.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Ondoa gharama zako za uendeshaji: kodi, mshahara wako, data, ushuru na uvaaji wa vifaa."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Faida na hasara yako ya kila mwezi",
+    "items": [
+     "Uuzaji: kila kitu kilichouzwa, pamoja na mkopo",
+     "Kupunguza gharama ya bidhaa zinazouzwa",
+     "Inalingana na faida ya jumla",
+     "Ondoa gharama za uendeshaji",
+     "Inalingana na faida halisi au hasara"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Hesabu tu gharama inayobadilika ya vitengo vinavyouzwa. Vitengo visivyouzwa ni hisa.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Kinachobaki ni faida yako halisi, au hasara halisi. Kwa rekodi nzuri za kila siku, hii inachukua kama dakika 30."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Faida na hasara yako ya kila mwezi",
+    "items": [
+     "Uuzaji: kila kitu kilichouzwa, pamoja na mkopo",
+     "Kupunguza gharama ya bidhaa zinazouzwa",
+     "Inalingana na faida ya jumla",
+     "Ondoa gharama za uendeshaji",
+     "Inalingana na faida halisi au hasara"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Hesabu tu gharama inayobadilika ya vitengo vinavyouzwa. Vitengo visivyouzwa ni hisa.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Hapa ni mwezi halisi. Ngozi alitengeneza pakiti 350. Aliuza 260 kwa naira 1,700 na 60 kwa naira 1,400, na 30 bado zilikuwa kwenye hisa."
+   ],
+   "card": {
+    "title": "P&L ya Ngozi kwa mwezi mmoja",
+    "rows": [],
+    "note": "Bei za Naira ni takriban."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Jumla ya mauzo yake yalikuwa naira 526,000."
+   ],
+   "card": {
+    "title": "P&L ya Ngozi kwa mwezi mmoja",
+    "rows": [
+     [
+      "Jumla ya mauzo",
+      "526,000"
+     ]
+    ],
+    "note": "Bei za Naira ni takriban."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Pakiti 320 zinazouzwa, kwa naira 940 kila moja, ni gharama ya naira 300,800 za bidhaa zinazouzwa. Faida yake ya jumla ni naira 225,200."
+   ],
+   "card": {
+    "title": "P&L ya Ngozi kwa mwezi mmoja",
+    "rows": [
+     [
+      "Jumla ya mauzo",
+      "526,000"
+     ],
+     [
+      "Gharama ya bidhaa zinazouzwa, pakiti 320",
+      "300,800"
+     ],
+     [
+      "Faida ya jumla",
+      "225,200"
+     ]
+    ],
+    "note": "Bei za Naira ni takriban."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Baada ya naira 110,000 za gharama za uendeshaji, faida yake halisi ni naira 115,200. Hiyo inamshinda lengo lake kwa naira 15,200.",
+    "Tazama ukingo wako wa jumla na ukingo wa jumla kila mwezi. Yake ni takriban asilimia 42.8 na asilimia 21.9."
+   ],
+   "card": {
+    "title": "P&L ya Ngozi kwa mwezi mmoja",
+    "rows": [
+     [
+      "Jumla ya mauzo",
+      "526,000"
+     ],
+     [
+      "Gharama ya bidhaa zinazouzwa, pakiti 320",
+      "300,800"
+     ],
+     [
+      "Faida ya jumla",
+      "225,200"
+     ],
+     [
+      "Gharama za uendeshaji",
+      "110,000"
+     ],
+     [
+      "Faida halisi",
+      "115,200"
+     ]
+    ],
+    "note": "Bei za Naira ni takriban."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Mtiririko wa pesa ni harakati halisi ya pesa kuingia na kutoka. Biashara nyingi ndogo hufeli sio kwa sababu hazina faida, bali kwa sababu ya kukosa pesa taslimu.",
+    "Mauzo ya mkopo huhesabiwa kama mauzo, lakini hakuna pesa taslimu inayofika hadi mteja alipe."
+   ],
+   "panel": {
+    "kicker": "Faida sio pesa",
+    "heading": "Kwa nini faida na pesa hutofautiana",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Credit sales",
+      "d": "Imehesabiwa kama mauzo katika P&L, lakini hakuna pesa taslimu inayofika hadi mteja alipe."
+     },
+     {
+      "t": "Unsold stock",
+      "d": "Ulilipa pesa taslimu kuifanya, lakini bado si gharama katika P&L."
+     },
+     {
+      "t": "Loan repayments",
+      "d": "Pesa huondoka, lakini kulipa kiasi cha mkopo si gharama katika P&L."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Hisa ambayo haijauzwa ililipwa kwa pesa taslimu, lakini bado si gharama katika P&L."
+   ],
+   "panel": {
+    "kicker": "Faida sio pesa",
+    "heading": "Kwa nini faida na pesa hutofautiana",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Credit sales",
+      "d": "Imehesabiwa kama mauzo katika P&L, lakini hakuna pesa taslimu inayofika hadi mteja alipe."
+     },
+     {
+      "t": "Unsold stock",
+      "d": "Ulilipa pesa taslimu kuifanya, lakini bado si gharama katika P&L."
+     },
+     {
+      "t": "Loan repayments",
+      "d": "Pesa huondoka, lakini kulipa kiasi cha mkopo si gharama katika P&L."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Na urejeshaji wa mkopo huchukua pesa taslimu, bila kuwa gharama katika P&L."
+   ],
+   "panel": {
+    "kicker": "Faida sio pesa",
+    "heading": "Kwa nini faida na pesa hutofautiana",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Credit sales",
+      "d": "Imehesabiwa kama mauzo katika P&L, lakini hakuna pesa taslimu inayofika hadi mteja alipe."
+     },
+     {
+      "t": "Unsold stock",
+      "d": "Ulilipa pesa taslimu kuifanya, lakini bado si gharama katika P&L."
+     },
+     {
+      "t": "Loan repayments",
+      "d": "Pesa huondoka, lakini kulipa kiasi cha mkopo si gharama katika P&L."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Ngozi alipata faida ya naira 115,200. Kwa hivyo pesa yake iko wapi?"
+   ],
+   "card": {
+    "title": "Faida, lakini pungufu ya pesa taslimu",
+    "rows": [],
+    "note": "Bei za Naira ni takriban."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Ni mauzo yake ya rejareja tu, naira 442,000, yaliyoingia. Naira 84,000 za duka kuu hazijalipwa hadi mwezi ujao."
+   ],
+   "card": {
+    "title": "Faida, lakini pungufu ya pesa taslimu",
+    "rows": [
+     [
+      "Pesa ndani: mauzo ya rejareja",
+      "442,000"
+     ]
+    ],
+    "note": "Bei za Naira ni takriban."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Naira 466,000 zilitoka kwa bati 7, gharama zisizobadilika na ulipaji wa mkopo."
+   ],
+   "card": {
+    "title": "Faida, lakini pungufu ya pesa taslimu",
+    "rows": [
+     [
+      "Pesa ndani: mauzo ya rejareja",
+      "442,000"
+     ],
+     [
+      "Pesa nje: batches, gharama, mkopo",
+      "466,000"
+     ]
+    ],
+    "note": "Bei za Naira ni takriban."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Pesa zake zilishuka hadi naira 16,000, hazikutosha hata kundi moja la naira 47,000. Ndiyo maana unatabiri pesa taslimu wiki baada ya wiki, na kuchukua hatua mapema kwa wiki yoyote ambayo itaisha hasi."
+   ],
+   "card": {
+    "title": "Faida, lakini pungufu ya pesa taslimu",
+    "rows": [
+     [
+      "Pesa ndani: mauzo ya rejareja",
+      "442,000"
+     ],
+     [
+      "Pesa nje: batches, gharama, mkopo",
+      "466,000"
+     ],
+     [
+      "Kufunga pesa taslimu",
+      "16,000"
+     ]
+    ],
+    "note": "Bei za Naira ni takriban."
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Chukua amana, kwa mfano asilimia 50, kabla ya kuanza maagizo maalum. Toa mkopo kwa wateja wanaojulikana, kwa maandishi, na tarehe ya kukamilisha. Weka akiba ya angalau mwezi mmoja wa gharama zisizobadilika.",
+    "Usikope ili kufidia hasara. Na kuwa mwangalifu na ofa za uwekezaji zinazoahidi faida kubwa za kila mwezi."
+   ],
+   "panel": {
+    "kicker": "Dhibiti hatari",
+    "heading": "Linda pesa zako",
+    "items": [
+     "Chukua amana kwa maagizo maalum",
+     "Andika kiasi cha mkopo na tarehe za malipo",
+     "Weka mwezi mmoja wa gharama zisizobadilika kama buffer",
+     "Kamwe usikope kuficha hasara",
+     "Epuka matoleo ya uwekezaji yenye faida kubwa"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Kukumbuka. Ongeza lengo lako la faida kwa gharama zisizobadilika na ugawanye kwa mchango. Igeuze kuwa nambari ya kila siku. Unda P&L yako kila mwezi. Kumbuka kwamba faida sio pesa. Na utabiri wa pesa kila wiki, kwa hivyo unachukua hatua kabla ya wiki kwenda hasi."
+   ],
+   "panel": {
+    "kicker": "Pointi muhimu",
+    "heading": "Kumbuka",
+    "items": [
+     "Vitengo vya lengo = (faida isiyobadilika) / mchango",
+     "Badilisha lengo kuwa nambari za kila siku",
+     "Mauzo, toa COGS, toa gharama = faida halisi",
+     "Faida sio pesa taslimu: mkopo, hisa na mikopo",
+     "Utabiri wa pesa kila wiki; tenda kwa wiki hasi"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Sasa weka lengo lako la faida kwa nambari za kila siku na za wiki, tayarisha faida na hasara ya mwezi uliopita, na unda utabiri wa pesa taslimu wa wiki nne.",
+    "Endelea na masomo hapa chini."
+   ],
+   "panel": {
+    "kicker": "Mazoezi ya kazi",
+    "heading": "Kazi zako za moduli hii",
+    "items": [
+     "Weka lengo lako la faida",
+     "Tayarisha P&L ya mwezi uliopita",
+     "Jenga utabiri wa pesa taslimu wa wiki nne"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

@@ -1,0 +1,545 @@
+{
+ "course": "cybersecurity-fundamentals",
+ "module": "m2",
+ "title": "Verrouillez les comptes, sauvegardez et gérez un e-mail piraté",
+ "course_title": "Fondamentaux de la cybersécurité",
+ "shots": [
+  {
+   "demo": "security_lock",
+   "say": [
+    "Verrouillez les comptes, sauvegardez et gérez un e-mail piraté.",
+    "Ceci est la vidéo du module 2 des principes fondamentaux de la cybersécurité."
+   ]
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Trois outils bon marché effectuent l'essentiel du travail de protection : un gestionnaire de mots de passe, une authentification multifacteur, que nous appelons MFA, et des appareils bien configurés."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Protégez-vous d'abord, puis soyez prêt",
+    "items": [
+     "Gestionnaire de mots de passe, MFA, appareils sécurisés",
+     "Sauvegardes que vous avez réellement testées",
+     "Un livre de jeu pour les mauvaises journées",
+     "Un journal qui enregistre tout"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Les sauvegardes sont votre réponse aux ransomwares, au vol et aux erreurs, mais seulement si vous les testez."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Protégez-vous d'abord, puis soyez prêt",
+    "items": [
+     "Gestionnaire de mots de passe, MFA, appareils sécurisés",
+     "Sauvegardes que vous avez réellement testées",
+     "Un livre de jeu pour les mauvaises journées",
+     "Un journal qui enregistre tout"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_security",
+   "say": [
+    "Et comme les personnes stressées prennent de mauvaises décisions, vous écrivez les étapes de l'incident avant que quelque chose ne se passe mal et vous enregistrez chaque action dans un journal."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Protégez-vous d'abord, puis soyez prêt",
+    "items": [
+     "Gestionnaire de mots de passe, MFA, appareils sécurisés",
+     "Sauvegardes que vous avez réellement testées",
+     "Un livre de jeu pour les mauvaises journées",
+     "Un journal qui enregistre tout"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Par exemple, Chiamaka choisit un mot de passe principal. Imaginez un attaquant capable de tenter 10 milliards de suppositions par seconde. Cette vitesse est illustrative.",
+    "8 lettres minuscules aléatoires tombent en 21 secondes environ."
+   ],
+   "panel": {
+    "kicker": "L'arithmétique",
+    "heading": "Pourquoi la longueur bat l'intelligence",
+    "items": [
+     "8 lettres aléatoires : environ 21 secondes",
+     "4 mots aléatoires : environ 4 jours",
+     "5 mots aléatoires : environ 90 ans",
+     "Chaque mot supplémentaire multiplie le travail par 7 776"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "4 mots aléatoires de la liste de mots EFF prennent environ 4 jours."
+   ],
+   "panel": {
+    "kicker": "L'arithmétique",
+    "heading": "Pourquoi la longueur bat l'intelligence",
+    "items": [
+     "8 lettres aléatoires : environ 21 secondes",
+     "4 mots aléatoires : environ 4 jours",
+     "5 mots aléatoires : environ 90 ans",
+     "Chaque mot supplémentaire multiplie le travail par 7 776"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "5 mots aléatoires prennent environ 90 ans."
+   ],
+   "panel": {
+    "kicker": "L'arithmétique",
+    "heading": "Pourquoi la longueur bat l'intelligence",
+    "items": [
+     "8 lettres aléatoires : environ 21 secondes",
+     "4 mots aléatoires : environ 4 jours",
+     "5 mots aléatoires : environ 90 ans",
+     "Chaque mot supplémentaire multiplie le travail par 7 776"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Chaque mot supplémentaire multiplie le travail de l'attaquant par 7 776, bien plus que l'ajout d'un symbole. Chiamaka choisit six mots au hasard.",
+    "Vous mémorisez seulement celui-là. Le gestionnaire de mots de passe crée un mot de passe unique pour chaque autre compte, de sorte qu'une seule fuite ne peut pas déverrouiller le reste. Les mots de passe réutilisés sont la principale cause réelle de piratage de compte."
+   ],
+   "panel": {
+    "kicker": "L'arithmétique",
+    "heading": "Pourquoi la longueur bat l'intelligence",
+    "items": [
+     "8 lettres aléatoires : environ 21 secondes",
+     "4 mots aléatoires : environ 4 jours",
+     "5 mots aléatoires : environ 90 ans",
+     "Chaque mot supplémentaire multiplie le travail par 7 776"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Un mot de passe seul est le plus faible. Les codes SMS valent mieux que rien, mais ils peuvent être volés via une fraude par échange de carte SIM ou trompés par des personnes au téléphone."
+   ],
+   "panel": {
+    "kicker": "Deuxièmes facteurs",
+    "heading": "Tous les MFA ne sont pas égaux",
+    "mode": "compare",
+    "left_h": "Plus faible",
+    "left": [
+     "Mot de passe uniquement",
+     "SMS ou codes vocaux"
+    ],
+    "right_h": "Plus fort",
+    "right": [
+     "Codes d'application d'authentification",
+     "Mots-clés et clés de sécurité"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_security",
+   "say": [
+    "Les applications d'authentification créent un code à six chiffres sur le téléphone lui-même, changeant toutes les 30 secondes. Les mots de passe et les clés de sécurité vont plus loin : ils ne fonctionnent que sur le vrai site Web, donc une fausse page de connexion ne rapporte rien.",
+    "Utilisez la méthode la plus efficace proposée par chaque service, au moins pour l’administration du courrier électronique, des opérations bancaires et des réseaux sociaux. Conservez les codes de récupération sur papier, sous clé."
+   ],
+   "panel": {
+    "kicker": "Deuxièmes facteurs",
+    "heading": "Tous les MFA ne sont pas égaux",
+    "mode": "compare",
+    "left_h": "Plus faible",
+    "left": [
+     "Mot de passe uniquement",
+     "SMS ou codes vocaux"
+    ],
+    "right_h": "Plus fort",
+    "right": [
+     "Codes d'application d'authentification",
+     "Mots-clés et clés de sécurité"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "La règle 3-2-1 dit de conserver 3 copies des données importantes. Par exemple, Hauwa gère l'informatique pour un cabinet de conseil de 6 personnes à Kano. Elle conserve les fichiers de travail, une copie cloud avec l'historique des versions et un lecteur externe."
+   ],
+   "panel": {
+    "kicker": "Sauvegardes",
+    "heading": "La règle de sauvegarde 3-2-1",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "3 copies",
+      "d": "Hauwa conserve des fichiers de travail, une copie cloud avec l'historique des versions et un lecteur externe."
+     },
+     {
+      "t": "2 storage types",
+      "d": "Stockage cloud et disque dur externe de 1 To. Elle a dimensionné le plan cloud pour 12 mois de croissance."
+     },
+     {
+      "t": "1 off-site, offline",
+      "d": "Chaque mois, elle copie sur le disque, le débranche et le conserve hors site. Chaque trimestre, elle teste une restauration."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Sur 2 types de stockage. Le dossier fait 40 Go et augmente d'environ 2 par mois, donc dans 12 mois il sera de 64. Elle choisit un forfait cloud d'au moins 100."
+   ],
+   "panel": {
+    "kicker": "Sauvegardes",
+    "heading": "La règle de sauvegarde 3-2-1",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "3 copies",
+      "d": "Hauwa conserve des fichiers de travail, une copie cloud avec l'historique des versions et un lecteur externe."
+     },
+     {
+      "t": "2 storage types",
+      "d": "Stockage cloud et disque dur externe de 1 To. Elle a dimensionné le plan cloud pour 12 mois de croissance."
+     },
+     {
+      "t": "1 off-site, offline",
+      "d": "Chaque mois, elle copie sur le disque, le débranche et le conserve hors site. Chaque trimestre, elle teste une restauration."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Avec 1 exemplaire hors site. Le ransomware peut crypter n'importe quel disque laissé branché, donc une fois par mois, elle copie le dossier, débranche le disque et l'emporte.",
+    "Chaque trimestre, elle restaure quelques fichiers, les ouvre et enregistre la date et le résultat. De nombreuses équipes découvrent trop tard que leur sauvegarde s'est arrêtée il y a des mois."
+   ],
+   "panel": {
+    "kicker": "Sauvegardes",
+    "heading": "La règle de sauvegarde 3-2-1",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "3 copies",
+      "d": "Hauwa conserve des fichiers de travail, une copie cloud avec l'historique des versions et un lecteur externe."
+     },
+     {
+      "t": "2 storage types",
+      "d": "Stockage cloud et disque dur externe de 1 To. Elle a dimensionné le plan cloud pour 12 mois de croissance."
+     },
+     {
+      "t": "1 off-site, offline",
+      "d": "Chaque mois, elle copie sur le disque, le débranche et le conserve hors site. Chaque trimestre, elle teste une restauration."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "La prise de contrôle des e-mails est l’incident le plus courant, alors écrivez d’abord ce manuel. Première étape. À partir d'un appareil propre, remplacez le mot de passe par un nouveau mot de passe unique."
+   ],
+   "panel": {
+    "kicker": "Manuel de jeu",
+    "heading": "Lorsqu'un compte de messagerie est piraté",
+    "items": [
+     "Depuis un appareil propre, changez le mot de passe",
+     "Se déconnecter de toutes les autres sessions",
+     "Supprimer les transferts et les filtres inconnus",
+     "Réparer l'e-mail et le téléphone de récupération",
+     "Activer l'application ou le mot de passe MFA",
+     "Avertir les contacts et enregistrer chaque action"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Deuxième étape. Déconnectez-vous toutes les deux sessions."
+   ],
+   "panel": {
+    "kicker": "Manuel de jeu",
+    "heading": "Lorsqu'un compte de messagerie est piraté",
+    "items": [
+     "Depuis un appareil propre, changez le mot de passe",
+     "Se déconnecter de toutes les autres sessions",
+     "Supprimer les transferts et les filtres inconnus",
+     "Réparer l'e-mail et le téléphone de récupération",
+     "Activer l'application ou le mot de passe MFA",
+     "Avertir les contacts et enregistrer chaque action"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Troisième étape. Vérifiez les adresses de transfert, les filtres et les réponses automatiques ajoutés par l’attaquant. Capturez-les d'abord, avec la date et l'heure, car les banques, la police et les régulateurs peuvent en avoir besoin. Retirez-les ensuite."
+   ],
+   "panel": {
+    "kicker": "Manuel de jeu",
+    "heading": "Lorsqu'un compte de messagerie est piraté",
+    "items": [
+     "Depuis un appareil propre, changez le mot de passe",
+     "Se déconnecter de toutes les autres sessions",
+     "Supprimer les transferts et les filtres inconnus",
+     "Réparer l'e-mail et le téléphone de récupération",
+     "Activer l'application ou le mot de passe MFA",
+     "Avertir les contacts et enregistrer chaque action"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Faites une capture d'écran des preuves avant de supprimer quoi que ce soit.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Quatrième étape. Vérifiez l'e-mail et le téléphone de récupération et corrigez toute modification."
+   ],
+   "panel": {
+    "kicker": "Manuel de jeu",
+    "heading": "Lorsqu'un compte de messagerie est piraté",
+    "items": [
+     "Depuis un appareil propre, changez le mot de passe",
+     "Se déconnecter de toutes les autres sessions",
+     "Supprimer les transferts et les filtres inconnus",
+     "Réparer l'e-mail et le téléphone de récupération",
+     "Activer l'application ou le mot de passe MFA",
+     "Avertir les contacts et enregistrer chaque action"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Faites une capture d'écran des preuves avant de supprimer quoi que ce soit.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Cinquième étape. Activez MFA, de préférence une application ou un mot de passe, et supprimez les applications connectées inconnues."
+   ],
+   "panel": {
+    "kicker": "Manuel de jeu",
+    "heading": "Lorsqu'un compte de messagerie est piraté",
+    "items": [
+     "Depuis un appareil propre, changez le mot de passe",
+     "Se déconnecter de toutes les autres sessions",
+     "Supprimer les transferts et les filtres inconnus",
+     "Réparer l'e-mail et le téléphone de récupération",
+     "Activer l'application ou le mot de passe MFA",
+     "Avertir les contacts et enregistrer chaque action"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Faites une capture d'écran des preuves avant de supprimer quoi que ce soit.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Sixième étape. Vérifiez le dossier Envoyés, avertissez les contacts susceptibles d'avoir été victimes d'une fraude et enregistrez chaque action avec l'heure et le nom."
+   ],
+   "panel": {
+    "kicker": "Manuel de jeu",
+    "heading": "Lorsqu'un compte de messagerie est piraté",
+    "items": [
+     "Depuis un appareil propre, changez le mot de passe",
+     "Se déconnecter de toutes les autres sessions",
+     "Supprimer les transferts et les filtres inconnus",
+     "Réparer l'e-mail et le téléphone de récupération",
+     "Activer l'application ou le mot de passe MFA",
+     "Avertir les contacts et enregistrer chaque action"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "rule": "Faites une capture d'écran des preuves avant de supprimer quoi que ce soit.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Par exemple, Ifeoma est responsable informatique bénévole pour une association de parents à Lagos, avec une feuille de calcul de 420 familles. Mardi à 14h00, un membre du comité dit s'être connecté sur une page étrange. Ifeoma l'enregistre. C'est le moment de la prise de conscience."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "L'horloge de 72 heures d'Ifeoma",
+    "items": [
+     "14h00 mardi : rapport enregistré, l'horloge démarre",
+     "14h20 : mot de passe modifié, règle supprimée",
+     "La feuille de calcul familiale a été exposée",
+     "Date limite : vendredi 14h00",
+     "NDPC notifié jeudi ; les parents sont prévenus"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "À 14h20, elle a changé le mot de passe, s'est déconnectée de toutes les sessions et a trouvé et supprimé une règle de transfert, après une capture d'écran."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "L'horloge de 72 heures d'Ifeoma",
+    "items": [
+     "14h00 mardi : rapport enregistré, l'horloge démarre",
+     "14h20 : mot de passe modifié, règle supprimée",
+     "La feuille de calcul familiale a été exposée",
+     "Date limite : vendredi 14h00",
+     "NDPC notifié jeudi ; les parents sont prévenus"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "L'agresseur avait ouvert la feuille de calcul familiale. Les numéros de téléphone et les informations relatives aux enfants pourraient permettre des escroqueries ciblées. Il s'agit donc d'une violation à signaler."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "L'horloge de 72 heures d'Ifeoma",
+    "items": [
+     "14h00 mardi : rapport enregistré, l'horloge démarre",
+     "14h20 : mot de passe modifié, règle supprimée",
+     "La feuille de calcul familiale a été exposée",
+     "Date limite : vendredi 14h00",
+     "NDPC notifié jeudi ; les parents sont prévenus"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "72 heures du mardi 14h00 au vendredi 14h00. Elle informe le NDPC jeudi et avertit les parents d'ignorer les appels demandant de l'argent ou des codes."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "L'horloge de 72 heures d'Ifeoma",
+    "items": [
+     "14h00 mardi : rapport enregistré, l'horloge démarre",
+     "14h20 : mot de passe modifié, règle supprimée",
+     "La feuille de calcul familiale a été exposée",
+     "Date limite : vendredi 14h00",
+     "NDPC notifié jeudi ; les parents sont prévenus"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "À retenir. Une longue phrase secrète et des mots de passe générés uniques pour tout le reste. Les codes d’application et les mots de passe battent les SMS. Conservez les sauvegardes 3-2-1 et testez les restaurations.",
+    "Lors d'un incident, capturez les preuves, puis conservez-les. Et l'horloge de 72 heures du NDPC démarre lorsque vous en prenez conscience."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Une longue phrase secrète, des mots de passe uniques ailleurs",
+     "Les codes d’application et les mots de passe battent les SMS",
+     "Sauvegardes 3-2-1, avec restaurations testées",
+     "Capture d'écran des preuves, puis contient",
+     "L'horloge de 72 heures commence à la conscience"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Vos tâches : installez et renforcez votre propre boîte à outils, exécutez un cycle de renforcement avec une restauration testée et rédigez votre plan d'incident d'une page avec une exécution pratique.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâche pratique",
+    "heading": "Vos tâches pratiques",
+    "items": [
+     "Installez et renforcez votre propre boîte à outils",
+     "Exécutez un cycle de durcissement et testez une restauration",
+     "Rédigez votre plan d'incident d'une page"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

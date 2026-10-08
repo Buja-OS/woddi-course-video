@@ -1,0 +1,474 @@
+{
+ "course": "agile-scrum",
+ "module": "m3",
+ "title": "Diagnostiquer une équipe, tarifer votre travail, prouver vos compétences",
+ "course_title": "Agile et Scrum en pratique",
+ "shots": [
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Diagnostiquez une équipe, évaluez votre travail et prouvez vos compétences.",
+    "Ceci est la vidéo du module 3 d'Agile et Scrum en pratique."
+   ]
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Lorsque vous rejoignez une équipe en tant que Scrum Master ou coach, votre premier travail n'est pas d'enseigner Scrum. Il s’agit de comprendre ce qui se passe réellement et de le mesurer."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Comprendre avant d'enseigner",
+    "items": [
+     "Découvrez ce qui se passe réellement",
+     "Transformez les opinions en chiffres",
+     "Évaluez et protégez votre lunette",
+     "Montrer des preuves honnêtes"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Ensuite, vous définissez et évaluez votre travail afin qu'il soit protégé, et vous établissez des preuves honnêtes auxquelles les employeurs et les clients peuvent avoir confiance."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Comprendre avant d'enseigner",
+    "items": [
+     "Découvrez ce qui se passe réellement",
+     "Transformez les opinions en chiffres",
+     "Évaluez et protégez votre lunette",
+     "Montrer des preuves honnêtes"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Renseignez-vous sur le processus. Expliquez-moi votre dernier sprint. Quel était l’objectif du sprint ? A-t-il été atteint ?"
+   ],
+   "panel": {
+    "kicker": "Découverte",
+    "heading": "Quatre domaines sur lesquels poser des questions",
+    "items": [
+     "Processus : votre dernier Sprint, du début à la fin",
+     "Personnes : quand un problème a-t-il été soulevé pour la dernière fois ?",
+     "Outils et données : montrez-moi votre tableau",
+     "Leadership : qui peut ajouter du travail à l’équipe ?"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Renseignez-vous sur les gens. Quand quelqu’un a-t-il soulevé un problème pour la dernière fois lors d’une rétrospective, et que s’est-il passé ensuite ? Écoutez la peur, le silence ou le blâme."
+   ],
+   "panel": {
+    "kicker": "Découverte",
+    "heading": "Quatre domaines sur lesquels poser des questions",
+    "items": [
+     "Processus : votre dernier Sprint, du début à la fin",
+     "Personnes : quand un problème a-t-il été soulevé pour la dernière fois ?",
+     "Outils et données : montrez-moi votre tableau",
+     "Leadership : qui peut ajouter du travail à l’équipe ?"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Demandez à voir le tableau. Quand a-t-il été mis à jour pour la dernière fois ?"
+   ],
+   "panel": {
+    "kicker": "Découverte",
+    "heading": "Quatre domaines sur lesquels poser des questions",
+    "items": [
+     "Processus : votre dernier Sprint, du début à la fin",
+     "Personnes : quand un problème a-t-il été soulevé pour la dernière fois ?",
+     "Outils et données : montrez-moi votre tableau",
+     "Leadership : qui peut ajouter du travail à l’équipe ?"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Et demandez-vous qui peut ajouter du travail et comment les délais sont fixés.",
+    "Interrogez plusieurs personnes séparément, puis regardez un vrai Daily Scrum sans parler. Écrivez des faits, pas des jugements : le Daily Scrum a duré 34 minutes, la réunion n'a pas été mauvaise."
+   ],
+   "panel": {
+    "kicker": "Découverte",
+    "heading": "Quatre domaines sur lesquels poser des questions",
+    "items": [
+     "Processus : votre dernier Sprint, du début à la fin",
+     "Personnes : quand un problème a-t-il été soulevé pour la dernière fois ?",
+     "Outils et données : montrez-moi votre tableau",
+     "Leadership : qui peut ajouter du travail à l’équipe ?"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Ensuite, un bilan de santé noté. Par exemple, Kemi est le nouveau Scrum Master d'une équipe de formation d'une ONG de 7 personnes à Enugu. Tout le monde note huit déclarations de 1 à 5, de manière anonyme, dans un formulaire Google. Nous terminons ce que nous commençons en moyenne à seulement 2,14."
+   ],
+   "panel": {
+    "kicker": "Bilan de santé",
+    "heading": "Kemi note son équipe de 1 à 5",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "We finish what we start",
+      "d": "Sept scores anonymes totalisent 15. Moyenne : 15 ÷ 7 = 2,14."
+     },
+     {
+      "t": "Product Owner available",
+      "d": "Les scores totalisent 13. Moyenne : 1,86, la plus basse de toutes."
+     },
+     {
+      "t": "Two experiments",
+      "d": "Un adjoint nommé répond quotidiennement aux questions ; toutes les nouvelles demandes sont d'abord inscrites dans l'arriéré."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Notre Product Owner est disponible en moyenne 1,86. Le sentiment de sécurité pour soulever des problèmes est en moyenne de 4,3, la sécurité n'est donc pas le problème. Les entretiens montrent que le directeur est souvent en voyage et que les demandes de donateurs sont directement adressées au personnel."
+   ],
+   "panel": {
+    "kicker": "Bilan de santé",
+    "heading": "Kemi note son équipe de 1 à 5",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "We finish what we start",
+      "d": "Sept scores anonymes totalisent 15. Moyenne : 15 ÷ 7 = 2,14."
+     },
+     {
+      "t": "Product Owner available",
+      "d": "Les scores totalisent 13. Moyenne : 1,86, la plus basse de toutes."
+     },
+     {
+      "t": "Two experiments",
+      "d": "Un adjoint nommé répond quotidiennement aux questions ; toutes les nouvelles demandes sont d'abord inscrites dans l'arriéré."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Avec l'équipe, Kemi convient de deux expériences : un adjoint nommé pour les questions quotidiennes, et toutes les nouvelles demandes sont d'abord mises en attente. Le succès signifie que les deux moyennes dépassent 3 en quatre semaines. Partagez des modèles, jamais des noms."
+   ],
+   "panel": {
+    "kicker": "Bilan de santé",
+    "heading": "Kemi note son équipe de 1 à 5",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "We finish what we start",
+      "d": "Sept scores anonymes totalisent 15. Moyenne : 15 ÷ 7 = 2,14."
+     },
+     {
+      "t": "Product Owner available",
+      "d": "Les scores totalisent 13. Moyenne : 1,86, la plus basse de toutes."
+     },
+     {
+      "t": "Two experiments",
+      "d": "Un adjoint nommé répond quotidiennement aux questions ; toutes les nouvelles demandes sont d'abord inscrites dans l'arriéré."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Pour fixer un tarif journalier, divisez le revenu mensuel dont vous avez besoin par les jours que vous pouvez réellement facturer. Par exemple, 1 000 000 de naira sur environ 12 jours donne un plancher d’environ 83 000 naira par jour.",
+    "Ifeoma consomme 80 000 nairas par jour, à titre d’illustration."
+   ],
+   "card": {
+    "title": "Ifeoma propose deux options",
+    "rows": [],
+    "note": "Des chiffres indicatifs, pas un taux de marché."
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "L'option A est un forfait de lancement de 7 jours : 560 000 naira."
+   ],
+   "card": {
+    "title": "Ifeoma propose deux options",
+    "rows": [
+     [
+      "Option A : coup d'envoi, 7 jours",
+      "560,000"
+     ]
+    ],
+    "note": "Des chiffres indicatifs, pas un taux de marché."
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "L'option B est un rôle Scrum Master à temps partiel, 8 jours par mois : 640 000 naira. Avec 10 % de réduction pour payer mensuellement à l'avance, il s'élève à 576 000."
+   ],
+   "card": {
+    "title": "Ifeoma propose deux options",
+    "rows": [
+     [
+      "Option A : coup d'envoi, 7 jours",
+      "560,000"
+     ],
+     [
+      "Option B : par mois, 8 jours",
+      "640,000"
+     ],
+     [
+      "Option B avec 10% de réduction",
+      "576,000"
+     ]
+    ],
+    "note": "Des chiffres indicatifs, pas un taux de marché."
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "À mi-chemin, le client souhaite ajouter une deuxième équipe. Sa note de changement : 6 jours supplémentaires, 480 000 naira, signée avant le début des travaux. Il s’agit d’un travail rémunéré, pas d’une dérive gratuite."
+   ],
+   "card": {
+    "title": "Ifeoma propose deux options",
+    "rows": [
+     [
+      "Option A : coup d'envoi, 7 jours",
+      "560,000"
+     ],
+     [
+      "Option B : par mois, 8 jours",
+      "640,000"
+     ],
+     [
+      "Option B avec 10% de réduction",
+      "576,000"
+     ],
+     [
+      "Note de changement : deuxième équipe",
+      "480,000"
+     ]
+    ],
+    "note": "Des chiffres indicatifs, pas un taux de marché."
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Votre proposition indique la situation, les résultats mesurables, exactement ce que vous ferez et ce qui est exclu, comme entraîner une deuxième équipe.",
+    "Il indique les dates avec un examen à mi-parcours, les frais, les conditions de paiement et la manière dont les modifications sont traitées. C'est en écrivant les exclusions que l'on peut rédiger une note de modification ultérieurement."
+   ],
+   "panel": {
+    "kicker": "Votre proposition",
+    "heading": "Ce que contient une courte proposition",
+    "items": [
+     "Situation, selon les mots du client",
+     "Résultats avec mesures",
+     "Activités : quoi, à quelle fréquence, avec qui",
+     "Exclusions",
+     "Durée et examen à mi-parcours",
+     "Frais, conditions de paiement, gestion des modifications"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Utilisez un accord écrit et des factures pour chaque travail, recevez un dépôt des nouveaux clients et recevez des paiements via votre compte professionnel ou un processeur comme Paystack. Payez les certificats uniquement sur les sites officiels."
+   ],
+   "panel": {
+    "kicker": "Protégez votre argent",
+    "heading": "Paiements sécurisés, arnaques connues",
+    "mode": "compare",
+    "left_h": "Faire",
+    "left": [
+     "Accord écrit et factures",
+     "Dépôt des nouveaux clients",
+     "Compte professionnel ou Paytack",
+     "Payez uniquement sur les sites officiels"
+    ],
+    "right_h": "Attention",
+    "right": [
+     "Payer trop cher, puis demander un remboursement",
+     "Payer la formation avant d'embaucher",
+     "Emploi garanti après un certificat",
+     "Dumps d'examen, comptes personnels"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Méfiez-vous des clients qui paient trop cher et demandent un remboursement de la différence, ou qui vous demandent de payer pour un logiciel ou une formation avant de vous embaucher. Évitez toute personne qui garantit un emploi, vend des dumps d'examen ou souhaite être payé sur un compte personnel."
+   ],
+   "panel": {
+    "kicker": "Protégez votre argent",
+    "heading": "Paiements sécurisés, arnaques connues",
+    "mode": "compare",
+    "left_h": "Faire",
+    "left": [
+     "Accord écrit et factures",
+     "Dépôt des nouveaux clients",
+     "Compte professionnel ou Paytack",
+     "Payez uniquement sur les sites officiels"
+    ],
+    "right_h": "Attention",
+    "right": [
+     "Payer trop cher, puis demander un remboursement",
+     "Payer la formation avant d'embaucher",
+     "Emploi garanti après un certificat",
+     "Dumps d'examen, comptes personnels"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "PSM I n’a besoin que d’une évaluation en ligne. CSM a besoin d'un cours avec un formateur Scrum certifié. Vérifiez toujours les tarifs actuels sur les sites officiels. Pour vous préparer, lisez le Guide Scrum lentement, deux fois."
+   ],
+   "panel": {
+    "kicker": "Attestation",
+    "heading": "Se préparer à une évaluation Scrum",
+    "items": [
+     "Lisez le Guide Scrum lentement, deux fois",
+     "Résumez chaque section en une seule ligne",
+     "Répéter les tests pratiques gratuits",
+     "Surveillez le must, toujours et seulement",
+     "Testez-vous mutuellement dans un groupe d'étude"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Écrivez une ligne par section, puis passez les tests pratiques gratuits jusqu'à ce que vous obteniez de bons résultats à chaque fois, en lisant chaque explication."
+   ],
+   "panel": {
+    "kicker": "Attestation",
+    "heading": "Se préparer à une évaluation Scrum",
+    "items": [
+     "Lisez le Guide Scrum lentement, deux fois",
+     "Résumez chaque section en une seule ligne",
+     "Répéter les tests pratiques gratuits",
+     "Surveillez le must, toujours et seulement",
+     "Testez-vous mutuellement dans un groupe d'étude"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Surveillez les mots pièges comme \"doit, toujours et seulement\". Et interrogez-vous les uns les autres dans un petit groupe d’étude WhatsApp."
+   ],
+   "panel": {
+    "kicker": "Attestation",
+    "heading": "Se préparer à une évaluation Scrum",
+    "items": [
+     "Lisez le Guide Scrum lentement, deux fois",
+     "Résumez chaque section en une seule ligne",
+     "Répéter les tests pratiques gratuits",
+     "Surveillez le must, toujours et seulement",
+     "Testez-vous mutuellement dans un groupe d'étude"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Si le Guide Scrum ne le dit pas, Scrum ne l'exige pas.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "À retenir. Interviewer, observer, puis mesurer. Travaillez sur les deux zones les plus basses avec des expériences mesurées. Évaluez chaque option à partir d’un tarif journalier et contrôlez la portée avec des notes de modification signées.",
+    "Et montrez des chiffres honnêtes. Par exemple, l'unité jeunesse de l'église de Zainab a augmenté la ponctualité des tâches de 57 % à 83 %. Cela bat n’importe quel mot à la mode sur un CV."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Interviewer, observer, puis mesurer",
+     "Corrigez les deux zones les plus basses avec des expériences",
+     "Prix de chaque option à partir du tarif d'une journée",
+     "Portée du contrôle des notes de modification signées",
+     "Les chiffres honnêtes battent les mots à la mode"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Vos tâches : effectuez un mini bilan de santé avec une équipe que vous connaissez, rédigez une proposition d'une page avec deux options de prix, et rédigez votre étude de cas et votre plan sur 90 jours.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâche pratique",
+    "heading": "Vos tâches pratiques",
+    "items": [
+     "Effectuer un mini bilan de santé",
+     "Rédigez une proposition d'une page",
+     "Rédigez votre étude de cas et votre plan sur 90 jours"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

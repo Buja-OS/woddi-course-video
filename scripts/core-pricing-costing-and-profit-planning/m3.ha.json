@@ -1,0 +1,569 @@
+{
+ "course": "core-pricing-costing-and-profit-planning",
+ "module": "m3",
+ "title": "Maƙasudin riba, P&L na wata-wata da tsabar kuɗi",
+ "course_title": "Farashi, Tattalin Arziki & Tsare Riba",
+ "shots": [
+  {
+   "demo": "cash_count",
+   "say": [
+    "Makasudin riba, riba da asarar ku na wata-wata, da kwararar kuɗi.",
+    "Wannan bidiyon ne don Module 3 na Farashi, Tsararraki da Tsare-tsaren Riba."
+   ]
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Break-har yana gaya muku yadda za ku daina asarar kuɗi. Manufar riba ta gaya muku yadda ake samun kuɗin da kuke so. Kawai ƙara ribar da kuke so a ƙayyadaddun farashin ku, sannan ku raba ta hanyar gudunmawarku kowace raka'a."
+   ],
+   "card": {
+    "title": "Yi aiki da baya daga ribar da kuke so",
+    "rows": [],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Kayyade farashin Ngozi Naira 110,000 ne a wata. Ladan nata ya riga ya shiga cikinsu."
+   ],
+   "card": {
+    "title": "Yi aiki da baya daga ribar da kuke so",
+    "rows": [
+     [
+      "Kayyade farashin kowane wata, tare da albashi",
+      "110,000"
+     ]
+    ],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Ta na son ribar naira 100,000 a sama, domin ta tanadi abin soya mai girma."
+   ],
+   "card": {
+    "title": "Yi aiki da baya daga ribar da kuke so",
+    "rows": [
+     [
+      "Kayyade farashin kowane wata, tare da albashi",
+      "110,000"
+     ],
+     [
+      "Ribar manufa don fryer mafi girma",
+      "100,000"
+     ]
+    ],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Tare wato naira 210,000. An raba shi da 760, wato 276.3. Juyawa: fakiti 277 a wata.",
+    "Wannan ya zama fakiti 70 a mako, ko fakiti 11 a rana. Lambar da zata iya sakawa a cikin littafinta na rubutu."
+   ],
+   "card": {
+    "title": "Yi aiki da baya daga ribar da kuke so",
+    "rows": [
+     [
+      "Kayyade farashin kowane wata, tare da albashi",
+      "110,000"
+     ],
+     [
+      "Ribar manufa don fryer mafi girma",
+      "100,000"
+     ]
+    ],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Maƙasudi yana da amfani kawai idan za ku iya isa gare ta. Za ku iya yin shi? Ngozi na iya soya batches 6 zuwa 8 a wata, don haka a."
+   ],
+   "panel": {
+    "kicker": "Tabbatar da gaskiya",
+    "heading": "Bincika makasudin, sannan ka ja lefa",
+    "items": [
+     "Zan iya yin shi? Kidaya batches",
+     "Zan iya sayar da shi? Kwatanta da watan da ya gabata",
+     "Zan iya ba da kuɗi? Kowane tsari yana buƙatar tsabar kuɗi da farko",
+     "Levers: farashi, farashi mai canzawa, ƙayyadaddun farashi, girma"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Za a iya sayar da shi? Ta sayar da fakiti kusan 250 a watan da ya gabata, don haka 277 ya kai kusan kashi 11 cikin 100, ba fantasy ba."
+   ],
+   "panel": {
+    "kicker": "Tabbatar da gaskiya",
+    "heading": "Bincika makasudin, sannan ka ja lefa",
+    "items": [
+     "Zan iya yin shi? Kidaya batches",
+     "Zan iya sayar da shi? Kwatanta da watan da ya gabata",
+     "Zan iya ba da kuɗi? Kowane tsari yana buƙatar tsabar kuɗi da farko",
+     "Levers: farashi, farashi mai canzawa, ƙayyadaddun farashi, girma"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Za ku iya ba da kuɗi? Kowanne gunki yana kan naira 47,000 kafin wani kudi ya dawo."
+   ],
+   "panel": {
+    "kicker": "Tabbatar da gaskiya",
+    "heading": "Bincika makasudin, sannan ka ja lefa",
+    "items": [
+     "Zan iya yin shi? Kidaya batches",
+     "Zan iya sayar da shi? Kwatanta da watan da ya gabata",
+     "Zan iya ba da kuɗi? Kowane tsari yana buƙatar tsabar kuɗi da farko",
+     "Levers: farashi, farashi mai canzawa, ƙayyadaddun farashi, girma"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Sannan zaɓi lever ɗin ku: haɓaka farashi, yanke farashi mai canzawa, yanke ƙayyadadden farashi, ko siyar da ƙari. A kan Naira 1,500, Ngozi za ta buƙaci fakiti 375 don riba ɗaya. Ƙananan farashin suna buƙatar ƙarin aiki da tsabar kuɗi."
+   ],
+   "panel": {
+    "kicker": "Tabbatar da gaskiya",
+    "heading": "Bincika makasudin, sannan ka ja lefa",
+    "items": [
+     "Zan iya yin shi? Kidaya batches",
+     "Zan iya sayar da shi? Kwatanta da watan da ya gabata",
+     "Zan iya ba da kuɗi? Kowane tsari yana buƙatar tsabar kuɗi da farko",
+     "Levers: farashi, farashi mai canzawa, ƙayyadaddun farashi, girma"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Bayanin riba da asara shine katin makin ku na wata-wata. Fara da tallace-tallace: duk abin da kuka sayar, gami da tallace-tallace akan kuɗi."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Ribar da asarar ku na wata-wata",
+    "items": [
+     "Sales: duk abin da aka sayar, ciki har da bashi",
+     "Rage farashin kayan sayarwa",
+     "Yayi daidai da babban riba",
+     "Rage kuɗin aiki",
+     "Daidai riba ko asara"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Rage farashin kayan da aka sayar. Wannan shine canjin farashin raka'o'in da kuka sayar da gaske."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Ribar da asarar ku na wata-wata",
+    "items": [
+     "Sales: duk abin da aka sayar, ciki har da bashi",
+     "Rage farashin kayan sayarwa",
+     "Yayi daidai da babban riba",
+     "Rage kuɗin aiki",
+     "Daidai riba ko asara"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Wannan yana ba da babbar riba. Raka'a har yanzu a kan shiryayyen ku suna hannun jari, ba farashin wannan watan ba."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Ribar da asarar ku na wata-wata",
+    "items": [
+     "Sales: duk abin da aka sayar, ciki har da bashi",
+     "Rage farashin kayan sayarwa",
+     "Yayi daidai da babban riba",
+     "Rage kuɗin aiki",
+     "Daidai riba ko asara"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Ƙididdige kawai farashin canji na raka'a da aka sayar. Raka'a da ba a siyar ba jari ne.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Rage kashe kuɗin ku na aiki: haya, albashinku, bayanai, haraji da lalacewa na kayan aiki."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Ribar da asarar ku na wata-wata",
+    "items": [
+     "Sales: duk abin da aka sayar, ciki har da bashi",
+     "Rage farashin kayan sayarwa",
+     "Yayi daidai da babban riba",
+     "Rage kuɗin aiki",
+     "Daidai riba ko asara"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Ƙididdige kawai farashin canji na raka'a da aka sayar. Raka'a da ba a siyar ba jari ne.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Abin da ya rage shine ribar gidan yanar gizon ku, ko asarar net. Tare da kyawawan bayanan yau da kullun, wannan yana ɗaukar kusan mintuna 30."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Ribar da asarar ku na wata-wata",
+    "items": [
+     "Sales: duk abin da aka sayar, ciki har da bashi",
+     "Rage farashin kayan sayarwa",
+     "Yayi daidai da babban riba",
+     "Rage kuɗin aiki",
+     "Daidai riba ko asara"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Ƙididdige kawai farashin canji na raka'a da aka sayar. Raka'a da ba a siyar ba jari ne.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Ga wata na gaske. Ngozi ta yi fakiti 350. Ta sayar da 260 akan naira 1,700, 60 kuma akan naira 1,400, kuma 30 na hannun jari."
+   ],
+   "card": {
+    "title": "P&L na Ngozi na wata daya",
+    "rows": [],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Jimlar cinikinta ya kai naira 526,000."
+   ],
+   "card": {
+    "title": "P&L na Ngozi na wata daya",
+    "rows": [
+     [
+      "Jimlar tallace-tallace",
+      "526,000"
+     ]
+    ],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Fakiti 320 da aka siyar, akan naira 940 kowanne, naira 300,800 ne na kayan da aka sayar. Ribar da ta samu ya kai Naira 225,200."
+   ],
+   "card": {
+    "title": "P&L na Ngozi na wata daya",
+    "rows": [
+     [
+      "Jimlar tallace-tallace",
+      "526,000"
+     ],
+     [
+      "Farashin kayan sayarwa, fakiti 320",
+      "300,800"
+     ],
+     [
+      "Babban riba",
+      "225,200"
+     ]
+    ],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Bayan naira 110,000 ta kashe kudin aiki, ribar da ta samu ya kai naira 115,200. Hakan ya kai naira 15,200 da ta ke nema.",
+    "Kalli babban tazarar ku da ribar riba kowane wata. Nata kusan kashi 42.8 da kashi 21.9."
+   ],
+   "card": {
+    "title": "P&L na Ngozi na wata daya",
+    "rows": [
+     [
+      "Jimlar tallace-tallace",
+      "526,000"
+     ],
+     [
+      "Farashin kayan sayarwa, fakiti 320",
+      "300,800"
+     ],
+     [
+      "Babban riba",
+      "225,200"
+     ],
+     [
+      "Kudin aiki",
+      "110,000"
+     ],
+     [
+      "Riba ta yanar gizo",
+      "115,200"
+     ]
+    ],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Kuɗin kuɗi shine ainihin motsin kuɗi a ciki da waje. Yawancin ƴan kasuwa da yawa sun gaza ba don rashin riba ba, amma saboda sun ƙare da kuɗi.",
+    "Tallace-tallacen kiredit suna ƙidayar tallace-tallace, amma babu tsabar kuɗi da ta zo har sai abokin ciniki ya biya."
+   ],
+   "panel": {
+    "kicker": "Riba ba tsabar kudi ba ne",
+    "heading": "Me yasa riba da tsabar kuɗi suka bambanta",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Credit sales",
+      "d": "An ƙidaya azaman tallace-tallace a cikin P&L, amma babu kuɗi da ya isa har sai abokin ciniki ya biya."
+     },
+     {
+      "t": "Unsold stock",
+      "d": "Kun biya tsabar kuɗi don yin shi, amma har yanzu ba farashi ba ne a cikin P&L."
+     },
+     {
+      "t": "Loan repayments",
+      "d": "Cash ya fita, amma biyan kuɗin lamuni ba kuɗi ba ne a cikin P&L."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "An biya jarin da ba a siyar ba a tsabar kuɗi, amma har yanzu bai zama farashi ba a cikin P&L."
+   ],
+   "panel": {
+    "kicker": "Riba ba tsabar kudi ba ne",
+    "heading": "Me yasa riba da tsabar kuɗi suka bambanta",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Credit sales",
+      "d": "An ƙidaya azaman tallace-tallace a cikin P&L, amma babu kuɗi da ya isa har sai abokin ciniki ya biya."
+     },
+     {
+      "t": "Unsold stock",
+      "d": "Kun biya tsabar kuɗi don yin shi, amma har yanzu ba farashi ba ne a cikin P&L."
+     },
+     {
+      "t": "Loan repayments",
+      "d": "Cash ya fita, amma biyan kuɗin lamuni ba kuɗi ba ne a cikin P&L."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Kuma biyan lamuni yana fitar da tsabar kuɗi, ba tare da yin kashe kuɗi a cikin P&L ba."
+   ],
+   "panel": {
+    "kicker": "Riba ba tsabar kudi ba ne",
+    "heading": "Me yasa riba da tsabar kuɗi suka bambanta",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Credit sales",
+      "d": "An ƙidaya azaman tallace-tallace a cikin P&L, amma babu kuɗi da ya isa har sai abokin ciniki ya biya."
+     },
+     {
+      "t": "Unsold stock",
+      "d": "Kun biya tsabar kuɗi don yin shi, amma har yanzu ba farashi ba ne a cikin P&L."
+     },
+     {
+      "t": "Loan repayments",
+      "d": "Cash ya fita, amma biyan kuɗin lamuni ba kuɗi ba ne a cikin P&L."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Ngozi ta samu ribar naira 115,200. To ina kudinta yake?"
+   ],
+   "card": {
+    "title": "Riba, amma karancin kuɗi",
+    "rows": [],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Dillalan dillalan ta ne kawai ya shigo, Naira 442,000, Naira 84,000 na babban kanti bai isa ba sai wata mai zuwa."
+   ],
+   "card": {
+    "title": "Riba, amma karancin kuɗi",
+    "rows": [
+     [
+      "Cash in: tallace-tallacen tallace-tallace",
+      "442,000"
+     ]
+    ],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "An fitar da Naira 466,000 na batches 7, kayyade farashi da kuma biyan bashin."
+   ],
+   "card": {
+    "title": "Riba, amma karancin kuɗi",
+    "rows": [
+     [
+      "Cash in: tallace-tallacen tallace-tallace",
+      "442,000"
+     ],
+     [
+      "Fitar da kuɗi: batches, farashi, lamuni",
+      "466,000"
+     ]
+    ],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Kuɗinta ya faɗi zuwa Naira 16,000, bai isa ko da buɗaɗɗen Naira 47,000 ba. Shi ya sa kuke hasashen tsabar kuɗi mako zuwa mako, kuma ku yi aiki da wuri a kowane mako da ya ƙare mara kyau."
+   ],
+   "card": {
+    "title": "Riba, amma karancin kuɗi",
+    "rows": [
+     [
+      "Cash in: tallace-tallacen tallace-tallace",
+      "442,000"
+     ],
+     [
+      "Fitar da kuɗi: batches, farashi, lamuni",
+      "466,000"
+     ],
+     [
+      "Rufe tsabar kuɗi",
+      "16,000"
+     ]
+    ],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Ɗauki ajiya, misali kashi 50, kafin fara oda na al'ada. Ba da daraja kawai ga sanannun kwastomomi, a rubuce, tare da ranar ƙarshe. Ajiye ajiyar aƙalla wata ɗaya na tsayayyen farashi.",
+    "Kada ku rance don biyan hasara. Kuma ku yi hankali da saka hannun jari yana ba da lada mai girma na kowane wata."
+   ],
+   "panel": {
+    "kicker": "Sarrafa haɗarin",
+    "heading": "Kare kuɗin ku",
+    "items": [
+     "Yi ajiya akan oda na al'ada",
+     "Rubuta adadin kiredit da kwanan watan da ya gabata",
+     "Ajiye tsayayyen farashi na wata ɗaya a matsayin maƙalli",
+     "Kada ku taɓa rance don ɓoye hasara",
+     "Ka guje wa tayin saka hannun jari mai yawa"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Don tunawa. Ƙara maƙasudin ribar ku zuwa ƙayyadaddun farashi kuma raba ta hanyar gudummawa. Juya shi zuwa lambar yau da kullun. Gina P&L kowane wata. Ka tuna cewa riba ba tsabar kudi ba ce. Kuma kintace tsabar kudi mako-mako, don haka ku yi aiki kafin mako guda ya tafi mara kyau."
+   ],
+   "panel": {
+    "kicker": "Mabuɗin mahimmanci",
+    "heading": "Ka tuna",
+    "items": [
+     "Raka'a don manufa = (kafaffen + riba) / gudummawa",
+     "Juya manufa zuwa lambobin yau da kullun",
+     "Tallace-tallace, rage COGS, rage kashe kuɗi = ribar riba",
+     "Riba ba tsabar kuɗi ba ce: bashi, hannun jari da lamuni",
+     "Hasashen kuɗi na mako-mako; yi aiki akan makonni mara kyau"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Yanzu saita maƙasudin ribar ku tare da lambobi na yau da kullun da na mako-mako, shirya ribar da asarar watan da ya gabata, da gina hasashen tsabar kuɗi na mako huɗu.",
+    "Ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi ayyuka",
+    "heading": "Ayyukanku na wannan tsarin",
+    "items": [
+     "Sanya maƙasudin riba na ku",
+     "Shirya P&L na watan da ya gabata",
+     "Gina hasashen tsabar kuɗi na mako huɗu"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

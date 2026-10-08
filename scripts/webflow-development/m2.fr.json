@@ -1,0 +1,602 @@
+{
+ "course": "webflow-development",
+ "module": "m2",
+ "title": "Planifiez, créez un CMS à l'épreuve des clients et lancez-le correctement",
+ "course_title": "Développement de flux Web",
+ "shots": [
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Planifiez le site, créez un CMS à l'épreuve des clients et lancez-le correctement.",
+    "Ceci est la vidéo du module 2 de Webflow Development : Professional Build Workflow."
+   ]
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Reconstruire une section parce que le contenu ne correspondait pas coûte bien plus d'une heure de planification. Tout d’abord, le plan du site. Une page statique, comme À propos, est conçue une seule fois. Une page de modèle est conçue une seule fois mais affiche n'importe quel élément d'une collection."
+   ],
+   "panel": {
+    "kicker": "Planifiez avant de construire",
+    "heading": "Un plan de construction comporte trois parties",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Sitemap",
+      "d": "Quelles pages existent. Marquez les pages statiques et les pages de modèles CMS."
+     },
+     {
+      "t": "Content model",
+      "d": "Quel contenu se répète et les champs dont chaque collection a besoin."
+     },
+     {
+      "t": "Style guide",
+      "d": "Une page cachée de titres, de boutons et de couleurs, stockés sous forme de variables."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Deuxièmement, le modèle de contenu. Si le client le dit, nous en ajouterons un nouveau chaque mois, que le contenu appartient au CMS, avec les bons champs."
+   ],
+   "panel": {
+    "kicker": "Planifiez avant de construire",
+    "heading": "Un plan de construction comporte trois parties",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Sitemap",
+      "d": "Quelles pages existent. Marquez les pages statiques et les pages de modèles CMS."
+     },
+     {
+      "t": "Content model",
+      "d": "Quel contenu se répète et les champs dont chaque collection a besoin."
+     },
+     {
+      "t": "Style guide",
+      "d": "Une page cachée de titres, de boutons et de couleurs, stockés sous forme de variables."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Troisièmement, une page de guide de style. Stockez les couleurs et les tailles sous forme de variables. Ainsi, lorsque la couleur de la marque change, vous modifiez une variable et l'ensemble du site est mis à jour."
+   ],
+   "panel": {
+    "kicker": "Planifiez avant de construire",
+    "heading": "Un plan de construction comporte trois parties",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Sitemap",
+      "d": "Quelles pages existent. Marquez les pages statiques et les pages de modèles CMS."
+     },
+     {
+      "t": "Content model",
+      "d": "Quel contenu se répète et les champs dont chaque collection a besoin."
+     },
+     {
+      "t": "Style guide",
+      "d": "Une page cachée de titres, de boutons et de couleurs, stockés sous forme de variables."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Par exemple, Funmi gère un studio de design d'intérieur à Abuja et ajoute environ deux projets par mois. Elle a besoin de 4 pages statiques."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Planification d'un site de studio de design d'intérieur",
+    "items": [
+     "Pages statiques : Accueil, À propos, Services, Contact",
+     "Collections : Projets et Témoignages",
+     "Champ d'option pour le type de projet ; commutateur pour En vedette",
+     "4 statiques + 1 modèle = 5 designs à construire"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Les projets se répètent mensuellement, ils deviennent donc une collection. Des témoignages aussi, liés à des projets avec un domaine de référence. Planifiez les références tôt, car elles sont plus difficiles à ajouter plus tard."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Planification d'un site de studio de design d'intérieur",
+    "items": [
+     "Pages statiques : Accueil, À propos, Services, Contact",
+     "Collections : Projets et Témoignages",
+     "Champ d'option pour le type de projet ; commutateur pour En vedette",
+     "4 statiques + 1 modèle = 5 designs à construire"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Le type de projet est un champ Option, donc Résidentiel ne devient jamais résidentiel. En vedette est un commutateur oui ou non."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Planification d'un site de studio de design d'intérieur",
+    "items": [
+     "Pages statiques : Accueil, À propos, Services, Contact",
+     "Collections : Projets et Témoignages",
+     "Champ d'option pour le type de projet ; commutateur pour En vedette",
+     "4 statiques + 1 modèle = 5 designs à construire"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Cela fait 5 designs à construire, même si le site atteint 50 pages de projet. Demandez au client d'approuver ce plan. Cela devient votre référence en matière de portée."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Planification d'un site de studio de design d'intérieur",
+    "items": [
+     "Pages statiques : Accueil, À propos, Services, Contact",
+     "Collections : Projets et Témoignages",
+     "Champ d'option pour le type de projet ; commutateur pour En vedette",
+     "4 statiques + 1 modèle = 5 designs à construire"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Créez la collection, par exemple Projets, et ajoutez les champs de votre plan."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "De la collection aux pages live",
+    "items": [
+     "Créez la collection et ajoutez vos champs",
+     "Écrivez un texte d'aide, par ex. paysage, 1600px de large",
+     "Ajoutez trois à cinq objets réels",
+     "Connectez la page modèle aux champs",
+     "Ajouter une liste de collections à l'accueil",
+     "Filtrer, trier et limiter, par ex. les 3 derniers en vedette"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Écrivez un texte d'aide dans chaque champ afin que le client sache exactement quoi télécharger."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "De la collection aux pages live",
+    "items": [
+     "Créez la collection et ajoutez vos champs",
+     "Écrivez un texte d'aide, par ex. paysage, 1600px de large",
+     "Ajoutez trois à cinq objets réels",
+     "Connectez la page modèle aux champs",
+     "Ajouter une liste de collections à l'accueil",
+     "Filtrer, trier et limiter, par ex. les 3 derniers en vedette"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Ajoutez quelques éléments réels pour concevoir avec de vraies longueurs de contenu."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "De la collection aux pages live",
+    "items": [
+     "Créez la collection et ajoutez vos champs",
+     "Écrivez un texte d'aide, par ex. paysage, 1600px de large",
+     "Ajoutez trois à cinq objets réels",
+     "Connectez la page modèle aux champs",
+     "Ajouter une liste de collections à l'accueil",
+     "Filtrer, trier et limiter, par ex. les 3 derniers en vedette"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Sur la page du modèle, connectez chaque élément à un champ. Le titre montre le nom du projet, l'image montre la couverture."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "De la collection aux pages live",
+    "items": [
+     "Créez la collection et ajoutez vos champs",
+     "Écrivez un texte d'aide, par ex. paysage, 1600px de large",
+     "Ajoutez trois à cinq objets réels",
+     "Connectez la page modèle aux champs",
+     "Ajouter une liste de collections à l'accueil",
+     "Filtrer, trier et limiter, par ex. les 3 derniers en vedette"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Sur Accueil, ajoutez une liste de collections, filtrez sur En vedette, triez les plus récents en premier et limitez-les à 3. La visibilité conditionnelle masque un bouton lorsque son champ est vide, au lieu d'afficher un lien rompu."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "De la collection aux pages live",
+    "items": [
+     "Créez la collection et ajoutez vos champs",
+     "Écrivez un texte d'aide, par ex. paysage, 1600px de large",
+     "Ajoutez trois à cinq objets réels",
+     "Connectez la page modèle aux champs",
+     "Ajouter une liste de collections à l'accueil",
+     "Filtrer, trier et limiter, par ex. les 3 derniers en vedette"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Ouvrez ensuite le mode Éditeur et agissez comme le client. Ajoutez un titre très long et un élément sans image. Réparez ce qui casse maintenant, car le client fera exactement cela au cours du premier mois."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "De la collection aux pages live",
+    "items": [
+     "Créez la collection et ajoutez vos champs",
+     "Écrivez un texte d'aide, par ex. paysage, 1600px de large",
+     "Ajoutez trois à cinq objets réels",
+     "Connectez la page modèle aux champs",
+     "Ajouter une liste de collections à l'accueil",
+     "Filtrer, trier et limiter, par ex. les 3 derniers en vedette"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "rule": "Testez comme un client : un titre très long, et un article sans image.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Une interaction joint un déclencheur, comme un clic ou un défilement, à une action, comme un fondu. Les bonnes utilisations aident les gens : une ouverture de menu, une FAQ développée, un court fondu entrant."
+   ],
+   "panel": {
+    "kicker": "Interactions",
+    "heading": "Mouvement avec un but",
+    "mode": "compare",
+    "left_h": "Bons usages",
+    "left": [
+     "Ouverture du menu mobile",
+     "Extension de la réponse à la FAQ",
+     "Court fondu entrant, 0,2 à 0,5 seconde"
+    ],
+    "right_h": "Mauvais usages",
+    "right": [
+     "De longues animations qui retardent la lecture",
+     "Texte affiché uniquement au survol",
+     "Des effets importants sur les téléphones moins chers"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Les mauvaises utilisations font obstacle. Les téléphones ne peuvent pas survoler, alors ne cachez jamais de texte derrière un survol. Et le contenu doit être lisible même si une animation ne s’exécute pas."
+   ],
+   "panel": {
+    "kicker": "Interactions",
+    "heading": "Mouvement avec un but",
+    "mode": "compare",
+    "left_h": "Bons usages",
+    "left": [
+     "Ouverture du menu mobile",
+     "Extension de la réponse à la FAQ",
+     "Court fondu entrant, 0,2 à 0,5 seconde"
+    ],
+    "right_h": "Mauvais usages",
+    "right": [
+     "De longues animations qui retardent la lecture",
+     "Texte affiché uniquement au survol",
+     "Des effets importants sur les téléphones moins chers"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Donnez à chaque champ une étiquette visible et activez reCAPTCHA. Collectez uniquement ce dont vous avez besoin. Si vous demandez des noms, des numéros de téléphone ou des adresses e-mail, ajoutez une note de confidentialité et un lien vers la politique. La loi nigériane sur la protection des données de 2023 fixe des obligations ici, le client doit donc prendre conseil.",
+    "Testez ensuite chaque formulaire sur le domaine actif et confirmez que le client reçoit réellement l'e-mail."
+   ],
+   "panel": {
+    "kicker": "Confidentialité",
+    "heading": "Des formulaires qui fonctionnent et respectent la vie privée",
+    "items": [
+     "Une étiquette visible sur chaque champ",
+     "reCAPTCHA activé pour réduire le spam",
+     "Collectez uniquement ce dont vous avez besoin",
+     "Une note de confidentialité et un lien vers la politique",
+     "Testez sur le domaine live ; le client reçoit l'e-mail"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "phone_camera",
+   "say": [
+    "Le problème de vitesse de Webflow le plus courant concerne les photos surdimensionnées directement depuis un téléphone. Par exemple, la page d'accueil d'Ifeoma contient 6 images totalisant environ 14 Mo."
+   ],
+   "panel": {
+    "kicker": "Vitesse",
+    "heading": "Ifeoma réduit le poids de ses pages",
+    "items": [
+     "PageSpeed Insights signale 6 images, environ 14 Mo",
+     "Héros : 6 000 px à 2 000 px, WebP, environ 300 Ko",
+     "5 photos de carte : 1 000 px de large, environ 600 Ko",
+     "Chargez les cartes paresseusement ; refaire le test"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_camera",
+   "say": [
+    "Elle redimensionne le héros à 2 000 px de large et le convertit en WebP. Environ 5 Mo deviennent environ 300 Ko."
+   ],
+   "panel": {
+    "kicker": "Vitesse",
+    "heading": "Ifeoma réduit le poids de ses pages",
+    "items": [
+     "PageSpeed Insights signale 6 images, environ 14 Mo",
+     "Héros : 6 000 px à 2 000 px, WebP, environ 300 Ko",
+     "5 photos de carte : 1 000 px de large, environ 600 Ko",
+     "Chargez les cartes paresseusement ; refaire le test"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Les photos de la carte vont d'environ 9 Mo à environ 600 Ko."
+   ],
+   "panel": {
+    "kicker": "Vitesse",
+    "heading": "Ifeoma réduit le poids de ses pages",
+    "items": [
+     "PageSpeed Insights signale 6 images, environ 14 Mo",
+     "Héros : 6 000 px à 2 000 px, WebP, environ 300 Ko",
+     "5 photos de carte : 1 000 px de large, environ 600 Ko",
+     "Chargez les cartes paresseusement ; refaire le test"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Elle les met en charge différée et teste à nouveau. Une économie d’environ 94 %, ce qui est très important pour un visiteur utilisant des données mobiles."
+   ],
+   "panel": {
+    "kicker": "Vitesse",
+    "heading": "Ifeoma réduit le poids de ses pages",
+    "items": [
+     "PageSpeed Insights signale 6 images, environ 14 Mo",
+     "Héros : 6 000 px à 2 000 px, WebP, environ 300 Ko",
+     "5 photos de carte : 1 000 px de large, environ 600 Ko",
+     "Chargez les cartes paresseusement ; refaire le test"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Moins de 1 Mo d’images au lieu de 14 Mo est important lorsque les données coûtent cher.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Vérifiez le contraste des couleurs avant de construire."
+   ],
+   "panel": {
+    "kicker": "Avant le lancement",
+    "heading": "Accessibilité, recherche et domaine",
+    "items": [
+     "Contraste d'au moins 4,5:1 pour un texte normal",
+     "Texte alternatif sur des images significatives ; un H1",
+     "Parcourez la page et voyez le focus",
+     "Titres clairs, par ex. Restauration pour événements à Abuja",
+     "Redirections 301, enregistrements DNS, SSL activé"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Ajoutez du texte alternatif aux images significatives, utilisez un H1 par page et gardez les titres dans l'ordre."
+   ],
+   "panel": {
+    "kicker": "Avant le lancement",
+    "heading": "Accessibilité, recherche et domaine",
+    "items": [
+     "Contraste d'au moins 4,5:1 pour un texte normal",
+     "Texte alternatif sur des images significatives ; un H1",
+     "Parcourez la page et voyez le focus",
+     "Titres clairs, par ex. Restauration pour événements à Abuja",
+     "Redirections 301, enregistrements DNS, SSL activé"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Appuyez sur Tab sur chaque page et regardez le contour du focus."
+   ],
+   "panel": {
+    "kicker": "Avant le lancement",
+    "heading": "Accessibilité, recherche et domaine",
+    "items": [
+     "Contraste d'au moins 4,5:1 pour un texte normal",
+     "Texte alternatif sur des images significatives ; un H1",
+     "Parcourez la page et voyez le focus",
+     "Titres clairs, par ex. Restauration pour événements à Abuja",
+     "Redirections 301, enregistrements DNS, SSL activé"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Une page intitulée Services en dit peu aux moteurs de recherche. La restauration événementielle à Abuja dit quoi et où."
+   ],
+   "panel": {
+    "kicker": "Avant le lancement",
+    "heading": "Accessibilité, recherche et domaine",
+    "items": [
+     "Contraste d'au moins 4,5:1 pour un texte normal",
+     "Texte alternatif sur des images significatives ; un H1",
+     "Parcourez la page et voyez le focus",
+     "Titres clairs, par ex. Restauration pour événements à Abuja",
+     "Redirections 301, enregistrements DNS, SSL activé"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Ajoutez des redirections pour les anciennes adresses, copiez les enregistrements DNS de Webflow dans votre registraire, conservez SSL activé et testez à nouveau sur le domaine actif."
+   ],
+   "panel": {
+    "kicker": "Avant le lancement",
+    "heading": "Accessibilité, recherche et domaine",
+    "items": [
+     "Contraste d'au moins 4,5:1 pour un texte normal",
+     "Texte alternatif sur des images significatives ; un H1",
+     "Parcourez la page et voyez le focus",
+     "Titres clairs, par ex. Restauration pour événements à Abuja",
+     "Redirections 301, enregistrements DNS, SSL activé"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "À retenir. Planifiez avant de construire et faites approuver le plan. Mettez du contenu répétitif dans le CMS et rendez-le à l'épreuve des clients. Gardez les pages légères pour les données mobiles, accessibles et clairement intitulées. Et testez les formulaires et le domaine en direct avant de dire que le site est terminé."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Plan du site, modèle de contenu et guide de style en premier",
+     "Le contenu répétitif appartient au CMS",
+     "Le texte d'aide et les champs d'options garantissent la sécurité des clients",
+     "Redimensionner les images ; vérifier le contraste et le clavier",
+     "Formulaires : données minimales, note de confidentialité, test en direct"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Maintenant, rédigez un plan de build, créez une fonctionnalité CMS fonctionnelle et effectuez une vérification complète avant le lancement avec les scores de vitesse avant et après.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâches d'entraînement",
+    "heading": "Votre travail pour ce module",
+    "items": [
+     "Rédigez un plan de construction avec une page Guide de style",
+     "Créer une fonctionnalité CMS fonctionnelle",
+     "Exécuter un contrôle qualité complet avant le lancement"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

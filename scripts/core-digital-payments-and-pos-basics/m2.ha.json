@@ -1,0 +1,566 @@
+{
+ "course": "core-digital-payments-and-pos-basics",
+ "module": "m2",
+ "title": "Wallets, canja wuri, USSD da lissafin kudi: yin shi daidai kowane lokaci",
+ "course_title": "Biyan Dijital & Ka'idodin POS",
+ "shots": [
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Wallets, canja wuri, USSD da lissafin kudi: yin shi daidai kowane lokaci.",
+    "Wannan shine bidiyon don module 2 na Biyan Dijital da Basics POS."
+   ]
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Canja wurin yana ɗaukar ƙasa da minti ɗaya, amma yawancin kurakurai suna faruwa a cikin wannan minti. Don haka za ku koyi aikin yau da kullun."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Yawancin kurakurai suna faruwa a cikin minti daya",
+    "items": [
+     "Bincika aikace-aikacen walat kafin ku amince da shi",
+     "Aika canja wuri tare da na yau da kullun",
+     "Biya ba tare da bayanai ba, ta amfani da USSD",
+     "Karɓi kuɗi ba tare da yaudara ba"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Hakanan zaka biya ba tare da intanet ba, biyan kuɗi, da karɓar kuɗi lafiya."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Yawancin kurakurai suna faruwa a cikin minti daya",
+    "items": [
+     "Bincika aikace-aikacen walat kafin ku amince da shi",
+     "Aika canja wuri tare da na yau da kullun",
+     "Biya ba tare da bayanai ba, ta amfani da USSD",
+     "Karɓi kuɗi ba tare da yaudara ba"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Kamfanoni masu lasisi dole ne su gudanar da aikace-aikacen Wallet kamar Opay, PalmPay da Moniepoint. Misali, Joy, wata mai gyaran gashi a Fatakwal, ta samo apps guda biyu masu tambari iri daya, kuma ta zabi wanda mawallafinsa ya yi daidai da kamfanin.",
+    "Ta sami bayanin lasisi, ta yi amfani da lambarta, saita PIN mai ƙarfi da adana tallafi. Babu sanarwar lasisi? Kar a ajiye kudi a can."
+   ],
+   "panel": {
+    "kicker": "Kafin kayi amfani da walat",
+    "heading": "Biyar cak don kowane app na walat",
+    "items": [
+     "An sami sanarwar lasisi",
+     "Sunan mai bugawa yayi daidai da kamfani",
+     "Rijista tare da lambar wayar ku",
+     "PIN mai ƙarfi da kulle app",
+     "Ajiye tashar tallafi"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Misali, Grace a Abuja na biyan kudin makaranta naira 45,000. Ta rubuta lambar asusun daga takardar kuɗin ta duba shi a rukuni na lambobi 3, 3 da 4."
+   ],
+   "panel": {
+    "kicker": "Hanyar canja wuri",
+    "heading": "Matakai shida, kowane lokaci guda",
+    "items": [
+     "Zaɓi banki, shigar da lambar",
+     "Karanta sunan da ƙarfi",
+     "Duba adadin da sifilai",
+     "Ƙara ruwaya bayyananna",
+     "Karanta kuɗin, sannan ku yarda",
+     "Ajiye rasidin"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Ka'idar tana nuna sunan makarantar da aka yi rajista. Ya dace da zamewa."
+   ],
+   "panel": {
+    "kicker": "Hanyar canja wuri",
+    "heading": "Matakai shida, kowane lokaci guda",
+    "items": [
+     "Zaɓi banki, shigar da lambar",
+     "Karanta sunan da ƙarfi",
+     "Duba adadin da sifilai",
+     "Ƙara ruwaya bayyananna",
+     "Karanta kuɗin, sannan ku yarda",
+     "Ajiye rasidin"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Ta duba allon tace 45,000, ba 4,500 ko 450,000 ba."
+   ],
+   "panel": {
+    "kicker": "Hanyar canja wuri",
+    "heading": "Matakai shida, kowane lokaci guda",
+    "items": [
+     "Zaɓi banki, shigar da lambar",
+     "Karanta sunan da ƙarfi",
+     "Duba adadin da sifilai",
+     "Ƙara ruwaya bayyananna",
+     "Karanta kuɗin, sannan ku yarda",
+     "Ajiye rasidin"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "A cikin ruwayar ta rubuta sunan danta, aji da kuma kudin zango na 2, don haka bursar ta dace da shi."
+   ],
+   "panel": {
+    "kicker": "Hanyar canja wuri",
+    "heading": "Matakai shida, kowane lokaci guda",
+    "items": [
+     "Zaɓi banki, shigar da lambar",
+     "Karanta sunan da ƙarfi",
+     "Duba adadin da sifilai",
+     "Ƙara ruwaya bayyananna",
+     "Karanta kuɗin, sannan ku yarda",
+     "Ajiye rasidin"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Ta karanta kud'in, ta duba balance dinta ta rufe, ta shigar da PIN dinta, sannan ta ajiye rasit din a cikin jakar waya."
+   ],
+   "panel": {
+    "kicker": "Hanyar canja wuri",
+    "heading": "Matakai shida, kowane lokaci guda",
+    "items": [
+     "Zaɓi banki, shigar da lambar",
+     "Karanta sunan da ƙarfi",
+     "Duba adadin da sifilai",
+     "Ƙara ruwaya bayyananna",
+     "Karanta kuɗin, sannan ku yarda",
+     "Ajiye rasidin"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Saƙon da ke cewa mai kaya ko makaranta yana da sabon asusu dabara ce ta gama gari. Tabbatar da kiran lambar da kuke da ita.",
+    "Idan ka aika zuwa asusun da ba daidai ba, kai rahoto ga bankinka lokaci guda tare da ID na zaman."
+   ],
+   "panel": {
+    "kicker": "Hanyar canja wuri",
+    "heading": "Matakai shida, kowane lokaci guda",
+    "items": [
+     "Zaɓi banki, shigar da lambar",
+     "Karanta sunan da ƙarfi",
+     "Duba adadin da sifilai",
+     "Ƙara ruwaya bayyananna",
+     "Karanta kuɗin, sannan ku yarda",
+     "Ajiye rasidin"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "rule": "Sabon asusu na mai kaya? Kira lambar da kuka amince da ita.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "USSD gajeriyar lamba ce wacce ke farawa da tauraro kuma ta ƙare da zanta. Yana aiki akan kowace waya mai sigina, ba tare da bayanai ba. Sami lambar daga katin ku ko gidan yanar gizon banki."
+   ],
+   "panel": {
+    "kicker": "USSD",
+    "heading": "Biyan kuɗi ba tare da bayanai ba",
+    "items": [
+     "Sami lambar daga katin ku ko gidan yanar gizon banki",
+     "Yi amfani da SIM mai rijista zuwa asusunka",
+     "Rubuta cikakkun bayanai kafin ka buga waya",
+     "Duba sunan, sannan shigar da PIN na USSD na ku"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Yana aiki ne kawai tare da SIM mai rijista zuwa asusunka. Wannan yana daga cikin tsaronta."
+   ],
+   "panel": {
+    "kicker": "USSD",
+    "heading": "Biyan kuɗi ba tare da bayanai ba",
+    "items": [
+     "Sami lambar daga katin ku ko gidan yanar gizon banki",
+     "Yi amfani da SIM mai rijista zuwa asusunka",
+     "Rubuta cikakkun bayanai kafin ka buga waya",
+     "Duba sunan, sannan shigar da PIN na USSD na ku"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Misali Mercy tana bin wani manomi Musa Naira 3,000 a wani kauye da babu bayanai. Lokaci ya ƙare da sauri, don haka ta fara rubuta lambar asusunsa a takarda."
+   ],
+   "panel": {
+    "kicker": "USSD",
+    "heading": "Biyan kuɗi ba tare da bayanai ba",
+    "items": [
+     "Sami lambar daga katin ku ko gidan yanar gizon banki",
+     "Yi amfani da SIM mai rijista zuwa asusunka",
+     "Rubuta cikakkun bayanai kafin ka buga waya",
+     "Duba sunan, sannan shigar da PIN na USSD na ku"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Allon ya nuna sunan Musa. Tana karantawa, ya tabbatar. Sannan ta shigar da PIN nata na USSD. Kada ka taɓa buga lambar da wani baƙo ya aiko maka."
+   ],
+   "panel": {
+    "kicker": "USSD",
+    "heading": "Biyan kuɗi ba tare da bayanai ba",
+    "items": [
+     "Sami lambar daga katin ku ko gidan yanar gizon banki",
+     "Yi amfani da SIM mai rijista zuwa asusunka",
+     "Rubuta cikakkun bayanai kafin ka buga waya",
+     "Duba sunan, sannan shigar da PIN na USSD na ku"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Kowane lissafin yana bin tsari ɗaya: sabis, lamba, adadin, dubawa, yarda, kiyaye hujja.",
+    "Don lokacin iska, zaɓi hanyar sadarwar da ta dace da lambar, ko ta iya zuwa wata lamba daban."
+   ],
+   "panel": {
+    "kicker": "Biyan kudade",
+    "heading": "Duba lambar kafin ku biya",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Airtime da data",
+      "d": "Zaɓi hanyar sadarwar da ta dace da lambar wayar. Duba kowane lambobi."
+     },
+     {
+      "t": "Electricity token",
+      "d": "Shigar da lambar mita daidai. Duba sunan da aka nuna. Buga alamar lambobi 20 a cikin mita."
+     },
+     {
+      "t": "Biyan kuɗi na TV",
+      "d": "Shigar da smartcard ko lambar IUC daga dikodi. Ci gaba da shi don karɓar sabuntawa."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Don wutar lantarki da aka riga aka biya, shigar da lambar mita daidai kuma duba sunan da aka nuna. Alamar lamba 20 tana aiki akan wannan mita kawai. Idan an ƙi, sake rubuta shi a hankali tukuna."
+   ],
+   "panel": {
+    "kicker": "Biyan kudade",
+    "heading": "Duba lambar kafin ku biya",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Airtime da data",
+      "d": "Zaɓi hanyar sadarwar da ta dace da lambar wayar. Duba kowane lambobi."
+     },
+     {
+      "t": "Electricity token",
+      "d": "Shigar da lambar mita daidai. Duba sunan da aka nuna. Buga alamar lambobi 20 a cikin mita."
+     },
+     {
+      "t": "Biyan kuɗi na TV",
+      "d": "Shigar da smartcard ko lambar IUC daga dikodi. Ci gaba da shi don karɓar sabuntawa."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Don TV, shigar da smartcard ko lambar IUC kuma ci gaba da dikodi a kunne. Idan lissafin bai isar ba, fara bincika tarihin ku. Kar a sake biya."
+   ],
+   "panel": {
+    "kicker": "Biyan kudade",
+    "heading": "Duba lambar kafin ku biya",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Airtime da data",
+      "d": "Zaɓi hanyar sadarwar da ta dace da lambar wayar. Duba kowane lambobi."
+     },
+     {
+      "t": "Electricity token",
+      "d": "Shigar da lambar mita daidai. Duba sunan da aka nuna. Buga alamar lambobi 20 a cikin mita."
+     },
+     {
+      "t": "Biyan kuɗi na TV",
+      "d": "Shigar da smartcard ko lambar IUC daga dikodi. Ci gaba da shi don karɓar sabuntawa."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Patience tana da Naira 20,000 don kashe wutar lantarki a wannan makon."
+   ],
+   "card": {
+    "title": "Mita biyu, kasafin kuɗi ɗaya",
+    "rows": [],
+    "note": null
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Firiji na amfani da mafi yawan wutar lantarki, don haka ta sayi 12,000 don shagon. Sunan da ke kan allo yayi daidai, don haka ta biya ta ajiye alamar."
+   ],
+   "card": {
+    "title": "Mita biyu, kasafin kuɗi ɗaya",
+    "rows": [
+     [
+      "Alamar siyayya",
+      "12,000"
+     ]
+    ],
+    "note": null
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Gida yana samun sauran, 8,000. Sunan da aka nuna na mai gidanta ne, kamar yadda ta zata."
+   ],
+   "card": {
+    "title": "Mita biyu, kasafin kuɗi ɗaya",
+    "rows": [
+     [
+      "Alamar siyayya",
+      "12,000"
+     ],
+     [
+      "Alamar mitar gida",
+      "8,000"
+     ]
+    ],
+    "note": null
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "20,000 gabaɗaya, tare da rasitu biyu da alamu biyu da aka ajiye idan mita ta ƙi ɗaya."
+   ],
+   "card": {
+    "title": "Mita biyu, kasafin kuɗi ɗaya",
+    "rows": [
+     [
+      "Alamar siyayya",
+      "12,000"
+     ],
+     [
+      "Alamar mitar gida",
+      "8,000"
+     ]
+    ],
+    "note": null
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Misali, Aisha tana sayar da masana’anta a Ilorin. A lokacin rufewa, littafinta ya nuna tallace-tallacen canja wuri guda 6, naira 55,500."
+   ],
+   "panel": {
+    "kicker": "Duban ƙarshen rana",
+    "heading": "Aisha ta sami bata",
+    "mode": "compare",
+    "left_h": "Littafinta",
+    "left": [
+     "6 canja wurin tallace-tallace",
+     "Jimlar Naira 55,500"
+    ],
+    "right_h": "Tarihin app dinta",
+    "right": [
+     "5 kiredit",
+     "Jimlar Naira 49,500",
+     "6,000 bace"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Tarihin aikace-aikacen ta yana nuna 49,500 kawai. 6,000 ne suka bace, daga matar da ta nuna hoton hoton lokacin da rumfar ke aiki.",
+    "Saki kaya kawai lokacin da kiredit ke cikin tarihin app ɗin ku."
+   ],
+   "panel": {
+    "kicker": "Duban ƙarshen rana",
+    "heading": "Aisha ta sami bata",
+    "mode": "compare",
+    "left_h": "Littafinta",
+    "left": [
+     "6 canja wurin tallace-tallace",
+     "Jimlar Naira 55,500"
+    ],
+    "right_h": "Tarihin app dinta",
+    "right": [
+     "5 kiredit",
+     "Jimlar Naira 49,500",
+     "6,000 bace"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Wani lokaci mai waya ya ce ya aiko maka da kudi bisa kuskure, kuma ya ce ka mayar da su. Bincika ma'auni, ba SMS ba, kuma kada ku kashe kuɗin da ba ku zata ba."
+   ],
+   "panel": {
+    "kicker": "Kuɗin da ba naku ba",
+    "heading": "Kuskure bashi",
+    "items": [
+     "Bincika ma'auni, ba SMS ba",
+     "Kada ku kashe kuɗin da ba ku yi tsammani ba",
+     "Bayar da rahoto ga tallafin hukuma na bankin ku",
+     "Ajiye bayanin korafin"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Ka gaya masa ya kai rahoto ga bankinsa. Bayar da rahoto zuwa naku, kuma ku kiyaye bayanin. Idan kudin na gaske ne, bankuna za su mayar da su baya. Idan faɗakarwar karya ce, ba ku rasa kome ba."
+   ],
+   "panel": {
+    "kicker": "Kuɗin da ba naku ba",
+    "heading": "Kuskure bashi",
+    "items": [
+     "Bincika ma'auni, ba SMS ba",
+     "Kada ku kashe kuɗin da ba ku yi tsammani ba",
+     "Bayar da rahoto ga tallafin hukuma na bankin ku",
+     "Ajiye bayanin korafin"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Kada ka taɓa aika canja wuri da kuskure baya da kanka.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Don tunawa. Bincika lasisi kafin amincewa da walat. Bincika sunan, lamba da sifili kafin PIN naka. Yi amfani da USSD lokacin da bayanai suka ƙare. Bincika lambobin lissafin kafin biya. Kuma saki kaya kawai lokacin da kuɗin ya nuna a tarihin ku."
+   ],
+   "panel": {
+    "kicker": "Mabuɗin mahimmanci",
+    "heading": "Ka tuna",
+    "items": [
+     "Bincika lasisi kafin amincewa da walat",
+     "Suna, lamba a rukuni, adadin, sannan PIN",
+     "USSD yana aiki ba tare da bayanai ba, akan SIM ɗin ku",
+     "Bincika mita ko lambobin waya kafin biyan kuɗi",
+     "Saki kaya kawai lokacin da kiredit ya nuna"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Bincika ƙa'idar walat ɗaya, aika kuɗin aiki na naira 100 ga amintaccen aboki, yi cakin ma'auni na USSD, biya lissafin kuɗi ɗaya, sannan gudanar da rajistan ƙarshen kwana ɗaya.",
+    "Ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi aiki",
+    "heading": "Ayyukanku na wannan tsarin",
+    "items": [
+     "Duba ƙa'idar walat ɗaya",
+     "Yi aiki lafiya canja wurin naira 100",
+     "Yi binciken ma'auni na USSD na farko",
+     "Biya lissafin kuɗi ɗaya kuma gudanar da rajistan ƙarshen rana ɗaya"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

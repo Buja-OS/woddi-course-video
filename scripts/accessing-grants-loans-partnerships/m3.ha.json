@@ -1,0 +1,535 @@
+{
+ "course": "accessing-grants-loans-partnerships",
+ "module": "m3",
+ "title": "Abokin tarayya ba tare da bashi ba, yi amfani da kuɗi da kyau, tsara zagaye na gaba",
+ "course_title": "Samun Tallafi, Lamuni & Abokan Hulɗa",
+ "shots": [
+  {
+   "demo": "cash_count",
+   "say": [
+    "Abokin tarayya ba tare da bashi ba, yi amfani da kuɗi da kyau, kuma ku tsara zagaye na gaba.",
+    "Wannan shi ne bidiyo don tsari na 3 na Samun Tallafi, Lamuni da Abokan Hulɗa."
+   ]
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Kyakkyawan haɗin gwiwa na iya yin abin da lamuni ya yi, ba tare da riba ko jingina ba. Amma sayarwa ga manyan masu siye akan bashi yana haifar da lokacin jira dole ne ku biya."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Yadda kuke amfani da kuɗi yana yanke hukunci na gaba",
+    "items": [
+     "Abokan hulɗa za su iya yin abin da lamuni ya yi",
+     "Manyan masu siye suna haifar da gibin kuɗi",
+     "Dole ne a ware kuɗin da aka ba da kuɗi",
+     "Rahotanni masu gaskiya sun yi nasara a zagaye na gaba"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Samun kudi shine rabin aikin. Yadda kuke amfani da rahotonsa yana yanke shawarar ko an sake ba ku kuɗi."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Yadda kuke amfani da kuɗi yana yanke hukunci na gaba",
+    "items": [
+     "Abokan hulɗa za su iya yin abin da lamuni ya yi",
+     "Manyan masu siye suna haifar da gibin kuɗi",
+     "Dole ne a ware kuɗin da aka ba da kuɗi",
+     "Rahotanni masu gaskiya sun yi nasara a zagaye na gaba"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Ada yayi chin-chin a Fatakwal. Sarkar babban kanti ta ba da damar ɗaukar fakiti 600 a kowane wata akan Naira 1,200 kowanne, ana biya kwanaki 30 bayan ƙarshen kowane wata."
+   ],
+   "card": {
+    "title": "Ada's supermarket tayin",
+    "rows": [],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Kowanne fakitin ya kai mata kimanin naira 750, don haka tana yin naira 450 a fakitin, wato naira 270,000 a wata."
+   ],
+   "card": {
+    "title": "Ada's supermarket tayin",
+    "rows": [
+     [
+      "Riba akan fakiti 600 a wata",
+      "270,000"
+     ]
+    ],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Amma sai ta kashe Naira 450,000 duk wata don samar da su."
+   ],
+   "card": {
+    "title": "Ada's supermarket tayin",
+    "rows": [
+     [
+      "Riba akan fakiti 600 a wata",
+      "270,000"
+     ],
+     [
+      "Kudin samar da fakiti 600",
+      "450,000"
+     ]
+    ],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Domin biyan kudin ya zo a makare, sai ta biya kusan wata biyu na farko: Naira 900,000. Wannan lokacin jira shine gibin kuɗi."
+   ],
+   "card": {
+    "title": "Ada's supermarket tayin",
+    "rows": [
+     [
+      "Riba akan fakiti 600 a wata",
+      "270,000"
+     ],
+     [
+      "Kudin samar da fakiti 600",
+      "450,000"
+     ],
+     [
+      "Watanni biyu kafin biya na farko",
+      "900,000"
+     ]
+    ],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "300,000 kawai ta ajiye. Don haka mai sayar da ita ya ba da bashi na kwanaki 30, kuma ta fara da rassa biyu maimakon uku. Bukatar kudinta ya kai kusan naira 350,000, kusa da ajiyarta. Abokan tarayya, ba rance ba."
+   ],
+   "card": {
+    "title": "Ada's supermarket tayin",
+    "rows": [
+     [
+      "Riba akan fakiti 600 a wata",
+      "270,000"
+     ],
+     [
+      "Kudin samar da fakiti 600",
+      "450,000"
+     ],
+     [
+      "Watanni biyu kafin biya na farko",
+      "900,000"
+     ],
+     [
+      "Ada's tanadi",
+      "300,000"
+     ]
+    ],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Rubuta kowane haɗin gwiwa. Sunan bangarorin biyu, abin da kowanne ya bayar da lokacin, farashin farashi da sharuɗɗan biyan kuɗi, wanda ya mallaki menene, tsawon lokacin da zai ƙare da kuma yadda za a kawo ƙarshensa, da sa hannu tare da kwanan wata.",
+    "Kar a taɓa mika girke-girke ko jerin abokin ciniki ba tare da takamaiman sharuɗɗa ba. Kuma duk wanda ke neman rabon kasuwancin ku yana buƙatar ingantacciyar shawara ta doka da rajista tare da CAC."
+   ],
+   "panel": {
+    "kicker": "Sanya shi a rubuce",
+    "heading": "Abin da kowace yarjejeniya ta kunsa",
+    "items": [
+     "Duk sunaye, daidai da rijista",
+     "Abin da kowane bangare ke bayarwa, da lokacin",
+     "Farashin, sharuɗɗan biyan kuɗi, jinkirin biya",
+     "Wanene ya mallaki kayan aiki, girke-girke, abokan ciniki",
+     "Yaya tsawon lokacin da kuma yadda za a ƙare shi",
+     "Rigingimu, sa hannu da kwanan wata"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Ajiye kyauta ko kuɗin lamuni a cikin wani asusu na daban, ana amfani da su don wannan kawai."
+   ],
+   "panel": {
+    "kicker": "Kare kuɗin",
+    "heading": "Ring-shinge da aka ba da kuɗin kuɗi",
+    "items": [
+     "Yi amfani da asusun daban don tallafi ko lamuni",
+     "Biya masu kaya ta hanyar canja wuri",
+     "Ajiye daftari, rasit da hoton isarwa",
+     "Kwatanta shirin da ainihin kowane mako",
+     "Bayar da sakamakon da matsaloli da wuri"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false,
+    "rule": "Ci gaba da kuɗin kuɗi ban da abubuwan da ake ɗauka na yau da kullun.",
+    "showRule": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Biyan masu kaya ta hanyar canja wuri, don haka kowane biyan kuɗi yana nunawa akan bayanin. Ci gaba da biyan kuɗi da wuya."
+   ],
+   "panel": {
+    "kicker": "Kare kuɗin",
+    "heading": "Ring-shinge da aka ba da kuɗin kuɗi",
+    "items": [
+     "Yi amfani da asusun daban don tallafi ko lamuni",
+     "Biya masu kaya ta hanyar canja wuri",
+     "Ajiye daftari, rasit da hoton isarwa",
+     "Kwatanta shirin da ainihin kowane mako",
+     "Bayar da sakamakon da matsaloli da wuri"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "rule": "Ci gaba da kuɗin kuɗi ban da abubuwan da ake ɗauka na yau da kullun.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Ga kowane biyan kuɗi, adana daftari, rasidin canja wuri, da bayanin isarwa ko hoto. Rasidun hoto a rana guda."
+   ],
+   "panel": {
+    "kicker": "Kare kuɗin",
+    "heading": "Ring-shinge da aka ba da kuɗin kuɗi",
+    "items": [
+     "Yi amfani da asusun daban don tallafi ko lamuni",
+     "Biya masu kaya ta hanyar canja wuri",
+     "Ajiye daftari, rasit da hoton isarwa",
+     "Kwatanta shirin da ainihin kowane mako",
+     "Bayar da sakamakon da matsaloli da wuri"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Ci gaba da kuɗin kuɗi ban da abubuwan da ake ɗauka na yau da kullun.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Kwatanta shirin ku da abin da kuka kashe a zahiri kowane mako. Kuma a ba da rahoton matsaloli da wuri kuma a sarari. Mai ba da kuɗi da ya ji labarin jinkiri daga gare ku ya bambanta da wanda ya gano shi."
+   ],
+   "panel": {
+    "kicker": "Kare kuɗin",
+    "heading": "Ring-shinge da aka ba da kuɗin kuɗi",
+    "items": [
+     "Yi amfani da asusun daban don tallafi ko lamuni",
+     "Biya masu kaya ta hanyar canja wuri",
+     "Ajiye daftari, rasit da hoton isarwa",
+     "Kwatanta shirin da ainihin kowane mako",
+     "Bayar da sakamakon da matsaloli da wuri"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Ci gaba da kuɗin kuɗi ban da abubuwan da ake ɗauka na yau da kullun.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Bukola yana gudanar da sana’ar abinci a Ilorin. Tana samun tallafin naira miliyan 1,000,000 don girki, injin daskarewa da kuma horar da tsafta."
+   ],
+   "card": {
+    "title": "Tallafin kayan aikin Bukola",
+    "rows": [],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Farashin girki ya tashi tsakanin saye da sayarwa: Naira 470,000, 20,000 fiye da yadda aka tsara."
+   ],
+   "card": {
+    "title": "Tallafin kayan aikin Bukola",
+    "rows": [
+     [
+      "Gas cooker (shirin 450,000)",
+      "470,000"
+     ]
+    ],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Amma injin daskarewa ya yi ƙasa da 15,000 sannan bayarwa 5,000 ƙasa da ƙasa, tare da horo kamar yadda aka tsara."
+   ],
+   "card": {
+    "title": "Tallafin kayan aikin Bukola",
+    "rows": [
+     [
+      "Gas cooker (shirin 450,000)",
+      "470,000"
+     ],
+     [
+      "Daskarewar ƙirji (shirya 380,000)",
+      "365,000"
+     ],
+     [
+      "Horon tsaftar abinci",
+      "120,000"
+     ],
+     [
+      "Bayarwa (shirin 50,000)",
+      "45,000"
+     ]
+    ],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Jimillar Naira 1,000,000 ne. Yarjejeniyar ta ta ba da damar motsawa zuwa kashi 10% na layi, kuma 20,000 shine kusan kashi 4% na layin dafa abinci, don haka ta bayyana shi a cikin layi ɗaya na rahotonta. Babban canji zai buƙaci rubuta izini da farko."
+   ],
+   "card": {
+    "title": "Tallafin kayan aikin Bukola",
+    "rows": [
+     [
+      "Gas cooker (shirin 450,000)",
+      "470,000"
+     ],
+     [
+      "Daskarewar ƙirji (shirya 380,000)",
+      "365,000"
+     ],
+     [
+      "Horon tsaftar abinci",
+      "120,000"
+     ],
+     [
+      "Bayarwa (shirin 50,000)",
+      "45,000"
+     ]
+    ],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Ci gaban kuɗi yakan kawo kayan aiki da sababbin hannu. Idan kayan aiki suna amfani da gas, wutar lantarki ko zafi, sa wani ƙwararren mutum ya shigar da shi."
+   ],
+   "panel": {
+    "kicker": "Tsaro na farko",
+    "heading": "Sabbin kayan aiki da sabbin ma'aikata",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Qualified install",
+      "d": "Wani kwararre ne ke shigar da iskar gas, wutar lantarki ko kayan zafi."
+     },
+     {
+      "t": "Extinguisher ready",
+      "d": "Ajiye na'urar kashe gobara inda ma'aikata zasu iya isa gare ta."
+     },
+     {
+      "t": "Train safety first",
+      "d": "Nuna wa kowane ma'aikaci yadda ake kashe gas da wuta. Duba aikin su kullum har tsawon makonni biyu."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Ajiye na'urar kashe gobara inda ma'aikata zasu iya isa gare ta."
+   ],
+   "panel": {
+    "kicker": "Tsaro na farko",
+    "heading": "Sabbin kayan aiki da sabbin ma'aikata",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Qualified install",
+      "d": "Wani kwararre ne ke shigar da iskar gas, wutar lantarki ko kayan zafi."
+     },
+     {
+      "t": "Extinguisher ready",
+      "d": "Ajiye na'urar kashe gobara inda ma'aikata zasu iya isa gare ta."
+     },
+     {
+      "t": "Train safety first",
+      "d": "Nuna wa kowane ma'aikaci yadda ake kashe gas da wuta. Duba aikin su kullum har tsawon makonni biyu."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Horar da aminci da farko, kuma nuna wa kowane ma'aikaci yadda ake kashe gas da wuta. Nuna, sannan kallo, sannan duba aikinsu kullum don makonni biyun farko. Hatsari yana cutar da mutane da farko, kuma yana kawo ƙarshen haɗin gwiwa."
+   ],
+   "panel": {
+    "kicker": "Tsaro na farko",
+    "heading": "Sabbin kayan aiki da sabbin ma'aikata",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Qualified install",
+      "d": "Wani kwararre ne ke shigar da iskar gas, wutar lantarki ko kayan zafi."
+     },
+     {
+      "t": "Extinguisher ready",
+      "d": "Ajiye na'urar kashe gobara inda ma'aikata zasu iya isa gare ta."
+     },
+     {
+      "t": "Train safety first",
+      "d": "Nuna wa kowane ma'aikaci yadda ake kashe gas da wuta. Duba aikin su kullum har tsawon makonni biyu."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Misali, Ruth tana yin juice da zobo a Jos. Tana bukatar kayan aikin da ya kai kusan Naira 850,000. Ta hada 200,000 na ajiyarta, ajiyar otal kusan 150,000, da rancen naira 500,000."
+   ],
+   "panel": {
+    "kicker": "Shirin ku na kwanaki 90",
+    "heading": "Shirin Ruth na samar da otal guda biyu",
+    "items": [
+     "Bukatar: kusan ₦ 850,000 na kayan aiki",
+     "Mix: ajiya, ajiyar otal, rance ₦ 500,000",
+     "Jarabawar muguwar wata ta wuce",
+     "Kwanaki 1 zuwa 30: NAFDAC, ajiya a rubuce",
+     "Kwanaki 31 zuwa 60: nema tare da cikakken fakitin",
+     "Kwanaki 61 zuwa 90: saya, jirgin kasa, bayarwa, rahoto"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Ana biyan kimanin naira 47,280 a wata. Mafi munin watanta na baya-bayan nan yana da 60,000 kyauta, don haka gwajin mugun watan ya wuce."
+   ],
+   "panel": {
+    "kicker": "Shirin ku na kwanaki 90",
+    "heading": "Shirin Ruth na samar da otal guda biyu",
+    "items": [
+     "Bukatar: kusan ₦ 850,000 na kayan aiki",
+     "Mix: ajiya, ajiyar otal, rance ₦ 500,000",
+     "Jarabawar muguwar wata ta wuce",
+     "Kwanaki 1 zuwa 30: NAFDAC, ajiya a rubuce",
+     "Kwanaki 31 zuwa 60: nema tare da cikakken fakitin",
+     "Kwanaki 61 zuwa 90: saya, jirgin kasa, bayarwa, rahoto"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "A cikin kwanaki 90 ta rufe gibin ta na ƙarshe, ta nemi cikakken Kundin Shirye-shiryen Kuɗaɗenta, sannan ta siya, ta yi horo da fara bayarwa. Makinta ya tashi daga 6 zuwa 10 cikin 12."
+   ],
+   "panel": {
+    "kicker": "Shirin ku na kwanaki 90",
+    "heading": "Shirin Ruth na samar da otal guda biyu",
+    "items": [
+     "Bukatar: kusan ₦ 850,000 na kayan aiki",
+     "Mix: ajiya, ajiyar otal, rance ₦ 500,000",
+     "Jarabawar muguwar wata ta wuce",
+     "Kwanaki 1 zuwa 30: NAFDAC, ajiya a rubuce",
+     "Kwanaki 31 zuwa 60: nema tare da cikakken fakitin",
+     "Kwanaki 61 zuwa 90: saya, jirgin kasa, bayarwa, rahoto"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Don tunawa. Abokan tarayya na iya maye gurbin lamuni. Yi ƙididdige gibin kuɗi kafin ka ce e ga babban mai siye. Rubuta kowace yarjejeniya. Kiyaye kuɗin kuɗi daban, ku biya ta hanyar canja wuri da adana rasit.",
+    "Bayar da sakamakon lambobi, da matsaloli da wuri. Kuma cewa a'a ga tayin da bai dace ba yanke shawara ce mai kyau."
+   ],
+   "panel": {
+    "kicker": "Mabuɗin mahimmanci",
+    "heading": "Ka tuna",
+    "items": [
+     "Abokan tarayya na iya maye gurbin lamuni",
+     "Yi lissafin tazarar kuɗi kafin ka ce e",
+     "Rubuta kowace yarjejeniya",
+     "Asusu daban, canja wuri, rasit",
+     "Yi rahoto cikin lambobi, da wuri"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Ayyukanku: tsara yarjejeniyar haɗin gwiwa guda ɗaya tare da gibin kuɗin kuɗinta, gina tsarin biyan kuɗin ku, da haɗa Kunshin Shirye-shiryen Kuɗi tare da shirin kwanaki 90.",
+    "Ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi aiki",
+    "heading": "Ayyukan aikin ku",
+    "items": [
+     "Zana yarjejeniyar haɗin gwiwa ɗaya",
+     "Gina hanyar bin kuɗaɗen kuɗaɗen ku",
+     "Haɗa Kunshin Shirye-shiryen Tallafin Ku"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

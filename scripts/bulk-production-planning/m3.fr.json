@@ -1,0 +1,568 @@
+{
+ "course": "bulk-production-planning",
+ "module": "m3",
+ "title": "Personnes, partenaires, livraison et votre plan de préparation",
+ "course_title": "Planification de la production en vrac",
+ "shots": [
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Les personnes, les partenaires, la livraison et votre plan de préparation.",
+    "Ceci est la vidéo du module 3 de Planification de la production en vrac."
+   ]
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Parfois, la commande est supérieure à votre capacité soutenue. Vous testerez vos options avec des chiffres."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Du plan à la livraison finie",
+    "items": [
+     "Combler un déficit de capacité avec des chiffres",
+     "Personnel de la ligne en utilisant le temps takt",
+     "Dirigez avec des caucus et des heures sûres",
+     "Livrez, examinez et prouvez-le"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Vous dimensionnerez votre équipage de manière à ce qu'aucune station n'attende et que personne ne reste inactif."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Du plan à la livraison finie",
+    "items": [
+     "Combler un déficit de capacité avec des chiffres",
+     "Personnel de la ligne en utilisant le temps takt",
+     "Dirigez avec des caucus et des heures sûres",
+     "Livrez, examinez et prouvez-le"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Vous dirigerez la course avec une courte réunion quotidienne et des heures de travail sécurisées."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Du plan à la livraison finie",
+    "items": [
+     "Combler un déficit de capacité avec des chiffres",
+     "Personnel de la ligne en utilisant le temps takt",
+     "Dirigez avec des caucus et des heures sûres",
+     "Livrez, examinez et prouvez-le"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Et vous livrerez, examinerez le cycle et conserverez les preuves qui permettront de remporter la prochaine commande groupée."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Du plan à la livraison finie",
+    "items": [
+     "Combler un déficit de capacité avec des chiffres",
+     "Personnel de la ligne en utilisant le temps takt",
+     "Dirigez avec des caucus et des heures sûres",
+     "Livrez, examinez et prouvez-le"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Par exemple, l'acheteur demande désormais à Kemi 8 000 packs à la même date. Avec un dépassement de 2 %, cela nécessite environ 742 packs par jour. Son rythme soutenu est de 470, donc l'écart est d'environ 272 par jour."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "8 000 packs à la même date",
+    "items": [
+     "Besoin de 742 par jour ; le taux soutenu est de 470",
+     "A : heures plus longues : environ 605, dangereux",
+     "B : deuxième friteuse uniquement : environ 529",
+     "C : trois nouvelles stations : environ 881",
+     "D : le partenaire fabrique 3 000 packs"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "L'option A, 2 heures de friteuse supplémentaires par jour, n'en donne qu'environ 605. Et 60 heures par semaine est au-dessus du niveau de 55 heures que l'OMS et l'OIT associent à un risque plus élevé d'accident vasculaire cérébral et de maladie cardiaque. Rejeté."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "8 000 packs à la même date",
+    "items": [
+     "Besoin de 742 par jour ; le taux soutenu est de 470",
+     "A : heures plus longues : environ 605, dangereux",
+     "B : deuxième friteuse uniquement : environ 529",
+     "C : trois nouvelles stations : environ 881",
+     "D : le partenaire fabrique 3 000 packs"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "L'option B, une deuxième friteuse uniquement, permet de colmater le nouveau goulot d'étranglement. Seulement environ 529. Très court."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "8 000 packs à la même date",
+    "items": [
+     "Besoin de 742 par jour ; le taux soutenu est de 470",
+     "A : heures plus longues : environ 605, dangereux",
+     "B : deuxième friteuse uniquement : environ 529",
+     "C : trois nouvelles stations : environ 881",
+     "D : le partenaire fabrique 3 000 packs"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "L'option C ajoute une friteuse, une scelleuse et un éplucheur, ce qui donne environ 881. Assez, mais trois nouvelles personnes à former en quelques jours."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "8 000 packs à la même date",
+    "items": [
+     "Besoin de 742 par jour ; le taux soutenu est de 470",
+     "A : heures plus longues : environ 605, dangereux",
+     "B : deuxième friteuse uniquement : environ 529",
+     "C : trois nouvelles stations : environ 881",
+     "D : le partenaire fabrique 3 000 packs"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Option D : Kemi conserve sa gamme éprouvée et un partenaire de confiance avec 300 packs éprouvés par jour fabrique les 3 000 autres packs."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "8 000 packs à la même date",
+    "items": [
+     "Besoin de 742 par jour ; le taux soutenu est de 470",
+     "A : heures plus longues : environ 605, dangereux",
+     "B : deuxième friteuse uniquement : environ 529",
+     "C : trois nouvelles stations : environ 881",
+     "D : le partenaire fabrique 3 000 packs"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Choisissez un partenaire dont vous avez vu le travail. Visitez, surveillez un lot, vérifiez l'hygiène et leurs enregistrements de sortie, et mettez-le par écrit."
+   ],
+   "card": {
+    "title": "Ce qu'un pack partenaire rapporte à Kemi",
+    "rows": [],
+    "note": "Les prix en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "L'acheteur paie 950 nairas par paquet. Kemi paie à son partenaire 720 par paquet accepté et dépense environ 20 pour l'inspection et le transport."
+   ],
+   "card": {
+    "title": "Ce qu'un pack partenaire rapporte à Kemi",
+    "rows": [
+     [
+      "L'acheteur paie par paquet",
+      "950"
+     ],
+     [
+      "Payé au partenaire par pack",
+      "720"
+     ],
+     [
+      "Inspection et transport de Kemi",
+      "20"
+     ]
+    ],
+    "note": "Les prix en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Cela laisse environ 210 nairas par paquet, soit environ 630 000 sur 3 000 paquets. Moins que ses propres packs, mais avec beaucoup moins de risques.",
+    "Remettez au partenaire la fiche technique et un échantillon doré, fournissez vous-même les pochettes imprimées et parlez du partenaire à l'acheteur. Vous restez responsable de chaque pack."
+   ],
+   "card": {
+    "title": "Ce qu'un pack partenaire rapporte à Kemi",
+    "rows": [
+     [
+      "L'acheteur paie par paquet",
+      "950"
+     ],
+     [
+      "Payé au partenaire par pack",
+      "720"
+     ],
+     [
+      "Inspection et transport de Kemi",
+      "20"
+     ]
+    ],
+    "note": "Les prix en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Le contenu du travail désigne les minutes-personnes dont une station a besoin pour 100 unités. Divisez-le par takt time pour 100 unités. Le temps de Kemi est d'environ 89 minutes pour 100 paquets."
+   ],
+   "panel": {
+    "kicker": "Équilibrage de ligne",
+    "heading": "Personnes par station = travail / takt",
+    "items": [
+     "Takt : environ 89 minutes pour 100 paquets",
+     "Peel 100 / 89 = 1,1, donc 2 personnes",
+     "Frire 75/89 = 0,8, donc 1 personne",
+     "Sceau 67 / 89 = 0,75, donc 1 personne",
+     "Saison plus label 70 / 89 : 1 personne"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Le peeling nécessite 100 minutes-personnes, soit 1,1 personne, arrondie à 2."
+   ],
+   "panel": {
+    "kicker": "Équilibrage de ligne",
+    "heading": "Personnes par station = travail / takt",
+    "items": [
+     "Takt : environ 89 minutes pour 100 paquets",
+     "Peel 100 / 89 = 1,1, donc 2 personnes",
+     "Frire 75/89 = 0,8, donc 1 personne",
+     "Sceau 67 / 89 = 0,75, donc 1 personne",
+     "Saison plus label 70 / 89 : 1 personne"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "La friture et le scellement nécessitent chacun 1 personne."
+   ],
+   "panel": {
+    "kicker": "Équilibrage de ligne",
+    "heading": "Personnes par station = travail / takt",
+    "items": [
+     "Takt : environ 89 minutes pour 100 paquets",
+     "Peel 100 / 89 = 1,1, donc 2 personnes",
+     "Frire 75/89 = 0,8, donc 1 personne",
+     "Sceau 67 / 89 = 0,75, donc 1 personne",
+     "Saison plus label 70 / 89 : 1 personne"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "L’assaisonnement et l’étiquetage sont légers, donc une seule personne fait les deux. Il s'agit d'un équipage de 5 personnes, sous la supervision de Kemi.",
+    "Ses deux intérimaires formés prennent les lieux de décorticage. Un personnel expérimenté entretient la friteuse et la scelleuse."
+   ],
+   "panel": {
+    "kicker": "Équilibrage de ligne",
+    "heading": "Personnes par station = travail / takt",
+    "items": [
+     "Takt : environ 89 minutes pour 100 paquets",
+     "Peel 100 / 89 = 1,1, donc 2 personnes",
+     "Frire 75/89 = 0,8, donc 1 personne",
+     "Sceau 67 / 89 = 0,75, donc 1 personne",
+     "Saison plus label 70 / 89 : 1 personne"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Un personnel expérimenté gère les goulots d'étranglement et les étapes de qualité.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "flipchart",
+   "say": [
+    "Les travailleurs non formés peuvent créer plus de retouches que de résultats. Kemi prévoit 2 jours de formation rémunérés. Le nouvel ouvrier assiste à un cycle complet, puis travaille aux côtés d'une personne expérimentée.",
+    "Elle ne travaille seule qu'après avoir passé trois contrôles d'affilée. Les règles de sécurité arrivent dès le premier jour et les intérimaires ne travaillent pas sur la friteuse."
+   ],
+   "panel": {
+    "kicker": "Travailleurs temporaires",
+    "heading": "Formez-vous et déconnectez-vous avant le premier jour",
+    "items": [
+     "2 jours de formation rémunérés",
+     "Montrer, puis faire aux côtés d'un expert",
+     "Enseigner la règle de qualité avec l'échantillon",
+     "Signature : trois contrôles passés d'affilée",
+     "Le personnel intérimaire ne travaille pas à la friteuse"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Les travailleurs épuisés font des erreurs et se blessent. Kemi prévoit 48 heures par semaine avec une journée de repos complète, bien en dessous de 55 heures, et effectue une rotation des personnes sur des tâches répétitives."
+   ],
+   "panel": {
+    "kicker": "Mener la course",
+    "heading": "Heures de sécurité, coup d'envoi et caucus",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Safe hours",
+      "d": "Postes de 8 heures, 6 jours : 48 heures avec une journée de repos complète. Pauses, eau et bon repas."
+     },
+     {
+      "t": "20-minute kick-off",
+      "d": "Ordre, date, échantillon doré, objectif de chaque station, règle d'arrêt, hygiène et sécurité."
+     },
+     {
+      "t": "10-minute huddle",
+      "d": "L'écart et les défauts d'hier, les problèmes, l'objectif d'aujourd'hui et grâce à quelqu'un."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Avant le premier jour, coup d'envoi de 20 minutes. Quiconque constate un problème doit le signaler, et l'arrêt de la ligne pour un défaut réel est félicité et non puni."
+   ],
+   "panel": {
+    "kicker": "Mener la course",
+    "heading": "Heures de sécurité, coup d'envoi et caucus",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Safe hours",
+      "d": "Postes de 8 heures, 6 jours : 48 heures avec une journée de repos complète. Pauses, eau et bon repas."
+     },
+     {
+      "t": "20-minute kick-off",
+      "d": "Ordre, date, échantillon doré, objectif de chaque station, règle d'arrêt, hygiène et sécurité."
+     },
+     {
+      "t": "10-minute huddle",
+      "d": "L'écart et les défauts d'hier, les problèmes, l'objectif d'aujourd'hui et grâce à quelqu'un."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Chaque matin, une réunion debout de 10 minutes à côté du tracker."
+   ],
+   "panel": {
+    "kicker": "Mener la course",
+    "heading": "Heures de sécurité, coup d'envoi et caucus",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Safe hours",
+      "d": "Postes de 8 heures, 6 jours : 48 heures avec une journée de repos complète. Pauses, eau et bon repas."
+     },
+     {
+      "t": "20-minute kick-off",
+      "d": "Ordre, date, échantillon doré, objectif de chaque station, règle d'arrêt, hygiène et sécurité."
+     },
+     {
+      "t": "10-minute huddle",
+      "d": "L'écart et les défauts d'hier, les problèmes, l'objectif d'aujourd'hui et grâce à quelqu'un."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_camera",
+   "say": [
+    "Un carton manquant est facile à régler à la porte et très difficile une semaine plus tard. Comptez ensemble, faites signer et dater le bon de livraison et photographiez-le avec les cartons empilés.",
+    "Conservez quelques paquets chaque jour et envoyez un WhatsApp le jour même avec la photo et un rappel de la date d'échéance du solde."
+   ],
+   "panel": {
+    "kicker": "Jour de livraison",
+    "heading": "Remettre proprement",
+    "items": [
+     "Facture avec solde dû",
+     "Bon de livraison : cartons et unités",
+     "Compter les cartons avec le récepteur",
+     "Note signée, datée, photographiée",
+     "Échantillons conservés de chaque jour"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Dans la semaine, asseyez-vous avec votre superviseur et utilisez vos dossiers, pas votre mémoire. Kemi avait prévu 470 bons packs par jour. Sans la journée de coupure de courant, sa moyenne était d'environ 448."
+   ],
+   "panel": {
+    "kicker": "Examen après action",
+    "heading": "Quatre questions en une semaine",
+    "items": [
+     "Qu'avons-nous prévu ?",
+     "Que s’est-il réellement passé ?",
+     "Pourquoi y avait-il une différence ?",
+     "Que ferons-nous différemment ?"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Pourquoi ? Les éplucheurs temporaires ont été plus lents au cours des trois premiers jours. Elle a livré à temps à cause du tampon, et non parce que le plan était exact."
+   ],
+   "panel": {
+    "kicker": "Examen après action",
+    "heading": "Quatre questions en une semaine",
+    "items": [
+     "Qu'avons-nous prévu ?",
+     "Que s’est-il réellement passé ?",
+     "Pourquoi y avait-il une différence ?",
+     "Que ferons-nous différemment ?"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "La prochaine fois, elle prévoit en prévoir environ 450 par jour, ajoute une journée de formation et organise une alimentation de secours."
+   ],
+   "panel": {
+    "kicker": "Examen après action",
+    "heading": "Quatre questions en une semaine",
+    "items": [
+     "Qu'avons-nous prévu ?",
+     "Que s’est-il réellement passé ?",
+     "Pourquoi y avait-il une différence ?",
+     "Que ferons-nous différemment ?"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Planifiez la prochaine commande avec des chiffres réels, pas avec l'ancien plan.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "À retenir. Dimensionnez l'écart et testez chaque option sur toute la ligne. Donnez aux partenaires les mêmes spécifications et les mêmes portes. Gardez les horaires en sécurité et obtenez un bon de livraison signé.",
+    "Conservez ensuite un portefeuille de preuves réelles : votre relevé de capacité, les récapitulatifs de commandes, des photos et une référence d'acheteur."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Dimensionnez l'écart, testez les options sur toute la ligne",
+     "Un partenaire a besoin des mêmes spécifications et des mêmes portes",
+     "Planifiez des heures bien en dessous de 55 par semaine",
+     "Obtenez un bon de livraison signé et daté",
+     "Conservez un portefeuille de préparation en masse"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "À votre tour. Testez vos options de capacité, planifiez votre équipage et votre lancement, puis examinez une commande et construisez votre portefeuille avec un plan de 90 jours.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâches d'entraînement",
+    "heading": "Vos tâches pratiques",
+    "items": [
+     "Testez vos options de capacité",
+     "Planifiez votre équipage et rassemblez-vous",
+     "Effectuez une évaluation et construisez votre portefeuille"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

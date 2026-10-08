@@ -1,0 +1,626 @@
+{
+ "course": "bulk-production-planning",
+ "module": "m1",
+ "title": "Dimensionnement d'une commande groupée : spécifications, capacité et matériaux",
+ "course_title": "Planification de la production en vrac",
+ "shots": [
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Dimensionnement d'une commande groupée : spécifications, capacité et matériaux.",
+    "Ceci est la vidéo du module 1 de la planification de la production en vrac."
+   ]
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Lorsqu’une commande représente 50 ou 100 fois votre taille habituelle, cinq choses changent à la fois. Premièrement, les matériaux que vous achetez avant de gagner quoi que ce soit."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Une commande groupée n'est pas un week-end chargé",
+    "items": [
+     "Matériaux achetés avant de gagner",
+     "Heures de travail à votre étape la plus lente",
+     "Espace pour le stock et les cartons",
+     "Argent dépensé avant que l'acheteur ne paie",
+     "Risque : une erreur copiée plusieurs fois"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Deuxièmement, les heures de travail à votre étape la plus lente."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Une commande groupée n'est pas un week-end chargé",
+    "items": [
+     "Matériaux achetés avant de gagner",
+     "Heures de travail à votre étape la plus lente",
+     "Espace pour le stock et les cartons",
+     "Argent dépensé avant que l'acheteur ne paie",
+     "Risque : une erreur copiée plusieurs fois"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Troisièmement, l'espace pour stocker les matières premières et les produits finis."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Une commande groupée n'est pas un week-end chargé",
+    "items": [
+     "Matériaux achetés avant de gagner",
+     "Heures de travail à votre étape la plus lente",
+     "Espace pour le stock et les cartons",
+     "Argent dépensé avant que l'acheteur ne paie",
+     "Risque : une erreur copiée plusieurs fois"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Quatrièmement, l’argent que vous dépensez avant que l’acheteur ne paie."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Une commande groupée n'est pas un week-end chargé",
+    "items": [
+     "Matériaux achetés avant de gagner",
+     "Heures de travail à votre étape la plus lente",
+     "Espace pour le stock et les cartons",
+     "Argent dépensé avant que l'acheteur ne paie",
+     "Risque : une erreur copiée plusieurs fois"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Et cinquièmement, le risque qu’une erreur soit copiée sur des milliers d’unités. La planification transforme chacun de ces éléments en chiffres avant de convenir d'un prix ou d'une date."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Une commande groupée n'est pas un week-end chargé",
+    "items": [
+     "Matériaux achetés avant de gagner",
+     "Heures de travail à votre étape la plus lente",
+     "Espace pour le stock et les cartons",
+     "Argent dépensé avant que l'acheteur ne paie",
+     "Risque : une erreur copiée plusieurs fois"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "La plupart des demandes groupées arrivent sous forme d'appel ou de note vocale WhatsApp, par exemple, nous avons besoin d'environ 5 000 paquets de chips avant Noël, quel est votre prix ?",
+    "Transformez-le en une fiche de spécifications de commande d'une page sur laquelle vous et l'acheteur êtes tous deux d'accord."
+   ],
+   "panel": {
+    "kicker": "Première étape",
+    "heading": "Le cahier des charges de la commande",
+    "items": [
+     "Produit, taille et quantité",
+     "Norme d'emballage, d'étiquetage et de qualité",
+     "Date de livraison, adresse et destinataire",
+     "Prix, dépôt et conditions de paiement",
+     "Documents, un seul contact, modifications écrites"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Écrivez le produit et la taille exacts, par exemple 100 g par paquet, ainsi que la quantité exacte."
+   ],
+   "panel": {
+    "kicker": "Première étape",
+    "heading": "Le cahier des charges de la commande",
+    "items": [
+     "Produit, taille et quantité",
+     "Norme d'emballage, d'étiquetage et de qualité",
+     "Date de livraison, adresse et destinataire",
+     "Prix, dépôt et conditions de paiement",
+     "Documents, un seul contact, modifications écrites"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Écrivez l'emballage, les étiquettes et la norme de qualité : l'échantillon approuvé et ce qui constitue un défaut."
+   ],
+   "panel": {
+    "kicker": "Première étape",
+    "heading": "Le cahier des charges de la commande",
+    "items": [
+     "Produit, taille et quantité",
+     "Norme d'emballage, d'étiquetage et de qualité",
+     "Date de livraison, adresse et destinataire",
+     "Prix, dépôt et conditions de paiement",
+     "Documents, un seul contact, modifications écrites"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Écrivez la date de livraison, l'adresse et qui reçoit."
+   ],
+   "panel": {
+    "kicker": "Première étape",
+    "heading": "Le cahier des charges de la commande",
+    "items": [
+     "Produit, taille et quantité",
+     "Norme d'emballage, d'étiquetage et de qualité",
+     "Date de livraison, adresse et destinataire",
+     "Prix, dépôt et conditions de paiement",
+     "Documents, un seul contact, modifications écrites"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Écrivez le prix unitaire, le dépôt et la date de paiement du solde."
+   ],
+   "panel": {
+    "kicker": "Première étape",
+    "heading": "Le cahier des charges de la commande",
+    "items": [
+     "Produit, taille et quantité",
+     "Norme d'emballage, d'étiquetage et de qualité",
+     "Date de livraison, adresse et destinataire",
+     "Prix, dépôt et conditions de paiement",
+     "Documents, un seul contact, modifications écrites"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Enfin, les documents dont l'acheteur a besoin, une personne nommée de chaque côté, et la règle selon laquelle tout changement est confirmé par écrit.",
+    "Répondez à la demande avec des questions, pas un prix. Les acheteurs sérieux respectent cela."
+   ],
+   "panel": {
+    "kicker": "Première étape",
+    "heading": "Le cahier des charges de la commande",
+    "items": [
+     "Produit, taille et quantité",
+     "Norme d'emballage, d'étiquetage et de qualité",
+     "Date de livraison, adresse et destinataire",
+     "Prix, dépôt et conditions de paiement",
+     "Documents, un seul contact, modifications écrites"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Par exemple, Kemi fabrique des chips de plantain à Ibadan. Une commande normale le week-end est de 40 paquets. Une entreprise demande 5 000 packs pour les paniers du personnel. C'est 125 fois sa commande normale."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Kemi : de 40 paquets à 5 000",
+    "items": [
+     "5 000/40 = 125 fois sa commande normale",
+     "Plantain : 5 000 x 0,30 kg = 1 500 kg",
+     "Huile : 5 000 x 0,025 = 125 litres",
+     "Friteuse : 5 000 / 80 = 62,5 heures",
+     "Stockage : 5 000 / 50 = 100 cartons"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Elle utilise environ 0,30 kg de plantain cru par paquet, donc 5 000 paquets nécessitent 1 500 kg, avant tout gaspillage."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Kemi : de 40 paquets à 5 000",
+    "items": [
+     "5 000/40 = 125 fois sa commande normale",
+     "Plantain : 5 000 x 0,30 kg = 1 500 kg",
+     "Huile : 5 000 x 0,025 = 125 litres",
+     "Friteuse : 5 000 / 80 = 62,5 heures",
+     "Stockage : 5 000 / 50 = 100 cartons"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "L'huile de friture va de 1 litre à 125 litres."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Kemi : de 40 paquets à 5 000",
+    "items": [
+     "5 000/40 = 125 fois sa commande normale",
+     "Plantain : 5 000 x 0,30 kg = 1 500 kg",
+     "Huile : 5 000 x 0,025 = 125 litres",
+     "Friteuse : 5 000 / 80 = 62,5 heures",
+     "Stockage : 5 000 / 50 = 100 cartons"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Sa friteuse produit environ 80 paquets par heure, soit 62,5 heures de friture seule."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Kemi : de 40 paquets à 5 000",
+    "items": [
+     "5 000/40 = 125 fois sa commande normale",
+     "Plantain : 5 000 x 0,30 kg = 1 500 kg",
+     "Huile : 5 000 x 0,025 = 125 litres",
+     "Friteuse : 5 000 / 80 = 62,5 heures",
+     "Stockage : 5 000 / 50 = 100 cartons"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Et 50 paquets remplissent un carton, elle a donc besoin d'espace pour 100 cartons, propres, secs et éloignés du sol.",
+    "Ce n'est donc pas un week-end chargé. Kemi doit planifier des jours, pas des heures."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Kemi : de 40 paquets à 5 000",
+    "items": [
+     "5 000/40 = 125 fois sa commande normale",
+     "Plantain : 5 000 x 0,30 kg = 1 500 kg",
+     "Huile : 5 000 x 0,025 = 125 litres",
+     "Friteuse : 5 000 / 80 = 62,5 heures",
+     "Stockage : 5 000 / 50 = 100 cartons"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Planifiez des jours, pas des heures. Le goulot d’étranglement décide de votre date de fin.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Ne citez jamais votre meilleure journée. Chronométrez chaque étape avec le chronomètre de votre téléphone, trois fois, et utilisez la moyenne.",
+    "L’étape la plus lente est le goulot d’étranglement. Pour Kemi, la friture à 80 paquets par heure donne le ton pour toute la chaîne."
+   ],
+   "panel": {
+    "kicker": "Capacité réelle",
+    "heading": "Trois nombres remplacent les conjectures",
+    "items": [
+     "Goulot d'étranglement : l'étape la plus lente par heure",
+     "Tarif journalier soutenu : moyenne de 10 jours",
+     "Takt time : temps disponible / unités nécessaires",
+     "Ne comptez que les bonnes unités"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Ensuite, faites la moyenne de vos bonnes unités sur vos 10 derniers jours ouvrables complets. La moyenne de Kemi est de 470 paquets par jour, donc 5 100 paquets, dont 2 % supplémentaires, nécessitent 11 jours de production."
+   ],
+   "panel": {
+    "kicker": "Capacité réelle",
+    "heading": "Trois nombres remplacent les conjectures",
+    "items": [
+     "Goulot d'étranglement : l'étape la plus lente par heure",
+     "Tarif journalier soutenu : moyenne de 10 jours",
+     "Takt time : temps disponible / unités nécessaires",
+     "Ne comptez que les bonnes unités"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Le temps Takt est le temps disponible divisé par les unités nécessaires. Pour Kemi, un paquet doit quitter le scellant toutes les 0,9 minutes environ."
+   ],
+   "panel": {
+    "kicker": "Capacité réelle",
+    "heading": "Trois nombres remplacent les conjectures",
+    "items": [
+     "Goulot d'étranglement : l'étape la plus lente par heure",
+     "Tarif journalier soutenu : moyenne de 10 jours",
+     "Takt time : temps disponible / unités nécessaires",
+     "Ne comptez que les bonnes unités"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Et ne comptez que les unités qui réussissent votre contrôle de qualité. Compter les rejets rend chaque plan ultérieur trop optimiste."
+   ],
+   "panel": {
+    "kicker": "Capacité réelle",
+    "heading": "Trois nombres remplacent les conjectures",
+    "items": [
+     "Goulot d'étranglement : l'étape la plus lente par heure",
+     "Tarif journalier soutenu : moyenne de 10 jours",
+     "Takt time : temps disponible / unités nécessaires",
+     "Ne comptez que les bonnes unités"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Créez une nomenclature à partir de vos propres lots pesés, emballage compris. Ajoutez ensuite trois allocations. Le dépassement est un supplément que vous faites afin que les échantillons et les rejets ne vous laissent pas à court."
+   ],
+   "panel": {
+    "kicker": "Trois allocations",
+    "heading": "Ajoutez-les à vos documents",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Overrun",
+      "d": "Unités supplémentaires pour échantillons et rejets. Kemi prévoit 2%, donc 5 100 packs pour 5 000."
+     },
+     {
+      "t": "Material waste",
+      "d": "Perte avant qu'une unité n'existe, comme un plantain meurtri. Kemi ajoute 5% sur le plantain."
+     },
+     {
+      "t": "Packaging spoilage",
+      "d": "Pochettes perdues à cause de mauvais sceaux ou d'erreurs d'impression. Kemi ajoute 3 % sur les pochettes et les étiquettes."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Le gaspillage de matériaux est une perte avant qu’une unité n’existe. Kemi ajoute 5 % sur le plantain, elle achète donc environ 1 607 kg."
+   ],
+   "panel": {
+    "kicker": "Trois allocations",
+    "heading": "Ajoutez-les à vos documents",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Overrun",
+      "d": "Unités supplémentaires pour échantillons et rejets. Kemi prévoit 2%, donc 5 100 packs pour 5 000."
+     },
+     {
+      "t": "Material waste",
+      "d": "Perte avant qu'une unité n'existe, comme un plantain meurtri. Kemi ajoute 5% sur le plantain."
+     },
+     {
+      "t": "Packaging spoilage",
+      "d": "Pochettes perdues à cause de mauvais sceaux ou d'erreurs d'impression. Kemi ajoute 3 % sur les pochettes et les étiquettes."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "La détérioration de l’emballage couvre les mauvais sceaux et les erreurs d’impression. Arrondissez ensuite la façon dont les fournisseurs vendent. Kemi commande 11 paquets de 500 sachets, soit 5 500."
+   ],
+   "panel": {
+    "kicker": "Trois allocations",
+    "heading": "Ajoutez-les à vos documents",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Overrun",
+      "d": "Unités supplémentaires pour échantillons et rejets. Kemi prévoit 2%, donc 5 100 packs pour 5 000."
+     },
+     {
+      "t": "Material waste",
+      "d": "Perte avant qu'une unité n'existe, comme un plantain meurtri. Kemi ajoute 5% sur le plantain."
+     },
+     {
+      "t": "Packaging spoilage",
+      "d": "Pochettes perdues à cause de mauvais sceaux ou d'erreurs d'impression. Kemi ajoute 3 % sur les pochettes et les étiquettes."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Les articles à long délai de livraison, comme les pochettes imprimées, les étiquettes et les cartons, sont commandés en premier, dès que le dépôt arrive et que les illustrations sont approuvées. Les pochettes imprimées peuvent prendre 10 jours ouvrables."
+   ],
+   "panel": {
+    "kicker": "Calendrier d'achat",
+    "heading": "Quoi acheter en premier, quoi acheter en lots",
+    "mode": "compare",
+    "left_h": "Commandez d'abord",
+    "left": [
+     "Pochettes imprimées",
+     "Étiquettes et cartons",
+     "Dès que le dépôt atterrit"
+    ],
+    "right_h": "Acheter en lots",
+    "right": [
+     "Plantain, périssable",
+     "Quatre lots d'environ 400 kg",
+     "Chaque jour avant utilisation"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Les denrées périssables ne doivent pas toutes arriver le premier jour. Kemi achète des plantains en quatre lots d'environ 400 kg, chacun la veille de son besoin.",
+    "Vérifiez chaque livraison par rapport à vos spécifications avant de signer ou de payer."
+   ],
+   "panel": {
+    "kicker": "Calendrier d'achat",
+    "heading": "Quoi acheter en premier, quoi acheter en lots",
+    "mode": "compare",
+    "left_h": "Commandez d'abord",
+    "left": [
+     "Pochettes imprimées",
+     "Étiquettes et cartons",
+     "Dès que le dépôt atterrit"
+    ],
+    "right_h": "Acheter en lots",
+    "right": [
+     "Plantain, périssable",
+     "Quatre lots d'environ 400 kg",
+     "Chaque jour avant utilisation"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "C'est en poussant plus fort sur le goulot d'étranglement que les accidents se produisent. Ne remplissez jamais le pot d'huile à plus d'un tiers environ, ne le laissez jamais sans surveillance, gardez une couverture anti-feu à proximité et ne versez jamais d'eau sur un feu d'huile.",
+    "Gardez les aliments hors du sol et couverts.",
+    "Et ne libérez jamais de marchandises avant que le paiement n'ait effectivement atterri sur votre compte, pas seulement une capture d'écran ou une alerte SMS."
+   ],
+   "panel": {
+    "kicker": "Restez en sécurité et honnête",
+    "heading": "Contrôles de sécurité et d'arnaque",
+    "items": [
+     "Pot d'huile rempli au tiers au maximum",
+     "Ne laissez jamais l'huile chaude sans surveillance",
+     "Fermeture de la couverture anti-feu ; pas d'eau sur le feu de mazout",
+     "Stock de nourriture sur le sol, couvert",
+     "Confirmez le paiement sur votre compte"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "À retenir. Rédigez la fiche technique et conservez un échantillon doré.",
+    "Planifiez avec votre rythme soutenu. Ajoutez les allocations et arrondissez. Commandez d’abord les articles à long délai de livraison, les denrées périssables en lots."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Transformez chaque demande en fiche technique",
+     "Conservez un échantillon doré approuvé par l'acheteur",
+     "Planifiez avec votre rythme soutenu, pas votre meilleure journée",
+     "Ajoutez des allocations, arrondissez aux tailles de paquet",
+     "Commandez d'abord les articles à long délai de livraison, les denrées périssables par lots"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "C'est maintenant votre tour. Rédigez votre fiche technique, mesurez votre propre capacité et créez votre fiche d'exigences en matériaux.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâches d'entraînement",
+    "heading": "Vos tâches pratiques",
+    "items": [
+     "Rédigez votre fiche de spécification de commande",
+     "Mesurez votre propre capacité",
+     "Construisez votre fiche de besoins en matériaux"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

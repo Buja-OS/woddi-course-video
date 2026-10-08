@@ -1,0 +1,568 @@
+{
+ "course": "bulk-production-planning",
+ "module": "m3",
+ "title": "Pessoas, parceiros, entrega e seu plano de prontidão",
+ "course_title": "Planejamento de produção em massa",
+ "shots": [
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Pessoas, parceiros, entrega e seu plano de prontidão.",
+    "Este é o vídeo do módulo 3 do Planejamento de Produção a Granel."
+   ]
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Às vezes, o pedido é maior do que a sua capacidade sustentada. Você testará suas opções com números."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Do plano à entrega final",
+    "items": [
+     "Elimine uma lacuna de capacidade com números",
+     "Equipe a linha usando o takt time",
+     "Lidere com reuniões e horários seguros",
+     "Entregue, revise e comprove"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Você dimensionará sua tripulação para que nenhuma estação espere e ninguém fique ocioso."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Do plano à entrega final",
+    "items": [
+     "Elimine uma lacuna de capacidade com números",
+     "Equipe a linha usando o takt time",
+     "Lidere com reuniões e horários seguros",
+     "Entregue, revise e comprove"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Você liderará a corrida com uma curta reunião diária e horas de trabalho seguras."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Do plano à entrega final",
+    "items": [
+     "Elimine uma lacuna de capacidade com números",
+     "Equipe a linha usando o takt time",
+     "Lidere com reuniões e horários seguros",
+     "Entregue, revise e comprove"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "E você entregará, revisará a execução e manterá as evidências que vencerão o próximo pedido em massa."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Do plano à entrega final",
+    "items": [
+     "Elimine uma lacuna de capacidade com números",
+     "Equipe a linha usando o takt time",
+     "Lidere com reuniões e horários seguros",
+     "Entregue, revise e comprove"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Por exemplo, o comprador agora pede a Kemi 8.000 pacotes até a mesma data. Com um excesso de 2%, são necessários cerca de 742 maços por dia. Sua taxa sustentada é de 470, então a diferença é de cerca de 272 por dia."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "8.000 pacotes na mesma data",
+    "items": [
+     "Precisa de 742 por dia; taxa sustentada é 470",
+     "R: horas mais longas: cerca de 605, inseguro",
+     "B: apenas segunda fritadeira: cerca de 529",
+     "C: três novas estações: cerca de 881",
+     "D: parceiro faz 3.000 pacotes"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "A opção A, 2 horas extras de fritadeira por dia, dá apenas cerca de 605. E 60 horas por semana está acima do nível de 55 horas que a OMS e a OIT associam a um maior risco de acidente vascular cerebral e doenças cardíacas. Rejeitado."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "8.000 pacotes na mesma data",
+    "items": [
+     "Precisa de 742 por dia; taxa sustentada é 470",
+     "R: horas mais longas: cerca de 605, inseguro",
+     "B: apenas segunda fritadeira: cerca de 529",
+     "C: três novas estações: cerca de 881",
+     "D: parceiro faz 3.000 pacotes"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "A opção B, apenas uma segunda fritadeira, faz a vedação do novo gargalo. Apenas cerca de 529. Muito pouco."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "8.000 pacotes na mesma data",
+    "items": [
+     "Precisa de 742 por dia; taxa sustentada é 470",
+     "R: horas mais longas: cerca de 605, inseguro",
+     "B: apenas segunda fritadeira: cerca de 529",
+     "C: três novas estações: cerca de 881",
+     "D: parceiro faz 3.000 pacotes"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "A opção C adiciona uma fritadeira, um selador e um descascador, totalizando cerca de 881. O suficiente, mas três novas pessoas para treinar em poucos dias."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "8.000 pacotes na mesma data",
+    "items": [
+     "Precisa de 742 por dia; taxa sustentada é 470",
+     "R: horas mais longas: cerca de 605, inseguro",
+     "B: apenas segunda fritadeira: cerca de 529",
+     "C: três novas estações: cerca de 881",
+     "D: parceiro faz 3.000 pacotes"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Opção D: Kemi mantém sua linha comprovada e um parceiro confiável com 300 embalagens comprovadas por dia produz as outras 3.000 embalagens."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "8.000 pacotes na mesma data",
+    "items": [
+     "Precisa de 742 por dia; taxa sustentada é 470",
+     "R: horas mais longas: cerca de 605, inseguro",
+     "B: apenas segunda fritadeira: cerca de 529",
+     "C: três novas estações: cerca de 881",
+     "D: parceiro faz 3.000 pacotes"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Escolha um parceiro cujo trabalho você já viu. Visite, observe um lote, verifique a higiene e seus registros de produção e coloque por escrito."
+   ],
+   "card": {
+    "title": "O que um pacote de parceiro ganha Kemi",
+    "rows": [],
+    "note": "Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "O comprador paga 950 nairas por pacote. Kemi paga ao seu parceiro 720 por pacote aceito e gasta cerca de 20 em inspeção e transporte."
+   ],
+   "card": {
+    "title": "O que um pacote de parceiro ganha Kemi",
+    "rows": [
+     [
+      "O comprador paga por pacote",
+      "950"
+     ],
+     [
+      "Pago ao parceiro por pacote",
+      "720"
+     ],
+     [
+      "Inspeção e transporte de Kemi",
+      "20"
+     ]
+    ],
+    "note": "Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Isso deixa cerca de 210 nairas por maço, cerca de 630 mil em 3 mil maços. Menos do que seus próprios pacotes, mas com muito menos riscos.",
+    "Dê ao parceiro a folha de especificações e uma amostra dourada, forneça você mesmo as bolsas impressas e informe o comprador sobre o parceiro. Você permanece responsável por cada pacote."
+   ],
+   "card": {
+    "title": "O que um pacote de parceiro ganha Kemi",
+    "rows": [
+     [
+      "O comprador paga por pacote",
+      "950"
+     ],
+     [
+      "Pago ao parceiro por pacote",
+      "720"
+     ],
+     [
+      "Inspeção e transporte de Kemi",
+      "20"
+     ]
+    ],
+    "note": "Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Conteúdo de trabalho significa os minutos-pessoa que uma estação precisa para 100 unidades. Divida pelo takt time para 100 unidades. O takt de Kemi é de cerca de 89 minutos por 100 maços."
+   ],
+   "panel": {
+    "kicker": "Balanceamento de linha",
+    "heading": "Pessoas por estação = trabalho/takt",
+    "items": [
+     "Takt: cerca de 89 minutos por 100 pacotes",
+     "Descasque 100/89 = 1,1, então 2 pessoas",
+     "Fritar 75/89 = 0,8, então 1 pessoa",
+     "Selo 67/89 = 0,75, então 1 pessoa",
+     "Temporada mais etiqueta 70/89: 1 pessoa"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "O peeling precisa de 100 pessoas-minutos, ou seja, 1,1 pessoas, arredondado para 2."
+   ],
+   "panel": {
+    "kicker": "Balanceamento de linha",
+    "heading": "Pessoas por estação = trabalho/takt",
+    "items": [
+     "Takt: cerca de 89 minutos por 100 pacotes",
+     "Descasque 100/89 = 1,1, então 2 pessoas",
+     "Fritar 75/89 = 0,8, então 1 pessoa",
+     "Selo 67/89 = 0,75, então 1 pessoa",
+     "Temporada mais etiqueta 70/89: 1 pessoa"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Fritar e selar cada um precisa de 1 pessoa."
+   ],
+   "panel": {
+    "kicker": "Balanceamento de linha",
+    "heading": "Pessoas por estação = trabalho/takt",
+    "items": [
+     "Takt: cerca de 89 minutos por 100 pacotes",
+     "Descasque 100/89 = 1,1, então 2 pessoas",
+     "Fritar 75/89 = 0,8, então 1 pessoa",
+     "Selo 67/89 = 0,75, então 1 pessoa",
+     "Temporada mais etiqueta 70/89: 1 pessoa"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "O tempero e a rotulagem são leves, então uma pessoa faz os dois. É uma tripulação de 5 pessoas, com supervisão de Kemi.",
+    "Seus dois trabalhadores temporários treinados ocupam os locais de descascamento. Pessoal experiente mantém a fritadeira e a seladora."
+   ],
+   "panel": {
+    "kicker": "Balanceamento de linha",
+    "heading": "Pessoas por estação = trabalho/takt",
+    "items": [
+     "Takt: cerca de 89 minutos por 100 pacotes",
+     "Descasque 100/89 = 1,1, então 2 pessoas",
+     "Fritar 75/89 = 0,8, então 1 pessoa",
+     "Selo 67/89 = 0,75, então 1 pessoa",
+     "Temporada mais etiqueta 70/89: 1 pessoa"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Equipe experiente controla o gargalo e as etapas de qualidade.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "flipchart",
+   "say": [
+    "Trabalhadores não treinados podem criar mais retrabalho do que produção. Kemi orçamenta 2 dias de treinamento pagos. O novo trabalhador assiste a um ciclo completo e depois trabalha ao lado de uma pessoa experiente.",
+    "Ela trabalha sozinha somente depois de passar três verificações seguidas. As regras de segurança vêm no primeiro dia e o pessoal temporário não trabalha na fritadeira."
+   ],
+   "panel": {
+    "kicker": "Trabalhadores temporários",
+    "heading": "Treine e saia antes do primeiro dia",
+    "items": [
+     "2 dias de treinamento pago",
+     "Mostre e faça ao lado de um especialista",
+     "Ensine a regra de qualidade com a amostra",
+     "Aprovação: três verificações aprovadas consecutivamente",
+     "Pessoal temporário não trabalha na fritadeira"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Trabalhadores exaustos cometem erros e se machucam. Kemi planeja 48 horas por semana com dia de descanso completo, bem abaixo de 55, e faz rodízio de pessoas em tarefas repetitivas."
+   ],
+   "panel": {
+    "kicker": "Liderando a corrida",
+    "heading": "Horário seguro, início e reunião",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Safe hours",
+      "d": "Turnos de 8 horas, 6 dias: 48 horas com dia de descanso completo. Pausas, água e uma refeição adequada."
+     },
+     {
+      "t": "20-minute kick-off",
+      "d": "Ordem, data, amostra dourada, meta de cada estação, regra de parada, higiene e segurança."
+     },
+     {
+      "t": "10-minute huddle",
+      "d": "A lacuna e os defeitos de ontem, os problemas, o alvo de hoje e o agradecimento a alguém."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Antes do primeiro dia, um início de 20 minutos. Quem vê um problema deve se manifestar, e interromper a linha por um defeito real é elogiado, não punido."
+   ],
+   "panel": {
+    "kicker": "Liderando a corrida",
+    "heading": "Horário seguro, início e reunião",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Safe hours",
+      "d": "Turnos de 8 horas, 6 dias: 48 horas com dia de descanso completo. Pausas, água e uma refeição adequada."
+     },
+     {
+      "t": "20-minute kick-off",
+      "d": "Ordem, data, amostra dourada, meta de cada estação, regra de parada, higiene e segurança."
+     },
+     {
+      "t": "10-minute huddle",
+      "d": "A lacuna e os defeitos de ontem, os problemas, o alvo de hoje e o agradecimento a alguém."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Todas as manhãs, uma reunião de 10 minutos ao lado do rastreador."
+   ],
+   "panel": {
+    "kicker": "Liderando a corrida",
+    "heading": "Horário seguro, início e reunião",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Safe hours",
+      "d": "Turnos de 8 horas, 6 dias: 48 horas com dia de descanso completo. Pausas, água e uma refeição adequada."
+     },
+     {
+      "t": "20-minute kick-off",
+      "d": "Ordem, data, amostra dourada, meta de cada estação, regra de parada, higiene e segurança."
+     },
+     {
+      "t": "10-minute huddle",
+      "d": "A lacuna e os defeitos de ontem, os problemas, o alvo de hoje e o agradecimento a alguém."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_camera",
+   "say": [
+    "Uma caixa perdida é fácil de resolver na porta e muito difícil uma semana depois. Contem juntos, assinem e datem a nota de entrega e fotografem-na com as caixas empilhadas.",
+    "Guarde alguns pacotes de cada dia e envie um WhatsApp no mesmo dia com a foto e um lembrete do vencimento do saldo."
+   ],
+   "panel": {
+    "kicker": "Dia de entrega",
+    "heading": "Entregue de forma limpa",
+    "items": [
+     "Fatura com saldo devedor",
+     "Nota de entrega: caixas e unidades",
+     "Conte caixas com o receptor",
+     "Nota assinada, datada e fotografada",
+     "Amostras retidas de cada dia"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Dentro de uma semana, converse com seu supervisor e use seus registros, não a memória. Kemi planejou 470 embalagens boas por dia. Sem o dia do corte de energia, ela teve uma média de cerca de 448."
+   ],
+   "panel": {
+    "kicker": "Revisão pós-ação",
+    "heading": "Quatro perguntas em uma semana",
+    "items": [
+     "O que planejamos?",
+     "O que realmente aconteceu?",
+     "Por que houve uma diferença?",
+     "O que faremos de diferente?"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Por quê? Os descascadores temporários foram mais lentos nos primeiros três dias. Ela entregou no prazo por causa do buffer, não porque o plano fosse exato."
+   ],
+   "panel": {
+    "kicker": "Revisão pós-ação",
+    "heading": "Quatro perguntas em uma semana",
+    "items": [
+     "O que planejamos?",
+     "O que realmente aconteceu?",
+     "Por que houve uma diferença?",
+     "O que faremos de diferente?"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Da próxima vez, ela planeja cerca de 450 por dia, adiciona um dia de treinamento e organiza energia reserva."
+   ],
+   "panel": {
+    "kicker": "Revisão pós-ação",
+    "heading": "Quatro perguntas em uma semana",
+    "items": [
+     "O que planejamos?",
+     "O que realmente aconteceu?",
+     "Por que houve uma diferença?",
+     "O que faremos de diferente?"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Planeje o próximo pedido com números reais, não com o plano antigo.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Para lembrar. Dimensione a lacuna e teste cada opção em toda a linha. Dê aos parceiros as mesmas especificações e portas. Mantenha o horário seguro e receba uma nota de entrega assinada.",
+    "Em seguida, mantenha um portfólio de evidências reais: sua declaração de capacidade, resumos de pedidos, fotos e uma referência do comprador."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Lembre-se",
+    "items": [
+     "Dimensione a lacuna, teste opções em toda a linha",
+     "Um parceiro precisa das mesmas especificações e portas",
+     "Planeje horas bem abaixo de 55 por semana",
+     "Obtenha uma nota de entrega datada e assinada",
+     "Mantenha um portfólio de preparação em massa"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Sua vez. Teste suas opções de capacidade, planeje sua equipe e dê o pontapé inicial, depois analise um pedido e construa seu portfólio com um plano de 90 dias.",
+    "Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Pratique tarefas",
+    "heading": "Suas tarefas práticas",
+    "items": [
+     "Teste suas opções de capacidade",
+     "Planeje sua equipe e reúna-se",
+     "Faça uma avaliação e construa seu portfólio"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

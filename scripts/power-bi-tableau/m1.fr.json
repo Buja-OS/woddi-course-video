@@ -1,0 +1,569 @@
+{
+ "course": "power-bi-tableau",
+ "module": "m1",
+ "title": "Commencez par la question, façonnez les données, faites confiance aux chiffres",
+ "course_title": "Power BI et Tableau : tableaux de bord professionnels interactifs",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Commencez par la question, façonnez les données et faites confiance aux chiffres.",
+    "Il s'agit de la vidéo du premier module de Power BI et Tableau : comment les outils BI envisagent les données."
+   ]
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Un tableau de bord est un écran unique qui répond en un coup d'œil à quelques questions commerciales importantes, en joignant des graphiques, des titres et des filtres."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "À quoi sert réellement un tableau de bord",
+    "items": [
+     "Un écran, quelques questions importantes",
+     "Cliquez pour explorer la réponse plus en détail",
+     "Power BI et Tableau partagent la plupart des réflexions",
+     "De bons modèles et mesures le rendent fiable"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Le spectateur peut cliquer pour explorer et voir ce qui se passe, où et pourquoi, en moins d'une minute."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "À quoi sert réellement un tableau de bord",
+    "items": [
+     "Un écran, quelques questions importantes",
+     "Cliquez pour explorer la réponse plus en détail",
+     "Power BI et Tableau partagent la plupart des réflexions",
+     "De bons modèles et mesures le rendent fiable"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Power BI et Tableau sont les deux outils les plus cités dans les offres d'emploi d'analyste de données. Apprenez-en un bien, et environ les deux tiers de la réflexion se poursuivent."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "À quoi sert réellement un tableau de bord",
+    "items": [
+     "Un écran, quelques questions importantes",
+     "Cliquez pour explorer la réponse plus en détail",
+     "Power BI et Tableau partagent la plupart des réflexions",
+     "De bons modèles et mesures le rendent fiable"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Ce module enseigne ce qui différencie un tableau de bord professionnel d'une jolie feuille de calcul : un modèle de données solide et des mesures correctes."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "À quoi sert réellement un tableau de bord",
+    "items": [
+     "Un écran, quelques questions importantes",
+     "Cliquez pour explorer la réponse plus en détail",
+     "Power BI et Tableau partagent la plupart des réflexions",
+     "De bons modèles et mesures le rendent fiable"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Tout d’abord, décidez quel type de tableau de bord vous créez, car il décide de presque tout le reste.",
+    "Un tableau de bord stratégique est destiné aux administrateurs. Quelques chiffres à la une, généralement vérifiés mensuellement."
+   ],
+   "panel": {
+    "kicker": "Connaissez votre public",
+    "heading": "Les trois types de tableaux de bord",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Strategic",
+      "d": "Pour les administrateurs et les conseils d'administration. Quelques chiffres importants comme les revenus et la marge, généralement vérifiés mensuellement."
+     },
+     {
+      "t": "Operational",
+      "d": "Pour les superviseurs effectuant le travail quotidien. Commandes du jour, stock faible, livraisons tardives. Vérifié quotidiennement ou toutes les heures."
+     },
+     {
+      "t": "Analytical",
+      "d": "Pour les analystes qui se demandent pourquoi. Plus de filtres, d'explorations et de tableaux détaillés pour étudier un problème."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Un tableau de bord opérationnel est destiné aux superviseurs effectuant le travail quotidien, comme les commandes du jour et les livraisons en retard. Il est vérifié quotidiennement, voire toutes les heures."
+   ],
+   "panel": {
+    "kicker": "Connaissez votre public",
+    "heading": "Les trois types de tableaux de bord",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Strategic",
+      "d": "Pour les administrateurs et les conseils d'administration. Quelques chiffres importants comme les revenus et la marge, généralement vérifiés mensuellement."
+     },
+     {
+      "t": "Operational",
+      "d": "Pour les superviseurs effectuant le travail quotidien. Commandes du jour, stock faible, livraisons tardives. Vérifié quotidiennement ou toutes les heures."
+     },
+     {
+      "t": "Analytical",
+      "d": "Pour les analystes qui se demandent pourquoi. Plus de filtres, d'explorations et de tableaux détaillés pour étudier un problème."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Un tableau de bord analytique est destiné aux personnes qui se demandent pourquoi, il comporte donc plus de filtres, d'explorations et de détails."
+   ],
+   "panel": {
+    "kicker": "Connaissez votre public",
+    "heading": "Les trois types de tableaux de bord",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Strategic",
+      "d": "Pour les administrateurs et les conseils d'administration. Quelques chiffres importants comme les revenus et la marge, généralement vérifiés mensuellement."
+     },
+     {
+      "t": "Operational",
+      "d": "Pour les superviseurs effectuant le travail quotidien. Commandes du jour, stock faible, livraisons tardives. Vérifié quotidiennement ou toutes les heures."
+     },
+     {
+      "t": "Analytical",
+      "d": "Pour les analystes qui se demandent pourquoi. Plus de filtres, d'explorations et de tableaux détaillés pour étudier un problème."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Les professionnels commencent par un court mémoire écrit, pas par l’outil.",
+    "Par exemple, Ngozi passait environ deux jours par mois sur un rapport de 20 pages que son directeur général lisait rarement au-delà de la page 3. Elle lui a donc demandé ce qu'il vérifiait réellement."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Rédigez le brief avant de construire",
+    "items": [
+     "Demandez à l'utilisateur ce qu'il vérifie réellement",
+     "Transformez cela en trois questions sur le tableau de bord",
+     "Notez le public et la fréquence à laquelle il regarde",
+     "Répertoriez les données dont chaque question a besoin"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Elle a transformé sa réponse en trois questions. Sommes-nous sur la bonne voie ? Quelle branche est la plus en retard ? Quelles catégories ont baissé par rapport à l’année dernière ?"
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Rédigez le brief avant de construire",
+    "items": [
+     "Demandez à l'utilisateur ce qu'il vérifie réellement",
+     "Transformez cela en trois questions sur le tableau de bord",
+     "Notez le public et la fréquence à laquelle il regarde",
+     "Répertoriez les données dont chaque question a besoin"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Elle a noté le public : un réalisateur, qui regardait chaque mois, principalement sur son téléphone. Cela en fait un tableau de bord stratégique avec peu de filtres."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Rédigez le brief avant de construire",
+    "items": [
+     "Demandez à l'utilisateur ce qu'il vérifie réellement",
+     "Transformez cela en trois questions sur le tableau de bord",
+     "Notez le public et la fréquence à laquelle il regarde",
+     "Répertoriez les données dont chaque question a besoin"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Elle a ensuite énuméré les données nécessaires, y compris au moins 13 mois d'historique, pour que le même mois de l'année dernière existe.",
+    "Voici la règle. Chaque visuel que vous ajoutez doit répondre à une de vos questions. S'il ne répond à aucune, il ne va pas sur la page."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Rédigez le brief avant de construire",
+    "items": [
+     "Demandez à l'utilisateur ce qu'il vérifie réellement",
+     "Transformez cela en trois questions sur le tableau de bord",
+     "Notez le public et la fréquence à laquelle il regarde",
+     "Répertoriez les données dont chaque question a besoin"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Chaque visuel doit répondre à une question. S'il ne répond à aucune, laissez-le de côté.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "La plupart des données d'entreprise arrivent sous la forme d'une seule grande feuille, ce qui devient énorme et lent dans un outil de BI. Vous le divisez donc en un schéma en étoile.",
+    "Une table de faits enregistre les événements que vous comptez ou additionnez, comme chaque ligne de vente."
+   ],
+   "panel": {
+    "kicker": "Le schéma en étoile",
+    "heading": "Tableaux de faits et tableaux de dimensions",
+    "mode": "compare",
+    "left_h": "Tableau de faits",
+    "left": [
+     "Événements que vous comptez ou additionnez",
+     "Long : plusieurs lignes",
+     "Principalement des chiffres et des codes d'identification",
+     "Exemple : chaque ligne de vente"
+    ],
+    "right_h": "Tableau des dimensions",
+    "right": [
+     "Décrit les choses impliquées",
+     "Court : quelques lignes",
+     "Texte que vous filtrez et regroupez",
+     "Exemple : succursales, produits, dates"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Un tableau de dimensions décrit les éléments concernés : succursales, produits, clients et dates.",
+    "Dans le modèle de Ngozi, le nom de la branche était stocké 18 000 fois. Maintenant, il est stocké 4 fois."
+   ],
+   "panel": {
+    "kicker": "Le schéma en étoile",
+    "heading": "Tableaux de faits et tableaux de dimensions",
+    "mode": "compare",
+    "left_h": "Tableau de faits",
+    "left": [
+     "Événements que vous comptez ou additionnez",
+     "Long : plusieurs lignes",
+     "Principalement des chiffres et des codes d'identification",
+     "Exemple : chaque ligne de vente"
+    ],
+    "right_h": "Tableau des dimensions",
+    "right": [
+     "Décrit les choses impliquées",
+     "Court : quelques lignes",
+     "Texte que vous filtrez et regroupez",
+     "Exemple : succursales, produits, dates"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Notez le grain : ce que signifie une ligne du tableau de faits, par exemple un produit sur une facture. Le mélange des grains entraîne une double comptabilisation."
+   ],
+   "panel": {
+    "kicker": "Règles modèles",
+    "heading": "Cinq règles pour un modèle sonore",
+    "items": [
+     "Notez le grain de la table de faits",
+     "Gardez chaque clé de dimension unique",
+     "Filtres un à plusieurs, unidirectionnels",
+     "Construire un tableau de dates complet",
+     "Gardez les cibles dans leur propre petite table"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Gardez chaque clé de dimension unique. Si le code produit P-104 apparaît deux fois avec deux orthographes, ses ventes peuvent être comptées deux fois."
+   ],
+   "panel": {
+    "kicker": "Règles modèles",
+    "heading": "Cinq règles pour un modèle sonore",
+    "items": [
+     "Notez le grain de la table de faits",
+     "Gardez chaque clé de dimension unique",
+     "Filtres un à plusieurs, unidirectionnels",
+     "Construire un tableau de dates complet",
+     "Gardez les cibles dans leur propre petite table"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Liez chaque dimension à la table de faits avec une relation un-à-plusieurs et conservez la direction du filtre unique, afin que les filtres circulent des dimensions jusqu'aux faits."
+   ],
+   "panel": {
+    "kicker": "Règles modèles",
+    "heading": "Cinq règles pour un modèle sonore",
+    "items": [
+     "Notez le grain de la table de faits",
+     "Gardez chaque clé de dimension unique",
+     "Filtres un à plusieurs, unidirectionnels",
+     "Construire un tableau de dates complet",
+     "Gardez les cibles dans leur propre petite table"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Les comparaisons telles que le cumul annuel nécessitent un tableau de dates avec chaque date et sans écarts."
+   ],
+   "panel": {
+    "kicker": "Règles modèles",
+    "heading": "Cinq règles pour un modèle sonore",
+    "items": [
+     "Notez le grain de la table de faits",
+     "Gardez chaque clé de dimension unique",
+     "Filtres un à plusieurs, unidirectionnels",
+     "Construire un tableau de dates complet",
+     "Gardez les cibles dans leur propre petite table"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Et conservez les cibles dans leur propre tableau. Coller l'objectif mensuel sur chaque ligne de ventes le multiplie par le nombre de factures."
+   ],
+   "panel": {
+    "kicker": "Règles modèles",
+    "heading": "Cinq règles pour un modèle sonore",
+    "items": [
+     "Notez le grain de la table de faits",
+     "Gardez chaque clé de dimension unique",
+     "Filtres un à plusieurs, unidirectionnels",
+     "Construire un tableau de dates complet",
+     "Gardez les cibles dans leur propre petite table"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Une colonne calculée est élaborée une fois, ligne par ligne, lors du chargement des données. Utilisez-le pour regrouper ou filtrer, comme une fourchette de prix par produit."
+   ],
+   "panel": {
+    "kicker": "Calculs",
+    "heading": "Colonne ou mesure calculée ?",
+    "mode": "compare",
+    "left_h": "Colonne calculée",
+    "left": [
+     "Calculé une fois par ligne",
+     "Stocké dans le tableau",
+     "Utiliser pour regrouper ou filtrer"
+    ],
+    "right_h": "Mesurer",
+    "right": [
+     "Calculé lorsqu'un visuel le demande",
+     "Répond à chaque filtre",
+     "À utiliser pour les totaux et les ratios"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Une mesure est calculée lorsqu'un visuel la demande, elle répond donc à chaque filtre. Utilisez des mesures pour les totaux et les ratios, comme la marge bénéficiaire."
+   ],
+   "panel": {
+    "kicker": "Calculs",
+    "heading": "Colonne ou mesure calculée ?",
+    "mode": "compare",
+    "left_h": "Colonne calculée",
+    "left": [
+     "Calculé une fois par ligne",
+     "Stocké dans le tableau",
+     "Utiliser pour regrouper ou filtrer"
+    ],
+    "right_h": "Mesurer",
+    "right": [
+     "Calculé lorsqu'un visuel le demande",
+     "Répond à chaque filtre",
+     "À utiliser pour les totaux et les ratios"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Voici l'erreur de calcul la plus courante. Le directeur de Ngozi demande la marge bénéficiaire cumulée des deux succursales."
+   ],
+   "card": {
+    "title": "L'erreur de la moyenne des ratios",
+    "rows": [],
+    "note": "À droite : 900 000 ÷ 5 000 000 = 18 %, et non 22,5 %"
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Lagos a vendu 4 000 000 de naira avec un bénéfice de 600 000 naira. Cela représente une marge de 15 %."
+   ],
+   "card": {
+    "title": "L'erreur de la moyenne des ratios",
+    "rows": [
+     [
+      "Ventes à Lagos",
+      "4,000,000"
+     ],
+     [
+      "Bénéfice à Lagos",
+      "600,000"
+     ]
+    ],
+    "note": "À droite : 900 000 ÷ 5 000 000 = 18 %, et non 22,5 %"
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Kano a vendu 1 000 000 de naira avec un bénéfice de 300 000 naira. Cela fait 30 %.",
+    "La mauvaise méthode fait la moyenne des deux marges et obtient 22,5 %.",
+    "La bonne méthode ajoute d’abord, puis divise. 900 000 divisé par 5 000 000 équivaut à 18 %.",
+    "Les ratios doivent être une somme divisée par une somme, jamais une moyenne de ratios. Testez chaque nouvelle mesure dans un tableau simple avec une calculatrice avant de la tracer."
+   ],
+   "card": {
+    "title": "L'erreur de la moyenne des ratios",
+    "rows": [
+     [
+      "Ventes à Lagos",
+      "4,000,000"
+     ],
+     [
+      "Bénéfice à Lagos",
+      "600,000"
+     ],
+     [
+      "Ventes Kano",
+      "1,000,000"
+     ],
+     [
+      "Bénéfice de Kano",
+      "300,000"
+     ]
+    ],
+    "note": "À droite : 900 000 ÷ 5 000 000 = 18 %, et non 22,5 %"
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "À retenir. Écrivez d'abord vos questions et votre public. Les faits contiennent des événements, les dimensions contiennent des descriptions.",
+    "Gardez les clés uniques et votre tableau de dates complet. Utilisez des mesures pour tout ce qui doit répondre aux filtres et calculez les ratios comme somme divisée par somme."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Écrivez des questions et un public avant de construire",
+     "Les faits détiennent les événements ; dimensions détiennent les descriptions",
+     "Touches uniques, direction unique, table de date complète",
+     "Mesures pour tout ce qui doit répondre aux filtres",
+     "Ratios : somme divisée par somme, jamais moyennée"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "C'est maintenant votre tour. Rédigez un mémoire d'une page, créez un schéma en étoile et créez cinq mesures que vous vérifiez à la main.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâche pratique",
+    "heading": "Vos tâches pratiques",
+    "items": [
+     "Rédigez votre premier brief de tableau de bord",
+     "Esquissez et construisez un schéma en étoile",
+     "Construire et vérifier cinq mesures"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}
