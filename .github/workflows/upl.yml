@@ -1,0 +1,16 @@
+name: upload-clips
+on:
+  push:
+    branches: ['upl-*']
+permissions:
+  contents: write
+jobs:
+  up:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create clips-r4 -R ${{ github.repository }} --title "3D clips r4" --notes "Rendered demonstration clips." || true
+          gh release upload clips-r4 clips/*.mp4 --clobber -R ${{ github.repository }}
