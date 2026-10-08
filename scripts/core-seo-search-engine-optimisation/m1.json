@@ -1,0 +1,581 @@
+{
+ "course": "core-seo-search-engine-optimisation",
+ "module": "m1",
+ "title": "How Google finds your page, and the free tools to check it",
+ "course_title": "SEO: Search Engine Optimisation",
+ "shots": [
+  {
+   "demo": "phone_social",
+   "say": [
+    "How Google finds your page, and the free tools to check it.",
+    "This is the video for module one of the SEO course."
+   ]
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "SEO stands for search engine optimisation.",
+    "It means making a website easier for search engines to find, understand and show to the right people, without paying for each click."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "What you will be able to do",
+    "items": [
+     "Say what SEO means in plain words",
+     "Explain how Google crawls, indexes and serves",
+     "Check if a page is in Google with site:",
+     "Set up Search Console safely"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "When a woman in Ibadan types tailor near Bodija, the businesses that appear first did not get there by luck."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "What you will be able to do",
+    "items": [
+     "Say what SEO means in plain words",
+     "Explain how Google crawls, indexes and serves",
+     "Check if a page is in Google with site:",
+     "Set up Search Console safely"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "In this video you will learn how that happens, how to check a page yourself, and how to set up your free tools safely."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "What you will be able to do",
+    "items": [
+     "Say what SEO means in plain words",
+     "Explain how Google crawls, indexes and serves",
+     "Check if a page is in Google with site:",
+     "Set up Search Console safely"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Stage one is crawling. Google uses automatic programs called crawlers. Google's crawler is called Googlebot.",
+    "Crawlers find new pages mainly by following links, and from sitemaps, which are files that list a site's pages."
+   ],
+   "panel": {
+    "kicker": "How Search Works",
+    "heading": "Three stages every page passes",
+    "items": [
+     "Crawling: Googlebot visits pages through links",
+     "Indexing: Google understands and stores the page",
+     "Serving: Google shows the most useful matches"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Stage two is indexing. Google reads the text, headings, images and title, and may store the page in its index, a huge database of pages.",
+    "Copies, very thin pages and pages with a noindex instruction are usually left out."
+   ],
+   "panel": {
+    "kicker": "How Search Works",
+    "heading": "Three stages every page passes",
+    "items": [
+     "Crawling: Googlebot visits pages through links",
+     "Indexing: Google understands and stores the page",
+     "Serving: Google shows the most useful matches"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Stage three is serving results. When someone searches, Google returns the pages it thinks are most relevant and useful."
+   ],
+   "panel": {
+    "kicker": "How Search Works",
+    "heading": "Three stages every page passes",
+    "items": [
+     "Crawling: Googlebot visits pages through links",
+     "Indexing: Google understands and stores the page",
+     "Serving: Google shows the most useful matches"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "So remember this. A page can only rank after it has been crawled and indexed. A problem early in the flow blocks everything after it."
+   ],
+   "panel": {
+    "kicker": "How Search Works",
+    "heading": "Three stages every page passes",
+    "items": [
+     "Crawling: Googlebot visits pages through links",
+     "Indexing: Google understands and stores the page",
+     "Serving: Google shows the most useful matches"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "No crawl, no index. No index, no ranking.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "For example, Ngozi runs a small chops business in Lekki, Lagos. Her designer added a party packs page two weeks ago, but she cannot find it on Google."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Ngozi checks her new page",
+    "items": [
+     "Search site:ngozichops.com, see 6 results",
+     "Search the party packs page: no result",
+     "Notice: no link points to the new page",
+     "Add menu and home page links, submit sitemap",
+     "Ten days later the page appears"
+    ],
+    "show": 0,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "She types site, colon, then her domain into Google. This special search shows pages Google has indexed from her site. She sees 6 results, but not party packs."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Ngozi checks her new page",
+    "items": [
+     "Search site:ngozichops.com, see 6 results",
+     "Search the party packs page: no result",
+     "Notice: no link points to the new page",
+     "Add menu and home page links, submit sitemap",
+     "Ten days later the page appears"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "She searches the exact page address the same way. No results. It is not in the index yet."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Ngozi checks her new page",
+    "items": [
+     "Search site:ngozichops.com, see 6 results",
+     "Search the party packs page: no result",
+     "Notice: no link points to the new page",
+     "Add menu and home page links, submit sitemap",
+     "Ten days later the page appears"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ads",
+   "say": [
+    "She checks her home page and menu. Nothing links to the new page, so crawlers have no path to it."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Ngozi checks her new page",
+    "items": [
+     "Search site:ngozichops.com, see 6 results",
+     "Search the party packs page: no result",
+     "Notice: no link points to the new page",
+     "Add menu and home page links, submit sitemap",
+     "Ten days later the page appears"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ads",
+   "say": [
+    "She asks the designer to add a Party Packs link to the menu and home page, and to submit the sitemap in Search Console."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Ngozi checks her new page",
+    "items": [
+     "Search site:ngozichops.com, see 6 results",
+     "Search the party packs page: no result",
+     "Notice: no link points to the new page",
+     "Add menu and home page links, submit sitemap",
+     "Ten days later the page appears"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ads",
+   "say": [
+    "Ten days later the page appears. The fix was links and a sitemap."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Ngozi checks her new page",
+    "items": [
+     "Search site:ngozichops.com, see 6 results",
+     "Search the party packs page: no result",
+     "Notice: no link points to the new page",
+     "Add menu and home page links, submit sitemap",
+     "Ten days later the page appears"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_social",
+   "say": [
+    "You can control whether your pages can be crawled, what they say, how fast and mobile friendly they are, and how your Google Business Profile looks."
+   ],
+   "panel": {
+    "kicker": "Be honest about SEO",
+    "heading": "What you can and cannot control",
+    "mode": "compare",
+    "left_h": "You can control",
+    "left": [
+     "Whether pages can be crawled",
+     "What your pages say",
+     "Speed and mobile layout",
+     "Your Business Profile"
+    ],
+    "right_h": "You cannot control",
+    "right": [
+     "Google's ranking systems",
+     "Your competitors",
+     "How many people search",
+     "A guaranteed top position"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_camera",
+   "say": [
+    "You cannot control Google's ranking systems, your competitors, or how many people search.",
+    "Nobody can guarantee a number one position. Google itself warns site owners to be careful of anyone who promises that."
+   ],
+   "panel": {
+    "kicker": "Be honest about SEO",
+    "heading": "What you can and cannot control",
+    "mode": "compare",
+    "left_h": "You can control",
+    "left": [
+     "Whether pages can be crawled",
+     "What your pages say",
+     "Speed and mobile layout",
+     "Your Business Profile"
+    ],
+    "right_h": "You cannot control",
+    "right": [
+     "Google's ranking systems",
+     "Your competitors",
+     "How many people search",
+     "A guaranteed top position"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "First, turn on 2-Step Verification, so a stolen password alone cannot open your Google account."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Set up Search Console safely",
+    "items": [
+     "Turn on 2-Step Verification",
+     "Add your site in Search Console",
+     "Verify that you own it",
+     "Submit your sitemap",
+     "Add helpers as users"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Next, go to Search Console and add your site. A Domain property covers every version of the site. A URL prefix property covers one exact address and offers more ways to verify."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Set up Search Console safely",
+    "items": [
+     "Turn on 2-Step Verification",
+     "Add your site in Search Console",
+     "Verify that you own it",
+     "Submit your sitemap",
+     "Add helpers as users"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Verify ownership. For example, Chioma had only a phone. She pasted the HTML tag code into her Yoast SEO settings in WordPress, and tapped Verify."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Set up Search Console safely",
+    "items": [
+     "Turn on 2-Step Verification",
+     "Add your site in Search Console",
+     "Verify that you own it",
+     "Submit your sitemap",
+     "Add helpers as users"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Then open the Sitemaps report and submit your sitemap address. Chioma's took about 20 minutes in total."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Set up Search Console safely",
+    "items": [
+     "Turn on 2-Step Verification",
+     "Add your site in Search Console",
+     "Verify that you own it",
+     "Submit your sitemap",
+     "Add helpers as users"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Finally, if a designer or volunteer helps you, never share your password. Add them as a user with Full or Restricted permission, and remove their access the same day they stop working with you."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Set up Search Console safely",
+    "items": [
+     "Turn on 2-Step Verification",
+     "Add your site in Search Console",
+     "Verify that you own it",
+     "Submit your sitemap",
+     "Add helpers as users"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Never share your Google password. Add helpers as users.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Small businesses get many scam messages. The first promises guaranteed number one on Google in 7 days. Google's own advice says no one can guarantee that."
+   ],
+   "panel": {
+    "kicker": "Protect the business",
+    "heading": "Common SEO scams to refuse",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Guaranteed number one",
+      "d": "Promises of number one on Google in 7 days. No honest SEO can guarantee a top ranking."
+     },
+     {
+      "t": "Bought links or reviews",
+      "d": "Offers of thousands of backlinks or reviews. Buying them breaks Google's policies and can harm your site."
+     },
+     {
+      "t": "Pay or be removed",
+      "d": "Emails claiming your site will be removed from Google unless you pay. Ignore them."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "The second offers to sell thousands of backlinks or reviews. Buying them breaks Google's policies and can harm your site."
+   ],
+   "panel": {
+    "kicker": "Protect the business",
+    "heading": "Common SEO scams to refuse",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Guaranteed number one",
+      "d": "Promises of number one on Google in 7 days. No honest SEO can guarantee a top ranking."
+     },
+     {
+      "t": "Bought links or reviews",
+      "d": "Offers of thousands of backlinks or reviews. Buying them breaks Google's policies and can harm your site."
+     },
+     {
+      "t": "Pay or be removed",
+      "d": "Emails claiming your site will be removed from Google unless you pay. Ignore them."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "The third claims your site will be removed from Google unless you pay. Do not pay."
+   ],
+   "panel": {
+    "kicker": "Protect the business",
+    "heading": "Common SEO scams to refuse",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Guaranteed number one",
+      "d": "Promises of number one on Google in 7 days. No honest SEO can guarantee a top ranking."
+     },
+     {
+      "t": "Bought links or reviews",
+      "d": "Offers of thousands of backlinks or reviews. Buying them breaks Google's policies and can harm your site."
+     },
+     {
+      "t": "Pay or be removed",
+      "d": "Emails claiming your site will be removed from Google unless you pay. Ignore them."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Tick every item before you start changing pages.",
+    "Then write down a baseline: clicks and impressions for the last 28 days, and your top five searches. Without a starting point, you cannot prove your work made a difference."
+   ],
+   "panel": {
+    "kicker": "Before you change pages",
+    "heading": "Safe setup checklist",
+    "items": [
+     "2-Step Verification on",
+     "Search Console verified",
+     "Sitemap submitted",
+     "Business Profile claimed",
+     "Helpers added as users",
+     "Passwords never shared"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_ads",
+   "say": [
+    "To remember. Google crawls, indexes, then serves. Crawlers find pages through links and sitemaps. Use the site search for a quick check. Protect your account and never share passwords. And nobody can guarantee a top position."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "Google works in three stages: crawl, index, serve",
+     "Crawlers find pages through links and sitemaps",
+     "Use site:yourdomain.com for a quick index check",
+     "Turn on 2-Step Verification; never share passwords",
+     "Nobody can guarantee a top position"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_social",
+   "say": [
+    "Now try it. Run a site search on a website you know, map five customer searches to their intent, then verify a site in Search Console and submit its sitemap.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice task",
+    "heading": "Your practice tasks",
+    "items": [
+     "Run a site: search on a real website",
+     "Map five searches to intent",
+     "Verify a site in Search Console",
+     "Submit its sitemap"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

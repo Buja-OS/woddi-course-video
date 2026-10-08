@@ -1,0 +1,551 @@
+{
+ "course": "core-excel-for-small-business",
+ "module": "m4",
+ "title": "Estoque, lucro e uma pasta de trabalho para todo o seu negócio",
+ "course_title": "Excel e Planilhas Google para pequenas empresas",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Estoque, lucro e uma pasta de trabalho para todo o seu negócio.",
+    "Este é o vídeo do Módulo 4 do Excel e Planilhas Google para Pequenas Empresas."
+   ]
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "As ações costumam ser a maior quantia de dinheiro que um pequeno comerciante empatou. Uma folha de inventário informa o que você tem, quanto vale e o que pedir novamente antes que os clientes encontrem as prateleiras vazias."
+   ],
+   "panel": {
+    "kicker": "Neste módulo",
+    "heading": "Junte tudo",
+    "items": [
+     "Saiba qual estoque você possui e o que reordenar",
+     "Consulte preços por código de produto",
+     "Descubra se você realmente teve lucro",
+     "Uma rotina que mantém os números honestos"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Ele também insere os preços em seu registro de vendas, para que você pare de digitá-los manualmente."
+   ],
+   "panel": {
+    "kicker": "Neste módulo",
+    "heading": "Junte tudo",
+    "items": [
+     "Saiba qual estoque você possui e o que reordenar",
+     "Consulte preços por código de produto",
+     "Descubra se você realmente teve lucro",
+     "Uma rotina que mantém os números honestos"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Em seguida, um relatório de lucro responde à pergunta que todo parceiro ou credor faz. A empresa realmente ganhou dinheiro este mês?"
+   ],
+   "panel": {
+    "kicker": "Neste módulo",
+    "heading": "Junte tudo",
+    "items": [
+     "Saiba qual estoque você possui e o que reordenar",
+     "Consulte preços por código de produto",
+     "Descubra se você realmente teve lucro",
+     "Uma rotina que mantém os números honestos"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Na guia Produtos, forneça a cada produto um código curto e exclusivo, como P01, depois seu nome, preço de custo e preço de venda."
+   ],
+   "panel": {
+    "kicker": "Guia Produtos",
+    "heading": "Estoque que informa quando fazer um novo pedido",
+    "items": [
+     "Código, produto, preço de custo, preço de venda",
+     "Estoque inicial, estoque em estoque, vendido",
+     "Estoque final: =E2+F2-G2",
+     "Status: =SE(H2<=I2,\"Reordenar\",\"OK\")",
+     "Valor do estoque a custo: =H2*C2"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Em seguida, digite o estoque inicial, o estoque que você comprou e as unidades vendidas."
+   ],
+   "panel": {
+    "kicker": "Guia Produtos",
+    "heading": "Estoque que informa quando fazer um novo pedido",
+    "items": [
+     "Código, produto, preço de custo, preço de venda",
+     "Estoque inicial, estoque em estoque, vendido",
+     "Estoque final: =E2+F2-G2",
+     "Status: =SE(H2<=I2,\"Reordenar\",\"OK\")",
+     "Valor do estoque a custo: =H2*C2"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "O estoque final é o estoque inicial, mais o estoque menos vendido."
+   ],
+   "panel": {
+    "kicker": "Guia Produtos",
+    "heading": "Estoque que informa quando fazer um novo pedido",
+    "items": [
+     "Código, produto, preço de custo, preço de venda",
+     "Estoque inicial, estoque em estoque, vendido",
+     "Estoque final: =E2+F2-G2",
+     "Status: =SE(H2<=I2,\"Reordenar\",\"OK\")",
+     "Valor do estoque a custo: =H2*C2"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Defina um nível de reabastecimento para cada produto. Se o estoque final cair para esse nível, IF mostrará a palavra Reordenar. Sua planilha se torna uma lista de compras automática."
+   ],
+   "panel": {
+    "kicker": "Guia Produtos",
+    "heading": "Estoque que informa quando fazer um novo pedido",
+    "items": [
+     "Código, produto, preço de custo, preço de venda",
+     "Estoque inicial, estoque em estoque, vendido",
+     "Estoque final: =E2+F2-G2",
+     "Status: =SE(H2<=I2,\"Reordenar\",\"OK\")",
+     "Valor do estoque a custo: =H2*C2"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "O valor do estoque é o estoque de fechamento vezes o preço de custo.",
+    "Por exemplo, Funke tem 6 detergentes restantes e seu nível de reabastecimento é 8, então diz Reordenar. Seu estoque disponível vale 80.250 naira ao custo."
+   ],
+   "panel": {
+    "kicker": "Guia Produtos",
+    "heading": "Estoque que informa quando fazer um novo pedido",
+    "items": [
+     "Código, produto, preço de custo, preço de venda",
+     "Estoque inicial, estoque em estoque, vendido",
+     "Estoque final: =E2+F2-G2",
+     "Status: =SE(H2<=I2,\"Reordenar\",\"OK\")",
+     "Valor do estoque a custo: =H2*C2"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Estoque final = estoque inicial + estoque em - unidades vendidas",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Na guia Vendas, digite apenas o código do produto e deixe uma pesquisa buscar o preço. XLOOKUP encontra o código na coluna Código e retorna o preço de venda da mesma linha. Se o código for P03, retorna 3300."
+   ],
+   "panel": {
+    "kicker": "Pesquisas",
+    "heading": "Obtenha o preço de um código",
+    "mode": "compare",
+    "left_h": "XLOOKUP",
+    "left": [
+     "Excel e Planilhas Google mais recentes",
+     "Correspondência exata por padrão",
+     "Posso dizer Não encontrado"
+    ],
+    "right_h": "PROCV",
+    "right": [
+     "Também funciona no Excel antigo",
+     "Código na primeira coluna",
+     "Sempre termine com FALSE"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Se o seu Excel for 2019 ou anterior, use VLOOKUP. O código deve estar na primeira coluna da tabela.",
+    "E sempre termine com FALSO. Deixá-lo de fora pode devolver silenciosamente o preço do produto errado. Se você vir o hash N A, o código não foi encontrado. Verifique se há uma letra O digitada em vez de zero."
+   ],
+   "panel": {
+    "kicker": "Pesquisas",
+    "heading": "Obtenha o preço de um código",
+    "mode": "compare",
+    "left_h": "XLOOKUP",
+    "left": [
+     "Excel e Planilhas Google mais recentes",
+     "Correspondência exata por padrão",
+     "Posso dizer Não encontrado"
+    ],
+    "right_h": "PROCV",
+    "right": [
+     "Também funciona no Excel antigo",
+     "Código na primeira coluna",
+     "Sempre termine com FALSE"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Agora lucro. Vendas é o dinheiro ganho com as vendas. O custo dos produtos vendidos é o que os produtos que você realmente vendeu lhe custaram: valor do estoque inicial, mais compras, menos valor do estoque final.",
+    "Por que não vendas menos compras? Porque se você estocar muito, o mês parece um prejuízo, mesmo que as mercadorias ainda estejam nas prateleiras."
+   ],
+   "panel": {
+    "kicker": "Palavras-chave",
+    "heading": "Das vendas ao lucro líquido",
+    "items": [
+     "Vendas: dinheiro ganho com vendas",
+     "Custo dos produtos vendidos: quanto custam os produtos vendidos",
+     "Lucro bruto: vendas menos custo das mercadorias",
+     "Lucro líquido: lucro bruto menos custos operacionais",
+     "Margem: lucro dividido pelas vendas"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "O lucro bruto são as vendas menos o custo das mercadorias. O lucro líquido também elimina custos operacionais, como aluguel, transporte, dados e energia."
+   ],
+   "panel": {
+    "kicker": "Palavras-chave",
+    "heading": "Das vendas ao lucro líquido",
+    "items": [
+     "Vendas: dinheiro ganho com vendas",
+     "Custo dos produtos vendidos: quanto custam os produtos vendidos",
+     "Lucro bruto: vendas menos custo das mercadorias",
+     "Lucro líquido: lucro bruto menos custos operacionais",
+     "Margem: lucro dividido pelas vendas"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Uma margem divide o lucro pelas vendas, para que você possa comparar meses de tamanhos diferentes."
+   ],
+   "panel": {
+    "kicker": "Palavras-chave",
+    "heading": "Das vendas ao lucro líquido",
+    "items": [
+     "Vendas: dinheiro ganho com vendas",
+     "Custo dos produtos vendidos: quanto custam os produtos vendidos",
+     "Lucro bruto: vendas menos custo das mercadorias",
+     "Lucro líquido: lucro bruto menos custos operacionais",
+     "Margem: lucro dividido pelas vendas"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Aqui está o outubro de Funke. Ela abriu com ações no valor de 95.000, comprou mais 310.000 e fechou com 80.250."
+   ],
+   "card": {
+    "title": "Relatório de outubro de Funke",
+    "rows": [],
+    "note": "Lucro líquido, cerca de 9% das vendas."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Suas vendas foram de 412.000 nairas. Portanto, o custo dos produtos vendidos é 324.750."
+   ],
+   "card": {
+    "title": "Relatório de outubro de Funke",
+    "rows": [
+     [
+      "Vendas",
+      "412,000"
+     ],
+     [
+      "Custo das mercadorias vendidas",
+      "324,750"
+     ]
+    ],
+    "note": "Lucro líquido, cerca de 9% das vendas."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "O lucro bruto é de 87.250, uma margem bruta de 21,2%."
+   ],
+   "card": {
+    "title": "Relatório de outubro de Funke",
+    "rows": [
+     [
+      "Vendas",
+      "412,000"
+     ],
+     [
+      "Custo das mercadorias vendidas",
+      "324,750"
+     ],
+     [
+      "Lucro bruto",
+      "87,250"
+     ]
+    ],
+    "note": "Lucro líquido, cerca de 9% das vendas."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "A cota de aluguel, transporte, dados telefônicos e energia chega a 50.000."
+   ],
+   "card": {
+    "title": "Relatório de outubro de Funke",
+    "rows": [
+     [
+      "Vendas",
+      "412,000"
+     ],
+     [
+      "Custo das mercadorias vendidas",
+      "324,750"
+     ],
+     [
+      "Lucro bruto",
+      "87,250"
+     ],
+     [
+      "Despesas correntes",
+      "50,000"
+     ]
+    ],
+    "note": "Lucro líquido, cerca de 9% das vendas."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "O lucro líquido é de 37.250 nairas. De cada 100 nairas de vendas, cerca de 9 nairas são lucro líquido. Isso representa um aumento de 6.250 em setembro."
+   ],
+   "card": {
+    "title": "Relatório de outubro de Funke",
+    "rows": [
+     [
+      "Vendas",
+      "412,000"
+     ],
+     [
+      "Custo das mercadorias vendidas",
+      "324,750"
+     ],
+     [
+      "Lucro bruto",
+      "87,250"
+     ],
+     [
+      "Despesas correntes",
+      "50,000"
+     ]
+    ],
+    "note": "Lucro líquido, cerca de 9% das vendas."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Custos operacionais como aluguel e transporte entram nas despesas operacionais."
+   ],
+   "panel": {
+    "kicker": "Números honestos",
+    "heading": "Desenhos não são uma despesa",
+    "mode": "compare",
+    "left_h": "Despesas comerciais",
+    "left": [
+     "Aluguel, transporte, dados, energia",
+     "Vai nas despesas operacionais"
+    ],
+    "right_h": "Desenhos",
+    "right": [
+     "Dinheiro que você leva para sua casa",
+     "Categoria de desenhos separados"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Mas o dinheiro que você retira para si ou para sua família não é uma despesa comercial. Grave-o como Desenhos e deixe-o de fora. Caso contrário, o relatório oculta quanto a empresa realmente ganha e se ela pode pagar a você."
+   ],
+   "panel": {
+    "kicker": "Números honestos",
+    "heading": "Desenhos não são uma despesa",
+    "mode": "compare",
+    "left_h": "Despesas comerciais",
+    "left": [
+     "Aluguel, transporte, dados, energia",
+     "Vai nas despesas operacionais"
+    ],
+    "right_h": "Desenhos",
+    "right": [
+     "Dinheiro que você leva para sua casa",
+     "Categoria de desenhos separados"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Coloque todas as suas guias em uma pasta de trabalho e mantenha uma rotina simples.",
+    "Diariamente, de 5 a 10 minutos, registre todas as vendas e despesas. Semanalmente, execute sua célula de verificação, consulte a lista de novos pedidos e persiga as vendas não pagas.",
+    "Mensalmente, conte suas prateleiras, faça o relatório de lucros e baixe um backup. Trimestralmente, analise três meses juntos e tome uma decisão."
+   ],
+   "panel": {
+    "kicker": "Sua rotina",
+    "heading": "Mantenha os números confiáveis",
+    "items": [
+     "Diariamente: registre todas as transações",
+     "Semanalmente: verificar célula, lista de novos pedidos, vendas não pagas",
+     "Mensalmente: contagem de estoque, relatório, backup",
+     "Trimestralmente: revise os gráficos e tome uma decisão"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Ao compartilhar, escolha o acesso mais baixo que funciona. O visualizador só pode olhar. Dê o Editor apenas para pessoas que realmente precisam digitar.",
+    "Envie o relatório a um credor ou parceiro em formato PDF, e não o nome de cada cliente."
+   ],
+   "panel": {
+    "kicker": "Compartilhe com segurança",
+    "heading": "Quem pode ver sua pasta de trabalho",
+    "items": [
+     "Dê ao visualizador, a menos que ele precise digitar",
+     "Compartilhe o relatório como PDF, não como rastreador",
+     "Proteja as células da fórmula"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Se um ajudante parar de trabalhar com você, remova o acesso dele no mesmo dia."
+   ],
+   "panel": {
+    "kicker": "Compartilhe com segurança",
+    "heading": "Quem pode ver sua pasta de trabalho",
+    "items": [
+     "Dê ao visualizador, a menos que ele precise digitar",
+     "Compartilhe o relatório como PDF, não como rastreador",
+     "Proteja as células da fórmula"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Remova o acesso no mesmo dia em que alguém parar de trabalhar com você",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Para lembrar. O estoque final está abrindo mais em menos vendido. Um nível de novo pedido constitui sua lista de compras. PROCV precisa de FALSO. O lucro líquido é o lucro bruto menos os custos operacionais. E mantenha os desenhos fora das despesas."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Lembre-se",
+    "items": [
+     "Estoque final = abertura + entrada - vendido",
+     "SE contra um nível de novo pedido cria uma lista de compras",
+     "VLOOKUP precisa de FALSE para uma correspondência exata",
+     "Lucro líquido = lucro bruto - custos operacionais",
+     "Mantenha os desenhos fora das despesas"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Agora construa sua planilha de inventário, faça seu primeiro relatório mensal de lucros em PDF e monte sua apostila completa com sua própria rotina.",
+    "Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Tarefa prática",
+    "heading": "Suas tarefas de portfólio",
+    "items": [
+     "Crie sua planilha de inventário",
+     "Seu primeiro relatório de lucro mensal",
+     "Monte sua apostila de negócios"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

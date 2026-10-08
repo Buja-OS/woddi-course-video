@@ -1,0 +1,635 @@
+{
+ "course": "prompt-engineering",
+ "module": "m3",
+ "title": "Horar da ƙungiya, farashin aikin kuma tabbatar da ƙwarewar ku",
+ "course_title": "Injiniya mai sauri",
+ "shots": [
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Horar da ƙungiya, farashin aikin, kuma tabbatar da ƙwarewar ku.",
+    "Wannan shi ne bidiyo na module uku na Injiniya Mai Sauƙi."
+   ]
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Kungiyoyi ba safai suke buƙatar babban lacca akan AI. Suna buƙatar taimako da ayyuka biyar ko shida da suke yi kowane mako."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Taimaka wa ƙungiyar samun ingantaccen sakamako",
+    "items": [
+     "Nemo ainihin ayyukan ƙungiyar na mako-mako",
+     "Yarda da ƙa'idodin bayanai kafin kowane horo",
+     "Farashin da iyakar aikin a sarari",
+     "Nuna hujja tare da nazarin shari'a na gaskiya"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "A cikin bankuna, makarantu, dakunan shan magani da kungiyoyi masu zaman kansu, yawancin wannan aikin ya shafi bayanan sirri, don haka dokoki sun fara zuwa."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Taimaka wa ƙungiyar samun ingantaccen sakamako",
+    "items": [
+     "Nemo ainihin ayyukan ƙungiyar na mako-mako",
+     "Yarda da ƙa'idodin bayanai kafin kowane horo",
+     "Farashin da iyakar aikin a sarari",
+     "Nuna hujja tare da nazarin shari'a na gaskiya"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Wasu kungiyoyi suna biya don horar da hankali, don haka za ku koyi farashi yadda ya kamata."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Taimaka wa ƙungiyar samun ingantaccen sakamako",
+    "items": [
+     "Nemo ainihin ayyukan ƙungiyar na mako-mako",
+     "Yarda da ƙa'idodin bayanai kafin kowane horo",
+     "Farashin da iyakar aikin a sarari",
+     "Nuna hujja tare da nazarin shari'a na gaskiya"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Kuma kowa na iya rubuta ƙwararrun injiniyan gaggawa akan CV. Fayil yana nuna shi."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Taimaka wa ƙungiyar samun ingantaccen sakamako",
+    "items": [
+     "Nemo ainihin ayyukan ƙungiyar na mako-mako",
+     "Yarda da ƙa'idodin bayanai kafin kowane horo",
+     "Farashin da iyakar aikin a sarari",
+     "Nuna hujja tare da nazarin shari'a na gaskiya"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "flipchart",
+   "say": [
+    "Wani manajan reshen kula da harkokin kudi a Ilorin ya bukaci Zainab ta koyar da ma’aikatan AI. Ta yi hira da ma'aikata 6 na tsawon mintuna 20 kowanne. Kyakkyawan ganowa galibi sauraro ne."
+   ],
+   "panel": {
+    "kicker": "Ganowa",
+    "heading": "Daga ganowa zuwa tsarin horo",
+    "items": [
+     "Yan kungiyar hira",
+     "Lissafin ayyuka masu maimaitawa da lokacin da aka ɗauka",
+     "Tattara samfuran gaske, an cire cikakkun bayanai",
+     "Tsara ta ƙima da haɗari",
+     "Yarda da ayyuka masu fifiko guda uku"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "flipchart",
+   "say": [
+    "Ta jera ayyuka 11 masu maimaitawa. Rahoton reshe na mako-mako yana ɗaukar kimanin sa'o'i 3."
+   ],
+   "panel": {
+    "kicker": "Ganowa",
+    "heading": "Daga ganowa zuwa tsarin horo",
+    "items": [
+     "Yan kungiyar hira",
+     "Lissafin ayyuka masu maimaitawa da lokacin da aka ɗauka",
+     "Tattara samfuran gaske, an cire cikakkun bayanai",
+     "Tsara ta ƙima da haɗari",
+     "Yarda da ayyuka masu fifiko guda uku"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "flipchart",
+   "say": [
+    "Ta tattara samfurori tare da cire bayanan sirri. Waɗannan sun zama lokuta na gwaji."
+   ],
+   "panel": {
+    "kicker": "Ganowa",
+    "heading": "Daga ganowa zuwa tsarin horo",
+    "items": [
+     "Yan kungiyar hira",
+     "Lissafin ayyuka masu maimaitawa da lokacin da aka ɗauka",
+     "Tattara samfuran gaske, an cire cikakkun bayanai",
+     "Tsara ta ƙima da haɗari",
+     "Yarda da ayyuka masu fifiko guda uku"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Bayanan filin sun ƙunshi sunayen abokan ciniki, adireshi da kuma BVNs, don haka ta yi musu alama: babu bayanan abokin ciniki a cikin kayan aikin jama'a, sai dai idan banki ya amince da kayan aiki da tsari."
+   ],
+   "panel": {
+    "kicker": "Ganowa",
+    "heading": "Daga ganowa zuwa tsarin horo",
+    "items": [
+     "Yan kungiyar hira",
+     "Lissafin ayyuka masu maimaitawa da lokacin da aka ɗauka",
+     "Tattara samfuran gaske, an cire cikakkun bayanai",
+     "Tsara ta ƙima da haɗari",
+     "Yarda da ayyuka masu fifiko guda uku"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Manajan ya amince da horarwa akan ayyuka uku na gaske, tare da rubutaccen ƙayyadaddun ƙa'idar bayanai, da lokutan tushe don aunawa akan gaba."
+   ],
+   "panel": {
+    "kicker": "Ganowa",
+    "heading": "Daga ganowa zuwa tsarin horo",
+    "items": [
+     "Yan kungiyar hira",
+     "Lissafin ayyuka masu maimaitawa da lokacin da aka ɗauka",
+     "Tattara samfuran gaske, an cire cikakkun bayanai",
+     "Tsara ta ƙima da haɗari",
+     "Yarda da ayyuka masu fifiko guda uku"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Yarda da ƙa'idodin bayanai a rubuce kafin kowane aikin hannu.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Manya suna koyon fasaha mai amfani da sauri ta hanyar yin ta akan aikin nasu. Rike zaman gajere, misali minti 90."
+   ],
+   "panel": {
+    "kicker": "Tsarin horo",
+    "heading": "Gudun kowane zaman akan aikin gaske",
+    "items": [
+     "Ayyukan fifiko ɗaya a kowane zama",
+     "Nuna saurin gaggawa, gina sigar kashi shida",
+     "Kowa yana daidaita shi zuwa samfurin nasu",
+     "Yi maki tare da rubutun, ajiye zuwa ɗakin karatu da aka raba"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Nuna saurin gaggawa da fitarwa, sannan gina sigar kashi shida tare."
+   ],
+   "panel": {
+    "kicker": "Tsarin horo",
+    "heading": "Gudun kowane zaman akan aikin gaske",
+    "items": [
+     "Ayyukan fifiko ɗaya a kowane zama",
+     "Nuna saurin gaggawa, gina sigar kashi shida",
+     "Kowa yana daidaita shi zuwa samfurin nasu",
+     "Yi maki tare da rubutun, ajiye zuwa ɗakin karatu da aka raba"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Kowane mutum yana daidaita shi zuwa samfurin kansa akan na'urarsa. Fara farawa a kan ƙaramin aiki mai haɗari, kuma haɗa su tare da masu amfani masu ƙarfin gwiwa."
+   ],
+   "panel": {
+    "kicker": "Tsarin horo",
+    "heading": "Gudun kowane zaman akan aikin gaske",
+    "items": [
+     "Ayyukan fifiko ɗaya a kowane zama",
+     "Nuna saurin gaggawa, gina sigar kashi shida",
+     "Kowa yana daidaita shi zuwa samfurin nasu",
+     "Yi maki tare da rubutun, ajiye zuwa ɗakin karatu da aka raba"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Yi maki sakamakon, kuma ajiye samfurin da aka yarda a cikin babban fayil ɗin da aka raba. Yi gaskiya game da iyakoki: AI shine mataimaki na farko da sauri wanda aikinsa suke dubawa."
+   ],
+   "panel": {
+    "kicker": "Tsarin horo",
+    "heading": "Gudun kowane zaman akan aikin gaske",
+    "items": [
+     "Ayyukan fifiko ɗaya a kowane zama",
+     "Nuna saurin gaggawa, gina sigar kashi shida",
+     "Kowa yana daidaita shi zuwa samfurin nasu",
+     "Yi maki tare da rubutun, ajiye zuwa ɗakin karatu da aka raba"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Kirga duk sa'o'i, ba kawai sa'o'in da ke cikin dakin ba. Gano 6, shirya samfuri 8, kwana biyu na isarwa 10, da goyon bayan biyo baya 4. Wato 28 hours.",
+    "Adadin nata adadi ne da ta zaba bayan ta tambayi masu horarwa guda biyu a cikin hanyar sadarwar ta. Ba misali ba ne."
+   ],
+   "card": {
+    "title": "Farashin horon ƙungiyar kwana biyu",
+    "rows": [],
+    "note": "Figures masu kwatanta. Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Awanni 28 akan naira 25,000 shine 700,000."
+   ],
+   "card": {
+    "title": "Farashin horon ƙungiyar kwana biyu",
+    "rows": [
+     [
+      "Cajin lokaci, 28 hours",
+      "700,000"
+     ]
+    ],
+    "note": "Figures masu kwatanta. Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Littattafan aiki da aka buga, sufuri da bayanan wayar hannu suna ƙara 60,000."
+   ],
+   "card": {
+    "title": "Farashin horon ƙungiyar kwana biyu",
+    "rows": [
+     [
+      "Cajin lokaci, 28 hours",
+      "700,000"
+     ],
+     [
+      "Littattafan aiki, sufuri, bayanai",
+      "60,000"
+     ]
+    ],
+    "note": "Figures masu kwatanta. Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Hatsarin haɗari 10% yana ƙara 76,000."
+   ],
+   "card": {
+    "title": "Farashin horon ƙungiyar kwana biyu",
+    "rows": [
+     [
+      "Cajin lokaci, 28 hours",
+      "700,000"
+     ],
+     [
+      "Littattafan aiki, sufuri, bayanai",
+      "60,000"
+     ],
+     [
+      "10% haɗari",
+      "76,000"
+     ]
+    ],
+    "note": "Figures masu kwatanta. Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Kudinta Naira 836,000, kowane layi ya bayyana: 50% kafin a gano shi, 50% bayan haihuwa. Idan abokin ciniki ya yi shawarwari, ta rage iyaka maimakon ƙimarta."
+   ],
+   "card": {
+    "title": "Farashin horon ƙungiyar kwana biyu",
+    "rows": [
+     [
+      "Cajin lokaci, 28 hours",
+      "700,000"
+     ],
+     [
+      "Littattafan aiki, sufuri, bayanai",
+      "60,000"
+     ],
+     [
+      "10% haɗari",
+      "76,000"
+     ]
+    ],
+    "note": "Figures masu kwatanta. Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Rubuta lissafin biyu a cikin tsari, tare da maƙasudai masu aunawa. Misali: an tsara amsa koke kuma an duba cikin kusan mintuna 8 kowanne, maimakon 15."
+   ],
+   "panel": {
+    "kicker": "Iyakar",
+    "heading": "A cikin iyaka kuma ba ta da iyaka",
+    "mode": "compare",
+    "left_h": "A cikin iyaka",
+    "left": [
+     "Ayyuka guda uku da aka amince da su da samfuri",
+     "Kwanaki biyu horo ga ma'aikata shida",
+     "Goyan bayan sa'o'i huɗu",
+     "Dokokin amfani da bayanan da aka rubuta"
+    ],
+    "right_h": "Ya wuce iyaka",
+    "right": [
+     "Rubuta rahotanni ga ma'aikata",
+     "Horar da ƙarin ma'aikata",
+     "Saita asusun AI da aka biya",
+     "Shawarar doka akan bin bayanan"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Lokacin da abokin ciniki ya nemi ƙarin abu ɗaya, faɗi e ga ƙimar kuma suna farashin, sannan tabbatar da canjin a rubuce.",
+    "Kada ku taɓa yin alƙawarin cewa AI za ta rage rabin aikinsu ko yin rahotanni marasa kuskure. Yi alƙawarin abin da kuke sarrafawa."
+   ],
+   "panel": {
+    "kicker": "Iyakar",
+    "heading": "A cikin iyaka kuma ba ta da iyaka",
+    "mode": "compare",
+    "left_h": "A cikin iyaka",
+    "left": [
+     "Ayyuka guda uku da aka amince da su da samfuri",
+     "Kwanaki biyu horo ga ma'aikata shida",
+     "Goyan bayan sa'o'i huɗu",
+     "Dokokin amfani da bayanan da aka rubuta"
+    ],
+    "right_h": "Ya wuce iyaka",
+    "right": [
+     "Rubuta rahotanni ga ma'aikata",
+     "Horar da ƙarin ma'aikata",
+     "Saita asusun AI da aka biya",
+     "Shawarar doka akan bin bayanan"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Halima, mai kula da haɗin gwiwar daga Module 1, ta rubuta nazarin shari'a don neman aikin NGO. Ayyukanta: taƙaitaccen wata-wata ga mambobi 40 akan WhatsApp."
+   ],
+   "panel": {
+    "kicker": "Fayil",
+    "heading": "Nazarin shari'ar kafin-da-bayan",
+    "items": [
+     "Aiki: abin da yake da kuma wanda ya kasance ga",
+     "Kafin: m m m da abin da ba daidai ba",
+     "Canje-canje: mahallin, ƙuntatawa, misalai",
+     "Gwaji: makin rubric na kowane sigar",
+     "Sakamako: adana lokaci, gami da dubawa"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Faɗawarta ta farko ta ba da kalmomi 350 na yau da kullun tare da da'awar ba a cikin bayanin kula ba. Ya ci 9 cikin 20."
+   ],
+   "panel": {
+    "kicker": "Fayil",
+    "heading": "Nazarin shari'ar kafin-da-bayan",
+    "items": [
+     "Aiki: abin da yake da kuma wanda ya kasance ga",
+     "Kafin: m m m da abin da ba daidai ba",
+     "Canje-canje: mahallin, ƙuntatawa, misalai",
+     "Gwaji: makin rubric na kowane sigar",
+     "Sakamako: adana lokaci, gami da dubawa"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Ta kara da mai karatu, iyakar kalmomi 120, kanun labarai guda uku, dokar da za ta yi amfani da bayananta kawai, da misali guda daya da ya gabata."
+   ],
+   "panel": {
+    "kicker": "Fayil",
+    "heading": "Nazarin shari'ar kafin-da-bayan",
+    "items": [
+     "Aiki: abin da yake da kuma wanda ya kasance ga",
+     "Kafin: m m m da abin da ba daidai ba",
+     "Canje-canje: mahallin, ƙuntatawa, misalai",
+     "Gwaji: makin rubric na kowane sigar",
+     "Sakamako: adana lokaci, gami da dubawa"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Siga 3 ya sami matsakaicin 17.4 cikin 20 akan watanni 5 da suka gabata."
+   ],
+   "panel": {
+    "kicker": "Fayil",
+    "heading": "Nazarin shari'ar kafin-da-bayan",
+    "items": [
+     "Aiki: abin da yake da kuma wanda ya kasance ga",
+     "Kafin: m m m da abin da ba daidai ba",
+     "Canje-canje: mahallin, ƙuntatawa, misalai",
+     "Gwaji: makin rubric na kowane sigar",
+     "Sakamako: adana lokaci, gami da dubawa"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Zane-zane ya faɗi daga kusan mintuna 50 zuwa kusan 20, gami da cak. Ta bayar da rahoton raunin farko sigar gaskiya. Idan aikin ya fito daga aiki ko abokin ciniki, nemi izini kuma maye gurbin sunaye da matsayi."
+   ],
+   "panel": {
+    "kicker": "Fayil",
+    "heading": "Nazarin shari'ar kafin-da-bayan",
+    "items": [
+     "Aiki: abin da yake da kuma wanda ya kasance ga",
+     "Kafin: m m m da abin da ba daidai ba",
+     "Canje-canje: mahallin, ƙuntatawa, misalai",
+     "Gwaji: makin rubric na kowane sigar",
+     "Sakamako: adana lokaci, gami da dubawa"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Nemi izini kuma cire bayanan sirri tukuna.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Yi amfani da daftari tare da sunan kasuwancin ku, kuma karɓar kuɗi a cikin asusun kasuwanci ko ingantaccen sabis."
+   ],
+   "panel": {
+    "kicker": "Amincin kudi",
+    "heading": "A biya lafiya",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Daftari daidai",
+      "d": "Yi amfani da daftari tare da sunan kasuwancin ku da asusun kasuwanci ko sanannen sabis na biyan kuɗi."
+     },
+     {
+      "t": "Kar a taɓa raba lambobin",
+      "d": "Kada ku taɓa raba lambobin shiga ko OTP tare da duk wanda ke da'awar aiwatar da biyan ku."
+     },
+     {
+      "t": "Saka ajiya farko",
+      "d": "Ɗauki wani ɓangare na kuɗin kafin farawa gano, da sauran bayan bayarwa."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Kada ku taɓa raba lambobin shiga ko OTP tare da duk wanda ya ce yana sarrafa muku kuɗi."
+   ],
+   "panel": {
+    "kicker": "Amincin kudi",
+    "heading": "A biya lafiya",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Daftari daidai",
+      "d": "Yi amfani da daftari tare da sunan kasuwancin ku da asusun kasuwanci ko sanannen sabis na biyan kuɗi."
+     },
+     {
+      "t": "Kar a taɓa raba lambobin",
+      "d": "Kada ku taɓa raba lambobin shiga ko OTP tare da duk wanda ke da'awar aiwatar da biyan ku."
+     },
+     {
+      "t": "Saka ajiya farko",
+      "d": "Ɗauki wani ɓangare na kuɗin kafin farawa gano, da sauran bayan bayarwa."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Kuma a amince da sharuɗɗan biyan kuɗi a cikin shawara, kamar yadda Zainab ta yi."
+   ],
+   "panel": {
+    "kicker": "Amincin kudi",
+    "heading": "A biya lafiya",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Daftari daidai",
+      "d": "Yi amfani da daftari tare da sunan kasuwancin ku da asusun kasuwanci ko sanannen sabis na biyan kuɗi."
+     },
+     {
+      "t": "Kar a taɓa raba lambobin",
+      "d": "Kada ku taɓa raba lambobin shiga ko OTP tare da duk wanda ke da'awar aiwatar da biyan ku."
+     },
+     {
+      "t": "Saka ajiya farko",
+      "d": "Ɗauki wani ɓangare na kuɗin kafin farawa gano, da sauran bayan bayarwa."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Gudanar da bincike na mintuna 20 kuma rubuta taƙaitaccen shafi ɗaya. Farashin da iyakacin aiki ga ma'aikata biyar. Sannan rubuta nazarin shari'ar ku, tare da matakai uku na kwanaki 90 waɗanda ke da kwanaki da lambobi.",
+    "Yanzu ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi aiki",
+    "heading": "Ayyukanku na wannan tsarin",
+    "items": [
+     "Gudanar da ƙaramin bincike kuma rubuta taƙaice",
+     "Farashin da iyakacin aiki",
+     "Zana binciken shari'ar ku da shirin kwanaki 90"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

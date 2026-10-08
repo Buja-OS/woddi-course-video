@@ -1,0 +1,560 @@
+{
+ "course": "core-basic-tailoring-and-garment-repair",
+ "module": "m1",
+ "title": "San masana'anta, dinka masu ƙarfi na hannun hannu, auna daidai",
+ "course_title": "Gyaran Kayan Aiki & Gyaran Tufafi",
+ "shots": [
+  {
+   "demo": "garment_hanger",
+   "say": [
+    "San masana'anta, dinka masu ƙarfi na hannu, kuma auna daidai.",
+    "Wannan shi ne bidiyo don module ɗaya na Basic Teilo da Gyaran Tufafi."
+   ]
+  },
+  {
+   "demo": "fabric_measure",
+   "say": [
+    "Kusan kowane gida yana da tufafin da ke jiran ƙananan gyare-gyare. Mai dinkin gida yana samun aiki iri uku ne. Gyara yana dawo da rigar da ta lalace don amfani."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Aikin tela iri uku",
+    "items": [
+     "Gyara: dawo da rigar da ta lalace don amfani",
+     "Canji: canza dacewa ko tsayi",
+     "Yin: yanke da dinka sabon abu",
+     "Fara da gyarawa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "fabric_measure",
+   "say": [
+    "Canji yana canza dacewa ko tsayin rigar da aka riga aka yi."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Aikin tela iri uku",
+    "items": [
+     "Gyara: dawo da rigar da ta lalace don amfani",
+     "Canji: canza dacewa ko tsayi",
+     "Yin: yanke da dinka sabon abu",
+     "Fara da gyarawa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Yin yana nufin yanke da dinka sabon abu daga masana'anta."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Aikin tela iri uku",
+    "items": [
+     "Gyara: dawo da rigar da ta lalace don amfani",
+     "Canji: canza dacewa ko tsayi",
+     "Yin: yanke da dinka sabon abu",
+     "Fara da gyarawa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Fara da gyarawa. Yana buƙatar mafi ƙarancin kayan aiki kuma yana gina halayen da kuke buƙata daga baya: ɗinki kai tsaye, kyakkyawan gamawa da latsawa."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Aikin tela iri uku",
+    "items": [
+     "Gyara: dawo da rigar da ta lalace don amfani",
+     "Canji: canza dacewa ko tsayi",
+     "Yin: yanke da dinka sabon abu",
+     "Fara da gyarawa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "garment_hanger",
+   "say": [
+    "Kafin kowane aiki, duba masana'anta. Ana yin yadudduka daga zaren tsallaka a kusurwoyi daidai, kamar tabarma.",
+    "Ankara, shirt da denim an saka su. Da kyar suke mikewa, kuma gefunansu da aka yanke sun yi rauni, don haka dole ne ku gama wadancan gefuna."
+   ],
+   "panel": {
+    "kicker": "Duba farko",
+    "heading": "Saƙa ko saƙa?",
+    "mode": "compare",
+    "left_h": "Saƙa",
+    "left": [
+     "Zaren haye kamar tabarma",
+     "Da kyar ta mike",
+     "Yanke gefuna",
+     "Ankara, shirt, denim"
+    ],
+    "right_h": "Saƙa",
+    "right": [
+     "Anyi daga madaukai",
+     "Mikewa yayi ya koma baya",
+     "Yanke gefuna",
+     "T-shirts, riga, leggings"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "pattern_paper",
+   "say": [
+    "An yi masana'anta daga madaukai, kamar suwaita. T-shirts, rigar riga da leggings an saka su.",
+    "Don gwadawa, ja a hankali. Idan ya mike cikin sauki ya dawo, saƙa ne. Saƙa suna buƙatar ɗinki mai shimfiɗa, kamar kunkuntar zigzag, da allura na ballpoint."
+   ],
+   "panel": {
+    "kicker": "Duba farko",
+    "heading": "Saƙa ko saƙa?",
+    "mode": "compare",
+    "left_h": "Saƙa",
+    "left": [
+     "Zaren haye kamar tabarma",
+     "Da kyar ta mike",
+     "Yanke gefuna",
+     "Ankara, shirt, denim"
+    ],
+    "right_h": "Saƙa",
+    "right": [
+     "Anyi daga madaukai",
+     "Mikewa yayi ya koma baya",
+     "Yanke gefuna",
+     "T-shirts, riga, leggings"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "sewing_machine",
+   "say": [
+    "Dinka hannu guda shida suna rufe kusan kowane gyara. Gudun dinkin yana shiga da fita a madaidaiciya. Yi amfani da shi don tacking kafin dinki na inji."
+   ],
+   "panel": {
+    "kicker": "Dinka hannu guda shida",
+    "heading": "Daidaitaccen dinki don aikin",
+    "items": [
+     "Running dinki: basting da haske seams",
+     "Backstitch: mafi ƙarfi kabu hannun",
+     "Slip dinki: yana rufe rata ba ganuwa",
+     "Makafi makafi: kwalayen da ba dole ba ne su nuna",
+     "Whipstitch: haɗa gefuna da aka gama, faci",
+     "Girgizar ƙasa: yana dakatar da ɗanyen gefuna"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "sewing_machine",
+   "say": [
+    "Backstitch shine mafi ƙarfin kabu na hannu. Kowane dinki yana taɓa na ƙarshe. Yi amfani da shi don gyara tsaga kabu."
+   ],
+   "panel": {
+    "kicker": "Dinka hannu guda shida",
+    "heading": "Daidaitaccen dinki don aikin",
+    "items": [
+     "Running dinki: basting da haske seams",
+     "Backstitch: mafi ƙarfi kabu hannun",
+     "Slip dinki: yana rufe rata ba ganuwa",
+     "Makafi makafi: kwalayen da ba dole ba ne su nuna",
+     "Whipstitch: haɗa gefuna da aka gama, faci",
+     "Girgizar ƙasa: yana dakatar da ɗanyen gefuna"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "sewing_machine",
+   "say": [
+    "Slip stitch, wanda kuma ake kira tsani stitch, yana rufe buɗaɗɗe daga waje don kada kowa ya iya gani."
+   ],
+   "panel": {
+    "kicker": "Dinka hannu guda shida",
+    "heading": "Daidaitaccen dinki don aikin",
+    "items": [
+     "Running dinki: basting da haske seams",
+     "Backstitch: mafi ƙarfi kabu hannun",
+     "Slip dinki: yana rufe rata ba ganuwa",
+     "Makafi makafi: kwalayen da ba dole ba ne su nuna",
+     "Whipstitch: haɗa gefuna da aka gama, faci",
+     "Girgizar ƙasa: yana dakatar da ɗanyen gefuna"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "iron_press",
+   "say": [
+    "Dinka makaho yana ɗaukar zare ɗaya ko biyu kawai na rigar, don haka gefen baya nunawa a waje."
+   ],
+   "panel": {
+    "kicker": "Dinka hannu guda shida",
+    "heading": "Daidaitaccen dinki don aikin",
+    "items": [
+     "Running dinki: basting da haske seams",
+     "Backstitch: mafi ƙarfi kabu hannun",
+     "Slip dinki: yana rufe rata ba ganuwa",
+     "Makafi makafi: kwalayen da ba dole ba ne su nuna",
+     "Whipstitch: haɗa gefuna da aka gama, faci",
+     "Girgizar ƙasa: yana dakatar da ɗanyen gefuna"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "iron_press",
+   "say": [
+    "Whipstitch ya wuce gefen don haɗa gefuna biyu da aka gama ko haɗa faci."
+   ],
+   "panel": {
+    "kicker": "Dinka hannu guda shida",
+    "heading": "Daidaitaccen dinki don aikin",
+    "items": [
+     "Running dinki: basting da haske seams",
+     "Backstitch: mafi ƙarfi kabu hannun",
+     "Slip dinki: yana rufe rata ba ganuwa",
+     "Makafi makafi: kwalayen da ba dole ba ne su nuna",
+     "Whipstitch: haɗa gefuna da aka gama, faci",
+     "Girgizar ƙasa: yana dakatar da ɗanyen gefuna"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "iron_press",
+   "say": [
+    "Ana yin aikin jujjuyawar juzu'i a kan ɗanyen gefu guda ɗaya, don dakatar da faɗuwa lokacin da ba ku da zigzag ko abin rufe fuska."
+   ],
+   "panel": {
+    "kicker": "Dinka hannu guda shida",
+    "heading": "Daidaitaccen dinki don aikin",
+    "items": [
+     "Running dinki: basting da haske seams",
+     "Backstitch: mafi ƙarfi kabu hannun",
+     "Slip dinki: yana rufe rata ba ganuwa",
+     "Makafi makafi: kwalayen da ba dole ba ne su nuna",
+     "Whipstitch: haɗa gefuna da aka gama, faci",
+     "Girgizar ƙasa: yana dakatar da ɗanyen gefuna"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "sewing_machine",
+   "say": [
+    "Misali, makwabciyar Halima ta kawo rigar auduga mai tsagewar santimita 6 a cikin dinkin karkashin hannu. Kawai dinkin ya karye.",
+    "Mataki na daya. Halima ta juye rigar a ciki ta ciro zaren da suka karye."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Gyaran kabu mai tsaga a ƙarƙashin hannu",
+    "items": [
+     "Juya ciki, fitar da zaren da aka karye",
+     "Pin gefuna tare da tsohon layin dinki",
+     "Kulli 1 cm kafin raba",
+     "Backstitch zuwa 1 cm bayan tsaga",
+     "Dinki biyu na kullewa, datsa, latsa"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "sewing_machine",
+   "say": [
+    "Mataki na biyu. Ta haɗa gefuna biyu tare tare da ainihin layin ɗinki. Har yanzu tana iya ganinsa a matsayin ƙananan ramuka."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Gyaran kabu mai tsaga a ƙarƙashin hannu",
+    "items": [
+     "Juya ciki, fitar da zaren da aka karye",
+     "Pin gefuna tare da tsohon layin dinki",
+     "Kulli 1 cm kafin raba",
+     "Backstitch zuwa 1 cm bayan tsaga",
+     "Dinki biyu na kullewa, datsa, latsa"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "sewing_machine",
+   "say": [
+    "Mataki na uku. Ta fara da kullin kusan 1 cm kafin a raba, a cikin tsohuwar dinki wanda har yanzu yana da kyau."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Gyaran kabu mai tsaga a ƙarƙashin hannu",
+    "items": [
+     "Juya ciki, fitar da zaren da aka karye",
+     "Pin gefuna tare da tsohon layin dinki",
+     "Kulli 1 cm kafin raba",
+     "Backstitch zuwa 1 cm bayan tsaga",
+     "Dinki biyu na kullewa, datsa, latsa"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "thread_spools",
+   "say": [
+    "Mataki na hudu. Ta dinka dinkin baya, tare da dinka mai tsayi kusan 2 zuwa 3 mm, kuma ta ƙare 1 cm da tsaga."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Gyaran kabu mai tsaga a ƙarƙashin hannu",
+    "items": [
+     "Juya ciki, fitar da zaren da aka karye",
+     "Pin gefuna tare da tsohon layin dinki",
+     "Kulli 1 cm kafin raba",
+     "Backstitch zuwa 1 cm bayan tsaga",
+     "Dinki biyu na kullewa, datsa, latsa"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "thread_spools",
+   "say": [
+    "Mataki na biyar. Tana gamawa da dunƙule biyu, ta gyara zaren, sannan ta danna ɗinki.",
+    "Kada a ƙare ta hanyar yanke zaren kawai. Za a cire dinkin a wankewar farko. Kuma kar a jawo dinki sosai, ko masana'anta za su tsage."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Gyaran kabu mai tsaga a ƙarƙashin hannu",
+    "items": [
+     "Juya ciki, fitar da zaren da aka karye",
+     "Pin gefuna tare da tsohon layin dinki",
+     "Kulli 1 cm kafin raba",
+     "Backstitch zuwa 1 cm bayan tsaga",
+     "Dinki biyu na kullewa, datsa, latsa"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Matsa cikin dinki mai kyau kuma koyaushe kulle ƙarshen",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "sewing_machine",
+   "say": [
+    "Misali Bisi tana kawo wa Fatima wandon makarantar danta. Yana saka su da takalman makaranta, ita kuma Fatima ta ninke ledar har sai da ya taba saman takalmin."
+   ],
+   "panel": {
+    "kicker": "Auna sau biyu, yanke sau ɗaya",
+    "heading": "Gajeren wando na makaranta",
+    "items": [
+     "Ninka sama don taɓa saman takalmin",
+     "Auna: 6 cm yayi tsayi sosai",
+     "Tsohuwar hem 3 cm, don haka 9 cm ƙasa da ninka",
+     "Ci gaba da ba da izinin ciyawa 4 cm",
+     "Tsawon tsayin 5 cm"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "sewing_machine",
+   "say": [
+    "Ta fille da aunawa. Wando na da tsayin cm 6."
+   ],
+   "panel": {
+    "kicker": "Auna sau biyu, yanke sau ɗaya",
+    "heading": "Gajeren wando na makaranta",
+    "items": [
+     "Ninka sama don taɓa saman takalmin",
+     "Auna: 6 cm yayi tsayi sosai",
+     "Tsohuwar hem 3 cm, don haka 9 cm ƙasa da ninka",
+     "Ci gaba da ba da izinin ciyawa 4 cm",
+     "Tsawon tsayin 5 cm"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "sewing_machine",
+   "say": [
+    "Tsohuwar ƙwanƙwasa tana da zurfin 3 cm. Don haka akwai 9 cm na masana'anta a ƙarƙashin sabon ninka."
+   ],
+   "panel": {
+    "kicker": "Auna sau biyu, yanke sau ɗaya",
+    "heading": "Gajeren wando na makaranta",
+    "items": [
+     "Ninka sama don taɓa saman takalmin",
+     "Auna: 6 cm yayi tsayi sosai",
+     "Tsohuwar hem 3 cm, don haka 9 cm ƙasa da ninka",
+     "Ci gaba da ba da izinin ciyawa 4 cm",
+     "Tsawon tsayin 5 cm"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "fabric_measure",
+   "say": [
+    "Wando yawanci suna buƙatar izinin ciyawa na kusan 4 cm. Ta yiwa layin ninkawa alama da alli, sai kuma layin yankan 4 cm ƙasa da shi."
+   ],
+   "panel": {
+    "kicker": "Auna sau biyu, yanke sau ɗaya",
+    "heading": "Gajeren wando na makaranta",
+    "items": [
+     "Ninka sama don taɓa saman takalmin",
+     "Auna: 6 cm yayi tsayi sosai",
+     "Tsohuwar hem 3 cm, don haka 9 cm ƙasa da ninka",
+     "Ci gaba da ba da izinin ciyawa 4 cm",
+     "Tsawon tsayin 5 cm"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "fabric_measure",
+   "say": [
+    "Don haka, tana riƙe da 4 cm kuma ta yanke 5 cm. Ba za a iya mayar da kayan da aka yanke ba, don haka auna ƙafafu biyu kafin yanke."
+   ],
+   "panel": {
+    "kicker": "Auna sau biyu, yanke sau ɗaya",
+    "heading": "Gajeren wando na makaranta",
+    "items": [
+     "Ninka sama don taɓa saman takalmin",
+     "Auna: 6 cm yayi tsayi sosai",
+     "Tsohuwar hem 3 cm, don haka 9 cm ƙasa da ninka",
+     "Ci gaba da ba da izinin ciyawa 4 cm",
+     "Tsawon tsayin 5 cm"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Yi alama layin ninkawa da layin yanke kafin ka yanke",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "fabric_cut",
+   "say": [
+    "Yanzu saita kusurwa mai aminci, tare da haske mai kyau da rana da haske mai haske da dare.",
+    "Ajiye fil da allura a cikin rufaffiyar kwano, kada a cikin bakinka, kuma a rufe almakashi da nesantar yara.",
+    "Tsaya ƙarfe a diddige, kiyaye kebul ɗinsa daga gefen, kuma kashe shi a bango idan kun gama.",
+    "Gudu kowane janareta a waje, nesa da kofofi da tagogi. Turinsa ya ƙunshi carbon monoxide, iskar gas mai guba da ba za ka iya wari ba."
+   ],
+   "panel": {
+    "kicker": "Tsaro na farko",
+    "heading": "Wurin aiki mai aminci, mai haske",
+    "items": [
+     "Kyakkyawan haske akan aikin ku",
+     "Allura da fil a cikin akwati rufaffiyar",
+     "An rufe almakashi, ba za a iya isa ga yara ba",
+     "An cire baƙin ƙarfe bayan amfani",
+     "Babu igiyoyi masu biyo baya",
+     "Generator a waje, nesa da tagogi"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Don haka ku tuna. Fara da gyarawa. Duba saƙa ko saƙa. Backstitch shine mafi ƙarfi ɗin kabu na hannu, kuma kowane layi yana ƙarewa da ɗigon kullewa.",
+    "Auna snug amma ba m, rubuta lambobi a santimita lokaci guda, sa'an nan yi alama biyu Lines kafin ka yanke."
+   ],
+   "panel": {
+    "kicker": "Ka tuna",
+    "heading": "Mabuɗin mahimmanci",
+    "items": [
+     "Fara da aikin gyarawa",
+     "Filayen saƙa; saƙa yana miƙewa da murɗawa",
+     "Backstitch ya fi karfi; gama da makullai",
+     "Auna snug, rubuta cikin cm lokaci guda",
+     "Alama layin ninka da yanke layin farko"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "garment_hanger",
+   "say": [
+    "Ayyukan aikinku: ƙera ɓangarorin masana'anta guda shida cikin saƙa da saƙa, ɗinka samfurin tare da duk ɗinki shida, auna ɗan uwa ɗaya, sannan saita kusurwar aikinku mai aminci.",
+    "Yanzu ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Ayyukanku",
+    "heading": "Yanzu ka gwada",
+    "items": [
+     "Zazzage yadudduka shida: saƙa ko saƙa",
+     "Yi samfurin mai-dika shida",
+     "Auna ɗan gida ɗaya a cm",
+     "Saita kusurwar aikinku lafiya"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

@@ -1,0 +1,496 @@
+{
+ "course": "marketing-analytics-reporting",
+ "module": "m1",
+ "title": "Measure what matters: KPIs, formulas and who earned the sale",
+ "course_title": "Marketing Analytics & Reporting",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Measure what matters: KPIs, formulas, and who really earned the sale.",
+    "This is the video for Module 1 of Marketing Analytics and Reporting."
+   ]
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Many reports say: 40 posts, 120,000 impressions, 2,300 likes. All true. But the owner still cannot answer her real question. Should I keep spending this money, and where?"
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "From activity reports to decisions",
+    "items": [
+     "Decision: what to change",
+     "Business outcome: sales, leads",
+     "Channel efficiency: CPA, ROAS",
+     "Activity: posts, impressions"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "A strong report starts at the top. The decision, then the business outcome, such as sales or leads."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "From activity reports to decisions",
+    "items": [
+     "Decision: what to change",
+     "Business outcome: sales, leads",
+     "Channel efficiency: CPA, ROAS",
+     "Activity: posts, impressions"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Below that, channel numbers that explain the result. Activity comes last, only as context. So before you open any dashboard, ask what decision the report must support."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "From activity reports to decisions",
+    "items": [
+     "Decision: what to change",
+     "Business outcome: sales, leads",
+     "Channel efficiency: CPA, ROAS",
+     "Activity: posts, impressions"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ads",
+   "say": [
+    "Amaka wants to know whether to raise ad spend in April, and on which platform. Her order sheet shows 95 orders worth 1,710,000 naira in March."
+   ],
+   "card": {
+    "title": "Amaka's March marketing spend",
+    "rows": [],
+    "note": "Practice figures. Naira prices are approximate."
+   }
+  },
+  {
+   "demo": "laptop_ads",
+   "say": [
+    "She spent 300,000 naira on Meta ads and 150,000 on Google ads."
+   ],
+   "card": {
+    "title": "Amaka's March marketing spend",
+    "rows": [
+     [
+      "Meta ads",
+      "300,000"
+     ],
+     [
+      "Google ads",
+      "150,000"
+     ]
+    ],
+    "note": "Practice figures. Naira prices are approximate."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "That is 450,000 naira in total. Divide revenue by spend, and every 1 naira of marketing was matched by 3.80 naira of sales. Each order cost about 4,737 naira in marketing.",
+    "But is 3.8 good? Only the margin can tell. If product, packaging and delivery take 60% of the price, only 40% is left for marketing and overheads. Always ask for the margin first."
+   ],
+   "card": {
+    "title": "Amaka's March marketing spend",
+    "rows": [
+     [
+      "Meta ads",
+      "300,000"
+     ],
+     [
+      "Google ads",
+      "150,000"
+     ]
+    ],
+    "note": "Practice figures. Naira prices are approximate."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "A measurement plan fixes what you will measure before results arrive, so nobody changes the meaning of success afterwards. Start with the objective, then one primary KPI, a key performance indicator."
+   ],
+   "panel": {
+    "kicker": "Before the campaign",
+    "heading": "A one-page measurement plan",
+    "items": [
+     "Business objective, in plain words",
+     "One primary KPI",
+     "Three to five driver metrics",
+     "Baselines and targets with a date",
+     "Two or three segments to compare"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Add the driver metrics that move it, today's baseline and a target, and the segments you will compare, such as new versus returning customers."
+   ],
+   "panel": {
+    "kicker": "Before the campaign",
+    "heading": "A one-page measurement plan",
+    "items": [
+     "Business objective, in plain words",
+     "One primary KPI",
+     "Three to five driver metrics",
+     "Baselines and targets with a date",
+     "Two or three segments to compare"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "And write each formula exactly. A conversion rate per click and one per session give different answers, so never compare them."
+   ],
+   "panel": {
+    "kicker": "Before the campaign",
+    "heading": "A one-page measurement plan",
+    "items": [
+     "Business objective, in plain words",
+     "One primary KPI",
+     "Three to five driver metrics",
+     "Baselines and targets with a date",
+     "Two or three segments to compare"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Write the formula and data source next to every metric.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "ROAS, return on ad spend, uses the revenue one platform says it caused. Each platform reports its own."
+   ],
+   "panel": {
+    "kicker": "Two key ratios",
+    "heading": "ROAS or MER?",
+    "mode": "compare",
+    "left_h": "ROAS",
+    "left": [
+     "Revenue credited to ads / ad spend",
+     "One platform's own claim",
+     "Used to tune each channel"
+    ],
+    "right_h": "MER",
+    "right": [
+     "Total revenue / total marketing spend",
+     "Uses the business's real totals",
+     "Trusted by senior managers"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "MER, the marketing efficiency ratio, uses real total revenue and total spend. Two platforms cannot inflate it by claiming the same sale. You will use both."
+   ],
+   "panel": {
+    "kicker": "Two key ratios",
+    "heading": "ROAS or MER?",
+    "mode": "compare",
+    "left_h": "ROAS",
+    "left": [
+     "Revenue credited to ads / ad spend",
+     "One platform's own claim",
+     "Used to tune each channel"
+    ],
+    "right_h": "MER",
+    "right": [
+     "Total revenue / total marketing spend",
+     "Uses the business's real totals",
+     "Trusted by senior managers"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "For example, Halima sells fabrics online from Kano. Last month, 12,000 sessions at 1.2% conversion gave 144 orders. At 20,000 naira each, that is 2,880,000 naira."
+   ],
+   "panel": {
+    "kicker": "Find the lever",
+    "heading": "Halima's KPI tree",
+    "items": [
+     "12,000 sessions x 1.2% = 144 orders",
+     "144 x 20,000 naira = 2,880,000 naira",
+     "Target 3,000,000 naira: 150 orders",
+     "Lever A: 12,500 sessions",
+     "Lever B: 1.25% conversion"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "She wants 3,000,000 naira. That needs 150 orders, just 6 more."
+   ],
+   "panel": {
+    "kicker": "Find the lever",
+    "heading": "Halima's KPI tree",
+    "items": [
+     "12,000 sessions x 1.2% = 144 orders",
+     "144 x 20,000 naira = 2,880,000 naira",
+     "Target 3,000,000 naira: 150 orders",
+     "Lever A: 12,500 sessions",
+     "Lever B: 1.25% conversion"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "She can get 500 more sessions, or lift conversion to 1.25%. Showing delivery fees and adding a WhatsApp help button may cost less than ads, so she tests that lever first."
+   ],
+   "panel": {
+    "kicker": "Find the lever",
+    "heading": "Halima's KPI tree",
+    "items": [
+     "12,000 sessions x 1.2% = 144 orders",
+     "144 x 20,000 naira = 2,880,000 naira",
+     "Target 3,000,000 naira: 150 orders",
+     "Lever A: 12,500 sessions",
+     "Lever B: 1.25% conversion"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "This is the KPI tree. Each branch shows you a lever to pull."
+   ],
+   "panel": {
+    "kicker": "Find the lever",
+    "heading": "Halima's KPI tree",
+    "items": [
+     "12,000 sessions x 1.2% = 144 orders",
+     "144 x 20,000 naira = 2,880,000 naira",
+     "Target 3,000,000 naira: 150 orders",
+     "Lever A: 12,500 sessions",
+     "Lever B: 1.25% conversion"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Revenue = sessions x conversion rate x average order value",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "For example, Bola saw an Instagram ad, later searched on Google, then bought after an email. Attribution is the rule that shares the credit.",
+    "Under last click, email looks like the hero."
+   ],
+   "panel": {
+    "kicker": "Attribution",
+    "heading": "One 60,000 naira order, three stories",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Last click",
+      "d": "The final click gets all the credit. The email gets 60,000 naira."
+     },
+     {
+      "t": "First click",
+      "d": "The first touch gets all the credit. The Instagram ad gets 60,000 naira."
+     },
+     {
+      "t": "Linear",
+      "d": "Every touch shares equally: 20,000 naira each to Instagram, Google and email."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Under first click, Instagram takes it all."
+   ],
+   "panel": {
+    "kicker": "Attribution",
+    "heading": "One 60,000 naira order, three stories",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Last click",
+      "d": "The final click gets all the credit. The email gets 60,000 naira."
+     },
+     {
+      "t": "First click",
+      "d": "The first touch gets all the credit. The Instagram ad gets 60,000 naira."
+     },
+     {
+      "t": "Linear",
+      "d": "Every touch shares equally: 20,000 naira each to Instagram, Google and email."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Under linear, each gets 20,000 naira. The real sale never changes, only the story. So label every number with its rule. GA4 now offers data-driven and last-click models. The others were removed in November 2023."
+   ],
+   "panel": {
+    "kicker": "Attribution",
+    "heading": "One 60,000 naira order, three stories",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Last click",
+      "d": "The final click gets all the credit. The email gets 60,000 naira."
+     },
+     {
+      "t": "First click",
+      "d": "The first touch gets all the credit. The Instagram ad gets 60,000 naira."
+     },
+     {
+      "t": "Linear",
+      "d": "Every touch shares equally: 20,000 naira each to Instagram, Google and email."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ads",
+   "say": [
+    "Meta and Google each count conversions by their own rules, so their totals often add up to more orders than you received.",
+    "Attribution also cannot prove cause. In this test, the group that saw retargeting ads made 300 purchases."
+   ],
+   "panel": {
+    "kicker": "Did the ads cause it?",
+    "heading": "A holdout test for retargeting",
+    "mode": "compare",
+    "left_h": "Saw the ads",
+    "left": [
+     "5,000 people",
+     "300 purchases",
+     "6.0% bought"
+    ],
+    "right_h": "No ads",
+    "right": [
+     "5,000 people",
+     "250 purchases",
+     "5.0% bought"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "A similar group with no ads still made 250. Only the 50 extra were caused by the ads.",
+    "So the true cost per extra purchase was 5,000 naira, not the 833 naira the platform reported. That is six times higher."
+   ],
+   "panel": {
+    "kicker": "Did the ads cause it?",
+    "heading": "A holdout test for retargeting",
+    "mode": "compare",
+    "left_h": "Saw the ads",
+    "left": [
+     "5,000 people",
+     "300 purchases",
+     "6.0% bought"
+    ],
+    "right_h": "No ads",
+    "right": [
+     "5,000 people",
+     "250 purchases",
+     "5.0% bought"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "To remember. Lead with outcomes. Know the margin before you call a result good. Fix your plan and formulas first.",
+    "Label every number with its source and rule, and show bad news as clearly as good news."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "Lead with outcomes, not activity",
+     "Ask for the margin before judging a ratio",
+     "Write a measurement plan first",
+     "Label every number with its rule",
+     "Holdout tests show what ads truly caused"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Now write two decision questions for a real business, build a one-page measurement plan, and re-credit five orders in a spreadsheet.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice task",
+    "heading": "Your tasks for this module",
+    "items": [
+     "Turn a report request into decision questions",
+     "Write a one-page measurement plan",
+     "Re-credit five orders under four rules"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

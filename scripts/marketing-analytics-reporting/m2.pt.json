@@ -1,0 +1,482 @@
+{
+ "course": "marketing-analytics-reporting",
+ "module": "m2",
+ "title": "Rastreie, reconcilie e relate: o fluxo de trabalho mensal",
+ "course_title": "Análise e relatórios de marketing",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Rastreie, reconcilie e relate: o fluxo de trabalho mensal.",
+    "Este é o vídeo do Módulo 2 de Análise e Relatórios de Marketing."
+   ]
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Cada relatório é tão bom quanto o rastreamento nele contido. Então, primeiro você configura o GA4, a ferramenta analítica gratuita do Google, e marca cada link que você compartilha."
+   ],
+   "panel": {
+    "kicker": "O fluxo de trabalho principal",
+    "heading": "Três trabalhos que você repete todo mês",
+    "items": [
+     "Rastrear: principais eventos do GA4 e links marcados",
+     "Reconciliar: todas as fontes em uma planilha",
+     "Relatório: uma página, insights verificados"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Em seguida, você reúne plataformas de anúncios, análises e pagamentos em uma única planilha e explica por que eles discordam."
+   ],
+   "panel": {
+    "kicker": "O fluxo de trabalho principal",
+    "heading": "Três trabalhos que você repete todo mês",
+    "items": [
+     "Rastrear: principais eventos do GA4 e links marcados",
+     "Reconciliar: todas as fontes em uma planilha",
+     "Relatório: uma página, insights verificados"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Finalmente, você o transforma em um relatório de uma página que um proprietário ocupado lê em cinco minutos. Este é o fluxo de trabalho que você repetirá para cada cliente ou empregador."
+   ],
+   "panel": {
+    "kicker": "O fluxo de trabalho principal",
+    "heading": "Três trabalhos que você repete todo mês",
+    "items": [
+     "Rastrear: principais eventos do GA4 e links marcados",
+     "Reconciliar: todas as fontes em uma planilha",
+     "Relatório: uma página, insights verificados"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "GA4 registra ações como eventos. Marque aqueles que importam como eventos principais. Muitas empresas nigerianas fecham vendas no WhatsApp, portanto, rastreie também os cliques nos botões de bate-papo, mas relate-os separadamente dos pedidos. Um clique mostra juros, não pagamento."
+   ],
+   "panel": {
+    "kicker": "Configurar o GA4",
+    "heading": "Três configurações para acertar",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Principais eventos",
+      "d": "Marque a compra ou um clique no bate-papo do WhatsApp como um evento importante. Teste cada um você mesmo."
+     },
+     {
+      "t": "Retenção de dados",
+      "d": "Defina-o para 14 meses e combine o fuso horário e a moeda com a empresa."
+     },
+     {
+      "t": "Privacidade",
+      "d": "Nunca envie nomes, números de telefone ou e-mails para o GA4. Peça consentimento quando necessário."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Defina a retenção de dados para 14 meses e use o fuso horário e a moeda da empresa, por exemplo, África corta Lagos e naira."
+   ],
+   "panel": {
+    "kicker": "Configurar o GA4",
+    "heading": "Três configurações para acertar",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Principais eventos",
+      "d": "Marque a compra ou um clique no bate-papo do WhatsApp como um evento importante. Teste cada um você mesmo."
+     },
+     {
+      "t": "Retenção de dados",
+      "d": "Defina-o para 14 meses e combine o fuso horário e a moeda com a empresa."
+     },
+     {
+      "t": "Privacidade",
+      "d": "Nunca envie nomes, números de telefone ou e-mails para o GA4. Peça consentimento quando necessário."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "E proteja os dados das pessoas. Nunca coloque nomes, números de telefone ou endereços de e-mail em eventos ou links do GA4. Explique seu rastreamento no aviso de privacidade."
+   ],
+   "panel": {
+    "kicker": "Configurar o GA4",
+    "heading": "Três configurações para acertar",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Principais eventos",
+      "d": "Marque a compra ou um clique no bate-papo do WhatsApp como um evento importante. Teste cada um você mesmo."
+     },
+     {
+      "t": "Retenção de dados",
+      "d": "Defina-o para 14 meses e combine o fuso horário e a moeda com a empresa."
+     },
+     {
+      "t": "Privacidade",
+      "d": "Nunca envie nomes, números de telefone ou e-mails para o GA4. Peça consentimento quando necessário."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ads",
+   "say": [
+    "Sem tags, muitas visitas de aplicativos de chat chegam ao Direct, sem canal. Os parâmetros UTM são rótulos adicionados ao final de um link. Por exemplo, Funke vende bolos em Ibadan. Ela dá à sua campanha um nome em letras minúsculas."
+   ],
+   "panel": {
+    "kicker": "Ligações UTM",
+    "heading": "Funke marca sua campanha de bolo de Natal",
+    "items": [
+     "Sempre defina utm_source, utm_medium, utm_campaign",
+     "Um nome de campanha: xmas_cakes_2026",
+     "WhatsApp: fonte Whatsapp, meio social",
+     "Anúncios: médio pago_social; boletim informativo: e-mail",
+     "Grave todos os links e teste-os no GA4 Realtime"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_ads",
+   "say": [
+    "O link de transmissão do WhatsApp dela usa fonte Whatsapp e meio social. Os anúncios do Instagram usam mídias sociais pagas e o boletim informativo usa e-mail, então o GA4 classifica cada um no canal certo."
+   ],
+   "panel": {
+    "kicker": "Ligações UTM",
+    "heading": "Funke marca sua campanha de bolo de Natal",
+    "items": [
+     "Sempre defina utm_source, utm_medium, utm_campaign",
+     "Um nome de campanha: xmas_cakes_2026",
+     "WhatsApp: fonte Whatsapp, meio social",
+     "Anúncios: médio pago_social; boletim informativo: e-mail",
+     "Grave todos os links e teste-os no GA4 Realtime"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Ela registra cada link em uma planilha e testa cada um em seu telefone. E ela mantém tudo em letras minúsculas, porque o GA4 trata as letras maiúsculas como uma fonte diferente."
+   ],
+   "panel": {
+    "kicker": "Ligações UTM",
+    "heading": "Funke marca sua campanha de bolo de Natal",
+    "items": [
+     "Sempre defina utm_source, utm_medium, utm_campaign",
+     "Um nome de campanha: xmas_cakes_2026",
+     "WhatsApp: fonte Whatsapp, meio social",
+     "Anúncios: médio pago_social; boletim informativo: e-mail",
+     "Grave todos os links e teste-os no GA4 Realtime"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Sempre em letras minúsculas: Instagram e instagram tornam-se duas linhas.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Nenhuma ferramenta vê tudo. Cada plataforma de anúncios credita as vendas de acordo com suas próprias regras, e a Meta pode até contar as pessoas que apenas viram o anúncio. Ambos podem reivindicar o mesmo pedido."
+   ],
+   "panel": {
+    "kicker": "Reconciliando",
+    "heading": "Por que os números discordam",
+    "items": [
+     "Cada plataforma usa suas próprias regras e janelas",
+     "Meta e Google podem reivindicar o mesmo pedido",
+     "Bloqueadores de anúncios e cookies recusados ocultam vendas",
+     "Pedidos por WhatsApp e telefone nunca chegam ao GA4",
+     "Diferentes fusos horários ou intervalos de datas"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "As lacunas de rastreamento ocultam algumas vendas, os pedidos do WhatsApp nunca chegam ao GA4 a menos que você os adicione e as configurações incompatíveis mudam os resultados entre os dias."
+   ],
+   "panel": {
+    "kicker": "Reconciliando",
+    "heading": "Por que os números discordam",
+    "items": [
+     "Cada plataforma usa suas próprias regras e janelas",
+     "Meta e Google podem reivindicar o mesmo pedido",
+     "Bloqueadores de anúncios e cookies recusados ocultam vendas",
+     "Pedidos por WhatsApp e telefone nunca chegam ao GA4",
+     "Diferentes fusos horários ou intervalos de datas"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Seu painel Paystack e lista de pedidos do WhatsApp mostram 86 pedidos pagos no valor de 2.064.000 nairas."
+   ],
+   "card": {
+    "title": "Gastos com publicidade de Ngozi em novembro",
+    "rows": [],
+    "note": "Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Ela gastou 400.000 nairas no Meta e 250.000 no Google Ads. Meta reivindica 58 compras. O Google afirma 41. Juntos, são 99, 13 a mais do que os pedidos realmente pagos."
+   ],
+   "card": {
+    "title": "Gastos com publicidade de Ngozi em novembro",
+    "rows": [
+     [
+      "Meta-anúncios",
+      "400,000"
+     ],
+     [
+      "Anúncios do Google",
+      "250,000"
+     ]
+    ],
+    "note": "Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Então ela lidera com números de dinheiro real. Gasto total de 650.000 nairas. MER por volta de 3,18. Custo combinado por pedido de cerca de 7.558 naira. Os custos do canal são mostrados como um intervalo, porque as plataformas e o GA4 discordam."
+   ],
+   "card": {
+    "title": "Gastos com publicidade de Ngozi em novembro",
+    "rows": [
+     [
+      "Meta-anúncios",
+      "400,000"
+     ],
+     [
+      "Anúncios do Google",
+      "250,000"
+     ]
+    ],
+    "note": "Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Use números de plataforma para sintonizar dentro de cada plataforma. Nunca adicione ou calcule a média do ROAS de duas plataformas. Isso conta as vendas reivindicadas duas vezes."
+   ],
+   "panel": {
+    "kicker": "Qual número para quê",
+    "heading": "Reivindicações da plataforma versus dinheiro recebido",
+    "mode": "compare",
+    "left_h": "Reivindicações de plataforma",
+    "left": [
+     "Janela de atribuição própria",
+     "Pode contar a visualização",
+     "Melhor para ajustar essa plataforma"
+    ],
+    "right_h": "Registro de pagamentos",
+    "right": [
+     "Conta cada venda real uma vez",
+     "Inclui pedidos por WhatsApp",
+     "Fonte da verdade para receita"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Use pagamentos para avaliar todo o orçamento. Combine gastos com faturamento, receitas com liquidações e remova reembolsos antes de confiar na planilha."
+   ],
+   "panel": {
+    "kicker": "Qual número para quê",
+    "heading": "Reivindicações da plataforma versus dinheiro recebido",
+    "mode": "compare",
+    "left_h": "Reivindicações de plataforma",
+    "left": [
+     "Janela de atribuição própria",
+     "Pode contar a visualização",
+     "Melhor para ajustar essa plataforma"
+    ],
+    "right_h": "Registro de pagamentos",
+    "right": [
+     "Conta cada venda real uma vez",
+     "Inclui pedidos por WhatsApp",
+     "Fonte da verdade para receita"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Looker Studio é a ferramenta gratuita de relatórios do Google. Coloque receitas, pedidos, gastos, MER e custo por pedido no topo e, em seguida, uma linha de tendência semanal."
+   ],
+   "panel": {
+    "kicker": "Estúdio Looker",
+    "heading": "Um relatório de uma página que funciona",
+    "items": [
+     "Topo: scorecards vs. período anterior",
+     "Meio: receita semanal e tendência de gastos",
+     "Tabela de canais com faixa de custo por compra",
+     "Três insights: o que, e daí, e agora",
+     "Rodapé: fontes, datas, regra, lacunas conhecidas"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Adicione uma tabela de canais, três insights que você mesmo escreve, cada um terminando em uma ação, e advertências honestas na parte inferior."
+   ],
+   "panel": {
+    "kicker": "Estúdio Looker",
+    "heading": "Um relatório de uma página que funciona",
+    "items": [
+     "Topo: scorecards vs. período anterior",
+     "Meio: receita semanal e tendência de gastos",
+     "Tabela de canais com faixa de custo por compra",
+     "Três insights: o que, e daí, e agora",
+     "Rodapé: fontes, datas, regra, lacunas conhecidas"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Crie MER como um campo calculado a partir da soma da receita e da soma dos gastos. A média das proporções semanais dá uma resposta errada.",
+    "E observe suas palavras. A conversão passando de 1,1% para 1,4% aumentou 0,3 pontos percentuais, ou 27% relativos."
+   ],
+   "panel": {
+    "kicker": "Estúdio Looker",
+    "heading": "Um relatório de uma página que funciona",
+    "items": [
+     "Topo: scorecards vs. período anterior",
+     "Meio: receita semanal e tendência de gastos",
+     "Tabela de canais com faixa de custo por compra",
+     "Três insights: o que, e daí, e agora",
+     "Rodapé: fontes, datas, regra, lacunas conhecidas"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Construa proporções a partir dos totais. Nunca calcule a média de uma coluna de proporções.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Antes de enviar, faça cinco verificações. Gasto corresponde ao faturamento. A receita corresponde aos pagamentos. O mesmo intervalo de datas em todos os lugares. Razões construídas a partir de totais. Advertências anotadas.",
+    "Eles detectam a maioria dos erros que destroem a confiança."
+   ],
+   "panel": {
+    "kicker": "Antes de enviar",
+    "heading": "Cinco verificações de qualidade",
+    "items": [
+     "Gasto corresponde ao faturamento",
+     "A receita corresponde aos pagamentos",
+     "Mesmo intervalo de datas em todos os lugares",
+     "Razões construídas a partir de totais",
+     "Advertências escritas"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Para lembrar. Marque todos os links em letras minúsculas. Mantenha os dados pessoais fora do GA4. Trate os pagamentos como a fonte da verdade e lidere com números mistos. Todo insight deve terminar em uma ação de propriedade de alguém."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Lembre-se",
+    "items": [
+     "Marque todos os links em letras minúsculas",
+     "Nenhum dado pessoal no GA4",
+     "Os pagamentos são a fonte da verdade",
+     "Lidere com figuras combinadas",
+     "Cada insight termina em uma ação"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Agora crie uma planilha de links UTM, reconcilie os dados de um mês e crie um relatório de uma página com a lista de verificação de qualidade.",
+    "Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Tarefa prática",
+    "heading": "Suas tarefas para este módulo",
+    "items": [
+     "Crie uma planilha de links UTM",
+     "Reconciliar um mês",
+     "Crie e verifique um relatório de uma página"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

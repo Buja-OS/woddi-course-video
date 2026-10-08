@@ -1,0 +1,632 @@
+{
+ "course": "business-intelligence-basics",
+ "module": "m1",
+ "title": "BI huanza na maamuzi, sio data",
+ "course_title": "Misingi ya Ujasusi wa Biashara: Kubuni Mifumo Inayoendesha Maamuzi",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "BI huanza na maamuzi, sio data.",
+    "Hii ni video ya Moduli ya 1 ya Misingi ya Ushauri wa Biashara: BI ni nini na inafaa wapi."
+   ]
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Biashara nyingi tayari zina data nyingi. Malipo ya kadi ya rekodi za terminal ya POS, Paystack au Moniepoint huhifadhi kila uhamisho, na duka lina kitabu cha hisa."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Data nyingi, hakuna majibu ya haraka",
+    "items": [
+     "POS, programu za malipo na daftari la hisa vyote vina data",
+     "Bado hakuna anayeweza kujibu maswali ya Jumatatu",
+     "BI hufunga pengo hilo",
+     "Taarifa sahihi, mtu sahihi, wakati sahihi"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Bado Jumatatu asubuhi mmiliki anauliza, tuliuza kiasi gani wiki iliyopita, na ninapaswa kuagiza nini tena? Na hakuna mtu anayeweza kujibu haraka kwa ujasiri."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Data nyingi, hakuna majibu ya haraka",
+    "items": [
+     "POS, programu za malipo na daftari la hisa vyote vina data",
+     "Bado hakuna anayeweza kujibu maswali ya Jumatatu",
+     "BI hufunga pengo hilo",
+     "Taarifa sahihi, mtu sahihi, wakati sahihi"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Pengo hilo ndilo akili za biashara, au BI, huziba."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Data nyingi, hakuna majibu ya haraka",
+    "items": [
+     "POS, programu za malipo na daftari la hisa vyote vina data",
+     "Bado hakuna anayeweza kujibu maswali ya Jumatatu",
+     "BI hufunga pengo hilo",
+     "Taarifa sahihi, mtu sahihi, wakati sahihi"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Katika kozi hii, BI ina maana ya mfumo unaorudiwa unaopata taarifa sahihi kwa mtoa maamuzi sahihi kwa wakati unaofaa, hivyo uamuzi hufanywa na kufanyiwa kazi."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Data nyingi, hakuna majibu ya haraka",
+    "items": [
+     "POS, programu za malipo na daftari la hisa vyote vina data",
+     "Bado hakuna anayeweza kujibu maswali ya Jumatatu",
+     "BI hufunga pengo hilo",
+     "Taarifa sahihi, mtu sahihi, wakati sahihi"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Kwanza, mifumo ya chanzo, ambapo data huzaliwa: POS, programu za malipo, programu ya uhasibu, orodha za maagizo ya WhatsApp, hata rejista za karatasi."
+   ],
+   "panel": {
+    "kicker": "Mfumo mzima",
+    "heading": "Viungo sita katika mlolongo wa BI",
+    "items": [
+     "Mifumo ya chanzo: ambapo data huzaliwa",
+     "Kusanya na kusafisha, inayoitwa ETL",
+     "Duka moja linaloaminika",
+     "Vipimo vilivyobainishwa, vilivyoandikwa",
+     "Ripoti na arifa",
+     "Uamuzi na hatua ya mtu aliyetajwa"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Kisha, kusanya na usafishe: kupata data na kurekebisha tahajia, nakala na mapungufu. Wataalamu huita ETL hii, ambayo inamaanisha dondoo, kubadilisha, mzigo."
+   ],
+   "panel": {
+    "kicker": "Mfumo mzima",
+    "heading": "Viungo sita katika mlolongo wa BI",
+    "items": [
+     "Mifumo ya chanzo: ambapo data huzaliwa",
+     "Kusanya na kusafisha, inayoitwa ETL",
+     "Duka moja linaloaminika",
+     "Vipimo vilivyobainishwa, vilivyoandikwa",
+     "Ripoti na arifa",
+     "Uamuzi na hatua ya mtu aliyetajwa"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Kisha duka moja linaloaminika. Kwa biashara ndogo, hiyo inaweza kuwa Jedwali moja la Google lenye muundo mzuri."
+   ],
+   "panel": {
+    "kicker": "Mfumo mzima",
+    "heading": "Viungo sita katika mlolongo wa BI",
+    "items": [
+     "Mifumo ya chanzo: ambapo data huzaliwa",
+     "Kusanya na kusafisha, inayoitwa ETL",
+     "Duka moja linaloaminika",
+     "Vipimo vilivyobainishwa, vilivyoandikwa",
+     "Ripoti na arifa",
+     "Uamuzi na hatua ya mtu aliyetajwa"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Kisha vipimo vilivyobainishwa, ili mauzo yana maana sawa katika kila ripoti."
+   ],
+   "panel": {
+    "kicker": "Mfumo mzima",
+    "heading": "Viungo sita katika mlolongo wa BI",
+    "items": [
+     "Mifumo ya chanzo: ambapo data huzaliwa",
+     "Kusanya na kusafisha, inayoitwa ETL",
+     "Duka moja linaloaminika",
+     "Vipimo vilivyobainishwa, vilivyoandikwa",
+     "Ripoti na arifa",
+     "Uamuzi na hatua ya mtu aliyetajwa"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Kisha ripoti na arifa zenyewe, kama vile muhtasari wa kila wiki wa ukurasa mmoja, au ujumbe wa WhatsApp wakati hisa iko chini."
+   ],
+   "panel": {
+    "kicker": "Mfumo mzima",
+    "heading": "Viungo sita katika mlolongo wa BI",
+    "items": [
+     "Mifumo ya chanzo: ambapo data huzaliwa",
+     "Kusanya na kusafisha, inayoitwa ETL",
+     "Duka moja linaloaminika",
+     "Vipimo vilivyobainishwa, vilivyoandikwa",
+     "Ripoti na arifa",
+     "Uamuzi na hatua ya mtu aliyetajwa"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Na mwisho, mtu anayeitwa anaangalia habari juu ya siku inayojulikana na anaamua kitu. Bila kiungo hiki, iliyobaki ni mapambo."
+   ],
+   "panel": {
+    "kicker": "Mfumo mzima",
+    "heading": "Viungo sita katika mlolongo wa BI",
+    "items": [
+     "Mifumo ya chanzo: ambapo data huzaliwa",
+     "Kusanya na kusafisha, inayoitwa ETL",
+     "Duka moja linaloaminika",
+     "Vipimo vilivyobainishwa, vilivyoandikwa",
+     "Ripoti na arifa",
+     "Uamuzi na hatua ya mtu aliyetajwa"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "rule": "Ikiwa kiungo chochote kitavunjika, mlolongo wote haufanyi kazi.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Wabunifu wa BI hawaanzi na data gani tunayo. Wanauliza, biashara hii hufanya maamuzi gani tena na tena? Chombo ni hesabu ya uamuzi.",
+    "Kwa mfano, Funmi anaendesha biashara ya kuku na samaki waliogandishwa huko Ibadan yenye vyumba viwili vya baridi."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Orodha ya maamuzi ya Funmi",
+    "items": [
+     "Orodhesha maamuzi yaliyofanywa tena na tena",
+     "Andika mmiliki na mara ngapi",
+     "Andika habari ambayo kila mmoja anahitaji",
+     "Kumbuka chanzo cha leo na pengo",
+     "Hesabu gharama ya njia ya mwongozo"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Anaorodhesha maamuzi matano yanayorudiwa, kama vile kupanga upya kila wiki, vikomo vya mkopo wa mteja na njia za gari la kusafirisha."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Orodha ya maamuzi ya Funmi",
+    "items": [
+     "Orodhesha maamuzi yaliyofanywa tena na tena",
+     "Andika mmiliki na mara ngapi",
+     "Andika habari ambayo kila mmoja anahitaji",
+     "Kumbuka chanzo cha leo na pengo",
+     "Hesabu gharama ya njia ya mwongozo"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Kwa kila mmoja, anaandika mmiliki na mara ngapi. Agizo upya ni lake, kila wiki."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Orodha ya maamuzi ya Funmi",
+    "items": [
+     "Orodhesha maamuzi yaliyofanywa tena na tena",
+     "Andika mmiliki na mara ngapi",
+     "Andika habari ambayo kila mmoja anahitaji",
+     "Kumbuka chanzo cha leo na pengo",
+     "Hesabu gharama ya njia ya mwongozo"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Upangaji upya unahitaji hisa kulingana na bidhaa, mauzo katika wiki nne zilizopita, na muda wa kuongoza wa mtoa huduma."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Orodha ya maamuzi ya Funmi",
+    "items": [
+     "Orodhesha maamuzi yaliyofanywa tena na tena",
+     "Andika mmiliki na mara ngapi",
+     "Andika habari ambayo kila mmoja anahitaji",
+     "Kumbuka chanzo cha leo na pengo",
+     "Hesabu gharama ya njia ya mwongozo"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Hisa hutoka kwa hesabu ya Ijumaa bila historia iliyohifadhiwa. Na siku za malipo ya mteja hazifuatiliwi hata kidogo."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Orodha ya maamuzi ya Funmi",
+    "items": [
+     "Orodhesha maamuzi yaliyofanywa tena na tena",
+     "Andika mmiliki na mara ngapi",
+     "Andika habari ambayo kila mmoja anahitaji",
+     "Kumbuka chanzo cha leo na pengo",
+     "Hesabu gharama ya njia ya mwongozo"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Hesabu ya mikono inachukua vyumba 2 vya baridi mara masaa 3 mara 52 wiki. Hiyo ni saa 312 za wafanyikazi kwa mwaka, hutupwa baada ya kila agizo upya. Kwa hivyo kazi yake ya BI huanza na historia ya hisa na siku za malipo."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Orodha ya maamuzi ya Funmi",
+    "items": [
+     "Orodhesha maamuzi yaliyofanywa tena na tena",
+     "Andika mmiliki na mara ngapi",
+     "Andika habari ambayo kila mmoja anahitaji",
+     "Kumbuka chanzo cha leo na pengo",
+     "Hesabu gharama ya njia ya mwongozo"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Mifumo ya OLTP inaendesha biashara. Wanarekodi kila mauzo, malipo au uandikishaji, na lazima iwe haraka."
+   ],
+   "panel": {
+    "kicker": "Maneno muhimu",
+    "heading": "Kuendesha biashara dhidi ya kujibu maswali",
+    "mode": "compare",
+    "left_h": "OLTP",
+    "left": [
+     "Hurekodi mauzo moja kwa wakati mmoja",
+     "POS, Paystack, programu ya ada ya shule",
+     "Lazima iwe haraka na iwashwe kila wakati",
+     "Huhifadhi hali ya sasa"
+    ],
+    "right_h": "OLAP",
+    "right": [
+     "Husoma safu mlalo nyingi mara moja",
+     "Ghala, modeli ya BI, karatasi safi",
+     "Imeundwa kwa muhtasari na mitindo",
+     "Huhifadhi historia kwa wakati"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "OLAP inamaanisha hifadhi iliyoundwa kwa ajili ya uchambuzi: kuongeza maelfu ya safu mlalo na kulinganisha miezi. BI hunakili data kwenye duka tofauti, ili ripoti zisipunguze kasi ya kulipia na kuhifadhi historia."
+   ],
+   "panel": {
+    "kicker": "Maneno muhimu",
+    "heading": "Kuendesha biashara dhidi ya kujibu maswali",
+    "mode": "compare",
+    "left_h": "OLTP",
+    "left": [
+     "Hurekodi mauzo moja kwa wakati mmoja",
+     "POS, Paystack, programu ya ada ya shule",
+     "Lazima iwe haraka na iwashwe kila wakati",
+     "Huhifadhi hali ya sasa"
+    ],
+    "right_h": "OLAP",
+    "right": [
+     "Husoma safu mlalo nyingi mara moja",
+     "Ghala, modeli ya BI, karatasi safi",
+     "Imeundwa kwa muhtasari na mitindo",
+     "Huhifadhi historia kwa wakati"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Kabla ya kupendekeza chochote, pata mahali pa kuanzia. Katika kiwango cha 1, data hutawanywa katika daftari, simu na vichwa vya watu."
+   ],
+   "panel": {
+    "kicker": "Wako wapi sasa?",
+    "heading": "Viwango vitano vya ukomavu wa BI",
+    "items": [
+     "1. Kutawanyika: madaftari, simu, vichwa",
+     "2. Taarifa za lahajedwali kwa mkono",
+     "3. Kati: duka moja linaloaminika",
+     "4. Kusimamiwa: wamiliki, hundi, sheria za kufikia",
+     "5. Zinazoendeshwa na maamuzi: ripoti zinazotumika katika mikutano"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Katika kiwango cha 2, ripoti za kila mwezi zinaundwa kwa mkono kutoka kwa mauzo ya nje, na nambari mara nyingi hazikubaliani."
+   ],
+   "panel": {
+    "kicker": "Wako wapi sasa?",
+    "heading": "Viwango vitano vya ukomavu wa BI",
+    "items": [
+     "1. Kutawanyika: madaftari, simu, vichwa",
+     "2. Taarifa za lahajedwali kwa mkono",
+     "3. Kati: duka moja linaloaminika",
+     "4. Kusimamiwa: wamiliki, hundi, sheria za kufikia",
+     "5. Zinazoendeshwa na maamuzi: ripoti zinazotumika katika mikutano"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Katika kiwango cha 3, kuna duka moja linaloaminika, na ripoti za kawaida huonyeshwa upya kwa ratiba."
+   ],
+   "panel": {
+    "kicker": "Wako wapi sasa?",
+    "heading": "Viwango vitano vya ukomavu wa BI",
+    "items": [
+     "1. Kutawanyika: madaftari, simu, vichwa",
+     "2. Taarifa za lahajedwali kwa mkono",
+     "3. Kati: duka moja linaloaminika",
+     "4. Kusimamiwa: wamiliki, hundi, sheria za kufikia",
+     "5. Zinazoendeshwa na maamuzi: ripoti zinazotumika katika mikutano"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Katika kiwango cha 4, vipimo vina wamiliki, ukaguzi wa ubora na sheria za ufikiaji."
+   ],
+   "panel": {
+    "kicker": "Wako wapi sasa?",
+    "heading": "Viwango vitano vya ukomavu wa BI",
+    "items": [
+     "1. Kutawanyika: madaftari, simu, vichwa",
+     "2. Taarifa za lahajedwali kwa mkono",
+     "3. Kati: duka moja linaloaminika",
+     "4. Kusimamiwa: wamiliki, hundi, sheria za kufikia",
+     "5. Zinazoendeshwa na maamuzi: ripoti zinazotumika katika mikutano"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Katika kiwango cha 5, ripoti hutumiwa katika mikutano ya ukaguzi isiyobadilika, na hatua hufuatiliwa."
+   ],
+   "panel": {
+    "kicker": "Wako wapi sasa?",
+    "heading": "Viwango vitano vya ukomavu wa BI",
+    "items": [
+     "1. Kutawanyika: madaftari, simu, vichwa",
+     "2. Taarifa za lahajedwali kwa mkono",
+     "3. Kati: duka moja linaloaminika",
+     "4. Kusimamiwa: wamiliki, hundi, sheria za kufikia",
+     "5. Zinazoendeshwa na maamuzi: ripoti zinazotumika katika mikutano"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Ukaguzi wa maswali 10 husaidia. Alama kila swali 0 kwa hapana, 1 kwa sehemu, au 2 kwa ndiyo. Kiwango cha juu ni 20."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Kufunga chama cha ushirika",
+    "items": [
+     "Alama maswali 10: 0 hapana, 1 sehemu, 2 ndiyo",
+     "Jumla ya Hauwa: 6",
+     "6 hadi 9 inamaanisha kiwango cha 2",
+     "Hatua inayofuata: ufafanuzi na rejista moja"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Kwa mfano, Hauwa anaendesha chama cha ushirika huko Kaduna chenye wanachama wapatao 600. Michango inarekodiwa katika faili mbili za Excel ambazo mara nyingi hazikubaliani. Jumla yake ni 6."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Kufunga chama cha ushirika",
+    "items": [
+     "Alama maswali 10: 0 hapana, 1 sehemu, 2 ndiyo",
+     "Jumla ya Hauwa: 6",
+     "6 hadi 9 inamaanisha kiwango cha 2",
+     "Hatua inayofuata: ufafanuzi na rejista moja"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Alama ya 6 hadi 9 inamaanisha kiwango cha 2, kuripoti lahajedwali."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Kufunga chama cha ushirika",
+    "items": [
+     "Alama maswali 10: 0 hapana, 1 sehemu, 2 ndiyo",
+     "Jumla ya Hauwa: 6",
+     "6 hadi 9 inamaanisha kiwango cha 2",
+     "Hatua inayofuata: ufafanuzi na rejista moja"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Kwa hivyo hatua yake inayofuata ni ufafanuzi ulioandikwa na rejista moja inayoaminika, sio dashibodi. Kununua zana ya dashibodi mapema sana huonyesha nambari zisizo sahihi, na viongozi huacha kuamini data kabisa."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Kufunga chama cha ushirika",
+    "items": [
+     "Alama maswali 10: 0 hapana, 1 sehemu, 2 ndiyo",
+     "Jumla ya Hauwa: 6",
+     "6 hadi 9 inamaanisha kiwango cha 2",
+     "Hatua inayofuata: ufafanuzi na rejista moja"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Rekebisha misingi kabla ya kununua zana ya dashibodi.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Kukumbuka. BI ni mfumo unaojirudia, si chombo, na kila kiungo lazima kifanye kazi, hadi kufikia hatua.",
+    "Anza na orodha ya maamuzi, endelea kuripoti tofauti na mkulima, na ujue kiwango cha ukomavu kabla ya kujenga."
+   ],
+   "panel": {
+    "kicker": "Pointi muhimu",
+    "heading": "Kumbuka",
+    "items": [
+     "BI ni mfumo unaojirudia, sio chombo",
+     "Kila kiungo lazima kifanye kazi, hadi hatua",
+     "Anza na hesabu ya uamuzi",
+     "Endesha ripoti kwenye duka tofauti",
+     "Jua kiwango cha ukomavu kabla ya kujenga"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Sasa andika orodha yako ya uamuzi wa kwanza, tafsiri biashara unayoijua katika lugha ya BI, na ufanye ukaguzi wa ukomavu.",
+    "Endelea na masomo hapa chini."
+   ],
+   "panel": {
+    "kicker": "Mazoezi ya kazi",
+    "heading": "Kazi zako za mazoezi",
+    "items": [
+     "Rasimu orodha yako ya uamuzi wa kwanza",
+     "Tafsiri biashara katika lugha ya BI",
+     "Fanya ukaguzi wa ukomavu"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

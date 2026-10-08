@@ -1,0 +1,574 @@
+{
+ "course": "sql-fundamentals",
+ "module": "m2",
+ "title": "Jiunge na majedwali na uthibitishe kuwa nambari zako zinajumlishwa",
+ "course_title": "Misingi ya SQL",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Jiunge na majedwali, na uthibitishe kuwa nambari zako zinajumlishwa.",
+    "Hii ni video ya moduli ya 2 ya Misingi ya SQL: Zana, Viungio na Matokeo Yanayoaminika."
+   ]
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Unajifunza SQL kwa kuandika maswali na kuona matokeo. Huna haja ya kununua chochote. Chagua chombo kimoja na ukae nacho."
+   ],
+   "panel": {
+    "kicker": "Zana za bure",
+    "heading": "Mahali pengine pa kufanya mazoezi, bila malipo",
+    "items": [
+     "SQLite Fiddle: katika kivinjari chochote, hakuna akaunti",
+     "Kivinjari cha DB cha SQLite: nje ya mtandao kwenye kompyuta ndogo",
+     "PostgreSQL katika mradi wa bure wa wingu",
+     "Google BigQuery sandbox kwa seti kubwa za data"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "SQLite Fiddle hutumika katika kivinjari chochote, hata kwenye simu yako, bila akaunti."
+   ],
+   "panel": {
+    "kicker": "Zana za bure",
+    "heading": "Mahali pengine pa kufanya mazoezi, bila malipo",
+    "items": [
+     "SQLite Fiddle: katika kivinjari chochote, hakuna akaunti",
+     "Kivinjari cha DB cha SQLite: nje ya mtandao kwenye kompyuta ndogo",
+     "PostgreSQL katika mradi wa bure wa wingu",
+     "Google BigQuery sandbox kwa seti kubwa za data"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Kivinjari cha DB cha SQLite hufanya kazi nje ya mtandao mara tu kisakinishwa kwenye kompyuta ndogo."
+   ],
+   "panel": {
+    "kicker": "Zana za bure",
+    "heading": "Mahali pengine pa kufanya mazoezi, bila malipo",
+    "items": [
+     "SQLite Fiddle: katika kivinjari chochote, hakuna akaunti",
+     "Kivinjari cha DB cha SQLite: nje ya mtandao kwenye kompyuta ndogo",
+     "PostgreSQL katika mradi wa bure wa wingu",
+     "Google BigQuery sandbox kwa seti kubwa za data"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Mradi usiolipishwa wa PostgreSQL, kwa mfano kwenye Supabase, hukuwezesha kufanya mazoezi ya hifadhidata ambayo fintechs nyingi hutumia."
+   ],
+   "panel": {
+    "kicker": "Zana za bure",
+    "heading": "Mahali pengine pa kufanya mazoezi, bila malipo",
+    "items": [
+     "SQLite Fiddle: katika kivinjari chochote, hakuna akaunti",
+     "Kivinjari cha DB cha SQLite: nje ya mtandao kwenye kompyuta ndogo",
+     "PostgreSQL katika mradi wa bure wa wingu",
+     "Google BigQuery sandbox kwa seti kubwa za data"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Na sanduku la mchanga la BigQuery hukuruhusu kuuliza seti kubwa za data za umma. Chochote unachochagua, weka hoja zako kwenye faili ya madokezo. Inakuwa maktaba ya hoja yako."
+   ],
+   "panel": {
+    "kicker": "Zana za bure",
+    "heading": "Mahali pengine pa kufanya mazoezi, bila malipo",
+    "items": [
+     "SQLite Fiddle: katika kivinjari chochote, hakuna akaunti",
+     "Kivinjari cha DB cha SQLite: nje ya mtandao kwenye kompyuta ndogo",
+     "PostgreSQL katika mradi wa bure wa wingu",
+     "Google BigQuery sandbox kwa seti kubwa za data"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Kwa mfano, Ada husoma kwa simu wakati wa chakula cha mchana. Anafungua SQLite Fiddle na anaendesha taarifa za TABLE TABLE kwa wateja, maagizo na vitu vya kuagiza."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Ada hupakia hifadhidata ya Kemi na kuikagua",
+    "items": [
+     "Tekeleza taarifa tatu za CREATE TABLE",
+     "Bandika INGIZA safu mlalo: 6, 10 na 13",
+     "Hesabu safu katika kila jedwali",
+     "Angalia jumla: 251,500",
+     "Hifadhi hati kama kemi_setup.sql"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Anabandika taarifa INGIZA: wateja 6, maagizo 10 na safu mlalo 13 za bidhaa."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Ada hupakia hifadhidata ya Kemi na kuikagua",
+    "items": [
+     "Tekeleza taarifa tatu za CREATE TABLE",
+     "Bandika INGIZA safu mlalo: 6, 10 na 13",
+     "Hesabu safu katika kila jedwali",
+     "Angalia jumla: 251,500",
+     "Hifadhi hati kama kemi_setup.sql"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Kisha anahesabu safu katika kila jedwali. 6, 10 na 13. Sahihi."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Ada hupakia hifadhidata ya Kemi na kuikagua",
+    "items": [
+     "Tekeleza taarifa tatu za CREATE TABLE",
+     "Bandika INGIZA safu mlalo: 6, 10 na 13",
+     "Hesabu safu katika kila jedwali",
+     "Angalia jumla: 251,500",
+     "Hifadhi hati kama kemi_setup.sql"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Anajumlisha kiasi cha oda zote 10 na kupata 251,500, kama inavyotarajiwa. Kwa nini uangalie? Koma inayokosekana inaweza kusimamisha Ingiza moja huku zingine zikifaulu, na kisha kila jibu la baadaye sio sawa."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Ada hupakia hifadhidata ya Kemi na kuikagua",
+    "items": [
+     "Tekeleza taarifa tatu za CREATE TABLE",
+     "Bandika INGIZA safu mlalo: 6, 10 na 13",
+     "Hesabu safu katika kila jedwali",
+     "Angalia jumla: 251,500",
+     "Hifadhi hati kama kemi_setup.sql"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Yeye huhifadhi hati ili aweze kuunda upya wakati wowote. Na kumbuka, tumia data iliyoundwa kwa mazoezi. Usiweke kamwe majina halisi ya wateja au nambari za simu kwenye zana ya mtandaoni ya umma."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Ada hupakia hifadhidata ya Kemi na kuikagua",
+    "items": [
+     "Tekeleza taarifa tatu za CREATE TABLE",
+     "Bandika INGIZA safu mlalo: 6, 10 na 13",
+     "Hesabu safu katika kila jedwali",
+     "Angalia jumla: 251,500",
+     "Hifadhi hati kama kemi_setup.sql"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Fanya mazoezi ya data pekee. Usibandike kamwe maelezo halisi ya mteja mtandaoni.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "JIUNGE hupanga safu mlalo kutoka kwa jedwali mbili popote thamani kuu zinapolingana. INNER JOIN huhifadhi mechi pekee. Kujiunga na maagizo yaliyoletwa kwa wateja huwapa safu mlalo 8, kila moja ikiwa na jina na jiji."
+   ],
+   "panel": {
+    "kicker": "Kuunganisha meza",
+    "heading": "INNER JOIN dhidi ya LEFT JIUNGE",
+    "mode": "compare",
+    "left_h": "JIUNGE NA NDANI",
+    "left": [
+     "Safu mlalo zinazolingana pekee",
+     "Funmi hupotea",
+     "Safu 8 za agizo zilizowasilishwa",
+     "Kwa: kilichouzwa"
+    ],
+    "right_h": "KUSHOTO JIUNGE",
+    "right": [
+     "Safu mlalo zote za jedwali la kushoto zimehifadhiwa",
+     "Funmi iliyohifadhiwa na NULLs",
+     "6 safu za wateja",
+     "Kwa: nani anakosa"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "KUJIUNGA KWA KUSHOTO huweka kila safu mlalo ya jedwali la kwanza, hata bila mechi. Safu wima zinazokosekana zinarudi kama NULL. Hivyo ndivyo unavyopata nani hayupo, kama vile Funmi, mteja ambaye hajawahi kupokea agizo."
+   ],
+   "panel": {
+    "kicker": "Kuunganisha meza",
+    "heading": "INNER JOIN dhidi ya LEFT JIUNGE",
+    "mode": "compare",
+    "left_h": "JIUNGE NA NDANI",
+    "left": [
+     "Safu mlalo zinazolingana pekee",
+     "Funmi hupotea",
+     "Safu 8 za agizo zilizowasilishwa",
+     "Kwa: kilichouzwa"
+    ],
+    "right_h": "KUSHOTO JIUNGE",
+    "right": [
+     "Safu mlalo zote za jedwali la kushoto zimehifadhiwa",
+     "Funmi iliyohifadhiwa na NULLs",
+     "6 safu za wateja",
+     "Kwa: nani anakosa"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Yeye huanza kutoka kwa wateja, ili hakuna mtu anayepotea, na anaweka hadhi sawa na kuwasilishwa ndani ya sehemu ya ILIYO ya kujiunga, sio WHERE."
+   ],
+   "card": {
+    "title": "Tumia kwa kila mteja, ikijumuisha sifuri",
+    "rows": [],
+    "note": "Fanya mazoezi ya takwimu, si bei halisi ya soko."
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Dupe alitumia naira 61,000, Amaka 55,000, Bisi 54,500, Efe 33,000 na Chioma 8,000. Funmi ana 0, kwa hivyo anapata ofa ya kukaribishwa."
+   ],
+   "card": {
+    "title": "Tumia kwa kila mteja, ikijumuisha sifuri",
+    "rows": [
+     [
+      "Dupe, agizo 1",
+      "61,000"
+     ],
+     [
+      "Amaka, maagizo 3",
+      "55,000"
+     ],
+     [
+      "Bisi, 2 maagizo",
+      "54,500"
+     ],
+     [
+      "Efe, agizo 1",
+      "33,000"
+     ],
+     [
+      "Chioma, agizo 1",
+      "8,000"
+     ]
+    ],
+    "note": "Fanya mazoezi ya takwimu, si bei halisi ya soko."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Inapatana na 211,500, jumla iliyotolewa.",
+    "Kosa la kawaida: kama angeweka kichujio kilicholetwa WHERE, safu mlalo ya Funmi ingetoweka, na KUJIUNGA KWA KUSHOTO kungetenda kimya kimya kama KUJIUNGA KWA NDANI."
+   ],
+   "card": {
+    "title": "Tumia kwa kila mteja, ikijumuisha sifuri",
+    "rows": [
+     [
+      "Dupe, agizo 1",
+      "61,000"
+     ],
+     [
+      "Amaka, maagizo 3",
+      "55,000"
+     ],
+     [
+      "Bisi, 2 maagizo",
+      "54,500"
+     ],
+     [
+      "Efe, agizo 1",
+      "33,000"
+     ],
+     [
+      "Chioma, agizo 1",
+      "8,000"
+     ]
+    ],
+    "note": "Fanya mazoezi ya takwimu, si bei halisi ya soko."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Hoja inayoendeshwa bila makosa sio sawa kila wakati. Ngozi anajumlisha kiasi cha oda baada ya kujiunga na kuagiza vitu, na kupata 293,500."
+   ],
+   "card": {
+    "title": "Kwa nini mapato yamepanda ghafla?",
+    "rows": [
+     [
+      "Jumla baada ya kujiunga",
+      "293,500"
+     ]
+    ],
+    "note": "Fanya mazoezi ya takwimu, si bei halisi ya soko."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Lakini jumla inayojulikana iliyotolewa ni 211,500."
+   ],
+   "card": {
+    "title": "Kwa nini mapato yamepanda ghafla?",
+    "rows": [
+     [
+      "Jumla baada ya kujiunga",
+      "293,500"
+     ],
+     [
+      "Jumla inayojulikana iliyotolewa",
+      "211,500"
+     ]
+    ],
+    "note": "Fanya mazoezi ya takwimu, si bei halisi ya soko."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Pengo ni 82,000. Baada ya kujiunga kuna safu 11, sio 8, kwa sababu amri tatu zina mistari miwili ya bidhaa kila mmoja, hivyo kila mmoja huhesabiwa mara mbili. Hii inaitwa fan-out.",
+    "Jaribio la haraka: linganisha nyota COUNT na kitambulisho cha agizo COUNT DISTINCT. Ikiwa ya kwanza inakua na ya pili haifanyi, safu zinarudia."
+   ],
+   "card": {
+    "title": "Kwa nini mapato yamepanda ghafla?",
+    "rows": [
+     [
+      "Jumla baada ya kujiunga",
+      "293,500"
+     ],
+     [
+      "Jumla inayojulikana iliyotolewa",
+      "211,500"
+     ],
+     [
+      "Imezidiwa na",
+      "82,000"
+     ]
+    ],
+    "note": "Fanya mazoezi ya takwimu, si bei halisi ya soko."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Andika swali katika sentensi moja, yenye muda na ufafanuzi, kama vile mapato yanayoletwa kwa kila jiji."
+   ],
+   "panel": {
+    "kicker": "Swali la kujibu",
+    "heading": "Mtiririko wa kazi unaoweza kuamini",
+    "items": [
+     "Andika swali kwa muda na ufafanuzi",
+     "Chunguza majedwali na funguo zinazowaunganisha",
+     "Jenga vipande vipande, ukiangalia hesabu ya safu",
+     "Patanisha na doa-angalia safu mbili",
+     "Jibu kwa maneno wazi, kwa tahadhari yoyote"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Chunguza majedwali kwanza, na uangalie ni vitufe vipi vinavyowaunganisha."
+   ],
+   "panel": {
+    "kicker": "Swali la kujibu",
+    "heading": "Mtiririko wa kazi unaoweza kuamini",
+    "items": [
+     "Andika swali kwa muda na ufafanuzi",
+     "Chunguza majedwali na funguo zinazowaunganisha",
+     "Jenga vipande vipande, ukiangalia hesabu ya safu",
+     "Patanisha na doa-angalia safu mbili",
+     "Jibu kwa maneno wazi, kwa tahadhari yoyote"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Jenga swala katika vipande vidogo. Endesha kiunga kwanza na uangalie hesabu ya safu mlalo, kisha ongeza WAPI, kisha GROUP BY."
+   ],
+   "panel": {
+    "kicker": "Swali la kujibu",
+    "heading": "Mtiririko wa kazi unaoweza kuamini",
+    "items": [
+     "Andika swali kwa muda na ufafanuzi",
+     "Chunguza majedwali na funguo zinazowaunganisha",
+     "Jenga vipande vipande, ukiangalia hesabu ya safu",
+     "Patanisha na doa-angalia safu mbili",
+     "Jibu kwa maneno wazi, kwa tahadhari yoyote"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Patanisha kwa jumla inayojulikana, na angalia safu mbili kwa mkono."
+   ],
+   "panel": {
+    "kicker": "Swali la kujibu",
+    "heading": "Mtiririko wa kazi unaoweza kuamini",
+    "items": [
+     "Andika swali kwa muda na ufafanuzi",
+     "Chunguza majedwali na funguo zinazowaunganisha",
+     "Jenga vipande vipande, ukiangalia hesabu ya safu",
+     "Patanisha na doa-angalia safu mbili",
+     "Jibu kwa maneno wazi, kwa tahadhari yoyote"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Kisha wasilisha nambari, kipindi na tahadhari yoyote kwa maneno wazi."
+   ],
+   "panel": {
+    "kicker": "Swali la kujibu",
+    "heading": "Mtiririko wa kazi unaoweza kuamini",
+    "items": [
+     "Andika swali kwa muda na ufafanuzi",
+     "Chunguza majedwali na funguo zinazowaunganisha",
+     "Jenga vipande vipande, ukiangalia hesabu ya safu",
+     "Patanisha na doa-angalia safu mbili",
+     "Jibu kwa maneno wazi, kwa tahadhari yoyote"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Hundi tano hupata hitilafu nyingi za kimya kimya. Je, idadi ya safu mlalo ina maana? Je, jumla zinapatana? Je, kuna feni? Je, NULLs zinashughulikiwa kwa makusudi, kwa mfano na COALESCE kugeuza thamani inayokosekana kuwa 0? Na je, umeangalia-kuangalia safu mbili?"
+   ],
+   "panel": {
+    "kicker": "Kila wakati",
+    "heading": "Kabla ya kushiriki nambari",
+    "items": [
+     "Hesabu ya safu inaeleweka",
+     "Jumla zinapatana",
+     "Hakuna shabiki wa kujiunga",
+     "NULLs kubebwa kwa makusudi",
+     "Safu mlalo mbili zimeangaliwa"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Kukumbuka. Angalia hesabu na jumla mara tu data inapopakiwa. Tumia INNER JOIN kwa kile kilichouzwa na LEFT JOIN kwa nani amekosa. Tazama kwa mashabiki. Na kamwe usishiriki nambari ambayo haujapatanisha."
+   ],
+   "panel": {
+    "kicker": "Pointi muhimu",
+    "heading": "Kumbuka",
+    "items": [
+     "Angalia hesabu za safu mlalo na jumla baada ya kupakia",
+     "INNER huweka mechi; LEFT huhifadhi kila mtu",
+     "Vichujio vya jedwali la kulia kwa KUJIUNGA NA KUSHOTO huingia IMEWASHWA",
+     "Fan-out inflates sums; jaribu kwa COUNT DISTINCT",
+     "Kamwe usishiriki nambari ambayo haujapatanisha"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Sasa jenga na uthibitishe hifadhidata yako ya mazoezi, jibu maswali matatu ya kujiunga, na ukague swali lisilo sahihi.",
+    "Endelea na masomo hapa chini."
+   ],
+   "panel": {
+    "kicker": "Mazoezi ya kazi",
+    "heading": "Kazi yako kwa moduli hii",
+    "items": [
+     "Unda na uthibitishe hifadhidata yako ya mazoezi",
+     "Jibu maswali matatu ya kujiunga",
+     "Kagua swali lisilo sahihi na urekebishe"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

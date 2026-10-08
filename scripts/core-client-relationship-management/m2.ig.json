@@ -1,0 +1,545 @@
+{
+ "course": "core-client-relationship-management",
+ "module": "m2",
+ "title": "Ihe nleba anya nke onye ahịa gị, usoro ntule na nzaghachi ndị ahịa",
+ "course_title": "Njikwa mmekọrịta ndị ahịa",
+ "shots": [
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Ihe nleba anya nke onye ahịa gị, usoro egwu gị na nzaghachi ndị ahịa.",
+    "Nke a bụ vidiyo maka modul 2 nke njikwa mmekọrịta ndị ahịa."
+   ]
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Jiri taabụ abụọ mee mpempe akwụkwọ a na-akpọ Client Tracker. Ndị ahịa nwere otu ahịrị maka onye ọ bụla, yana nkọwa ya na ihe omume ọzọ. Iwu nwere otu ahịrị n'usoro, yabụ akwụkwọ nwere ike ịgbakwunye gị akụkọ ya."
+   ],
+   "panel": {
+    "kicker": "Nzọụkwụ site nzọụkwụ",
+    "heading": "Wulite tracker gị na akwụkwọ Google",
+    "items": [
+     "Taabụ abụọ: Ndị ahịa na iwu",
+     "Ndepụta wedata maka ọkwa na aha",
+     "COUNTIF na SUMIF maka iwu na mmefu",
+     "Omume gafeworo na-atụgharị uhie"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Tinye ndepụta ndọda, ya mere a na-ede ọkwa mgbe niile n'otu ụzọ ahụ: Ọhụrụ, Na-arụsi ọrụ ike, Ọ dị jụụ ma ọ bụ akwụsịghị. Jikọọ aha ndị ahịa na iwu na ndepụta ndị ahịa, yabụ a na-asụpe aha ọ bụla otu."
+   ],
+   "panel": {
+    "kicker": "Nzọụkwụ site nzọụkwụ",
+    "heading": "Wulite tracker gị na akwụkwọ Google",
+    "items": [
+     "Taabụ abụọ: Ndị ahịa na iwu",
+     "Ndepụta wedata maka ọkwa na aha",
+     "COUNTIF na SUMIF maka iwu na mmefu",
+     "Omume gafeworo na-atụgharị uhie"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "COUNTIF na-agụta iwu ole onye ahịa ọ bụla merela. SUMIF na-agbakwụnye ihe ọ mefuru."
+   ],
+   "panel": {
+    "kicker": "Nzọụkwụ site nzọụkwụ",
+    "heading": "Wulite tracker gị na akwụkwọ Google",
+    "items": [
+     "Taabụ abụọ: Ndị ahịa na iwu",
+     "Ndepụta wedata maka ọkwa na aha",
+     "COUNTIF na SUMIF maka iwu na mmefu",
+     "Omume gafeworo na-atụgharị uhie"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Jiri usoro nhazi ọnọdụ ka onye ahịa ọ bụla nke ụbọchị ihe omume ya gafere ga-atụgharị na-acha uhie uhie. N'ụtụtụ ọ bụla, ahịrị uhie bụ ndepụta nsonye gị."
+   ],
+   "panel": {
+    "kicker": "Nzọụkwụ site nzọụkwụ",
+    "heading": "Wulite tracker gị na akwụkwọ Google",
+    "items": [
+     "Taabụ abụọ: Ndị ahịa na iwu",
+     "Ndepụta wedata maka ọkwa na aha",
+     "COUNTIF na SUMIF maka iwu na mmefu",
+     "Omume gafeworo na-atụgharị uhie"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Debe mpempe akwụkwọ ahụ na nzuzo. Kekọrịta ya n'enweghị onye, ​​ma ọ bụ naanị onye ọrụ ntụkwasị obi, yabụ nọmba ekwentị ndị ahịa nọrọ na nchekwa."
+   ],
+   "panel": {
+    "kicker": "Nzọụkwụ site nzọụkwụ",
+    "heading": "Wulite tracker gị na akwụkwọ Google",
+    "items": [
+     "Taabụ abụọ: Ndị ahịa na iwu",
+     "Ndepụta wedata maka ọkwa na aha",
+     "COUNTIF na SUMIF maka iwu na mmefu",
+     "Omume gafeworo na-atụgharị uhie"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Ekekọrịtala mpempe akwụkwọ ahụ dị ka \"Onye ọ bụla nwere njikọ\".",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Jiri mgbako nwalee usoro gị otu ugboro, ka ị nwee ike ịtụkwasị ha obi."
+   ],
+   "card": {
+    "title": "Jiri aka lelee usoro ndị a otu ugboro",
+    "rows": [],
+    "note": "Ọnụ ahịa Naira dị ihe ruru."
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Ngozi's Orders tab na-egosi iwu 4 maka Ifeoma: 18,000, 22,000, 18,000 na 25,000 naira."
+   ],
+   "card": {
+    "title": "Jiri aka lelee usoro ndị a otu ugboro",
+    "rows": [
+     [
+      "5 Jan",
+      "18,000"
+     ],
+     [
+      "14 Feb",
+      "22,000"
+     ],
+     [
+      "2 Eprel",
+      "18,000"
+     ],
+     [
+      "30 Mee",
+      "25,000"
+     ]
+    ],
+    "note": "Ọnụ ahịa Naira dị ihe ruru."
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Nke ahụ gbakwụnye ihe ruru puku naira iri asatọ na atọ, ya na mpempe akwụkwọ.",
+    "Mana otu iwu ka edegoro dị ka Ifeoma nwere ohere ọzọ, ọnụ ọgụgụ ahụ tụfuru ya. Ọ bụ ya mere ndepụta ndọpụta ji dị mkpa. Tinyekwa ego dị ka nọmba nkịtị, na-enweghị akara naira."
+   ],
+   "card": {
+    "title": "Jiri aka lelee usoro ndị a otu ugboro",
+    "rows": [
+     [
+      "5 Jan",
+      "18,000"
+     ],
+     [
+      "14 Feb",
+      "22,000"
+     ],
+     [
+      "2 Eprel",
+      "18,000"
+     ],
+     [
+      "30 Mee",
+      "25,000"
+     ]
+    ],
+    "note": "Ọnụ ahịa Naira dị ihe ruru."
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Ọtụtụ nsogbu na-amalite tupu nnyefe, mgbe onye ahịa na azụmahịa ghọtara ihe dị iche iche. Otu echiche Friday pụtara ụtụtụ. Nke ọzọ pụtara mgbede."
+   ],
+   "panel": {
+    "kicker": "Tọọ atụmanya",
+    "heading": "Nkwenye usoro doro anya",
+    "items": [
+     "Gịnị kpọmkwem ọ na-enweta",
+     "Ọnụ ego niile, yana ihe ọ gụnyere",
+     "Nkwụnye ego, na mgbe itule ruru",
+     "Window ụbọchị na oge nnyefe",
+     "Ekwenyere mgbanwe, yana otu ị ga-esi melite ya"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Ya mere, ozugbo ọ kwenye, ziga nkwenye dị mkpirikpi WhatsApp na-ekpuchi isi ihe ise a, ma gwa ya ka ọ zaghachi nkwenye.",
+    "Chekwaa ya dị ka nzaghachi ngwa ngwa, ma gbanwee nkọwa oge ọ bụla."
+   ],
+   "panel": {
+    "kicker": "Tọọ atụmanya",
+    "heading": "Nkwenye usoro doro anya",
+    "items": [
+     "Gịnị kpọmkwem ọ na-enweta",
+     "Ọnụ ego niile, yana ihe ọ gụnyere",
+     "Nkwụnye ego, na mgbe itule ruru",
+     "Window ụbọchị na oge nnyefe",
+     "Ekwenyere mgbanwe, yana otu ị ga-esi melite ya"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Zipu nkwenye n'ụbọchị 0, nkwalite ọganihu tupu nnyefe, na ndetu nnyefe n'ụbọchị nnyefe."
+   ],
+   "panel": {
+    "kicker": "Egwu na-esochi",
+    "heading": "Ise emetụ maka iwu ọ bụla",
+    "items": [
+     "Ụbọchị 0: nkwenye",
+     "Tupu nnyefe: mmelite ọganihu",
+     "Ụbọchị nnyefe: ndetu inyefe",
+     "Ụbọchị 3: nlele nlekọta mgbe emechara",
+     "Nhazigharị ihe: ncheta"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "N'ụbọchị 3, ziga obere nlele nlele mgbe emechara. Enwere m olileanya na trays ahụ gara nke ọma na nzukọ ahụ. Ọnụego ahụ ọ dabara maka ndị ọbịa gị?"
+   ],
+   "panel": {
+    "kicker": "Egwu na-esochi",
+    "heading": "Ise emetụ maka iwu ọ bụla",
+    "items": [
+     "Ụbọchị 0: nkwenye",
+     "Tupu nnyefe: mmelite ọganihu",
+     "Ụbọchị nnyefe: ndetu inyefe",
+     "Ụbọchị 3: nlele nlekọta mgbe emechara",
+     "Nhazigharị ihe: ncheta"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Na-echetakwa ya mgbe o yikarịrị ka ọ ga-achọkwa gị ọzọ.",
+    "Emela ka ọ kpachie ya. N'etiti iwu, zipu ihe karịrị otu ozi na-abụghị ire ere kwa ọnwa, ọ gwụla ma ọ malitere mkparịta ụka."
+   ],
+   "panel": {
+    "kicker": "Egwu na-esochi",
+    "heading": "Ise emetụ maka iwu ọ bụla",
+    "items": [
+     "Ụbọchị 0: nkwenye",
+     "Tupu nnyefe: mmelite ọganihu",
+     "Ụbọchị nnyefe: ndetu inyefe",
+     "Ụbọchị 3: nlele nlekọta mgbe emechara",
+     "Nhazigharị ihe: ncheta"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Dịka ọmụmaatụ, Funmi na-ebunye ncha mmiri mmiri n'ụlọ ahịa ihe nrite Halima. Halima nyere iwu na 3 Febrụwarị, Machị 1, Eprel 4 na Mee 2."
+   ],
+   "panel": {
+    "kicker": "Ihe atụ rụrụ ọrụ",
+    "heading": "Funmi na-arụpụta ọdịiche nke Halima",
+    "items": [
+     "Iwu: 3 Feb, 1 Maachị, 4 Eprel, Mee 2",
+     "3 Febrụwarị ruo Mee 2 bụ ụbọchị 88",
+     "Iwu 4 pụtara oghere 3: ihe dị ka ụbọchị 29",
+     "Cheta ụbọchị ole na ole n'isi: Mee 28"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Site na iwu mbụ o nyere ruo nke ikpeazụ ya bụ ụbọchị 88."
+   ],
+   "panel": {
+    "kicker": "Ihe atụ rụrụ ọrụ",
+    "heading": "Funmi na-arụpụta ọdịiche nke Halima",
+    "items": [
+     "Iwu: 3 Feb, 1 Maachị, 4 Eprel, Mee 2",
+     "3 Febrụwarị ruo Mee 2 bụ ụbọchị 88",
+     "Iwu 4 pụtara oghere 3: ihe dị ka ụbọchị 29",
+     "Cheta ụbọchị ole na ole n'isi: Mee 28"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "4 iwu pụtara 3 oghere. 88 kewara site na 3 bụ ihe dịka ụbọchị 29. Nke ahụ bụ nhazigharị ya ọdịiche."
+   ],
+   "panel": {
+    "kicker": "Ihe atụ rụrụ ọrụ",
+    "heading": "Funmi na-arụpụta ọdịiche nke Halima",
+    "items": [
+     "Iwu: 3 Feb, 1 Maachị, 4 Eprel, Mee 2",
+     "3 Febrụwarị ruo Mee 2 bụ ụbọchị 88",
+     "Iwu 4 pụtara oghere 3: ihe dị ka ụbọchị 29",
+     "Cheta ụbọchị ole na ole n'isi: Mee 28"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Yabụ ozi Funmi na Mee 28: nnyefe ikpeazụ gị bụ Mee 2. Enwere m ike iweta kegs 6 na-emebu na Fraịde?",
+    "A na-echetara Halima tupu ya agbachaa, ya mere ọ naghị azụta ebe ọzọ."
+   ],
+   "panel": {
+    "kicker": "Ihe atụ rụrụ ọrụ",
+    "heading": "Funmi na-arụpụta ọdịiche nke Halima",
+    "items": [
+     "Iwu: 3 Feb, 1 Maachị, 4 Eprel, Mee 2",
+     "3 Febrụwarị ruo Mee 2 bụ ụbọchị 88",
+     "Iwu 4 pụtara oghere 3: ihe dị ka ụbọchị 29",
+     "Cheta ụbọchị ole na ole n'isi: Mee 28"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Ndị ahịa anaghị ekwupụta na ha na-apụ. Mmekọrịta dị mma dị ka iwu kwụ ọtọ, nzaghachi na ntugharị."
+   ],
+   "panel": {
+    "kicker": "Mgbama mmekọrịta",
+    "heading": "Akara ahụike na akara ịdọ aka ná ntị",
+    "mode": "compare",
+    "left_h": "Ahụ ike",
+    "left": [
+     "Iwu n'ime oghere ọ na-emebu",
+     "Nye iwu ka ọ kwụ ọtọ ma ọ bụ na-eto eto",
+     "Azịza, mgbe ụfọdụ mkparịta ụka",
+     "Na-ezo aka enyi"
+    ],
+    "right_h": "Ịdọ aka ná ntị",
+    "right": [
+     "Ọdịiche na-adị ogologo oge ọ bụla",
+     "Iwu dị nta karịa ka ọ dị na mbụ",
+     "Ọ na-agụ ma ọ naghị aza",
+     "Arịrịọ ọhụrụ maka mbelata"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Ihe ịrịba ama ịdọ aka ná ntị bụ oghere ogologo, obere iwu na ozi azaghị. Otu akara nwere ike ịpụta ihe ọ bụla. Abụọ ma ọ bụ karịa bara uru nbanye nbanye nke ọma na nke eziokwu. Ekpela ya ikpe. Jụọ ma ọrụ gị ka dabara mkpa ya."
+   ],
+   "panel": {
+    "kicker": "Mgbama mmekọrịta",
+    "heading": "Akara ahụike na akara ịdọ aka ná ntị",
+    "mode": "compare",
+    "left_h": "Ahụ ike",
+    "left": [
+     "Iwu n'ime oghere ọ na-emebu",
+     "Nye iwu ka ọ kwụ ọtọ ma ọ bụ na-eto eto",
+     "Azịza, mgbe ụfọdụ mkparịta ụka",
+     "Na-ezo aka enyi"
+    ],
+    "right_h": "Ịdọ aka ná ntị",
+    "right": [
+     "Ọdịiche na-adị ogologo oge ọ bụla",
+     "Iwu dị nta karịa ka ọ dị na mbụ",
+     "Ọ na-agụ ma ọ naghị aza",
+     "Arịrịọ ọhụrụ maka mbelata"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Jụọ ajụjụ dị mkpirikpi 2 ma ọ bụ 3, gụnyere: n'ọ̀tụ̀tụ̀ 0 ruo 10, olee otú ị ga-esi akwado m enyi?",
+    "Dị ka ihe atụ, Ruth na-akụziri ụmụ akwụkwọ nọ na Lagos ma jụọ nne na nna iri abụọ. 12 zaa 9 ma ọ bụ 10. Ha bụ ndị nkwalite, 60 percent."
+   ],
+   "panel": {
+    "kicker": "Nzaghachi",
+    "heading": "Net Promoter Score, nzọụkwụ site nzọụkwụ",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Ndị na-akwalite: 9 ma ọ bụ 10",
+      "d": "Rut jụrụ nne na nna 20. 12 zaa 9 ma ọ bụ 10. Nke ahụ bụ pasent 60."
+     },
+     {
+      "t": "Ndị na-agafe agafe: 7 ma ọ bụ 8",
+      "d": "5 nne na nna. A naghị eji ha eme ihe na usoro."
+     },
+     {
+      "t": "Ndị mmegide: 0 ruo 6",
+      "d": "3 nne na nna, nke bụ pasent 15. NPS bụ 60 minus 15, nke bụ 45."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "5 zaa 7 ma ọ bụ 8. Ha bụ ndị na-agafe agafe, na-ahapụkwa ha."
+   ],
+   "panel": {
+    "kicker": "Nzaghachi",
+    "heading": "Net Promoter Score, nzọụkwụ site nzọụkwụ",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Ndị na-akwalite: 9 ma ọ bụ 10",
+      "d": "Rut jụrụ nne na nna 20. 12 zaa 9 ma ọ bụ 10. Nke ahụ bụ pasent 60."
+     },
+     {
+      "t": "Ndị na-agafe agafe: 7 ma ọ bụ 8",
+      "d": "5 nne na nna. A naghị eji ha eme ihe na usoro."
+     },
+     {
+      "t": "Ndị mmegide: 0 ruo 6",
+      "d": "3 nne na nna, nke bụ pasent 15. NPS bụ 60 minus 15, nke bụ 45."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "3 zaa 6 ma ọ bụ obere. Ha bụ ndị na-akparị mmadụ, pasent 15. Akara ya bụ 60 minus 15, nke bụ 45.",
+    "Ọ ka bara uru karị, ndị mmejọ abụọ kwuru na oge nkuzi gbanwere n'enweghị ọkwa. N’ihi ya, Rut na-enye ọkwa ugbu a maka mgbanwe ọ bụla."
+   ],
+   "panel": {
+    "kicker": "Nzaghachi",
+    "heading": "Net Promoter Score, nzọụkwụ site nzọụkwụ",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Ndị na-akwalite: 9 ma ọ bụ 10",
+      "d": "Rut jụrụ nne na nna 20. 12 zaa 9 ma ọ bụ 10. Nke ahụ bụ pasent 60."
+     },
+     {
+      "t": "Ndị na-agafe agafe: 7 ma ọ bụ 8",
+      "d": "5 nne na nna. A naghị eji ha eme ihe na usoro."
+     },
+     {
+      "t": "Ndị mmegide: 0 ruo 6",
+      "d": "3 nne na nna, nke bụ pasent 15. NPS bụ 60 minus 15, nke bụ 45."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Icheta. Debe otu ahịrị maka onye ahịa yana otu n'usoro. Kwenye iwu ọ bụla na ederede. Tupu ị kaa akara ka akwụ ụgwọ, lelee ngwa ụlọ akụ gị, n'ihi na nseta ihuenyo abụghị ihe akaebe nke ịkwụ ụgwọ.",
+    "Ncheta oge site na nhazigharị nke ya onwe ya. Ma mgbe onye ahịa nyere nzaghachi, gbanwee otu ihe wee gwa ya na ị mere ya."
+   ],
+   "panel": {
+    "kicker": "Isi ihe",
+    "heading": "Cheta",
+    "items": [
+     "Otu ahịrị maka onye ahịa, otu ahịrị maka ịtụ",
+     "Kwenye iwu ọ bụla na ederede",
+     "Lelee ịkwụ ụgwọ na ngwa ụlọ akụ gị, ọ bụghị nseta ihuenyo",
+     "Chetara ndị ahịa site na oghere nhazigharị nke ha",
+     "Mee otu nzaghachi nzaghachi, wee gwa ya"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Ugbu a mee ihe. Jiri opekata mpe ezigbo ndị ahịa 10 wuo ihe egwu gị wee jiri aka nwalee otu mkpokọta. Chekwaa nkwenye gị ka ọzịza ngwa ngwa wee rụpụta oghere atọ n'usoro. Wee zipu ajụjụ nzaghachi nye ndị ahịa ise wee gbakọọ akara gị.",
+    "Gaa n'ihu na nkuzi ndị dị n'okpuru."
+   ],
+   "panel": {
+    "kicker": "Mee ihe omume",
+    "heading": "Omume gị na modul a",
+    "items": [
+     "Wulite ma nwalee onye ahịa gị tracker",
+     "Hazie ukwe isoso gị",
+     "Gbaa obere nzaghachi gburugburu"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

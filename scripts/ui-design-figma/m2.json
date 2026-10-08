@@ -1,0 +1,540 @@
+{
+ "course": "ui-design-figma",
+ "module": "m2",
+ "title": "Components, prototypes and a clean developer handoff",
+ "course_title": "UI Design with Figma",
+ "shots": [
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Components, prototypes and a clean developer handoff.",
+    "This is the video for module two of UI Design with Figma."
+   ]
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "A component is an element you build once and reuse, like a button or a product card. The original is the main component."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Build once, reuse everywhere",
+    "items": [
+     "Main component: the original",
+     "Instances: copies that stay linked",
+     "Overrides: change a label, keep the link",
+     "One designer, 40 consistent screens"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Every copy is an instance. Change the main component, and every instance updates. In an instance you can still override things like the label, without breaking the link."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Build once, reuse everywhere",
+    "items": [
+     "Main component: the original",
+     "Instances: copies that stay linked",
+     "Overrides: change a label, keep the link",
+     "One designer, 40 consistent screens"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "This is what lets one designer keep 40 screens consistent."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Build once, reuse everywhere",
+    "items": [
+     "Main component: the original",
+     "Instances: copies that stay linked",
+     "Overrides: change a label, keep the link",
+     "One designer, 40 consistent screens"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Build the element with auto layout and only your saved styles. Then press Control, Alt, K, or Command, Option, K on a Mac, to make it a component."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "From element to component set",
+    "items": [
+     "Build with auto layout and saved styles",
+     "Ctrl + Alt + K to create the component",
+     "Duplicate, then Combine as variants",
+     "Rename Property 1 to Type, State, Size",
+     "Add text, boolean, instance swap props"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Duplicate it for each version you need, select them all, and click Combine as variants."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "From element to component set",
+    "items": [
+     "Build with auto layout and saved styles",
+     "Ctrl + Alt + K to create the component",
+     "Duplicate, then Combine as variants",
+     "Rename Property 1 to Type, State, Size",
+     "Add text, boolean, instance swap props"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Rename the default Property 1 to something meaningful, like Type, with values such as Primary and Secondary."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "From element to component set",
+    "items": [
+     "Build with auto layout and saved styles",
+     "Ctrl + Alt + K to create the component",
+     "Duplicate, then Combine as variants",
+     "Rename Property 1 to Type, State, Size",
+     "Add text, boolean, instance swap props"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Then add other properties: Text to edit the label, Boolean to show or hide an icon, and Instance swap to choose which icon."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "From element to component set",
+    "items": [
+     "Build with auto layout and saved styles",
+     "Ctrl + Alt + K to create the component",
+     "Duplicate, then Combine as variants",
+     "Rename Property 1 to Type, State, Size",
+     "Add text, boolean, instance swap props"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Detaching an instance breaks its link forever, so it never receives future fixes. If you keep wanting to detach, your component is missing a property."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "From element to component set",
+    "items": [
+     "Build with auto layout and saved styles",
+     "Ctrl + Alt + K to create the component",
+     "Duplicate, then Combine as variants",
+     "Rename Property 1 to Type, State, Size",
+     "Add text, boolean, instance swap props"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Do not detach. If you want to, fix the component instead.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Amaka needs buttons in 3 types, 3 states and 2 sizes. That is 18 variants. If she made the icon a variant too, the count doubles to 36, and every future change must be made 36 times."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Keep the button set small",
+    "mode": "compare",
+    "left_h": "Icon as a variant",
+    "left": [
+     "3 types × 3 states × 2 sizes = 18",
+     "Double it for icons: 36",
+     "Every change made 36 times"
+    ],
+    "right_h": "Icon as a property",
+    "right": [
+     "Still 18 variants",
+     "Boolean: Show icon",
+     "Instance swap: cart, plus, arrow",
+     "Text property: the label"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Instead she adds a Boolean property, Show icon, an Instance swap property for the icon, and a Text property for the label. The set stays at 18 variants and covers every button in the app."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Keep the button set small",
+    "mode": "compare",
+    "left_h": "Icon as a variant",
+    "left": [
+     "3 types × 3 states × 2 sizes = 18",
+     "Double it for icons: 36",
+     "Every change made 36 times"
+    ],
+    "right_h": "Icon as a property",
+    "right": [
+     "Still 18 variants",
+     "Boolean: Show icon",
+     "Instance swap: cart, plus, arrow",
+     "Text property: the label"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "A prototype links your screens so a client can tap through them before paying for development. Each connection has a trigger, like On tap, and an action, like Navigate to or Open overlay."
+   ],
+   "panel": {
+    "kicker": "Prototypes",
+    "heading": "Every connection has four parts",
+    "items": [
+     "Trigger: what the user does",
+     "Action: what happens",
+     "Destination: where it goes",
+     "Animation: how it moves"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Then a destination frame, and an animation. Around 200 to 300 ms, with ease out, suits most mobile transitions."
+   ],
+   "panel": {
+    "kicker": "Prototypes",
+    "heading": "Every connection has four parts",
+    "items": [
+     "Trigger: what the user does",
+     "Action: what happens",
+     "Destination: where it goes",
+     "Animation: how it moves"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Amaka marks Home as the starting point of a flow called Buy tomatoes."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Wiring the checkout journey",
+    "items": [
+     "Mark Home as the flow starting point",
+     "Product card: Navigate, Move in, 250 ms",
+     "Add to cart: open a bottom sheet overlay",
+     "Back arrows use the Back action",
+     "Fixed bars on scrolling screens"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Tapping a product card moves in the product screen in 250 ms. Add to cart opens a quantity sheet as an overlay, instead of a separate screen."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Wiring the checkout journey",
+    "items": [
+     "Mark Home as the flow starting point",
+     "Product card: Navigate, Move in, 250 ms",
+     "Add to cart: open a bottom sheet overlay",
+     "Back arrows use the Back action",
+     "Fixed bars on scrolling screens"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Every back arrow uses the Back action, so the path always matches how the user arrived."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Wiring the checkout journey",
+    "items": [
+     "Mark Home as the flow starting point",
+     "Product card: Navigate, Move in, 250 ms",
+     "Add to cart: open a bottom sheet overlay",
+     "Back arrows use the Back action",
+     "Fixed bars on scrolling screens"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Long screens scroll, so she sets the top bar and bottom navigation to Fixed. A bottom bar that scrolls away looks broken to clients. Then she tests it all on her phone in the Figma mobile app."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Wiring the checkout journey",
+    "items": [
+     "Mark Home as the flow starting point",
+     "Product card: Navigate, Move in, 250 ms",
+     "Add to cart: open a bottom sheet overlay",
+     "Back arrows use the Back action",
+     "Fixed bars on scrolling screens"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Smart animate only works when a layer has exactly the same name in both frames. Badge and Ellipse 3 will just jump."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Wiring the checkout journey",
+    "items": [
+     "Mark Home as the flow starting point",
+     "Product card: Navigate, Move in, 250 ms",
+     "Add to cart: open a bottom sheet overlay",
+     "Back arrows use the Back action",
+     "Fixed bars on scrolling screens"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Smart animate needs matching layers with exactly the same name.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Share prototypes with view access only, because a link can be forwarded. Use sample names, addresses and phone numbers, never real customer data. Nigeria's Data Protection Act 2023 applies to personal data.",
+    "Install plugins only from known publishers, and never paste client passwords or private data into one."
+   ],
+   "panel": {
+    "kicker": "Share safely",
+    "heading": "Protect the client's data",
+    "items": [
+     "Share prototypes as can view only",
+     "Use sample names, numbers, addresses",
+     "Never real customer data",
+     "Plugins only from known publishers",
+     "No passwords or private data in plugins"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "A design can look beautiful and still be unusable. For normal text, WCAG level AA needs a contrast ratio of at least 4.5 to 1."
+   ],
+   "panel": {
+    "kicker": "Quality check",
+    "heading": "Check colour contrast",
+    "items": [
+     "Normal text: at least 4.5 : 1",
+     "Large text: at least 3 : 1",
+     "Borders and key icons: 3 : 1",
+     "Fix the colour variable once"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Large text and important non-text parts, like input borders, need 3 to 1. Amaka's light grey input border was only about 1.9 to 1, so users might not see where to type."
+   ],
+   "panel": {
+    "kicker": "Quality check",
+    "heading": "Check colour contrast",
+    "items": [
+     "Normal text: at least 4.5 : 1",
+     "Large text: at least 3 : 1",
+     "Borders and key icons: 3 : 1",
+     "Fix the colour variable once"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Each fix was one edit to a colour variable, and every screen updated at once."
+   ],
+   "panel": {
+    "kicker": "Quality check",
+    "heading": "Check colour contrast",
+    "items": [
+     "Normal text: at least 4.5 : 1",
+     "Large text: at least 3 : 1",
+     "Borders and key icons: 3 : 1",
+     "Fix the colour variable once"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Her grey text passed on white at about 4.6, but failed on a light grey card at about 4.2. So always check text against its real background."
+   ],
+   "panel": {
+    "kicker": "Quality check",
+    "heading": "Check colour contrast",
+    "items": [
+     "Normal text: at least 4.5 : 1",
+     "Large text: at least 3 : 1",
+     "Borders and key icons: 3 : 1",
+     "Fix the colour variable once"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Check text against the real background it sits on.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Before handover, check tap targets are at least 48 by 48. Design every state, including error, empty and loading. Show errors with an icon and a message, not colour alone.",
+    "Name layers clearly and set SVG exports on icons. Then write notes a screen cannot show, like: disable Pay until the delivery address is chosen.",
+    "Finish with a 20-minute walk-through with the developer."
+   ],
+   "panel": {
+    "kicker": "Before handover",
+    "heading": "The pre-handover pass",
+    "items": [
+     "Tap targets 48 × 48 or larger",
+     "All states: focused, error, empty, loading",
+     "Errors shown by more than colour",
+     "Layers named; exports set as SVG",
+     "Behaviour notes for the developer"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "To remember. Build components once and keep instances linked. Use variants only for real visual changes.",
+    "Wire prototypes with clear triggers and Back actions. Check contrast against the real background. And hand off a named, annotated file."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "Instances follow the main component",
+     "Variants for looks; properties for the rest",
+     "Trigger, action, destination, animation",
+     "4.5 : 1 for normal text",
+     "Name, export and annotate before handoff"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Now practise. Build your first component set, prototype one journey and test it on your phone, and run a pre-handover audit.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice tasks",
+    "heading": "Your practice tasks",
+    "items": [
+     "Build your first component set",
+     "Prototype one complete journey",
+     "Run a pre-handover audit"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

@@ -1,0 +1,486 @@
+{
+ "course": "core-simple-record-keeping-visual-and-practical",
+ "module": "m1",
+ "title": "Kwa nini rekodi ni muhimu: pesa kwenye begi lako sio faida",
+ "course_title": "Utunzaji Rahisi wa Rekodi (Inayoonekana na Kivitendo)",
+ "shots": [
+  {
+   "demo": "cash_count",
+   "say": [
+    "Kwa nini rekodi ni muhimu: pesa kwenye begi lako sio faida.",
+    "Hii ndio video ya Moduli ya 1, Kwa nini rekodi ni muhimu."
+   ]
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Rekodi ya biashara ni kitu chochote kilichoandikwa kinachoonyesha kile kilichotokea katika biashara yako. Uuzaji, ununuzi, pesa zilizolipwa, bidhaa zinazotolewa kwa mkopo.",
+    "Jambo muhimu ni kwamba imeandikwa wakati inatokea, kwa hivyo huna haja ya kukumbuka baadaye."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Kumbukumbu iliyoandikwa ya biashara yako",
+    "items": [
+     "Rekodi imeandikwa wakati inatokea",
+     "Kichwa kinasahau; karatasi na simu hazifanyi",
+     "Rekodi hukusaidia wewe, familia yako na wakopeshaji"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Kuweka kila kitu kichwani mwako hufanya kazi na bidhaa moja na wateja wachache. Kwa bidhaa kumi, wateja wa mikopo na uhamisho, kichwa husahau na kukumbuka siku nzuri zaidi kuliko zile mbaya."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Kumbukumbu iliyoandikwa ya biashara yako",
+    "items": [
+     "Rekodi imeandikwa wakati inatokea",
+     "Kichwa kinasahau; karatasi na simu hazifanyi",
+     "Rekodi hukusaidia wewe, familia yako na wakopeshaji"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Rekodi zako hukusaidia kuona ikiwa kweli unatengeneza pesa. Wanasaidia familia yako kuendesha duka unapokuwa mgonjwa, na wanasaidia benki yako ya ushirika au mikopo midogo midogo unapoomba mkopo."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Kumbukumbu iliyoandikwa ya biashara yako",
+    "items": [
+     "Rekodi imeandikwa wakati inatokea",
+     "Kichwa kinasahau; karatasi na simu hazifanyi",
+     "Rekodi hukusaidia wewe, familia yako na wakopeshaji"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Hili ndilo wazo muhimu zaidi katika kozi nzima. Pesa mkononi mwako si sawa na faida.",
+    "Kwa mfano, Bisi anauza pilipili na nyanya katika soko la Lagos."
+   ],
+   "card": {
+    "title": "Banda la pilipili la Bisi, siku moja",
+    "rows": [],
+    "note": "Kiasi ni takriban."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Kufikia jioni anahesabu kama naira 38,000 kwenye begi lake. Bila rekodi anafikiria, nimetengeneza naira 38,000 leo."
+   ],
+   "card": {
+    "title": "Banda la pilipili la Bisi, siku moja",
+    "rows": [
+     [
+      "Pesa zilihesabiwa kwenye begi lake",
+      "38,000"
+     ]
+    ],
+    "note": "Kiasi ni takriban."
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Lakini asubuhi hiyo alinunua nyanya na pilipili kwa karibu naira 30,000. Na alilipa takriban naira 2,000 kwa usafiri na naira 500 kwa tikiti ya soko. Hiyo ni naira 2,500 za gharama."
+   ],
+   "card": {
+    "title": "Banda la pilipili la Bisi, siku moja",
+    "rows": [
+     [
+      "Pesa zilihesabiwa kwenye begi lake",
+      "38,000"
+     ],
+     [
+      "Ondoa hisa iliyonunuliwa",
+      "30,000"
+     ],
+     [
+      "Ondoa usafiri na tikiti",
+      "2,500"
+     ]
+    ],
+    "note": "Kiasi ni takriban."
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Kwa hivyo faida yake halisi ni takriban naira 5,500, sio 38,000.",
+    "Ikiwa atatumia naira 10,000 kwa mambo ya nyumbani usiku wa leo, atakula pesa anazohitaji kwa ajili ya hisa ya kesho. Hiyo inaitwa kula mtaji."
+   ],
+   "card": {
+    "title": "Banda la pilipili la Bisi, siku moja",
+    "rows": [
+     [
+      "Pesa zilihesabiwa kwenye begi lake",
+      "38,000"
+     ],
+     [
+      "Ondoa hisa iliyonunuliwa",
+      "30,000"
+     ],
+     [
+      "Ondoa usafiri na tikiti",
+      "2,500"
+     ]
+    ],
+    "note": "Kiasi ni takriban."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Kuna rekodi tano zinazojibu karibu kila swali ambalo mfanyabiashara mdogo analo. Rekodi ya mauzo inaonyesha kiasi gani ulichouza."
+   ],
+   "panel": {
+    "kicker": "Misingi",
+    "heading": "Mambo matano ya kurekodi",
+    "items": [
+     "Mauzo: ulichouza, pesa taslimu au uhamisho",
+     "Gharama: kila gharama, hata ndogo",
+     "Hisa: bidhaa ndani, bidhaa nje, bidhaa zilizoachwa",
+     "Orodha ya wadaiwa: ni nani anayedaiwa, na lini",
+     "Kitabu cha pesa: pesa zote ndani na nje"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Rekodi ya gharama inaonyesha wapi pesa zako zinakwenda."
+   ],
+   "panel": {
+    "kicker": "Misingi",
+    "heading": "Mambo matano ya kurekodi",
+    "items": [
+     "Mauzo: ulichouza, pesa taslimu au uhamisho",
+     "Gharama: kila gharama, hata ndogo",
+     "Hisa: bidhaa ndani, bidhaa nje, bidhaa zilizoachwa",
+     "Orodha ya wadaiwa: ni nani anayedaiwa, na lini",
+     "Kitabu cha pesa: pesa zote ndani na nje"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Rekodi ya hisa inaonyesha ulichobakisha, na kinachokosekana."
+   ],
+   "panel": {
+    "kicker": "Misingi",
+    "heading": "Mambo matano ya kurekodi",
+    "items": [
+     "Mauzo: ulichouza, pesa taslimu au uhamisho",
+     "Gharama: kila gharama, hata ndogo",
+     "Hisa: bidhaa ndani, bidhaa nje, bidhaa zilizoachwa",
+     "Orodha ya wadaiwa: ni nani anayedaiwa, na lini",
+     "Kitabu cha pesa: pesa zote ndani na nje"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Orodha ya wadaiwa inaonyesha ni nani alichukua bidhaa kwa mkopo, kiasi gani, na wakati aliahidi kulipa."
+   ],
+   "panel": {
+    "kicker": "Misingi",
+    "heading": "Mambo matano ya kurekodi",
+    "items": [
+     "Mauzo: ulichouza, pesa taslimu au uhamisho",
+     "Gharama: kila gharama, hata ndogo",
+     "Hisa: bidhaa ndani, bidhaa nje, bidhaa zilizoachwa",
+     "Orodha ya wadaiwa: ni nani anayedaiwa, na lini",
+     "Kitabu cha pesa: pesa zote ndani na nje"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Na kitabu cha pesa kinaonyesha ni pesa ngapi unapaswa kuwa nazo sasa hivi.",
+    "Ikiwa tano inahisi kama nyingi, anza na mauzo na gharama. Ongeza orodha ya wadaiwa mara ya kwanza kabisa mtu anaponunua kwa mkopo, kwa sababu mikopo ndipo wafanyabiashara hupoteza pesa nyingi zaidi."
+   ],
+   "panel": {
+    "kicker": "Misingi",
+    "heading": "Mambo matano ya kurekodi",
+    "items": [
+     "Mauzo: ulichouza, pesa taslimu au uhamisho",
+     "Gharama: kila gharama, hata ndogo",
+     "Hisa: bidhaa ndani, bidhaa nje, bidhaa zilizoachwa",
+     "Orodha ya wadaiwa: ni nani anayedaiwa, na lini",
+     "Kitabu cha pesa: pesa zote ndani na nje"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Pesa nyingi hutoka kimya kimya. Kwa mfano, Amina anauza vinywaji na vitafunwa kwenye bustani ya magari. Anapoteza takriban naira 500 kwa siku kwa vitafunio kwa mkopo ambavyo havilipwi kamwe, na vitu vinavyochukuliwa na watoto."
+   ],
+   "panel": {
+    "kicker": "Uvujaji mdogo huongeza",
+    "heading": "Jinsi uvujaji wa naira 500 hukua",
+    "items": [
+     "Karibu naira 500 kwa siku",
+     "x siku 6 = naira 3,000 kwa wiki",
+     "x wiki 52 = naira 156,000 kwa mwaka",
+     "Karibu kreti 26 za vinywaji baridi"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Anafanya kazi siku 6 kwa wiki. Hiyo ni naira 3,000 kwa wiki."
+   ],
+   "panel": {
+    "kicker": "Uvujaji mdogo huongeza",
+    "heading": "Jinsi uvujaji wa naira 500 hukua",
+    "items": [
+     "Karibu naira 500 kwa siku",
+     "x siku 6 = naira 3,000 kwa wiki",
+     "x wiki 52 = naira 156,000 kwa mwaka",
+     "Karibu kreti 26 za vinywaji baridi"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Kuna takriban wiki 52 kwa mwaka, kwa hiyo hiyo ni takriban naira 156,000."
+   ],
+   "panel": {
+    "kicker": "Uvujaji mdogo huongeza",
+    "heading": "Jinsi uvujaji wa naira 500 hukua",
+    "items": [
+     "Karibu naira 500 kwa siku",
+     "x siku 6 = naira 3,000 kwa wiki",
+     "x wiki 52 = naira 156,000 kwa mwaka",
+     "Karibu kreti 26 za vinywaji baridi"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Kreti moja ya vinywaji baridi humgharimu takriban naira 6,000. Kwa hivyo uvujaji aliofikiri sio chochote unamgharimu takriban kreti 26 za hisa kwa mwaka."
+   ],
+   "panel": {
+    "kicker": "Uvujaji mdogo huongeza",
+    "heading": "Jinsi uvujaji wa naira 500 hukua",
+    "items": [
+     "Karibu naira 500 kwa siku",
+     "x siku 6 = naira 3,000 kwa wiki",
+     "x wiki 52 = naira 156,000 kwa mwaka",
+     "Karibu kreti 26 za vinywaji baridi"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Njia bora ni ile utakayotumia kila siku. Daftari ni nafuu na hauhitaji data. Tumia kalamu, sio penseli. Ikiwa utafanya makosa, chora mstari mmoja kupitia hiyo. Usivunje kurasa kamwe."
+   ],
+   "panel": {
+    "kicker": "Chagua mbinu yako",
+    "heading": "Daftari au simu?",
+    "mode": "compare",
+    "left_h": "Daftari ya karatasi",
+    "left": [
+     "Nafuu, hakuna data inahitajika",
+     "Inafanya kazi bila betri au mtandao",
+     "Rahisi kwa wasaidizi kutumia",
+     "Lazima ujiongeze mwenyewe"
+    ],
+    "right_h": "Simu",
+    "right": [
+     "Hukuongezea jumla",
+     "Inaweza kuhifadhi nakala kwenye wingu",
+     "Inahitaji betri na data fulani",
+     "Inahitaji mbinu ya kufunga skrini na hifadhi rudufu"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Simu inakuongezea na inaweza kuhifadhi nakala mtandaoni. Wafanyabiashara wengi huandika kwenye daftari wakati wa mchana na kuandika jumla kwenye simu usiku."
+   ],
+   "panel": {
+    "kicker": "Chagua mbinu yako",
+    "heading": "Daftari au simu?",
+    "mode": "compare",
+    "left_h": "Daftari ya karatasi",
+    "left": [
+     "Nafuu, hakuna data inahitajika",
+     "Inafanya kazi bila betri au mtandao",
+     "Rahisi kwa wasaidizi kutumia",
+     "Lazima ujiongeze mwenyewe"
+    ],
+    "right_h": "Simu",
+    "right": [
+     "Hukuongezea jumla",
+     "Inaweza kuhifadhi nakala kwenye wingu",
+     "Inahitaji betri na data fulani",
+     "Inahitaji mbinu ya kufunga skrini na hifadhi rudufu"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Kwa mfano, Kemi anauza mkate na hawezi kuandika kwa urahisi. Anachora mkate mdogo na mkate mkubwa, na kuweka alama moja chini ya picha sahihi kwa kila mauzo."
+   ],
+   "panel": {
+    "kicker": "Ikiwa kusoma ni ngumu",
+    "heading": "Picha ya Kemi na kitabu cha hesabu",
+    "items": [
+     "Picha kwa kila bidhaa",
+     "Alama moja ya hesabu kwa kila mauzo",
+     "Uuzaji wa mkopo uliowekwa alama nyekundu",
+     "Hesabu usiku na kuzidisha kwa bei"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Mauzo ya mkopo yana alama nyekundu."
+   ],
+   "panel": {
+    "kicker": "Ikiwa kusoma ni ngumu",
+    "heading": "Picha ya Kemi na kitabu cha hesabu",
+    "items": [
+     "Picha kwa kila bidhaa",
+     "Alama moja ya hesabu kwa kila mauzo",
+     "Uuzaji wa mkopo uliowekwa alama nyekundu",
+     "Hesabu usiku na kuzidisha kwa bei"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Wakati wa usiku yeye huhesabu mikate midogo 23 kwa takriban naira 700, na mikate mikubwa 11 kama naira 1,500. Kwa pamoja, takriban naira 32,600 za mkate, na naira 3,600 anazodaiwa."
+   ],
+   "panel": {
+    "kicker": "Ikiwa kusoma ni ngumu",
+    "heading": "Picha ya Kemi na kitabu cha hesabu",
+    "items": [
+     "Picha kwa kila bidhaa",
+     "Alama moja ya hesabu kwa kila mauzo",
+     "Uuzaji wa mkopo uliowekwa alama nyekundu",
+     "Hesabu usiku na kuzidisha kwa bei"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Baadhi ya watu huonyesha skrini ya uhamishaji ghushi au arifa ya uwongo ya SMS na kuondoka na bidhaa. Kabla ya kutoa bidhaa, hakikisha kuwa pesa zimeingia kwenye akaunti yako mwenyewe. Rekodi uhamishaji tu baada ya kuuthibitisha.",
+    "Ikiwa rekodi zako ziko kwenye simu, weka mbinu ya kufunga skrini, usishiriki kamwe PIN yako ya benki au misimbo ya mara moja na mtu yeyote, na uhifadhi nakala mara kwa mara."
+   ],
+   "panel": {
+    "kicker": "Kaa salama na pesa",
+    "heading": "Linda pesa na rekodi zako",
+    "items": [
+     "Thibitisha uhamishaji katika akaunti yako mwenyewe",
+     "Usiamini skrini ya mteja",
+     "Weka mbinu ya kufunga skrini kwenye simu yako",
+     "Usishiriki kamwe PIN au misimbo yako",
+     "Hifadhi nakala za rekodi za simu yako"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Sasa pata kitabu cha mazoezi, biro na rula. Sanidi ukurasa wako wa kwanza na safu wima tatu: nini kilifanyika, pesa ndani, na pesa nje. Ukurasa wa nambari za uaminifu, zisizo safi ni bora kuliko kitabu kizuri kisicho na kitu. Endelea na masomo hapa chini."
+   ],
+   "panel": {
+    "kicker": "Mazoezi ya kazi",
+    "heading": "Kazi zako za mazoezi",
+    "items": [
+     "Sanidi ukurasa wako wa kwanza wa kurekodi",
+     "Gawa daftari lako katika sehemu tano",
+     "Tafuta uvujaji mmoja na gharama yake ya kila mwaka",
+     "Chagua na ujaribu mbinu yako"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

@@ -1,0 +1,561 @@
+{
+ "course": "ui-design-figma",
+ "module": "m1",
+ "title": "Figma foundations: tidy files, flexible layouts, calm visuals",
+ "course_title": "UI Design with Figma",
+ "shots": [
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Figma foundations: tidy files, flexible layouts and calm visuals.",
+    "This is the video for module one of UI Design with Figma."
+   ]
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "A UX flow tells you what a product must do. A wireframe shows the rough layout in grey boxes."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "From a UX flow to buildable screens",
+    "items": [
+     "A UX flow says what the product does",
+     "A wireframe shows rough grey boxes",
+     "UI design gives the exact interface",
+     "Colours, fonts, spacing, every state"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "UI design turns that into the exact interface a developer will build: real colours, real fonts, exact spacing in pixels, and every button state.",
+    "Figma runs in a web browser, so a client, a developer and you can open the same file at the same time."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "From a UX flow to buildable screens",
+    "items": [
+     "A UX flow says what the product does",
+     "A wireframe shows rough grey boxes",
+     "UI design gives the exact interface",
+     "Colours, fonts, spacing, every state"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "A finished handover has screens for every step, including empty, loading and error states."
+   ],
+   "panel": {
+    "kicker": "The handover",
+    "heading": "What a finished UI contains",
+    "items": [
+     "Screens, including empty, loading, error",
+     "Foundations: colour, type, spacing",
+     "Components built once, reused",
+     "A clickable prototype",
+     "Specs and named, exportable assets"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "It has foundations, the colour, type and spacing values, and components like buttons and cards, built once and reused."
+   ],
+   "panel": {
+    "kicker": "The handover",
+    "heading": "What a finished UI contains",
+    "items": [
+     "Screens, including empty, loading, error",
+     "Foundations: colour, type, spacing",
+     "Components built once, reused",
+     "A clickable prototype",
+     "Specs and named, exportable assets"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "And it has a prototype a client can tap through, plus specs and assets a developer can use without calling you."
+   ],
+   "panel": {
+    "kicker": "The handover",
+    "heading": "What a finished UI contains",
+    "items": [
+     "Screens, including empty, loading, error",
+     "Foundations: colour, type, spacing",
+     "Components built once, reused",
+     "A clickable prototype",
+     "Specs and named, exportable assets"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Clients judge your professionalism the moment they open the file. For example, Amaka sets up a practice app called Oja Fresh with six pages: Cover, Foundations, Components, Screens, Prototype and Archive."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Organise the file before you design",
+    "items": [
+     "Six pages: Cover to Archive",
+     "A readable cover frame",
+     "Sections for each main flow",
+     "Name every layer in plain words",
+     "Save a named version before reviews"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "She adds a cover with the project name and status, and sections on the Screens page, one for each flow, like Cart and checkout."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Organise the file before you design",
+    "items": [
+     "Six pages: Cover to Archive",
+     "A readable cover frame",
+     "Sections for each main flow",
+     "Name every layer in plain words",
+     "Save a named version before reviews"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "She names every layer in plain words. Rectangle 47 tells nobody anything. Price tag does."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Organise the file before you design",
+    "items": [
+     "Six pages: Cover to Archive",
+     "A readable cover frame",
+     "Sections for each main flow",
+     "Name every layer in plain words",
+     "Save a named version before reviews"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Before every client review she saves a named version, so she can always go back. And she names screens by flow, screen and state, like Checkout, Delivery address, Error."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Organise the file before you design",
+    "items": [
+     "Six pages: Cover to Archive",
+     "A readable cover frame",
+     "Sections for each main flow",
+     "Name every layer in plain words",
+     "Save a named version before reviews"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Name screens Flow / Screen / State.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "A beginner's screen looks fine at one size and breaks at every other. With a manual frame, you move each item by hand, and longer text overlaps."
+   ],
+   "panel": {
+    "kicker": "Core skill",
+    "heading": "Manual frame or auto layout?",
+    "mode": "compare",
+    "left_h": "Manual frame",
+    "left": [
+     "You move each item by hand",
+     "Longer text overlaps",
+     "Adding an item means re-spacing"
+    ],
+    "right_h": "Auto layout",
+    "right": [
+     "Items stack by gap and padding",
+     "Frame grows to fit text",
+     "New items slot in automatically"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Auto layout, Shift plus A, turns a frame into a flexible stack. You choose a direction, a gap between items, and padding inside. New items slot in, and spacing stays the same everywhere."
+   ],
+   "panel": {
+    "kicker": "Core skill",
+    "heading": "Manual frame or auto layout?",
+    "mode": "compare",
+    "left_h": "Manual frame",
+    "left": [
+     "You move each item by hand",
+     "Longer text overlaps",
+     "Adding an item means re-spacing"
+    ],
+    "right_h": "Auto layout",
+    "right": [
+     "Items stack by gap and padding",
+     "Frame grows to fit text",
+     "New items slot in automatically"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Each element gets a resizing rule. Hug contents means the frame fits what is inside, so a button grows with its label."
+   ],
+   "panel": {
+    "kicker": "Resizing rules",
+    "heading": "Hug, Fill or Fixed",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Hug contents",
+      "d": "The frame fits what is inside. A button grows when Add becomes Add to cart."
+     },
+     {
+      "t": "Fill container",
+      "d": "The child stretches to the space its parent gives it, like a card's text column."
+     },
+     {
+      "t": "Fixed",
+      "d": "An exact size that does not change, such as a 64 × 64 product photo."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Fill container means it stretches to take the space its parent gives it."
+   ],
+   "panel": {
+    "kicker": "Resizing rules",
+    "heading": "Hug, Fill or Fixed",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Hug contents",
+      "d": "The frame fits what is inside. A button grows when Add becomes Add to cart."
+     },
+     {
+      "t": "Fill container",
+      "d": "The child stretches to the space its parent gives it, like a card's text column."
+     },
+     {
+      "t": "Fixed",
+      "d": "An exact size that does not change, such as a 64 × 64 product photo."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Fixed means an exact size, like a 64 by 64 product photo."
+   ],
+   "panel": {
+    "kicker": "Resizing rules",
+    "heading": "Hug, Fill or Fixed",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Hug contents",
+      "d": "The frame fits what is inside. A button grows when Add becomes Add to cart."
+     },
+     {
+      "t": "Fill container",
+      "d": "The child stretches to the space its parent gives it, like a card's text column."
+     },
+     {
+      "t": "Fixed",
+      "d": "An exact size that does not change, such as a 64 × 64 product photo."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_camera",
+   "say": [
+    "Amaka builds a product card. A 64 by 64 photo, and a vertical stack of three text layers with a gap of 4."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "A product card that adapts",
+    "items": [
+     "Photo 64 × 64, plus a text stack, gap 4",
+     "Horizontal stack: gap 12, padding 12",
+     "Card and text set to Fill container",
+     "Long names: Auto height, truncate at 2 lines",
+     "Test at 360 and 412 wide"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_camera",
+   "say": [
+    "She stacks the photo and text horizontally, with a gap of 12 and padding of 12."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "A product card that adapts",
+    "items": [
+     "Photo 64 × 64, plus a text stack, gap 4",
+     "Horizontal stack: gap 12, padding 12",
+     "Card and text set to Fill container",
+     "Long names: Auto height, truncate at 2 lines",
+     "Test at 360 and 412 wide"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_camera",
+   "say": [
+    "The card fills the screen width, and the text fills the space beside the photo. On a 360 screen with 16 px margins, the card is 328 px wide."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "A product card that adapts",
+    "items": [
+     "Photo 64 × 64, plus a text stack, gap 4",
+     "Horizontal stack: gap 12, padding 12",
+     "Card and text set to Fill container",
+     "Long names: Auto height, truncate at 2 lines",
+     "Test at 360 and 412 wide"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Long product names use Auto height and truncate after 2 lines. Then she changes the screen from 360 to 412 to check every card stretches."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "A product card that adapts",
+    "items": [
+     "Photo 64 × 64, plus a text stack, gap 4",
+     "Horizontal stack: gap 12, padding 12",
+     "Card and text set to Fill container",
+     "Long names: Auto height, truncate at 2 lines",
+     "Test at 360 and 412 wide"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Many low-cost Android phones in Nigeria are about 360 points wide, so always test that width."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "A product card that adapts",
+    "items": [
+     "Photo 64 × 64, plus a text stack, gap 4",
+     "Horizontal stack: gap 12, padding 12",
+     "Card and text set to Fill container",
+     "Long names: Auto height, truncate at 2 lines",
+     "Test at 360 and 412 wide"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Always test at 360 px wide as well as your main device.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Polished screens repeat a few decisions. Use an 8-point system: spacing in multiples of 8, with 4 for small gaps. Only these values are allowed."
+   ],
+   "panel": {
+    "kicker": "Foundations",
+    "heading": "Spacing and a type scale",
+    "items": [
+     "Spacing: 4, 8, 12, 16, 24, 32, 40, 48",
+     "Body text: 16",
+     "Scale: multiply by 1.25",
+     "Round: 20, 24, 32",
+     "Save each size as a text style"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "For text, start with a body size of 16 and multiply by 1.25 for each step up."
+   ],
+   "panel": {
+    "kicker": "Foundations",
+    "heading": "Spacing and a type scale",
+    "items": [
+     "Spacing: 4, 8, 12, 16, 24, 32, 40, 48",
+     "Body text: 16",
+     "Scale: multiply by 1.25",
+     "Round: 20, 24, 32",
+     "Save each size as a text style"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "16 becomes 20, then 25, then 31.25. Amaka rounds them to 20, 24 and 32, and saves each as a text style. If the client wants bigger text, she edits Body once and every screen updates."
+   ],
+   "panel": {
+    "kicker": "Foundations",
+    "heading": "Spacing and a type scale",
+    "items": [
+     "Spacing: 4, 8, 12, 16, 24, 32, 40, 48",
+     "Body text: 16",
+     "Scale: multiply by 1.25",
+     "Round: 20, 24, 32",
+     "Save each size as a text style"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Name colours by role, like primary, surface and error, so a rebrand changes values, not meaning.",
+    "Keep tap targets at least 48 by 48. Use strong contrast, because people check orders in bright sunlight. Remember every large photo costs data.",
+    "And type real local words with tone marks before choosing a font. Empty boxes mean the font does not support them."
+   ],
+   "panel": {
+    "kicker": "Real conditions",
+    "heading": "Design for your real users",
+    "items": [
+     "Name colours by role, like Primary, Error",
+     "Tap targets at least 48 × 48",
+     "Strong contrast for bright sunlight",
+     "Small images; data costs money",
+     "Type real Yoruba, Igbo, Hausa words"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "To remember. Organise with pages, sections and plain names. Use auto layout for anything that stacks, with Hug, Fill and Fixed.",
+    "Define spacing, type and colour roles once. And test at 360 px with real local text."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "Pages, sections and plain layer names",
+     "Auto layout for anything that stacks",
+     "Hug, Fill and Fixed control resizing",
+     "Spacing in 8s; type scale saved as styles",
+     "Test at 360 px with real local text"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Now practise. Set up your practice file, build a list of cards that resizes from 360 to 412, and build your Foundations page.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice tasks",
+    "heading": "Your practice tasks",
+    "items": [
+     "Set up your practice file",
+     "Build a resizable list",
+     "Build your Foundations page"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}
