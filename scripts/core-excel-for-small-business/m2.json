@@ -1,0 +1,536 @@
+{
+ "course": "core-excel-for-small-business",
+ "module": "m2",
+ "title": "Dollar signs, IF and a tracker that tells you the truth",
+ "course_title": "Excel and Google Sheets for Small Business",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Dollar signs, IF, and a tracker that tells you the truth.",
+    "This is the video for Module 2 of Excel and Google Sheets for Small Business."
+   ]
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "In this module you learn to copy a formula without breaking it, then build one sheet that records every sale and every expense."
+   ],
+   "panel": {
+    "kicker": "In this module",
+    "heading": "What you will be able to do",
+    "items": [
+     "Copy formulas without breaking them",
+     "Track every sale and expense in one sheet",
+     "See money in, money out and your balance",
+     "Find and fix loud and silent errors"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "It tells you what came in, what went out, and what is left. And you learn to catch mistakes that make a wrong total look right."
+   ],
+   "panel": {
+    "kicker": "In this module",
+    "heading": "What you will be able to do",
+    "items": [
+     "Copy formulas without breaking them",
+     "Track every sale and expense in one sheet",
+     "See money in, money out and your balance",
+     "Find and fix loud and silent errors"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "When you copy =C2*D2 down, it becomes =C3*D3 in the next row. That is a relative reference. It slides with the row, and most of the time that is exactly what you want."
+   ],
+   "panel": {
+    "kicker": "References",
+    "heading": "Relative or absolute?",
+    "mode": "compare",
+    "left_h": "Relative: H1",
+    "left": [
+     "Moves when copied",
+     "For row by row values",
+     "Example: =C2*D2"
+    ],
+    "right_h": "Absolute: $H$1",
+    "right": [
+     "Never moves",
+     "For one shared rate",
+     "Example: =E2*$H$1"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "But sometimes every row must use the same cell, like one commission rate typed at the top.",
+    "Then you lock it with dollar signs: $H$1. Here the dollar sign has nothing to do with money. It means do not move.",
+    "On a phone, type the dollar signs yourself. On a Windows computer, press F4."
+   ],
+   "panel": {
+    "kicker": "References",
+    "heading": "Relative or absolute?",
+    "mode": "compare",
+    "left_h": "Relative: H1",
+    "left": [
+     "Moves when copied",
+     "For row by row values",
+     "Example: =C2*D2"
+    ],
+    "right_h": "Absolute: $H$1",
+    "right": [
+     "Never moves",
+     "For one shared rate",
+     "Example: =E2*$H$1"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Here is a worked example. Kemi types her 5% rate once, in cell H1, and her sale amounts in column E."
+   ],
+   "card": {
+    "title": "Kemi's sales commission",
+    "rows": [],
+    "note": "Total commission is exactly 5% of total sales."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "First she types =E2*H1 and copies it down. The next row becomes E3 times H2. But H2 is empty, so every row after the first shows 0. This is the common mistake."
+   ],
+   "card": {
+    "title": "Kemi's sales commission",
+    "rows": [
+     [
+      "Wrong: =E2*H1 copied down",
+      "0"
+     ]
+    ],
+    "note": "Total commission is exactly 5% of total sales."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "So she types =E2*$H$1 instead. Every copy still points at the rate. Her first sale of 19000 earns 950, and her total sales come to 43300 naira."
+   ],
+   "card": {
+    "title": "Kemi's sales commission",
+    "rows": [
+     [
+      "Wrong: =E2*H1 copied down",
+      "0"
+     ],
+     [
+      "Right: =E2*$H$1, first sale",
+      "950"
+     ],
+     [
+      "Total sales",
+      "43,300"
+     ]
+    ],
+    "note": "Total commission is exactly 5% of total sales."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Total commission is 2165 naira. When she raises the rate to 6%, she changes only H1, and every row recalculates at once."
+   ],
+   "card": {
+    "title": "Kemi's sales commission",
+    "rows": [
+     [
+      "Wrong: =E2*H1 copied down",
+      "0"
+     ],
+     [
+      "Right: =E2*$H$1, first sale",
+      "950"
+     ],
+     [
+      "Total sales",
+      "43,300"
+     ]
+    ],
+    "note": "Total commission is exactly 5% of total sales."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Now build the tracker. Each row is one transaction: date, Sale or Expense, category, details, quantity and unit price."
+   ],
+   "panel": {
+    "kicker": "Build it",
+    "heading": "The sales and expense tracker",
+    "items": [
+     "Columns: Date, Type, Category, Details, Qty, Price",
+     "Amount: =E2*F2",
+     "Money in: =IF(B2=\"Sale\",G2,0)",
+     "Money out: =IF(B2=\"Expense\",G2,0)",
+     "Balance: J3 is =J2+H3-I3, copied down"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "The Amount column multiplies quantity by price."
+   ],
+   "panel": {
+    "kicker": "Build it",
+    "heading": "The sales and expense tracker",
+    "items": [
+     "Columns: Date, Type, Category, Details, Qty, Price",
+     "Amount: =E2*F2",
+     "Money in: =IF(B2=\"Sale\",G2,0)",
+     "Money out: =IF(B2=\"Expense\",G2,0)",
+     "Balance: J3 is =J2+H3-I3, copied down"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Now the new function, IF. It makes a simple decision. The pattern is IF, a test, then what to show if true, then what to show if false.",
+    "So if column B says Sale, Money in shows the amount. If not, it shows 0. Text goes inside double quotes."
+   ],
+   "panel": {
+    "kicker": "Build it",
+    "heading": "The sales and expense tracker",
+    "items": [
+     "Columns: Date, Type, Category, Details, Qty, Price",
+     "Amount: =E2*F2",
+     "Money in: =IF(B2=\"Sale\",G2,0)",
+     "Money out: =IF(B2=\"Expense\",G2,0)",
+     "Balance: J3 is =J2+H3-I3, copied down"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Money out works the same way, testing for Expense."
+   ],
+   "panel": {
+    "kicker": "Build it",
+    "heading": "The sales and expense tracker",
+    "items": [
+     "Columns: Date, Type, Category, Details, Qty, Price",
+     "Amount: =E2*F2",
+     "Money in: =IF(B2=\"Sale\",G2,0)",
+     "Money out: =IF(B2=\"Expense\",G2,0)",
+     "Balance: J3 is =J2+H3-I3, copied down"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "The running balance takes the balance from the row above, adds what came in, and subtracts what went out. Copy J3 down, not J2."
+   ],
+   "panel": {
+    "kicker": "Build it",
+    "heading": "The sales and expense tracker",
+    "items": [
+     "Columns: Date, Type, Category, Details, Qty, Price",
+     "Amount: =E2*F2",
+     "Money in: =IF(B2=\"Sale\",G2,0)",
+     "Money out: =IF(B2=\"Expense\",G2,0)",
+     "Balance: J3 is =J2+H3-I3, copied down"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "One warning. IF only works if the spelling matches exactly. Sales, or Sale with an extra space, will go to 0. In Module 3, a drop-down list removes this problem."
+   ],
+   "panel": {
+    "kicker": "Build it",
+    "heading": "The sales and expense tracker",
+    "items": [
+     "Columns: Date, Type, Category, Details, Qty, Price",
+     "Amount: =E2*F2",
+     "Money in: =IF(B2=\"Sale\",G2,0)",
+     "Money out: =IF(B2=\"Expense\",G2,0)",
+     "Balance: J3 is =J2+H3-I3, copied down"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Type Sale and Expense the same way every time",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Bisi records 4 days of sales and costs. On day 1 she sells 25 plates, then buys foodstuff for 55000. Her balance goes negative, minus 17500."
+   ],
+   "card": {
+    "title": "Bisi's food stand, 4 days",
+    "rows": [],
+    "note": "Prices are approximate examples."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "That is a useful cash flow warning. Her big purchase came before the sales that paid for it.",
+    "By the end, money in is 157500 naira and money out is 73500."
+   ],
+   "card": {
+    "title": "Bisi's food stand, 4 days",
+    "rows": [
+     [
+      "Money in, 4 days of sales",
+      "157,500"
+     ],
+     [
+      "Money out, foodstuff to transport",
+      "73,500"
+     ]
+    ],
+    "note": "Prices are approximate examples."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "The difference is 84000, and it matches her last running balance. But cash left is not yet profit. Some foodstuff is still in her store, and she has not counted rent or her own time."
+   ],
+   "card": {
+    "title": "Bisi's food stand, 4 days",
+    "rows": [
+     [
+      "Money in, 4 days of sales",
+      "157,500"
+     ],
+     [
+      "Money out, foodstuff to transport",
+      "73,500"
+     ]
+    ],
+    "note": "Prices are approximate examples."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Every spreadsheet user makes mistakes. Loud errors show a code. Hash DIV slash 0 means you divided by zero or an empty cell."
+   ],
+   "panel": {
+    "kicker": "Error hunt",
+    "heading": "Loud errors and what they mean",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "#DIV/0!",
+      "d": "Dividing by zero or by an empty cell. Fill the cell, or use IFERROR for expected gaps."
+     },
+     {
+      "t": "#VALUE!",
+      "d": "Maths on something that is not a number, like N2000. Retype it as a plain number."
+     },
+     {
+      "t": "#REF!",
+      "d": "The formula points to a cell you deleted. Undo straight away, or restore version history."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Hash VALUE means maths on something that is not a number, like N2000."
+   ],
+   "panel": {
+    "kicker": "Error hunt",
+    "heading": "Loud errors and what they mean",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "#DIV/0!",
+      "d": "Dividing by zero or by an empty cell. Fill the cell, or use IFERROR for expected gaps."
+     },
+     {
+      "t": "#VALUE!",
+      "d": "Maths on something that is not a number, like N2000. Retype it as a plain number."
+     },
+     {
+      "t": "#REF!",
+      "d": "The formula points to a cell you deleted. Undo straight away, or restore version history."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Hash REF means the formula points to a cell you deleted. Press undo straight away."
+   ],
+   "panel": {
+    "kicker": "Error hunt",
+    "heading": "Loud errors and what they mean",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "#DIV/0!",
+      "d": "Dividing by zero or by an empty cell. Fill the cell, or use IFERROR for expected gaps."
+     },
+     {
+      "t": "#VALUE!",
+      "d": "Maths on something that is not a number, like N2000. Retype it as a plain number."
+     },
+     {
+      "t": "#REF!",
+      "d": "The formula points to a cell you deleted. Undo straight away, or restore version history."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Silent errors are more dangerous. The sheet shows a number that looks fine, but it is wrong."
+   ],
+   "card": {
+    "title": "Chioma's total that was too low",
+    "rows": [],
+    "note": "COUNT smaller than COUNTA means text amounts."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Chioma's SUM said 61000, but her calculator said 66000.",
+    "COUNT on the column gave 4, but COUNTA gave 5. So one cell was text."
+   ],
+   "card": {
+    "title": "Chioma's total that was too low",
+    "rows": [
+     [
+      "Her sheet's SUM said",
+      "61,000"
+     ],
+     [
+      "Her calculator said",
+      "66,000"
+     ]
+    ],
+    "note": "COUNT smaller than COUNTA means text amounts."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Cell B4 said N5,000, sitting on the left. She retyped it as 5000. Without that check, Friday would be short by 5000 naira."
+   ],
+   "card": {
+    "title": "Chioma's total that was too low",
+    "rows": [
+     [
+      "Her sheet's SUM said",
+      "61,000"
+     ],
+     [
+      "Her calculator said",
+      "66,000"
+     ],
+     [
+      "Missing: B4 typed as N5,000",
+      "5,000"
+     ]
+    ],
+    "note": "COUNT smaller than COUNTA means text amounts."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "To remember. Dollar signs lock one shared cell. IF makes a decision: test, value if true, value if false.",
+    "The balance adds in and subtracts out row by row. Cash left is not yet profit. And if COUNT is smaller than COUNTA, hunt for the amounts typed as text."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "$H$1 locks one shared cell when you copy",
+     "IF: test, value if true, value if false",
+     "Balance: row above, plus in, minus out",
+     "Cash left is not yet profit",
+     "If COUNT is less than COUNTA, find the text"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Now your turn. Use one rate across many rows, build your own tracker with at least 8 transactions, then do an error hunt.",
+    "Add a check cell that says Balanced when your totals agree. Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice task",
+    "heading": "Your practice tasks",
+    "items": [
+     "One rate, many rows",
+     "Build your tracker with 8 transactions",
+     "Error hunt and a check cell"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

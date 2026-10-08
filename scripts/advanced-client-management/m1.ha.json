@@ -1,0 +1,531 @@
+{
+ "course": "advanced-client-management",
+ "module": "m1",
+ "title": "San manyan abokan cinikin ku: fallasa, amana da ƙimar lafiya",
+ "course_title": "Babban Gudanarwar Abokin Ciniki: Tsayawa da Haɓaka Abokan Ciniki Masu Mahimmanci",
+ "shots": [
+  {
+   "demo": "meeting_table",
+   "say": [
+    "San manyan abokan cinikin ku: fallasa, amana da ƙimar lafiya.",
+    "Wannan shine bidiyon don module ɗaya na Babban Gudanarwar Abokin Ciniki."
+   ]
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Babban asusun ƙima abokin ciniki ne wanda ke biyan ku akai-akai, sau da yawa akan mai riƙewa kowane wata, kuma wanda asararsa zai cutar da kuɗin shiga.",
+    "Mai riƙewa ƙayyadaddun kuɗi ne don adadin da aka yarda na aiki mai gudana."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Ajiye, kare da girma",
+    "items": [
+     "Babban asusu yana biyan ku akai-akai",
+     "Ci gaba: isar da kan lokaci, sadarwa da kyau",
+     "Kare: tabo matsala da wuri",
+     "Shuka: sabunta daidai, ƙara aikin da ke taimakawa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Gudanar da waɗannan abokan ciniki yana da ayyuka uku. Na farko, kiyaye asusun, ta hanyar isar da abin dogaro da sadarwa da kyau."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Ajiye, kare da girma",
+    "items": [
+     "Babban asusu yana biyan ku akai-akai",
+     "Ci gaba: isar da kan lokaci, sadarwa da kyau",
+     "Kare: tabo matsala da wuri",
+     "Shuka: sabunta daidai, ƙara aikin da ke taimakawa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Na biyu, kare shi, ta hanyar gano matsala kafin abokin ciniki ya yi gunaguni."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Ajiye, kare da girma",
+    "items": [
+     "Babban asusu yana biyan ku akai-akai",
+     "Ci gaba: isar da kan lokaci, sadarwa da kyau",
+     "Kare: tabo matsala da wuri",
+     "Shuka: sabunta daidai, ƙara aikin da ke taimakawa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Na uku, haɓaka shi, ta hanyar sabuntawa akan farashi mai kyau da ƙarin aiki kawai inda yake taimakawa abokin ciniki da gaske.",
+    "Amma da farko, kuna buƙatar sanin waɗanne abokan ciniki ne suka fi mahimmanci, a cikin lambobi, ba ji ba."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Ajiye, kare da girma",
+    "items": [
+     "Babban asusu yana biyan ku akai-akai",
+     "Ci gaba: isar da kan lokaci, sadarwa da kyau",
+     "Kare: tabo matsala da wuri",
+     "Shuka: sabunta daidai, ƙara aikin da ke taimakawa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Ga misalin aiki. Ada yana gudanar da hukumar tallata dijital ta mutum uku a Legas. Kudin tawagarta da ofishinta na wata-wata kusan naira 900,000 ne."
+   ],
+   "card": {
+    "title": "Nawa abokin ciniki ɗaya ke ɗauka?",
+    "rows": [],
+    "note": "Misalin ƙididdiga don aiki, ba farashin kasuwa ba."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Ta jera kuɗin kowane abokin ciniki na wata-wata. Abokin ciniki A yana biyan Naira 600,000, Client B 250,000, Client C 200,000, Client D da E 150,000 da 100,000."
+   ],
+   "card": {
+    "title": "Nawa abokin ciniki ɗaya ke ɗauka?",
+    "rows": [
+     [
+      "Client A",
+      "600,000"
+     ],
+     [
+      "Abokin ciniki B",
+      "250,000"
+     ],
+     [
+      "Abokin ciniki C",
+      "200,000"
+     ],
+     [
+      "Abokin ciniki D",
+      "150,000"
+     ],
+     [
+      "Abokin ciniki E",
+      "100,000"
+     ]
+    ],
+    "note": "Misalin ƙididdiga don aiki, ba farashin kasuwa ba."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Tare wato naira miliyan 1,300,000 a wata.",
+    "Rabon abokin ciniki A shine 600,000 da aka raba da 1,300,000, wanda shine kusan kashi 46% na kudin shiga.",
+    "Idan babu Client A, samun kudin shiga ya ragu zuwa naira 700,000, wanda ya kai 200,000 kasa da kudinta a kowane wata."
+   ],
+   "card": {
+    "title": "Nawa abokin ciniki ɗaya ke ɗauka?",
+    "rows": [
+     [
+      "Client A",
+      "600,000"
+     ],
+     [
+      "Abokin ciniki B",
+      "250,000"
+     ],
+     [
+      "Abokin ciniki C",
+      "200,000"
+     ],
+     [
+      "Abokin ciniki D",
+      "150,000"
+     ],
+     [
+      "Abokin ciniki E",
+      "100,000"
+     ]
+    ],
+    "note": "Misalin ƙididdiga don aiki, ba farashin kasuwa ba."
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Wannan haɗarin ana kiran haɗarin maida hankali: ya danganta da abokin ciniki ɗaya ko biyu don babban kaso na kudin shiga. Maganin ba don guje wa manyan abokan ciniki ba. Shi ne a sarrafa su da ƙarin kulawa.",
+    "Abokan ciniki na dabaru suna samun mai shi ko babban mutum, rajistan shiga kowane wata, da bita na kwata."
+   ],
+   "panel": {
+    "kicker": "Matakan asusu",
+    "heading": "Daidaita lokacin ku da matakin",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Dabarun",
+      "d": "Babban rabon samun kudin shiga, dakin girma. Babban jagora, shiga kowane wata, bita na kwata."
+     },
+     {
+      "t": "Maɓalli",
+      "d": "Adadin kuɗin wata-wata, dacewa mai kyau. Jagorar asusun mai suna, sabuntawa na sati biyu, bita sau biyu a shekara."
+     },
+     {
+      "t": "Daidaitawa",
+      "d": "Ƙananan aiki ko lokaci-lokaci, iyaka mai sauƙi. Ingantaccen sabis, samfuri, sabuntawa a kowane bayarwa."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Maɓallin abokan ciniki suna biyan kuɗi akai-akai kowane wata. Suna samun jagorar asusu mai suna, sabuntawa kowane mako biyu, da bita sau biyu a shekara."
+   ],
+   "panel": {
+    "kicker": "Matakan asusu",
+    "heading": "Daidaita lokacin ku da matakin",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Dabarun",
+      "d": "Babban rabon samun kudin shiga, dakin girma. Babban jagora, shiga kowane wata, bita na kwata."
+     },
+     {
+      "t": "Maɓalli",
+      "d": "Adadin kuɗin wata-wata, dacewa mai kyau. Jagorar asusun mai suna, sabuntawa na sati biyu, bita sau biyu a shekara."
+     },
+     {
+      "t": "Daidaitawa",
+      "d": "Ƙananan aiki ko lokaci-lokaci, iyaka mai sauƙi. Ingantaccen sabis, samfuri, sabuntawa a kowane bayarwa."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Madaidaitan abokan ciniki suna samun ingantaccen sabis da sabuntawa a kowane bayarwa.",
+    "Tiers game da matakin sabis ne, ba girmamawa ba. Kowane abokin ciniki har yanzu ya cancanci ladabi da bayarwa akan lokaci. Yi bitar matakan kowane kwata."
+   ],
+   "panel": {
+    "kicker": "Matakan asusu",
+    "heading": "Daidaita lokacin ku da matakin",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Dabarun",
+      "d": "Babban rabon samun kudin shiga, dakin girma. Babban jagora, shiga kowane wata, bita na kwata."
+     },
+     {
+      "t": "Maɓalli",
+      "d": "Adadin kuɗin wata-wata, dacewa mai kyau. Jagorar asusun mai suna, sabuntawa na sati biyu, bita sau biyu a shekara."
+     },
+     {
+      "t": "Daidaitawa",
+      "d": "Ƙananan aiki ko lokaci-lokaci, iyaka mai sauƙi. Ingantaccen sabis, samfuri, sabuntawa a kowane bayarwa."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Abokan ciniki ba safai suke barin ba saboda kuskure ɗaya. Suna barin lokacin da suka daina amincewa da ku. Equation Amintaccen ya karya amana zuwa sassa hudu.",
+    "Amincewa: kun san filin ku kuma ku yarda lokacin da ba ku sani ba."
+   ],
+   "panel": {
+    "kicker": "Equation Amintaccen",
+    "heading": "Bangare hudu na amana",
+    "items": [
+     "Amintacciya: zan iya gaskanta abin da kuke fada?",
+     "Amincewa: kuna yin abin da kuka ce?",
+     "Zumunci: Ina jin lafiya in gaya muku abubuwa?",
+     "Gabatar da kai: bukatun wa ke zuwa a gaba?"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Amintacce: rahotanni sun zo a ranar da aka amince, kuma kuna kiran dawowa lokacin da kuka ce za ku yi."
+   ],
+   "panel": {
+    "kicker": "Equation Amintaccen",
+    "heading": "Bangare hudu na amana",
+    "items": [
+     "Amintacciya: zan iya gaskanta abin da kuke fada?",
+     "Amincewa: kuna yin abin da kuka ce?",
+     "Zumunci: Ina jin lafiya in gaya muku abubuwa?",
+     "Gabatar da kai: bukatun wa ke zuwa a gaba?"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Ƙulla zumunci: abokin ciniki yana raba damuwa tare da ku saboda kun ci gaba da amincewa kuma ba ku yi hukunci ba."
+   ],
+   "panel": {
+    "kicker": "Equation Amintaccen",
+    "heading": "Bangare hudu na amana",
+    "items": [
+     "Amintacciya: zan iya gaskanta abin da kuke fada?",
+     "Amincewa: kuna yin abin da kuka ce?",
+     "Zumunci: Ina jin lafiya in gaya muku abubuwa?",
+     "Gabatar da kai: bukatun wa ke zuwa a gaba?"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Daidaiton kai yana zaune a ƙarƙashin sauran ukun. Lokacin da kuka tura tallace-tallace naku, yana tashi kuma amana ya faɗi.",
+    "Alal misali, Ngozi, mai kula da littattafai, ta sami nasarar 4 amintacce bayan rahotanni biyu da suka makara. Ta aika da rahotanni a ranar 5 ga kowane wata kuma ta daina yin wasa, kuma sakamakon amincewarta ya tashi daga 3.4 zuwa 7.0."
+   ],
+   "panel": {
+    "kicker": "Equation Amintaccen",
+    "heading": "Bangare hudu na amana",
+    "items": [
+     "Amintacciya: zan iya gaskanta abin da kuke fada?",
+     "Amincewa: kuna yin abin da kuka ce?",
+     "Zumunci: Ina jin lafiya in gaya muku abubuwa?",
+     "Gabatar da kai: bukatun wa ke zuwa a gaba?"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Abubuwan da aka ɓace yawanci suna nuna alamun gargaɗi makonni kafin abokin ciniki ya faɗi haka. Makin lafiya yana tattara waɗannan alamun zuwa lamba ɗaya.",
+    "Sau ɗaya a wata, saka sigina biyar daga 1, mara kyau, zuwa 5, mai kyau."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Gina maki lafiyar asusu",
+    "items": [
+     "Maki sigina biyar daga 1 zuwa 5",
+     "Bayarwa, amsawa, gamsuwa",
+     "Biyan kuɗi da tallafawa haɗin gwiwa",
+     "Ninka da ma'auni, sannan ƙara",
+     "Green 4.0+, amber 3.0 zuwa 3.9, ja ƙasa da 3.0"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Alamun su ne isar da ku, jin daɗin abokin ciniki, gamsuwar su, yadda suke biyan kuɗi, da kuma ko mai ɗaukar nauyi, mai yanke shawara, ya ci gaba da aiki."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Gina maki lafiyar asusu",
+    "items": [
+     "Maki sigina biyar daga 1 zuwa 5",
+     "Bayarwa, amsawa, gamsuwa",
+     "Biyan kuɗi da tallafawa haɗin gwiwa",
+     "Ninka da ma'auni, sannan ƙara",
+     "Green 4.0+, amber 3.0 zuwa 3.9, ja ƙasa da 3.0"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Ba kowane nauyi wanda ya ƙara zuwa 100%, misali bayarwa 25%, amsawa 15%, gamsuwa 25%, biya 20% da ɗaukar nauyin 15%. Ƙara kowane maki da nauyinsa kuma ƙara."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Gina maki lafiyar asusu",
+    "items": [
+     "Maki sigina biyar daga 1 zuwa 5",
+     "Bayarwa, amsawa, gamsuwa",
+     "Biyan kuɗi da tallafawa haɗin gwiwa",
+     "Ninka da ma'auni, sannan ƙara",
+     "Green 4.0+, amber 3.0 zuwa 3.9, ja ƙasa da 3.0"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Abokin ciniki A Ada ya samu kashi 3.25 cikin 5. Wato amber, duk da cewa yana biya akan lokaci, saboda sabon darektan tallace-tallace bai taɓa saduwa da ita ba."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Gina maki lafiyar asusu",
+    "items": [
+     "Maki sigina biyar daga 1 zuwa 5",
+     "Bayarwa, amsawa, gamsuwa",
+     "Biyan kuɗi da tallafawa haɗin gwiwa",
+     "Ninka da ma'auni, sannan ƙara",
+     "Green 4.0+, amber 3.0 zuwa 3.9, ja ƙasa da 3.0"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Yi amfani da shaida: kwanakin bayarwa, bayanan biyan kuɗi da kalmomin abokin ciniki. Makin da ya sauko daga 4.4 zuwa 3.6 sama da watanni uku ya fi damuwa fiye da tsayayyen 3.6."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Gina maki lafiyar asusu",
+    "items": [
+     "Maki sigina biyar daga 1 zuwa 5",
+     "Bayarwa, amsawa, gamsuwa",
+     "Biyan kuɗi da tallafawa haɗin gwiwa",
+     "Ninka da ma'auni, sannan ƙara",
+     "Green 4.0+, amber 3.0 zuwa 3.9, ja ƙasa da 3.0"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Saka maki daga gaskiya, ba yanayin ku ba. Kalli yanayin.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "An rasa asusu da yawa saboda mutumin da yake son ku ya bar kamfanin."
+   ],
+   "panel": {
+    "kicker": "Kuskuren gama gari",
+    "heading": "Kada ka dogara ga lamba ɗaya",
+    "mode": "compare",
+    "left_h": "Mai haɗari",
+    "left": [
+     "Mutum daya da ke son ku",
+     "siyarwa akai-akai",
+     "Yi wa kanku kwallayen kirki"
+    ],
+    "right_h": "Mafi aminci",
+    "right": [
+     "Haɗi tare da mutane da yawa",
+     "Ji fiye da yadda kuke magana",
+     "Yi maki tare da kwanan wata da rikodin"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Gina haɗin kai na gaskiya tare da mutumin da ya yarda da biyan kuɗi, mutumin da kuke aiki tare da kullun, da wani babba wanda ya damu da sakamako. Kada ku taɓa zagayawa babban abokin hulɗarku don kokewa ga shugabansu."
+   ],
+   "panel": {
+    "kicker": "Kuskuren gama gari",
+    "heading": "Kada ka dogara ga lamba ɗaya",
+    "mode": "compare",
+    "left_h": "Mai haɗari",
+    "left": [
+     "Mutum daya da ke son ku",
+     "siyarwa akai-akai",
+     "Yi wa kanku kwallayen kirki"
+    ],
+    "right_h": "Mafi aminci",
+    "right": [
+     "Haɗi tare da mutane da yawa",
+     "Ji fiye da yadda kuke magana",
+     "Yi maki tare da kwanan wata da rikodin"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Don tunawa. Ku san rabon kowane abokin ciniki na kuɗin shiga ku. Daidaita lokacin ku da matakin. Ci gaba da ƙananan alkawura kuma ku sayar da ƙasa. Kuma ci lafiyar asusun a kowane wata, yin aiki da sauri akan amber ko ja."
+   ],
+   "panel": {
+    "kicker": "Mabuɗin mahimmanci",
+    "heading": "Ka tuna",
+    "items": [
+     "Yi aiki da rabon kowane abokin ciniki na kuɗin shiga",
+     "Rarraba abokan ciniki cikin dabaru, maɓalli da ma'auni",
+     "Amincewa yana faɗuwa lokacin da kai ya tashi",
+     "Maki lafiyar asusun a kowane wata kuma kuyi aiki akan amber"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Yanzu taswirar bayyanar kuɗin shiga ku, yi amintacce bincikar kai don muhimmin abokin ciniki ɗaya, kuma saka manyan asusun ku guda uku.",
+    "Ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi ayyuka",
+    "heading": "Ayyukan aikin ku",
+    "items": [
+     "Taswirar bayyanar kuɗin shiga ku",
+     "Yi amanar ku duba kanku",
+     "Maki manyan asusun ku guda uku"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

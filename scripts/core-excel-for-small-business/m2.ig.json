@@ -1,0 +1,537 @@
+{
+ "course": "core-excel-for-small-business",
+ "module": "m2",
+ "title": "Akara dollar, Ọ BỤRỤ na onye na-egwu egwu na-agwa gị eziokwu",
+ "course_title": "Akwụkwọ Excel na Google maka obere azụmaahịa",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Akara dollar, Ọ BỤRỤ na onye na-egwu egwu na-agwa gị eziokwu.",
+    "Nke a bụ vidiyo maka Module 2 nke Excel na Google Sheets maka obere azụmaahịa."
+   ]
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Na modul a, ị ga-amụta ka ị detuo usoro n'emebighị ya, wee wuo otu mpempe akwụkwọ na-edekọ ire ere na ego ọ bụla."
+   ],
+   "panel": {
+    "kicker": "Na modul a",
+    "heading": "Ihe ị ga-eme",
+    "items": [
+     "Detuo usoro na-emebighị ha",
+     "Sochie ire na ego ọ bụla n'otu mpempe akwụkwọ",
+     "Hụ ego n'ime, ego pụta na nguzozi gị",
+     "Chọta wee dozie njehie dara ụda na nke dị jụụ"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Ọ na-agwa gị ihe batara, ihe pụtara, na ihe fọdụrụ. Ị mụtakwa ijide mmejọ ndị na-eme ka mkpokọta na-ezighi ezi yie nke ọma."
+   ],
+   "panel": {
+    "kicker": "Na modul a",
+    "heading": "Ihe ị ga-eme",
+    "items": [
+     "Detuo usoro na-emebighị ha",
+     "Sochie ire na ego ọ bụla n'otu mpempe akwụkwọ",
+     "Hụ ego n'ime, ego pụta na nguzozi gị",
+     "Chọta wee dozie njehie dara ụda na nke dị jụụ"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Mgbe idetuo = C2 * D2 ala, ọ na-aghọ = C3 * D3 n'ahịrị na-esote. Nke ahụ bụ ntụnyere aka. Ọ na-ese n'ahịrị, na ọtụtụ oge nke ahụ bụ ihe ịchọrọ."
+   ],
+   "panel": {
+    "kicker": "Ntụaka",
+    "heading": "Ikwu ma ọ bụ zuru oke?",
+    "mode": "compare",
+    "left_h": "Ndị ikwu: H1",
+    "left": [
+     "Na-akpali mgbe e depụtaghachiri ya",
+     "Maka ụkpụrụ n'usoro n'usoro",
+     "Ọmụmaatụ: =C2*D2"
+    ],
+    "right_h": "Zuru oke: $H$1",
+    "right": [
+     "Emegharịala",
+     "Maka otu ọnụego òkè",
+     "Ọmụmaatụ: =E2*$H$1"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Mana mgbe ụfọdụ ahịrị ọ bụla ga-eji otu cell, dị ka otu ọnụ ahịa kọmiti etinyere n'elu.",
+    "Mgbe ahụ, ị ga-eji akara dollar kpochie ya: $H$1. N'ebe a akara dollar enweghị ihe jikọrọ ya na ego. Ọ pụtara emegharịla.",
+    "Na ekwentị, pịnye akara dollar n'onwe gị. Na kọmputa Windows, pịa F4."
+   ],
+   "panel": {
+    "kicker": "Ntụaka",
+    "heading": "Ikwu ma ọ bụ zuru oke?",
+    "mode": "compare",
+    "left_h": "Ndị ikwu: H1",
+    "left": [
+     "Na-akpali mgbe e depụtaghachiri ya",
+     "Maka ụkpụrụ n'usoro n'usoro",
+     "Ọmụmaatụ: =C2*D2"
+    ],
+    "right_h": "Zuru oke: $H$1",
+    "right": [
+     "Emegharịala",
+     "Maka otu ọnụego òkè",
+     "Ọmụmaatụ: =E2*$H$1"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Nke a bụ ọmụmaatụ ọrụ. Kemi na-edepụta ọnụego ya 5% otu ugboro, na cell H1, na ọnụ ahịa ire ya na kọlụm E."
+   ],
+   "card": {
+    "title": "Ụlọ ọrụ ire ahịa nke Kemi",
+    "rows": [],
+    "note": "Mkpokọta ọrụ bụ kpọmkwem 5% nke mkpokọta ahịa."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Nke mbụ ọ pịnyere =E2*H1 wee detuo ya ala. Ahịrị na-esote na-aghọ E3 ugboro H2. Ma H2 bụ ihe efu, ya mere, ọ bụla ahịrị mgbe mbụ na-egosi 0. Nke a bụ nkịtị mmejọ."
+   ],
+   "card": {
+    "title": "Ụlọ ọrụ ire ahịa nke Kemi",
+    "rows": [
+     [
+      "Emejọrọ: =E2*H1 detuo ala",
+      "0"
+     ]
+    ],
+    "note": "Mkpokọta ọrụ bụ kpọmkwem 5% nke mkpokọta ahịa."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Ya mere ọ pịnyere = E2*$H$1 kama. Mpempe akwụkwọ ọ bụla ka na-atụ aka na ọnụego ya. Ire mbụ ya nke 19000 na-enweta narị narị itoolu na iri ise, ọnụ ahịa ya na-abatakwa naịra 43300."
+   ],
+   "card": {
+    "title": "Ụlọ ọrụ ire ahịa nke Kemi",
+    "rows": [
+     [
+      "Emejọrọ: =E2*H1 detuo ala",
+      "0"
+     ],
+     [
+      "Aka nri: = E2*$H$1, ọrịre mbụ",
+      "950"
+     ],
+     [
+      "Mgbakọta ahịa",
+      "43,300"
+     ]
+    ],
+    "note": "Mkpokọta ọrụ bụ kpọmkwem 5% nke mkpokọta ahịa."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Ngụkọta ọrụ bụ naira 2165. Mgbe ọ na-ebuli ọnụego ya na 6%, ọ na-agbanwe naanị H1, na ahịrị ọ bụla na-atụgharị otu ugboro."
+   ],
+   "card": {
+    "title": "Ụlọ ọrụ ire ahịa nke Kemi",
+    "rows": [
+     [
+      "Emejọrọ: =E2*H1 detuo ala",
+      "0"
+     ],
+     [
+      "Aka nri: = E2*$H$1, ọrịre mbụ",
+      "950"
+     ],
+     [
+      "Mgbakọta ahịa",
+      "43,300"
+     ]
+    ],
+    "note": "Mkpokọta ọrụ bụ kpọmkwem 5% nke mkpokọta ahịa."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Ugbu a wuo tracker. Ahịrị ọ bụla bụ otu azụmahịa: ụbọchị, ọrịre ma ọ bụ mmefu, otu, nkọwa, ọnụọgụ na ọnụ ahịa otu."
+   ],
+   "panel": {
+    "kicker": "Wuo ya",
+    "heading": "The ahịa na mmefu tracker",
+    "items": [
+     "Ogidi: Ụbọchị, Ụdị, Otu, Nkọwa, Qty, Ọnụ ahịa",
+     "Ọnụ ego: = E2*F2",
+     "Ego na: = IF (B2 = \"Ọrịre\", G2,0)",
+     "Ọnụ ego: = IF (B2 = \"Efu\", G2,0)",
+     "Balance: J3 bụ = J2+H3-I3, depụtaghachiri ya"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Kọlụm Ọnụ ego na-amụba ọnụọgụ site na ọnụahịa."
+   ],
+   "panel": {
+    "kicker": "Wuo ya",
+    "heading": "The ahịa na mmefu tracker",
+    "items": [
+     "Ogidi: Ụbọchị, Ụdị, Otu, Nkọwa, Qty, Ọnụ ahịa",
+     "Ọnụ ego: = E2*F2",
+     "Ego na: = IF (B2 = \"Ọrịre\", G2,0)",
+     "Ọnụ ego: = IF (B2 = \"Efu\", G2,0)",
+     "Balance: J3 bụ = J2+H3-I3, depụtaghachiri ya"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Ugbu a ọrụ ọhụrụ, Ọ BỤRỤ. Ọ na-eme mkpebi dị mfe. Ụkpụrụ bụ Ọ BỤRỤ na, ule, mgbe ahụ ihe ị ga-egosi ma ọ bụrụ eziokwu, mgbe ahụ ihe ị ga-egosi ma ọ bụrụ na ọ bụ ụgha.",
+    "Yabụ ọ bụrụ na kọlụm B na-ekwu ire, Ego dị na egosi ọnụọgụ. Ọ bụrụ na ọ bụghị, ọ na-egosi 0. Ederede na-abanye n'ime ọnụọgụ abụọ."
+   ],
+   "panel": {
+    "kicker": "Wuo ya",
+    "heading": "The ahịa na mmefu tracker",
+    "items": [
+     "Ogidi: Ụbọchị, Ụdị, Otu, Nkọwa, Qty, Ọnụ ahịa",
+     "Ọnụ ego: = E2*F2",
+     "Ego na: = IF (B2 = \"Ọrịre\", G2,0)",
+     "Ọnụ ego: = IF (B2 = \"Efu\", G2,0)",
+     "Balance: J3 bụ = J2+H3-I3, depụtaghachiri ya"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Ego na-arụ ọrụ otu ụzọ ahụ, na-anwale maka mmefu."
+   ],
+   "panel": {
+    "kicker": "Wuo ya",
+    "heading": "The ahịa na mmefu tracker",
+    "items": [
+     "Ogidi: Ụbọchị, Ụdị, Otu, Nkọwa, Qty, Ọnụ ahịa",
+     "Ọnụ ego: = E2*F2",
+     "Ego na: = IF (B2 = \"Ọrịre\", G2,0)",
+     "Ọnụ ego: = IF (B2 = \"Efu\", G2,0)",
+     "Balance: J3 bụ = J2+H3-I3, depụtaghachiri ya"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Ntụle ịgba ọsọ na-ewere nguzozi site na ahịrị dị n'elu, gbakwunye ihe batara, ma wepụ ihe pụtara. Detuo J3 ala, ọ bụghị J2."
+   ],
+   "panel": {
+    "kicker": "Wuo ya",
+    "heading": "The ahịa na mmefu tracker",
+    "items": [
+     "Ogidi: Ụbọchị, Ụdị, Otu, Nkọwa, Qty, Ọnụ ahịa",
+     "Ọnụ ego: = E2*F2",
+     "Ego na: = IF (B2 = \"Ọrịre\", G2,0)",
+     "Ọnụ ego: = IF (B2 = \"Efu\", G2,0)",
+     "Balance: J3 bụ = J2+H3-I3, depụtaghachiri ya"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Otu ịdọ aka ná ntị. Ọ BỤRỤ na ọ na-arụ ọrụ naanị ma ọ bụrụ na mkpoputa dabara adaba. Ahịa, ma ọ bụ ọrịre nwere ohere ọzọ, ga-aga na 0. Na modul 3, ndetu ndetu na-ewepụ nsogbu a."
+   ],
+   "panel": {
+    "kicker": "Wuo ya",
+    "heading": "The ahịa na mmefu tracker",
+    "items": [
+     "Ogidi: Ụbọchị, Ụdị, Otu, Nkọwa, Qty, Ọnụ ahịa",
+     "Ọnụ ego: = E2*F2",
+     "Ego na: = IF (B2 = \"Ọrịre\", G2,0)",
+     "Ọnụ ego: = IF (B2 = \"Efu\", G2,0)",
+     "Balance: J3 bụ = J2+H3-I3, depụtaghachiri ya"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Pịnye ire ere na mefuo otu ụzọ oge ọ bụla",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Bisi na-edekọ ụbọchị 4 nke ahịa na ọnụ ahịa. N'ụbọchị 1 ọ na-ere efere 25, wee zụta ihe oriri maka 55000. Ntụle ya na-adịghị mma, mwepu 17500."
+   ],
+   "card": {
+    "title": "Nri Bisi guzoro, ụbọchị anọ",
+    "rows": [],
+    "note": "Ọnụ ahịa bụ ihe atụ oruru."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Nke ahụ bụ ịdọ aka ná ntị mgbaba ego bara uru. Nnukwu ịzụrụ ya bịara tupu ire ere nke kwụrụ ya.",
+    "N'ikpeazụ, ego dị na ya bụ 157500 naịra na ego pụta bụ 73500."
+   ],
+   "card": {
+    "title": "Nri Bisi guzoro, ụbọchị anọ",
+    "rows": [
+     [
+      "Ego na, 4 ụbọchị nke ire ere",
+      "157,500"
+     ],
+     [
+      "Ego apụta, ihe oriri a ga-ebufe",
+      "73,500"
+     ]
+    ],
+    "note": "Ọnụ ahịa bụ ihe atụ oruru."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Ihe dị iche bụ 84000, ọ dabara na nguzozi ịgba ọsọ ikpeazụ ya. Mana ego fọdụrụ erubeghị uru. Ụfọdụ ihe oriri ka dị n'ụlọ ahịa ya, ọ gụbeghịkwa ụgwọ ụlọ ma ọ bụ oge nke ya."
+   ],
+   "card": {
+    "title": "Nri Bisi guzoro, ụbọchị anọ",
+    "rows": [
+     [
+      "Ego na, 4 ụbọchị nke ire ere",
+      "157,500"
+     ],
+     [
+      "Ego apụta, ihe oriri a ga-ebufe",
+      "73,500"
+     ]
+    ],
+    "note": "Ọnụ ahịa bụ ihe atụ oruru."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Onye ọrụ mgbasa ozi ọ bụla na-emehie ihe. Njehie dara ụda na-egosi koodu. Hash DIV slash 0 pụtara na ị na-ekewa site na efu ma ọ bụ cell efu."
+   ],
+   "panel": {
+    "kicker": "Ichu nta nwere mperi",
+    "heading": "Mmejọ dara ụda na ihe ha pụtara",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "#DIV/0!",
+      "d": "Na-ekewa site na efu ma ọ bụ site na cell efu. Jujuo cell, ma ọ bụ jiri IFERROR maka oghere ndị a tụrụ anya ya."
+     },
+     {
+      "t": "# URU!",
+      "d": "Maths na ihe na-abụghị ọnụọgụ, dị ka N2000. Tinyegharịa ya dị ka nọmba nkịtị."
+     },
+     {
+      "t": "#REF!",
+      "d": "Usoro a na-arụtụ aka na cell nke ehichapụrụ. Megharịa ozugbo, ma ọ bụ weghachi akụkọ ihe mere eme ụdị."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Hash VALUE pụtara mgbakọ na mwepụ na ihe na-abụghị nọmba, dị ka N2000."
+   ],
+   "panel": {
+    "kicker": "Ichu nta nwere mperi",
+    "heading": "Mmejọ dara ụda na ihe ha pụtara",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "#DIV/0!",
+      "d": "Na-ekewa site na efu ma ọ bụ site na cell efu. Jujuo cell, ma ọ bụ jiri IFERROR maka oghere ndị a tụrụ anya ya."
+     },
+     {
+      "t": "# URU!",
+      "d": "Maths na ihe na-abụghị ọnụọgụ, dị ka N2000. Tinyegharịa ya dị ka nọmba nkịtị."
+     },
+     {
+      "t": "#REF!",
+      "d": "Usoro a na-arụtụ aka na cell nke ehichapụrụ. Megharịa ozugbo, ma ọ bụ weghachi akụkọ ihe mere eme ụdị."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Hash REF pụtara usoro a na-atụ aka na cell nke ehichapụrụ. Pịa megharịa ozugbo."
+   ],
+   "panel": {
+    "kicker": "Ichu nta nwere mperi",
+    "heading": "Mmejọ dara ụda na ihe ha pụtara",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "#DIV/0!",
+      "d": "Na-ekewa site na efu ma ọ bụ site na cell efu. Jujuo cell, ma ọ bụ jiri IFERROR maka oghere ndị a tụrụ anya ya."
+     },
+     {
+      "t": "# URU!",
+      "d": "Maths na ihe na-abụghị ọnụọgụ, dị ka N2000. Tinyegharịa ya dị ka nọmba nkịtị."
+     },
+     {
+      "t": "#REF!",
+      "d": "Usoro a na-arụtụ aka na cell nke ehichapụrụ. Megharịa ozugbo, ma ọ bụ weghachi akụkọ ihe mere eme ụdị."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Njehie gbachiri nkịtị dị ize ndụ karịa. Mpempe akwụkwọ ahụ na-egosi ọnụọgụ dị mma, mana ọ na-ezighi ezi."
+   ],
+   "card": {
+    "title": "Ngụkọta Chioma dị obere",
+    "rows": [],
+    "note": "COUNT dị obere karịa COUNTA pụtara ego ederede."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "SUM nke Chioma kwuru 61000, mana mgbako ya kwuru 66000.",
+    "COUNT na kọlụm nyere 4, ma COUNTA nyere 5. Ya mere otu cell bụ ederede."
+   ],
+   "card": {
+    "title": "Ngụkọta Chioma dị obere",
+    "rows": [
+     [
+      "SUM mpempe akwụkwọ ya kwuru",
+      "61,000"
+     ],
+     [
+      "Ihe mgbako ya kwuru",
+      "66,000"
+     ]
+    ],
+    "note": "COUNT dị obere karịa COUNTA pụtara ego ederede."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Cell B4 kwuru N5,000, nọ ọdụ n'aka ekpe. Ọ degharịrị ya dị ka 5000. Ọ bụrụ na enweghị ego ahụ, Fraịde ga-adị mkpụmkpụ site na narị naira ise."
+   ],
+   "card": {
+    "title": "Ngụkọta Chioma dị obere",
+    "rows": [
+     [
+      "SUM mpempe akwụkwọ ya kwuru",
+      "61,000"
+     ],
+     [
+      "Ihe mgbako ya kwuru",
+      "66,000"
+     ],
+     [
+      "Na-efu: B4 pịnyere dị ka N5,000",
+      "5,000"
+     ]
+    ],
+    "note": "COUNT dị obere karịa COUNTA pụtara ego ederede."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Icheta. Akara dollar kpọchiri otu cell ekekọrịtara. Ọ BỤRỤ na-eme mkpebi: nwale, uru ọ bụrụ eziokwu, uru ma ọ bụrụ ụgha.",
+    "Ntụziaka na-agbakwunye ma na-ewepu n'ahịrị n'usoro. Ego fọdụrụ erubeghị uru. Ma ọ bụrụ na COUNT dị obere karịa COUNTA, chọgharịa maka ego ndị edebere dị ka ederede."
+   ],
+   "panel": {
+    "kicker": "Isi ihe",
+    "heading": "Cheta",
+    "items": [
+     "$H$1 na-akpọchi otu cell ekekọrịta mgbe i detuo",
+     "Ọ BỤRỤ: nwale, uru ọ bụrụ eziokwu, uru ma ọ bụrụ ụgha",
+     "Ntụziaka: ahịrị n'elu, gbakwunyere na, na-ewepu",
+     "Ego fọdụrụ erubeghị uru",
+     "Ọ bụrụ na COUNT erughi COUNTA, chọta ederede"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Ugbu a oge gị. Jiri otu ọnụego gafee ọtụtụ ahịrị, wulite tracker nke gị ma ọ dịkarịa ala azụmahịa 8, wee mee ịchụ nta njehie.",
+    "Tinye cell nlele nke na-ekwu Balanced mgbe mkpokọta gị kwenyere. Gaa n'ihu na nkuzi ndị dị n'okpuru."
+   ],
+   "panel": {
+    "kicker": "Mee ọrụ",
+    "heading": "Ọrụ omume gị",
+    "items": [
+     "Otu ọnụego, ọtụtụ ahịrị",
+     "Jiri azụmahịa 8 wulite tracker gị",
+     "Ichu nta na mperi cell"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

@@ -1,0 +1,625 @@
+{
+ "course": "bulk-production-planning",
+ "module": "m1",
+ "title": "Sizing a bulk order: specification, capacity and materials",
+ "course_title": "Bulk Production Planning",
+ "shots": [
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Sizing a bulk order: specification, capacity and materials.",
+    "This is the video for module 1 of Bulk Production Planning."
+   ]
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "When an order is 50 or 100 times your usual size, five things change at once. First, materials you buy before you earn anything."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "A bulk order is not a busy weekend",
+    "items": [
+     "Materials bought before you earn",
+     "Labour hours at your slowest step",
+     "Space for stock and cartons",
+     "Cash spent before the buyer pays",
+     "Risk: one mistake copied many times"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Second, the labour hours at your slowest step."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "A bulk order is not a busy weekend",
+    "items": [
+     "Materials bought before you earn",
+     "Labour hours at your slowest step",
+     "Space for stock and cartons",
+     "Cash spent before the buyer pays",
+     "Risk: one mistake copied many times"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Third, the space to store raw materials and finished goods."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "A bulk order is not a busy weekend",
+    "items": [
+     "Materials bought before you earn",
+     "Labour hours at your slowest step",
+     "Space for stock and cartons",
+     "Cash spent before the buyer pays",
+     "Risk: one mistake copied many times"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Fourth, the cash you spend before the buyer pays."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "A bulk order is not a busy weekend",
+    "items": [
+     "Materials bought before you earn",
+     "Labour hours at your slowest step",
+     "Space for stock and cartons",
+     "Cash spent before the buyer pays",
+     "Risk: one mistake copied many times"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "And fifth, the risk that one mistake is copied into thousands of units. Planning turns each of these into numbers before you agree a price or a date."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "A bulk order is not a busy weekend",
+    "items": [
+     "Materials bought before you earn",
+     "Labour hours at your slowest step",
+     "Space for stock and cartons",
+     "Cash spent before the buyer pays",
+     "Risk: one mistake copied many times"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Most bulk enquiries arrive as a call or a WhatsApp voice note, like, we need about 5,000 packs of chips before Christmas, what is your price?",
+    "Turn that into a one-page order specification sheet that you and the buyer both agree."
+   ],
+   "panel": {
+    "kicker": "Step one",
+    "heading": "The order specification sheet",
+    "items": [
+     "Product, size and quantity",
+     "Packaging, labelling and quality standard",
+     "Delivery date, address and receiver",
+     "Price, deposit and payment terms",
+     "Documents, one contact, changes in writing"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Write the exact product and size, for example 100 g per pack, and the exact quantity."
+   ],
+   "panel": {
+    "kicker": "Step one",
+    "heading": "The order specification sheet",
+    "items": [
+     "Product, size and quantity",
+     "Packaging, labelling and quality standard",
+     "Delivery date, address and receiver",
+     "Price, deposit and payment terms",
+     "Documents, one contact, changes in writing"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Write the packaging, the labels, and the quality standard: the approved sample and what counts as a defect."
+   ],
+   "panel": {
+    "kicker": "Step one",
+    "heading": "The order specification sheet",
+    "items": [
+     "Product, size and quantity",
+     "Packaging, labelling and quality standard",
+     "Delivery date, address and receiver",
+     "Price, deposit and payment terms",
+     "Documents, one contact, changes in writing"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Write the delivery date, address and who receives."
+   ],
+   "panel": {
+    "kicker": "Step one",
+    "heading": "The order specification sheet",
+    "items": [
+     "Product, size and quantity",
+     "Packaging, labelling and quality standard",
+     "Delivery date, address and receiver",
+     "Price, deposit and payment terms",
+     "Documents, one contact, changes in writing"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Write the unit price, the deposit, and when the balance is paid."
+   ],
+   "panel": {
+    "kicker": "Step one",
+    "heading": "The order specification sheet",
+    "items": [
+     "Product, size and quantity",
+     "Packaging, labelling and quality standard",
+     "Delivery date, address and receiver",
+     "Price, deposit and payment terms",
+     "Documents, one contact, changes in writing"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Finally, the documents the buyer needs, one named person on each side, and the rule that any change is confirmed in writing.",
+    "Reply to the enquiry with questions, not a price. Serious buyers respect this."
+   ],
+   "panel": {
+    "kicker": "Step one",
+    "heading": "The order specification sheet",
+    "items": [
+     "Product, size and quantity",
+     "Packaging, labelling and quality standard",
+     "Delivery date, address and receiver",
+     "Price, deposit and payment terms",
+     "Documents, one contact, changes in writing"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "For example, Kemi makes plantain chips in Ibadan. A normal weekend order is 40 packs. A company asks for 5,000 packs for staff hampers. That is 125 times her normal order."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Kemi: from 40 packs to 5,000",
+    "items": [
+     "5,000 / 40 = 125 times her normal order",
+     "Plantain: 5,000 x 0.30 kg = 1,500 kg",
+     "Oil: 5,000 x 0.025 = 125 litres",
+     "Fryer: 5,000 / 80 = 62.5 hours",
+     "Storage: 5,000 / 50 = 100 cartons"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "She uses about 0.30 kg of raw plantain per pack, so 5,000 packs need 1,500 kg, before any waste."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Kemi: from 40 packs to 5,000",
+    "items": [
+     "5,000 / 40 = 125 times her normal order",
+     "Plantain: 5,000 x 0.30 kg = 1,500 kg",
+     "Oil: 5,000 x 0.025 = 125 litres",
+     "Fryer: 5,000 / 80 = 62.5 hours",
+     "Storage: 5,000 / 50 = 100 cartons"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Frying oil goes from 1 litre to 125 litres."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Kemi: from 40 packs to 5,000",
+    "items": [
+     "5,000 / 40 = 125 times her normal order",
+     "Plantain: 5,000 x 0.30 kg = 1,500 kg",
+     "Oil: 5,000 x 0.025 = 125 litres",
+     "Fryer: 5,000 / 80 = 62.5 hours",
+     "Storage: 5,000 / 50 = 100 cartons"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Her fryer makes about 80 packs an hour, so that is 62.5 hours of frying alone."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Kemi: from 40 packs to 5,000",
+    "items": [
+     "5,000 / 40 = 125 times her normal order",
+     "Plantain: 5,000 x 0.30 kg = 1,500 kg",
+     "Oil: 5,000 x 0.025 = 125 litres",
+     "Fryer: 5,000 / 80 = 62.5 hours",
+     "Storage: 5,000 / 50 = 100 cartons"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "And 50 packs fill a carton, so she needs space for 100 cartons, clean, dry and off the floor.",
+    "So this is not a busy weekend. Kemi must plan days, not hours."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Kemi: from 40 packs to 5,000",
+    "items": [
+     "5,000 / 40 = 125 times her normal order",
+     "Plantain: 5,000 x 0.30 kg = 1,500 kg",
+     "Oil: 5,000 x 0.025 = 125 litres",
+     "Fryer: 5,000 / 80 = 62.5 hours",
+     "Storage: 5,000 / 50 = 100 cartons"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Plan days, not hours. The bottleneck decides your finish date.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Never quote from your best-ever day. Time each step with your phone's stopwatch, three times, and use the average.",
+    "The slowest step is the bottleneck. For Kemi, frying at 80 packs an hour sets the pace for the whole line."
+   ],
+   "panel": {
+    "kicker": "True capacity",
+    "heading": "Three numbers replace guesswork",
+    "items": [
+     "Bottleneck: the slowest step per hour",
+     "Sustained daily rate: average of 10 days",
+     "Takt time: available time / units needed",
+     "Count only good units"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Next, average your good units over your last 10 full working days. Kemi's average is 470 packs a day, so 5,100 packs, including 2% extra, need 11 production days."
+   ],
+   "panel": {
+    "kicker": "True capacity",
+    "heading": "Three numbers replace guesswork",
+    "items": [
+     "Bottleneck: the slowest step per hour",
+     "Sustained daily rate: average of 10 days",
+     "Takt time: available time / units needed",
+     "Count only good units"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Takt time is the available time divided by the units needed. For Kemi, one pack must leave the sealer about every 0.9 minutes."
+   ],
+   "panel": {
+    "kicker": "True capacity",
+    "heading": "Three numbers replace guesswork",
+    "items": [
+     "Bottleneck: the slowest step per hour",
+     "Sustained daily rate: average of 10 days",
+     "Takt time: available time / units needed",
+     "Count only good units"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "And count only units that pass your quality check. Counting rejects makes every later plan too optimistic."
+   ],
+   "panel": {
+    "kicker": "True capacity",
+    "heading": "Three numbers replace guesswork",
+    "items": [
+     "Bottleneck: the slowest step per hour",
+     "Sustained daily rate: average of 10 days",
+     "Takt time: available time / units needed",
+     "Count only good units"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Build a bill of materials from your own weighed batches, including packaging. Then add three allowances. Overrun is extra you make so samples and rejects do not leave you short."
+   ],
+   "panel": {
+    "kicker": "Three allowances",
+    "heading": "Add these to your materials",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Overrun",
+      "d": "Extra units for samples and rejects. Kemi plans 2%, so 5,100 packs for 5,000."
+     },
+     {
+      "t": "Material waste",
+      "d": "Loss before a unit exists, like bruised plantain. Kemi adds 5% on plantain."
+     },
+     {
+      "t": "Packaging spoilage",
+      "d": "Pouches lost to bad seals or misprints. Kemi adds 3% on pouches and labels."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Material waste is loss before a unit exists. Kemi adds 5% on plantain, so she buys about 1,607 kg."
+   ],
+   "panel": {
+    "kicker": "Three allowances",
+    "heading": "Add these to your materials",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Overrun",
+      "d": "Extra units for samples and rejects. Kemi plans 2%, so 5,100 packs for 5,000."
+     },
+     {
+      "t": "Material waste",
+      "d": "Loss before a unit exists, like bruised plantain. Kemi adds 5% on plantain."
+     },
+     {
+      "t": "Packaging spoilage",
+      "d": "Pouches lost to bad seals or misprints. Kemi adds 3% on pouches and labels."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Packaging spoilage covers bad seals and misprints. Then round up to how suppliers sell. Kemi orders 11 packs of 500 pouches, which is 5,500."
+   ],
+   "panel": {
+    "kicker": "Three allowances",
+    "heading": "Add these to your materials",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Overrun",
+      "d": "Extra units for samples and rejects. Kemi plans 2%, so 5,100 packs for 5,000."
+     },
+     {
+      "t": "Material waste",
+      "d": "Loss before a unit exists, like bruised plantain. Kemi adds 5% on plantain."
+     },
+     {
+      "t": "Packaging spoilage",
+      "d": "Pouches lost to bad seals or misprints. Kemi adds 3% on pouches and labels."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Long-lead items like printed pouches, labels and cartons are ordered first, as soon as the deposit arrives and the artwork is approved. Printed pouches can take 10 working days."
+   ],
+   "panel": {
+    "kicker": "Purchase timing",
+    "heading": "What to buy first, what to buy in lots",
+    "mode": "compare",
+    "left_h": "Order first",
+    "left": [
+     "Printed pouches",
+     "Labels and cartons",
+     "As soon as deposit lands"
+    ],
+    "right_h": "Buy in lots",
+    "right": [
+     "Plantain, perishable",
+     "Four lots of about 400 kg",
+     "Each the day before use"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Perishables must not all arrive on day one. Kemi buys plantain in four lots of about 400 kg, each the day before it is needed.",
+    "Check every delivery against your specification before you sign or pay."
+   ],
+   "panel": {
+    "kicker": "Purchase timing",
+    "heading": "What to buy first, what to buy in lots",
+    "mode": "compare",
+    "left_h": "Order first",
+    "left": [
+     "Printed pouches",
+     "Labels and cartons",
+     "As soon as deposit lands"
+    ],
+    "right_h": "Buy in lots",
+    "right": [
+     "Plantain, perishable",
+     "Four lots of about 400 kg",
+     "Each the day before use"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Pushing the bottleneck harder is where accidents happen. Keep the oil pot no more than about one-third full, never leave it unattended, keep a fire blanket close, and never pour water on an oil fire.",
+    "Keep food materials off the floor and covered.",
+    "And never release goods until payment has actually landed in your account, not just a screenshot or SMS alert."
+   ],
+   "panel": {
+    "kicker": "Stay safe and honest",
+    "heading": "Safety and scam checks",
+    "items": [
+     "Oil pot no more than one-third full",
+     "Never leave hot oil unattended",
+     "Fire blanket close; no water on oil fire",
+     "Food stock off the floor, covered",
+     "Confirm payment in your account"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "To remember. Write the specification sheet and keep a golden sample.",
+    "Plan with your sustained rate. Add allowances and round up. Order long-lead items first, perishables in lots."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "Turn every enquiry into a specification sheet",
+     "Keep a buyer-approved golden sample",
+     "Plan with your sustained rate, not your best day",
+     "Add allowances, round up to pack sizes",
+     "Order long-lead items first, perishables in lots"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Now it is your turn. Write your specification sheet, measure your own capacity, and build your material requirements sheet.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice tasks",
+    "heading": "Your practice tasks",
+    "items": [
+     "Write your order specification sheet",
+     "Measure your own capacity",
+     "Build your material requirements sheet"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

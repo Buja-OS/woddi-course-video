@@ -1,0 +1,537 @@
+{
+ "course": "core-excel-for-small-business",
+ "module": "m2",
+ "title": "Alamomin Dollar, IF da mai bin diddigi wanda ya gaya muku gaskiya",
+ "course_title": "Excel da Google Sheets don Ƙananan Kasuwanci",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Alamun Dollar, IF, da kuma mai bin diddigi wanda ke gaya muku gaskiya.",
+    "Wannan bidiyon ne don Module 2 na Excel da Google Sheets don Ƙananan Kasuwanci."
+   ]
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "A cikin wannan tsarin za ku koyi kwafi dabara ba tare da karya ta ba, sannan ku gina takarda guda ɗaya wanda ke rubuta kowane siyarwa da kowane kuɗi."
+   ],
+   "panel": {
+    "kicker": "A cikin wannan module",
+    "heading": "Abin da za ku iya yi",
+    "items": [
+     "Kwafi dabarun ba tare da karya su ba",
+     "Bibiyar kowane tallace-tallace da kashe kuɗi a cikin takarda ɗaya",
+     "Duba kuɗi a ciki, fitar da kuɗi da ma'aunin ku",
+     "Nemo ku gyara kurakurai masu ƙarfi da shiru"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Yana gaya muku abin da ya shigo, abin da ya fita, da abin da ya rage. Kuma kuna koyon kama kurakurai waɗanda ke yin daidai daidai."
+   ],
+   "panel": {
+    "kicker": "A cikin wannan module",
+    "heading": "Abin da za ku iya yi",
+    "items": [
+     "Kwafi dabarun ba tare da karya su ba",
+     "Bibiyar kowane tallace-tallace da kashe kuɗi a cikin takarda ɗaya",
+     "Duba kuɗi a ciki, fitar da kuɗi da ma'aunin ku",
+     "Nemo ku gyara kurakurai masu ƙarfi da shiru"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Lokacin da kuka kwafi = C2*D2 ƙasa, zai zama = C3*D3 a jere na gaba. Wannan magana ce ta dangi. Yana zamewa tare da jere, kuma mafi yawan lokaci shine ainihin abin da kuke so."
+   ],
+   "panel": {
+    "kicker": "Magana",
+    "heading": "Dangi ko cikakkiya?",
+    "mode": "compare",
+    "left_h": "Dangi: H1",
+    "left": [
+     "Yana motsawa lokacin da aka kwafi",
+     "Don ƙimar jere-biyu",
+     "Misali: = C2*D2"
+    ],
+    "right_h": "Cikakken: $H$1",
+    "right": [
+     "Kar a taɓa motsawa",
+     "Ga ƙimar rabo ɗaya",
+     "Misali: = E2*$H$1"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Amma wani lokacin kowane layi dole ne ya yi amfani da tantanin halitta iri ɗaya, kamar adadin kwamitocin da aka buga a sama.",
+    "Sannan ku kulle ta da alamun dala: $H$1. A nan alamar dala ba ta da alaƙa da kuɗi. Yana nufin kar a motsa.",
+    "A waya, rubuta alamun dala da kanka. A kan kwamfutar Windows, danna F4."
+   ],
+   "panel": {
+    "kicker": "Magana",
+    "heading": "Dangi ko cikakkiya?",
+    "mode": "compare",
+    "left_h": "Dangi: H1",
+    "left": [
+     "Yana motsawa lokacin da aka kwafi",
+     "Don ƙimar jere-biyu",
+     "Misali: = C2*D2"
+    ],
+    "right_h": "Cikakken: $H$1",
+    "right": [
+     "Kar a taɓa motsawa",
+     "Ga ƙimar rabo ɗaya",
+     "Misali: = E2*$H$1"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Ga misalin aiki. Kemi ta rubuta mata kashi 5% sau ɗaya, a cikin cell H1, kuma adadin tallace-tallacenta a shafi na E."
+   ],
+   "card": {
+    "title": "Hukumar tallace-tallace ta Kemi",
+    "rows": [],
+    "note": "Jimlar hukumar shine daidai kashi 5% na jimlar tallace-tallace."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Da farko ta rubuta = E2*H1 kuma ta kwafi shi ƙasa. Layi na gaba ya zama sau E3 H2. Amma H2 fanko ne, don haka kowane jere bayan na farko yana nuna 0. Wannan shine kuskuren gama gari."
+   ],
+   "card": {
+    "title": "Hukumar tallace-tallace ta Kemi",
+    "rows": [
+     [
+      "Ba daidai ba: = E2*H1 an kwafe shi",
+      "0"
+     ]
+    ],
+    "note": "Jimlar hukumar shine daidai kashi 5% na jimlar tallace-tallace."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Don haka sai ta rubuta = E2*$H$1 maimakon. Kowane kwafi har yanzu yana nuna ƙimar. Siyar da ta fara na 19000 ta samu 950, kuma jimillar cinikinta ya kai naira 43300."
+   ],
+   "card": {
+    "title": "Hukumar tallace-tallace ta Kemi",
+    "rows": [
+     [
+      "Ba daidai ba: = E2*H1 an kwafe shi",
+      "0"
+     ],
+     [
+      "Dama: = E2*$H$1, siyarwa ta farko",
+      "950"
+     ],
+     [
+      "Jimlar tallace-tallace",
+      "43,300"
+     ]
+    ],
+    "note": "Jimlar hukumar shine daidai kashi 5% na jimlar tallace-tallace."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Jimlar hukumar Naira 2165 ne. Lokacin da ta ɗaga ƙimar zuwa 6%, ta canza H1 kawai, kuma kowane jere yana sake ƙididdigewa lokaci ɗaya."
+   ],
+   "card": {
+    "title": "Hukumar tallace-tallace ta Kemi",
+    "rows": [
+     [
+      "Ba daidai ba: = E2*H1 an kwafe shi",
+      "0"
+     ],
+     [
+      "Dama: = E2*$H$1, siyarwa ta farko",
+      "950"
+     ],
+     [
+      "Jimlar tallace-tallace",
+      "43,300"
+     ]
+    ],
+    "note": "Jimlar hukumar shine daidai kashi 5% na jimlar tallace-tallace."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Yanzu gina tracker. Kowace jere ma'amala ɗaya ce: kwanan wata, Siyarwa ko Kudade, nau'in, cikakkun bayanai, yawa da farashin naúra."
+   ],
+   "panel": {
+    "kicker": "Gina shi",
+    "heading": "The tallace-tallace da kuma kashe kudi tracker",
+    "items": [
+     "ginshiƙai: Kwanan wata, Nau'in, Rukuni, Cikakkun bayanai, Qty, Farashi",
+     "Adadi: = E2*F2",
+     "Kudi a: = IF(B2 = \"Sale\", G2,0)",
+     "Fitar da Kuɗi: = IF(B2 = \"Kudi\", G2,0)",
+     "Ma'auni: J3 shine = J2+H3-I3, kofe ƙasa"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Rukunin Adadin yana ninka yawa da farashi."
+   ],
+   "panel": {
+    "kicker": "Gina shi",
+    "heading": "The tallace-tallace da kuma kashe kudi tracker",
+    "items": [
+     "ginshiƙai: Kwanan wata, Nau'in, Rukuni, Cikakkun bayanai, Qty, Farashi",
+     "Adadi: = E2*F2",
+     "Kudi a: = IF(B2 = \"Sale\", G2,0)",
+     "Fitar da Kuɗi: = IF(B2 = \"Kudi\", G2,0)",
+     "Ma'auni: J3 shine = J2+H3-I3, kofe ƙasa"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Yanzu sabon aikin, IF. Yana yin yanke shawara mai sauƙi. Tsarin shine IDAN, gwaji, sannan abin da za a nuna idan gaskiya ne, sannan abin da za a nuna idan ƙarya.",
+    "Don haka idan shafi na B ya ce Sale, Kudi a ciki yana nuna adadin. Idan ba haka ba, yana nuna 0. Rubutu yana shiga cikin ƙididdiga biyu."
+   ],
+   "panel": {
+    "kicker": "Gina shi",
+    "heading": "The tallace-tallace da kuma kashe kudi tracker",
+    "items": [
+     "ginshiƙai: Kwanan wata, Nau'in, Rukuni, Cikakkun bayanai, Qty, Farashi",
+     "Adadi: = E2*F2",
+     "Kudi a: = IF(B2 = \"Sale\", G2,0)",
+     "Fitar da Kuɗi: = IF(B2 = \"Kudi\", G2,0)",
+     "Ma'auni: J3 shine = J2+H3-I3, kofe ƙasa"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Kudi daga waje yana aiki iri ɗaya, gwada Kuɗi."
+   ],
+   "panel": {
+    "kicker": "Gina shi",
+    "heading": "The tallace-tallace da kuma kashe kudi tracker",
+    "items": [
+     "ginshiƙai: Kwanan wata, Nau'in, Rukuni, Cikakkun bayanai, Qty, Farashi",
+     "Adadi: = E2*F2",
+     "Kudi a: = IF(B2 = \"Sale\", G2,0)",
+     "Fitar da Kuɗi: = IF(B2 = \"Kudi\", G2,0)",
+     "Ma'auni: J3 shine = J2+H3-I3, kofe ƙasa"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Ma'auni mai gudana yana ɗaukar ma'auni daga jere na sama, yana ƙara abin da ya shigo, yana cire abin da ya fita. Kwafi J3 ƙasa, ba J2 ba."
+   ],
+   "panel": {
+    "kicker": "Gina shi",
+    "heading": "The tallace-tallace da kuma kashe kudi tracker",
+    "items": [
+     "ginshiƙai: Kwanan wata, Nau'in, Rukuni, Cikakkun bayanai, Qty, Farashi",
+     "Adadi: = E2*F2",
+     "Kudi a: = IF(B2 = \"Sale\", G2,0)",
+     "Fitar da Kuɗi: = IF(B2 = \"Kudi\", G2,0)",
+     "Ma'auni: J3 shine = J2+H3-I3, kofe ƙasa"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Gargadi ɗaya. IDAN kawai yana aiki idan rubutun ya yi daidai daidai. Siyarwa, ko siyarwa tare da ƙarin sarari, zai je zuwa 0. A cikin Module 3, jerin zaɓuka yana kawar da wannan matsalar."
+   ],
+   "panel": {
+    "kicker": "Gina shi",
+    "heading": "The tallace-tallace da kuma kashe kudi tracker",
+    "items": [
+     "ginshiƙai: Kwanan wata, Nau'in, Rukuni, Cikakkun bayanai, Qty, Farashi",
+     "Adadi: = E2*F2",
+     "Kudi a: = IF(B2 = \"Sale\", G2,0)",
+     "Fitar da Kuɗi: = IF(B2 = \"Kudi\", G2,0)",
+     "Ma'auni: J3 shine = J2+H3-I3, kofe ƙasa"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Buga Siyar da Kuɗaɗen hanya ɗaya kowane lokaci",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Bisi yana rikodin kwanaki 4 na tallace-tallace da farashi. A rana ta 1 ta sayar da faranti 25, sannan ta sayi kayan abinci akan 55000. Ma'auni nata ba ya da kyau, ya rage 17500."
+   ],
+   "card": {
+    "title": "Tsayin abincin Bisi, kwana 4",
+    "rows": [],
+    "note": "Farashi misalin misalan ne."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Wannan gargadin kuɗaɗe ne mai amfani. Babban sayayya ta zo kafin tallace-tallacen da suka biya.",
+    "A karshe, kudi a cikin Naira 157500 kuma kudin da aka fitar ya kai 73500."
+   ],
+   "card": {
+    "title": "Tsayin abincin Bisi, kwana 4",
+    "rows": [
+     [
+      "Kudi a cikin, kwanaki 4 na tallace-tallace",
+      "157,500"
+     ],
+     [
+      "Kudi ya fita, kayan abinci don jigilar kaya",
+      "73,500"
+     ]
+    ],
+    "note": "Farashi misalin misalan ne."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Bambancin shine 84000, kuma ya dace da ma'aunin gudu na ƙarshe. Amma kudin da ya rage bai ci riba ba tukuna. Wasu kayan abinci har yanzu suna cikin kantinta, kuma ba ta ƙidaya kudin haya ko lokacinta ba."
+   ],
+   "card": {
+    "title": "Tsayin abincin Bisi, kwana 4",
+    "rows": [
+     [
+      "Kudi a cikin, kwanaki 4 na tallace-tallace",
+      "157,500"
+     ],
+     [
+      "Kudi ya fita, kayan abinci don jigilar kaya",
+      "73,500"
+     ]
+    ],
+    "note": "Farashi misalin misalan ne."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Kowane mai amfani da maƙunsar rubutu yana yin kuskure. Kurakurai masu ƙarfi suna nuna lamba. Hash DIV slash 0 yana nufin ka raba ta sifili ko tantanin halitta mara komai."
+   ],
+   "panel": {
+    "kicker": "Kuskuren farauta",
+    "heading": "Kurakurai masu ƙarfi da abin da suke nufi",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "#DIV/0!",
+      "d": "Rarraba ta sifili ko ta tantanin halitta mara komai. Cika tantanin halitta, ko amfani da IFERROR don gibin da ake tsammani."
+     },
+     {
+      "t": "#DARAJAR!",
+      "d": "Lissafi akan abin da ba lamba ba, kamar N2000. Sake buga shi azaman fili lamba."
+     },
+     {
+      "t": "#REF!",
+      "d": "Ƙididdigar tana nuna tantanin halitta da kuka goge. Gyara kai tsaye, ko mayar da tarihin sigar."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Hash VALUE yana nufin lissafi akan abin da ba lamba ba, kamar N2000."
+   ],
+   "panel": {
+    "kicker": "Kuskuren farauta",
+    "heading": "Kurakurai masu ƙarfi da abin da suke nufi",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "#DIV/0!",
+      "d": "Rarraba ta sifili ko ta tantanin halitta mara komai. Cika tantanin halitta, ko amfani da IFERROR don gibin da ake tsammani."
+     },
+     {
+      "t": "#DARAJAR!",
+      "d": "Lissafi akan abin da ba lamba ba, kamar N2000. Sake buga shi azaman fili lamba."
+     },
+     {
+      "t": "#REF!",
+      "d": "Ƙididdigar tana nuna tantanin halitta da kuka goge. Gyara kai tsaye, ko mayar da tarihin sigar."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Hash REF yana nufin dabarar tana nuni ga tantanin halitta da kuka goge. Danna gyara kai tsaye."
+   ],
+   "panel": {
+    "kicker": "Kuskuren farauta",
+    "heading": "Kurakurai masu ƙarfi da abin da suke nufi",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "#DIV/0!",
+      "d": "Rarraba ta sifili ko ta tantanin halitta mara komai. Cika tantanin halitta, ko amfani da IFERROR don gibin da ake tsammani."
+     },
+     {
+      "t": "#DARAJAR!",
+      "d": "Lissafi akan abin da ba lamba ba, kamar N2000. Sake buga shi azaman fili lamba."
+     },
+     {
+      "t": "#REF!",
+      "d": "Ƙididdigar tana nuna tantanin halitta da kuka goge. Gyara kai tsaye, ko mayar da tarihin sigar."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Kurakurai shiru sun fi haɗari. Takardar tana nuna lamba mai kyau, amma ba daidai ba."
+   ],
+   "card": {
+    "title": "Jimlar Chioma ya yi ƙasa da ƙasa",
+    "rows": [],
+    "note": "COUNT ƙasa da COUNTA yana nufin adadin rubutu."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "SUM ta Chioma ta ce 61000, amma lissafinta ya ce 66000.",
+    "COUNT akan ginshiƙi ya ba 4, amma COUNTA ya ba da 5. Don haka tantanin halitta ɗaya shine rubutu."
+   ],
+   "card": {
+    "title": "Jimlar Chioma ya yi ƙasa da ƙasa",
+    "rows": [
+     [
+      "takardar SUM ta ce",
+      "61,000"
+     ],
+     [
+      "Kalkuletanta ta ce",
+      "66,000"
+     ]
+    ],
+    "note": "COUNT ƙasa da COUNTA yana nufin adadin rubutu."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Cell B4 ya ce N5,000, zaune a hagu. Ta sake buga shi a matsayin 5000. Idan ba wannan cak din ba, Juma'a za ta rage da naira 5000."
+   ],
+   "card": {
+    "title": "Jimlar Chioma ya yi ƙasa da ƙasa",
+    "rows": [
+     [
+      "takardar SUM ta ce",
+      "61,000"
+     ],
+     [
+      "Kalkuletanta ta ce",
+      "66,000"
+     ],
+     [
+      "Bace: B4 da aka buga a matsayin N5,000",
+      "5,000"
+     ]
+    ],
+    "note": "COUNT ƙasa da COUNTA yana nufin adadin rubutu."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Don tunawa. Alamomin dollar sun kulle tantanin halitta daya. IDAN ya yanke shawara: gwaji, ƙima idan gaskiya ne, ƙima idan ƙarya.",
+    "Ma'auni yana ƙarawa kuma yana raguwa a layi-layi. Kuɗin da ya rage bai ci riba ba tukuna. Kuma idan COUNT ya fi COUNTA, farautar adadin da aka buga azaman rubutu."
+   ],
+   "panel": {
+    "kicker": "Mabuɗin mahimmanci",
+    "heading": "Ka tuna",
+    "items": [
+     "$H$1 yana kulle tantanin halitta ɗaya lokacin da kuka kwafi",
+     "IDAN: Gwaji, ƙima idan gaskiya ne, ƙima idan ƙarya",
+     "Ma'auni: jere a sama, da ciki, cire waje",
+     "Kuɗin da ya rage bai kai riba ba tukuna",
+     "Idan COUNT bai kai COUNTA ba, nemo rubutun"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Yanzu juzu'in ku. Yi amfani da ƙima ɗaya a cikin layuka da yawa, gina naku tracker tare da aƙalla ma'amaloli 8, sannan ku yi farautar kuskure.",
+    "Ƙara tantanin dubawa wanda ya ce Daidaita lokacin da jimlar ku ta yarda. Ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi aiki",
+    "heading": "Ayyukan aikin ku",
+    "items": [
+     "Kudi ɗaya, layuka da yawa",
+     "Gina tracker ɗin ku tare da ma'amaloli 8",
+     "Kuskuren farauta da tantanin dubawa"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

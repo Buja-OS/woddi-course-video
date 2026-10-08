@@ -1,0 +1,449 @@
+{
+ "course": "core-excel-for-small-business",
+ "module": "m3",
+ "title": "Des données propres, des totaux de catégories et des graphiques qui disent la vérité",
+ "course_title": "Excel et Google Sheets pour les petites entreprises",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Des données propres, des totaux de catégories et des graphiques qui disent la vérité.",
+    "Il s'agit de la vidéo du module 3 d'Excel et de Google Sheets pour Small Business."
+   ]
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Après quelques semaines de participations, vous aurez envie de réponses. Quelles ont été mes plus grosses ventes ? Combien ai-je dépensé en transport ?",
+    "Le tri, le filtrage et les listes déroulantes gardent vos données bien rangées à mesure qu'elles grandissent."
+   ],
+   "panel": {
+    "kicker": "Dans ce module",
+    "heading": "Transformez les dossiers en preuves",
+    "items": [
+     "Trier et filtrer sans casser les lignes",
+     "Les listes déroulantes arrêtent les fautes d'orthographe",
+     "Totaux SUMIF par catégorie et client",
+     "Des graphiques qui répondent à une question"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Ensuite, SUMIF et les graphiques transforment ces données en preuves de la performance réelle de votre entreprise."
+   ],
+   "panel": {
+    "kicker": "Dans ce module",
+    "heading": "Transformez les dossiers en preuves",
+    "items": [
+     "Trier et filtrer sans casser les lignes",
+     "Les listes déroulantes arrêtent les fautes d'orthographe",
+     "Totaux SUMIF par catégorie et client",
+     "Des graphiques qui répondent à une question"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Pour trier, appuyez sur n'importe quelle cellule de vos données, puis choisissez Données, Trier et cochez que vos données ont des en-têtes. Choisissez ensuite la colonne et l'ordre, par exemple le plus grand en premier."
+   ],
+   "panel": {
+    "kicker": "Triez en toute sécurité",
+    "heading": "Trier toute la plage, jamais une seule colonne",
+    "mode": "compare",
+    "left_h": "Fais ceci",
+    "left": [
+     "Appuyez sur une cellule dans vos données",
+     "Données, Trier, avec les en-têtes cochés",
+     "Accepter Élargir la sélection"
+    ],
+    "right_h": "Jamais ça",
+    "right": [
+     "Sélectionnez uniquement la colonne Montant",
+     "Triez-le seul",
+     "Les montants bougent, les objets restent sur place"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Voici l'erreur courante. Si vous sélectionnez uniquement la colonne Montant et la triez, les montants sont déplacés mais pas les dates et les éléments à côté d'eux. Chaque ligne est désormais fausse.",
+    "Excel vous avertit et vous propose d'élargir la sélection. Acceptez-le toujours. Si cela se produit, annulez immédiatement."
+   ],
+   "panel": {
+    "kicker": "Triez en toute sécurité",
+    "heading": "Trier toute la plage, jamais une seule colonne",
+    "mode": "compare",
+    "left_h": "Fais ceci",
+    "left": [
+     "Appuyez sur une cellule dans vos données",
+     "Données, Trier, avec les en-têtes cochés",
+     "Accepter Élargir la sélection"
+    ],
+    "right_h": "Jamais ça",
+    "right": [
+     "Sélectionnez uniquement la colonne Montant",
+     "Triez-le seul",
+     "Les montants bougent, les objets restent sur place"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Halima soupçonne que le transport engloutit ses bénéfices. Un filtre masque les lignes dont elle n'a pas besoin pendant un instant.",
+    "Elle appuie sur la flèche sur Catégorie et coche uniquement Transport."
+   ],
+   "card": {
+    "title": "Les dépenses de transport d'Halima",
+    "rows": [],
+    "note": "SUBTOTAL(9, range) ajoute uniquement les lignes visibles."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Il reste 4 lignes. Au-dessus de ses titres, elle a SOUS-TOTAL, 9, puis sa plage de montants. Le 9 lui dit de s'additionner."
+   ],
+   "card": {
+    "title": "Les dépenses de transport d'Halima",
+    "rows": [
+     [
+      "Voyage 1",
+      "2,500"
+     ],
+     [
+      "Voyage 2",
+      "3,000"
+     ],
+     [
+      "Voyage 3",
+      "1,500"
+     ],
+     [
+      "Voyage 4",
+      "4,000"
+     ]
+    ],
+    "note": "SUBTOTAL(9, range) ajoute uniquement les lignes visibles."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Le transport coûte 11 000 nairas. SUM ajouterait toujours les 40 lignes, c'est pourquoi SUBTOTAL est le bon outil lors du filtrage. Effacez le filtre lorsque vous avez terminé."
+   ],
+   "card": {
+    "title": "Les dépenses de transport d'Halima",
+    "rows": [
+     [
+      "Voyage 1",
+      "2,500"
+     ],
+     [
+      "Voyage 2",
+      "3,000"
+     ],
+     [
+      "Voyage 3",
+      "1,500"
+     ],
+     [
+      "Voyage 4",
+      "4,000"
+     ]
+    ],
+    "note": "SUBTOTAL(9, range) ajoute uniquement les lignes visibles."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Ensuite, les listes déroulantes. Sélectionnez toute la colonne Type, sous le titre."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Ajouter une liste déroulante",
+    "items": [
+     "Sélectionnez toute la colonne Type sous le titre",
+     "Excel : données, validation des données, liste",
+     "Feuilles : insertion, liste déroulante",
+     "Options : Vente, Dépense",
+     "Faites de même pour la catégorie"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Dans Excel, choisissez Données, Validation des données et sous Autoriser la liste de sélection. Dans Google Sheets, choisissez Insérer, Liste déroulante."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Ajouter une liste déroulante",
+    "items": [
+     "Sélectionnez toute la colonne Type sous le titre",
+     "Excel : données, validation des données, liste",
+     "Feuilles : insertion, liste déroulante",
+     "Options : Vente, Dépense",
+     "Faites de même pour la catégorie"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Ajoutez les options Vente et Dépense. Faites ensuite de même pour la catégorie, avec votre propre liste, comme les produits alimentaires, le gaz, l'emballage et le transport."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Ajouter une liste déroulante",
+    "items": [
+     "Sélectionnez toute la colonne Type sous le titre",
+     "Excel : données, validation des données, liste",
+     "Feuilles : insertion, liste déroulante",
+     "Options : Vente, Dépense",
+     "Faites de même pour la catégorie"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Pourquoi est-ce important ? IF, SUMIF et COUNTIF correspondent exactement au texte. Une liste rend chaque entrée identique, de sorte qu'elles ne manquent jamais silencieusement une ligne."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Ajouter une liste déroulante",
+    "items": [
+     "Sélectionnez toute la colonne Type sous le titre",
+     "Excel : données, validation des données, liste",
+     "Feuilles : insertion, liste déroulante",
+     "Options : Vente, Dépense",
+     "Faites de même pour la catégorie"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Même orthographe à chaque fois, pour que vos formules ne manquent jamais une ligne",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Les filtres répondent à une question à la fois. SUMIF y répond en permanence.",
+    "Le modèle est SUMIF, la plage à vérifier, la condition, puis la plage à ajouter. Bisi place des signes dollar sur les deux plages afin de pouvoir copier la formule dans sa liste de catégories."
+   ],
+   "card": {
+    "title": "Les dépenses de Bisi par catégorie",
+    "rows": [],
+    "note": "Les totaux des catégories doivent correspondre au total global."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "La denrée alimentaire coûte 67 000 nairas. Le gaz coûte 9 000, l'emballage 10 500 et le transport 6 000. COUNTIF compte le nombre d'entrées de chacun."
+   ],
+   "card": {
+    "title": "Les dépenses de Bisi par catégorie",
+    "rows": [
+     [
+      "Denrée alimentaire, 2 Inscriptions",
+      "67,000"
+     ],
+     [
+      "Gaz, 1 entrée",
+      "9,000"
+     ],
+     [
+      "Emballage, 2 entrées",
+      "10,500"
+     ],
+     [
+      "Transports, 3 entrées",
+      "6,000"
+     ]
+    ],
+    "note": "Les totaux des catégories doivent correspondre au total global."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Le total est de 92 500 et correspond à la SOMME de toute sa colonne Montant. Faites toujours cette vérification croisée. S'ils diffèrent, une catégorie est mal orthographiée ou manquante."
+   ],
+   "card": {
+    "title": "Les dépenses de Bisi par catégorie",
+    "rows": [
+     [
+      "Denrée alimentaire, 2 Inscriptions",
+      "67,000"
+     ],
+     [
+      "Gaz, 1 entrée",
+      "9,000"
+     ],
+     [
+      "Emballage, 2 entrées",
+      "10,500"
+     ],
+     [
+      "Transports, 3 entrées",
+      "6,000"
+     ]
+    ],
+    "note": "Les totaux des catégories doivent correspondre au total global."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Un bon graphique répond à une question. Un graphique linéaire montre les changements au fil du temps. Un histogramme compare. Une tarte montre les parts d’un tout, avec seulement environ cinq tranches."
+   ],
+   "panel": {
+    "kicker": "Graphiques",
+    "heading": "Choisissez le tableau pour la question",
+    "items": [
+     "Evolution dans le temps : graphique linéaire",
+     "Comparer des mois ou des produits : graphique à colonnes",
+     "Part des dépenses : tarte, environ 5 tranches",
+     "Le titre indique le message, les unités affichées",
+     "Les colonnes commencent à zéro"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Par exemple, Funke à Abeokuta réalise six mois de ventes. Son titre indique que les ventes ont augmenté de 50 % de juillet à décembre, et pas seulement dans le graphique 1.",
+    "Et commencez les histogrammes à zéro. Un axe commençant plus haut donne l’impression qu’une petite hausse est énorme."
+   ],
+   "panel": {
+    "kicker": "Graphiques",
+    "heading": "Choisissez le tableau pour la question",
+    "items": [
+     "Evolution dans le temps : graphique linéaire",
+     "Comparer des mois ou des produits : graphique à colonnes",
+     "Part des dépenses : tarte, environ 5 tranches",
+     "Le titre indique le message, les unités affichées",
+     "Les colonnes commencent à zéro"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Si vous vendez à crédit, SUMIF sur une colonne Non payé vous donne le total qui vous est dû.",
+    "Mais les noms, numéros de téléphone et dettes sont des informations personnelles. La loi nigériane sur la protection des données de 2023 exige que vous collectiez uniquement ce dont vous avez besoin et que vous le gardiez en sécurité."
+   ],
+   "panel": {
+    "kicker": "Protéger les gens",
+    "heading": "Les données client sont des données personnelles",
+    "items": [
+     "Collectez uniquement ce dont vous avez besoin",
+     "Restreindre qui peut ouvrir le fichier",
+     "Partagez les totaux, pas les listes de clients"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Partagez les totaux en groupes, pas en listes de clients. Et ne publiez jamais publiquement une liste de débiteurs pour faire honte aux clients."
+   ],
+   "panel": {
+    "kicker": "Protéger les gens",
+    "heading": "Les données client sont des données personnelles",
+    "items": [
+     "Collectez uniquement ce dont vous avez besoin",
+     "Restreindre qui peut ouvrir le fichier",
+     "Partagez les totaux, pas les listes de clients"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Ne publiez jamais publiquement une liste de débiteurs pour faire honte aux clients.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "À retenir. Triez toute la gamme. Utilisez SUBTOTAL lors du filtrage. Les listes déroulantes conservent l’orthographe identique.",
+    "Vérifiez que les totaux des catégories correspondent au total général. Et donnez à chaque graphique une question, un titre clair et un axe à partir de zéro."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Trier toute la plage, jamais une seule colonne",
+     "SOUS-TOTAL totalise uniquement les lignes visibles",
+     "Les listes déroulantes conservent l'orthographe identique",
+     "Les totaux des catégories doivent correspondre au total général",
+     "Une question par graphique, axe à partir de zéro"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Maintenant à votre tour. Rangez votre tracker avec des listes déroulantes, créez un onglet Résumé avec SUMIF et créez deux graphiques avec des titres qui indiquent le message.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâche pratique",
+    "heading": "Vos tâches pratiques",
+    "items": [
+     "Rangez votre tracker avec des listes déroulantes",
+     "Créer un onglet Résumé avec SUMIF",
+     "Tracez votre entreprise"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

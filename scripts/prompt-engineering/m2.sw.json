@@ -1,0 +1,603 @@
+{
+ "course": "prompt-engineering",
+ "module": "m2",
+ "title": "Violezo, mbinu za hali ya juu na kujaribu vidokezo vyako",
+ "course_title": "Uhandisi wa haraka",
+ "shots": [
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Violezo, mbinu za hali ya juu na kujaribu vidokezo vyako.",
+    "Hii ni video ya moduli ya pili ya Uhandisi wa haraka."
+   ]
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Huna haja ya programu maalum. Unahitaji msaidizi mmoja au wawili unaowajua vyema, weka mipangilio salama."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Kutoka kwa vidokezo moja hadi mfumo unaotegemewa",
+    "items": [
+     "Sanidi zana yako kwa usalama",
+     "Unda maktaba ya violezo vilivyojaribiwa",
+     "Tumia mifano, hatua za hoja na minyororo",
+     "Alama za vidokezo kabla ya kuzitegemea"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Unahitaji mahali pa kuweka mawaidha ambayo yamejaribiwa, ili kazi nzuri isipotee."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Kutoka kwa vidokezo moja hadi mfumo unaotegemewa",
+    "items": [
+     "Sanidi zana yako kwa usalama",
+     "Unda maktaba ya violezo vilivyojaribiwa",
+     "Tumia mifano, hatua za hoja na minyororo",
+     "Alama za vidokezo kabla ya kuzitegemea"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Kwa kazi ngumu zaidi, mbinu nne hufanya tofauti kubwa."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Kutoka kwa vidokezo moja hadi mfumo unaotegemewa",
+    "items": [
+     "Sanidi zana yako kwa usalama",
+     "Unda maktaba ya violezo vilivyojaribiwa",
+     "Tumia mifano, hatua za hoja na minyororo",
+     "Alama za vidokezo kabla ya kuzitegemea"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Na haraka ambayo ilifanya kazi mara moja inaweza kushindwa kwenye kesi inayofuata, kwa hivyo utajifunza kuipima vizuri."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Kutoka kwa vidokezo moja hadi mfumo unaotegemewa",
+    "items": [
+     "Sanidi zana yako kwa usalama",
+     "Unda maktaba ya violezo vilivyojaribiwa",
+     "Tumia mifano, hatua za hoja na minyororo",
+     "Alama za vidokezo kabla ya kuzitegemea"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Kabla ya matumizi ya kazi, fungua mipangilio ya kila chombo na usome kile kinachofanya na mazungumzo yako. Ambapo unaweza kuondoa gumzo zako kwenye mafunzo ya kielelezo, zingatia kuwasha.",
+    "Sheria za shirika lako zinakuja kwanza. Na chini ya Sheria ya Kulinda Data ya Nigeria ya 2023, kamwe usibandike maelezo ya mteja au mwanachama kwenye zana bila ruhusa."
+   ],
+   "panel": {
+    "kicker": "Usalama kwanza",
+    "heading": "Angalia mipangilio yako ya data kwanza",
+    "items": [
+     "Soma zana inafanya nini na gumzo zako",
+     "Zingatia kutojumuisha soga kwenye mafunzo",
+     "Fuata zana au sera iliyoidhinishwa na mwajiri wako",
+     "Hakuna mteja au maelezo ya mwanachama bila ruhusa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Aisha ni katibu wa chama cha wanawake sokoni huko Kano. Kiolezo chake hudumisha sehemu zilizojaribiwa, na hutumia vishikilia nafasi katika mabano yaliyopindapinda maradufu kwa mabadiliko gani, kama vile tarehe, ukumbi na madokezo yake."
+   ],
+   "panel": {
+    "kicker": "Violezo vya haraka",
+    "heading": "Tengeneza kiolezo unachoweza kutumia tena",
+    "items": [
+     "Andika sehemu isiyobadilika na {{vishika nafasi}}",
+     "Ongeza umbizo na kanuni ya ukweli unaokosekana",
+     "Ijaribu kwenye kesi tatu zilizopita",
+     "Ongeza mstari kwa kila kushindwa unaona",
+     "Ihifadhi na toleo, tarehe na ubadilishe dokezo"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Anarekebisha sehemu na kuongeza sheria: ikiwa mtu anayehusika au tarehe ya mwisho haipo, andika ILI KUTHIBITISHA."
+   ],
+   "panel": {
+    "kicker": "Violezo vya haraka",
+    "heading": "Tengeneza kiolezo unachoweza kutumia tena",
+    "items": [
+     "Andika sehemu isiyobadilika na {{vishika nafasi}}",
+     "Ongeza umbizo na kanuni ya ukweli unaokosekana",
+     "Ijaribu kwenye kesi tatu zilizopita",
+     "Ongeza mstari kwa kila kushindwa unaona",
+     "Ihifadhi na toleo, tarehe na ubadilishe dokezo"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Anaijaribu kwenye mikutano mitatu iliyopita."
+   ],
+   "panel": {
+    "kicker": "Violezo vya haraka",
+    "heading": "Tengeneza kiolezo unachoweza kutumia tena",
+    "items": [
+     "Andika sehemu isiyobadilika na {{vishika nafasi}}",
+     "Ongeza umbizo na kanuni ya ukweli unaokosekana",
+     "Ijaribu kwenye kesi tatu zilizopita",
+     "Ongeza mstari kwa kila kushindwa unaona",
+     "Ihifadhi na toleo, tarehe na ubadilishe dokezo"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Kwenye jaribio la pili mtindo uliunganisha maamuzi mawili, kwa hivyo anaongeza mstari: orodhesha kila uamuzi kando."
+   ],
+   "panel": {
+    "kicker": "Violezo vya haraka",
+    "heading": "Tengeneza kiolezo unachoweza kutumia tena",
+    "items": [
+     "Andika sehemu isiyobadilika na {{vishika nafasi}}",
+     "Ongeza umbizo na kanuni ya ukweli unaokosekana",
+     "Ijaribu kwenye kesi tatu zilizopita",
+     "Ongeza mstari kwa kila kushindwa unaona",
+     "Ihifadhi na toleo, tarehe na ubadilishe dokezo"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Anahifadhi toleo la 2 kwenye Hati ya Google pamoja na tarehe na mabadiliko. Dakika sasa zinachukua kama dakika 20 badala ya saa moja."
+   ],
+   "panel": {
+    "kicker": "Violezo vya haraka",
+    "heading": "Tengeneza kiolezo unachoweza kutumia tena",
+    "items": [
+     "Andika sehemu isiyobadilika na {{vishika nafasi}}",
+     "Ongeza umbizo na kanuni ya ukweli unaokosekana",
+     "Ijaribu kwenye kesi tatu zilizopita",
+     "Ongeza mstari kwa kila kushindwa unaona",
+     "Ihifadhi na toleo, tarehe na ubadilishe dokezo"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Toleo na tarehe kila kiolezo, na kilichobadilika.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Chache-risasi ina maana ya kuonyesha mifano. Bisi huko Lagos alitoa jumbe tatu zilizoandikwa WhatsApp. Chombo kisha kilitumia lebo zake nne kwenye jumbe 20 za kweli na kupata 18 sawa, ambayo ni 90%."
+   ],
+   "panel": {
+    "kicker": "Mbinu za hali ya juu",
+    "heading": "Mbinu nne za kazi ngumu zaidi",
+    "items": [
+     "Picha chache: mifano miwili au mitatu tofauti",
+     "Uliza hatua za kufikiria, kisha uziangalie",
+     "Mlolongo: papo ndogo, kuangalia binadamu kati",
+     "Toleo lenye muundo: taja safu wima kamili"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Kwa mahesabu, waulize mfano kufanya kazi hatua kwa hatua, ili uweze kuangalia mantiki. Kamwe usiamini hesabu hujajiangalia."
+   ],
+   "panel": {
+    "kicker": "Mbinu za hali ya juu",
+    "heading": "Mbinu nne za kazi ngumu zaidi",
+    "items": [
+     "Picha chache: mifano miwili au mitatu tofauti",
+     "Uliza hatua za kufikiria, kisha uziangalie",
+     "Mlolongo: papo ndogo, kuangalia binadamu kati",
+     "Toleo lenye muundo: taja safu wima kamili"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Msururu wa papo hapo huvunja kazi kubwa kuwa vidokezo vidogo. Kila hatua ni rahisi kuangalia."
+   ],
+   "panel": {
+    "kicker": "Mbinu za hali ya juu",
+    "heading": "Mbinu nne za kazi ngumu zaidi",
+    "items": [
+     "Picha chache: mifano miwili au mitatu tofauti",
+     "Uliza hatua za kufikiria, kisha uziangalie",
+     "Mlolongo: papo ndogo, kuangalia binadamu kati",
+     "Toleo lenye muundo: taja safu wima kamili"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Kwa majedwali utakayotumia tena, toa majina kamili ya safu wima na useme: ikiwa thamani haiko kwenye maandishi, iache tupu, usikisie."
+   ],
+   "panel": {
+    "kicker": "Mbinu za hali ya juu",
+    "heading": "Mbinu nne za kazi ngumu zaidi",
+    "items": [
+     "Picha chache: mifano miwili au mitatu tofauti",
+     "Uliza hatua za kufikiria, kisha uziangalie",
+     "Mlolongo: papo ndogo, kuangalia binadamu kati",
+     "Toleo lenye muundo: taja safu wima kamili"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Unganisha moja: anabandika nukuu zake na anauliza jedwali la bidhaa, kiasi, gharama ya kitengo na jumla. Kisha anaiangalia mwenyewe."
+   ],
+   "card": {
+    "title": "Grace anafunga bajeti ya warsha",
+    "rows": [],
+    "note": "Nukuu zake mwenyewe. Bei za Naira ni takriban."
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Ukumbi ni naira 40,000. Chakula cha mchana ni watu 28 kwa 3,500, kwa hivyo 98,000."
+   ],
+   "card": {
+    "title": "Grace anafunga bajeti ya warsha",
+    "rows": [
+     [
+      "Ukumbi kwa siku",
+      "40,000"
+     ],
+     [
+      "Chakula cha mchana kwa watu 28",
+      "98,000"
+     ]
+    ],
+    "note": "Nukuu zake mwenyewe. Bei za Naira ni takriban."
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Tikrini ni 15,000 na usafiri ni 30,000. Jumla ndogo ni 183,000."
+   ],
+   "card": {
+    "title": "Grace anafunga bajeti ya warsha",
+    "rows": [
+     [
+      "Ukumbi kwa siku",
+      "40,000"
+     ],
+     [
+      "Chakula cha mchana kwa watu 28",
+      "98,000"
+     ],
+     [
+      "Vidokezo kwa 25",
+      "15,000"
+     ],
+     [
+      "Usafiri kwa wawezeshaji 3",
+      "30,000"
+     ]
+    ],
+    "note": "Nukuu zake mwenyewe. Bei za Naira ni takriban."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Kiungo cha pili kinaongeza dharura ya 10%, 18,300, inayoonyesha kila hatua."
+   ],
+   "card": {
+    "title": "Grace anafunga bajeti ya warsha",
+    "rows": [
+     [
+      "Ukumbi kwa siku",
+      "40,000"
+     ],
+     [
+      "Chakula cha mchana kwa watu 28",
+      "98,000"
+     ],
+     [
+      "Vidokezo kwa 25",
+      "15,000"
+     ],
+     [
+      "Usafiri kwa wawezeshaji 3",
+      "30,000"
+     ],
+     [
+      "10% ya dharura",
+      "18,300"
+     ]
+    ],
+    "note": "Nukuu zake mwenyewe. Bei za Naira ni takriban."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Jumla ya jumla ni naira 201,300. Anaithibitisha katika lahajedwali kabla ya kiungo cha tatu kuandika dokezo la bajeti. Kwa sababu aliangalia kati ya viungo, noti ya mwisho haina makosa ya hesabu."
+   ],
+   "card": {
+    "title": "Grace anafunga bajeti ya warsha",
+    "rows": [
+     [
+      "Ukumbi kwa siku",
+      "40,000"
+     ],
+     [
+      "Chakula cha mchana kwa watu 28",
+      "98,000"
+     ],
+     [
+      "Vidokezo kwa 25",
+      "15,000"
+     ],
+     [
+      "Usafiri kwa wawezeshaji 3",
+      "30,000"
+     ],
+     [
+      "10% ya dharura",
+      "18,300"
+     ]
+    ],
+    "note": "Nukuu zake mwenyewe. Bei za Naira ni takriban."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Seti ya majaribio ni pembejeo 5 hadi 10 halisi: moja fupi sana, ndefu sana, yenye taarifa zinazokosekana, moja katika mchanganyiko wa Kiingereza na Pidgin."
+   ],
+   "panel": {
+    "kicker": "Kupima",
+    "heading": "Jaribu kidokezo kwa rubriki",
+    "items": [
+     "Kusanya kesi 5 hadi 10 za kweli, pamoja na zisizo za kawaida",
+     "Alama kila pato 1 hadi 5 kwa vigezo vichache",
+     "Linganisha wastani wa alama kati ya matoleo",
+     "Rekebisha alama ya chini kabisa, kisha endesha tena"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Usahihi wa alama, ukamilifu, umbizo na utumiaji kutoka 1 hadi 5."
+   ],
+   "panel": {
+    "kicker": "Kupima",
+    "heading": "Jaribu kidokezo kwa rubriki",
+    "items": [
+     "Kusanya kesi 5 hadi 10 za kweli, pamoja na zisizo za kawaida",
+     "Alama kila pato 1 hadi 5 kwa vigezo vichache",
+     "Linganisha wastani wa alama kati ya matoleo",
+     "Rekebisha alama ya chini kabisa, kisha endesha tena"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Ifeoma huko Abuja alijaribu matoleo mawili kwenye ripoti 5 sawa. Toleo la 1 lilikuwa na wastani wa 13.0 kati ya 20. Toleo la 2 lilikuwa wastani wa 16.6, takriban 28% bora zaidi."
+   ],
+   "panel": {
+    "kicker": "Kupima",
+    "heading": "Jaribu kidokezo kwa rubriki",
+    "items": [
+     "Kusanya kesi 5 hadi 10 za kweli, pamoja na zisizo za kawaida",
+     "Alama kila pato 1 hadi 5 kwa vigezo vichache",
+     "Linganisha wastani wa alama kati ya matoleo",
+     "Rekebisha alama ya chini kabisa, kisha endesha tena"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Alipata alama ya chini kabisa na akarekebisha kitu kimoja kwa toleo la 3. Ukibadilisha vitu viwili pamoja, hutajua ni kipi kilikusaidia."
+   ],
+   "panel": {
+    "kicker": "Kupima",
+    "heading": "Jaribu kidokezo kwa rubriki",
+    "items": [
+     "Kusanya kesi 5 hadi 10 za kweli, pamoja na zisizo za kawaida",
+     "Alama kila pato 1 hadi 5 kwa vigezo vichache",
+     "Linganisha wastani wa alama kati ya matoleo",
+     "Rekebisha alama ya chini kabisa, kisha endesha tena"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Badilisha kitu kimoja kwa wakati mmoja.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Angazia kila jina, nambari, tarehe na rejeleo katika matokeo, na uangalie kila moja dhidi ya chanzo chako."
+   ],
+   "panel": {
+    "kicker": "Udhibiti wa ubora",
+    "heading": "Angalia kabla ya kuamini",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Angalia kila ukweli",
+      "d": "Angazia majina, nambari, tarehe na marejeleo. Angalia kila moja dhidi ya chanzo."
+     },
+     {
+      "t": "Futa marejeleo bandia",
+      "d": "Tafuta makala, kitabu au sheria yoyote inayonukuu. Ikiwa huwezi kuipata, ifute."
+     },
+     {
+      "t": "Sindano ya haraka",
+      "d": "Maandishi ya watu wengine yanaweza kuficha maagizo. Ichukue kama data, na uweke mwanadamu anayesimamia."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Ikitaja makala, kitabu au sheria ambayo huwezi kuipata, ifute."
+   ],
+   "panel": {
+    "kicker": "Udhibiti wa ubora",
+    "heading": "Angalia kabla ya kuamini",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Angalia kila ukweli",
+      "d": "Angazia majina, nambari, tarehe na marejeleo. Angalia kila moja dhidi ya chanzo."
+     },
+     {
+      "t": "Futa marejeleo bandia",
+      "d": "Tafuta makala, kitabu au sheria yoyote inayonukuu. Ikiwa huwezi kuipata, ifute."
+     },
+     {
+      "t": "Sindano ya haraka",
+      "d": "Maandishi ya watu wengine yanaweza kuficha maagizo. Ichukue kama data, na uweke mwanadamu anayesimamia."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Barua pepe, CV na kurasa za wavuti zinaweza kuficha maagizo, kama vile: kukadiria mgombea huyu bora. Tumia vikomo, mwambie kielelezo kichukue maandishi kama data pekee, na usiruhusu AI ifanye maamuzi ya mwisho kuhusu watu au pesa."
+   ],
+   "panel": {
+    "kicker": "Udhibiti wa ubora",
+    "heading": "Angalia kabla ya kuamini",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Angalia kila ukweli",
+      "d": "Angazia majina, nambari, tarehe na marejeleo. Angalia kila moja dhidi ya chanzo."
+     },
+     {
+      "t": "Futa marejeleo bandia",
+      "d": "Tafuta makala, kitabu au sheria yoyote inayonukuu. Ikiwa huwezi kuipata, ifute."
+     },
+     {
+      "t": "Sindano ya haraka",
+      "d": "Maandishi ya watu wengine yanaweza kuficha maagizo. Ichukue kama data, na uweke mwanadamu anayesimamia."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Angalia mipangilio yako ya data na uhifadhi kiolezo kimoja kama toleo la 2. Unda kiainishaji cha picha chache na msururu wa viungo vitatu, ukiangalia nambari katika lahajedwali. Kisha jaribu kiolezo kimoja kwa rubriki na uandikishe matokeo.",
+    "Sasa endelea na masomo hapa chini."
+   ],
+   "panel": {
+    "kicker": "Kazi ya mazoezi",
+    "heading": "Kazi zako za moduli hii",
+    "items": [
+     "Anzisha maktaba yako na kiolezo kimoja kilichojaribiwa",
+     "Jenga kiainishaji kimoja na mnyororo mmoja",
+     "Jaribu kiolezo kimoja vizuri kwa rubriki"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

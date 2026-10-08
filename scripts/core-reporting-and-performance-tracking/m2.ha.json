@@ -1,0 +1,590 @@
+{
+ "course": "core-reporting-and-performance-tracking",
+ "module": "m2",
+ "title": "Gina, taƙaitawa kuma bincika takardar bin diddigin ku",
+ "course_title": "Rahoto & Bibiyar Ayyuka",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Gina, taƙaitawa da bincika takardar bin diddigin ku a cikin Google Sheets.",
+    "Wannan shi ne bidiyo don tsari na 2 na Rahoto da Bibiyar Ayyuka."
+   ]
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Google Sheets app ne na maƙunsar rubutu kyauta wanda ke aiki akan wayarka. Ƙa'idar zinariya shine jere ɗaya a kowane rikodin. Kowane jere taron ne guda ɗaya, kamar siyarwa ɗaya. Kowane ginshiƙi yana riƙe da nau'ikan bayanai ɗaya, kamar kwanan wata ko abun.",
+    "Yi amfani da jerin zaɓuka, don haka koyaushe ana rubuta WhatsApp iri ɗaya, kuma kiyaye jimlar akan wani shafin Takaitaccen bayani."
+   ],
+   "panel": {
+    "kicker": "Mulkin zinariya",
+    "heading": "Jeri ɗaya a kowace rikodin",
+    "mode": "compare",
+    "left_h": "Yi",
+    "left": [
+     "Jeri ɗaya don kowane siyarwa ko taron",
+     "Shafi ɗaya don kowane nau'in daki-daki",
+     "Zazzagewa don nau'ikan",
+     "Jimlar akan keɓan shafin Takaitawa"
+    ],
+    "right_h": "Guji",
+    "right": [
+     "Layukan banza tsakanin makonni",
+     "Kwayoyin hade",
+     "Jimlar da aka buga a cikin bayanan",
+     "Buga lambar sa hannun naira"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Guji layuka marasa komai, haɗe-haɗen sel da jimlar da aka buga a tsakiyar bayanan ku. Kuma rubuta lambobi kawai, ba tare da alamar naira ba. Waɗannan halaye masu sauƙi sune abin da ke barin ƙididdiga da sigogi suyi aiki daga baya."
+   ],
+   "panel": {
+    "kicker": "Mulkin zinariya",
+    "heading": "Jeri ɗaya a kowace rikodin",
+    "mode": "compare",
+    "left_h": "Yi",
+    "left": [
+     "Jeri ɗaya don kowane siyarwa ko taron",
+     "Shafi ɗaya don kowane nau'in daki-daki",
+     "Zazzagewa don nau'ikan",
+     "Jimlar akan keɓan shafin Takaitawa"
+    ],
+    "right_h": "Guji",
+    "right": [
+     "Layukan banza tsakanin makonni",
+     "Kwayoyin hade",
+     "Jimlar da aka buga a cikin bayanan",
+     "Buga lambar sa hannun naira"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Yi rikodin kowane tallace-tallace da zaran ya faru. Shigar da duka mako guda daga ƙwaƙwalwar ajiya a daren Lahadi yana haifar da asarar tallace-tallace."
+   ],
+   "card": {
+    "title": "Layukan farko na Bisi guda uku",
+    "rows": [],
+    "note": "Adadi = adadi x farashin raka'a, ta dabara."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Bisi yana rubuta adadin da farashin, kuma tsari yana aiki akan kowane adadin: 7,500, 6,000 da 3,000 naira. Rukuninta da aka biya shi ne Ee ko A'a."
+   ],
+   "card": {
+    "title": "Layukan farko na Bisi guda uku",
+    "rows": [
+     [
+      "Akwatuna 3 na naman nama, an biya",
+      "7,500"
+     ],
+     [
+      "2 kg chin chin, biya",
+      "6,000"
+     ],
+     [
+      "1 kg chin chin, ba a biya ba tukuna",
+      "3,000"
+     ]
+    ],
+    "note": "Adadi = adadi x farashin raka'a, ta dabara."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Ta sayar da Naira 16,500 a ranar. An biya 13,500, kuma har yanzu ana bin 3,000. Yanzu za ta iya ƙidaya odar da ba a biya ba cikin sauƙi da kuma bibiya."
+   ],
+   "card": {
+    "title": "Layukan farko na Bisi guda uku",
+    "rows": [
+     [
+      "Akwatuna 3 na naman nama, an biya",
+      "7,500"
+     ],
+     [
+      "2 kg chin chin, biya",
+      "6,000"
+     ],
+     [
+      "1 kg chin chin, ba a biya ba tukuna",
+      "3,000"
+     ]
+    ],
+    "note": "Adadi = adadi x farashin raka'a, ta dabara."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Formula koyaushe suna farawa da alamar daidai, kuma suna sake ƙididdigewa da kansu lokacin da kuka ƙara bayanai."
+   ],
+   "panel": {
+    "kicker": "Takaitaccen tsari",
+    "heading": "Dabaru shida za ku yi amfani da su",
+    "items": [
+     "SUM: yana ƙara duk lambobi",
+     "MATAKI: yana samun matsakaicin",
+     "COUNTA: yana ƙirga cika sel",
+     "COUNTIF: yana ƙidaya sel waɗanda suka dace",
+     "SUMIF: yana ƙara layuka masu dacewa kawai",
+     "Canjin kashi: sabo ya rage tsoho, sama da tsoho"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "SUM yana ƙara tallace-tallace ku. AVERAGE yana samun matsakaicin siyarwa. COUNTA tana ƙididdige layuka nawa kuke da su."
+   ],
+   "panel": {
+    "kicker": "Takaitaccen tsari",
+    "heading": "Dabaru shida za ku yi amfani da su",
+    "items": [
+     "SUM: yana ƙara duk lambobi",
+     "MATAKI: yana samun matsakaicin",
+     "COUNTA: yana ƙirga cika sel",
+     "COUNTIF: yana ƙidaya sel waɗanda suka dace",
+     "SUMIF: yana ƙara layuka masu dacewa kawai",
+     "Canjin kashi: sabo ya rage tsoho, sama da tsoho"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "COUNTIF yana ƙidaya sel masu dacewa, kamar umarni da aka yiwa alama A'a don rashin biya. SUMIF yana ƙara layukan da suka dace kawai, kamar tallace-tallace na WhatsApp."
+   ],
+   "panel": {
+    "kicker": "Takaitaccen tsari",
+    "heading": "Dabaru shida za ku yi amfani da su",
+    "items": [
+     "SUM: yana ƙara duk lambobi",
+     "MATAKI: yana samun matsakaicin",
+     "COUNTA: yana ƙirga cika sel",
+     "COUNTIF: yana ƙidaya sel waɗanda suka dace",
+     "SUMIF: yana ƙara layuka masu dacewa kawai",
+     "Canjin kashi: sabo ya rage tsoho, sama da tsoho"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Canjin kashi kuma shine sabon adadi ban da tsoho, raba tsoho."
+   ],
+   "panel": {
+    "kicker": "Takaitaccen tsari",
+    "heading": "Dabaru shida za ku yi amfani da su",
+    "items": [
+     "SUM: yana ƙara duk lambobi",
+     "MATAKI: yana samun matsakaicin",
+     "COUNTA: yana ƙirga cika sel",
+     "COUNTIF: yana ƙidaya sel waɗanda suka dace",
+     "SUMIF: yana ƙara layuka masu dacewa kawai",
+     "Canjin kashi: sabo ya rage tsoho, sama da tsoho"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "A karshen watan Maris, SUM na Bisi ya nuna Naira 280,000 a kasuwa."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Bisi's Maris taƙaitawa",
+    "items": [
+     "Jimlar tallace-tallace: Naira 280,000",
+     "WhatsApp 142,000, Walk-in 98,000, Instagram 40,000",
+     "Haɓaka 12% akan 250,000 na Fabrairu",
+     "280,000 na 300,000 manufa: 93.3%",
+     "5 umarni marasa biya don kora"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "SUMIF dinta ta raba ta ta tashar: 142,000 akan WhatsApp, shiga 98,000 da 40,000 akan Instagram."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Bisi's Maris taƙaitawa",
+    "items": [
+     "Jimlar tallace-tallace: Naira 280,000",
+     "WhatsApp 142,000, Walk-in 98,000, Instagram 40,000",
+     "Haɓaka 12% akan 250,000 na Fabrairu",
+     "280,000 na 300,000 manufa: 93.3%",
+     "5 umarni marasa biya don kora"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Waɗannan sun haɗa har zuwa 280,000, wanda ya tabbatar da cewa babu abin da ya ɓace."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Bisi's Maris taƙaitawa",
+    "items": [
+     "Jimlar tallace-tallace: Naira 280,000",
+     "WhatsApp 142,000, Walk-in 98,000, Instagram 40,000",
+     "Haɓaka 12% akan 250,000 na Fabrairu",
+     "280,000 na 300,000 manufa: 93.3%",
+     "5 umarni marasa biya don kora"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "rule": "Bincika jimlar rukunin suna ƙara zuwa jimillar jimillar.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Fabrairu ya kasance 250,000. 280,000 debe 250,000, raba ta 250,000, shine 12%."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Bisi's Maris taƙaitawa",
+    "items": [
+     "Jimlar tallace-tallace: Naira 280,000",
+     "WhatsApp 142,000, Walk-in 98,000, Instagram 40,000",
+     "Haɓaka 12% akan 250,000 na Fabrairu",
+     "280,000 na 300,000 manufa: 93.3%",
+     "5 umarni marasa biya don kora"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Bincika jimlar rukunin suna ƙara zuwa jimillar jimillar.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Manufarta ita ce 300,000, don haka ta kai kashi 93.3% na abin da aka sa gaba."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Bisi's Maris taƙaitawa",
+    "items": [
+     "Jimlar tallace-tallace: Naira 280,000",
+     "WhatsApp 142,000, Walk-in 98,000, Instagram 40,000",
+     "Haɓaka 12% akan 250,000 na Fabrairu",
+     "280,000 na 300,000 manufa: 93.3%",
+     "5 umarni marasa biya don kora"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Bincika jimlar rukunin suna ƙara zuwa jimillar jimillar.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Kuma COUNTIF yana nuna oda 5 har yanzu ba a biya ba. Wadancan basussukan da ake bi."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Bisi's Maris taƙaitawa",
+    "items": [
+     "Jimlar tallace-tallace: Naira 280,000",
+     "WhatsApp 142,000, Walk-in 98,000, Instagram 40,000",
+     "Haɓaka 12% akan 250,000 na Fabrairu",
+     "280,000 na 300,000 manufa: 93.3%",
+     "5 umarni marasa biya don kora"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Bincika jimlar rukunin suna ƙara zuwa jimillar jimillar.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Lokacin da lamba ya riga ya zama kashi, yi hankali. Idan juyi ya tashi daga 20% zuwa 25%, ragi yana ba da maki 5 cikin ɗari."
+   ],
+   "panel": {
+    "kicker": "Kuskuren gama gari",
+    "heading": "Canjin ya tashi daga 20% zuwa 25%",
+    "mode": "compare",
+    "left_h": "Maki dari",
+    "left": [
+     "Ragewa: 25 min 20",
+     "Haɓaka maki 5 cikin ɗari"
+    ],
+    "right_h": "Canjin kashi",
+    "right": [
+     "Raba: 5 zuwa 20",
+     "Haɓaka kashi 25%."
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Raba 5 da 20 yana ba da 25% karuwa. Dukansu daidai ne, amma sun bambanta sosai.",
+    "Halin aminci shine rubuta: sama da maki 5, daga 20% zuwa 25%. Sai mai karatu ya ga canji na gaske."
+   ],
+   "panel": {
+    "kicker": "Kuskuren gama gari",
+    "heading": "Canjin ya tashi daga 20% zuwa 25%",
+    "mode": "compare",
+    "left_h": "Maki dari",
+    "left": [
+     "Ragewa: 25 min 20",
+     "Haɓaka maki 5 cikin ɗari"
+    ],
+    "right_h": "Canjin kashi",
+    "right": [
+     "Raba: 5 zuwa 20",
+     "Haɓaka kashi 25%."
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Layi ɗaya da aka kwafi, ko farashin da aka buga tare da ƙarin sifili, na iya juya wata mara ƙarfi zuwa babba akan takarda. Don haka duba kowane mako. Da farko, kunna tace."
+   ],
+   "panel": {
+    "kicker": "Binciken mako-mako",
+    "heading": "Binciken bayanan ku na minti 10 na mako-mako",
+    "items": [
+     "Kunna tace",
+     "Jerin adadin mafi girma na farko; duba saman",
+     "Tace ba a biya ba sannan a biyo baya",
+     "Kwatanta jimlar biyan kuɗi tare da app ɗin bankin ku",
+     "Gyara kurakurai kuma lura da su tare da kwanan wata"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Tsara ginshiƙin adadin daga babba zuwa ƙarami. Shin 25000 da gaske 2500?"
+   ],
+   "panel": {
+    "kicker": "Binciken mako-mako",
+    "heading": "Binciken bayanan ku na minti 10 na mako-mako",
+    "items": [
+     "Kunna tace",
+     "Jerin adadin mafi girma na farko; duba saman",
+     "Tace ba a biya ba sannan a biyo baya",
+     "Kwatanta jimlar biyan kuɗi tare da app ɗin bankin ku",
+     "Gyara kurakurai kuma lura da su tare da kwanan wata"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Tace umarnin da ba a biya ba sannan ku biyo su."
+   ],
+   "panel": {
+    "kicker": "Binciken mako-mako",
+    "heading": "Binciken bayanan ku na minti 10 na mako-mako",
+    "items": [
+     "Kunna tace",
+     "Jerin adadin mafi girma na farko; duba saman",
+     "Tace ba a biya ba sannan a biyo baya",
+     "Kwatanta jimlar biyan kuɗi tare da app ɗin bankin ku",
+     "Gyara kurakurai kuma lura da su tare da kwanan wata"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Kwatanta jimlar biyan kuɗin mako tare da bankin ku, Opay ko tarihin Moniepoint."
+   ],
+   "panel": {
+    "kicker": "Binciken mako-mako",
+    "heading": "Binciken bayanan ku na minti 10 na mako-mako",
+    "items": [
+     "Kunna tace",
+     "Jerin adadin mafi girma na farko; duba saman",
+     "Tace ba a biya ba sannan a biyo baya",
+     "Kwatanta jimlar biyan kuɗi tare da app ɗin bankin ku",
+     "Gyara kurakurai kuma lura da su tare da kwanan wata"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Gyara kowane kurakurai, kuma rubuta abin da kuka canza a shafin Bayanan kula tare da kwanan wata. Kar a taɓa ƙirƙira lambobi don cike gibi."
+   ],
+   "panel": {
+    "kicker": "Binciken mako-mako",
+    "heading": "Binciken bayanan ku na minti 10 na mako-mako",
+    "items": [
+     "Kunna tace",
+     "Jerin adadin mafi girma na farko; duba saman",
+     "Tace ba a biya ba sannan a biyo baya",
+     "Kwatanta jimlar biyan kuɗi tare da app ɗin bankin ku",
+     "Gyara kurakurai kuma lura da su tare da kwanan wata"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Yin sulhu yana nufin duba takardar ku akan bayanan kuɗin ku."
+   ],
+   "card": {
+    "title": "Bisi ta sasanta da app ɗin biyanta",
+    "rows": [],
+    "note": "Bambanci: odar waya ɗaya bai taɓa shiga ba."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "App dinta ya nuna naira 68,500 ya shigo, takardar ta ya nuna 63,500 kacal."
+   ],
+   "card": {
+    "title": "Bisi ta sasanta da app ɗin biyanta",
+    "rows": [
+     [
+      "Moniepoint: canja wuri mai shigowa",
+      "68,500"
+     ],
+     [
+      "Sheet: canja wurin da aka biya",
+      "63,500"
+     ]
+    ],
+    "note": "Bambanci: odar waya ɗaya bai taɓa shiga ba."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Bambancin Naira 5,000 ne. Ta sami odar wayar da ba a shiga ba, ta ƙara, sannan ta lura da gyaran.",
+    "Idan kuɗi na sirri ya shiga cikin asusu ɗaya, adana asusun kasuwanci daban, ko sanya alamar canja wurin sirri a fili don kada a ƙidaya su azaman tallace-tallace."
+   ],
+   "card": {
+    "title": "Bisi ta sasanta da app ɗin biyanta",
+    "rows": [
+     [
+      "Moniepoint: canja wuri mai shigowa",
+      "68,500"
+     ],
+     [
+      "Sheet: canja wurin da aka biya",
+      "63,500"
+     ]
+    ],
+    "note": "Bambanci: odar waya ɗaya bai taɓa shiga ba."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Don tunawa. Layi ɗaya a kowane taron. Yi amfani da zazzagewa, kuma rubuta lambobi ba tare da alamar naira ba. Bari tsari yayi kirgawa. Yi haske game da maki kashi. Kuma bincika bayananku kowane mako akan app ɗin bankin ku, lura da kowane gyara."
+   ],
+   "panel": {
+    "kicker": "Mabuɗin mahimmanci",
+    "heading": "Ka tuna",
+    "items": [
+     "Jeri ɗaya a kowace aukuwa, shafi ɗaya kowane daki-daki",
+     "Dropdowns suna ci gaba da rubutun iri ɗaya",
+     "SUM, COUNTIF, SUMIF da canjin kashi",
+     "Faɗi maki kashi don ƙima",
+     "Bincika mako-mako kuma daidaita tare da app ɗin bankin ku"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Yanzu yi aiki. Gina bayanan bayananku tare da bayyanannun kanun labarai, zazzagewa da rikodin gaske guda biyar. Ƙara Taƙaitaccen shafin tare da jimlar da ci gaba a kan manufa. Sa'an nan kuma gudanar da binciken farko na bayanan ku kuma fara shafin Bayanan kula.",
+    "Ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi ayyuka",
+    "heading": "Ayyukan ku a cikin wannan tsarin",
+    "items": [
+     "Gina takardar bin diddigin ku",
+     "Gina Takaitaccen shafin ku",
+     "Gudanar da binciken bayanan ku na farko"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

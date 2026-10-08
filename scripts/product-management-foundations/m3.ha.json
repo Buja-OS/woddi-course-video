@@ -1,0 +1,438 @@
+{
+ "course": "product-management-foundations",
+ "module": "m3",
+ "title": "Taswirorin hanya, farashin aikin samfurin ku, da auna ƙaddamarwa",
+ "course_title": "Tushen Gudanar da Samfur",
+ "shots": [
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Taswirorin hanya, farashin aikin samfurin ku, da auna ƙaddamarwa.",
+    "Wannan shi ne bidiyo don tsari na uku na Tushen Gudanar da Samfur."
+   ]
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Ayyukan samfur na nasara ko kasawa a cikin tattaunawa tare da masu ruwa da tsaki. Taswirar da aka gina ba tare da fahimtar kasuwanci ba, jama'a da siyasa ba za a yi watsi da su ko kuma a juye su ba."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Kayan aiki yana rayuwa a cikin tattaunawa",
+    "items": [
+     "Fahimtar mutane da siyasa",
+     "Gina taswirar hanya ta gaskiya",
+     "Farashin da iyaka biya aikin",
+     "Auna abin da ke faruwa bayan ƙaddamarwa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "A cikin wannan tsarin zaku koyi gina taswirar hanya ta gaskiya, farashi da iyakar aikin samfur da aka biya, da auna sakamako bayan ƙaddamarwa. Kun gama da tsarin nazarin shari'a da shirin kwanaki 90."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Kayan aiki yana rayuwa a cikin tattaunawa",
+    "items": [
+     "Fahimtar mutane da siyasa",
+     "Gina taswirar hanya ta gaskiya",
+     "Farashin da iyaka biya aikin",
+     "Auna abin da ke faruwa bayan ƙaddamarwa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Misali, Ifeoma ta shiga cikin fara biyan kuɗin makaranta a Fatakwal a matsayin PM ta farko. Wanda ya kafa ya mika mata fasali 18 da aka nema tare da kwanakin da aka alkawarta."
+   ],
+   "panel": {
+    "kicker": "Taswirar hanya",
+    "heading": "Jerin fasali da Yanzu-Na gaba-Baya",
+    "mode": "compare",
+    "left_h": "Jerin fasali",
+    "left": [
+     "18 fasali tare da kwanakin alkawari",
+     "Kwanan wata ba wanda zai iya ajiyewa",
+     "Tawagar tarko da alkawuran"
+    ],
+    "right_h": "Yanzu-Na gaba-Baya",
+    "right": [
+     "Yanzu: iyaye suna manta kwanakin da aka yi",
+     "Na gaba: wa ya biya?",
+     "Daga baya: biyan kuɗi"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Bayan tattaunawa shida masu ruwa da tsaki, ta tattara abubuwan da ke ƙarƙashin matsaloli. Yanzu yana riƙe da matsalar da aka fahimta: iyaye suna manta kwanakin da suka dace. Na gaba yana riƙe abin da ake bincike. Daga baya yana riƙe da kayan aiki, waɗanda ke buƙatar abokin tarayya mai lasisi.",
+    "Kowane abu matsala ce, ba fasali ba, kuma yanzu kawai yana samun watanni masu niyya. Wannan gaskiya ne game da rashin tabbas."
+   ],
+   "panel": {
+    "kicker": "Taswirar hanya",
+    "heading": "Jerin fasali da Yanzu-Na gaba-Baya",
+    "mode": "compare",
+    "left_h": "Jerin fasali",
+    "left": [
+     "18 fasali tare da kwanakin alkawari",
+     "Kwanan wata ba wanda zai iya ajiyewa",
+     "Tawagar tarko da alkawuran"
+    ],
+    "right_h": "Yanzu-Na gaba-Baya",
+    "right": [
+     "Yanzu: iyaye suna manta kwanakin da aka yi",
+     "Na gaba: wa ya biya?",
+     "Daga baya: biyan kuɗi"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Lokacin da shaida ta canza fifiko, gaya wa masu ruwa da tsaki da abin ya shafa tukuna, cikin mutum ko ta ɗan gajeren kira. Faɗi abin da kuka koya, da abin da ke canzawa da abin da ba ya canzawa."
+   ],
+   "panel": {
+    "kicker": "A rike amana",
+    "heading": "Lokacin da fifiko ya canza",
+    "items": [
+     "Faɗa wa mutanen da abin ya shafa kafin taswirar hanya ta canza",
+     "Fadi abin da kuka koya",
+     "Faɗin abin da ke canzawa da abin da ba ya canzawa",
+     "Fadi lokacin da za ku sake bita",
+     "Yi rikodin shi a cikin kundin yanke shawara"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Faɗi lokacin da za ku sake dubawa, kuma ku rubuta shawarar a cikin ɗan gajeren lokaci: kwanan wata, zaɓuɓɓuka, shaida, da wanda ya yanke shawara."
+   ],
+   "panel": {
+    "kicker": "A rike amana",
+    "heading": "Lokacin da fifiko ya canza",
+    "items": [
+     "Faɗa wa mutanen da abin ya shafa kafin taswirar hanya ta canza",
+     "Fadi abin da kuka koya",
+     "Faɗin abin da ke canzawa da abin da ba ya canzawa",
+     "Fadi lokacin da za ku sake bita",
+     "Yi rikodin shi a cikin kundin yanke shawara"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Ka tuna, abubuwan ban mamaki suna lalata amana fiye da mummunan labari."
+   ],
+   "panel": {
+    "kicker": "A rike amana",
+    "heading": "Lokacin da fifiko ya canza",
+    "items": [
+     "Faɗa wa mutanen da abin ya shafa kafin taswirar hanya ta canza",
+     "Fadi abin da kuka koya",
+     "Faɗin abin da ke canzawa da abin da ba ya canzawa",
+     "Fadi lokacin da za ku sake bita",
+     "Yi rikodin shi a cikin kundin yanke shawara"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Abin mamaki yana lalata amana fiye da mummunan labari.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Juzu'i yana nufin yin aiki kafaffen kaso na mako don abokin ciniki. Babu katin kuɗi na hukuma, don haka kar a kwafi lamba daga kafofin watsa labarun. Yi lissafin bene na ku. Waɗannan alkalumman misalai ne, ba farashin kasuwa ba."
+   ],
+   "card": {
+    "title": "Ngozi ta sayi farashin ganowa",
+    "rows": [],
+    "note": "Ƙididdiga masu kwatanta, ba farashin kasuwa ba."
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Ngozi na bukatar Naira 1,400,000 a wata, gami da kudin kasuwanci. A cikin kusan kwanaki 20 na aiki, tana tsammanin 14 ne kawai za a iya biya. 1,400,000 da aka raba kashi 14 ya ba da kudin rana naira 100,000."
+   ],
+   "card": {
+    "title": "Ngozi ta sayi farashin ganowa",
+    "rows": [
+     [
+      "Bukatar wata-wata, tare da farashi",
+      "1,400,000"
+     ],
+     [
+      "Rana farashin bene (kwanaki 14 da za a iya biya)",
+      "100,000"
+     ]
+    ],
+    "note": "Ƙididdiga masu kwatanta, ba farashin kasuwa ba."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Gudun ganowa yana ɗaukar kimanin kwanaki 8, don haka Naira 800,000. Ta ƙara 15% don daidaitawa, wanda shine 120,000."
+   ],
+   "card": {
+    "title": "Ngozi ta sayi farashin ganowa",
+    "rows": [
+     [
+      "Bukatar wata-wata, tare da farashi",
+      "1,400,000"
+     ],
+     [
+      "Rana farashin bene (kwanaki 14 da za a iya biya)",
+      "100,000"
+     ],
+     [
+      "Gudu na kwanaki 8",
+      "800,000"
+     ],
+     [
+      "15% rashin tabbas",
+      "120,000"
+     ]
+    ],
+    "note": "Ƙididdiga masu kwatanta, ba farashin kasuwa ba."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Kudinta ya kai Naira 920,000, kashi 40 cikin 100 na sa hannu, sannan kashi 60 cikin 100 na bayarwa. Domin an gina shi daga ainihin kwanakin da farashi na gaske, za ta iya bayyana shi cikin nutsuwa."
+   ],
+   "card": {
+    "title": "Ngozi ta sayi farashin ganowa",
+    "rows": [
+     [
+      "Bukatar wata-wata, tare da farashi",
+      "1,400,000"
+     ],
+     [
+      "Rana farashin bene (kwanaki 14 da za a iya biya)",
+      "100,000"
+     ],
+     [
+      "Gudu na kwanaki 8",
+      "800,000"
+     ],
+     [
+      "15% rashin tabbas",
+      "120,000"
+     ]
+    ],
+    "note": "Ƙididdiga masu kwatanta, ba farashin kasuwa ba."
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Rubuta iyakar aiki tare da abubuwan da ake iya bayarwa, keɓancewa da tsarin canji. Lokacin da abokin ciniki ya nemi sabon abu, kar a ce e a cikin taron. Ba da rubutaccen zaɓuka da farko.",
+    "Nemi ajiya kafin farawa, kuma tabbatar da biyan kuɗi a cikin aikace-aikacen banki na ku, ba daga hotunan kariyar kwamfuta ba. Kada a taɓa raba bayanan abokin ciniki daga ganowa."
+   ],
+   "panel": {
+    "kicker": "Kare kuɗin ku",
+    "heading": "Kariyar iyaka da biyan kuɗi",
+    "items": [
+     "Abubuwan isarwa da keɓancewa a rubuce",
+     "Tsarin canji kafin ƙarin aiki",
+     "Deposit kafin fara aiki",
+     "Tabbatar da biyan kuɗi a cikin app ɗin bankin ku",
+     "Kada a taɓa raba bayanan abokin ciniki"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Kafin ƙaddamarwa, yanke shawarar abin da za a auna, kuma ƙara shingen tsaro, adadin da ba dole ba ne ya yi muni ba. Halima ta saki albashin da ta kai ga shaguna 1,200. A cikin kwanaki 30, 300 suna amfani da shi. Wato 25% karɓewa."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Karatun sakamakon ƙaddamar da gaskiya",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Karɓa: 25%",
+      "d": "300 daga cikin 1,200 kantin magani sun yi amfani da biyan kuɗi lokacin bayarwa a cikin kwanaki 30 na farko."
+     },
+     {
+      "t": "Rikewa: 46%",
+      "d": "Umarni na biyu a cikin kwanaki 30 sun tashi daga 38% zuwa 46% na sabbin kantin magani."
+     },
+     {
+      "t": "Tsare-tsare: 3% zuwa 5%",
+      "d": "Abubuwan da ba a yi nasara ba sun tashi, galibi manyan oda. Rage iyaka, ƙara ƙa'idar amincin mahayi."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Pharmacies sanya oda na biyu a cikin kwanaki 30 sun tashi daga 38% zuwa 46%."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Karatun sakamakon ƙaddamar da gaskiya",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Karɓa: 25%",
+      "d": "300 daga cikin 1,200 kantin magani sun yi amfani da biyan kuɗi lokacin bayarwa a cikin kwanaki 30 na farko."
+     },
+     {
+      "t": "Rikewa: 46%",
+      "d": "Umarni na biyu a cikin kwanaki 30 sun tashi daga 38% zuwa 46% na sabbin kantin magani."
+     },
+     {
+      "t": "Tsare-tsare: 3% zuwa 5%",
+      "d": "Abubuwan da ba a yi nasara ba sun tashi, galibi manyan oda. Rage iyaka, ƙara ƙa'idar amincin mahayi."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Amma isar da saƙon da ya gaza ya tashi daga kashi 3% zuwa 5%, galibi manyan oda inda mahaya ke ɗaukar manyan kuɗi. Don haka ta kiyaye fasalin, ta rage iyakar tsari, ta ƙara ƙa'idar aminci ga mahayi, kuma ta yi rahoton gaskiya cewa wasu canje-canjen wannan watan na iya bayyana ɓangaren riba."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Karatun sakamakon ƙaddamar da gaskiya",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Karɓa: 25%",
+      "d": "300 daga cikin 1,200 kantin magani sun yi amfani da biyan kuɗi lokacin bayarwa a cikin kwanaki 30 na farko."
+     },
+     {
+      "t": "Rikewa: 46%",
+      "d": "Umarni na biyu a cikin kwanaki 30 sun tashi daga 38% zuwa 46% na sabbin kantin magani."
+     },
+     {
+      "t": "Tsare-tsare: 3% zuwa 5%",
+      "d": "Abubuwan da ba a yi nasara ba sun tashi, galibi manyan oda. Rage iyaka, ƙara ƙa'idar amincin mahayi."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Manajojin daukar ma'aikata suna son ganin yadda kuke tunani. Rubuta shafuka biyu zuwa hudu: mahallin mahallin, binciken ku, da yadda kuka zaɓi tsakanin zaɓuɓɓuka."
+   ],
+   "panel": {
+    "kicker": "Fayil ɗin ku",
+    "heading": "Nazarin yanayin da ke nuna tunanin ku",
+    "items": [
+     "Mahimmanci: masu amfani da sakamakon",
+     "Ganowa: zato da gwaje-gwaje",
+     "Gabatarwa: zaɓuɓɓuka da dalilai",
+     "Bayarwa: labarai masu ma'auni",
+     "Sakamako da tunani"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Ƙara labarai biyu ko uku tare da ma'auni, sannan sakamako da tunani. Idan shawarar ba ta yi tasiri ba, faɗi haka kuma ku nuna abin da kuka koya."
+   ],
+   "panel": {
+    "kicker": "Fayil ɗin ku",
+    "heading": "Nazarin yanayin da ke nuna tunanin ku",
+    "items": [
+     "Mahimmanci: masu amfani da sakamakon",
+     "Ganowa: zato da gwaje-gwaje",
+     "Gabatarwa: zaɓuɓɓuka da dalilai",
+     "Bayarwa: labarai masu ma'auni",
+     "Sakamako da tunani"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Don tunawa. Sanya matsaloli akan taswirar ku, ba fasali ba. Bayyana canje-canjen fifiko da wuri. Farashi daga farashin ku da kwanakin da za a iya biya. Yi amfani da kowane canji a rubuce. Kuma ku auna da shingen tsaro, sannan ku yi rahoto da gaskiya."
+   ],
+   "panel": {
+    "kicker": "Mabuɗin mahimmanci",
+    "heading": "Ka tuna",
+    "items": [
+     "Matsalolin taswirar hanya, ba fasali ba",
+     "Bayyana canje-canjen fifiko da wuri",
+     "Farashi daga farashin ku da kwanakin da ake biya",
+     "Zaɓuɓɓukan da aka rubuta don kowane canji",
+     "Auna tare da shingen tsaro; rahoton gaskiya"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Yanzu yi aiki. Zana Taswirar Taswirar Yanzu-Na gaba-Baya don ƙungiyar da kuka sani. Farashi da iyakacin saurin ganowa. Rubuta tsarin aunawa tare da titin tsaro, da shirin kwanaki 90 a cikin tubalan kwana 30 uku.",
+    "Raba shi ga wanda zai duba ku a rana ta 30, kuma ku ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi ayyuka",
+    "heading": "Ayyukan aikin ku",
+    "items": [
+     "Zana taswirar hanya don ƙungiya ta gaske",
+     "Farashi da iyakacin saurin ganowa",
+     "Rubuta shirin aunawa",
+     "Rubuta shirin ku na kwanaki 90"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

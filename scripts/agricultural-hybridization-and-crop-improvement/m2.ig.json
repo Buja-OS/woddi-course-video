@@ -1,0 +1,864 @@
+{
+ "course": "agricultural-hybridization-and-crop-improvement",
+ "module": "m2",
+ "title": "Usoro ubi: obe na-achịkwa, ezigbo mkpụrụ na ule ziri ezi",
+ "course_title": "Ngwakọta nke ugbo na nkwalite ihe ubi",
+ "shots": [
+  {
+   "demo": "soil_bed",
+   "say": [
+    "Usoro ubi: obe na-achịkwa, ezigbo mkpụrụ na ule ziri ezi.",
+    "Nke a bụ vidiyo maka modul 2 nke ngwakọ ọrụ ugbo na nkwalite ihe ubi."
+   ]
+  },
+  {
+   "demo": "seedling_tray",
+   "say": [
+    "A na-achịkwa mmepụta pollination. Ị na-ahọrọ nne na nna, ma gbochie pollen ndị ọzọ niile."
+   ],
+   "panel": {
+    "kicker": "Ihe mere nke a ji dị mkpa",
+    "heading": "Jikwaa pollen, lelee mkpụrụ",
+    "items": [
+     "Mee obe na-achịkwa",
+     "Melite OPV site na nhọrọ",
+     "Lelee mkpụrụ dị adị ma dị ndụ",
+     "Gbaa ule ị nwere ike ịtụkwasị obi"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "seedling_tray",
+   "say": [
+    "Iji mee ka ụdị dị iche iche dị ọcha, ị na-ewepụ pollen n'èzí."
+   ],
+   "panel": {
+    "kicker": "Ihe mere nke a ji dị mkpa",
+    "heading": "Jikwaa pollen, lelee mkpụrụ",
+    "items": [
+     "Mee obe na-achịkwa",
+     "Melite OPV site na nhọrọ",
+     "Lelee mkpụrụ dị adị ma dị ndụ",
+     "Gbaa ule ị nwere ike ịtụkwasị obi"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "water_tank",
+   "say": [
+    "Ị ga-elele na mkpụrụ ahụ dị adị na nke dị ndụ, wee jikwaa mkpụrụ e gwọworo n'enweghị nsogbu."
+   ],
+   "panel": {
+    "kicker": "Ihe mere nke a ji dị mkpa",
+    "heading": "Jikwaa pollen, lelee mkpụrụ",
+    "items": [
+     "Mee obe na-achịkwa",
+     "Melite OPV site na nhọrọ",
+     "Lelee mkpụrụ dị adị ma dị ndụ",
+     "Gbaa ule ị nwere ike ịtụkwasị obi"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "water_tank",
+   "say": [
+    "Ị ga-agba ọsọ ule ị nwere ike ịtụkwasị obi."
+   ],
+   "panel": {
+    "kicker": "Ihe mere nke a ji dị mkpa",
+    "heading": "Jikwaa pollen, lelee mkpụrụ",
+    "items": [
+     "Mee obe na-achịkwa",
+     "Melite OPV site na nhọrọ",
+     "Lelee mkpụrụ dị adị ma dị ndụ",
+     "Gbaa ule ị nwere ike ịtụkwasị obi"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "produce_crates",
+   "say": [
+    "Nzọụkwụ 1. Na-ekpuchi oge ịse ntị na akpa égbè ozugbo ọ pụtara, tupu silk ọ bụla apụta."
+   ],
+   "panel": {
+    "kicker": "Nzọụkwụ site nzọụkwụ",
+    "heading": "Aka pollination na ọka",
+    "items": [
+     "Akpa oge ịse ntị tupu silk egosi",
+     "Wepu silks, tinyeghachi akpa ozugbo",
+     "Otu ehihie, akpa nna tassel",
+     "N'ụtụtụ echi, kpokọta pollen",
+     "Wunye na silks, kpuchie ntị",
+     "Tinye aha akpa na mkpado"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "produce_crates",
+   "say": [
+    "Nzọụkwụ 2. Mgbe silk na-apụta, bee ya ozugbo n'ehihie, ma tinyeghachi akpa ozugbo."
+   ],
+   "panel": {
+    "kicker": "Nzọụkwụ site nzọụkwụ",
+    "heading": "Aka pollination na ọka",
+    "items": [
+     "Akpa oge ịse ntị tupu silk egosi",
+     "Wepu silks, tinyeghachi akpa ozugbo",
+     "Otu ehihie, akpa nna tassel",
+     "N'ụtụtụ echi, kpokọta pollen",
+     "Wunye na silks, kpuchie ntị",
+     "Tinye aha akpa na mkpado"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "produce_crates",
+   "say": [
+    "Nzọụkwụ 3. N'otu ehihie, kpuchie tassel nna na akpa tassel ma tinye ya."
+   ],
+   "panel": {
+    "kicker": "Nzọụkwụ site nzọụkwụ",
+    "heading": "Aka pollination na ọka",
+    "items": [
+     "Akpa oge ịse ntị tupu silk egosi",
+     "Wepu silks, tinyeghachi akpa ozugbo",
+     "Otu ehihie, akpa nna tassel",
+     "N'ụtụtụ echi, kpokọta pollen",
+     "Wunye na silks, kpuchie ntị",
+     "Tinye aha akpa na mkpado"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "sun_drying",
+   "say": [
+    "Nzọụkwụ 4. N'ụtụtụ echi, mgbe igirigi gachara, gbadaa tassel ma kpatụ akpa ahụ ka pollen wee daa n'ime ya."
+   ],
+   "panel": {
+    "kicker": "Nzọụkwụ site nzọụkwụ",
+    "heading": "Aka pollination na ọka",
+    "items": [
+     "Akpa oge ịse ntị tupu silk egosi",
+     "Wepu silks, tinyeghachi akpa ozugbo",
+     "Otu ehihie, akpa nna tassel",
+     "N'ụtụtụ echi, kpokọta pollen",
+     "Wunye na silks, kpuchie ntị",
+     "Tinye aha akpa na mkpado"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "sun_drying",
+   "say": [
+    "Nzọụkwụ 5. Bulite akpa ịse ngwa ngwa, wụsa pollen n'elu silk, ma kpuchie ntị na akpa tassel."
+   ],
+   "panel": {
+    "kicker": "Nzọụkwụ site nzọụkwụ",
+    "heading": "Aka pollination na ọka",
+    "items": [
+     "Akpa oge ịse ntị tupu silk egosi",
+     "Wepu silks, tinyeghachi akpa ozugbo",
+     "Otu ehihie, akpa nna tassel",
+     "N'ụtụtụ echi, kpokọta pollen",
+     "Wunye na silks, kpuchie ntị",
+     "Tinye aha akpa na mkpado"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "sun_drying",
+   "say": [
+    "Nzọụkwụ 6. Dee obe na akpa na mkpado, nne mbụ, na ụbọchị.",
+    "Maka tomato, wepu anthers na nwa osisi tupu ya emepee. A na-akpọ nke ahụ nhụsianya."
+   ],
+   "panel": {
+    "kicker": "Nzọụkwụ site nzọụkwụ",
+    "heading": "Aka pollination na ọka",
+    "items": [
+     "Akpa oge ịse ntị tupu silk egosi",
+     "Wepu silks, tinyeghachi akpa ozugbo",
+     "Otu ehihie, akpa nna tassel",
+     "N'ụtụtụ echi, kpokọta pollen",
+     "Wunye na silks, kpuchie ntị",
+     "Tinye aha akpa na mkpado"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "rule": "Dee obe n’akpa, nne buru ụzọ hapụ ya ka ọ were ihe ubi.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "grain_sacks",
+   "say": [
+    "Dịka ọmụmaatụ, Funke na-akụ 0.5 ha nke ọka OPV ọcha na steeti Oyo. Ọ chọrọ 10 n'arọ nke mkpụrụ, na-azọpụta 15 n'arọ."
+   ],
+   "panel": {
+    "kicker": "Ihe atụ rụrụ ọrụ",
+    "heading": "Funke na-emeziwanye OPV ya site na nhọrọ",
+    "items": [
+     "Achọrọ mkpụrụ 10 kg; na-ezube ịzọpụta 15 n'arọ",
+     "Na-amapụ ahịrị anọ nke mpụta",
+     "Ribbons ahụike, osisi kwụ ọtọ",
+     "Akara opekata mpe osisi 200",
+     "Na-eji ọka si n'etiti cob ọ bụla"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "grain_sacks",
+   "say": [
+    "Ọ na-ezere ahịrị anọ mpụta."
+   ],
+   "panel": {
+    "kicker": "Ihe atụ rụrụ ọrụ",
+    "heading": "Funke na-emeziwanye OPV ya site na nhọrọ",
+    "items": [
+     "Achọrọ mkpụrụ 10 kg; na-ezube ịzọpụta 15 n'arọ",
+     "Na-amapụ ahịrị anọ nke mpụta",
+     "Ribbons ahụike, osisi kwụ ọtọ",
+     "Akara opekata mpe osisi 200",
+     "Na-eji ọka si n'etiti cob ọ bụla"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "grain_sacks",
+   "say": [
+    "Tupu owuwe ihe ubi, n'ọhịa, ọ rịbọn ziri ezi, ọrịa na-adịghị osisi na ezigbo husk mkpuchi."
+   ],
+   "panel": {
+    "kicker": "Ihe atụ rụrụ ọrụ",
+    "heading": "Funke na-emeziwanye OPV ya site na nhọrọ",
+    "items": [
+     "Achọrọ mkpụrụ 10 kg; na-ezube ịzọpụta 15 n'arọ",
+     "Na-amapụ ahịrị anọ nke mpụta",
+     "Ribbons ahụike, osisi kwụ ọtọ",
+     "Akara opekata mpe osisi 200",
+     "Na-eji ọka si n'etiti cob ọ bụla"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "soil_bed",
+   "say": [
+    "Ọ na-akara opekata mpe osisi 200. Mmejọ a na-emekarị bụ ịhọrọ site na osisi ole na ole, ma ọ bụ iburu nnukwu cobs n'ọba."
+   ],
+   "panel": {
+    "kicker": "Ihe atụ rụrụ ọrụ",
+    "heading": "Funke na-emeziwanye OPV ya site na nhọrọ",
+    "items": [
+     "Achọrọ mkpụrụ 10 kg; na-ezube ịzọpụta 15 n'arọ",
+     "Na-amapụ ahịrị anọ nke mpụta",
+     "Ribbons ahụike, osisi kwụ ọtọ",
+     "Akara opekata mpe osisi 200",
+     "Na-eji ọka si n'etiti cob ọ bụla"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "soil_bed",
+   "say": [
+    "Ọ na-eji ọka si n'etiti ezigbo cob ọ bụla."
+   ],
+   "panel": {
+    "kicker": "Ihe atụ rụrụ ọrụ",
+    "heading": "Funke na-emeziwanye OPV ya site na nhọrọ",
+    "items": [
+     "Achọrọ mkpụrụ 10 kg; na-ezube ịzọpụta 15 n'arọ",
+     "Na-amapụ ahịrị anọ nke mpụta",
+     "Ribbons ahụike, osisi kwụ ọtọ",
+     "Akara opekata mpe osisi 200",
+     "Na-eji ọka si n'etiti cob ọ bụla"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "seedling_tray",
+   "say": [
+    "Na Naijiria, National Agricultural Seeds Council, NASC, na-edeba aha ụlọ ọrụ mkpụrụ ma na-akwado mkpụrụ. Lelee akara maka ụdị dị iche iche, nọmba nza, ụbọchị ule, onye nrụpụta na ọgwụgwọ ọ bụla."
+   ],
+   "panel": {
+    "kicker": "Ịzụ mkpụrụ",
+    "heading": "Akara mma na akara ịdọ aka ná ntị",
+    "mode": "compare",
+    "left_h": "Lelee akara",
+    "left": [
+     "Aha dị iche iche kpọmkwem",
+     "Klas mkpụrụ na otutu nọmba",
+     "Ụbọchị ule Germination",
+     "Aha mmepụta na ọgwụgwọ"
+    ],
+    "right_h": "Ihe ịrịba ama ịdọ aka ná ntị",
+    "right": [
+     "Mkpụrụ tọgbọrọ chakoo site na akpa oghe",
+     "Enweghị nọmba nza ma ọ bụ ụbọchị ule",
+     "Ọnụ ahịa dị n'okpuru ndị ọzọ",
+     "Akpa agbadoro ọzọ, ọka gbajiri agbaji"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Kpachara anya maka mkpụrụ rụrụ arụ, ọnụọgụ nza na-efu efu, ọnụ ahịa dị oke ala ma ọ bụ akpa akwachie ọzọ. Debe akwụkwọ nnata na akpa ahụ tọgbọrọ chakoo, ma gosi NASC mkpụrụ adịgboroja."
+   ],
+   "panel": {
+    "kicker": "Ịzụ mkpụrụ",
+    "heading": "Akara mma na akara ịdọ aka ná ntị",
+    "mode": "compare",
+    "left_h": "Lelee akara",
+    "left": [
+     "Aha dị iche iche kpọmkwem",
+     "Klas mkpụrụ na otutu nọmba",
+     "Ụbọchị ule Germination",
+     "Aha mmepụta na ọgwụgwọ"
+    ],
+    "right_h": "Ihe ịrịba ama ịdọ aka ná ntị",
+    "right": [
+     "Mkpụrụ tọgbọrọ chakoo site na akpa oghe",
+     "Enweghị nọmba nza ma ọ bụ ụbọchị ule",
+     "Ọnụ ahịa dị n'okpuru ndị ọzọ",
+     "Akpa agbadoro ọzọ, ọka gbajiri agbaji"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "soil_bed",
+   "say": [
+    "Tupu ịgha mkpụrụ, gụọ otu narị mkpụrụ n'usoro."
+   ],
+   "panel": {
+    "kicker": "Ọ dị ndụ?",
+    "heading": "Nnwale germination nke mkpụrụ 100",
+    "items": [
+     "Gbakọọ mkpụrụ 100 na enweghị usoro",
+     "Debe ha na anụ ahụ dị mmiri mmiri ma ọ bụ akwa",
+     "Debe mmiri ma kpoo ihe dịka ụbọchị 7",
+     "Gụọ mgbọrọgwụ siri ike wee gbaa",
+     "Gbanwee ọnụego mkpụrụ gị"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "soil_bed",
+   "say": [
+    "Debe ha na anụ ahụ dị mmiri mmiri ma ọ bụ akwa, ma tụgharịa ya na-adịghị mma."
+   ],
+   "panel": {
+    "kicker": "Ọ dị ndụ?",
+    "heading": "Nnwale germination nke mkpụrụ 100",
+    "items": [
+     "Gbakọọ mkpụrụ 100 na enweghị usoro",
+     "Debe ha na anụ ahụ dị mmiri mmiri ma ọ bụ akwa",
+     "Debe mmiri ma kpoo ihe dịka ụbọchị 7",
+     "Gụọ mgbọrọgwụ siri ike wee gbaa",
+     "Gbanwee ọnụego mkpụrụ gị"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "soil_bed",
+   "say": [
+    "Debe ya mmiri na ọkụ, maka ihe dịka ụbọchị 7 maka ọka."
+   ],
+   "panel": {
+    "kicker": "Ọ dị ndụ?",
+    "heading": "Nnwale germination nke mkpụrụ 100",
+    "items": [
+     "Gbakọọ mkpụrụ 100 na enweghị usoro",
+     "Debe ha na anụ ahụ dị mmiri mmiri ma ọ bụ akwa",
+     "Debe mmiri ma kpoo ihe dịka ụbọchị 7",
+     "Gụọ mgbọrọgwụ siri ike wee gbaa",
+     "Gbanwee ọnụego mkpụrụ gị"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "seedling_tray",
+   "say": [
+    "Gụọ mkpụrụ ndị ahụ nwere mgbọrọgwụ dị mma ma gbaa. Dịka ọmụmaatụ, Ifeoma dị na Anambra gụrụ 86 n'ime 100. Ya bụ 86%."
+   ],
+   "panel": {
+    "kicker": "Ọ dị ndụ?",
+    "heading": "Nnwale germination nke mkpụrụ 100",
+    "items": [
+     "Gbakọọ mkpụrụ 100 na enweghị usoro",
+     "Debe ha na anụ ahụ dị mmiri mmiri ma ọ bụ akwa",
+     "Debe mmiri ma kpoo ihe dịka ụbọchị 7",
+     "Gụọ mgbọrọgwụ siri ike wee gbaa",
+     "Gbanwee ọnụego mkpụrụ gị"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "seedling_tray",
+   "say": [
+    "Ya mere, maka hectare 1 ọ chọrọ ihe dị ka kilogram 18.6, ma na-edebe 20 n'arọ."
+   ],
+   "panel": {
+    "kicker": "Ọ dị ndụ?",
+    "heading": "Nnwale germination nke mkpụrụ 100",
+    "items": [
+     "Gbakọọ mkpụrụ 100 na enweghị usoro",
+     "Debe ha na anụ ahụ dị mmiri mmiri ma ọ bụ akwa",
+     "Debe mmiri ma kpoo ihe dịka ụbọchị 7",
+     "Gụọ mgbọrọgwụ siri ike wee gbaa",
+     "Gbanwee ọnụego mkpụrụ gị"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "seedling_tray",
+   "say": [
+    "Ọ bụrụ na germination dị obere, ọtụtụ ndị ndụmọdụ na-atụ aro ịzụrụ mkpụrụ ọhụrụ kama ịgha mkpụrụ karịa naanị."
+   ],
+   "panel": {
+    "kicker": "Ọ dị ndụ?",
+    "heading": "Nnwale germination nke mkpụrụ 100",
+    "items": [
+     "Gbakọọ mkpụrụ 100 na enweghị usoro",
+     "Debe ha na anụ ahụ dị mmiri mmiri ma ọ bụ akwa",
+     "Debe mmiri ma kpoo ihe dịka ụbọchị 7",
+     "Gụọ mgbọrọgwụ siri ike wee gbaa",
+     "Gbanwee ọnụego mkpụrụ gị"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Obere germination? Ọtụtụ ndị ndụmọdụ na-ekwu zụta mkpụrụ ọhụrụ.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "soil_bed",
+   "say": [
+    "A na-eji ọgwụ pesticide na-eyikarị mkpụrụ e ji ntụ ntụ ma ọ bụ mmiri mmiri kpuchie ya. Unu erila ya, ree ya dị ka ọka, ma ọ bụ nye ya anụmanụ."
+   ],
+   "panel": {
+    "kicker": "Nchekwa",
+    "heading": "Mkpụrụ a na-agwọ bụ nsi, ọ bụghị nri",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Eriela ya",
+      "d": "Ejila nri, ree dị ka ọka ma ọ bụ nri nye mkpụrụ anụmanụ nwere mkpuchi agba."
+     },
+     {
+      "t": "Chebe aka gị",
+      "d": "Yiri uwe aka, emetụla ihu gị aka, jiri ncha saa aka mgbe ị kụrụ."
+     },
+     {
+      "t": "Chekwaa ya akpọchiri akpọchi",
+      "d": "Wepụ ụmụaka na anụ ụlọ. Ejighachila akpa mkpụrụ efu maka nri."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "soil_bed",
+   "say": [
+    "Yiri uwe aka mgbe ị na-ejizi ya, emetụla ihu gị aka, jirikwa ncha saa aka gị mgbe ị kụrụ ya."
+   ],
+   "panel": {
+    "kicker": "Nchekwa",
+    "heading": "Mkpụrụ a na-agwọ bụ nsi, ọ bụghị nri",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Eriela ya",
+      "d": "Ejila nri, ree dị ka ọka ma ọ bụ nri nye mkpụrụ anụmanụ nwere mkpuchi agba."
+     },
+     {
+      "t": "Chebe aka gị",
+      "d": "Yiri uwe aka, emetụla ihu gị aka, jiri ncha saa aka mgbe ị kụrụ."
+     },
+     {
+      "t": "Chekwaa ya akpọchiri akpọchi",
+      "d": "Wepụ ụmụaka na anụ ụlọ. Ejighachila akpa mkpụrụ efu maka nri."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Kpuchie akpa ndị ahụ pụọ na ụmụaka na anụ ụlọ. Ejikwala ha rie nri.",
+    "NBMA, National Biosafety Management Agency ga-akwadorịrị ụdị GM tupu ahapụ ya."
+   ],
+   "panel": {
+    "kicker": "Nchekwa",
+    "heading": "Mkpụrụ a na-agwọ bụ nsi, ọ bụghị nri",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Eriela ya",
+      "d": "Ejila nri, ree dị ka ọka ma ọ bụ nri nye mkpụrụ anụmanụ nwere mkpuchi agba."
+     },
+     {
+      "t": "Chebe aka gị",
+      "d": "Yiri uwe aka, emetụla ihu gị aka, jiri ncha saa aka mgbe ị kụrụ."
+     },
+     {
+      "t": "Chekwaa ya akpọchiri akpọchi",
+      "d": "Wepụ ụmụaka na anụ ụlọ. Ejighachila akpa mkpụrụ efu maka nri."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "water_tank",
+   "say": [
+    "Enwere ike ịghọgbu otu ntụnyere site na nkuku mmiri. Nzọụkwụ 1. Họrọ ụdị dị iche iche ị na-emebu, nlele nlele, gbakwunyere otu ma ọ bụ abụọ ọhụrụ."
+   ],
+   "panel": {
+    "kicker": "Ikpe ziri ezi",
+    "heading": "Wepụta nnwale emegharịgharịrị",
+    "items": [
+     "Mkpụrụ gị na-adịbu gbakwunyere 1 ma ọ bụ 2 ọhụrụ",
+     "Atọ blocks gafee ubi",
+     "Dọta akwụkwọ ka ọ bụrụ usoro enweghị usoro",
+     "4 ahịrị nke 5 m; ihe ubi nke 2 n'etiti",
+     "Ndekọ ndekọ, silking, ọrịa, ebe obibi"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "water_tank",
+   "say": [
+    "Nzọụkwụ 2. Mee ngọngọ atọ gafee mkpọda ọ bụla. Ihe mgbochi ọ bụla na-ejide ụdị ọ bụla otu ugboro."
+   ],
+   "panel": {
+    "kicker": "Ikpe ziri ezi",
+    "heading": "Wepụta nnwale emegharịgharịrị",
+    "items": [
+     "Mkpụrụ gị na-adịbu gbakwunyere 1 ma ọ bụ 2 ọhụrụ",
+     "Atọ blocks gafee ubi",
+     "Dọta akwụkwọ ka ọ bụrụ usoro enweghị usoro",
+     "4 ahịrị nke 5 m; ihe ubi nke 2 n'etiti",
+     "Ndekọ ndekọ, silking, ọrịa, ebe obibi"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "water_tank",
+   "say": [
+    "Nzọụkwụ 3. Na ngọngọ nke ọ bụla, see akwụkwọ apịaji iji kpebie usoro."
+   ],
+   "panel": {
+    "kicker": "Ikpe ziri ezi",
+    "heading": "Wepụta nnwale emegharịgharịrị",
+    "items": [
+     "Mkpụrụ gị na-adịbu gbakwunyere 1 ma ọ bụ 2 ọhụrụ",
+     "Atọ blocks gafee ubi",
+     "Dọta akwụkwọ ka ọ bụrụ usoro enweghị usoro",
+     "4 ahịrị nke 5 m; ihe ubi nke 2 n'etiti",
+     "Ndekọ ndekọ, silking, ọrịa, ebe obibi"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "produce_crates",
+   "say": [
+    "Nzọụkwụ 4. Osisi 4 ahịrị nke 5 m. Ahịrị ndị dị n'elu bụ oke. Na-ewe ihe ubi naanị ahịrị etiti abụọ, nkata ụgbụ ahụ."
+   ],
+   "panel": {
+    "kicker": "Ikpe ziri ezi",
+    "heading": "Wepụta nnwale emegharịgharịrị",
+    "items": [
+     "Mkpụrụ gị na-adịbu gbakwunyere 1 ma ọ bụ 2 ọhụrụ",
+     "Atọ blocks gafee ubi",
+     "Dọta akwụkwọ ka ọ bụrụ usoro enweghị usoro",
+     "4 ahịrị nke 5 m; ihe ubi nke 2 n'etiti",
+     "Ndekọ ndekọ, silking, ọrịa, ebe obibi"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "produce_crates",
+   "say": [
+    "Nzọụkwụ 5. Dekọọ osisi guzoro, ụbọchị ruo 50% silking, ọrịa scores na ebe obibi."
+   ],
+   "panel": {
+    "kicker": "Ikpe ziri ezi",
+    "heading": "Wepụta nnwale emegharịgharịrị",
+    "items": [
+     "Mkpụrụ gị na-adịbu gbakwunyere 1 ma ọ bụ 2 ọhụrụ",
+     "Atọ blocks gafee ubi",
+     "Dọta akwụkwọ ka ọ bụrụ usoro enweghị usoro",
+     "4 ahịrị nke 5 m; ihe ubi nke 2 n'etiti",
+     "Ndekọ ndekọ, silking, ọrịa, ebe obibi"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "produce_crates",
+   "say": [
+    "Jikwaa nkata ọ bụla n'otu aka ahụ, yabụ naanị ụdị dị iche iche dị iche."
+   ],
+   "panel": {
+    "kicker": "Ikpe ziri ezi",
+    "heading": "Wepụta nnwale emegharịgharịrị",
+    "items": [
+     "Mkpụrụ gị na-adịbu gbakwunyere 1 ma ọ bụ 2 ọhụrụ",
+     "Atọ blocks gafee ubi",
+     "Dọta akwụkwọ ka ọ bụrụ usoro enweghị usoro",
+     "4 ahịrị nke 5 m; ihe ubi nke 2 n'etiti",
+     "Ndekọ ndekọ, silking, ọrịa, ebe obibi"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Otu ụbọchị ihe ọkụkụ, oghere, fatịlaịza na igbo maka ala ọ bụla.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "grain_sacks",
+   "say": [
+    "Dịka ọmụmaatụ, Rukayat na Kaduna na-ewe ihe ubi nke 7.5 m2. Ụdị A na-enye 4.2 n'arọ nke ọka na 20% mmiri mmiri."
+   ],
+   "panel": {
+    "kicker": "Ihe atụ rụrụ ọrụ",
+    "heading": "Rukayat na-atụle mkpụrụ ya",
+    "items": [
+     "Ebe ntanetị: 7.5 m2; ọka 4.2 n'arọ na 20%",
+     "ziri ezi na 15% mmiri: 3.95 n'arọ",
+     "Ọnụ ọgụgụ dị elu: ihe dịka 5,267 kg kwa hectare",
+     "Pụtara: Ụdị A 5,056, lelee 4,133",
+     "A na-emeri na ngọngọ ọ bụla, site na 923 kg/ha"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "grain_sacks",
+   "say": [
+    "Mkpụrụ ọka mmiri dị arọ karịa, ya mere ọ na-agbazi mmiri 15%: 3.95 n'arọ."
+   ],
+   "panel": {
+    "kicker": "Ihe atụ rụrụ ọrụ",
+    "heading": "Rukayat na-atụle mkpụrụ ya",
+    "items": [
+     "Ebe ntanetị: 7.5 m2; ọka 4.2 n'arọ na 20%",
+     "ziri ezi na 15% mmiri: 3.95 n'arọ",
+     "Ọnụ ọgụgụ dị elu: ihe dịka 5,267 kg kwa hectare",
+     "Pụtara: Ụdị A 5,056, lelee 4,133",
+     "A na-emeri na ngọngọ ọ bụla, site na 923 kg/ha"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "grain_sacks",
+   "say": [
+    "Agbara ya ruo otu hectare, nke ahụ dị ihe dị ka kilogram 5,267."
+   ],
+   "panel": {
+    "kicker": "Ihe atụ rụrụ ọrụ",
+    "heading": "Rukayat na-atụle mkpụrụ ya",
+    "items": [
+     "Ebe ntanetị: 7.5 m2; ọka 4.2 n'arọ na 20%",
+     "ziri ezi na 15% mmiri: 3.95 n'arọ",
+     "Ọnụ ọgụgụ dị elu: ihe dịka 5,267 kg kwa hectare",
+     "Pụtara: Ụdị A 5,056, lelee 4,133",
+     "A na-emeri na ngọngọ ọ bụla, site na 923 kg/ha"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "sun_drying",
+   "say": [
+    "N'ofe mgbochi atọ, Ụdị A dị 5,056 n'arọ kwa hectare, na mkpụrụ ọ na-emekarị 4,133."
+   ],
+   "panel": {
+    "kicker": "Ihe atụ rụrụ ọrụ",
+    "heading": "Rukayat na-atụle mkpụrụ ya",
+    "items": [
+     "Ebe ntanetị: 7.5 m2; ọka 4.2 n'arọ na 20%",
+     "ziri ezi na 15% mmiri: 3.95 n'arọ",
+     "Ọnụ ọgụgụ dị elu: ihe dịka 5,267 kg kwa hectare",
+     "Pụtara: Ụdị A 5,056, lelee 4,133",
+     "A na-emeri na ngọngọ ọ bụla, site na 923 kg/ha"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "sun_drying",
+   "say": [
+    "Ụdị A na-enweta 923 n'arọ kwa hectare, ma merie na ngọngọ ọ bụla. Imeri na ngọngọ ọ bụla dị mkpa dị ka nkezi."
+   ],
+   "panel": {
+    "kicker": "Ihe atụ rụrụ ọrụ",
+    "heading": "Rukayat na-atụle mkpụrụ ya",
+    "items": [
+     "Ebe ntanetị: 7.5 m2; ọka 4.2 n'arọ na 20%",
+     "ziri ezi na 15% mmiri: 3.95 n'arọ",
+     "Ọnụ ọgụgụ dị elu: ihe dịka 5,267 kg kwa hectare",
+     "Pụtara: Ụdị A 5,056, lelee 4,133",
+     "A na-emeri na ngọngọ ọ bụla, site na 923 kg/ha"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Icheta. Akpa ntị n'oge. Họrọ n'ọtụtụ osisi dị n'ọhịa. Nwale germination. Were mkpụrụ ejiji dị ka nsị. Na oyiri, randomise na ezi iru mmiri."
+   ],
+   "panel": {
+    "kicker": "Isi ihe",
+    "heading": "Cheta",
+    "items": [
+     "Akpa ntị tupu silk apụta",
+     "Họrọ mkpụrụ n'ọhịa, site na ọtụtụ osisi",
+     "Nwalee germination tupu akuku",
+     "Mkpụrụ a na-agwọ bụ nsi, ọ dịghị nri",
+     "Tinyegharịa, gbanwee, iru mmiri ziri ezi"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "water_tank",
+   "say": [
+    "Ugbu a, mee obe atọ a na-achịkwa achịkwa, mee nnwale germination, wee hazie ma tụọ ule gị.",
+    "Gaa n'ihu na nkuzi ndị dị n'okpuru."
+   ],
+   "panel": {
+    "kicker": "Mee ọrụ",
+    "heading": "Ọrụ omume gị",
+    "items": [
+     "Mee obe atọ a na-achịkwa",
+     "Gbaa ule 100-mkpụrụ germination",
+     "Hazie ma tụọ ule gị"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}
