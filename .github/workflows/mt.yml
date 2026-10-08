@@ -1,0 +1,24 @@
+name: mt
+on:
+  push:
+    branches: ['mt-*']
+permissions:
+  contents: write
+jobs:
+  mt:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix:
+        lang: [fr, pt, ar, yo, ha, ig, sw]
+        g: [0, 1, 2, 3, 4]
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 run_mt.py ${{ matrix.lang }} ${{ matrix.g }} 5 2>&1 | tail -40
+      - name: publish
+        if: always()
+        run: |
+          cd out && git init -q && B="i18n-${GITHUB_REF_NAME#mt-}-${{ matrix.lang }}-g${{ matrix.g }}" && git checkout -q -b "$B" && git add -A && git -c user.name=bot -c user.email=bot@x commit -qm i18n && \
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" "$B"
