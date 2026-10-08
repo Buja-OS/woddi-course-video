@@ -1,0 +1,635 @@
+{
+ "course": "prompt-engineering",
+ "module": "m3",
+ "title": "Treine uma equipe, avalie o trabalho e prove sua habilidade",
+ "course_title": "Engenharia imediata",
+ "shots": [
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Treine uma equipe, avalie o trabalho e prove sua habilidade.",
+    "Este é o vídeo do módulo três do Prompt Engineering."
+   ]
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "As equipes raramente precisam de uma palestra geral sobre IA. Eles precisam de ajuda com as cinco ou seis tarefas que realizam todas as semanas."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Ajude uma equipe a obter resultados confiáveis",
+    "items": [
+     "Encontre as reais tarefas semanais da equipe",
+     "Combine regras de dados antes de qualquer treinamento",
+     "Defina o preço e o escopo do trabalho com clareza",
+     "Mostre provas com um estudo de caso honesto"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Nos bancos, escolas, clínicas e ONG, muito desse trabalho envolve dados pessoais, por isso as regras vêm em primeiro lugar."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Ajude uma equipe a obter resultados confiáveis",
+    "items": [
+     "Encontre as reais tarefas semanais da equipe",
+     "Combine regras de dados antes de qualquer treinamento",
+     "Defina o preço e o escopo do trabalho com clareza",
+     "Mostre provas com um estudo de caso honesto"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Algumas organizações pagam por treinamento específico, então você aprenderá a definir o preço adequado."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Ajude uma equipe a obter resultados confiáveis",
+    "items": [
+     "Encontre as reais tarefas semanais da equipe",
+     "Combine regras de dados antes de qualquer treinamento",
+     "Defina o preço e o escopo do trabalho com clareza",
+     "Mostre provas com um estudo de caso honesto"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "E qualquer pessoa pode escrever um currículo com conhecimento em engenharia imediata. Um portfólio mostra isso."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Ajude uma equipe a obter resultados confiáveis",
+    "items": [
+     "Encontre as reais tarefas semanais da equipe",
+     "Combine regras de dados antes de qualquer treinamento",
+     "Defina o preço e o escopo do trabalho com clareza",
+     "Mostre provas com um estudo de caso honesto"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "flipchart",
+   "say": [
+    "Zainab é convidado por um gerente de agência de microfinanças em Ilorin para ensinar IA à equipe. Ela entrevista 6 funcionários por 20 minutos cada. Uma boa descoberta consiste principalmente em ouvir."
+   ],
+   "panel": {
+    "kicker": "Descoberta",
+    "heading": "Da descoberta a um plano de treinamento",
+    "items": [
+     "Entreviste membros da equipe",
+     "Liste tarefas recorrentes e o tempo gasto",
+     "Colete amostras reais, detalhes removidos",
+     "Classifique por valor e risco",
+     "Combine três tarefas prioritárias"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "flipchart",
+   "say": [
+    "Ela lista 11 tarefas recorrentes. O relatório semanal da filial leva cerca de 3 horas."
+   ],
+   "panel": {
+    "kicker": "Descoberta",
+    "heading": "Da descoberta a um plano de treinamento",
+    "items": [
+     "Entreviste membros da equipe",
+     "Liste tarefas recorrentes e o tempo gasto",
+     "Colete amostras reais, detalhes removidos",
+     "Classifique por valor e risco",
+     "Combine três tarefas prioritárias"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "flipchart",
+   "say": [
+    "Ela coleta amostras com dados pessoais removidos. Estes se tornam casos de teste."
+   ],
+   "panel": {
+    "kicker": "Descoberta",
+    "heading": "Da descoberta a um plano de treinamento",
+    "items": [
+     "Entreviste membros da equipe",
+     "Liste tarefas recorrentes e o tempo gasto",
+     "Colete amostras reais, detalhes removidos",
+     "Classifique por valor e risco",
+     "Combine três tarefas prioritárias"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "As notas de campo contêm nomes de clientes, endereços e BVNs, então ela os marca: nenhum dado de cliente em ferramentas públicas, a menos que o banco aprove uma ferramenta e um processo."
+   ],
+   "panel": {
+    "kicker": "Descoberta",
+    "heading": "Da descoberta a um plano de treinamento",
+    "items": [
+     "Entreviste membros da equipe",
+     "Liste tarefas recorrentes e o tempo gasto",
+     "Colete amostras reais, detalhes removidos",
+     "Classifique por valor e risco",
+     "Combine três tarefas prioritárias"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "O gerente aprova o treinamento em três tarefas reais, com uma regra de dados clara escrita e tempos de referência para comparação posterior."
+   ],
+   "panel": {
+    "kicker": "Descoberta",
+    "heading": "Da descoberta a um plano de treinamento",
+    "items": [
+     "Entreviste membros da equipe",
+     "Liste tarefas recorrentes e o tempo gasto",
+     "Colete amostras reais, detalhes removidos",
+     "Classifique por valor e risco",
+     "Combine três tarefas prioritárias"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Combine as regras de dados por escrito antes de qualquer trabalho prático.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Os adultos aprendem uma habilidade prática mais rapidamente fazendo-a em seu próprio trabalho. Mantenha as sessões curtas, por exemplo 90 minutos."
+   ],
+   "panel": {
+    "kicker": "Projeto de treinamento",
+    "heading": "Execute cada sessão em trabalho real",
+    "items": [
+     "Uma tarefa prioritária por sessão",
+     "Mostre um prompt fraco, construa a versão de seis partes",
+     "Cada um adapta à sua própria amostra",
+     "Pontue com a rubrica, salve em uma biblioteca compartilhada"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Mostre um prompt fraco e sua saída e, em seguida, construa a versão em seis partes juntos."
+   ],
+   "panel": {
+    "kicker": "Projeto de treinamento",
+    "heading": "Execute cada sessão em trabalho real",
+    "items": [
+     "Uma tarefa prioritária por sessão",
+     "Mostre um prompt fraco, construa a versão de seis partes",
+     "Cada um adapta à sua própria amostra",
+     "Pontue com a rubrica, salve em uma biblioteca compartilhada"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Cada pessoa adapta-o à sua amostra no seu próprio dispositivo. Inicie os iniciantes em uma tarefa de baixo risco e combine-os com usuários confiantes."
+   ],
+   "panel": {
+    "kicker": "Projeto de treinamento",
+    "heading": "Execute cada sessão em trabalho real",
+    "items": [
+     "Uma tarefa prioritária por sessão",
+     "Mostre um prompt fraco, construa a versão de seis partes",
+     "Cada um adapta à sua própria amostra",
+     "Pontue com a rubrica, salve em uma biblioteca compartilhada"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Pontue os resultados e salve o modelo acordado em uma pasta compartilhada. Seja honesto sobre os limites: a IA é um assistente rápido de primeiro rascunho cujo trabalho eles verificam."
+   ],
+   "panel": {
+    "kicker": "Projeto de treinamento",
+    "heading": "Execute cada sessão em trabalho real",
+    "items": [
+     "Uma tarefa prioritária por sessão",
+     "Mostre um prompt fraco, construa a versão de seis partes",
+     "Cada um adapta à sua própria amostra",
+     "Pontue com a rubrica, salve em uma biblioteca compartilhada"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Conte todas as horas, não apenas as horas na sala. Descoberta 6, preparação de modelos 8, dois dias de entrega 10 e suporte de acompanhamento 4. São 28 horas.",
+    "Sua taxa é um valor que ela escolheu depois de perguntar a dois treinadores de sua rede. Não é um padrão."
+   ],
+   "card": {
+    "title": "Preço de um treinamento de equipe de dois dias",
+    "rows": [],
+    "note": "Figuras ilustrativas. Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "28 horas a 25.000 naira são 700.000."
+   ],
+   "card": {
+    "title": "Preço de um treinamento de equipe de dois dias",
+    "rows": [
+     [
+      "Carga horária, 28 horas",
+      "700,000"
+     ]
+    ],
+    "note": "Figuras ilustrativas. Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Pastas de trabalho impressas, transporte e dados móveis somam 60 mil."
+   ],
+   "card": {
+    "title": "Preço de um treinamento de equipe de dois dias",
+    "rows": [
+     [
+      "Carga horária, 28 horas",
+      "700,000"
+     ],
+     [
+      "Pastas de trabalho, transporte, dados",
+      "60,000"
+     ]
+    ],
+    "note": "Figuras ilustrativas. Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Uma margem de risco de 10% acrescenta 76.000."
+   ],
+   "card": {
+    "title": "Preço de um treinamento de equipe de dois dias",
+    "rows": [
+     [
+      "Carga horária, 28 horas",
+      "700,000"
+     ],
+     [
+      "Pastas de trabalho, transporte, dados",
+      "60,000"
+     ],
+     [
+      "Margem de risco de 10%",
+      "76,000"
+     ]
+    ],
+    "note": "Figuras ilustrativas. Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Sua cotação é de 836.000 nairas, cada linha explicada: 50% antes da descoberta, 50% após a entrega. Se o cliente negociar, ele reduz o escopo e não a taxa."
+   ],
+   "card": {
+    "title": "Preço de um treinamento de equipe de dois dias",
+    "rows": [
+     [
+      "Carga horária, 28 horas",
+      "700,000"
+     ],
+     [
+      "Pastas de trabalho, transporte, dados",
+      "60,000"
+     ],
+     [
+      "Margem de risco de 10%",
+      "76,000"
+     ]
+    ],
+    "note": "Figuras ilustrativas. Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Escreva ambas as listas na proposta, com objetivos mensuráveis. Por exemplo: as respostas às reclamações são redigidas e verificadas em cerca de 8 minutos cada, em vez de 15."
+   ],
+   "panel": {
+    "kicker": "Escopo",
+    "heading": "Dentro e fora do escopo",
+    "mode": "compare",
+    "left_h": "No escopo",
+    "left": [
+     "Três tarefas e modelos acordados",
+     "Dois dias de treinamento para seis funcionários",
+     "Suporte de acompanhamento de quatro horas",
+     "Regras escritas de uso de dados"
+    ],
+    "right_h": "Fora do escopo",
+    "right": [
+     "Escrevendo os relatórios para a equipe",
+     "Treinamento de pessoal extra",
+     "Configurando contas de IA pagas",
+     "Aconselhamento jurídico sobre conformidade de dados"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Quando o cliente pedir mais alguma coisa, diga sim ao valor e indique o custo, depois confirme a alteração por escrito.",
+    "Nunca prometa que a IA reduzirá seu trabalho pela metade ou produzirá relatórios livres de erros. Prometa o que você controla."
+   ],
+   "panel": {
+    "kicker": "Escopo",
+    "heading": "Dentro e fora do escopo",
+    "mode": "compare",
+    "left_h": "No escopo",
+    "left": [
+     "Três tarefas e modelos acordados",
+     "Dois dias de treinamento para seis funcionários",
+     "Suporte de acompanhamento de quatro horas",
+     "Regras escritas de uso de dados"
+    ],
+    "right_h": "Fora do escopo",
+    "right": [
+     "Escrevendo os relatórios para a equipe",
+     "Treinamento de pessoal extra",
+     "Configurando contas de IA pagas",
+     "Aconselhamento jurídico sobre conformidade de dados"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Halima, a coordenadora cooperativa do Módulo 1, escreve um estudo de caso para um pedido de emprego em uma ONG. Sua tarefa: resumos mensais para 40 membros no WhatsApp."
+   ],
+   "panel": {
+    "kicker": "Portfólio",
+    "heading": "O estudo de caso antes e depois",
+    "items": [
+     "Tarefa: o que era e para quem era",
+     "Antes: o aviso vago e o que estava errado",
+     "Mudanças: contexto, restrições, exemplos",
+     "Teste: pontuações de rubrica para cada versão",
+     "Resultado: tempo economizado, incluindo verificação"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Sua primeira solicitação forneceu 350 palavras formais com uma afirmação que não estava em suas anotações. Marcou 9 de 20."
+   ],
+   "panel": {
+    "kicker": "Portfólio",
+    "heading": "O estudo de caso antes e depois",
+    "items": [
+     "Tarefa: o que era e para quem era",
+     "Antes: o aviso vago e o que estava errado",
+     "Mudanças: contexto, restrições, exemplos",
+     "Teste: pontuações de rubrica para cada versão",
+     "Resultado: tempo economizado, incluindo verificação"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Ela acrescentou o leitor, um limite de 120 palavras, três títulos, uma regra para usar apenas suas anotações e um exemplo anterior."
+   ],
+   "panel": {
+    "kicker": "Portfólio",
+    "heading": "O estudo de caso antes e depois",
+    "items": [
+     "Tarefa: o que era e para quem era",
+     "Antes: o aviso vago e o que estava errado",
+     "Mudanças: contexto, restrições, exemplos",
+     "Teste: pontuações de rubrica para cada versão",
+     "Resultado: tempo economizado, incluindo verificação"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "A versão 3 teve média de 17,4 de 20 nos últimos 5 meses."
+   ],
+   "panel": {
+    "kicker": "Portfólio",
+    "heading": "O estudo de caso antes e depois",
+    "items": [
+     "Tarefa: o que era e para quem era",
+     "Antes: o aviso vago e o que estava errado",
+     "Mudanças: contexto, restrições, exemplos",
+     "Teste: pontuações de rubrica para cada versão",
+     "Resultado: tempo economizado, incluindo verificação"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "A redação caiu de cerca de 50 minutos para cerca de 20, incluindo verificações. Ela relata a primeira versão fraca honestamente. Se o trabalho veio de um trabalho ou cliente, peça permissão e substitua nomes por funções."
+   ],
+   "panel": {
+    "kicker": "Portfólio",
+    "heading": "O estudo de caso antes e depois",
+    "items": [
+     "Tarefa: o que era e para quem era",
+     "Antes: o aviso vago e o que estava errado",
+     "Mudanças: contexto, restrições, exemplos",
+     "Teste: pontuações de rubrica para cada versão",
+     "Resultado: tempo economizado, incluindo verificação"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Peça permissão e remova primeiro os detalhes confidenciais.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Use faturas com o nome da sua empresa e receba o pagamento em uma conta comercial ou em um serviço reconhecido."
+   ],
+   "panel": {
+    "kicker": "Segurança monetária",
+    "heading": "Receba pagamentos com segurança",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Faturar corretamente",
+      "d": "Use faturas com o nome da sua empresa e uma conta comercial ou serviço de pagamento reconhecido."
+     },
+     {
+      "t": "Nunca compartilhe códigos",
+      "d": "Nunca compartilhe códigos de login ou OTPs com ninguém que pretenda processar um pagamento para você."
+     },
+     {
+      "t": "Deposite primeiro",
+      "d": "Receba parte da taxa antes do início da descoberta e o restante após a entrega."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Nunca compartilhe códigos de login ou OTPs com ninguém que diga que está processando um pagamento para você."
+   ],
+   "panel": {
+    "kicker": "Segurança monetária",
+    "heading": "Receba pagamentos com segurança",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Faturar corretamente",
+      "d": "Use faturas com o nome da sua empresa e uma conta comercial ou serviço de pagamento reconhecido."
+     },
+     {
+      "t": "Nunca compartilhe códigos",
+      "d": "Nunca compartilhe códigos de login ou OTPs com ninguém que pretenda processar um pagamento para você."
+     },
+     {
+      "t": "Deposite primeiro",
+      "d": "Receba parte da taxa antes do início da descoberta e o restante após a entrega."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "E concordar com as condições de pagamento na proposta, como fez Zainab."
+   ],
+   "panel": {
+    "kicker": "Segurança monetária",
+    "heading": "Receba pagamentos com segurança",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Faturar corretamente",
+      "d": "Use faturas com o nome da sua empresa e uma conta comercial ou serviço de pagamento reconhecido."
+     },
+     {
+      "t": "Nunca compartilhe códigos",
+      "d": "Nunca compartilhe códigos de login ou OTPs com ninguém que pretenda processar um pagamento para você."
+     },
+     {
+      "t": "Deposite primeiro",
+      "d": "Receba parte da taxa antes do início da descoberta e o restante após a entrega."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Faça uma descoberta de 20 minutos e escreva um resumo de uma página. Defina o preço e o escopo de um contrato para cinco funcionários. Em seguida, esboce seu estudo de caso, com três marcos de 90 dias com datas e números.",
+    "Agora continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Tarefa prática",
+    "heading": "Suas tarefas para este módulo",
+    "items": [
+     "Faça uma mini descoberta e escreva um resumo",
+     "Preço e escopo de um compromisso",
+     "Elabore seu estudo de caso e plano de 90 dias"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

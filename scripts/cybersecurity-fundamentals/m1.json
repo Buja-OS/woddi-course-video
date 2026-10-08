@@ -1,0 +1,531 @@
+{
+ "course": "cybersecurity-fundamentals",
+ "module": "m1",
+ "title": "Stop payment fraud and rank your security risks",
+ "course_title": "Cybersecurity Fundamentals",
+ "shots": [
+  {
+   "demo": "security_lock",
+   "say": [
+    "Stop payment fraud and rank your security risks.",
+    "This is the video for module 1 of Cybersecurity Fundamentals."
+   ]
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Small businesses, schools, churches and NGOs are mostly hurt by four ordinary attacks. First, account takeover, usually through a reused password or a fake login page."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Four ordinary attacks cause most harm",
+    "items": [
+     "Account takeover",
+     "Business email compromise",
+     "Ransomware and other malware",
+     "Lost, stolen or shared devices"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Second, business email compromise, where a real or lookalike email asks for a payment or a change of bank details."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Four ordinary attacks cause most harm",
+    "items": [
+     "Account takeover",
+     "Business email compromise",
+     "Ransomware and other malware",
+     "Lost, stolen or shared devices"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Third, ransomware and other malware, often from a pirated program, a fake update or an attachment."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Four ordinary attacks cause most harm",
+    "items": [
+     "Account takeover",
+     "Business email compromise",
+     "Ransomware and other malware",
+     "Lost, stolen or shared devices"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Fourth, lost, stolen or shared devices and passwords.",
+    "None needs a genius attacker. Each uses a habit or a missing control, and those you can change."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Four ordinary attacks cause most harm",
+    "items": [
+     "Account takeover",
+     "Business email compromise",
+     "Ransomware and other malware",
+     "Lost, stolen or shared devices"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Security professionals use one simple model, the CIA triad. Nothing to do with spies.",
+    "C is confidentiality: only the right people can see the information."
+   ],
+   "panel": {
+    "kicker": "The CIA triad",
+    "heading": "Name what was damaged",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Confidentiality",
+      "d": "Only the right people can see it. Example: a laptop with the members' list is stolen."
+     },
+     {
+      "t": "Integrity",
+      "d": "Information is correct. Example: a fraudster edits the bank details on an invoice."
+     },
+     {
+      "t": "Availability",
+      "d": "Systems work when needed. Example: ransomware locks every file before a report is due."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "I is integrity: the information is correct and has not been changed by the wrong person."
+   ],
+   "panel": {
+    "kicker": "The CIA triad",
+    "heading": "Name what was damaged",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Confidentiality",
+      "d": "Only the right people can see it. Example: a laptop with the members' list is stolen."
+     },
+     {
+      "t": "Integrity",
+      "d": "Information is correct. Example: a fraudster edits the bank details on an invoice."
+     },
+     {
+      "t": "Availability",
+      "d": "Systems work when needed. Example: ransomware locks every file before a report is due."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_security",
+   "say": [
+    "A is availability: systems work when people need them.",
+    "Every incident damages at least one of these, and naming it helps you choose the fix."
+   ],
+   "panel": {
+    "kicker": "The CIA triad",
+    "heading": "Name what was damaged",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Confidentiality",
+      "d": "Only the right people can see it. Example: a laptop with the members' list is stolen."
+     },
+     {
+      "t": "Integrity",
+      "d": "Information is correct. Example: a fraudster edits the bank details on an invoice."
+     },
+     {
+      "t": "Availability",
+      "d": "Systems work when needed. Example: ransomware locks every file before a report is due."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "For example, Funmi is finance officer for a small NGO in Abuja. An email from Musa at Brightline Printers says the bank has changed, and an invoice of 2,450,000 naira must go to a new account today.",
+    "She looks past the display name to the real address."
+   ],
+   "panel": {
+    "kicker": "Investigate",
+    "heading": "Funmi checks a bank-detail change",
+    "items": [
+     "Check the real From address",
+     "Spot the lookalike domain",
+     "See where Reply-To goes",
+     "Do not reply to the email",
+     "Call a number from the original contract"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "The address has a hyphen and a different ending from past invoices. It is a lookalike domain. In Show original, SPF and DKIM pass, but only for the attacker's own domain."
+   ],
+   "panel": {
+    "kicker": "Investigate",
+    "heading": "Funmi checks a bank-detail change",
+    "items": [
+     "Check the real From address",
+     "Spot the lookalike domain",
+     "See where Reply-To goes",
+     "Do not reply to the email",
+     "Call a number from the original contract"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "The Reply-To is a third address on a free mail service, so any answer would go to the fraudster."
+   ],
+   "panel": {
+    "kicker": "Investigate",
+    "heading": "Funmi checks a bank-detail change",
+    "items": [
+     "Check the real From address",
+     "Spot the lookalike domain",
+     "See where Reply-To goes",
+     "Do not reply to the email",
+     "Call a number from the original contract"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "The email quotes the correct invoice number, so someone has seen the real invoice. She does not reply."
+   ],
+   "panel": {
+    "kicker": "Investigate",
+    "heading": "Funmi checks a bank-detail change",
+    "items": [
+     "Check the real From address",
+     "Spot the lookalike domain",
+     "See where Reply-To goes",
+     "Do not reply to the email",
+     "Call a number from the original contract"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "She calls Musa on the number saved from the original contract. His bank details have not changed."
+   ],
+   "panel": {
+    "kicker": "Investigate",
+    "heading": "Funmi checks a bank-detail change",
+    "items": [
+     "Check the real From address",
+     "Spot the lookalike domain",
+     "See where Reply-To goes",
+     "Do not reply to the email",
+     "Call a number from the original contract"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Here is the rule that defeats most payment fraud. Keep a supplier list with bank details and phone numbers collected at onboarding."
+   ],
+   "panel": {
+    "kicker": "Protect the money",
+    "heading": "A payment rule that works",
+    "items": [
+     "Keep a supplier list with bank details and phones",
+     "Treat any bank-detail change as suspicious",
+     "Call a number already on file",
+     "Second approver for new payees",
+     "Wait one working day on a changed account",
+     "Record who called and who confirmed"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Treat any request to change bank details, by any channel, as suspicious until verified."
+   ],
+   "panel": {
+    "kicker": "Protect the money",
+    "heading": "A payment rule that works",
+    "items": [
+     "Keep a supplier list with bank details and phones",
+     "Treat any bank-detail change as suspicious",
+     "Call a number already on file",
+     "Second approver for new payees",
+     "Wait one working day on a changed account",
+     "Record who called and who confirmed"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Verify by calling a number already on file, never one given in the request. Remember, if a real mailbox is hacked, all the checks will pass. Only the call-back catches it."
+   ],
+   "panel": {
+    "kicker": "Protect the money",
+    "heading": "A payment rule that works",
+    "items": [
+     "Keep a supplier list with bank details and phones",
+     "Treat any bank-detail change as suspicious",
+     "Call a number already on file",
+     "Second approver for new payees",
+     "Wait one working day on a changed account",
+     "Record who called and who confirmed"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Verify on a number on file, never one in the request.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Require a second approver for new payees and for payments above a set limit."
+   ],
+   "panel": {
+    "kicker": "Protect the money",
+    "heading": "A payment rule that works",
+    "items": [
+     "Keep a supplier list with bank details and phones",
+     "Treat any bank-detail change as suspicious",
+     "Call a number already on file",
+     "Second approver for new payees",
+     "Wait one working day on a changed account",
+     "Record who called and who confirmed"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Verify on a number on file, never one in the request.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Wait a cooling-off period, for example one working day, before a first payment to a changed account. And record the check: date, who called, who confirmed.",
+    "If money has already gone, call your bank's fraud line at once."
+   ],
+   "panel": {
+    "kicker": "Protect the money",
+    "heading": "A payment rule that works",
+    "items": [
+     "Keep a supplier list with bank details and phones",
+     "Treat any bank-detail change as suspicious",
+     "Call a number already on file",
+     "Second approver for new payees",
+     "Wait one working day on a changed account",
+     "Record who called and who confirmed"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "rule": "Verify on a number on file, never one in the request.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "A risk is an asset you care about, a threat to it, and a weakness that lets the threat succeed. List your assets, then name the threat and weakness for each."
+   ],
+   "panel": {
+    "kicker": "Risk register",
+    "heading": "Score each risk from 1 to 25",
+    "items": [
+     "List assets: information, accounts, devices",
+     "Name a threat and the weakness",
+     "Likelihood 1 to 5 x impact 1 to 5",
+     "15 to 25 high: act now",
+     "8 to 14 medium: plan with a date",
+     "1 to 7 low: accept and review"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Score likelihood from 1 to 5, and impact from 1 to 5. Multiply them for a score from 1 to 25."
+   ],
+   "panel": {
+    "kicker": "Risk register",
+    "heading": "Score each risk from 1 to 25",
+    "items": [
+     "List assets: information, accounts, devices",
+     "Name a threat and the weakness",
+     "Likelihood 1 to 5 x impact 1 to 5",
+     "15 to 25 high: act now",
+     "8 to 14 medium: plan with a date",
+     "1 to 7 low: accept and review"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Scores of 15 to 25 need action now. 8 to 14 need a plan with a date. 1 to 7 can be accepted and reviewed.",
+    "For example, Amaka scores her cooperative's main email, with a reused password and no second factor, at 4 times 5, which is 20. Supplier payments with no call-back rule score 15. So email comes first, payments second."
+   ],
+   "panel": {
+    "kicker": "Risk register",
+    "heading": "Score each risk from 1 to 25",
+    "items": [
+     "List assets: information, accounts, devices",
+     "Name a threat and the weakness",
+     "Likelihood 1 to 5 x impact 1 to 5",
+     "15 to 25 high: act now",
+     "8 to 14 medium: plan with a date",
+     "1 to 7 low: accept and review"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "rule": "Sort by score. Fix the highest first.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "In Nigeria, the Nigeria Data Protection Act 2023 makes security a legal duty, and the NDPC is the regulator.",
+    "Tell people what you collect and why. Collect only what you need. If you do not need someone's NIN, do not collect it.",
+    "Delete what you no longer need and protect the rest. A breach that puts people at risk must be reported to the NDPC within 72 hours.",
+    "This is a working guide, not legal advice."
+   ],
+   "panel": {
+    "kicker": "The law",
+    "heading": "Your duties under the NDPA 2023",
+    "items": [
+     "Tell people what you collect and why",
+     "Collect only what you need",
+     "Delete data you no longer need",
+     "Protect it: access control, encryption",
+     "Keep written policies and logs",
+     "Report risky breaches within 72 hours"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_security",
+   "say": [
+    "To remember. Name which part of the CIA triad was damaged. Check the real From and Reply-To addresses.",
+    "Before any bank change, call back on a number on file. Rank your work by likelihood times impact. And data you never collected cannot leak."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "Name the CIA property that was damaged",
+     "Check the real From and Reply-To",
+     "Call back on a number already on file",
+     "Likelihood x impact ranks your work",
+     "Data you never collected cannot leak"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Your tasks: classify three incidents you know, check two email headers with Show original, write a payment verification rule, and build a risk register with at least six scored risks. Save each in your audit document.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice task",
+    "heading": "Your practice tasks",
+    "items": [
+     "Classify three incidents you know",
+     "Check two email headers",
+     "Write your payment verification rule",
+     "Build a risk register of six risks"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

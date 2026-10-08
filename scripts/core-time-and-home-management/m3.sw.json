@@ -1,0 +1,443 @@
+{
+ "course": "core-time-and-home-management",
+ "module": "m3",
+ "title": "Mifumo ya nyumbani: taratibu, kazi za pamoja, milo na pesa",
+ "course_title": "Wakati na Usimamizi wa Nyumbani",
+ "shots": [
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Mifumo ya nyumbani: taratibu, kazi za pamoja, milo na pesa.",
+    "Hii ni video ya Moduli ya 3, Mifumo ya Usimamizi wa Nyumbani."
+   ]
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Ratiba ni seti ya kazi zinazofanywa kwa mpangilio sawa kwa takriban wakati mmoja. Ratiba huokoa muda kwa sababu unaacha kuamua cha kufanya baadaye."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Nyumba inayoendesha bila wewe kuishikilia yote",
+    "items": [
+     "Ratiba hukuokoa katika kuamua kinachofuata",
+     "Wengine wanaweza kusaidia wanapojua hatua",
+     "Asubuhi ya utulivu imeandaliwa usiku uliopita"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Pia hufanya iwe rahisi kwa wengine nyumbani kusaidia, kwa sababu kila mtu anajua nini kitatokea wakati."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Nyumba inayoendesha bila wewe kuishikilia yote",
+    "items": [
+     "Ratiba hukuokoa katika kuamua kinachofuata",
+     "Wengine wanaweza kusaidia wanapojua hatua",
+     "Asubuhi ya utulivu imeandaliwa usiku uliopita"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Asubuhi nyingi ya utulivu huandaliwa usiku uliopita. Ndiyo maana utaratibu bora wa kwanza ni kuweka upya jioni."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Nyumba inayoendesha bila wewe kuishikilia yote",
+    "items": [
+     "Ratiba hukuokoa katika kuamua kinachofuata",
+     "Wengine wanaweza kusaidia wanapojua hatua",
+     "Asubuhi ya utulivu imeandaliwa usiku uliopita"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Hata dakika 20 hadi 30 kila jioni hufanya tofauti kubwa. Futa jikoni na safisha sufuria. Weka sare na mifuko."
+   ],
+   "panel": {
+    "kicker": "Dakika 20 hadi 30",
+    "heading": "Jioni upya",
+    "items": [
+     "Jikoni imesafishwa na sufuria zimeoshwa",
+     "Sare na mifuko tayari",
+     "Angalia haraka mpango wa kesho",
+     "Simu zinachaji",
+     "Dakika 10 nadhifu huku kila mtu akisaidia"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Angalia mpango wa kesho, weka simu kwenye chaji, na ufanye usafi wa chumba kikuu kwa dakika 10 huku kila mtu akisaidia.",
+    "Kisha ueneze kusafisha kubwa kwa wiki, kazi moja kuu kwa siku ya dakika 20 hadi 40, hivyo Jumamosi ni nyepesi."
+   ],
+   "panel": {
+    "kicker": "Dakika 20 hadi 30",
+    "heading": "Jioni upya",
+    "items": [
+     "Jikoni imesafishwa na sufuria zimeoshwa",
+     "Sare na mifuko tayari",
+     "Angalia haraka mpango wa kesho",
+     "Simu zinachaji",
+     "Dakika 10 nadhifu huku kila mtu akisaidia"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Unaposafisha bafu na vyoo, kamwe usichanganye bleach, kama vile Hypo, na bidhaa zingine za kusafisha. Gesi hatari zinaweza kuunda.",
+    "Fungua madirisha, vaa glavu, na uhifadhi kemikali zote juu, katika vyombo vyake vilivyoandikwa, mbali na watoto na chakula."
+   ],
+   "panel": {
+    "kicker": "Dakika 20 hadi 30",
+    "heading": "Jioni upya",
+    "items": [
+     "Jikoni imesafishwa na sufuria zimeoshwa",
+     "Sare na mifuko tayari",
+     "Angalia haraka mpango wa kesho",
+     "Simu zinachaji",
+     "Dakika 10 nadhifu huku kila mtu akisaidia"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Kamwe usichanganye bleach na visafishaji vingine. Fungua madirisha, vaa glavu.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Ikiwa mwanamke mmoja hubeba kazi nyingi, kufanya kazi kwa kasi haitarekebisha. Kushiriki mapenzi.",
+    "Kwanza, orodhesha kila kazi ambayo nyumba inahitaji. Jumuisha mzigo wa akili, kama vile kukumbuka makataa ya ada au kutambua kuwa gesi iko chini."
+   ],
+   "panel": {
+    "kicker": "Kushiriki mzigo",
+    "heading": "Shiriki kazi za nyumbani katika hatua tatu",
+    "items": [
+     "Orodhesha kila kazi, pamoja na mzigo wa kiakili",
+     "Linganisha kazi na umri na uwezo",
+     "Kubali katika mkutano wa familia wa dakika 20",
+     "Chapisha chati ya kazi na uhakiki kila mwezi"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Pili, linganisha kazi na uwezo. Watoto wanaweza kufanya zaidi ya tunavyotarajia, lakini waweke watoto wadogo mbali na sufuria za moto, visu, kemikali na soketi."
+   ],
+   "panel": {
+    "kicker": "Kushiriki mzigo",
+    "heading": "Shiriki kazi za nyumbani katika hatua tatu",
+    "items": [
+     "Orodhesha kila kazi, pamoja na mzigo wa kiakili",
+     "Linganisha kazi na umri na uwezo",
+     "Kubali katika mkutano wa familia wa dakika 20",
+     "Chapisha chati ya kazi na uhakiki kila mwezi"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Tatu, fanya mkutano mfupi wa familia. Acha kila mtu achague baadhi ya kazi kwanza, kisha uchapishe chati.",
+    "Kwa mfano, Fatima katika Ilorin aliorodhesha kazi 28. Mwanawe alichagua sahani na kufagia, binti yake alichagua kuweka meza, na mumewe alichukua soko la Jumamosi kukimbia. Kazi yake ya nyumbani ilipungua kwa karibu saa 1.5 kwa siku."
+   ],
+   "panel": {
+    "kicker": "Kushiriki mzigo",
+    "heading": "Shiriki kazi za nyumbani katika hatua tatu",
+    "items": [
+     "Orodhesha kila kazi, pamoja na mzigo wa kiakili",
+     "Linganisha kazi na umri na uwezo",
+     "Kubali katika mkutano wa familia wa dakika 20",
+     "Chapisha chati ya kazi na uhakiki kila mwezi"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Kosa la kawaida ni kukabidhi tu kitendo. Tafadhali nunua gesi nikikuambia bado unaacha kumbukumbu na wewe. Na kuifanya upya kazi yao inawafundisha haijalishi."
+   ],
+   "panel": {
+    "kicker": "Kuifanya kushikamana",
+    "heading": "Wakabidhi kazi nzima",
+    "mode": "compare",
+    "left_h": "Si hii",
+    "left": [
+     "Tafadhali nunua gesi nikikuambia",
+     "Kufanya upya kufagia yao mwenyewe"
+    ],
+    "right_h": "Hii",
+    "right": [
+     "Wewe ndiye unayesimamia ununuzi wa gesi",
+     "Angalia kiwango kila Ijumaa",
+     "Kubali vyema vya kutosha, na sema asante"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Badala yake, kabidhi kazi nzima. Unasimamia ununuzi wa gesi: angalia kiwango kila Ijumaa na ununue wakati iko chini. Kubali vyema vya kutosha, na uwashukuru haswa."
+   ],
+   "panel": {
+    "kicker": "Kuifanya kushikamana",
+    "heading": "Wakabidhi kazi nzima",
+    "mode": "compare",
+    "left_h": "Si hii",
+    "left": [
+     "Tafadhali nunua gesi nikikuambia",
+     "Kufanya upya kufagia yao mwenyewe"
+    ],
+    "right_h": "Hii",
+    "right": [
+     "Wewe ndiye unayesimamia ununuzi wa gesi",
+     "Angalia kiwango kila Ijumaa",
+     "Kubali vyema vya kutosha, na sema asante"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Panga milo ya wiki kutokana na kile ulicho nacho tayari, andika orodha moja ya soko, na upike chungu kikubwa cha kitoweo ambacho hutoa milo kadhaa. Kisha uihifadhi salama.",
+    "Osha mikono yako, na tumia ubao tofauti kwa nyama mbichi na chakula kilicho tayari kuliwa."
+   ],
+   "panel": {
+    "kicker": "Kundi kupika kwa usalama",
+    "heading": "Weka chakula kilichopikwa kwa kundi salama",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Weka safi",
+      "d": "Nawa mikono kabla ya kupika na baada ya nyama mbichi au samaki. Weka chakula kibichi na kilichopikwa kando."
+     },
+     {
+      "t": "Baridi na uhifadhi",
+      "d": "Weka kwenye jokofu au jokofu ndani ya masaa 2, katika sehemu zilizofunikwa za mlo mmoja. Usiache kitoweo nje usiku kucha."
+     },
+     {
+      "t": "Weka upya mara moja",
+      "d": "Chemsha tena hadi iwe moto sana, na mara moja tu."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Poza chakula kilichopikwa haraka na uweke kwenye friji au jokofu ndani ya saa 2, katika sehemu zilizofunikwa kwa mlo mmoja. Usiache kitoweo nje kwa usiku mmoja."
+   ],
+   "panel": {
+    "kicker": "Kundi kupika kwa usalama",
+    "heading": "Weka chakula kilichopikwa kwa kundi salama",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Weka safi",
+      "d": "Nawa mikono kabla ya kupika na baada ya nyama mbichi au samaki. Weka chakula kibichi na kilichopikwa kando."
+     },
+     {
+      "t": "Baridi na uhifadhi",
+      "d": "Weka kwenye jokofu au jokofu ndani ya masaa 2, katika sehemu zilizofunikwa za mlo mmoja. Usiache kitoweo nje usiku kucha."
+     },
+     {
+      "t": "Weka upya mara moja",
+      "d": "Chemsha tena hadi iwe moto sana, na mara moja tu."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Chemsha tena hadi iwe moto sana, na upake tena moto mara moja tu. Iwapo chakula kilichogandishwa kikiyeyuka kwa muda mrefu, kipike mara moja au utupe."
+   ],
+   "panel": {
+    "kicker": "Kundi kupika kwa usalama",
+    "heading": "Weka chakula kilichopikwa kwa kundi salama",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Weka safi",
+      "d": "Nawa mikono kabla ya kupika na baada ya nyama mbichi au samaki. Weka chakula kibichi na kilichopikwa kando."
+     },
+     {
+      "t": "Baridi na uhifadhi",
+      "d": "Weka kwenye jokofu au jokofu ndani ya masaa 2, katika sehemu zilizofunikwa za mlo mmoja. Usiache kitoweo nje usiku kucha."
+     },
+     {
+      "t": "Weka upya mara moja",
+      "d": "Chemsha tena hadi iwe moto sana, na mara moja tu."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Bajeti ni mpango wa pesa zako kabla ya kuzitumia. Gawanya katika mahitaji, matakwa na akiba.",
+    "Kwa mfano, Ruthu na mume wake huko Jos huleta takriban naira 400,000 kwa mwezi."
+   ],
+   "card": {
+    "title": "Bajeti ya kila mwezi ya Ruth",
+    "rows": [],
+    "note": "Takwimu ni kielelezo."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Mahitaji kama vile kodi ya nyumba, chakula, ada ya shule, usafiri na gesi ni naira 320,000. Hiyo ni 80%, na katika kaya nyingi za Nigeria mahitaji huchukua zaidi ya nusu. Hiyo ni sawa."
+   ],
+   "card": {
+    "title": "Bajeti ya kila mwezi ya Ruth",
+    "rows": [
+     [
+      "Mahitaji",
+      "320,000"
+     ]
+    ],
+    "note": "Takwimu ni kielelezo."
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Wanaokoa naira 40,000, ambayo ni 10%, na kuweka 40,000 kwa mahitaji."
+   ],
+   "card": {
+    "title": "Bajeti ya kila mwezi ya Ruth",
+    "rows": [
+     [
+      "Mahitaji",
+      "320,000"
+     ],
+     [
+      "Akiba",
+      "40,000"
+     ],
+     [
+      "Anataka",
+      "40,000"
+     ]
+    ],
+    "note": "Takwimu ni kielelezo."
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Kwa pamoja hiyo ni 400,000. Kila naira ina kazi.",
+    "Upangaji wa chakula ulipunguza matumizi yao ya chakula kutoka takriban 160,000 hadi 140,000, na 20,000 waliookolewa huenda kwenye hazina ya dharura. Kamwe usishiriki PIN au OTP yako na mtu yeyote."
+   ],
+   "card": {
+    "title": "Bajeti ya kila mwezi ya Ruth",
+    "rows": [
+     [
+      "Mahitaji",
+      "320,000"
+     ],
+     [
+      "Akiba",
+      "40,000"
+     ],
+     [
+      "Anataka",
+      "40,000"
+     ]
+    ],
+    "note": "Takwimu ni kielelezo."
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Kukumbuka. Anza na kuweka upya jioni. Shiriki kazi nzima, sio tu kufanya. Weka chakula kilichopikwa kwa kundi salama. Mpe kila naira kazi. Na weka kalenda moja ya familia, ukianza orodha za ukaguzi wiki nne hadi sita kabla ya nyakati zenye shughuli nyingi kama vile kuanza shule."
+   ],
+   "panel": {
+    "kicker": "Pointi muhimu",
+    "heading": "Kumbuka",
+    "items": [
+     "Anza na kuweka upya jioni",
+     "Shiriki kazi nzima, pamoja na mzigo wa kiakili",
+     "Chakula baridi ndani ya masaa 2, chemsha tena mara moja",
+     "Mpe kila naira kazi: mahitaji, anataka, akiba",
+     "Kalenda moja ya familia: ikiwa haipo juu yake, haijapangwa"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Sasa andika taratibu zako, unda chati yako ya kazi, panga wiki ya chakula na mwezi wa pesa, na unda kalenda ya familia yako. Endelea na masomo hapa chini."
+   ],
+   "panel": {
+    "kicker": "Mazoezi ya kazi",
+    "heading": "Kazi zako za mazoezi",
+    "items": [
+     "Andika na uchapishe taratibu zako",
+     "Unda chati yako ya kazi",
+     "Wiki moja ya chakula, mwezi mmoja wa pesa",
+     "Tengeneza kalenda ya familia yako"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

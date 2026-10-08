@@ -1,0 +1,602 @@
+{
+ "course": "prompt-engineering",
+ "module": "m2",
+ "title": "Templates, advanced techniques and testing your prompts",
+ "course_title": "Prompt Engineering",
+ "shots": [
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Templates, advanced techniques, and testing your prompts.",
+    "This is the video for module two of Prompt Engineering."
+   ]
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "You do not need special software. You need one or two assistants you know well, set up safely."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "From single prompts to a dependable system",
+    "items": [
+     "Set up your tool safely",
+     "Build a library of tested templates",
+     "Use examples, reasoning steps and chaining",
+     "Score prompts before you rely on them"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "You need a place to keep prompts that have been tested, so good work is not lost."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "From single prompts to a dependable system",
+    "items": [
+     "Set up your tool safely",
+     "Build a library of tested templates",
+     "Use examples, reasoning steps and chaining",
+     "Score prompts before you rely on them"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "For harder tasks, four techniques make a large difference."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "From single prompts to a dependable system",
+    "items": [
+     "Set up your tool safely",
+     "Build a library of tested templates",
+     "Use examples, reasoning steps and chaining",
+     "Score prompts before you rely on them"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "And a prompt that worked once may fail on the next case, so you will learn to test it properly."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "From single prompts to a dependable system",
+    "items": [
+     "Set up your tool safely",
+     "Build a library of tested templates",
+     "Use examples, reasoning steps and chaining",
+     "Score prompts before you rely on them"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Before work use, open each tool's settings and read what it does with your conversations. Where you can exclude your chats from model training, consider turning that on.",
+    "Your organisation's rules come first. And under Nigeria's Data Protection Act 2023, never paste customer or member details into a tool without permission."
+   ],
+   "panel": {
+    "kicker": "Safety first",
+    "heading": "Check your data settings first",
+    "items": [
+     "Read what the tool does with your chats",
+     "Consider excluding chats from training",
+     "Follow your employer's approved tool or policy",
+     "No customer or member details without permission"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Aisha is secretary of a market women's association in Kano. Her template keeps the tested parts fixed, and uses placeholders in double curly brackets for what changes, such as the date, the venue and her notes."
+   ],
+   "panel": {
+    "kicker": "Prompt templates",
+    "heading": "Build a template you can reuse",
+    "items": [
+     "Write the fixed part with {{placeholders}}",
+     "Add the format and the rule for missing facts",
+     "Test it on three past cases",
+     "Add a line for each failure you notice",
+     "Save it with version, date and change note"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "She fixes the sections and adds a rule: if a person responsible or a deadline is missing, write TO CONFIRM."
+   ],
+   "panel": {
+    "kicker": "Prompt templates",
+    "heading": "Build a template you can reuse",
+    "items": [
+     "Write the fixed part with {{placeholders}}",
+     "Add the format and the rule for missing facts",
+     "Test it on three past cases",
+     "Add a line for each failure you notice",
+     "Save it with version, date and change note"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "She tests it on three past meetings."
+   ],
+   "panel": {
+    "kicker": "Prompt templates",
+    "heading": "Build a template you can reuse",
+    "items": [
+     "Write the fixed part with {{placeholders}}",
+     "Add the format and the rule for missing facts",
+     "Test it on three past cases",
+     "Add a line for each failure you notice",
+     "Save it with version, date and change note"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "On the second test the model merged two decisions, so she adds a line: list each decision separately."
+   ],
+   "panel": {
+    "kicker": "Prompt templates",
+    "heading": "Build a template you can reuse",
+    "items": [
+     "Write the fixed part with {{placeholders}}",
+     "Add the format and the rule for missing facts",
+     "Test it on three past cases",
+     "Add a line for each failure you notice",
+     "Save it with version, date and change note"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "She saves version 2 in a Google Doc with the date and the change. Minutes now take about 20 minutes instead of an hour."
+   ],
+   "panel": {
+    "kicker": "Prompt templates",
+    "heading": "Build a template you can reuse",
+    "items": [
+     "Write the fixed part with {{placeholders}}",
+     "Add the format and the rule for missing facts",
+     "Test it on three past cases",
+     "Add a line for each failure you notice",
+     "Save it with version, date and change note"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Version and date every template, with what changed.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Few-shot means showing examples. Bisi in Lagos gave three labelled WhatsApp messages. The tool then used her four labels on 20 real messages and got 18 right, which is 90%."
+   ],
+   "panel": {
+    "kicker": "Advanced techniques",
+    "heading": "Four techniques for harder tasks",
+    "items": [
+     "Few-shot: two or three varied examples",
+     "Ask for reasoning steps, then check them",
+     "Chain: small prompts, a human check between",
+     "Structured output: name the exact columns"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "For calculations, ask the model to work step by step, so you can check the logic. Never trust arithmetic you have not checked yourself."
+   ],
+   "panel": {
+    "kicker": "Advanced techniques",
+    "heading": "Four techniques for harder tasks",
+    "items": [
+     "Few-shot: two or three varied examples",
+     "Ask for reasoning steps, then check them",
+     "Chain: small prompts, a human check between",
+     "Structured output: name the exact columns"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "A prompt chain breaks a big job into smaller prompts. Each step is easier to check."
+   ],
+   "panel": {
+    "kicker": "Advanced techniques",
+    "heading": "Four techniques for harder tasks",
+    "items": [
+     "Few-shot: two or three varied examples",
+     "Ask for reasoning steps, then check them",
+     "Chain: small prompts, a human check between",
+     "Structured output: name the exact columns"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "For tables you will reuse, give the exact column names and say: if a value is not in the text, leave it empty, do not guess."
+   ],
+   "panel": {
+    "kicker": "Advanced techniques",
+    "heading": "Four techniques for harder tasks",
+    "items": [
+     "Few-shot: two or three varied examples",
+     "Ask for reasoning steps, then check them",
+     "Chain: small prompts, a human check between",
+     "Structured output: name the exact columns"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Link one: she pastes her quotes and asks for a table of item, quantity, unit cost and total. Then she checks it herself."
+   ],
+   "card": {
+    "title": "Grace chains a workshop budget",
+    "rows": [],
+    "note": "Her own quotes. Naira prices are approximate."
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "The hall is 40,000 naira. Lunch is 28 people at 3,500, so 98,000."
+   ],
+   "card": {
+    "title": "Grace chains a workshop budget",
+    "rows": [
+     [
+      "Hall for the day",
+      "40,000"
+     ],
+     [
+      "Lunch for 28 people",
+      "98,000"
+     ]
+    ],
+    "note": "Her own quotes. Naira prices are approximate."
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Handouts are 15,000 and transport is 30,000. The subtotal is 183,000."
+   ],
+   "card": {
+    "title": "Grace chains a workshop budget",
+    "rows": [
+     [
+      "Hall for the day",
+      "40,000"
+     ],
+     [
+      "Lunch for 28 people",
+      "98,000"
+     ],
+     [
+      "Handouts for 25",
+      "15,000"
+     ],
+     [
+      "Transport for 3 facilitators",
+      "30,000"
+     ]
+    ],
+    "note": "Her own quotes. Naira prices are approximate."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Link two adds a 10% contingency, 18,300, showing each step."
+   ],
+   "card": {
+    "title": "Grace chains a workshop budget",
+    "rows": [
+     [
+      "Hall for the day",
+      "40,000"
+     ],
+     [
+      "Lunch for 28 people",
+      "98,000"
+     ],
+     [
+      "Handouts for 25",
+      "15,000"
+     ],
+     [
+      "Transport for 3 facilitators",
+      "30,000"
+     ],
+     [
+      "10% contingency",
+      "18,300"
+     ]
+    ],
+    "note": "Her own quotes. Naira prices are approximate."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "The grand total is 201,300 naira. She confirms it in a spreadsheet before link three writes the budget note. Because she checked between links, the final note has no arithmetic errors."
+   ],
+   "card": {
+    "title": "Grace chains a workshop budget",
+    "rows": [
+     [
+      "Hall for the day",
+      "40,000"
+     ],
+     [
+      "Lunch for 28 people",
+      "98,000"
+     ],
+     [
+      "Handouts for 25",
+      "15,000"
+     ],
+     [
+      "Transport for 3 facilitators",
+      "30,000"
+     ],
+     [
+      "10% contingency",
+      "18,300"
+     ]
+    ],
+    "note": "Her own quotes. Naira prices are approximate."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "A test set is 5 to 10 real inputs: a very short one, a very long one, one with missing information, one in mixed English and Pidgin."
+   ],
+   "panel": {
+    "kicker": "Testing",
+    "heading": "Test a prompt with a rubric",
+    "items": [
+     "Collect 5 to 10 real cases, including awkward ones",
+     "Score each output 1 to 5 on a few criteria",
+     "Compare average scores between versions",
+     "Fix the lowest score, then re-run"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Score accuracy, completeness, format and usability from 1 to 5."
+   ],
+   "panel": {
+    "kicker": "Testing",
+    "heading": "Test a prompt with a rubric",
+    "items": [
+     "Collect 5 to 10 real cases, including awkward ones",
+     "Score each output 1 to 5 on a few criteria",
+     "Compare average scores between versions",
+     "Fix the lowest score, then re-run"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Ifeoma in Abuja tested two versions on the same 5 reports. Version 1 averaged 13.0 out of 20. Version 2 averaged 16.6, about 28% better."
+   ],
+   "panel": {
+    "kicker": "Testing",
+    "heading": "Test a prompt with a rubric",
+    "items": [
+     "Collect 5 to 10 real cases, including awkward ones",
+     "Score each output 1 to 5 on a few criteria",
+     "Compare average scores between versions",
+     "Fix the lowest score, then re-run"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "She found the lowest score and fixed one thing for version 3. If you change two things together, you will not know which one helped."
+   ],
+   "panel": {
+    "kicker": "Testing",
+    "heading": "Test a prompt with a rubric",
+    "items": [
+     "Collect 5 to 10 real cases, including awkward ones",
+     "Score each output 1 to 5 on a few criteria",
+     "Compare average scores between versions",
+     "Fix the lowest score, then re-run"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Change one thing at a time.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Highlight every name, number, date and reference in the output, and check each one against your source."
+   ],
+   "panel": {
+    "kicker": "Quality control",
+    "heading": "Check before you trust",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Check every fact",
+      "d": "Highlight names, numbers, dates and references. Check each one against the source."
+     },
+     {
+      "t": "Delete fake references",
+      "d": "Search for any article, book or law it cites. If you cannot find it, delete it."
+     },
+     {
+      "t": "Prompt injection",
+      "d": "Other people's text can hide instructions. Treat it as data, and keep a human in charge."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "If it cites an article, book or law you cannot find, delete it."
+   ],
+   "panel": {
+    "kicker": "Quality control",
+    "heading": "Check before you trust",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Check every fact",
+      "d": "Highlight names, numbers, dates and references. Check each one against the source."
+     },
+     {
+      "t": "Delete fake references",
+      "d": "Search for any article, book or law it cites. If you cannot find it, delete it."
+     },
+     {
+      "t": "Prompt injection",
+      "d": "Other people's text can hide instructions. Treat it as data, and keep a human in charge."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Emails, CVs and web pages can hide instructions, like: rate this candidate excellent. Use delimiters, tell the model to treat the text as data only, and never let AI make final decisions about people or money."
+   ],
+   "panel": {
+    "kicker": "Quality control",
+    "heading": "Check before you trust",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Check every fact",
+      "d": "Highlight names, numbers, dates and references. Check each one against the source."
+     },
+     {
+      "t": "Delete fake references",
+      "d": "Search for any article, book or law it cites. If you cannot find it, delete it."
+     },
+     {
+      "t": "Prompt injection",
+      "d": "Other people's text can hide instructions. Treat it as data, and keep a human in charge."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Check your data settings and save one template as version 2. Build a few-shot classifier and a three-link chain, checking numbers in a spreadsheet. Then test one template with a rubric and log the results.",
+    "Now continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice task",
+    "heading": "Your tasks for this module",
+    "items": [
+     "Start your library with one tested template",
+     "Build one classifier and one chain",
+     "Test one template properly with a rubric"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

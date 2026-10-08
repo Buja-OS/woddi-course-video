@@ -1,0 +1,600 @@
+{
+ "course": "sql-fundamentals",
+ "module": "m3",
+ "title": "De la demande vague à l'analyse payante et fiable",
+ "course_title": "Fondamentaux de SQL",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "D'une demande vague à une analyse payante et fiable.",
+    "Il s'agit de la vidéo du module 3 des principes fondamentaux de SQL : projets d'analyse, clients et votre portefeuille."
+   ]
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Un manager dit : envoyez-moi nos meilleurs clients. Si vous commencez à taper immédiatement, vous répondez à votre propre supposition, pas à sa question. Alors demandez d'abord."
+   ],
+   "panel": {
+    "kicker": "La découverte d'abord",
+    "heading": "Demandez avant de taper du SQL",
+    "items": [
+     "Quelle décision cela soutiendra-t-il ?",
+     "Comment définissez-vous le mot clé ?",
+     "Quelle période ?",
+     "Que faut-il exclure ?",
+     "Quel format, quand et à quelle fréquence ?"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Quelle décision cela soutiendra-t-il ? Pour Kemi, choisir qui bénéficie d’une réduction de fidélité."
+   ],
+   "panel": {
+    "kicker": "La découverte d'abord",
+    "heading": "Demandez avant de taper du SQL",
+    "items": [
+     "Quelle décision cela soutiendra-t-il ?",
+     "Comment définissez-vous le mot clé ?",
+     "Quelle période ?",
+     "Que faut-il exclure ?",
+     "Quel format, quand et à quelle fréquence ?"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Comment définissez-vous le meilleur ? Dépense livrée la plus élevée, pas le nombre de commandes."
+   ],
+   "panel": {
+    "kicker": "La découverte d'abord",
+    "heading": "Demandez avant de taper du SQL",
+    "items": [
+     "Quelle décision cela soutiendra-t-il ?",
+     "Comment définissez-vous le mot clé ?",
+     "Quelle période ?",
+     "Que faut-il exclure ?",
+     "Quel format, quand et à quelle fréquence ?"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Quelle période ? Du 1er mai au 31 août 2026."
+   ],
+   "panel": {
+    "kicker": "La découverte d'abord",
+    "heading": "Demandez avant de taper du SQL",
+    "items": [
+     "Quelle décision cela soutiendra-t-il ?",
+     "Comment définissez-vous le mot clé ?",
+     "Quelle période ?",
+     "Que faut-il exclure ?",
+     "Quel format, quand et à quelle fréquence ?"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Que faut-il laisser de côté ? Commandes annulées et en attente."
+   ],
+   "panel": {
+    "kicker": "La découverte d'abord",
+    "heading": "Demandez avant de taper du SQL",
+    "items": [
+     "Quelle décision cela soutiendra-t-il ?",
+     "Comment définissez-vous le mot clé ?",
+     "Quelle période ?",
+     "Que faut-il exclure ?",
+     "Quel format, quand et à quelle fréquence ?"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Sous quel format, dans quels délais et est-ce ponctuel ou mensuel ? Ensuite, réécrivez la définition en une phrase et obtenez un oui."
+   ],
+   "panel": {
+    "kicker": "La découverte d'abord",
+    "heading": "Demandez avant de taper du SQL",
+    "items": [
+     "Quelle décision cela soutiendra-t-il ?",
+     "Comment définissez-vous le mot clé ?",
+     "Quelle période ?",
+     "Que faut-il exclure ?",
+     "Quel format, quand et à quelle fréquence ?"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Un CTE, une expression de table courante, vous permet de nommer une étape avec AVEC, puis de l'utiliser comme une table. La première étape de Kemi, appelée dépenses, totalise les commandes livrées par client."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Les meilleurs clients, construits étape par étape",
+    "items": [
+     "AVEC dépenses AS : total livré par client",
+     "Chèque : 5 clients, soit un total de 211 500",
+     "Moyenne par client acheteur : 42 300",
+     "Gardez ceux au-dessus : Dupe, Amaka, Bisi"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Exécutez cette étape seul. 5 clients, totalisant 211 500. Bien."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Les meilleurs clients, construits étape par étape",
+    "items": [
+     "AVEC dépenses AS : total livré par client",
+     "Chèque : 5 clients, soit un total de 211 500",
+     "Moyenne par client acheteur : 42 300",
+     "Gardez ceux au-dessus : Dupe, Amaka, Bisi"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "La moyenne par client acheteur est de 211 500 divisé par 5, soit 42 300."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Les meilleurs clients, construits étape par étape",
+    "items": [
+     "AVEC dépenses AS : total livré par client",
+     "Chèque : 5 clients, soit un total de 211 500",
+     "Moyenne par client acheteur : 42 300",
+     "Gardez ceux au-dessus : Dupe, Amaka, Bisi"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "La requête finale maintient les clients au-dessus : Dupe 61 000, Amaka 55 000, Bisi 54 500."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Les meilleurs clients, construits étape par étape",
+    "items": [
+     "AVEC dépenses AS : total livré par client",
+     "Chèque : 5 clients, soit un total de 211 500",
+     "Moyenne par client acheteur : 42 300",
+     "Gardez ceux au-dessus : Dupe, Amaka, Bisi"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Dites ensuite ce que cache le numéro. Dupe a effectué un achat important, tandis qu'Amaka en a acheté trois fois. Cela peut changer qui reçoit quelle offre."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Les meilleurs clients, construits étape par étape",
+    "items": [
+     "AVEC dépenses AS : total livré par client",
+     "Chèque : 5 clients, soit un total de 211 500",
+     "Moyenne par client acheteur : 42 300",
+     "Gardez ceux au-dessus : Dupe, Amaka, Bisi"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Vérifiez chaque étape CTE individuellement avant de construire dessus.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Les fonctions de fenêtre calculent sur plusieurs lignes tout en conservant chaque ligne. SUM OVER donne un total cumulé. LAG ramène la valeur de la ligne précédente afin que vous puissiez voir le changement."
+   ],
+   "card": {
+    "title": "Revenu mensuel et total cumulé",
+    "rows": [],
+    "note": "Des chiffres pratiques, pas des prix réels du marché."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "May a rapporté 69 500 nairas. En juin, il y en a eu 73 500, en hausse de 4 000, le total cumulé est donc de 143 000."
+   ],
+   "card": {
+    "title": "Revenu mensuel et total cumulé",
+    "rows": [
+     [
+      "mai",
+      "69,500"
+     ],
+     [
+      "Juin : +4 000",
+      "73,500"
+     ]
+    ],
+    "note": "Des chiffres pratiques, pas des prix réels du marché."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Juillet est tombé à 60 500 et août n’en affiche que 8 000."
+   ],
+   "card": {
+    "title": "Revenu mensuel et total cumulé",
+    "rows": [
+     [
+      "mai",
+      "69,500"
+     ],
+     [
+      "Juin : +4 000",
+      "73,500"
+     ],
+     [
+      "Juillet : -13 000",
+      "60,500"
+     ],
+     [
+      "Août : -52 500",
+      "8,000"
+     ]
+    ],
+    "note": "Des chiffres pratiques, pas des prix réels du marché."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Le total cumulé final, 211 500, est égal au total livré, donc c'est vérifié. Mais août n’a qu’une seule commande, donc la remarque honnête est qu’août pourrait être incomplet."
+   ],
+   "card": {
+    "title": "Revenu mensuel et total cumulé",
+    "rows": [
+     [
+      "mai",
+      "69,500"
+     ],
+     [
+      "Juin : +4 000",
+      "73,500"
+     ],
+     [
+      "Juillet : -13 000",
+      "60,500"
+     ],
+     [
+      "Août : -52 500",
+      "8,000"
+     ]
+    ],
+    "note": "Des chiffres pratiques, pas des prix réels du marché."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Les débutants ne facturent que le temps nécessaire pour taper la requête finale. Le vrai travail prend plus de temps. Halima estime chaque étape : découverte et portée, 2 heures. L'accès et le chargement, 3. L'écriture et le test des requêtes, 5. Les contrôles, 2. Le rapport, 3.",
+    "Cela fait 15 heures. Elle ajoute un tampon de 20 pour cent, 3 heures, pour 18 au total."
+   ],
+   "card": {
+    "title": "Halima cite une analyse des ventes",
+    "rows": [],
+    "note": "5 000 de l'heure ne concernent que la méthode et non le taux du marché."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Au prix indicatif de 5 000 nairas de l'heure, cela représente 90 000 nairas. Recherchez votre propre tarif."
+   ],
+   "card": {
+    "title": "Halima cite une analyse des ventes",
+    "rows": [
+     [
+      "18 heures x 5 000 par heure",
+      "90,000"
+     ]
+    ],
+    "note": "5 000 de l'heure ne concernent que la méthode et non le taux du marché."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Elle demande 50 pour cent, soit 45 000, à titre de caution avant l'accès. Et les questions supplémentaires bénéficient d’un devis complémentaire convivial."
+   ],
+   "card": {
+    "title": "Halima cite une analyse des ventes",
+    "rows": [
+     [
+      "18 heures x 5 000 par heure",
+      "90,000"
+     ],
+     [
+      "Dépôt avant accès aux données, 50%",
+      "45,000"
+     ]
+    ],
+    "note": "5 000 de l'heure ne concernent que la méthode et non le taux du marché."
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Les données de vente contiennent des données personnelles et la loi nigériane sur la protection des données de 2023 fixe des règles à cet égard. Demandez donc un accès en lecture seule. Avant toute commande modifiant les données, exécutez d’abord la même condition WHERE dans un SELECT."
+   ],
+   "panel": {
+    "kicker": "Données clients",
+    "heading": "Des habitudes de données sécurisées pour les analystes",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Accès en lecture seule",
+      "d": "Vous ne pouvez pas modifier ou supprimer des enregistrements par erreur. DELETE, UPDATE et DROP n'ont souvent aucune annulation."
+     },
+     {
+      "t": "Seulement ce dont vous avez besoin",
+      "d": "Demander un minimum de colonnes. Remplacez les noms par des identifiants. Aucune exportation dans les discussions WhatsApp personnelles."
+     },
+     {
+      "t": "Supprimer à la fin",
+      "d": "Stockez les fichiers avec une vérification en deux étapes, supprimez-les après le travail et confirmez par écrit."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Demandez uniquement les colonnes dont vous avez besoin. Vous avez rarement besoin de numéros de téléphone pour compter les ventes. N’envoyez jamais d’exportations via des chats WhatsApp personnels ou des outils publics."
+   ],
+   "panel": {
+    "kicker": "Données clients",
+    "heading": "Des habitudes de données sécurisées pour les analystes",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Accès en lecture seule",
+      "d": "Vous ne pouvez pas modifier ou supprimer des enregistrements par erreur. DELETE, UPDATE et DROP n'ont souvent aucune annulation."
+     },
+     {
+      "t": "Seulement ce dont vous avez besoin",
+      "d": "Demander un minimum de colonnes. Remplacez les noms par des identifiants. Aucune exportation dans les discussions WhatsApp personnelles."
+     },
+     {
+      "t": "Supprimer à la fin",
+      "d": "Stockez les fichiers avec une vérification en deux étapes, supprimez-les après le travail et confirmez par écrit."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Stockez les fichiers en toute sécurité, supprimez-les à la fin du travail et confirmez la suppression par écrit."
+   ],
+   "panel": {
+    "kicker": "Données clients",
+    "heading": "Des habitudes de données sécurisées pour les analystes",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Accès en lecture seule",
+      "d": "Vous ne pouvez pas modifier ou supprimer des enregistrements par erreur. DELETE, UPDATE et DROP n'ont souvent aucune annulation."
+     },
+     {
+      "t": "Seulement ce dont vous avez besoin",
+      "d": "Demander un minimum de colonnes. Remplacez les noms par des identifiants. Aucune exportation dans les discussions WhatsApp personnelles."
+     },
+     {
+      "t": "Supprimer à la fin",
+      "d": "Stockez les fichiers avec une vérification en deux étapes, supprimez-les après le travail et confirmez par écrit."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Les certificats indiquent que vous avez étudié. Un portfolio montre que vous pouvez faire le travail. Prenez un ensemble de données publiques, provenant de Kaggle ou des Open Data de la Banque mondiale, et rédigez 3 à 5 questions qu'un responsable poserait."
+   ],
+   "panel": {
+    "kicker": "Prouvez votre compétence",
+    "heading": "Un projet de portfolio qui se fait remarquer",
+    "items": [
+     "3 à 5 questions métiers comme définitions",
+     "Une requête chacun, jusqu'à un CTE et une fenêtre",
+     "Enregistrez vos chèques et ce qu'ils ont attrapé",
+     "Résultats en langage simple avec un ou deux graphiques",
+     "Publiez sur GitHub et épinglez-le sur LinkedIn"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Écrivez une requête par question."
+   ],
+   "panel": {
+    "kicker": "Prouvez votre compétence",
+    "heading": "Un projet de portfolio qui se fait remarquer",
+    "items": [
+     "3 à 5 questions métiers comme définitions",
+     "Une requête chacun, jusqu'à un CTE et une fenêtre",
+     "Enregistrez vos chèques et ce qu'ils ont attrapé",
+     "Résultats en langage simple avec un ou deux graphiques",
+     "Publiez sur GitHub et épinglez-le sur LinkedIn"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Enregistrez les contrôles que vous avez effectués et ce qu'ils ont détecté."
+   ],
+   "panel": {
+    "kicker": "Prouvez votre compétence",
+    "heading": "Un projet de portfolio qui se fait remarquer",
+    "items": [
+     "3 à 5 questions métiers comme définitions",
+     "Une requête chacun, jusqu'à un CTE et une fenêtre",
+     "Enregistrez vos chèques et ce qu'ils ont attrapé",
+     "Résultats en langage simple avec un ou deux graphiques",
+     "Publiez sur GitHub et épinglez-le sur LinkedIn"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Écrivez des conclusions sur lesquelles un lecteur non technique pourrait agir."
+   ],
+   "panel": {
+    "kicker": "Prouvez votre compétence",
+    "heading": "Un projet de portfolio qui se fait remarquer",
+    "items": [
+     "3 à 5 questions métiers comme définitions",
+     "Une requête chacun, jusqu'à un CTE et une fenêtre",
+     "Enregistrez vos chèques et ce qu'ils ont attrapé",
+     "Résultats en langage simple avec un ou deux graphiques",
+     "Publiez sur GitHub et épinglez-le sur LinkedIn"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Publiez-le ensuite avec un README et épinglez-le sur LinkedIn. Sur 90 jours : entraînez-vous quotidiennement, construisez le projet, publiez, puis postulez."
+   ],
+   "panel": {
+    "kicker": "Prouvez votre compétence",
+    "heading": "Un projet de portfolio qui se fait remarquer",
+    "items": [
+     "3 à 5 questions métiers comme définitions",
+     "Une requête chacun, jusqu'à un CTE et une fenêtre",
+     "Enregistrez vos chèques et ce qu'ils ont attrapé",
+     "Résultats en langage simple avec un ou deux graphiques",
+     "Publiez sur GitHub et épinglez-le sur LinkedIn"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "À retenir. Acceptez la définition avant d’interroger. Intégrez des étapes nommées et cochées. Évaluez chaque étape du travail, pas seulement la requête finale. Et traitez les données des clients avec soin, de l’accès à la suppression."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Convenez d’abord d’une définition en une phrase",
+     "Nommez chaque étape avec un CTE et vérifiez-la",
+     "Les fonctions de fenêtre conservent chaque ligne",
+     "Portée, estimation de chaque étape, prise d'acompte",
+     "Accès en lecture seule, données minimales, suppression à la fin"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Lancez maintenant une conversation de découverte, rédigez un contenu et un devis d'une page, et démarrez votre portefeuille avec un plan de 90 jours.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâches d'entraînement",
+    "heading": "Votre travail pour ce module",
+    "items": [
+     "Lancer une conversation de découverte",
+     "Rédigez une portée et un devis d'une page",
+     "Démarrez votre portefeuille et votre plan de 90 jours"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

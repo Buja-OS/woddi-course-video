@@ -1,0 +1,527 @@
+{
+ "course": "advanced-excel-dashboards",
+ "module": "m2",
+ "title": "Crie, teste e proteja um painel em que o proprietário possa confiar",
+ "course_title": "Excel avançado e painéis",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Crie, teste e proteja um painel em que o proprietário possa confiar.",
+    "Este é o vídeo do módulo dois de Excel Avançado e Dashboards."
+   ]
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "A maioria dos dashboards é alimentada por exportações de um sistema POS, de um banco ou de um software de contabilidade. Limpá-los manualmente todos os meses é lento e é aí que surgem os erros."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Um número errado que parece certo é perigoso",
+    "items": [
+     "Limpe as exportações mensais automaticamente com o Power Query",
+     "Disponha cartões de KPI, gráficos e segmentações em uma tela",
+     "Prove que cada número corresponde à fonte",
+     "Proteja o arquivo e escreva como ele funciona"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Você construirá uma tela que responderá às repetidas perguntas do proprietário."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Um número errado que parece certo é perigoso",
+    "items": [
+     "Limpe as exportações mensais automaticamente com o Power Query",
+     "Disponha cartões de KPI, gráficos e segmentações em uma tela",
+     "Prove que cada número corresponde à fonte",
+     "Proteja o arquivo e escreva como ele funciona"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Um número errado que parece certo é pior do que um erro óbvio, porque as pessoas agem de acordo com ele. Então você provará cada número."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Um número errado que parece certo é perigoso",
+    "items": [
+     "Limpe as exportações mensais automaticamente com o Power Query",
+     "Disponha cartões de KPI, gráficos e segmentações em uma tela",
+     "Prove que cada número corresponde à fonte",
+     "Proteja o arquivo e escreva como ele funciona"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "E você protegerá e documentará o arquivo para que outra pessoa possa executá-lo sem você."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Um número errado que parece certo é perigoso",
+    "items": [
+     "Limpe as exportações mensais automaticamente com o Power Query",
+     "Disponha cartões de KPI, gráficos e segmentações em uma tela",
+     "Prove que cada número corresponde à fonte",
+     "Proteja o arquivo e escreva como ele funciona"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Ada é administradora de uma farmácia com três filiais em Abuja. Ela salva cada exportação de filial em uma pasta chamada Exportações POS."
+   ],
+   "panel": {
+    "kicker": "Consulta avançada",
+    "heading": "Combine arquivos mensais de uma pasta",
+    "items": [
+     "Salve todas as exportações em uma pasta",
+     "Obtenha dados da pasta, combine e transforme",
+     "Remova as linhas de título, use a primeira linha como cabeçalho",
+     "Definir tipos; cortar nomes; substituir rótulos estranhos",
+     "Feche e carregue em uma tabela e verifique a contagem de linhas"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "O Power Query empilha os arquivos em uma consulta. Cada passo que ela executa é registrado em Etapas Aplicadas e seus arquivos originais nunca são alterados."
+   ],
+   "panel": {
+    "kicker": "Consulta avançada",
+    "heading": "Combine arquivos mensais de uma pasta",
+    "items": [
+     "Salve todas as exportações em uma pasta",
+     "Obtenha dados da pasta, combine e transforme",
+     "Remova as linhas de título, use a primeira linha como cabeçalho",
+     "Definir tipos; cortar nomes; substituir rótulos estranhos",
+     "Feche e carregue em uma tabela e verifique a contagem de linhas"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Ela remove as 4 linhas de título e promove a primeira linha para cabeçalhos."
+   ],
+   "panel": {
+    "kicker": "Consulta avançada",
+    "heading": "Combine arquivos mensais de uma pasta",
+    "items": [
+     "Salve todas as exportações em uma pasta",
+     "Obtenha dados da pasta, combine e transforme",
+     "Remova as linhas de título, use a primeira linha como cabeçalho",
+     "Definir tipos; cortar nomes; substituir rótulos estranhos",
+     "Feche e carregue em uma tabela e verifique a contagem de linhas"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Ela define Quantidade como um número, corta espaços dos nomes e substitui PCM 500 por Paracetamol 500mg."
+   ],
+   "panel": {
+    "kicker": "Consulta avançada",
+    "heading": "Combine arquivos mensais de uma pasta",
+    "items": [
+     "Salve todas as exportações em uma pasta",
+     "Obtenha dados da pasta, combine e transforme",
+     "Remova as linhas de título, use a primeira linha como cabeçalho",
+     "Definir tipos; cortar nomes; substituir rótulos estranhos",
+     "Feche e carregue em uma tabela e verifique a contagem de linhas"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Ela carrega em uma tabela e verifica a contagem de linhas. Os três relatórios de janeiro fornecem 2.140 mais 1.875 mais 1.310, o que equivale a 5.325 linhas. A consulta mostra 5.325."
+   ],
+   "panel": {
+    "kicker": "Consulta avançada",
+    "heading": "Combine arquivos mensais de uma pasta",
+    "items": [
+     "Salve todas as exportações em uma pasta",
+     "Obtenha dados da pasta, combine e transforme",
+     "Remova as linhas de título, use a primeira linha como cabeçalho",
+     "Definir tipos; cortar nomes; substituir rótulos estranhos",
+     "Feche e carregue em uma tabela e verifique a contagem de linhas"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Cuidado com a armadilha do encontro. Alguns computadores lêem 04/03 como 4 de março. Defina o tipo de data usando Locale, English Nigeria e verifique uma data como 13/05 no resultado.",
+    "No mês seguinte, ela salva três novos arquivos e clica em Atualizar tudo."
+   ],
+   "panel": {
+    "kicker": "Consulta avançada",
+    "heading": "Combine arquivos mensais de uma pasta",
+    "items": [
+     "Salve todas as exportações em uma pasta",
+     "Obtenha dados da pasta, combine e transforme",
+     "Remova as linhas de título, use a primeira linha como cabeçalho",
+     "Definir tipos; cortar nomes; substituir rótulos estranhos",
+     "Feche e carregue em uma tabela e verifique a contagem de linhas"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Defina datas usando Locale e verifique uma data como 13/05.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Coloque de três a cinco cartões de KPI no canto superior esquerdo, onde o olhar cai primeiro. As tendências vão abaixo, depois os detalhamentos e depois as listas detalhadas."
+   ],
+   "card": {
+    "title": "Cartões KPI para proprietário de farmácia",
+    "rows": [],
+    "note": "Figuras ilustrativas."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "As vendas neste mês são de 18.600.000 nairas contra 17.200.000 no mês passado. A variação percentual é dividida pelo período anterior, então a variação é de 8,1%."
+   ],
+   "card": {
+    "title": "Cartões KPI para proprietário de farmácia",
+    "rows": [
+     [
+      "Vendas este mês",
+      "18,600,000"
+     ],
+     [
+      "Vendas no mês passado",
+      "17,200,000"
+     ]
+    ],
+    "note": "Figuras ilustrativas."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "O lucro bruto é de 4.650.000, então a margem é de 25%. Sempre calcule a margem a partir dos totais, nunca calculando a média das margens dos itens."
+   ],
+   "card": {
+    "title": "Cartões KPI para proprietário de farmácia",
+    "rows": [
+     [
+      "Vendas este mês",
+      "18,600,000"
+     ],
+     [
+      "Vendas no mês passado",
+      "17,200,000"
+     ],
+     [
+      "Lucro bruto",
+      "4,650,000"
+     ]
+    ],
+    "note": "Figuras ilustrativas."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "6.200 transações dão uma cesta média de 3.000 nairas. Um quarto cartão conta 14 itens abaixo do nível de novo pedido."
+   ],
+   "card": {
+    "title": "Cartões KPI para proprietário de farmácia",
+    "rows": [
+     [
+      "Vendas este mês",
+      "18,600,000"
+     ],
+     [
+      "Vendas no mês passado",
+      "17,200,000"
+     ],
+     [
+      "Lucro bruto",
+      "4,650,000"
+     ],
+     [
+      "Cesta média",
+      "3,000"
+     ]
+    ],
+    "note": "Figuras ilustrativas."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Use um gráfico de linhas para vendas ao longo dos meses e um gráfico de barras classificado do maior para o menor para filiais. Evite efeitos 3D."
+   ],
+   "panel": {
+    "kicker": "Torne-o interativo",
+    "heading": "Gráficos, segmentações de dados e listas dinâmicas",
+    "items": [
+     "Gráfico de linhas por meses, barras classificadas por filiais",
+     "Slicer e linha do tempo, com conexões de relatório",
+     "FILTER para exceções, como contas vencidas",
+     "Nunca confie apenas na cor"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Insira uma segmentação de dados de ramificação e uma linha do tempo de data. Use o Report Connections para marcar cada pivô, de modo que um clique no Kubwa filtre a tela inteira."
+   ],
+   "panel": {
+    "kicker": "Torne-o interativo",
+    "heading": "Gráficos, segmentações de dados e listas dinâmicas",
+    "items": [
+     "Gráfico de linhas por meses, barras classificadas por filiais",
+     "Slicer e linha do tempo, com conexões de relatório",
+     "FILTER para exceções, como contas vencidas",
+     "Nunca confie apenas na cor"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "FILTER pode listar todas as contas não pagas há mais de 30 dias. Deixe as células abaixo vazias ou você receberá um erro de derramamento."
+   ],
+   "panel": {
+    "kicker": "Torne-o interativo",
+    "heading": "Gráficos, segmentações de dados e listas dinâmicas",
+    "items": [
+     "Gráfico de linhas por meses, barras classificadas por filiais",
+     "Slicer e linha do tempo, com conexões de relatório",
+     "FILTER para exceções, como contas vencidas",
+     "Nunca confie apenas na cor"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Alguns leitores não conseguem distinguir o vermelho do verde, então adicione um sinal de mais ou menos e dê a cada gráfico um título que indique a mensagem."
+   ],
+   "panel": {
+    "kicker": "Torne-o interativo",
+    "heading": "Gráficos, segmentações de dados e listas dinâmicas",
+    "items": [
+     "Gráfico de linhas por meses, barras classificadas por filiais",
+     "Slicer e linha do tempo, com conexões de relatório",
+     "FILTER para exceções, como contas vencidas",
+     "Nunca confie apenas na cor"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Crie uma área de Cheques. Cada verificação compara dois números que devem concordar e a diferença deve ser 0."
+   ],
+   "card": {
+    "title": "Encontrando a lacuna de 312.500 nairas",
+    "rows": [],
+    "note": "Figuras ilustrativas."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "A tabela de origem de Ada soma 18.912.500 nairas, mas o painel mostra 18.600.000."
+   ],
+   "card": {
+    "title": "Encontrando a lacuna de 312.500 nairas",
+    "rows": [
+     [
+      "Total da tabela de origem",
+      "18,912,500"
+     ],
+     [
+      "Total de vendas do painel",
+      "18,600,000"
+     ]
+    ],
+    "note": "Figuras ilustrativas."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "A diferença é de 312.500. O pivô apontou para uma faixa fixa, então ficaram de fora 5 faturas atrasadas de 62.500 cada. Ela aponta o pivô para tblSales, atualiza e a verificação retorna 0."
+   ],
+   "card": {
+    "title": "Encontrando a lacuna de 312.500 nairas",
+    "rows": [
+     [
+      "Total da tabela de origem",
+      "18,912,500"
+     ],
+     [
+      "Total de vendas do painel",
+      "18,600,000"
+     ]
+    ],
+    "note": "Figuras ilustrativas."
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Adicione validação de dados às células de entrada, desbloqueie apenas essas células e proteja a planilha. Teste se as segmentações ainda funcionam. Mas a proteção das folhas apenas evita acidentes."
+   ],
+   "panel": {
+    "kicker": "Segurança em primeiro lugar",
+    "heading": "Proteção não é segurança",
+    "mode": "compare",
+    "left_h": "Proteger planilha",
+    "left": [
+     "Interrompe alterações acidentais",
+     "Desbloqueie apenas as células de entrada",
+     "As senhas podem ser removidas"
+    ],
+    "right_h": "Criptografe o arquivo",
+    "right": [
+     "Mantém dados confidenciais privados",
+     "Para salários, clientes, dados bancários",
+     "Compartilhe a senha separadamente"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_security",
+   "say": [
+    "Para salários, dados de clientes ou informações bancárias, utilize Criptografar com Senha, com uma senha forte enviada por outro canal.",
+    "As exportações geralmente contêm nomes e números de telefone de clientes. Remova colunas desnecessárias e nunca encaminhe exportações brutas no WhatsApp pessoal."
+   ],
+   "panel": {
+    "kicker": "Segurança em primeiro lugar",
+    "heading": "Proteção não é segurança",
+    "mode": "compare",
+    "left_h": "Proteger planilha",
+    "left": [
+     "Interrompe alterações acidentais",
+     "Desbloqueie apenas as células de entrada",
+     "As senhas podem ser removidas"
+    ],
+    "right_h": "Criptografe o arquivo",
+    "right": [
+     "Mantém dados confidenciais privados",
+     "Para salários, clientes, dados bancários",
+     "Compartilhe a senha separadamente"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Antes de enviar o arquivo, marque todos os itens. Teste propositalmente com dados estranhos: uma quantidade em branco, uma data digitada como texto, uma fatura duplicada.",
+    "Não esconda erros com IFERROR e um zero, porque uma pesquisa quebrada parece um zero real.",
+    "Por fim, escreva uma planilha de como funciona e peça a outra pessoa para segui-la sem a sua ajuda."
+   ],
+   "panel": {
+    "kicker": "Antes da entrega",
+    "heading": "Lista de verificação de transferência",
+    "items": [
+     "Totais reconciliados com a origem",
+     "As contagens de linhas correspondem às exportações",
+     "Entradas em branco e ímpares testadas",
+     "Células de fórmula bloqueadas",
+     "Como funciona a folha escrita"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Automatize uma importação de uma pasta de pelo menos três arquivos. Crie seu painel de tela única com cartões, gráficos e uma segmentação de dados conectada. Em seguida, adicione células de verificação, proteja-as e escreva a planilha Como Funciona.",
+    "Agora continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Tarefa prática",
+    "heading": "Suas tarefas para este módulo",
+    "items": [
+     "Automatize uma importação mensal com o Power Query",
+     "Crie seu painel de uma tela",
+     "Prepare seu painel para entrega"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

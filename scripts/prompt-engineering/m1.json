@@ -1,0 +1,496 @@
+{
+ "course": "prompt-engineering",
+ "module": "m1",
+ "title": "How AI reads your prompt, and how to write one that works",
+ "course_title": "Prompt Engineering",
+ "shots": [
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "How AI reads your prompt, and how to write one that works.",
+    "This is the video for module one of Prompt Engineering."
+   ]
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Tools such as ChatGPT, Gemini, Claude and Copilot are built on large language models. Given some text, the model predicts what text should come next. It is not looking up a stored answer."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "The model only knows what you give it",
+    "items": [
+     "Understand what the model does with your words",
+     "Know why confident answers can be wrong",
+     "Use a six-part prompt for work that matters",
+     "Choose where prompting really pays"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "That is why a reply can sound right and still be false."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "The model only knows what you give it",
+    "items": [
+     "Understand what the model does with your words",
+     "Know why confident answers can be wrong",
+     "Use a six-part prompt for work that matters",
+     "Choose where prompting really pays"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "If your prompt is vague, the most likely reply is vague and average. If it names the reader, the purpose and the format, the reply becomes specific."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "The model only knows what you give it",
+    "items": [
+     "Understand what the model does with your words",
+     "Know why confident answers can be wrong",
+     "Use a six-part prompt for work that matters",
+     "Choose where prompting really pays"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "And you will learn which of your own tasks are worth the effort."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "The model only knows what you give it",
+    "items": [
+     "Understand what the model does with your words",
+     "Know why confident answers can be wrong",
+     "Use a six-part prompt for work that matters",
+     "Choose where prompting really pays"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Models read tokens. A common English word may be one token, but a Yoruba, Hausa or Igbo word may be split into several. As a rough guide, 1,000 tokens is about 750 English words."
+   ],
+   "panel": {
+    "kicker": "How it works",
+    "heading": "Four things to know about the model",
+    "items": [
+     "It reads tokens, chunks of text, not words",
+     "The context window limits what it can consider",
+     "It can state false facts with confidence",
+     "Each new chat starts blank by default"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "The context window is the most it can consider at once, including your prompt, any pasted document and the reply. In a very long chat, earlier details can be dropped. Start a fresh chat and paste a short summary."
+   ],
+   "panel": {
+    "kicker": "How it works",
+    "heading": "Four things to know about the model",
+    "items": [
+     "It reads tokens, chunks of text, not words",
+     "The context window limits what it can consider",
+     "It can state false facts with confidence",
+     "Each new chat starts blank by default"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Confident but false answers are called hallucinations. They happen most with names, exact figures, recent events and references. Check anything you will publish or act on."
+   ],
+   "panel": {
+    "kicker": "How it works",
+    "heading": "Four things to know about the model",
+    "items": [
+     "It reads tokens, chunks of text, not words",
+     "The context window limits what it can consider",
+     "It can state false facts with confidence",
+     "Each new chat starts blank by default"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "And unless you turn on a memory feature, each new chat knows nothing about you."
+   ],
+   "panel": {
+    "kicker": "How it works",
+    "heading": "Four things to know about the model",
+    "items": [
+     "It reads tokens, chunks of text, not words",
+     "The context window limits what it can consider",
+     "It can state false facts with confidence",
+     "Each new chat starts blank by default"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "For example, Halima coordinates a women's cooperative in Kaduna. She needs to tell 40 members the meeting venue has changed. Her first prompt gets a formal, generic letter with blanks where the facts should be."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "One task, two prompts",
+    "mode": "compare",
+    "left_h": "Prompt A",
+    "left": [
+     "Write a message about a venue change",
+     "Formal, generic, about 180 words",
+     "Placeholders, no date"
+    ],
+    "right_h": "Prompt B",
+    "right": [
+     "Readers, date, places, reason",
+     "WhatsApp, under 60 words",
+     "Usable after one small edit"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Her second prompt names the readers, mostly traders aged 30 to 60, the date, the old and new venue, the time, the reason, the channel, and a limit of 60 words.",
+    "The reply is 52 words and ready to send. The model did not get smarter. Halima gave it the facts it needed."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "One task, two prompts",
+    "mode": "compare",
+    "left_h": "Prompt A",
+    "left": [
+     "Write a message about a venue change",
+     "Formal, generic, about 180 words",
+     "Placeholders, no date"
+    ],
+    "right_h": "Prompt B",
+    "right": [
+     "Readers, date, places, reason",
+     "WhatsApp, under 60 words",
+     "Usable after one small edit"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Ngozi works at an NGO in Enugu. She must turn a 9-page field report into a one-page brief. Her task starts with one strong verb: write a one-page decision brief."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "The six-part prompt",
+    "items": [
+     "Task: one clear verb",
+     "Context: reader and purpose",
+     "Input: material inside delimiters",
+     "Format: shape and length",
+     "Constraints: limits and must-nots",
+     "Examples: show good output"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Context: the reader is her director, who has 5 minutes before a funder call."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "The six-part prompt",
+    "items": [
+     "Task: one clear verb",
+     "Context: reader and purpose",
+     "Input: material inside delimiters",
+     "Format: shape and length",
+     "Constraints: limits and must-nots",
+     "Examples: show good output"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Input: the report pasted between report tags, so the model does not confuse it with her instructions."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "The six-part prompt",
+    "items": [
+     "Task: one clear verb",
+     "Context: reader and purpose",
+     "Input: material inside delimiters",
+     "Format: shape and length",
+     "Constraints: limits and must-nots",
+     "Examples: show good output"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Format: four headings, bullet points, under 300 words."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "The six-part prompt",
+    "items": [
+     "Task: one clear verb",
+     "Context: reader and purpose",
+     "Input: material inside delimiters",
+     "Format: shape and length",
+     "Constraints: limits and must-nots",
+     "Examples: show good output"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Constraints: use only numbers in the report. Where there is no figure, write NOT STATED."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "The six-part prompt",
+    "items": [
+     "Task: one clear verb",
+     "Context: reader and purpose",
+     "Input: material inside delimiters",
+     "Format: shape and length",
+     "Constraints: limits and must-nots",
+     "Examples: show good output"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Examples: a past brief the director praised. Her vague prompt had invented a figure that was not in the report. The six-part prompt gave 270 words with no invented figures, and she still checked every number."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "The six-part prompt",
+    "items": [
+     "Task: one clear verb",
+     "Context: reader and purpose",
+     "Input: material inside delimiters",
+     "Format: shape and length",
+     "Constraints: limits and must-nots",
+     "Examples: show good output"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "rule": "Tell it what to do when information is missing: do not guess.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "List your tasks for one week, then map each by the value of time saved and the risk if it is wrong. Start with high value, low risk tasks."
+   ],
+   "panel": {
+    "kicker": "Value and risk",
+    "heading": "Where prompting pays",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "High value, low risk",
+      "d": "Internal notes, weekly updates, first drafts. Prompt first, then a light check."
+     },
+     {
+      "t": "High value, high risk",
+      "d": "Donor reports, financial summaries. Worth prompting, but check every figure and claim."
+     },
+     {
+      "t": "Keep human-led",
+      "d": "Grief, apology, decisions about people, legal, medical or financial judgement."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "High value but high risk work is still worth prompting, with careful checks."
+   ],
+   "panel": {
+    "kicker": "Value and risk",
+    "heading": "Where prompting pays",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "High value, low risk",
+      "d": "Internal notes, weekly updates, first drafts. Prompt first, then a light check."
+     },
+     {
+      "t": "High value, high risk",
+      "d": "Donor reports, financial summaries. Worth prompting, but check every figure and claim."
+     },
+     {
+      "t": "Keep human-led",
+      "d": "Grief, apology, decisions about people, legal, medical or financial judgement."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Some tasks stay with people: messages of grief or apology, hiring and grades, and anything needing legal, medical or financial judgement."
+   ],
+   "panel": {
+    "kicker": "Value and risk",
+    "heading": "Where prompting pays",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "High value, low risk",
+      "d": "Internal notes, weekly updates, first drafts. Prompt first, then a light check."
+     },
+     {
+      "t": "High value, high risk",
+      "d": "Donor reports, financial summaries. Worth prompting, but check every figure and claim."
+     },
+     {
+      "t": "Keep human-led",
+      "d": "Grief, apology, decisions about people, legal, medical or financial judgement."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Treat anything you type into a public AI tool as information leaving your control.",
+    "Never paste passwords, BVN or NIN numbers, bank details, members' phone numbers or private health information. Replace names with roles before you paste a real document."
+   ],
+   "panel": {
+    "kicker": "Safety first",
+    "heading": "Never paste what you would not post",
+    "items": [
+     "No passwords",
+     "No BVN or NIN numbers",
+     "No bank details",
+     "No members' phone numbers or health information",
+     "Replace names with roles, like Member A"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Remember. The model predicts likely text, so give it the facts. Use the six parts for anything that matters.",
+    "And measure honestly. Funmi, a school administrator in Ibadan, saved about 63 hours a year from three prompts, and her checking time did not shrink. Checking is part of the job."
+   ],
+   "panel": {
+    "kicker": "Remember",
+    "heading": "What to keep from this module",
+    "items": [
+     "The model predicts text; it does not look things up",
+     "Missing details lead to generic replies",
+     "Use the six parts for any task that matters",
+     "Measure time saved, including checking time"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Send a vague prompt and a detailed one for a real message, and compare them. Rebuild one work prompt with all six parts. Then draw your value and risk map with at least eight tasks.",
+    "Now continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice task",
+    "heading": "Your tasks for this module",
+    "items": [
+     "Compare a vague prompt with a detailed one",
+     "Rebuild one work prompt using all six parts",
+     "Draw your value and risk map"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

@@ -1,0 +1,593 @@
+{
+ "course": "core-proposal-writing",
+ "module": "m3",
+ "title": "Bajeti, ufuatiliaji na kinachoendelea baada ya ruzuku",
+ "course_title": "Uandishi wa Pendekezo: Ruzuku na Mapendekezo ya Biashara",
+ "shots": [
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Bajeti, ufuatiliaji, na kinachoendelea baada ya ruzuku.",
+    "Hii ndio video ya moduli ya tatu ya Uandishi wa Pendekezo."
+   ]
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Bajeti ni pendekezo lako lililoandikwa kwa nambari. Juu sana inaonekana ubadhirifu. Kupungua sana kunaonyesha kuwa hauelewi kazi."
+   ],
+   "panel": {
+    "kicker": "Bajeti ya kipengee cha mstari",
+    "heading": "Kila mstari wa bajeti unaonyesha",
+    "items": [
+     "Kipengee",
+     "Kitengo: siku, mwezi, mtu, kipande",
+     "Kiasi",
+     "Gharama ya kitengo",
+     "Jumla: gharama ya kitengo cha mara nyingi"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Kila mstari unaonyesha kipengee, kitengo, kiasi na gharama ya kitengo. Kwa mfano, wakufunzi 2, kwa siku 12, kwa naira 25,000 kwa siku."
+   ],
+   "panel": {
+    "kicker": "Bajeti ya kipengee cha mstari",
+    "heading": "Kila mstari wa bajeti unaonyesha",
+    "items": [
+     "Kipengee",
+     "Kitengo: siku, mwezi, mtu, kipande",
+     "Kiasi",
+     "Gharama ya kitengo",
+     "Jumla: gharama ya kitengo cha mara nyingi"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Jumla ni gharama ya kitengo cha mara nyingi: naira 600,000. Panga mistari yako katika kategoria, na kila wakati utumie kiolezo cha wafadhili ikiwa kitakupa."
+   ],
+   "panel": {
+    "kicker": "Bajeti ya kipengee cha mstari",
+    "heading": "Kila mstari wa bajeti unaonyesha",
+    "items": [
+     "Kipengee",
+     "Kitengo: siku, mwezi, mtu, kipande",
+     "Kiasi",
+     "Gharama ya kitengo",
+     "Jumla: gharama ya kitengo cha mara nyingi"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Kwa mfano, Amaka huweka bei kwa kila laini kutoka kwa nukuu 2 au 3 za soko huko Lafia. Takwimu za kozi ni za kielelezo na takriban."
+   ],
+   "card": {
+    "title": "Bajeti ya miezi 6 ya Amaka",
+    "rows": [],
+    "note": "Takwimu za kielelezo, takriban za naira."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Wafanyakazi, mratibu wa muda na wakufunzi wawili: naira 1,200,000."
+   ],
+   "card": {
+    "title": "Bajeti ya miezi 6 ya Amaka",
+    "rows": [
+     [
+      "Wafanyakazi",
+      "1,200,000"
+     ]
+    ],
+    "note": "Takwimu za kielelezo, takriban za naira."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Nyenzo, ikijumuisha vifaa 40 vya kuanza na zana za usalama: naira 1,320,000."
+   ],
+   "card": {
+    "title": "Bajeti ya miezi 6 ya Amaka",
+    "rows": [
+     [
+      "Wafanyakazi",
+      "1,200,000"
+     ],
+     [
+      "Nyenzo na zana za usalama",
+      "1,320,000"
+     ]
+    ],
+    "note": "Takwimu za kielelezo, takriban za naira."
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Mahali, usafiri na viburudisho: naira 1,440,000."
+   ],
+   "card": {
+    "title": "Bajeti ya miezi 6 ya Amaka",
+    "rows": [
+     [
+      "Wafanyakazi",
+      "1,200,000"
+     ],
+     [
+      "Nyenzo na zana za usalama",
+      "1,320,000"
+     ],
+     [
+      "Ukumbi na vifaa",
+      "1,440,000"
+     ]
+    ],
+    "note": "Takwimu za kielelezo, takriban za naira."
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Usaidizi wa biashara, naira 290,000, na ufuatiliaji na tathmini, naira 250,000."
+   ],
+   "card": {
+    "title": "Bajeti ya miezi 6 ya Amaka",
+    "rows": [
+     [
+      "Wafanyakazi",
+      "1,200,000"
+     ],
+     [
+      "Nyenzo na zana za usalama",
+      "1,320,000"
+     ],
+     [
+      "Ukumbi na vifaa",
+      "1,440,000"
+     ],
+     [
+      "Msaada wa biashara",
+      "290,000"
+     ],
+     [
+      "Ufuatiliaji na tathmini",
+      "250,000"
+     ]
+    ],
+    "note": "Takwimu za kielelezo, takriban za naira."
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Gharama za moja kwa moja zinakuja kwa naira 4,500,000. Utawala kwa 7%, ndani ya muda wa simu, huongeza naira 315,000. Ombi lake ni naira 4,815,000, chini ya kiwango cha juu cha 5,000,000."
+   ],
+   "card": {
+    "title": "Bajeti ya miezi 6 ya Amaka",
+    "rows": [
+     [
+      "Wafanyakazi",
+      "1,200,000"
+     ],
+     [
+      "Nyenzo na zana za usalama",
+      "1,320,000"
+     ],
+     [
+      "Ukumbi na vifaa",
+      "1,440,000"
+     ],
+     [
+      "Msaada wa biashara",
+      "290,000"
+     ],
+     [
+      "Ufuatiliaji na tathmini",
+      "250,000"
+     ]
+    ],
+    "note": "Takwimu za kielelezo, takriban za naira."
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Gharama za moja kwa moja zinatumika tu kwenye mradi huu."
+   ],
+   "panel": {
+    "kicker": "Aina za gharama",
+    "heading": "Moja kwa moja, isiyo ya moja kwa moja na ya aina",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Gharama za moja kwa moja",
+      "d": "Imetumika kwa mradi huu pekee, kama vile ada za wakufunzi, nyenzo na kukodisha ukumbi."
+     },
+     {
+      "t": "Gharama zisizo za moja kwa moja",
+      "d": "Gharama za uendeshaji zinazoshirikiwa kama vile kuweka hesabu na mtandao. Usizidishe kipimo cha simu."
+     },
+     {
+      "t": "Katika aina",
+      "d": "Unachotoa bila kumwomba mfadhili, kama vile chumba cha kuhifadhi bila malipo. Onyesha thamani yake."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Gharama zisizo za moja kwa moja ni gharama zako za uendeshaji zinazoshirikiwa. Wafadhili wengi huwaruhusu tu hadi asilimia iliyotajwa. Usizidishe kamwe."
+   ],
+   "panel": {
+    "kicker": "Aina za gharama",
+    "heading": "Moja kwa moja, isiyo ya moja kwa moja na ya aina",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Gharama za moja kwa moja",
+      "d": "Imetumika kwa mradi huu pekee, kama vile ada za wakufunzi, nyenzo na kukodisha ukumbi."
+     },
+     {
+      "t": "Gharama zisizo za moja kwa moja",
+      "d": "Gharama za uendeshaji zinazoshirikiwa kama vile kuweka hesabu na mtandao. Usizidishe kipimo cha simu."
+     },
+     {
+      "t": "Katika aina",
+      "d": "Unachotoa bila kumwomba mfadhili, kama vile chumba cha kuhifadhi bila malipo. Onyesha thamani yake."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Michango ya asili ni vitu unavyojitolea. Ushirika wa Amaka unatoa chumba cha kuhifadhi chenye thamani ya naira 180,000. Onyesha katika safu tofauti, kwa sababu inathibitisha kujitolea.",
+    "Na acha gharama zisizostahiki, kama vile magari, nje kabisa."
+   ],
+   "panel": {
+    "kicker": "Aina za gharama",
+    "heading": "Moja kwa moja, isiyo ya moja kwa moja na ya aina",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Gharama za moja kwa moja",
+      "d": "Imetumika kwa mradi huu pekee, kama vile ada za wakufunzi, nyenzo na kukodisha ukumbi."
+     },
+     {
+      "t": "Gharama zisizo za moja kwa moja",
+      "d": "Gharama za uendeshaji zinazoshirikiwa kama vile kuweka hesabu na mtandao. Usizidishe kipimo cha simu."
+     },
+     {
+      "t": "Katika aina",
+      "d": "Unachotoa bila kumwomba mfadhili, kama vile chumba cha kuhifadhi bila malipo. Onyesha thamani yake."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Maelezo ya Bajeti yanaeleza kila mstari katika sentensi moja hadi tatu. Kwa mfano: Naira 1,000 kwa kila mwanamke kwa siku ya mafunzo hulipa nauli ya kurudi. Bila hivyo, wanachama maskini zaidi hawakuweza kuhudhuria."
+   ],
+   "panel": {
+    "kicker": "Vidokezo vya bajeti na hundi",
+    "heading": "Thibitisha kila mstari, kisha uangalie",
+    "items": [
+     "Andika kumbuka: nini, kwa nini, jinsi ya kuhesabiwa",
+     "Kila shughuli ina mstari wa gharama",
+     "Gharama za kitengo hutoka kwa bei halisi",
+     "Hakuna gharama zisizostahiki; admin ndani ya kofia",
+     "Jumla zinalingana katika kila sehemu"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Hakikisha kuwa kila shughuli ina mstari wa gharama, na kila laini ya gharama inaunganishwa na shughuli."
+   ],
+   "panel": {
+    "kicker": "Vidokezo vya bajeti na hundi",
+    "heading": "Thibitisha kila mstari, kisha uangalie",
+    "items": [
+     "Andika kumbuka: nini, kwa nini, jinsi ya kuhesabiwa",
+     "Kila shughuli ina mstari wa gharama",
+     "Gharama za kitengo hutoka kwa bei halisi",
+     "Hakuna gharama zisizostahiki; admin ndani ya kofia",
+     "Jumla zinalingana katika kila sehemu"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Weka nukuu zako kwenye faili."
+   ],
+   "panel": {
+    "kicker": "Vidokezo vya bajeti na hundi",
+    "heading": "Thibitisha kila mstari, kisha uangalie",
+    "items": [
+     "Andika kumbuka: nini, kwa nini, jinsi ya kuhesabiwa",
+     "Kila shughuli ina mstari wa gharama",
+     "Gharama za kitengo hutoka kwa bei halisi",
+     "Hakuna gharama zisizostahiki; admin ndani ya kofia",
+     "Jumla zinalingana katika kila sehemu"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Acha gharama zisizostahiki, na uweke utawala ndani ya kiwango cha juu."
+   ],
+   "panel": {
+    "kicker": "Vidokezo vya bajeti na hundi",
+    "heading": "Thibitisha kila mstari, kisha uangalie",
+    "items": [
+     "Andika kumbuka: nini, kwa nini, jinsi ya kuhesabiwa",
+     "Kila shughuli ina mstari wa gharama",
+     "Gharama za kitengo hutoka kwa bei halisi",
+     "Hakuna gharama zisizostahiki; admin ndani ya kofia",
+     "Jumla zinalingana katika kila sehemu"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Tumia lahajedwali ili jumla zihesabiwe kiotomatiki, kisha uhakikishe kuwa muhtasari, simulizi na barua ya jalada zote zinaonyesha takwimu sawa."
+   ],
+   "panel": {
+    "kicker": "Vidokezo vya bajeti na hundi",
+    "heading": "Thibitisha kila mstari, kisha uangalie",
+    "items": [
+     "Andika kumbuka: nini, kwa nini, jinsi ya kuhesabiwa",
+     "Kila shughuli ina mstari wa gharama",
+     "Gharama za kitengo hutoka kwa bei halisi",
+     "Hakuna gharama zisizostahiki; admin ndani ya kofia",
+     "Jumla zinalingana katika kila sehemu"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Angalia hesabu mara tatu. Kila jumla lazima ilingane.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Ufuatiliaji hufuatilia shughuli na matokeo wakati mradi unaendelea. Tathmini huamua kama matokeo yalipatikana. Kila kiashirio kinahitaji msingi, lengo, chanzo cha data, muda na mtu anayewajibika."
+   ],
+   "panel": {
+    "kicker": "Ufuatiliaji na tathmini",
+    "heading": "Cheki cha mwezi wa 4 wa Amaka",
+    "items": [
+     "Mwezi wa 4: 22 kati ya 40 kuuza. Lengo: 30",
+     "Mfano: wanawake wa mbali, hakuna wanunuzi wa kawaida",
+     "Badilisha: uuzaji wa kikundi, bursars 3 za shule",
+     "Mwezi wa 6: 31 kati ya 40 kuuza mara kwa mara"
+    ],
+    "show": 0,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Mwishoni mwa mwezi wa 4, rekodi za mauzo za Amaka zinaonyesha wanawake 22 kati ya 40 wakiuza angalau mara mbili kwa mwezi. Lengo lake ni 30."
+   ],
+   "panel": {
+    "kicker": "Ufuatiliaji na tathmini",
+    "heading": "Cheki cha mwezi wa 4 wa Amaka",
+    "items": [
+     "Mwezi wa 4: 22 kati ya 40 kuuza. Lengo: 30",
+     "Mfano: wanawake wa mbali, hakuna wanunuzi wa kawaida",
+     "Badilisha: uuzaji wa kikundi, bursars 3 za shule",
+     "Mwezi wa 6: 31 kati ya 40 kuuza mara kwa mara"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Anatafuta muundo. Wanawake wengi ambao hawauzi wanaishi mbali na soko na hawana wanunuzi wa kawaida."
+   ],
+   "panel": {
+    "kicker": "Ufuatiliaji na tathmini",
+    "heading": "Cheki cha mwezi wa 4 wa Amaka",
+    "items": [
+     "Mwezi wa 4: 22 kati ya 40 kuuza. Lengo: 30",
+     "Mfano: wanawake wa mbali, hakuna wanunuzi wa kawaida",
+     "Badilisha: uuzaji wa kikundi, bursars 3 za shule",
+     "Mwezi wa 6: 31 kati ya 40 kuuza mara kwa mara"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Kwa hivyo yeye huwaunganisha wanawake ili wauze pamoja katika soko la kila wiki, na kuanzisha bursari 3 za shule kwa kikundi. Kufikia mwezi wa 5, 27 huuza mara kwa mara."
+   ],
+   "panel": {
+    "kicker": "Ufuatiliaji na tathmini",
+    "heading": "Cheki cha mwezi wa 4 wa Amaka",
+    "items": [
+     "Mwezi wa 4: 22 kati ya 40 kuuza. Lengo: 30",
+     "Mfano: wanawake wa mbali, hakuna wanunuzi wa kawaida",
+     "Badilisha: uuzaji wa kikundi, bursars 3 za shule",
+     "Mwezi wa 6: 31 kati ya 40 kuuza mara kwa mara"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Kufikia mwezi wa 6, 31 kati ya 40 huuza mara kwa mara, juu ya lengo. Ripoti yake inasema idadi ndogo, sababu, mabadiliko na matokeo."
+   ],
+   "panel": {
+    "kicker": "Ufuatiliaji na tathmini",
+    "heading": "Cheki cha mwezi wa 4 wa Amaka",
+    "items": [
+     "Mwezi wa 4: 22 kati ya 40 kuuza. Lengo: 30",
+     "Mfano: wanawake wa mbali, hakuna wanunuzi wa kawaida",
+     "Badilisha: uuzaji wa kikundi, bursars 3 za shule",
+     "Mwezi wa 6: 31 kati ya 40 kuuza mara kwa mara"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Ripoti matatizo kwa uaminifu. Wafadhili wanathamini kujifunza.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Uendelevu unamaanisha kueleza ni faida gani hudumu baada ya pesa kuisha, na jinsi gani. Serikali ya jimbo itachukua madaraka ni dhaifu, isipokuwa kama una barua kusema hivyo."
+   ],
+   "panel": {
+    "kicker": "Uendelevu",
+    "heading": "Tumaini au utaratibu?",
+    "mode": "compare",
+    "left_h": "Dhaifu",
+    "left": [
+     "Serikali itachukua madaraka",
+     "Mradi utaendelea"
+    ],
+    "right_h": "Nguvu",
+    "right": [
+     "Wanachama walipe 5,000 kwa kila mahali, walikubali",
+     "Wanawake 6 waliofunzwa kama wakufunzi rika",
+     "500 zilizookolewa kutoka kwa kila mauzo 5,000",
+     "Viungo na shule 3"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Amaka inatoa mifumo thabiti. Ushirika utatoza wanachama naira 5,000 kwa kila mahali kwa mafunzo ya pili, kama ilivyokubaliwa katika mkutano wake mkuu. 6 kati ya wanawake wenye nguvu zaidi huwa wakufunzi rika.",
+    "Kila mwanamke huokoa naira 500 kutoka kwa kila naira 5,000 za mauzo ili kununua kundi lake linalofuata, na viungo vya shule 3 hutengeneza wanunuzi wa kawaida."
+   ],
+   "panel": {
+    "kicker": "Uendelevu",
+    "heading": "Tumaini au utaratibu?",
+    "mode": "compare",
+    "left_h": "Dhaifu",
+    "left": [
+     "Serikali itachukua madaraka",
+     "Mradi utaendelea"
+    ],
+    "right_h": "Nguvu",
+    "right": [
+     "Wanachama walipe 5,000 kwa kila mahali, walikubali",
+     "Wanawake 6 waliofunzwa kama wakufunzi rika",
+     "500 zilizookolewa kutoka kwa kila mauzo 5,000",
+     "Viungo na shule 3"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "first_aid_kit",
+   "say": [
+    "Kudai hakuna hatari kunaonekana kuwa ujinga. Orodhesha kile ambacho kinaweza kwenda vibaya, jinsi uwezekano na jinsi ni mbaya, na majibu yako.",
+    "Kwa sababu mafunzo yake yanatumia soda caustic, Amaka inapanga kuungua kwa kemikali: zana za usalama kwa kila mwanamke, onyesho la usalama la lye kwanza, na kifaa cha huduma ya kwanza na maji safi katika kila kipindi.",
+    "Pia hununua vifaa kwa wingi katika mwezi wa 1, na anakubaliana na ratiba na washiriki ili kuepuka shughuli za kilimo na wiki za sherehe."
+   ],
+   "panel": {
+    "kicker": "Hatari, ikiwa ni pamoja na usalama",
+    "heading": "Majibu ya hatari ya Amaka",
+    "items": [
+     "Kemikali kuchoma: zana za usalama kwa kila mtu",
+     "Mkufunzi anaonyesha usalama wa lye kwanza",
+     "Seti ya huduma ya kwanza na maji safi kila kikao",
+     "Kupanda kwa bei: nunua vifaa kwa wingi katika mwezi wa 1",
+     "Mahudhurio ya chini: kubali ratiba kwanza"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Mazoezi yako. Jenga bajeti yako katika lahajedwali, ukiwa na manukuu na madokezo halisi ya mistari yako mikubwa zaidi. Rasimu jedwali lako la mpango wa M&E. Andika angalau njia tatu za uendelevu na jedwali la hatari.",
+    "Kisha weka alama kwenye rasimu yako kulingana na vigezo vya mfadhili. Sasa endelea na masomo hapa chini."
+   ],
+   "panel": {
+    "kicker": "Mazoezi yako",
+    "heading": "Fanya pendekezo lako liwe la kuaminika",
+    "items": [
+     "Unda lahajedwali yako ya bajeti na madokezo",
+     "Rasimu jedwali lako la mpango wa M&E",
+     "Andika njia tatu za uendelevu",
+     "Unda jedwali la hatari na ujishindie rasimu yako"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

@@ -1,0 +1,601 @@
+{
+ "course": "webflow-development",
+ "module": "m2",
+ "title": "Plan, build a client-proof CMS, and launch properly",
+ "course_title": "Webflow Development",
+ "shots": [
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Plan the site, build a client-proof CMS, and launch it properly.",
+    "This is the video for module 2 of Webflow Development: Professional Build Workflow."
+   ]
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Rebuilding a section because the content did not fit costs far more than an hour of planning. First, the sitemap. A static page, like About, is designed once. A template page is designed once but shows any item from a Collection."
+   ],
+   "panel": {
+    "kicker": "Plan before you build",
+    "heading": "A build plan has three parts",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Sitemap",
+      "d": "Which pages exist. Mark static pages and CMS template pages."
+     },
+     {
+      "t": "Content model",
+      "d": "Which content repeats, and the fields each Collection needs."
+     },
+     {
+      "t": "Style guide",
+      "d": "A hidden page of headings, buttons and colours, stored as Variables."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Second, the content model. If the client says, we will add a new one every month, that content belongs in the CMS, with the right fields."
+   ],
+   "panel": {
+    "kicker": "Plan before you build",
+    "heading": "A build plan has three parts",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Sitemap",
+      "d": "Which pages exist. Mark static pages and CMS template pages."
+     },
+     {
+      "t": "Content model",
+      "d": "Which content repeats, and the fields each Collection needs."
+     },
+     {
+      "t": "Style guide",
+      "d": "A hidden page of headings, buttons and colours, stored as Variables."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Third, a style guide page. Store colours and sizes as Variables, so when the brand colour changes, you change one variable and the whole site updates."
+   ],
+   "panel": {
+    "kicker": "Plan before you build",
+    "heading": "A build plan has three parts",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Sitemap",
+      "d": "Which pages exist. Mark static pages and CMS template pages."
+     },
+     {
+      "t": "Content model",
+      "d": "Which content repeats, and the fields each Collection needs."
+     },
+     {
+      "t": "Style guide",
+      "d": "A hidden page of headings, buttons and colours, stored as Variables."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "For example, Funmi runs an interior design studio in Abuja and adds about two projects a month. She needs 4 static pages."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Planning an interior design studio site",
+    "items": [
+     "Static pages: Home, About, Services, Contact",
+     "Collections: Projects and Testimonials",
+     "Option field for project type; switch for Featured",
+     "4 static + 1 template = 5 designs to build"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Projects repeat monthly, so they become a Collection. Testimonials too, linked to projects with a reference field. Plan references early, because they are harder to add later."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Planning an interior design studio site",
+    "items": [
+     "Static pages: Home, About, Services, Contact",
+     "Collections: Projects and Testimonials",
+     "Option field for project type; switch for Featured",
+     "4 static + 1 template = 5 designs to build"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Project type is an Option field, so Residential never becomes residental. Featured is a yes or no switch."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Planning an interior design studio site",
+    "items": [
+     "Static pages: Home, About, Services, Contact",
+     "Collections: Projects and Testimonials",
+     "Option field for project type; switch for Featured",
+     "4 static + 1 template = 5 designs to build"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "That is 5 designs to build, even if the site grows to 50 project pages. Get the client to approve this plan. It becomes your baseline for scope."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Planning an interior design studio site",
+    "items": [
+     "Static pages: Home, About, Services, Contact",
+     "Collections: Projects and Testimonials",
+     "Option field for project type; switch for Featured",
+     "4 static + 1 template = 5 designs to build"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Create the Collection, for example Projects, and add the fields from your plan."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "From Collection to live pages",
+    "items": [
+     "Create the Collection and add your fields",
+     "Write help text, e.g. landscape, 1600px wide",
+     "Add three to five real items",
+     "Connect the template page to the fields",
+     "Add a Collection List to Home",
+     "Filter, sort and limit, e.g. latest 3 featured"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Write help text on every field, so the client knows exactly what to upload."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "From Collection to live pages",
+    "items": [
+     "Create the Collection and add your fields",
+     "Write help text, e.g. landscape, 1600px wide",
+     "Add three to five real items",
+     "Connect the template page to the fields",
+     "Add a Collection List to Home",
+     "Filter, sort and limit, e.g. latest 3 featured"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Add a few real items, so you design with true content lengths."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "From Collection to live pages",
+    "items": [
+     "Create the Collection and add your fields",
+     "Write help text, e.g. landscape, 1600px wide",
+     "Add three to five real items",
+     "Connect the template page to the fields",
+     "Add a Collection List to Home",
+     "Filter, sort and limit, e.g. latest 3 featured"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "On the template page, connect each element to a field. The heading shows the project name, the image shows the cover."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "From Collection to live pages",
+    "items": [
+     "Create the Collection and add your fields",
+     "Write help text, e.g. landscape, 1600px wide",
+     "Add three to five real items",
+     "Connect the template page to the fields",
+     "Add a Collection List to Home",
+     "Filter, sort and limit, e.g. latest 3 featured"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "On Home, add a Collection List, filter to Featured, sort newest first, and limit it to 3. Conditional visibility hides a button when its field is empty, instead of showing a broken link."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "From Collection to live pages",
+    "items": [
+     "Create the Collection and add your fields",
+     "Write help text, e.g. landscape, 1600px wide",
+     "Add three to five real items",
+     "Connect the template page to the fields",
+     "Add a Collection List to Home",
+     "Filter, sort and limit, e.g. latest 3 featured"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Then open Editor mode and act like the client. Add a very long title and an item with no image. Fix what breaks now, because the client will do exactly this in the first month."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "From Collection to live pages",
+    "items": [
+     "Create the Collection and add your fields",
+     "Write help text, e.g. landscape, 1600px wide",
+     "Add three to five real items",
+     "Connect the template page to the fields",
+     "Add a Collection List to Home",
+     "Filter, sort and limit, e.g. latest 3 featured"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "rule": "Test like a client: a very long title, and an item with no image.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "An interaction joins a trigger, like a click or scroll, to an action, like a fade. Good uses help people: a menu opening, an FAQ expanding, a short fade-in."
+   ],
+   "panel": {
+    "kicker": "Interactions",
+    "heading": "Movement with a purpose",
+    "mode": "compare",
+    "left_h": "Good uses",
+    "left": [
+     "Mobile menu opening",
+     "FAQ answer expanding",
+     "Short fade-in, 0.2 to 0.5 seconds"
+    ],
+    "right_h": "Poor uses",
+    "right": [
+     "Long animations that delay reading",
+     "Text shown only on hover",
+     "Heavy effects on cheaper phones"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Poor uses get in the way. Phones cannot hover, so never hide text behind a hover. And content must be readable even if an animation does not run."
+   ],
+   "panel": {
+    "kicker": "Interactions",
+    "heading": "Movement with a purpose",
+    "mode": "compare",
+    "left_h": "Good uses",
+    "left": [
+     "Mobile menu opening",
+     "FAQ answer expanding",
+     "Short fade-in, 0.2 to 0.5 seconds"
+    ],
+    "right_h": "Poor uses",
+    "right": [
+     "Long animations that delay reading",
+     "Text shown only on hover",
+     "Heavy effects on cheaper phones"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Give every field a visible label, and turn on reCAPTCHA. Collect only what you need. If you ask for names, phone numbers or emails, add a privacy note and a policy link. Nigeria's Data Protection Act 2023 sets duties here, so the client should take advice.",
+    "Then test every form on the live domain, and confirm the client actually receives the email."
+   ],
+   "panel": {
+    "kicker": "Privacy",
+    "heading": "Forms that work and respect privacy",
+    "items": [
+     "A visible label on every field",
+     "reCAPTCHA on to reduce spam",
+     "Collect only what you need",
+     "A privacy note and policy link",
+     "Test on the live domain; client gets the email"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "phone_camera",
+   "say": [
+    "The most common Webflow speed problem is oversized photos straight from a phone. For example, Ifeoma's home page has 6 images totalling about 14MB."
+   ],
+   "panel": {
+    "kicker": "Speed",
+    "heading": "Ifeoma cuts her page weight",
+    "items": [
+     "PageSpeed Insights flags 6 images, about 14MB",
+     "Hero: 6000px to 2000px, WebP, about 300KB",
+     "5 card photos: 1000px wide, about 600KB",
+     "Lazy load the cards; re-run the test"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_camera",
+   "say": [
+    "She resizes the hero to 2000px wide and converts it to WebP. About 5MB becomes about 300KB."
+   ],
+   "panel": {
+    "kicker": "Speed",
+    "heading": "Ifeoma cuts her page weight",
+    "items": [
+     "PageSpeed Insights flags 6 images, about 14MB",
+     "Hero: 6000px to 2000px, WebP, about 300KB",
+     "5 card photos: 1000px wide, about 600KB",
+     "Lazy load the cards; re-run the test"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "The card photos go from about 9MB to about 600KB."
+   ],
+   "panel": {
+    "kicker": "Speed",
+    "heading": "Ifeoma cuts her page weight",
+    "items": [
+     "PageSpeed Insights flags 6 images, about 14MB",
+     "Hero: 6000px to 2000px, WebP, about 300KB",
+     "5 card photos: 1000px wide, about 600KB",
+     "Lazy load the cards; re-run the test"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "She sets them to lazy load and tests again. A saving of roughly 94 percent, and that matters a great deal to a visitor on mobile data."
+   ],
+   "panel": {
+    "kicker": "Speed",
+    "heading": "Ifeoma cuts her page weight",
+    "items": [
+     "PageSpeed Insights flags 6 images, about 14MB",
+     "Hero: 6000px to 2000px, WebP, about 300KB",
+     "5 card photos: 1000px wide, about 600KB",
+     "Lazy load the cards; re-run the test"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Under 1MB of images instead of 14MB matters when data is expensive.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Check colour contrast before you build."
+   ],
+   "panel": {
+    "kicker": "Before launch",
+    "heading": "Accessibility, search and domain",
+    "items": [
+     "Contrast at least 4.5:1 for normal text",
+     "Alt text on meaningful images; one H1",
+     "Tab through the page and see the focus",
+     "Clear titles, e.g. Event Catering in Abuja",
+     "301 redirects, DNS records, SSL on"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Add alt text to meaningful images, use one H1 per page, and keep headings in order."
+   ],
+   "panel": {
+    "kicker": "Before launch",
+    "heading": "Accessibility, search and domain",
+    "items": [
+     "Contrast at least 4.5:1 for normal text",
+     "Alt text on meaningful images; one H1",
+     "Tab through the page and see the focus",
+     "Clear titles, e.g. Event Catering in Abuja",
+     "301 redirects, DNS records, SSL on"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Press Tab through every page and watch the focus outline."
+   ],
+   "panel": {
+    "kicker": "Before launch",
+    "heading": "Accessibility, search and domain",
+    "items": [
+     "Contrast at least 4.5:1 for normal text",
+     "Alt text on meaningful images; one H1",
+     "Tab through the page and see the focus",
+     "Clear titles, e.g. Event Catering in Abuja",
+     "301 redirects, DNS records, SSL on"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "A page titled Services tells search engines little. Event Catering in Abuja says what and where."
+   ],
+   "panel": {
+    "kicker": "Before launch",
+    "heading": "Accessibility, search and domain",
+    "items": [
+     "Contrast at least 4.5:1 for normal text",
+     "Alt text on meaningful images; one H1",
+     "Tab through the page and see the focus",
+     "Clear titles, e.g. Event Catering in Abuja",
+     "301 redirects, DNS records, SSL on"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Add redirects for old addresses, copy Webflow's DNS records into your registrar, keep SSL on, and test again on the live domain."
+   ],
+   "panel": {
+    "kicker": "Before launch",
+    "heading": "Accessibility, search and domain",
+    "items": [
+     "Contrast at least 4.5:1 for normal text",
+     "Alt text on meaningful images; one H1",
+     "Tab through the page and see the focus",
+     "Clear titles, e.g. Event Catering in Abuja",
+     "301 redirects, DNS records, SSL on"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "To remember. Plan before you build, and get the plan approved. Put repeating content in the CMS and make it client-proof. Keep pages light for mobile data, accessible, and clearly titled. And test forms and the domain live before you say the site is done."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "Sitemap, content model and style guide first",
+     "Repeating content belongs in the CMS",
+     "Help text and Option fields keep it client-proof",
+     "Resize images; check contrast and keyboard",
+     "Forms: minimal data, privacy note, live test"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Now write a build plan, build a working CMS feature, and run a full pre-launch check with before and after speed scores.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice tasks",
+    "heading": "Your work for this module",
+    "items": [
+     "Write a build plan with a Style Guide page",
+     "Build a working CMS feature",
+     "Run a full pre-launch QA"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

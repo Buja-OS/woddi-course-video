@@ -1,0 +1,449 @@
+{
+ "course": "core-excel-for-small-business",
+ "module": "m3",
+ "title": "Hichaa data, mkpokọta ngalaba na chaatị ndị na-ekwu eziokwu",
+ "course_title": "Akwụkwọ Excel na Google maka obere azụmaahịa",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Hichaa data, mkpokọta otu na eserese ndị na-ekwu eziokwu.",
+    "Nke a bụ vidiyo maka Module 3 nke Excel na Google Sheets maka obere azụmaahịa."
+   ]
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Mgbe izu ole na ole nke ndenye gachara, ị ga-achọ azịza. Kedu ihe kacha ere m? Ego ole ka m mefuru n'ụgbọ njem?",
+    "Ịhazi, nzacha na ndepụta ndọda na-eme ka data gị dị ọcha ka ọ na-etolite."
+   ],
+   "panel": {
+    "kicker": "Na modul a",
+    "heading": "Tụgharịa ndekọ ka ọ bụrụ ihe akaebe",
+    "items": [
+     "Hazie na nzacha na-emebighị ahịrị",
+     "Ndetu-agbada na-akwụsị mmejọ mkpope",
+     "Ngụkọta SUMIF site na otu na ndị ahịa",
+     "Chart zara otu ajụjụ"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Mgbe ahụ SUMIF na chaatị dị iche iche na-atụgharị data ahụ ka ọ bụrụ ihe akaebe nke ka azụmahịa gị na-eme n'ezie."
+   ],
+   "panel": {
+    "kicker": "Na modul a",
+    "heading": "Tụgharịa ndekọ ka ọ bụrụ ihe akaebe",
+    "items": [
+     "Hazie na nzacha na-emebighị ahịrị",
+     "Ndetu-agbada na-akwụsị mmejọ mkpope",
+     "Ngụkọta SUMIF site na otu na ndị ahịa",
+     "Chart zara otu ajụjụ"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Iji hazie, kpatụ otu cell ọ bụla n'ime data gị, wee họrọ Data, hazie, wee tinye akara na data gị nwere nkụnye eji isi mee. Họrọ kọlụm na usoro, dị ka nke mbụ kacha ibu."
+   ],
+   "panel": {
+    "kicker": "Hazie nke ọma",
+    "heading": "Hazie oke niile, ọ nweghị otu kọlụm",
+    "mode": "compare",
+    "left_h": "Mee nke a",
+    "left": [
+     "Kpatụ otu cell n'ime data gị",
+     "Data, Hazie, nwere akara nkụnye eji isi mee",
+     "Nabata gbasaa nhọrọ"
+    ],
+    "right_h": "Ọ dịghị mgbe nke a",
+    "right": [
+     "Họrọ naanị kọlụm ego",
+     "Hazie ya naanị",
+     "Ọnụ ego na-agagharị, ihe na-anọ n'azụ"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Nke a bụ mmejọ nkịtị. Ọ bụrụ na ịhọrọ naanị kọlụm Ọnụ ego wee hazie ya, ego ole na-aga, mana ụbọchị na ihe ndị dị n'akụkụ ha anaghị eme. Ahịrị ọ bụla ezighi ezi ugbu a.",
+    "Excel na-adọ gị aka ná ntị ma na-enye Gbasaa nhọrọ ahụ. Nabata ya mgbe niile. Ọ bụrụ na ọ mee, megharịa ozugbo."
+   ],
+   "panel": {
+    "kicker": "Hazie nke ọma",
+    "heading": "Hazie oke niile, ọ nweghị otu kọlụm",
+    "mode": "compare",
+    "left_h": "Mee nke a",
+    "left": [
+     "Kpatụ otu cell n'ime data gị",
+     "Data, Hazie, nwere akara nkụnye eji isi mee",
+     "Nabata gbasaa nhọrọ"
+    ],
+    "right_h": "Ọ dịghị mgbe nke a",
+    "right": [
+     "Họrọ naanị kọlụm ego",
+     "Hazie ya naanị",
+     "Ọnụ ego na-agagharị, ihe na-anọ n'azụ"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Halima chere na njem na-eri uru ya. Ihe nzacha na-ezobe ahịrị ndị ọ na-achọghị nwa oge.",
+    "Ọ na-akụ akụ na udi wee pịa naanị Ụgbọ njem."
+   ],
+   "card": {
+    "title": "Ego njem nke Halima",
+    "rows": [],
+    "note": "SUBTOTAL(9, oke) na-agbakwunye naanị ahịrị ndị a na-ahụ anya."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Ahịrị 4 fọdụrụ. N'elu isiokwu ya, o nwere SUBTOTAL, 9, emesia oke ego ya. Nke 9 na-agwa ya ka gbakwunye."
+   ],
+   "card": {
+    "title": "Ego njem nke Halima",
+    "rows": [
+     [
+      "Njem 1",
+      "2,500"
+     ],
+     [
+      "Njem 2",
+      "3,000"
+     ],
+     [
+      "Njem 3",
+      "1,500"
+     ],
+     [
+      "Njem 4",
+      "4,000"
+     ]
+    ],
+    "note": "SUBTOTAL(9, oke) na-agbakwunye naanị ahịrị ndị a na-ahụ anya."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Ụgbọ njem na-abịa 11000 naira. SUM ka ga-agbakwunye ahịrị 40 niile, nke mere SUBTOTAL ji bụrụ ezigbo ngwaọrụ mgbe ị na-enyocha ya. Hichaa nzacha mgbe ịmechara."
+   ],
+   "card": {
+    "title": "Ego njem nke Halima",
+    "rows": [
+     [
+      "Njem 1",
+      "2,500"
+     ],
+     [
+      "Njem 2",
+      "3,000"
+     ],
+     [
+      "Njem 3",
+      "1,500"
+     ],
+     [
+      "Njem 4",
+      "4,000"
+     ]
+    ],
+    "note": "SUBTOTAL(9, oke) na-agbakwunye naanị ahịrị ndị a na-ahụ anya."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Na-esote, ndepụta ndọpụta. Họrọ kọlụm Ụdị dum, n'okpuru isiokwu."
+   ],
+   "panel": {
+    "kicker": "Nzọụkwụ site nzọụkwụ",
+    "heading": "Tinye ndepụta ndọda",
+    "items": [
+     "Họrọ kọlụm Ụdị dum n'okpuru isiokwu",
+     "Excel: Data, Data Validation, List",
+     "Ibé akwụkwọ: Fanye, mwepu",
+     "Nhọrọ: ire ere, mmefu",
+     "Mee otu ihe ahụ maka Udi"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Na Excel họrọ Data, Data Validation, na n'okpuru Kwe ka họrọ List. Na mpempe akwụkwọ Google họrọ Fanye, Ndobe."
+   ],
+   "panel": {
+    "kicker": "Nzọụkwụ site nzọụkwụ",
+    "heading": "Tinye ndepụta ndọda",
+    "items": [
+     "Họrọ kọlụm Ụdị dum n'okpuru isiokwu",
+     "Excel: Data, Data Validation, List",
+     "Ibé akwụkwọ: Fanye, mwepu",
+     "Nhọrọ: ire ere, mmefu",
+     "Mee otu ihe ahụ maka Udi"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Tinye nhọrọ ire na mmefu. Mee otu ihe ahụ maka Udi, jiri ndepụta nke gị, dị ka nri, gas, nkwakọ ngwaahịa na njem."
+   ],
+   "panel": {
+    "kicker": "Nzọụkwụ site nzọụkwụ",
+    "heading": "Tinye ndepụta ndọda",
+    "items": [
+     "Họrọ kọlụm Ụdị dum n'okpuru isiokwu",
+     "Excel: Data, Data Validation, List",
+     "Ibé akwụkwọ: Fanye, mwepu",
+     "Nhọrọ: ire ere, mmefu",
+     "Mee otu ihe ahụ maka Udi"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Gịnị mere nke a ji dị mkpa? Ọ BỤRỤ na, SUMIF na COUNTIF ederede dakọtara kpọmkwem. Ndepụta na-eme ka ntinye ọ bụla bụrụ otu, yabụ na ọ dịghị mgbe ọ bụla ha na-atụfu otu ahịrị."
+   ],
+   "panel": {
+    "kicker": "Nzọụkwụ site nzọụkwụ",
+    "heading": "Tinye ndepụta ndọda",
+    "items": [
+     "Họrọ kọlụm Ụdị dum n'okpuru isiokwu",
+     "Excel: Data, Data Validation, List",
+     "Ibé akwụkwọ: Fanye, mwepu",
+     "Nhọrọ: ire ere, mmefu",
+     "Mee otu ihe ahụ maka Udi"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Otu mkpoputa oge ọ bụla, yabụ usoro gị agaghị efu ahịrị",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Ihe nzacha na-aza otu ajụjụ n'otu oge. SUMIF na-aza ya kpamkpam.",
+    "Ụkpụrụ bụ SUMIF, oke ịlele, ọnọdụ ahụ, mgbe ahụ oke ịtinye. Bisi na-etinye akara dollar na mpaghara abụọ a ka o nwee ike iṅomi usoro ahụ n'ime ndepụta edemede ya."
+   ],
+   "card": {
+    "title": "Ego Bisi site na otu",
+    "rows": [],
+    "note": "Ngụkọta otu ga-agbakwunye na mkpokọta."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Nri bụ 67000 naira. Gas bụ 9000, nkwakọ 10500, na njem 6000. COUNTIF na-agụta ndenye ole onye ọ bụla nwere."
+   ],
+   "card": {
+    "title": "Ego Bisi site na otu",
+    "rows": [
+     [
+      "Nri nri, ntinye 2",
+      "67,000"
+     ],
+     [
+      "Gas, 1 ntinye",
+      "9,000"
+     ],
+     [
+      "Nkwakọ ngwaahịa, 2 ntinye",
+      "10,500"
+     ],
+     [
+      "Ụgbọ njem, ntinye 3",
+      "6,000"
+     ]
+    ],
+    "note": "Ngụkọta otu ga-agbakwunye na mkpokọta."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Ngụkọta ahụ bụ 92500, ọ dabara na SUM nke kọlụm ego ya niile. Na-eme nyocha nke a mgbe niile. Ọ bụrụ na ha dị iche, a na-atụgharị otu udi ma ọ bụ na-efu."
+   ],
+   "card": {
+    "title": "Ego Bisi site na otu",
+    "rows": [
+     [
+      "Nri nri, ntinye 2",
+      "67,000"
+     ],
+     [
+      "Gas, 1 ntinye",
+      "9,000"
+     ],
+     [
+      "Nkwakọ ngwaahịa, 2 ntinye",
+      "10,500"
+     ],
+     [
+      "Ụgbọ njem, ntinye 3",
+      "6,000"
+     ]
+    ],
+    "note": "Ngụkọta otu ga-agbakwunye na mkpokọta."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Ezigbo eserese na-aza otu ajụjụ. Eserese ahịrị na-egosi mgbanwe ka oge na-aga. Chaatị kọlụm na-atụnyere. Otu achịcha na-egosi òkè nke otu dum, nwere naanị ihe dị ka mpekere ise."
+   ],
+   "panel": {
+    "kicker": "Chart",
+    "heading": "Họrọ eserese maka ajụjụ a",
+    "items": [
+     "Gbanwee ka oge na-aga: eserese ahịrị",
+     "Tulee ọnwa ma ọ bụ ngwaahịa: eserese kọlụm",
+     "Oke mmefu: achịcha, ihe dịka mpekere 5",
+     "Isiokwu na-ekwu ozi, nkeji egosiri",
+     "Ogidi na-amalite na efu"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Dịka ọmụmaatụ, Funke na Abeokuta na-esetịpụ ahịa ọnwa isii. Aha ya kwuru na ire ere bilitere 50% site na July ruo Disemba, ọ bụghị naanị Chart 1.",
+    "Ma malite chaatị kọlụm na efu. Axis na-amalite elu na-eme ka obere ịrị elu yie nnukwu."
+   ],
+   "panel": {
+    "kicker": "Chart",
+    "heading": "Họrọ eserese maka ajụjụ a",
+    "items": [
+     "Gbanwee ka oge na-aga: eserese ahịrị",
+     "Tulee ọnwa ma ọ bụ ngwaahịa: eserese kọlụm",
+     "Oke mmefu: achịcha, ihe dịka mpekere 5",
+     "Isiokwu na-ekwu ozi, nkeji egosiri",
+     "Ogidi na-amalite na efu"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Ọ bụrụ na ị na-ere na kredit, SUMIF na kọlụm akwụghị ụgwọ na-enye mkpokọta ụgwọ gị.",
+    "Mana aha, nọmba ekwentị na ụgwọ bụ ozi nkeonwe. Iwu nchekwa data nke Naijiria 2023 na-atụ anya ka ị nakọta naanị ihe ị chọrọ ma chekwaa ya."
+   ],
+   "panel": {
+    "kicker": "Chebe ndị mmadụ",
+    "heading": "Nkọwa ndị ahịa bụ data nkeonwe",
+    "items": [
+     "Chịkọta naanị ihe ị chọrọ",
+     "Machibido onye nwere ike imepe faịlụ ahụ",
+     "Kekọrịta mkpokọta, ọ bụghị ndepụta ndị ahịa"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Kekọrịta mkpokọta na otu, ọ bụghị ndepụta ndị ahịa. Ọ dịghịkwa mgbe biputere ndepụta ndị ji ụgwọ n'ihu ọha iji mee ndị ahịa ihere."
+   ],
+   "panel": {
+    "kicker": "Chebe ndị mmadụ",
+    "heading": "Nkọwa ndị ahịa bụ data nkeonwe",
+    "items": [
+     "Chịkọta naanị ihe ị chọrọ",
+     "Machibido onye nwere ike imepe faịlụ ahụ",
+     "Kekọrịta mkpokọta, ọ bụghị ndepụta ndị ahịa"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Biputela ndepụta ndị ji ụgwọ n'ihu ọha iji mee ndị ahịa ihere",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Icheta. Hazie oke niile. Jiri SUBTOTAL mgbe ị na-enyocha. Ndabere na-aga n'ihu na-asụpe otu.",
+    "Lelee na mkpokọta otu ahụ dabara na mkpokọta. Nyekwa chaatị ọ bụla otu ajụjụ, aha doro anya, na axis site na efu."
+   ],
+   "panel": {
+    "kicker": "Isi ihe",
+    "heading": "Cheta",
+    "items": [
+     "Hazie oke niile, ọ nweghị otu kọlụm",
+     "SUBTOTAL chịkọtara naanị ahịrị a na-ahụ anya",
+     "Ndabere na-aga n'ihu na-asụpe otu",
+     "Ngụkọta otu ga-adakọrịrị na mkpokọta",
+     "Otu ajụjụ kwa chaatị, axis si efu"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Ugbu a oge gị. Jiri ndetu ndị adaala dozie ihe egwu gị, jiri SUMIF rụọ taabụ nchịkọta, wee mee eserese abụọ nwere aha na-ekwupụta ozi ahụ.",
+    "Gaa n'ihu na nkuzi ndị dị n'okpuru."
+   ],
+   "panel": {
+    "kicker": "Mee ọrụ",
+    "heading": "Ọrụ omume gị",
+    "items": [
+     "Jiri ndapụta dozie ihe egwu gị",
+     "Jiri SUMIF mee taabụ nchịkọta",
+     "Hazie azụmahịa gị"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

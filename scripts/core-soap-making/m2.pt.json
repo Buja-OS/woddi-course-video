@@ -1,0 +1,595 @@
+{
+ "course": "core-soap-making",
+ "module": "m2",
+ "title": "Seu primeiro lote: calculando soda cáustica e fazendo barras para processo a frio",
+ "course_title": "Fabricação de sabonetes para pequenas empresas: barras de processo a frio e sabonete líquido simples",
+ "shots": [
+  {
+   "demo": "title_soap",
+   "say": [
+    "Seu primeiro lote: cálculo de soda cáustica e fabricação de barras para processo a frio.",
+    "Este é o vídeo do Módulo 2 de Fabricação de Sabonetes para Pequenas Empresas."
+   ]
+  },
+  {
+   "demo": "caustic_flakes",
+   "say": [
+    "Acertar a quantidade de soda cáustica é o que torna o sabonete seguro. Muita soda cáustica deixa uma barra dura que pode queimar."
+   ],
+   "panel": {
+    "kicker": "Por que a matemática é importante",
+    "heading": "Acertar a soda cáustica mantém o sabão seguro",
+    "items": [
+     "Muita soda cáustica: uma barra dura e ardente",
+     "Muito pouco: uma barra gordurosa e macia que fica rançosa",
+     "Calcule manualmente e depois verifique no SoapCalc",
+     "Nunca troque soda cáustica e potassa cáustica"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "caustic_flakes",
+   "say": [
+    "Muito pouco deixa uma barra gordurosa e macia que pode ficar rançosa."
+   ],
+   "panel": {
+    "kicker": "Por que a matemática é importante",
+    "heading": "Acertar a soda cáustica mantém o sabão seguro",
+    "items": [
+     "Muita soda cáustica: uma barra dura e ardente",
+     "Muito pouco: uma barra gordurosa e macia que fica rançosa",
+     "Calcule manualmente e depois verifique no SoapCalc",
+     "Nunca troque soda cáustica e potassa cáustica"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "lye_mix",
+   "say": [
+    "Então você calcula à mão, para entender, e depois verifica na calculadora gratuita do SoapCalc, para nunca confiar apenas na sua aritmética."
+   ],
+   "panel": {
+    "kicker": "Por que a matemática é importante",
+    "heading": "Acertar a soda cáustica mantém o sabão seguro",
+    "items": [
+     "Muita soda cáustica: uma barra dura e ardente",
+     "Muito pouco: uma barra gordurosa e macia que fica rançosa",
+     "Calcule manualmente e depois verifique no SoapCalc",
+     "Nunca troque soda cáustica e potassa cáustica"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "lye_mix",
+   "say": [
+    "E a soda cáustica e a potassa cáustica têm valores SAP diferentes. Uma receita feita para um nunca pode ser usada com o outro."
+   ],
+   "panel": {
+    "kicker": "Por que a matemática é importante",
+    "heading": "Acertar a soda cáustica mantém o sabão seguro",
+    "items": [
+     "Muita soda cáustica: uma barra dura e ardente",
+     "Muito pouco: uma barra gordurosa e macia que fica rançosa",
+     "Calcule manualmente e depois verifique no SoapCalc",
+     "Nunca troque soda cáustica e potassa cáustica"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "caustic_flakes",
+   "say": [
+    "Por exemplo, Amaka planeja 1.000 g de óleos. Óleo de palma 500 g, óleo de palmiste 300 g, manteiga de karité 150 g e óleo de rícino 50 g."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Amaka calcula sua soda cáustica",
+    "items": [
+     "Cada óleo x seu valor SAP, por ex. palma 500 x 0,142",
+     "Some-os: 149,4 g com 0% de supergordura",
+     "5% supergordo: 149,4 x 0,95 = 141,9 g",
+     "Água a 33%: 141,9 / 0,33 menos 141,9",
+     "Pesar 142 g de soda cáustica e 288 g de água"
+    ],
+    "show": 0,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "caustic_flakes",
+   "say": [
+    "Primeiro passo. Multiplique cada óleo pelo seu valor SAP. O óleo de palma é 500 vezes 0,142, o que equivale a 71,0 g de soda cáustica. Ela faz o mesmo para cada óleo."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Amaka calcula sua soda cáustica",
+    "items": [
+     "Cada óleo x seu valor SAP, por ex. palma 500 x 0,142",
+     "Some-os: 149,4 g com 0% de supergordura",
+     "5% supergordo: 149,4 x 0,95 = 141,9 g",
+     "Água a 33%: 141,9 / 0,33 menos 141,9",
+     "Pesar 142 g de soda cáustica e 288 g de água"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "caustic_flakes",
+   "say": [
+    "Etapa dois. Adicione todos eles. 71,0, mais 52,8, mais 19,2, mais 6,4, dá 149,4 g."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Amaka calcula sua soda cáustica",
+    "items": [
+     "Cada óleo x seu valor SAP, por ex. palma 500 x 0,142",
+     "Some-os: 149,4 g com 0% de supergordura",
+     "5% supergordo: 149,4 x 0,95 = 141,9 g",
+     "Água a 33%: 141,9 / 0,33 menos 141,9",
+     "Pesar 142 g de soda cáustica e 288 g de água"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "caustic_flakes",
+   "say": [
+    "Etapa três. Aplique o superfaturado. Superfat é um pouco de óleo deixado propositalmente como margem de segurança. Para 5%, multiplique por 0,95. Isso dá 141,9 g."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Amaka calcula sua soda cáustica",
+    "items": [
+     "Cada óleo x seu valor SAP, por ex. palma 500 x 0,142",
+     "Some-os: 149,4 g com 0% de supergordura",
+     "5% supergordo: 149,4 x 0,95 = 141,9 g",
+     "Água a 33%: 141,9 / 0,33 menos 141,9",
+     "Pesar 142 g de soda cáustica e 288 g de água"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "oils_lineup",
+   "say": [
+    "Etapa quatro. Trabalhe a água. Divida a soda cáustica por 0,33, o que dá 430,0 g de solução, depois retire a soda cáustica. Isso deixa 288,1 g de água."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Amaka calcula sua soda cáustica",
+    "items": [
+     "Cada óleo x seu valor SAP, por ex. palma 500 x 0,142",
+     "Some-os: 149,4 g com 0% de supergordura",
+     "5% supergordo: 149,4 x 0,95 = 141,9 g",
+     "Água a 33%: 141,9 / 0,33 menos 141,9",
+     "Pesar 142 g de soda cáustica e 288 g de água"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "oils_lineup",
+   "say": [
+    "Portanto, Amaka pesa 142 g de soda cáustica e 288 g de água. Nunca arredonde a soda cáustica em mais de um grama."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Amaka calcula sua soda cáustica",
+    "items": [
+     "Cada óleo x seu valor SAP, por ex. palma 500 x 0,142",
+     "Some-os: 149,4 g com 0% de supergordura",
+     "5% supergordo: 149,4 x 0,95 = 141,9 g",
+     "Água a 33%: 141,9 / 0,33 menos 141,9",
+     "Pesar 142 g de soda cáustica e 288 g de água"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "oils_lineup",
+   "say": [
+    "Então ela insere a mesma receita no SoapCalc. Se as respostas concordarem em um ou dois gramas, ela está pronta. Uma grande diferença significa um erro."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Amaka calcula sua soda cáustica",
+    "items": [
+     "Cada óleo x seu valor SAP, por ex. palma 500 x 0,142",
+     "Some-os: 149,4 g com 0% de supergordura",
+     "5% supergordo: 149,4 x 0,95 = 141,9 g",
+     "Água a 33%: 141,9 / 0,33 menos 141,9",
+     "Pesar 142 g de soda cáustica e 288 g de água"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Dois cálculos que concordam lhe dão confiança para misturar.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "lye_mix",
+   "say": [
+    "Agora o lote. Óculos de proteção, luvas e mangas compridas, crianças e animais de estimação fora. Forre o molde e derreta suavemente os óleos sólidos."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Fazendo o lote",
+    "items": [
+     "Equipamento de segurança colocado, molde forrado, óleos derretidos",
+     "Misture solução de soda cáustica; resfrie ambos a 35 a 45 °C",
+     "Despeje soda cáustica nos óleos; pulsar 3 a 5 segundos, mexa",
+     "Traço leve: adicione fragrância e despeje",
+     "Descanse 24 a 48 horas, corte, cure 4 a 6 semanas"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "lye_mix",
+   "say": [
+    "Adicione soda cáustica à água, em local ventilado. Muitos iniciantes combinam quando a soda cáustica e os óleos estão entre 35 e 45 graus Celsius. Anote ambas as temperaturas."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Fazendo o lote",
+    "items": [
+     "Equipamento de segurança colocado, molde forrado, óleos derretidos",
+     "Misture solução de soda cáustica; resfrie ambos a 35 a 45 °C",
+     "Despeje soda cáustica nos óleos; pulsar 3 a 5 segundos, mexa",
+     "Traço leve: adicione fragrância e despeje",
+     "Descanse 24 a 48 horas, corte, cure 4 a 6 semanas"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "lye_mix",
+   "say": [
+    "Despeje a soda cáustica lentamente nos óleos no eixo do liquidificador. Pulse o liquidificador por 3 a 5 segundos, mexa e repita."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Fazendo o lote",
+    "items": [
+     "Equipamento de segurança colocado, molde forrado, óleos derretidos",
+     "Misture solução de soda cáustica; resfrie ambos a 35 a 45 °C",
+     "Despeje soda cáustica nos óleos; pulsar 3 a 5 segundos, mexa",
+     "Traço leve: adicione fragrância e despeje",
+     "Descanse 24 a 48 horas, corte, cure 4 a 6 semanas"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "ppe_set",
+   "say": [
+    "Pare no traço leve, quando uma garoa deixa uma linha tênue na superfície, como um creme fino. Adicione a fragrância e despeje."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Fazendo o lote",
+    "items": [
+     "Equipamento de segurança colocado, molde forrado, óleos derretidos",
+     "Misture solução de soda cáustica; resfrie ambos a 35 a 45 °C",
+     "Despeje soda cáustica nos óleos; pulsar 3 a 5 segundos, mexa",
+     "Traço leve: adicione fragrância e despeje",
+     "Descanse 24 a 48 horas, corte, cure 4 a 6 semanas"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "ppe_set",
+   "say": [
+    "Deixe coberto por 24 a 48 horas, longe do alcance das crianças. Em seguida, corte em barras e cure-as em uma gradinha por 4 a 6 semanas, virando-as a cada poucos dias."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Fazendo o lote",
+    "items": [
+     "Equipamento de segurança colocado, molde forrado, óleos derretidos",
+     "Misture solução de soda cáustica; resfrie ambos a 35 a 45 °C",
+     "Despeje soda cáustica nos óleos; pulsar 3 a 5 segundos, mexa",
+     "Traço leve: adicione fragrância e despeje",
+     "Descanse 24 a 48 horas, corte, cure 4 a 6 semanas"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "ppe_set",
+   "say": [
+    "Até que a reação termine, a massa pode queimar a pele. Mantenha as luvas calçadas e nunca deixe ninguém tocar ou provar sabão fresco."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Fazendo o lote",
+    "items": [
+     "Equipamento de segurança colocado, molde forrado, óleos derretidos",
+     "Misture solução de soda cáustica; resfrie ambos a 35 a 45 °C",
+     "Despeje soda cáustica nos óleos; pulsar 3 a 5 segundos, mexa",
+     "Traço leve: adicione fragrância e despeje",
+     "Descanse 24 a 48 horas, corte, cure 4 a 6 semanas"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "O sabão fresco ainda é cáustico. Luvas até que esteja curando.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Se a massa engrossar repentinamente e ficar grumosa, o que é chamado de gripagem, geralmente é a fragrância ou a mistura muito quente. Pressione-o no molde rapidamente e anote em seu registro."
+   ],
+   "panel": {
+    "kicker": "Se algo parece errado",
+    "heading": "Problemas do dia",
+    "items": [
+     "Nódulos repentinos (apreensão): atuam rápido, nota a fragrância",
+     "Poças de óleo e não rastreiam: verifique sua pesagem",
+     "Rachaduras ou mancha escura e úmida: sabão superaquecido"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Se o óleo acumular na parte superior e não deixar vestígios, verifique se você pesou a soda cáustica corretamente. Se não tiver certeza, não venda este lote."
+   ],
+   "panel": {
+    "kicker": "Se algo parece errado",
+    "heading": "Problemas do dia",
+    "items": [
+     "Nódulos repentinos (apreensão): atuam rápido, nota a fragrância",
+     "Poças de óleo e não rastreiam: verifique sua pesagem",
+     "Rachaduras ou mancha escura e úmida: sabão superaquecido"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laundry_bars",
+   "say": [
+    "Rachaduras ou uma mancha escura e úmida após um dia significam superaquecimento. Em clima quente, pule a toalha e guarde o molde em local fresco."
+   ],
+   "panel": {
+    "kicker": "Se algo parece errado",
+    "heading": "Problemas do dia",
+    "items": [
+     "Nódulos repentinos (apreensão): atuam rápido, nota a fragrância",
+     "Poças de óleo e não rastreiam: verifique sua pesagem",
+     "Rachaduras ou mancha escura e úmida: sabão superaquecido"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "combine_pour",
+   "say": [
+    "As pessoas chamam dois produtos diferentes de sabonete líquido. O verdadeiro sabonete líquido é cozido a partir de óleos e hidróxido de potássio até formar uma pasta e depois diluído em água quente. Todas as regras de segurança da soda cáustica se aplicam."
+   ],
+   "panel": {
+    "kicker": "Sabonete líquido",
+    "heading": "Dois tipos de sabonete líquido",
+    "mode": "compare",
+    "left_h": "Verdadeiro sabonete líquido",
+    "left": [
+     "Óleos mais hidróxido de potássio",
+     "Cozido até formar uma pasta e depois diluído",
+     "Precisa de um cálculo de soda cáustica"
+    ],
+    "right_h": "Lavagem líquida de barril",
+    "right": [
+     "SLES mais água e sal",
+     "Mistura fria simples",
+     "Barato, popular para pratos"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "stir_trace",
+   "say": [
+    "A lavagem de barril é um detergente líquido feito de SLES, geralmente vendido como texapon. Você dilui em água e engrossa com sal, aos poucos. Muito sal torna-o fino novamente.",
+    "Ambos podem ser bons produtos. Basta rotular cada um honestamente."
+   ],
+   "panel": {
+    "kicker": "Sabonete líquido",
+    "heading": "Dois tipos de sabonete líquido",
+    "mode": "compare",
+    "left_h": "Verdadeiro sabonete líquido",
+    "left": [
+     "Óleos mais hidróxido de potássio",
+     "Cozido até formar uma pasta e depois diluído",
+     "Precisa de um cálculo de soda cáustica"
+    ],
+    "right_h": "Lavagem líquida de barril",
+    "right": [
+     "SLES mais água e sal",
+     "Mistura fria simples",
+     "Barato, popular para pratos"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "ppe_set",
+   "say": [
+    "Use luvas e óculos de proteção em ambos os percursos."
+   ],
+   "panel": {
+    "kicker": "Fique seguro",
+    "heading": "Três regras de segurança para produtos líquidos",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Luvas e óculos de proteção",
+      "d": "A pasta SLES irrita os olhos e a pele. A potassa cáustica precisa de segurança total com soda cáustica."
+     },
+     {
+      "t": "Sem formalina",
+      "d": "Use um conservante cosmético de acordo com a taxa indicada pelo fornecedor. Nunca formol."
+     },
+     {
+      "t": "Teste por uma semana",
+      "d": "Verifique diariamente uma garrafa cheia quanto a separação, turvação, cheiro ou mofo."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "ppe_set",
+   "say": [
+    "Algumas receitas locais adicionam formalina como conservante. O formaldeído é classificado como uma substância causadora de câncer. Use um conservante cosmético adequado."
+   ],
+   "panel": {
+    "kicker": "Fique seguro",
+    "heading": "Três regras de segurança para produtos líquidos",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Luvas e óculos de proteção",
+      "d": "A pasta SLES irrita os olhos e a pele. A potassa cáustica precisa de segurança total com soda cáustica."
+     },
+     {
+      "t": "Sem formalina",
+      "d": "Use um conservante cosmético de acordo com a taxa indicada pelo fornecedor. Nunca formol."
+     },
+     {
+      "t": "Teste por uma semana",
+      "d": "Verifique diariamente uma garrafa cheia quanto a separação, turvação, cheiro ou mofo."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cure_rack",
+   "say": [
+    "E teste cada nova receita por uma semana antes de vendê-la, verificando todos os dias se há separação, turvação, mudança de cheiro ou mofo."
+   ],
+   "panel": {
+    "kicker": "Fique seguro",
+    "heading": "Três regras de segurança para produtos líquidos",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Luvas e óculos de proteção",
+      "d": "A pasta SLES irrita os olhos e a pele. A potassa cáustica precisa de segurança total com soda cáustica."
+     },
+     {
+      "t": "Sem formalina",
+      "d": "Use um conservante cosmético de acordo com a taxa indicada pelo fornecedor. Nunca formol."
+     },
+     {
+      "t": "Teste por uma semana",
+      "d": "Verifique diariamente uma garrafa cheia quanto a separação, turvação, cheiro ou mofo."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "mould_pour",
+   "say": [
+    "Para lembrar. Lye é o peso do óleo vezes o valor SAP. Multiplique por 0,95 para obter 5% de superfat. Sempre verifique no SoapCalc. Combine quente, cure completamente e nunca use formalina."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Lembre-se",
+    "items": [
+     "Lixívia = peso do óleo x valor SAP, para cada óleo",
+     "Multiplique por 0,95 para obter 5% de superfat",
+     "Verifique seu cálculo manual no SoapCalc",
+     "Combinar a cerca de 35 a 45 °C, curar 4 a 6 semanas",
+     "Produtos líquidos precisam de um conservante adequado"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "cut_bars",
+   "say": [
+    "Agora faça um pequeno lote de teste com registro de lote completo, calcule sua própria receita manualmente e no SoapCalc e experimente um sabonete líquido de 1 kg.",
+    "Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Pratique tarefas",
+    "heading": "Sua prática para este módulo",
+    "items": [
+     "Faça um pequeno lote de teste com um registro de lote",
+     "Calcule sua própria receita e confira no SoapCalc",
+     "Faça um teste de lavagem com líquido de 1 kg"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}
