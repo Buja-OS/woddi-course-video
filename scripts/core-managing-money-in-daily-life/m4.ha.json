@@ -1,0 +1,426 @@
+{
+ "course": "core-managing-money-in-daily-life",
+ "module": "m4",
+ "title": "Rikodin kuɗin ku, labarin ku da kwanaki 90 na gaba",
+ "course_title": "Sarrafa Kuɗi A Rayuwar Yau",
+ "shots": [
+  {
+   "demo": "cash_count",
+   "say": [
+    "Rikodin kuɗin ku, labarin ku da kwanaki 90 na gaba.",
+    "Wannan shi ne bidiyo don tsari na huɗu na Sarrafa Kuɗi a Rayuwar yau da kullun."
+   ]
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Aikin ku na ƙarshe ba shine gwajin adadin kuɗin da kuke da shi ba. Shaida ce cewa zaku iya gani, fahimta da canza kuɗin ku na yau da kullun.",
+    "Kyautar Naira 1,500 a mako wanda gaskiya ne ya fi daraja fiye da cikakken tarihin da ba haka ba."
+   ],
+   "panel": {
+    "kicker": "Aikin ku na ƙarshe",
+    "heading": "Tabbacin cewa zaku iya canza kuɗin ku",
+    "items": [
+     "A: rikodin kashe kuɗi na mako biyu",
+     "B: Rahoton canjin tsari",
+     "C: tebur ci gaba",
+     "D: Tsarin kwanaki 90"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Sashe na A shine rikodin kashe kuɗin ku na mako biyu, tare da jimlar yau da kullun da nau'i. Sashe na B rahoto ne mai shafi ɗaya akan tsarin kashe kuɗi ɗaya da kuka canza."
+   ],
+   "panel": {
+    "kicker": "Aikin ku na ƙarshe",
+    "heading": "Tabbacin cewa zaku iya canza kuɗin ku",
+    "items": [
+     "A: rikodin kashe kuɗi na mako biyu",
+     "B: Rahoton canjin tsari",
+     "C: tebur ci gaba",
+     "D: Tsarin kwanaki 90"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Sashe na C shine teburin ci gaban ku tare da matakan mako biyar. Sashe na D shine shirin ku na kwanaki 90."
+   ],
+   "panel": {
+    "kicker": "Aikin ku na ƙarshe",
+    "heading": "Tabbacin cewa zaku iya canza kuɗin ku",
+    "items": [
+     "A: rikodin kashe kuɗi na mako biyu",
+     "B: Rahoton canjin tsari",
+     "C: tebur ci gaba",
+     "D: Tsarin kwanaki 90"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Tara duk bayanan ku na yau da kullun na makonni biyu. Duba kowane shigarwa yana da nau'i. Sanya wani abu da ba a sani ba a cikin wanda ba a sani ba maimakon zato."
+   ],
+   "panel": {
+    "kicker": "Sashe A",
+    "heading": "Gyara rikodin ku na mako biyu",
+    "items": [
+     "Tattara duk bayananku na kwanaki 14",
+     "Ba kowane shigarwa rukuni",
+     "Tabbatar da maganganunku",
+     "Jimillar rukuni dole ne yayi daidai da jimlar yau da kullun",
+     "Boye bayanan sirri"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Bincika kashe kuɗin dijital ɗin ku akan bayanan banki da walat ɗin ku na rana ɗaya. Sa'an nan a jimla kowace rana da kowane nau'i, kuma tabbatar da cewa duka biyu sun haɗu zuwa adadi ɗaya."
+   ],
+   "panel": {
+    "kicker": "Sashe A",
+    "heading": "Gyara rikodin ku na mako biyu",
+    "items": [
+     "Tattara duk bayananku na kwanaki 14",
+     "Ba kowane shigarwa rukuni",
+     "Tabbatar da maganganunku",
+     "Jimillar rukuni dole ne yayi daidai da jimlar yau da kullun",
+     "Boye bayanan sirri"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Kafin kayi hoto ko loda wani abu, boye lambobin asusunka, lambobin katin, BVN da bayanan kasuwanci. Rukunin ku da adadin ku sun isa. Kar a taɓa loda cikakken bayanin banki."
+   ],
+   "panel": {
+    "kicker": "Sashe A",
+    "heading": "Gyara rikodin ku na mako biyu",
+    "items": [
+     "Tattara duk bayananku na kwanaki 14",
+     "Ba kowane shigarwa rukuni",
+     "Tabbatar da maganganunku",
+     "Jimillar rukuni dole ne yayi daidai da jimlar yau da kullun",
+     "Boye bayanan sirri"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Boye lambobin asusu, lambobin katin da BVN kafin rabawa.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Yi amfani da gajerun jigogi guda biyar: tsari, shaida, ƙa'ida, sakamako, da abin da kuka koya.",
+    "Misalin Esther ya kasance kari ne na keke da okada, domin ta siyo kayan biredi a ranaku daban-daban. Rikodin nata ya nuna 9 cikin 22 tafiye-tafiye na sinadari ne."
+   ],
+   "card": {
+    "title": "Rahoton canjin tsari",
+    "rows": [],
+    "note": "An adana sama da makonni huɗu. Figures masu kwatanta."
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Shaidar ta: a sati na 1 da 2, sufuri ya kai Naira 7,200 a mako."
+   ],
+   "card": {
+    "title": "Rahoton canjin tsari",
+    "rows": [
+     [
+      "Transport kafin, kowane mako",
+      "7,200"
+     ]
+    ],
+    "note": "An adana sama da makonni huɗu. Figures masu kwatanta."
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Dokarta: siyan duk kayan abinci a cikin tafiya ɗaya kowace Asabar tare da jerin rubuce-rubuce. A cikin makonni 3 da 4, matsakaicin sufuri ya kai 5,000."
+   ],
+   "card": {
+    "title": "Rahoton canjin tsari",
+    "rows": [
+     [
+      "Transport kafin, kowane mako",
+      "7,200"
+     ],
+     [
+      "Transport bayan, kowane mako",
+      "5,000"
+     ]
+    ],
+    "note": "An adana sama da makonni huɗu. Figures masu kwatanta."
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Ta ajiye naira 2,200 a sati, kusan 8,800 a cikin sati hudu, sannan ta mayar da ita a buffer dinta. Wato kusan kashi 31 cikin 100 na kudaden da take kashewa wajen sufuri.",
+    "Idan canjin ku bai yi aiki ba, ba da rahoto ta gaskiya ko ta yaya, kuma ku faɗi abin da za ku gwada na gaba. Wannan yana nuna koyo."
+   ],
+   "card": {
+    "title": "Rahoton canjin tsari",
+    "rows": [
+     [
+      "Transport kafin, kowane mako",
+      "7,200"
+     ],
+     [
+      "Transport bayan, kowane mako",
+      "5,000"
+     ],
+     [
+      "Ajiye a kowane mako",
+      "2,200"
+     ]
+    ],
+    "note": "An adana sama da makonni huɗu. Figures masu kwatanta."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Halin kuɗi da wuya ya canza a cikin mutum ɗaya shi kaɗai. Amma mutane suna kashe lokacin da suka ji an hukunta su. Cewa 'ku jama'a ku ba da kuɗi' ya fara jayayya."
+   ],
+   "panel": {
+    "kicker": "Magana akan kudi",
+    "heading": "Yadda kuka ce yana da mahimmanci",
+    "mode": "compare",
+    "left_h": "Wa'azi",
+    "left": [
+     "'Kana bata kudi'",
+     "Nasiha gabaɗaya",
+     "Mai da hankali kan laifin wasu",
+     "Babu lambobi"
+    ],
+    "right_h": "Taimako",
+    "right": [
+     "'Ga abin da na samo'",
+     "Hanya ta musamman",
+     "Raba sakamakon ku",
+     "alkaluman naira na gaske"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Madadin haka, raba sakamakon ku tare da ainihin lamba. Misali: Na tarar ina kashe kusan Naira 2,000 a mako don karin hawan keke, kuma shirin tafiya daya a ranar Asabar ya daidaita mafi yawansa."
+   ],
+   "panel": {
+    "kicker": "Magana akan kudi",
+    "heading": "Yadda kuka ce yana da mahimmanci",
+    "mode": "compare",
+    "left_h": "Wa'azi",
+    "left": [
+     "'Kana bata kudi'",
+     "Nasiha gabaɗaya",
+     "Mai da hankali kan laifin wasu",
+     "Babu lambobi"
+    ],
+    "right_h": "Taimako",
+    "right": [
+     "'Ga abin da na samo'",
+     "Hanya ta musamman",
+     "Raba sakamakon ku",
+     "alkaluman naira na gaske"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Zabi lokacin kwanciyar hankali, ba ranar da lissafin ya ƙare ba. Fara da abin da ke tafiya da kyau, sannan nuna lamba ɗaya da ke buƙatar taimako."
+   ],
+   "panel": {
+    "kicker": "Magana a gida",
+    "heading": "A kwantar da hankula kudi magana a cikin 15 minutes",
+    "items": [
+     "Fara da abin da ke tafiya da kyau",
+     "Nuna lamba ɗaya mai buƙatar taimako",
+     "Ka tambayi ra'ayoyinsu tukuna",
+     "Yarda da aiki daya da wanda ya aikata shi",
+     "Yarda lokacin sake dubawa"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Nemi ra'ayoyi kafin bada naku. Yarda da aiki daya, kuma wa zai yi."
+   ],
+   "panel": {
+    "kicker": "Magana a gida",
+    "heading": "A kwantar da hankula kudi magana a cikin 15 minutes",
+    "items": [
+     "Fara da abin da ke tafiya da kyau",
+     "Nuna lamba ɗaya mai buƙatar taimako",
+     "Ka tambayi ra'ayoyinsu tukuna",
+     "Yarda da aiki daya da wanda ya aikata shi",
+     "Yarda lokacin sake dubawa"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Yarda lokacin da zaku sake duba lambar. A cikin rukuni, kar ka taɓa tambayar kowa ya faɗi abin da ya samu ko basussuka da ƙarfi, kuma kada ka taɓa raba alkaluman wani ba tare da izini ba."
+   ],
+   "panel": {
+    "kicker": "Magana a gida",
+    "heading": "A kwantar da hankula kudi magana a cikin 15 minutes",
+    "items": [
+     "Fara da abin da ke tafiya da kyau",
+     "Nuna lamba ɗaya mai buƙatar taimako",
+     "Ka tambayi ra'ayoyinsu tukuna",
+     "Yarda da aiki daya da wanda ya aikata shi",
+     "Yarda lokacin sake dubawa"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Kada a taɓa raba adadi ko basussukan wani ba tare da izini ba.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Zaɓi burin ku na gaba daga mafi ƙarancin ma'aunin ku. Amina ta cika kwana 2 kacal, don haka burinta ya cika kwana 14 a cikin kwanaki 90, wato kusan sati 13."
+   ],
+   "card": {
+    "title": "Shirin buffer na kwanaki 90",
+    "rows": [],
+    "note": "Misalai masu kwatanta daga kwas."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Buffer din da ta ke nema shine sau 14 sau 4,000, wato naira 56,000. Ta riga tana da 8,000, don haka tana buƙatar ƙarin 48,000."
+   ],
+   "card": {
+    "title": "Shirin buffer na kwanaki 90",
+    "rows": [
+     [
+      "manufa: kwanaki 14 x 4,000",
+      "56,000"
+     ],
+     [
+      "Har yanzu ana buƙata bayan 8,000",
+      "48,000"
+     ]
+    ],
+    "note": "Misalai masu kwatanta daga kwas."
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "48,000 a cikin sati 13 kusan naira 3,700 ne a sati. Ya fito ne daga 2,200 da ta riga ta tanada akan sufuri, da 1,500 daga yanke buƙatun.",
+    "Ta kafa wuraren bincike a mako na 4, mako na 8 da mako na 13. Idan ta fadi a baya, ta rage abin da ake nufi ko kuma ta sami wani ɗigo. Bata barin shirin."
+   ],
+   "card": {
+    "title": "Shirin buffer na kwanaki 90",
+    "rows": [
+     [
+      "manufa: kwanaki 14 x 4,000",
+      "56,000"
+     ],
+     [
+      "Har yanzu ana buƙata bayan 8,000",
+      "48,000"
+     ],
+     [
+      "A kowane mako sama da makonni 13",
+      "3,700"
+     ]
+    ],
+    "note": "Misalai masu kwatanta daga kwas."
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Don tunawa. Bayanan gaskiya sun doke masu kyan gani. Rubuta rahoton ku tare da tsari, shaida, doka da sakamako. Boye bayanan sirri. Raba sakamakon ku da kyau. Kuma juya burin ku na gaba zuwa adadin mako-mako tare da wuraren bincike."
+   ],
+   "panel": {
+    "kicker": "Mabuɗin mahimmanci",
+    "heading": "Ka tuna",
+    "items": [
+     "Bayanan gaskiya sun doke masu kyan gani",
+     "Rahoton: tsari, shaida, mulki, sakamako",
+     "Boye bayanan sirri kafin rabawa",
+     "Raba sakamakon ku, da kyau",
+     "Adadin mako-mako tare da wuraren bincike na kwanaki 90"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Yanzu haɗa babban fayil ɗin aikin ku, riƙe tattaunawar kuɗi mai kwantar da hankali, rubuta shirinku na kwanaki 90 tare da wuraren bincike uku, sannan ku kammala tambayoyin ƙarshe.",
+    "Ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi aiki",
+    "heading": "Ayyukanku na wannan tsarin",
+    "items": [
+     "Haɗa babban fayil ɗin aikin ku",
+     "Riƙe tattaunawar kuɗi ɗaya",
+     "Rubuta shirin ku na kwanaki 90",
+     "Kammala tambayoyin ƙarshe"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

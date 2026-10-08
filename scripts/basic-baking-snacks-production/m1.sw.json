@@ -1,0 +1,591 @@
+{
+ "course": "basic-baking-snacks-production",
+ "module": "m1",
+ "title": "Kuweka ili kuoka kwa ajili ya kuuza: kupima, kupima na kukaa salama",
+ "course_title": "Uzalishaji wa Msingi wa Kuoka na Vitafunio: Vikundi Vidogo Vidogo Vinavyouzwa kwa Mikono",
+ "shots": [
+  {
+   "demo": "oven_tray",
+   "say": [
+    "Inaweka ili kuoka kwa mauzo: pima, jaribu na usalie.",
+    "Hii ni video ya moduli ya 1 ya Utayarishaji wa Msingi wa Kuoka na Vitafunio."
+   ]
+  },
+  {
+   "demo": "dough_knead",
+   "say": [
+    "Unapooka kwa kuuza, kila bun lazima iwe sawa. Kikombe cha unga huwa na uzito tofauti kila wakati, kwa hivyo tumia mizani ya kidijitali inayosoma katika hatua za g 1.",
+    "Weka bakuli tupu kwenye kiwango na bonyeza tare, kwa hivyo inaonyesha sifuri."
+   ],
+   "panel": {
+    "kicker": "Tabia namba moja",
+    "heading": "Pima kila kitu kwa mizani",
+    "items": [
+     "Bakuli kwenye mizani, bonyeza tare kuonyesha 0 g",
+     "Ongeza kiungo polepole kwa uzito unaolengwa",
+     "Bonyeza tare tena kabla ya kiungo kinachofuata",
+     "Ngazi kiasi kidogo katika vijiko vya kupimia",
+     "Andika uzito halisi kwenye batch sheet yako"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "dough_knead",
+   "say": [
+    "Ongeza kiungo polepole. Kijiko nje yoyote ya ziada. Usiimimine tena kwenye mfuko na kijiko cha mvua."
+   ],
+   "panel": {
+    "kicker": "Tabia namba moja",
+    "heading": "Pima kila kitu kwa mizani",
+    "items": [
+     "Bakuli kwenye mizani, bonyeza tare kuonyesha 0 g",
+     "Ongeza kiungo polepole kwa uzito unaolengwa",
+     "Bonyeza tare tena kabla ya kiungo kinachofuata",
+     "Ngazi kiasi kidogo katika vijiko vya kupimia",
+     "Andika uzito halisi kwenye batch sheet yako"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "dough_knead",
+   "say": [
+    "Tare tena kabla ya inayofuata."
+   ],
+   "panel": {
+    "kicker": "Tabia namba moja",
+    "heading": "Pima kila kitu kwa mizani",
+    "items": [
+     "Bakuli kwenye mizani, bonyeza tare kuonyesha 0 g",
+     "Ongeza kiungo polepole kwa uzito unaolengwa",
+     "Bonyeza tare tena kabla ya kiungo kinachofuata",
+     "Ngazi kiasi kidogo katika vijiko vya kupimia",
+     "Andika uzito halisi kwenye batch sheet yako"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "flour_weigh",
+   "say": [
+    "Kwa chumvi, nutmeg au chachu chini ya 10 g, tumia vijiko vya kupimia vilivyowekwa kwa kisu."
+   ],
+   "panel": {
+    "kicker": "Tabia namba moja",
+    "heading": "Pima kila kitu kwa mizani",
+    "items": [
+     "Bakuli kwenye mizani, bonyeza tare kuonyesha 0 g",
+     "Ongeza kiungo polepole kwa uzito unaolengwa",
+     "Bonyeza tare tena kabla ya kiungo kinachofuata",
+     "Ngazi kiasi kidogo katika vijiko vya kupimia",
+     "Andika uzito halisi kwenye batch sheet yako"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "flour_weigh",
+   "say": [
+    "Andika uzito halisi kwenye batch sheet yako. Hifadhi unga na sukari iliyotiwa muhuri na nje ya sakafu, fungua pakiti za lebo ya tarehe, na utumie kongwe kwanza."
+   ],
+   "panel": {
+    "kicker": "Tabia namba moja",
+    "heading": "Pima kila kitu kwa mizani",
+    "items": [
+     "Bakuli kwenye mizani, bonyeza tare kuonyesha 0 g",
+     "Ongeza kiungo polepole kwa uzito unaolengwa",
+     "Bonyeza tare tena kabla ya kiungo kinachofuata",
+     "Ngazi kiasi kidogo katika vijiko vya kupimia",
+     "Andika uzito halisi kwenye batch sheet yako"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Kila bun lazima ionekane, ionje na iwe na uzito sawa na ile ya mwisho.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "oven_tray",
+   "say": [
+    "Mawakala wa kuinua hupoteza nguvu kutokana na umri, joto na unyevu, na kundi la gorofa hupoteza unga, mafuta na gesi. Basi wajaribuni jioni iliyotangulia.",
+    "Koroga kijiko cha nusu cha unga wa kuoka katika maji ya moto. Inapaswa kuteleza kwa nguvu mara moja."
+   ],
+   "panel": {
+    "kicker": "Jioni kabla",
+    "heading": "Jaribu mawakala wako wa kukuza",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Poda ya kuoka",
+      "d": "Nusu ya kijiko katika vijiko vichache vya maji ya moto. Inapaswa kuteleza kwa nguvu mara moja."
+     },
+     {
+      "t": "Soda ya kuoka",
+      "d": "Bana katika kijiko cha siki au maji ya limao. Inapaswa kuteleza mara moja."
+     },
+     {
+      "t": "Chachu",
+      "d": "Kijiko 1 cha chachu, kijiko 1 cha sukari, karibu 60 ml ya maji ya uvuguvugu. Povu baada ya kama dakika 10."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "oven_tray",
+   "say": [
+    "Ongeza pinch ya soda ya kuoka kwa siki au maji ya limao. Inapaswa kuteleza mara moja."
+   ],
+   "panel": {
+    "kicker": "Jioni kabla",
+    "heading": "Jaribu mawakala wako wa kukuza",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Poda ya kuoka",
+      "d": "Nusu ya kijiko katika vijiko vichache vya maji ya moto. Inapaswa kuteleza kwa nguvu mara moja."
+     },
+     {
+      "t": "Soda ya kuoka",
+      "d": "Bana katika kijiko cha siki au maji ya limao. Inapaswa kuteleza mara moja."
+     },
+     {
+      "t": "Chachu",
+      "d": "Kijiko 1 cha chachu, kijiko 1 cha sukari, karibu 60 ml ya maji ya uvuguvugu. Povu baada ya kama dakika 10."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cake_decor",
+   "say": [
+    "Koroga kijiko 1 cha chachu na 1 ya sukari ndani ya mililita 60 za maji ya uvuguvugu. Baada ya kama dakika 10 unapaswa kuona povu. Hakuna povu maana chachu imekufa."
+   ],
+   "panel": {
+    "kicker": "Jioni kabla",
+    "heading": "Jaribu mawakala wako wa kukuza",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Poda ya kuoka",
+      "d": "Nusu ya kijiko katika vijiko vichache vya maji ya moto. Inapaswa kuteleza kwa nguvu mara moja."
+     },
+     {
+      "t": "Soda ya kuoka",
+      "d": "Bana katika kijiko cha siki au maji ya limao. Inapaswa kuteleza mara moja."
+     },
+     {
+      "t": "Chachu",
+      "d": "Kijiko 1 cha chachu, kijiko 1 cha sukari, karibu 60 ml ya maji ya uvuguvugu. Povu baada ya kama dakika 10."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "dough_knead",
+   "say": [
+    "Kwa mfano, Halima huko Kaduna anapanga beti 4 za buni za Kinigeria, 2 za donati na 2 za maandazi. Kuongeza mapishi, anahitaji 3,500 g ya unga."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Orodha ya ununuzi kutoka kwa vikundi vilivyopangwa",
+    "items": [
+     "Unga kwa wiki: 3,500 g",
+     "Pamoja na kiwango cha 10%: 3,850 g, kwa hivyo nunua kilo 4",
+     "Mayai yanayohitajika: 12, kwa hivyo nunua 15",
+     "Pima poda ya kuoka na chachu kabla ya soko"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "dough_knead",
+   "say": [
+    "Anaongeza 10% kwa vumbi, kumwagika na kundi la majaribio. Hiyo ni 3,850 g, kwa hivyo ananunua kilo 4."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Orodha ya ununuzi kutoka kwa vikundi vilivyopangwa",
+    "items": [
+     "Unga kwa wiki: 3,500 g",
+     "Pamoja na kiwango cha 10%: 3,850 g, kwa hivyo nunua kilo 4",
+     "Mayai yanayohitajika: 12, kwa hivyo nunua 15",
+     "Pima poda ya kuoka na chachu kabla ya soko"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "flour_weigh",
+   "say": [
+    "Mapishi yanahitaji mayai 12, kwa hiyo ananunua 15 ikiwa moja imepasuka au mbaya. Vunja kila yai kwenye kikombe tofauti kwanza, ili yai moja mbaya lisiharibu bakuli."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Orodha ya ununuzi kutoka kwa vikundi vilivyopangwa",
+    "items": [
+     "Unga kwa wiki: 3,500 g",
+     "Pamoja na kiwango cha 10%: 3,850 g, kwa hivyo nunua kilo 4",
+     "Mayai yanayohitajika: 12, kwa hivyo nunua 15",
+     "Pima poda ya kuoka na chachu kabla ya soko"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "flour_weigh",
+   "say": [
+    "Huwapima mawakala wake wa kulea kabla ya kwenda sokoni, ili asiishie wala kuuacha unga ili kuvutia wadudu."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Orodha ya ununuzi kutoka kwa vikundi vilivyopangwa",
+    "items": [
+     "Unga kwa wiki: 3,500 g",
+     "Pamoja na kiwango cha 10%: 3,850 g, kwa hivyo nunua kilo 4",
+     "Mayai yanayohitajika: 12, kwa hivyo nunua 15",
+     "Pima poda ya kuoka na chachu kabla ya soko"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "oven_tray",
+   "say": [
+    "Dili za oveni ni mwongozo, sio ahadi. Kwa mfano, Ngozi huko Enugu anaweka kipimajoto cha tanuri katikati ya rafu ya kati."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Angalia oveni yako kabla ya kuuza",
+    "items": [
+     "Thermometer ya tanuri kwenye rafu ya kati",
+     "Piga kwa 180, subiri dakika 20: inasoma 160",
+     "Kurekebisha piga mpaka thermometer iko sawa",
+     "Mtihani wa kipande cha mkate hupata kona ya moto"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "oven_tray",
+   "say": [
+    "Anaweka piga hadi 180 na subiri dakika 20. Kipimajoto kinasoma 160, kwa hivyo tanuri yake huendesha takriban digrii 20 chini."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Angalia oveni yako kabla ya kuuza",
+    "items": [
+     "Thermometer ya tanuri kwenye rafu ya kati",
+     "Piga kwa 180, subiri dakika 20: inasoma 160",
+     "Kurekebisha piga mpaka thermometer iko sawa",
+     "Mtihani wa kipande cha mkate hupata kona ya moto"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Kwa vifundo vya miamba kwa digrii 200, yeye huinua nambari inayopiga na kuangalia tena hadi kipimajoto kisomeke karibu na 200."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Angalia oveni yako kabla ya kuuza",
+    "items": [
+     "Thermometer ya tanuri kwenye rafu ya kati",
+     "Piga kwa 180, subiri dakika 20: inasoma 160",
+     "Kurekebisha piga mpaka thermometer iko sawa",
+     "Mtihani wa kipande cha mkate hupata kona ya moto"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Kisha huoka vipande 6 vya mkate mweupe kwenye trei moja kwa takriban dakika 5. Vipande vya nyuma vya kushoto vinakuwa giza, hivyo kadi yake ya tanuri inasema: nyuma kushoto kuna joto zaidi, geuza trei katikati."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Angalia oveni yako kabla ya kuuza",
+    "items": [
+     "Thermometer ya tanuri kwenye rafu ya kati",
+     "Piga kwa 180, subiri dakika 20: inasoma 160",
+     "Kurekebisha piga mpaka thermometer iko sawa",
+     "Mtihani wa kipande cha mkate hupata kona ya moto"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "snacks_pack",
+   "say": [
+    "Weka silinda ya gesi wima, mahali penye uingizaji hewa, mbali na vichomaji na mahali pasipoweza kufikiwa na watoto."
+   ],
+   "panel": {
+    "kicker": "Usalama",
+    "heading": "Usalama wa silinda ya gesi na jiko",
+    "items": [
+     "Silinda wima, hewa ya kutosha, mbali na joto",
+     "Badilisha hose iliyopasuka, ngumu au huru",
+     "Angalia viungo na maji ya sabuni, kamwe moto",
+     "Mwanga tayari kwenye burner kabla ya kugeuza kisu",
+     "Valve ya silinda imezimwa mwishoni mwa kila siku"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "snacks_pack",
+   "say": [
+    "Badilisha hose iliyopasuka, ngumu au huru."
+   ],
+   "panel": {
+    "kicker": "Usalama",
+    "heading": "Usalama wa silinda ya gesi na jiko",
+    "items": [
+     "Silinda wima, hewa ya kutosha, mbali na joto",
+     "Badilisha hose iliyopasuka, ngumu au huru",
+     "Angalia viungo na maji ya sabuni, kamwe moto",
+     "Mwanga tayari kwenye burner kabla ya kugeuza kisu",
+     "Valve ya silinda imezimwa mwishoni mwa kila siku"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "snacks_pack",
+   "say": [
+    "Ili kuangalia uvujaji, piga maji ya sabuni kwenye viungo. Kukua kwa mapovu inamaanisha gesi inatoka. Usijaribu kamwe kwa moto."
+   ],
+   "panel": {
+    "kicker": "Usalama",
+    "heading": "Usalama wa silinda ya gesi na jiko",
+    "items": [
+     "Silinda wima, hewa ya kutosha, mbali na joto",
+     "Badilisha hose iliyopasuka, ngumu au huru",
+     "Angalia viungo na maji ya sabuni, kamwe moto",
+     "Mwanga tayari kwenye burner kabla ya kugeuza kisu",
+     "Valve ya silinda imezimwa mwishoni mwa kila siku"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "deep_fry",
+   "say": [
+    "Weka kiberiti kilichowashwa tayari kwenye kichomeo kabla ya kugeuza kipigo."
+   ],
+   "panel": {
+    "kicker": "Usalama",
+    "heading": "Usalama wa silinda ya gesi na jiko",
+    "items": [
+     "Silinda wima, hewa ya kutosha, mbali na joto",
+     "Badilisha hose iliyopasuka, ngumu au huru",
+     "Angalia viungo na maji ya sabuni, kamwe moto",
+     "Mwanga tayari kwenye burner kabla ya kugeuza kisu",
+     "Valve ya silinda imezimwa mwishoni mwa kila siku"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "deep_fry",
+   "say": [
+    "Zima silinda kila jioni.",
+    "Ikiwa unasikia harufu ya gesi, usiwashe chochote au kugusa swichi. Zima vali ikiwa ni salama, fungua madirisha, toa kila mtu nje, na upige simu fundi wa gesi au zimamoto."
+   ],
+   "panel": {
+    "kicker": "Usalama",
+    "heading": "Usalama wa silinda ya gesi na jiko",
+    "items": [
+     "Silinda wima, hewa ya kutosha, mbali na joto",
+     "Badilisha hose iliyopasuka, ngumu au huru",
+     "Angalia viungo na maji ya sabuni, kamwe moto",
+     "Mwanga tayari kwenye burner kabla ya kugeuza kisu",
+     "Valve ya silinda imezimwa mwishoni mwa kila siku"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Kunuka gesi? Hakuna moto, hakuna swichi. Valve mbali, kila mtu nje.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Tabia zako ni ahadi yako kwa wateja. Osha mikono yako kwa sabuni kwa sekunde 40 hadi 60, na tena baada ya yai mbichi au samaki, pesa, simu yako au choo."
+   ],
+   "panel": {
+    "kicker": "Kabla ya kugusa chakula",
+    "heading": "Usafi wa kibinafsi",
+    "items": [
+     "Nawa mikono kwa sabuni kwa sekunde 40 hadi 60",
+     "Osha tena baada ya yai, samaki, pesa au simu",
+     "Nywele zimefunikwa, apron safi, hakuna vito",
+     "Kupunguzwa kufunikwa na plasta ya kuzuia maji",
+     "Hakuna uzalishaji na kuhara au kutapika"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Funika nywele zako, vaa aproni safi, ondoa pete, na funika mipasuko kwa plasta isiyozuia maji."
+   ],
+   "panel": {
+    "kicker": "Kabla ya kugusa chakula",
+    "heading": "Usafi wa kibinafsi",
+    "items": [
+     "Nawa mikono kwa sabuni kwa sekunde 40 hadi 60",
+     "Osha tena baada ya yai, samaki, pesa au simu",
+     "Nywele zimefunikwa, apron safi, hakuna vito",
+     "Kupunguzwa kufunikwa na plasta ya kuzuia maji",
+     "Hakuna uzalishaji na kuhara au kutapika"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "hand_wash",
+   "say": [
+    "Usizae kuuza ikiwa una kuhara au kutapika. Biashara nyingi za chakula husubiri hadi angalau saa 48 baada ya dalili kuacha."
+   ],
+   "panel": {
+    "kicker": "Kabla ya kugusa chakula",
+    "heading": "Usafi wa kibinafsi",
+    "items": [
+     "Nawa mikono kwa sabuni kwa sekunde 40 hadi 60",
+     "Osha tena baada ya yai, samaki, pesa au simu",
+     "Nywele zimefunikwa, apron safi, hakuna vito",
+     "Kupunguzwa kufunikwa na plasta ya kuzuia maji",
+     "Hakuna uzalishaji na kuhara au kutapika"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "dough_mix",
+   "say": [
+    "Tumia Funguo Tano za WHO kama orodha yako ya ukaguzi. Safisha kwa maji ya moto yenye sabuni kwanza, kisha usafishe. Weka chakula kibichi mbali na vitafunio vilivyomalizika.",
+    "Pika vijazo hadi viive moto, usiwahi kuviacha kwa zaidi ya saa 2, na utumie maji yaliyosafishwa au yaliyochemshwa."
+   ],
+   "panel": {
+    "kicker": "Kila siku ya uzalishaji",
+    "heading": "Funguo tano za WHO",
+    "items": [
+     "Weka safi: safisha kwanza, kisha usafishe",
+     "Tenganisha samaki mbichi na yai kutoka kwa vitafunio vilivyomalizika",
+     "Kupika kujaza hadi kuoka kwa moto",
+     "Kujaza kupikwa sio zaidi ya masaa 2",
+     "Maji salama; kukataa viungo vilivyoharibika"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "dough_cut",
+   "say": [
+    "Kukumbuka. Pima kila kitu. Hifadhi imefungwa na utumie ya zamani zaidi. Wakala wa kuongeza mtihani. Jua halijoto yako halisi ya oveni na sehemu za moto. Na jaribu viungo vya gesi kwa maji ya sabuni pekee."
+   ],
+   "panel": {
+    "kicker": "Pointi muhimu",
+    "heading": "Kumbuka",
+    "items": [
+     "Pima gramu kwa mizani ya tared",
+     "Hifadhi imefungwa, nje ya sakafu, kongwe kwanza",
+     "Mawakala wa kuongeza mtihani kabla ya siku kuu",
+     "Pima joto lako halisi la oveni",
+     "Maji ya sabuni kwa uvujaji wa gesi, kamwe moto"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "cake_decor",
+   "say": [
+    "Sasa fanya mazoezi. Sanidi duka lako la viambato na uandike orodha ya ununuzi yenye ukingo wa 10%. Tengeneza kadi yako ya oveni. Kisha andika ratiba yako ya kusafisha na utepe mahali utakapoiona.",
+    "Endelea na masomo hapa chini."
+   ],
+   "panel": {
+    "kicker": "Mazoezi ya kazi",
+    "heading": "Kazi zako za mazoezi",
+    "items": [
+     "Sanidi na uweke tarehe kwenye duka lako la viambato",
+     "Tengeneza kadi yako ya oveni",
+     "Andika na uonyeshe ratiba yako ya kusafisha"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

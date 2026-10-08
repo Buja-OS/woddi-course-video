@@ -1,0 +1,540 @@
+{
+ "course": "core-digital-payments-and-pos-basics",
+ "module": "m1",
+ "title": "How digital payments work, and getting ready safely",
+ "course_title": "Digital Payments & POS Basics",
+ "shots": [
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "How digital payments work, and getting ready safely.",
+    "This is the video for module 1 of Digital Payments and POS Basics."
+   ]
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "A digital payment is any payment where no cash changes hands. A number in one account goes down, and a number in another goes up. The money is real, just stored as a record."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "The money is real, just stored as a record",
+    "items": [
+     "See what happens when money moves",
+     "Know what counts as real proof",
+     "Choose cash or digital with clear questions",
+     "Set up your account safely"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Many people feel nervous because they cannot see the money travel. This module removes that mystery."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "The money is real, just stored as a record",
+    "items": [
+     "See what happens when money moves",
+     "Know what counts as real proof",
+     "Choose cash or digital with clear questions",
+     "Set up your account safely"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "You will also learn when cash is better, and how to set up your account so it stays yours."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "The money is real, just stored as a record",
+    "items": [
+     "See what happens when money moves",
+     "Know what counts as real proof",
+     "Choose cash or digital with clear questions",
+     "Set up your account safely"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "For example, Chioma in Enugu owes her tailor, Ada, 7,500 naira. She opens her banking app, taps Transfer, types Ada's 10-digit account number and chooses Ada's bank."
+   ],
+   "panel": {
+    "kicker": "The journey",
+    "heading": "How a bank transfer travels",
+    "items": [
+     "You give the instruction",
+     "Your bank checks your PIN and balance",
+     "The network carries the message",
+     "Receiver's bank credits her account",
+     "Both of you get alerts"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "The app shows the name ADA N. OKAFOR. This is called a name enquiry, and it is your most important safety check. If the name is not who you expect, stop. Close enough is not enough."
+   ],
+   "panel": {
+    "kicker": "The journey",
+    "heading": "How a bank transfer travels",
+    "items": [
+     "You give the instruction",
+     "Your bank checks your PIN and balance",
+     "The network carries the message",
+     "Receiver's bank credits her account",
+     "Both of you get alerts"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false,
+    "rule": "If the name shown is not who you expect, stop.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Chioma enters her 4-digit PIN. Her bank checks she has enough money."
+   ],
+   "panel": {
+    "kicker": "The journey",
+    "heading": "How a bank transfer travels",
+    "items": [
+     "You give the instruction",
+     "Your bank checks your PIN and balance",
+     "The network carries the message",
+     "Receiver's bank credits her account",
+     "Both of you get alerts"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "rule": "If the name shown is not who you expect, stop.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "The network, the shared road between banks, carries the message. In Nigeria the main one is run by NIBSS."
+   ],
+   "panel": {
+    "kicker": "The journey",
+    "heading": "How a bank transfer travels",
+    "items": [
+     "You give the instruction",
+     "Your bank checks your PIN and balance",
+     "The network carries the message",
+     "Receiver's bank credits her account",
+     "Both of you get alerts"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "If the name shown is not who you expect, stop.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Ada's bank adds 7,500 naira to her account, and both women get alerts. If any step fails, your own bank should reverse the debit."
+   ],
+   "panel": {
+    "kicker": "The journey",
+    "heading": "How a bank transfer travels",
+    "items": [
+     "You give the instruction",
+     "Your bank checks your PIN and balance",
+     "The network carries the message",
+     "Receiver's bank credits her account",
+     "Both of you get alerts"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "If the name shown is not who you expect, stop.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Ada does not trust a screenshot. She opens her own app and sees the 7,500 naira in her balance. That is the only real proof.",
+    "Chioma keeps her receipt and the session ID, a long number she will need if anything goes wrong."
+   ],
+   "panel": {
+    "kicker": "Proof of payment",
+    "heading": "What really proves money arrived",
+    "mode": "compare",
+    "left_h": "Real proof",
+    "left": [
+     "Balance in your own app",
+     "Balance check by USSD",
+     "Session ID kept by the payer"
+    ],
+    "right_h": "Not enough alone",
+    "right": [
+     "A screenshot of a receipt",
+     "An SMS alert by itself",
+     "A forwarded old receipt"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Anyone can edit a picture of a receipt, and SMS alerts can be faked. When you receive money, check your own balance before you release goods or give change."
+   ],
+   "panel": {
+    "kicker": "Proof of payment",
+    "heading": "What really proves money arrived",
+    "mode": "compare",
+    "left_h": "Real proof",
+    "left": [
+     "Balance in your own app",
+     "Balance check by USSD",
+     "Session ID kept by the payer"
+    ],
+    "right_h": "Not enough alone",
+    "right": [
+     "A screenshot of a receipt",
+     "An SMS alert by itself",
+     "A forwarded old receipt"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Digital payments give you control, reach, less cash on the road, and records. Your transaction history is a free notebook that keeps itself."
+   ],
+   "card": {
+    "title": "What a month of transfers shows",
+    "rows": [],
+    "note": null
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Ngozi's app shows 38,000, then 41,500, then 29,000, then 45,500 naira received by transfer."
+   ],
+   "card": {
+    "title": "What a month of transfers shows",
+    "rows": [
+     [
+      "Week 1 transfers in",
+      "38,000"
+     ],
+     [
+      "Week 2 transfers in",
+      "41,500"
+     ],
+     [
+      "Week 3 transfers in",
+      "29,000"
+     ],
+     [
+      "Week 4 transfers in",
+      "45,500"
+     ]
+    ],
+    "note": null
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "That is 154,000 naira for the month. Her cash sales? She cannot tell, because she wrote nothing down.",
+    "A statement like this can prove your income to a lender."
+   ],
+   "card": {
+    "title": "What a month of transfers shows",
+    "rows": [
+     [
+      "Week 1 transfers in",
+      "38,000"
+     ],
+     [
+      "Week 2 transfers in",
+      "41,500"
+     ],
+     [
+      "Week 3 transfers in",
+      "29,000"
+     ],
+     [
+      "Week 4 transfers in",
+      "45,500"
+     ]
+    ],
+    "note": null
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Cash is not free. For example, Amina in Kaduna must pay a rice wholesaler 80,000 naira.",
+    "In cash, a POS agent charges to withdraw it, say 1,600 naira in this practice example, plus 1,000 for transport. 2,600 in all, and the risk of carrying cash."
+   ],
+   "panel": {
+    "kicker": "Cash or digital",
+    "heading": "Paying a wholesaler 80,000 naira",
+    "mode": "compare",
+    "left_h": "Cash",
+    "left": [
+     "POS withdrawal charge 1,600",
+     "Transport 1,000",
+     "Cost 2,600, and risk on the bus"
+    ],
+    "right_h": "Transfer",
+    "right": [
+     "Transfer charge 50",
+     "Transport 1,000",
+     "Cost 1,050, and a record"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "By transfer, her screen shows a practice charge of 50 naira, plus the same transport. That is 1,050, with a record. Always read the real fee on your screen before you confirm."
+   ],
+   "panel": {
+    "kicker": "Cash or digital",
+    "heading": "Paying a wholesaler 80,000 naira",
+    "mode": "compare",
+    "left_h": "Cash",
+    "left": [
+     "POS withdrawal charge 1,600",
+     "Transport 1,000",
+     "Cost 2,600, and risk on the bus"
+    ],
+    "right_h": "Transfer",
+    "right": [
+     "Transfer charge 50",
+     "Transport 1,000",
+     "Cost 1,050, and a record"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "A bank app needs a smartphone and data. A USSD code works on any phone with no data, so it is your backup when data runs out."
+   ],
+   "panel": {
+    "kicker": "Payment doors",
+    "heading": "Different doors, one account",
+    "items": [
+     "Bank app transfer: needs data",
+     "USSD code: any phone, no data",
+     "Debit card at POS or ATM: no data",
+     "Wallet app, QR code, payment link"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Your card works at a POS or ATM without data. Wallets, QR codes and links need internet.",
+    "They are all doors into the same account. Anyone who gets through one door with your PIN can reach the whole balance."
+   ],
+   "panel": {
+    "kicker": "Payment doors",
+    "heading": "Different doors, one account",
+    "items": [
+     "Bank app transfer: needs data",
+     "USSD code: any phone, no data",
+     "Debit card at POS or ATM: no data",
+     "Wallet app, QR code, payment link"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Open the account in your own name, with your own active phone number. If an old SIM is linked, change it at the bank, because OTPs go to whoever has that number now."
+   ],
+   "panel": {
+    "kicker": "Safe setup",
+    "heading": "Set up your account safely",
+    "items": [
+     "Account in your own name and phone number",
+     "Install the official app yourself",
+     "A PIN that is not your birthday or 1234",
+     "Turn on alerts and check your limits",
+     "Save the official customer care number"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Install the app yourself, from the Play Store or App Store, and check the publisher is the real company."
+   ],
+   "panel": {
+    "kicker": "Safe setup",
+    "heading": "Set up your account safely",
+    "items": [
+     "Account in your own name and phone number",
+     "Install the official app yourself",
+     "A PIN that is not your birthday or 1234",
+     "Turn on alerts and check your limits",
+     "Save the official customer care number"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Choose a 4-digit PIN that is not your birth year, phone number, or a pattern like 1234 or 0000. Do not write it on your card."
+   ],
+   "panel": {
+    "kicker": "Safe setup",
+    "heading": "Set up your account safely",
+    "items": [
+     "Account in your own name and phone number",
+     "Install the official app yourself",
+     "A PIN that is not your birthday or 1234",
+     "Turn on alerts and check your limits",
+     "Save the official customer care number"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Turn on alerts for every transaction, check your account level and limits in the app, and save your bank's customer care number from the back of your card."
+   ],
+   "panel": {
+    "kicker": "Safe setup",
+    "heading": "Set up your account safely",
+    "items": [
+     "Account in your own name and phone number",
+     "Install the official app yourself",
+     "A PIN that is not your birthday or 1234",
+     "Turn on alerts and check your limits",
+     "Save the official customer care number"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Your account number is safe to share. Your PIN, password and OTP are never shared with anyone, including someone who says they work for your bank, or a husband or close friend."
+   ],
+   "panel": {
+    "kicker": "Safe setup",
+    "heading": "Set up your account safely",
+    "items": [
+     "Account in your own name and phone number",
+     "Install the official app yourself",
+     "A PIN that is not your birthday or 1234",
+     "Turn on alerts and check your limits",
+     "Save the official customer care number"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Never share your PIN, password or OTP, even with bank staff.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "To remember. Check the name before you confirm. Your own balance is the only true proof. Read the fee on the screen before you pay. Large or distant payments are usually safer by transfer. And keep your PIN private, even within the family."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "Check the account name before you confirm",
+     "Your own balance is the only true proof",
+     "Read the fee on the confirmation screen",
+     "Large or distant payments: use a transfer",
+     "Keep your PIN private, even in the family"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Draw the journey of your last payment, list which payments you can move from cash, compare one real payment, and complete your setup checklist.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice task",
+    "heading": "Your tasks for this module",
+    "items": [
+     "Draw your own payment journey",
+     "Write your cash-to-digital list",
+     "Compare one real payment and set a cash rule",
+     "Complete your safe setup checklist"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

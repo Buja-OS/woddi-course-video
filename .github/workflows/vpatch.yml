@@ -1,0 +1,50 @@
+name: vpatch
+on:
+  push:
+    branches: ['vpatch-*']
+permissions:
+  contents: write
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    outputs:
+      jobs: ${{ steps.j.outputs.jobs }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: jobs.json
+      - id: j
+        run: echo "jobs=$(cat jobs.json)" >> "$GITHUB_OUTPUT"
+  patch:
+    needs: setup
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix:
+        include: ${{ fromJSON(needs.setup.outputs.jobs) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: install
+        run: |
+          sudo apt-get install -y -qq ffmpeg espeak-ng > /dev/null
+          L=${{ matrix.lang }}
+          pip install -q torch torchaudio --index-url https://download.pytorch.org/whl/cpu
+          if [ "$L" = yo ] || [ "$L" = ig ]; then pip install -q coqui-tts soundfile numpy num2words huggingface_hub "transformers>=4.46,<4.56"
+          else pip install -q "transformers<4.50" soundfile numpy uroman num2words huggingface_hub; fi
+      - name: patch
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          WODDI_ONLY_BIG: '1'
+        run: |
+          L=${{ matrix.lang }}; REL=voice2-$L; if [ $L = yo ] || [ $L = ig ]; then REL=voice2b-$L; fi
+          mkdir -p out dl
+          for c in ${{ matrix.courses }}; do gh release download $REL -R ${{ github.repository }} -p "$c.tar" -D dl --clobber && tar -xf dl/$c.tar -C out/ || echo "no tar $c"; done
+          python tts/voice2.py $L scripts out ${{ matrix.courses }} > patch.log 2>&1 || echo "PATCH FAILED" >> patch.log
+          grep -E "voiced|Error|FAILED" patch.log | tail -30
+          grep -q "PATCH FAILED" patch.log && exit 1
+          cd out && for c in ${{ matrix.courses }}; do [ -d $c ] && tar -cf ../$c.tar $c && (cd .. && gh release upload $REL $c.tar --clobber -R ${{ github.repository }}); done

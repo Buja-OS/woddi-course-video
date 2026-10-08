@@ -1,0 +1,534 @@
+{
+ "course": "ux-design-fundamentals",
+ "module": "m1",
+ "title": "Measure the leak, apply the laws, design for real conditions",
+ "course_title": "UX Design Fundamentals: Professional Practice",
+ "shots": [
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Measure the leak, apply the laws, and design for real conditions.",
+    "This is the video for module one of UX Design Fundamentals: outcomes, cognition and context."
+   ]
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "User experience, or UX, is everything a person goes through to get something done with a product. UI, the user interface, is only the part you see and touch."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Past 'make it look nice'",
+    "items": [
+     "UX is the whole experience, not just screens",
+     "Clients pay for a number that changes",
+     "Good design rests on research about people",
+     "Your users face costly data and shared phones"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Clients will not pay for better UX as an opinion. They pay for a change in a number they care about, like more completed sign-ups or fewer support calls."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Past 'make it look nice'",
+    "items": [
+     "UX is the whole experience, not just screens",
+     "Clients pay for a number that changes",
+     "Good design rests on research about people",
+     "Your users face costly data and shared phones"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Many design decisions rest on research about how people see and decide."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Past 'make it look nice'",
+    "items": [
+     "UX is the whole experience, not just screens",
+     "Clients pay for a number that changes",
+     "Good design rests on research about people",
+     "Your users face costly data and shared phones"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "And many of your users have slow networks and costly data."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Past 'make it look nice'",
+    "items": [
+     "UX is the whole experience, not just screens",
+     "Clients pay for a number that changes",
+     "Good design rests on research about people",
+     "Your users face costly data and shared phones"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "A funnel lists the steps users pass through to reach a goal, with how many reach each step.",
+    "For example, Amaka is hired by a Lagos savings app. She asks for last month's numbers instead of opinions. 10,000 people downloaded the app."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Read a funnel to find the leak",
+    "items": [
+     "Downloads: 10,000",
+     "Started sign-up: 6,200 (62%)",
+     "Passed BVN check: 3,100 (50%)",
+     "Funded wallet: 2,480 (80%)"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "6,200 started sign-up. Step conversion is people at a step divided by people at the step before, so that is 62%."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Read a funnel to find the leak",
+    "items": [
+     "Downloads: 10,000",
+     "Started sign-up: 6,200 (62%)",
+     "Passed BVN check: 3,100 (50%)",
+     "Funded wallet: 2,480 (80%)"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Only 3,100 passed the BVN check, which is the Bank Verification Number. That step loses half of everyone who reaches it."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Read a funnel to find the leak",
+    "items": [
+     "Downloads: 10,000",
+     "Started sign-up: 6,200 (62%)",
+     "Passed BVN check: 3,100 (50%)",
+     "Funded wallet: 2,480 (80%)"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "2,480 funded their wallet, which is 80% of those who passed. So the BVN step, at 50%, is the leak, and the best place to research first."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Read a funnel to find the leak",
+    "items": [
+     "Downloads: 10,000",
+     "Started sign-up: 6,200 (62%)",
+     "Passed BVN check: 3,100 (50%)",
+     "Funded wallet: 2,480 (80%)"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "But numbers only show where people leave, never why. Always pair a funnel with interviews or usability tests before you redesign anything."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Read a funnel to find the leak",
+    "items": [
+     "Downloads: 10,000",
+     "Started sign-up: 6,200 (62%)",
+     "Passed BVN check: 3,100 (50%)",
+     "Funded wallet: 2,480 (80%)"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Numbers show where people leave. Research shows why.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Hick's law says the more equal choices you show, the slower people decide. A home screen with 18 equal tiles slows people down. Group options, and put the most common tasks first."
+   ],
+   "panel": {
+    "kicker": "Cognitive science",
+    "heading": "Three laws you will quote often",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Hick's law",
+      "d": "More equal choices means slower decisions. Group options and put the two or three common tasks first."
+     },
+     {
+      "t": "Fitts's law",
+      "d": "Far and small is slow. Near and large is fast. Put key buttons big and close to the thumb."
+     },
+     {
+      "t": "Jakob's law",
+      "d": "Users expect your product to work like the others they use. Follow conventions unless innovation adds value."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Fitts's law says the time to reach a target depends on its distance and size. For example, Zainab recommends a full-width Pay now bar fixed near the bottom, where the thumb already rests.",
+    "On phones, make targets 44 to 48 pixels, and never below 24."
+   ],
+   "panel": {
+    "kicker": "Cognitive science",
+    "heading": "Three laws you will quote often",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Hick's law",
+      "d": "More equal choices means slower decisions. Group options and put the two or three common tasks first."
+     },
+     {
+      "t": "Fitts's law",
+      "d": "Far and small is slow. Near and large is fast. Put key buttons big and close to the thumb."
+     },
+     {
+      "t": "Jakob's law",
+      "d": "Users expect your product to work like the others they use. Follow conventions unless innovation adds value."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Jakob's law says users spend most of their time on other products. If every bank app they know puts Transfer on the home screen, do not hide yours in a menu."
+   ],
+   "panel": {
+    "kicker": "Cognitive science",
+    "heading": "Three laws you will quote often",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Hick's law",
+      "d": "More equal choices means slower decisions. Group options and put the two or three common tasks first."
+     },
+     {
+      "t": "Fitts's law",
+      "d": "Far and small is slow. Near and large is fast. Put key buttons big and close to the thumb."
+     },
+     {
+      "t": "Jakob's law",
+      "d": "Users expect your product to work like the others they use. Follow conventions unless innovation adds value."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Working memory is small. So do not make people remember things the interface could show them."
+   ],
+   "panel": {
+    "kicker": "Memory",
+    "heading": "Recognition beats recall",
+    "mode": "compare",
+    "left_h": "Recall (harder)",
+    "left": [
+     "Type the account number again",
+     "Remember a code from last screen",
+     "Know which menu holds settings"
+    ],
+    "right_h": "Recognition (easier)",
+    "right": [
+     "Pick from recent beneficiaries",
+     "Code shown again or auto-filled",
+     "Search with suggestions"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Let them pick from recent beneficiaries, show the code again, and offer search with suggestions.",
+    "Chunk long numbers too, and show the account name so people confirm by recognition."
+   ],
+   "panel": {
+    "kicker": "Memory",
+    "heading": "Recognition beats recall",
+    "mode": "compare",
+    "left_h": "Recall (harder)",
+    "left": [
+     "Type the account number again",
+     "Remember a code from last screen",
+     "Know which menu holds settings"
+    ],
+    "right_h": "Recognition (easier)",
+    "right": [
+     "Pick from recent beneficiaries",
+     "Code shown again or auto-filled",
+     "Search with suggestions"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Every megabyte is paid for by the user. For example, Tunde's farm price page was 4 megabytes, opened 5 times a day. That is 600 megabytes a month. He set a budget of 800 kilobytes, cutting it to 120."
+   ],
+   "panel": {
+    "kicker": "African realities",
+    "heading": "Design for the conditions users live in",
+    "items": [
+     "Costly data: set a performance budget",
+     "Network drops: save progress locally",
+     "Feature phones: USSD or SMS for core task",
+     "Shared phones: quick logout, PIN, private alerts",
+     "Many languages: native-speaker review"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "When the network drops, long forms should keep what was typed, and offline, failed and pending states must look different."
+   ],
+   "panel": {
+    "kicker": "African realities",
+    "heading": "Design for the conditions users live in",
+    "items": [
+     "Costly data: set a performance budget",
+     "Network drops: save progress locally",
+     "Feature phones: USSD or SMS for core task",
+     "Shared phones: quick logout, PIN, private alerts",
+     "Many languages: native-speaker review"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "For people without internet, offer USSD, the star code hash menus that work on any GSM phone."
+   ],
+   "panel": {
+    "kicker": "African realities",
+    "heading": "Design for the conditions users live in",
+    "items": [
+     "Costly data: set a performance budget",
+     "Network drops: save progress locally",
+     "Feature phones: USSD or SMS for core task",
+     "Shared phones: quick logout, PIN, private alerts",
+     "Many languages: native-speaker review"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Phones are often shared, so offer quick logout and never show balances on notifications. And offer the languages your users speak, checked by native speakers."
+   ],
+   "panel": {
+    "kicker": "African realities",
+    "heading": "Design for the conditions users live in",
+    "items": [
+     "Costly data: set a performance budget",
+     "Network drops: save progress locally",
+     "Feature phones: USSD or SMS for core task",
+     "Shared phones: quick logout, PIN, private alerts",
+     "Many languages: native-speaker review"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "USSD has no images and sessions time out quickly. Put the most common task as option 1, and keep each screen under about 160 characters to be safe across networks."
+   ],
+   "panel": {
+    "kicker": "USSD design",
+    "heading": "Five rules for a USSD menu",
+    "items": [
+     "Most common task is option 1",
+     "Keep each screen under about 160 characters",
+     "0 Back and 00 Main menu on every screen",
+     "Confirm amount and recipient before PIN",
+     "Send an SMS receipt"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Use 0 for Back and 00 for Main menu, the same way on every screen."
+   ],
+   "panel": {
+    "kicker": "USSD design",
+    "heading": "Five rules for a USSD menu",
+    "items": [
+     "Most common task is option 1",
+     "Keep each screen under about 160 characters",
+     "0 Back and 00 Main menu on every screen",
+     "Confirm amount and recipient before PIN",
+     "Send an SMS receipt"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Show the amount and the recipient's name before asking for a PIN. Then send an SMS receipt, because the session closes and users cannot scroll back."
+   ],
+   "panel": {
+    "kicker": "USSD design",
+    "heading": "Five rules for a USSD menu",
+    "items": [
+     "Most common task is option 1",
+     "Keep each screen under about 160 characters",
+     "0 Back and 00 Main menu on every screen",
+     "Confirm amount and recipient before PIN",
+     "Send an SMS receipt"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Confirm amount and name before the PIN. Send an SMS receipt.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Payments need extra care. After a timeout, show We are checking your payment, with the real status from the server, never a try again button that may charge twice.",
+    "Always show a transaction reference and official support channels inside the product. Worried users who search online for customer care numbers can meet fraudsters."
+   ],
+   "panel": {
+    "kicker": "Money and trust",
+    "heading": "Payment states users can trust",
+    "items": [
+     "After a timeout, check, don't retry",
+     "Show the real status from the server",
+     "Always show a transaction reference",
+     "Show official support channels in the app"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "To remember. Find the step with the lowest conversion first, then research why people leave. Make key targets big and close. Design for recognition.",
+    "And treat data cost, network drops and shared phones as part of the experience."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "Fix the step with the lowest conversion first",
+     "Analytics show where; research shows why",
+     "Big, close targets: 44 to 48 px on phones",
+     "Design for recognition, not recall",
+     "Data cost, offline and shared phones are UX"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Now practise. Build a funnel and metrics sheet for an app you use, audit one screen using the laws, and check how a product behaves with costly data and no network.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice task",
+    "heading": "Your practice tasks",
+    "items": [
+     "Build a HEART sheet for a real product",
+     "Do a cognitive audit of one screen",
+     "Run a context check of a product you know"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

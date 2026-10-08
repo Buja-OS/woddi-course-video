@@ -1,0 +1,574 @@
+{
+ "course": "core-business-communication",
+ "module": "m3",
+ "title": "Faturas, atas de reuniões e mensagens que mantêm a confiança",
+ "course_title": "Comunicação Empresarial",
+ "shots": [
+  {
+   "demo": "flipchart",
+   "say": [
+    "Faturas, atas de reuniões e mensagens que mantêm a confiança.",
+    "Este é o vídeo do módulo 3 de Comunicação Empresarial."
+   ]
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Documentos monetários também são comunicação. Uma fatura vaga leva a atrasos no pagamento e discussões. Um claro é pago mais rápido.",
+    "Uma cotação é a sua oferta, enviada antes que o cliente concorde."
+   ],
+   "panel": {
+    "kicker": "Três documentos",
+    "heading": "Três documentos financeiros, três empregos",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Citação",
+      "d": "Antes que o cliente concorde: o que forneceremos e quanto custará, válido até uma data."
+     },
+     {
+      "t": "Fatura",
+      "d": "Após a encomenda ser acordada ou entregue: por favor pague este valor, até esta data, para esta conta."
+     },
+     {
+      "t": "Recibo",
+      "d": "Após o pagamento: recebemos esse valor, nesta data, por essas mercadorias."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Uma fatura solicita o pagamento, após o pedido ser acordado ou entregue."
+   ],
+   "panel": {
+    "kicker": "Três documentos",
+    "heading": "Três documentos financeiros, três empregos",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Citação",
+      "d": "Antes que o cliente concorde: o que forneceremos e quanto custará, válido até uma data."
+     },
+     {
+      "t": "Fatura",
+      "d": "Após a encomenda ser acordada ou entregue: por favor pague este valor, até esta data, para esta conta."
+     },
+     {
+      "t": "Recibo",
+      "d": "Após o pagamento: recebemos esse valor, nesta data, por essas mercadorias."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Um recibo prova que você foi pago. Escreva o valor em algarismos e por extenso, para que ninguém possa alterá-lo facilmente."
+   ],
+   "panel": {
+    "kicker": "Três documentos",
+    "heading": "Três documentos financeiros, três empregos",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Citação",
+      "d": "Antes que o cliente concorde: o que forneceremos e quanto custará, válido até uma data."
+     },
+     {
+      "t": "Fatura",
+      "d": "Após a encomenda ser acordada ou entregue: por favor pague este valor, até esta data, para esta conta."
+     },
+     {
+      "t": "Recibo",
+      "d": "Após o pagamento: recebemos esse valor, nesta data, por essas mercadorias."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "microphone_record",
+   "say": [
+    "A primeira fatura de Ifeoma dizia apenas: Uniformes, 480 mil nairas, pague logo. A tesoureira da escola não sabia dizer quantos uniformes ou quando pagar, então ela deixou isso de lado."
+   ],
+   "card": {
+    "title": "Fatura de Ifeoma para uma escola",
+    "rows": [],
+    "note": "Saldo devido em até 7 dias."
+   }
+  },
+  {
+   "demo": "microphone_record",
+   "say": [
+    "A nova fatura possui um número, uma data e uma data de vencimento. Cada linha mostra o item, a quantidade e o preço. 40 aventais a 6.500 naira equivalem a 260.000. 40 conjuntos de camisas e shorts a 5.500 são 220.000."
+   ],
+   "card": {
+    "title": "Fatura de Ifeoma para uma escola",
+    "rows": [
+     [
+      "Avental feminino: 40 a 6.500",
+      "260,000"
+     ],
+     [
+      "Conjuntos masculinos: 40 a 5.500",
+      "220,000"
+     ]
+    ],
+    "note": "Saldo devido em até 7 dias."
+   }
+  },
+  {
+   "demo": "presentation_screen",
+   "say": [
+    "São 480.000 nairas no total, menos os 240.000 depósitos já pagos."
+   ],
+   "card": {
+    "title": "Fatura de Ifeoma para uma escola",
+    "rows": [
+     [
+      "Avental feminino: 40 a 6.500",
+      "260,000"
+     ],
+     [
+      "Conjuntos masculinos: 40 a 5.500",
+      "220,000"
+     ],
+     [
+      "Total devido",
+      "480,000"
+     ],
+     [
+      "Menos depósito pago",
+      "240,000"
+     ]
+    ],
+    "note": "Saldo devido em até 7 dias."
+   }
+  },
+  {
+   "demo": "presentation_screen",
+   "say": [
+    "O saldo é de 240.000 nairas, com vencimento em 7 dias, com seus dados bancários. Cada número é somado, para que o tesoureiro possa aprová-lo imediatamente."
+   ],
+   "card": {
+    "title": "Fatura de Ifeoma para uma escola",
+    "rows": [
+     [
+      "Avental feminino: 40 a 6.500",
+      "260,000"
+     ],
+     [
+      "Conjuntos masculinos: 40 a 5.500",
+      "220,000"
+     ],
+     [
+      "Total devido",
+      "480,000"
+     ],
+     [
+      "Menos depósito pago",
+      "240,000"
+     ]
+    ],
+    "note": "Saldo devido em até 7 dias."
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Na véspera do vencimento do pagamento, envie um lembrete amigável com o número da fatura, o valor e a data."
+   ],
+   "panel": {
+    "kicker": "Recebendo pagamento com segurança",
+    "heading": "Lembretes de pagamento educados e firmes",
+    "items": [
+     "Um dia antes: um lembrete amigável",
+     "Alguns dias de atraso: claro, fatura anexada",
+     "Duas semanas de atraso: data firme ou acordo sobre um plano"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Se estiver alguns dias atrasado, seja claro. Diga que estava vencido, pergunte quando será feito o pagamento e anexe a fatura novamente."
+   ],
+   "panel": {
+    "kicker": "Recebendo pagamento com segurança",
+    "heading": "Lembretes de pagamento educados e firmes",
+    "items": [
+     "Um dia antes: um lembrete amigável",
+     "Alguns dias de atraso: claro, fatura anexada",
+     "Duas semanas de atraso: data firme ou acordo sobre um plano"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Com duas semanas de atraso, seja firme. Dê uma data para pagar ou peça que liguem hoje para combinar um plano de pagamento."
+   ],
+   "panel": {
+    "kicker": "Recebendo pagamento com segurança",
+    "heading": "Lembretes de pagamento educados e firmes",
+    "items": [
+     "Um dia antes: um lembrete amigável",
+     "Alguns dias de atraso: claro, fatura anexada",
+     "Duas semanas de atraso: data firme ou acordo sobre um plano"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Proteja-se de fraudes. Os fraudadores enviam alertas de transferência falsos e capturas de tela falsas. Verifique seu próprio aplicativo bancário antes de liberar mercadorias.",
+    "Se um fornecedor enviar repentinamente novos dados bancários, ligue para um número que você já possui. Nunca compartilhe seu OTP, PIN ou BVN."
+   ],
+   "panel": {
+    "kicker": "Recebendo pagamento com segurança",
+    "heading": "Lembretes de pagamento educados e firmes",
+    "items": [
+     "Um dia antes: um lembrete amigável",
+     "Alguns dias de atraso: claro, fatura anexada",
+     "Duas semanas de atraso: data firme ou acordo sobre um plano"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Confirme cada pagamento em seu próprio aplicativo bancário antes de liberar mercadorias.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Envie uma breve agenda da reunião pelo menos um dia antes, com horário para cada item."
+   ],
+   "panel": {
+    "kicker": "Reuniões",
+    "heading": "Que bons minutos registram",
+    "items": [
+     "Data, hora, local",
+     "Presente e desculpas",
+     "Decisões tomadas",
+     "Ações: proprietário e prazo",
+     "Data da próxima reunião"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "flipchart",
+   "say": [
+    "Depois, escreva minutos de ação, não todas as palavras. Registre a data, hora e local, quem esteve presente, o que foi decidido, quem fará o quê e quando e a data da próxima reunião.",
+    "Uma ação sem dono e sem prazo geralmente não acontece."
+   ],
+   "panel": {
+    "kicker": "Reuniões",
+    "heading": "Que bons minutos registram",
+    "items": [
+     "Data, hora, local",
+     "Presente e desculpas",
+     "Decisões tomadas",
+     "Ações: proprietário e prazo",
+     "Data da próxima reunião"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Por exemplo, Doose é secretária de uma cooperativa agrícola feminina em Benue. Suas primeiras anotações diziam: conversamos sobre a feira, veremos. Sem decisão, sem dono, sem prazo."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Minutos de Doose, antes e depois",
+    "mode": "compare",
+    "left_h": "Antes",
+    "left": [
+     "\"Conversamos sobre a feira\"",
+     "\"Dinheiro foi discutido\"",
+     "\"Veremos\""
+    ],
+    "right_h": "Depois",
+    "right": [
+     "Tome uma posição se a taxa for 60.000 ou menos",
+     "Acordado por 12 dos 14 membros",
+     "Doose confirma taxa até 15 de fevereiro",
+     "Próxima reunião: sábado, 8 de março"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "A sua nova acta regista a decisão: tomar posição se a taxa for confirmada em 60.000 nairas ou menos, acordada por 12 dos 14 membros.",
+    "Cada ação tem um nome e uma data, e o próximo encontro está marcado. Compartilhe minutos em 48 horas."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Minutos de Doose, antes e depois",
+    "mode": "compare",
+    "left_h": "Antes",
+    "left": [
+     "\"Conversamos sobre a feira\"",
+     "\"Dinheiro foi discutido\"",
+     "\"Veremos\""
+    ],
+    "right_h": "Depois",
+    "right": [
+     "Tome uma posição se a taxa for 60.000 ou menos",
+     "Acordado por 12 dos 14 membros",
+     "Doose confirma taxa até 15 de fevereiro",
+     "Próxima reunião: sábado, 8 de março"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "microphone_record",
+   "say": [
+    "Por exemplo, Blessing vende produtos assados em Warri. O bolo de aniversário de um cliente chegou amassado."
+   ],
+   "panel": {
+    "kicker": "Reclamações",
+    "heading": "O ÚLTIMO método de reclamação",
+    "items": [
+     "Ouça completamente",
+     "Peça desculpas sinceramente",
+     "Resolva com uma oferta clara",
+     "Agradeça e acompanhe"
+    ],
+    "show": 0,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "microphone_record",
+   "say": [
+    "Ouvir. Bênção lê a mensagem inteira, pede foto e não discute sobre o entregador."
+   ],
+   "panel": {
+    "kicker": "Reclamações",
+    "heading": "O ÚLTIMO método de reclamação",
+    "items": [
+     "Ouça completamente",
+     "Peça desculpas sinceramente",
+     "Resolva com uma oferta clara",
+     "Agradeça e acompanhe"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "microphone_record",
+   "say": [
+    "Desculpar-se. Eu realmente sinto muito. O bolo da sua filha deveria ter chegado perfeito."
+   ],
+   "panel": {
+    "kicker": "Reclamações",
+    "heading": "O ÚLTIMO método de reclamação",
+    "items": [
+     "Ouça completamente",
+     "Peça desculpas sinceramente",
+     "Resolva com uma oferta clara",
+     "Agradeça e acompanhe"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Resolver. Ela oferece uma escolha: um reembolso de 12.500 nairas dos 25.000 atuais ou um bolo fresco grátis."
+   ],
+   "panel": {
+    "kicker": "Reclamações",
+    "heading": "O ÚLTIMO método de reclamação",
+    "items": [
+     "Ouça completamente",
+     "Peça desculpas sinceramente",
+     "Resolva com uma oferta clara",
+     "Agradeça e acompanhe"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Agradeça e acompanhe. Ela agradece ao cliente, muda para uma caixa mais resistente e faz o check-in uma semana depois. O cliente permanece fiel."
+   ],
+   "panel": {
+    "kicker": "Reclamações",
+    "heading": "O ÚLTIMO método de reclamação",
+    "items": [
+     "Ouça completamente",
+     "Peça desculpas sinceramente",
+     "Resolva com uma oferta clara",
+     "Agradeça e acompanhe"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "presentation_screen",
+   "say": [
+    "Uma promessa escrita é algo que o cliente planeja. Verifique seu estoque, tempo e dinheiro antes de se comprometer."
+   ],
+   "panel": {
+    "kicker": "Confiança",
+    "heading": "Promessas honestas e dados privados",
+    "items": [
+     "Verifique o estoque, o tempo e o dinheiro antes de prometer",
+     "Diga o que você pode fazer e quando",
+     "Não compartilhe números ou bate-papos de clientes",
+     "Dê más notícias antecipadamente, com um novo plano"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "presentation_screen",
+   "say": [
+    "Em vez de, sem problemas, 500 pacotes até sexta, digamos: podemos entregar 300 até sexta e os outros 200 até terça."
+   ],
+   "panel": {
+    "kicker": "Confiança",
+    "heading": "Promessas honestas e dados privados",
+    "items": [
+     "Verifique o estoque, o tempo e o dinheiro antes de prometer",
+     "Diga o que você pode fazer e quando",
+     "Não compartilhe números ou bate-papos de clientes",
+     "Dê más notícias antecipadamente, com um novo plano"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "A Lei de Proteção de Dados de 2023 da Nigéria estabelece regras para dados pessoais. Colete apenas o que você precisa, mantenha-o seguro e nunca publique capturas de tela mostrando nomes ou números de clientes."
+   ],
+   "panel": {
+    "kicker": "Confiança",
+    "heading": "Promessas honestas e dados privados",
+    "items": [
+     "Verifique o estoque, o tempo e o dinheiro antes de prometer",
+     "Diga o que você pode fazer e quando",
+     "Não compartilhe números ou bate-papos de clientes",
+     "Dê más notícias antecipadamente, com um novo plano"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "E se uma entrega atrasar, avise com antecedência, com o motivo e seu novo plano. Silêncio e desculpas causam muito mais danos."
+   ],
+   "panel": {
+    "kicker": "Confiança",
+    "heading": "Promessas honestas e dados privados",
+    "items": [
+     "Verifique o estoque, o tempo e o dinheiro antes de prometer",
+     "Diga o que você pode fazer e quando",
+     "Não compartilhe números ou bate-papos de clientes",
+     "Dê más notícias antecipadamente, com um novo plano"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "flipchart",
+   "say": [
+    "Para lembrar. Um orçamento é a oferta, uma fatura pede o pagamento, um recibo comprova isso. Numere cada fatura e mostre cada item.",
+    "Verifique você mesmo os pagamentos. Registre decisões com proprietários e prazos. E lide com reclamações com Ouvir, Pedir Desculpas, Resolver, Agradecer."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Lembre-se",
+    "items": [
+     "A cotação é a oferta, a fatura pede, o recibo comprova",
+     "Numere cada fatura e mostre cada item",
+     "Verifique pagamentos em seu próprio aplicativo bancário",
+     "Atas: decisões, proprietários e prazos",
+     "Ouça, peça desculpas, resolva, agradeça"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Agora pratique. Crie seus modelos de fatura e recibo e salve três lembretes de pagamento. Escreva uma agenda e atas de ação para uma reunião real. E prepare seu kit de ferramentas de confiança: uma regra de dados, uma resposta à reclamação e uma mensagem de más notícias.",
+    "Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Pratique tarefas",
+    "heading": "Sua prática neste módulo",
+    "items": [
+     "Crie modelos de fatura e recibo",
+     "Escreva uma agenda e atas de ação",
+     "Prepare seu kit de ferramentas de confiança"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

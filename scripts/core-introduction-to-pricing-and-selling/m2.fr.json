@@ -1,0 +1,512 @@
+{
+ "course": "core-introduction-to-pricing-and-selling",
+ "module": "m2",
+ "title": "Du coût au juste prix, et quel est le coût réel des remises",
+ "course_title": "Introduction à la tarification et à la vente",
+ "shots": [
+  {
+   "demo": "cash_count",
+   "say": [
+    "Du coût au juste prix, et quel est le coût réel des remises.",
+    "Ceci est la vidéo du module 2 d'introduction à la tarification et à la vente."
+   ]
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Dans le module 1, vous avez trouvé votre véritable coût. Maintenant, vous en faites un prix.",
+    "La tarification au prix de revient majoré commence à partir de votre coût et ajoute un pourcentage choisi. Il vous indique le prix le plus bas que vous pouvez accepter."
+   ],
+   "panel": {
+    "kicker": "Trois vues du prix",
+    "heading": "Coût, concurrents et valeur",
+    "items": [
+     "Coût plus : le prix le plus bas et sûr",
+     "Concurrents : la gamme du marché",
+     "Valeur : où vous appartenez dans cette fourchette",
+     "Réductions : sachez ce qu'elles vous coûtent"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Les prix des concurrents examinent ce que facturent des vendeurs similaires."
+   ],
+   "panel": {
+    "kicker": "Trois vues du prix",
+    "heading": "Coût, concurrents et valeur",
+    "items": [
+     "Coût plus : le prix le plus bas et sûr",
+     "Concurrents : la gamme du marché",
+     "Valeur : où vous appartenez dans cette fourchette",
+     "Réductions : sachez ce qu'elles vous coûtent"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "La tarification basée sur la valeur examine la valeur de votre produit pour le client. Les bons vendeurs utilisent les trois ensemble."
+   ],
+   "panel": {
+    "kicker": "Trois vues du prix",
+    "heading": "Coût, concurrents et valeur",
+    "items": [
+     "Coût plus : le prix le plus bas et sûr",
+     "Concurrents : la gamme du marché",
+     "Valeur : où vous appartenez dans cette fourchette",
+     "Réductions : sachez ce qu'elles vous coûtent"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Et avant d’accorder une remise, vous saurez exactement ce que cela vous coûte."
+   ],
+   "panel": {
+    "kicker": "Trois vues du prix",
+    "heading": "Coût, concurrents et valeur",
+    "items": [
+     "Coût plus : le prix le plus bas et sûr",
+     "Concurrents : la gamme du marché",
+     "Valeur : où vous appartenez dans cette fourchette",
+     "Réductions : sachez ce qu'elles vous coûtent"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Supposons qu'un pack vous coûte 550 naira et que vous le vendiez 800 naira. Votre bénéfice est de 250 naira.",
+    "Le balisage compare ce profit à votre coût. 250 divisé par 550 représente une majoration d’environ 45 %."
+   ],
+   "panel": {
+    "kicker": "Le piège commun",
+    "heading": "Majoration par rapport à la marge",
+    "mode": "compare",
+    "left_h": "Balisage",
+    "left": [
+     "Bénéfice sur coût",
+     "250 sur 550, c'est environ 45%",
+     "Toujours le plus grand nombre"
+    ],
+    "right_h": "Marge",
+    "right": [
+     "Bénéfice sur prix",
+     "250 sur 800, c'est environ 31%",
+     "Part de chaque vente que vous conservez"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "La marge compare le même profit avec votre prix. 250 divisé par 800 représente une marge d’environ 31 %.",
+    "Les deux sont corrects. Les problèmes commencent lorsque vous les mélangez."
+   ],
+   "panel": {
+    "kicker": "Le piège commun",
+    "heading": "Majoration par rapport à la marge",
+    "mode": "compare",
+    "left_h": "Balisage",
+    "left": [
+     "Bénéfice sur coût",
+     "250 sur 550, c'est environ 45%",
+     "Toujours le plus grand nombre"
+    ],
+    "right_h": "Marge",
+    "right": [
+     "Bénéfice sur prix",
+     "250 sur 800, c'est environ 31%",
+     "Part de chaque vente que vous conservez"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Voici la méthode. Commencez par votre véritable coût par article du module 1."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Tarification pour une marge cible",
+    "items": [
+     "Commencez par votre véritable coût par article",
+     "Prix = coût divisé par (1 moins la marge)",
+     "Arrondir à un prix facile à payer",
+     "Revérifiez le bénéfice et la marge après arrondi"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Pour conserver une marge cible, divisez votre coût par 1 moins cette marge. Pour une marge de 30% sur 550 naira, divisez 550 par 0,70. Cela donne environ 785 nairas."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Tarification pour une marge cible",
+    "items": [
+     "Commencez par votre véritable coût par article",
+     "Prix = coût divisé par (1 moins la marge)",
+     "Arrondir à un prix facile à payer",
+     "Revérifiez le bénéfice et la marge après arrondi"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Arrondissez à un chiffre facile à payer et à rendre, comme 800 naira."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Tarification pour une marge cible",
+    "items": [
+     "Commencez par votre véritable coût par article",
+     "Prix = coût divisé par (1 moins la marge)",
+     "Arrondir à un prix facile à payer",
+     "Revérifiez le bénéfice et la marge après arrondi"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Puis revérifiez. L'arrondi est généralement sûr, mais l'arrondi à l'inférieur peut réduire votre marge."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Tarification pour une marge cible",
+    "items": [
+     "Commencez par votre véritable coût par article",
+     "Prix = coût divisé par (1 moins la marge)",
+     "Arrondir à un prix facile à payer",
+     "Revérifiez le bénéfice et la marge après arrondi"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Maintenant le piège. Si vous ajoutez simplement 30% à 550 naira, vous obtenez 715 naira. Votre marge réelle n'est que de 23 %, et non de 30 %."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Tarification pour une marge cible",
+    "items": [
+     "Commencez par votre véritable coût par article",
+     "Prix = coût divisé par (1 moins la marge)",
+     "Arrondir à un prix facile à payer",
+     "Revérifiez le bénéfice et la marge après arrondi"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Ajouter 30 % au coût ne vous donne pas une marge de 30 %.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Ensuite, étudiez le marché. Répertoriez les vendeurs auprès desquels vos clients pourraient acheter à votre place et comparez les produits comparables."
+   ],
+   "card": {
+    "title": "Comparez le prix par 100 g, pas l'autocollant",
+    "rows": [],
+    "note": "Les prix en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Ngozi divise chaque prix par la taille. Le vendeur A revient à 400 naira pour 100 g, le vendeur B à 360 naira et le vendeur C, avec un pot de marque, à 600 naira."
+   ],
+   "card": {
+    "title": "Comparez le prix par 100 g, pas l'autocollant",
+    "rows": [
+     [
+      "Vendeur A, par 100 g",
+      "400"
+     ],
+     [
+      "Vendeur B, par 100 g",
+      "360"
+     ],
+     [
+      "Vendeur C, pot de marque, par 100 g",
+      "600"
+     ]
+    ],
+    "note": "Les prix en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Son propre paquet de 200 g à 800 naira équivaut à 400 naira pour 100 g. Elle se situe dans la moyenne inférieure de la fourchette. Elle n'est pas trop chère et un meilleur emballage pourrait la faire progresser."
+   ],
+   "card": {
+    "title": "Comparez le prix par 100 g, pas l'autocollant",
+    "rows": [
+     [
+      "Vendeur A, par 100 g",
+      "400"
+     ],
+     [
+      "Vendeur B, par 100 g",
+      "360"
+     ],
+     [
+      "Vendeur C, pot de marque, par 100 g",
+      "600"
+     ],
+     [
+      "Ngozi, pour 100 g",
+      "400"
+     ]
+    ],
+    "note": "Les prix en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "La valeur est ce que le client gagne, pas ce que vous y investissez. La commodité est une source, comme la livraison au bureau."
+   ],
+   "panel": {
+    "kicker": "Trouvez votre valeur",
+    "heading": "D’où vient la valeur",
+    "items": [
+     "Commodité : livré, prêt à temps",
+     "Qualité : plus fraîche, plus soignée, plus durable",
+     "Fiabilité : vous tenez vos promesses",
+     "Service personnalisé et confiance"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "La qualité en est une autre : des aliments plus frais, des coutures plus soignées."
+   ],
+   "panel": {
+    "kicker": "Trouvez votre valeur",
+    "heading": "D’où vient la valeur",
+    "items": [
+     "Commodité : livré, prêt à temps",
+     "Qualité : plus fraîche, plus soignée, plus durable",
+     "Fiabilité : vous tenez vos promesses",
+     "Service personnalisé et confiance"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "La fiabilité compte aussi. Vous livrez toujours ce que vous promettez."
+   ],
+   "panel": {
+    "kicker": "Trouvez votre valeur",
+    "heading": "D’où vient la valeur",
+    "items": [
+     "Commodité : livré, prêt à temps",
+     "Qualité : plus fraîche, plus soignée, plus durable",
+     "Fiabilité : vous tenez vos promesses",
+     "Service personnalisé et confiance"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Alors faites du service personnalisé et de la confiance. Par exemple, Amaka, la tailleuse, livre en 3 jours avec un ajustement correct, elle facture donc 18 000 nairas pour une robe qui lui coûte 11 000 nairas.",
+    "Facturez uniquement pour des avantages réels. N’exagérez jamais."
+   ],
+   "panel": {
+    "kicker": "Trouvez votre valeur",
+    "heading": "D’où vient la valeur",
+    "items": [
+     "Commodité : livré, prêt à temps",
+     "Qualité : plus fraîche, plus soignée, plus durable",
+     "Fiabilité : vous tenez vos promesses",
+     "Service personnalisé et confiance"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Une remise découle directement de vos bénéfices et non de vos coûts."
+   ],
+   "card": {
+    "title": "Ce que coûte réellement 10 % de réduction à Ngozi",
+    "rows": [],
+    "note": "Les prix en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Si Ngozi offre 10 % de réduction, son prix baisse de 80 naira à 720 naira. Son coût reste le même, donc son bénéfice passe de 250 naira à 170 naira. Elle a perdu 32 % de ses bénéfices sur ce pack."
+   ],
+   "card": {
+    "title": "Ce que coûte réellement 10 % de réduction à Ngozi",
+    "rows": [
+     [
+      "Prix après 10% de réduction",
+      "720"
+     ],
+     [
+      "Réduction de prix par paquet",
+      "80"
+     ],
+     [
+      "Bénéfice par pack maintenant",
+      "170"
+     ]
+    ],
+    "note": "Les prix en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Voici la règle des ventes supplémentaires. Divisez l'ancien profit par le nouveau profit. 250 divisé par 170 égale 1,47.",
+    "Ainsi, si elle vend normalement 100 paquets par semaine, elle doit en vendre environ 147 juste pour rester immobile."
+   ],
+   "card": {
+    "title": "Ce que coûte réellement 10 % de réduction à Ngozi",
+    "rows": [
+     [
+      "Prix après 10% de réduction",
+      "720"
+     ],
+     [
+      "Réduction de prix par paquet",
+      "80"
+     ],
+     [
+      "Bénéfice par pack maintenant",
+      "170"
+     ]
+    ],
+    "note": "Les prix en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "N'accordez une remise que lorsqu'elle est payée par une économie réelle, comme une livraison pour une commande groupée. Un article gratuit vous coûte son coût, pas son prix, alors achetez-en 10 et obtenez-en 1 gratuit peut battre 10 % de réduction.",
+    "Fixez des limites de temps, écrivez votre prix de départ et ne descendez jamais en dessous de votre plancher."
+   ],
+   "panel": {
+    "kicker": "De meilleures offres",
+    "heading": "Protégez votre marge",
+    "items": [
+     "Remise uniquement pour des économies réelles ou du volume",
+     "Achetez-en 10, obtenez-en 1 gratuitement, vous pouvez battre 10 % de réduction",
+     "Fixer une limite de temps sur les offres",
+     "Écrivez votre prix de départ",
+     "Ne descendez jamais en dessous de votre prix plancher"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "À retenir. Prix ​​pour une marge en divisant le coût par 1 moins la marge. Le balisage et la marge ne sont pas les mêmes.",
+    "Le coût fixe le ton, les concurrents montrent la gamme et la valeur vous y place. Les remises proviennent des bénéfices, alors vérifiez d’abord les ventes supplémentaires dont vous auriez besoin."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Prix de marge = coût divisé par (1 moins la marge)",
+     "La majoration correspond au profit par rapport au coût ; la marge est le profit par rapport au prix",
+     "Le coût fixe le plancher, les concurrents la gamme, valorisent votre place",
+     "Une remise découle du profit et non du coût",
+     "Ventes supplémentaires nécessaires = ancien bénéfice divisé par nouveau bénéfice"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Déterminez maintenant votre propre prix de revient, vérifiez cinq concurrents et testez une remise sur papier avant d’en proposer une.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâches d'entraînement",
+    "heading": "Vos tâches pour ce module",
+    "items": [
+     "Évaluez votre produit au prix coûtant majoré",
+     "Effectuer une analyse de marché sur cinq concurrents",
+     "Testez une remise sur papier"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

@@ -1,0 +1,709 @@
+{
+ "course": "blockchain-digital-assets-literacy",
+ "module": "m2",
+ "title": "Carteiras, pesquisa e defesa contra fraudes",
+ "course_title": "Alfabetização em Blockchain e Ativos Digitais",
+ "shots": [
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Carteiras, pesquisa e defesa contra fraudes.",
+    "Este é o vídeo do módulo 2 de Alfabetização em Blockchain e Ativos Digitais."
+   ]
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "As moedas não ficam dentro do seu telefone. Uma carteira armazena sua chave privada, o segredo que permite assinar um pagamento."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Sua frase é tudo",
+    "items": [
+     "Uma carteira contém chaves, não moedas",
+     "Sua frase de recuperação controla tudo",
+     "Pesquise antes de acreditar",
+     "Conheça os golpes antes que eles encontrem você"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "A maioria das carteiras cria suas chaves a partir de uma frase de recuperação de 12 ou 24 palavras comuns. Um estranho com essas palavras não precisa do seu telefone, do seu PIN ou do seu rosto."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Sua frase é tudo",
+    "items": [
+     "Uma carteira contém chaves, não moedas",
+     "Sua frase de recuperação controla tudo",
+     "Pesquise antes de acreditar",
+     "Conheça os golpes antes que eles encontrem você"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Você aprenderá um fluxo de trabalho de pesquisa para julgar qualquer ativo digital."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Sua frase é tudo",
+    "items": [
+     "Uma carteira contém chaves, não moedas",
+     "Sua frase de recuperação controla tudo",
+     "Pesquise antes de acreditar",
+     "Conheça os golpes antes que eles encontrem você"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "E você aprenderá os golpes criados para criptografia e o que fazer na primeira hora se algo der errado."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Sua frase é tudo",
+    "items": [
+     "Uma carteira contém chaves, não moedas",
+     "Sua frase de recuperação controla tudo",
+     "Pesquise antes de acreditar",
+     "Conheça os golpes antes que eles encontrem você"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Em uma exchange, uma empresa detém suas chaves. É conveniente, mas as trocas falharam. A FTX entrou em colapso em novembro de 2022 e os clientes não puderam sacar."
+   ],
+   "panel": {
+    "kicker": "Quem detém as chaves?",
+    "heading": "Conta Exchange ou sua própria carteira",
+    "mode": "compare",
+    "left_h": "Conta de troca",
+    "left": [
+     "A empresa guarda suas chaves",
+     "A redefinição de senha é possível",
+     "Pode congelar ou falhar",
+     "Verificações de identidade necessárias"
+    ],
+    "right_h": "Carteira de autocustódia",
+    "right": [
+     "Você segura suas chaves",
+     "Perca a frase, perca tudo",
+     "Nenhuma empresa pode congelá-lo",
+     "Você carrega toda a segurança"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Em uma carteira de autocustódia, você tem as chaves. Nenhuma empresa pode congelá-la, mas se você perder ou revelar sua frase, ninguém poderá ajudar.",
+    "Enquanto você aprende, guarde apenas o que está preparado para perder completamente."
+   ],
+   "panel": {
+    "kicker": "Quem detém as chaves?",
+    "heading": "Conta Exchange ou sua própria carteira",
+    "mode": "compare",
+    "left_h": "Conta de troca",
+    "left": [
+     "A empresa guarda suas chaves",
+     "A redefinição de senha é possível",
+     "Pode congelar ou falhar",
+     "Verificações de identidade necessárias"
+    ],
+    "right_h": "Carteira de autocustódia",
+    "right": [
+     "Você segura suas chaves",
+     "Perca a frase, perca tudo",
+     "Nenhuma empresa pode congelá-lo",
+     "Você carrega toda a segurança"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Passo 1. Encontre o site oficial da carteira e siga seu próprio link para a app store. Aplicativos de carteira falsos copiam logotipos. Nunca instale arquivos APK do WhatsApp."
+   ],
+   "panel": {
+    "kicker": "Configuração segura",
+    "heading": "Configurando uma carteira com segurança",
+    "items": [
+     "Encontre o site oficial primeiro",
+     "Crie sem ninguém olhando",
+     "Escreva a frase no papel, em ordem",
+     "Mantenha duas cópias em dois locais seguros",
+     "Use um aplicativo autenticador, não SMS"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Passo 2. Crie a carteira sem ninguém olhando sua tela."
+   ],
+   "panel": {
+    "kicker": "Configuração segura",
+    "heading": "Configurando uma carteira com segurança",
+    "items": [
+     "Encontre o site oficial primeiro",
+     "Crie sem ninguém olhando",
+     "Escreva a frase no papel, em ordem",
+     "Mantenha duas cópias em dois locais seguros",
+     "Use um aplicativo autenticador, não SMS"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Passo 3. Escreva a frase no papel com uma caneta. Nunca fotografe, faça capturas de tela ou salve em notas ou no WhatsApp."
+   ],
+   "panel": {
+    "kicker": "Configuração segura",
+    "heading": "Configurando uma carteira com segurança",
+    "items": [
+     "Encontre o site oficial primeiro",
+     "Crie sem ninguém olhando",
+     "Escreva a frase no papel, em ordem",
+     "Mantenha duas cópias em dois locais seguros",
+     "Use um aplicativo autenticador, não SMS"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Passo 4. Faça duas cópias em papel e guarde-as em dois locais seguros separados."
+   ],
+   "panel": {
+    "kicker": "Configuração segura",
+    "heading": "Configurando uma carteira com segurança",
+    "items": [
+     "Encontre o site oficial primeiro",
+     "Crie sem ninguém olhando",
+     "Escreva a frase no papel, em ordem",
+     "Mantenha duas cópias em dois locais seguros",
+     "Use um aplicativo autenticador, não SMS"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Passo 5. Nas exchanges, use um aplicativo autenticador, pois fraudes de troca de SIM podem roubar códigos SMS.",
+    "Antes de uma grande transferência, envie primeiro um pequeno teste e verifique a rede e o endereço."
+   ],
+   "panel": {
+    "kicker": "Configuração segura",
+    "heading": "Configurando uma carteira com segurança",
+    "items": [
+     "Encontre o site oficial primeiro",
+     "Crie sem ninguém olhando",
+     "Escreva a frase no papel, em ordem",
+     "Mantenha duas cópias em dois locais seguros",
+     "Use um aplicativo autenticador, não SMS"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Qualquer pessoa que pedir para você digitar sua frase para sincronizar, desbloquear ou reivindicar uma recompensa está roubando."
+   ],
+   "panel": {
+    "kicker": "Configuração segura",
+    "heading": "Configurando uma carteira com segurança",
+    "items": [
+     "Encontre o site oficial primeiro",
+     "Crie sem ninguém olhando",
+     "Escreva a frase no papel, em ordem",
+     "Mantenha duas cópias em dois locais seguros",
+     "Use um aplicativo autenticador, não SMS"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Nenhum verdadeiro agente de suporte jamais solicitará sua frase.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Passo 1. Anote a afirmação e quem ganha se você acreditar nela."
+   ],
+   "panel": {
+    "kicker": "Devida diligência",
+    "heading": "Seis etapas para pesquisar qualquer projeto",
+    "items": [
+     "Escreva a reivindicação em uma frase",
+     "Leia os documentos primários",
+     "Verifique a equipe e o dinheiro",
+     "Verifique em um explorador de blocos",
+     "Verifique SEC Nigéria para avisos",
+     "Escreva um veredicto equilibrado"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Passo 2. Leia o site oficial e o white paper. Por que é necessário um blockchain?"
+   ],
+   "panel": {
+    "kicker": "Devida diligência",
+    "heading": "Seis etapas para pesquisar qualquer projeto",
+    "items": [
+     "Escreva a reivindicação em uma frase",
+     "Leia os documentos primários",
+     "Verifique a equipe e o dinheiro",
+     "Verifique em um explorador de blocos",
+     "Verifique SEC Nigéria para avisos",
+     "Escreva um veredicto equilibrado"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Etapa 3. Os fundadores são nomeados e são reais? Quantos tokens os insiders possuem e quando podem vender?"
+   ],
+   "panel": {
+    "kicker": "Devida diligência",
+    "heading": "Seis etapas para pesquisar qualquer projeto",
+    "items": [
+     "Escreva a reivindicação em uma frase",
+     "Leia os documentos primários",
+     "Verifique a equipe e o dinheiro",
+     "Verifique em um explorador de blocos",
+     "Verifique SEC Nigéria para avisos",
+     "Escreva um veredicto equilibrado"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Passo 4. Use um explorador de blocos para verificar o endereço do contrato e se algumas carteiras possuem a maior parte do fornecimento."
+   ],
+   "panel": {
+    "kicker": "Devida diligência",
+    "heading": "Seis etapas para pesquisar qualquer projeto",
+    "items": [
+     "Escreva a reivindicação em uma frase",
+     "Leia os documentos primários",
+     "Verifique a equipe e o dinheiro",
+     "Verifique em um explorador de blocos",
+     "Verifique SEC Nigéria para avisos",
+     "Escreva um veredicto equilibrado"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Etapa 5. Pesquise avisos no site da SEC Nigéria."
+   ],
+   "panel": {
+    "kicker": "Devida diligência",
+    "heading": "Seis etapas para pesquisar qualquer projeto",
+    "items": [
+     "Escreva a reivindicação em uma frase",
+     "Leia os documentos primários",
+     "Verifique a equipe e o dinheiro",
+     "Verifique em um explorador de blocos",
+     "Verifique SEC Nigéria para avisos",
+     "Escreva um veredicto equilibrado"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Passo 6. Escreva um veredicto com potencial real, limites reais e questões abertas.",
+    "E lembre-se da aritmética de recuperação. Se um ativo cair 50%, ele deverá subir 100% para voltar."
+   ],
+   "panel": {
+    "kicker": "Devida diligência",
+    "heading": "Seis etapas para pesquisar qualquer projeto",
+    "items": [
+     "Escreva a reivindicação em uma frase",
+     "Leia os documentos primários",
+     "Verifique a equipe e o dinheiro",
+     "Verifique em um explorador de blocos",
+     "Verifique SEC Nigéria para avisos",
+     "Escreva um veredicto equilibrado"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "rule": "Uma queda de 50% precisa de um aumento de 100% apenas para se recuperar.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Os pagamentos não podem ser revertidos, por isso os golpistas adoram criptografia. O primeiro golpe é o phishing de frase-semente. O Tell é qualquer solicitação para sua frase."
+   ],
+   "panel": {
+    "kicker": "Conheça o que dizer",
+    "heading": "Três fraudes criptográficas para detectar",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Phishing de frase-semente",
+      "d": "Suporte falso ou site de sincronização falso solicita sua frase de recuperação."
+     },
+     {
+      "t": "Plataforma de negociação falsa",
+      "d": "Os lucros aumentam na tela, então você deve pagar uma taxa para sacar."
+     },
+     {
+      "t": "Fraude de pagamento P2P",
+      "d": "Um comprador envia um alerta bancário falso. Verifique o aplicativo do seu banco antes de liberar."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "A segunda é uma plataforma de negociação falsa. O lucro inicial é uma isca. Se você tiver que pagar um imposto ou uma taxa de desbloqueio para sacar, os lucros nunca serão reais."
+   ],
+   "panel": {
+    "kicker": "Conheça o que dizer",
+    "heading": "Três fraudes criptográficas para detectar",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Phishing de frase-semente",
+      "d": "Suporte falso ou site de sincronização falso solicita sua frase de recuperação."
+     },
+     {
+      "t": "Plataforma de negociação falsa",
+      "d": "Os lucros aumentam na tela, então você deve pagar uma taxa para sacar."
+     },
+     {
+      "t": "Fraude de pagamento P2P",
+      "d": "Um comprador envia um alerta bancário falso. Verifique o aplicativo do seu banco antes de liberar."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_security",
+   "say": [
+    "A terceira é a fraude de pagamento P2P. Nunca confie em um alerta SMS ou em uma captura de tela. Abra seu próprio aplicativo bancário e verifique se a naira chegou antes de liberar qualquer coisa."
+   ],
+   "panel": {
+    "kicker": "Conheça o que dizer",
+    "heading": "Três fraudes criptográficas para detectar",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Phishing de frase-semente",
+      "d": "Suporte falso ou site de sincronização falso solicita sua frase de recuperação."
+     },
+     {
+      "t": "Plataforma de negociação falsa",
+      "d": "Os lucros aumentam na tela, então você deve pagar uma taxa para sacar."
+     },
+     {
+      "t": "Fraude de pagamento P2P",
+      "d": "Um comprador envia um alerta bancário falso. Verifique o aplicativo do seu banco antes de liberar."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Por exemplo, Grace é adicionada a um grupo do Telegram prometendo 40% todo mês. Ela verifica a matemática primeiro."
+   ],
+   "card": {
+    "title": "Grace testa uma promessa mensal de 40%",
+    "rows": [],
+    "note": "Composição: multiplique por 1,4 a cada mês."
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Ela tem 200.000 nairas. Após o primeiro mês, seriam 280.000 nairas."
+   ],
+   "card": {
+    "title": "Grace testa uma promessa mensal de 40%",
+    "rows": [
+     [
+      "Suas economias",
+      "200,000"
+     ],
+     [
+      "Após o primeiro mês em 40%",
+      "280,000"
+     ]
+    ],
+    "note": "Composição: multiplique por 1,4 a cada mês."
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Em 12 meses, isso equivale a cerca de 11.340.000 nairas. Cerca de 57 vezes o seu dinheiro em um ano.",
+    "Nenhum negócio honesto oferece isso. Se fosse real, eles não precisariam dos seus 200.000 nairas."
+   ],
+   "card": {
+    "title": "Grace testa uma promessa mensal de 40%",
+    "rows": [
+     [
+      "Suas economias",
+      "200,000"
+     ],
+     [
+      "Após o primeiro mês em 40%",
+      "280,000"
+     ]
+    ],
+    "note": "Composição: multiplique por 1,4 a cada mês."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Se você compartilhou sua frase ou assinou uma aprovação incorreta, aja nesta ordem. Primeiro, crie uma carteira totalmente nova com uma nova frase em um dispositivo limpo."
+   ],
+   "panel": {
+    "kicker": "A primeira hora",
+    "heading": "Se você compartilhou sua frase",
+    "items": [
+     "Faça uma nova carteira em um dispositivo limpo",
+     "Mova os fundos restantes de uma só vez",
+     "Revogue quaisquer aprovações ruins",
+     "Alterar senhas de exchange e 2FA",
+     "Salve as evidências e depois relate"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Mova todos os fundos restantes para ele de uma só vez."
+   ],
+   "panel": {
+    "kicker": "A primeira hora",
+    "heading": "Se você compartilhou sua frase",
+    "items": [
+     "Faça uma nova carteira em um dispositivo limpo",
+     "Mova os fundos restantes de uma só vez",
+     "Revogue quaisquer aprovações ruins",
+     "Alterar senhas de exchange e 2FA",
+     "Salve as evidências e depois relate"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Revogue qualquer aprovação de token que você assinou, com uma ferramenta como Revoke.cash."
+   ],
+   "panel": {
+    "kicker": "A primeira hora",
+    "heading": "Se você compartilhou sua frase",
+    "items": [
+     "Faça uma nova carteira em um dispositivo limpo",
+     "Mova os fundos restantes de uma só vez",
+     "Revogue quaisquer aprovações ruins",
+     "Alterar senhas de exchange e 2FA",
+     "Salve as evidências e depois relate"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Altere suas senhas de exchange e configurações de dois fatores."
+   ],
+   "panel": {
+    "kicker": "A primeira hora",
+    "heading": "Se você compartilhou sua frase",
+    "items": [
+     "Faça uma nova carteira em um dispositivo limpo",
+     "Mova os fundos restantes de uma só vez",
+     "Revogue quaisquer aprovações ruins",
+     "Alterar senhas de exchange e 2FA",
+     "Salve as evidências e depois relate"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Em seguida, salve capturas de tela e hashes de transação e informe à bolsa, ao seu banco, à polícia ou ao EFCC e à SEC Nigéria."
+   ],
+   "panel": {
+    "kicker": "A primeira hora",
+    "heading": "Se você compartilhou sua frase",
+    "items": [
+     "Faça uma nova carteira em um dispositivo limpo",
+     "Mova os fundos restantes de uma só vez",
+     "Revogue quaisquer aprovações ruins",
+     "Alterar senhas de exchange e 2FA",
+     "Salve as evidências e depois relate"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Estranhos que prometem rastrear sua criptografia mediante pagamento de uma taxa inicial também são golpistas."
+   ],
+   "panel": {
+    "kicker": "A primeira hora",
+    "heading": "Se você compartilhou sua frase",
+    "items": [
+     "Faça uma nova carteira em um dispositivo limpo",
+     "Mova os fundos restantes de uma só vez",
+     "Revogue quaisquer aprovações ruins",
+     "Alterar senhas de exchange e 2FA",
+     "Salve as evidências e depois relate"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "As ofertas de recuperação de fundos são uma segunda fraude.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Para lembrar. Sua frase é tudo. Mantenha-o no papel, nunca digital, nunca compartilhado. Envie um pequeno teste primeiro. Uma taxa de retirada significa que os lucros nunca foram reais. E os agentes de recuperação são uma segunda fraude."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Lembre-se",
+    "items": [
+     "As carteiras contêm chaves; a frase é tudo",
+     "Somente papel, nunca digital, nunca compartilhado",
+     "Envie um pequeno teste e verifique a rede",
+     "Uma taxa para retirar significa lucros falsos",
+     "Ofertas de recuperação de fundos são uma segunda fraude"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Agora complete sua lista de verificação de segurança, pesquise um projeto real usando as seis etapas e crie um cartão de padrão de fraude com suas próprias respostas.",
+    "Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Tarefa prática",
+    "heading": "Suas tarefas práticas",
+    "items": [
+     "Preencha a lista de verificação de segurança",
+     "Pesquise um projeto real em seis etapas",
+     "Crie um cartão de padrão de fraude"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

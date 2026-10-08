@@ -1,0 +1,541 @@
+{
+ "course": "ui-design-figma",
+ "module": "m2",
+ "title": "Composants, prototypes et transfert propre des développeurs",
+ "course_title": "Conception d'interface utilisateur avec Figma",
+ "shots": [
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Composants, prototypes et transfert propre du développeur.",
+    "Ceci est la vidéo du module deux de UI Design avec Figma."
+   ]
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Un composant est un élément que vous construisez une seule fois et que vous réutilisez, comme un bouton ou une fiche produit. L'original est le composant principal."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Construisez une fois, réutilisez partout",
+    "items": [
+     "Composant principal : l'original",
+     "Instances : copies qui restent liées",
+     "Remplacements : modifier un libellé, conserver le lien",
+     "Un designer, 40 écrans cohérents"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Chaque copie est une instance. Modifiez le composant principal et chaque instance est mise à jour. Dans une instance, vous pouvez toujours remplacer des éléments tels que l'étiquette, sans rompre le lien."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Construisez une fois, réutilisez partout",
+    "items": [
+     "Composant principal : l'original",
+     "Instances : copies qui restent liées",
+     "Remplacements : modifier un libellé, conserver le lien",
+     "Un designer, 40 écrans cohérents"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "C’est ce qui permet à un concepteur de maintenir la cohérence de 40 écrans."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Construisez une fois, réutilisez partout",
+    "items": [
+     "Composant principal : l'original",
+     "Instances : copies qui restent liées",
+     "Remplacements : modifier un libellé, conserver le lien",
+     "Un designer, 40 écrans cohérents"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Créez l'élément avec une mise en page automatique et uniquement vos styles enregistrés. Appuyez ensuite sur Ctrl, Alt, K ou Commande, Option, K sur un Mac pour en faire un composant."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "De l’élément à l’ensemble de composants",
+    "items": [
+     "Construire avec une mise en page automatique et des styles enregistrés",
+     "Ctrl + Alt + K pour créer le composant",
+     "Dupliquer, puis combiner en tant que variantes",
+     "Renommer la propriété 1 en Type, État, Taille",
+     "Ajouter du texte, des booléens et des accessoires d'échange d'instances"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Dupliquez-le pour chaque version dont vous avez besoin, sélectionnez-les toutes et cliquez sur Combiner en tant que variantes."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "De l’élément à l’ensemble de composants",
+    "items": [
+     "Construire avec une mise en page automatique et des styles enregistrés",
+     "Ctrl + Alt + K pour créer le composant",
+     "Dupliquer, puis combiner en tant que variantes",
+     "Renommer la propriété 1 en Type, État, Taille",
+     "Ajouter du texte, des booléens et des accessoires d'échange d'instances"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Renommez la propriété 1 par défaut en quelque chose de significatif, comme Type, avec des valeurs telles que Primaire et Secondaire."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "De l’élément à l’ensemble de composants",
+    "items": [
+     "Construire avec une mise en page automatique et des styles enregistrés",
+     "Ctrl + Alt + K pour créer le composant",
+     "Dupliquer, puis combiner en tant que variantes",
+     "Renommer la propriété 1 en Type, État, Taille",
+     "Ajouter du texte, des booléens et des accessoires d'échange d'instances"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Ajoutez ensuite d'autres propriétés : Texte pour modifier l'étiquette, Booléen pour afficher ou masquer une icône et Instance swap pour choisir quelle icône."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "De l’élément à l’ensemble de composants",
+    "items": [
+     "Construire avec une mise en page automatique et des styles enregistrés",
+     "Ctrl + Alt + K pour créer le composant",
+     "Dupliquer, puis combiner en tant que variantes",
+     "Renommer la propriété 1 en Type, État, Taille",
+     "Ajouter du texte, des booléens et des accessoires d'échange d'instances"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Le détachement d'une instance rompt définitivement son lien, elle ne reçoit donc jamais de correctifs futurs. Si vous continuez à vouloir vous détacher, il manque une propriété à votre composant."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "De l’élément à l’ensemble de composants",
+    "items": [
+     "Construire avec une mise en page automatique et des styles enregistrés",
+     "Ctrl + Alt + K pour créer le composant",
+     "Dupliquer, puis combiner en tant que variantes",
+     "Renommer la propriété 1 en Type, État, Taille",
+     "Ajouter du texte, des booléens et des accessoires d'échange d'instances"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Ne détachez pas. Si vous le souhaitez, réparez plutôt le composant.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Amaka a besoin de boutons en 3 types, 3 états et 2 tailles. Cela fait 18 variantes. Si elle fait également de l'icône une variante, le nombre double pour atteindre 36 et chaque modification future devra être effectuée 36 fois."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Gardez le jeu de boutons petit",
+    "mode": "compare",
+    "left_h": "Icône comme variante",
+    "left": [
+     "3 types × 3 états × 2 tailles = 18",
+     "Doublez-le pour les icônes : 36",
+     "Chaque modification effectuée 36 fois"
+    ],
+    "right_h": "Icône en tant que propriété",
+    "right": [
+     "Encore 18 variantes",
+     "Booléen : Afficher l'icône",
+     "Échange d'instance : panier, plus, flèche",
+     "Propriété du texte : l'étiquette"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Au lieu de cela, elle ajoute une propriété booléenne, une icône Afficher, une propriété d'échange d'instance pour l'icône et une propriété Texte pour l'étiquette. L'ensemble reste composé de 18 variantes et couvre tous les boutons de l'application."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Gardez le jeu de boutons petit",
+    "mode": "compare",
+    "left_h": "Icône comme variante",
+    "left": [
+     "3 types × 3 états × 2 tailles = 18",
+     "Doublez-le pour les icônes : 36",
+     "Chaque modification effectuée 36 fois"
+    ],
+    "right_h": "Icône en tant que propriété",
+    "right": [
+     "Encore 18 variantes",
+     "Booléen : Afficher l'icône",
+     "Échange d'instance : panier, plus, flèche",
+     "Propriété du texte : l'étiquette"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Un prototype relie vos écrans afin qu'un client puisse les parcourir avant de payer pour le développement. Chaque connexion a un déclencheur, comme Au clic, et une action, comme Naviguer vers ou Ouvrir la superposition."
+   ],
+   "panel": {
+    "kicker": "Prototypes",
+    "heading": "Chaque connexion comporte quatre parties",
+    "items": [
+     "Déclencheur : ce que fait l'utilisateur",
+     "Action : que se passe-t-il",
+     "Destination : où ça va",
+     "Animation : comment ça bouge"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Puis une image de destination et une animation. Environ 200 à 300 ms, avec sortie facile, conviennent à la plupart des transitions mobiles."
+   ],
+   "panel": {
+    "kicker": "Prototypes",
+    "heading": "Chaque connexion comporte quatre parties",
+    "items": [
+     "Déclencheur : ce que fait l'utilisateur",
+     "Action : que se passe-t-il",
+     "Destination : où ça va",
+     "Animation : comment ça bouge"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Amaka marque Home comme le point de départ d'un flux appelé Acheter des tomates."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Câblage du parcours de paiement",
+    "items": [
+     "Marquer Home comme point de départ du flux",
+     "Fiche produit : Naviguer, Emménager, 250 ms",
+     "Ajouter au panier : ouvrir une superposition de feuille inférieure",
+     "Les flèches Retour utilisent l'action Retour",
+     "Barres fixes sur les écrans défilants"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "En appuyant sur une fiche produit, vous vous déplacez dans l'écran du produit en 250 ms. Ajouter au panier ouvre une feuille de quantité en superposition, au lieu d'un écran séparé."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Câblage du parcours de paiement",
+    "items": [
+     "Marquer Home comme point de départ du flux",
+     "Fiche produit : Naviguer, Emménager, 250 ms",
+     "Ajouter au panier : ouvrir une superposition de feuille inférieure",
+     "Les flèches Retour utilisent l'action Retour",
+     "Barres fixes sur les écrans défilants"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Chaque flèche de retour utilise l'action Retour, de sorte que le chemin correspond toujours à la façon dont l'utilisateur est arrivé."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Câblage du parcours de paiement",
+    "items": [
+     "Marquer Home comme point de départ du flux",
+     "Fiche produit : Naviguer, Emménager, 250 ms",
+     "Ajouter au panier : ouvrir une superposition de feuille inférieure",
+     "Les flèches Retour utilisent l'action Retour",
+     "Barres fixes sur les écrans défilants"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Les écrans longs défilent, elle définit donc la barre supérieure et la navigation inférieure sur Fixe. Une barre inférieure qui défile semble cassée aux clients. Elle teste ensuite le tout sur son téléphone dans l'application mobile Figma."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Câblage du parcours de paiement",
+    "items": [
+     "Marquer Home comme point de départ du flux",
+     "Fiche produit : Naviguer, Emménager, 250 ms",
+     "Ajouter au panier : ouvrir une superposition de feuille inférieure",
+     "Les flèches Retour utilisent l'action Retour",
+     "Barres fixes sur les écrans défilants"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "L'animation intelligente ne fonctionne que lorsqu'un calque porte exactement le même nom dans les deux images. Badge et Ellipse 3 vont simplement sauter."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Câblage du parcours de paiement",
+    "items": [
+     "Marquer Home comme point de départ du flux",
+     "Fiche produit : Naviguer, Emménager, 250 ms",
+     "Ajouter au panier : ouvrir une superposition de feuille inférieure",
+     "Les flèches Retour utilisent l'action Retour",
+     "Barres fixes sur les écrans défilants"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "L'animation intelligente nécessite des calques correspondants portant exactement le même nom.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Partagez des prototypes avec un accès en visualisation uniquement, car un lien peut être transféré. Utilisez des exemples de noms, d’adresses et de numéros de téléphone, jamais de véritables données client. La loi nigériane sur la protection des données de 2023 s'applique aux données personnelles.",
+    "Installez uniquement des plugins provenant d'éditeurs connus et ne collez jamais les mots de passe des clients ou les données privées dans un seul."
+   ],
+   "panel": {
+    "kicker": "Partagez en toute sécurité",
+    "heading": "Protéger les données du client",
+    "items": [
+     "Partager des prototypes en mode visualisation uniquement",
+     "Utilisez des exemples de noms, de numéros et d'adresses",
+     "Jamais de vraies données client",
+     "Plugins uniquement d'éditeurs connus",
+     "Pas de mots de passe ni de données privées dans les plugins"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Un design peut être beau tout en restant inutilisable. Pour un texte normal, le niveau WCAG AA nécessite un rapport de contraste d'au moins 4,5 pour 1."
+   ],
+   "panel": {
+    "kicker": "Contrôle qualité",
+    "heading": "Vérifier le contraste des couleurs",
+    "items": [
+     "Texte normal : au moins 4,5 : 1",
+     "Texte grand : au moins 3 : 1",
+     "Bordures et icônes clés : 3 : 1",
+     "Corrigez la variable de couleur une fois"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Le texte volumineux et les parties non textuelles importantes, comme les bordures de saisie, ont besoin d'un rapport de 3 pour 1. La bordure de saisie gris clair d'Amaka n'était que d'environ 1,9 pour 1, de sorte que les utilisateurs pouvaient ne pas voir où taper."
+   ],
+   "panel": {
+    "kicker": "Contrôle qualité",
+    "heading": "Vérifier le contraste des couleurs",
+    "items": [
+     "Texte normal : au moins 4,5 : 1",
+     "Texte grand : au moins 3 : 1",
+     "Bordures et icônes clés : 3 : 1",
+     "Corrigez la variable de couleur une fois"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Chaque correctif consistait en une modification d'une variable de couleur et chaque écran était mis à jour en même temps."
+   ],
+   "panel": {
+    "kicker": "Contrôle qualité",
+    "heading": "Vérifier le contraste des couleurs",
+    "items": [
+     "Texte normal : au moins 4,5 : 1",
+     "Texte grand : au moins 3 : 1",
+     "Bordures et icônes clés : 3 : 1",
+     "Corrigez la variable de couleur une fois"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Son texte gris est passé sur du blanc à environ 4,6, mais a échoué sur une carte gris clair à environ 4,2. Vérifiez donc toujours le texte par rapport à son arrière-plan réel."
+   ],
+   "panel": {
+    "kicker": "Contrôle qualité",
+    "heading": "Vérifier le contraste des couleurs",
+    "items": [
+     "Texte normal : au moins 4,5 : 1",
+     "Texte grand : au moins 3 : 1",
+     "Bordures et icônes clés : 3 : 1",
+     "Corrigez la variable de couleur une fois"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Vérifiez le texte par rapport à l’arrière-plan réel sur lequel il se trouve.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Avant le transfert, vérifiez que les cibles de prise sont d'au moins 48 x 48. Concevez chaque état, y compris l'erreur, le vide et le chargement. Affichez les erreurs avec une icône et un message, pas seulement avec de la couleur.",
+    "Nommez clairement les calques et définissez les exportations SVG sur les icônes. Ensuite, écrivez des notes qu'un écran ne peut pas afficher, comme : désactivez Payer jusqu'à ce que l'adresse de livraison soit choisie.",
+    "Terminez par une visite guidée de 20 minutes avec le développeur."
+   ],
+   "panel": {
+    "kicker": "Avant la remise",
+    "heading": "Le laissez-passer de pré-remise",
+    "items": [
+     "Appuyez sur des cibles 48 × 48 ou plus",
+     "Tous les états : focalisé, erreur, vide, chargement",
+     "Erreurs affichées par plus que la couleur",
+     "Calques nommés ; exportations définies en SVG",
+     "Notes de comportement pour le développeur"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "À retenir. Créez les composants une seule fois et gardez les instances liées. Utilisez des variantes uniquement pour de réels changements visuels.",
+    "Prototypes filaires avec déclencheurs clairs et actions Back. Vérifiez le contraste par rapport à l'arrière-plan réel. Et remettez un fichier nommé et annoté."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Les instances suivent le composant principal",
+     "Variantes de looks ; propriétés pour le reste",
+     "Déclencheur, action, destination, animation",
+     "4,5 : 1 pour le texte normal",
+     "Nommer, exporter et annoter avant le transfert"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Maintenant, entraînez-vous. Créez votre premier ensemble de composants, prototypez un parcours, testez-le sur votre téléphone, puis effectuez un audit préalable au transfert.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâches d'entraînement",
+    "heading": "Vos tâches pratiques",
+    "items": [
+     "Construisez votre premier ensemble de composants",
+     "Prototype d'un voyage complet",
+     "Exécuter un audit préalable au transfert"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

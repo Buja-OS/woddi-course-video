@@ -1,0 +1,510 @@
+{
+ "course": "core-data-literacy",
+ "module": "m1",
+ "title": "D'une inquiétude à une question de données, en toute sécurité",
+ "course_title": "Maîtrise des données : feuilles de calcul, graphiques et indicateurs commerciaux",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "D'une inquiétude à une question de données, en toute sécurité.",
+    "Ceci est la vidéo du module 1 de Data Literacy."
+   ]
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Les données sont simplement des faits enregistrés. Les bouteilles de zobo que vous avez vendues samedi, ou la date à laquelle un membre a payé sa contribution.",
+    "Lorsque les faits sont écrits de manière organisée, vous pouvez les compter, les comparer et en tirer des leçons."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Les données sont simplement des faits enregistrés",
+    "items": [
+     "Les faits écrits peuvent être comptés et comparés",
+     "Les faits dans votre tête se transforment en suppositions",
+     "Littératie des données : lire, questionner et parler des données",
+     "Aucune mathématique avancée nécessaire"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Lorsqu’ils restent dans votre tête, ils se transforment en suppositions."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Les données sont simplement des faits enregistrés",
+    "items": [
+     "Les faits écrits peuvent être comptés et comparés",
+     "Les faits dans votre tête se transforment en suppositions",
+     "Littératie des données : lire, questionner et parler des données",
+     "Aucune mathématique avancée nécessaire"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "La maîtrise des données signifie que vous pouvez examiner un enregistrement de ventes ou un graphique et vous demander : qu'est-ce que cela montre réellement, est-ce exact et que dois-je faire ? Cela n’a pas besoin de mathématiques avancées."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Les données sont simplement des faits enregistrés",
+    "items": [
+     "Les faits écrits peuvent être comptés et comparés",
+     "Les faits dans votre tête se transforment en suppositions",
+     "Littératie des données : lire, questionner et parler des données",
+     "Aucune mathématique avancée nécessaire"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Les chiffres, comme les bouteilles vendues ou le montant payé, peuvent être additionnés et calculés en moyenne."
+   ],
+   "panel": {
+    "kicker": "Connaissez vos données",
+    "heading": "Quatre types de données",
+    "items": [
+     "Chiffres : montants que vous pouvez ajouter ou faire la moyenne",
+     "Catégories : étiquettes comme espèces, transfert, POS",
+     "Dates et heures : quand quelque chose s'est produit",
+     "Texte libre : mots que les gens écrivent ou disent"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Les catégories ne peuvent être comptées. Un identifiant de membre tel que 0457 est une étiquette, cela n'a donc aucun sens d'ajouter des identifiants de membre ensemble."
+   ],
+   "panel": {
+    "kicker": "Connaissez vos données",
+    "heading": "Quatre types de données",
+    "items": [
+     "Chiffres : montants que vous pouvez ajouter ou faire la moyenne",
+     "Catégories : étiquettes comme espèces, transfert, POS",
+     "Dates et heures : quand quelque chose s'est produit",
+     "Texte libre : mots que les gens écrivent ou disent"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Les dates vous permettent de regrouper par jour, semaine ou mois et de voir les tendances."
+   ],
+   "panel": {
+    "kicker": "Connaissez vos données",
+    "heading": "Quatre types de données",
+    "items": [
+     "Chiffres : montants que vous pouvez ajouter ou faire la moyenne",
+     "Catégories : étiquettes comme espèces, transfert, POS",
+     "Dates et heures : quand quelque chose s'est produit",
+     "Texte libre : mots que les gens écrivent ou disent"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Et le texte libre, comme si la bouteille n'était pas assez froide, est lu pour des thèmes et des plaintes répétées."
+   ],
+   "panel": {
+    "kicker": "Connaissez vos données",
+    "heading": "Quatre types de données",
+    "items": [
+     "Chiffres : montants que vous pouvez ajouter ou faire la moyenne",
+     "Catégories : étiquettes comme espèces, transfert, POS",
+     "Dates et heures : quand quelque chose s'est produit",
+     "Texte libre : mots que les gens écrivent ou disent"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Par exemple, Amaka vend du zobo réfrigéré près d’un parc de bus à Ibadan et jette souvent les bouteilles invendues. Les affaires sont lentes et c'est une préoccupation. Une bonne question indique ce que vous mesurez et quand."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Quel jour a besoin de zobo supplémentaire ?",
+    "items": [
+     "Demandez : combien de bouteilles dois-je vendre chaque jour ?",
+     "Collecter : un comptage chaque soir",
+     "Organiser : additionner la semaine, 138 bouteilles",
+     "Analyser : en moyenne environ 19,7 par jour",
+     "Décidez : faites plus vendredi et samedi"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false,
+    "rule": "Commencez par une question claire, pas une feuille de calcul.",
+    "showRule": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Elle fait un décompte chaque soir pendant une semaine : 18, 15, 17, 16, puis 26 le vendredi, 34 le samedi et 12 le dimanche. Cela fait 138 bouteilles."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Quel jour a besoin de zobo supplémentaire ?",
+    "items": [
+     "Demandez : combien de bouteilles dois-je vendre chaque jour ?",
+     "Collecter : un comptage chaque soir",
+     "Organiser : additionner la semaine, 138 bouteilles",
+     "Analyser : en moyenne environ 19,7 par jour",
+     "Décidez : faites plus vendredi et samedi"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Commencez par une question claire, pas une feuille de calcul.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "138 divisé par 7 correspond à environ 19,7 bouteilles par jour. Vendredi et samedi sont bien au-dessus, et dimanche bien en dessous."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Quel jour a besoin de zobo supplémentaire ?",
+    "items": [
+     "Demandez : combien de bouteilles dois-je vendre chaque jour ?",
+     "Collecter : un comptage chaque soir",
+     "Organiser : additionner la semaine, 138 bouteilles",
+     "Analyser : en moyenne environ 19,7 par jour",
+     "Décidez : faites plus vendredi et samedi"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Commencez par une question claire, pas une feuille de calcul.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Elle en gagne donc environ 30 le vendredi, 35 le samedi et seulement 12 le dimanche.",
+    "Mais une semaine peut être inhabituelle à cause de la pluie ou des vacances, alors elle continue d'enregistrer pendant trois semaines supplémentaires avant tout changement majeur."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Quel jour a besoin de zobo supplémentaire ?",
+    "items": [
+     "Demandez : combien de bouteilles dois-je vendre chaque jour ?",
+     "Collecter : un comptage chaque soir",
+     "Organiser : additionner la semaine, 138 bouteilles",
+     "Analyser : en moyenne environ 19,7 par jour",
+     "Décidez : faites plus vendredi et samedi"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Commencez par une question claire, pas une feuille de calcul.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Par exemple, Halima gère un kiosque de provisions à Kaduna. Sept clients dépensent entre 1 500 et 3 500 nairas, plus un traiteur qui dépense 20 000 nairas.",
+    "La moyenne additionne le tout et divise par 7. Cela donne environ 4 929 nairas, mais un seul client a dépensé plus que cela."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Que dépense un client type ?",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Moyenne : environ 4 929 ₦",
+      "d": "Additionnez les 7 montants, 34 500 naira, et divisez par 7. Un acheteur en gros le récupère."
+     },
+     {
+      "t": "Médiane : 2 500 ₦",
+      "d": "Triez les montants et prenez celui du milieu. C'est le client type."
+     },
+     {
+      "t": "Mode : 2 000 ₦",
+      "d": "Le montant qui apparaît le plus souvent. Fourchette : 20 000 moins 1 500 équivaut à 18 500 ₦."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "La médiane est la valeur médiane une fois triés : 2 500 nairas. C’est la meilleure réponse, car un acheteur en gros a tiré la moyenne bien vers le haut."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Que dépense un client type ?",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Moyenne : environ 4 929 ₦",
+      "d": "Additionnez les 7 montants, 34 500 naira, et divisez par 7. Un acheteur en gros le récupère."
+     },
+     {
+      "t": "Médiane : 2 500 ₦",
+      "d": "Triez les montants et prenez celui du milieu. C'est le client type."
+     },
+     {
+      "t": "Mode : 2 000 ₦",
+      "d": "Le montant qui apparaît le plus souvent. Fourchette : 20 000 moins 1 500 équivaut à 18 500 ₦."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Le mode est la valeur la plus courante, 2 000. La plage montre la répartition des valeurs."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Que dépense un client type ?",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Moyenne : environ 4 929 ₦",
+      "d": "Additionnez les 7 montants, 34 500 naira, et divisez par 7. Un acheteur en gros le récupère."
+     },
+     {
+      "t": "Médiane : 2 500 ₦",
+      "d": "Triez les montants et prenez celui du milieu. C'est le client type."
+     },
+     {
+      "t": "Mode : 2 000 ₦",
+      "d": "Le montant qui apparaît le plus souvent. Fourchette : 20 000 moins 1 500 équivaut à 18 500 ₦."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Utilisez la moyenne lorsque les valeurs sont assez similaires."
+   ],
+   "panel": {
+    "kicker": "Bien choisir",
+    "heading": "Moyenne ou médiane ?",
+    "mode": "compare",
+    "left_h": "Utilisez la moyenne",
+    "left": [
+     "Les valeurs sont assez similaires",
+     "Pas de hauts ni de bas extrêmes",
+     "Vous avez besoin d'un chiffre basé sur le total"
+    ],
+    "right_h": "Utiliser la médiane",
+    "right": [
+     "Une ou deux valeurs sont extrêmes",
+     "Revenus, prix, loyers des maisons",
+     "Vous voulez le cas type"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Lorsqu’une ou deux valeurs sont extrêmes, comme pour les revenus, les prix et les loyers, indiquez la médiane."
+   ],
+   "panel": {
+    "kicker": "Bien choisir",
+    "heading": "Moyenne ou médiane ?",
+    "mode": "compare",
+    "left_h": "Utilisez la moyenne",
+    "left": [
+     "Les valeurs sont assez similaires",
+     "Pas de hauts ni de bas extrêmes",
+     "Vous avez besoin d'un chiffre basé sur le total"
+    ],
+    "right_h": "Utiliser la médiane",
+    "right": [
+     "Une ou deux valeurs sont extrêmes",
+     "Revenus, prix, loyers des maisons",
+     "Vous voulez le cas type"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Un pourcentage compare une partie à un tout : partie divisée par le tout, multipliée par 100. Le pourcentage de variation est égal au nouveau moins l'ancien, divisé par l'ancien, multiplié par 100."
+   ],
+   "card": {
+    "title": "Les ventes ont-elles vraiment augmenté ?",
+    "rows": [],
+    "note": "Divisez toujours par l’ancienne valeur."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Les ventes étaient de 250 000 nairas en août et de 300 000 en septembre. La variation est de 50 000 divisé par 250 000, multiplié par 100. Cela représente une croissance de 20 %.",
+    "L'erreur courante consiste à diviser par la nouvelle valeur. Cela donne environ 16,7 %, ce qui est faux."
+   ],
+   "card": {
+    "title": "Les ventes ont-elles vraiment augmenté ?",
+    "rows": [
+     [
+      "Ventes en août (ancien)",
+      "250,000"
+     ],
+     [
+      "Soldes en septembre (nouveau)",
+      "300,000"
+     ]
+    ],
+    "note": "Divisez toujours par l’ancienne valeur."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Google Sheets est gratuit, fonctionne sur votre téléphone et est automatiquement enregistré sur Google Drive. Un téléphone perdu ne signifie donc pas des enregistrements perdus.",
+    "Protégez-le. Utilisez un mot de passe long et activez la vérification en deux étapes. Partagez en tant que visionneuse et donnez l'éditeur uniquement aux personnes qui en ont vraiment besoin."
+   ],
+   "panel": {
+    "kicker": "Gardez-le en sécurité",
+    "heading": "Protéger vos feuilles Google",
+    "items": [
+     "Une phrase de mot de passe longue et unique",
+     "La validation en deux étapes est activée",
+     "Partager en tant que visionneuse par défaut",
+     "Non Personne avec le lien pour les enregistrements d'argent",
+     "Historique des versions pour annuler les erreurs"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Les données personnelles relèvent de la responsabilité en vertu de la loi nigériane sur la protection des données de 2023. Par exemple, Fatima est trésorière d'un groupe d'épargne de 25 membres à Kano. Elle utilise les codes de membre et conserve la liste des noms dans un fichier séparé."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Registre des contributions sécurisées de Fatima",
+    "items": [
+     "Codes de membre M01 à M25, pas les noms complets",
+     "Liste de codes conservée dans un fichier privé séparé",
+     "Les membres peuvent voir ; une personne peut modifier",
+     "Preuve de paiement envoyée en privé, pas dans le groupe"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Les membres peuvent consulter et confirmer leurs propres entrées, et les captures d'écran de paiement n'apparaissent plus dans une discussion de groupe.",
+    "Et ne partagez jamais votre OTP, BVN ou code PIN bancaire avec qui que ce soit, même avec quelqu'un qui prétend appartenir à votre banque."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Registre des contributions sécurisées de Fatima",
+    "items": [
+     "Codes de membre M01 à M25, pas les noms complets",
+     "Liste de codes conservée dans un fichier privé séparé",
+     "Les membres peuvent voir ; une personne peut modifier",
+     "Preuve de paiement envoyée en privé, pas dans le groupe"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "À retenir. Commencez par une question pointue. Connaissez vos types de données. Choisissez la moyenne ou la médiane avec soin. Divisez par l’ancienne valeur. Et protégez les données des autres."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Questionner, collecter, organiser, analyser, décider",
+     "Les chiffres s’additionnent ; les catégories ne sont comptées que",
+     "Des valeurs extrêmes ? Rapporter la médiane",
+     "Variation en pourcentage : nouveau moins ancien, divisé par ancien",
+     "Collectez uniquement les données personnelles dont vous avez besoin"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "À votre tour. Transformez une inquiétude en une question, élaborez les mesures selon vos propres chiffres et établissez un cahier d'exercices sûr.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâches d'entraînement",
+    "heading": "Vos tâches pratiques",
+    "items": [
+     "Transformez une inquiétude en une question de données",
+     "Calculez les cinq mesures sur vos propres nombres",
+     "Mettre en place un coffre-fort, nommé Google Sheet",
+     "Activer la vérification en deux étapes"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}
