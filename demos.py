@@ -854,8 +854,8 @@ def vary_camera(v):
     if v <= 0: return
     sc = bpy.context.scene; cam = sc.camera
     tgt = cam.constraints[0].target
-    ang = [0, math.radians(34), math.radians(-30)][v % 3]
-    dist = [1, 0.78, 1.1][v % 3]
+    ang = [0, math.radians(34), math.radians(-30), math.radians(16)][v % 4]
+    dist = [1, 0.78, 1.1, 0.88][v % 4]
     from kit import fcurves
     sc.frame_set(1); t0 = tgt.matrix_world.translation.copy()
     for fc in fcurves(cam):
@@ -866,7 +866,7 @@ def vary_camera(v):
     for f in frames:
         sc.frame_set(f); p = cam.location.copy(); pts.append((f, p))
     for f, p in pts:
-        rel = p - t0; rel.z *= (1.12 if v == 1 else 1.2)
+        rel = p - t0; rel.z *= (1.12 if v == 1 else 0.85 if v == 3 else 1.2)
         x = rel.x * math.cos(ang) - rel.y * math.sin(ang); y = rel.x * math.sin(ang) + rel.y * math.cos(ang)
         cam.location = (t0.x + x * dist, t0.y + y * dist, t0.z + rel.z * dist); cam.keyframe_insert('location', frame=f)
-    cam.data.lens = cam.data.lens * (1.15 if v == 1 else 0.9)
+    cam.data.lens = cam.data.lens * (1.15 if v == 1 else 1.05 if v == 3 else 0.9)

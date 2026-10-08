@@ -1,6 +1,10 @@
 import sys, os, time
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import bpy, demos
+try:
+    import demos2
+except Exception as e:
+    print("demos2 import failed", e)
 name, out = sys.argv[1], sys.argv[2]
 frames = None
 if len(sys.argv) > 3: frames = [int(x) for x in sys.argv[3].split(',')]
@@ -14,5 +18,5 @@ P, PN = int(os.environ.get('WODDI_PART', '0')), int(os.environ.get('WODDI_PARTS'
 if PN > 1 and not frames:
     sc = bpy.context.scene; allf = list(range(sc.frame_start, sc.frame_end + 1))
     n = len(allf); a = n * P // PN; b = n * (P + 1) // PN; frames = allf[a:b]
-kit.render(out, frames=frames)
+kit.render(out, frames=frames, step=int(os.environ.get('WODDI_STEP', '1')))
 print('RENDERED', name, len(frames or []), 'in', round(time.time() - t, 1), 's')
