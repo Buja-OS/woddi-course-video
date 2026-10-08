@@ -1,0 +1,454 @@
+{
+ "course": "agile-scrum",
+ "module": "m1",
+ "title": "Bawo ni Agile ati Scrum ṣe n ṣiṣẹ gaan, ati igba lati lo Kanban",
+ "course_title": "Agile & Scrum ni Iwa",
+ "shots": [
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Bawo ni Agile ati Scrum ṣe n ṣiṣẹ gaan, ati igba lati lo Kanban.",
+    "Eyi ni fidio fun module 1 ti Agile ati Scrum ni Iwaṣe."
+   ]
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Foju inu wo ẹgbẹ kan ti n kọ oju-ọna owo ile-iwe kan ni Abuja. Ninu iṣẹ akanṣe ti a ṣe eto, nigbagbogbo ti a pe ni isosileomi, wọn ṣajọ gbogbo ibeere ni akọkọ, kọ fun awọn oṣu, ati idanwo ni ipari. Awọn oniwun ile-iwe ko rii ohunkohun ti o wulo titi di oṣu mẹfa."
+   ],
+   "panel": {
+    "kicker": "Kí nìdí Agile",
+    "heading": "Eto-ìṣó dipo Agile ifijiṣẹ",
+    "mode": "compare",
+    "left_h": "Eto-ìṣó",
+    "left": [
+     "Gbogbo awọn ibeere ti o wa titi iwaju",
+     "Ifijiṣẹ kan ni ipari",
+     "Iyipada jẹ iye owo ati koju",
+     "Awari ewu pẹ"
+    ],
+    "right_h": "Agile",
+    "right": [
+     "Awọn ibeere ti refaini gbogbo ọmọ",
+     "Nṣiṣẹ ṣiṣẹ ni gbogbo ọsẹ 1 si 4",
+     "Yi o ti ṣe yẹ ati ki o ngbero fun",
+     "Ewu fara han ni kutukutu"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Ẹgbẹ Agile ṣiṣẹ ni awọn akoko kukuru ti 1 si 4 ọsẹ. Yiyika kọọkan dopin pẹlu nkan iṣẹ kekere ti awọn olumulo gidi le gbiyanju. Wọn gba esi ati ṣatunṣe ero naa.",
+    "Agile ko tumọ si eto kankan. Awọn ọna mejeeji gbero. Iyatọ naa ni iye igba ti eto naa pade otitọ."
+   ],
+   "panel": {
+    "kicker": "Kí nìdí Agile",
+    "heading": "Eto-ìṣó dipo Agile ifijiṣẹ",
+    "mode": "compare",
+    "left_h": "Eto-ìṣó",
+    "left": [
+     "Gbogbo awọn ibeere ti o wa titi iwaju",
+     "Ifijiṣẹ kan ni ipari",
+     "Iyipada jẹ iye owo ati koju",
+     "Awari ewu pẹ"
+    ],
+    "right_h": "Agile",
+    "right": [
+     "Awọn ibeere ti refaini gbogbo ọmọ",
+     "Nṣiṣẹ ṣiṣẹ ni gbogbo ọsẹ 1 si 4",
+     "Yi o ti ṣe yẹ ati ki o ngbero fun",
+     "Ewu fara han ni kutukutu"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Ẹgbẹ naa ro pe awọn obi yoo sanwo nipasẹ kaadi. Pupọ julọ sanwo nipasẹ gbigbe banki tabi USSD."
+   ],
+   "card": {
+    "title": "Awọn iye owo ti a pẹ Awari",
+    "rows": [],
+    "note": "Apejuwe, awọn isiro isunmọ."
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Pẹlu awọn oludasile 4 ni nkan bi 25,000 naira ni ọjọ kan, ẹgbẹ naa n san 100,000 naira ni ọjọ kan."
+   ],
+   "card": {
+    "title": "Awọn iye owo ti a pẹ Awari",
+    "rows": [
+     [
+      "Iye owo egbe fun ọjọ kan",
+      "100,000"
+     ]
+    ],
+    "note": "Apejuwe, awọn isiro isunmọ."
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Ninu isosile omi, aṣiṣe yoo han ni idanwo lẹhin awọn ọjọ 60. 30% ti iṣẹ naa da lori rẹ, nitorinaa awọn ọjọ 18 gbọdọ tun ṣe. Iyen jẹ 1,800,000 naira."
+   ],
+   "card": {
+    "title": "Awọn iye owo ti a pẹ Awari",
+    "rows": [
+     [
+      "Iye owo egbe fun ọjọ kan",
+      "100,000"
+     ],
+     [
+      "Atunse isosile omi, 18 ọjọ",
+      "1,800,000"
+     ]
+    ],
+    "note": "Apejuwe, awọn isiro isunmọ."
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Ni Agile, awọn obi gbiyanju iboju sisanwo akọkọ lẹhin igbasẹ 1. Nikan nipa awọn ọjọ 3 ti iṣẹ da lori ero ti ko tọ. Iyen ni 300,000 naira.",
+    "Ọkan kẹfa ti iye owo, ati nipa osu meji ti idaduro yee. Iyẹn ni ariyanjiyan mojuto fun awọn akoko kukuru: ṣayẹwo ohun ti o ṣẹlẹ gaan, lẹhinna ṣe deede."
+   ],
+   "card": {
+    "title": "Awọn iye owo ti a pẹ Awari",
+    "rows": [
+     [
+      "Iye owo egbe fun ọjọ kan",
+      "100,000"
+     ],
+     [
+      "Atunse isosile omi, 18 ọjọ",
+      "1,800,000"
+     ],
+     [
+      "Agile rework, 3 ọjọ",
+      "300,000"
+     ]
+    ],
+    "note": "Apejuwe, awọn isiro isunmọ."
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Scrum jẹ ilana ti a lo julọ fun fifi Agile ṣiṣẹ. O jẹ asọye ninu Itọsọna Scrum ọfẹ, imudojuiwọn to kẹhin ni Oṣu kọkanla ọdun 2020. Ẹgbẹ Scrum kan jẹ deede eniyan 10 tabi diẹ sii, pẹlu awọn iṣiro mẹta.",
+    "Ẹniti o ni ọja jẹ eniyan kan, kii ṣe igbimọ kan. O mu iye pọ si ati paṣẹ fun Afẹyinti Ọja naa."
+   ],
+   "panel": {
+    "kicker": "Ẹgbẹ Scrum",
+    "heading": "Awọn iṣiro mẹta",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Olohun ọja",
+      "d": "Eniyan kan, kii ṣe igbimọ kan. O pọju iye ati paṣẹ fun Afẹyinti Ọja."
+     },
+     {
+      "t": "Scrum Titunto",
+      "d": "Olori ti o nṣe iranṣẹ: awọn olukọni, dẹrọ, yọ awọn blockers kuro. Kii ṣe oluṣakoso iṣẹ-ṣiṣe."
+     },
+     {
+      "t": "Awọn olupilẹṣẹ",
+      "d": "Ṣẹda Ilọsiwaju lilo gbogbo Tọ ṣẹṣẹ. Awọn oludanwo, awọn apẹẹrẹ ati awọn onkọwe ka paapaa."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Titunto si Scrum jẹ oludari ti o nṣe iranṣẹ. O olukọni ati ki o yọ blockers. Aṣiṣe ti o wọpọ jẹ ṣiṣe bi oluṣakoso iṣẹ-ṣiṣe ti o yan iṣẹ."
+   ],
+   "panel": {
+    "kicker": "Ẹgbẹ Scrum",
+    "heading": "Awọn iṣiro mẹta",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Olohun ọja",
+      "d": "Eniyan kan, kii ṣe igbimọ kan. O pọju iye ati paṣẹ fun Afẹyinti Ọja."
+     },
+     {
+      "t": "Scrum Titunto",
+      "d": "Olori ti o nṣe iranṣẹ: awọn olukọni, dẹrọ, yọ awọn blockers kuro. Kii ṣe oluṣakoso iṣẹ-ṣiṣe."
+     },
+     {
+      "t": "Awọn olupilẹṣẹ",
+      "d": "Ṣẹda Ilọsiwaju lilo gbogbo Tọ ṣẹṣẹ. Awọn oludanwo, awọn apẹẹrẹ ati awọn onkọwe ka paapaa."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Awọn Difelopa ṣẹda Ilọsiwaju lilo gbogbo Tọ ṣẹṣẹ. Olùgbéejáde ko tumọ si awọn pirogirama nikan. Awọn oludanwo, awọn apẹẹrẹ ati awọn onkọwe jẹ Awọn Difelopa paapaa."
+   ],
+   "panel": {
+    "kicker": "Ẹgbẹ Scrum",
+    "heading": "Awọn iṣiro mẹta",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Olohun ọja",
+      "d": "Eniyan kan, kii ṣe igbimọ kan. O pọju iye ati paṣẹ fun Afẹyinti Ọja."
+     },
+     {
+      "t": "Scrum Titunto",
+      "d": "Olori ti o nṣe iranṣẹ: awọn olukọni, dẹrọ, yọ awọn blockers kuro. Kii ṣe oluṣakoso iṣẹ-ṣiṣe."
+     },
+     {
+      "t": "Awọn olupilẹṣẹ",
+      "d": "Ṣẹda Ilọsiwaju lilo gbogbo Tọ ṣẹṣẹ. Awọn oludanwo, awọn apẹẹrẹ ati awọn onkọwe ka paapaa."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Apoti aago jẹ iye akoko ti o pọju. Tọ ṣẹṣẹ mu gbogbo awọn iṣẹlẹ miiran mu. Ọpọlọpọ awọn ẹgbẹ lo awọn ọsẹ 2, eyiti o jẹ awọn ọjọ iṣẹ mẹwa 10."
+   ],
+   "panel": {
+    "kicker": "Marun iṣẹlẹ",
+    "heading": "Tọ ṣẹṣẹ ọsẹ meji kan, iṣẹlẹ nipasẹ iṣẹlẹ",
+    "items": [
+     "Awọn Tọ ṣẹṣẹ: Awọn ọsẹ 2, ipari ti o wa titi",
+     "Eto Sprint: nipa awọn wakati 4",
+     "Ojoojumọ Scrum: Awọn iṣẹju 15, ni gbogbo ọjọ",
+     "Atunwo Sprint: nipa awọn wakati 2",
+     "Sprint Retrospective: nipa 1,5 wakati"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Eto Sprint pinnu idi ti Tọ ṣẹṣẹ yii ṣe niyelori ati ohun ti o le ṣee ṣe. Nipa awọn wakati 4 fun ọsẹ meji."
+   ],
+   "panel": {
+    "kicker": "Marun iṣẹlẹ",
+    "heading": "Tọ ṣẹṣẹ ọsẹ meji kan, iṣẹlẹ nipasẹ iṣẹlẹ",
+    "items": [
+     "Awọn Tọ ṣẹṣẹ: Awọn ọsẹ 2, ipari ti o wa titi",
+     "Eto Sprint: nipa awọn wakati 4",
+     "Ojoojumọ Scrum: Awọn iṣẹju 15, ni gbogbo ọjọ",
+     "Atunwo Sprint: nipa awọn wakati 2",
+     "Sprint Retrospective: nipa 1,5 wakati"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Ojoojumọ Scrum jẹ iṣẹju 15 ni gbogbo ọjọ iṣẹ. Awọn olupilẹṣẹ ṣayẹwo ilọsiwaju si ibi-afẹde Tọ ṣẹṣẹ ati ṣatunṣe ero naa."
+   ],
+   "panel": {
+    "kicker": "Marun iṣẹlẹ",
+    "heading": "Tọ ṣẹṣẹ ọsẹ meji kan, iṣẹlẹ nipasẹ iṣẹlẹ",
+    "items": [
+     "Awọn Tọ ṣẹṣẹ: Awọn ọsẹ 2, ipari ti o wa titi",
+     "Eto Sprint: nipa awọn wakati 4",
+     "Ojoojumọ Scrum: Awọn iṣẹju 15, ni gbogbo ọjọ",
+     "Atunwo Sprint: nipa awọn wakati 2",
+     "Sprint Retrospective: nipa 1,5 wakati"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Atunwo Sprint ṣe ayẹwo abajade pẹlu awọn ti o nii ṣe, ati awọn ero Retrospective bi o ṣe le ṣiṣẹ daradara.",
+    "Fun apẹẹrẹ, ẹgbẹ Amaka n lo awọn wakati 10 fun eniyan kan lori awọn iṣẹlẹ ti o to 80. Iyẹn jẹ 12.5%. Wulo nigbati oluṣakoso ba beere, kilode ti ọpọlọpọ awọn ipade?"
+   ],
+   "panel": {
+    "kicker": "Marun iṣẹlẹ",
+    "heading": "Tọ ṣẹṣẹ ọsẹ meji kan, iṣẹlẹ nipasẹ iṣẹlẹ",
+    "items": [
+     "Awọn Tọ ṣẹṣẹ: Awọn ọsẹ 2, ipari ti o wa titi",
+     "Eto Sprint: nipa awọn wakati 4",
+     "Ojoojumọ Scrum: Awọn iṣẹju 15, ni gbogbo ọjọ",
+     "Atunwo Sprint: nipa awọn wakati 2",
+     "Sprint Retrospective: nipa 1,5 wakati"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Kanban ko ni Sprints ko si si awọn ipa ti o wa titi. Ni akọkọ, ṣafihan iṣẹ naa lori igbimọ pẹlu awọn ọwọn bii Lati ṣe, Ṣiṣe, Atunwo, Ti ṣee."
+   ],
+   "panel": {
+    "kicker": "Kanban",
+    "heading": "Kanban ni awọn iṣe mẹrin",
+    "items": [
+     "Foju inu wo iṣẹ lori igbimọ kan",
+     "Idinwo iṣẹ ni ilọsiwaju",
+     "Ṣe iwọn iwọn lilo ati akoko iyipo",
+     "Ilọsiwaju nigbagbogbo"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Keji, idinwo iṣẹ ni ilọsiwaju. Fun apẹẹrẹ, ko ju awọn kaadi 3 lọ ni Ṣiṣe. Nigbati ọwọn ba ti kun, pari nkan ni akọkọ."
+   ],
+   "panel": {
+    "kicker": "Kanban",
+    "heading": "Kanban ni awọn iṣe mẹrin",
+    "items": [
+     "Foju inu wo iṣẹ lori igbimọ kan",
+     "Idinwo iṣẹ ni ilọsiwaju",
+     "Ṣe iwọn iwọn lilo ati akoko iyipo",
+     "Ilọsiwaju nigbagbogbo"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "rule": "Nigbati Ṣiṣe ba kun, pari nkan ṣaaju ki o to bẹrẹ diẹ sii.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Kẹta, iwọn sisan. Ofin Kekere sọ pe akoko iyipo dọgba iṣẹ ni ilọsiwaju ti o pin nipasẹ ṣiṣe.",
+    "Fun apẹẹrẹ, ẹgbẹ atilẹyin Funmi ni awọn tikẹti 30 ṣii ati tilekun 10 ni ọjọ kan. Iyẹn jẹ ọjọ mẹta fun tikẹti kan. O fi opin si awọn tikẹti ṣiṣi si 15, nitorinaa tikẹti bẹrẹ kọọkan gba ọjọ 1.5."
+   ],
+   "panel": {
+    "kicker": "Kanban",
+    "heading": "Kanban ni awọn iṣe mẹrin",
+    "items": [
+     "Foju inu wo iṣẹ lori igbimọ kan",
+     "Idinwo iṣẹ ni ilọsiwaju",
+     "Ṣe iwọn iwọn lilo ati akoko iyipo",
+     "Ilọsiwaju nigbagbogbo"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Nigbati Ṣiṣe ba kun, pari nkan ṣaaju ki o to bẹrẹ diẹ sii.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Ẹkẹrin, ṣe ayẹwo igbimọ naa ki o si yọ awọn igo kuro. Ṣugbọn ti awọn tiketi 20 ba de ni ọjọ kan ati pe 10 nikan sunmọ, ko si opin ti o le tọju iyẹn. Ni ibaraẹnisọrọ agbara otitọ."
+   ],
+   "panel": {
+    "kicker": "Kanban",
+    "heading": "Kanban ni awọn iṣe mẹrin",
+    "items": [
+     "Foju inu wo iṣẹ lori igbimọ kan",
+     "Idinwo iṣẹ ni ilọsiwaju",
+     "Ṣe iwọn iwọn lilo ati akoko iyipo",
+     "Ilọsiwaju nigbagbogbo"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Nigbati Ṣiṣe ba kun, pari nkan ṣaaju ki o to bẹrẹ diẹ sii.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Baramu isunmọ si iṣẹ naa. Ohun elo tuntun kan baamu Scrum, nitori ojutu naa ko daju. Iduro iranlọwọ kan baamu Kanban, nitori pe iṣẹ de ni gbogbo wakati.",
+    "Ihole si apẹrẹ ti a mọ ni ibamu pẹlu ero ti o wa titi. Awọn ipolongo pẹlu awọn ibeere amojuto ni ba arabara kan mu.",
+    "Ti iṣẹ iyara ba fọ ero naa ni gbogbo ọsẹ ni oṣu to kọja, yan Kanban tabi tọju agbara ni ọfẹ."
+   ],
+   "panel": {
+    "kicker": "Yan pẹlu ọgbọn",
+    "heading": "Ọna wo ni o baamu iṣẹ naa?",
+    "items": [
+     "Ohun elo tuntun tabi oju opo wẹẹbu: Scrum",
+     "Iduro iranlọwọ tabi atilẹyin: Kanban",
+     "Borehole to a mọ oniru: ètò-ìṣó",
+     "Awọn ipolongo pẹlu iṣẹ amojuto: arabara"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Lati ranti. Agile tumọ si awọn ege iṣẹ kekere, ṣayẹwo pẹlu awọn olumulo gidi nigbagbogbo. Late Awari owo jina siwaju sii ju tete.",
+    "Scrum ni Oniwun Ọja kan, Titunto si Scrum ati Awọn Difelopa. Ojoojumọ Scrum jẹ iṣẹju 15. Ati iṣẹ kekere ni ilọsiwaju tumọ si ipari ni iyara."
+   ],
+   "panel": {
+    "kicker": "Awọn ojuami pataki",
+    "heading": "Ranti",
+    "items": [
+     "Agile tumọ si awọn ege iṣẹ kekere, ti a ṣayẹwo nigbagbogbo",
+     "Late Awari owo jina siwaju sii ju tete",
+     "Olohun ọja, Scrum Titunto, Awọn olupilẹṣẹ",
+     "Ojoojumọ Scrum jẹ iṣẹju 15",
+     "Akoko yipo = ise ni ilọsiwaju ÷ losi"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Awọn iṣẹ-ṣiṣe rẹ: ṣe awari wiwa pẹ ninu iṣẹ akanṣe kan ti o mọ, kọ kalẹnda Tọ ṣẹṣẹ kan ki o ka awọn wakati iṣẹlẹ, ati ṣe iwadii iru iṣẹ mẹta pẹlu Ofin Kekere.",
+    "Tẹsiwaju pẹlu awọn ẹkọ ni isalẹ."
+   ],
+   "panel": {
+    "kicker": "Ṣiṣe adaṣe",
+    "heading": "Awọn iṣẹ ṣiṣe adaṣe rẹ",
+    "items": [
+     "Aami awari pẹ ni iṣẹ akanṣe ti o kọja",
+     "Kọ kalẹnda Sprint rẹ",
+     "Ṣe ayẹwo awọn iru iṣẹ mẹta"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

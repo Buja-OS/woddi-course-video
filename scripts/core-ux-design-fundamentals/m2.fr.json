@@ -1,0 +1,488 @@
+{
+ "course": "core-ux-design-fundamentals",
+ "module": "m2",
+ "title": "Des interviews utilisateurs au prototype cliquable",
+ "course_title": "Fondamentaux de la conception UX",
+ "shots": [
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Des interviews utilisateurs à un prototype cliquable.",
+    "Ceci est la vidéo du module 2 des principes fondamentaux de la conception UX."
+   ]
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Dans ce module, vous parcourez l'ensemble du flux de travail UX sur votre propre projet.",
+    "Vous commencez par parler à 5 à 8 personnes qui correspondent à vos utilisateurs. Quand vous entendez encore et encore les mêmes histoires, vous en avez assez."
+   ],
+   "panel": {
+    "kicker": "Ce que tu feras",
+    "heading": "Rechercher d’abord, puis concevoir",
+    "items": [
+     "Interviewez 5 à 8 utilisateurs réels",
+     "Regrouper les notes en thèmes comptés",
+     "Cartographier le parcours et le flux des utilisateurs",
+     "Construisez des wireframes gris et liez-les dans Figma"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Vous transformez vos notes en thèmes et comptez le nombre de personnes qui ont dit chaque chose."
+   ],
+   "panel": {
+    "kicker": "Ce que tu feras",
+    "heading": "Rechercher d’abord, puis concevoir",
+    "items": [
+     "Interviewez 5 à 8 utilisateurs réels",
+     "Regrouper les notes en thèmes comptés",
+     "Cartographier le parcours et le flux des utilisateurs",
+     "Construisez des wireframes gris et liez-les dans Figma"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Vous cartographiez la façon dont elle accomplit la tâche aujourd'hui et planifiez les écrans pour le nouveau design."
+   ],
+   "panel": {
+    "kicker": "Ce que tu feras",
+    "heading": "Rechercher d’abord, puis concevoir",
+    "items": [
+     "Interviewez 5 à 8 utilisateurs réels",
+     "Regrouper les notes en thèmes comptés",
+     "Cartographier le parcours et le flux des utilisateurs",
+     "Construisez des wireframes gris et liez-les dans Figma"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Ensuite, vous créez des wireframes simples et vous les reliez pour que les gens puissent y accéder."
+   ],
+   "panel": {
+    "kicker": "Ce que tu feras",
+    "heading": "Rechercher d’abord, puis concevoir",
+    "items": [
+     "Interviewez 5 à 8 utilisateurs réels",
+     "Regrouper les notes en thèmes comptés",
+     "Cartographier le parcours et le flux des utilisateurs",
+     "Construisez des wireframes gris et liez-les dans Figma"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Les gens sont incapables de prédire ce qu’ils feront, mais sont bons pour décrire ce qu’ils ont fait.",
+    "Des questions suggestives comme celles-ci suggèrent la réponse, vous n'obtenez donc qu'un oui poli."
+   ],
+   "panel": {
+    "kicker": "Compétence d'entrevue",
+    "heading": "Posez des questions sur le passé, pas sur le futur",
+    "mode": "compare",
+    "left_h": "Éviter",
+    "left": [
+     "Ne trouvez-vous pas l'application déroutante ?",
+     "Souhaitez-vous une fonction de rappel ?",
+     "Le prix est-il trop élevé ?"
+    ],
+    "right_h": "Demandez plutôt",
+    "right": [
+     "Guide-moi à travers la dernière fois",
+     "Comment vous souvenez-vous des rendez-vous maintenant ?",
+     "Comment avez-vous décidé de payer ?"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Les questions ouvertes commencent par quoi, comment ou parlez-moi. Parlez-moi de la dernière fois où vous avez réservé un essayage pour obtenir la vérité.",
+    "Alors écoutez plus que vous ne parlez. Les gens ajoutent souvent les détails les plus honnêtes lorsqu’ils font une pause."
+   ],
+   "panel": {
+    "kicker": "Compétence d'entrevue",
+    "heading": "Posez des questions sur le passé, pas sur le futur",
+    "mode": "compare",
+    "left_h": "Éviter",
+    "left": [
+     "Ne trouvez-vous pas l'application déroutante ?",
+     "Souhaitez-vous une fonction de rappel ?",
+     "Le prix est-il trop élevé ?"
+    ],
+    "right_h": "Demandez plutôt",
+    "right": [
+     "Guide-moi à travers la dernière fois",
+     "Comment vous souvenez-vous des rendez-vous maintenant ?",
+     "Comment avez-vous décidé de payer ?"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Par exemple, Blessing est en train de repenser les réservations pour un salon de coiffure à Ikeja qui accepte uniquement les réservations sur WhatsApp. Elle interviewe 6 clients et rédige 47 notes, une idée par note."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Des notes aux thèmes en passant par un personnage",
+    "items": [
+     "Écrivez une observation ou une citation par note",
+     "Notes de groupe qui sont à peu près la même chose",
+     "Nommez chaque groupe avec un court thème",
+     "Comptez combien de personnes mentionnent chaque thème",
+     "Écrivez un personnage d'une page à partir des thèmes"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Elle regroupe les notes et nomme 5 thèmes, comme l'attente de réponse et la surprise de prix. C’est ce qu’on appelle la cartographie d’affinité."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Des notes aux thèmes en passant par un personnage",
+    "items": [
+     "Écrivez une observation ou une citation par note",
+     "Notes de groupe qui sont à peu près la même chose",
+     "Nommez chaque groupe avec un court thème",
+     "Comptez combien de personnes mentionnent chaque thème",
+     "Écrivez un personnage d'une page à partir des thèmes"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Alors elle compte. 5 heures sur 6 ont attendu que le salon confirme un créneau. 4 sur 6 ont appris le prix total des tresses uniquement au salon.",
+    "Un thème mentionné par 5 personnes sur 6 compte plus d’un mentionné une fois."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Des notes aux thèmes en passant par un personnage",
+    "items": [
+     "Écrivez une observation ou une citation par note",
+     "Notes de groupe qui sont à peu près la même chose",
+     "Nommez chaque groupe avec un court thème",
+     "Comptez combien de personnes mentionnent chaque thème",
+     "Écrivez un personnage d'une page à partir des thèmes"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Enfin, un persona d'une page : objectifs, frustrations, appareil, habitudes et citations réelles. Un personnage écrit avant la recherche n'est qu'une supposition, alors étiquetez-le et remplacez-le."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Des notes aux thèmes en passant par un personnage",
+    "items": [
+     "Écrivez une observation ou une citation par note",
+     "Notes de groupe qui sont à peu près la même chose",
+     "Nommez chaque groupe avec un court thème",
+     "Comptez combien de personnes mentionnent chaque thème",
+     "Écrivez un personnage d'une page à partir des thèmes"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Créez des personnages à partir de la recherche, jamais à partir de l'imagination.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_map",
+   "say": [
+    "Une carte de voyage montre la tâche au fil du temps. Sur le plan du salon, elle attend 3 heures pour obtenir un prix, n'est pas sûre que la réservation soit confirmée et trouve son styliste en double réservation.",
+    "C’est sur ces points faibles que le design aide le plus."
+   ],
+   "panel": {
+    "kicker": "Trois outils",
+    "heading": "Parcours, structure et flux",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Carte du trajet",
+      "d": "Une chronologie de ce qu'elle fait, pense et ressent. Concevez d’abord pour les points les plus bas."
+     },
+     {
+      "t": "Tri des cartes",
+      "d": "Les utilisateurs regroupent et nomment les cartes de contenu afin que votre menu utilise leurs mots."
+     },
+     {
+      "t": "Flux d'utilisateurs",
+      "d": "Écrans, décisions et flèches pour une tâche, y compris ce qui se passe en cas de problème."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_map",
+   "say": [
+    "Le tri des cartes montre comment les utilisateurs regroupent les éléments. S’ils disent coiffures et que l’entreprise dit services, le menu devrait dire coiffures."
+   ],
+   "panel": {
+    "kicker": "Trois outils",
+    "heading": "Parcours, structure et flux",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Carte du trajet",
+      "d": "Une chronologie de ce qu'elle fait, pense et ressent. Concevez d’abord pour les points les plus bas."
+     },
+     {
+      "t": "Tri des cartes",
+      "d": "Les utilisateurs regroupent et nomment les cartes de contenu afin que votre menu utilise leurs mots."
+     },
+     {
+      "t": "Flux d'utilisateurs",
+      "d": "Écrans, décisions et flèches pour une tâche, y compris ce qui se passe en cas de problème."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Un flux utilisateur affiche chaque écran et chaque décision pour une tâche. Dessinez d'abord le chemin heureux, puis les chemins d'erreur : emplacement occupé, échec de paiement, réseau abandonné."
+   ],
+   "panel": {
+    "kicker": "Trois outils",
+    "heading": "Parcours, structure et flux",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Carte du trajet",
+      "d": "Une chronologie de ce qu'elle fait, pense et ressent. Concevez d’abord pour les points les plus bas."
+     },
+     {
+      "t": "Tri des cartes",
+      "d": "Les utilisateurs regroupent et nomment les cartes de contenu afin que votre menu utilise leurs mots."
+     },
+     {
+      "t": "Flux d'utilisateurs",
+      "d": "Écrans, décisions et flèches pour une tâche, y compris ce qui se passe en cas de problème."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Voici le flux que dessine la Bénédiction. L'écran 1 affiche les styles et les prix. L'écran 2 affiche uniquement les emplacements libres. Si un emplacement vient d'être pris, elle voit un message d'excuse et conserve le style qu'elle a choisi."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Flux de réservation de Blessing",
+    "items": [
+     "Choisissez le style, avec photos et prix de départ",
+     "Choisissez la date et l'heure : uniquement les créneaux libres",
+     "Détails : nom et téléphone, deux champs seulement",
+     "Payer une caution, avec un montant clair",
+     "Confirmation avec un numéro de référence"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "L'écran 3 demande uniquement le nom et le téléphone. Chaque champ supplémentaire est une chance d'abandonner. Si le paiement de l'acompte échoue, elle en voit la raison et un bouton réessayer sans perdre sa réservation."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Flux de réservation de Blessing",
+    "items": [
+     "Choisissez le style, avec photos et prix de départ",
+     "Choisissez la date et l'heure : uniquement les créneaux libres",
+     "Détails : nom et téléphone, deux champs seulement",
+     "Payer une caution, avec un montant clair",
+     "Confirmation avec un numéro de référence"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "L'écran 5 confirme la date, l'heure, le styliste, le montant payé et une référence. Chaque problème de la carte de voyage a désormais une réponse."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Flux de réservation de Blessing",
+    "items": [
+     "Choisissez le style, avec photos et prix de départ",
+     "Choisissez la date et l'heure : uniquement les créneaux libres",
+     "Détails : nom et téléphone, deux champs seulement",
+     "Payer une caution, avec un montant clair",
+     "Confirmation avec un numéro de référence"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Ensuite, Blessing construit deux versions grises de moyenne fidélité dans Figma et demande à 5 clients de réserver samedi à 10h. Avec le calendrier mensuel, 3 sur 5 ont défilé devant les créneaux et ont eu besoin d'aide."
+   ],
+   "panel": {
+    "kicker": "Testez avant de construire",
+    "heading": "Deux wireframes pour le sélecteur de temps",
+    "mode": "compare",
+    "left_h": "Version A",
+    "left": [
+     "Calendrier mensuel, puis créneaux ci-dessous",
+     "3 sur 5 avaient besoin d'aide",
+     "Environ 50 secondes"
+    ],
+    "right_h": "VersionB",
+    "right": [
+     "7 prochains jours sous forme de boutons",
+     "5 sur 5 réservé seul",
+     "Environ 20 secondes"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Au fil des jours, tous les 5 ont réservé sans aide, en 20 secondes environ. Elle conserve la version B et déplace Confirm plus bas pour atteindre plus facilement le pouce.",
+    "Elle a comparé deux idées en un après-midi, avant de dépenser de l'argent pour le développement."
+   ],
+   "panel": {
+    "kicker": "Testez avant de construire",
+    "heading": "Deux wireframes pour le sélecteur de temps",
+    "mode": "compare",
+    "left_h": "Version A",
+    "left": [
+     "Calendrier mensuel, puis créneaux ci-dessous",
+     "3 sur 5 avaient besoin d'aide",
+     "Environ 50 secondes"
+    ],
+    "right_h": "VersionB",
+    "right": [
+     "7 prochains jours sous forme de boutons",
+     "5 sur 5 réservé seul",
+     "Environ 20 secondes"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Vérifiez chaque écran. De vraies étiquettes comme prendre rendez-vous. Une action principale. Le bouton où le pouce atteint. Cibles Big Tap, environ 44 à 48 unités selon les directives de la plate-forme.",
+    "L'erreur courante consiste à passer aux couleurs avant que le flux ne fonctionne et à oublier ce que l'écran affiche lorsqu'il n'y a pas d'emplacements libres."
+   ],
+   "panel": {
+    "kicker": "Règles de mise en page",
+    "heading": "Vérifiez chaque filaire",
+    "items": [
+     "De vraies étiquettes, jamais de texte d'espace réservé",
+     "Une action principale, la plus sombre et la plus grande",
+     "Bouton principal dans la moitié inférieure",
+     "Appuyez sur des cibles d'environ 44 à 48 unités",
+     "États vides et d'erreur dessinés",
+     "Vérifié sur un petit écran Android"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "À retenir. Renseignez-vous sur le comportement passé réel. Comptez vos thèmes. Conception pour les points les plus bas. Gardez les wireframes gris jusqu'à ce que le flux fonctionne, puis liez-les dans l'onglet Prototype et partagez le lien pour les tests."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Questions ouvertes sur les comportements passés réels",
+     "Comptez les thèmes ; construire la personnalité à partir d'eux",
+     "Corrigez les points les plus bas sur la carte du voyage",
+     "Les wireframes gris en premier, la couleur en dernier",
+     "Lier les écrans dans l'onglet Prototype de Figma et partager"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "À votre tour. Interviewez, trouvez vos thèmes et écrivez votre personnalité. Cartographiez le parcours et le flux, dessinez et construisez votre prototype cliquable.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâches d'entraînement",
+    "heading": "Vos tâches pratiques",
+    "items": [
+     "Interviewez au moins 3 personnes et créez un personnage",
+     "Dessinez une carte de parcours et un flux d'utilisateurs",
+     "Faites un tour de Crazy 8s",
+     "Construisez et partagez un prototype Figma cliquable"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

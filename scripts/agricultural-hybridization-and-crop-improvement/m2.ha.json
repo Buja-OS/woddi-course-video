@@ -1,0 +1,864 @@
+{
+ "course": "agricultural-hybridization-and-crop-improvement",
+ "module": "m2",
+ "title": "Dabarun filin: giciye masu sarrafawa, iri mai kyau da gwaji na gaskiya",
+ "course_title": "Haɓakar Noma da Inganta amfanin gona",
+ "shots": [
+  {
+   "demo": "soil_bed",
+   "say": [
+    "Dabarun filin: giciye masu sarrafawa, iri mai kyau da gwaji na gaskiya.",
+    "Wannan shi ne bidiyo don tsari na 2 na Haɓakar Noma da Inganta amfanin gona."
+   ]
+  },
+  {
+   "demo": "seedling_tray",
+   "say": [
+    "Kiwo ana sarrafa pollination. Ka zabi uwa da uba, kuma ka toshe duk sauran pollen."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Sarrafa pollen, duba iri",
+    "items": [
+     "Yi giciye mai sarrafawa",
+     "Inganta OPV ta zaɓi",
+     "Duba iri na gaske ne kuma mai rai",
+     "Yi gwajin da za ku iya amincewa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "seedling_tray",
+   "say": [
+    "Don kiyaye iri-iri masu tsabta, kuna nisantar da pollen waje."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Sarrafa pollen, duba iri",
+    "items": [
+     "Yi giciye mai sarrafawa",
+     "Inganta OPV ta zaɓi",
+     "Duba iri na gaske ne kuma mai rai",
+     "Yi gwajin da za ku iya amincewa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "water_tank",
+   "say": [
+    "Za ku duba iri na gaskiya ne kuma mai rai, kuma ku kula da iri da aka yi wa lafiya."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Sarrafa pollen, duba iri",
+    "items": [
+     "Yi giciye mai sarrafawa",
+     "Inganta OPV ta zaɓi",
+     "Duba iri na gaske ne kuma mai rai",
+     "Yi gwajin da za ku iya amincewa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "water_tank",
+   "say": [
+    "Kuma za ku yi gwajin da za ku iya amincewa."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Sarrafa pollen, duba iri",
+    "items": [
+     "Yi giciye mai sarrafawa",
+     "Inganta OPV ta zaɓi",
+     "Duba iri na gaske ne kuma mai rai",
+     "Yi gwajin da za ku iya amincewa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "produce_crates",
+   "say": [
+    "Mataki 1. Rufe harbin kunne da jakar harbi da zarar ya bayyana, kafin kowane siliki ya fito."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Pollination hannu a cikin masara",
+    "items": [
+     "Jaka harba kunne kafin siliki ya nuna",
+     "Yanke siliki, sake jaka lokaci guda",
+     "Da rana ɗaya, jakar uban tassel",
+     "Da safe, tattara pollen",
+     "Zuba kan siliki, rufe kunne",
+     "Yi wa jaka da alama"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "produce_crates",
+   "say": [
+    "Mataki 2. Lokacin da siliki ya bayyana, yanke su kai tsaye da yamma, sa'annan a sake yin jaka a lokaci guda."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Pollination hannu a cikin masara",
+    "items": [
+     "Jaka harba kunne kafin siliki ya nuna",
+     "Yanke siliki, sake jaka lokaci guda",
+     "Da rana ɗaya, jakar uban tassel",
+     "Da safe, tattara pollen",
+     "Zuba kan siliki, rufe kunne",
+     "Yi wa jaka da alama"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "produce_crates",
+   "say": [
+    "Mataki na 3. Da yammacin wannan rana, sai a rufe tassel ɗin uban da jakar tassel kuma a sa shi."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Pollination hannu a cikin masara",
+    "items": [
+     "Jaka harba kunne kafin siliki ya nuna",
+     "Yanke siliki, sake jaka lokaci guda",
+     "Da rana ɗaya, jakar uban tassel",
+     "Da safe, tattara pollen",
+     "Zuba kan siliki, rufe kunne",
+     "Yi wa jaka da alama"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "sun_drying",
+   "say": [
+    "Mataki na 4. Da safe, bayan raɓar ta bushe, lanƙwasa tassel ɗin kuma danna jakar don haka pollen ya faɗi ciki."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Pollination hannu a cikin masara",
+    "items": [
+     "Jaka harba kunne kafin siliki ya nuna",
+     "Yanke siliki, sake jaka lokaci guda",
+     "Da rana ɗaya, jakar uban tassel",
+     "Da safe, tattara pollen",
+     "Zuba kan siliki, rufe kunne",
+     "Yi wa jaka da alama"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "sun_drying",
+   "say": [
+    "Mataki na 5. Ɗaga jakar harbi da sauri, zuba pollen a kan siliki, kuma rufe kunne da jakar tassel."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Pollination hannu a cikin masara",
+    "items": [
+     "Jaka harba kunne kafin siliki ya nuna",
+     "Yanke siliki, sake jaka lokaci guda",
+     "Da rana ɗaya, jakar uban tassel",
+     "Da safe, tattara pollen",
+     "Zuba kan siliki, rufe kunne",
+     "Yi wa jaka da alama"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "sun_drying",
+   "say": [
+    "Mataki na 6. Rubuta giciye a kan jaka da tag, uwa da farko, tare da kwanan wata.",
+    "Don tumatir, cire anthers daga toho kafin ya buɗe. Wannan ake kira emasculation."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Pollination hannu a cikin masara",
+    "items": [
+     "Jaka harba kunne kafin siliki ya nuna",
+     "Yanke siliki, sake jaka lokaci guda",
+     "Da rana ɗaya, jakar uban tassel",
+     "Da safe, tattara pollen",
+     "Zuba kan siliki, rufe kunne",
+     "Yi wa jaka da alama"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "rule": "Rubuta giciye a kan jakar, uwa da farko, kuma bar shi don girbi.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "grain_sacks",
+   "say": [
+    "Misali, Funke na noman farar masara OPV hekta 0.5 a jihar Oyo. Tana bukatar kilogiram 10 na iri, kuma ta ajiye kilogiram 15."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Funke tana inganta OPV ta zaɓi",
+    "items": [
+     "Yana buƙatar iri 10 kg; yana shirin ajiye 15 kg",
+     "Yana tsallake layuka huɗu na waje",
+     "Ribbons masu lafiya, tsire-tsire masu tsayi",
+     "Alamar aƙalla shuke-shuke 200",
+     "Yana amfani da hatsi daga tsakiyar kowane cob"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "grain_sacks",
+   "say": [
+    "Ta guje wa layuka hudu na waje."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Funke tana inganta OPV ta zaɓi",
+    "items": [
+     "Yana buƙatar iri 10 kg; yana shirin ajiye 15 kg",
+     "Yana tsallake layuka huɗu na waje",
+     "Ribbons masu lafiya, tsire-tsire masu tsayi",
+     "Alamar aƙalla shuke-shuke 200",
+     "Yana amfani da hatsi daga tsakiyar kowane cob"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "grain_sacks",
+   "say": [
+    "Kafin girbi, a cikin filin, ta ribbons tsaye, marasa cuta shuke-shuke da kyau husk cover."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Funke tana inganta OPV ta zaɓi",
+    "items": [
+     "Yana buƙatar iri 10 kg; yana shirin ajiye 15 kg",
+     "Yana tsallake layuka huɗu na waje",
+     "Ribbons masu lafiya, tsire-tsire masu tsayi",
+     "Alamar aƙalla shuke-shuke 200",
+     "Yana amfani da hatsi daga tsakiyar kowane cob"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "soil_bed",
+   "say": [
+    "Ta yi alama aƙalla shuke-shuke 200. Kuskuren gama gari shine zaɓi daga tsire-tsire kaɗan, ko ɗaukar manyan cobs a sito."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Funke tana inganta OPV ta zaɓi",
+    "items": [
+     "Yana buƙatar iri 10 kg; yana shirin ajiye 15 kg",
+     "Yana tsallake layuka huɗu na waje",
+     "Ribbons masu lafiya, tsire-tsire masu tsayi",
+     "Alamar aƙalla shuke-shuke 200",
+     "Yana amfani da hatsi daga tsakiyar kowane cob"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "soil_bed",
+   "say": [
+    "Tana amfani da hatsi daga tsakiyar kowace cob mai kyau."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Funke tana inganta OPV ta zaɓi",
+    "items": [
+     "Yana buƙatar iri 10 kg; yana shirin ajiye 15 kg",
+     "Yana tsallake layuka huɗu na waje",
+     "Ribbons masu lafiya, tsire-tsire masu tsayi",
+     "Alamar aƙalla shuke-shuke 200",
+     "Yana amfani da hatsi daga tsakiyar kowane cob"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "seedling_tray",
+   "say": [
+    "A Najeriya, hukumar noma ta kasa, NASC, ta yi rajistar kamfanonin iri da kuma tabbatar da iri. Bincika lakabin don nau'in, lambar kuri'a, kwanan gwaji, mai samarwa da kowane magani."
+   ],
+   "panel": {
+    "kicker": "Siyan iri",
+    "heading": "Kyakkyawan lakabi da alamun gargaɗi",
+    "mode": "compare",
+    "left_h": "Duba lakabin",
+    "left": [
+     "Daidai sunan iri-iri",
+     "Ajin iri da lambar kuri'a",
+     "Kwanan gwajin Germination",
+     "Sunan furodusa da magani"
+    ],
+    "right_h": "Alamun gargadi",
+    "right": [
+     "Sako da iri daga buhunan buhu",
+     "Babu lamba ko kwanan wata gwaji",
+     "Farashin mai nisa ƙasa da wasu",
+     "Jakunkuna da aka sake dinke, ɓawon hatsi"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Yi hankali tare da sako-sako da iri, ɓatattun lambobi, farashi mai rahusa ko jakunkuna da aka sake dinke. A ajiye rasidin da jakar da babu kowa, sannan a kai rahoton iri na karya ga NASC."
+   ],
+   "panel": {
+    "kicker": "Siyan iri",
+    "heading": "Kyakkyawan lakabi da alamun gargaɗi",
+    "mode": "compare",
+    "left_h": "Duba lakabin",
+    "left": [
+     "Daidai sunan iri-iri",
+     "Ajin iri da lambar kuri'a",
+     "Kwanan gwajin Germination",
+     "Sunan furodusa da magani"
+    ],
+    "right_h": "Alamun gargadi",
+    "right": [
+     "Sako da iri daga buhunan buhu",
+     "Babu lamba ko kwanan wata gwaji",
+     "Farashin mai nisa ƙasa da wasu",
+     "Jakunkuna da aka sake dinke, ɓawon hatsi"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "soil_bed",
+   "say": [
+    "Kafin dasa, ƙidaya tsaba 100 bazuwar."
+   ],
+   "panel": {
+    "kicker": "Yana da rai?",
+    "heading": "Gwajin germination iri 100",
+    "items": [
+     "Kidaya iri 100 a bazuwar",
+     "Ajiye su a kan datti ko kyalle",
+     "Ci gaba da danshi da dumi kamar kwanaki 7",
+     "Kididdigar tushen lafiya da harbi",
+     "Daidaita adadin zuriyar ku"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "soil_bed",
+   "say": [
+    "Sanya su a kan datti ko kyalle, kuma a mirgine shi a hankali."
+   ],
+   "panel": {
+    "kicker": "Yana da rai?",
+    "heading": "Gwajin germination iri 100",
+    "items": [
+     "Kidaya iri 100 a bazuwar",
+     "Ajiye su a kan datti ko kyalle",
+     "Ci gaba da danshi da dumi kamar kwanaki 7",
+     "Kididdigar tushen lafiya da harbi",
+     "Daidaita adadin zuriyar ku"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "soil_bed",
+   "say": [
+    "Ajiye shi da dumi, kamar kwanaki 7 don masara."
+   ],
+   "panel": {
+    "kicker": "Yana da rai?",
+    "heading": "Gwajin germination iri 100",
+    "items": [
+     "Kidaya iri 100 a bazuwar",
+     "Ajiye su a kan datti ko kyalle",
+     "Ci gaba da danshi da dumi kamar kwanaki 7",
+     "Kididdigar tushen lafiya da harbi",
+     "Daidaita adadin zuriyar ku"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "seedling_tray",
+   "say": [
+    "Ƙidaya tsaba tare da tushen lafiya kuma a harba. Misali, Ifeoma a Anambra ta kirga kashi 86 cikin 100. Wato kashi 86%."
+   ],
+   "panel": {
+    "kicker": "Yana da rai?",
+    "heading": "Gwajin germination iri 100",
+    "items": [
+     "Kidaya iri 100 a bazuwar",
+     "Ajiye su a kan datti ko kyalle",
+     "Ci gaba da danshi da dumi kamar kwanaki 7",
+     "Kididdigar tushen lafiya da harbi",
+     "Daidaita adadin zuriyar ku"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "seedling_tray",
+   "say": [
+    "Don haka ga hectare 1 tana buƙatar kusan kilogiram 18.6, kuma tana kiyaye kilogiram 20."
+   ],
+   "panel": {
+    "kicker": "Yana da rai?",
+    "heading": "Gwajin germination iri 100",
+    "items": [
+     "Kidaya iri 100 a bazuwar",
+     "Ajiye su a kan datti ko kyalle",
+     "Ci gaba da danshi da dumi kamar kwanaki 7",
+     "Kididdigar tushen lafiya da harbi",
+     "Daidaita adadin zuriyar ku"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "seedling_tray",
+   "say": [
+    "Idan germination ya yi ƙasa, masu ba da shawara da yawa suna ba da shawarar siyan sabbin iri maimakon shuka kawai."
+   ],
+   "panel": {
+    "kicker": "Yana da rai?",
+    "heading": "Gwajin germination iri 100",
+    "items": [
+     "Kidaya iri 100 a bazuwar",
+     "Ajiye su a kan datti ko kyalle",
+     "Ci gaba da danshi da dumi kamar kwanaki 7",
+     "Kididdigar tushen lafiya da harbi",
+     "Daidaita adadin zuriyar ku"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Low germination? Masu ba da shawara da yawa sun ce sayan iri sabo.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "soil_bed",
+   "say": [
+    "An shafe iri da foda mai launi ko ruwa yawanci ana sanye da maganin kashe kwari. Kada ku ci shi, ko sayar da shi kamar hatsi, ko ciyar da shi ga dabbobi."
+   ],
+   "panel": {
+    "kicker": "Tsaro",
+    "heading": "Iri da aka yi maganin guba ne, ba abinci ba",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Kada ku ci shi",
+      "d": "Kar a taɓa yin dafawa, sayar da hatsi ko ciyarwa ga irin dabbobi masu launi mai launi."
+     },
+     {
+      "t": "Kare hannayenka",
+      "d": "Sanya safar hannu, kar a taɓa fuskarka, wanke hannu da sabulu bayan shuka."
+     },
+     {
+      "t": "Ajiye shi a kulle",
+      "d": "Nisantar yara da dabbobi. Kada a sake amfani da buhunan iri mara komai don abinci."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "soil_bed",
+   "say": [
+    "Sanya safar hannu lokacin sarrafa shi, kada ku taɓa fuskar ku, kuma ku wanke hannuwanku da sabulu bayan shuka."
+   ],
+   "panel": {
+    "kicker": "Tsaro",
+    "heading": "Iri da aka yi maganin guba ne, ba abinci ba",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Kada ku ci shi",
+      "d": "Kar a taɓa yin dafawa, sayar da hatsi ko ciyarwa ga irin dabbobi masu launi mai launi."
+     },
+     {
+      "t": "Kare hannayenka",
+      "d": "Sanya safar hannu, kar a taɓa fuskarka, wanke hannu da sabulu bayan shuka."
+     },
+     {
+      "t": "Ajiye shi a kulle",
+      "d": "Nisantar yara da dabbobi. Kada a sake amfani da buhunan iri mara komai don abinci."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Kulle jakunkuna daga yara da dabbobi. Kada a sake amfani da su don abinci.",
+    "Dole ne NBMA, Hukumar Kula da Biosafety ta kasa ta amince da nau'in GM kafin a fito da su."
+   ],
+   "panel": {
+    "kicker": "Tsaro",
+    "heading": "Iri da aka yi maganin guba ne, ba abinci ba",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Kada ku ci shi",
+      "d": "Kar a taɓa yin dafawa, sayar da hatsi ko ciyarwa ga irin dabbobi masu launi mai launi."
+     },
+     {
+      "t": "Kare hannayenka",
+      "d": "Sanya safar hannu, kar a taɓa fuskarka, wanke hannu da sabulu bayan shuka."
+     },
+     {
+      "t": "Ajiye shi a kulle",
+      "d": "Nisantar yara da dabbobi. Kada a sake amfani da buhunan iri mara komai don abinci."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "water_tank",
+   "say": [
+    "Kwatanta guda ɗaya za a iya yaudare ta da kusurwar rigar. Mataki 1. Zaɓi nau'in ku na yau da kullun, cak, da sababbi ɗaya ko biyu."
+   ],
+   "panel": {
+    "kicker": "Shari'a ta gaskiya",
+    "heading": "Ƙaddamar da gwaji mai maimaitawa",
+    "items": [
+     "Irin da kuka saba da sabon 1 ko 2",
+     "Katanga uku a fadin filin",
+     "Zana takardu don bazuwar tsari",
+     "4 layuka na 5 m; girbi tsakiyar 2",
+     "Rikodin tsayawa, siliki, cuta, masauki"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "water_tank",
+   "say": [
+    "Mataki 2. Yi tubalan uku a kowane gangare. Kowane toshe yana riƙe kowane iri-iri sau ɗaya."
+   ],
+   "panel": {
+    "kicker": "Shari'a ta gaskiya",
+    "heading": "Ƙaddamar da gwaji mai maimaitawa",
+    "items": [
+     "Irin da kuka saba da sabon 1 ko 2",
+     "Katanga uku a fadin filin",
+     "Zana takardu don bazuwar tsari",
+     "4 layuka na 5 m; girbi tsakiyar 2",
+     "Rikodin tsayawa, siliki, cuta, masauki"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "water_tank",
+   "say": [
+    "Mataki 3. A cikin kowane toshe, zana takardu masu ninke don yanke shawarar tsari."
+   ],
+   "panel": {
+    "kicker": "Shari'a ta gaskiya",
+    "heading": "Ƙaddamar da gwaji mai maimaitawa",
+    "items": [
+     "Irin da kuka saba da sabon 1 ko 2",
+     "Katanga uku a fadin filin",
+     "Zana takardu don bazuwar tsari",
+     "4 layuka na 5 m; girbi tsakiyar 2",
+     "Rikodin tsayawa, siliki, cuta, masauki"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "produce_crates",
+   "say": [
+    "Mataki 4. Shuka 4 layuka na 5 m. Layukan waje suna iyakoki. Girbi layuka 2 na tsakiya kawai, gidan yanar gizo."
+   ],
+   "panel": {
+    "kicker": "Shari'a ta gaskiya",
+    "heading": "Ƙaddamar da gwaji mai maimaitawa",
+    "items": [
+     "Irin da kuka saba da sabon 1 ko 2",
+     "Katanga uku a fadin filin",
+     "Zana takardu don bazuwar tsari",
+     "4 layuka na 5 m; girbi tsakiyar 2",
+     "Rikodin tsayawa, siliki, cuta, masauki"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "produce_crates",
+   "say": [
+    "Mataki na 5. Yi rikodin tsayawar shuka, kwanaki zuwa 50% siliki, ƙimar cuta da wurin kwana."
+   ],
+   "panel": {
+    "kicker": "Shari'a ta gaskiya",
+    "heading": "Ƙaddamar da gwaji mai maimaitawa",
+    "items": [
+     "Irin da kuka saba da sabon 1 ko 2",
+     "Katanga uku a fadin filin",
+     "Zana takardu don bazuwar tsari",
+     "4 layuka na 5 m; girbi tsakiyar 2",
+     "Rikodin tsayawa, siliki, cuta, masauki"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "produce_crates",
+   "say": [
+    "Sarrafa kowane makirci iri ɗaya, don haka kawai iri-iri ya bambanta."
+   ],
+   "panel": {
+    "kicker": "Shari'a ta gaskiya",
+    "heading": "Ƙaddamar da gwaji mai maimaitawa",
+    "items": [
+     "Irin da kuka saba da sabon 1 ko 2",
+     "Katanga uku a fadin filin",
+     "Zana takardu don bazuwar tsari",
+     "4 layuka na 5 m; girbi tsakiyar 2",
+     "Rikodin tsayawa, siliki, cuta, masauki"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Ranar shuka iri ɗaya, tazara, taki da ciyawa ga kowane fili.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "grain_sacks",
+   "say": [
+    "Misali, Rukayat a Kaduna tana girbe fili mai girman mita 7.5. Iri A yana ba da kilogiram 4.2 na hatsi a 20% danshi."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Rukayat tana auna amfanin gonarta",
+    "items": [
+     "Gidan yanar gizon: 7.5 m2; hatsi 4.2 kg a 20%",
+     "Daidai zuwa 15% danshi: 3.95 kg",
+     "Girman girma: kusan 5,267 kg kowace hectare",
+     "Ma'ana: Iri A 5,056, duba 4,133",
+     "Nasara a kowane toshe, da 923 kg/ha"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "grain_sacks",
+   "say": [
+    "Hatsi mai laushi ya fi nauyi, don haka ta gyara zuwa 15% danshi: 3.95 kg."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Rukayat tana auna amfanin gonarta",
+    "items": [
+     "Gidan yanar gizon: 7.5 m2; hatsi 4.2 kg a 20%",
+     "Daidai zuwa 15% danshi: 3.95 kg",
+     "Girman girma: kusan 5,267 kg kowace hectare",
+     "Ma'ana: Iri A 5,056, duba 4,133",
+     "Nasara a kowane toshe, da 923 kg/ha"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "grain_sacks",
+   "say": [
+    "Ma'aunin nauyi har zuwa hectare, wato kusan kilogiram 5,267."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Rukayat tana auna amfanin gonarta",
+    "items": [
+     "Gidan yanar gizon: 7.5 m2; hatsi 4.2 kg a 20%",
+     "Daidai zuwa 15% danshi: 3.95 kg",
+     "Girman girma: kusan 5,267 kg kowace hectare",
+     "Ma'ana: Iri A 5,056, duba 4,133",
+     "Nasara a kowane toshe, da 923 kg/ha"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "sun_drying",
+   "say": [
+    "Tsakanin shinge uku, Iri A yana da nauyin kilogiram 5,056 a kowace hekta, kuma iri da ta saba 4,133."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Rukayat tana auna amfanin gonarta",
+    "items": [
+     "Gidan yanar gizon: 7.5 m2; hatsi 4.2 kg a 20%",
+     "Daidai zuwa 15% danshi: 3.95 kg",
+     "Girman girma: kusan 5,267 kg kowace hectare",
+     "Ma'ana: Iri A 5,056, duba 4,133",
+     "Nasara a kowane toshe, da 923 kg/ha"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "sun_drying",
+   "say": [
+    "Iri-iri na A yana samun kilogiram 923 a kowace kadada, kuma ya ci nasara a kowane shinge. Nasara a cikin kowane toshe yana da mahimmanci kamar matsakaici."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Rukayat tana auna amfanin gonarta",
+    "items": [
+     "Gidan yanar gizon: 7.5 m2; hatsi 4.2 kg a 20%",
+     "Daidai zuwa 15% danshi: 3.95 kg",
+     "Girman girma: kusan 5,267 kg kowace hectare",
+     "Ma'ana: Iri A 5,056, duba 4,133",
+     "Nasara a kowane toshe, da 923 kg/ha"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Don tunawa. Jakar kunne da wuri. Zaɓi daga tsire-tsire da yawa a cikin filin. Gwajin germination. Bi da iri da aka yi ado azaman guba. Kuma maimaita, bazuwar kuma daidai danshi."
+   ],
+   "panel": {
+    "kicker": "Mabuɗin mahimmanci",
+    "heading": "Ka tuna",
+    "items": [
+     "Jakar kunne kafin siliki ya bayyana",
+     "Zaɓi iri a cikin filin, daga tsire-tsire masu yawa",
+     "Gwada germination kafin dasa",
+     "Iri da aka yi maganin guba ne, ba abinci ba",
+     "Maimaita, bazuwar, daidai danshi"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "water_tank",
+   "say": [
+    "Yanzu yi gicciye masu sarrafawa guda uku, gudanar da gwajin haɓaka, kuma shirya da peg gwajin ku.",
+    "Ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi aiki",
+    "heading": "Ayyukan aikin ku",
+    "items": [
+     "Yi giciye masu sarrafawa guda uku",
+     "Gudanar da gwajin ƙwayar iri 100",
+     "Shirya da kuma buga gwajin ku"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

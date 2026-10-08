@@ -1,0 +1,541 @@
+{
+ "course": "core-digital-payments-and-pos-basics",
+ "module": "m1",
+ "title": "Bii awọn sisanwo oni-nọmba ṣe n ṣiṣẹ, ati murasilẹ lailewu",
+ "course_title": "Awọn sisanwo oni-nọmba & Awọn ipilẹ POS",
+ "shots": [
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Bii awọn sisanwo oni-nọmba ṣe n ṣiṣẹ, ati murasilẹ lailewu.",
+    "Eyi ni fidio fun module 1 ti Awọn sisanwo oni-nọmba ati Awọn ipilẹ POS."
+   ]
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Isanwo oni-nọmba jẹ isanwo eyikeyi nibiti ko si owo yipada ọwọ. Nọmba kan ninu akọọlẹ kan lọ silẹ, ati nọmba kan ninu omiiran lọ soke. Awọn owo ti wa ni gidi, o kan ti o ti fipamọ bi a gba."
+   ],
+   "panel": {
+    "kicker": "Kini idi ti eyi ṣe pataki",
+    "heading": "Awọn owo ti wa ni gidi, o kan ti o ti fipamọ bi a gba",
+    "items": [
+     "Wo ohun ti o ṣẹlẹ nigbati owo gbe",
+     "Mọ ohun ti o ṣe pataki bi ẹri gidi",
+     "Yan owo tabi oni-nọmba pẹlu awọn ibeere mimọ",
+     "Ṣeto akọọlẹ rẹ lailewu"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Ọ̀pọ̀ èèyàn ni ẹ̀rù máa ń bà wọ́n torí pé wọn ò lè rí ìrìn àjò owó náà. Module yii yọ ohun ijinlẹ yẹn kuro."
+   ],
+   "panel": {
+    "kicker": "Kini idi ti eyi ṣe pataki",
+    "heading": "Awọn owo ti wa ni gidi, o kan ti o ti fipamọ bi a gba",
+    "items": [
+     "Wo ohun ti o ṣẹlẹ nigbati owo gbe",
+     "Mọ ohun ti o ṣe pataki bi ẹri gidi",
+     "Yan owo tabi oni-nọmba pẹlu awọn ibeere mimọ",
+     "Ṣeto akọọlẹ rẹ lailewu"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Iwọ yoo tun kọ ẹkọ nigbati owo ba dara julọ, ati bii o ṣe le ṣeto akọọlẹ rẹ ki o duro ti tirẹ."
+   ],
+   "panel": {
+    "kicker": "Kini idi ti eyi ṣe pataki",
+    "heading": "Awọn owo ti wa ni gidi, o kan ti o ti fipamọ bi a gba",
+    "items": [
+     "Wo ohun ti o ṣẹlẹ nigbati owo gbe",
+     "Mọ ohun ti o ṣe pataki bi ẹri gidi",
+     "Yan owo tabi oni-nọmba pẹlu awọn ibeere mimọ",
+     "Ṣeto akọọlẹ rẹ lailewu"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Fun apẹẹrẹ, Chioma ni Enugu ni gbese tailor rẹ, Ada, 7,500 naira. O ṣii app ile-ifowopamọ rẹ, tẹ ni kia kia Gbigbe, tẹ nọmba akọọlẹ oni-nọmba 10 Ada ati yan banki Ada."
+   ],
+   "panel": {
+    "kicker": "Irin-ajo naa",
+    "heading": "Bawo ni a ifowo gbigbe irin-ajo",
+    "items": [
+     "O fun itọnisọna naa",
+     "Banki rẹ ṣayẹwo PIN ati iwọntunwọnsi rẹ",
+     "Nẹtiwọọki n gbe ifiranṣẹ naa",
+     "Ile-ifowopamọ olugba ṣe kirẹditi akọọlẹ rẹ",
+     "Awọn mejeeji gba awọn itaniji"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Awọn app fihan awọn orukọ ADA N. OKAFOR. Eyi ni a pe ni ibeere orukọ, ati pe o jẹ ayẹwo aabo pataki julọ. Ti orukọ ko ba jẹ ẹniti o nireti, da. Sunmọ to ko to."
+   ],
+   "panel": {
+    "kicker": "Irin-ajo naa",
+    "heading": "Bawo ni a ifowo gbigbe irin-ajo",
+    "items": [
+     "O fun itọnisọna naa",
+     "Banki rẹ ṣayẹwo PIN ati iwọntunwọnsi rẹ",
+     "Nẹtiwọọki n gbe ifiranṣẹ naa",
+     "Ile-ifowopamọ olugba ṣe kirẹditi akọọlẹ rẹ",
+     "Awọn mejeeji gba awọn itaniji"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false,
+    "rule": "Ti orukọ ti o han kii ṣe ẹniti o nireti, da.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Chioma wọ PIN oni-nọmba mẹrin rẹ sii. Rẹ ifowo sọwedowo o ni to owo."
+   ],
+   "panel": {
+    "kicker": "Irin-ajo naa",
+    "heading": "Bawo ni a ifowo gbigbe irin-ajo",
+    "items": [
+     "O fun itọnisọna naa",
+     "Banki rẹ ṣayẹwo PIN ati iwọntunwọnsi rẹ",
+     "Nẹtiwọọki n gbe ifiranṣẹ naa",
+     "Ile-ifowopamọ olugba ṣe kirẹditi akọọlẹ rẹ",
+     "Awọn mejeeji gba awọn itaniji"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "rule": "Ti orukọ ti o han kii ṣe ẹniti o nireti, da.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Nẹtiwọọki naa, ọna ti o pin laarin awọn banki, gbe ifiranṣẹ naa. Ni Naijiria akọkọ ti NIBSS n ṣakoso."
+   ],
+   "panel": {
+    "kicker": "Irin-ajo naa",
+    "heading": "Bawo ni a ifowo gbigbe irin-ajo",
+    "items": [
+     "O fun itọnisọna naa",
+     "Banki rẹ ṣayẹwo PIN ati iwọntunwọnsi rẹ",
+     "Nẹtiwọọki n gbe ifiranṣẹ naa",
+     "Ile-ifowopamọ olugba ṣe kirẹditi akọọlẹ rẹ",
+     "Awọn mejeeji gba awọn itaniji"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Ti orukọ ti o han kii ṣe ẹniti o nireti, da.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Ile ifowopamo Ada fi egberun lona 7500 naira si akoto re, ti awon obinrin mejeeji si gba itaniji. Ti igbesẹ eyikeyi ba kuna, banki tirẹ yẹ ki o yi owo sisan pada."
+   ],
+   "panel": {
+    "kicker": "Irin-ajo naa",
+    "heading": "Bawo ni a ifowo gbigbe irin-ajo",
+    "items": [
+     "O fun itọnisọna naa",
+     "Banki rẹ ṣayẹwo PIN ati iwọntunwọnsi rẹ",
+     "Nẹtiwọọki n gbe ifiranṣẹ naa",
+     "Ile-ifowopamọ olugba ṣe kirẹditi akọọlẹ rẹ",
+     "Awọn mejeeji gba awọn itaniji"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Ti orukọ ti o han kii ṣe ẹniti o nireti, da.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Ada ko gbekele sikirinifoto kan. O ṣii app tirẹ o rii 7,500 naira ni iwọntunwọnsi rẹ. Iyẹn nikan ni ẹri gidi.",
+    "Chioma tọju iwe-ẹri rẹ ati ID igba, nọmba gigun ti yoo nilo ti ohunkohun ba jẹ aṣiṣe."
+   ],
+   "panel": {
+    "kicker": "Ẹri ti owo sisan",
+    "heading": "Ohun ti gan ododo owo de",
+    "mode": "compare",
+    "left_h": "Ẹri gidi",
+    "left": [
+     "Dọgbadọgba ninu ara rẹ app",
+     "Ayẹwo iwọntunwọnsi nipasẹ USSD",
+     "ID igba pa nipasẹ awọn payer"
+    ],
+    "right_h": "Ko to nikan",
+    "right": [
+     "Aworan sikirinifoto ti iwe-ẹri",
+     "Itaniji SMS funrararẹ",
+     "Iwe-ẹri atijọ ti a firanṣẹ siwaju"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Ẹnikẹni le ṣatunkọ aworan kan ti iwe-ẹri, ati awọn titaniji SMS le jẹ iro. Nigbati o ba gba owo, ṣayẹwo iwọntunwọnsi tirẹ ṣaaju ki o to tu awọn ẹru silẹ tabi fun iyipada."
+   ],
+   "panel": {
+    "kicker": "Ẹri ti owo sisan",
+    "heading": "Ohun ti gan ododo owo de",
+    "mode": "compare",
+    "left_h": "Ẹri gidi",
+    "left": [
+     "Dọgbadọgba ninu ara rẹ app",
+     "Ayẹwo iwọntunwọnsi nipasẹ USSD",
+     "ID igba pa nipasẹ awọn payer"
+    ],
+    "right_h": "Ko to nikan",
+    "right": [
+     "Aworan sikirinifoto ti iwe-ẹri",
+     "Itaniji SMS funrararẹ",
+     "Iwe-ẹri atijọ ti a firanṣẹ siwaju"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Awọn sisanwo oni nọmba fun ọ ni iṣakoso, de ọdọ, owo ti o dinku ni opopona, ati awọn igbasilẹ. Itan iṣowo rẹ jẹ iwe akiyesi ọfẹ ti o tọju ararẹ."
+   ],
+   "card": {
+    "title": "Kini oṣu ti awọn gbigbe fihan",
+    "rows": [],
+    "note": null
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Ohun elo Ngozi fihan 38,000, lẹhinna 41,500, lẹhinna 29,000, lẹhinna 45,500 naira ti o gba nipasẹ gbigbe."
+   ],
+   "card": {
+    "title": "Kini oṣu ti awọn gbigbe fihan",
+    "rows": [
+     [
+      "Ọsẹ 1 awọn gbigbe ni",
+      "38,000"
+     ],
+     [
+      "Ọsẹ 2 awọn gbigbe ni",
+      "41,500"
+     ],
+     [
+      "Ọsẹ 3 awọn gbigbe ni",
+      "29,000"
+     ],
+     [
+      "Ọsẹ 4 awọn gbigbe ni",
+      "45,500"
+     ]
+    ],
+    "note": null
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Iyen jẹ 154,000 naira fun oṣu naa. Awọn tita owo rẹ? Ko le sọ, nitori ko kọ nkankan si isalẹ.",
+    "Gbólóhùn bii eyi le ṣe afihan owo-wiwọle rẹ si ayanilowo kan."
+   ],
+   "card": {
+    "title": "Kini oṣu ti awọn gbigbe fihan",
+    "rows": [
+     [
+      "Ọsẹ 1 awọn gbigbe ni",
+      "38,000"
+     ],
+     [
+      "Ọsẹ 2 awọn gbigbe ni",
+      "41,500"
+     ],
+     [
+      "Ọsẹ 3 awọn gbigbe ni",
+      "29,000"
+     ],
+     [
+      "Ọsẹ 4 awọn gbigbe ni",
+      "45,500"
+     ]
+    ],
+    "note": null
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Owo kii ṣe ọfẹ. Fun apẹẹrẹ, Amina ni Kaduna gbọdọ san 80,000 naira fun alatapọ iresi.",
+    "Ni owo, aṣoju POS n gba owo lati yọ kuro, sọ 1,600 naira ni apẹẹrẹ adaṣe yii, pẹlu 1,000 fun gbigbe. 2,600 ni gbogbo, ati ewu ti gbigbe owo."
+   ],
+   "panel": {
+    "kicker": "Owo tabi oni-nọmba",
+    "heading": "Ti n san fun alataja 80,000 naira",
+    "mode": "compare",
+    "left_h": "Owo owo",
+    "left": [
+     "POS yiyọ idiyele 1.600",
+     "Ọkọ 1,000",
+     "Iye owo 2,600, ati ewu lori ọkọ akero"
+    ],
+    "right_h": "Gbigbe",
+    "right": [
+     "Iye owo gbigbe 50",
+     "Ọkọ 1,000",
+     "Iye owo 1,050, ati igbasilẹ kan"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Nipa gbigbe, iboju rẹ fihan idiyele adaṣe ti 50 naira, pẹlu irinna kanna. Iyẹn jẹ 1,050, pẹlu igbasilẹ kan. Nigbagbogbo ka owo gidi loju iboju rẹ ṣaaju ki o to jẹrisi."
+   ],
+   "panel": {
+    "kicker": "Owo tabi oni-nọmba",
+    "heading": "Ti n san fun alataja 80,000 naira",
+    "mode": "compare",
+    "left_h": "Owo owo",
+    "left": [
+     "POS yiyọ idiyele 1.600",
+     "Ọkọ 1,000",
+     "Iye owo 2,600, ati ewu lori ọkọ akero"
+    ],
+    "right_h": "Gbigbe",
+    "right": [
+     "Iye owo gbigbe 50",
+     "Ọkọ 1,000",
+     "Iye owo 1,050, ati igbasilẹ kan"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Ohun elo banki kan nilo foonuiyara ati data. Koodu USSD ṣiṣẹ lori foonu eyikeyi laisi data, nitorinaa o jẹ afẹyinti rẹ nigbati data ba jade."
+   ],
+   "panel": {
+    "kicker": "Awọn ilẹkun isanwo",
+    "heading": "Awọn ilẹkun oriṣiriṣi, akọọlẹ kan",
+    "items": [
+     "Bank app gbigbe: nilo data",
+     "USSD koodu: eyikeyi foonu, ko si data",
+     "Kaadi Debiti ni POS tabi ATM: ko si data",
+     "Ohun elo apamọwọ, koodu QR, ọna asopọ isanwo"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Kaadi rẹ n ṣiṣẹ ni POS tabi ATM laisi data. Awọn apamọwọ, awọn koodu QR ati awọn ọna asopọ nilo intanẹẹti.",
+    "Gbogbo wọn jẹ ilẹkun sinu akọọlẹ kanna. Ẹnikẹni ti o ba gba ẹnu-ọna kan pẹlu PIN rẹ le de gbogbo iwọntunwọnsi."
+   ],
+   "panel": {
+    "kicker": "Awọn ilẹkun isanwo",
+    "heading": "Awọn ilẹkun oriṣiriṣi, akọọlẹ kan",
+    "items": [
+     "Bank app gbigbe: nilo data",
+     "USSD koodu: eyikeyi foonu, ko si data",
+     "Kaadi Debiti ni POS tabi ATM: ko si data",
+     "Ohun elo apamọwọ, koodu QR, ọna asopọ isanwo"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Ṣii akọọlẹ naa ni orukọ tirẹ, pẹlu nọmba foonu ti nṣiṣe lọwọ tirẹ. Ti SIM atijọ ba ti sopọ, yi pada ni banki, nitori awọn OTP lọ si ẹnikẹni ti o ni nọmba yẹn ni bayi."
+   ],
+   "panel": {
+    "kicker": "Eto ailewu",
+    "heading": "Ṣeto akọọlẹ rẹ lailewu",
+    "items": [
+     "Account ninu ara rẹ orukọ ati nọmba foonu",
+     "Fi sori ẹrọ ni osise app ara rẹ",
+     "PIN ti kii ṣe ọjọ-ibi rẹ tabi 1234",
+     "Tan awọn itaniji ati ṣayẹwo awọn opin rẹ",
+     "Fipamọ nọmba itọju alabara osise"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Fi ìṣàfilọlẹ náà sori ẹrọ funrararẹ, lati Play itaja tabi App Store, ati ṣayẹwo olutẹjade jẹ ile-iṣẹ gidi."
+   ],
+   "panel": {
+    "kicker": "Eto ailewu",
+    "heading": "Ṣeto akọọlẹ rẹ lailewu",
+    "items": [
+     "Account ninu ara rẹ orukọ ati nọmba foonu",
+     "Fi sori ẹrọ ni osise app ara rẹ",
+     "PIN ti kii ṣe ọjọ-ibi rẹ tabi 1234",
+     "Tan awọn itaniji ati ṣayẹwo awọn opin rẹ",
+     "Fipamọ nọmba itọju alabara osise"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Yan PIN oni-nọmba mẹrin ti kii ṣe ọdun ibi rẹ, nọmba foonu, tabi apẹrẹ bii 1234 tabi 0000. Maṣe kọ si kaadi rẹ."
+   ],
+   "panel": {
+    "kicker": "Eto ailewu",
+    "heading": "Ṣeto akọọlẹ rẹ lailewu",
+    "items": [
+     "Account ninu ara rẹ orukọ ati nọmba foonu",
+     "Fi sori ẹrọ ni osise app ara rẹ",
+     "PIN ti kii ṣe ọjọ-ibi rẹ tabi 1234",
+     "Tan awọn itaniji ati ṣayẹwo awọn opin rẹ",
+     "Fipamọ nọmba itọju alabara osise"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Tan awọn titaniji fun gbogbo idunadura, ṣayẹwo ipele akọọlẹ rẹ ati awọn opin ninu app, ati fi nọmba itọju alabara banki rẹ pamọ lati ẹhin kaadi rẹ."
+   ],
+   "panel": {
+    "kicker": "Eto ailewu",
+    "heading": "Ṣeto akọọlẹ rẹ lailewu",
+    "items": [
+     "Account ninu ara rẹ orukọ ati nọmba foonu",
+     "Fi sori ẹrọ ni osise app ara rẹ",
+     "PIN ti kii ṣe ọjọ-ibi rẹ tabi 1234",
+     "Tan awọn itaniji ati ṣayẹwo awọn opin rẹ",
+     "Fipamọ nọmba itọju alabara osise"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Nọmba akọọlẹ rẹ jẹ ailewu lati pin. PIN rẹ, ọrọ igbaniwọle ati OTP ko ni pinpin pẹlu ẹnikẹni, pẹlu ẹnikan ti o sọ pe wọn ṣiṣẹ fun banki rẹ, tabi ọkọ tabi ọrẹ to sunmọ."
+   ],
+   "panel": {
+    "kicker": "Eto ailewu",
+    "heading": "Ṣeto akọọlẹ rẹ lailewu",
+    "items": [
+     "Account ninu ara rẹ orukọ ati nọmba foonu",
+     "Fi sori ẹrọ ni osise app ara rẹ",
+     "PIN ti kii ṣe ọjọ-ibi rẹ tabi 1234",
+     "Tan awọn itaniji ati ṣayẹwo awọn opin rẹ",
+     "Fipamọ nọmba itọju alabara osise"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Maṣe pin PIN rẹ, ọrọ igbaniwọle tabi OTP, paapaa pẹlu oṣiṣẹ banki.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Lati ranti. Ṣayẹwo orukọ ṣaaju ki o to jẹrisi. Iwọntunwọnsi tirẹ jẹ ẹri otitọ nikan. Ka owo naa loju iboju ṣaaju ki o to sanwo. Awọn sisanwo nla tabi ti o jinna nigbagbogbo jẹ ailewu nipasẹ gbigbe. Ati ki o tọju PIN rẹ ni ikọkọ, paapaa laarin ẹbi."
+   ],
+   "panel": {
+    "kicker": "Awọn ojuami pataki",
+    "heading": "Ranti",
+    "items": [
+     "Ṣayẹwo orukọ akọọlẹ ṣaaju ki o to jẹrisi",
+     "Iwọntunwọnsi tirẹ jẹ ẹri otitọ nikan",
+     "Ka awọn ọya loju iboju ìmúdájú",
+     "Awọn sisanwo nla tabi ti o jina: lo gbigbe kan",
+     "Tọju PIN rẹ ni ikọkọ, paapaa ninu ẹbi"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Fa irin ajo ti sisanwo to kẹhin rẹ, ṣe atokọ iru awọn sisanwo ti o le gbe lati owo, ṣe afiwe isanwo gidi kan, ki o pari atokọ iṣeto rẹ.",
+    "Tẹsiwaju pẹlu awọn ẹkọ ni isalẹ."
+   ],
+   "panel": {
+    "kicker": "Ṣiṣe adaṣe",
+    "heading": "Rẹ awọn iṣẹ-ṣiṣe fun yi module",
+    "items": [
+     "Fa ti ara rẹ sisan irin ajo",
+     "Kọ rẹ owo-si-oni akojọ",
+     "Ṣe afiwe isanwo gidi kan ki o ṣeto ofin owo kan",
+     "Pari akojọ ayẹwo iṣeto ailewu rẹ"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

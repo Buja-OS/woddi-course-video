@@ -1,0 +1,535 @@
+{
+ "course": "ux-design-fundamentals",
+ "module": "m1",
+ "title": "Mesurer la fuite, appliquer les lois, concevoir pour les conditions réelles",
+ "course_title": "Fondamentaux du design UX : pratique professionnelle",
+ "shots": [
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Mesurez la fuite, appliquez les lois et concevez pour des conditions réelles.",
+    "Ceci est la vidéo du premier module des principes fondamentaux de la conception UX : résultats, cognition et contexte."
+   ]
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "L'expérience utilisateur, ou UX, est tout ce qu'une personne traverse pour accomplir quelque chose avec un produit. L'interface utilisateur, l'interface utilisateur, n'est que la partie que vous voyez et touchez."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Passé \"donnez-lui une belle apparence\"",
+    "items": [
+     "L'UX est toute l'expérience, pas seulement les écrans",
+     "Les clients paient pour un numéro qui change",
+     "Un bon design repose sur la recherche sur les personnes",
+     "Vos utilisateurs sont confrontés à des données coûteuses et à des téléphones partagés"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Les clients ne paieront pas pour une meilleure UX en guise d'opinion. Ils paient pour un changement dans un numéro qui leur tient à cœur, comme un plus grand nombre d'inscriptions complétées ou moins d'appels d'assistance."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Passé \"donnez-lui une belle apparence\"",
+    "items": [
+     "L'UX est toute l'expérience, pas seulement les écrans",
+     "Les clients paient pour un numéro qui change",
+     "Un bon design repose sur la recherche sur les personnes",
+     "Vos utilisateurs sont confrontés à des données coûteuses et à des téléphones partagés"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "De nombreuses décisions de conception reposent sur des recherches sur la façon dont les gens voient et décident."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Passé \"donnez-lui une belle apparence\"",
+    "items": [
+     "L'UX est toute l'expérience, pas seulement les écrans",
+     "Les clients paient pour un numéro qui change",
+     "Un bon design repose sur la recherche sur les personnes",
+     "Vos utilisateurs sont confrontés à des données coûteuses et à des téléphones partagés"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Et nombre de vos utilisateurs disposent de réseaux lents et de données coûteuses."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Passé \"donnez-lui une belle apparence\"",
+    "items": [
+     "L'UX est toute l'expérience, pas seulement les écrans",
+     "Les clients paient pour un numéro qui change",
+     "Un bon design repose sur la recherche sur les personnes",
+     "Vos utilisateurs sont confrontés à des données coûteuses et à des téléphones partagés"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Un entonnoir répertorie les étapes franchies par les utilisateurs pour atteindre un objectif, avec le nombre d'étapes franchies par chaque étape.",
+    "Par exemple, Amaka est embauchée par une application d'épargne de Lagos. Elle demande les chiffres du mois dernier plutôt que des opinions. 10 000 personnes ont téléchargé l'application."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Lire un entonnoir pour trouver la fuite",
+    "items": [
+     "Téléchargements : 10 000",
+     "Inscription commencée : 6 200 (62 %)",
+     "Contrôle BVN réussi : 3 100 (50 %)",
+     "Portefeuille financé : 2 480 (80 %)"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "6 200 personnes ont commencé à s’inscrire. La conversion par étapes correspond aux personnes à une étape divisées par les personnes à l'étape précédente, soit 62 %."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Lire un entonnoir pour trouver la fuite",
+    "items": [
+     "Téléchargements : 10 000",
+     "Inscription commencée : 6 200 (62 %)",
+     "Contrôle BVN réussi : 3 100 (50 %)",
+     "Portefeuille financé : 2 480 (80 %)"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Seuls 3 100 ont réussi le contrôle BVN, qui est le numéro de vérification bancaire. Cette étape perd la moitié de tous ceux qui l’atteignent."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Lire un entonnoir pour trouver la fuite",
+    "items": [
+     "Téléchargements : 10 000",
+     "Inscription commencée : 6 200 (62 %)",
+     "Contrôle BVN réussi : 3 100 (50 %)",
+     "Portefeuille financé : 2 480 (80 %)"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "2 480 ont financé leur portefeuille, soit 80 % de ceux qui ont réussi. Ainsi, l'étape BVN, à 50 %, est la fuite et le meilleur endroit pour effectuer des recherches en premier."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Lire un entonnoir pour trouver la fuite",
+    "items": [
+     "Téléchargements : 10 000",
+     "Inscription commencée : 6 200 (62 %)",
+     "Contrôle BVN réussi : 3 100 (50 %)",
+     "Portefeuille financé : 2 480 (80 %)"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Mais les chiffres montrent seulement où les gens partent, jamais pourquoi. Associez toujours un entonnoir à des entretiens ou à des tests d'utilisabilité avant de repenser quoi que ce soit."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Lire un entonnoir pour trouver la fuite",
+    "items": [
+     "Téléchargements : 10 000",
+     "Inscription commencée : 6 200 (62 %)",
+     "Contrôle BVN réussi : 3 100 (50 %)",
+     "Portefeuille financé : 2 480 (80 %)"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Les chiffres montrent où les gens partent. La recherche montre pourquoi.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "La loi de Hick dit que plus vous faites de choix égaux, plus les gens décident lentement. Un écran d'accueil avec 18 tuiles égales ralentit les gens. Regroupez les options et donnez la priorité aux tâches les plus courantes."
+   ],
+   "panel": {
+    "kicker": "Sciences cognitives",
+    "heading": "Trois lois que vous citerez souvent",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "la loi de Hick",
+      "d": "Des choix plus égaux signifient des décisions plus lentes. Regroupez les options et placez les deux ou trois tâches courantes en premier."
+     },
+     {
+      "t": "La loi de Fitts",
+      "d": "Loin et petit est lent. Près et grand est rapide. Mettez les boutons clés gros et près du pouce."
+     },
+     {
+      "t": "La loi de Jacob",
+      "d": "Les utilisateurs s'attendent à ce que votre produit fonctionne comme les autres qu'ils utilisent. Suivez les conventions à moins que l’innovation ajoute de la valeur."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "La loi de Fitts stipule que le temps nécessaire pour atteindre une cible dépend de sa distance et de sa taille. Par exemple, Zainab recommande une barre Payer maintenant pleine largeur fixée près du bas, là où repose déjà le pouce.",
+    "Sur les téléphones, faites des cibles de 44 à 48 pixels, et jamais en dessous de 24."
+   ],
+   "panel": {
+    "kicker": "Sciences cognitives",
+    "heading": "Trois lois que vous citerez souvent",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "la loi de Hick",
+      "d": "Des choix plus égaux signifient des décisions plus lentes. Regroupez les options et placez les deux ou trois tâches courantes en premier."
+     },
+     {
+      "t": "La loi de Fitts",
+      "d": "Loin et petit est lent. Près et grand est rapide. Mettez les boutons clés gros et près du pouce."
+     },
+     {
+      "t": "La loi de Jacob",
+      "d": "Les utilisateurs s'attendent à ce que votre produit fonctionne comme les autres qu'ils utilisent. Suivez les conventions à moins que l’innovation ajoute de la valeur."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "La loi de Jakob stipule que les utilisateurs passent la plupart de leur temps sur d'autres produits. Si toutes les applications bancaires qu'ils connaissent mettent Transfert sur l'écran d'accueil, ne cachez pas le vôtre dans un menu."
+   ],
+   "panel": {
+    "kicker": "Sciences cognitives",
+    "heading": "Trois lois que vous citerez souvent",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "la loi de Hick",
+      "d": "Des choix plus égaux signifient des décisions plus lentes. Regroupez les options et placez les deux ou trois tâches courantes en premier."
+     },
+     {
+      "t": "La loi de Fitts",
+      "d": "Loin et petit est lent. Près et grand est rapide. Mettez les boutons clés gros et près du pouce."
+     },
+     {
+      "t": "La loi de Jacob",
+      "d": "Les utilisateurs s'attendent à ce que votre produit fonctionne comme les autres qu'ils utilisent. Suivez les conventions à moins que l’innovation ajoute de la valeur."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "La mémoire de travail est petite. N’obligez donc pas les gens à se souvenir de choses que l’interface pourrait leur montrer."
+   ],
+   "panel": {
+    "kicker": "Mémoire",
+    "heading": "La reconnaissance bat le rappel",
+    "mode": "compare",
+    "left_h": "Rappel (plus dur)",
+    "left": [
+     "Tapez à nouveau le numéro de compte",
+     "Mémoriser un code du dernier écran",
+     "Sachez quel menu contient les paramètres"
+    ],
+    "right_h": "Reconnaissance (plus facile)",
+    "right": [
+     "Choisissez parmi les bénéficiaires récents",
+     "Code affiché à nouveau ou rempli automatiquement",
+     "Rechercher avec des suggestions"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Laissez-les choisir parmi les bénéficiaires récents, afficher à nouveau le code et proposer une recherche avec des suggestions.",
+    "Regroupez également les numéros longs et affichez le nom du compte afin que les gens confirment par reconnaissance."
+   ],
+   "panel": {
+    "kicker": "Mémoire",
+    "heading": "La reconnaissance bat le rappel",
+    "mode": "compare",
+    "left_h": "Rappel (plus dur)",
+    "left": [
+     "Tapez à nouveau le numéro de compte",
+     "Mémoriser un code du dernier écran",
+     "Sachez quel menu contient les paramètres"
+    ],
+    "right_h": "Reconnaissance (plus facile)",
+    "right": [
+     "Choisissez parmi les bénéficiaires récents",
+     "Code affiché à nouveau ou rempli automatiquement",
+     "Rechercher avec des suggestions"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Chaque mégaoctet est payé par l'utilisateur. Par exemple, la page des prix agricoles de Tunde faisait 4 mégaoctets, ouverte 5 fois par jour. Cela représente 600 mégaoctets par mois. Il a fixé un budget de 800 kilo-octets, le réduisant à 120."
+   ],
+   "panel": {
+    "kicker": "réalités africaines",
+    "heading": "Conception adaptée aux conditions dans lesquelles vivent les utilisateurs",
+    "items": [
+     "Données coûteuses : définissez un budget de performance",
+     "Chutes de réseau : enregistrez la progression localement",
+     "Téléphones multifonctions : USSD ou SMS pour la tâche principale",
+     "Téléphones partagés : déconnexion rapide, code PIN, alertes privées",
+     "Plusieurs langues : évaluation par un locuteur natif"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Lorsque le réseau tombe en panne, les formulaires longs doivent conserver ce qui a été saisi, et les états hors ligne, en échec et en attente doivent être différents."
+   ],
+   "panel": {
+    "kicker": "réalités africaines",
+    "heading": "Conception adaptée aux conditions dans lesquelles vivent les utilisateurs",
+    "items": [
+     "Données coûteuses : définissez un budget de performance",
+     "Chutes de réseau : enregistrez la progression localement",
+     "Téléphones multifonctions : USSD ou SMS pour la tâche principale",
+     "Téléphones partagés : déconnexion rapide, code PIN, alertes privées",
+     "Plusieurs langues : évaluation par un locuteur natif"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Pour les personnes sans Internet, proposez USSD, les menus de hachage de code étoile qui fonctionnent sur n'importe quel téléphone GSM."
+   ],
+   "panel": {
+    "kicker": "réalités africaines",
+    "heading": "Conception adaptée aux conditions dans lesquelles vivent les utilisateurs",
+    "items": [
+     "Données coûteuses : définissez un budget de performance",
+     "Chutes de réseau : enregistrez la progression localement",
+     "Téléphones multifonctions : USSD ou SMS pour la tâche principale",
+     "Téléphones partagés : déconnexion rapide, code PIN, alertes privées",
+     "Plusieurs langues : évaluation par un locuteur natif"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Les téléphones sont souvent partagés, alors proposez une déconnexion rapide et n'affichez jamais les soldes dans les notifications. Et proposez les langues parlées par vos utilisateurs, vérifiées par des locuteurs natifs."
+   ],
+   "panel": {
+    "kicker": "réalités africaines",
+    "heading": "Conception adaptée aux conditions dans lesquelles vivent les utilisateurs",
+    "items": [
+     "Données coûteuses : définissez un budget de performance",
+     "Chutes de réseau : enregistrez la progression localement",
+     "Téléphones multifonctions : USSD ou SMS pour la tâche principale",
+     "Téléphones partagés : déconnexion rapide, code PIN, alertes privées",
+     "Plusieurs langues : évaluation par un locuteur natif"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "USSD n'a pas d'images et les sessions expirent rapidement. Définissez la tâche la plus courante comme option 1 et gardez chaque écran sous environ 160 caractères pour être en sécurité sur les réseaux."
+   ],
+   "panel": {
+    "kicker": "Conception USSD",
+    "heading": "Cinq règles pour un menu USSD",
+    "items": [
+     "La tâche la plus courante est l'option 1",
+     "Gardez chaque écran sous environ 160 caractères",
+     "0 Retour et 00 Menu principal sur chaque écran",
+     "Confirmer le montant et le destinataire avant le code PIN",
+     "Envoyer un reçu SMS"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Utilisez 0 pour Retour et 00 pour le menu principal, de la même manière sur chaque écran."
+   ],
+   "panel": {
+    "kicker": "Conception USSD",
+    "heading": "Cinq règles pour un menu USSD",
+    "items": [
+     "La tâche la plus courante est l'option 1",
+     "Gardez chaque écran sous environ 160 caractères",
+     "0 Retour et 00 Menu principal sur chaque écran",
+     "Confirmer le montant et le destinataire avant le code PIN",
+     "Envoyer un reçu SMS"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Affichez le montant et le nom du destinataire avant de demander un code PIN. Envoyez ensuite un reçu SMS, car la session se ferme et les utilisateurs ne peuvent pas revenir en arrière."
+   ],
+   "panel": {
+    "kicker": "Conception USSD",
+    "heading": "Cinq règles pour un menu USSD",
+    "items": [
+     "La tâche la plus courante est l'option 1",
+     "Gardez chaque écran sous environ 160 caractères",
+     "0 Retour et 00 Menu principal sur chaque écran",
+     "Confirmer le montant et le destinataire avant le code PIN",
+     "Envoyer un reçu SMS"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Confirmez le montant et le nom avant le code PIN. Envoyez un reçu SMS.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Les paiements nécessitent une attention particulière. Après un délai d'attente, affichez Nous vérifions votre paiement, avec l'état réel du serveur, jamais un bouton de réessai qui pourrait facturer deux fois.",
+    "Affichez toujours une référence de transaction et des canaux d'assistance officiels à l'intérieur du produit. Les utilisateurs inquiets qui recherchent en ligne des numéros de service client peuvent rencontrer des fraudeurs."
+   ],
+   "panel": {
+    "kicker": "Argent et confiance",
+    "heading": "États de paiement auxquels les utilisateurs peuvent faire confiance",
+    "items": [
+     "Après un délai d'attente, vérifiez, ne réessayez pas",
+     "Afficher l'état réel du serveur",
+     "Toujours afficher une référence de transaction",
+     "Afficher les canaux d'assistance officiels dans l'application"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "À retenir. Trouvez d’abord l’étape avec la conversion la plus faible, puis recherchez pourquoi les gens partent. Faites en sorte que les cibles clés soient grandes et proches. Concevoir pour la reconnaissance.",
+    "Et traitez le coût des données, les interruptions de réseau et les téléphones partagés comme faisant partie de l’expérience."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Corrigez d'abord l'étape avec la conversion la plus faible",
+     "Les analyses montrent où ; la recherche montre pourquoi",
+     "Cibles grandes et proches : 44 à 48 px sur les téléphones",
+     "Conception pour la reconnaissance, pas pour le rappel",
+     "Le coût des données, les téléphones hors ligne et partagés sont UX"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Maintenant, entraînez-vous. Créez un entonnoir et une feuille de mesures pour une application que vous utilisez, auditez un écran en utilisant les lois et vérifiez le comportement d'un produit avec des données coûteuses et sans réseau.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâche pratique",
+    "heading": "Vos tâches pratiques",
+    "items": [
+     "Construire une fiche COEUR pour un produit réel",
+     "Faire un audit cognitif d'un écran",
+     "Exécutez une vérification du contexte d'un produit que vous connaissez"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

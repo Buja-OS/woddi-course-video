@@ -1,0 +1,551 @@
+{
+ "course": "core-excel-for-small-business",
+ "module": "m4",
+ "title": "Stock, bénéfices et un seul classeur pour toute votre entreprise",
+ "course_title": "Excel et Google Sheets pour les petites entreprises",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Stock, bénéfices et un seul classeur pour l'ensemble de votre entreprise.",
+    "Il s'agit de la vidéo du module 4 d'Excel et de Google Sheets pour Small Business."
+   ]
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Les actions représentent souvent la plus grosse somme d’argent qu’un petit commerçant ait immobilisée. Une fiche d'inventaire vous indique ce que vous avez, ce qu'il vaut et ce qu'il faut commander à nouveau avant que les clients ne trouvent des étagères vides."
+   ],
+   "panel": {
+    "kicker": "Dans ce module",
+    "heading": "Rassemblez tout cela",
+    "items": [
+     "Sachez quel stock vous détenez et quoi commander à nouveau",
+     "Rechercher les prix par code produit",
+     "Découvrez si vous avez réellement réalisé un profit",
+     "Une routine qui garde les chiffres honnêtes"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Il insère également les prix dans votre journal des ventes, vous évitant ainsi de les saisir à la main."
+   ],
+   "panel": {
+    "kicker": "Dans ce module",
+    "heading": "Rassemblez tout cela",
+    "items": [
+     "Sachez quel stock vous détenez et quoi commander à nouveau",
+     "Rechercher les prix par code produit",
+     "Découvrez si vous avez réellement réalisé un profit",
+     "Une routine qui garde les chiffres honnêtes"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Ensuite, un rapport sur les bénéfices répond à la question que se pose chaque partenaire ou prêteur. L’entreprise a-t-elle réellement gagné de l’argent ce mois-ci ?"
+   ],
+   "panel": {
+    "kicker": "Dans ce module",
+    "heading": "Rassemblez tout cela",
+    "items": [
+     "Sachez quel stock vous détenez et quoi commander à nouveau",
+     "Rechercher les prix par code produit",
+     "Découvrez si vous avez réellement réalisé un profit",
+     "Une routine qui garde les chiffres honnêtes"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Dans un onglet Produits, attribuez à chaque produit un code court unique, comme P01, puis son nom, son prix de revient et son prix de vente."
+   ],
+   "panel": {
+    "kicker": "Onglet Produits",
+    "heading": "Un stock qui vous indique quand commander à nouveau",
+    "items": [
+     "Code, produit, prix de revient, prix de vente",
+     "Stock d'ouverture, stock entrant, vendu",
+     "Stock de clôture : =E2+F2-G2",
+     "Statut : =IF(H2<=I2,\"Réorganiser\",\"OK\")",
+     "Valeur du stock au coût : =H2*C2"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Tapez ensuite le stock d’ouverture, le stock que vous avez acheté et les unités vendues."
+   ],
+   "panel": {
+    "kicker": "Onglet Produits",
+    "heading": "Un stock qui vous indique quand commander à nouveau",
+    "items": [
+     "Code, produit, prix de revient, prix de vente",
+     "Stock d'ouverture, stock entrant, vendu",
+     "Stock de clôture : =E2+F2-G2",
+     "Statut : =IF(H2<=I2,\"Réorganiser\",\"OK\")",
+     "Valeur du stock au coût : =H2*C2"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Le stock de clôture correspond au stock d'ouverture, plus le stock entrant, moins le stock vendu."
+   ],
+   "panel": {
+    "kicker": "Onglet Produits",
+    "heading": "Un stock qui vous indique quand commander à nouveau",
+    "items": [
+     "Code, produit, prix de revient, prix de vente",
+     "Stock d'ouverture, stock entrant, vendu",
+     "Stock de clôture : =E2+F2-G2",
+     "Statut : =IF(H2<=I2,\"Réorganiser\",\"OK\")",
+     "Valeur du stock au coût : =H2*C2"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Définissez un niveau de réapprovisionnement pour chaque produit. Si le stock de clôture tombe à ce niveau, IF affiche le mot Réorganiser. Votre feuille devient une liste de courses automatique."
+   ],
+   "panel": {
+    "kicker": "Onglet Produits",
+    "heading": "Un stock qui vous indique quand commander à nouveau",
+    "items": [
+     "Code, produit, prix de revient, prix de vente",
+     "Stock d'ouverture, stock entrant, vendu",
+     "Stock de clôture : =E2+F2-G2",
+     "Statut : =IF(H2<=I2,\"Réorganiser\",\"OK\")",
+     "Valeur du stock au coût : =H2*C2"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "La valeur du stock est le prix de clôture multiplié par le prix de revient.",
+    "Par exemple, Funke a encore 6 détergents et son niveau de réapprovisionnement est de 8, donc il est indiqué Réorganiser. Son stock disponible vaut 80 250 nairas au prix coûtant."
+   ],
+   "panel": {
+    "kicker": "Onglet Produits",
+    "heading": "Un stock qui vous indique quand commander à nouveau",
+    "items": [
+     "Code, produit, prix de revient, prix de vente",
+     "Stock d'ouverture, stock entrant, vendu",
+     "Stock de clôture : =E2+F2-G2",
+     "Statut : =IF(H2<=I2,\"Réorganiser\",\"OK\")",
+     "Valeur du stock au coût : =H2*C2"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Stock de clôture = stock d'ouverture + stock entrant - unités vendues",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Dans votre onglet Ventes, saisissez simplement le code du produit et laissez une recherche récupérer le prix. XLOOKUP trouve le code dans la colonne Code et renvoie le prix de vente de la même ligne. Si le code est P03, il renvoie 3300."
+   ],
+   "panel": {
+    "kicker": "Recherches",
+    "heading": "Récupérer le prix à partir d'un code",
+    "mode": "compare",
+    "left_h": "RECHERCHEXL",
+    "left": [
+     "Excel et Google Sheets plus récents",
+     "Correspondance exacte par défaut",
+     "Peut dire Non trouvé"
+    ],
+    "right_h": "RECHERCHEV",
+    "right": [
+     "Fonctionne également dans les anciens Excel",
+     "Code dans la première colonne",
+     "Terminez toujours par FAUX"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Si votre Excel est de 2019 ou plus ancien, utilisez RECHERCHEV. Le code doit être dans la première colonne du tableau.",
+    "Et terminez toujours par FALSE. Le laisser de côté peut tranquillement renvoyer le mauvais prix du produit. Si vous voyez le hachage N A, le code n'a pas été trouvé. Recherchez une lettre O tapée au lieu d'un zéro."
+   ],
+   "panel": {
+    "kicker": "Recherches",
+    "heading": "Récupérer le prix à partir d'un code",
+    "mode": "compare",
+    "left_h": "RECHERCHEXL",
+    "left": [
+     "Excel et Google Sheets plus récents",
+     "Correspondance exacte par défaut",
+     "Peut dire Non trouvé"
+    ],
+    "right_h": "RECHERCHEV",
+    "right": [
+     "Fonctionne également dans les anciens Excel",
+     "Code dans la première colonne",
+     "Terminez toujours par FAUX"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Profitez maintenant. Les ventes sont l’argent gagné grâce à la vente. Le coût des marchandises vendues correspond à ce que vous ont coûté les marchandises que vous avez réellement vendues : valeur du stock d'ouverture, plus les achats, moins la valeur du stock de clôture.",
+    "Pourquoi pas les ventes moins les achats ? Car si vous faites des réserves abondantes, le mois s'annonce comme une perte même si les marchandises sont toujours dans vos rayons."
+   ],
+   "panel": {
+    "kicker": "Mots clés",
+    "heading": "Des ventes au bénéfice net",
+    "items": [
+     "Ventes : argent gagné en vendant",
+     "Coût des marchandises vendues : combien coûtent les marchandises vendues",
+     "Bénéfice brut : ventes moins coût des marchandises",
+     "Bénéfice net : bénéfice brut moins les frais de fonctionnement",
+     "Marge : bénéfice divisé par les ventes"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Le bénéfice brut correspond aux ventes moins le coût des marchandises. Le bénéfice net supprime également les coûts de fonctionnement, comme le loyer, le transport, les données et l’électricité."
+   ],
+   "panel": {
+    "kicker": "Mots clés",
+    "heading": "Des ventes au bénéfice net",
+    "items": [
+     "Ventes : argent gagné en vendant",
+     "Coût des marchandises vendues : combien coûtent les marchandises vendues",
+     "Bénéfice brut : ventes moins coût des marchandises",
+     "Bénéfice net : bénéfice brut moins les frais de fonctionnement",
+     "Marge : bénéfice divisé par les ventes"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Une marge divise le bénéfice par les ventes, ce qui vous permet de comparer des mois de différentes tailles."
+   ],
+   "panel": {
+    "kicker": "Mots clés",
+    "heading": "Des ventes au bénéfice net",
+    "items": [
+     "Ventes : argent gagné en vendant",
+     "Coût des marchandises vendues : combien coûtent les marchandises vendues",
+     "Bénéfice brut : ventes moins coût des marchandises",
+     "Bénéfice net : bénéfice brut moins les frais de fonctionnement",
+     "Marge : bénéfice divisé par les ventes"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Voici le mois d'octobre de Funke. Elle a ouvert avec un stock d'une valeur de 95 000, en a acheté 310 000 de plus et a clôturé avec 80 250."
+   ],
+   "card": {
+    "title": "Rapport d'octobre de Funke",
+    "rows": [],
+    "note": "Bénéfice net, environ 9% des ventes."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Ses ventes s'élevaient à 412 000 naira. Son coût des marchandises vendues est donc de 324 750."
+   ],
+   "card": {
+    "title": "Rapport d'octobre de Funke",
+    "rows": [
+     [
+      "Ventes",
+      "412,000"
+     ],
+     [
+      "Coût des marchandises vendues",
+      "324,750"
+     ]
+    ],
+    "note": "Bénéfice net, environ 9% des ventes."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Le bénéfice brut est de 87 250, soit une marge brute de 21,2%."
+   ],
+   "card": {
+    "title": "Rapport d'octobre de Funke",
+    "rows": [
+     [
+      "Ventes",
+      "412,000"
+     ],
+     [
+      "Coût des marchandises vendues",
+      "324,750"
+     ],
+     [
+      "Bénéfice brut",
+      "87,250"
+     ]
+    ],
+    "note": "Bénéfice net, environ 9% des ventes."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "La part du loyer, les transports, les données téléphoniques et l'électricité s'élèvent à 50 000."
+   ],
+   "card": {
+    "title": "Rapport d'octobre de Funke",
+    "rows": [
+     [
+      "Ventes",
+      "412,000"
+     ],
+     [
+      "Coût des marchandises vendues",
+      "324,750"
+     ],
+     [
+      "Bénéfice brut",
+      "87,250"
+     ],
+     [
+      "Frais de fonctionnement",
+      "50,000"
+     ]
+    ],
+    "note": "Bénéfice net, environ 9% des ventes."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Le bénéfice net est de 37 250 nairas. Sur 100 nairas de ventes, environ 9 nairas représentent un bénéfice net. Cela représente une hausse de 6 250 par rapport à septembre."
+   ],
+   "card": {
+    "title": "Rapport d'octobre de Funke",
+    "rows": [
+     [
+      "Ventes",
+      "412,000"
+     ],
+     [
+      "Coût des marchandises vendues",
+      "324,750"
+     ],
+     [
+      "Bénéfice brut",
+      "87,250"
+     ],
+     [
+      "Frais de fonctionnement",
+      "50,000"
+     ]
+    ],
+    "note": "Bénéfice net, environ 9% des ventes."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Les frais de fonctionnement comme le loyer et le transport entrent dans les dépenses de fonctionnement."
+   ],
+   "panel": {
+    "kicker": "Des chiffres honnêtes",
+    "heading": "Les dessins ne sont pas une dépense",
+    "mode": "compare",
+    "left_h": "Dépense professionnelle",
+    "left": [
+     "Loyer, transport, données, électricité",
+     "Entre dans les dépenses de fonctionnement"
+    ],
+    "right_h": "Dessins",
+    "right": [
+     "L'argent que vous prenez pour votre ménage",
+     "Catégorie Dessins séparés"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Mais l’argent que vous retirez pour vous-même ou pour votre ménage ne constitue pas une dépense professionnelle. Enregistrez-le sous forme de dessins et laissez-le de côté. Sinon, le rapport cache combien l’entreprise gagne réellement et si elle peut se permettre de vous payer."
+   ],
+   "panel": {
+    "kicker": "Des chiffres honnêtes",
+    "heading": "Les dessins ne sont pas une dépense",
+    "mode": "compare",
+    "left_h": "Dépense professionnelle",
+    "left": [
+     "Loyer, transport, données, électricité",
+     "Entre dans les dépenses de fonctionnement"
+    ],
+    "right_h": "Dessins",
+    "right": [
+     "L'argent que vous prenez pour votre ménage",
+     "Catégorie Dessins séparés"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Mettez tous vos onglets dans un seul classeur et gardez une routine simple.",
+    "Chaque jour, pendant 5 à 10 minutes, enregistrez chaque vente et dépense. Chaque semaine, exécutez votre cellule de contrôle, consultez la liste de commandes et recherchez les ventes impayées.",
+    "Chaque mois, comptez vos étagères, faites le rapport des bénéfices et téléchargez une sauvegarde. Chaque trimestre, examinez trois mois ensemble et prenez une décision."
+   ],
+   "panel": {
+    "kicker": "Votre routine",
+    "heading": "Gardez les chiffres fiables",
+    "items": [
+     "Quotidiennement : enregistrez chaque transaction",
+     "Hebdomadaire : cellule de contrôle, liste de commandes, ventes impayées",
+     "Mensuel : compter le stock, rapporter, sauvegarder",
+     "Trimestriel : examinez les graphiques, prenez une décision"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Lorsque vous partagez, choisissez l'accès le plus bas qui fonctionne. Le spectateur ne peut que regarder. Donnez Editor uniquement aux personnes qui ont vraiment besoin de taper.",
+    "Envoyez à un prêteur ou à un partenaire le rapport au format PDF, et non le nom de chaque client."
+   ],
+   "panel": {
+    "kicker": "Partagez en toute sécurité",
+    "heading": "Qui peut voir votre classeur",
+    "items": [
+     "Donnez au spectateur à moins qu'il ne doive taper",
+     "Partagez le rapport au format PDF, pas le tracker",
+     "Protéger les cellules de la formule"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Si un assistant cesse de travailler avec vous, supprimez son accès le jour même."
+   ],
+   "panel": {
+    "kicker": "Partagez en toute sécurité",
+    "heading": "Qui peut voir votre classeur",
+    "items": [
+     "Donnez au spectateur à moins qu'il ne doive taper",
+     "Partagez le rapport au format PDF, pas le tracker",
+     "Protéger les cellules de la formule"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Supprimez l'accès le jour même où quelqu'un cesse de travailler avec vous",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "À retenir. Le stock de clôture est l'ouverture plus en moins vendu. Un niveau de réapprovisionnement fait votre liste de courses. VLOOKUP a besoin de FALSE. Le bénéfice net est le bénéfice brut moins les frais de fonctionnement. Et gardez les dessins en dehors des dépenses."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Stock de clôture = ouverture + entrée - vendu",
+     "SI par contre un niveau de réapprovisionnement fait une liste de courses",
+     "VLOOKUP a besoin de FALSE pour une correspondance exacte",
+     "Bénéfice net = bénéfice brut - frais de fonctionnement",
+     "Gardez les dessins hors des dépenses"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Créez maintenant votre feuille d'inventaire, créez votre premier rapport de bénéfices mensuel au format PDF et assemblez votre classeur complet avec votre propre routine.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâche pratique",
+    "heading": "Les tâches de votre portefeuille",
+    "items": [
+     "Construisez votre fiche d'inventaire",
+     "Votre premier rapport de bénéfices mensuel",
+     "Assemblez votre cahier d'affaires"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

@@ -1,0 +1,454 @@
+{
+ "course": "agile-scrum",
+ "module": "m1",
+ "title": "Como Agile e Scrum realmente funcionam e quando usar Kanban",
+ "course_title": "Ágil e Scrum na prática",
+ "shots": [
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Como o Agile e o Scrum realmente funcionam e quando usar o Kanban.",
+    "Este é o vídeo do módulo 1 do Agile e Scrum na Prática."
+   ]
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Imagine uma equipe construindo um portal de mensalidades escolares em Abuja. Em um projeto orientado por planejamento, geralmente chamado de cascata, eles reúnem todos os requisitos primeiro, constroem durante meses e testam no final. Os proprietários da escola não veem nada utilizável até o sexto mês."
+   ],
+   "panel": {
+    "kicker": "Por que ágil",
+    "heading": "Entrega orientada por plano versus entrega ágil",
+    "mode": "compare",
+    "left_h": "Orientado por planos",
+    "left": [
+     "Todos os requisitos corrigidos antecipadamente",
+     "Uma entrega no final",
+     "A mudança é cara e resiste",
+     "Risco descoberto tarde"
+    ],
+    "right_h": "Ágil",
+    "right": [
+     "Requisitos refinados a cada ciclo",
+     "Peça de trabalho a cada 1 a 4 semanas",
+     "Mudança esperada e planejada para",
+     "Risco exposto precocemente"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Uma equipe Agile trabalha em ciclos curtos de 1 a 4 semanas. Cada ciclo termina com uma pequena peça de trabalho que usuários reais podem experimentar. Eles coletam feedback e ajustam o plano.",
+    "Ágil não significa nenhum plano. Ambas as abordagens planejam. A diferença é a frequência com que o plano atende à realidade."
+   ],
+   "panel": {
+    "kicker": "Por que ágil",
+    "heading": "Entrega orientada por plano versus entrega ágil",
+    "mode": "compare",
+    "left_h": "Orientado por planos",
+    "left": [
+     "Todos os requisitos corrigidos antecipadamente",
+     "Uma entrega no final",
+     "A mudança é cara e resiste",
+     "Risco descoberto tarde"
+    ],
+    "right_h": "Ágil",
+    "right": [
+     "Requisitos refinados a cada ciclo",
+     "Peça de trabalho a cada 1 a 4 semanas",
+     "Mudança esperada e planejada para",
+     "Risco exposto precocemente"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "A equipe presumiu que os pais pagariam com cartão. A maioria paga por transferência bancária ou USSD."
+   ],
+   "card": {
+    "title": "O custo de uma descoberta tardia",
+    "rows": [],
+    "note": "Figuras ilustrativas e aproximadas."
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Com 4 desenvolvedores ganhando cerca de 25.000 nairas por dia, a equipe custa 100.000 nairas por dia."
+   ],
+   "card": {
+    "title": "O custo de uma descoberta tardia",
+    "rows": [
+     [
+      "Custo da equipe por dia",
+      "100,000"
+     ]
+    ],
+    "note": "Figuras ilustrativas e aproximadas."
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Em cascata, o erro aparece nos testes após 60 dias. 30% da obra depende disso, então 18 dias devem ser refeitos. Isso é 1.800.000 nairas."
+   ],
+   "card": {
+    "title": "O custo de uma descoberta tardia",
+    "rows": [
+     [
+      "Custo da equipe por dia",
+      "100,000"
+     ],
+     [
+      "Retrabalho em cascata, 18 dias",
+      "1,800,000"
+     ]
+    ],
+    "note": "Figuras ilustrativas e aproximadas."
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "No Agile, os pais tentam a primeira tela de pagamento após o sprint 1. Apenas cerca de 3 dias de trabalho dependem da ideia errada. Isso é 300.000 nairas.",
+    "Um sexto do custo e cerca de dois meses de atraso evitados. Este é o argumento central dos ciclos curtos: inspecionar o que realmente aconteceu e depois adaptar-se."
+   ],
+   "card": {
+    "title": "O custo de uma descoberta tardia",
+    "rows": [
+     [
+      "Custo da equipe por dia",
+      "100,000"
+     ],
+     [
+      "Retrabalho em cascata, 18 dias",
+      "1,800,000"
+     ],
+     [
+      "Retrabalho ágil, 3 dias",
+      "300,000"
+     ]
+    ],
+    "note": "Figuras ilustrativas e aproximadas."
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Scrum é o framework mais usado para colocar o Agile para funcionar. Ele é definido no Guia Scrum gratuito, atualizado pela última vez em novembro de 2020. Um Time Scrum normalmente é composto por 10 ou menos pessoas, com três responsabilidades.",
+    "O Product Owner é uma pessoa, não um comitê. Ela maximiza o valor e ordena o Product Backlog."
+   ],
+   "panel": {
+    "kicker": "A equipe Scrum",
+    "heading": "Três responsabilidades",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Proprietário do Produto",
+      "d": "Uma pessoa, não um comitê. Maximiza o valor e ordena o Backlog do Produto."
+     },
+     {
+      "t": "Mestre Scrum",
+      "d": "Um líder que serve: orienta, facilita, remove bloqueadores. Não é um gerenciador de tarefas."
+     },
+     {
+      "t": "Desenvolvedores",
+      "d": "Crie um incremento utilizável a cada Sprint. Testadores, designers e escritores também contam."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "O Scrum Master é um líder que serve. Ela treina e remove bloqueadores. Um erro comum é agir como um gerente de tarefas que atribui tarefas."
+   ],
+   "panel": {
+    "kicker": "A equipe Scrum",
+    "heading": "Três responsabilidades",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Proprietário do Produto",
+      "d": "Uma pessoa, não um comitê. Maximiza o valor e ordena o Backlog do Produto."
+     },
+     {
+      "t": "Mestre Scrum",
+      "d": "Um líder que serve: orienta, facilita, remove bloqueadores. Não é um gerenciador de tarefas."
+     },
+     {
+      "t": "Desenvolvedores",
+      "d": "Crie um incremento utilizável a cada Sprint. Testadores, designers e escritores também contam."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Os desenvolvedores criam um incremento utilizável a cada Sprint. Desenvolvedor não significa apenas programadores. Testadores, designers e escritores também são desenvolvedores."
+   ],
+   "panel": {
+    "kicker": "A equipe Scrum",
+    "heading": "Três responsabilidades",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Proprietário do Produto",
+      "d": "Uma pessoa, não um comitê. Maximiza o valor e ordena o Backlog do Produto."
+     },
+     {
+      "t": "Mestre Scrum",
+      "d": "Um líder que serve: orienta, facilita, remove bloqueadores. Não é um gerenciador de tarefas."
+     },
+     {
+      "t": "Desenvolvedores",
+      "d": "Crie um incremento utilizável a cada Sprint. Testadores, designers e escritores também contam."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Um timebox é uma duração máxima. O Sprint realiza todos os outros eventos. Muitas equipes usam 2 semanas, o que equivale a 10 dias úteis."
+   ],
+   "panel": {
+    "kicker": "Cinco eventos",
+    "heading": "Um Sprint de 2 semanas, evento por evento",
+    "items": [
+     "O Sprint: 2 semanas, duração fixa",
+     "Planejamento do Sprint: cerca de 4 horas",
+     "Daily Scrum: 15 minutos, todos os dias",
+     "Revisão do Sprint: cerca de 2 horas",
+     "Retrospectiva Sprint: cerca de 1,5 horas"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "O Sprint Planning decide por que este Sprint é valioso e o que pode ser feito. Cerca de 4 horas durante 2 semanas."
+   ],
+   "panel": {
+    "kicker": "Cinco eventos",
+    "heading": "Um Sprint de 2 semanas, evento por evento",
+    "items": [
+     "O Sprint: 2 semanas, duração fixa",
+     "Planejamento do Sprint: cerca de 4 horas",
+     "Daily Scrum: 15 minutos, todos os dias",
+     "Revisão do Sprint: cerca de 2 horas",
+     "Retrospectiva Sprint: cerca de 1,5 horas"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "O Daily Scrum dura 15 minutos todos os dias úteis. Os desenvolvedores verificam o progresso em direção à meta do Sprint e ajustam o plano."
+   ],
+   "panel": {
+    "kicker": "Cinco eventos",
+    "heading": "Um Sprint de 2 semanas, evento por evento",
+    "items": [
+     "O Sprint: 2 semanas, duração fixa",
+     "Planejamento do Sprint: cerca de 4 horas",
+     "Daily Scrum: 15 minutos, todos os dias",
+     "Revisão do Sprint: cerca de 2 horas",
+     "Retrospectiva Sprint: cerca de 1,5 horas"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "A Sprint Review inspeciona o resultado com os stakeholders, e a Retrospectiva planeja como trabalhar melhor.",
+    "Por exemplo, a equipe de Amaka gasta 10 horas por pessoa em cerca de 80 eventos. Isso representa 12,5%. Útil quando um gestor pergunta: por que tantas reuniões?"
+   ],
+   "panel": {
+    "kicker": "Cinco eventos",
+    "heading": "Um Sprint de 2 semanas, evento por evento",
+    "items": [
+     "O Sprint: 2 semanas, duração fixa",
+     "Planejamento do Sprint: cerca de 4 horas",
+     "Daily Scrum: 15 minutos, todos os dias",
+     "Revisão do Sprint: cerca de 2 horas",
+     "Retrospectiva Sprint: cerca de 1,5 horas"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Kanban não tem Sprints nem funções fixas. Primeiro, mostre o trabalho em um quadro com colunas como To do, Doing, Review, Done."
+   ],
+   "panel": {
+    "kicker": "Kanban",
+    "heading": "Kanban em quatro práticas",
+    "items": [
+     "Visualize o trabalho em um quadro",
+     "Limitar o trabalho em andamento",
+     "Meça a produtividade e o tempo de ciclo",
+     "Melhorar continuamente"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Em segundo lugar, limite o trabalho em andamento. Por exemplo, não mais do que 3 cartas em Doing. Quando a coluna estiver cheia, termine algo primeiro."
+   ],
+   "panel": {
+    "kicker": "Kanban",
+    "heading": "Kanban em quatro práticas",
+    "items": [
+     "Visualize o trabalho em um quadro",
+     "Limitar o trabalho em andamento",
+     "Meça a produtividade e o tempo de ciclo",
+     "Melhorar continuamente"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "rule": "Quando o Doing estiver cheio, termine algo antes de começar mais.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Terceiro, meça o fluxo. A Lei de Little diz que o tempo de ciclo é igual ao trabalho em andamento dividido pela produtividade.",
+    "Por exemplo, a equipe de suporte da Funmi tem 30 tickets abertos e fecha 10 por dia. São 3 dias por ingresso. Ela limita os tickets abertos a 15, então cada ticket iniciado leva 1,5 dias."
+   ],
+   "panel": {
+    "kicker": "Kanban",
+    "heading": "Kanban em quatro práticas",
+    "items": [
+     "Visualize o trabalho em um quadro",
+     "Limitar o trabalho em andamento",
+     "Meça a produtividade e o tempo de ciclo",
+     "Melhorar continuamente"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Quando o Doing estiver cheio, termine algo antes de começar mais.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Quarto, revise o quadro e remova os gargalos. Mas se chegam 20 ingressos por dia e apenas 10 fecham, não há limite que esconda isso. Tenha uma conversa honesta."
+   ],
+   "panel": {
+    "kicker": "Kanban",
+    "heading": "Kanban em quatro práticas",
+    "items": [
+     "Visualize o trabalho em um quadro",
+     "Limitar o trabalho em andamento",
+     "Meça a produtividade e o tempo de ciclo",
+     "Melhorar continuamente"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Quando o Doing estiver cheio, termine algo antes de começar mais.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Combine a abordagem com o trabalho. Um novo aplicativo é adequado ao Scrum, porque a solução é incerta. Um help desk combina com o Kanban, porque o trabalho chega a cada hora.",
+    "Um furo com um desenho conhecido adequa-se a um plano fixo. Campanhas mais solicitações urgentes são adequadas para um híbrido.",
+    "Se o trabalho urgente quebrou o plano quase todas as semanas no mês passado, escolha Kanban ou mantenha a capacidade livre."
+   ],
+   "panel": {
+    "kicker": "Escolha sabiamente",
+    "heading": "Qual abordagem se adapta ao trabalho?",
+    "items": [
+     "Novo aplicativo ou site: Scrum",
+     "Help desk ou suporte: Kanban",
+     "Furo com projeto conhecido: orientado por plano",
+     "Campanhas mais trabalho urgente: híbrido"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Para lembrar. Ágil significa pequenas peças de trabalho, verificadas frequentemente com usuários reais. A descoberta tardia custa muito mais do que a descoberta precoce.",
+    "Scrum tem um Product Owner, um Scrum Master e Desenvolvedores. O Daily Scrum dura 15 minutos. E menos trabalho em andamento significa acabamento mais rápido."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Lembre-se",
+    "items": [
+     "Ágil significa pequenas peças de trabalho, verificadas frequentemente",
+     "A descoberta tardia custa muito mais do que a precoce",
+     "Dono do produto, Scrum Master, Desenvolvedores",
+     "Scrum diário dura 15 minutos",
+     "Tempo de ciclo = trabalho em andamento ÷ rendimento"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Suas tarefas: identificar uma descoberta tardia em um projeto que você conhece, construir um calendário Sprint e contar as horas do evento e diagnosticar três tipos de trabalho com a Lei de Little.",
+    "Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Tarefa prática",
+    "heading": "Suas tarefas práticas",
+    "items": [
+     "Identifique uma descoberta tardia em um projeto anterior",
+     "Construa seu calendário Sprint",
+     "Diagnosticar três tipos de trabalho"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

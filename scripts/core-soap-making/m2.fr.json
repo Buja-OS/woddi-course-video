@@ -1,0 +1,595 @@
+{
+ "course": "core-soap-making",
+ "module": "m2",
+ "title": "Votre premier lot : calcul de la lessive et fabrication des barres à froid",
+ "course_title": "Fabrication de savon pour les petites entreprises : barres traitées à froid et savon liquide simple",
+ "shots": [
+  {
+   "demo": "title_soap",
+   "say": [
+    "Votre premier lot : calculer la lessive et fabriquer des barres à froid.",
+    "Ceci est la vidéo du module 2 de la fabrication de savon pour les petites entreprises."
+   ]
+  },
+  {
+   "demo": "caustic_flakes",
+   "say": [
+    "Obtenir la bonne quantité de lessive est ce qui rend le savon sûr. Trop de soude caustique laisse une barre dure qui peut brûler."
+   ],
+   "panel": {
+    "kicker": "Pourquoi les mathématiques sont importantes",
+    "heading": "Bien utiliser la lessive garantit la sécurité du savon",
+    "items": [
+     "Trop de soude caustique : une barre âpre et brûlante",
+     "Trop peu : une barre grasse et molle qui rancit",
+     "Calculez à la main, puis vérifiez dans SoapCalc",
+     "N'échangez jamais la soude caustique et la potasse caustique"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "caustic_flakes",
+   "say": [
+    "Trop peu laisse une barre grasse et molle qui peut rancir."
+   ],
+   "panel": {
+    "kicker": "Pourquoi les mathématiques sont importantes",
+    "heading": "Bien utiliser la lessive garantit la sécurité du savon",
+    "items": [
+     "Trop de soude caustique : une barre âpre et brûlante",
+     "Trop peu : une barre grasse et molle qui rancit",
+     "Calculez à la main, puis vérifiez dans SoapCalc",
+     "N'échangez jamais la soude caustique et la potasse caustique"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "lye_mix",
+   "say": [
+    "Vous calculez donc à la main, pour le comprendre, puis vérifiez dans la calculatrice gratuite SoapCalc, afin de ne jamais vous fier uniquement à votre arithmétique."
+   ],
+   "panel": {
+    "kicker": "Pourquoi les mathématiques sont importantes",
+    "heading": "Bien utiliser la lessive garantit la sécurité du savon",
+    "items": [
+     "Trop de soude caustique : une barre âpre et brûlante",
+     "Trop peu : une barre grasse et molle qui rancit",
+     "Calculez à la main, puis vérifiez dans SoapCalc",
+     "N'échangez jamais la soude caustique et la potasse caustique"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "lye_mix",
+   "say": [
+    "Et la soude caustique et la potasse caustique ont des valeurs SAP différentes. Une recette faite pour l’un ne peut jamais être utilisée avec l’autre."
+   ],
+   "panel": {
+    "kicker": "Pourquoi les mathématiques sont importantes",
+    "heading": "Bien utiliser la lessive garantit la sécurité du savon",
+    "items": [
+     "Trop de soude caustique : une barre âpre et brûlante",
+     "Trop peu : une barre grasse et molle qui rancit",
+     "Calculez à la main, puis vérifiez dans SoapCalc",
+     "N'échangez jamais la soude caustique et la potasse caustique"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "caustic_flakes",
+   "say": [
+    "Par exemple, Amaka prévoit 1 000 g d'huiles. Huile de palme 500 g, huile de palmiste 300 g, beurre de karité 150 g et huile de ricin 50 g."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Amaka calcule sa soude caustique",
+    "items": [
+     "Chaque huile x sa valeur SAP, par ex. paume 500 x 0,142",
+     "Additionnez-les : 149,4 g à 0% de surgras",
+     "5% de surgras : 149,4 x 0,95 = 141,9 g",
+     "Eau à 33% : 141,9 / 0,33 moins 141,9",
+     "Peser 142 g de soude caustique et 288 g d'eau"
+    ],
+    "show": 0,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "caustic_flakes",
+   "say": [
+    "Première étape. Multipliez chaque huile par sa valeur SAP. L'huile de palme est 500 fois 0,142, soit 71,0 g de soude caustique. Elle fait la même chose pour chaque huile."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Amaka calcule sa soude caustique",
+    "items": [
+     "Chaque huile x sa valeur SAP, par ex. paume 500 x 0,142",
+     "Additionnez-les : 149,4 g à 0% de surgras",
+     "5% de surgras : 149,4 x 0,95 = 141,9 g",
+     "Eau à 33% : 141,9 / 0,33 moins 141,9",
+     "Peser 142 g de soude caustique et 288 g d'eau"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "caustic_flakes",
+   "say": [
+    "Deuxième étape. Additionnez-les tous. 71,0, plus 52,8, plus 19,2, plus 6,4, donnent 149,4 g."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Amaka calcule sa soude caustique",
+    "items": [
+     "Chaque huile x sa valeur SAP, par ex. paume 500 x 0,142",
+     "Additionnez-les : 149,4 g à 0% de surgras",
+     "5% de surgras : 149,4 x 0,95 = 141,9 g",
+     "Eau à 33% : 141,9 / 0,33 moins 141,9",
+     "Peser 142 g de soude caustique et 288 g d'eau"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "caustic_flakes",
+   "say": [
+    "Troisième étape. Appliquez le supergras. Le supergras est un peu d’huile laissé volontairement comme marge de sécurité. Pour 5 %, multipliez par 0,95. Cela donne 141,9 g."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Amaka calcule sa soude caustique",
+    "items": [
+     "Chaque huile x sa valeur SAP, par ex. paume 500 x 0,142",
+     "Additionnez-les : 149,4 g à 0% de surgras",
+     "5% de surgras : 149,4 x 0,95 = 141,9 g",
+     "Eau à 33% : 141,9 / 0,33 moins 141,9",
+     "Peser 142 g de soude caustique et 288 g d'eau"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "oils_lineup",
+   "say": [
+    "Quatrième étape. Éliminez l'eau. Divisez la lessive par 0,33, ce qui donne 430,0 g de solution, puis retirez la lessive. Cela laisse 288,1 g d'eau."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Amaka calcule sa soude caustique",
+    "items": [
+     "Chaque huile x sa valeur SAP, par ex. paume 500 x 0,142",
+     "Additionnez-les : 149,4 g à 0% de surgras",
+     "5% de surgras : 149,4 x 0,95 = 141,9 g",
+     "Eau à 33% : 141,9 / 0,33 moins 141,9",
+     "Peser 142 g de soude caustique et 288 g d'eau"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "oils_lineup",
+   "say": [
+    "Amaka pèse donc 142 g de soude caustique et 288 g d'eau. N'arrondissez jamais la lessive de plus d'un gramme."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Amaka calcule sa soude caustique",
+    "items": [
+     "Chaque huile x sa valeur SAP, par ex. paume 500 x 0,142",
+     "Additionnez-les : 149,4 g à 0% de surgras",
+     "5% de surgras : 149,4 x 0,95 = 141,9 g",
+     "Eau à 33% : 141,9 / 0,33 moins 141,9",
+     "Peser 142 g de soude caustique et 288 g d'eau"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "oils_lineup",
+   "say": [
+    "Elle entre ensuite la même recette dans SoapCalc. Si les réponses concordent à un gramme ou deux près, elle est prête. Une grande différence signifie une erreur."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Amaka calcule sa soude caustique",
+    "items": [
+     "Chaque huile x sa valeur SAP, par ex. paume 500 x 0,142",
+     "Additionnez-les : 149,4 g à 0% de surgras",
+     "5% de surgras : 149,4 x 0,95 = 141,9 g",
+     "Eau à 33% : 141,9 / 0,33 moins 141,9",
+     "Peser 142 g de soude caustique et 288 g d'eau"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Deux calculs qui concordent vous donnent confiance pour mixer.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "lye_mix",
+   "say": [
+    "Maintenant le lot. Lunettes, gants et manches longues, enfants et animaux dehors. Tapissez votre moule et faites fondre délicatement les huiles solides."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Faire le lot",
+    "items": [
+     "Équipement de sécurité en place, bordé de moule, huiles fondues",
+     "Mélanger la solution de lessive ; refroidir les deux à 35 à 45 °C",
+     "Versez la lessive dans les huiles; pulser 3 à 5 secondes, remuer",
+     "Légère trace : ajouter le parfum, puis verser",
+     "Repos 24 à 48 heures, coupe, cure 4 à 6 semaines"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "lye_mix",
+   "say": [
+    "Ajouter de la soude caustique à l'eau, dans un endroit aéré. De nombreux débutants combinent lorsque la lessive et les huiles sont toutes deux comprises entre 35 et 45 degrés Celsius. Notez les deux températures."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Faire le lot",
+    "items": [
+     "Équipement de sécurité en place, bordé de moule, huiles fondues",
+     "Mélanger la solution de lessive ; refroidir les deux à 35 à 45 °C",
+     "Versez la lessive dans les huiles; pulser 3 à 5 secondes, remuer",
+     "Légère trace : ajouter le parfum, puis verser",
+     "Repos 24 à 48 heures, coupe, cure 4 à 6 semaines"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "lye_mix",
+   "say": [
+    "Versez lentement la lessive dans les huiles dans le pied du mélangeur. Pulsez le mixeur plongeant pendant 3 à 5 secondes, remuez et répétez."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Faire le lot",
+    "items": [
+     "Équipement de sécurité en place, bordé de moule, huiles fondues",
+     "Mélanger la solution de lessive ; refroidir les deux à 35 à 45 °C",
+     "Versez la lessive dans les huiles; pulser 3 à 5 secondes, remuer",
+     "Légère trace : ajouter le parfum, puis verser",
+     "Repos 24 à 48 heures, coupe, cure 4 à 6 semaines"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "ppe_set",
+   "say": [
+    "Arrêtez-vous à la trace légère, lorsqu'une bruine laisse une légère ligne à la surface, comme une fine crème anglaise. Ajoutez le parfum et versez."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Faire le lot",
+    "items": [
+     "Équipement de sécurité en place, bordé de moule, huiles fondues",
+     "Mélanger la solution de lessive ; refroidir les deux à 35 à 45 °C",
+     "Versez la lessive dans les huiles; pulser 3 à 5 secondes, remuer",
+     "Légère trace : ajouter le parfum, puis verser",
+     "Repos 24 à 48 heures, coupe, cure 4 à 6 semaines"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "ppe_set",
+   "say": [
+    "Laissez-le couvert pendant 24 à 48 heures, hors de portée des enfants. Ensuite, coupez-les en barres et faites-les sécher sur une grille pendant 4 à 6 semaines, en les retournant tous les quelques jours."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Faire le lot",
+    "items": [
+     "Équipement de sécurité en place, bordé de moule, huiles fondues",
+     "Mélanger la solution de lessive ; refroidir les deux à 35 à 45 °C",
+     "Versez la lessive dans les huiles; pulser 3 à 5 secondes, remuer",
+     "Légère trace : ajouter le parfum, puis verser",
+     "Repos 24 à 48 heures, coupe, cure 4 à 6 semaines"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "ppe_set",
+   "say": [
+    "Jusqu'à la fin de la réaction, la pâte peut brûler la peau. Gardez des gants et ne laissez personne toucher ou goûter du savon frais."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Faire le lot",
+    "items": [
+     "Équipement de sécurité en place, bordé de moule, huiles fondues",
+     "Mélanger la solution de lessive ; refroidir les deux à 35 à 45 °C",
+     "Versez la lessive dans les huiles; pulser 3 à 5 secondes, remuer",
+     "Légère trace : ajouter le parfum, puis verser",
+     "Repos 24 à 48 heures, coupe, cure 4 à 6 semaines"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Le savon frais est toujours caustique. Gants jusqu'à ce qu'il durcisse.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Si la pâte s'épaissit soudainement et devient grumeleuse, ce qu'on appelle un grippage, c'est souvent le parfum ou le mélange trop chaud. Pressez-le rapidement dans le moule et notez-le dans votre dossier."
+   ],
+   "panel": {
+    "kicker": "Si quelque chose ne va pas",
+    "heading": "Problèmes le jour",
+    "items": [
+     "Grumeaux soudains (grippage) : travaillez vite, notez le parfum",
+     "Des flaques d'huile et ne laisseront aucune trace : vérifiez votre pesée",
+     "Fissures ou tache sombre et humide : savon surchauffé"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Si de l'huile s'accumule sur le dessus et ne laisse aucune trace, vérifiez que vous avez correctement pesé la soude caustique. Si vous n'êtes pas sûr, ne vendez pas ce lot."
+   ],
+   "panel": {
+    "kicker": "Si quelque chose ne va pas",
+    "heading": "Problèmes le jour",
+    "items": [
+     "Grumeaux soudains (grippage) : travaillez vite, notez le parfum",
+     "Des flaques d'huile et ne laisseront aucune trace : vérifiez votre pesée",
+     "Fissures ou tache sombre et humide : savon surchauffé"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laundry_bars",
+   "say": [
+    "Des fissures ou une zone sombre et humide après une journée signifient une surchauffe. Par temps chaud, évitez la serviette et conservez le moule dans une pièce fraîche."
+   ],
+   "panel": {
+    "kicker": "Si quelque chose ne va pas",
+    "heading": "Problèmes le jour",
+    "items": [
+     "Grumeaux soudains (grippage) : travaillez vite, notez le parfum",
+     "Des flaques d'huile et ne laisseront aucune trace : vérifiez votre pesée",
+     "Fissures ou tache sombre et humide : savon surchauffé"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "combine_pour",
+   "say": [
+    "Les gens appellent deux produits différents du savon liquide. Le vrai savon liquide est cuit à partir d’huiles et d’hydroxyde de potassium pour obtenir une pâte, puis dilué avec de l’eau chaude. Toutes les règles de sécurité de la soude caustique s'appliquent."
+   ],
+   "panel": {
+    "kicker": "Savon liquide",
+    "heading": "Deux sortes de savon liquide",
+    "mode": "compare",
+    "left_h": "Véritable savon liquide",
+    "left": [
+     "Huiles et hydroxyde de potassium",
+     "Cuit en pâte, puis dilué",
+     "Nécessite un calcul de lessive"
+    ],
+    "right_h": "Lavage liquide de fût",
+    "right": [
+     "SLES plus eau et sel",
+     "Mélange froid simple",
+     "Pas cher, populaire pour les plats"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "stir_trace",
+   "say": [
+    "Le Keg Wash est un détergent liquide à base de SLES, souvent vendu sous le nom de texapon. On le dilue dans l'eau et on l'épaissit avec du sel, petit à petit. Trop de sel le rend à nouveau mince.",
+    "Les deux peuvent être de bons produits. Étiquetez simplement chacun honnêtement."
+   ],
+   "panel": {
+    "kicker": "Savon liquide",
+    "heading": "Deux sortes de savon liquide",
+    "mode": "compare",
+    "left_h": "Véritable savon liquide",
+    "left": [
+     "Huiles et hydroxyde de potassium",
+     "Cuit en pâte, puis dilué",
+     "Nécessite un calcul de lessive"
+    ],
+    "right_h": "Lavage liquide de fût",
+    "right": [
+     "SLES plus eau et sel",
+     "Mélange froid simple",
+     "Pas cher, populaire pour les plats"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "ppe_set",
+   "say": [
+    "Portez des gants et des lunettes pour les deux itinéraires."
+   ],
+   "panel": {
+    "kicker": "Restez en sécurité",
+    "heading": "Trois règles de sécurité pour les produits liquides",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Gants et lunettes",
+      "d": "La pâte SLES irrite les yeux et la peau. La potasse caustique nécessite une sécurité totale contre la lessive."
+     },
+     {
+      "t": "Pas de formol",
+      "d": "Utilisez un conservateur cosmétique au tarif indiqué par le fournisseur. Jamais de formol."
+     },
+     {
+      "t": "Test pendant une semaine",
+      "d": "Vérifiez quotidiennement une bouteille remplie pour détecter toute séparation, trouble, odeur ou moisissure."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "ppe_set",
+   "say": [
+    "Certaines recettes locales ajoutent du formol comme conservateur. Le formaldéhyde est classé comme substance cancérigène. Utilisez plutôt un conservateur cosmétique approprié."
+   ],
+   "panel": {
+    "kicker": "Restez en sécurité",
+    "heading": "Trois règles de sécurité pour les produits liquides",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Gants et lunettes",
+      "d": "La pâte SLES irrite les yeux et la peau. La potasse caustique nécessite une sécurité totale contre la lessive."
+     },
+     {
+      "t": "Pas de formol",
+      "d": "Utilisez un conservateur cosmétique au tarif indiqué par le fournisseur. Jamais de formol."
+     },
+     {
+      "t": "Test pendant une semaine",
+      "d": "Vérifiez quotidiennement une bouteille remplie pour détecter toute séparation, trouble, odeur ou moisissure."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cure_rack",
+   "say": [
+    "Et testez chaque nouvelle recette pendant une semaine avant de la vendre, en vérifiant chaque jour s'il y a une séparation, un trouble, un changement d'odeur ou de la moisissure."
+   ],
+   "panel": {
+    "kicker": "Restez en sécurité",
+    "heading": "Trois règles de sécurité pour les produits liquides",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Gants et lunettes",
+      "d": "La pâte SLES irrite les yeux et la peau. La potasse caustique nécessite une sécurité totale contre la lessive."
+     },
+     {
+      "t": "Pas de formol",
+      "d": "Utilisez un conservateur cosmétique au tarif indiqué par le fournisseur. Jamais de formol."
+     },
+     {
+      "t": "Test pendant une semaine",
+      "d": "Vérifiez quotidiennement une bouteille remplie pour détecter toute séparation, trouble, odeur ou moisissure."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "mould_pour",
+   "say": [
+    "À retenir. La lessive correspond au poids de l'huile multiplié par la valeur SAP. Multipliez par 0,95 pour un surgras à 5%. Vérifiez toujours dans SoapCalc. Mélangez tiède, durcissez complètement et n’utilisez jamais de formol."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Lyse = poids d'huile x valeur SAP, pour chaque huile",
+     "Multipliez par 0,95 pour un surgras à 5 %",
+     "Vérifiez votre calcul manuel dans SoapCalc",
+     "Mélanger à environ 35 à 45 °C, durcir 4 à 6 semaines",
+     "Les produits liquides nécessitent un conservateur approprié"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "cut_bars",
+   "say": [
+    "Créez maintenant un petit lot test avec un enregistrement complet du lot, calculez votre propre recette à la main et dans SoapCalc, et essayez un lavage liquide de 1 kg.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâches d'entraînement",
+    "heading": "Votre pratique pour ce module",
+    "items": [
+     "Créer un petit lot de test avec un enregistrement de lot",
+     "Calculez votre propre recette et vérifiez-la dans SoapCalc",
+     "Faire un test de lavage liquide avec 1 kg"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

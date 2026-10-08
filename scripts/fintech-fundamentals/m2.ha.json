@@ -1,0 +1,537 @@
+{
+ "course": "fintech-fundamentals",
+ "module": "m2",
+ "title": "Lamuni, tanadi, turawa: nemo farashin gaskiya da haɗari",
+ "course_title": "Mahimman Fintech: Yadda Kuɗin Dijital ke Aiki a Afirka",
+ "shots": [
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Lamuni, ajiyar kuɗi da aika kuɗi: nemo farashin gaskiya, da haɗari.",
+    "Wannan shine bidiyon don ƙirar biyu na Fintech Fundamentals."
+   ]
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Lamunin dijital na iya barin ɗan kasuwa ya sake dawo da shi a yau maimakon wata mai zuwa. Amma wasu aikace-aikacen sun caje kuɗaɗe masu yawa da kuma tursasa masu bashi."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Kayayyakin cike da bugu mai kyau",
+    "items": [
+     "Lamunin dijital: sauri, amma mai tsada idan rashin kulawa",
+     "Ajiye: ajiya, walat ko zuba jari?",
+     "Remittances: kuɗin ba duka farashin ba ne",
+     "Zamba: amincewa shine samfurin"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Ajiye da kayayyakin turawa sun shafi guda biyu daga cikin mahimman hanyoyin kuɗi a cikin gida. Dukansu suna cike da bugu mai kyau."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Kayayyakin cike da bugu mai kyau",
+    "items": [
+     "Lamunin dijital: sauri, amma mai tsada idan rashin kulawa",
+     "Ajiye: ajiya, walat ko zuba jari?",
+     "Remittances: kuɗin ba duka farashin ba ne",
+     "Zamba: amincewa shine samfurin"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Kuma idan abokan ciniki suna tsoron rasa kuɗi, suna komawa tsabar kuɗi. A cikin fintech, dogara shine samfurin."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Kayayyakin cike da bugu mai kyau",
+    "items": [
+     "Lamunin dijital: sauri, amma mai tsada idan rashin kulawa",
+     "Ajiye: ajiya, walat ko zuba jari?",
+     "Remittances: kuɗin ba duka farashin ba ne",
+     "Zamba: amincewa shine samfurin"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Ka'idodin lamuni galibi suna nuna kuɗi ko jimlar don biya, ba ƙididdigewa ba. Don kwatanta gaskiya, juya kowane lamuni zuwa ƙimar lokaci guda. Misali, Bisi a Ibadan na bukatar Naira 50,000 a hannun jari."
+   ],
+   "card": {
+    "title": "Bisi ya kwatanta tayin lamuni guda biyu",
+    "rows": [],
+    "note": "Juya kowane lamuni zuwa ƙimar kowane wata tukuna."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "App A ya ce ya biya Naira 57,500 a cikin kwanaki 30. Kudin ya kai Naira 7,500, wato kashi 15% a wata, wato kusan kashi 182.5% a shekara."
+   ],
+   "card": {
+    "title": "Bisi ya kwatanta tayin lamuni guda biyu",
+    "rows": [
+     [
+      "Adadin da aka aro",
+      "50,000"
+     ],
+     [
+      "App A: biya a cikin kwanaki 30",
+      "57,500"
+     ],
+     [
+      "Kudin App: 15% a wata",
+      "7,500"
+     ]
+    ],
+    "note": "Juya kowane lamuni zuwa ƙimar kowane wata tukuna."
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "App B ya ce ya biya Naira 62,000 a cikin watanni 3. Kudin Naira 12,000, kusan kashi 8% a wata.",
+    "Hannunta na samun kusan naira 10,000 a kowane zagaye, don haka farashin App A yana cin kashi 75% na ribar da ake samu. Gajerun lamuni mai rahusa mai kyan gani shine mafi tsada."
+   ],
+   "card": {
+    "title": "Bisi ya kwatanta tayin lamuni guda biyu",
+    "rows": [
+     [
+      "Adadin da aka aro",
+      "50,000"
+     ],
+     [
+      "App A: biya a cikin kwanaki 30",
+      "57,500"
+     ],
+     [
+      "Kudin App: 15% a wata",
+      "7,500"
+     ],
+     [
+      "App B: biya sama da watanni 3",
+      "62,000"
+     ],
+     [
+      "Farashin App B: kusan 8% a wata",
+      "12,000"
+     ]
+    ],
+    "note": "Juya kowane lamuni zuwa ƙimar kowane wata tukuna."
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "FCCPC tana kula da masu ba da lamuni na dijital kuma tana buga jerin waɗanda aka yarda. Mai ba da lamuni da ke da alhakin nuna cikakken farashi kafin karɓa, kuma ya fara kaɗan."
+   ],
+   "panel": {
+    "kicker": "Tsaro",
+    "heading": "Mai ba da lamuni mai alhaki ko ƙa'idar yaudara?",
+    "mode": "compare",
+    "left_h": "Alhaki",
+    "left": [
+     "An nuna cikakken farashi kafin karɓa",
+     "Akan FCCPC da aka amince da lissafin",
+     "Ya fara ƙarami, yana girma tare da ku",
+     "Share tashar korafi"
+    ],
+    "right_h": "Tutoci ja",
+    "right": [
+     "Yana son lambobin sadarwarku ko hotuna",
+     "Yana barazanar saƙon dangin ku",
+     "Yana ɓoye jimlar har sai an biya",
+     "Tura sabon rance don biya tsohon"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Jajayen tutoci: ƙa'idar da ke buƙatar lambobin sadarwarku ko hotunanku, suna barazanar aika sako ga danginku, waɗanda masu gudanarwa suka hana, ɓoye jimlar, ko tura sabon lamuni don biya tsohon."
+   ],
+   "panel": {
+    "kicker": "Tsaro",
+    "heading": "Mai ba da lamuni mai alhaki ko ƙa'idar yaudara?",
+    "mode": "compare",
+    "left_h": "Alhaki",
+    "left": [
+     "An nuna cikakken farashi kafin karɓa",
+     "Akan FCCPC da aka amince da lissafin",
+     "Ya fara ƙarami, yana girma tare da ku",
+     "Share tashar korafi"
+    ],
+    "right_h": "Tutoci ja",
+    "right": [
+     "Yana son lambobin sadarwarku ko hotuna",
+     "Yana barazanar saƙon dangin ku",
+     "Yana ɓoye jimlar har sai an biya",
+     "Tura sabon rance don biya tsohon"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Kafin kayi ajiya a cikin app, san abin da ka mallaka. Babban bankin CBN ne ke tsara ajiyar ajiyar banki kuma hukumar NDIC ta ba da inshora har zuwa iyaka. Nemo iyaka na yanzu akan gidan yanar gizon NDIC."
+   ],
+   "panel": {
+    "kicker": "Adana",
+    "heading": "Abubuwa guda uku masu kama",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Adadin banki",
+      "d": "CBN ne ya tsara. NDIC inshorar ajiya har zuwa iyaka. Duba iyakar halin yanzu da kanka."
+     },
+     {
+      "t": "Ma'auni na walat",
+      "d": "Da'awar akan iyo da aka gudanar a bankuna. An kiyaye shi ta dokokin kiyaye ruwa."
+     },
+     {
+      "t": "Zuba jari",
+      "d": "Misali asusun kasuwar kudi. SEC Najeriya ta tsara. Darajarsa na iya hawa sama ko ƙasa."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Ma'auni na walat shine da'awar akan iyo wanda dole ne a riƙe a bankuna."
+   ],
+   "panel": {
+    "kicker": "Adana",
+    "heading": "Abubuwa guda uku masu kama",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Adadin banki",
+      "d": "CBN ne ya tsara. NDIC inshorar ajiya har zuwa iyaka. Duba iyakar halin yanzu da kanka."
+     },
+     {
+      "t": "Ma'auni na walat",
+      "d": "Da'awar akan iyo da aka gudanar a bankuna. An kiyaye shi ta dokokin kiyaye ruwa."
+     },
+     {
+      "t": "Zuba jari",
+      "d": "Misali asusun kasuwar kudi. SEC Najeriya ta tsara. Darajarsa na iya hawa sama ko ƙasa."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Saka hannun jari, kamar asusun kasuwancin kuɗi, SEC Nigeria ce ke tsara shi, kuma ƙimarsa na iya raguwa. Don haka kalmomin da aka tabbatar sun dawo kan zuba jari alama ce ta gargaɗi."
+   ],
+   "panel": {
+    "kicker": "Adana",
+    "heading": "Abubuwa guda uku masu kama",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Adadin banki",
+      "d": "CBN ne ya tsara. NDIC inshorar ajiya har zuwa iyaka. Duba iyakar halin yanzu da kanka."
+     },
+     {
+      "t": "Ma'auni na walat",
+      "d": "Da'awar akan iyo da aka gudanar a bankuna. An kiyaye shi ta dokokin kiyaye ruwa."
+     },
+     {
+      "t": "Zuba jari",
+      "d": "Misali asusun kasuwar kudi. SEC Najeriya ta tsara. Darajarsa na iya hawa sama ko ƙasa."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Kuɗin turawa yana cajin ku sau biyu: kuɗin gaba, da tazarar canjin kuɗi, tazarar da ke tsakanin ƙimar ku da ƙimar tsakiyar kasuwa. Margin yakan fi girma, kuma yana da sauƙin rasa."
+   ],
+   "panel": {
+    "kicker": "Kudaden turawa",
+    "heading": "Kudin sifili ba ɗaya bane da mafi arha",
+    "items": [
+     "Farashi = farashi na gaba + gefen ƙimar musanya",
+     "A: Kudin sifiri, uwa tana samun naira 388,000",
+     "B: Fam 3, uwa ta samu naira 398,000",
+     "Kwatanta abin da mai karɓa ya samu a ƙarshe"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Misali, Ngozi a Manchester tana aika fam 200 ga mahaifiyarta a Enugu. Provider A yana tallata kuɗaɗen sifiri, kuma mahaifiyarta tana karɓar naira 388,000. Wannan farashin 3%."
+   ],
+   "panel": {
+    "kicker": "Kudaden turawa",
+    "heading": "Kudin sifili ba ɗaya bane da mafi arha",
+    "items": [
+     "Farashi = farashi na gaba + gefen ƙimar musanya",
+     "A: Kudin sifiri, uwa tana samun naira 388,000",
+     "B: Fam 3, uwa ta samu naira 398,000",
+     "Kwatanta abin da mai karɓa ya samu a ƙarshe"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Provider B yana cajin fam 3 amma ya ba da mafi kyawun kuɗi, kuma mahaifiyarta tana karɓar naira 398,000, kusan kashi 2%. Don haka ko da yaushe kwatanta abin da mai karɓa ya samu a ƙarshe. Kuma a yi amfani da tashoshi masu lasisi kawai, ba za su taɓa masu siyar da sayayya ta kafofin sada zumunta ba."
+   ],
+   "panel": {
+    "kicker": "Kudaden turawa",
+    "heading": "Kudin sifili ba ɗaya bane da mafi arha",
+    "items": [
+     "Farashi = farashi na gaba + gefen ƙimar musanya",
+     "A: Kudin sifiri, uwa tana samun naira 388,000",
+     "B: Fam 3, uwa ta samu naira 398,000",
+     "Kwatanta abin da mai karɓa ya samu a ƙarshe"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "A cikin musanya SIM, dan damfara yana samun sabon SIM akan lambar ku kuma ya karɓi OTP na ku. A cikin aikin injiniyan zamantakewa, mai kira ya yi kamar shi banki ne kuma ya nemi PIN, OTP ko BVN."
+   ],
+   "panel": {
+    "kicker": "Zamba",
+    "heading": "Nau'in zamba dole ne ku gane",
+    "items": [
+     "Musanya SIM: sabon SIM akan lambar ku",
+     "Injiniya na zamantakewa: masu kiran banki na karya",
+     "Karɓar asusu: wayar sata ko kalmar sirri",
+     "Alfadara kudi: asusun haya",
+     "Shirye-shiryen Ponzi: babban tabbataccen dawowa"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Karɓar asusu yana amfani da kalmomin sirri na sata ko wayoyi. Alfadarin kudi asusu ne da ake hayar don karba da kuma motsa kudin da aka sace."
+   ],
+   "panel": {
+    "kicker": "Zamba",
+    "heading": "Nau'in zamba dole ne ku gane",
+    "items": [
+     "Musanya SIM: sabon SIM akan lambar ku",
+     "Injiniya na zamantakewa: masu kiran banki na karya",
+     "Karɓar asusu: wayar sata ko kalmar sirri",
+     "Alfadara kudi: asusun haya",
+     "Shirye-shiryen Ponzi: babban tabbataccen dawowa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_security",
+   "say": [
+    "Kuma dandali na karya suna yin alƙawarin dawo da ƙayyadaddun ƙayyadaddun gyare-gyare, da biyan membobin da wuri daga sabbin adibas, sannan su ruguje. Bincika lasisi tare da SEC ko CBN."
+   ],
+   "panel": {
+    "kicker": "Zamba",
+    "heading": "Nau'in zamba dole ne ku gane",
+    "items": [
+     "Musanya SIM: sabon SIM akan lambar ku",
+     "Injiniya na zamantakewa: masu kiran banki na karya",
+     "Karɓar asusu: wayar sata ko kalmar sirri",
+     "Alfadara kudi: asusun haya",
+     "Shirye-shiryen Ponzi: babban tabbataccen dawowa"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Misali, Kemi ta samu waya daga banki, ta yi tunani, sannan ta karanta OTP. Karfe 9:02 na safe naira 85,000 ta bar jakarta."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Kemi ta ba da rahoton zamba cikin sauri",
+    "items": [
+     "9:02 na safe: Naira 85,000 ta bar jakarta",
+     "9:10 na safe: ta kira goyon bayan hukuma",
+     "An toshe walat; rike nema",
+     "Rahoton 'yan sanda; kiyaye kowane tunani"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Karfe 9:10 na safe ta kira layin tallafin wallet. Gudu shine komai. Mintunan farko sun yanke shawarar ko za a iya daskarar da kuɗi."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Kemi ta ba da rahoton zamba cikin sauri",
+    "items": [
+     "9:02 na safe: Naira 85,000 ta bar jakarta",
+     "9:10 na safe: ta kira goyon bayan hukuma",
+     "An toshe walat; rike nema",
+     "Rahoton 'yan sanda; kiyaye kowane tunani"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Wakilin ya toshe walat ɗin ta, kuma ƙungiyar zamba ta nemi bankin mai karɓa ya riƙe asusun mai cin gajiyar."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Kemi ta ba da rahoton zamba cikin sauri",
+    "items": [
+     "9:02 na safe: Naira 85,000 ta bar jakarta",
+     "9:10 na safe: ta kira goyon bayan hukuma",
+     "An toshe walat; rike nema",
+     "Rahoton 'yan sanda; kiyaye kowane tunani"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Kemi ta shigar da rahoton 'yan sanda kuma ta adana kowane lambar bincike. Idan ba ta gamsu ba, za ta iya rikidewa zuwa sashen kariya na masu amfani da CBN ko FCCPC."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Kemi ta ba da rahoton zamba cikin sauri",
+    "items": [
+     "9:02 na safe: Naira 85,000 ta bar jakarta",
+     "9:10 na safe: ta kira goyon bayan hukuma",
+     "An toshe walat; rike nema",
+     "Rahoton 'yan sanda; kiyaye kowane tunani"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Tuna wannan ka'ida. Babu wani banki na gaske, walat ko mai gudanarwa da zai taɓa tambayar PIN, kalmar sirri ko OTP. Idan kowa ya yi, ƙare kiran, kuma tuntuɓi mai ba da sabis ta lambar da ke cikin aikace-aikacen ta na hukuma."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Kemi ta ba da rahoton zamba cikin sauri",
+    "items": [
+     "9:02 na safe: Naira 85,000 ta bar jakarta",
+     "9:10 na safe: ta kira goyon bayan hukuma",
+     "An toshe walat; rike nema",
+     "Rahoton 'yan sanda; kiyaye kowane tunani"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Babu wani banki na gaske da zai taɓa tambayar PIN, kalmar sirri ko OTP.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Don tunawa. Kwatanta lamuni ta kowane wata. Bincika cewa mai ba da bashi yana cikin jerin FCCPC. Sanin ko ajiyar ku ajiya ne, walat ko saka hannun jari. Ƙara kuɗin da gefen musayar tare. Kuma kar a taɓa raba PIN ko OTP ɗin ku."
+   ],
+   "panel": {
+    "kicker": "Mabuɗin mahimmanci",
+    "heading": "Ka tuna",
+    "items": [
+     "Kwatanta lamuni ta kowane wata",
+     "Duba jerin masu ba da lamuni da FCCPC ta amince",
+     "Deposit, walat ko zuba jari?",
+     "Kudin aikawa = fee + FX gefe",
+     "Kar a taɓa raba PIN ko OTP"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Yanzu duba tayin lamuni na gaske ba tare da karɓe shi ba, kwatanta ƙimar kuɗi guda biyu, da ƙa'idar da ba ta tabbatar da zamba ɗaya da kuke amfani da ita ba, sannan ku gargaɗi danginku game da zamba na OTP.",
+    "Ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi ayyuka",
+    "heading": "Ayyukan aikin ku",
+    "items": [
+     "Bincika tayin lamuni na gaske, ba tare da karɓa ba",
+     "Kwatanta adadin kuɗi biyu",
+     "ƙa'idar da kuke amfani da ita mai tabbatar da zamba"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

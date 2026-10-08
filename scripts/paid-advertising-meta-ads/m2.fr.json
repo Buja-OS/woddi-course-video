@@ -1,0 +1,480 @@
+{
+ "course": "paid-advertising-meta-ads",
+ "module": "m2",
+ "title": "Suivez-le correctement, testez-le équitablement, lancez-le en toute sécurité",
+ "course_title": "Publicité payante (méta-annonces)",
+ "shots": [
+  {
+   "demo": "phone_social",
+   "say": [
+    "Suivez-le correctement, testez-le équitablement, lancez-le en toute sécurité.",
+    "Ceci est la vidéo du module deux de la publicité payante avec les méta-annonces."
+   ]
+  },
+  {
+   "demo": "laptop_ads",
+   "say": [
+    "La plupart des campagnes qui ont échoué ne sont pas tuées par de mauvaises publicités. Ils sont tués par une mauvaise configuration : un compte publicitaire appartenant à quelqu'un qui est parti, un Pixel qui déclenche un achat deux fois ou une carte refusée le troisième jour."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Une mauvaise configuration tue plus de publicités que de mauvaises publicités",
+    "items": [
+     "Compte détenu par un membre du personnel qui a quitté",
+     "Un Pixel qui compte deux fois une vente",
+     "Une carte refusée le troisième jour",
+     "Réparez les fondations pour que les données soient réelles"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Ce module construit les bases correctement, de sorte que les chiffres sur lesquels vous optimisez sont réels."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Une mauvaise configuration tue plus de publicités que de mauvaises publicités",
+    "items": [
+     "Compte détenu par un membre du personnel qui a quitté",
+     "Un Pixel qui compte deux fois une vente",
+     "Une carte refusée le troisième jour",
+     "Réparez les fondations pour que les données soient réelles"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Le propriétaire de l'entreprise doit être propriétaire du portefeuille commercial, du compte publicitaire et du Pixel. Vous êtes ajouté en tant que partenaire, vous ne recevez jamais votre mot de passe et si vous quittez, ils gardent tout.",
+    "Activez l'authentification à deux facteurs pour tout le monde, avec deux administrateurs de confiance. Testez le mode de paiement, vérifiez le Pixel et le domaine, et définissez une limite de dépenses sur le compte comme filet de sécurité."
+   ],
+   "panel": {
+    "kicker": "Avant la diffusion d'une annonce",
+    "heading": "Liste de contrôle d’installation et de sécurité",
+    "items": [
+     "Portefeuille détenu par le client",
+     "Deux facteurs activés, deux administrateurs",
+     "Mode de paiement testé",
+     "Pixel et événements vérifiés",
+     "Domaine vérifié",
+     "Limite de dépenses fixée"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Le Meta Pixel est un petit morceau de code qui envoie des événements, comme l'ajout au panier ou l'achat, à Meta. Ouvrez les événements de test, puis parcourez votre site. Chaque événement devrait apparaître en quelques secondes."
+   ],
+   "panel": {
+    "kicker": "Vérifiez avant de faire confiance",
+    "heading": "Vérifiez que votre Pixel dit la vérité",
+    "items": [
+     "Ouvrir les événements de test dans le gestionnaire d'événements",
+     "Parcourir, ajouter au panier, lancer le paiement",
+     "Vérifiez les pages avec Meta Pixel Helper",
+     "Passez une véritable commande test de faible valeur",
+     "Ajoutez l'API Conversions, même ID d'événement"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Vérifiez chaque page avec le Meta Pixel Helper gratuit sur un ordinateur portable. Passez ensuite une véritable commande test de faible valeur et remboursez-la."
+   ],
+   "panel": {
+    "kicker": "Vérifiez avant de faire confiance",
+    "heading": "Vérifiez que votre Pixel dit la vérité",
+    "items": [
+     "Ouvrir les événements de test dans le gestionnaire d'événements",
+     "Parcourir, ajouter au panier, lancer le paiement",
+     "Vérifiez les pages avec Meta Pixel Helper",
+     "Passez une véritable commande test de faible valeur",
+     "Ajoutez l'API Conversions, même ID d'événement"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Ajoutez l'API Conversions, qui envoie les mêmes événements depuis le serveur et récupère ceux manqués par le navigateur. Les deux doivent porter le même ID d’événement, donc Meta supprime les doublons."
+   ],
+   "panel": {
+    "kicker": "Vérifiez avant de faire confiance",
+    "heading": "Vérifiez que votre Pixel dit la vérité",
+    "items": [
+     "Ouvrir les événements de test dans le gestionnaire d'événements",
+     "Parcourir, ajouter au panier, lancer le paiement",
+     "Vérifiez les pages avec Meta Pixel Helper",
+     "Passez une véritable commande test de faible valeur",
+     "Ajoutez l'API Conversions, même ID d'événement"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "La boutique d'Halima a affiché 40 achats dans Ads Manager, mais seulement 22 commandes réellement payées. L'achat tirait deux fois. Après le correctif, le ROAS est passé de 5,6 gonflé à 3,05 réel."
+   ],
+   "panel": {
+    "kicker": "Vérifiez avant de faire confiance",
+    "heading": "Vérifiez que votre Pixel dit la vérité",
+    "items": [
+     "Ouvrir les événements de test dans le gestionnaire d'événements",
+     "Parcourir, ajouter au panier, lancer le paiement",
+     "Vérifiez les pages avec Meta Pixel Helper",
+     "Passez une véritable commande test de faible valeur",
+     "Ajoutez l'API Conversions, même ID d'événement"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Achetez des feux une fois, avec la bonne valeur et NGN.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Les audiences personnalisées sont des personnes qui vous connaissent déjà. Reciblez les personnes qui ont ajouté au panier au cours des 14 derniers jours mais qui n'ont pas acheté."
+   ],
+   "panel": {
+    "kicker": "Publics",
+    "heading": "Donnez à Meta les bons signaux",
+    "items": [
+     "Retarget : ajouté au panier, n'a pas acheté",
+     "Exclure les clients existants des annonces de premier ordre",
+     "Sosie de vos meilleurs acheteurs réguliers",
+     "Allez plus loin une fois que le Pixel a l'historique des achats"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Et excluez les clients existants, afin que vous arrêtiez de payer pour leur proposer des offres de première commande."
+   ],
+   "panel": {
+    "kicker": "Publics",
+    "heading": "Donnez à Meta les bons signaux",
+    "items": [
+     "Retarget : ajouté au panier, n'a pas acheté",
+     "Exclure les clients existants des annonces de premier ordre",
+     "Sosie de vos meilleurs acheteurs réguliers",
+     "Allez plus loin une fois que le Pixel a l'historique des achats"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_camera",
+   "say": [
+    "Un sosie demande à Meta de trouver des personnes qui ressemblent à une source. Il a besoin d'au moins 100 personnes d'un pays, et vos 600 meilleurs clients réguliers battent 5 000 personnes qui ont déjà aimé une publication. Le téléchargement d’une liste de clients nécessite leur consentement."
+   ],
+   "panel": {
+    "kicker": "Publics",
+    "heading": "Donnez à Meta les bons signaux",
+    "items": [
+     "Retarget : ajouté au panier, n'a pas acheté",
+     "Exclure les clients existants des annonces de premier ordre",
+     "Sosie de vos meilleurs acheteurs réguliers",
+     "Allez plus loin une fois que le Pixel a l'historique des achats"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_camera",
+   "say": [
+    "Le ciblage large fonctionne mieux une fois que votre Pixel dispose d'un historique d'achats. Mais la localisation reste une règle stricte. Si vous livrez uniquement à Lagos, définissez Lagos."
+   ],
+   "panel": {
+    "kicker": "Publics",
+    "heading": "Donnez à Meta les bons signaux",
+    "items": [
+     "Retarget : ajouté au panier, n'a pas acheté",
+     "Exclure les clients existants des annonces de premier ordre",
+     "Sosie de vos meilleurs acheteurs réguliers",
+     "Allez plus loin une fois que le Pixel a l'historique des achats"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Un test ne doit changer qu’une seule chose, commencer par une hypothèse écrite, disposer d’un budget suffisant et durer une durée déterminée. Ruth souhaite tester une vidéo de démonstration par rapport à un carrousel axé sur les prix."
+   ],
+   "card": {
+    "title": "Le budget est-il suffisant pour tester ?",
+    "rows": [],
+    "note": "Les montants en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Les achats coûtent environ 4 000 naira. Pour 30 par version, il lui en faut 60, soit 240 000 naira, soit environ 17 100 par jour pendant 14 jours."
+   ],
+   "card": {
+    "title": "Le budget est-il suffisant pour tester ?",
+    "rows": [
+     [
+      "Coût par achat",
+      "4,000"
+     ],
+     [
+      "60 achats nécessaires",
+      "240,000"
+     ]
+    ],
+    "note": "Les montants en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "laptop_social",
+   "say": [
+    "Le client ne dispose que de 8 000 nairas par jour. Cela n'achète que 14 achats par version, trop peu pour faire confiance."
+   ],
+   "card": {
+    "title": "Le budget est-il suffisant pour tester ?",
+    "rows": [
+     [
+      "Coût par achat",
+      "4,000"
+     ],
+     [
+      "60 achats nécessaires",
+      "240,000"
+     ],
+     [
+      "Budget de test quotidien du client",
+      "8,000"
+     ]
+    ],
+    "note": "Les montants en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "laptop_social",
+   "say": [
+    "Elle teste donc l'ajout au panier, à environ 900 naira chacun. Cela donne environ 62 par version, puis elle confirme le gagnant sur les achats ultérieurs."
+   ],
+   "card": {
+    "title": "Le budget est-il suffisant pour tester ?",
+    "rows": [
+     [
+      "Coût par achat",
+      "4,000"
+     ],
+     [
+      "60 achats nécessaires",
+      "240,000"
+     ],
+     [
+      "Budget de test quotidien du client",
+      "8,000"
+     ],
+     [
+      "Coût par ajout au panier",
+      "900"
+     ]
+    ],
+    "note": "Les montants en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "laptop_ads",
+   "say": [
+    "Lisez les normes publicitaires de Meta pour chaque client. Une copie qui implique que vous savez que quelque chose de personnel, comme lutter avec votre poids, est rejetée. Il en va de même pour les résultats de santé ou de beauté garantis, les offres pour devenir riche et les faux boutons."
+   ],
+   "panel": {
+    "kicker": "Règles relatives aux annonces",
+    "heading": "Réécrivez-le avant que Meta ne le rejette",
+    "mode": "compare",
+    "left_h": "Est rejeté",
+    "left": [
+     "Vous avez du mal avec votre poids ?",
+     "Garanti avant et après",
+     "Doublez votre argent",
+     "Faux boutons de lecture"
+    ],
+    "right_h": "Écrivez plutôt",
+    "right": [
+     "Notre programme aide les personnes qui...",
+     "Réclamations honnêtes, NAFDAC si nécessaire",
+     "Déclarer des catégories d'annonces spéciales",
+     "Le titre indique ce qu'est l'annonce"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Écrivez : notre programme aide les personnes qui. Gardez les réclamations honnêtes, avec l'enregistrement NAFDAC là où un produit en a besoin. S'il s'agit d'une violation réelle, corrigez-la, car des violations répétées peuvent restreindre l'ensemble du compte publicitaire."
+   ],
+   "panel": {
+    "kicker": "Règles relatives aux annonces",
+    "heading": "Réécrivez-le avant que Meta ne le rejette",
+    "mode": "compare",
+    "left_h": "Est rejeté",
+    "left": [
+     "Vous avez du mal avec votre poids ?",
+     "Garanti avant et après",
+     "Doublez votre argent",
+     "Faux boutons de lecture"
+    ],
+    "right_h": "Écrivez plutôt",
+    "right": [
+     "Notre programme aide les personnes qui...",
+     "Réclamations honnêtes, NAFDAC si nécessaire",
+     "Déclarer des catégories d'annonces spéciales",
+     "Le titre indique ce qu'est l'annonce"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Exécutez votre vérification préalable au lancement sur un téléphone à chaque fois. Ensuite, dans les premières heures, vérifiez uniquement les défauts : est-ce que le produit est livré, les dépenses sont-elles sur la bonne voie, s'il y a des rejets ?"
+   ],
+   "panel": {
+    "kicker": "Après le lancement",
+    "heading": "Surveillez tôt, décidez plus tard",
+    "items": [
+     "Heure 2 : est-ce que ça livre ?",
+     "Jour 1 : dépenses et erreurs",
+     "Jours 2 à 7 : ne touchez pas",
+     "Jour 7 : comparer avec le CPA cible",
+     "Jour 14 : décisions"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Laissez-le tranquille pendant l'apprentissage. À partir du jour 7, comparez chaque ensemble de publicités avec votre coût par vente cible. Surveillez la fatigue créative : la fréquence augmente tandis que les clics diminuent. Le correctif est une nouvelle création."
+   ],
+   "panel": {
+    "kicker": "Après le lancement",
+    "heading": "Surveillez tôt, décidez plus tard",
+    "items": [
+     "Heure 2 : est-ce que ça livre ?",
+     "Jour 1 : dépenses et erreurs",
+     "Jours 2 à 7 : ne touchez pas",
+     "Jour 7 : comparer avec le CPA cible",
+     "Jour 14 : décisions"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Lorsqu'un ensemble de publicités dépasse l'objectif, augmentez son budget par étapes modestes, et non par le double. Écrivez chaque modification dans un journal des modifications, avec la date et la raison, et envoyez un rapport hebdomadaire simple contenant les commandes, les revenus et le coût par commande."
+   ],
+   "panel": {
+    "kicker": "Après le lancement",
+    "heading": "Surveillez tôt, décidez plus tard",
+    "items": [
+     "Heure 2 : est-ce que ça livre ?",
+     "Jour 1 : dépenses et erreurs",
+     "Jours 2 à 7 : ne touchez pas",
+     "Jour 7 : comparer avec le CPA cible",
+     "Jour 14 : décisions"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Augmentez les budgets gagnants d'environ 20 % à la fois.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "À retenir. Le client est propriétaire de chaque actif. Vérifiez que l'achat se déclenche une fois. Utilisez des audiences personnalisées pour recibler et exclure. Testez une variable avec suffisamment d'événements. Et vérifiez chaque lancement sur un téléphone et enregistrez chaque modification."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Le client est propriétaire de chaque actif",
+     "Achetez des feux une fois, vérifiés",
+     "Reciblez et excluez avec des audiences personnalisées",
+     "Une variable, suffisamment d'événements, des dates fixes",
+     "Assurance qualité sur un téléphone ; enregistrer chaque changement"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Maintenant, entraînez-vous. Configurez et vérifiez un Pixel sur un site d'entraînement et enregistrez ce qui se déclenche. Concevoir une audience et un plan de test avec un calcul de budget. Créez ensuite votre liste de contrôle d'assurance qualité réutilisable, votre système de dénomination, votre journal des modifications et votre modèle de rapport.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâches d'entraînement",
+    "heading": "Vos tâches pratiques",
+    "items": [
+     "Créer un enregistrement de vérification Pixel",
+     "Concevoir une audience et un plan de test",
+     "Créez votre kit d'assurance qualité et de reporting"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

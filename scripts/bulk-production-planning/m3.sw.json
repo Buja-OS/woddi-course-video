@@ -1,0 +1,568 @@
+{
+ "course": "bulk-production-planning",
+ "module": "m3",
+ "title": "Watu, washirika, utoaji na mpango wako wa utayari",
+ "course_title": "Upangaji wa Uzalishaji kwa wingi",
+ "shots": [
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Watu, washirika, utoaji na mpango wako wa utayari.",
+    "Hii ndio video ya moduli ya 3 ya Upangaji wa Uzalishaji kwa Wingi."
+   ]
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Wakati mwingine agizo ni kubwa kuliko uwezo wako endelevu. Utajaribu chaguzi zako na nambari."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Kutoka kwa mpango hadi utoaji wa kumaliza",
+    "items": [
+     "Funga pengo la uwezo na nambari",
+     "Fanya kazi kwa kutumia muda wa takt",
+     "Ongoza kwa misururu na saa salama",
+     "Toa, kagua na uthibitishe"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Utawapa ukubwa wafanyakazi wako ili hakuna kituo kinachosubiri na hakuna mtu anayesimama bila kufanya kitu."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Kutoka kwa mpango hadi utoaji wa kumaliza",
+    "items": [
+     "Funga pengo la uwezo na nambari",
+     "Fanya kazi kwa kutumia muda wa takt",
+     "Ongoza kwa misururu na saa salama",
+     "Toa, kagua na uthibitishe"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Utaongoza kukimbia kwa msongamano mfupi wa kila siku na saa salama za kazi."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Kutoka kwa mpango hadi utoaji wa kumaliza",
+    "items": [
+     "Funga pengo la uwezo na nambari",
+     "Fanya kazi kwa kutumia muda wa takt",
+     "Ongoza kwa misururu na saa salama",
+     "Toa, kagua na uthibitishe"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Na utatoa, kukagua kukimbia, na kuweka ushahidi ambao utashinda agizo la wingi linalofuata."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Kutoka kwa mpango hadi utoaji wa kumaliza",
+    "items": [
+     "Funga pengo la uwezo na nambari",
+     "Fanya kazi kwa kutumia muda wa takt",
+     "Ongoza kwa misururu na saa salama",
+     "Toa, kagua na uthibitishe"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Kwa mfano, mnunuzi sasa anaomba Kemi pakiti 8,000 kufikia tarehe sawa. Kwa 2% iliyozidi, hiyo inahitaji takriban pakiti 742 kwa siku. Kiwango chake endelevu ni 470, kwa hivyo pengo ni kama 272 kwa siku."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Pakiti 8,000 kufikia tarehe hiyo hiyo",
+    "items": [
+     "Haja 742 kwa siku; kiwango cha kudumu ni 470",
+     "J: saa ndefu zaidi: takriban 605, si salama",
+     "B: kikaango cha pili pekee: takriban 529",
+     "C: vituo vitatu vipya: takriban 881",
+     "D: mshirika anatengeneza vifurushi 3,000"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Chaguo A, saa 2 za ziada za kukaanga kwa siku, hutoa takriban 605 tu. Na saa 60 kwa wiki ni juu ya kiwango cha saa 55 ambacho WHO na ILO huunganisha na hatari kubwa ya kiharusi na ugonjwa wa moyo. Imekataliwa."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Pakiti 8,000 kufikia tarehe hiyo hiyo",
+    "items": [
+     "Haja 742 kwa siku; kiwango cha kudumu ni 470",
+     "J: saa ndefu zaidi: takriban 605, si salama",
+     "B: kikaango cha pili pekee: takriban 529",
+     "C: vituo vitatu vipya: takriban 881",
+     "D: mshirika anatengeneza vifurushi 3,000"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Chaguo B, kikaango cha pili pekee, hufanya kuziba kizuizi kipya. Karibu 529 tu. Ufupi sana."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Pakiti 8,000 kufikia tarehe hiyo hiyo",
+    "items": [
+     "Haja 742 kwa siku; kiwango cha kudumu ni 470",
+     "J: saa ndefu zaidi: takriban 605, si salama",
+     "B: kikaango cha pili pekee: takriban 529",
+     "C: vituo vitatu vipya: takriban 881",
+     "D: mshirika anatengeneza vifurushi 3,000"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Chaguo C linaongeza kikaango, kisafishaji na kisafisha ngozi, na kutoa takriban 881. Inatosha, lakini watu watatu wapya kuwafunza ndani ya siku chache."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Pakiti 8,000 kufikia tarehe hiyo hiyo",
+    "items": [
+     "Haja 742 kwa siku; kiwango cha kudumu ni 470",
+     "J: saa ndefu zaidi: takriban 605, si salama",
+     "B: kikaango cha pili pekee: takriban 529",
+     "C: vituo vitatu vipya: takriban 881",
+     "D: mshirika anatengeneza vifurushi 3,000"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Chaguo D: Kemi huhifadhi laini yake iliyothibitishwa, na mshirika anayeaminika aliye na vifurushi 300 vilivyothibitishwa kwa siku hutengeneza vifurushi vingine 3,000."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Pakiti 8,000 kufikia tarehe hiyo hiyo",
+    "items": [
+     "Haja 742 kwa siku; kiwango cha kudumu ni 470",
+     "J: saa ndefu zaidi: takriban 605, si salama",
+     "B: kikaango cha pili pekee: takriban 529",
+     "C: vituo vitatu vipya: takriban 881",
+     "D: mshirika anatengeneza vifurushi 3,000"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Chagua mpenzi ambaye umeona kazi yake. Tembelea, angalia kundi, angalia usafi na rekodi zao za pato, na uziweke kwa maandishi."
+   ],
+   "card": {
+    "title": "Kifurushi cha mshirika kinapata nini Kemi",
+    "rows": [],
+    "note": "Bei za Naira ni takriban."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Mnunuzi hulipa naira 950 kwa pakiti. Kemi humlipa mshirika wake 720 kwa kila kifurushi kinachokubalika, na hutumia takriban 20 kwa ukaguzi na usafiri."
+   ],
+   "card": {
+    "title": "Kifurushi cha mshirika kinapata nini Kemi",
+    "rows": [
+     [
+      "Mnunuzi hulipa kwa pakiti",
+      "950"
+     ],
+     [
+      "Inalipwa kwa mshirika kwa kila pakiti",
+      "720"
+     ],
+     [
+      "Ukaguzi na usafiri wa Kemi",
+      "20"
+     ]
+    ],
+    "note": "Bei za Naira ni takriban."
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Hiyo inaacha takriban naira 210 kwa pakiti, karibu 630,000 kwenye pakiti 3,000. Chini ya pakiti zake mwenyewe, lakini kwa hatari ndogo sana.",
+    "Mpe mshirika karatasi ya vipimo na sampuli ya dhahabu, mpe mikoba iliyochapishwa wewe mwenyewe, na umwambie mnunuzi kuhusu mshirika. Unabaki kuwajibika kwa kila pakiti."
+   ],
+   "card": {
+    "title": "Kifurushi cha mshirika kinapata nini Kemi",
+    "rows": [
+     [
+      "Mnunuzi hulipa kwa pakiti",
+      "950"
+     ],
+     [
+      "Inalipwa kwa mshirika kwa kila pakiti",
+      "720"
+     ],
+     [
+      "Ukaguzi na usafiri wa Kemi",
+      "20"
+     ]
+    ],
+    "note": "Bei za Naira ni takriban."
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Maudhui ya kazini inamaanisha mtu-dakika ambazo kituo kinahitaji kwa vitengo 100. Igawe kwa muda wa takt kwa vitengo 100. Takt ya Kemi ni kama dakika 89 kwa kila pakiti 100."
+   ],
+   "panel": {
+    "kicker": "Kusawazisha mstari",
+    "heading": "Watu kwa kila kituo = kazi / takt",
+    "items": [
+     "Takt: kama dakika 89 kwa pakiti 100",
+     "Peel 100/89 = 1.1, hivyo watu 2",
+     "Kaanga 75/89 = 0.8, hivyo mtu 1",
+     "Muhuri 67/89 = 0.75, hivyo mtu 1",
+     "Msimu pamoja na lebo 70 / 89: mtu 1"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Kumenya kunahitaji dakika 100 za watu, kwa hivyo watu 1.1, kukusanywa hadi 2."
+   ],
+   "panel": {
+    "kicker": "Kusawazisha mstari",
+    "heading": "Watu kwa kila kituo = kazi / takt",
+    "items": [
+     "Takt: kama dakika 89 kwa pakiti 100",
+     "Peel 100/89 = 1.1, hivyo watu 2",
+     "Kaanga 75/89 = 0.8, hivyo mtu 1",
+     "Muhuri 67/89 = 0.75, hivyo mtu 1",
+     "Msimu pamoja na lebo 70 / 89: mtu 1"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Kukaanga na kuziba kila hitaji la mtu 1."
+   ],
+   "panel": {
+    "kicker": "Kusawazisha mstari",
+    "heading": "Watu kwa kila kituo = kazi / takt",
+    "items": [
+     "Takt: kama dakika 89 kwa pakiti 100",
+     "Peel 100/89 = 1.1, hivyo watu 2",
+     "Kaanga 75/89 = 0.8, hivyo mtu 1",
+     "Muhuri 67/89 = 0.75, hivyo mtu 1",
+     "Msimu pamoja na lebo 70 / 89: mtu 1"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Majira na kuweka lebo ni nyepesi, kwa hivyo mtu mmoja hufanya yote mawili. Hiyo ni wafanyakazi 5, huku Kemi akisimamia.",
+    "Wafanyakazi wake wawili wa muda waliofunzwa huchukua sehemu za kuchubua. Wafanyikazi wenye uzoefu huweka kikaango na kisafishaji."
+   ],
+   "panel": {
+    "kicker": "Kusawazisha mstari",
+    "heading": "Watu kwa kila kituo = kazi / takt",
+    "items": [
+     "Takt: kama dakika 89 kwa pakiti 100",
+     "Peel 100/89 = 1.1, hivyo watu 2",
+     "Kaanga 75/89 = 0.8, hivyo mtu 1",
+     "Muhuri 67/89 = 0.75, hivyo mtu 1",
+     "Msimu pamoja na lebo 70 / 89: mtu 1"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Wafanyakazi wenye uzoefu hushikilia vikwazo na hatua za ubora.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "flipchart",
+   "say": [
+    "Wafanyikazi ambao hawajafunzwa wanaweza kuunda kazi zaidi kuliko matokeo. Kemi hupanga siku 2 za mafunzo zinazolipwa. Mfanyakazi mpya anatazama mzunguko mzima, kisha anafanya kazi kando ya mtu mwenye uzoefu.",
+    "Anafanya kazi peke yake baada ya kupita hundi tatu mfululizo. Sheria za usalama huja siku ya kwanza, na wafanyikazi wa muda hawafanyi kazi ya kukaanga."
+   ],
+   "panel": {
+    "kicker": "Wafanyakazi wa muda",
+    "heading": "Treni na uondoke kabla ya siku ya kwanza",
+    "items": [
+     "Siku 2 za mafunzo zilizolipwa",
+     "Onyesha, kisha fanya kando ya mtaalam",
+     "Fundisha kanuni ya ubora na sampuli",
+     "Kuondoka: hundi tatu zimepitishwa mfululizo",
+     "Wafanyakazi wa muda hawafanyi kazi ya kukaanga"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Wafanyakazi waliochoka hufanya makosa na kuumia. Kemi hupanga saa 48 kwa wiki na siku kamili ya kupumzika, chini ya 55, na huwazungusha watu kwa kazi zinazorudiwa-rudiwa."
+   ],
+   "panel": {
+    "kicker": "Kuongoza kukimbia",
+    "heading": "Saa salama, mchezo wa kuanza na msongamano",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Saa salama",
+      "d": "Mabadiliko ya saa 8, siku 6: masaa 48 na siku kamili ya kupumzika. Mapumziko, maji na chakula sahihi."
+     },
+     {
+      "t": "Dakika 20 za kuanza",
+      "d": "Agizo, tarehe, sampuli ya dhahabu, lengo la kila kituo, sheria ya kuacha, usafi na usalama."
+     },
+     {
+      "t": "Msongamano wa dakika 10",
+      "d": "Pengo la jana na kasoro, matatizo, lengo la leo, na shukrani kwa mtu."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Kabla ya siku ya kwanza, dakika 20 za kuanza. Mtu yeyote anayeona tatizo lazima aseme, na kuacha mstari kwa kasoro halisi ni kusifiwa, si kuadhibiwa."
+   ],
+   "panel": {
+    "kicker": "Kuongoza kukimbia",
+    "heading": "Saa salama, mchezo wa kuanza na msongamano",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Saa salama",
+      "d": "Mabadiliko ya saa 8, siku 6: masaa 48 na siku kamili ya kupumzika. Mapumziko, maji na chakula sahihi."
+     },
+     {
+      "t": "Dakika 20 za kuanza",
+      "d": "Agizo, tarehe, sampuli ya dhahabu, lengo la kila kituo, sheria ya kuacha, usafi na usalama."
+     },
+     {
+      "t": "Msongamano wa dakika 10",
+      "d": "Pengo la jana na kasoro, matatizo, lengo la leo, na shukrani kwa mtu."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Kila asubuhi, msongamano wa dakika 10 karibu na kifuatiliaji."
+   ],
+   "panel": {
+    "kicker": "Kuongoza kukimbia",
+    "heading": "Saa salama, mchezo wa kuanza na msongamano",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Saa salama",
+      "d": "Mabadiliko ya saa 8, siku 6: masaa 48 na siku kamili ya kupumzika. Mapumziko, maji na chakula sahihi."
+     },
+     {
+      "t": "Dakika 20 za kuanza",
+      "d": "Agizo, tarehe, sampuli ya dhahabu, lengo la kila kituo, sheria ya kuacha, usafi na usalama."
+     },
+     {
+      "t": "Msongamano wa dakika 10",
+      "d": "Pengo la jana na kasoro, matatizo, lengo la leo, na shukrani kwa mtu."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_camera",
+   "say": [
+    "Katoni iliyokosekana ni rahisi kutulia kwenye mlango na ngumu sana wiki moja baadaye. Hesabu pamoja, weka saini na kuweka tarehe noti ya uwasilishaji, na uipige na katoni zilizopangwa.",
+    "Weka vifurushi vichache kutoka kwa kila siku, na utume WhatsApp siku hiyo hiyo na picha na ukumbusho wa tarehe ya salio."
+   ],
+   "panel": {
+    "kicker": "Siku ya utoaji",
+    "heading": "Mkabidhi kwa usafi",
+    "items": [
+     "Ankara yenye salio linalodaiwa",
+     "Ujumbe wa utoaji: katoni na vitengo",
+     "Hesabu katoni na mpokeaji",
+     "Imesainiwa, noti ya tarehe, iliyopigwa picha",
+     "Sampuli zilizobaki kutoka kila siku"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Ndani ya wiki moja, kaa na msimamizi wako na utumie rekodi zako, sio kumbukumbu. Kemi alipanga pakiti 470 nzuri kwa siku. Bila siku ya kukata umeme, wastani wake ulikuwa 448."
+   ],
+   "panel": {
+    "kicker": "Ukaguzi baada ya hatua",
+    "heading": "Maswali manne ndani ya wiki",
+    "items": [
+     "Tulipanga nini?",
+     "Ni nini hasa kilitokea?",
+     "Kwa nini kulikuwa na tofauti?",
+     "Tutafanya nini tofauti?"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Kwa nini? Wachuuzi wa muda walikuwa polepole katika siku tatu za kwanza. Alijifungua kwa wakati kwa sababu ya bafa, si kwa sababu mpango ulikuwa sawa."
+   ],
+   "panel": {
+    "kicker": "Ukaguzi baada ya hatua",
+    "heading": "Maswali manne ndani ya wiki",
+    "items": [
+     "Tulipanga nini?",
+     "Ni nini hasa kilitokea?",
+     "Kwa nini kulikuwa na tofauti?",
+     "Tutafanya nini tofauti?"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Wakati ujao anapanga na takriban 450 kwa siku, anaongeza siku ya mafunzo, na kupanga nishati mbadala."
+   ],
+   "panel": {
+    "kicker": "Ukaguzi baada ya hatua",
+    "heading": "Maswali manne ndani ya wiki",
+    "items": [
+     "Tulipanga nini?",
+     "Ni nini hasa kilitokea?",
+     "Kwa nini kulikuwa na tofauti?",
+     "Tutafanya nini tofauti?"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Panga agizo linalofuata na nambari halisi, sio mpango wa zamani.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Kukumbuka. Saizi ya pengo na ujaribu kila chaguo kwenye mstari mzima. Wape washirika vipimo na milango sawa. Weka saa salama, na upate barua iliyotiwa saini ya uwasilishaji.",
+    "Kisha weka jalada la ushahidi halisi: taarifa yako ya uwezo, muhtasari wa agizo, picha na rejeleo la mnunuzi."
+   ],
+   "panel": {
+    "kicker": "Pointi muhimu",
+    "heading": "Kumbuka",
+    "items": [
+     "Ukubwa wa pengo, chaguzi za mtihani kwenye mstari mzima",
+     "Mshirika anahitaji vipimo sawa na milango",
+     "Panga masaa chini ya 55 kwa wiki",
+     "Pata kidokezo chenye saini, tarehe ya uwasilishaji",
+     "Weka jalada la utayari wa wingi"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Zamu yako. Jaribu chaguo zako za uwezo, panga wafanyakazi wako na kuanza safari, kisha kagua agizo na uunde jalada lako kwa mpango wa siku 90.",
+    "Endelea na masomo hapa chini."
+   ],
+   "panel": {
+    "kicker": "Mazoezi ya kazi",
+    "heading": "Kazi zako za mazoezi",
+    "items": [
+     "Jaribu chaguo zako za uwezo",
+     "Panga timu yako na kukusanyika",
+     "Fanya ukaguzi na uunde kwingineko yako"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

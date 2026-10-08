@@ -1,0 +1,569 @@
+{
+ "course": "advanced-excel-dashboards",
+ "module": "m1",
+ "title": "The data and formula engine behind every dashboard",
+ "course_title": "Advanced Excel & Dashboards",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "The data and formula engine behind every dashboard.",
+    "This is the video for module one of Advanced Excel and Dashboards."
+   ]
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "At advanced level, the hard part of Excel is rarely the formula. It is the shape of the data. Many workbooks look neat on screen but are built like a paper notebook."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "A dashboard is only as good as its data",
+    "items": [
+     "Shape messy lists into tidy, named Tables",
+     "Write formulas with several conditions",
+     "Use lookups that do not break",
+     "Answer business questions with PivotTables"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "In this module you turn messy lists into proper Excel Tables, then write formulas that answer questions like: sales of layer mash, in Oyo, in March."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "A dashboard is only as good as its data",
+    "items": [
+     "Shape messy lists into tidy, named Tables",
+     "Write formulas with several conditions",
+     "Use lookups that do not break",
+     "Answer business questions with PivotTables"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "You will fetch prices and commission rates with lookups that do not break."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "A dashboard is only as good as its data",
+    "items": [
+     "Shape messy lists into tidy, named Tables",
+     "Write formulas with several conditions",
+     "Use lookups that do not break",
+     "Answer business questions with PivotTables"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "And you will use PivotTables to summarise thousands of rows in seconds."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "A dashboard is only as good as its data",
+    "items": [
+     "Shape messy lists into tidy, named Tables",
+     "Write formulas with several conditions",
+     "Use lookups that do not break",
+     "Answer business questions with PivotTables"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "One row is one record: one sale, one payment. Never mix records with subtotals."
+   ],
+   "panel": {
+    "kicker": "Tidy data",
+    "heading": "The rules of tidy data",
+    "items": [
+     "One row = one record, no subtotal rows",
+     "One column = one kind of information",
+     "One header row, no merged cells",
+     "No blank rows or columns inside the data",
+     "Numbers as numbers, dates as dates"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "One column holds one kind of information. Do not write 12 bags at 14,500 in a single cell."
+   ],
+   "panel": {
+    "kicker": "Tidy data",
+    "heading": "The rules of tidy data",
+    "items": [
+     "One row = one record, no subtotal rows",
+     "One column = one kind of information",
+     "One header row, no merged cells",
+     "No blank rows or columns inside the data",
+     "Numbers as numbers, dates as dates"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Use one header row with unique names. Merged cells break sorting, filtering and copying formulas."
+   ],
+   "panel": {
+    "kicker": "Tidy data",
+    "heading": "The rules of tidy data",
+    "items": [
+     "One row = one record, no subtotal rows",
+     "One column = one kind of information",
+     "One header row, no merged cells",
+     "No blank rows or columns inside the data",
+     "Numbers as numbers, dates as dates"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Excel treats a blank row as the end of the list."
+   ],
+   "panel": {
+    "kicker": "Tidy data",
+    "heading": "The rules of tidy data",
+    "items": [
+     "One row = one record, no subtotal rows",
+     "One column = one kind of information",
+     "One header row, no merged cells",
+     "No blank rows or columns inside the data",
+     "Numbers as numbers, dates as dates"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "And type 45000, not the naira sign. Here is a quick test. Select the amounts and look at the status bar. If it shows Sum, they are numbers. If it only shows Count, they are text, and they silently drop out of your totals."
+   ],
+   "panel": {
+    "kicker": "Tidy data",
+    "heading": "The rules of tidy data",
+    "items": [
+     "One row = one record, no subtotal rows",
+     "One column = one kind of information",
+     "One header row, no merged cells",
+     "No blank rows or columns inside the data",
+     "Numbers as numbers, dates as dates"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Tola runs a poultry feed business in Ibadan. She copies each sale into its own row, clicks inside the list and presses Control T."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Turn a list into a named Table",
+    "items": [
+     "Click inside the tidy list and press Ctrl+T",
+     "Tick My table has headers, then OK",
+     "Name it in Table Design, for example tblSales",
+     "Add a calculated column with the @ sign",
+     "Check three rows by hand"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "She confirms the table has headers."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Turn a list into a named Table",
+    "items": [
+     "Click inside the tidy list and press Ctrl+T",
+     "Tick My table has headers, then OK",
+     "Name it in Table Design, for example tblSales",
+     "Add a calculated column with the @ sign",
+     "Check three rows by hand"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "She names it tblSales. Names make formulas readable, and the Table grows by itself when she types a new row underneath."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Turn a list into a named Table",
+    "items": [
+     "Click inside the tidy list and press Ctrl+T",
+     "Tick My table has headers, then OK",
+     "Name it in Table Design, for example tblSales",
+     "Add a calculated column with the @ sign",
+     "Check three rows by hand"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "She adds an Amount column: Bags on this row times Price per bag on this row. Excel fills it down the whole column at once."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Turn a list into a named Table",
+    "items": [
+     "Click inside the tidy list and press Ctrl+T",
+     "Tick My table has headers, then OK",
+     "Name it in Table Design, for example tblSales",
+     "Add a calculated column with the @ sign",
+     "Check three rows by hand"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Then she checks by hand. 12 times 14,500 is 174,000. 8 times 15,200 is 121,600."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Turn a list into a named Table",
+    "items": [
+     "Click inside the tidy list and press Ctrl+T",
+     "Tick My table has headers, then OK",
+     "Name it in Table Design, for example tblSales",
+     "Add a calculated column with the @ sign",
+     "Check three rows by hand"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Keep colours and notes for the dashboard. A single blank row or subtotal inside the data distorts every total built on it."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Turn a list into a named Table",
+    "items": [
+     "Click inside the tidy list and press Ctrl+T",
+     "Tick My table has headers, then OK",
+     "Name it in Table Design, for example tblSales",
+     "Add a calculated column with the @ sign",
+     "Check three rows by hand"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Never put blank rows or subtotals inside the data.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "SUMIFS puts what to add up first, then pairs of where to look and what to look for. The older SUMIF puts the sum range last. Mixing them up is a classic error.",
+    "Tola keeps the dates, product and town in cells, so one formula can answer many questions. She never types a date inside the quotes."
+   ],
+   "card": {
+    "title": "SUMIFS: layer mash in Oyo, in March",
+    "rows": [],
+    "note": "Illustrative figures."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "To test it, she filters the Table by hand. Five rows remain: 174,000, 290,000, 145,000, 87,000 and 232,000."
+   ],
+   "card": {
+    "title": "SUMIFS: layer mash in Oyo, in March",
+    "rows": [
+     [
+      "Row 1",
+      "174,000"
+     ],
+     [
+      "Row 2",
+      "290,000"
+     ],
+     [
+      "Row 3",
+      "145,000"
+     ],
+     [
+      "Row 4",
+      "87,000"
+     ],
+     [
+      "Row 5",
+      "232,000"
+     ]
+    ],
+    "note": "Illustrative figures."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "They add up to 928,000. Her SUMIFS cell shows 928,000, so the formula is right. Change the product cell and the answer updates instantly."
+   ],
+   "card": {
+    "title": "SUMIFS: layer mash in Oyo, in March",
+    "rows": [
+     [
+      "Row 1",
+      "174,000"
+     ],
+     [
+      "Row 2",
+      "290,000"
+     ],
+     [
+      "Row 3",
+      "145,000"
+     ],
+     [
+      "Row 4",
+      "87,000"
+     ],
+     [
+      "Row 5",
+      "232,000"
+     ]
+    ],
+    "note": "Illustrative figures."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "VLOOKUP without its last argument uses approximate match. On an unsorted list it can return a wrong price with no error at all. Always end it with FALSE."
+   ],
+   "panel": {
+    "kicker": "Lookups",
+    "heading": "VLOOKUP versus XLOOKUP",
+    "mode": "compare",
+    "left_h": "VLOOKUP",
+    "left": [
+     "Column number counted by hand",
+     "Breaks when columns are inserted",
+     "Default is approximate match"
+    ],
+    "right_h": "XLOOKUP",
+    "right": [
+     "Points at the return column",
+     "Survives inserted columns",
+     "Default is exact match"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "XLOOKUP is safer, and its match mode minus 1 handles tiers. A rep with 760,000 naira of sales gets the 500,000 tier at 3 percent, so 22,800 naira commission.",
+    "XLOOKUP needs Excel 2021, 2024 or Microsoft 365. For 2016 or 2019, use INDEX with MATCH."
+   ],
+   "panel": {
+    "kicker": "Lookups",
+    "heading": "VLOOKUP versus XLOOKUP",
+    "mode": "compare",
+    "left_h": "VLOOKUP",
+    "left": [
+     "Column number counted by hand",
+     "Breaks when columns are inserted",
+     "Default is approximate match"
+    ],
+    "right_h": "XLOOKUP",
+    "right": [
+     "Points at the return column",
+     "Survives inserted columns",
+     "Default is exact match"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Build every pivot from the named Table, so new rows are included. If it shows Count of Amount, some cells are text. Fix the data first."
+   ],
+   "panel": {
+    "kicker": "PivotTables",
+    "heading": "A pivot that answers three questions",
+    "items": [
+     "Insert a PivotTable from the named Table",
+     "Group dates by both Months and Years",
+     "Add Amount three times with Show Values As",
+     "Refresh All after every data change"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Group by both Months and Years, or January 2024 and January 2025 get added together."
+   ],
+   "panel": {
+    "kicker": "PivotTables",
+    "heading": "A pivot that answers three questions",
+    "items": [
+     "Insert a PivotTable from the named Table",
+     "Group dates by both Months and Years",
+     "Add Amount three times with Show Values As",
+     "Refresh All after every data change"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Add Amount as a plain sum, then as percent of grand total, then as percent difference from the previous month. In one example, layer mash was 50 percent of sales, and March grew by 19.6 percent."
+   ],
+   "panel": {
+    "kicker": "PivotTables",
+    "heading": "A pivot that answers three questions",
+    "items": [
+     "Insert a PivotTable from the named Table",
+     "Group dates by both Months and Years",
+     "Add Amount three times with Show Values As",
+     "Refresh All after every data change"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Pivots do not update by themselves. After adding data, use Data, Refresh All."
+   ],
+   "panel": {
+    "kicker": "PivotTables",
+    "heading": "A pivot that answers three questions",
+    "items": [
+     "Insert a PivotTable from the named Table",
+     "Group dates by both Months and Years",
+     "Add Amount three times with Show Values As",
+     "Refresh All after every data change"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Remember. Tidy data first. Name every Table. SUMIFS puts the sum range first. Use exact matches. And test every formula against a check you did by hand."
+   ],
+   "panel": {
+    "kicker": "Remember",
+    "heading": "What to keep from this module",
+    "items": [
+     "One row per record, no merged cells",
+     "Press Ctrl+T and name every Table",
+     "SUMIFS puts the sum range first",
+     "End VLOOKUP with FALSE, or use XLOOKUP",
+     "Test formulas with a hand-filtered check"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Take a real list of at least 30 rows and make it a named Table. Build a summary block with SUMIFS and a lookup. Then build a three-question pivot and refresh it.",
+    "Now continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice task",
+    "heading": "Your tasks for this module",
+    "items": [
+     "Restructure a real list into a named Table",
+     "Build a conditional summary block",
+     "Build a three-question pivot"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

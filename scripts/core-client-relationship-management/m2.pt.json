@@ -1,0 +1,545 @@
+{
+ "course": "core-client-relationship-management",
+ "module": "m2",
+ "title": "Seu rastreador de clientes, ritmo de acompanhamento e feedback do cliente",
+ "course_title": "Gestão de Relacionamento com o Cliente",
+ "shots": [
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Seu rastreador de clientes, seu ritmo de acompanhamento e feedback do cliente.",
+    "Este é o vídeo do módulo 2 de Gestão de Relacionamento com o Cliente."
+   ]
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Faça uma planilha chamada Rastreador de clientes com duas abas. Clientes possuem uma linha por pessoa, com seus dados e próxima ação. Pedidos tem uma linha por pedido, então o Planilhas pode somar o histórico para você."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Crie seu rastreador no Planilhas Google",
+    "items": [
+     "Duas abas: Clientes e Pedidos",
+     "Listas suspensas para status e nomes",
+     "COUNTIF e SUMIF para pedidos e gastos",
+     "As próximas ações atrasadas ficam vermelhas"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Adicione listas suspensas para que o status seja sempre escrito da mesma maneira: Novo, Ativo, Silencioso ou Decorrido. Vincule os nomes dos clientes em Pedidos à lista de clientes, para que cada nome seja escrito exatamente da mesma forma."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Crie seu rastreador no Planilhas Google",
+    "items": [
+     "Duas abas: Clientes e Pedidos",
+     "Listas suspensas para status e nomes",
+     "COUNTIF e SUMIF para pedidos e gastos",
+     "As próximas ações atrasadas ficam vermelhas"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "COUNTIF conta quantos pedidos cada cliente fez. SUMIF soma o que ela gastou."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Crie seu rastreador no Planilhas Google",
+    "items": [
+     "Duas abas: Clientes e Pedidos",
+     "Listas suspensas para status e nomes",
+     "COUNTIF e SUMIF para pedidos e gastos",
+     "As próximas ações atrasadas ficam vermelhas"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Em seguida, use a formatação condicional para que qualquer cliente cuja data da próxima ação tenha passado fique vermelho. Todas as manhãs, as linhas vermelhas são a sua lista de acompanhamento."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Crie seu rastreador no Planilhas Google",
+    "items": [
+     "Duas abas: Clientes e Pedidos",
+     "Listas suspensas para status e nomes",
+     "COUNTIF e SUMIF para pedidos e gastos",
+     "As próximas ações atrasadas ficam vermelhas"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Mantenha a planilha privada. Não compartilhe com ninguém ou apenas com um membro da equipe de confiança, para que os números de telefone dos clientes permaneçam seguros."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Crie seu rastreador no Planilhas Google",
+    "items": [
+     "Duas abas: Clientes e Pedidos",
+     "Listas suspensas para status e nomes",
+     "COUNTIF e SUMIF para pedidos e gastos",
+     "As próximas ações atrasadas ficam vermelhas"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Nunca compartilhe a planilha como “Qualquer pessoa com o link”.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Teste suas fórmulas uma vez com uma calculadora para poder confiar nelas."
+   ],
+   "card": {
+    "title": "Verifique as fórmulas uma vez à mão",
+    "rows": [],
+    "note": "Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "A guia Pedidos de Ngozi mostra 4 pedidos para Ifeoma: 18.000, 22.000, 18.000 e 25.000 naira."
+   ],
+   "card": {
+    "title": "Verifique as fórmulas uma vez à mão",
+    "rows": [
+     [
+      "5 de janeiro",
+      "18,000"
+     ],
+     [
+      "14 de fevereiro",
+      "22,000"
+     ],
+     [
+      "2 de abril",
+      "18,000"
+     ],
+     [
+      "30 de maio",
+      "25,000"
+     ]
+    ],
+    "note": "Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Isso soma 83 mil nairas, o mesmo da folha.",
+    "Mas um pedido foi digitado como Ifeoma com um espaço extra e a contagem errou. É exatamente por isso que as listas suspensas são importantes. Digite também os valores como números simples, sem o sinal naira."
+   ],
+   "card": {
+    "title": "Verifique as fórmulas uma vez à mão",
+    "rows": [
+     [
+      "5 de janeiro",
+      "18,000"
+     ],
+     [
+      "14 de fevereiro",
+      "22,000"
+     ],
+     [
+      "2 de abril",
+      "18,000"
+     ],
+     [
+      "30 de maio",
+      "25,000"
+     ]
+    ],
+    "note": "Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Muitos problemas começam antes da entrega, quando o cliente e a empresa entendem coisas diferentes. Alguém pensava que sexta-feira significava manhã. O outro significava noite."
+   ],
+   "panel": {
+    "kicker": "Defina expectativas",
+    "heading": "Uma confirmação clara do pedido",
+    "items": [
+     "O que exatamente ela está recebendo",
+     "Preço total e o que inclui",
+     "Depósito e quando o saldo é devido",
+     "Data e horário de entrega",
+     "Alterações permitidas e como você irá atualizá-la"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Assim que ela concordar, envie uma breve confirmação no WhatsApp cobrindo esses cinco pontos e peça que ela responda com confirmação.",
+    "Salve-o como uma resposta rápida e altere os detalhes sempre."
+   ],
+   "panel": {
+    "kicker": "Defina expectativas",
+    "heading": "Uma confirmação clara do pedido",
+    "items": [
+     "O que exatamente ela está recebendo",
+     "Preço total e o que inclui",
+     "Depósito e quando o saldo é devido",
+     "Data e horário de entrega",
+     "Alterações permitidas e como você irá atualizá-la"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Envie uma confirmação no dia 0, uma atualização do progresso antes da entrega e uma nota de entrega no dia da entrega."
+   ],
+   "panel": {
+    "kicker": "Ritmo de acompanhamento",
+    "heading": "Cinco toques para cada pedido",
+    "items": [
+     "Dia 0: confirmação",
+     "Antes da entrega: atualização do progresso",
+     "Dia de entrega: nota de entrega",
+     "Dia 3: verificação pós-atendimento",
+     "Ponto de novo pedido: lembrete"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "No dia 3, envie uma breve verificação de cuidados posteriores. Espero que as bandejas tenham corrido bem na reunião. A quantidade foi adequada para seus convidados?"
+   ],
+   "panel": {
+    "kicker": "Ritmo de acompanhamento",
+    "heading": "Cinco toques para cada pedido",
+    "items": [
+     "Dia 0: confirmação",
+     "Antes da entrega: atualização do progresso",
+     "Dia de entrega: nota de entrega",
+     "Dia 3: verificação pós-atendimento",
+     "Ponto de novo pedido: lembrete"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "E lembre-a quando ela provavelmente precisar de você novamente.",
+    "Não a sobrecarregue. Entre pedidos, não envie mais do que uma mensagem não comercial por mês, a menos que ela inicie a conversa."
+   ],
+   "panel": {
+    "kicker": "Ritmo de acompanhamento",
+    "heading": "Cinco toques para cada pedido",
+    "items": [
+     "Dia 0: confirmação",
+     "Antes da entrega: atualização do progresso",
+     "Dia de entrega: nota de entrega",
+     "Dia 3: verificação pós-atendimento",
+     "Ponto de novo pedido: lembrete"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Por exemplo, a Funmi fornece sabonete líquido à loja de provisões de Halima. Halima fez o pedido em 3 de fevereiro, 1 de março, 4 de abril e 2 de maio."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Funmi resolve a lacuna de pedido de Halima",
+    "items": [
+     "Pedidos: 3 de fevereiro, 1 de março, 4 de abril, 2 de maio",
+     "3 de fevereiro a 2 de maio são 88 dias",
+     "4 pedidos significam 3 intervalos: cerca de 29 dias",
+     "Lembre alguns dias antes: 28 de maio"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Do primeiro ao último pedido são 88 dias."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Funmi resolve a lacuna de pedido de Halima",
+    "items": [
+     "Pedidos: 3 de fevereiro, 1 de março, 4 de abril, 2 de maio",
+     "3 de fevereiro a 2 de maio são 88 dias",
+     "4 pedidos significam 3 intervalos: cerca de 29 dias",
+     "Lembre alguns dias antes: 28 de maio"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "4 pedidos significam 3 lacunas. 88 dividido por 3 dá cerca de 29 dias. Essa é a lacuna de reordenamento dela."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Funmi resolve a lacuna de pedido de Halima",
+    "items": [
+     "Pedidos: 3 de fevereiro, 1 de março, 4 de abril, 2 de maio",
+     "3 de fevereiro a 2 de maio são 88 dias",
+     "4 pedidos significam 3 intervalos: cerca de 29 dias",
+     "Lembre alguns dias antes: 28 de maio"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Então mensagens Funmi em 28 de maio: sua última entrega foi em 2 de maio. Devo trazer os habituais 6 barris na sexta-feira?",
+    "Halima é lembrada antes de acabar, então ela não compra em outro lugar."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Funmi resolve a lacuna de pedido de Halima",
+    "items": [
+     "Pedidos: 3 de fevereiro, 1 de março, 4 de abril, 2 de maio",
+     "3 de fevereiro a 2 de maio são 88 dias",
+     "4 pedidos significam 3 intervalos: cerca de 29 dias",
+     "Lembre alguns dias antes: 28 de maio"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Os clientes raramente anunciam que estão saindo. Um relacionamento saudável se assemelha a pedidos, respostas e referências constantes."
+   ],
+   "panel": {
+    "kicker": "Sinais de relacionamento",
+    "heading": "Sinais saudáveis e sinais de alerta",
+    "mode": "compare",
+    "left_h": "Saudável",
+    "left": [
+     "Pedidos dentro de sua lacuna habitual",
+     "Tamanhos de pedidos constantes ou crescentes",
+     "Respostas, às vezes bate-papos",
+     "Indica amigos"
+    ],
+    "right_h": "Aviso",
+    "right": [
+     "A lacuna fica cada vez maior",
+     "Pedidos menores do que antes",
+     "Lê mas não responde",
+     "Novos pedidos de descontos"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Os sinais de alerta são lacunas maiores, pedidos menores e mensagens não respondidas. Um sinal pode não significar nada. Dois ou mais valem um check-in gentil e honesto. Não a culpe. Pergunte se o seu serviço ainda atende às necessidades dela."
+   ],
+   "panel": {
+    "kicker": "Sinais de relacionamento",
+    "heading": "Sinais saudáveis e sinais de alerta",
+    "mode": "compare",
+    "left_h": "Saudável",
+    "left": [
+     "Pedidos dentro de sua lacuna habitual",
+     "Tamanhos de pedidos constantes ou crescentes",
+     "Respostas, às vezes bate-papos",
+     "Indica amigos"
+    ],
+    "right_h": "Aviso",
+    "right": [
+     "A lacuna fica cada vez maior",
+     "Pedidos menores do que antes",
+     "Lê mas não responde",
+     "Novos pedidos de descontos"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Faça 2 ou 3 perguntas curtas, incluindo: em uma escala de 0 a 10, qual é a probabilidade de você me recomendar a um amigo?",
+    "Por exemplo, Ruth dá aulas particulares em Lagos e pergunta a 20 pais. 12 respondem 9 ou 10. São promotores, 60 por cento."
+   ],
+   "panel": {
+    "kicker": "Comentários",
+    "heading": "Pontuação do Net Promoter, passo a passo",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Promotores: 9 ou 10",
+      "d": "Ruth pergunta a 20 pais. 12 respondem 9 ou 10. Isso é 60 por cento."
+     },
+     {
+      "t": "Passivos: 7 ou 8",
+      "d": "5 pais. Eles não são usados ​​na fórmula."
+     },
+     {
+      "t": "Detratores: 0 a 6",
+      "d": "3 pais, o que representa 15 por cento. O NPS é 60 menos 15, que é 45."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "5 respondem 7 ou 8. São passivos e ficam de fora."
+   ],
+   "panel": {
+    "kicker": "Comentários",
+    "heading": "Pontuação do Net Promoter, passo a passo",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Promotores: 9 ou 10",
+      "d": "Ruth pergunta a 20 pais. 12 respondem 9 ou 10. Isso é 60 por cento."
+     },
+     {
+      "t": "Passivos: 7 ou 8",
+      "d": "5 pais. Eles não são usados ​​na fórmula."
+     },
+     {
+      "t": "Detratores: 0 a 6",
+      "d": "3 pais, o que representa 15 por cento. O NPS é 60 menos 15, que é 45."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "3 responda 6 ou menos. Eles são detratores, 15%. Sua pontuação é 60 menos 15, que é 45.",
+    "Mais útil ainda, dois detratores disseram que os horários das aulas mudaram sem aviso prévio. Então Ruth agora avisa com uma semana de antecedência sobre qualquer mudança."
+   ],
+   "panel": {
+    "kicker": "Comentários",
+    "heading": "Pontuação do Net Promoter, passo a passo",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Promotores: 9 ou 10",
+      "d": "Ruth pergunta a 20 pais. 12 respondem 9 ou 10. Isso é 60 por cento."
+     },
+     {
+      "t": "Passivos: 7 ou 8",
+      "d": "5 pais. Eles não são usados ​​na fórmula."
+     },
+     {
+      "t": "Detratores: 0 a 6",
+      "d": "3 pais, o que representa 15 por cento. O NPS é 60 menos 15, que é 45."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Para lembrar. Mantenha uma linha por cliente e uma por pedido. Confirme cada pedido por escrito. Antes de marcar um pedido como Pago, verifique o aplicativo do seu banco, pois uma captura de tela não é comprovante de pagamento.",
+    "Lembretes de tempo de sua própria lacuna de pedido. E quando um cliente der feedback, mude uma coisa e diga a ele que você fez."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Lembre-se",
+    "items": [
+     "Uma linha por cliente, uma linha por pedido",
+     "Confirme cada pedido por escrito",
+     "Verifique os pagamentos no aplicativo do seu banco, não nas capturas de tela",
+     "Lembre os clientes de sua própria lacuna de pedido",
+     "Aja de acordo com um feedback e depois diga a ela"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Agora pratique. Construa seu rastreador com pelo menos 10 clientes reais e teste um total manualmente. Salve sua confirmação como uma resposta rápida e resolva três lacunas de pedido. Em seguida, envie as perguntas de feedback para cinco clientes e calcule sua pontuação.",
+    "Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Pratique tarefas",
+    "heading": "Sua prática neste módulo",
+    "items": [
+     "Crie e teste seu rastreador de clientes",
+     "Configure seu ritmo de acompanhamento",
+     "Faça uma mini rodada de feedback"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

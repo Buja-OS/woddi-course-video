@@ -1,0 +1,647 @@
+{
+ "course": "production-scaling-quality-assurance",
+ "module": "m2",
+ "title": "Quality and operations at volume",
+ "course_title": "Production Scaling & Quality Assurance",
+ "shots": [
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Quality and operations at volume.",
+    "This is the video for module 2 of Production Scaling and Quality Assurance."
+   ]
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "When you make 20 items, your eyes catch most problems. When a team makes 2,000, problems slip through unless the process itself catches them."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Build quality into the process",
+    "items": [
+     "At 2,000 items, problems slip through",
+     "A control plan for every stage",
+     "Charts that watch the process",
+     "Your bottleneck and real unit cost"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "So first, a control plan with mistake-proofing."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Build quality into the process",
+    "items": [
+     "At 2,000 items, problems slip through",
+     "A control plan for every stage",
+     "Charts that watch the process",
+     "Your bottleneck and real unit cost"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Then a simple control chart that watches the process while it runs."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Build quality into the process",
+    "items": [
+     "At 2,000 items, problems slip through",
+     "A control plan for every stage",
+     "Charts that watch the process",
+     "Your bottleneck and real unit cost"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "And finally, your true capacity and your true cost per good unit."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Build quality into the process",
+    "items": [
+     "At 2,000 items, problems slip through",
+     "A control plan for every stage",
+     "Charts that watch the process",
+     "Your bottleneck and real unit cost"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Do not check everything. Pick critical characteristics: things the customer will notice, or that could harm someone. For a fried snack, that includes oil temperature, cooling and pack weight."
+   ],
+   "panel": {
+    "kicker": "Control plan",
+    "heading": "Six columns, one page",
+    "items": [
+     "Characteristic: what we check",
+     "Standard: in numbers",
+     "Method: which tool or test",
+     "Frequency: how often",
+     "Who checks and signs",
+     "Reaction: fix product and process"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "For each one, write the standard in numbers, the tool, and how often. For example, Kemi checks her oil is at 170 °C with a probe thermometer before every wok load."
+   ],
+   "panel": {
+    "kicker": "Control plan",
+    "heading": "Six columns, one page",
+    "items": [
+     "Characteristic: what we check",
+     "Standard: in numbers",
+     "Method: which tool or test",
+     "Frequency: how often",
+     "Who checks and signs",
+     "Reaction: fix product and process"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Write who checks and signs the record."
+   ],
+   "panel": {
+    "kicker": "Control plan",
+    "heading": "Six columns, one page",
+    "items": [
+     "Characteristic: what we check",
+     "Standard: in numbers",
+     "Method: which tool or test",
+     "Frequency: how often",
+     "Who checks and signs",
+     "Reaction: fix product and process"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "The reaction plan is the column people forget. It has two parts: correct the product already made, and fix the process. If a pack is light, Kemi's packer holds the load, checks every pack, tops up, and tells the supervisor.",
+    "Keep it to one page, with a photo of the reference product beside it."
+   ],
+   "panel": {
+    "kicker": "Control plan",
+    "heading": "Six columns, one page",
+    "items": [
+     "Characteristic: what we check",
+     "Standard: in numbers",
+     "Method: which tool or test",
+     "Frequency: how often",
+     "Who checks and signs",
+     "Reaction: fix product and process"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Mistake-proofing, called poka-yoke, designs the work so the error cannot happen, or is noticed at once. It works on every item, every time. Pre-weighed kits are one way."
+   ],
+   "panel": {
+    "kicker": "Mistake-proofing",
+    "heading": "Make the wrong way hard",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Pre-weighed kits",
+      "d": "Small ingredients in labelled bags the day before. An unused bag shows something was missed."
+     },
+     {
+      "t": "Guides and jigs",
+      "d": "Guide rings on a rolling pin, a fixed-volume scoop, a bowl marked for one wok load."
+     },
+     {
+      "t": "Visual signals",
+      "d": "Red tray for held product, green tray for passed. Nothing on a red tray is packed."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Guides and jigs are another. A rolling pin with guide rings makes every sheet 5 mm."
+   ],
+   "panel": {
+    "kicker": "Mistake-proofing",
+    "heading": "Make the wrong way hard",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Pre-weighed kits",
+      "d": "Small ingredients in labelled bags the day before. An unused bag shows something was missed."
+     },
+     {
+      "t": "Guides and jigs",
+      "d": "Guide rings on a rolling pin, a fixed-volume scoop, a bowl marked for one wok load."
+     },
+     {
+      "t": "Visual signals",
+      "d": "Red tray for held product, green tray for passed. Nothing on a red tray is packed."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "And visual signals. Nothing on a red tray is ever packed.",
+    "For food, add hygiene to the plan: clean hands, surfaces and equipment, raw eggs kept apart, and hair covered. Write who checks, and when."
+   ],
+   "panel": {
+    "kicker": "Mistake-proofing",
+    "heading": "Make the wrong way hard",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Pre-weighed kits",
+      "d": "Small ingredients in labelled bags the day before. An unused bag shows something was missed."
+     },
+     {
+      "t": "Guides and jigs",
+      "d": "Guide rings on a rolling pin, a fixed-volume scoop, a bowl marked for one wok load."
+     },
+     {
+      "t": "Visual signals",
+      "d": "Red tray for held product, green tray for passed. Nothing on a red tray is packed."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "For example, Ruth checks 20 random bags of yam flour from each lot, and accepts the lot only if none is underweight."
+   ],
+   "panel": {
+    "kicker": "Sampling",
+    "heading": "A final check cannot create quality",
+    "items": [
+     "Ruth checks 20 bags, accepts if 0 bad",
+     "1% bad: lot passes about 82 in 100",
+     "5% bad: still passes about 36 in 100",
+     "Quality must be made, not caught"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "If 1% of the lot is underweight, it still passes about 82 times in 100."
+   ],
+   "panel": {
+    "kicker": "Sampling",
+    "heading": "A final check cannot create quality",
+    "items": [
+     "Ruth checks 20 bags, accepts if 0 bad",
+     "1% bad: lot passes about 82 in 100",
+     "5% bad: still passes about 36 in 100",
+     "Quality must be made, not caught"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Even at 5% underweight, it passes about 36 times in 100."
+   ],
+   "panel": {
+    "kicker": "Sampling",
+    "heading": "A final check cannot create quality",
+    "items": [
+     "Ruth checks 20 bags, accepts if 0 bad",
+     "1% bad: lot passes about 82 in 100",
+     "5% bad: still passes about 36 in 100",
+     "Quality must be made, not caught"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Sampling is a filter with holes. So Ruth keeps the check, but relies on her scoop method and a control chart to stop underweight bags being made."
+   ],
+   "panel": {
+    "kicker": "Sampling",
+    "heading": "A final check cannot create quality",
+    "items": [
+     "Ruth checks 20 bags, accepts if 0 bad",
+     "1% bad: lot passes about 82 in 100",
+     "5% bad: still passes about 36 in 100",
+     "Quality must be made, not caught"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "After switching to a fixed scoop, Ruth weighs 20 bags in the order she filled them."
+   ],
+   "panel": {
+    "kicker": "Control chart",
+    "heading": "Ruth's individuals chart",
+    "items": [
+     "Weigh 20 bags in filling order",
+     "Average: 1,010.05 g",
+     "Average moving range: 2.37 g",
+     "Limits: average ± 2.66 x 2.37",
+     "Plot one bag every 30 minutes"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "The average, 1,010.05 g, is her centre line."
+   ],
+   "panel": {
+    "kicker": "Control chart",
+    "heading": "Ruth's individuals chart",
+    "items": [
+     "Weigh 20 bags in filling order",
+     "Average: 1,010.05 g",
+     "Average moving range: 2.37 g",
+     "Limits: average ± 2.66 x 2.37",
+     "Plot one bag every 30 minutes"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "The moving range is the difference between each bag and the one before. Their average is 2.37 g."
+   ],
+   "panel": {
+    "kicker": "Control chart",
+    "heading": "Ruth's individuals chart",
+    "items": [
+     "Weigh 20 bags in filling order",
+     "Average: 1,010.05 g",
+     "Average moving range: 2.37 g",
+     "Limits: average ± 2.66 x 2.37",
+     "Plot one bag every 30 minutes"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "The limits are the average plus or minus 2.66 times that, so 1,003.75 g to 1,016.35 g. Her lower limit now sits above the 1,000 g label claim."
+   ],
+   "panel": {
+    "kicker": "Control chart",
+    "heading": "Ruth's individuals chart",
+    "items": [
+     "Weigh 20 bags in filling order",
+     "Average: 1,010.05 g",
+     "Average moving range: 2.37 g",
+     "Limits: average ± 2.66 x 2.37",
+     "Plot one bag every 30 minutes"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "She plots one bag every 30 minutes. One point outside a limit, or eight in a row on one side, means stop and find what changed.",
+    "With no signal, leave the process alone. Adjusting after every small difference adds variation."
+   ],
+   "panel": {
+    "kicker": "Control chart",
+    "heading": "Ruth's individuals chart",
+    "items": [
+     "Weigh 20 bags in filling order",
+     "Average: 1,010.05 g",
+     "Average moving range: 2.37 g",
+     "Limits: average ± 2.66 x 2.37",
+     "Plot one bag every 30 minutes"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Control limits come from your data, not the specification.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Takt time is available time divided by customer demand. Kemi has 2,100 minutes a week, and shops want 2,000 packs. So one pack every 1.05 minutes."
+   ],
+   "panel": {
+    "kicker": "Takt and bottleneck",
+    "heading": "Can Kemi make 2,000 packs a week?",
+    "items": [
+     "Takt: 2,100 / 2,000 = 1.05 min per pack",
+     "Mix 0.48: under takt",
+     "Cut 1.73: the bottleneck",
+     "Fry 1.18: over takt",
+     "Sheeter and second wok: about 2,187"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Time each stage per load, then divide by packs per load. Mixing is 0.48 minutes a pack."
+   ],
+   "panel": {
+    "kicker": "Takt and bottleneck",
+    "heading": "Can Kemi make 2,000 packs a week?",
+    "items": [
+     "Takt: 2,100 / 2,000 = 1.05 min per pack",
+     "Mix 0.48: under takt",
+     "Cut 1.73: the bottleneck",
+     "Fry 1.18: over takt",
+     "Sheeter and second wok: about 2,187"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Rolling and cutting is 1.73, the slowest. Not frying, as Kemi expected. Her line makes only about 1,214 packs a week."
+   ],
+   "panel": {
+    "kicker": "Takt and bottleneck",
+    "heading": "Can Kemi make 2,000 packs a week?",
+    "items": [
+     "Takt: 2,100 / 2,000 = 1.05 min per pack",
+     "Mix 0.48: under takt",
+     "Cut 1.73: the bottleneck",
+     "Fry 1.18: over takt",
+     "Sheeter and second wok: about 2,187"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Frying, at 1.18, is also over takt."
+   ],
+   "panel": {
+    "kicker": "Takt and bottleneck",
+    "heading": "Can Kemi make 2,000 packs a week?",
+    "items": [
+     "Takt: 2,100 / 2,000 = 1.05 min per pack",
+     "Mix 0.48: under takt",
+     "Cut 1.73: the bottleneck",
+     "Fry 1.18: over takt",
+     "Sheeter and second wok: about 2,187"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "She adds a hand-cranked dough sheeter and lights a second wok burner. Capacity rises to about 2,187 packs a week.",
+    "A faster mixer would not have helped at all."
+   ],
+   "panel": {
+    "kicker": "Takt and bottleneck",
+    "heading": "Can Kemi make 2,000 packs a week?",
+    "items": [
+     "Takt: 2,100 / 2,000 = 1.05 min per pack",
+     "Mix 0.48: under takt",
+     "Cut 1.73: the bottleneck",
+     "Fry 1.18: over takt",
+     "Sheeter and second wok: about 2,187"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Fix the slowest stage first. Buy equipment only for it.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "First-pass yield is the share of units that pass every check the first time. Kemi's is 368 out of 400, which is 92%."
+   ],
+   "card": {
+    "title": "The true cost of a good pack",
+    "rows": [],
+    "note": "Naira prices are approximate."
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Her batch costs about 180,000 naira. Repacking 20 packs adds about 1,200."
+   ],
+   "card": {
+    "title": "The true cost of a good pack",
+    "rows": [
+     [
+      "Batch cost for 400 packs",
+      "180,000"
+     ],
+     [
+      "Rework: 20 packs repacked",
+      "1,200"
+     ]
+    ],
+    "note": "Naira prices are approximate."
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "That is 181,200 naira for 388 good packs, so 467 naira each, not the 450 she gets from the plan.",
+    "Over 2,000 packs a week, that gap is about 34,000 naira. So price from cost per good unit, never from the plan."
+   ],
+   "card": {
+    "title": "The true cost of a good pack",
+    "rows": [
+     [
+      "Batch cost for 400 packs",
+      "180,000"
+     ],
+     [
+      "Rework: 20 packs repacked",
+      "1,200"
+     ]
+    ],
+    "note": "Naira prices are approximate."
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "To remember. Write a one-page control plan with reactions. Make errors hard with mistake-proofing. Use charts to watch the process. Fix the bottleneck first. And price from cost per good unit."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "One-page control plan with reactions",
+     "Mistake-proofing beats inspection",
+     "Sampling judges a lot; charts watch the process",
+     "The bottleneck sets your capacity",
+     "Price from cost per good unit"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Your turn. Draft your control plan with two mistake-proofing devices, start a control chart for one measurement, and find your bottleneck and real cost per good unit.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice tasks",
+    "heading": "Your practice tasks",
+    "items": [
+     "Draft your one-page control plan",
+     "Start a control chart",
+     "Find your bottleneck and real unit cost"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}
