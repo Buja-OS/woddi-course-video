@@ -1,0 +1,32 @@
+name: mt2
+on:
+  push:
+    branches: ['mt-r2*']
+permissions:
+  contents: write
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    outputs:
+      m: ${{ steps.j.outputs.m }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: j
+        run: echo "m=$(cat matrix.json)" >> "$GITHUB_OUTPUT"
+  mt:
+    needs: setup
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix:
+        include: ${{ fromJSON(needs.setup.outputs.m) }}
+    steps:
+      - uses: actions/checkout@v4
+      - run: mkdir -p out && python3 run_unit.py ${{ matrix.i }} 2>&1 | tee out/log_${{ matrix.i }}.txt
+      - name: publish
+        if: always()
+        run: |
+          cd out && git init -q && B="i18n2-${GITHUB_REF_NAME#mt-}-${{ matrix.i }}" && git checkout -q -b "$B" && git add -A && git -c user.name=bot -c user.email=bot@x commit -qm i18n && \
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" "$B"
