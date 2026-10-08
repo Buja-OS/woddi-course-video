@@ -1,0 +1,586 @@
+{
+ "course": "core-whatsapp-for-communication-and-business",
+ "module": "m1",
+ "title": "Sanidi WhatsApp kwa usalama na ufunge akaunti yako",
+ "course_title": "WhatsApp kwa Mawasiliano na Biashara",
+ "shots": [
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Sanidi WhatsApp kwa usalama, na ufunge akaunti yako.",
+    "Hii ni video ya moduli ya kwanza ya WhatsApp kwa Mawasiliano na Biashara."
+   ]
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Akaunti yako ya WhatsApp imeunganishwa na nambari moja ya simu. Nambari hiyo inakuwa kitambulisho chako, kwa hivyo chagua mstari unaopanga kuweka kwa miaka.",
+    "Kwanza, sakinisha programu halisi, na hakuna kingine."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Nambari yako ni utambulisho wako wa WhatsApp",
+    "items": [
+     "Sakinisha programu halisi pekee",
+     "Usishiriki kamwe msimbo wako wa tarakimu sita",
+     "Washa uthibitishaji wa hatua mbili",
+     "Hifadhi nakala ili usiwahi kupoteza gumzo"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Kisha, utaona kwa nini msimbo wa tarakimu sita unaokuja kwa SMS haupaswi kamwe kuondoka mikononi mwako."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Nambari yako ni utambulisho wako wa WhatsApp",
+    "items": [
+     "Sakinisha programu halisi pekee",
+     "Usishiriki kamwe msimbo wako wa tarakimu sita",
+     "Washa uthibitishaji wa hatua mbili",
+     "Hifadhi nakala ili usiwahi kupoteza gumzo"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Kisha utawasha uthibitishaji wa hatua mbili, mpangilio muhimu zaidi katika WhatsApp."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Nambari yako ni utambulisho wako wa WhatsApp",
+    "items": [
+     "Sakinisha programu halisi pekee",
+     "Usishiriki kamwe msimbo wako wa tarakimu sita",
+     "Washa uthibitishaji wa hatua mbili",
+     "Hifadhi nakala ili usiwahi kupoteza gumzo"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Na utahifadhi nakala za gumzo zako, ili simu iliyopotea isichukue wateja wako nayo."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Nambari yako ni utambulisho wako wa WhatsApp",
+    "items": [
+     "Sakinisha programu halisi pekee",
+     "Usishiriki kamwe msimbo wako wa tarakimu sita",
+     "Washa uthibitishaji wa hatua mbili",
+     "Hifadhi nakala ili usiwahi kupoteza gumzo"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Sakinisha tu WhatsApp kutoka Google Play Store kwenye Android, au App Store kwenye iPhone. Hakikisha kuwa msanidi programu ni WhatsApp LLC.",
+    "Isasishe kwa marekebisho ya usalama."
+   ],
+   "panel": {
+    "kicker": "Kupata programu halisi",
+    "heading": "Programu rasmi au mtego?",
+    "mode": "compare",
+    "left_h": "Sakinisha",
+    "left": [
+     "Google Play Store au App Store",
+     "Msanidi programu: WhatsApp LLC",
+     "Sasisha kila baada ya wiki chache"
+    ],
+    "right_h": "Usisakinishe kamwe",
+    "right": [
+     "GB WhatsApp au nakala zingine",
+     "Programu hupitishwa kama faili",
+     "Programu zinazoficha tiki za bluu"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Usiwahi kusakinisha nakala zinazopitishwa kote kama faili, kama vile GB WhatsApp. Hazijatengenezwa na WhatsApp, zinaweza kuiba ujumbe wako, na WhatsApp inaweza kupiga marufuku akaunti zinazozitumia.",
+    "Ikiwa unayo, weka nakala ya unachohitaji, uiondoe na usakinishe programu rasmi."
+   ],
+   "panel": {
+    "kicker": "Kupata programu halisi",
+    "heading": "Programu rasmi au mtego?",
+    "mode": "compare",
+    "left_h": "Sakinisha",
+    "left": [
+     "Google Play Store au App Store",
+     "Msanidi programu: WhatsApp LLC",
+     "Sasisha kila baada ya wiki chache"
+    ],
+    "right_h": "Usisakinishe kamwe",
+    "right": [
+     "GB WhatsApp au nakala zingine",
+     "Programu hupitishwa kama faili",
+     "Programu zinazoficha tiki za bluu"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Uthibitishaji wa hatua mbili huongeza PIN yenye tarakimu sita unayounda. Kisha mtu yeyote anayejaribu kusajili nambari yako kwenye simu mpya anahitaji nambari ya SMS na PIN yako.",
+    "Hatua ya kwanza. Fungua Mipangilio, kisha Akaunti, kisha uthibitishaji wa hatua Mbili."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Washa uthibitishaji wa hatua mbili",
+    "items": [
+     "Fungua Mipangilio, Akaunti, Uthibitishaji wa hatua Mbili",
+     "Gusa Washa na uunde PIN yenye tarakimu sita",
+     "Andika PIN tena ili kuthibitisha",
+     "Ongeza anwani ya barua pepe unayoweza kufungua",
+     "Andika PIN kwenye karatasi, iliyohifadhiwa salama nyumbani"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Hatua ya pili. Gusa Washa na uandike PIN ya tarakimu sita utakayokumbuka. Usitumie siku yako ya kuzaliwa, 123456, au PIN yako ya ATM."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Washa uthibitishaji wa hatua mbili",
+    "items": [
+     "Fungua Mipangilio, Akaunti, Uthibitishaji wa hatua Mbili",
+     "Gusa Washa na uunde PIN yenye tarakimu sita",
+     "Andika PIN tena ili kuthibitisha",
+     "Ongeza anwani ya barua pepe unayoweza kufungua",
+     "Andika PIN kwenye karatasi, iliyohifadhiwa salama nyumbani"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Hatua ya tatu. Iandike tena ili kuthibitisha."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Washa uthibitishaji wa hatua mbili",
+    "items": [
+     "Fungua Mipangilio, Akaunti, Uthibitishaji wa hatua Mbili",
+     "Gusa Washa na uunde PIN yenye tarakimu sita",
+     "Andika PIN tena ili kuthibitisha",
+     "Ongeza anwani ya barua pepe unayoweza kufungua",
+     "Andika PIN kwenye karatasi, iliyohifadhiwa salama nyumbani"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Hatua ya nne. Ongeza anwani ya barua pepe unayoweza kufungua. WhatsApp huitumia kukutumia kiungo cha kuweka upya ukisahau PIN."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Washa uthibitishaji wa hatua mbili",
+    "items": [
+     "Fungua Mipangilio, Akaunti, Uthibitishaji wa hatua Mbili",
+     "Gusa Washa na uunde PIN yenye tarakimu sita",
+     "Andika PIN tena ili kuthibitisha",
+     "Ongeza anwani ya barua pepe unayoweza kufungua",
+     "Andika PIN kwenye karatasi, iliyohifadhiwa salama nyumbani"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Hatua ya tano. Andika PIN mahali salama nyumbani, si katika madokezo ya simu yako.",
+    "Na kumbuka kanuni. Msimbo wako wa SMS ni kama PIN yako ya ATM. WhatsApp haitawahi kukupigia au kukutumia ujumbe ili kuiuliza."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Washa uthibitishaji wa hatua mbili",
+    "items": [
+     "Fungua Mipangilio, Akaunti, Uthibitishaji wa hatua Mbili",
+     "Gusa Washa na uunde PIN yenye tarakimu sita",
+     "Andika PIN tena ili kuthibitisha",
+     "Ongeza anwani ya barua pepe unayoweza kufungua",
+     "Andika PIN kwenye karatasi, iliyohifadhiwa salama nyumbani"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Kamwe usishiriki msimbo wako wa SMS au PIN yako na mtu yeyote.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Hapa kuna jinsi hila inavyofanya kazi. Chioma huko Owerri huuza bidhaa za nywele. Jioni moja ujumbe unatoka kwenye akaunti ya binamu yake.",
+    "Inasema, nilituma nambari yangu kimakosa kwa nambari yako, tafadhali nitumie."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Ukosefu wa karibu: hila ya msimbo",
+    "items": [
+     "Ujumbe kutoka kwa akaunti ya binamu yake unauliza msimbo",
+     "Msimbo wa SMS hufika kwa wakati mmoja",
+     "Yeye haipeleki; anamwita binamu yake",
+     "Anawasha uthibitishaji wa hatua mbili"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Wakati huo huo, SMS yenye msimbo wa tarakimu sita inakuja. Chioma anatambua muundo. Mtu anajaribu kusajili nambari yake kwenye simu nyingine, na huenda akaunti ya binamu yake tayari imetekwa nyara."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Ukosefu wa karibu: hila ya msimbo",
+    "items": [
+     "Ujumbe kutoka kwa akaunti ya binamu yake unauliza msimbo",
+     "Msimbo wa SMS hufika kwa wakati mmoja",
+     "Yeye haipeleki; anamwita binamu yake",
+     "Anawasha uthibitishaji wa hatua mbili"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_map",
+   "say": [
+    "Yeye haitumi nambari ya kuthibitisha. Anampigia binamu yake kwa simu ya kawaida, na binamu huyo anasema hakutuma ujumbe."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Ukosefu wa karibu: hila ya msimbo",
+    "items": [
+     "Ujumbe kutoka kwa akaunti ya binamu yake unauliza msimbo",
+     "Msimbo wa SMS hufika kwa wakati mmoja",
+     "Yeye haipeleki; anamwita binamu yake",
+     "Anawasha uthibitishaji wa hatua mbili"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_map",
+   "say": [
+    "Kisha Chioma huwasha uthibitishaji wa hatua mbili kwa PIN mpya na barua pepe yake. Akaunti yake inabaki salama."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Ukosefu wa karibu: hila ya msimbo",
+    "items": [
+     "Ujumbe kutoka kwa akaunti ya binamu yake unauliza msimbo",
+     "Msimbo wa SMS hufika kwa wakati mmoja",
+     "Yeye haipeleki; anamwita binamu yake",
+     "Anawasha uthibitishaji wa hatua mbili"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "WhatsApp haitawahi kukuuliza msimbo wako.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Sasa fungua Mipangilio, Faragha. Anwani zangu humaanisha watu waliohifadhiwa kwenye simu yako. Kwa kuonekana mara ya mwisho na mtandaoni, chagua Anwani Zangu au Hakuna Mtu."
+   ],
+   "panel": {
+    "kicker": "Mipangilio, Faragha",
+    "heading": "Nani anaweza kuona nini",
+    "items": [
+     "Mara ya mwisho kuonekana na mtandaoni: Anwani zangu au Hakuna mtu",
+     "Picha ya wasifu: Anwani zangu",
+     "Hali: Anwani zangu",
+     "Vikundi: Anwani zangu, ili kukomesha vikundi vya ulaghai",
+     "Nyamazisha wapiga simu wasiojulikana: Washa"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Weka picha yako ya wasifu kwa Anwani Zangu, na uepuke picha za watoto wako."
+   ],
+   "panel": {
+    "kicker": "Mipangilio, Faragha",
+    "heading": "Nani anaweza kuona nini",
+    "items": [
+     "Mara ya mwisho kuonekana na mtandaoni: Anwani zangu au Hakuna mtu",
+     "Picha ya wasifu: Anwani zangu",
+     "Hali: Anwani zangu",
+     "Vikundi: Anwani zangu, ili kukomesha vikundi vya ulaghai",
+     "Nyamazisha wapiga simu wasiojulikana: Washa"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Weka hali yako kwa Waasiliani Wangu, ili wageni wasifuate maisha yako ya kila siku."
+   ],
+   "panel": {
+    "kicker": "Mipangilio, Faragha",
+    "heading": "Nani anaweza kuona nini",
+    "items": [
+     "Mara ya mwisho kuonekana na mtandaoni: Anwani zangu au Hakuna mtu",
+     "Picha ya wasifu: Anwani zangu",
+     "Hali: Anwani zangu",
+     "Vikundi: Anwani zangu, ili kukomesha vikundi vya ulaghai",
+     "Nyamazisha wapiga simu wasiojulikana: Washa"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_security",
+   "say": [
+    "Hili ni muhimu zaidi. Weka Vikundi kwa Waasiliani Wangu. Inazuia wageni kukuongeza kwa uwekezaji, vikundi vya biashara vya crypto au forex, mojawapo ya njia za kawaida za ulaghai."
+   ],
+   "panel": {
+    "kicker": "Mipangilio, Faragha",
+    "heading": "Nani anaweza kuona nini",
+    "items": [
+     "Mara ya mwisho kuonekana na mtandaoni: Anwani zangu au Hakuna mtu",
+     "Picha ya wasifu: Anwani zangu",
+     "Hali: Anwani zangu",
+     "Vikundi: Anwani zangu, ili kukomesha vikundi vya ulaghai",
+     "Nyamazisha wapiga simu wasiojulikana: Washa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_security",
+   "say": [
+    "Ukipokea simu taka, washa Nyamazisha wapiga simu wasiojulikana. Simu kutoka kwa nambari ambazo hazijahifadhiwa kisha nenda kwenye orodha yako ya simu bila kupiga."
+   ],
+   "panel": {
+    "kicker": "Mipangilio, Faragha",
+    "heading": "Nani anaweza kuona nini",
+    "items": [
+     "Mara ya mwisho kuonekana na mtandaoni: Anwani zangu au Hakuna mtu",
+     "Picha ya wasifu: Anwani zangu",
+     "Hali: Anwani zangu",
+     "Vikundi: Anwani zangu, ili kukomesha vikundi vya ulaghai",
+     "Nyamazisha wapiga simu wasiojulikana: Washa"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Ujumbe wako huishi kwenye simu yako, si kwenye seva za WhatsApp. Ikiwa simu imeibiwa na huna nakala rudufu, gumzo hazipo.",
+    "Fungua Mipangilio, Gumzo, Hifadhi rudufu ya Gumzo."
+   ],
+   "panel": {
+    "kicker": "Usiwahi kupoteza gumzo zako",
+    "heading": "Hifadhi nakala za mazungumzo yako",
+    "items": [
+     "Fungua Mipangilio, Gumzo, Hifadhi rudufu ya Gumzo",
+     "Unganisha Hifadhi ya Google, au iCloud kwenye iPhone",
+     "Chagua nakala rudufu ya kila siku au ya wiki",
+     "Hifadhi nakala kwenye Wi-Fi ili kuhifadhi kifurushi chako",
+     "Gusa Hifadhi nakala sasa na uangalie saa iliyoonyeshwa"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Kwenye Android, unganisha akaunti yako ya Google. Kwenye iPhone, chelezo huenda kwa iCloud."
+   ],
+   "panel": {
+    "kicker": "Usiwahi kupoteza gumzo zako",
+    "heading": "Hifadhi nakala za mazungumzo yako",
+    "items": [
+     "Fungua Mipangilio, Gumzo, Hifadhi rudufu ya Gumzo",
+     "Unganisha Hifadhi ya Google, au iCloud kwenye iPhone",
+     "Chagua nakala rudufu ya kila siku au ya wiki",
+     "Hifadhi nakala kwenye Wi-Fi ili kuhifadhi kifurushi chako",
+     "Gusa Hifadhi nakala sasa na uangalie saa iliyoonyeshwa"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Weka mzunguko wa kila siku au kila wiki. Video hufanya hifadhi kuwa kubwa, kwa hivyo amua kuzijumuisha."
+   ],
+   "panel": {
+    "kicker": "Usiwahi kupoteza gumzo zako",
+    "heading": "Hifadhi nakala za mazungumzo yako",
+    "items": [
+     "Fungua Mipangilio, Gumzo, Hifadhi rudufu ya Gumzo",
+     "Unganisha Hifadhi ya Google, au iCloud kwenye iPhone",
+     "Chagua nakala rudufu ya kila siku au ya wiki",
+     "Hifadhi nakala kwenye Wi-Fi ili kuhifadhi kifurushi chako",
+     "Gusa Hifadhi nakala sasa na uangalie saa iliyoonyeshwa"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Watu wengi huhifadhi nakala kwenye Wi-Fi pekee, ili kuhifadhi kifurushi chao cha data."
+   ],
+   "panel": {
+    "kicker": "Usiwahi kupoteza gumzo zako",
+    "heading": "Hifadhi nakala za mazungumzo yako",
+    "items": [
+     "Fungua Mipangilio, Gumzo, Hifadhi rudufu ya Gumzo",
+     "Unganisha Hifadhi ya Google, au iCloud kwenye iPhone",
+     "Chagua nakala rudufu ya kila siku au ya wiki",
+     "Hifadhi nakala kwenye Wi-Fi ili kuhifadhi kifurushi chako",
+     "Gusa Hifadhi nakala sasa na uangalie saa iliyoonyeshwa"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Gusa Hifadhi nakala sasa, na uangalie skrini inaonyesha saa kama sasa hivi. Bisi katika Ibadan alipohamia simu mpya, aliingia katika akaunti hiyo hiyo ya Google na kugusa Rejesha. Soga za wateja wake zote zilirudi."
+   ],
+   "panel": {
+    "kicker": "Usiwahi kupoteza gumzo zako",
+    "heading": "Hifadhi nakala za mazungumzo yako",
+    "items": [
+     "Fungua Mipangilio, Gumzo, Hifadhi rudufu ya Gumzo",
+     "Unganisha Hifadhi ya Google, au iCloud kwenye iPhone",
+     "Chagua nakala rudufu ya kila siku au ya wiki",
+     "Hifadhi nakala kwenye Wi-Fi ili kuhifadhi kifurushi chako",
+     "Gusa Hifadhi nakala sasa na uangalie saa iliyoonyeshwa"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Kukumbuka. Sakinisha programu rasmi pekee. Kamwe usishiriki nambari ya nambari sita au PIN yako. Washa uthibitishaji wa hatua mbili kwa barua pepe yako. Weka Vikundi kwa Waasiliani Wangu. Na uwashe kipengele cha kuhifadhi nakala kabla ya kuhitaji."
+   ],
+   "panel": {
+    "kicker": "Pointi muhimu",
+    "heading": "Kumbuka",
+    "items": [
+     "Sakinisha kutoka Play Store au App Store pekee",
+     "Kamwe usishiriki nambari ya nambari sita au PIN yako",
+     "PIN ya uthibitishaji wa hatua mbili pamoja na barua pepe",
+     "Weka Vikundi kwa Waasiliani Wangu",
+     "Washa kipengele cha kuhifadhi nakala kabla ya kuhitaji"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Sasa chukua simu yako. Angalia kuwa programu yako ni rasmi na imesasishwa, fanya ukaguzi wa Faragha, washa uthibitishaji wa hatua mbili na uweke nakala moja kwenye Wi-Fi.",
+    "Piga picha ya skrini inayoonyesha uthibitishaji wa hatua mbili umewashwa, bila PIN, na uendelee na masomo yaliyo hapa chini."
+   ],
+   "panel": {
+    "kicker": "Kazi ya mazoezi",
+    "heading": "Funga akaunti yako leo",
+    "items": [
+     "Angalia kuwa programu yako ni rasmi na imesasishwa",
+     "Fanya ukaguzi wa Faragha",
+     "Washa uthibitishaji wa hatua mbili",
+     "Endesha nakala moja kwenye Wi-Fi"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

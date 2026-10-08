@@ -1,0 +1,548 @@
+{
+ "course": "api-fundamentals",
+ "module": "m1",
+ "title": "Como os aplicativos falam: solicitações, códigos de status e JSON",
+ "course_title": "Fundamentos de API",
+ "shots": [
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Como os aplicativos falam: solicitações, códigos de status e JSON.",
+    "Este é o vídeo do módulo um dos Fundamentos de API."
+   ]
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Uma API, abreviação de Application Programming Interface, é um conjunto publicado de regras que permite que um programa solicite dados ou uma ação a outro.",
+    "O cliente é o programa que solicita, como um aplicativo de telefone. O servidor é o computador que responde."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Uma API é um conjunto publicado de regras",
+    "items": [
+     "O cliente pergunta, o servidor responde",
+     "A pergunta é um pedido",
+     "A resposta é uma resposta",
+     "Você lerá ambos, sem código"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "A pergunta é chamada de solicitação e a resposta é uma resposta. A maioria das APIs da web usa HTTPS, a mesma linguagem segura que seu navegador usa."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Uma API é um conjunto publicado de regras",
+    "items": [
+     "O cliente pergunta, o servidor responde",
+     "A pergunta é um pedido",
+     "A resposta é uma resposta",
+     "Você lerá ambos, sem código"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Pense em um buka. Você faz o pedido do cardápio, o atendente leva para a cozinha e a comida volta. O cardápio é a documentação, o atendente é a API e você nunca vê a cozinha."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Uma API é um conjunto publicado de regras",
+    "items": [
+     "O cliente pergunta, o servidor responde",
+     "A pergunta é um pedido",
+     "A resposta é uma resposta",
+     "Você lerá ambos, sem código"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Cada coisa que você pode pedir tem seu próprio endereço, chamado endpoint. Faça uma solicitação para Open-Meteo, uma API meteorológica gratuita. O esquema, https, significa que a conversa está criptografada."
+   ],
+   "panel": {
+    "kicker": "Lendo um endereço",
+    "heading": "As partes de um URL de API",
+    "items": [
+     "Esquema: https, uma conversa criptografada",
+     "Host: o servidor com o qual você está falando",
+     "Caminho: qual endpoint, como /v1/forecast",
+     "String de consulta: configurações após o ponto de interrogação"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "O próximo é o host, api.open-meteo.com, o servidor com o qual você está conversando."
+   ],
+   "panel": {
+    "kicker": "Lendo um endereço",
+    "heading": "As partes de um URL de API",
+    "items": [
+     "Esquema: https, uma conversa criptografada",
+     "Host: o servidor com o qual você está falando",
+     "Caminho: qual endpoint, como /v1/forecast",
+     "String de consulta: configurações após o ponto de interrogação"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Depois, o caminho, que nomeia o endpoint. A parte v1 é a versão da API."
+   ],
+   "panel": {
+    "kicker": "Lendo um endereço",
+    "heading": "As partes de um URL de API",
+    "items": [
+     "Esquema: https, uma conversa criptografada",
+     "Host: o servidor com o qual você está falando",
+     "Caminho: qual endpoint, como /v1/forecast",
+     "String de consulta: configurações após o ponto de interrogação"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Tudo após o ponto de interrogação é a string de consulta: pares de nome e valor, como latitude e longitude. Mude os números e você perguntará sobre um lugar diferente."
+   ],
+   "panel": {
+    "kicker": "Lendo um endereço",
+    "heading": "As partes de um URL de API",
+    "items": [
+     "Esquema: https, uma conversa criptografada",
+     "Host: o servidor com o qual você está falando",
+     "Caminho: qual endpoint, como /v1/forecast",
+     "String de consulta: configurações após o ponto de interrogação"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Por exemplo, Amaka é uma assistente virtual em Ibadan com um smartphone e cerca de 10 minutos. Ela digita o URL no Chrome e altera a latitude para 7,38 e a longitude para 3,94, aproximadamente Ibadan."
+   ],
+   "panel": {
+    "kicker": "Experimente",
+    "heading": "A primeira chamada de API da Amaka",
+    "items": [
+     "Digite o URL Open-Meteo no Chrome",
+     "Altere a latitude e a longitude da sua cidade",
+     "Encontre temperature_2m na resposta",
+     "Verifique current_units para a unidade",
+     "Adicione wind_speed_10m e recarregue"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "A tela é preenchida com texto entre colchetes. Essa é a resposta, em um formato chamado JSON. Ela encontra a temperatura atual."
+   ],
+   "panel": {
+    "kicker": "Experimente",
+    "heading": "A primeira chamada de API da Amaka",
+    "items": [
+     "Digite o URL Open-Meteo no Chrome",
+     "Altere a latitude e a longitude da sua cidade",
+     "Encontre temperature_2m na resposta",
+     "Verifique current_units para a unidade",
+     "Adicione wind_speed_10m e recarregue"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Ela verifica as unidades atuais para nunca precisar adivinhar se um número é Celsius."
+   ],
+   "panel": {
+    "kicker": "Experimente",
+    "heading": "A primeira chamada de API da Amaka",
+    "items": [
+     "Digite o URL Open-Meteo no Chrome",
+     "Altere a latitude e a longitude da sua cidade",
+     "Encontre temperature_2m na resposta",
+     "Verifique current_units para a unidade",
+     "Adicione wind_speed_10m e recarregue"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Ela adiciona a velocidade do vento à sua pergunta e recarrega. Duas solicitações reais de API, sem código e sem conta."
+   ],
+   "panel": {
+    "kicker": "Experimente",
+    "heading": "A primeira chamada de API da Amaka",
+    "items": [
+     "Digite o URL Open-Meteo no Chrome",
+     "Altere a latitude e a longitude da sua cidade",
+     "Encontre temperature_2m na resposta",
+     "Verifique current_units para a unidade",
+     "Adicione wind_speed_10m e recarregue"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Toda requisição tem um método, o verbo. GET busca uma cópia. PUT substitui um item inteiro, PATCH altera alguns campos e DELETE remove um.",
+    "GET é seguro: ele apenas lê, portanto não pode prejudicar nada."
+   ],
+   "panel": {
+    "kicker": "Métodos HTTP",
+    "heading": "É seguro repetir ou não?",
+    "mode": "compare",
+    "left_h": "Seguro para ler",
+    "left": [
+     "GET busca uma cópia",
+     "Não altera nada no servidor",
+     "Tudo bem para testar em um navegador"
+    ],
+    "right_h": "Cuidado com POST",
+    "right": [
+     "POST cria algo novo",
+     "Enviar duas vezes pode criar duas",
+     "Verifique a referência primeiro"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_social",
+   "say": [
+    "POST envia novos dados, como iniciar um pagamento. Não é seguro repetir. Se um POST parecer travar, não pressione enviar novamente. Você pode criar dois pagamentos. Primeiro verifique, usando a referência da transação, se a primeira foi realizada."
+   ],
+   "panel": {
+    "kicker": "Métodos HTTP",
+    "heading": "É seguro repetir ou não?",
+    "mode": "compare",
+    "left_h": "Seguro para ler",
+    "left": [
+     "GET busca uma cópia",
+     "Não altera nada no servidor",
+     "Tudo bem para testar em um navegador"
+    ],
+    "right_h": "Cuidado com POST",
+    "right": [
+     "POST cria algo novo",
+     "Enviar duas vezes pode criar duas",
+     "Verifique a referência primeiro"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Cada resposta tem um código de status, um número de três dígitos que informa como foi. Um 2 no início significa sucesso."
+   ],
+   "panel": {
+    "kicker": "Códigos de status",
+    "heading": "Leia o primeiro dígito primeiro",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "2xx: sucesso",
+      "d": "200 OK. 201 Criado, comum após POST. 204 Sem conteúdo, comum após DELETE."
+     },
+     {
+      "t": "4xx: corrija sua solicitação",
+      "d": "401: prove quem você é. 403: conhecido, mas não permitido. 404 não encontrado. 429 Muitas solicitações."
+     },
+     {
+      "t": "5xx: o lado deles falhou",
+      "d": "500, 502, 503. Aguarde, verifique a página de status do provedor e tente novamente apenas solicitações seguras."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Um 4 significa que o problema está na sua solicitação. Um 401 significa verificar se sua chave está presente e digitada corretamente. Um 403 significa que o servidor conhece você, mas você precisa de permissões diferentes.",
+    "Por exemplo, Funmi rastreou um erro 400 até uma latitude digitada com uma vírgula em vez de um ponto final."
+   ],
+   "panel": {
+    "kicker": "Códigos de status",
+    "heading": "Leia o primeiro dígito primeiro",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "2xx: sucesso",
+      "d": "200 OK. 201 Criado, comum após POST. 204 Sem conteúdo, comum após DELETE."
+     },
+     {
+      "t": "4xx: corrija sua solicitação",
+      "d": "401: prove quem você é. 403: conhecido, mas não permitido. 404 não encontrado. 429 Muitas solicitações."
+     },
+     {
+      "t": "5xx: o lado deles falhou",
+      "d": "500, 502, 503. Aguarde, verifique a página de status do provedor e tente novamente apenas solicitações seguras."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Um 5 significa que o problema está do lado deles. Aguarde, verifique a página de status e tente novamente apenas solicitações seguras."
+   ],
+   "panel": {
+    "kicker": "Códigos de status",
+    "heading": "Leia o primeiro dígito primeiro",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "2xx: sucesso",
+      "d": "200 OK. 201 Criado, comum após POST. 204 Sem conteúdo, comum após DELETE."
+     },
+     {
+      "t": "4xx: corrija sua solicitação",
+      "d": "401: prove quem você é. 403: conhecido, mas não permitido. 404 não encontrado. 429 Muitas solicitações."
+     },
+     {
+      "t": "5xx: o lado deles falhou",
+      "d": "500, 502, 503. Aguarde, verifique a página de status do provedor e tente novamente apenas solicitações seguras."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "JSON é um texto simples com regras rígidas. Um objeto fica entre chaves e contém chaves e valores, como um endereço de e-mail com seu rótulo."
+   ],
+   "panel": {
+    "kicker": "Lendo JSON",
+    "heading": "Caixas dentro de caixas",
+    "items": [
+     "Objeto: chaves, chaves e valores",
+     "Matriz: colchetes, uma lista ordenada",
+     "Caminho de dados: pontos para chaves, números para itens",
+     "Matrizes contam a partir de 0, não de 1"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Uma matriz fica entre colchetes e mantém uma lista em ordem."
+   ],
+   "panel": {
+    "kicker": "Lendo JSON",
+    "heading": "Caixas dentro de caixas",
+    "items": [
+     "Objeto: chaves, chaves e valores",
+     "Matriz: colchetes, uma lista ordenada",
+     "Caminho de dados: pontos para chaves, números para itens",
+     "Matrizes contam a partir de 0, não de 1"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Um caminho de dados fornece instruções para um valor. Para o exemplo de resposta do Paystack, a referência de pontos de dados aponta para o código que você usará posteriormente para verificar o pagamento."
+   ],
+   "panel": {
+    "kicker": "Lendo JSON",
+    "heading": "Caixas dentro de caixas",
+    "items": [
+     "Objeto: chaves, chaves e valores",
+     "Matriz: colchetes, uma lista ordenada",
+     "Caminho de dados: pontos para chaves, números para itens",
+     "Matrizes contam a partir de 0, não de 1"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "As matrizes contam a partir de 0. Portanto, o índice 0 é o primeiro item, e pedir o índice 1 fornece o segundo. Halima, em Abuja, leu quatro temperaturas horárias, índice de 0 a 3, e calculou a média de 28,3 graus Celsius."
+   ],
+   "panel": {
+    "kicker": "Lendo JSON",
+    "heading": "Caixas dentro de caixas",
+    "items": [
+     "Objeto: chaves, chaves e valores",
+     "Matriz: colchetes, uma lista ordenada",
+     "Caminho de dados: pontos para chaves, números para itens",
+     "Matrizes contam a partir de 0, não de 1"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "As APIs de pagamento geralmente evitam casas decimais enviando dinheiro na menor unidade. A documentação do Paystack diz que os valores em naira são enviados em kobo."
+   ],
+   "panel": {
+    "kicker": "Dinheiro em JSON",
+    "heading": "A regra do kobo",
+    "items": [
+     "APIs de pagamento enviam dinheiro em subunidades",
+     "Para naira, isso é kobo",
+     "Divida kobo por 100 para ler naira",
+     "1.500.000 kobo equivalem a 15.000 nairas"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Então divida por 100 para ler. Uma quantia de 1.500.000 kobo equivale a 15.000 nairas."
+   ],
+   "panel": {
+    "kicker": "Dinheiro em JSON",
+    "heading": "A regra do kobo",
+    "items": [
+     "APIs de pagamento enviam dinheiro em subunidades",
+     "Para naira, isso é kobo",
+     "Divida kobo por 100 para ler naira",
+     "1.500.000 kobo equivalem a 15.000 nairas"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Esqueça isso, e um pagamento de 15.000 nairas parecerá 1,5 milhão num relatório. Além disso, um número entre aspas é texto e nulo significa desconhecido, não zero.",
+    "Nunca cole uma resposta com detalhes do cliente ou chaves secretas em um site público."
+   ],
+   "panel": {
+    "kicker": "Dinheiro em JSON",
+    "heading": "A regra do kobo",
+    "items": [
+     "APIs de pagamento enviam dinheiro em subunidades",
+     "Para naira, isso é kobo",
+     "Divida kobo por 100 para ler naira",
+     "1.500.000 kobo equivalem a 15.000 nairas"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Verifique a unidade de cada campo monetário antes de confiar no total.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Para lembrar. O URL carrega a pergunta e o JSON carrega a resposta. Nunca reenvie cegamente um POST. Leia o primeiro dígito do código de status. Conte as matrizes a partir de 0 e divida kobo por 100."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Lembre-se",
+    "items": [
+     "O URL contém a pergunta, JSON a resposta",
+     "Nunca reenvie cegamente um POST",
+     "2xx sucesso, 4xx o seu lado, 5xx o lado deles",
+     "As matrizes começam em 0; divida kobo por 100"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Agora faça e rotule três solicitações de API, crie seu cartão de código de status e escreva cinco caminhos de dados.",
+    "Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Pratique tarefas",
+    "heading": "Suas tarefas práticas",
+    "items": [
+     "Faça e rotule três solicitações de API",
+     "Crie um cartão de código de status",
+     "Escreva cinco caminhos de dados"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

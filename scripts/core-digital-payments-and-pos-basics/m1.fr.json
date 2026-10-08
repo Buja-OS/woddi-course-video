@@ -1,0 +1,541 @@
+{
+ "course": "core-digital-payments-and-pos-basics",
+ "module": "m1",
+ "title": "Comment fonctionnent les paiements numériques et se préparer en toute sécurité",
+ "course_title": "Paiements numériques et bases du point de vente",
+ "shots": [
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Comment fonctionnent les paiements numériques et se préparer en toute sécurité.",
+    "Ceci est la vidéo du module 1 des paiements numériques et des bases du point de vente."
+   ]
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Un paiement numérique est tout paiement pour lequel aucun argent liquide ne change de mains. Un nombre dans un compte diminue et un nombre dans un autre augmente. L’argent est réel, juste stocké sous forme de disque."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "L'argent est réel, juste stocké sous forme de disque",
+    "items": [
+     "Découvrez ce qui se passe lorsque l'argent bouge",
+     "Sachez ce qui compte comme preuve réelle",
+     "Choisissez du cash ou du numérique avec des questions claires",
+     "Configurez votre compte en toute sécurité"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Beaucoup de gens se sentent nerveux parce qu’ils ne peuvent pas voir l’argent voyager. Ce module supprime ce mystère."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "L'argent est réel, juste stocké sous forme de disque",
+    "items": [
+     "Découvrez ce qui se passe lorsque l'argent bouge",
+     "Sachez ce qui compte comme preuve réelle",
+     "Choisissez du cash ou du numérique avec des questions claires",
+     "Configurez votre compte en toute sécurité"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Vous apprendrez également quand l’argent liquide est préférable et comment configurer votre compte pour qu’il reste le vôtre."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "L'argent est réel, juste stocké sous forme de disque",
+    "items": [
+     "Découvrez ce qui se passe lorsque l'argent bouge",
+     "Sachez ce qui compte comme preuve réelle",
+     "Choisissez du cash ou du numérique avec des questions claires",
+     "Configurez votre compte en toute sécurité"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Par exemple, Chioma à Enugu doit 7 500 nairas à sa tailleuse, Ada. Elle ouvre son application bancaire, appuie sur Virement, saisit le numéro de compte à 10 chiffres d'Ada et choisit la banque d'Ada."
+   ],
+   "panel": {
+    "kicker": "Le voyage",
+    "heading": "Comment circule un virement bancaire",
+    "items": [
+     "Vous donnez l'instruction",
+     "Votre banque vérifie votre code PIN et votre solde",
+     "Le réseau porte le message",
+     "La banque du bénéficiaire crédite son compte",
+     "Vous recevez tous les deux des alertes"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "L'application affiche le nom ADA N. OKAFOR. C'est ce qu'on appelle une demande de nom et c'est votre contrôle de sécurité le plus important. Si le nom n’est pas celui que vous attendez, arrêtez. Assez près ne suffit pas."
+   ],
+   "panel": {
+    "kicker": "Le voyage",
+    "heading": "Comment circule un virement bancaire",
+    "items": [
+     "Vous donnez l'instruction",
+     "Votre banque vérifie votre code PIN et votre solde",
+     "Le réseau porte le message",
+     "La banque du bénéficiaire crédite son compte",
+     "Vous recevez tous les deux des alertes"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false,
+    "rule": "Si le nom affiché n’est pas celui que vous attendez, arrêtez.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Chioma saisit son code PIN à 4 chiffres. Ses chèques bancaires indiquent qu'elle a suffisamment d'argent."
+   ],
+   "panel": {
+    "kicker": "Le voyage",
+    "heading": "Comment circule un virement bancaire",
+    "items": [
+     "Vous donnez l'instruction",
+     "Votre banque vérifie votre code PIN et votre solde",
+     "Le réseau porte le message",
+     "La banque du bénéficiaire crédite son compte",
+     "Vous recevez tous les deux des alertes"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "rule": "Si le nom affiché n’est pas celui que vous attendez, arrêtez.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Le réseau, route partagée entre les banques, porte le message. Au Nigeria, le principal est géré par le NIBSS."
+   ],
+   "panel": {
+    "kicker": "Le voyage",
+    "heading": "Comment circule un virement bancaire",
+    "items": [
+     "Vous donnez l'instruction",
+     "Votre banque vérifie votre code PIN et votre solde",
+     "Le réseau porte le message",
+     "La banque du bénéficiaire crédite son compte",
+     "Vous recevez tous les deux des alertes"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Si le nom affiché n’est pas celui que vous attendez, arrêtez.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "La banque d'Ada ajoute 7 500 nairas à son compte et les deux femmes reçoivent des alertes. Si une étape échoue, votre propre banque doit annuler le débit."
+   ],
+   "panel": {
+    "kicker": "Le voyage",
+    "heading": "Comment circule un virement bancaire",
+    "items": [
+     "Vous donnez l'instruction",
+     "Votre banque vérifie votre code PIN et votre solde",
+     "Le réseau porte le message",
+     "La banque du bénéficiaire crédite son compte",
+     "Vous recevez tous les deux des alertes"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Si le nom affiché n’est pas celui que vous attendez, arrêtez.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Ada ne fait pas confiance à une capture d'écran. Elle ouvre sa propre application et voit les 7 500 nairas sur son solde. C'est la seule vraie preuve.",
+    "Chioma conserve son reçu et l'identifiant de session, un long numéro dont elle aura besoin en cas de problème."
+   ],
+   "panel": {
+    "kicker": "Preuve de paiement",
+    "heading": "Qu'est-ce qui prouve vraiment que l'argent est arrivé",
+    "mode": "compare",
+    "left_h": "Une vraie preuve",
+    "left": [
+     "Solde dans votre propre application",
+     "Vérification du solde par USSD",
+     "ID de session conservé par le payeur"
+    ],
+    "right_h": "Pas assez seul",
+    "right": [
+     "Une capture d'écran d'un reçu",
+     "Une alerte SMS toute seule",
+     "Un ancien reçu transmis"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "N’importe qui peut modifier l’image d’un reçu et les alertes SMS peuvent être truquées. Lorsque vous recevez de l'argent, vérifiez votre propre solde avant de libérer des marchandises ou de rendre la monnaie."
+   ],
+   "panel": {
+    "kicker": "Preuve de paiement",
+    "heading": "Qu'est-ce qui prouve vraiment que l'argent est arrivé",
+    "mode": "compare",
+    "left_h": "Une vraie preuve",
+    "left": [
+     "Solde dans votre propre application",
+     "Vérification du solde par USSD",
+     "ID de session conservé par le payeur"
+    ],
+    "right_h": "Pas assez seul",
+    "right": [
+     "Une capture d'écran d'un reçu",
+     "Une alerte SMS toute seule",
+     "Un ancien reçu transmis"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Les paiements numériques vous donnent le contrôle, la portée, moins d'argent en déplacement et des enregistrements. Votre historique de transactions est un carnet gratuit qui se conserve tout seul."
+   ],
+   "card": {
+    "title": "Ce que montre un mois de transferts",
+    "rows": [],
+    "note": null
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "L'application de Ngozi affiche 38 000, puis 41 500, puis 29 000, puis 45 500 nairas reçus par virement."
+   ],
+   "card": {
+    "title": "Ce que montre un mois de transferts",
+    "rows": [
+     [
+      "Transferts de la semaine 1 dans",
+      "38,000"
+     ],
+     [
+      "Transferts de la semaine 2 dans",
+      "41,500"
+     ],
+     [
+      "Transferts de la semaine 3 dans",
+      "29,000"
+     ],
+     [
+      "Transferts de la semaine 4 dans",
+      "45,500"
+     ]
+    ],
+    "note": null
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Cela représente 154 000 nairas pour le mois. Ses ventes au comptant ? Elle ne peut pas le dire, car elle n’a rien écrit.",
+    "Une déclaration comme celle-ci peut prouver votre revenu à un prêteur."
+   ],
+   "card": {
+    "title": "Ce que montre un mois de transferts",
+    "rows": [
+     [
+      "Transferts de la semaine 1 dans",
+      "38,000"
+     ],
+     [
+      "Transferts de la semaine 2 dans",
+      "41,500"
+     ],
+     [
+      "Transferts de la semaine 3 dans",
+      "29,000"
+     ],
+     [
+      "Transferts de la semaine 4 dans",
+      "45,500"
+     ]
+    ],
+    "note": null
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "L'argent liquide n'est pas gratuit. Par exemple, Amina à Kaduna doit payer 80 000 nairas à un grossiste en riz.",
+    "En espèces, un agent de point de vente facture le retrait, disons 1 600 naira dans cet exemple pratique, plus 1 000 pour le transport. 2 600 au total, et le risque de transporter du cash."
+   ],
+   "panel": {
+    "kicker": "Cash ou numérique",
+    "heading": "Payer un grossiste 80 000 naira",
+    "mode": "compare",
+    "left_h": "Espèces",
+    "left": [
+     "Frais de retrait au PDV 1 600",
+     "Transports 1 000",
+     "Coût 2 600 et risque dans le bus"
+    ],
+    "right_h": "Transfert",
+    "right": [
+     "Frais de transfert 50",
+     "Transports 1 000",
+     "Coût 1 050, et un record"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Par virement, son écran affiche une charge pratique de 50 naira, plus le même transport. Cela fait 1 050, avec un record. Lisez toujours les frais réels sur votre écran avant de confirmer."
+   ],
+   "panel": {
+    "kicker": "Cash ou numérique",
+    "heading": "Payer un grossiste 80 000 naira",
+    "mode": "compare",
+    "left_h": "Espèces",
+    "left": [
+     "Frais de retrait au PDV 1 600",
+     "Transports 1 000",
+     "Coût 2 600 et risque dans le bus"
+    ],
+    "right_h": "Transfert",
+    "right": [
+     "Frais de transfert 50",
+     "Transports 1 000",
+     "Coût 1 050, et un record"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Une application bancaire a besoin d’un smartphone et de données. Un code USSD fonctionne sur n'importe quel téléphone sans données, c'est donc votre sauvegarde lorsque les données sont épuisées."
+   ],
+   "panel": {
+    "kicker": "Portes de paiement",
+    "heading": "Différentes portes, un seul compte",
+    "items": [
+     "Transfert via une application bancaire : nécessite des données",
+     "Code USSD : n'importe quel téléphone, pas de données",
+     "Carte de débit au point de vente ou au guichet automatique : aucune donnée",
+     "Application Wallet, code QR, lien de paiement"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Votre carte fonctionne dans un point de vente ou un guichet automatique sans données. Les portefeuilles, les codes QR et les liens nécessitent Internet.",
+    "Ce sont toutes des portes vers le même compte. Quiconque franchit une porte avec votre code PIN peut accéder à la totalité du solde."
+   ],
+   "panel": {
+    "kicker": "Portes de paiement",
+    "heading": "Différentes portes, un seul compte",
+    "items": [
+     "Transfert via une application bancaire : nécessite des données",
+     "Code USSD : n'importe quel téléphone, pas de données",
+     "Carte de débit au point de vente ou au guichet automatique : aucune donnée",
+     "Application Wallet, code QR, lien de paiement"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Ouvrez le compte à votre propre nom, avec votre propre numéro de téléphone actif. Si une ancienne carte SIM est liée, changez-la à la banque, car les OTP vont à celui qui possède actuellement ce numéro."
+   ],
+   "panel": {
+    "kicker": "Configuration sécurisée",
+    "heading": "Configurez votre compte en toute sécurité",
+    "items": [
+     "Compte à votre nom et numéro de téléphone",
+     "Installez vous-même l'application officielle",
+     "Un code PIN qui n'est pas votre anniversaire ou 1234",
+     "Activez les alertes et vérifiez vos limites",
+     "Enregistrez le numéro officiel du service client"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Installez l'application vous-même, depuis le Play Store ou l'App Store, et vérifiez que l'éditeur est la véritable entreprise."
+   ],
+   "panel": {
+    "kicker": "Configuration sécurisée",
+    "heading": "Configurez votre compte en toute sécurité",
+    "items": [
+     "Compte à votre nom et numéro de téléphone",
+     "Installez vous-même l'application officielle",
+     "Un code PIN qui n'est pas votre anniversaire ou 1234",
+     "Activez les alertes et vérifiez vos limites",
+     "Enregistrez le numéro officiel du service client"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Choisissez un code PIN à 4 chiffres qui n'est pas votre année de naissance, votre numéro de téléphone ou un modèle comme 1234 ou 0000. Ne l'écrivez pas sur votre carte."
+   ],
+   "panel": {
+    "kicker": "Configuration sécurisée",
+    "heading": "Configurez votre compte en toute sécurité",
+    "items": [
+     "Compte à votre nom et numéro de téléphone",
+     "Installez vous-même l'application officielle",
+     "Un code PIN qui n'est pas votre anniversaire ou 1234",
+     "Activez les alertes et vérifiez vos limites",
+     "Enregistrez le numéro officiel du service client"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Activez des alertes pour chaque transaction, vérifiez le niveau et les limites de votre compte dans l'application, et enregistrez le numéro de service client de votre banque au dos de votre carte."
+   ],
+   "panel": {
+    "kicker": "Configuration sécurisée",
+    "heading": "Configurez votre compte en toute sécurité",
+    "items": [
+     "Compte à votre nom et numéro de téléphone",
+     "Installez vous-même l'application officielle",
+     "Un code PIN qui n'est pas votre anniversaire ou 1234",
+     "Activez les alertes et vérifiez vos limites",
+     "Enregistrez le numéro officiel du service client"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Votre numéro de compte peut être partagé en toute sécurité. Votre code PIN, votre mot de passe et votre OTP ne sont jamais partagés avec qui que ce soit, y compris quelqu'un qui dit travailler pour votre banque, ou un mari ou un ami proche."
+   ],
+   "panel": {
+    "kicker": "Configuration sécurisée",
+    "heading": "Configurez votre compte en toute sécurité",
+    "items": [
+     "Compte à votre nom et numéro de téléphone",
+     "Installez vous-même l'application officielle",
+     "Un code PIN qui n'est pas votre anniversaire ou 1234",
+     "Activez les alertes et vérifiez vos limites",
+     "Enregistrez le numéro officiel du service client"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Ne partagez jamais votre code PIN, votre mot de passe ou votre OTP, même avec le personnel de la banque.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "À retenir. Vérifiez le nom avant de confirmer. Votre propre solde est la seule vraie preuve. Lisez les frais sur l'écran avant de payer. Les paiements importants ou à distance sont généralement plus sûrs par virement. Et gardez votre code confidentiel, même au sein de la famille."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Vérifiez le nom du compte avant de confirmer",
+     "Votre propre solde est la seule vraie preuve",
+     "Lisez les frais sur l'écran de confirmation",
+     "Paiements importants ou à distance : utilisez un virement",
+     "Gardez votre code secret, même en famille"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Dessinez le parcours de votre dernier paiement, répertoriez les paiements que vous pouvez transférer des espèces, comparez un paiement réel et complétez votre liste de contrôle de configuration.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâche pratique",
+    "heading": "Vos tâches pour ce module",
+    "items": [
+     "Dessinez votre propre parcours de paiement",
+     "Rédigez votre liste de cash-to-digital",
+     "Comparez un paiement réel et définissez une règle de trésorerie",
+     "Complétez votre liste de contrôle de configuration sécurisée"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

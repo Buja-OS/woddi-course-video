@@ -1,0 +1,481 @@
+{
+ "course": "marketing-analytics-reporting",
+ "module": "m2",
+ "title": "Track, reconcile and report: the monthly workflow",
+ "course_title": "Marketing Analytics & Reporting",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Track, reconcile and report: the monthly workflow.",
+    "This is the video for Module 2 of Marketing Analytics and Reporting."
+   ]
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Every report is only as good as the tracking under it. So first you set up GA4, Google's free analytics tool, and tag every link you share."
+   ],
+   "panel": {
+    "kicker": "The core workflow",
+    "heading": "Three jobs you repeat every month",
+    "items": [
+     "Track: GA4 key events and tagged links",
+     "Reconcile: all sources in one sheet",
+     "Report: one page, checked insights"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Then you bring ad platforms, analytics and payments into one sheet, and explain why they disagree."
+   ],
+   "panel": {
+    "kicker": "The core workflow",
+    "heading": "Three jobs you repeat every month",
+    "items": [
+     "Track: GA4 key events and tagged links",
+     "Reconcile: all sources in one sheet",
+     "Report: one page, checked insights"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Finally, you turn it into a one-page report that a busy owner reads in five minutes. This is the workflow you will repeat for every client or employer."
+   ],
+   "panel": {
+    "kicker": "The core workflow",
+    "heading": "Three jobs you repeat every month",
+    "items": [
+     "Track: GA4 key events and tagged links",
+     "Reconcile: all sources in one sheet",
+     "Report: one page, checked insights"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "GA4 records actions as events. Mark the ones that matter as key events. Many Nigerian businesses close sales on WhatsApp, so track chat button clicks too, but report them apart from orders. A click shows interest, not payment."
+   ],
+   "panel": {
+    "kicker": "Set up GA4",
+    "heading": "Three settings to get right",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Key events",
+      "d": "Mark purchase, or a WhatsApp chat click, as a key event. Test each one yourself."
+     },
+     {
+      "t": "Data retention",
+      "d": "Set it to 14 months, and match time zone and currency to the business."
+     },
+     {
+      "t": "Privacy",
+      "d": "Never send names, phone numbers or emails into GA4. Ask consent where required."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Set data retention to 14 months, and use the business's time zone and currency, for example Africa slash Lagos and naira."
+   ],
+   "panel": {
+    "kicker": "Set up GA4",
+    "heading": "Three settings to get right",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Key events",
+      "d": "Mark purchase, or a WhatsApp chat click, as a key event. Test each one yourself."
+     },
+     {
+      "t": "Data retention",
+      "d": "Set it to 14 months, and match time zone and currency to the business."
+     },
+     {
+      "t": "Privacy",
+      "d": "Never send names, phone numbers or emails into GA4. Ask consent where required."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "And protect people's data. Never put names, phone numbers or email addresses into GA4 events or links. Explain your tracking in the privacy notice."
+   ],
+   "panel": {
+    "kicker": "Set up GA4",
+    "heading": "Three settings to get right",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Key events",
+      "d": "Mark purchase, or a WhatsApp chat click, as a key event. Test each one yourself."
+     },
+     {
+      "t": "Data retention",
+      "d": "Set it to 14 months, and match time zone and currency to the business."
+     },
+     {
+      "t": "Privacy",
+      "d": "Never send names, phone numbers or emails into GA4. Ask consent where required."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ads",
+   "say": [
+    "Without tags, many visits from chat apps land in Direct, with no channel. UTM parameters are labels added to the end of a link. For example, Funke sells cakes in Ibadan. She gives her campaign one lowercase name."
+   ],
+   "panel": {
+    "kicker": "UTM links",
+    "heading": "Funke tags her Christmas cake campaign",
+    "items": [
+     "Always set utm_source, utm_medium, utm_campaign",
+     "One campaign name: xmas_cakes_2026",
+     "WhatsApp: source whatsapp, medium social",
+     "Ads: medium paid_social; newsletter: email",
+     "Record every link, test it in GA4 Realtime"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_ads",
+   "say": [
+    "Her WhatsApp broadcast link uses source whatsapp and medium social. Instagram ads use medium paid social, and the newsletter uses email, so GA4 sorts each into the right channel."
+   ],
+   "panel": {
+    "kicker": "UTM links",
+    "heading": "Funke tags her Christmas cake campaign",
+    "items": [
+     "Always set utm_source, utm_medium, utm_campaign",
+     "One campaign name: xmas_cakes_2026",
+     "WhatsApp: source whatsapp, medium social",
+     "Ads: medium paid_social; newsletter: email",
+     "Record every link, test it in GA4 Realtime"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "She records every link in a sheet and tests each one on her phone. And she keeps everything lowercase, because GA4 treats capital letters as a different source."
+   ],
+   "panel": {
+    "kicker": "UTM links",
+    "heading": "Funke tags her Christmas cake campaign",
+    "items": [
+     "Always set utm_source, utm_medium, utm_campaign",
+     "One campaign name: xmas_cakes_2026",
+     "WhatsApp: source whatsapp, medium social",
+     "Ads: medium paid_social; newsletter: email",
+     "Record every link, test it in GA4 Realtime"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Lowercase always: Instagram and instagram become two rows.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "No single tool sees everything. Each ad platform credits sales by its own rules, and Meta can even count people who only saw the ad. Both may claim the same order."
+   ],
+   "panel": {
+    "kicker": "Reconciling",
+    "heading": "Why the numbers disagree",
+    "items": [
+     "Each platform uses its own rules and windows",
+     "Meta and Google can claim the same order",
+     "Ad blockers and refused cookies hide sales",
+     "WhatsApp and phone orders never reach GA4",
+     "Different time zones or date ranges"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Tracking gaps hide some sales, WhatsApp orders never reach GA4 unless you add them, and mismatched settings shift results between days."
+   ],
+   "panel": {
+    "kicker": "Reconciling",
+    "heading": "Why the numbers disagree",
+    "items": [
+     "Each platform uses its own rules and windows",
+     "Meta and Google can claim the same order",
+     "Ad blockers and refused cookies hide sales",
+     "WhatsApp and phone orders never reach GA4",
+     "Different time zones or date ranges"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Her Paystack dashboard and WhatsApp order list show 86 paid orders worth 2,064,000 naira."
+   ],
+   "card": {
+    "title": "Ngozi's November ad spend",
+    "rows": [],
+    "note": "Naira prices are approximate."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "She spent 400,000 naira on Meta and 250,000 on Google Ads. Meta claims 58 purchases. Google claims 41. Together that is 99, which is 13 more than the orders actually paid."
+   ],
+   "card": {
+    "title": "Ngozi's November ad spend",
+    "rows": [
+     [
+      "Meta ads",
+      "400,000"
+     ],
+     [
+      "Google Ads",
+      "250,000"
+     ]
+    ],
+    "note": "Naira prices are approximate."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "So she leads with figures from real money. Total spend 650,000 naira. MER about 3.18. Blended cost per order about 7,558 naira. Channel costs are shown as a range, because platforms and GA4 disagree."
+   ],
+   "card": {
+    "title": "Ngozi's November ad spend",
+    "rows": [
+     [
+      "Meta ads",
+      "400,000"
+     ],
+     [
+      "Google Ads",
+      "250,000"
+     ]
+    ],
+    "note": "Naira prices are approximate."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Use platform numbers to tune inside each platform. Never add or average two platforms' ROAS. That counts double-claimed sales twice."
+   ],
+   "panel": {
+    "kicker": "Which number for what",
+    "heading": "Platform claims vs money received",
+    "mode": "compare",
+    "left_h": "Platform claims",
+    "left": [
+     "Own attribution window",
+     "May count view-through",
+     "Best for tuning that platform"
+    ],
+    "right_h": "Payments record",
+    "right": [
+     "Counts each real sale once",
+     "Includes WhatsApp orders",
+     "Source of truth for revenue"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Use payments to judge the whole budget. Match spend to billing, revenue to settlements, and remove refunds before you trust the sheet."
+   ],
+   "panel": {
+    "kicker": "Which number for what",
+    "heading": "Platform claims vs money received",
+    "mode": "compare",
+    "left_h": "Platform claims",
+    "left": [
+     "Own attribution window",
+     "May count view-through",
+     "Best for tuning that platform"
+    ],
+    "right_h": "Payments record",
+    "right": [
+     "Counts each real sale once",
+     "Includes WhatsApp orders",
+     "Source of truth for revenue"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Looker Studio is Google's free report tool. Put revenue, orders, spend, MER and cost per order at the top, then a weekly trend line."
+   ],
+   "panel": {
+    "kicker": "Looker Studio",
+    "heading": "A one-page report that works",
+    "items": [
+     "Top: scorecards vs the previous period",
+     "Middle: weekly revenue and spend trend",
+     "Channel table with cost per purchase range",
+     "Three insights: what, so what, now what",
+     "Footer: sources, dates, rule, known gaps"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Add a channel table, three insights you write yourself, each ending in an action, and honest caveats at the bottom."
+   ],
+   "panel": {
+    "kicker": "Looker Studio",
+    "heading": "A one-page report that works",
+    "items": [
+     "Top: scorecards vs the previous period",
+     "Middle: weekly revenue and spend trend",
+     "Channel table with cost per purchase range",
+     "Three insights: what, so what, now what",
+     "Footer: sources, dates, rule, known gaps"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Create MER as a calculated field from summed revenue and summed spend. Averaging weekly ratios gives a wrong answer.",
+    "And watch your words. Conversion moving from 1.1% to 1.4% is up 0.3 percentage points, or 27% relative."
+   ],
+   "panel": {
+    "kicker": "Looker Studio",
+    "heading": "A one-page report that works",
+    "items": [
+     "Top: scorecards vs the previous period",
+     "Middle: weekly revenue and spend trend",
+     "Channel table with cost per purchase range",
+     "Three insights: what, so what, now what",
+     "Footer: sources, dates, rule, known gaps"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Build ratios from totals. Never average a column of ratios.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Before sending, run five checks. Spend matches billing. Revenue matches payments. The same date range everywhere. Ratios built from totals. Caveats written down.",
+    "These catch most errors that destroy trust."
+   ],
+   "panel": {
+    "kicker": "Before you send",
+    "heading": "Five quality checks",
+    "items": [
+     "Spend matches billing",
+     "Revenue matches payments",
+     "Same date range everywhere",
+     "Ratios built from totals",
+     "Caveats written down"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "To remember. Tag every link in lowercase. Keep personal data out of GA4. Treat payments as the source of truth, and lead with blended figures. Every insight should end in an action someone owns."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "Tag every link in lowercase",
+     "No personal data in GA4",
+     "Payments are the source of truth",
+     "Lead with blended figures",
+     "Every insight ends in an action"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Now build a UTM link sheet, reconcile one month of data, and build a one-page report with the quality checklist.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice task",
+    "heading": "Your tasks for this module",
+    "items": [
+     "Build a UTM link sheet",
+     "Reconcile one month",
+     "Build and check a one-page report"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

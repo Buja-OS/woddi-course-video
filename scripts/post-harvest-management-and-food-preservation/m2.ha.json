@@ -1,0 +1,489 @@
+{
+ "course": "post-harvest-management-and-food-preservation",
+ "module": "m2",
+ "title": "Ajiye shi bushe, mai tsabta kuma a rufe, sannan tabbatar da yana aiki",
+ "course_title": "Gudanar da Bayan Girbin Girbin da Kula da Abinci",
+ "shots": [
+  {
+   "demo": "food_jars",
+   "say": [
+    "Ajiye shi bushe, mai tsabta kuma a rufe, sannan tabbatar da yana aiki.",
+    "Wannan bidiyon ne don Module 2 na Gudanar da Girbi Bayan Girbi da Tsarewar Abinci."
+   ]
+  },
+  {
+   "demo": "grain_sacks",
+   "say": [
+    "Don hatsi da legumes, dokoki guda uku suna kare kusan komai. Ajiye shi bushe, adana shi da tsabta, adana shi a rufe. Kowace doka ta toshe ɗayan abubuwan da ke haifar da asara daga Module 1."
+   ],
+   "panel": {
+    "kicker": "Dokoki guda uku",
+    "heading": "Abin da ke kare hatsi da legumes",
+    "items": [
+     "Ajiye shi bushe: damp hatsi girma m",
+     "Ajiye shi mai tsabta: kwari suna farawa a cikin datti da fashewar hatsi",
+     "Ajiye shi a rufe: babu iska don kwari, babu hanyar shiga don beraye",
+     "Sa'an nan kuma auna don tabbatar da cewa yana aiki"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "sun_drying",
+   "say": [
+    "Sannan ku duba kantin sayar da ku akai-akai, kuma ku sake aunawa daidai da hanyar, don haka lambobin ku suna nuna ko canjin ya biya."
+   ],
+   "panel": {
+    "kicker": "Dokoki guda uku",
+    "heading": "Abin da ke kare hatsi da legumes",
+    "items": [
+     "Ajiye shi bushe: damp hatsi girma m",
+     "Ajiye shi mai tsabta: kwari suna farawa a cikin datti da fashewar hatsi",
+     "Ajiye shi a rufe: babu iska don kwari, babu hanyar shiga don beraye",
+     "Sa'an nan kuma auna don tabbatar da cewa yana aiki"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "food_jars",
+   "say": [
+    "Hatsi na iya jin bushewa a waje yayin da cikin yake da ɗanɗano. Idan ba ku da mitar danshi, yi amfani da gwajin tudun gishiri.",
+    "A busar da gishirin tebur akan ƙaramin wuta kuma bar shi yayi sanyi. Cika busasshiyar gilashin gilashi mai tsabta kamar kashi ɗaya bisa uku cike da hatsi daga samfurin gaskiya."
+   ],
+   "panel": {
+    "kicker": "Dokar 1: Gwaji, kada ku yi tsammani",
+    "heading": "Gwajin gishiri",
+    "items": [
+     "Busasshen gishirin tebur a cikin tukunya, sannan a kwantar da shi",
+     "Cika busassun kwalban gilashin kashi ɗaya bisa uku da hatsi",
+     "Ƙara gishiri cokali biyu ko uku, girgiza",
+     "Jira kamar mintuna goma sha biyar",
+     "Dubi gefen tulun"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "food_jars",
+   "say": [
+    "Sai a zuba cokali biyu ko uku na busasshen gishiri, a rufe murfi sosai, sannan a girgiza na tsawon minti biyu zuwa uku. Bar shi kamar minti goma sha biyar."
+   ],
+   "panel": {
+    "kicker": "Dokar 1: Gwaji, kada ku yi tsammani",
+    "heading": "Gwajin gishiri",
+    "items": [
+     "Busasshen gishirin tebur a cikin tukunya, sannan a kwantar da shi",
+     "Cika busassun kwalban gilashin kashi ɗaya bisa uku da hatsi",
+     "Ƙara gishiri cokali biyu ko uku, girgiza",
+     "Jira kamar mintuna goma sha biyar",
+     "Dubi gefen tulun"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "grain_sacks",
+   "say": [
+    "Idan gishiri ya manne a gilashin, hatsin har yanzu yana da ɗanɗano. Ka bushe shi kuma a sake gwadawa. Idan gishiri ya tsaya sako-sako, ya bushe sosai.",
+    "Koyaushe bushe a kan kwalta ko tabarma, ba a kan ƙasa maras komai ba."
+   ],
+   "panel": {
+    "kicker": "Dokar 1: Gwaji, kada ku yi tsammani",
+    "heading": "Gwajin gishiri",
+    "items": [
+     "Busasshen gishirin tebur a cikin tukunya, sannan a kwantar da shi",
+     "Cika busassun kwalban gilashin kashi ɗaya bisa uku da hatsi",
+     "Ƙara gishiri cokali biyu ko uku, girgiza",
+     "Jira kamar mintuna goma sha biyar",
+     "Dubi gefen tulun"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Gishiri ya tsaya a gilashin? Danshi yayi yawa. Kara bushewa.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Hermetic yana nufin hana iska. An rufe shi, kwari suna amfani da iskar oxygen, dakatar da ciyarwa kuma su mutu. Ba a buƙatar maganin kwari. Amma da farko tsaftace hatsi da share kura ta kakar bara."
+   ],
+   "panel": {
+    "kicker": "Dokar 3: hatimi",
+    "heading": "Cika jakar hamisu",
+    "items": [
+     "Bincika kowane layi akan haske don ramuka",
+     "Ciki na ciki na tsakiya, ciki saƙa jakar",
+     "Cika da bushe, hatsi mai tsabta kawai",
+     "Matse iska, murɗawa, ninka kuma ɗaure kowane Layer",
+     "Ajiye akan pallets, nesa da beraye da rana"
+    ],
+    "show": 0,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Bincika kowane layi akan hasken, kuma kada kuyi amfani da tsagege. Saka lilin a cikin jakar da aka saka kuma a cika da busasshiyar hatsi mai tsabta."
+   ],
+   "panel": {
+    "kicker": "Dokar 3: hatimi",
+    "heading": "Cika jakar hamisu",
+    "items": [
+     "Bincika kowane layi akan haske don ramuka",
+     "Ciki na ciki na tsakiya, ciki saƙa jakar",
+     "Cika da bushe, hatsi mai tsabta kawai",
+     "Matse iska, murɗawa, ninka kuma ɗaure kowane Layer",
+     "Ajiye akan pallets, nesa da beraye da rana"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "veg_chop",
+   "say": [
+    "Matse iska, murɗa kowane layin layi da kyau, ninka shi kuma ɗaure shi da kyau. Ajiye jakunkuna akan pallets, nesa da gefuna masu kaifi da beraye."
+   ],
+   "panel": {
+    "kicker": "Dokar 3: hatimi",
+    "heading": "Cika jakar hamisu",
+    "items": [
+     "Bincika kowane layi akan haske don ramuka",
+     "Ciki na ciki na tsakiya, ciki saƙa jakar",
+     "Cika da bushe, hatsi mai tsabta kawai",
+     "Matse iska, murɗawa, ninka kuma ɗaure kowane Layer",
+     "Ajiye akan pallets, nesa da beraye da rana"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "veg_chop",
+   "say": [
+    "Lokacin da mutane suka ce jakunkuna sun gaza, yawanci yadda aka yi amfani da su. An rufe hatsi yayin da yake damshi, ƙaramin rami, kwancen dauri, ko buɗe jakar kowane mako don dafa abinci."
+   ],
+   "panel": {
+    "kicker": "Dokar 3: hatimi",
+    "heading": "Cika jakar hamisu",
+    "items": [
+     "Bincika kowane layi akan haske don ramuka",
+     "Ciki na ciki na tsakiya, ciki saƙa jakar",
+     "Cika da bushe, hatsi mai tsabta kawai",
+     "Matse iska, murɗawa, ninka kuma ɗaure kowane Layer",
+     "Ajiye akan pallets, nesa da beraye da rana"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Kar a bude jakunkuna akai-akai. Ajiye ƙaramin kwano don amfanin yau da kullun.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Wuraren aminci guda uku. Allunan fumigation suna fitar da iskar gas mai guba sosai. Masu horarwa, masu fumigator masu lasisi kawai za su iya amfani da su, kuma ba inda mutane ke zaune ko barci ba."
+   ],
+   "panel": {
+    "kicker": "Tsaro na farko",
+    "heading": "Chemicals da tsafta",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Fumigation Allunan",
+      "d": "Gas phosphine na iya kashewa. Masu horarwa kawai, masu fumigator masu lasisi. Kada a cikin gida ko ɗakin kwana."
+     },
+     {
+      "t": "Adana maganin kwari",
+      "d": "Kayayyakin da aka yi wa rajista na NAFDAC na hatsi da aka adana, ana amfani da su kamar yadda alamar ta ce. Kada a taɓa fesa filin."
+     },
+     {
+      "t": "Tsaftace ruwa da hannaye",
+      "d": "Yi amfani da ruwa mai tsabta akan kayan lambu da masu sanyaya. Wanke hannu da tsabtace kwantena tsakanin amfani."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Idan kuna amfani da maganin kashe kwari, yi amfani da ɗaya kawai da Hukumar NAFDAC ta yi rajista don adana hatsi, kuma ku bi tambarin daidai. Kada a taɓa amfani da auduga ko feshin filin akan abinci. Hermetic ajiya yana guje wa wannan haɗarin."
+   ],
+   "panel": {
+    "kicker": "Tsaro na farko",
+    "heading": "Chemicals da tsafta",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Fumigation Allunan",
+      "d": "Gas phosphine na iya kashewa. Masu horarwa kawai, masu fumigator masu lasisi. Kada a cikin gida ko ɗakin kwana."
+     },
+     {
+      "t": "Adana maganin kwari",
+      "d": "Kayayyakin da aka yi wa rajista na NAFDAC na hatsi da aka adana, ana amfani da su kamar yadda alamar ta ce. Kada a taɓa fesa filin."
+     },
+     {
+      "t": "Tsaftace ruwa da hannaye",
+      "d": "Yi amfani da ruwa mai tsabta akan kayan lambu da masu sanyaya. Wanke hannu da tsabtace kwantena tsakanin amfani."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "hand_wash",
+   "say": [
+    "Kuma ruwa mai datti yana yada ƙwayoyin cuta, ko da lokacin da samfurin ya yi kama da sabo. Yi amfani da ruwa mai tsafta, wanke hannuwanku, da tsaftataccen kwanduna tsakanin amfani."
+   ],
+   "panel": {
+    "kicker": "Tsaro na farko",
+    "heading": "Chemicals da tsafta",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Fumigation Allunan",
+      "d": "Gas phosphine na iya kashewa. Masu horarwa kawai, masu fumigator masu lasisi. Kada a cikin gida ko ɗakin kwana."
+     },
+     {
+      "t": "Adana maganin kwari",
+      "d": "Kayayyakin da aka yi wa rajista na NAFDAC na hatsi da aka adana, ana amfani da su kamar yadda alamar ta ce. Kada a taɓa fesa filin."
+     },
+     {
+      "t": "Tsaftace ruwa da hannaye",
+      "d": "Yi amfani da ruwa mai tsabta akan kayan lambu da masu sanyaya. Wanke hannu da tsabtace kwantena tsakanin amfani."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "grain_sacks",
+   "say": [
+    "Ba za a iya rufe sabbin kayan amfanin gona kamar hatsi ba. Kuna rage numfashi kuma kuna kare shi daga raunuka. A yi girbi da wuri, a yi masa inuwa da sauri, sannan a jera ɓangarorin da suka lalace, domin rubabben tumatur yana yada ruɓe ga maƙwabtansa."
+   ],
+   "panel": {
+    "kicker": "Sabbin samfuri",
+    "heading": "Sanyi da tausasawa, daga filin zuwa kasuwa",
+    "mode": "compare",
+    "left_h": "Yi",
+    "left": [
+     "Girbi da sanyi da sanyin safiya",
+     "Inuwa a cikin mintuna",
+     "Fara fara fitar da guntun da suka lalace",
+     "Kwantena masu ƙarfi tare da gibin iska"
+    ],
+    "right_h": "Kar a yi",
+    "right": [
+     "Bar amfanin gona a rana",
+     "Jefa, sauke ko tsayawa akan kaya",
+     "Cike buhuna",
+     "A jika ganye a cikin ruwa mai datti"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "food_storage",
+   "say": [
+    "Kar a jefa ta, cika buhu, ko tsayawa kan kaya. Ci gaba da dawa gaba ɗaya da iska, kuma a tona rogo kawai lokacin da za ku iya sarrafa shi cikin kwana ɗaya ko biyu."
+   ],
+   "panel": {
+    "kicker": "Sabbin samfuri",
+    "heading": "Sanyi da tausasawa, daga filin zuwa kasuwa",
+    "mode": "compare",
+    "left_h": "Yi",
+    "left": [
+     "Girbi da sanyi da sanyin safiya",
+     "Inuwa a cikin mintuna",
+     "Fara fara fitar da guntun da suka lalace",
+     "Kwantena masu ƙarfi tare da gibin iska"
+    ],
+    "right_h": "Kar a yi",
+    "right": [
+     "Bar amfanin gona a rana",
+     "Jefa, sauke ko tsayawa akan kaya",
+     "Cike buhuna",
+     "A jika ganye a cikin ruwa mai datti"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "snacks_pack",
+   "say": [
+    "Matsaloli suna farawa kaɗan. Kowane mako biyu, tafiya kantin sayar da. Nemo kwari, foda, droppings, jakunkuna da aka tauna da danshi. Kamshi ga mustiness."
+   ],
+   "panel": {
+    "kicker": "Saka idanu",
+    "heading": "Duba kantin sayar da ku akan aikin yau da kullun",
+    "items": [
+     "Kowane mako biyu: duba da kamshi",
+     "Kowane wata: samfurin da ƙidaya-da-auna",
+     "Jakunkuna na Hermetic: bincika ramuka, kar a buɗe",
+     "Fresh kayan lambu da dawa: kowane 'yan kwanaki"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "snacks_pack",
+   "say": [
+    "Kowane wata, samfurin buɗaɗɗen jakunkuna tare da rajistan ƙidayar-da nauyi. Hatsi da ke jin dumi a ciki alama ce ta gargaɗi."
+   ],
+   "panel": {
+    "kicker": "Saka idanu",
+    "heading": "Duba kantin sayar da ku akan aikin yau da kullun",
+    "items": [
+     "Kowane mako biyu: duba da kamshi",
+     "Kowane wata: samfurin da ƙidaya-da-auna",
+     "Jakunkuna na Hermetic: bincika ramuka, kar a buɗe",
+     "Fresh kayan lambu da dawa: kowane 'yan kwanaki"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "produce_crates",
+   "say": [
+    "Kada a buɗe jakunkuna na hermetic don cak. Nemo ramuka da sako-sako da alaƙa maimakon. Bincika sabbin kayan noma da dawa kowane ƴan kwanaki, kuma a cire wani abu mai laushi ko m lokaci guda."
+   ],
+   "panel": {
+    "kicker": "Saka idanu",
+    "heading": "Duba kantin sayar da ku akan aikin yau da kullun",
+    "items": [
+     "Kowane mako biyu: duba da kamshi",
+     "Kowane wata: samfurin da ƙidaya-da-auna",
+     "Jakunkuna na Hermetic: bincika ramuka, kar a buɗe",
+     "Fresh kayan lambu da dawa: kowane 'yan kwanaki"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "veg_chop",
+   "say": [
+    "A bara, a cikin buhunan talakawa, Hauwa ta yi asarar kashi 7.5 cikin 100, kimanin kilogiram 75. A wannan shekara ta yi amfani da jakunkuna na hermetic kuma ta duba da wannan hanya bayan watanni biyar. Asarar ta kasance kashi 1.0, kusan kilogiram 10."
+   ],
+   "card": {
+    "title": "Hauwa ta tabbatar an biya buhunan",
+    "rows": [],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "veg_chop",
+   "say": [
+    "Don haka ta ajiye kilogiram 65. Akan Naira 1,500 akan kowace kg, wato Naira 97,500 kenan. Jakunkunan sun kai Naira 35,000."
+   ],
+   "card": {
+    "title": "Hauwa ta tabbatar an biya buhunan",
+    "rows": [
+     [
+      "65 kilogiram na wake ceto",
+      "97,500"
+     ],
+     [
+      "Rage farashin jakunkuna na hermetic",
+      "35,000"
+     ]
+    ],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "hand_wash",
+   "say": [
+    "Ribar da ta samu ya kai kimanin naira 62,500 a kakar farko. Kwatanta kamar haka: amfanin gona iri ɗaya, lokacin ajiya iri ɗaya, hanya iri ɗaya."
+   ],
+   "card": {
+    "title": "Hauwa ta tabbatar an biya buhunan",
+    "rows": [
+     [
+      "65 kilogiram na wake ceto",
+      "97,500"
+     ],
+     [
+      "Rage farashin jakunkuna na hermetic",
+      "35,000"
+     ]
+    ],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Don tunawa. Ajiye shi bushe, mai tsabta kuma a rufe. Gwada bushewa kafin adanawa. Bar fumigation ga masu fumigator masu lasisi.",
+    "Bincika akai-akai, kuma aiwatar da ribar gidan yanar gizon ku: ƙimar abincin da aka ajiye, ban da farashin canjin."
+   ],
+   "panel": {
+    "kicker": "Mabuɗin mahimmanci",
+    "heading": "Ka tuna",
+    "items": [
+     "Ajiye shi bushe, mai tsabta kuma a rufe",
+     "Gwada bushewa, kar a taɓa tsammani",
+     "Phosphine kawai ta masu fumigators masu lasisi",
+     "Duba kowane mako biyu zuwa hudu",
+     "Ribar gidan yanar gizo = abincin da aka ajiye ya rage tsada"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "food_storage",
+   "say": [
+    "Yanzu yi gwajin gilashin gishiri da kuma shirya nau'i mai tsabta guda ɗaya. Gwada sauyi ɗaya ko sanyaya canji akan sabbin samfura, kuma saita masu tuni na waya don binciken ku.",
+    "Ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi aiki",
+    "heading": "Ayyukanku na wannan tsarin",
+    "items": [
+     "Yi gwajin gilashin gishiri kuma tsaftace tsari ɗaya",
+     "Gwada sauyi mai sanyaya ko sarrafa ɗaya",
+     "Fara rikodin saka idanu"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

@@ -1,0 +1,443 @@
+{
+ "course": "core-time-and-home-management",
+ "module": "m3",
+ "title": "Tsarin gida: ayyukan yau da kullun, ayyukan da aka raba, abinci da kuɗi",
+ "course_title": "Lokaci & Gudanar da Gida",
+ "shots": [
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Tsarin gida: ayyukan yau da kullun, ayyukan da aka raba, abinci da kuɗi.",
+    "Wannan bidiyon ne don Module 3, Tsarin Gudanar da Gida."
+   ]
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "A yau da kullum saitin ayyuka ne da aka yi a cikin tsari guda a kusan lokaci guda. Ayyukan yau da kullun suna adana lokaci saboda kun daina yanke shawarar abin da za ku yi na gaba."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Gidan da ke gudana ba tare da ka riƙe shi duka ba",
+    "items": [
+     "Ayyukan yau da kullun suna ceton ku yanke shawarar abin da ke gaba",
+     "Wasu za su iya taimakawa idan sun san matakan",
+     "An shirya safe mai natsuwa da daddare"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Suna kuma sauƙaƙa wa wasu a cikin gida don taimakawa, saboda kowa ya san abin da zai faru lokacin."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Gidan da ke gudana ba tare da ka riƙe shi duka ba",
+    "items": [
+     "Ayyukan yau da kullun suna ceton ku yanke shawarar abin da ke gaba",
+     "Wasu za su iya taimakawa idan sun san matakan",
+     "An shirya safe mai natsuwa da daddare"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Yawancin safiya mai natsuwa da gaske ana shirya daren da ya gabata. Abin da ya sa mafi kyawun al'ada na farko shine sake saitin maraice."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Gidan da ke gudana ba tare da ka riƙe shi duka ba",
+    "items": [
+     "Ayyukan yau da kullun suna ceton ku yanke shawarar abin da ke gaba",
+     "Wasu za su iya taimakawa idan sun san matakan",
+     "An shirya safe mai natsuwa da daddare"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Ko da minti 20 zuwa 30 kowane maraice yana kawo babban bambanci. Ki share kicin ki wanke tukwanen. Saita uniform da jakunkuna."
+   ],
+   "panel": {
+    "kicker": "20 zuwa 30 mintuna",
+    "heading": "Sake saitin maraice",
+    "items": [
+     "Kitchen da aka share da kuma wanke tukwane",
+     "Shirye-shiryen Uniform da jakunkuna",
+     "Da sauri duba shirin gobe",
+     "Wayoyi suna caji",
+     "Tsaftace minti 10 tare da kowa yana taimakawa"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Bincika shirin gobe, sanya wayoyi akan caji, sannan kuyi gyaran babban ɗakin na mintuna 10 tare da kowa yana taimakawa.",
+    "Sa'an nan kuma yada babban tsaftacewa a cikin mako, babban aiki ɗaya a rana na minti 20 zuwa 40, don haka Asabar ta fi sauƙi."
+   ],
+   "panel": {
+    "kicker": "20 zuwa 30 mintuna",
+    "heading": "Sake saitin maraice",
+    "items": [
+     "Kitchen da aka share da kuma wanke tukwane",
+     "Shirye-shiryen Uniform da jakunkuna",
+     "Da sauri duba shirin gobe",
+     "Wayoyi suna caji",
+     "Tsaftace minti 10 tare da kowa yana taimakawa"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Lokacin da kuke tsaftace banɗaki da bayan gida, kada ku haɗa bleach, kamar Hypo, da sauran kayan tsaftacewa. Gas masu haɗari na iya tasowa.",
+    "Bude tagogi, sa safar hannu, da adana duk sinadarai sama da sama, a cikin kwantena masu lakabi, nesa da yara da abinci."
+   ],
+   "panel": {
+    "kicker": "20 zuwa 30 mintuna",
+    "heading": "Sake saitin maraice",
+    "items": [
+     "Kitchen da aka share da kuma wanke tukwane",
+     "Shirye-shiryen Uniform da jakunkuna",
+     "Da sauri duba shirin gobe",
+     "Wayoyi suna caji",
+     "Tsaftace minti 10 tare da kowa yana taimakawa"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Kada a taɓa haɗa bleach da sauran masu tsaftacewa. Bude tagogi, sa safar hannu.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Idan mace ɗaya ta ɗauki mafi yawan aikin, yin aiki da sauri ba zai gyara shi ba. Sharing zai.",
+    "Na farko, jera kowane aiki da gida ke buƙata. Haɗa nauyin tunani, kamar tunawa da lokacin ƙarshe na kudade ko lura da iskar gas yayi ƙasa."
+   ],
+   "panel": {
+    "kicker": "Raba kaya",
+    "heading": "Raba ayyukan cikin matakai uku",
+    "items": [
+     "Lissafin kowane aiki, gami da nauyin tunani",
+     "Daidaita ayyuka da shekaru da iyawa",
+     "Amince a taron dangi na mintuna 20",
+     "Sanya ginshiƙi na aiki kuma ku bita kowane wata"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Na biyu, daidaita ayyuka zuwa iyawa. Yara za su iya yin fiye da yadda muke zato, amma kiyaye yara ƙanana daga tukwane masu zafi, wuƙaƙe, sinadarai da kwasfa."
+   ],
+   "panel": {
+    "kicker": "Raba kaya",
+    "heading": "Raba ayyukan cikin matakai uku",
+    "items": [
+     "Lissafin kowane aiki, gami da nauyin tunani",
+     "Daidaita ayyuka da shekaru da iyawa",
+     "Amince a taron dangi na mintuna 20",
+     "Sanya ginshiƙi na aiki kuma ku bita kowane wata"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Na uku, a yi ɗan gajeren taron dangi. Bari kowane mutum ya zaɓi wasu ayyuka da farko, sannan ya buga ginshiƙi.",
+    "Misali, Fatima a Ilorin ta lissafa ayyuka 28. Dan ta za6i jita-jita da shara, 'yarta ta zabi saita teburi, mijinta kuma ya dauki kasuwar Asabar. Aikin gidanta ya ragu da kusan awa 1.5 a rana."
+   ],
+   "panel": {
+    "kicker": "Raba kaya",
+    "heading": "Raba ayyukan cikin matakai uku",
+    "items": [
+     "Lissafin kowane aiki, gami da nauyin tunani",
+     "Daidaita ayyuka da shekaru da iyawa",
+     "Amince a taron dangi na mintuna 20",
+     "Sanya ginshiƙi na aiki kuma ku bita kowane wata"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Kuskuren gama gari shine mikawa kawai yin. Da fatan za a saya gas lokacin da na gaya muku har yanzu yana barin tunawa tare da ku. Kuma sake yin aikinsu yana koya musu ba komai."
+   ],
+   "panel": {
+    "kicker": "Yin shi sandare",
+    "heading": "Mika dukkan aikin",
+    "mode": "compare",
+    "left_h": "Ba wannan ba",
+    "left": [
+     "Da fatan za a saya gas lokacin da na gaya muku",
+     "Sake yin shara da kanka"
+    ],
+    "right_h": "Wannan",
+    "right": [
+     "Kai ne ke da alhakin siyan gas",
+     "Duba matakin kowace Juma'a",
+     "Karɓa da kyau, kuma ku ce na gode"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Madadin haka, mika dukkan aikin. Kai ne ke da alhakin siyan iskar gas: duba matakin kowace Juma'a kuma saya lokacin da yake ƙasa. Karɓa da kyau sosai, kuma godiya ta musamman."
+   ],
+   "panel": {
+    "kicker": "Yin shi sandare",
+    "heading": "Mika dukkan aikin",
+    "mode": "compare",
+    "left_h": "Ba wannan ba",
+    "left": [
+     "Da fatan za a saya gas lokacin da na gaya muku",
+     "Sake yin shara da kanka"
+    ],
+    "right_h": "Wannan",
+    "right": [
+     "Kai ne ke da alhakin siyan gas",
+     "Duba matakin kowace Juma'a",
+     "Karɓa da kyau, kuma ku ce na gode"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Shirya abincin mako daga abin da kuke da shi, rubuta jerin kasuwa guda ɗaya, kuma dafa babban tukunyar stew wanda ke ba da abinci da yawa. Sannan a kiyaye.",
+    "Wanke hannuwanku, kuma amfani da alluna daban don ɗanyen nama da shirye-shiryen ci."
+   ],
+   "panel": {
+    "kicker": "Batch dafa abinci lafiya",
+    "heading": "Ajiye abincin da aka dafa a tsari lafiya",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Tsaftace",
+      "d": "A wanke hannu kafin a dafa abinci da kuma bayan danyen nama ko kifi. A ware danyen abinci da dafaffe."
+     },
+     {
+      "t": "Ajiye kuma adana",
+      "d": "A cikin firiji ko injin daskarewa a cikin awanni 2, a cikin abincin da aka rufe. Kada a bar stew dare ɗaya."
+     },
+     {
+      "t": "Maimaita sau ɗaya",
+      "d": "Sake zafi har sai zafi ya yi zafi gaba ɗaya, kuma sau ɗaya kawai."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Ciyar da dafaffen abinci da sauri kuma saka shi a cikin firiji ko injin daskarewa a cikin awanni 2, a cikin rufaffiyar yanki don abinci ɗaya. Kar a bar stew dare daya."
+   ],
+   "panel": {
+    "kicker": "Batch dafa abinci lafiya",
+    "heading": "Ajiye abincin da aka dafa a tsari lafiya",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Tsaftace",
+      "d": "A wanke hannu kafin a dafa abinci da kuma bayan danyen nama ko kifi. A ware danyen abinci da dafaffe."
+     },
+     {
+      "t": "Ajiye kuma adana",
+      "d": "A cikin firiji ko injin daskarewa a cikin awanni 2, a cikin abincin da aka rufe. Kada a bar stew dare ɗaya."
+     },
+     {
+      "t": "Maimaita sau ɗaya",
+      "d": "Sake zafi har sai zafi ya yi zafi gaba ɗaya, kuma sau ɗaya kawai."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Sake yin zafi har sai ya yi zafi sosai, kuma a sake yin zafi sau ɗaya kawai. Idan abincin daskararre ya narke a cikin dogon wuta, dafa shi kai tsaye ko jefar da shi."
+   ],
+   "panel": {
+    "kicker": "Batch dafa abinci lafiya",
+    "heading": "Ajiye abincin da aka dafa a tsari lafiya",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Tsaftace",
+      "d": "A wanke hannu kafin a dafa abinci da kuma bayan danyen nama ko kifi. A ware danyen abinci da dafaffe."
+     },
+     {
+      "t": "Ajiye kuma adana",
+      "d": "A cikin firiji ko injin daskarewa a cikin awanni 2, a cikin abincin da aka rufe. Kada a bar stew dare ɗaya."
+     },
+     {
+      "t": "Maimaita sau ɗaya",
+      "d": "Sake zafi har sai zafi ya yi zafi gaba ɗaya, kuma sau ɗaya kawai."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Kasafin kuɗi shiri ne na kuɗin ku kafin ku kashe shi. Raba shi cikin buƙatu, buƙatu da tanadi.",
+    "Misali, Ruth da mijinta a Jos suna kawo kusan naira 400,000 a wata."
+   ],
+   "card": {
+    "title": "Kasafin kuɗin Ruth na wata-wata",
+    "rows": [],
+    "note": "Figures suna kwatanta."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Bukatun kamar haya, abinci, kudin makaranta, sufuri da iskar gas sun zo naira 320,000. Wannan shine kashi 80%, kuma a yawancin gidajen Najeriya ana buƙatar ɗaukar fiye da rabin. Hakan yayi kyau."
+   ],
+   "card": {
+    "title": "Kasafin kuɗin Ruth na wata-wata",
+    "rows": [
+     [
+      "Bukatu",
+      "320,000"
+     ]
+    ],
+    "note": "Figures suna kwatanta."
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Suna ajiye Naira 40,000, wato kashi 10 cikin 100, sannan su ajiye 40,000 na bukata."
+   ],
+   "card": {
+    "title": "Kasafin kuɗin Ruth na wata-wata",
+    "rows": [
+     [
+      "Bukatu",
+      "320,000"
+     ],
+     [
+      "Adana",
+      "40,000"
+     ],
+     [
+      "Yana so",
+      "40,000"
+     ]
+    ],
+    "note": "Figures suna kwatanta."
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Tare wato 400,000. Kowane naira yana da aiki.",
+    "Shirye-shiryen abinci ya rage kashe kuɗin abinci daga kusan 160,000 zuwa 140,000, kuma 20,000 da aka ceto suna zuwa asusun gaggawa. Kada ku taɓa raba PIN ko OTP tare da kowa."
+   ],
+   "card": {
+    "title": "Kasafin kuɗin Ruth na wata-wata",
+    "rows": [
+     [
+      "Bukatu",
+      "320,000"
+     ],
+     [
+      "Adana",
+      "40,000"
+     ],
+     [
+      "Yana so",
+      "40,000"
+     ]
+    ],
+    "note": "Figures suna kwatanta."
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Don tunawa. Fara tare da sake saitin maraice. Raba dukkan ayyuka, ba kawai yin ba. Ajiye abincin da aka dafa da shi lafiya. Ba kowane naira aikin yi. Kuma kiyaye kalandar iyali guda ɗaya, fara lissafin makonni huɗu zuwa shida kafin lokutan aiki kamar sake dawowa makaranta."
+   ],
+   "panel": {
+    "kicker": "Mabuɗin mahimmanci",
+    "heading": "Ka tuna",
+    "items": [
+     "Fara tare da sake saitin maraice",
+     "Raba dukkan ayyuka, gami da nauyin tunani",
+     "Abincin sanyi a cikin sa'o'i 2, sake zafi sau ɗaya",
+     "Ba kowace naira aikin yi: bukatu, bukatu, tanadi",
+     "Kalandar iyali ɗaya: idan ba a kanta ba, ba a shirya shi ba"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Yanzu rubuta ayyukanku na yau da kullun, ƙirƙirar jadawalin ayyukanku, tsara mako guda na abinci da wata na kuɗi, da gina kalandar iyali. Ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi ayyuka",
+    "heading": "Ayyukan aikin ku",
+    "items": [
+     "Rubuta kuma sanya ayyukanku na yau da kullun",
+     "Ƙirƙiri jadawalin aikinku",
+     "Sati daya na abinci, wata daya na kudi",
+     "Gina kalandar dangin ku"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

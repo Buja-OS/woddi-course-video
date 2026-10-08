@@ -1,0 +1,570 @@
+{
+ "course": "advanced-excel-dashboards",
+ "module": "m1",
+ "title": "Le moteur de données et de formules derrière chaque tableau de bord",
+ "course_title": "Excel avancé et tableaux de bord",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Le moteur de données et de formules derrière chaque tableau de bord.",
+    "Ceci est la vidéo du premier module d'Excel avancé et des tableaux de bord."
+   ]
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Au niveau avancé, la partie la plus difficile d’Excel est rarement la formule. C'est la forme des données. De nombreux classeurs semblent soignés à l’écran, mais sont construits comme un cahier papier."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Un tableau de bord est aussi bon que ses données",
+    "items": [
+     "Façonnez des listes désordonnées en tableaux bien rangés et nommés",
+     "Écrire des formules avec plusieurs conditions",
+     "Utilisez des recherches qui ne s'interrompent pas",
+     "Répondez aux questions commerciales avec les tableaux croisés dynamiques"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Dans ce module, vous transformez des listes désordonnées en tableaux Excel appropriés, puis écrivez des formules qui répondent à des questions telles que : ventes de purée de couches, à Oyo, en mars."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Un tableau de bord est aussi bon que ses données",
+    "items": [
+     "Façonnez des listes désordonnées en tableaux bien rangés et nommés",
+     "Écrire des formules avec plusieurs conditions",
+     "Utilisez des recherches qui ne s'interrompent pas",
+     "Répondez aux questions commerciales avec les tableaux croisés dynamiques"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Vous obtiendrez des prix et des taux de commission avec des recherches qui ne s'interrompent pas."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Un tableau de bord est aussi bon que ses données",
+    "items": [
+     "Façonnez des listes désordonnées en tableaux bien rangés et nommés",
+     "Écrire des formules avec plusieurs conditions",
+     "Utilisez des recherches qui ne s'interrompent pas",
+     "Répondez aux questions commerciales avec les tableaux croisés dynamiques"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Et vous utiliserez des tableaux croisés dynamiques pour résumer des milliers de lignes en quelques secondes."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Un tableau de bord est aussi bon que ses données",
+    "items": [
+     "Façonnez des listes désordonnées en tableaux bien rangés et nommés",
+     "Écrire des formules avec plusieurs conditions",
+     "Utilisez des recherches qui ne s'interrompent pas",
+     "Répondez aux questions commerciales avec les tableaux croisés dynamiques"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Une ligne correspond à un enregistrement : une vente, un paiement. Ne mélangez jamais des enregistrements avec des sous-totaux."
+   ],
+   "panel": {
+    "kicker": "Des données ordonnées",
+    "heading": "Les règles du rangement des données",
+    "items": [
+     "Une ligne = un enregistrement, pas de lignes de sous-total",
+     "Une colonne = un type d'information",
+     "Une ligne d'en-tête, pas de cellules fusionnées",
+     "Pas de lignes ou de colonnes vides dans les données",
+     "Les nombres comme chiffres, les dates comme dates"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Une colonne contient un type d’informations. N'écrivez pas 12 sacs à 14 500 dans une seule cellule."
+   ],
+   "panel": {
+    "kicker": "Des données ordonnées",
+    "heading": "Les règles du rangement des données",
+    "items": [
+     "Une ligne = un enregistrement, pas de lignes de sous-total",
+     "Une colonne = un type d'information",
+     "Une ligne d'en-tête, pas de cellules fusionnées",
+     "Pas de lignes ou de colonnes vides dans les données",
+     "Les nombres comme chiffres, les dates comme dates"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Utilisez une ligne d'en-tête avec des noms uniques. Les cellules fusionnées interrompent le tri, le filtrage et la copie des formules."
+   ],
+   "panel": {
+    "kicker": "Des données ordonnées",
+    "heading": "Les règles du rangement des données",
+    "items": [
+     "Une ligne = un enregistrement, pas de lignes de sous-total",
+     "Une colonne = un type d'information",
+     "Une ligne d'en-tête, pas de cellules fusionnées",
+     "Pas de lignes ou de colonnes vides dans les données",
+     "Les nombres comme chiffres, les dates comme dates"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Excel traite une ligne vide comme la fin de la liste."
+   ],
+   "panel": {
+    "kicker": "Des données ordonnées",
+    "heading": "Les règles du rangement des données",
+    "items": [
+     "Une ligne = un enregistrement, pas de lignes de sous-total",
+     "Une colonne = un type d'information",
+     "Une ligne d'en-tête, pas de cellules fusionnées",
+     "Pas de lignes ou de colonnes vides dans les données",
+     "Les nombres comme chiffres, les dates comme dates"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Et tapez 45 000, pas le signe naira. Voici un test rapide. Sélectionnez les montants et regardez la barre d'état. S'il affiche Somme, ce sont des nombres. S'il affiche uniquement le nombre, il s'agit de texte et ils sont supprimés silencieusement de vos totaux."
+   ],
+   "panel": {
+    "kicker": "Des données ordonnées",
+    "heading": "Les règles du rangement des données",
+    "items": [
+     "Une ligne = un enregistrement, pas de lignes de sous-total",
+     "Une colonne = un type d'information",
+     "Une ligne d'en-tête, pas de cellules fusionnées",
+     "Pas de lignes ou de colonnes vides dans les données",
+     "Les nombres comme chiffres, les dates comme dates"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Tola dirige une entreprise d'aliments pour volailles à Ibadan. Elle copie chaque vente dans sa propre ligne, clique à l'intérieur de la liste et appuie sur Contrôle T."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Transformez une liste en une table nommée",
+    "items": [
+     "Cliquez à l’intérieur de la liste rangée et appuyez sur Ctrl+T",
+     "Cochez Ma table a des en-têtes, puis OK",
+     "Nommez-le dans Table Design, par exemple tblSales",
+     "Ajoutez une colonne calculée avec le signe @",
+     "Vérifiez trois lignes à la main"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Elle confirme que le tableau comporte des en-têtes."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Transformez une liste en une table nommée",
+    "items": [
+     "Cliquez à l’intérieur de la liste rangée et appuyez sur Ctrl+T",
+     "Cochez Ma table a des en-têtes, puis OK",
+     "Nommez-le dans Table Design, par exemple tblSales",
+     "Ajoutez une colonne calculée avec le signe @",
+     "Vérifiez trois lignes à la main"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Elle l'appelle tblSales. Les noms rendent les formules lisibles et le tableau s'agrandit tout seul lorsqu'elle tape une nouvelle ligne en dessous."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Transformez une liste en une table nommée",
+    "items": [
+     "Cliquez à l’intérieur de la liste rangée et appuyez sur Ctrl+T",
+     "Cochez Ma table a des en-têtes, puis OK",
+     "Nommez-le dans Table Design, par exemple tblSales",
+     "Ajoutez une colonne calculée avec le signe @",
+     "Vérifiez trois lignes à la main"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Elle ajoute une colonne Montant : Sacs sur cette ligne multipliés par Prix par sac sur cette ligne. Excel remplit toute la colonne à la fois."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Transformez une liste en une table nommée",
+    "items": [
+     "Cliquez à l’intérieur de la liste rangée et appuyez sur Ctrl+T",
+     "Cochez Ma table a des en-têtes, puis OK",
+     "Nommez-le dans Table Design, par exemple tblSales",
+     "Ajoutez une colonne calculée avec le signe @",
+     "Vérifiez trois lignes à la main"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Puis elle vérifie à la main. 12 fois 14 500 font 174 000. 8 fois 15 200 font 121 600."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Transformez une liste en une table nommée",
+    "items": [
+     "Cliquez à l’intérieur de la liste rangée et appuyez sur Ctrl+T",
+     "Cochez Ma table a des en-têtes, puis OK",
+     "Nommez-le dans Table Design, par exemple tblSales",
+     "Ajoutez une colonne calculée avec le signe @",
+     "Vérifiez trois lignes à la main"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Conservez les couleurs et les notes pour le tableau de bord. Une seule ligne vide ou un sous-total à l'intérieur des données fausse chaque total construit à partir de celle-ci."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Transformez une liste en une table nommée",
+    "items": [
+     "Cliquez à l’intérieur de la liste rangée et appuyez sur Ctrl+T",
+     "Cochez Ma table a des en-têtes, puis OK",
+     "Nommez-le dans Table Design, par exemple tblSales",
+     "Ajoutez une colonne calculée avec le signe @",
+     "Vérifiez trois lignes à la main"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Ne mettez jamais de lignes vides ou de sous-totaux dans les données.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "SUMIFS met en premier ce qu'il faut additionner, puis des paires où chercher et quoi chercher. L'ancien SUMIF met la plage de somme en dernier. Les mélanger est une erreur classique.",
+    "Tola conserve les dates, le produit et la ville dans des cellules, de sorte qu'une seule formule peut répondre à de nombreuses questions. Elle ne tape jamais de date entre guillemets."
+   ],
+   "card": {
+    "title": "SUMIFS : purée de couches à Oyo, en mars",
+    "rows": [],
+    "note": "Chiffres illustratifs."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Pour le tester, elle filtre le Tableau à la main. Il reste cinq lignes : 174 000, 290 000, 145 000, 87 000 et 232 000."
+   ],
+   "card": {
+    "title": "SUMIFS : purée de couches à Oyo, en mars",
+    "rows": [
+     [
+      "Rangée 1",
+      "174,000"
+     ],
+     [
+      "Rangée 2",
+      "290,000"
+     ],
+     [
+      "Rangée 3",
+      "145,000"
+     ],
+     [
+      "Rangée 4",
+      "87,000"
+     ],
+     [
+      "Rangée 5",
+      "232,000"
+     ]
+    ],
+    "note": "Chiffres illustratifs."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Ils totalisent 928 000. Sa cellule SUMIFS indique 928 000, donc la formule est correcte. Modifiez la cellule produit et la réponse est mise à jour instantanément."
+   ],
+   "card": {
+    "title": "SUMIFS : purée de couches à Oyo, en mars",
+    "rows": [
+     [
+      "Rangée 1",
+      "174,000"
+     ],
+     [
+      "Rangée 2",
+      "290,000"
+     ],
+     [
+      "Rangée 3",
+      "145,000"
+     ],
+     [
+      "Rangée 4",
+      "87,000"
+     ],
+     [
+      "Rangée 5",
+      "232,000"
+     ]
+    ],
+    "note": "Chiffres illustratifs."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "RECHERCHEV sans son dernier argument utilise une correspondance approximative. Sur une liste non triée, il peut renvoyer un prix erroné sans aucune erreur. Terminez-le toujours par FALSE."
+   ],
+   "panel": {
+    "kicker": "Recherches",
+    "heading": "RECHERCHEV versus RECHERCHEXL",
+    "mode": "compare",
+    "left_h": "RECHERCHEV",
+    "left": [
+     "Numéro de colonne compté à la main",
+     "S'interrompt lorsque des colonnes sont insérées",
+     "La valeur par défaut est une correspondance approximative"
+    ],
+    "right_h": "RECHERCHEXL",
+    "right": [
+     "Points à la colonne de retour",
+     "Survit aux colonnes insérées",
+     "La valeur par défaut est la correspondance exacte"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "XLOOKUP est plus sûr et son mode de correspondance moins 1 gère les niveaux. Un représentant avec 760 000 nairas de ventes obtient le niveau 500 000 à 3 %, soit une commission de 22 800 nairas.",
+    "XLOOKUP nécessite Excel 2021, 2024 ou Microsoft 365. Pour 2016 ou 2019, utilisez INDEX avec MATCH."
+   ],
+   "panel": {
+    "kicker": "Recherches",
+    "heading": "RECHERCHEV versus RECHERCHEXL",
+    "mode": "compare",
+    "left_h": "RECHERCHEV",
+    "left": [
+     "Numéro de colonne compté à la main",
+     "S'interrompt lorsque des colonnes sont insérées",
+     "La valeur par défaut est une correspondance approximative"
+    ],
+    "right_h": "RECHERCHEXL",
+    "right": [
+     "Points à la colonne de retour",
+     "Survit aux colonnes insérées",
+     "La valeur par défaut est la correspondance exacte"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Créez chaque pivot à partir du tableau nommé afin que de nouvelles lignes soient incluses. S'il affiche le nombre de montants, certaines cellules contiennent du texte. Corrigez d'abord les données."
+   ],
+   "panel": {
+    "kicker": "Tableaux croisés dynamiques",
+    "heading": "Un pivot qui répond à trois questions",
+    "items": [
+     "Insérer un tableau croisé dynamique à partir du tableau nommé",
+     "Regrouper les dates par mois et par années",
+     "Ajoutez le montant trois fois avec Afficher les valeurs sous",
+     "Actualiser tout après chaque modification de données"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Regroupez par mois et par années, ou janvier 2024 et janvier 2025 sont additionnés."
+   ],
+   "panel": {
+    "kicker": "Tableaux croisés dynamiques",
+    "heading": "Un pivot qui répond à trois questions",
+    "items": [
+     "Insérer un tableau croisé dynamique à partir du tableau nommé",
+     "Regrouper les dates par mois et par années",
+     "Ajoutez le montant trois fois avec Afficher les valeurs sous",
+     "Actualiser tout après chaque modification de données"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Ajoutez le montant sous forme de somme simple, puis en pourcentage du total général, puis en pourcentage de différence par rapport au mois précédent. Dans un exemple, la purée en couches représentait 50 pour cent des ventes et le mois de mars a augmenté de 19,6 pour cent."
+   ],
+   "panel": {
+    "kicker": "Tableaux croisés dynamiques",
+    "heading": "Un pivot qui répond à trois questions",
+    "items": [
+     "Insérer un tableau croisé dynamique à partir du tableau nommé",
+     "Regrouper les dates par mois et par années",
+     "Ajoutez le montant trois fois avec Afficher les valeurs sous",
+     "Actualiser tout après chaque modification de données"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Les pivots ne se mettent pas à jour automatiquement. Après avoir ajouté des données, utilisez Data, Actualiser tout."
+   ],
+   "panel": {
+    "kicker": "Tableaux croisés dynamiques",
+    "heading": "Un pivot qui répond à trois questions",
+    "items": [
+     "Insérer un tableau croisé dynamique à partir du tableau nommé",
+     "Regrouper les dates par mois et par années",
+     "Ajoutez le montant trois fois avec Afficher les valeurs sous",
+     "Actualiser tout après chaque modification de données"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Rappelez-vous. Ranger les données d’abord. Nommez chaque table. SUMIFS place la plage de somme en premier. Utilisez des correspondances exactes. Et testez chaque formule par rapport à une vérification que vous avez effectuée à la main."
+   ],
+   "panel": {
+    "kicker": "Rappelez-vous",
+    "heading": "Ce qu'il faut retenir de ce module",
+    "items": [
+     "Une ligne par enregistrement, pas de cellules fusionnées",
+     "Appuyez sur Ctrl+T et nommez chaque table",
+     "SUMIFS donne la priorité à la plage de somme",
+     "Terminez VLOOKUP avec FALSE ou utilisez XLOOKUP",
+     "Testez les formules avec un contrôle filtré à la main"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Prenez une vraie liste d'au moins 30 lignes et faites-en une table nommée. Créez un bloc récapitulatif avec SUMIFS et une recherche. Créez ensuite un pivot de trois questions et actualisez-le.",
+    "Continuez maintenant avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâche pratique",
+    "heading": "Vos tâches pour ce module",
+    "items": [
+     "Restructurer une vraie liste en une table nommée",
+     "Construire un bloc de résumé conditionnel",
+     "Construire un pivot en trois questions"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

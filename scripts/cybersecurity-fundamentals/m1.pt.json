@@ -1,0 +1,532 @@
+{
+ "course": "cybersecurity-fundamentals",
+ "module": "m1",
+ "title": "Impeça fraudes de pagamento e classifique seus riscos de segurança",
+ "course_title": "Fundamentos de segurança cibernética",
+ "shots": [
+  {
+   "demo": "security_lock",
+   "say": [
+    "Impeça fraudes em pagamentos e classifique seus riscos de segurança.",
+    "Este é o vídeo do módulo 1 dos Fundamentos de Segurança Cibernética."
+   ]
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "As pequenas empresas, escolas, igrejas e ONG são, na sua maioria, afetadas por quatro ataques comuns. Primeiro, o controle da conta, geralmente por meio de uma senha reutilizada ou de uma página de login falsa."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Quatro ataques comuns causam mais danos",
+    "items": [
+     "Aquisição de conta",
+     "Comprometimento de e-mail comercial",
+     "Ransomware e outros malwares",
+     "Dispositivos perdidos, roubados ou compartilhados"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Em segundo lugar, o comprometimento do e-mail comercial, em que um e-mail real ou semelhante solicita um pagamento ou uma alteração dos dados bancários."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Quatro ataques comuns causam mais danos",
+    "items": [
+     "Aquisição de conta",
+     "Comprometimento de e-mail comercial",
+     "Ransomware e outros malwares",
+     "Dispositivos perdidos, roubados ou compartilhados"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Terceiro, ransomware e outros malwares, geralmente provenientes de um programa pirata, uma atualização falsa ou um anexo."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Quatro ataques comuns causam mais danos",
+    "items": [
+     "Aquisição de conta",
+     "Comprometimento de e-mail comercial",
+     "Ransomware e outros malwares",
+     "Dispositivos perdidos, roubados ou compartilhados"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Quarto, dispositivos e senhas perdidos, roubados ou compartilhados.",
+    "Ninguém precisa de um atacante genial. Cada um usa um hábito ou um controle que falta, e esses você pode mudar."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Quatro ataques comuns causam mais danos",
+    "items": [
+     "Aquisição de conta",
+     "Comprometimento de e-mail comercial",
+     "Ransomware e outros malwares",
+     "Dispositivos perdidos, roubados ou compartilhados"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Os profissionais de segurança utilizam um modelo simples, a tríade da CIA. Nada a ver com espiões.",
+    "C é confidencialidade: apenas as pessoas certas podem ver as informações."
+   ],
+   "panel": {
+    "kicker": "A tríade da CIA",
+    "heading": "Cite o que foi danificado",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Confidencialidade",
+      "d": "Somente as pessoas certas podem ver isso. Exemplo: um laptop com a lista de membros é roubado."
+     },
+     {
+      "t": "Integridade",
+      "d": "A informação está correta. Exemplo: um fraudador edita os dados bancários de uma fatura."
+     },
+     {
+      "t": "Disponibilidade",
+      "d": "Os sistemas funcionam quando necessário. Exemplo: o ransomware bloqueia todos os arquivos antes da entrega de um relatório."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "I é integridade: a informação está correta e não foi alterada pela pessoa errada."
+   ],
+   "panel": {
+    "kicker": "A tríade da CIA",
+    "heading": "Cite o que foi danificado",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Confidencialidade",
+      "d": "Somente as pessoas certas podem ver isso. Exemplo: um laptop com a lista de membros é roubado."
+     },
+     {
+      "t": "Integridade",
+      "d": "A informação está correta. Exemplo: um fraudador edita os dados bancários de uma fatura."
+     },
+     {
+      "t": "Disponibilidade",
+      "d": "Os sistemas funcionam quando necessário. Exemplo: o ransomware bloqueia todos os arquivos antes da entrega de um relatório."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_security",
+   "say": [
+    "A é disponibilidade: os sistemas funcionam quando as pessoas precisam deles.",
+    "Cada incidente danifica pelo menos um deles, e nomeá-lo ajuda você a escolher a solução."
+   ],
+   "panel": {
+    "kicker": "A tríade da CIA",
+    "heading": "Cite o que foi danificado",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Confidencialidade",
+      "d": "Somente as pessoas certas podem ver isso. Exemplo: um laptop com a lista de membros é roubado."
+     },
+     {
+      "t": "Integridade",
+      "d": "A informação está correta. Exemplo: um fraudador edita os dados bancários de uma fatura."
+     },
+     {
+      "t": "Disponibilidade",
+      "d": "Os sistemas funcionam quando necessário. Exemplo: o ransomware bloqueia todos os arquivos antes da entrega de um relatório."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Por exemplo, Funmi é responsável financeiro de uma pequena ONG em Abuja. Um e-mail de Musa da Brightline Printers diz que o banco mudou e uma fatura de 2.450.000 nairas deve ir para uma nova conta hoje.",
+    "Ela olha além do nome de exibição para o endereço real."
+   ],
+   "panel": {
+    "kicker": "Investigue",
+    "heading": "Funmi verifica uma alteração de dados bancários",
+    "items": [
+     "Verifique o endereço De real",
+     "Identifique o domínio semelhante",
+     "Veja para onde vai o Reply-To",
+     "Não responda ao e-mail",
+     "Ligue para um número do contrato original"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "O endereço possui um hífen e um final diferente das faturas anteriores. É um domínio semelhante. Em Show original, SPF e DKIM passam, mas apenas para o próprio domínio do invasor."
+   ],
+   "panel": {
+    "kicker": "Investigue",
+    "heading": "Funmi verifica uma alteração de dados bancários",
+    "items": [
+     "Verifique o endereço De real",
+     "Identifique o domínio semelhante",
+     "Veja para onde vai o Reply-To",
+     "Não responda ao e-mail",
+     "Ligue para um número do contrato original"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "O Reply-To é um terceiro endereço em um serviço de correio gratuito, portanto, qualquer resposta iria para o fraudador."
+   ],
+   "panel": {
+    "kicker": "Investigue",
+    "heading": "Funmi verifica uma alteração de dados bancários",
+    "items": [
+     "Verifique o endereço De real",
+     "Identifique o domínio semelhante",
+     "Veja para onde vai o Reply-To",
+     "Não responda ao e-mail",
+     "Ligue para um número do contrato original"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "O e-mail cita o número correto da fatura, então alguém viu a fatura real. Ela não responde."
+   ],
+   "panel": {
+    "kicker": "Investigue",
+    "heading": "Funmi verifica uma alteração de dados bancários",
+    "items": [
+     "Verifique o endereço De real",
+     "Identifique o domínio semelhante",
+     "Veja para onde vai o Reply-To",
+     "Não responda ao e-mail",
+     "Ligue para um número do contrato original"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Ela liga para Musa no número salvo no contrato original. Seus dados bancários não mudaram."
+   ],
+   "panel": {
+    "kicker": "Investigue",
+    "heading": "Funmi verifica uma alteração de dados bancários",
+    "items": [
+     "Verifique o endereço De real",
+     "Identifique o domínio semelhante",
+     "Veja para onde vai o Reply-To",
+     "Não responda ao e-mail",
+     "Ligue para um número do contrato original"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Esta é a regra que derrota a maioria das fraudes de pagamento. Mantenha uma lista de fornecedores com dados bancários e telefones coletados no onboarding."
+   ],
+   "panel": {
+    "kicker": "Proteja o dinheiro",
+    "heading": "Uma regra de pagamento que funciona",
+    "items": [
+     "Mantenha uma lista de fornecedores com dados bancários e telefones",
+     "Trate qualquer alteração de dados bancários como suspeita",
+     "Ligue para um número já registrado",
+     "Segundo aprovador para novos beneficiários",
+     "Aguarde um dia útil em uma conta alterada",
+     "Registre quem ligou e quem confirmou"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Trate qualquer solicitação de alteração de dados bancários, por qualquer canal, como suspeita até ser verificada."
+   ],
+   "panel": {
+    "kicker": "Proteja o dinheiro",
+    "heading": "Uma regra de pagamento que funciona",
+    "items": [
+     "Mantenha uma lista de fornecedores com dados bancários e telefones",
+     "Trate qualquer alteração de dados bancários como suspeita",
+     "Ligue para um número já registrado",
+     "Segundo aprovador para novos beneficiários",
+     "Aguarde um dia útil em uma conta alterada",
+     "Registre quem ligou e quem confirmou"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Verifique ligando para um número já registrado, nunca aquele fornecido na solicitação. Lembre-se, se uma caixa de correio real for hackeada, todas as verificações serão aprovadas. Somente o retorno de chamada o detecta."
+   ],
+   "panel": {
+    "kicker": "Proteja o dinheiro",
+    "heading": "Uma regra de pagamento que funciona",
+    "items": [
+     "Mantenha uma lista de fornecedores com dados bancários e telefones",
+     "Trate qualquer alteração de dados bancários como suspeita",
+     "Ligue para um número já registrado",
+     "Segundo aprovador para novos beneficiários",
+     "Aguarde um dia útil em uma conta alterada",
+     "Registre quem ligou e quem confirmou"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Verifique um número registrado, nunca um na solicitação.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Exigir um segundo aprovador para novos beneficiários e para pagamentos acima de um limite definido."
+   ],
+   "panel": {
+    "kicker": "Proteja o dinheiro",
+    "heading": "Uma regra de pagamento que funciona",
+    "items": [
+     "Mantenha uma lista de fornecedores com dados bancários e telefones",
+     "Trate qualquer alteração de dados bancários como suspeita",
+     "Ligue para um número já registrado",
+     "Segundo aprovador para novos beneficiários",
+     "Aguarde um dia útil em uma conta alterada",
+     "Registre quem ligou e quem confirmou"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Verifique um número registrado, nunca um na solicitação.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Aguarde um período de reflexão, por exemplo um dia útil, antes de efetuar o primeiro pagamento para uma conta alterada. E registre o cheque: data, quem ligou, quem confirmou.",
+    "Se o dinheiro já tiver acabado, ligue imediatamente para a linha antifraude do seu banco."
+   ],
+   "panel": {
+    "kicker": "Proteja o dinheiro",
+    "heading": "Uma regra de pagamento que funciona",
+    "items": [
+     "Mantenha uma lista de fornecedores com dados bancários e telefones",
+     "Trate qualquer alteração de dados bancários como suspeita",
+     "Ligue para um número já registrado",
+     "Segundo aprovador para novos beneficiários",
+     "Aguarde um dia útil em uma conta alterada",
+     "Registre quem ligou e quem confirmou"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "rule": "Verifique um número registrado, nunca um na solicitação.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Um risco é um ativo com o qual você se preocupa, uma ameaça a ele e uma fraqueza que permite que a ameaça seja bem-sucedida. Liste seus ativos e nomeie a ameaça e a fraqueza de cada um."
+   ],
+   "panel": {
+    "kicker": "Registro de risco",
+    "heading": "Pontue cada risco de 1 a 25",
+    "items": [
+     "Listar ativos: informações, contas, dispositivos",
+     "Cite uma ameaça e a fraqueza",
+     "Probabilidade 1 a 5 x impacto 1 a 5",
+     "15 a 25 de altura: aja agora",
+     "8 a 14 médio: planeje com data",
+     "1 a 7 baixo: aceitar e revisar"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Pontue a probabilidade de 1 a 5 e o impacto de 1 a 5. Multiplique-os para obter uma pontuação de 1 a 25."
+   ],
+   "panel": {
+    "kicker": "Registro de risco",
+    "heading": "Pontue cada risco de 1 a 25",
+    "items": [
+     "Listar ativos: informações, contas, dispositivos",
+     "Cite uma ameaça e a fraqueza",
+     "Probabilidade 1 a 5 x impacto 1 a 5",
+     "15 a 25 de altura: aja agora",
+     "8 a 14 médio: planeje com data",
+     "1 a 7 baixo: aceitar e revisar"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Pontuações de 15 a 25 precisam de ação agora. 8 a 14 anos precisam de um plano com data. 1 a 7 podem ser aceitos e revisados.",
+    "Por exemplo, Amaka pontua o e-mail principal de sua cooperativa, com uma senha reutilizada e sem segundo fator, em 4 vezes 5, que é 20. Pagamentos de fornecedores sem regra de retorno de chamada pontuam 15. Portanto, o e-mail vem em primeiro lugar e os pagamentos em segundo."
+   ],
+   "panel": {
+    "kicker": "Registro de risco",
+    "heading": "Pontue cada risco de 1 a 25",
+    "items": [
+     "Listar ativos: informações, contas, dispositivos",
+     "Cite uma ameaça e a fraqueza",
+     "Probabilidade 1 a 5 x impacto 1 a 5",
+     "15 a 25 de altura: aja agora",
+     "8 a 14 médio: planeje com data",
+     "1 a 7 baixo: aceitar e revisar"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "rule": "Classifique por pontuação. Corrija o mais alto primeiro.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Na Nigéria, a Lei de Protecção de Dados da Nigéria de 2023 torna a segurança um dever legal e o NDPC é o regulador.",
+    "Diga às pessoas o que você coleta e por quê. Colete apenas o que você precisa. Se você não precisa do NIN de alguém, não o colete.",
+    "Exclua o que você não precisa mais e proteja o resto. Uma violação que coloque pessoas em risco deve ser comunicada à NDPC no prazo de 72 horas.",
+    "Este é um guia de trabalho, não um aconselhamento jurídico."
+   ],
+   "panel": {
+    "kicker": "A lei",
+    "heading": "Suas funções sob a NDPA 2023",
+    "items": [
+     "Diga às pessoas o que você coleta e por quê",
+     "Colete apenas o que você precisa",
+     "Exclua os dados que você não precisa mais",
+     "Proteja-o: controle de acesso, criptografia",
+     "Mantenha políticas e registros escritos",
+     "Relate violações de risco dentro de 72 horas"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_security",
+   "say": [
+    "Para lembrar. Cite qual parte da tríade da CIA foi danificada. Verifique os endereços reais de De e Responder para.",
+    "Antes de qualquer mudança de banco, ligue novamente para um número registrado. Classifique seu trabalho por probabilidade vezes impacto. E os dados que você nunca coletou não podem vazar."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Lembre-se",
+    "items": [
+     "Nomeie a propriedade da CIA que foi danificada",
+     "Verifique o verdadeiro De e Responder para",
+     "Ligue novamente para um número já registrado",
+     "Probabilidade x impacto classifica seu trabalho",
+     "Dados que você nunca coletou não podem vazar"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Suas tarefas: classificar três incidentes que você conhece, verificar dois cabeçalhos de e-mail com Mostrar original, escrever uma regra de verificação de pagamento e construir um registro de riscos com pelo menos seis riscos pontuados. Salve cada um em seu documento de auditoria.",
+    "Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Tarefa prática",
+    "heading": "Suas tarefas práticas",
+    "items": [
+     "Classifique três incidentes que você conhece",
+     "Verifique dois cabeçalhos de e-mail",
+     "Escreva sua regra de verificação de pagamento",
+     "Construa um registro de riscos de seis riscos"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

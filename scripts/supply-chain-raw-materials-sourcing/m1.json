@@ -1,0 +1,586 @@
+{
+ "course": "supply-chain-raw-materials-sourcing",
+ "module": "m1",
+ "title": "See your supply chain: list, trace, rank and specify",
+ "course_title": "Supply Chain & Raw Materials Sourcing",
+ "shots": [
+  {
+   "demo": "globe_export",
+   "say": [
+    "See your supply chain: list, trace, rank and specify.",
+    "This is the video for module one of Supply Chain and Raw Materials Sourcing."
+   ]
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "A supply chain is every step a material passes through before it becomes your product: farm or factory, wholesaler, trader, transport, and your store.",
+    "Once customers depend on you, a missing material becomes a broken promise."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "A missing material is a broken promise",
+    "items": [
+     "Know every material in your product",
+     "Trace where each one really comes from",
+     "Rank materials by value and risk",
+     "Write down exactly what you accept"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "So first, you trace where each material really comes from."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "A missing material is a broken promise",
+    "items": [
+     "Know every material in your product",
+     "Trace where each one really comes from",
+     "Rank materials by value and risk",
+     "Write down exactly what you accept"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "grain_sacks",
+   "say": [
+    "Then you rank materials by value and risk, and write down exactly what you will accept."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "A missing material is a broken promise",
+    "items": [
+     "Know every material in your product",
+     "Trace where each one really comes from",
+     "Rank materials by value and risk",
+     "Write down exactly what you accept"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "globe_export",
+   "say": [
+    "A bill of materials, or BOM, lists every input for one batch, with quantity and cost.",
+    "Amaka makes zobo in batches of 100 bottles. Her prices are illustrative and approximate."
+   ],
+   "card": {
+    "title": "A bill of materials for zobo",
+    "rows": [],
+    "note": "Naira prices are illustrative and approximate."
+   }
+  },
+  {
+   "demo": "globe_export",
+   "say": [
+    "Dried hibiscus costs about 4,500 naira, sugar 7,200, and fresh ginger 1,000."
+   ],
+   "card": {
+    "title": "A bill of materials for zobo",
+    "rows": [
+     [
+      "Hibiscus, 1.5 kg",
+      "4,500"
+     ],
+     [
+      "Sugar, 4 kg",
+      "7,200"
+     ],
+     [
+      "Ginger, 0.5 kg",
+      "1,000"
+     ]
+    ],
+    "note": "Naira prices are illustrative and approximate."
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "100 bottles with caps cost about 6,000 naira, and 100 labels 2,500."
+   ],
+   "card": {
+    "title": "A bill of materials for zobo",
+    "rows": [
+     [
+      "Hibiscus, 1.5 kg",
+      "4,500"
+     ],
+     [
+      "Sugar, 4 kg",
+      "7,200"
+     ],
+     [
+      "Ginger, 0.5 kg",
+      "1,000"
+     ],
+     [
+      "100 bottles with caps",
+      "6,000"
+     ],
+     [
+      "100 printed labels",
+      "2,500"
+     ]
+    ],
+    "note": "Naira prices are illustrative and approximate."
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "That is 21,200 naira per batch, or 212 naira per bottle.",
+    "Sugar and bottles together are about 62% of her material cost, so a problem with either one hits her harder than a problem with ginger."
+   ],
+   "card": {
+    "title": "A bill of materials for zobo",
+    "rows": [
+     [
+      "Hibiscus, 1.5 kg",
+      "4,500"
+     ],
+     [
+      "Sugar, 4 kg",
+      "7,200"
+     ],
+     [
+      "Ginger, 0.5 kg",
+      "1,000"
+     ],
+     [
+      "100 bottles with caps",
+      "6,000"
+     ],
+     [
+      "100 printed labels",
+      "2,500"
+     ]
+    ],
+    "note": "Naira prices are illustrative and approximate."
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Your tier 1 supplier is the person you pay directly."
+   ],
+   "panel": {
+    "kicker": "Step two",
+    "heading": "Trace each material through its tiers",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Tier 1",
+      "d": "The person you pay directly, for example a trader at the main market."
+     },
+     {
+      "t": "Tier 2",
+      "d": "Who supplies your trader, for example a wholesaler or factory distributor."
+     },
+     {
+      "t": "Tier 3",
+      "d": "The farm, the processor or the foreign manufacturer."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Tier 2 is who supplies that trader, such as a wholesaler."
+   ],
+   "panel": {
+    "kicker": "Step two",
+    "heading": "Trace each material through its tiers",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Tier 1",
+      "d": "The person you pay directly, for example a trader at the main market."
+     },
+     {
+      "t": "Tier 2",
+      "d": "Who supplies your trader, for example a wholesaler or factory distributor."
+     },
+     {
+      "t": "Tier 3",
+      "d": "The farm, the processor or the foreign manufacturer."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Tier 3 may be the farm or the factory. You rarely control them, but a problem there reaches you days or weeks later.",
+    "So ask your trader where it comes from. Amaka learned her bottles come from one distributor of a single factory."
+   ],
+   "panel": {
+    "kicker": "Step two",
+    "heading": "Trace each material through its tiers",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Tier 1",
+      "d": "The person you pay directly, for example a trader at the main market."
+     },
+     {
+      "t": "Tier 2",
+      "d": "Who supplies your trader, for example a wholesaler or factory distributor."
+     },
+     {
+      "t": "Tier 3",
+      "d": "The farm, the processor or the foreign manufacturer."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "A material is critical if you cannot produce without it and cannot quickly swap it. Ask three questions. Can I make the product without it?"
+   ],
+   "panel": {
+    "kicker": "Step three",
+    "heading": "Is this material critical?",
+    "items": [
+     "Can I make the product without it?",
+     "Can I switch source within one week?",
+     "Would customers notice a change?",
+     "Circle any branch with only one supplier"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Can I switch to another source within one week? Amaka cannot: her labels and caps fit only her bottle."
+   ],
+   "panel": {
+    "kicker": "Step three",
+    "heading": "Is this material critical?",
+    "items": [
+     "Can I make the product without it?",
+     "Can I switch source within one week?",
+     "Would customers notice a change?",
+     "Circle any branch with only one supplier"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Would customers notice a change? If yes, a substitute carries quality risk."
+   ],
+   "panel": {
+    "kicker": "Step three",
+    "heading": "Is this material critical?",
+    "items": [
+     "Can I make the product without it?",
+     "Can I switch source within one week?",
+     "Would customers notice a change?",
+     "Circle any branch with only one supplier"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "One supplier whose absence would stop production is a single point of failure. If only your printer holds your label design, the fix is free: keep your own copy and share it with a second printer."
+   ],
+   "panel": {
+    "kicker": "Step three",
+    "heading": "Is this material critical?",
+    "items": [
+     "Can I make the product without it?",
+     "Can I switch source within one week?",
+     "Would customers notice a change?",
+     "Circle any branch with only one supplier"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "First rank materials by yearly spend. This is ABC analysis. In Bisi's uniform workshop, two fabrics out of eight materials carry 75% of her spend.",
+    "Then add supply risk, using the Kraljic matrix."
+   ],
+   "panel": {
+    "kicker": "Rank by value and risk",
+    "heading": "Four boxes for your materials",
+    "items": [
+     "Strategic: partner, backup, safety stock",
+     "Leverage: compare quotes, negotiate",
+     "Bottleneck: extra stock or second source",
+     "Non-critical: keep buying simple"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Strategic items have big spend and few good sources, like Bisi's school-colour check fabric. Build a close relationship, and approve a backup before a crisis."
+   ],
+   "panel": {
+    "kicker": "Rank by value and risk",
+    "heading": "Four boxes for your materials",
+    "items": [
+     "Strategic: partner, backup, safety stock",
+     "Leverage: compare quotes, negotiate",
+     "Bottleneck: extra stock or second source",
+     "Non-critical: keep buying simple"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Leverage items have big spend but many suppliers, like white shirting. Compare quotes and negotiate."
+   ],
+   "panel": {
+    "kicker": "Rank by value and risk",
+    "heading": "Four boxes for your materials",
+    "items": [
+     "Strategic: partner, backup, safety stock",
+     "Leverage: compare quotes, negotiate",
+     "Bottleneck: extra stock or second source",
+     "Non-critical: keep buying simple"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "grain_sacks",
+   "say": [
+    "Bottleneck items are cheap but hard to get, like zips in the one colour the school demands. Running out stops delivery, so hold extra stock or find a second source."
+   ],
+   "panel": {
+    "kicker": "Rank by value and risk",
+    "heading": "Four boxes for your materials",
+    "items": [
+     "Strategic: partner, backup, safety stock",
+     "Leverage: compare quotes, negotiate",
+     "Bottleneck: extra stock or second source",
+     "Non-critical: keep buying simple"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "grain_sacks",
+   "say": [
+    "Non-critical items, like thread, need as little thinking time as possible."
+   ],
+   "panel": {
+    "kicker": "Rank by value and risk",
+    "heading": "Four boxes for your materials",
+    "items": [
+     "Strategic: partner, backup, safety stock",
+     "Leverage: compare quotes, negotiate",
+     "Bottleneck: extra stock or second source",
+     "Non-critical: keep buying simple"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "globe_export",
+   "say": [
+    "Good shea butter means something different to every trader. A specification is a short written description of exactly what you accept.",
+    "For example, Funke writes: unrefined shea butter, for cosmetic use."
+   ],
+   "panel": {
+    "kicker": "Specifications",
+    "heading": "Write a spec you can actually check",
+    "items": [
+     "Name, type and grade",
+     "Appearance, smell and feel",
+     "Packaging and labelling",
+     "Keep a reference sample",
+     "Trial: measure the waste"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "globe_export",
+   "say": [
+    "Ivory to pale yellow, smooth, no sand or water drops. Mild, nutty smell. Reject if sour or rancid."
+   ],
+   "panel": {
+    "kicker": "Specifications",
+    "heading": "Write a spec you can actually check",
+    "items": [
+     "Name, type and grade",
+     "Appearance, smell and feel",
+     "Packaging and labelling",
+     "Keep a reference sample",
+     "Trial: measure the waste"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Clean, sealed buckets with the packing date on the lid. And she keeps one 250 g jar from an approved delivery as the standard."
+   ],
+   "panel": {
+    "kicker": "Specifications",
+    "heading": "Write a spec you can actually check",
+    "items": [
+     "Name, type and grade",
+     "Appearance, smell and feel",
+     "Packaging and labelling",
+     "Keep a reference sample",
+     "Trial: measure the waste"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "For a new supplier, she melts and strains 1 kg. The new butter left 100 g of grit, or 10% waste. Her approved supplier's was about 1%.",
+    "Use checks you can really do: look, smell, weigh, measure, or a small test batch."
+   ],
+   "panel": {
+    "kicker": "Specifications",
+    "heading": "Write a spec you can actually check",
+    "items": [
+     "Name, type and grade",
+     "Appearance, smell and feel",
+     "Packaging and labelling",
+     "Keep a reference sample",
+     "Trial: measure the waste"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Approve a new supplier only after a small trial.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "If you buy chemicals such as caustic soda or acids, accept only the original sealed, labelled container, with a safety data sheet where possible.",
+    "Never accept a chemical in an unlabelled water bottle. Store chemicals away from food and out of children's reach.",
+    "Scammers pose as suppliers online. Start with a small trial, pay into an account whose name matches the business, and keep the receipt."
+   ],
+   "panel": {
+    "kicker": "Safety first",
+    "heading": "Safe buying rules",
+    "items": [
+     "Chemicals: original sealed, labelled container",
+     "Ask for a safety data sheet where possible",
+     "Store chemicals away from food and children",
+     "New supplier: small trial order first",
+     "Pay only to an account matching the business",
+     "Keep every transfer receipt"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "To remember. Your bill of materials shows where your money goes. Many shortages start at tier 2 or 3. One supplier is a single point of failure.",
+    "Strategic items need a tested backup. And a written spec makes quality checkable."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "Your BOM shows where the money goes",
+     "Many shortages start at tier 2 or 3",
+     "One supplier means a single point of failure",
+     "Strategic items need a tested backup",
+     "A written spec makes quality checkable"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Now practise. Write a bill of materials and supply map for your best-selling product, rank your materials, and write one spec with your sourcing rules.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice task",
+    "heading": "Your practice tasks",
+    "items": [
+     "Map one product's supply chain",
+     "Rank your materials",
+     "Write one spec and your sourcing rules"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

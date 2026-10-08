@@ -1,0 +1,485 @@
+{
+ "course": "agribusiness-and-market-access",
+ "module": "m1",
+ "title": "Où va votre argent : chaînes de valeur, canaux et coûts réels",
+ "course_title": "Agroalimentaire et accès au marché : classez, stockez et vendez vos produits à un meilleur prix",
+ "shots": [
+  {
+   "demo": "soil_bed",
+   "say": [
+    "Où va votre argent : chaînes de valeur, canaux de marché et vos coûts réels.",
+    "Ceci est la vidéo du premier module de l'agro-industrie et de l'accès aux marchés."
+   ]
+  },
+  {
+   "demo": "sun_drying",
+   "say": [
+    "Chaque récolte que vous vendez parcourt une route avant que quelqu’un ne la mange. Cette route, avec tous ses habitants, s'appelle la chaîne de valeur. Cela commence avec vous, l'agriculteur."
+   ],
+   "panel": {
+    "kicker": "La chaîne de valeur",
+    "heading": "Le chemin parcouru par votre récolte",
+    "items": [
+     "Agriculteur : culture, récoltes, premier tri",
+     "Agrégateur : rassemble un camion",
+     "Grossiste : achète en gros en ville",
+     "Transformateur ou détaillant",
+     "Consommateur : l'achète et le mange"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "sun_drying",
+   "say": [
+    "Un agrégateur, parfois appelé intermédiaire, achète de petites quantités à de nombreux agriculteurs et les rassemble dans un camion."
+   ],
+   "panel": {
+    "kicker": "La chaîne de valeur",
+    "heading": "Le chemin parcouru par votre récolte",
+    "items": [
+     "Agriculteur : culture, récoltes, premier tri",
+     "Agrégateur : rassemble un camion",
+     "Grossiste : achète en gros en ville",
+     "Transformateur ou détaillant",
+     "Consommateur : l'achète et le mange"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "grain_sacks",
+   "say": [
+    "Un grossiste achète en gros sur un grand marché."
+   ],
+   "panel": {
+    "kicker": "La chaîne de valeur",
+    "heading": "Le chemin parcouru par votre récolte",
+    "items": [
+     "Agriculteur : culture, récoltes, premier tri",
+     "Agrégateur : rassemble un camion",
+     "Grossiste : achète en gros en ville",
+     "Transformateur ou détaillant",
+     "Consommateur : l'achète et le mange"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "grain_sacks",
+   "say": [
+    "Puis un transformateur ou un détaillant, et enfin le foyer qui le consomme. À chaque étape, quelqu’un ajoute du travail et des risques, et le prix augmente."
+   ],
+   "panel": {
+    "kicker": "La chaîne de valeur",
+    "heading": "Le chemin parcouru par votre récolte",
+    "items": [
+     "Agriculteur : culture, récoltes, premier tri",
+     "Agrégateur : rassemble un camion",
+     "Grossiste : achète en gros en ville",
+     "Transformateur ou détaillant",
+     "Consommateur : l'achète et le mange"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "seedling_tray",
+   "say": [
+    "L’intermédiaire vole-t-il simplement la différence ? Regardons. Ce sont des chiffres illustratifs pour montrer la méthode, et non les prix actuels."
+   ],
+   "card": {
+    "title": "Où va l'argent sur 40 paniers",
+    "rows": [],
+    "note": "Prix indicatifs, pas les prix d'aujourd'hui."
+   }
+  },
+  {
+   "demo": "seedling_tray",
+   "say": [
+    "Hauwa reçoit 12 000 nairas par panier, soit 480 000 nairas au total."
+   ],
+   "card": {
+    "title": "Où va l'argent sur 40 paniers",
+    "rows": [
+     [
+      "Hauwa est payé, 40 paniers",
+      "480,000"
+     ]
+    ],
+    "note": "Prix indicatifs, pas les prix d'aujourd'hui."
+   }
+  },
+  {
+   "demo": "seedling_tray",
+   "say": [
+    "L'agrégateur paie environ 120 000 nairas de plus pour le transport, le chargement et les taxes."
+   ],
+   "card": {
+    "title": "Où va l'argent sur 40 paniers",
+    "rows": [
+     [
+      "Hauwa est payé, 40 paniers",
+      "480,000"
+     ],
+     [
+      "Transport, prélèvements, chargement",
+      "120,000"
+     ]
+    ],
+    "note": "Prix indicatifs, pas les prix d'aujourd'hui."
+   }
+  },
+  {
+   "demo": "water_tank",
+   "say": [
+    "En chemin, 6 paniers sont écrasés ou se gâtent sous la chaleur. Il n'en vend que 34, à 22 000 naira pièce, pour 748 000 naira."
+   ],
+   "card": {
+    "title": "Où va l'argent sur 40 paniers",
+    "rows": [
+     [
+      "Hauwa est payé, 40 paniers",
+      "480,000"
+     ],
+     [
+      "Transport, prélèvements, chargement",
+      "120,000"
+     ],
+     [
+      "Il vend 34 paniers (6 spoil)",
+      "748,000"
+     ]
+    ],
+    "note": "Prix indicatifs, pas les prix d'aujourd'hui."
+   }
+  },
+  {
+   "demo": "water_tank",
+   "say": [
+    "Sa marge est de 148 000 nairas, avant son heure et son risque. L’essentiel du déficit est donc dû au transport, aux prélèvements et aux paniers perdus. Les meilleurs leviers de Hauwa sont la réduction des pertes, le tri de meilleurs produits et la vente en gros avec d'autres."
+   ],
+   "card": {
+    "title": "Où va l'argent sur 40 paniers",
+    "rows": [
+     [
+      "Hauwa est payé, 40 paniers",
+      "480,000"
+     ],
+     [
+      "Transport, prélèvements, chargement",
+      "120,000"
+     ],
+     [
+      "Il vend 34 paniers (6 spoil)",
+      "748,000"
+     ]
+    ],
+    "note": "Prix indicatifs, pas les prix d'aujourd'hui."
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Choisissez la culture qui vous rapporte le plus d'argent. Écrivez qui l'a acheté la saison dernière, l'unité et le prix que vous avez reçu."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Cartographiez votre propre chaîne avec des prix réels",
+    "items": [
+     "Choisissez votre principale culture monétaire",
+     "Écrivez l'acheteur, l'unité et le prix de la saison dernière",
+     "Demandez où vont les produits ensuite",
+     "Obtenez le prix à l'étape suivante",
+     "Notez les coûts intermédiaires, puis dessinez-les"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Demandez poliment à cet acheteur où il va ensuite. Ensuite, appelez quelqu'un à cette étape, ou votre bureau d'extension ADP de l'État, et demandez-lui ce qu'il paie pour la même unité et la même qualité."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Cartographiez votre propre chaîne avec des prix réels",
+    "items": [
+     "Choisissez votre principale culture monétaire",
+     "Écrivez l'acheteur, l'unité et le prix de la saison dernière",
+     "Demandez où vont les produits ensuite",
+     "Obtenez le prix à l'étape suivante",
+     "Notez les coûts intermédiaires, puis dessinez-les"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Notez les frais intermédiaires : transport, prélèvements, sacs, pertes. Dessinez ensuite la chaîne avec un prix sous chaque personne."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Cartographiez votre propre chaîne avec des prix réels",
+    "items": [
+     "Choisissez votre principale culture monétaire",
+     "Écrivez l'acheteur, l'unité et le prix de la saison dernière",
+     "Demandez où vont les produits ensuite",
+     "Obtenez le prix à l'étape suivante",
+     "Notez les coûts intermédiaires, puis dessinez-les"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Les prix agricoles changent de semaine en semaine, alors écrivez toujours la date."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Cartographiez votre propre chaîne avec des prix réels",
+    "items": [
+     "Choisissez votre principale culture monétaire",
+     "Écrivez l'acheteur, l'unité et le prix de la saison dernière",
+     "Demandez où vont les produits ensuite",
+     "Obtenez le prix à l'étape suivante",
+     "Notez les coûts intermédiaires, puis dessinez-les"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Écrivez la date à côté de chaque prix que vous collectez.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "soil_bed",
+   "say": [
+    "Ne comparez jamais le prix proposé. Comparez le prix net, ce que vous conservez après transport, les prélèvements, le chargement et les produits refusés."
+   ],
+   "card": {
+    "title": "Trois offres pour 20 sacs de maïs",
+    "rows": [],
+    "note": "Prix indicatifs et non actuels du marché."
+   }
+  },
+  {
+   "demo": "soil_bed",
+   "say": [
+    "L'offre à la ferme de 55 000 nairas le sac est gratuite. La bénédiction conserve 1 100 000 naira."
+   ],
+   "card": {
+    "title": "Trois offres pour 20 sacs de maïs",
+    "rows": [
+     [
+      "À la ferme, total net",
+      "1,100,000"
+     ]
+    ],
+    "note": "Prix indicatifs et non actuels du marché."
+   }
+  },
+  {
+   "demo": "produce_crates",
+   "say": [
+    "Le marché hebdomadaire rapporte 62 000 euros, mais la vente coûte 2 000 euros le sac. Elle garde 1 200 000 naira, avec de l'argent liquide le jour même."
+   ],
+   "card": {
+    "title": "Trois offres pour 20 sacs de maïs",
+    "rows": [
+     [
+      "À la ferme, total net",
+      "1,100,000"
+     ],
+     [
+      "Marché hebdomadaire, total net",
+      "1,200,000"
+     ]
+    ],
+    "note": "Prix indicatifs et non actuels du marché."
+   }
+  },
+  {
+   "demo": "produce_crates",
+   "say": [
+    "La meunerie paie 66 000 euros, moins 3 000 euros de transport. Elle rejette 2 sacs mouillés, qu'elle revend plus tard à moindre coût. Elle conserve toujours le montant le plus élevé, soit 1 234 000 nairas. Mais le paiement intervient 14 jours plus tard.",
+    "Si les frais de scolarité doivent être payés demain, le marché hebdomadaire lui conviendra peut-être mieux."
+   ],
+   "card": {
+    "title": "Trois offres pour 20 sacs de maïs",
+    "rows": [
+     [
+      "À la ferme, total net",
+      "1,100,000"
+     ],
+     [
+      "Marché hebdomadaire, total net",
+      "1,200,000"
+     ],
+     [
+      "Meunerie, filet (2 rejetés)",
+      "1,234,000"
+     ]
+    ],
+    "note": "Prix indicatifs et non actuels du marché."
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Lorsque vous vendez à un nouvel acheteur, convenez comment et quand vous serez payé avant que quoi que ce soit ne soit chargé. Regardez la pesée et demandez ce qui arrive aux produits qu'ils rejettent.",
+    "Ne libérez pas de produits en raison d'une alerte de crédit SMS ou d'une capture d'écran. Les fausses alertes sont une astuce courante. Ouvrez votre propre banque ou application d'argent mobile et confirmez que l'argent est arrivé."
+   ],
+   "panel": {
+    "kicker": "Protégez votre argent",
+    "heading": "Avant de charger un nouvel acheteur",
+    "items": [
+     "Acceptez les conditions de paiement avant de charger",
+     "Regardez la pesée",
+     "Demandez ce qui arrive aux rejets",
+     "Ne faites jamais confiance à une alerte SMS ou à une capture d'écran",
+     "Vérifiez votre propre banque ou application d'argent mobile"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "sun_drying",
+   "say": [
+    "Vous ne pouvez pas savoir si un prix est bon si vous ne savez pas ce que vous a coûté la récolte. Comptez tout : la terre, les labours, les semences, les engrais, la main d'œuvre salariée, les jours de votre propre famille, les bombardements, les sacs et le transport."
+   ],
+   "card": {
+    "title": "Coût d'Amina par sac de maïs",
+    "rows": [],
+    "note": "Chiffres illustratifs. Utilisez vos propres enregistrements."
+   }
+  },
+  {
+   "demo": "sun_drying",
+   "say": [
+    "La saison d'Amina coûte 850 000 naira."
+   ],
+   "card": {
+    "title": "Coût d'Amina par sac de maïs",
+    "rows": [
+     [
+      "Tous les frais pour la saison",
+      "850,000"
+     ]
+    ],
+    "note": "Chiffres illustratifs. Utilisez vos propres enregistrements."
+   }
+  },
+  {
+   "demo": "grain_sacks",
+   "say": [
+    "Elle divise par ses 25 sacs. Son coût est de 34 000 nairas le sac."
+   ],
+   "card": {
+    "title": "Coût d'Amina par sac de maïs",
+    "rows": [
+     [
+      "Tous les frais pour la saison",
+      "850,000"
+     ],
+     [
+      "Coût par sac (÷ 25 sacs)",
+      "34,000"
+     ]
+    ],
+    "note": "Chiffres illustratifs. Utilisez vos propres enregistrements."
+   }
+  },
+  {
+   "demo": "grain_sacks",
+   "say": [
+    "Pour une marge de 20 %, elle multiplie par 1,20. Son minimum est de 40 800 nairas le sac. Désormais, lorsqu'un commerçant propose 38 000, il sait qu'il couvre les coûts mais rate son objectif."
+   ],
+   "card": {
+    "title": "Coût d'Amina par sac de maïs",
+    "rows": [
+     [
+      "Tous les frais pour la saison",
+      "850,000"
+     ],
+     [
+      "Coût par sac (÷ 25 sacs)",
+      "34,000"
+     ],
+     [
+      "Prix minimum, marge de 20%",
+      "40,800"
+     ]
+    ],
+    "note": "Chiffres illustratifs. Utilisez vos propres enregistrements."
+   }
+  },
+  {
+   "demo": "seedling_tray",
+   "say": [
+    "À retenir. Une grande partie de l’écart de prix est due au transport, aux prélèvements et aux pertes. Cartographiez votre chaîne avec des prix datés. Comparez le prix net, jamais le prix proposé.",
+    "Confirmez le paiement dans votre propre application avant de charger. Et connaissez votre coût unitaire, car chaque décision en dépend.",
+    "L’erreur courante est d’oublier le travail familial, la terre et les sacs."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Une grande partie de l’écart de prix est due au transport et aux pertes",
+     "Cartographiez votre chaîne avec des prix datés",
+     "Comparez le prix net, le prix jamais proposé",
+     "Confirmez le paiement dans votre propre application",
+     "Le coût unitaire détermine votre prix minimum"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "water_tank",
+   "say": [
+    "Maintenant, entraînez-vous. Cartographiez une chaîne de valeur avec des prix datés. Comparez le prix net de deux chaînes. Créez votre feuille de coûts et effectuez le contrôle de préparation. Entourez vos deux éléments les plus faibles.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâches d'entraînement",
+    "heading": "Vos tâches pratiques",
+    "items": [
+     "Cartographier une chaîne de valeur avec des prix datés",
+     "Comparez deux canaux sur papier",
+     "Construisez votre feuille de coûts",
+     "Faites le contrôle de préparation"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}
