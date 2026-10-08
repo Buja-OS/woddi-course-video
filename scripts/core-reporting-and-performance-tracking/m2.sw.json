@@ -1,0 +1,590 @@
+{
+ "course": "core-reporting-and-performance-tracking",
+ "module": "m2",
+ "title": "Jenga, fanya muhtasari na uangalie laha yako ya ufuatiliaji",
+ "course_title": "Kuripoti na Ufuatiliaji wa Utendaji",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Unda, fanya muhtasari na uangalie laha yako ya ufuatiliaji katika Majedwali ya Google.",
+    "Hii ndiyo video ya moduli ya 2 ya Kuripoti na Ufuatiliaji wa Utendaji."
+   ]
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Majedwali ya Google ni programu isiyolipishwa ya lahajedwali inayofanya kazi kwenye simu yako. Kanuni ya dhahabu ni safu moja kwa kila rekodi. Kila safu ni tukio moja, kama ofa moja. Kila safu huwa na aina moja ya taarifa, kama vile tarehe au kipengee.",
+    "Tumia orodha kunjuzi, ili WhatsApp iandikwe vivyo hivyo kila wakati, na uweke jumla kwenye kichupo tofauti cha Muhtasari."
+   ],
+   "panel": {
+    "kicker": "Kanuni ya dhahabu",
+    "heading": "Safu mlalo moja kwa kila rekodi",
+    "mode": "compare",
+    "left_h": "Fanya",
+    "left": [
+     "Safu moja kwa kila mauzo au tukio",
+     "Safu moja kwa kila aina ya maelezo",
+     "Kunjuzi kwa kategoria",
+     "Jumla kwenye kichupo tofauti cha Muhtasari"
+    ],
+    "right_h": "Epuka",
+    "right": [
+     "Safu tupu kati ya wiki",
+     "Visanduku vilivyounganishwa",
+     "Jumla zilizoandikwa ndani ya data",
+     "Kuandika ishara ya naira katika nambari"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Epuka safu mlalo tupu, visanduku vilivyounganishwa na jumla zilizoandikwa katikati ya data yako. Na chapa nambari pekee, bila ishara ya naira. Tabia hizi rahisi ndizo zinazoruhusu fomula na chati kufanya kazi baadaye."
+   ],
+   "panel": {
+    "kicker": "Kanuni ya dhahabu",
+    "heading": "Safu mlalo moja kwa kila rekodi",
+    "mode": "compare",
+    "left_h": "Fanya",
+    "left": [
+     "Safu moja kwa kila mauzo au tukio",
+     "Safu moja kwa kila aina ya maelezo",
+     "Kunjuzi kwa kategoria",
+     "Jumla kwenye kichupo tofauti cha Muhtasari"
+    ],
+    "right_h": "Epuka",
+    "right": [
+     "Safu tupu kati ya wiki",
+     "Visanduku vilivyounganishwa",
+     "Jumla zilizoandikwa ndani ya data",
+     "Kuandika ishara ya naira katika nambari"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Rekodi kila mauzo mara tu inapotokea. Kuingia kwa wiki nzima kutoka kwa kumbukumbu Jumapili usiku husababisha kukosa mauzo."
+   ],
+   "card": {
+    "title": "Safu tatu za kwanza za Bisi",
+    "rows": [],
+    "note": "Kiasi = wingi x bei ya kitengo, kwa fomula."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Bisi huandika kiasi na bei, na fomula hujumuisha kila kiasi: naira 7,500, 6,000 na 3,000. Safu yake ya Kulipia ni menyu kunjuzi ya Ndiyo au Hapana."
+   ],
+   "card": {
+    "title": "Safu tatu za kwanza za Bisi",
+    "rows": [
+     [
+      "Sanduku 3 za mikate ya nyama, iliyolipwa",
+      "7,500"
+     ],
+     [
+      "2 kg kidevu kidevu, kulipwa",
+      "6,000"
+     ],
+     [
+      "Kidevu cha kilo 1, bado hakijalipwa",
+      "3,000"
+     ]
+    ],
+    "note": "Kiasi = wingi x bei ya kitengo, kwa fomula."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Aliuza naira 16,500 siku hiyo. 13,500 inalipwa, na 3,000 bado inadaiwa. Sasa anaweza kuhesabu kwa urahisi maagizo ambayo hayajalipwa na kufuatilia."
+   ],
+   "card": {
+    "title": "Safu tatu za kwanza za Bisi",
+    "rows": [
+     [
+      "Sanduku 3 za mikate ya nyama, iliyolipwa",
+      "7,500"
+     ],
+     [
+      "2 kg kidevu kidevu, kulipwa",
+      "6,000"
+     ],
+     [
+      "Kidevu cha kilo 1, bado hakijalipwa",
+      "3,000"
+     ]
+    ],
+    "note": "Kiasi = wingi x bei ya kitengo, kwa fomula."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Fomula kila mara huanza na ishara ya usawa, na hujikokotoa yenyewe unapoongeza data."
+   ],
+   "panel": {
+    "kicker": "Fomula za muhtasari",
+    "heading": "Njia sita utatumia zaidi",
+    "items": [
+     "SUM: huongeza nambari zote",
+     "WASTANI: hupata wastani",
+     "COUNTA: huhesabu seli zilizojaa",
+     "COUNTIF: huhesabu visanduku vinavyolingana",
+     "SUMIF: inaongeza safu mlalo zinazolingana pekee",
+     "Asilimia ya mabadiliko: mpya bala, juu ya zamani"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "SUM huongeza mauzo yako. WASTANI hupata mauzo ya wastani. COUNTA huhesabu ni safu mlalo ngapi unazo."
+   ],
+   "panel": {
+    "kicker": "Fomula za muhtasari",
+    "heading": "Njia sita utatumia zaidi",
+    "items": [
+     "SUM: huongeza nambari zote",
+     "WASTANI: hupata wastani",
+     "COUNTA: huhesabu seli zilizojaa",
+     "COUNTIF: huhesabu visanduku vinavyolingana",
+     "SUMIF: inaongeza safu mlalo zinazolingana pekee",
+     "Asilimia ya mabadiliko: mpya bala, juu ya zamani"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Hesabu COUNTIF zinazolingana na seli, kama vile maagizo yaliyowekwa alama ya Hapana kwa ambayo hayajalipwa. SUMIF huongeza safu mlalo zinazolingana pekee, kama vile mauzo ya WhatsApp."
+   ],
+   "panel": {
+    "kicker": "Fomula za muhtasari",
+    "heading": "Njia sita utatumia zaidi",
+    "items": [
+     "SUM: huongeza nambari zote",
+     "WASTANI: hupata wastani",
+     "COUNTA: huhesabu seli zilizojaa",
+     "COUNTIF: huhesabu visanduku vinavyolingana",
+     "SUMIF: inaongeza safu mlalo zinazolingana pekee",
+     "Asilimia ya mabadiliko: mpya bala, juu ya zamani"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Na mabadiliko ya asilimia ni takwimu mpya ukiondoa ya zamani, iliyogawanywa na ya zamani."
+   ],
+   "panel": {
+    "kicker": "Fomula za muhtasari",
+    "heading": "Njia sita utatumia zaidi",
+    "items": [
+     "SUM: huongeza nambari zote",
+     "WASTANI: hupata wastani",
+     "COUNTA: huhesabu seli zilizojaa",
+     "COUNTIF: huhesabu visanduku vinavyolingana",
+     "SUMIF: inaongeza safu mlalo zinazolingana pekee",
+     "Asilimia ya mabadiliko: mpya bala, juu ya zamani"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Mwishoni mwa Machi, SUM ya Bisi inaonyesha mauzo ya naira 280,000."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Muhtasari wa Machi wa Bisi",
+    "items": [
+     "Jumla ya mauzo: naira 280,000",
+     "WhatsApp 142,000, Tembea 98,000, Instagram 40,000",
+     "Kuongezeka kwa 12% mnamo Februari 250,000",
+     "280,000 kati ya lengo la 300,000: 93.3%",
+     "Amri 5 zisizolipwa za kufukuza"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "SUMIF yake inaigawanya kwa chaneli: 142,000 kwenye WhatsApp, 98,000 za kutembea na 40,000 kwenye Instagram."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Muhtasari wa Machi wa Bisi",
+    "items": [
+     "Jumla ya mauzo: naira 280,000",
+     "WhatsApp 142,000, Tembea 98,000, Instagram 40,000",
+     "Kuongezeka kwa 12% mnamo Februari 250,000",
+     "280,000 kati ya lengo la 300,000: 93.3%",
+     "Amri 5 zisizolipwa za kufukuza"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Hizi zinaongeza hadi 280,000, ambayo inathibitisha kuwa hakuna kinachokosekana."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Muhtasari wa Machi wa Bisi",
+    "items": [
+     "Jumla ya mauzo: naira 280,000",
+     "WhatsApp 142,000, Tembea 98,000, Instagram 40,000",
+     "Kuongezeka kwa 12% mnamo Februari 250,000",
+     "280,000 kati ya lengo la 300,000: 93.3%",
+     "Amri 5 zisizolipwa za kufukuza"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "rule": "Hakikisha kuwa jumla ya kategoria imeongezwa hadi jumla ya jumla.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Februari ilikuwa 250,000. 280,000 toa 250,000, ikigawanywa na 250,000, ni 12%."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Muhtasari wa Machi wa Bisi",
+    "items": [
+     "Jumla ya mauzo: naira 280,000",
+     "WhatsApp 142,000, Tembea 98,000, Instagram 40,000",
+     "Kuongezeka kwa 12% mnamo Februari 250,000",
+     "280,000 kati ya lengo la 300,000: 93.3%",
+     "Amri 5 zisizolipwa za kufukuza"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Hakikisha kuwa jumla ya kategoria imeongezwa hadi jumla ya jumla.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Lengo lake lilikuwa 300,000, hivyo alifikia 93.3% ya lengo."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Muhtasari wa Machi wa Bisi",
+    "items": [
+     "Jumla ya mauzo: naira 280,000",
+     "WhatsApp 142,000, Tembea 98,000, Instagram 40,000",
+     "Kuongezeka kwa 12% mnamo Februari 250,000",
+     "280,000 kati ya lengo la 300,000: 93.3%",
+     "Amri 5 zisizolipwa za kufukuza"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Hakikisha kuwa jumla ya kategoria imeongezwa hadi jumla ya jumla.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Na COUNTIF inaonyesha maagizo 5 bado hayajalipwa. Hayo ni madeni ya kufukuzia."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Muhtasari wa Machi wa Bisi",
+    "items": [
+     "Jumla ya mauzo: naira 280,000",
+     "WhatsApp 142,000, Tembea 98,000, Instagram 40,000",
+     "Kuongezeka kwa 12% mnamo Februari 250,000",
+     "280,000 kati ya lengo la 300,000: 93.3%",
+     "Amri 5 zisizolipwa za kufukuza"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Hakikisha kuwa jumla ya kategoria imeongezwa hadi jumla ya jumla.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Wakati nambari tayari ni asilimia, kuwa mwangalifu. Ikiwa ubadilishaji utaongezeka kutoka 20% hadi 25%, kutoa kunatoa asilimia 5 ya pointi."
+   ],
+   "panel": {
+    "kicker": "Makosa ya kawaida",
+    "heading": "Uongofu uliongezeka kutoka 20% hadi 25%",
+    "mode": "compare",
+    "left_h": "Asilimia pointi",
+    "left": [
+     "Ondoa: 25 minus 20",
+     "Imeongezeka kwa asilimia 5"
+    ],
+    "right_h": "Mabadiliko ya asilimia",
+    "right": [
+     "Gawanya: 5 kwa 20",
+     "Ongezeko la 25%."
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Kugawanya 5 kwa 20 kunatoa ongezeko la 25%. Wote wawili ni sahihi, lakini tofauti sana.",
+    "Tabia salama ni kuandika: hadi asilimia 5, kutoka 20% hadi 25%. Kisha msomaji anaona mabadiliko ya kweli."
+   ],
+   "panel": {
+    "kicker": "Makosa ya kawaida",
+    "heading": "Uongofu uliongezeka kutoka 20% hadi 25%",
+    "mode": "compare",
+    "left_h": "Asilimia pointi",
+    "left": [
+     "Ondoa: 25 minus 20",
+     "Imeongezeka kwa asilimia 5"
+    ],
+    "right_h": "Mabadiliko ya asilimia",
+    "right": [
+     "Gawanya: 5 kwa 20",
+     "Ongezeko la 25%."
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Safu mlalo moja iliyorudiwa, au bei iliyoandikwa kwa sufuri ya ziada, inaweza kubadilisha mwezi dhaifu kuwa bora kwenye karatasi. Kwa hivyo angalia kila wiki. Kwanza, washa kichujio."
+   ],
+   "panel": {
+    "kicker": "Cheki ya kila wiki",
+    "heading": "Ukaguzi wako wa data wa kila wiki wa dakika 10",
+    "items": [
+     "Washa kichujio",
+     "Panga kiasi kikubwa kwanza; angalia juu",
+     "Chuja maagizo ambayo hayajalipwa na ufuatilie",
+     "Linganisha jumla ya malipo na programu yako ya benki",
+     "Rekebisha makosa na uyazingatie na tarehe"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Panga safu wima kutoka kubwa hadi ndogo zaidi. 25000 kweli 2500?"
+   ],
+   "panel": {
+    "kicker": "Cheki ya kila wiki",
+    "heading": "Ukaguzi wako wa data wa kila wiki wa dakika 10",
+    "items": [
+     "Washa kichujio",
+     "Panga kiasi kikubwa kwanza; angalia juu",
+     "Chuja maagizo ambayo hayajalipwa na ufuatilie",
+     "Linganisha jumla ya malipo na programu yako ya benki",
+     "Rekebisha makosa na uyazingatie na tarehe"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Chuja maagizo ambayo hayajalipwa na ufuatilie."
+   ],
+   "panel": {
+    "kicker": "Cheki ya kila wiki",
+    "heading": "Ukaguzi wako wa data wa kila wiki wa dakika 10",
+    "items": [
+     "Washa kichujio",
+     "Panga kiasi kikubwa kwanza; angalia juu",
+     "Chuja maagizo ambayo hayajalipwa na ufuatilie",
+     "Linganisha jumla ya malipo na programu yako ya benki",
+     "Rekebisha makosa na uyazingatie na tarehe"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Linganisha jumla ya malipo ya wiki na historia yako ya benki, Opay au Moniepoint."
+   ],
+   "panel": {
+    "kicker": "Cheki ya kila wiki",
+    "heading": "Ukaguzi wako wa data wa kila wiki wa dakika 10",
+    "items": [
+     "Washa kichujio",
+     "Panga kiasi kikubwa kwanza; angalia juu",
+     "Chuja maagizo ambayo hayajalipwa na ufuatilie",
+     "Linganisha jumla ya malipo na programu yako ya benki",
+     "Rekebisha makosa na uyazingatie na tarehe"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Rekebisha hitilafu zozote, na uandike ulichobadilisha kwenye kichupo cha Vidokezo na tarehe. Usiwahi kubuni nambari ili kujaza pengo."
+   ],
+   "panel": {
+    "kicker": "Cheki ya kila wiki",
+    "heading": "Ukaguzi wako wa data wa kila wiki wa dakika 10",
+    "items": [
+     "Washa kichujio",
+     "Panga kiasi kikubwa kwanza; angalia juu",
+     "Chuja maagizo ambayo hayajalipwa na ufuatilie",
+     "Linganisha jumla ya malipo na programu yako ya benki",
+     "Rekebisha makosa na uyazingatie na tarehe"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Kupatanisha kunamaanisha kuangalia laha yako dhidi ya rekodi zako za pesa."
+   ],
+   "card": {
+    "title": "Bisi anapatana na programu yake ya malipo",
+    "rows": [],
+    "note": "Tofauti: agizo moja la simu halijaingia."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Programu yake inaonyesha naira 68,500 zikiingia. Laha yake inaonyesha 63,500 pekee."
+   ],
+   "card": {
+    "title": "Bisi anapatana na programu yake ya malipo",
+    "rows": [
+     [
+      "Moniepoint: uhamisho unaoingia",
+      "68,500"
+     ],
+     [
+      "Laha: uhamisho unaolipwa",
+      "63,500"
+     ]
+    ],
+    "note": "Tofauti: agizo moja la simu halijaingia."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Tofauti ni 5,000 naira. Anapata agizo la simu ambalo halijaingizwa kamwe, anaiongeza, na anabainisha masahihisho.",
+    "Ikiwa pesa za kibinafsi zitaingia kwenye akaunti sawa, weka akaunti tofauti ya biashara, au uweke alama waziwazi ili zisihesabiwe kuwa mauzo."
+   ],
+   "card": {
+    "title": "Bisi anapatana na programu yake ya malipo",
+    "rows": [
+     [
+      "Moniepoint: uhamisho unaoingia",
+      "68,500"
+     ],
+     [
+      "Laha: uhamisho unaolipwa",
+      "63,500"
+     ]
+    ],
+    "note": "Tofauti: agizo moja la simu halijaingia."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Kukumbuka. Safu mlalo moja kwa kila tukio. Tumia menyu kunjuzi, na uandike nambari bila ishara ya naira. Wacha fomula zihesabu. Kuwa wazi kuhusu asilimia ya pointi. Na angalia data yako kila wiki dhidi ya programu yako ya benki, ukizingatia kila masahihisho."
+   ],
+   "panel": {
+    "kicker": "Pointi muhimu",
+    "heading": "Kumbuka",
+    "items": [
+     "Safu mlalo moja kwa kila tukio, safu wima moja kwa kila undani",
+     "Kunjuzi huweka tahajia sawa",
+     "SUM, COUNTIF, SUMIF na mabadiliko ya asilimia",
+     "Sema asilimia ya pointi za viwango",
+     "Angalia kila wiki na upatanishe na programu yako ya benki"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Sasa fanya mazoezi. Unda kichupo chako cha Data kwa vichwa wazi, menyu kunjuzi na rekodi tano halisi. Ongeza kichupo cha Muhtasari chenye jumla na maendeleo dhidi ya lengo lako. Kisha endesha ukaguzi wako wa kwanza wa data na uanze kichupo chako cha Vidokezo.",
+    "Endelea na masomo hapa chini."
+   ],
+   "panel": {
+    "kicker": "Mazoezi ya kazi",
+    "heading": "Mazoezi yako katika moduli hii",
+    "items": [
+     "Tengeneza laha yako ya ufuatiliaji",
+     "Unda kichupo chako cha Muhtasari",
+     "Tekeleza ukaguzi wako wa kwanza wa data"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

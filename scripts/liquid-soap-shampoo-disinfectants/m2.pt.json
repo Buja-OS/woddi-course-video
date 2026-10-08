@@ -1,0 +1,265 @@
+{
+ "course": "liquid-soap-shampoo-disinfectants",
+ "module": "m2",
+ "title": "Sabonete de mãos e detergente da loiça por percentagem",
+ "shots": [
+  {
+   "demo": "title_liquid",
+   "say": [
+    "Sabonete Líquido para as Mãos e Detergente da Loiça por Fórmula de Percentagem. Este é o módulo 2 do curso.",
+    "Hoje vai misturar um sabonete de mãos suave no balde, engrossá-lo sem o estragar, e escolher um detergente da loiça contando pratos de verdade."
+   ]
+  },
+  {
+   "demo": "scale_weigh",
+   "label": "Pesar por percentagem",
+   "card": {
+    "title": "Fórmula inicial do sabonete de mãos",
+    "rows": [
+     [
+      "Água",
+      "78.7%"
+     ],
+     [
+      "SLES, 70% activo",
+      "12.0%"
+     ],
+     [
+      "CAPB, 30% activo",
+      "5.0%"
+     ],
+     [
+      "Glicerina",
+      "2.0%"
+     ],
+     [
+      "Sal (cloreto de sódio)",
+      "1.0%, definido por teste"
+     ],
+     [
+      "Conservante",
+      "0.8%"
+     ]
+    ],
+    "note": "Mais EDTA 0.1%, perfume 0.4%, ácido cítrico se preciso"
+   },
+   "say": [
+    "Tudo o que vê a ir para esta balança é pesado como percentagem do lote.",
+    "Assim, a mesma ficha serve para um teste de 2 quilos ou para um lote de 200 quilos. É só multiplicar.",
+    "Esta é uma fórmula inicial para lotes de teste. A matéria activa dá 9.9%, um nível moderado para as mãos."
+   ]
+  },
+  {
+   "demo": "costing_desk",
+   "card": {
+    "title": "Lote de 10 kg da Chiamaka",
+    "rows": [
+     [
+      "SLES 12%",
+      "1,200 g"
+     ],
+     [
+      "CAPB 5%",
+      "500 g"
+     ],
+     [
+      "Glicerina 2%",
+      "200 g"
+     ],
+     [
+      "Sal 1%",
+      "100 g"
+     ],
+     [
+      "Água 78.7%",
+      "7,870 g"
+     ],
+     [
+      "Total de controlo",
+      "10,000 g"
+     ]
+    ],
+    "note": "EDTA 10 g, conservante 80 g, perfume 40 g"
+   },
+   "say": [
+    "A Chiamaka, em Enugu, queria 10 quilos, cerca de 20 frascos de 500 mililitros. Multiplicou cada percentagem por 10,000 gramas e dividiu por 100.",
+    "Depois somou todas as linhas para confirmar que dava exactamente 10,000 gramas, e marcou cada peso à medida que entrava."
+   ]
+  },
+  {
+   "demo": "ppe_set",
+   "label": "Luvas e óculos",
+   "say": [
+    "Luvas e óculos postos antes de abrir a pasta de SLES ou o óleo perfumado. Os dois podem irritar a pele e os olhos."
+   ]
+  },
+  {
+   "demo": "bucket_mix",
+   "step": 1,
+   "label": "Água, EDTA, depois a pasta de SLES",
+   "say": [
+    "Aqui está o bidão limpo. Pese a água, guarde cerca de 10% para mais tarde, e misture o EDTA até dissolver.",
+    "Agora a pasta de SLES entra aos bocados, enquanto a pá se move devagar. Mexa com calma para não meter ar.",
+    "Quando estiver lisa e sem grumos, junte o CAPB e a glicerina e mexa até ficar uniforme."
+   ]
+  },
+  {
+   "demo": "additives_tray",
+   "step": 2,
+   "label": "Perfume pré-misturado com CAPB",
+   "say": [
+    "Veja o conta-gotas. Misture primeiro o perfume com um pouco de CAPB, para o sabonete de mãos não ficar turvo.",
+    "Depois junte o conservante e a cor, se quiser."
+   ]
+  },
+  {
+   "demo": "ph_test",
+   "step": 3,
+   "label": "pH medido após 15 minutos",
+   "say": [
+    "Deixe repousar 15 minutos e depois mergulhe uma tira. O objectivo é cerca de 5.5 a 6.5.",
+    "Se estiver alto, baixe-o com solução de ácido cítrico, primeiro numa amostra, tal como aprendeu no módulo 1."
+   ]
+  },
+  {
+   "demo": "scale_weigh",
+   "label": "Quatro amostras de 200 g",
+   "card": {
+    "title": "Teste do sal da Ruth, passo a passo",
+    "rows": [
+     [
+      "0.5% de sal (1 g)",
+      "4 segundos"
+     ],
+     [
+      "1.0% de sal (2 g)",
+      "9 segundos"
+     ],
+     [
+      "1.5% de sal (3 g)",
+      "21 segundos"
+     ],
+     [
+      "2.0% de sal (4 g)",
+      "14 segundos"
+     ],
+     [
+      "Para 20 kg a 1.5%",
+      "300 g de sal"
+     ]
+    ],
+    "note": "Tempo a escorrer da seringa, da marca 50 ml à 10 ml"
+   },
+   "say": [
+    "O sal engrossa até um pico, e depois o líquido volta a ficar ralo, e o sal já não se pode tirar.",
+    "Por isso a Ruth, em Jos, pesou quatro amostras de 200 gramas e pôs uma quantidade diferente de sal em cada uma.",
+    "A espessura subiu até 1.5% e caiu a 2.0%. O pico dela foi à volta de 1.5%, o que cabia na especificação dela, de 15 a 25 segundos."
+   ]
+  },
+  {
+   "demo": "thicken",
+   "step": 4,
+   "label": "Sal juntado como salmoura",
+   "banner": "Sal no fim, depois do pH, aos poucos",
+   "say": [
+    "Agora veja como engrossa. A Ruth dissolveu os 300 gramas de sal em 1,200 gramas da água guardada, para fazer uma salmoura a 20%.",
+    "Deitou-a em três porções, mexendo e testando depois de cada uma. O lote chegou a cerca de 20 segundos sem passar o pico."
+   ]
+  },
+  {
+   "demo": "bottle_fill",
+   "step": 5,
+   "label": "Repouso de uma noite, depois encher",
+   "say": [
+    "Deixe o lote tapado a repousar durante a noite, para as bolhas subirem. Depois compare com a sua especificação e com a sua amostra padrão, e encha.",
+    "Um lote que falha fica retido e é corrigido, nunca vendido só porque está quase bom."
+   ]
+  },
+  {
+   "demo": "costing_desk",
+   "card": {
+    "title": "Teste dos pratos da Zainab, dose 5 ml",
+    "rows": [
+     [
+      "Fórmula A, 15.2% activo",
+      "18 pratos"
+     ],
+     [
+      "Fórmula B, 11.0% activo",
+      "12 pratos"
+     ],
+     [
+      "Marca do mercado",
+      "15 pratos"
+     ],
+     [
+      "A: ₦7.00 por dose",
+      "cerca de ₦0.39 por prato"
+     ],
+     [
+      "B: ₦5.25 por dose",
+      "cerca de ₦0.44 por prato"
+     ]
+    ],
+    "note": "Custos aproximados dela: A ₦1,400/kg, B ₦1,050/kg"
+   },
+   "say": [
+    "O detergente da loiça tem um trabalho mais duro. No caderno, a Zainab, em Kano, testou duas fórmulas da mesma maneira: 2 gramas de óleo em cada prato, 5 litros de água morna, uma dose de 5 mililitros.",
+    "Lavou até a espuma desaparecer e contou os pratos. A fórmula A custava mais por litro mas menos por prato, e foi melhor do que a marca do mercado. Ela escolheu a A."
+   ]
+  },
+  {
+   "demo": "ph_test",
+   "label": "Loiça: pH cerca de 6 a 8",
+   "say": [
+    "Teste também o detergente da loiça. Mantenha-o à volta de 6 a 8, suave para as mãos que ficam muito tempo de molho.",
+    "Nunca junte soda cáustica nem carbonato de sódio para dar mais força. Irrita a pele e pode tirar o brilho às panelas de alumínio."
+   ]
+  },
+  {
+   "demo": "market_stall",
+   "label": "Frascos próprios para detergente",
+   "banner": "Nunca embale detergente em garrafas de bebida",
+   "say": [
+    "Veja estes frascos na banca: frascos próprios para detergente, com rótulo.",
+    "Nunca use garrafas velhas de refrigerante ou de água. Alguém pode beber delas. Imprima \"Manter fora do alcance das crianças\" e a frase de primeiros socorros."
+   ]
+  },
+  {
+   "demo": "additives_tray",
+   "label": "Solução-mãe de corante a 1%",
+   "card": {
+    "title": "Cor pelos números",
+    "rows": [
+     [
+      "Solução-mãe a 1%",
+      "1 g de corante em 99 g de água"
+     ],
+     [
+      "Objectivo em 20 kg",
+      "0.002% de corante"
+     ],
+     [
+      "Corante necessário",
+      "0.4 g"
+     ],
+     [
+      "Solução-mãe a pesar",
+      "40 g"
+     ]
+    ],
+    "note": "Do exemplo do curso"
+   },
+   "say": [
+    "Os corantes cosméticos são muito fortes, por isso faça uma solução-mãe a 1% e use essa para dosear.",
+    "Quando algo corre mal, mude só uma coisa em cada amostra de teste e escreva-a."
+   ]
+  },
+  {
+   "demo": "outro_bottles",
+   "say": [
+    "Agora veja as lições abaixo. Faça o seu lote de teste de 2 quilos, faça o seu próprio teste dos pratos, e desenhe a sua curva do sal. Os seus números vão dizer-lhe o que funciona."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,499 @@
+{
+ "course": "api-fundamentals",
+ "module": "m2",
+ "title": "Test safely, guard your keys, plan for failure",
+ "course_title": "API Fundamentals",
+ "shots": [
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Test safely, guard your keys, and plan for failure.",
+    "This is the video for module two of API Fundamentals."
+   ]
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "A browser address bar can only send GET requests, and it hides the headers. To test real APIs you need an API client, a tool where you pick the method, URL, headers and body, and see the full response."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "One success is only the start",
+    "items": [
+     "Use a proper API client",
+     "Read the documentation first",
+     "Prove the flow in test mode",
+     "Plan for errors, pages and repeats"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Real API work starts with a need, such as: we want to know automatically when a customer has paid. You read the documentation, then test safely before anything goes live."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "One success is only the start",
+    "items": [
+     "Use a proper API client",
+     "Read the documentation first",
+     "Prove the flow in test mode",
+     "Plan for errors, pages and repeats"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "And a dependable integration behaves sensibly when things go wrong."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "One success is only the start",
+    "items": [
+     "Use a proper API client",
+     "Read the documentation first",
+     "Prove the flow in test mode",
+     "Plan for errors, pages and repeats"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Many learners start with Hoppscotch on a phone. It is free and light on data."
+   ],
+   "panel": {
+    "kicker": "Your toolkit",
+    "heading": "Hoppscotch or Postman?",
+    "mode": "compare",
+    "left_h": "Hoppscotch",
+    "left": [
+     "Runs in any browser, even a phone",
+     "Free, no install",
+     "Light on data"
+    ],
+    "right_h": "Postman",
+    "right": [
+     "Desktop app or web",
+     "Saves collections, shares with a team",
+     "Large download on mobile data"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Postman suits saved collections and teams on a laptop.",
+    "Also learn to read curl, because most documentation shows examples that way. Dash H adds a header, dash d is the body, and dash X sets the method.",
+    "Practise on fake APIs like JSONPlaceholder, which only pretends to save. Never experiment with DELETE on a real business account."
+   ],
+   "panel": {
+    "kicker": "Your toolkit",
+    "heading": "Hoppscotch or Postman?",
+    "mode": "compare",
+    "left_h": "Hoppscotch",
+    "left": [
+     "Runs in any browser, even a phone",
+     "Free, no install",
+     "Light on data"
+    ],
+    "right_h": "Postman",
+    "right": [
+     "Desktop app or web",
+     "Saves collections, shares with a team",
+     "Large download on mobile data"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Good documentation answers the same questions every time. Find the base URL, where every endpoint starts. Then how you prove who you are. Most APIs take a key in the Authorization header as a Bearer token."
+   ],
+   "panel": {
+    "kicker": "Reading the docs",
+    "heading": "Find these before you send",
+    "items": [
+     "Base URL",
+     "Authentication: where the key goes",
+     "Endpoints, fields and sample responses",
+     "Units, such as money in kobo",
+     "Test mode or sandbox",
+     "Errors, rate limits and pages"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Note each endpoint's method, path and required fields, and the units, such as money in kobo."
+   ],
+   "panel": {
+    "kicker": "Reading the docs",
+    "heading": "Find these before you send",
+    "items": [
+     "Base URL",
+     "Authentication: where the key goes",
+     "Endpoints, fields and sample responses",
+     "Units, such as money in kobo",
+     "Test mode or sandbox",
+     "Errors, rate limits and pages"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Find the test mode, where nothing real happens, and the error format, rate limits and page sizes.",
+    "Skipping the documentation or the test step is where most failed integrations begin."
+   ],
+   "panel": {
+    "kicker": "Reading the docs",
+    "heading": "Find these before you send",
+    "items": [
+     "Base URL",
+     "Authentication: where the key goes",
+     "Endpoints, fields and sample responses",
+     "Units, such as money in kobo",
+     "Test mode or sandbox",
+     "Errors, rate limits and pages"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "For example, Ruth sells adire fabric in Abeokuta and wants a payment link for a 15,000 naira order. Her developer gives her the Paystack test key in Postman. Nothing in test mode moves real money."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Ruth's test payment, end to end",
+    "items": [
+     "Need: a 15,000 naira payment link",
+     "Convert: 15,000 x 100 = 1,500,000 kobo",
+     "POST with Bearer test key and JSON body",
+     "Open the link, complete test checkout",
+     "Verify: status, currency NGN, amount"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "The amount goes in kobo, so 15,000 times 100 is 1,500,000."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Ruth's test payment, end to end",
+    "items": [
+     "Need: a 15,000 naira payment link",
+     "Convert: 15,000 x 100 = 1,500,000 kobo",
+     "POST with Bearer test key and JSON body",
+     "Open the link, complete test checkout",
+     "Verify: status, currency NGN, amount"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "She sends a POST to the initialize endpoint, with the test key in the Authorization header and the email and amount in the body."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Ruth's test payment, end to end",
+    "items": [
+     "Need: a 15,000 naira payment link",
+     "Convert: 15,000 x 100 = 1,500,000 kobo",
+     "POST with Bearer test key and JSON body",
+     "Open the link, complete test checkout",
+     "Verify: status, currency NGN, amount"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_social",
+   "say": [
+    "The response holds a checkout link and a reference. She completes the test checkout."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Ruth's test payment, end to end",
+    "items": [
+     "Need: a 15,000 naira payment link",
+     "Convert: 15,000 x 100 = 1,500,000 kobo",
+     "POST with Bearer test key and JSON body",
+     "Open the link, complete test checkout",
+     "Verify: status, currency NGN, amount"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_social",
+   "say": [
+    "Then she verifies with the reference: status success, currency NGN, and an amount that divides back to 15,000 naira. Only now will her developer switch to live keys."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Ruth's test payment, end to end",
+    "items": [
+     "Need: a 15,000 naira payment link",
+     "Convert: 15,000 x 100 = 1,500,000 kobo",
+     "POST with Bearer test key and JSON body",
+     "Open the link, complete test checkout",
+     "Verify: status, currency NGN, amount"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Check amount and currency, not only the word success.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "A secret key can act on the whole account, including money. Keep it on the server only, never in app code users download. Never send it on WhatsApp or email, or paste it into AI chats, screenshots or shared documents. Keep it out of GitHub.",
+    "If a key may have leaked, generate a new one at once, which stops the old one working."
+   ],
+   "panel": {
+    "kicker": "Safety",
+    "heading": "Treat a secret key like your bank PIN",
+    "items": [
+     "Keep it on the server side only",
+     "Never on WhatsApp, email or AI chats",
+     "Never in screenshots or shared documents",
+     "Keep it out of code on GitHub",
+     "If it may have leaked, generate a new one"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "First, rate limits. A 429 means too many requests. Wait as long as the Retry-After header says. For temporary server errors, wait and double the wait each time. Never automatically retry a POST that moves money."
+   ],
+   "panel": {
+    "kicker": "Testing for failure",
+    "heading": "Three things that go wrong",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "429 Too Many Requests",
+      "d": "Wait as long as Retry-After says. 3,600 seconds is one hour. For 5xx, back off: 1, 2, 4, 8 seconds."
+     },
+     {
+      "t": "Lists come in pages",
+      "d": "230 records at 50 per page is 5 pages. Count the total against a second source."
+     },
+     {
+      "t": "Webhooks arrive twice",
+      "d": "Check the signature, reply 200 OK fast, skip repeats, verify before delivering."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Second, pages. Grace in Kaduna needed 230 transactions at 50 per page, so 5 pages. Had she stopped at page 1, 180 would have been missing."
+   ],
+   "panel": {
+    "kicker": "Testing for failure",
+    "heading": "Three things that go wrong",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "429 Too Many Requests",
+      "d": "Wait as long as Retry-After says. 3,600 seconds is one hour. For 5xx, back off: 1, 2, 4, 8 seconds."
+     },
+     {
+      "t": "Lists come in pages",
+      "d": "230 records at 50 per page is 5 pages. Count the total against a second source."
+     },
+     {
+      "t": "Webhooks arrive twice",
+      "d": "Check the signature, reply 200 OK fast, skip repeats, verify before delivering."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Third, webhooks, where the provider calls your URL when something happens, such as a payment. Check the signature, reply 200 OK at once, and expect the same event more than once.",
+    "Never release goods on a screenshot or an unverified webhook. Scammers send fake alerts."
+   ],
+   "panel": {
+    "kicker": "Testing for failure",
+    "heading": "Three things that go wrong",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "429 Too Many Requests",
+      "d": "Wait as long as Retry-After says. 3,600 seconds is one hour. For 5xx, back off: 1, 2, 4, 8 seconds."
+     },
+     {
+      "t": "Lists come in pages",
+      "d": "230 records at 50 per page is 5 pages. Count the total against a second source."
+     },
+     {
+      "t": "Webhooks arrive twice",
+      "d": "Check the signature, reply 200 OK fast, skip repeats, verify before delivering."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "APIs change, keys expire, and the builder moves on. A short run sheet lets someone else keep it working. Record the business need, its owner, and the exact documentation pages."
+   ],
+   "panel": {
+    "kicker": "Hand it on",
+    "heading": "The API run sheet",
+    "items": [
+     "Purpose and owner",
+     "Provider, base URL and docs links",
+     "Endpoints, fields and units",
+     "Where keys are stored, never the keys",
+     "Errors, limits, tests and contacts"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "List each endpoint with its units. Record where keys are stored and who can access them, but never the keys themselves."
+   ],
+   "panel": {
+    "kicker": "Hand it on",
+    "heading": "The API run sheet",
+    "items": [
+     "Purpose and owner",
+     "Provider, base URL and docs links",
+     "Endpoints, fields and units",
+     "Where keys are stored, never the keys",
+     "Errors, limits, tests and contacts"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Finish with error rules, test results with dates, and who to contact."
+   ],
+   "panel": {
+    "kicker": "Hand it on",
+    "heading": "The API run sheet",
+    "items": [
+     "Purpose and owner",
+     "Provider, base URL and docs links",
+     "Endpoints, fields and units",
+     "Where keys are stored, never the keys",
+     "Errors, limits, tests and contacts"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "To remember. Practise on fake APIs and in test mode. Verify amount and currency. Keep secret keys on the server, and replace any that leak. Respect Retry-After, and count every page."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "Practise on fake APIs and test mode",
+     "Verify amount and currency, not just success",
+     "Secret keys stay server-side",
+     "Respect Retry-After; count every page"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Now run and record four practice requests, write a one-page API fact sheet, and write a test plan and run sheet.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice tasks",
+    "heading": "Your practice tasks",
+    "items": [
+     "Run and record four practice requests",
+     "Write a one-page API fact sheet",
+     "Write a test plan and run sheet"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

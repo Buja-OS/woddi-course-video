@@ -1,0 +1,628 @@
+{
+ "course": "core-data-literacy",
+ "module": "m3",
+ "title": "Clean data, honest claims and the metrics that matter",
+ "course_title": "Data Literacy: Spreadsheets, Charts and Business Metrics",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Clean data, honest claims, and the metrics that matter.",
+    "This is the video for module 3 of Data Literacy."
+   ]
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Real data is rarely clean. People type quickly, two people record the same sale, a zero gets added by mistake. One wrong row can change a total or a decision."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Numbers must be accurate and honest",
+    "items": [
+     "One wrong row can change a decision",
+     "Accurate data can still be used badly",
+     "High sales can still mean losing money"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Data can also be accurate but used badly: exposing private details, or pushing the reader to a wrong conclusion."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Numbers must be accurate and honest",
+    "items": [
+     "One wrong row can change a decision",
+     "Accurate data can still be used badly",
+     "High sales can still mean losing money"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "And many small businesses track only sales. In this module you learn the numbers that show whether you are really making money."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Numbers must be accurate and honest",
+    "items": [
+     "One wrong row can change a decision",
+     "Accurate data can still be used badly",
+     "High sales can still mean losing money"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Jos North, jos north, and Jos North with two spaces become three groups in your summary. TRIM removes extra spaces and PROPER fixes the capitals."
+   ],
+   "panel": {
+    "kicker": "Find and fix",
+    "heading": "Common problems and their tools",
+    "items": [
+     "Extra spaces and capitals: =PROPER(TRIM(B2))",
+     "Duplicates: a COUNTIF helper column",
+     "Blanks: =COUNTBLANK, then check receipts",
+     "Text numbers like 5k: retype as plain numbers",
+     "Typos: check =MAX and =MIN on every column"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "A COUNTIF helper column shows TRUE for any receipt number that appears more than once."
+   ],
+   "panel": {
+    "kicker": "Find and fix",
+    "heading": "Common problems and their tools",
+    "items": [
+     "Extra spaces and capitals: =PROPER(TRIM(B2))",
+     "Duplicates: a COUNTIF helper column",
+     "Blanks: =COUNTBLANK, then check receipts",
+     "Text numbers like 5k: retype as plain numbers",
+     "Typos: check =MAX and =MIN on every column"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "COUNTBLANK tells you how many cells are empty. And numbers typed as text are left out of SUM."
+   ],
+   "panel": {
+    "kicker": "Find and fix",
+    "heading": "Common problems and their tools",
+    "items": [
+     "Extra spaces and capitals: =PROPER(TRIM(B2))",
+     "Duplicates: a COUNTIF helper column",
+     "Blanks: =COUNTBLANK, then check receipts",
+     "Text numbers like 5k: retype as plain numbers",
+     "Typos: check =MAX and =MIN on every column"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Check the largest and smallest values. A 500,000 naira contribution in a group where most pay 5,000 needs checking against the receipt."
+   ],
+   "panel": {
+    "kicker": "Find and fix",
+    "heading": "Common problems and their tools",
+    "items": [
+     "Extra spaces and capitals: =PROPER(TRIM(B2))",
+     "Duplicates: a COUNTIF helper column",
+     "Blanks: =COUNTBLANK, then check receipts",
+     "Text numbers like 5k: retype as plain numbers",
+     "Typos: check =MAX and =MIN on every column"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Grace receives a 60-row September list built from three branch WhatsApp reports. The total is 612,000 naira. Five spellings of branch names collapse into three."
+   ],
+   "card": {
+    "title": "Grace cleans a contribution list",
+    "rows": [
+     [
+      "Starting total",
+      "612,000"
+     ]
+    ],
+    "note": "The cleaned total matches the bank statement."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Three 5,000 naira payments were posted twice. She removes 15,000."
+   ],
+   "card": {
+    "title": "Grace cleans a contribution list",
+    "rows": [
+     [
+      "Starting total",
+      "612,000"
+     ],
+     [
+      "Duplicates removed (minus)",
+      "15,000"
+     ]
+    ],
+    "note": "The cleaned total matches the bank statement."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Two amounts were blank. The receipts show both members paid 5,000, so the total rises by 10,000."
+   ],
+   "card": {
+    "title": "Grace cleans a contribution list",
+    "rows": [
+     [
+      "Starting total",
+      "612,000"
+     ],
+     [
+      "Duplicates removed (minus)",
+      "15,000"
+     ],
+     [
+      "Two blanks filled in (plus)",
+      "10,000"
+     ]
+    ],
+    "note": "The cleaned total matches the bank statement."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "One entry says 50,000, but the receipt says 5,000. She corrects it."
+   ],
+   "card": {
+    "title": "Grace cleans a contribution list",
+    "rows": [
+     [
+      "Starting total",
+      "612,000"
+     ],
+     [
+      "Duplicates removed (minus)",
+      "15,000"
+     ],
+     [
+      "Two blanks filled in (plus)",
+      "10,000"
+     ],
+     [
+      "Typo corrected (minus)",
+      "45,000"
+     ]
+    ],
+    "note": "The cleaned total matches the bank statement."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "The new total is 562,000 naira, and it now matches the bank. She records every change in a cleaning log, so the executive can see what was corrected and why."
+   ],
+   "card": {
+    "title": "Grace cleans a contribution list",
+    "rows": [
+     [
+      "Starting total",
+      "612,000"
+     ],
+     [
+      "Duplicates removed (minus)",
+      "15,000"
+     ],
+     [
+      "Two blanks filled in (plus)",
+      "10,000"
+     ],
+     [
+      "Typo corrected (minus)",
+      "45,000"
+     ]
+    ],
+    "note": "The cleaned total matches the bank statement."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Use Data validation to add a dropdown, such as Cash, Transfer and POS. People pick instead of typing, so spelling stays the same. Collect reports through one shared form."
+   ],
+   "panel": {
+    "kicker": "Prevent errors",
+    "heading": "Stop mistakes before they start",
+    "items": [
+     "Dropdowns for every category column",
+     "One shared form instead of mixed reports",
+     "Highlight suspicious values in red",
+     "Paste cleaned columns as values only",
+     "Keep a four-column cleaning log"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Use conditional formatting to colour suspicious amounts. After cleaning with a formula, paste the clean column as values only."
+   ],
+   "panel": {
+    "kicker": "Prevent errors",
+    "heading": "Stop mistakes before they start",
+    "items": [
+     "Dropdowns for every category column",
+     "One shared form instead of mixed reports",
+     "Highlight suspicious values in red",
+     "Paste cleaned columns as values only",
+     "Keep a four-column cleaning log"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Always keep the original raw file untouched, and keep a log: date, record, what was wrong, what you changed."
+   ],
+   "panel": {
+    "kicker": "Prevent errors",
+    "heading": "Stop mistakes before they start",
+    "items": [
+     "Dropdowns for every category column",
+     "One shared form instead of mixed reports",
+     "Highlight suspicious values in red",
+     "Paste cleaned columns as values only",
+     "Keep a four-column cleaning log"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Keep the raw file untouched. Clean a copy.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Ethical data work protects people. Collect only what you need, and say at the top of a survey what the answers are for."
+   ],
+   "panel": {
+    "kicker": "Protect people",
+    "heading": "Privacy before sharing",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Collect the minimum",
+      "d": "Counting who attended? You do not need home addresses."
+     },
+     {
+      "t": "Anonymise",
+      "d": "Codes like P01 instead of names, no phone numbers, and no screenshots of member lists."
+     },
+     {
+      "t": "Watch small groups",
+      "d": "1 widow in Ward 3 may identify her. Combine small groups or report more broadly."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Replace names with codes before sharing. A screenshot posted in a large WhatsApp group can be forwarded anywhere within minutes."
+   ],
+   "panel": {
+    "kicker": "Protect people",
+    "heading": "Privacy before sharing",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Collect the minimum",
+      "d": "Counting who attended? You do not need home addresses."
+     },
+     {
+      "t": "Anonymise",
+      "d": "Codes like P01 instead of names, no phone numbers, and no screenshots of member lists."
+     },
+     {
+      "t": "Watch small groups",
+      "d": "1 widow in Ward 3 may identify her. Combine small groups or report more broadly."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "And watch very small groups, because a tiny number can point to one real person."
+   ],
+   "panel": {
+    "kicker": "Protect people",
+    "heading": "Privacy before sharing",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Collect the minimum",
+      "d": "Counting who attended? You do not need home addresses."
+     },
+     {
+      "t": "Anonymise",
+      "d": "Codes like P01 instead of names, no phone numbers, and no screenshots of member lists."
+     },
+     {
+      "t": "Watch small groups",
+      "d": "1 widow in Ward 3 may identify her. Combine small groups or report more broadly."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "For example, a women's group in Enugu has 120 members. The coordinator sends a Google Forms link, and 48 reply. 36 of them choose Saturday for training."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Who is missing from the survey?",
+    "items": [
+     "48 of 120 members replied: a 40% response rate",
+     "36 of the 48 chose Saturday: 75%",
+     "Older members with basic phones were missing",
+     "Leaders collect the missing answers by phone"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "But almost no older members replied, because many use basic phones without data. This is sampling bias.",
+    "So she reports: 75% of the 48 members who replied online prefer Saturday, and we are collecting the other answers before deciding."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Who is missing from the survey?",
+    "items": [
+     "48 of 120 members replied: a 40% response rate",
+     "36 of the 48 chose Saturday: 75%",
+     "Older members with basic phones were missing",
+     "Leaders collect the missing answers by phone"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Be suspicious of these. And remember, correlation is not causation. Zobo and fan sales rise together because of hot weather, not because one causes the other.",
+    "Promises of fixed, high monthly returns are a classic Ponzi warning sign. Check registration with the Securities and Exchange Commission Nigeria before paying."
+   ],
+   "panel": {
+    "kicker": "Spot the trick",
+    "heading": "Misleading numbers to watch for",
+    "items": [
+     "Cut-off axes that exaggerate change",
+     "Only the best months shown",
+     "Up 100% may mean from 2 to 4 orders",
+     "Averages that hide spread",
+     "Steady high returns promised: check SEC"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "High sales do not guarantee profit. Ada's figures are illustrative."
+   ],
+   "card": {
+    "title": "Was Ada's September profitable?",
+    "rows": [],
+    "note": "Illustrative figures. Total is net profit."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Revenue minus cost of goods sold is gross profit: 110,000 naira. Divide by revenue and times 100, and her gross margin is 27.5%."
+   ],
+   "card": {
+    "title": "Was Ada's September profitable?",
+    "rows": [
+     [
+      "Revenue, 220 sales",
+      "400,000"
+     ],
+     [
+      "Cost of goods sold",
+      "290,000"
+     ],
+     [
+      "Gross profit",
+      "110,000"
+     ]
+    ],
+    "note": "Illustrative figures. Total is net profit."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "After 20,000 naira of running costs, her net profit is 90,000, a net margin of 22.5%.",
+    "If her supplier raises prices and she does not adjust, she will see it first in a falling gross margin."
+   ],
+   "card": {
+    "title": "Was Ada's September profitable?",
+    "rows": [
+     [
+      "Revenue, 220 sales",
+      "400,000"
+     ],
+     [
+      "Cost of goods sold",
+      "290,000"
+     ],
+     [
+      "Gross profit",
+      "110,000"
+     ],
+     [
+      "Running costs",
+      "20,000"
+     ]
+    ],
+    "note": "Illustrative figures. Total is net profit."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Break-even is where you cover all costs. A trader has fixed costs of 20,000 naira a month. Each bucket of garri leaves 500 naira, so 20,000 divided by 500 is 40 buckets."
+   ],
+   "panel": {
+    "kicker": "Break-even",
+    "heading": "How many buckets must she sell?",
+    "mode": "compare",
+    "left_h": "Garri cost ₦2,000",
+    "left": [
+     "Sells at ₦2,500",
+     "₦500 left from each bucket",
+     "Break-even: 40 buckets"
+    ],
+    "right_h": "Garri cost ₦2,200",
+    "right": [
+     "Still sells at ₦2,500",
+     "Only ₦300 left from each",
+     "Break-even: about 67 buckets"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "If the cost rises to 2,200, each bucket leaves only 300, and she needs about 67 buckets. That is why tracking costs matters as much as tracking sales."
+   ],
+   "panel": {
+    "kicker": "Break-even",
+    "heading": "How many buckets must she sell?",
+    "mode": "compare",
+    "left_h": "Garri cost ₦2,000",
+    "left": [
+     "Sells at ₦2,500",
+     "₦500 left from each bucket",
+     "Break-even: 40 buckets"
+    ],
+    "right_h": "Garri cost ₦2,200",
+    "right": [
+     "Still sells at ₦2,500",
+     "Only ₦300 left from each",
+     "Break-even: about 67 buckets"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "To remember. Clean before you count. Protect people and report honestly. And track 3 to 5 key numbers every week, including margin, not only sales."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "Check totals, blanks, duplicates and extremes",
+     "Anonymise, and ask who could not respond",
+     "Correlation is a clue, not proof",
+     "Gross margin = gross profit ÷ revenue × 100",
+     "Track 3 to 5 KPIs weekly against targets"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Your turn. Clean a real list, make one report safe and honest, and work out your own core metrics.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice tasks",
+    "heading": "Your practice tasks",
+    "items": [
+     "Clean a real list of 30 rows, with a log",
+     "Anonymise a report and note who is missing",
+     "Calculate your own margins and break-even",
+     "Set up a dashboard with three KPIs"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

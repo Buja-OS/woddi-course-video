@@ -1,0 +1,544 @@
+{
+ "course": "cybersecurity-fundamentals",
+ "module": "m2",
+ "title": "Lock accounts down, back up, and handle a hacked email",
+ "course_title": "Cybersecurity Fundamentals",
+ "shots": [
+  {
+   "demo": "security_lock",
+   "say": [
+    "Lock accounts down, back up, and handle a hacked email.",
+    "This is the video for module 2 of Cybersecurity Fundamentals."
+   ]
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Three cheap tools do most of the protective work: a password manager, multi-factor authentication, which we call MFA, and well set up devices."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Protect first, then be ready",
+    "items": [
+     "Password manager, MFA, safe devices",
+     "Backups you have actually tested",
+     "A playbook for the bad day",
+     "One log that records everything"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Backups are your answer to ransomware, theft and mistakes, but only if you test them."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Protect first, then be ready",
+    "items": [
+     "Password manager, MFA, safe devices",
+     "Backups you have actually tested",
+     "A playbook for the bad day",
+     "One log that records everything"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_security",
+   "say": [
+    "And because stressed people make poor decisions, you write the incident steps before anything goes wrong, and record every action in a log."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Protect first, then be ready",
+    "items": [
+     "Password manager, MFA, safe devices",
+     "Backups you have actually tested",
+     "A playbook for the bad day",
+     "One log that records everything"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "For example, Chiamaka is choosing a master password. Imagine an attacker who can try 10 billion guesses a second. This speed is illustrative.",
+    "8 random lowercase letters fall in about 21 seconds."
+   ],
+   "panel": {
+    "kicker": "The arithmetic",
+    "heading": "Why length beats cleverness",
+    "items": [
+     "8 random letters: about 21 seconds",
+     "4 random words: roughly 4 days",
+     "5 random words: roughly 90 years",
+     "Each extra word multiplies work by 7,776"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "4 random words from the EFF wordlist take roughly 4 days."
+   ],
+   "panel": {
+    "kicker": "The arithmetic",
+    "heading": "Why length beats cleverness",
+    "items": [
+     "8 random letters: about 21 seconds",
+     "4 random words: roughly 4 days",
+     "5 random words: roughly 90 years",
+     "Each extra word multiplies work by 7,776"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "5 random words take roughly 90 years."
+   ],
+   "panel": {
+    "kicker": "The arithmetic",
+    "heading": "Why length beats cleverness",
+    "items": [
+     "8 random letters: about 21 seconds",
+     "4 random words: roughly 4 days",
+     "5 random words: roughly 90 years",
+     "Each extra word multiplies work by 7,776"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Each extra word multiplies the attacker's work by 7,776, far more than adding a symbol. Chiamaka chooses six random words.",
+    "You memorise only that one. The password manager creates a unique password for every other account, so one leak cannot unlock the rest. Reused passwords are the biggest real cause of account takeover."
+   ],
+   "panel": {
+    "kicker": "The arithmetic",
+    "heading": "Why length beats cleverness",
+    "items": [
+     "8 random letters: about 21 seconds",
+     "4 random words: roughly 4 days",
+     "5 random words: roughly 90 years",
+     "Each extra word multiplies work by 7,776"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "A password alone is the weakest. SMS codes are better than nothing, but they can be stolen through SIM swap fraud or tricked out of people on the phone."
+   ],
+   "panel": {
+    "kicker": "Second factors",
+    "heading": "Not all MFA is equal",
+    "mode": "compare",
+    "left_h": "Weaker",
+    "left": [
+     "Password only",
+     "SMS or voice codes"
+    ],
+    "right_h": "Stronger",
+    "right": [
+     "Authenticator app codes",
+     "Passkeys and security keys"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_security",
+   "say": [
+    "Authenticator apps make a six-digit code on the phone itself, changing every 30 seconds. Passkeys and security keys go further: they only work on the real website, so a fake login page gets nothing.",
+    "Use the strongest method each service offers, at least for email, banking and social media admin. Keep recovery codes on paper, locked away."
+   ],
+   "panel": {
+    "kicker": "Second factors",
+    "heading": "Not all MFA is equal",
+    "mode": "compare",
+    "left_h": "Weaker",
+    "left": [
+     "Password only",
+     "SMS or voice codes"
+    ],
+    "right_h": "Stronger",
+    "right": [
+     "Authenticator app codes",
+     "Passkeys and security keys"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "The 3-2-1 rule says keep 3 copies of important data. For example, Hauwa runs IT for a 6-person consultancy in Kano. She keeps the working files, a cloud copy with version history, and an external drive."
+   ],
+   "panel": {
+    "kicker": "Backups",
+    "heading": "The 3-2-1 backup rule",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "3 copies",
+      "d": "Hauwa keeps working files, a cloud copy with version history, and an external drive."
+     },
+     {
+      "t": "2 storage types",
+      "d": "Cloud storage plus a 1 TB external hard drive. She sized the cloud plan for 12 months of growth."
+     },
+     {
+      "t": "1 off-site, offline",
+      "d": "Monthly she copies to the drive, unplugs it and keeps it off-site. Each quarter she tests a restore."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "On 2 types of storage. The folder is 40 gigabytes and grows about 2 a month, so in 12 months it will be 64. She chooses a cloud plan of at least 100."
+   ],
+   "panel": {
+    "kicker": "Backups",
+    "heading": "The 3-2-1 backup rule",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "3 copies",
+      "d": "Hauwa keeps working files, a cloud copy with version history, and an external drive."
+     },
+     {
+      "t": "2 storage types",
+      "d": "Cloud storage plus a 1 TB external hard drive. She sized the cloud plan for 12 months of growth."
+     },
+     {
+      "t": "1 off-site, offline",
+      "d": "Monthly she copies to the drive, unplugs it and keeps it off-site. Each quarter she tests a restore."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "With 1 copy off-site. Ransomware can encrypt any drive left plugged in, so once a month she copies the folder, unplugs the drive and takes it away.",
+    "Every quarter she restores a few files and opens them, and records the date and result. Many teams find out too late that their backup stopped months ago."
+   ],
+   "panel": {
+    "kicker": "Backups",
+    "heading": "The 3-2-1 backup rule",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "3 copies",
+      "d": "Hauwa keeps working files, a cloud copy with version history, and an external drive."
+     },
+     {
+      "t": "2 storage types",
+      "d": "Cloud storage plus a 1 TB external hard drive. She sized the cloud plan for 12 months of growth."
+     },
+     {
+      "t": "1 off-site, offline",
+      "d": "Monthly she copies to the drive, unplugs it and keeps it off-site. Each quarter she tests a restore."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Email takeover is the most common incident, so write this playbook first. Step one. From a clean device, change the password to a new unique one."
+   ],
+   "panel": {
+    "kicker": "Playbook",
+    "heading": "When an email account is hacked",
+    "items": [
+     "From a clean device, change the password",
+     "Sign out all other sessions",
+     "Remove unknown forwarding and filters",
+     "Fix recovery email and phone",
+     "Turn on app or passkey MFA",
+     "Warn contacts and log every action"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Step two. Sign out every other session."
+   ],
+   "panel": {
+    "kicker": "Playbook",
+    "heading": "When an email account is hacked",
+    "items": [
+     "From a clean device, change the password",
+     "Sign out all other sessions",
+     "Remove unknown forwarding and filters",
+     "Fix recovery email and phone",
+     "Turn on app or passkey MFA",
+     "Warn contacts and log every action"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Step three. Check for forwarding addresses, filters and auto-replies the attacker added. Screenshot them first, with date and time, because banks, police and regulators may need them. Then remove them."
+   ],
+   "panel": {
+    "kicker": "Playbook",
+    "heading": "When an email account is hacked",
+    "items": [
+     "From a clean device, change the password",
+     "Sign out all other sessions",
+     "Remove unknown forwarding and filters",
+     "Fix recovery email and phone",
+     "Turn on app or passkey MFA",
+     "Warn contacts and log every action"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Screenshot the evidence before you delete anything.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Step four. Check the recovery email and phone, and correct any changes."
+   ],
+   "panel": {
+    "kicker": "Playbook",
+    "heading": "When an email account is hacked",
+    "items": [
+     "From a clean device, change the password",
+     "Sign out all other sessions",
+     "Remove unknown forwarding and filters",
+     "Fix recovery email and phone",
+     "Turn on app or passkey MFA",
+     "Warn contacts and log every action"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Screenshot the evidence before you delete anything.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Step five. Turn on MFA, preferably an app or passkey, and remove unknown connected apps."
+   ],
+   "panel": {
+    "kicker": "Playbook",
+    "heading": "When an email account is hacked",
+    "items": [
+     "From a clean device, change the password",
+     "Sign out all other sessions",
+     "Remove unknown forwarding and filters",
+     "Fix recovery email and phone",
+     "Turn on app or passkey MFA",
+     "Warn contacts and log every action"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Screenshot the evidence before you delete anything.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Step six. Check the Sent folder, warn contacts who may have received fraud, and record every action with time and name."
+   ],
+   "panel": {
+    "kicker": "Playbook",
+    "heading": "When an email account is hacked",
+    "items": [
+     "From a clean device, change the password",
+     "Sign out all other sessions",
+     "Remove unknown forwarding and filters",
+     "Fix recovery email and phone",
+     "Turn on app or passkey MFA",
+     "Warn contacts and log every action"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "rule": "Screenshot the evidence before you delete anything.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "For example, Ifeoma is volunteer IT lead for a parents' association in Lagos, with a spreadsheet of 420 families. At 14:00 on Tuesday, a committee member says she signed in on a strange page. Ifeoma logs it. That is the moment of awareness."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Ifeoma's 72-hour clock",
+    "items": [
+     "14:00 Tuesday: report logged, clock starts",
+     "14:20: password changed, rule removed",
+     "Family spreadsheet was exposed",
+     "Deadline: Friday 14:00",
+     "NDPC notified Thursday; parents warned"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "By 14:20 she has changed the password, signed out all sessions, and found and removed a forwarding rule, after a screenshot."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Ifeoma's 72-hour clock",
+    "items": [
+     "14:00 Tuesday: report logged, clock starts",
+     "14:20: password changed, rule removed",
+     "Family spreadsheet was exposed",
+     "Deadline: Friday 14:00",
+     "NDPC notified Thursday; parents warned"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "The attacker had opened the family spreadsheet. Phone numbers and children's details could enable targeted scams, so this is a reportable breach."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Ifeoma's 72-hour clock",
+    "items": [
+     "14:00 Tuesday: report logged, clock starts",
+     "14:20: password changed, rule removed",
+     "Family spreadsheet was exposed",
+     "Deadline: Friday 14:00",
+     "NDPC notified Thursday; parents warned"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "72 hours from Tuesday 14:00 is Friday 14:00. She notifies the NDPC on Thursday, and warns parents to ignore calls asking for money or codes."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Ifeoma's 72-hour clock",
+    "items": [
+     "14:00 Tuesday: report logged, clock starts",
+     "14:20: password changed, rule removed",
+     "Family spreadsheet was exposed",
+     "Deadline: Friday 14:00",
+     "NDPC notified Thursday; parents warned"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "To remember. One long passphrase, and unique generated passwords for everything else. App codes and passkeys beat SMS. Keep 3-2-1 backups and test restores.",
+    "In an incident, screenshot the evidence, then contain. And the NDPC's 72-hour clock starts when you become aware."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "One long passphrase, unique passwords elsewhere",
+     "App codes and passkeys beat SMS",
+     "3-2-1 backups, with tested restores",
+     "Screenshot evidence, then contain",
+     "The 72-hour clock starts at awareness"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Your tasks: install and harden your own toolkit, run one hardening cycle with a tested restore, and write your one-page incident plan with a practice run.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice task",
+    "heading": "Your practice tasks",
+    "items": [
+     "Install and harden your own toolkit",
+     "Run one hardening cycle and test a restore",
+     "Write your one-page incident plan"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}
