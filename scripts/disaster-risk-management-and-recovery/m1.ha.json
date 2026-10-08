@@ -1,0 +1,552 @@
+{
+ "course": "disaster-risk-management-and-recovery",
+ "module": "m1",
+ "title": "Fahimtar haɗarin bala'i a inda kuke zama",
+ "course_title": "Gudanar da Hadarin Bala'i da Farfaɗowa",
+ "shots": [
+  {
+   "demo": "water_tank",
+   "say": [
+    "Fahimtar haɗarin bala'i a inda kuke zama.",
+    "Wannan shine bidiyon don ƙirar ɗaya na Gudanar da Hadarin Bala'i da Farfaɗowa."
+   ]
+  },
+  {
+   "demo": "first_aid_kit",
+   "say": [
+    "Ruwan sama mai yawa ba bala'i ba ne. Haɗari ne, lamarin da zai iya haifar da lahani."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Bala'i ba sa'a ba ne kawai",
+    "items": [
+     "Ruwan sama mai yawa haɗari ne",
+     "Bala'i shine lokacin da mutane ba za su iya jurewa ba",
+     "Hakan ya dogara da mutane da halin da suke ciki",
+     "Don haka mutane za su iya rage shi"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "first_aid_kit",
+   "say": [
+    "Hadarin yakan zama bala'i ne kawai idan ya afkawa mutane da dukiyoyin da aka fallasa kuma ba su iya jurewa, don haka rayuwa ta yau da kullun ta lalace."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Bala'i ba sa'a ba ne kawai",
+    "items": [
+     "Ruwan sama mai yawa haɗari ne",
+     "Bala'i shine lokacin da mutane ba za su iya jurewa ba",
+     "Hakan ya dogara da mutane da halin da suke ciki",
+     "Don haka mutane za su iya rage shi"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Idan bala'i ya dogara da mutane da halin da suke ciki, to mutane za su iya rage shi."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Bala'i ba sa'a ba ne kawai",
+    "items": [
+     "Ruwan sama mai yawa haɗari ne",
+     "Bala'i shine lokacin da mutane ba za su iya jurewa ba",
+     "Hakan ya dogara da mutane da halin da suke ciki",
+     "Don haka mutane za su iya rage shi"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "water_tank",
+   "say": [
+    "Hadarin yana girma tare da haɗari, fallasa da rauni, kuma yana raguwa tare da iyawa. Hazard: Me ya faru a baya, kuma sau nawa?"
+   ],
+   "panel": {
+    "kicker": "Tambayoyi hudu",
+    "heading": "Sassa hudu na hadarin bala'i",
+    "items": [
+     "Hazard: Me ya faru a baya?",
+     "Bayyanawa: gidana yana kan hanyarsa?",
+     "Rashin lahani: menene ke cutar da cutar?",
+     "Capacity: tsare-tsaren, tanadi, makwabta"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "water_tank",
+   "say": [
+    "Bayyanawa: Shin gidana, kantina ko gonaki a cikin ƙananan yanki, kusa da bakin kogi ko tashar magudanar ruwa?"
+   ],
+   "panel": {
+    "kicker": "Tambayoyi hudu",
+    "heading": "Sassa hudu na hadarin bala'i",
+    "items": [
+     "Hazard: Me ya faru a baya?",
+     "Bayyanawa: gidana yana kan hanyarsa?",
+     "Rashin lahani: menene ke cutar da cutar?",
+     "Capacity: tsare-tsaren, tanadi, makwabta"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "grain_sacks",
+   "say": [
+    "Rashin lahani: wanene a gidana ba zai iya motsawa da sauri ba? Takaddun nawa da ajiyar kuɗi na cikin sauƙi suna lalacewa?"
+   ],
+   "panel": {
+    "kicker": "Tambayoyi hudu",
+    "heading": "Sassa hudu na hadarin bala'i",
+    "items": [
+     "Hazard: Me ya faru a baya?",
+     "Bayyanawa: gidana yana kan hanyarsa?",
+     "Rashin lahani: menene ke cutar da cutar?",
+     "Capacity: tsare-tsaren, tanadi, makwabta"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "grain_sacks",
+   "say": [
+    "Capacity: shin muna da tsari, kit, wasu tsabar kuɗi da maƙwabta da za mu iya kira?",
+    "Ba za ku iya dakatar da ruwan sama ba, amma kuna iya aiki akan sauran ukun."
+   ],
+   "panel": {
+    "kicker": "Tambayoyi hudu",
+    "heading": "Sassa hudu na hadarin bala'i",
+    "items": [
+     "Hazard: Me ya faru a baya?",
+     "Bayyanawa: gidana yana kan hanyarsa?",
+     "Rashin lahani: menene ke cutar da cutar?",
+     "Capacity: tsare-tsaren, tanadi, makwabta"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Misali, Amina da Grace suna zaune a bakin titi daya. Wata da daddare ruwan sama kamar da bakin kwarya ya mamaye shi har gwiwa.",
+    "Amina tana ajiye kayanta akan pallets da takaddunta a cikin jakar zip akan babban shelf. Tana da tsari da tocila. Ta kashe mains yayin da kasa ke bushewa, kuma dangin suna cikin aminci cikin mintuna 10."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Ruwa iri ɗaya, sakamako biyu",
+    "mode": "compare",
+    "left_h": "Amina",
+    "left": [
+     "Hannun jari akan pallets sama da bene",
+     "Takardu a cikin jakar zip, babban shiryayye",
+     "Shirin, tocila, cajin bankin wuta",
+     "Amintacce a makwabci a cikin mintuna 10"
+    ],
+    "right_h": "Alheri",
+    "right": [
+     "Hannun jari a cikin buhu a ƙasa",
+     "Takardu a cikin ƙaramin aljihun tebur",
+     "Babu shiri, babu tocila",
+     "Takaddun da aka ɓace da yawancin haja"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "solar_panel",
+   "say": [
+    "Grace ta ajiye hannun jarinta da takaddunta, tana bincike cikin duhu, kuma ta rasa yawancinsu.",
+    "Hadarin ya kasance iri daya. Bambancin ya fito ne daga sassan da gida zai iya canzawa."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Ruwa iri ɗaya, sakamako biyu",
+    "mode": "compare",
+    "left_h": "Amina",
+    "left": [
+     "Hannun jari akan pallets sama da bene",
+     "Takardu a cikin jakar zip, babban shiryayye",
+     "Shirin, tocila, cajin bankin wuta",
+     "Amintacce a makwabci a cikin mintuna 10"
+    ],
+    "right_h": "Alheri",
+    "right": [
+     "Hannun jari a cikin buhu a ƙasa",
+     "Takardu a cikin ƙaramin aljihun tebur",
+     "Babu shiri, babu tocila",
+     "Takaddun da aka ɓace da yawancin haja"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Tsarin kula da bala'i yana da matakai huɗu. Ragewar yana rage haɗarin kansa, kamar share magudanun ruwa kafin ruwan sama. Shirye-shiryen yana shirya ku, tare da kit, tsari da rawar jiki."
+   ],
+   "panel": {
+    "kicker": "Zagayewar",
+    "heading": "Yi aiki kafin hadarin ya zo",
+    "items": [
+     "Ragewa: rage haɗari",
+     "Shiri: tsarawa da kayan aiki",
+     "Martani: yi aiki don ceton rayuka",
+     "Farfadowa: sake ginawa mafi aminci"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "soil_bed",
+   "say": [
+    "Amsa shine sa'o'i da kwanaki yayin taron. Farfadowa shine makonni da watanni bayan, sake ginawa da ƙarfi.",
+    "Magudanar ruwa da aka share a watan Afrilu yana ɗaukar awoyi kaɗan na aiki. Gidan da aka yi ambaliya a watan Satumba na iya ɗaukar shekaru na tanadi."
+   ],
+   "panel": {
+    "kicker": "Zagayewar",
+    "heading": "Yi aiki kafin hadarin ya zo",
+    "items": [
+     "Ragewa: rage haɗari",
+     "Shiri: tsarawa da kayan aiki",
+     "Martani: yi aiki don ceton rayuka",
+     "Farfadowa: sake ginawa mafi aminci"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "water_tank",
+   "say": [
+    "Haɗa hasashen hukuma tare da ƙwaƙwalwar gida. NiMet na buga Hasashen Hasashen Yanayi na Yanayi kowace shekara. NIHSA tana buga Fa'idar Ambaliyar Ruwa ta Shekara-shekara tana ba da sunayen ƙananan hukumomin da ke cikin haɗari. Duba ko an jera naku."
+   ],
+   "panel": {
+    "kicker": "Gargadi na hukuma",
+    "heading": "Ku san inda gargaɗin ya fito",
+    "items": [
+     "NiMet: Hasashen ruwan sama na yanayi",
+     "NIHSA: Hangen Ruwa na Shekara-shekara",
+     "NEMA, SEMA, LEMA: faɗakarwa da taimako",
+     "112: lambar gaggawa ta kasa",
+     "Bincika tushen kafin ku raba"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "water_tank",
+   "say": [
+    "Hukumar ta NEMA ce ke daidaita martani, tare da SEMA a kowace jiha da LEMA a yawancin kananan hukumomi. 112 shine lambar gaggawa ta Najeriya kyauta. Ajiye shi a cikin wayarka."
+   ],
+   "panel": {
+    "kicker": "Gargadi na hukuma",
+    "heading": "Ku san inda gargaɗin ya fito",
+    "items": [
+     "NiMet: Hasashen ruwan sama na yanayi",
+     "NIHSA: Hangen Ruwa na Shekara-shekara",
+     "NEMA, SEMA, LEMA: faɗakarwa da taimako",
+     "112: lambar gaggawa ta kasa",
+     "Bincika tushen kafin ku raba"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "first_aid_kit",
+   "say": [
+    "Ana yada sanarwar ambaliyar ruwa ta karya a WhatsApp duk lokacin damina. Bincika tushen kafin ka tura ɗaya, saboda ƙararrawar ƙarya yana sa mutane suyi watsi da ainihin."
+   ],
+   "panel": {
+    "kicker": "Gargadi na hukuma",
+    "heading": "Ku san inda gargaɗin ya fito",
+    "items": [
+     "NiMet: Hasashen ruwan sama na yanayi",
+     "NIHSA: Hangen Ruwa na Shekara-shekara",
+     "NEMA, SEMA, LEMA: faɗakarwa da taimako",
+     "112: lambar gaggawa ta kasa",
+     "Bincika tushen kafin ku raba"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Ba kowane haɗari maki biyu daga 1 zuwa 5. Yiwuwa: sau nawa yakan faru a nan. Tasiri: yaya mummunan zai cutar da gidan ku."
+   ],
+   "panel": {
+    "kicker": "Sanya hatsarorinku",
+    "heading": "Yiwuwar tasiri x",
+    "items": [
+     "Yiwuwar maki daga 1 zuwa 5",
+     "Tasirin maki daga 1 zuwa 5",
+     "Riba don maki daga cikin 25",
+     "Shirya babban haɗari da farko"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Haɓaka su. Halima tana da tazarar mita 400 daga Benue. Ambaliyar ruwan kogin ya ci sau 4 sau 5, wato 20. Gobarar gidan ta samu maki 10. Guguwar iska ta samu maki 6."
+   ],
+   "panel": {
+    "kicker": "Sanya hatsarorinku",
+    "heading": "Yiwuwar tasiri x",
+    "items": [
+     "Yiwuwar maki daga 1 zuwa 5",
+     "Tasirin maki daga 1 zuwa 5",
+     "Riba don maki daga cikin 25",
+     "Shirya babban haɗari da farko"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "grain_sacks",
+   "say": [
+    "Don haka ambaliya shine babban fifikonta, tare da kare lafiyar wuta na biyu. Gida da gaske a shirye don babban haɗarinsa ya fi aminci fiye da wanda ya san kaɗan game da komai."
+   ],
+   "panel": {
+    "kicker": "Sanya hatsarorinku",
+    "heading": "Yiwuwar tasiri x",
+    "items": [
+     "Yiwuwar maki daga 1 zuwa 5",
+     "Tasirin maki daga 1 zuwa 5",
+     "Riba don maki daga cikin 25",
+     "Shirya babban haɗari da farko"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Shirye don babban haɗarin ku ya ɗanɗana kaɗan game da komai.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "solar_panel",
+   "say": [
+    "Binciken bincike ya maye gurbin ji na kasancewa a shirye ko ta yaya da gaskiya. Bincika abubuwa 20 a cikin yankuna biyar: ruwa da abinci, haske da sadarwa, takardu da kuɗi, lafiya da aminci, da mutane da tsari."
+   ],
+   "panel": {
+    "kicker": "Binciken ku",
+    "heading": "Yi maki shirye-shiryenku cikin 40",
+    "items": [
+     "Bincika abubuwa 20 a cikin yankuna biyar",
+     "2 = cikakke a wuri, 1 = sashi, 0 = bace",
+     "Haɗa jimillar guda 40",
+     "Juya shi zuwa kashi dari"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "solar_panel",
+   "say": [
+    "Lafiya da aminci sun haɗa da kayan agajin farko, bokitin yashi ko na kashewa kusa da kicin, da kowa ya san yadda ake kashe iskar gas da wutar lantarki. Maki kowane abu 2, 1 ko 0."
+   ],
+   "panel": {
+    "kicker": "Binciken ku",
+    "heading": "Yi maki shirye-shiryenku cikin 40",
+    "items": [
+     "Bincika abubuwa 20 a cikin yankuna biyar",
+     "2 = cikakke a wuri, 1 = sashi, 0 = bace",
+     "Haɗa jimillar guda 40",
+     "Juya shi zuwa kashi dari"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Misali, dangin Chioma sun samu kashi 12 cikin 40. 12 sun raba kashi 40, sau 100, kashi 30 ne. Mafi raunin yankin su shine mutane da tsari: babu wani shiri a rubuce kwata-kwata."
+   ],
+   "panel": {
+    "kicker": "Binciken ku",
+    "heading": "Yi maki shirye-shiryenku cikin 40",
+    "items": [
+     "Bincika abubuwa 20 a cikin yankuna biyar",
+     "2 = cikakke a wuri, 1 = sashi, 0 = bace",
+     "Haɗa jimillar guda 40",
+     "Juya shi zuwa kashi dari"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "soil_bed",
+   "say": [
+    "Sanya kowane abu da ya ci 0 ko 1. Abubuwa kyauta da sauri, kamar rubuta lambobi akan takarda, kuna yin wannan makon."
+   ],
+   "panel": {
+    "kicker": "Daga gibi zuwa aiki",
+    "heading": "Rarraba kowane rata zuwa rukuni uku",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Kyauta da sauri",
+      "d": "Rubuta lambobin waya akan takarda. Nuna kowa da bawul ɗin iskar gas. Yi waɗannan a wannan makon."
+     },
+     {
+      "t": "Ƙananan farashi",
+      "d": "Jakar zip na takardu, tocila. Tsara jadawalin kowane ɗayan ta kwanan wata."
+     },
+     {
+      "t": "Yana ɗaukar lokaci",
+      "d": "Asusun gaggawa ko rawar soja. Saka su cikin shirin ku."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "soil_bed",
+   "say": [
+    "Ƙananan abubuwa, kamar jakar zip ko fitila, kuna tsarawa ta kwanan wata."
+   ],
+   "panel": {
+    "kicker": "Daga gibi zuwa aiki",
+    "heading": "Rarraba kowane rata zuwa rukuni uku",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Kyauta da sauri",
+      "d": "Rubuta lambobin waya akan takarda. Nuna kowa da bawul ɗin iskar gas. Yi waɗannan a wannan makon."
+     },
+     {
+      "t": "Ƙananan farashi",
+      "d": "Jakar zip na takardu, tocila. Tsara jadawalin kowane ɗayan ta kwanan wata."
+     },
+     {
+      "t": "Yana ɗaukar lokaci",
+      "d": "Asusun gaggawa ko rawar soja. Saka su cikin shirin ku."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "water_tank",
+   "say": [
+    "Abubuwan da ke ɗaukar lokaci, kamar tanadi ko rawar soja, sun shiga cikin shirin ku. Kuma idan yara da dattawa ba za su iya bayyana shirin ba, har yanzu ba gaskiya ba ne."
+   ],
+   "panel": {
+    "kicker": "Daga gibi zuwa aiki",
+    "heading": "Rarraba kowane rata zuwa rukuni uku",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Kyauta da sauri",
+      "d": "Rubuta lambobin waya akan takarda. Nuna kowa da bawul ɗin iskar gas. Yi waɗannan a wannan makon."
+     },
+     {
+      "t": "Ƙananan farashi",
+      "d": "Jakar zip na takardu, tocila. Tsara jadawalin kowane ɗayan ta kwanan wata."
+     },
+     {
+      "t": "Yana ɗaukar lokaci",
+      "d": "Asusun gaggawa ko rawar soja. Saka su cikin shirin ku."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "first_aid_kit",
+   "say": [
+    "Don tunawa. Ba za ku iya dakatar da yawancin haɗari ba, amma kuna iya rage fallasa da rauni da haɓaka ƙarfi.",
+    "Bincika hangen nesa da ƙwaƙwalwar gida, hatsarori, da duba gidan ku cikin 40."
+   ],
+   "panel": {
+    "kicker": "Mabuɗin mahimmanci",
+    "heading": "Ka tuna",
+    "items": [
+     "Haɗari yakan zama bala'i lokacin da mutane ba za su iya jurewa ba",
+     "Rage fallasa da rauni; gina iya aiki",
+     "Bincika hangen nesa na hukuma da ƙwaƙwalwar gida",
+     "Hadarin matsayi: yuwuwar x tasiri",
+     "Audit daga 40; yi gyara kyauta a wannan makon"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Yanzu yi aiki. Yi taswirar ɓangarori huɗu na haɗarin ku, yi hira da dattawa kuma ku ƙididdige haɗarin ku, kuma ku kammala binciken binciken ku tare da gyare-gyare biyu kyauta cikin kwanaki 7.",
+    "Ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi ayyuka",
+    "heading": "Ayyukan aikin ku",
+    "items": [
+     "Taswirar sassan haɗari guda huɗu",
+     "Gina martabar haɗarin ku",
+     "Kammala binciken binciken ku na asali"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

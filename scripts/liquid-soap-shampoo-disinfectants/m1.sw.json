@@ -1,0 +1,176 @@
+{
+  "course": "liquid-soap-shampoo-disinfectants",
+  "module": "m1",
+  "title": "Kemia ya Bidhaa za Maji",
+  "shots": [
+    {
+      "demo": "title_liquid",
+      "say": [
+        "Kemia ya Bidhaa za Maji. Hii ni moduli ya 1 ya kozi.",
+        "Kwanza zana tatu: surfactant ipi inafanya kazi ipi, pH inavyofanya kazi, na jinsi ya kuzuia vijidudu."
+      ]
+    },
+    {
+      "demo": "bucket_mix",
+      "label": "Surfactant ikikorogwa ndani ya maji",
+      "say": [
+        "Angalia ndoo hii. Tunakoroga surfactant ndani ya maji, taratibu. Surfactant ni kemikali inayosafisha na kuleta povu.",
+        "Kila molekuli ya surfactant ina kichwa kinachopenda maji na mkia unaopenda mafuta.",
+        "Mikia hukusanyika kuwa vimpira vidogo sana viitwavyo micelles. Grisi huingia ndani, na maji ya kusuuza huibeba na kuiondoa."
+      ]
+    },
+    {
+      "demo": "chemical_store",
+      "label": "Familia nne za surfactant",
+      "card": {
+        "title": "Familia nne",
+        "rows": [
+          ["Anionic (hasi)", "SLES, SLS, LAS"],
+          ["Amphoteric (zote mbili)", "CAPB"],
+          ["Nonionic (bila chaji)", "Alcohol ethoxylates"],
+          ["Cationic (chanya)", "Benzalkonium chloride, BTMS"]
+        ],
+        "note": "Zimepangwa kwa chaji iliyo kichwani"
+      },
+      "say": [
+        "Kwenye rafu hii zimepangwa kwa chaji iliyo kichwani.",
+        "Anionic kama SLES husafisha na kuleta povu. CAPB huzifanya kuwa laini kwa ngozi. Nonionic hukata grisi. Cationic huua vijidudu, hulainisha nywele na kulainisha nguo."
+      ]
+    },
+    {
+      "demo": "softener_mix",
+      "label": "Softener ya nguo (cationic)",
+      "banner": "Usichanganye sabuni za anionic na cationic",
+      "say": [
+        "Majimaji haya meupe kama maziwa ni softener ya nguo, bidhaa ya cationic.",
+        "Surfactant za anionic na cationic huvutana na kutengeneza kitu kigumu kinachonata ambacho hakifanyi kazi yoyote kati ya hizo mbili.",
+        "Ndiyo sababu softener huwekwa kwenye maji ya kusuuza, si pamoja na sabuni."
+      ]
+    },
+    {
+      "demo": "scale_weigh",
+      "label": "Uji wa SLES, karibu 70% hai",
+      "say": [
+        "Angalia mizani tunapochota uji wa SLES. Kwa kawaida ni hai kwa karibu asilimia 70, kwa hiyo gramu 100 zina karibu gramu 70 za surfactant halisi.",
+        "CAPB kwa kawaida ni hai kwa karibu asilimia 30. Daima soma karatasi ya taarifa ya muuzaji wako, kwa sababu namba hubadilika."
+      ]
+    },
+    {
+      "demo": "costing_desk",
+      "card": {
+        "title": "Jaribio la Bisi, sabuni ya mikono 5 kg",
+        "rows": [
+          ["15% SLES x 0.70", "10.5% hai"],
+          ["6% CAPB x 0.30", "1.8% hai"],
+          ["Jumla ya kiambato hai", "12.3%"],
+          ["Surfactant halisi katika 5 kg", "615 g"],
+          ["SLES mpya hai 60% tu", "17.5%, yaani 875 g"]
+        ],
+        "note": "Kutoka mfano wa kozi"
+      },
+      "say": [
+        "Hii ni hesabu ya Bisi. Kiambato hai ni asilimia unayotumia mara nguvu yake, kisha unajumlisha.",
+        "Fomula yake ni hai kwa asilimia 12.3, gramu 615 za surfactant halisi ndani ya kilo 5.",
+        "SLES yake mpya ilipokuwa hai kwa asilimia 60 tu, alitumia gramu 875 badala ya gramu 750 ili nguvu ibaki ile ile."
+      ]
+    },
+    {
+      "demo": "ph_test",
+      "label": "Kipande cha kupima pH",
+      "say": [
+        "Kipande hiki kinasoma pH, kutoka 0 hadi 14. Maji ni 7. Chini yake ni asidi, juu yake ni alkali, na kila hatua ina nguvu mara kumi zaidi.",
+        "Chovya, subiri muda ulioandikwa kwenye pakiti, na linganisha rangi kwenye mwanga wa mchana. Pima kabla ya kuongeza rangi."
+      ]
+    },
+    {
+      "demo": "ppe_set",
+      "label": "Glovu na miwani ya kinga",
+      "banner": "Weka asidi au caustic polepole NDANI YA maji",
+      "say": [
+        "Kabla ya kutengeneza mchanganyiko wowote wa kurekebisha pH, vaa glovu na miwani ya kinga.",
+        "Weka asidi au caustic polepole ndani ya maji, kamwe usimimine maji juu ya kemikali, kwa sababu joto na kurukia vinaweza kutokea. Weka lebo kwenye kila chupa ya kurekebisha."
+      ]
+    },
+    {
+      "demo": "scale_weigh",
+      "label": "Sampuli 200 g kwenye kikombe safi",
+      "card": {
+        "title": "Shampuu 20 kg ya Amaka",
+        "rows": [
+          ["Kipimo cha mita", "pH 7.4, anataka karibu 6"],
+          ["Sampuli", "200 g = 1% ya bechi"],
+          ["Citric 20% kwenye sampuli", "0.9 g"],
+          ["Zidisha kwa 100", "90 g kwa 20 kg"],
+          ["Weka kwanza (karibu 80%)", "72 g, kisha pima"]
+        ],
+        "note": "Rekebisha sampuli kwanza, kisha bechi"
+      },
+      "say": [
+        "Amaka alipima sampuli ya gramu 200, asilimia 1 ya bechi yake, na akaongeza maji ya citric kwa matone hadi ikasoma pH 6. Ilichukua gramu 0.9.",
+        "Mara 100 inatoa gramu 90. Aliweka gramu 72 kwanza, akapima, kisha zilizobaki polepole, kwa hiyo hakuzidisha kamwe."
+      ]
+    },
+    {
+      "demo": "mixing_rule",
+      "label": "Dawa ya choo na bleach",
+      "say": [
+        "Unapojaribu bidhaa nyumbani, tenganisha dawa ya choo na bleach, kama chupa hizi mbili."
+      ]
+    },
+    {
+      "demo": "water_jug",
+      "label": "Maji yaliyochemshwa, yakapoa",
+      "say": [
+        "Sabuni ya maji kwa sehemu kubwa ni maji, na maji hulisha vijidudu. Kwa hiyo tumia maji yaliyotibiwa, au maji yaliyochemshwa na kupoa yakiwa yamefunikwa.",
+        "Osha madumu na miiko, suuza, futa kwa spiriti ya asilimia 70 na uache vikauke. Kamwe usivitumie kwa chakula."
+      ]
+    },
+    {
+      "demo": "additives_tray",
+      "label": "Kihifadhi (aina ya phenoxyethanol)",
+      "card": {
+        "title": "Sabuni ya mikono 25 kg ya Hauwa",
+        "rows": [
+          ["pH ya bechi", "6.2 (ndani ya pH 3 hadi 12)"],
+          ["Kiwango cha muuzaji", "0.5% hadi 1.0%"],
+          ["Kiwango alichochagua", "0.8%"],
+          ["25,000 g x 0.8 / 100", "200 g"],
+          ["Weka ikishapoa", "koroga dakika 5"]
+        ],
+        "note": "Kutoka mfano wa kozi"
+      },
+      "say": [
+        "Kihifadhi huzuia vijidudu vinavyoingia baadaye. Hauwa alihakikisha pH yake iko ndani ya kiwango cha muuzaji, kisha akapima gramu 200 kwenye mizani ya kidijitali.",
+        "Kiweke chini ya karibu nyuzi joto 40, kwa sababu joto linaweza kuharibu baadhi ya vihifadhi. Na epuka formalin: ni sumu."
+      ]
+    },
+    {
+      "demo": "bottle_fill",
+      "label": "Chupa mpya, zilizosafishwa",
+      "say": [
+        "Sasa jaza kwenye chupa mpya au zilizosafishwa na kuuawa vijidudu, kisha funga na uweke lebo haraka."
+      ]
+    },
+    {
+      "demo": "shampoo_bottles",
+      "label": "Sampuli: chumbani na mahali pa joto",
+      "say": [
+        "Hifadhi chupa mbili kutoka kila bechi, moja kwenye joto la chumba, moja mahali penye joto.",
+        "Zikague kila wiki kwa wiki nne, kisha kila mwezi: harufu, rangi, uangavu, uzito, pH na kuvimba."
+      ]
+    },
+    {
+      "demo": "first_aid_rinse",
+      "label": "Chupa ya maji safi ya kuoshea macho",
+      "say": [
+        "Soma Karatasi ya Taarifa za Usalama ya kila kemikali. Vaa glovu za nitrile na miwani ya kinga, ruhusu hewa ipite, na weka chupa ya maji safi ya kuoshea macho karibu, kama hii."
+      ]
+    },
+    {
+      "demo": "outro_bottles",
+      "say": [
+        "Sasa pitia masomo yaliyo hapa chini. Andaa daftari lako la malighafi, pima pH ya bidhaa tano nyumbani, na uandae kona yako safi ya kazi."
+      ]
+    }
+  ]
+}

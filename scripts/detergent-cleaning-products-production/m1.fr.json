@@ -1,0 +1,204 @@
+{
+ "course": "detergent-cleaning-products-production",
+ "module": "m1",
+ "title": "La science du nettoyage et une salle de production sûre",
+ "shots": [
+  {
+   "demo": "title_workshop",
+   "say": [
+    "Bienvenue dans La science du nettoyage et une salle de production sûre, le module 1 de ce cours.",
+    "Avant de mélanger quoi que ce soit, apprenez pourquoi chaque produit marche, ce qu'il y a dans votre magasin, et comment garder cette salle sûre."
+   ]
+  },
+  {
+   "demo": "spray_wipe",
+   "label": "Le tensioactif au travail",
+   "say": [
+    "Regardez cette surface grasse. L'eau seule ne peut pas enlever la graisse, parce que l'huile et l'eau ne se mélangent pas.",
+    "Ce spray contient un tensioactif, le produit qui lave : une molécule avec un bout qui aime l'eau et un bout qui aime l'huile.",
+    "Quand on essuie, la graisse se casse en toutes petites gouttes enveloppées de tensioactif, et elles s'en vont."
+   ]
+  },
+  {
+   "demo": "ph_test",
+   "label": "Bandelette de papier pH",
+   "card": {
+    "title": "Le bon pH pour chaque saleté",
+    "rows": [
+     [
+      "Graisse, saleté du corps",
+      "Basique, environ 9 à 11"
+     ],
+     [
+      "Assiettes, graisse courante",
+      "Neutre, environ 6 à 8"
+     ],
+     [
+      "Calcaire, tartre d'urine",
+      "Acide, environ 2"
+     ],
+     [
+      "Miroirs, traces légères",
+      "Environ 7"
+     ]
+    ],
+    "note": "Tiré du tableau de pH du cours"
+   },
+   "say": [
+    "Regardez la bandelette changer de couleur. On la compare au tableau.",
+    "L'échelle de pH va de 0 à 14. L'eau pure, c'est 7, neutre. En dessous de 7, c'est acide, au-dessus de 7, c'est basique.",
+    "La graisse demande du basique. Le cercle de tartre dans les WC demande de l'acide. Les microbes demandent un désinfectant après le nettoyage."
+   ]
+  },
+  {
+   "demo": "disinfect_timer",
+   "label": "Le temps : contact avant rinçage",
+   "say": [
+    "Vous voyez le minuteur qui tourne pendant que la surface reste mouillée ? Le temps est l'une des quatre forces du nettoyage.",
+    "Les autres sont la chimie, l'action comme le frottage, et la température. Si l'une baisse, une autre doit monter.",
+    "Quand l'étiquette de votre nettoyant WC dit de laisser agir 10 minutes, c'est le temps qui fait le travail."
+   ]
+  },
+  {
+   "demo": "mixing_rule",
+   "label": "Javel et nettoyant acide",
+   "banner": "Ne mélangez jamais Javel et acide ou ammoniaque",
+   "say": [
+    "Ces deux bouteilles restent séparées : l'eau de Javel d'un côté, le nettoyant WC acide de l'autre.",
+    "La Javel avec un acide libère du chlore gazeux. La Javel avec de l'ammoniaque libère des gaz toxiques de chloramines. Les deux abîment les yeux et les poumons."
+   ]
+  },
+  {
+   "demo": "caustic_flakes",
+   "label": "Soude caustique (hydroxyde de sodium)",
+   "say": [
+    "Cette poudre blanche en paillettes, c'est la soude caustique, que les chimistes appellent hydroxyde de sodium. Elle existe aussi en perles.",
+    "Elle neutralise le LABSA, l'acide sulfonique brun foncé, actif à environ 96%, qui devient votre principal tensioactif.",
+    "Elle est corrosive et chauffe fort dans l'eau."
+   ]
+  },
+  {
+   "demo": "scale_weigh",
+   "label": "Contrôle d'une livraison",
+   "card": {
+    "title": "Livraison de 25 kg de SLES de Bisi",
+    "rows": [
+     [
+      "Bidon plein",
+      "26.4 kg"
+     ],
+     [
+      "Bidon vide",
+      "1.4 kg"
+     ],
+     [
+      "SLES 70% net",
+      "25.0 kg"
+     ],
+     [
+      "SLES par lot de vaisselle",
+      "2.0 kg"
+     ],
+     [
+      "Lots complets",
+      "12, avec 1.0 kg en reste"
+     ]
+    ],
+    "note": "Tiré de l'exemple du cours"
+   },
+   "say": [
+    "Chaque livraison passe sur la balance. Bisi, à Ibadan, pèse son bidon de SLES à 70%, que les commerçants appellent texapon.",
+    "Plein, il pèse 26.4 kilos. Le bidon vide pèse 1.4 kilo, donc elle a 25.0 kilos.",
+    "Demandez aux fournisseurs une fiche de données de sécurité et un certificat d'analyse. Pas de documents ? Achetez-en un peu et marquez « force inconnue »."
+   ]
+  },
+  {
+   "demo": "chemical_store",
+   "label": "Quatre zones de stockage",
+   "say": [
+    "Regardez cette étagère. Chaque récipient est fermé et étiqueté, avec un espace bien net entre les groupes.",
+    "Les acides sont ensemble : le LABSA et l'acide citrique. Les bases sont ensemble : la soude caustique et le carbonate de soude. La Javel reste seule.",
+    "L'alcool isopropylique et les parfums vont dans un quatrième coin, loin de la chaleur, des prises électriques et de toute flamme."
+   ]
+  },
+  {
+   "demo": "caustic_storage",
+   "label": "Fermé, posé en hauteur",
+   "say": [
+    "Regardez le couvercle qu'on serre bien. La soude caustique attire l'eau de l'air et fait des grumeaux, alors les poudres restent fermées et loin du sol.",
+    "Et s'il vous plaît, ne gardez jamais un produit chimique dans une bouteille d'eau, de boisson sucrée ou une boîte de nourriture. Des gens ont bu des produits d'entretien dans des bouteilles qu'ils connaissaient."
+   ]
+  },
+  {
+   "demo": "ppe_set",
+   "label": "Lunettes, gants, tablier",
+   "say": [
+    "Voici votre protection : des lunettes de protection fermées, des gants épais en caoutchouc et un tablier, avec des manches longues et des chaussures fermées.",
+    "Les lunettes de soleil n'arrêtent pas une éclaboussure de côté, et on ne remplace pas des yeux."
+   ]
+  },
+  {
+   "demo": "ventilated_room",
+   "label": "Salle à sens unique",
+   "card": {
+    "title": "La salle de 3 m sur 4 m de Hauwa",
+    "rows": [
+     [
+      "Mur du fond",
+      "Étagères, quatre zones"
+     ],
+     [
+      "À côté du magasin",
+      "Table avec la balance"
+     ],
+     [
+      "Sous la fenêtre",
+      "Deux fûts de 50 litres"
+     ],
+     [
+      "Près de la porte",
+      "Remplissage et produits finis"
+     ],
+     [
+      "Près des fûts",
+      "Eau 25 L, lave-yeux, sable"
+     ]
+    ],
+    "note": "Tiré de l'exemple du cours"
+   },
+   "say": [
+    "Cette table de mélange est près d'une fenêtre ouverte, pour que les vapeurs et la poussière sortent.",
+    "Les matières avancent dans un seul sens : magasin, pesée, mélange, repos et test, remplissage, puis l'étagère des produits finis.",
+    "Personne ne ramène du concentré en passant derrière quelqu'un qui remplit des flacons, et de l'eau propre est posée à côté de chaque endroit où ça peut éclabousser."
+   ]
+  },
+  {
+   "demo": "lye_mix",
+   "label": "Soude caustique DANS l'eau",
+   "banner": "Ne versez jamais l'eau sur la soude caustique",
+   "step": 1,
+   "say": [
+    "Regardez : les paillettes tombent doucement dans l'eau froide, petit à petit, jamais dans l'autre sens. Vous voyez la chaleur monter ?",
+    "Utilisez un récipient en plastique qui résiste à la chaleur, jamais en aluminium, parce que la soude caustique l'attaque.",
+    "Le LABSA aussi se verse dans l'eau, en remuant. Et étiquetez chaque seau, même si c'est seulement pour une heure."
+   ]
+  },
+  {
+   "demo": "first_aid_rinse",
+   "label": "Eau courante et lave-yeux",
+   "banner": "Rincez yeux et peau au moins 15 minutes",
+   "say": [
+    "Si quelque chose vous éclabousse l'œil, rincez-le sous une eau propre qui coule doucement pendant au moins 15 minutes, en tenant les paupières ouvertes.",
+    "Sur la peau, enlevez les vêtements mouillés et rincez de la même façon. N'utilisez jamais de vinaigre pour neutraliser une éclaboussure.",
+    "Si quelqu'un avale un produit, ne le faites pas vomir. Rincez la bouche et allez tout de suite chercher de l'aide médicale, avec l'étiquette."
+   ]
+  },
+  {
+   "demo": "outro_workshop",
+   "say": [
+    "Maintenant, vous savez pourquoi les produits nettoient, comment ranger vos matières, et comment vous protéger.",
+    "Suivez les leçons ci-dessous, puis faites les exercices pratiques : votre carte des saletés, votre registre des matières premières et la photo de votre poste de sécurité."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,535 @@
+{
+ "course": "accessing-grants-loans-partnerships",
+ "module": "m3",
+ "title": "Mshirika bila deni, tumia pesa vizuri, panga mzunguko wako unaofuata",
+ "course_title": "Kufikia Ruzuku, Mikopo na Ubia",
+ "shots": [
+  {
+   "demo": "cash_count",
+   "say": [
+    "Mshirika bila deni, tumia pesa vizuri, na upange mzunguko wako unaofuata.",
+    "Hii ni video ya sehemu ya 3 ya Kufikia Ruzuku, Mikopo na Ubia."
+   ]
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Ushirikiano mzuri unaweza kufanya kile ambacho mkopo hufanya, bila riba au dhamana. Lakini kuuza kwa wanunuzi wakubwa kwa mkopo hutengeneza muda wa kusubiri ambao lazima ufadhili."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Jinsi ya kutumia pesa huamua raundi inayofuata",
+    "items": [
+     "Washirika wanaweza kufanya kile ambacho mkopo hufanya",
+     "Wanunuzi wakubwa huunda pengo la pesa",
+     "Pesa zinazofadhiliwa lazima zitenganishwe",
+     "Ripoti za uaminifu zitashinda raundi inayofuata"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Kupata pesa ni nusu ya kazi. Jinsi unavyoitumia na kuiripoti huamua iwapo utafadhiliwa tena."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Jinsi ya kutumia pesa huamua raundi inayofuata",
+    "items": [
+     "Washirika wanaweza kufanya kile ambacho mkopo hufanya",
+     "Wanunuzi wakubwa huunda pengo la pesa",
+     "Pesa zinazofadhiliwa lazima zitenganishwe",
+     "Ripoti za uaminifu zitashinda raundi inayofuata"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Ada hutengeneza kidevu huko Port Harcourt. Msururu wa maduka makubwa hutoa kuchukua pakiti 600 kwa mwezi kwa naira 1,200 kila moja, zinazolipwa siku 30 baada ya mwisho wa kila mwezi wa kujifungua."
+   ],
+   "card": {
+    "title": "Ofa ya duka kuu la Ada",
+    "rows": [],
+    "note": "Bei za Naira ni takriban."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Kila pakiti hugharimu takriban naira 750, kwa hivyo anatengeneza naira 450 kwa pakiti, au naira 270,000 kwa mwezi."
+   ],
+   "card": {
+    "title": "Ofa ya duka kuu la Ada",
+    "rows": [
+     [
+      "Faida kwenye pakiti 600 kwa mwezi",
+      "270,000"
+     ]
+    ],
+    "note": "Bei za Naira ni takriban."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Lakini lazima atumie naira 450,000 kwa mwezi kuzitayarisha."
+   ],
+   "card": {
+    "title": "Ofa ya duka kuu la Ada",
+    "rows": [
+     [
+      "Faida kwenye pakiti 600 kwa mwezi",
+      "270,000"
+     ],
+     [
+      "Gharama ya kutengeneza pakiti 600",
+      "450,000"
+     ]
+    ],
+    "note": "Bei za Naira ni takriban."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Kwa sababu malipo huchelewa, yeye hufadhili takriban miezi miwili kwanza: naira 900,000. Kipindi hicho cha kusubiri ni pengo la fedha."
+   ],
+   "card": {
+    "title": "Ofa ya duka kuu la Ada",
+    "rows": [
+     [
+      "Faida kwenye pakiti 600 kwa mwezi",
+      "270,000"
+     ],
+     [
+      "Gharama ya kutengeneza pakiti 600",
+      "450,000"
+     ],
+     [
+      "Miezi miwili kabla ya malipo ya kwanza",
+      "900,000"
+     ]
+    ],
+    "note": "Bei za Naira ni takriban."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Ameokoa 300,000 tu. Kwa hivyo mgavi wake anatoa mkopo wa siku 30, na anaanza na matawi mawili badala ya matatu. Haja yake ya pesa taslimu inashuka hadi takriban naira 350,000, karibu na akiba yake. Ubia, sio mkopo."
+   ],
+   "card": {
+    "title": "Ofa ya duka kuu la Ada",
+    "rows": [
+     [
+      "Faida kwenye pakiti 600 kwa mwezi",
+      "270,000"
+     ],
+     [
+      "Gharama ya kutengeneza pakiti 600",
+      "450,000"
+     ],
+     [
+      "Miezi miwili kabla ya malipo ya kwanza",
+      "900,000"
+     ],
+     [
+      "Akiba ya Ada",
+      "300,000"
+     ]
+    ],
+    "note": "Bei za Naira ni takriban."
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Andika kila ushirika chini. Taja pande zote mbili, kila moja inatoa nini na lini, bei na masharti ya malipo, ni nani anamiliki nini, inachukua muda gani na jinsi ya kuimaliza, na saini zenye tarehe.",
+    "Kamwe usikabidhi mapishi yako au orodha ya wateja bila masharti wazi. Na mtu yeyote anayeomba sehemu ya biashara yako anahitaji ushauri sahihi wa kisheria na usajili na CAC."
+   ],
+   "panel": {
+    "kicker": "Weka kwa maandishi",
+    "heading": "Kila makubaliano yanahusu nini",
+    "items": [
+     "Majina yote mawili, kama yalivyosajiliwa",
+     "Nini kila upande hutoa, na wakati gani",
+     "Bei, masharti ya malipo, malipo ya marehemu",
+     "Nani anamiliki vifaa, mapishi, wateja",
+     "Inadumu kwa muda gani na jinsi ya kuimaliza",
+     "Mizozo, saini na tarehe"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Weka pesa za ruzuku au mkopo katika akaunti tofauti, inayotumiwa tu kwa madhumuni hayo."
+   ],
+   "panel": {
+    "kicker": "Linda pesa",
+    "heading": "Pete iliyofadhiliwa na pete",
+    "items": [
+     "Tumia akaunti tofauti kwa ruzuku au mkopo",
+     "Lipa wauzaji kwa uhamisho",
+     "Weka ankara, risiti na picha ya uwasilishaji",
+     "Linganisha mpango na halisi kila wiki",
+     "Ripoti matokeo na matatizo mapema"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false,
+    "rule": "Weka pesa zilizofadhiliwa kando na kuchukua kila siku.",
+    "showRule": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Lipa wasambazaji kwa uhamisho, ili kila malipo yaonyeshwe kwenye taarifa. Weka malipo ya pesa kwa nadra."
+   ],
+   "panel": {
+    "kicker": "Linda pesa",
+    "heading": "Pete iliyofadhiliwa na pete",
+    "items": [
+     "Tumia akaunti tofauti kwa ruzuku au mkopo",
+     "Lipa wauzaji kwa uhamisho",
+     "Weka ankara, risiti na picha ya uwasilishaji",
+     "Linganisha mpango na halisi kila wiki",
+     "Ripoti matokeo na matatizo mapema"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "rule": "Weka pesa zilizofadhiliwa kando na kuchukua kila siku.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Kwa kila malipo, weka ankara, risiti ya uhamisho na noti au picha ya uwasilishaji. Stakabadhi za picha siku hiyo hiyo."
+   ],
+   "panel": {
+    "kicker": "Linda pesa",
+    "heading": "Pete iliyofadhiliwa na pete",
+    "items": [
+     "Tumia akaunti tofauti kwa ruzuku au mkopo",
+     "Lipa wauzaji kwa uhamisho",
+     "Weka ankara, risiti na picha ya uwasilishaji",
+     "Linganisha mpango na halisi kila wiki",
+     "Ripoti matokeo na matatizo mapema"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Weka pesa zilizofadhiliwa kando na kuchukua kila siku.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Linganisha mpango wako na kile ulichotumia kila wiki. Na ripoti matatizo mapema na kwa uwazi. Mfadhili anayesikia kuhusu kucheleweshwa kwako hujibu kwa njia tofauti sana na yule anayeigundua."
+   ],
+   "panel": {
+    "kicker": "Linda pesa",
+    "heading": "Pete iliyofadhiliwa na pete",
+    "items": [
+     "Tumia akaunti tofauti kwa ruzuku au mkopo",
+     "Lipa wauzaji kwa uhamisho",
+     "Weka ankara, risiti na picha ya uwasilishaji",
+     "Linganisha mpango na halisi kila wiki",
+     "Ripoti matokeo na matatizo mapema"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Weka pesa zilizofadhiliwa kando na kuchukua kila siku.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Bukola anaendesha biashara ya upishi huko Ilorin. Anapokea ruzuku ya naira 1,000,000 kwa jiko la gesi, friji ya kifua na mafunzo ya usafi."
+   ],
+   "card": {
+    "title": "Ruzuku ya vifaa vya Bukola",
+    "rows": [],
+    "note": "Bei za Naira ni takriban."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Bei ya jiko ilipanda kati ya bei na ununuzi: naira 470,000, 20,000 zaidi ya ilivyopangwa."
+   ],
+   "card": {
+    "title": "Ruzuku ya vifaa vya Bukola",
+    "rows": [
+     [
+      "Jiko la gesi (lililopangwa 450,000)",
+      "470,000"
+     ]
+    ],
+    "note": "Bei za Naira ni takriban."
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Lakini friji iligharimu 15,000 chini na uwasilishaji 5,000 chini, na mafunzo kama ilivyopangwa."
+   ],
+   "card": {
+    "title": "Ruzuku ya vifaa vya Bukola",
+    "rows": [
+     [
+      "Jiko la gesi (lililopangwa 450,000)",
+      "470,000"
+     ],
+     [
+      "Friji ya kifua (imepangwa 380,000)",
+      "365,000"
+     ],
+     [
+      "Mafunzo ya usafi wa chakula",
+      "120,000"
+     ],
+     [
+      "Uwasilishaji (uliopangwa 50,000)",
+      "45,000"
+     ]
+    ],
+    "note": "Bei za Naira ni takriban."
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Jumla ni naira 1,000,000 haswa. Makubaliano yake yanaruhusu kusogezwa kwa hadi 10% ya laini, na 20,000 ni takriban 4% ya laini ya jiko, kwa hivyo anaielezea katika mstari mmoja wa ripoti yake. Mabadiliko makubwa yangehitaji idhini iliyoandikwa kwanza."
+   ],
+   "card": {
+    "title": "Ruzuku ya vifaa vya Bukola",
+    "rows": [
+     [
+      "Jiko la gesi (lililopangwa 450,000)",
+      "470,000"
+     ],
+     [
+      "Friji ya kifua (imepangwa 380,000)",
+      "365,000"
+     ],
+     [
+      "Mafunzo ya usafi wa chakula",
+      "120,000"
+     ],
+     [
+      "Uwasilishaji (uliopangwa 50,000)",
+      "45,000"
+     ]
+    ],
+    "note": "Bei za Naira ni takriban."
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Ukuaji unaofadhiliwa mara nyingi huleta vifaa na mikono mipya. Ikiwa vifaa vinatumia gesi, umeme au joto, uwe na mtu aliyehitimu kufunga."
+   ],
+   "panel": {
+    "kicker": "Usalama kwanza",
+    "heading": "Vifaa vipya na wafanyikazi wapya",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Usakinishaji uliohitimu",
+      "d": "Gesi, umeme au vifaa vya joto huwekwa na mtu aliyestahili."
+     },
+     {
+      "t": "Kizima moto tayari",
+      "d": "Weka kifaa cha kuzima moto mahali ambapo wafanyikazi wanaweza kukifikia."
+     },
+     {
+      "t": "Usalama wa treni kwanza",
+      "d": "Onyesha kila mfanyakazi jinsi ya kuzima gesi na nishati. Angalia kazi zao kila siku kwa wiki mbili."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Weka kifaa cha kuzima moto mahali ambapo wafanyikazi wanaweza kukifikia."
+   ],
+   "panel": {
+    "kicker": "Usalama kwanza",
+    "heading": "Vifaa vipya na wafanyikazi wapya",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Usakinishaji uliohitimu",
+      "d": "Gesi, umeme au vifaa vya joto huwekwa na mtu aliyestahili."
+     },
+     {
+      "t": "Kizima moto tayari",
+      "d": "Weka kifaa cha kuzima moto mahali ambapo wafanyikazi wanaweza kukifikia."
+     },
+     {
+      "t": "Usalama wa treni kwanza",
+      "d": "Onyesha kila mfanyakazi jinsi ya kuzima gesi na nishati. Angalia kazi zao kila siku kwa wiki mbili."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Funza kuhusu usalama kwanza, na uonyeshe kila mfanyakazi jinsi ya kuzima gesi na nishati. Onyesha, kisha tazama, kisha angalia kazi zao kila siku kwa wiki mbili za kwanza. Ajali inaumiza watu kwanza, na pia inamaliza uhusiano wa ufadhili."
+   ],
+   "panel": {
+    "kicker": "Usalama kwanza",
+    "heading": "Vifaa vipya na wafanyikazi wapya",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Usakinishaji uliohitimu",
+      "d": "Gesi, umeme au vifaa vya joto huwekwa na mtu aliyestahili."
+     },
+     {
+      "t": "Kizima moto tayari",
+      "d": "Weka kifaa cha kuzima moto mahali ambapo wafanyikazi wanaweza kukifikia."
+     },
+     {
+      "t": "Usalama wa treni kwanza",
+      "d": "Onyesha kila mfanyakazi jinsi ya kuzima gesi na nishati. Angalia kazi zao kila siku kwa wiki mbili."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Kwa mfano, Ruth hutengeneza juisi na zobo huko Jos. Anahitaji vifaa vya kugharimu takriban naira 850,000. Anachanganya 200,000 za akiba yake mwenyewe, amana ya hoteli ya takriban 150,000, na mkopo wa naira 500,000."
+   ],
+   "panel": {
+    "kicker": "Mpango wako wa siku 90",
+    "heading": "Mpango wa Ruth wa kusambaza hoteli mbili",
+    "items": [
+     "Mahitaji: takriban ₦ 850,000 ya vifaa",
+     "Mchanganyiko: akiba, amana ya hoteli, mkopo wa ₦500,000",
+     "Kupita kwa mtihani wa mwezi mbaya",
+     "Siku 1 hadi 30: NAFDAC, amana kwa maandishi",
+     "Siku 31 hadi 60: tumia kifurushi kamili",
+     "Siku 61 hadi 90: nunua, treni, toa, ripoti"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Malipo ni takriban naira 47,280 kwa mwezi. Mwezi wake mbaya zaidi wa hivi majuzi ulikuwa na 60,000 bila malipo, kwa hivyo mtihani wa mwezi mbaya hupita."
+   ],
+   "panel": {
+    "kicker": "Mpango wako wa siku 90",
+    "heading": "Mpango wa Ruth wa kusambaza hoteli mbili",
+    "items": [
+     "Mahitaji: takriban ₦ 850,000 ya vifaa",
+     "Mchanganyiko: akiba, amana ya hoteli, mkopo wa ₦500,000",
+     "Kupita kwa mtihani wa mwezi mbaya",
+     "Siku 1 hadi 30: NAFDAC, amana kwa maandishi",
+     "Siku 31 hadi 60: tumia kifurushi kamili",
+     "Siku 61 hadi 90: nunua, treni, toa, ripoti"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Katika siku 90 anafunga mapengo yake ya mwisho, anatumia Kifurushi chake kamili cha Utayari wa Ufadhili, kisha kununua, kutoa mafunzo na kuanza kujifungua. Alama yake imepanda kutoka 6 hadi 10 kati ya 12."
+   ],
+   "panel": {
+    "kicker": "Mpango wako wa siku 90",
+    "heading": "Mpango wa Ruth wa kusambaza hoteli mbili",
+    "items": [
+     "Mahitaji: takriban ₦ 850,000 ya vifaa",
+     "Mchanganyiko: akiba, amana ya hoteli, mkopo wa ₦500,000",
+     "Kupita kwa mtihani wa mwezi mbaya",
+     "Siku 1 hadi 30: NAFDAC, amana kwa maandishi",
+     "Siku 31 hadi 60: tumia kifurushi kamili",
+     "Siku 61 hadi 90: nunua, treni, toa, ripoti"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Kukumbuka. Ubia unaweza kuchukua nafasi ya mkopo. Piga hesabu ya pengo la pesa kabla ya kusema ndiyo kwa mnunuzi mkubwa. Andika kila mpango. Weka pesa zilizofadhiliwa tofauti, lipa kwa uhamisho na uhifadhi risiti.",
+    "Ripoti matokeo katika idadi, na matatizo mapema. Na kusema hapana kwa ofa isiyofaa ni uamuzi mzuri."
+   ],
+   "panel": {
+    "kicker": "Pointi muhimu",
+    "heading": "Kumbuka",
+    "items": [
+     "Ubia unaweza kuchukua nafasi ya mkopo",
+     "Piga hesabu ya pengo la pesa kabla ya kusema ndio",
+     "Andika kila mpango",
+     "Tenganisha akaunti, uhamishaji, risiti",
+     "Ripoti kwa idadi, na mapema"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Majukumu yako: tengeneza mpango mmoja wa ushirikiano na pengo lake la pesa, jenga kifuatiliaji chako cha pesa zinazofadhiliwa, na ukusanye Kifurushi chako cha Utayari wa Ufadhili kwa mpango wa siku 90.",
+    "Endelea na masomo hapa chini."
+   ],
+   "panel": {
+    "kicker": "Kazi ya mazoezi",
+    "heading": "Kazi zako za mazoezi",
+    "items": [
+     "Tengeneza mpango mmoja wa ushirikiano",
+     "Unda kifuatiliaji chako cha pesa kilichofadhiliwa",
+     "Kusanya Kifurushi chako cha Utayari wa Ufadhili"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

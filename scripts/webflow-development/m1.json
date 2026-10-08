@@ -1,0 +1,639 @@
+{
+ "course": "webflow-development",
+ "module": "m1",
+ "title": "Webflow foundations: structure, classes and responsive layout",
+ "course_title": "Webflow Development",
+ "shots": [
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Webflow foundations: structure, classes and responsive layout.",
+    "This is the video for module 1 of Webflow Development."
+   ]
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "In Webflow you design visually, but the result is real HTML, CSS and JavaScript. When you add padding, Webflow writes the CSS rule. So you must understand the building blocks. You work in the Designer, on a laptop."
+   ],
+   "panel": {
+    "kicker": "The platform",
+    "heading": "Three parts you will use every day",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "The Designer",
+      "d": "Visual workspace in a desktop browser. It writes real HTML and CSS. Plan to work on a laptop."
+     },
+     {
+      "t": "The CMS",
+      "d": "Collections for repeating content, like blog posts or team members. Clients add items safely."
+     },
+     {
+      "t": "Hosting",
+      "d": "Free staging on webflow.io. A real domain needs a paid Site plan."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "The CMS holds Collections, for content that repeats in the same shape, such as blog posts. Clients can add items without touching your design."
+   ],
+   "panel": {
+    "kicker": "The platform",
+    "heading": "Three parts you will use every day",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "The Designer",
+      "d": "Visual workspace in a desktop browser. It writes real HTML and CSS. Plan to work on a laptop."
+     },
+     {
+      "t": "The CMS",
+      "d": "Collections for repeating content, like blog posts or team members. Clients add items safely."
+     },
+     {
+      "t": "Hosting",
+      "d": "Free staging on webflow.io. A real domain needs a paid Site plan."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "And Webflow hosts the site. Every project gets a free webflow.io address, but a real domain needs a paid Site plan."
+   ],
+   "panel": {
+    "kicker": "The platform",
+    "heading": "Three parts you will use every day",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "The Designer",
+      "d": "Visual workspace in a desktop browser. It writes real HTML and CSS. Plan to work on a laptop."
+     },
+     {
+      "t": "The CMS",
+      "d": "Collections for repeating content, like blog posts or team members. Clients add items safely."
+     },
+     {
+      "t": "Hosting",
+      "d": "Free staging on webflow.io. A real domain needs a paid Site plan."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Webflow charges two ways. A Workspace plan is for you, the builder. A Site plan is for each live website. Usually the client pays their own Site plan, so the website is legally and financially theirs."
+   ],
+   "panel": {
+    "kicker": "Money safety",
+    "heading": "Plans and dollar billing",
+    "items": [
+     "Workspace plan for you; Site plan for each site",
+     "Client pays their own Site plan",
+     "Check webflow.com/pricing the day you quote",
+     "Confirm a card that can pay in dollars",
+     "Never pay client hosting without a written deal"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Prices are in US dollars and change, so check the pricing page on the day you quote. Many Nigerian bank cards limit foreign spending, so confirm a card that can pay before you promise a launch date.",
+    "And never pay a client's hosting with your own card without a written agreement on repayment."
+   ],
+   "panel": {
+    "kicker": "Money safety",
+    "heading": "Plans and dollar billing",
+    "items": [
+     "Workspace plan for you; Site plan for each site",
+     "Client pays their own Site plan",
+     "Check webflow.com/pricing the day you quote",
+     "Confirm a card that can pay in dollars",
+     "Never pay client hosting without a written deal"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "For example, Amaka is a Webflow freelancer in Port Harcourt. One week, three enquiries arrive on WhatsApp."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Three enquiries, three honest answers",
+    "items": [
+     "Law firm, news section: Webflow with CMS",
+     "Shoe seller, naira checkout: refer to WordPress",
+     "Church event page in four days: Webflow"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "A law firm wants five pages and a news section partners can update. No payments needed. Webflow with one CMS Collection fits."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Three enquiries, three honest answers",
+    "items": [
+     "Law firm, news section: Webflow with CMS",
+     "Shoe seller, naira checkout: refer to WordPress",
+     "Church event page in four days: Webflow"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "A shoe seller wants naira card checkout. Webflow Ecommerce uses Stripe and PayPal, and Stripe does not list Nigeria. So Amaka refers her to a WordPress developer and offers to design the landing page only."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Three enquiries, three honest answers",
+    "items": [
+     "Law firm, news section: Webflow with CMS",
+     "Shoe seller, naira checkout: refer to WordPress",
+     "Church event page in four days: Webflow"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "A church needs one event page with a form in four days. That is a quick Webflow job. Two paid projects, one referral, and no promise she could not keep."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Three enquiries, three honest answers",
+    "items": [
+     "Law firm, news section: Webflow with CMS",
+     "Shoe seller, naira checkout: refer to WordPress",
+     "Church event page in four days: Webflow"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Every element is a box with four layers: the content, then padding inside the edge, then the border, then margin outside, pushing other boxes away."
+   ],
+   "panel": {
+    "kicker": "The box model",
+    "heading": "Why Tolu's cards did not fit",
+    "items": [
+     "Every box: content, padding, border, margin",
+     "Card: 300px wide, 24px padding, 1px border",
+     "Content-box: 300 + 24 + 24 + 1 + 1 = 350px",
+     "Three cards, two 20px gaps: 1,090px. Too wide!",
+     "Border-box: 300 x 3 + 40 = 940px. It fits"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "For example, Tolu sets a service card 300px wide, with 24px padding each side and a 1px border."
+   ],
+   "panel": {
+    "kicker": "The box model",
+    "heading": "Why Tolu's cards did not fit",
+    "items": [
+     "Every box: content, padding, border, margin",
+     "Card: 300px wide, 24px padding, 1px border",
+     "Content-box: 300 + 24 + 24 + 1 + 1 = 350px",
+     "Three cards, two 20px gaps: 1,090px. Too wide!",
+     "Border-box: 300 x 3 + 40 = 940px. It fits"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "With content-box sizing, width means content only. So each card is really 350px."
+   ],
+   "panel": {
+    "kicker": "The box model",
+    "heading": "Why Tolu's cards did not fit",
+    "items": [
+     "Every box: content, padding, border, margin",
+     "Card: 300px wide, 24px padding, 1px border",
+     "Content-box: 300 + 24 + 24 + 1 + 1 = 350px",
+     "Three cards, two 20px gaps: 1,090px. Too wide!",
+     "Border-box: 300 x 3 + 40 = 940px. It fits"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Three cards and two 20px gaps make 1,090px. That overflows her 960px container."
+   ],
+   "panel": {
+    "kicker": "The box model",
+    "heading": "Why Tolu's cards did not fit",
+    "items": [
+     "Every box: content, padding, border, margin",
+     "Card: 300px wide, 24px padding, 1px border",
+     "Content-box: 300 + 24 + 24 + 1 + 1 = 350px",
+     "Three cards, two 20px gaps: 1,090px. Too wide!",
+     "Border-box: 300 x 3 + 40 = 940px. It fits"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Webflow's default is border-box, where width includes padding and border. Then the row is 940px and fits. An old code embed had changed it. She removed it, and the row fits."
+   ],
+   "panel": {
+    "kicker": "The box model",
+    "heading": "Why Tolu's cards did not fit",
+    "items": [
+     "Every box: content, padding, border, margin",
+     "Card: 300px wide, 24px padding, 1px border",
+     "Content-box: 300 + 24 + 24 + 1 + 1 = 350px",
+     "Three cards, two 20px gaps: 1,090px. Too wide!",
+     "Border-box: 300 x 3 + 40 = 940px. It fits"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Border-box: width includes padding and border. 940px fits in 960px.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Open the Navigator panel. You want a tidy tree, not a pile of unnamed Div Blocks. Each band of the page is a Section."
+   ],
+   "panel": {
+    "kicker": "Clean structure",
+    "heading": "How a professional page nests",
+    "items": [
+     "Section: one band, padding and background",
+     "Container: max width, centred",
+     "Layout wrapper: flex or grid",
+     "Content: real headings, text, images",
+     "Classes named by meaning, e.g. services_card"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Inside it, a Container sets a maximum width, for example 1200px, and centres it."
+   ],
+   "panel": {
+    "kicker": "Clean structure",
+    "heading": "How a professional page nests",
+    "items": [
+     "Section: one band, padding and background",
+     "Container: max width, centred",
+     "Layout wrapper: flex or grid",
+     "Content: real headings, text, images",
+     "Classes named by meaning, e.g. services_card"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "A layout wrapper decides how children sit: side by side, in a grid, or stacked."
+   ],
+   "panel": {
+    "kicker": "Clean structure",
+    "heading": "How a professional page nests",
+    "items": [
+     "Section: one band, padding and background",
+     "Container: max width, centred",
+     "Layout wrapper: flex or grid",
+     "Content: real headings, text, images",
+     "Classes named by meaning, e.g. services_card"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Then the content. Use real headings in order, not paragraphs made big."
+   ],
+   "panel": {
+    "kicker": "Clean structure",
+    "heading": "How a professional page nests",
+    "items": [
+     "Section: one band, padding and background",
+     "Container: max width, centred",
+     "Layout wrapper: flex or grid",
+     "Content: real headings, text, images",
+     "Classes named by meaning, e.g. services_card"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Style with classes, reusable named styles. A combo class, like button plus is-secondary, adds a variation. And name things by meaning. Div Block 47 tells nobody anything."
+   ],
+   "panel": {
+    "kicker": "Clean structure",
+    "heading": "How a professional page nests",
+    "items": [
+     "Section: one band, padding and background",
+     "Container: max width, centred",
+     "Layout wrapper: flex or grid",
+     "Content: real headings, text, images",
+     "Classes named by meaning, e.g. services_card"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Use Flexbox for a line of things, like a navigation bar or a row of buttons."
+   ],
+   "panel": {
+    "kicker": "Layout tools",
+    "heading": "Flexbox or Grid?",
+    "mode": "compare",
+    "left_h": "Flexbox",
+    "left": [
+     "One row or one column",
+     "Content decides sizes",
+     "Navbars, button rows"
+    ],
+    "right_h": "Grid",
+    "right": [
+     "Rows and columns together",
+     "Layout decides sizes",
+     "Card grids, galleries",
+     "Items can span cells"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Use Grid when you need rows and columns together, like a three-column services area. Columns are sized in fr, a fraction of the free space."
+   ],
+   "panel": {
+    "kicker": "Layout tools",
+    "heading": "Flexbox or Grid?",
+    "mode": "compare",
+    "left_h": "Flexbox",
+    "left": [
+     "One row or one column",
+     "Content decides sizes",
+     "Navbars, button rows"
+    ],
+    "right_h": "Grid",
+    "right": [
+     "Rows and columns together",
+     "Layout decides sizes",
+     "Card grids, galleries",
+     "Items can span cells"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Most visitors arrive on a phone. In Webflow you design on Desktop, and styles cascade down to smaller screens."
+   ],
+   "panel": {
+    "kicker": "Breakpoints",
+    "heading": "Zainab's services grid, desktop to phone",
+    "items": [
+     "Desktop: 3 columns, 364px cards",
+     "Tablet, 991px and below: 2 columns",
+     "Mobile landscape, 767px and below: 1 column",
+     "Section padding: 96px, then 64px, then 48px",
+     "Test at 360px and on a real Android phone"
+    ],
+    "show": 0,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "For example, Zainab builds a catering site with six service cards. On Desktop, 3 columns, so each card is 364px."
+   ],
+   "panel": {
+    "kicker": "Breakpoints",
+    "heading": "Zainab's services grid, desktop to phone",
+    "items": [
+     "Desktop: 3 columns, 364px cards",
+     "Tablet, 991px and below: 2 columns",
+     "Mobile landscape, 767px and below: 1 column",
+     "Section padding: 96px, then 64px, then 48px",
+     "Test at 360px and on a real Android phone"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "On Tablet she changes the grid to 2 columns."
+   ],
+   "panel": {
+    "kicker": "Breakpoints",
+    "heading": "Zainab's services grid, desktop to phone",
+    "items": [
+     "Desktop: 3 columns, 364px cards",
+     "Tablet, 991px and below: 2 columns",
+     "Mobile landscape, 767px and below: 1 column",
+     "Section padding: 96px, then 64px, then 48px",
+     "Test at 360px and on a real Android phone"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "On Mobile landscape, 1 column, so each card fills the width."
+   ],
+   "panel": {
+    "kicker": "Breakpoints",
+    "heading": "Zainab's services grid, desktop to phone",
+    "items": [
+     "Desktop: 3 columns, 364px cards",
+     "Tablet, 991px and below: 2 columns",
+     "Mobile landscape, 767px and below: 1 column",
+     "Section padding: 96px, then 64px, then 48px",
+     "Test at 360px and on a real Android phone"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "She reduces section padding so phone users scroll less."
+   ],
+   "panel": {
+    "kicker": "Breakpoints",
+    "heading": "Zainab's services grid, desktop to phone",
+    "items": [
+     "Desktop: 3 columns, 364px cards",
+     "Tablet, 991px and below: 2 columns",
+     "Mobile landscape, 767px and below: 1 column",
+     "Section padding: 96px, then 64px, then 48px",
+     "Test at 360px and on a real Android phone"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Then she previews at 360px and finds a heading overflowing, so she lowers it on Mobile portrait only. Four overrides, not four separate layouts. And always open the link on a real phone."
+   ],
+   "panel": {
+    "kicker": "Breakpoints",
+    "heading": "Zainab's services grid, desktop to phone",
+    "items": [
+     "Desktop: 3 columns, 364px cards",
+     "Tablet, 991px and below: 2 columns",
+     "Mobile landscape, 767px and below: 1 column",
+     "Section padding: 96px, then 64px, then 48px",
+     "Test at 360px and on a real Android phone"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Set styles on Desktop. Override only what must change below.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "To remember. Ask about payments and editing needs first. Know your box model. Keep a clean structure with meaningful class names. And design on Desktop, override only what must change, and check every section on a real phone."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "Webflow builds real HTML and CSS",
+     "Ask about payments first; refer when it's wrong",
+     "Border-box keeps width arithmetic simple",
+     "Section, Container, wrapper, content",
+     "Design on Desktop, override below, test on a phone"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Now audit local business websites on your phone, build and name a hero section, and make a section fully responsive.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice tasks",
+    "heading": "Your work for this module",
+    "items": [
+     "Do a platform fit audit of 8 to 10 businesses",
+     "Build and name a hero section",
+     "Make a section fully responsive"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

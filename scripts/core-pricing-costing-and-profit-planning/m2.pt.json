@@ -1,0 +1,479 @@
+{
+ "course": "core-pricing-costing-and-profit-planning",
+ "module": "m2",
+ "title": "Custo unitário, ponto de equilíbrio e definição de seu preço",
+ "course_title": "Preços, custos e planejamento de lucros",
+ "shots": [
+  {
+   "demo": "cash_count",
+   "say": [
+    "Custo unitário, ponto de equilíbrio e definição de preço.",
+    "Este é o vídeo do Módulo 2 de Preços, Custeio e Planejamento de Lucros."
+   ]
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "O custo unitário é quanto custa para você fabricar e vender um item. Aqui está o método de quatro etapas.",
+    "Primeiro, liste todos os custos variáveis de um lote, com sua quantidade e preço atual."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Custo total de uma unidade",
+    "items": [
+     "Liste todos os custos variáveis para um lote",
+     "Divida por unidades boas: custo variável por unidade",
+     "Divida os custos fixos mensais pelas vendas médias",
+     "Adicione os dois: custo total por unidade"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Em segundo lugar, some-os e divida pelo número de unidades boas que o lote fornece."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Custo total de uma unidade",
+    "items": [
+     "Liste todos os custos variáveis para um lote",
+     "Divida por unidades boas: custo variável por unidade",
+     "Divida os custos fixos mensais pelas vendas médias",
+     "Adicione os dois: custo total por unidade"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Terceiro, some todos os custos fixos mensais, incluindo seu próprio salário, e divida pelas unidades que você vende realisticamente em um mês. Use sua média, não seu melhor mês."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Custo total de uma unidade",
+    "items": [
+     "Liste todos os custos variáveis para um lote",
+     "Divida por unidades boas: custo variável por unidade",
+     "Divida os custos fixos mensais pelas vendas médias",
+     "Adicione os dois: custo total por unidade"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Quarto, adicione os dois. Esse é o seu custo total por unidade."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Custo total de uma unidade",
+    "items": [
+     "Liste todos os custos variáveis para um lote",
+     "Divida por unidades boas: custo variável por unidade",
+     "Divida os custos fixos mensais pelas vendas médias",
+     "Adicione os dois: custo total por unidade"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Itens queimados ou quebrados não são gratuitos. Se um lote produz 48 pacotes bons em vez de 50, os bons arcam com o custo dos ruins."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Custo total de uma unidade",
+    "items": [
+     "Liste todos os custos variáveis para um lote",
+     "Divida por unidades boas: custo variável por unidade",
+     "Divida os custos fixos mensais pelas vendas médias",
+     "Adicione os dois: custo total por unidade"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Divida por boas unidades, não pelo número planejado.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "O lote de farinha, açúcar, margarina, ovos, óleo, bolsas, gás e o salário de sua ajudante de Ngozi custam 47.000 nairas."
+   ],
+   "card": {
+    "title": "Custo total de Ngozi por pacote",
+    "rows": [],
+    "note": "Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Dividido por 50 maços, seu custo variável é de 940 nairas o maço."
+   ],
+   "card": {
+    "title": "Custo total de Ngozi por pacote",
+    "rows": [
+     [
+      "Custo variável por pacote",
+      "940"
+     ]
+    ],
+    "note": "Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Os seus custos fixos mensais, incluindo o seu próprio salário de 60.000 nairas, totalizam 110.000 nairas. Compartilhamos mais de 200 pacotes, ou seja, 550 nairas por pacote."
+   ],
+   "card": {
+    "title": "Custo total de Ngozi por pacote",
+    "rows": [
+     [
+      "Custo variável por pacote",
+      "940"
+     ],
+     [
+      "Custo fixo por pacote",
+      "550"
+     ]
+    ],
+    "note": "Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Portanto, cada pacote custa realmente 1.490 nairas. Seu antigo preço de 1.500 nairas deixa apenas 10 nairas de lucro."
+   ],
+   "card": {
+    "title": "Custo total de Ngozi por pacote",
+    "rows": [
+     [
+      "Custo variável por pacote",
+      "940"
+     ],
+     [
+      "Custo fixo por pacote",
+      "550"
+     ]
+    ],
+    "note": "Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Cada venda paga primeiro seu próprio custo variável. O que resta é a margem de contribuição. Com 1.500 nairas, a contribuição de Ngozi é de 1.500 menos 940, o que equivale a 560 nairas por maço."
+   ],
+   "panel": {
+    "kicker": "Ponto de equilíbrio",
+    "heading": "Quantos você deve vender?",
+    "items": [
+     "Contribuição = preço menos custo variável",
+     "Ponto de equilíbrio = custos fixos divididos pela contribuição",
+     "Sempre arredonde para uma unidade inteira",
+     "Margem de segurança = esperada menos ponto de equilíbrio"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "O ponto de equilíbrio são os custos fixos divididos pela contribuição. 110.000 dividido por 560 é 196,4."
+   ],
+   "panel": {
+    "kicker": "Ponto de equilíbrio",
+    "heading": "Quantos você deve vender?",
+    "items": [
+     "Contribuição = preço menos custo variável",
+     "Ponto de equilíbrio = custos fixos divididos pela contribuição",
+     "Sempre arredonde para uma unidade inteira",
+     "Margem de segurança = esperada menos ponto de equilíbrio"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Sempre arredondar. Ngozi tem de vender 197 maços por mês apenas para cobrir os seus custos e o seu salário. Apenas o 198º pacote dá lucro."
+   ],
+   "panel": {
+    "kicker": "Ponto de equilíbrio",
+    "heading": "Quantos você deve vender?",
+    "items": [
+     "Contribuição = preço menos custo variável",
+     "Ponto de equilíbrio = custos fixos divididos pela contribuição",
+     "Sempre arredonde para uma unidade inteira",
+     "Margem de segurança = esperada menos ponto de equilíbrio"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Se ela espera vender 250 maços, sua margem de segurança é de 53 maços, cerca de 21%. Abaixo de cerca de 10%, uma semana ruim pode levar o mês a um prejuízo."
+   ],
+   "panel": {
+    "kicker": "Ponto de equilíbrio",
+    "heading": "Quantos você deve vender?",
+    "items": [
+     "Contribuição = preço menos custo variável",
+     "Ponto de equilíbrio = custos fixos divididos pela contribuição",
+     "Sempre arredonde para uma unidade inteira",
+     "Margem de segurança = esperada menos ponto de equilíbrio"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Use o ponto de equilíbrio para testar um preço. Com 1.500 nairas, Ngozi precisa de 197 maços por mês."
+   ],
+   "panel": {
+    "kicker": "Testando um novo preço",
+    "heading": "Um aumento de 200 nairas muda tudo",
+    "mode": "compare",
+    "left_h": "Por 1.500 nairas",
+    "left": [
+     "Contribuição 560 por pacote",
+     "Ponto de equilíbrio: 197 pacotes"
+    ],
+    "right_h": "Por 1.700 nairas",
+    "right": [
+     "Contribuição 760 por pacote",
+     "Ponto de equilíbrio: 145 pacotes"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Com 1.700 nairas, sua contribuição passa a 760 nairas e ela precisa de apenas 145 maços. São 52 pacotes a menos por mês.",
+    "Mas nunca precifique abaixo do seu custo variável. Para Ngozi, qualquer preço abaixo de 940 nairas gera perda de dinheiro em cada pacote."
+   ],
+   "panel": {
+    "kicker": "Testando um novo preço",
+    "heading": "Um aumento de 200 nairas muda tudo",
+    "mode": "compare",
+    "left_h": "Por 1.500 nairas",
+    "left": [
+     "Contribuição 560 por pacote",
+     "Ponto de equilíbrio: 197 pacotes"
+    ],
+    "right_h": "Por 1.700 nairas",
+    "right": [
+     "Contribuição 760 por pacote",
+     "Ponto de equilíbrio: 145 pacotes"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Markup é o lucro como uma porcentagem do custo. Uma margem de lucro de 30% sobre 1.490 nairas dá 1.937 nairas. Mas isso representa apenas uma margem de 23%."
+   ],
+   "panel": {
+    "kicker": "A armadilha comum",
+    "heading": "Marcação versus margem",
+    "mode": "compare",
+    "left_h": "Marcação",
+    "left": [
+     "Lucro comparado com custo",
+     "Preço = custo x (1 + margem)",
+     "30% em 1.490 dá 1.937"
+    ],
+    "right_h": "Margem",
+    "right": [
+     "Lucro comparado ao preço",
+     "Preço = custo / (1 menos margem)",
+     "30% em 1.490 dá 2.130"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "A margem é o lucro como uma porcentagem do preço. Para uma margem de 30 por cento, divida 1.490 por 0,70. Isso dá cerca de 2.130 nairas.",
+    "O mercado diz que embalagens semelhantes são vendidas por até cerca de 2.000 nairas, então Ngozi escolhe 1.700 nairas por enquanto e trabalha para aumentar o volume."
+   ],
+   "panel": {
+    "kicker": "A armadilha comum",
+    "heading": "Marcação versus margem",
+    "mode": "compare",
+    "left_h": "Marcação",
+    "left": [
+     "Lucro comparado com custo",
+     "Preço = custo x (1 + margem)",
+     "30% em 1.490 dá 1.937"
+    ],
+    "right_h": "Margem",
+    "right": [
+     "Lucro comparado ao preço",
+     "Preço = custo / (1 menos margem)",
+     "30% em 1.490 dá 2.130"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Veja como o erro acontece."
+   ],
+   "card": {
+    "title": "Preço da manteiga corporal da Funke",
+    "rows": [],
+    "note": "Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "O pote de Funke custa 2.000 nairas e ela o preço de 3.000 nairas. Isso representa uma margem de lucro de 50%, mas apenas uma margem de 33%."
+   ],
+   "card": {
+    "title": "Preço da manteiga corporal da Funke",
+    "rows": [
+     [
+      "Custo total por frasco",
+      "2,000"
+     ],
+     [
+      "Preço antigo: margem de apenas 33%",
+      "3,000"
+     ]
+    ],
+    "note": "Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Uma verdadeira margem de 50 por cento precisaria de 4.000 nairas. Esse valor é demasiado elevado para o seu mercado, por isso ela fixa-se em 3.500 nairas, cerca de 43%. Agora é uma escolha consciente."
+   ],
+   "card": {
+    "title": "Preço da manteiga corporal da Funke",
+    "rows": [
+     [
+      "Custo total por frasco",
+      "2,000"
+     ],
+     [
+      "Preço antigo: margem de apenas 33%",
+      "3,000"
+     ],
+     [
+      "Preço para uma margem real de 50%",
+      "4,000"
+     ],
+     [
+      "Preço escolhido: margem de cerca de 43%",
+      "3,500"
+     ]
+    ],
+    "note": "Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "As lojas precisam do seu próprio lucro, por isso compram a um preço mais baixo. Se Ngozi vender para uma loja por 1.400 nairas, ela ainda fará uma contribuição de 460 nairas, e a loja revenderá por 1.700 nairas.",
+    "Mantenha o atacado acima do custo variável e estabeleça um pedido mínimo para que o preço mais baixo seja obtido por volume."
+   ],
+   "panel": {
+    "kicker": "Atacado",
+    "heading": "Definir um preço de atacado",
+    "items": [
+     "Mantenha-o acima do seu custo variável",
+     "Faça uma contribuição real por unidade",
+     "Defina um pedido mínimo, como 20 pacotes",
+     "Saia da loja para lucrar"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Para lembrar. O custo total é variável mais o custo fixo por unidade. O ponto de equilíbrio são os custos fixos divididos pela contribuição, arredondados. Um pequeno aumento de preço pode reduzi-lo drasticamente. Use a fórmula de margem, não uma marcação, para uma margem alvo.",
+    "E manter os preços no atacado acima do custo variável."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Lembre-se",
+    "items": [
+     "Custo total = variável + custo fixo por unidade",
+     "Ponto de equilíbrio = custos fixos divididos pela contribuição",
+     "Um pequeno aumento de preços pode reduzir drasticamente o ponto de equilíbrio",
+     "Margem alvo: preço = custo / (1 menos margem)",
+     "Atacado deve ficar acima do custo variável"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Agora custe uma unidade de seu produto principal, encontre seu ponto de equilíbrio e margem de segurança e defina o preço com margem e margem antes de escolher.",
+    "Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Pratique tarefas",
+    "heading": "Suas tarefas para este módulo",
+    "items": [
+     "Custa uma unidade do seu produto principal",
+     "Encontre o seu ponto de equilíbrio",
+     "Defina o preço do seu produto de duas maneiras"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

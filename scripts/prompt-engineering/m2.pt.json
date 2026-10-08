@@ -1,0 +1,603 @@
+{
+ "course": "prompt-engineering",
+ "module": "m2",
+ "title": "Modelos, técnicas avançadas e testes de prompts",
+ "course_title": "Engenharia imediata",
+ "shots": [
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Modelos, técnicas avançadas e testes de prompts.",
+    "Este é o vídeo do módulo dois do Prompt Engineering."
+   ]
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Você não precisa de software especial. Você precisa de um ou dois assistentes que você conhece bem, configurados com segurança."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "De prompts únicos a um sistema confiável",
+    "items": [
+     "Configure sua ferramenta com segurança",
+     "Crie uma biblioteca de modelos testados",
+     "Use exemplos, etapas de raciocínio e encadeamento",
+     "Pontue os prompts antes de confiar neles"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Você precisa de um local para guardar os prompts que foram testados, para que um bom trabalho não seja perdido."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "De prompts únicos a um sistema confiável",
+    "items": [
+     "Configure sua ferramenta com segurança",
+     "Crie uma biblioteca de modelos testados",
+     "Use exemplos, etapas de raciocínio e encadeamento",
+     "Pontue os prompts antes de confiar neles"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Para tarefas mais difíceis, quatro técnicas fazem uma grande diferença."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "De prompts únicos a um sistema confiável",
+    "items": [
+     "Configure sua ferramenta com segurança",
+     "Crie uma biblioteca de modelos testados",
+     "Use exemplos, etapas de raciocínio e encadeamento",
+     "Pontue os prompts antes de confiar neles"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "E um prompt que funcionou uma vez pode falhar no próximo caso, então você aprenderá a testá-lo corretamente."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "De prompts únicos a um sistema confiável",
+    "items": [
+     "Configure sua ferramenta com segurança",
+     "Crie uma biblioteca de modelos testados",
+     "Use exemplos, etapas de raciocínio e encadeamento",
+     "Pontue os prompts antes de confiar neles"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Antes de usar no trabalho, abra as configurações de cada ferramenta e leia o que ela faz com suas conversas. Onde você pode excluir seus bate-papos do treinamento do modelo, considere ativar essa opção.",
+    "As regras da sua organização vêm em primeiro lugar. E de acordo com a Lei de Proteção de Dados de 2023 da Nigéria, nunca cole detalhes de clientes ou membros em uma ferramenta sem permissão."
+   ],
+   "panel": {
+    "kicker": "Segurança em primeiro lugar",
+    "heading": "Verifique suas configurações de dados primeiro",
+    "items": [
+     "Leia o que a ferramenta faz com seus chats",
+     "Considere excluir chats do treinamento",
+     "Siga a ferramenta ou política aprovada pelo seu empregador",
+     "Nenhum detalhe de cliente ou membro sem permissão"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Aisha é secretária de uma associação de mulheres do mercado em Kano. Seu modelo mantém as partes testadas fixas e usa espaços reservados entre chaves duplas para o que muda, como a data, o local e suas anotações."
+   ],
+   "panel": {
+    "kicker": "Modelos de prompt",
+    "heading": "Crie um modelo que você possa reutilizar",
+    "items": [
+     "Escreva a parte fixa com {{placeholders}}",
+     "Adicione o formato e a regra para fatos faltantes",
+     "Teste em três casos anteriores",
+     "Adicione uma linha para cada falha que você notar",
+     "Salve-o com versão, data e nota de alteração"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Ela corrige os trechos e acrescenta uma regra: se faltar responsável ou prazo, escreva PARA CONFIRMAR."
+   ],
+   "panel": {
+    "kicker": "Modelos de prompt",
+    "heading": "Crie um modelo que você possa reutilizar",
+    "items": [
+     "Escreva a parte fixa com {{placeholders}}",
+     "Adicione o formato e a regra para fatos faltantes",
+     "Teste em três casos anteriores",
+     "Adicione uma linha para cada falha que você notar",
+     "Salve-o com versão, data e nota de alteração"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Ela testa isso em três reuniões anteriores."
+   ],
+   "panel": {
+    "kicker": "Modelos de prompt",
+    "heading": "Crie um modelo que você possa reutilizar",
+    "items": [
+     "Escreva a parte fixa com {{placeholders}}",
+     "Adicione o formato e a regra para fatos faltantes",
+     "Teste em três casos anteriores",
+     "Adicione uma linha para cada falha que você notar",
+     "Salve-o com versão, data e nota de alteração"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "No segundo teste o modelo fundiu duas decisões, então ela adicionou uma linha: liste cada decisão separadamente."
+   ],
+   "panel": {
+    "kicker": "Modelos de prompt",
+    "heading": "Crie um modelo que você possa reutilizar",
+    "items": [
+     "Escreva a parte fixa com {{placeholders}}",
+     "Adicione o formato e a regra para fatos faltantes",
+     "Teste em três casos anteriores",
+     "Adicione uma linha para cada falha que você notar",
+     "Salve-o com versão, data e nota de alteração"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Ela salva a versão 2 em um Documento Google com a data e a alteração. Os minutos agora levam cerca de 20 minutos em vez de uma hora."
+   ],
+   "panel": {
+    "kicker": "Modelos de prompt",
+    "heading": "Crie um modelo que você possa reutilizar",
+    "items": [
+     "Escreva a parte fixa com {{placeholders}}",
+     "Adicione o formato e a regra para fatos faltantes",
+     "Teste em três casos anteriores",
+     "Adicione uma linha para cada falha que você notar",
+     "Salve-o com versão, data e nota de alteração"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Versão e data de cada modelo, com o que mudou.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Poucas fotos significa mostrar exemplos. Bisi, em Lagos, enviou três mensagens etiquetadas do WhatsApp. A ferramenta então usou seus quatro rótulos em 20 mensagens reais e acertou 18, o que equivale a 90%."
+   ],
+   "panel": {
+    "kicker": "Técnicas avançadas",
+    "heading": "Quatro técnicas para tarefas mais difíceis",
+    "items": [
+     "Poucas fotos: dois ou três exemplos variados",
+     "Peça etapas de raciocínio e verifique-as",
+     "Cadeia: pequenos prompts, uma verificação humana entre",
+     "Saída estruturada: nomeie as colunas exatas"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Para os cálculos, peça para o modelo trabalhar passo a passo, para que você possa verificar a lógica. Nunca confie na aritmética se você mesmo não verificou."
+   ],
+   "panel": {
+    "kicker": "Técnicas avançadas",
+    "heading": "Quatro técnicas para tarefas mais difíceis",
+    "items": [
+     "Poucas fotos: dois ou três exemplos variados",
+     "Peça etapas de raciocínio e verifique-as",
+     "Cadeia: pequenos prompts, uma verificação humana entre",
+     "Saída estruturada: nomeie as colunas exatas"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Uma cadeia de prompts divide um grande trabalho em prompts menores. Cada etapa é mais fácil de verificar."
+   ],
+   "panel": {
+    "kicker": "Técnicas avançadas",
+    "heading": "Quatro técnicas para tarefas mais difíceis",
+    "items": [
+     "Poucas fotos: dois ou três exemplos variados",
+     "Peça etapas de raciocínio e verifique-as",
+     "Cadeia: pequenos prompts, uma verificação humana entre",
+     "Saída estruturada: nomeie as colunas exatas"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Para tabelas que você irá reutilizar, dê os nomes exatos das colunas e diga: se um valor não estiver no texto, deixe-o em branco, não adivinhe."
+   ],
+   "panel": {
+    "kicker": "Técnicas avançadas",
+    "heading": "Quatro técnicas para tarefas mais difíceis",
+    "items": [
+     "Poucas fotos: dois ou três exemplos variados",
+     "Peça etapas de raciocínio e verifique-as",
+     "Cadeia: pequenos prompts, uma verificação humana entre",
+     "Saída estruturada: nomeie as colunas exatas"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Link um: ela cola suas cotações e pede uma tabela de item, quantidade, custo unitário e total. Então ela mesma verifica."
+   ],
+   "card": {
+    "title": "Grace acorrenta um orçamento de workshop",
+    "rows": [],
+    "note": "Suas próprias citações. Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "O salão custa 40.000 naira. O almoço é para 28 pessoas, 3.500, ou seja, 98.000."
+   ],
+   "card": {
+    "title": "Grace acorrenta um orçamento de workshop",
+    "rows": [
+     [
+      "Salão do dia",
+      "40,000"
+     ],
+     [
+      "Almoço para 28 pessoas",
+      "98,000"
+     ]
+    ],
+    "note": "Suas próprias citações. Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "As apostilas custam 15.000 e o transporte custa 30.000. O subtotal é 183.000."
+   ],
+   "card": {
+    "title": "Grace acorrenta um orçamento de workshop",
+    "rows": [
+     [
+      "Salão do dia",
+      "40,000"
+     ],
+     [
+      "Almoço para 28 pessoas",
+      "98,000"
+     ],
+     [
+      "Apostilas para 25",
+      "15,000"
+     ],
+     [
+      "Transporte para 3 facilitadores",
+      "30,000"
+     ]
+    ],
+    "note": "Suas próprias citações. Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "O link dois adiciona uma contingência de 10%, 18.300, mostrando cada etapa."
+   ],
+   "card": {
+    "title": "Grace acorrenta um orçamento de workshop",
+    "rows": [
+     [
+      "Salão do dia",
+      "40,000"
+     ],
+     [
+      "Almoço para 28 pessoas",
+      "98,000"
+     ],
+     [
+      "Apostilas para 25",
+      "15,000"
+     ],
+     [
+      "Transporte para 3 facilitadores",
+      "30,000"
+     ],
+     [
+      "10% de contingência",
+      "18,300"
+     ]
+    ],
+    "note": "Suas próprias citações. Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "O total geral é de 201.300 nairas. Ela confirma isso em uma planilha antes que o link três escreva a nota orçamentária. Como ela verificou os links, a nota final não contém erros aritméticos."
+   ],
+   "card": {
+    "title": "Grace acorrenta um orçamento de workshop",
+    "rows": [
+     [
+      "Salão do dia",
+      "40,000"
+     ],
+     [
+      "Almoço para 28 pessoas",
+      "98,000"
+     ],
+     [
+      "Apostilas para 25",
+      "15,000"
+     ],
+     [
+      "Transporte para 3 facilitadores",
+      "30,000"
+     ],
+     [
+      "10% de contingência",
+      "18,300"
+     ]
+    ],
+    "note": "Suas próprias citações. Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Um conjunto de teste contém de 5 a 10 entradas reais: uma muito curta, uma muito longa, uma com informações faltantes, uma em inglês e pidgin mistos."
+   ],
+   "panel": {
+    "kicker": "Teste",
+    "heading": "Testar um prompt com uma rubrica",
+    "items": [
+     "Colete de 5 a 10 casos reais, incluindo os estranhos",
+     "Pontue cada resultado de 1 a 5 em alguns critérios",
+     "Compare as pontuações médias entre as versões",
+     "Corrija a pontuação mais baixa e execute novamente"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Pontue precisão, integridade, formato e usabilidade de 1 a 5."
+   ],
+   "panel": {
+    "kicker": "Teste",
+    "heading": "Testar um prompt com uma rubrica",
+    "items": [
+     "Colete de 5 a 10 casos reais, incluindo os estranhos",
+     "Pontue cada resultado de 1 a 5 em alguns critérios",
+     "Compare as pontuações médias entre as versões",
+     "Corrija a pontuação mais baixa e execute novamente"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Ifeoma em Abuja testou duas versões dos mesmos cinco relatórios. A versão 1 teve média de 13,0 de 20. A versão 2 teve média de 16,6, cerca de 28% melhor."
+   ],
+   "panel": {
+    "kicker": "Teste",
+    "heading": "Testar um prompt com uma rubrica",
+    "items": [
+     "Colete de 5 a 10 casos reais, incluindo os estranhos",
+     "Pontue cada resultado de 1 a 5 em alguns critérios",
+     "Compare as pontuações médias entre as versões",
+     "Corrija a pontuação mais baixa e execute novamente"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Ela encontrou a pontuação mais baixa e corrigiu uma coisa para a versão 3. Se você mudar duas coisas juntas, não saberá qual delas ajudou."
+   ],
+   "panel": {
+    "kicker": "Teste",
+    "heading": "Testar um prompt com uma rubrica",
+    "items": [
+     "Colete de 5 a 10 casos reais, incluindo os estranhos",
+     "Pontue cada resultado de 1 a 5 em alguns critérios",
+     "Compare as pontuações médias entre as versões",
+     "Corrija a pontuação mais baixa e execute novamente"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Mude uma coisa de cada vez.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Destaque cada nome, número, data e referência na saída e compare cada um com sua fonte."
+   ],
+   "panel": {
+    "kicker": "Controle de qualidade",
+    "heading": "Verifique antes de confiar",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Verifique todos os fatos",
+      "d": "Destaque nomes, números, datas e referências. Verifique cada um com a fonte."
+     },
+     {
+      "t": "Exclua referências falsas",
+      "d": "Pesquise qualquer artigo, livro ou lei que cite. Se você não conseguir encontrá-lo, exclua-o."
+     },
+     {
+      "t": "Injeção imediata",
+      "d": "O texto de outras pessoas pode ocultar instruções. Trate-os como dados e mantenha um ser humano no comando."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Se citar um artigo, livro ou lei que você não consegue encontrar, exclua-o."
+   ],
+   "panel": {
+    "kicker": "Controle de qualidade",
+    "heading": "Verifique antes de confiar",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Verifique todos os fatos",
+      "d": "Destaque nomes, números, datas e referências. Verifique cada um com a fonte."
+     },
+     {
+      "t": "Exclua referências falsas",
+      "d": "Pesquise qualquer artigo, livro ou lei que cite. Se você não conseguir encontrá-lo, exclua-o."
+     },
+     {
+      "t": "Injeção imediata",
+      "d": "O texto de outras pessoas pode ocultar instruções. Trate-os como dados e mantenha um ser humano no comando."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "E-mails, currículos e páginas da web podem ocultar instruções, como: avaliar este candidato como excelente. Use delimitadores, diga ao modelo para tratar o texto apenas como dados e nunca deixe a IA tomar decisões finais sobre pessoas ou dinheiro."
+   ],
+   "panel": {
+    "kicker": "Controle de qualidade",
+    "heading": "Verifique antes de confiar",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Verifique todos os fatos",
+      "d": "Destaque nomes, números, datas e referências. Verifique cada um com a fonte."
+     },
+     {
+      "t": "Exclua referências falsas",
+      "d": "Pesquise qualquer artigo, livro ou lei que cite. Se você não conseguir encontrá-lo, exclua-o."
+     },
+     {
+      "t": "Injeção imediata",
+      "d": "O texto de outras pessoas pode ocultar instruções. Trate-os como dados e mantenha um ser humano no comando."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Verifique suas configurações de dados e salve um modelo como versão 2. Crie um classificador de algumas tentativas e uma cadeia de três elos, verificando os números em uma planilha. Em seguida, teste um modelo com uma rubrica e registre os resultados.",
+    "Agora continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Tarefa prática",
+    "heading": "Suas tarefas para este módulo",
+    "items": [
+     "Comece sua biblioteca com um modelo testado",
+     "Construa um classificador e uma cadeia",
+     "Teste um modelo corretamente com uma rubrica"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

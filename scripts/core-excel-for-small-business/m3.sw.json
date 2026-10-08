@@ -1,0 +1,449 @@
+{
+ "course": "core-excel-for-small-business",
+ "module": "m3",
+ "title": "Safisha data, jumla za kategoria na chati zinazosema ukweli",
+ "course_title": "Excel na Majedwali ya Google kwa Biashara Ndogo",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Safisha data, jumla za kategoria na chati zinazosema ukweli.",
+    "Hii ni video ya Moduli ya 3 ya Excel na Majedwali ya Google kwa Biashara Ndogo."
+   ]
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Baada ya wiki chache za maingizo, utataka majibu. Mauzo yangu makubwa yalikuwa yapi? Nilitumia kiasi gani kwa usafiri?",
+    "Kupanga, kuchuja na orodha kunjuzi huweka data yako ikiwa nadhifu inapokua."
+   ],
+   "panel": {
+    "kicker": "Katika moduli hii",
+    "heading": "Badilisha rekodi kuwa ushahidi",
+    "items": [
+     "Panga na uchuje bila kuvunja safu",
+     "Orodha kunjuzi huacha makosa ya tahajia",
+     "Jumla ya SUMIF kwa kategoria na mteja",
+     "Chati zinazojibu swali moja"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Kisha SUMIF na chati hugeuza data hiyo kuwa ushahidi wa jinsi biashara yako inavyofanya."
+   ],
+   "panel": {
+    "kicker": "Katika moduli hii",
+    "heading": "Badilisha rekodi kuwa ushahidi",
+    "items": [
+     "Panga na uchuje bila kuvunja safu",
+     "Orodha kunjuzi huacha makosa ya tahajia",
+     "Jumla ya SUMIF kwa kategoria na mteja",
+     "Chati zinazojibu swali moja"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Ili kupanga, gusa kisanduku kimoja ndani ya data yako, kisha uchague Data, Panga na uweke alama ya kwamba data yako ina vichwa. Kisha chagua safu na mpangilio, kama vile kubwa kwanza."
+   ],
+   "panel": {
+    "kicker": "Panga kwa usalama",
+    "heading": "Panga safu nzima, kamwe sio safu wima moja",
+    "mode": "compare",
+    "left_h": "Fanya hivi",
+    "left": [
+     "Gonga kisanduku kimoja ndani ya data yako",
+     "Data, Panga, na vichwa vilivyowekwa alama",
+     "Kubali Panua uteuzi"
+    ],
+    "right_h": "Kamwe hii",
+    "right": [
+     "Chagua safu wima ya Kiasi pekee",
+     "Panga peke yako",
+     "Kiasi husogezwa, vitu hubaki nyuma"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Hapa kuna kosa la kawaida. Ukichagua tu safu wima ya Kiasi na kuipanga, kiasi husogezwa lakini tarehe na vitu vilivyo kando yao haviendi. Kila safu sasa si sahihi.",
+    "Excel inakuonya na inatoa Panua uteuzi. Ikubali kila wakati. Ikitokea, tengua mara moja."
+   ],
+   "panel": {
+    "kicker": "Panga kwa usalama",
+    "heading": "Panga safu nzima, kamwe sio safu wima moja",
+    "mode": "compare",
+    "left_h": "Fanya hivi",
+    "left": [
+     "Gonga kisanduku kimoja ndani ya data yako",
+     "Data, Panga, na vichwa vilivyowekwa alama",
+     "Kubali Panua uteuzi"
+    ],
+    "right_h": "Kamwe hii",
+    "right": [
+     "Chagua safu wima ya Kiasi pekee",
+     "Panga peke yako",
+     "Kiasi husogezwa, vitu hubaki nyuma"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Halima anashuku usafiri unakula faida yake. Kichujio huficha safu ambazo hazihitaji kwa muda.",
+    "Anagonga mshale kwenye Kitengo na kupe Usafiri pekee."
+   ],
+   "card": {
+    "title": "Matumizi ya usafiri wa Halima",
+    "rows": [],
+    "note": "SUBTOTAL(9, masafa) huongeza safu mlalo zinazoonekana pekee."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Safu 4 zimesalia. Juu ya vichwa vyake ana SUBTOTAL, 9, kisha safu yake ya Kiasi. 9 inaiambia ijumuishe."
+   ],
+   "card": {
+    "title": "Matumizi ya usafiri wa Halima",
+    "rows": [
+     [
+      "Safari ya 1",
+      "2,500"
+     ],
+     [
+      "Safari ya 2",
+      "3,000"
+     ],
+     [
+      "Safari ya 3",
+      "1,500"
+     ],
+     [
+      "Safari ya 4",
+      "4,000"
+     ]
+    ],
+    "note": "SUBTOTAL(9, masafa) huongeza safu mlalo zinazoonekana pekee."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Usafiri unakuja kwa naira 11000. SUM bado ingeongeza safu mlalo zote 40, ndiyo maana SUBTOTAL ni zana sahihi wakati wa kuchuja. Futa kichujio ukimaliza."
+   ],
+   "card": {
+    "title": "Matumizi ya usafiri wa Halima",
+    "rows": [
+     [
+      "Safari ya 1",
+      "2,500"
+     ],
+     [
+      "Safari ya 2",
+      "3,000"
+     ],
+     [
+      "Safari ya 3",
+      "1,500"
+     ],
+     [
+      "Safari ya 4",
+      "4,000"
+     ]
+    ],
+    "note": "SUBTOTAL(9, masafa) huongeza safu mlalo zinazoonekana pekee."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Ifuatayo, orodha kunjuzi. Chagua safu wima nzima ya Aina, chini ya kichwa."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Ongeza orodha kunjuzi",
+    "items": [
+     "Chagua safu wima nzima ya Aina chini ya kichwa",
+     "Excel: Data, Uthibitishaji wa Data, Orodha",
+     "Laha: Chomeka, Kunjuzi",
+     "Chaguzi: Uuzaji, Gharama",
+     "Fanya vivyo hivyo kwa Kategoria"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Katika Excel chagua Data, Uthibitishaji wa Data, na chini ya Ruhusu Chagua Orodha. Katika Majedwali ya Google chagua Chomeka, menyu kunjuzi."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Ongeza orodha kunjuzi",
+    "items": [
+     "Chagua safu wima nzima ya Aina chini ya kichwa",
+     "Excel: Data, Uthibitishaji wa Data, Orodha",
+     "Laha: Chomeka, Kunjuzi",
+     "Chaguzi: Uuzaji, Gharama",
+     "Fanya vivyo hivyo kwa Kategoria"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Ongeza chaguzi za Uuzaji na Gharama. Kisha fanya vivyo hivyo kwa Kitengo, na orodha yako mwenyewe, kama vile Vyakula, Gesi, Ufungaji na Usafiri."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Ongeza orodha kunjuzi",
+    "items": [
+     "Chagua safu wima nzima ya Aina chini ya kichwa",
+     "Excel: Data, Uthibitishaji wa Data, Orodha",
+     "Laha: Chomeka, Kunjuzi",
+     "Chaguzi: Uuzaji, Gharama",
+     "Fanya vivyo hivyo kwa Kategoria"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Kwa nini jambo hili? Maandishi ya IF, SUMIF na COUNTIF yanalingana haswa. Orodha hufanya kila ingizo lifanane, ili wasikose safu mlalo kimyakimya."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Ongeza orodha kunjuzi",
+    "items": [
+     "Chagua safu wima nzima ya Aina chini ya kichwa",
+     "Excel: Data, Uthibitishaji wa Data, Orodha",
+     "Laha: Chomeka, Kunjuzi",
+     "Chaguzi: Uuzaji, Gharama",
+     "Fanya vivyo hivyo kwa Kategoria"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Tahajia sawa kila wakati, ili fomula zako zisiwahi kukosa safu mlalo",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Vichujio hujibu swali moja kwa wakati mmoja. SUMIF inajibu kabisa.",
+    "Mchoro ni SUMIF, masafa ya kuangalia, hali, kisha masafa ya kuongeza. Bisi anaweka alama za dola kwenye safu zote mbili ili aweze kunakili fomula chini ya orodha yake ya kategoria."
+   ],
+   "card": {
+    "title": "Gharama za Bisi kwa kategoria",
+    "rows": [],
+    "note": "Jumla za kategoria lazima zijumuishwe hadi jumla ya jumla."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Chakula ni naira 67000. Gesi ni 9000, kifungashio 10500, na usafiri 6000. COUNTIF huhesabu idadi ya viingilio kila moja."
+   ],
+   "card": {
+    "title": "Gharama za Bisi kwa kategoria",
+    "rows": [
+     [
+      "Vyakula, viingilio 2",
+      "67,000"
+     ],
+     [
+      "Gesi, 1 kiingilio",
+      "9,000"
+     ],
+     [
+      "Ufungaji, maingizo 2",
+      "10,500"
+     ],
+     [
+      "Usafiri, maingizo 3",
+      "6,000"
+     ]
+    ],
+    "note": "Jumla za kategoria lazima zijumuishwe hadi jumla ya jumla."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Jumla ni 92500, na inalingana na SUM ya safu yake nzima ya Kiasi. Daima fanya ukaguzi huu mtambuka. Ikiwa zinatofautiana, kategoria imekosewa au inakosekana."
+   ],
+   "card": {
+    "title": "Gharama za Bisi kwa kategoria",
+    "rows": [
+     [
+      "Vyakula, viingilio 2",
+      "67,000"
+     ],
+     [
+      "Gesi, 1 kiingilio",
+      "9,000"
+     ],
+     [
+      "Ufungaji, maingizo 2",
+      "10,500"
+     ],
+     [
+      "Usafiri, maingizo 3",
+      "6,000"
+     ]
+    ],
+    "note": "Jumla za kategoria lazima zijumuishwe hadi jumla ya jumla."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Chati nzuri hujibu swali moja. Chati ya mstari inaonyesha mabadiliko ya wakati. Chati ya safu wima inalinganisha. Pai inaonyesha hisa za nzima moja, ikiwa na vipande vitano pekee."
+   ],
+   "panel": {
+    "kicker": "Chati",
+    "heading": "Chagua chati ya swali",
+    "items": [
+     "Badilisha baada ya muda: chati ya mstari",
+     "Linganisha miezi au bidhaa: chati ya safu wima",
+     "Sehemu ya matumizi: pai, karibu vipande 5",
+     "Kichwa kinaeleza ujumbe, vitengo vilivyoonyeshwa",
+     "Safu wima zinaanzia sifuri"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Kwa mfano, Funke katika Abeokuta anaorodhesha mauzo ya miezi sita. Jina lake linasema Mauzo yalipanda 50% kutoka Julai hadi Desemba, sio Chati 1 pekee.",
+    "Na uanzishe chati za safu wima kwa sufuri. Mhimili unaoanza juu hufanya kupanda kidogo kuonekana kuwa kubwa."
+   ],
+   "panel": {
+    "kicker": "Chati",
+    "heading": "Chagua chati ya swali",
+    "items": [
+     "Badilisha baada ya muda: chati ya mstari",
+     "Linganisha miezi au bidhaa: chati ya safu wima",
+     "Sehemu ya matumizi: pai, karibu vipande 5",
+     "Kichwa kinaeleza ujumbe, vitengo vilivyoonyeshwa",
+     "Safu wima zinaanzia sifuri"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Ukiuza kwa mkopo, SUMIF kwenye safu wima ambayo Haijalipwa hukupa jumla ya deni lako.",
+    "Lakini majina, nambari za simu na deni ni habari ya kibinafsi. Sheria ya Kulinda Data ya Nigeria ya 2023 inatarajia kukusanya tu unachohitaji na kuiweka salama."
+   ],
+   "panel": {
+    "kicker": "Linda watu",
+    "heading": "Maelezo ya mteja ni data ya kibinafsi",
+    "items": [
+     "Kusanya tu kile unachohitaji",
+     "Zuia anayeweza kufungua faili",
+     "Shiriki jumla, sio orodha za wateja"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Shiriki jumla katika vikundi, sio orodha za wateja. Na kamwe usichapishe orodha ya wadaiwa hadharani ili kuwaaibisha wateja."
+   ],
+   "panel": {
+    "kicker": "Linda watu",
+    "heading": "Maelezo ya mteja ni data ya kibinafsi",
+    "items": [
+     "Kusanya tu kile unachohitaji",
+     "Zuia anayeweza kufungua faili",
+     "Shiriki jumla, sio orodha za wateja"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Usichapishe kamwe orodha ya wadaiwa hadharani ili kuwaaibisha wateja",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Kukumbuka. Panga safu nzima. Tumia SUBTOTAL unapochuja. menyu kunjuzi huweka tahajia sawa.",
+    "Angalia kuwa jumla za kategoria zinalingana na jumla kuu. Na ipe kila chati swali moja, kichwa wazi, na mhimili kutoka sifuri."
+   ],
+   "panel": {
+    "kicker": "Pointi muhimu",
+    "heading": "Kumbuka",
+    "items": [
+     "Panga safu nzima, kamwe sio safu wima moja",
+     "SUBTOTAL ni safu mlalo zinazoonekana pekee",
+     "menyu kunjuzi huweka tahajia sawa",
+     "Jumla ya kategoria lazima ilingane na jumla kuu",
+     "Swali moja kwa kila chati, mhimili kutoka sufuri"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Sasa zamu yako. Safisha kifuatiliaji chako kwa orodha kunjuzi, tengeneza kichupo cha Muhtasari kwa kutumia SUMIF, na utengeneze chati mbili zenye mada zinazotaja ujumbe.",
+    "Endelea na masomo hapa chini."
+   ],
+   "panel": {
+    "kicker": "Kazi ya mazoezi",
+    "heading": "Kazi zako za mazoezi",
+    "items": [
+     "Safisha kifuatiliaji chako kwa menyu kunjuzi",
+     "Tengeneza kichupo cha Muhtasari na SUMIF",
+     "Chati biashara yako"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}
