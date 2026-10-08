@@ -1,0 +1,51 @@
++ sudo apt-get update -qq
++ sudo apt-get install -y -qq ffmpeg
+
+Running kernel seems to be up-to-date.
+
+No services need to be restarted.
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
++ pip install -q torch torchaudio --index-url https://download.pytorch.org/whl/cpu
++ tail -1
++ pip install -q outetts uroman transformers soundfile inflect
++ tail -2
++ git clone -q https://github.com/saheedniyi02/yarngpt.git
++ pip install -q -e yarngpt
++ tail -1
+ERROR: file:///home/runner/work/woddi-course-video/woddi-course-video/yarngpt does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.
++ curl -sSL -o wavtokenizer_mediumdata_frame75_3s_nq1_code4096_dim512_kmeans200_attn.yaml https://huggingface.co/novateur/WavTokenizer-medium-speech-75token/resolve/main/wavtokenizer_mediumdata_frame75_3s_nq1_code4096_dim512_kmeans200_attn.yaml
++ curl -sSL -o wavtokenizer_large_speech_320_24k.ckpt https://huggingface.co/novateur/WavTokenizer-large-speech-75token/resolve/main/wavtokenizer_large_speech_320_24k.ckpt
++ ls -la wavtokenizer_large_speech_320_24k.ckpt wavtokenizer_mediumdata_frame75_3s_nq1_code4096_dim512_kmeans200_attn.yaml
+-rw-r--r-- 1 runner runner   15 Oct  8 09:31 wavtokenizer_large_speech_320_24k.ckpt
+-rw-r--r-- 1 runner runner 2791 Oct  8 09:31 wavtokenizer_mediumdata_frame75_3s_nq1_code4096_dim512_kmeans200_attn.yaml
++ TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD=1
++ python3 yarn_test.py
++ grep -E 'OK|FAIL|speakers|Error|error'
++ head -30
+_pickle.UnpicklingError: invalid load key, 'E'.
++ cp -r out/job.log /home/runner/work/woddi-course-video/woddi-course-video/out/
++ true
++ bash probe_models.sh
+== mussacharles60/swahili-tts-female-voice
+transformers text-to-speech ['.gitattributes', 'README.md', 'added_tokens.json', 'config.json', 'model.safetensors', 'preprocessor_config.json', 'special_tokens_map.json', 'tokenizer_config.json', 'vocab.json'] mit
+== CLEAR-Global/TWB-Voice-Hausa-TTS-1.0
+None text-to-speech ['.gitattributes', 'HAU_HAJIYAEVAL_SENTS.txt', 'README.md', 'best_model_197470.pth', 'best_model_498283.pth', 'config.json', 'config_se.json', 'd_vector.pth', 'events.out.tfevents.1749211341.gmy.3739.0', 'events.out.tfevents.1749809790.gmy.86410.0', 'events.out.tfevents.1750158175.gmy.110600.0', 'hausa_multispeaker_finetune.py', 'inference.py', 'language_ids.json', 'model_se.pth'] cc-by-nc-4.0
+== adab-tech/murya-piper-hausa-tts
+piper text-to-speech ['.gitattributes', 'README.md', 'model.onnx', 'model.onnx.json', 'samples/female.wav', 'samples/hero.wav', 'samples/male.wav'] cc-by-nc-sa-4.0
+== multilingual-tts/VITS-OpenBible-Yoruba
+coqui-tts text-to-speech ['.gitattributes', 'README.md', 'config.json', 'model_last.pth', 'speakers.pth'] cc-by-sa-4.0
+== multilingual-tts/VITS-OpenBible-Igbo
+coqui-tts text-to-speech ['.gitattributes', 'README.md', 'config.json', 'model_last.pth', 'speakers.pth'] cc-by-sa-4.0
+== multilingual-tts/VITS-OpenBible-Swahili
+coqui-tts text-to-speech ['.gitattributes', 'README.md', 'config.json', 'model_last.pth', 'speakers.pth'] cc-by-sa-4.0
+== multilingual-tts/VITS-OpenBible-Arabic-Standard
+coqui-tts text-to-speech ['.gitattributes', 'README.md', 'config.json', 'model_last.pth', 'speakers.pth'] cc-by-sa-4.0
+== LyngualLabs/YorubaEnglish-CodeSwitching-TTS
+voxcpm text-to-speech ['.gitattributes', 'README.md', 'audiovae.pth', 'config.json', 'model.safetensors', 'samples/sample_4.wav', 'samples/sample_5.wav', 'samples/sample_6.wav', 'samples/sample_7.wav', 'samples/sample_8.wav', 'samples/sample_long.wav', 'samples/sample_long_codeswitch.wav', 'samples/sample_long_english.wav', 'samples/voice_angry.wav', 'samples/voice_energetic.wav'] cc-by-nc-4.0
+== ImhotepAI/yoruba-tts
+transformers text-to-speech ['.gitattributes', 'README.md', 'added_tokens.json', 'config.json', 'generation_config.json', 'preprocessor_config.json', 'pytorch_model.bin', 'speaker_embeddings.pt', 'special_tokens_map.json', 'spm_char.model', 'tokenizer_config.json'] cc-by-nc-sa-4.0
