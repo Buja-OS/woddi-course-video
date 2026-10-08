@@ -1,7 +1,7 @@
 name: mt2
 on:
   push:
-    branches: ['mt-r2*']
+    branches: ['mt-r2*', 'mt-r3*', 'mt-r4*', 'mt-r5*']
 permissions:
   contents: write
 jobs:
