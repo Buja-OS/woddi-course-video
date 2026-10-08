@@ -1,0 +1,501 @@
+{
+ "course": "product-management-foundations",
+ "module": "m2",
+ "title": "Discover, prioritise and write stories your team can build",
+ "course_title": "Product Management Foundations",
+ "shots": [
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Discover, prioritise, and write stories your team can build.",
+    "This is the video for module two of Product Management Foundations."
+   ]
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Every product idea is a bundle of beliefs. Discovery makes those beliefs visible and tests the most dangerous ones first."
+   ],
+   "panel": {
+    "kicker": "The core cycle",
+    "heading": "Three jobs in one working cycle",
+    "items": [
+     "Find and test the riskiest assumptions",
+     "Choose what to build, and explain why",
+     "Write work so the team builds it right"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Then you will have more good ideas than time, so you must choose what to do now, with reasoning people can see."
+   ],
+   "panel": {
+    "kicker": "The core cycle",
+    "heading": "Three jobs in one working cycle",
+    "items": [
+     "Find and test the riskiest assumptions",
+     "Choose what to build, and explain why",
+     "Write work so the team builds it right"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Finally, you write the chosen work so clearly that the team builds the right thing, including what happens when things go wrong."
+   ],
+   "panel": {
+    "kicker": "The core cycle",
+    "heading": "Three jobs in one working cycle",
+    "items": [
+     "Find and test the riskiest assumptions",
+     "Choose what to build, and explain why",
+     "Write work so the team builds it right"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Step one. Write every belief that must be true, at least 10, grouped under value, usability, feasibility and viability. For example, pharmacists reorder at least once a week."
+   ],
+   "panel": {
+    "kicker": "Discovery",
+    "heading": "Map assumptions, then test the riskiest",
+    "items": [
+     "Write at least 10 beliefs that could be false",
+     "Rate each: how important, how much evidence",
+     "Pick the important ones with weak evidence",
+     "Test them in the cheapest useful way"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Step two. Place each one on an assumption map: how important is it, and how much evidence do you already have?"
+   ],
+   "panel": {
+    "kicker": "Discovery",
+    "heading": "Map assumptions, then test the riskiest",
+    "items": [
+     "Write at least 10 beliefs that could be false",
+     "Rate each: how important, how much evidence",
+     "Pick the important ones with weak evidence",
+     "Test them in the cheapest useful way"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Step three. Test the ones that are critical but have little evidence. Use an interview, a fake door test, a concierge test or a prototype, whichever is cheapest and would actually change your decision."
+   ],
+   "panel": {
+    "kicker": "Discovery",
+    "heading": "Map assumptions, then test the riskiest",
+    "items": [
+     "Write at least 10 beliefs that could be false",
+     "Rate each: how important, how much evidence",
+     "Pick the important ones with weak evidence",
+     "Test them in the cheapest useful way"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "This is the rule. Critical and unproven goes first."
+   ],
+   "panel": {
+    "kicker": "Discovery",
+    "heading": "Map assumptions, then test the riskiest",
+    "items": [
+     "Write at least 10 beliefs that could be false",
+     "Rate each: how important, how much evidence",
+     "Pick the important ones with weak evidence",
+     "Test them in the cheapest useful way"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Test first: critical, with little evidence.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "People are kind. If you ask, would you use this, most will say yes. That tells you nothing. This is the most common discovery mistake."
+   ],
+   "panel": {
+    "kicker": "Interviews",
+    "heading": "Ask about the past, not your idea",
+    "mode": "compare",
+    "left_h": "Weak question",
+    "left": [
+     "Would you use an app for this?",
+     "How much would you pay?",
+     "Is this a good idea?"
+    ],
+    "right_h": "Better question",
+    "right": [
+     "Tell me about the last time...",
+     "What do you spend now?",
+     "What have you already tried?"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Instead, ask about specific past events. Tell me about the last time you ran out of stock. What did you do next? What did it cost you? Talk less and listen more, and do not pitch."
+   ],
+   "panel": {
+    "kicker": "Interviews",
+    "heading": "Ask about the past, not your idea",
+    "mode": "compare",
+    "left_h": "Weak question",
+    "left": [
+     "Would you use an app for this?",
+     "How much would you pay?",
+     "Is this a good idea?"
+    ],
+    "right_h": "Better question",
+    "right": [
+     "Tell me about the last time...",
+     "What do you spend now?",
+     "What have you already tried?"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "For example, Halima is exploring a stock reordering app for small pharmacies in Abuja. Her team lists 14 assumptions, and two land in the riskiest corner."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Halima's week of discovery",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "14 assumptions",
+      "d": "Two land in the riskiest corner: weekly reordering, and paying a new supplier before delivery."
+     },
+     {
+      "t": "Reordering: yes",
+      "d": "5 of 6 pharmacists reorder at least weekly, by phone call or WhatsApp."
+     },
+     {
+      "t": "Prepaying: no",
+      "d": "Only 1 of 6 has ever paid a new supplier before delivery. The payment model must change."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "She interviews 6 pharmacists about their last reorder. 5 of 6 reorder at least weekly. That assumption gains evidence."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Halima's week of discovery",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "14 assumptions",
+      "d": "Two land in the riskiest corner: weekly reordering, and paying a new supplier before delivery."
+     },
+     {
+      "t": "Reordering: yes",
+      "d": "5 of 6 pharmacists reorder at least weekly, by phone call or WhatsApp."
+     },
+     {
+      "t": "Prepaying: no",
+      "d": "Only 1 of 6 has ever paid a new supplier before delivery. The payment model must change."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "But only 1 of the 6 has ever paid a new supplier before delivery. In one week, with no code, Halima finds the payment model would likely fail, and redirects the team to pay on delivery."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Halima's week of discovery",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "14 assumptions",
+      "d": "Two land in the riskiest corner: weekly reordering, and paying a new supplier before delivery."
+     },
+     {
+      "t": "Reordering: yes",
+      "d": "5 of 6 pharmacists reorder at least weekly, by phone call or WhatsApp."
+     },
+     {
+      "t": "Prepaying: no",
+      "d": "Only 1 of 6 has ever paid a new supplier before delivery. The payment model must change."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Halima's outcome is more pharmacies placing a second order within 30 days. Her team agrees four criteria: customer impact 40%, strategic fit 25%, confidence from evidence 20%, and ease of build 15%."
+   ],
+   "panel": {
+    "kicker": "Prioritising",
+    "heading": "Weighted scoring, step by step",
+    "items": [
+     "Pick 3 to 5 criteria from your outcome",
+     "Give weights that add to 100%",
+     "Score each option from 1 to 5",
+     "Multiply, add, and treat small gaps as ties"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "They score each option from 1 to 5. Engineers own the ease scores."
+   ],
+   "panel": {
+    "kicker": "Prioritising",
+    "heading": "Weighted scoring, step by step",
+    "items": [
+     "Pick 3 to 5 criteria from your outcome",
+     "Give weights that add to 100%",
+     "Score each option from 1 to 5",
+     "Multiply, add, and treat small gaps as ties"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Pay on delivery scores 4.10. One-tap reorder scores 4.05. Loyalty points score 2.40. A gap of 0.05 is a tie, so Halima checks what users expect: paying on delivery is a must-have for most pharmacists."
+   ],
+   "panel": {
+    "kicker": "Prioritising",
+    "heading": "Weighted scoring, step by step",
+    "items": [
+     "Pick 3 to 5 criteria from your outcome",
+     "Give weights that add to 100%",
+     "Score each option from 1 to 5",
+     "Multiply, add, and treat small gaps as ties"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Agree the criteria first, so nobody tunes the numbers to favour a pet idea. Then label the release: Must, pay on delivery. Should, one-tap reorder. Won't this time, loyalty points."
+   ],
+   "panel": {
+    "kicker": "Prioritising",
+    "heading": "Weighted scoring, step by step",
+    "items": [
+     "Pick 3 to 5 criteria from your outcome",
+     "Give weights that add to 100%",
+     "Score each option from 1 to 5",
+     "Multiply, add, and treat small gaps as ties"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Agree criteria and weights before anyone scores.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Now write the work. As a pharmacist placing an order, I want to choose pay on delivery, so that I only pay once the stock is in my hands. The benefit tells the team why it matters."
+   ],
+   "panel": {
+    "kicker": "Delivery",
+    "heading": "Write a story the team can build",
+    "items": [
+     "As a [user], I want [capability], so that [benefit]",
+     "Check it with INVEST",
+     "Given, When, Then criteria",
+     "Cover the failure paths too"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Check it with INVEST: independent, negotiable, valuable, estimable, small and testable."
+   ],
+   "panel": {
+    "kicker": "Delivery",
+    "heading": "Write a story the team can build",
+    "items": [
+     "As a [user], I want [capability], so that [benefit]",
+     "Check it with INVEST",
+     "Given, When, Then criteria",
+     "Cover the failure paths too"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Then write acceptance criteria. Given an order above the limit, when the pharmacist selects pay on delivery, then the app explains the limit and offers to split the order or pay now."
+   ],
+   "panel": {
+    "kicker": "Delivery",
+    "heading": "Write a story the team can build",
+    "items": [
+     "As a [user], I want [capability], so that [benefit]",
+     "Check it with INVEST",
+     "Given, When, Then criteria",
+     "Cover the failure paths too"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Cover the normal path and the important failure paths. A third criterion promises an SMS receipt within one minute of payment."
+   ],
+   "panel": {
+    "kicker": "Delivery",
+    "heading": "Write a story the team can build",
+    "items": [
+     "As a [user], I want [capability], so that [benefit]",
+     "Check it with INVEST",
+     "Given, When, Then criteria",
+     "Cover the failure paths too"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "When you slice a big feature into small stories, release the thinnest journey that works end to end.",
+    "But never cut the criteria that protect money or personal data to make a story smaller.",
+    "Payment confirmation, limits, receipts and access control stay in. Slice features, not safeguards."
+   ],
+   "panel": {
+    "kicker": "Protect money and data",
+    "heading": "Slice features, never safeguards",
+    "items": [
+     "Payment confirmation",
+     "Limits",
+     "Receipts",
+     "Access control"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "To remember. Test the important, unproven assumptions first. Ask about past behaviour, not opinions. Agree criteria before scoring. Write stories with a real user and a benefit. And write criteria that cover failure, without slicing away safeguards."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "Test important, unproven assumptions first",
+     "Ask about past behaviour, not opinions",
+     "Agree criteria before scoring",
+     "Stories name user, capability and benefit",
+     "Criteria cover failure paths; keep safeguards"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Now practise. Map your assumptions and interview two people. Prioritise five features with a scoring table. Then write three delivery-ready stories with their criteria.",
+    "Save each one for your capstone, and continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice tasks",
+    "heading": "Your practice tasks",
+    "items": [
+     "Map and test one risky assumption",
+     "Prioritise five features",
+     "Write three delivery-ready stories"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

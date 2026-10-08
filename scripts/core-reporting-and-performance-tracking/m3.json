@@ -1,0 +1,580 @@
+{
+ "course": "core-reporting-and-performance-tracking",
+ "module": "m3",
+ "title": "Honest charts, honest reports and a one-page dashboard",
+ "course_title": "Reporting & Performance Tracking",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Honest charts, honest reports, and a one-page dashboard.",
+    "This is the video for module 3 of Reporting and Performance Tracking."
+   ]
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "A good chart lets a busy reader see your main point in a few seconds. To show change over time, use a line chart."
+   ],
+   "panel": {
+    "kicker": "Choose the right chart",
+    "heading": "Match the chart to the message",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Line chart",
+      "d": "How a number changed over time, like monthly sales from January to June."
+     },
+     {
+      "t": "Column or bar chart",
+      "d": "Which category is bigger, like sales by channel: WhatsApp, Walk-in, Instagram."
+     },
+     {
+      "t": "Pie chart, with care",
+      "d": "How a whole splits into parts, only with 2 to 5 slices. Never for change over time."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "To compare categories, use a column or bar chart."
+   ],
+   "panel": {
+    "kicker": "Choose the right chart",
+    "heading": "Match the chart to the message",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Line chart",
+      "d": "How a number changed over time, like monthly sales from January to June."
+     },
+     {
+      "t": "Column or bar chart",
+      "d": "Which category is bigger, like sales by channel: WhatsApp, Walk-in, Instagram."
+     },
+     {
+      "t": "Pie chart, with care",
+      "d": "How a whole splits into parts, only with 2 to 5 slices. Never for change over time."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "To show how a whole splits into parts, a pie chart works only with 2 to 5 slices.",
+    "And when your reader needs exact figures, like a funder checking each target, a simple table is best."
+   ],
+   "panel": {
+    "kicker": "Choose the right chart",
+    "heading": "Match the chart to the message",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Line chart",
+      "d": "How a number changed over time, like monthly sales from January to June."
+     },
+     {
+      "t": "Column or bar chart",
+      "d": "Which category is bigger, like sales by channel: WhatsApp, Walk-in, Instagram."
+     },
+     {
+      "t": "Pie chart, with care",
+      "d": "How a whole splits into parts, only with 2 to 5 slices. Never for change over time."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "For example, Bisi's sales were 250,000 naira in January and 262,000 in February."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "How a cut axis misleads",
+    "items": [
+     "January 250,000, February 262,000 naira",
+     "Real rise: 4.8%",
+     "Axis starts at 240,000: bar looks 2.2 times taller",
+     "Fix: set the axis minimum to 0",
+     "Title: Sales rose slightly in February"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "That is a real rise of 4.8%. A small, steady improvement."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "How a cut axis misleads",
+    "items": [
+     "January 250,000, February 262,000 naira",
+     "Real rise: 4.8%",
+     "Axis starts at 240,000: bar looks 2.2 times taller",
+     "Fix: set the axis minimum to 0",
+     "Title: Sales rose slightly in February"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "But Sheets started her chart's axis at 240,000. So January's bar showed only 10,000, and February's showed 22,000. February looked 2.2 times taller, as if sales had more than doubled."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "How a cut axis misleads",
+    "items": [
+     "January 250,000, February 262,000 naira",
+     "Real rise: 4.8%",
+     "Axis starts at 240,000: bar looks 2.2 times taller",
+     "Fix: set the axis minimum to 0",
+     "Title: Sales rose slightly in February"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "She fixes it in the Chart editor by setting the vertical axis minimum to 0."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "How a cut axis misleads",
+    "items": [
+     "January 250,000, February 262,000 naira",
+     "Real rise: 4.8%",
+     "Axis starts at 240,000: bar looks 2.2 times taller",
+     "Fix: set the axis minimum to 0",
+     "Title: Sales rose slightly in February"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "And she writes a title that states the finding: sales rose slightly in February, up 4.8%."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "How a cut axis misleads",
+    "items": [
+     "January 250,000, February 262,000 naira",
+     "Real rise: 4.8%",
+     "Axis starts at 240,000: bar looks 2.2 times taller",
+     "Fix: set the axis minimum to 0",
+     "Title: Sales rose slightly in February"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Readers judge bars by their length, so always start bar and column charts at zero. Label units and dates, and check every chart on a phone screen."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "How a cut axis misleads",
+    "items": [
+     "January 250,000, February 262,000 naira",
+     "Real rise: 4.8%",
+     "Axis starts at 240,000: bar looks 2.2 times taller",
+     "Fix: set the axis minimum to 0",
+     "Title: Sales rose slightly in February"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Start bar and column charts at zero.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "A manager or funder who catches one exaggerated number will doubt every number after it."
+   ],
+   "panel": {
+    "kicker": "Honest reporting",
+    "heading": "Ways reports mislead",
+    "items": [
+     "Cherry-picking the best week",
+     "Changing definitions quietly",
+     "Double counting the same person",
+     "Hiding the denominator: 30 out of how many?",
+     "Claiming cause without evidence"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Do not show only your best week. Do not change what you count without saying so."
+   ],
+   "panel": {
+    "kicker": "Honest reporting",
+    "heading": "Ways reports mislead",
+    "items": [
+     "Cherry-picking the best week",
+     "Changing definitions quietly",
+     "Double counting the same person",
+     "Hiding the denominator: 30 out of how many?",
+     "Claiming cause without evidence"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Do not count a woman twice because she attended two trainings."
+   ],
+   "panel": {
+    "kicker": "Honest reporting",
+    "heading": "Ways reports mislead",
+    "items": [
+     "Cherry-picking the best week",
+     "Changing definitions quietly",
+     "Double counting the same person",
+     "Hiding the denominator: 30 out of how many?",
+     "Claiming cause without evidence"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Always give the denominator. 30 women started businesses, out of 40 trained, or out of 400?"
+   ],
+   "panel": {
+    "kicker": "Honest reporting",
+    "heading": "Ways reports mislead",
+    "items": [
+     "Cherry-picking the best week",
+     "Changing definitions quietly",
+     "Double counting the same person",
+     "Hiding the denominator: 30 out of how many?",
+     "Claiming cause without evidence"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "And do not claim cause without evidence. Sales may have risen because of your flyer, or because December always brings more parties. Say it carefully: part of this is likely the festive season."
+   ],
+   "panel": {
+    "kicker": "Honest reporting",
+    "heading": "Ways reports mislead",
+    "items": [
+     "Cherry-picking the best week",
+     "Changing definitions quietly",
+     "Double counting the same person",
+     "Hiding the denominator: 30 out of how many?",
+     "Claiming cause without evidence"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "For example, Halima's grant target was to train 100 women by the end of June. 82 completed. She reports 82% honestly, and does not count women who came to only one session."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Halima reports a missed target",
+    "items": [
+     "True number: 82 of 100, so 82%",
+     "Reason: venue flooded, 2 sessions cancelled",
+     "Evidence: registers and cancellation message",
+     "Plan: a catch-up session in July"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "She explains the cause in one sentence: two sessions were cancelled after heavy rain flooded the venue."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Halima reports a missed target",
+    "items": [
+     "True number: 82 of 100, so 82%",
+     "Reason: venue flooded, 2 sessions cancelled",
+     "Evidence: registers and cancellation message",
+     "Plan: a catch-up session in July"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "She gives evidence: the attendance registers and the venue's cancellation message."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Halima reports a missed target",
+    "items": [
+     "True number: 82 of 100, so 82%",
+     "Reason: venue flooded, 2 sessions cancelled",
+     "Evidence: registers and cancellation message",
+     "Plan: a catch-up session in July"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "And she proposes a catch-up session in July, paid for with unspent venue money.",
+    "This builds far more trust than a vague, about 100 women were reached. If you are pressured to inflate a figure, report the true number and raise the concern in writing."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Halima reports a missed target",
+    "items": [
+     "True number: 82 of 100, so 82%",
+     "Reason: venue flooded, 2 sessions cancelled",
+     "Evidence: registers and cancellation message",
+     "Plan: a catch-up session in July"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Under Nigeria's Data Protection Act 2023, personal data must be kept secure. So do not send the whole Data tab, name the women who dropped out, or post sheet links in large groups."
+   ],
+   "panel": {
+    "kicker": "Safety first",
+    "heading": "Privacy when you share a report",
+    "mode": "compare",
+    "left_h": "Instead of this",
+    "left": [
+     "Sending the whole Data tab",
+     "Naming women who dropped out",
+     "Sheet links in big WhatsApp groups",
+     "Anyone with the link"
+    ],
+    "right_h": "Do this",
+    "right": [
+     "Send the Summary tab or a PDF",
+     "Report the number and reasons",
+     "Share with named emails, as Viewer",
+     "Set sharing to Restricted"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Share totals, percentages and codes. Send the Summary or a PDF. Share with named email addresses as Viewer, and set sharing to Restricted, so a forwarded link does not open for strangers."
+   ],
+   "panel": {
+    "kicker": "Safety first",
+    "heading": "Privacy when you share a report",
+    "mode": "compare",
+    "left_h": "Instead of this",
+    "left": [
+     "Sending the whole Data tab",
+     "Naming women who dropped out",
+     "Sheet links in big WhatsApp groups",
+     "Anyone with the link"
+    ],
+    "right_h": "Do this",
+    "right": [
+     "Send the Summary tab or a PDF",
+     "Report the number and reasons",
+     "Share with named emails, as Viewer",
+     "Set sharing to Restricted"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "A dashboard is one screen showing 3 to 5 KPIs against their targets. Link every cell with a formula, never type numbers in, so it updates itself. Then add green, amber and red colours with conditional formatting."
+   ],
+   "panel": {
+    "kicker": "Dashboard",
+    "heading": "Bisi's March dashboard",
+    "items": [
+     "Sales: 280,000 of 300,000 naira, 93%, amber",
+     "Orders: 64 against 60, 107%, green",
+     "Conversion: 26% against 25%, 104%, green",
+     "Repeat customers: 31% against 40%, 78%, red"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "For example, Bisi's March sales are 280,000 naira against a 300,000 target. That is 93%, so it shows amber."
+   ],
+   "panel": {
+    "kicker": "Dashboard",
+    "heading": "Bisi's March dashboard",
+    "items": [
+     "Sales: 280,000 of 300,000 naira, 93%, amber",
+     "Orders: 64 against 60, 107%, green",
+     "Conversion: 26% against 25%, 104%, green",
+     "Repeat customers: 31% against 40%, 78%, red"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Orders are 64 against 60, and conversion is 26% against 25%. Both green."
+   ],
+   "panel": {
+    "kicker": "Dashboard",
+    "heading": "Bisi's March dashboard",
+    "items": [
+     "Sales: 280,000 of 300,000 naira, 93%, amber",
+     "Orders: 64 against 60, 107%, green",
+     "Conversion: 26% against 25%, 104%, green",
+     "Repeat customers: 31% against 40%, 78%, red"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "But repeat customers are 31% against 40%, only 78%. Red.",
+    "So her next action is keeping customers, not more advertising. A good dashboard points to the next decision. Keep the percentage visible too, because some readers cannot tell red from green."
+   ],
+   "panel": {
+    "kicker": "Dashboard",
+    "heading": "Bisi's March dashboard",
+    "items": [
+     "Sales: 280,000 of 300,000 naira, 93%, amber",
+     "Orders: 64 against 60, 107%, green",
+     "Conversion: 26% against 25%, 104%, green",
+     "Repeat customers: 31% against 40%, 78%, red"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "To remember. Choose the chart that fits the message, start bars at zero, and let the title say the point.",
+    "Give denominators and claim causes carefully. Report missed targets honestly, with a reason and a plan. And keep your dashboard to a few linked KPIs."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "Line for trends, bars to compare, table for exact",
+     "Start bars at zero; titles state the finding",
+     "Give denominators; claim causes carefully",
+     "Report missed targets with reason and plan",
+     "Dashboard: 3 to 5 linked KPIs with colours"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Now practise. Make one honest chart with a title that states the finding. Audit a report against the five-point honesty check, and set your sheet to Restricted. Then build your dashboard with traffic-light colours and one trend.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice tasks",
+    "heading": "Your practice in this module",
+    "items": [
+     "Make one honest chart",
+     "Audit a report for honesty",
+     "Build your one-page dashboard"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

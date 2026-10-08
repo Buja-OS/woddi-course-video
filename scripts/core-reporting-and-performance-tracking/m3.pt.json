@@ -1,0 +1,581 @@
+{
+ "course": "core-reporting-and-performance-tracking",
+ "module": "m3",
+ "title": "Gráficos honestos, relatórios honestos e um painel de uma página",
+ "course_title": "Relatórios e acompanhamento de desempenho",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Gráficos honestos, relatórios honestos e um painel de uma página.",
+    "Este é o vídeo do módulo 3 de Relatórios e Acompanhamento de Desempenho."
+   ]
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Um bom gráfico permite que um leitor ocupado veja seu ponto principal em poucos segundos. Para mostrar as mudanças ao longo do tempo, use um gráfico de linhas."
+   ],
+   "panel": {
+    "kicker": "Escolha o gráfico certo",
+    "heading": "Combine o gráfico com a mensagem",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Gráfico de linhas",
+      "d": "Como um número mudou ao longo do tempo, como as vendas mensais de janeiro a junho."
+     },
+     {
+      "t": "Gráfico de colunas ou barras",
+      "d": "Qual categoria é maior, como vendas por canal: WhatsApp, Walk-in, Instagram."
+     },
+     {
+      "t": "Gráfico de pizza, com cuidado",
+      "d": "Como um todo se divide em partes, apenas com 2 a 5 fatias. Nunca para mudanças ao longo do tempo."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Para comparar categorias, use um gráfico de colunas ou barras."
+   ],
+   "panel": {
+    "kicker": "Escolha o gráfico certo",
+    "heading": "Combine o gráfico com a mensagem",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Gráfico de linhas",
+      "d": "Como um número mudou ao longo do tempo, como as vendas mensais de janeiro a junho."
+     },
+     {
+      "t": "Gráfico de colunas ou barras",
+      "d": "Qual categoria é maior, como vendas por canal: WhatsApp, Walk-in, Instagram."
+     },
+     {
+      "t": "Gráfico de pizza, com cuidado",
+      "d": "Como um todo se divide em partes, apenas com 2 a 5 fatias. Nunca para mudanças ao longo do tempo."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Para mostrar como um todo se divide em partes, um gráfico de pizza funciona apenas com 2 a 5 fatias.",
+    "E quando o seu leitor precisa de números exatos, como um financiador verificando cada meta, uma tabela simples é melhor."
+   ],
+   "panel": {
+    "kicker": "Escolha o gráfico certo",
+    "heading": "Combine o gráfico com a mensagem",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Gráfico de linhas",
+      "d": "Como um número mudou ao longo do tempo, como as vendas mensais de janeiro a junho."
+     },
+     {
+      "t": "Gráfico de colunas ou barras",
+      "d": "Qual categoria é maior, como vendas por canal: WhatsApp, Walk-in, Instagram."
+     },
+     {
+      "t": "Gráfico de pizza, com cuidado",
+      "d": "Como um todo se divide em partes, apenas com 2 a 5 fatias. Nunca para mudanças ao longo do tempo."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Por exemplo, as vendas de Bisi foram de 250 mil nairas em janeiro e 262 mil em fevereiro."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Como um eixo de corte engana",
+    "items": [
+     "250.000 de janeiro, 262.000 naira de fevereiro",
+     "Aumento real: 4,8%",
+     "O eixo começa em 240.000: a barra parece 2,2 vezes mais alta",
+     "Correção: defina o mínimo do eixo para 0",
+     "Título: As vendas aumentaram ligeiramente em fevereiro"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Isso representa um aumento real de 4,8%. Uma melhoria pequena e constante."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Como um eixo de corte engana",
+    "items": [
+     "250.000 de janeiro, 262.000 naira de fevereiro",
+     "Aumento real: 4,8%",
+     "O eixo começa em 240.000: a barra parece 2,2 vezes mais alta",
+     "Correção: defina o mínimo do eixo para 0",
+     "Título: As vendas aumentaram ligeiramente em fevereiro"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Mas o Planilhas iniciou o eixo do gráfico em 240.000. Assim, a barra de janeiro mostrou apenas 10.000 e a de fevereiro mostrou 22.000. Fevereiro parecia 2,2 vezes mais alto, como se as vendas tivessem mais que duplicado."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Como um eixo de corte engana",
+    "items": [
+     "250.000 de janeiro, 262.000 naira de fevereiro",
+     "Aumento real: 4,8%",
+     "O eixo começa em 240.000: a barra parece 2,2 vezes mais alta",
+     "Correção: defina o mínimo do eixo para 0",
+     "Título: As vendas aumentaram ligeiramente em fevereiro"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Ela corrige isso no editor de gráficos definindo o mínimo do eixo vertical como 0."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Como um eixo de corte engana",
+    "items": [
+     "250.000 de janeiro, 262.000 naira de fevereiro",
+     "Aumento real: 4,8%",
+     "O eixo começa em 240.000: a barra parece 2,2 vezes mais alta",
+     "Correção: defina o mínimo do eixo para 0",
+     "Título: As vendas aumentaram ligeiramente em fevereiro"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "E ela escreve um título que afirma a constatação: as vendas aumentaram ligeiramente em fevereiro, um aumento de 4,8%."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Como um eixo de corte engana",
+    "items": [
+     "250.000 de janeiro, 262.000 naira de fevereiro",
+     "Aumento real: 4,8%",
+     "O eixo começa em 240.000: a barra parece 2,2 vezes mais alta",
+     "Correção: defina o mínimo do eixo para 0",
+     "Título: As vendas aumentaram ligeiramente em fevereiro"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Os leitores julgam as barras pelo seu comprimento, portanto sempre comecem os gráficos de barras e colunas do zero. Identifique unidades e datas e verifique cada gráfico na tela do telefone."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Como um eixo de corte engana",
+    "items": [
+     "250.000 de janeiro, 262.000 naira de fevereiro",
+     "Aumento real: 4,8%",
+     "O eixo começa em 240.000: a barra parece 2,2 vezes mais alta",
+     "Correção: defina o mínimo do eixo para 0",
+     "Título: As vendas aumentaram ligeiramente em fevereiro"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Comece os gráficos de barras e colunas em zero.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Um gestor ou financiador que capta um número exagerado duvidará de todos os números posteriores."
+   ],
+   "panel": {
+    "kicker": "Relatórios honestos",
+    "heading": "Maneiras de os relatórios enganarem",
+    "items": [
+     "Escolhendo a melhor semana",
+     "Mudando definições silenciosamente",
+     "Contagem dupla da mesma pessoa",
+     "Escondendo o denominador: 30 em quantos?",
+     "Alegando causa sem provas"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Não mostre apenas a sua melhor semana. Não mude o que você conta sem dizer isso."
+   ],
+   "panel": {
+    "kicker": "Relatórios honestos",
+    "heading": "Maneiras de os relatórios enganarem",
+    "items": [
+     "Escolhendo a melhor semana",
+     "Mudando definições silenciosamente",
+     "Contagem dupla da mesma pessoa",
+     "Escondendo o denominador: 30 em quantos?",
+     "Alegando causa sem provas"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Não conte uma mulher duas vezes porque ela participou de dois treinamentos."
+   ],
+   "panel": {
+    "kicker": "Relatórios honestos",
+    "heading": "Maneiras de os relatórios enganarem",
+    "items": [
+     "Escolhendo a melhor semana",
+     "Mudando definições silenciosamente",
+     "Contagem dupla da mesma pessoa",
+     "Escondendo o denominador: 30 em quantos?",
+     "Alegando causa sem provas"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Dê sempre o denominador. 30 mulheres abriram negócios, entre 40 formadas, ou entre 400?"
+   ],
+   "panel": {
+    "kicker": "Relatórios honestos",
+    "heading": "Maneiras de os relatórios enganarem",
+    "items": [
+     "Escolhendo a melhor semana",
+     "Mudando definições silenciosamente",
+     "Contagem dupla da mesma pessoa",
+     "Escondendo o denominador: 30 em quantos?",
+     "Alegando causa sem provas"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "E não reivindique causa sem provas. As vendas podem ter subido por causa do seu flyer, ou porque dezembro sempre traz mais festas. Diga com cuidado: parte disso provavelmente é a época festiva."
+   ],
+   "panel": {
+    "kicker": "Relatórios honestos",
+    "heading": "Maneiras de os relatórios enganarem",
+    "items": [
+     "Escolhendo a melhor semana",
+     "Mudando definições silenciosamente",
+     "Contagem dupla da mesma pessoa",
+     "Escondendo o denominador: 30 em quantos?",
+     "Alegando causa sem provas"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Por exemplo, a meta de subvenção de Halima era formar 100 mulheres até ao final de Junho. 82 concluídos. Ela relata 82% honestamente e não conta as mulheres que compareceram a apenas uma sessão."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Halima relata um alvo perdido",
+    "items": [
+     "Número verdadeiro: 82 de 100, então 82%",
+     "Motivo: local inundado, 2 sessões canceladas",
+     "Evidência: registros e mensagem de cancelamento",
+     "Plano: uma sessão de atualização em julho"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Ela explica a causa em uma frase: duas sessões foram canceladas após fortes chuvas inundarem o local."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Halima relata um alvo perdido",
+    "items": [
+     "Número verdadeiro: 82 de 100, então 82%",
+     "Motivo: local inundado, 2 sessões canceladas",
+     "Evidência: registros e mensagem de cancelamento",
+     "Plano: uma sessão de atualização em julho"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Ela dá provas: os registros de presença e a mensagem de cancelamento do local."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Halima relata um alvo perdido",
+    "items": [
+     "Número verdadeiro: 82 de 100, então 82%",
+     "Motivo: local inundado, 2 sessões canceladas",
+     "Evidência: registros e mensagem de cancelamento",
+     "Plano: uma sessão de atualização em julho"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "E ela propõe uma sessão de atualização em julho, paga com o dinheiro não gasto do local.",
+    "Isto gera muito mais confiança do que uma vaga, cerca de 100 mulheres foram alcançadas. Se você for pressionado a inflar um número, informe o número verdadeiro e comunique a preocupação por escrito."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Halima relata um alvo perdido",
+    "items": [
+     "Número verdadeiro: 82 de 100, então 82%",
+     "Motivo: local inundado, 2 sessões canceladas",
+     "Evidência: registros e mensagem de cancelamento",
+     "Plano: uma sessão de atualização em julho"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "De acordo com a Lei de Proteção de Dados de 2023 da Nigéria, os dados pessoais devem ser mantidos seguros. Portanto, não envie a guia Dados inteira, nomeie as mulheres que desistiram ou publique links de planilhas em grupos grandes."
+   ],
+   "panel": {
+    "kicker": "Segurança em primeiro lugar",
+    "heading": "Privacidade ao compartilhar um relatório",
+    "mode": "compare",
+    "left_h": "Em vez disso",
+    "left": [
+     "Enviando toda a guia Dados",
+     "Nomeando mulheres que desistiram",
+     "Links de planilhas em grandes grupos do WhatsApp",
+     "Qualquer pessoa com o link"
+    ],
+    "right_h": "Faça isso",
+    "right": [
+     "Envie a aba Resumo ou um PDF",
+     "Informe o número e os motivos",
+     "Compartilhe com e-mails nomeados, como visualizador",
+     "Definir compartilhamento como restrito"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Compartilhe totais, porcentagens e códigos. Envie o Resumo ou um PDF. Compartilhe com endereços de e-mail nomeados como Visualizador e defina o compartilhamento como Restrito, para que um link encaminhado não seja aberto para estranhos."
+   ],
+   "panel": {
+    "kicker": "Segurança em primeiro lugar",
+    "heading": "Privacidade ao compartilhar um relatório",
+    "mode": "compare",
+    "left_h": "Em vez disso",
+    "left": [
+     "Enviando toda a guia Dados",
+     "Nomeando mulheres que desistiram",
+     "Links de planilhas em grandes grupos do WhatsApp",
+     "Qualquer pessoa com o link"
+    ],
+    "right_h": "Faça isso",
+    "right": [
+     "Envie a aba Resumo ou um PDF",
+     "Informe o número e os motivos",
+     "Compartilhe com e-mails nomeados, como visualizador",
+     "Definir compartilhamento como restrito"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Um painel é uma tela que mostra de 3 a 5 KPIs em relação às suas metas. Vincule cada célula a uma fórmula, nunca digite números, para que ela se atualize. Em seguida, adicione as cores verde, âmbar e vermelho com formatação condicional."
+   ],
+   "panel": {
+    "kicker": "Painel",
+    "heading": "Painel de março de Bisi",
+    "items": [
+     "Vendas: 280.000 de 300.000 naira, 93%, âmbar",
+     "Pedidos: 64 contra 60, 107%, verde",
+     "Conversão: 26% contra 25%, 104%, verde",
+     "Clientes recorrentes: 31% contra 40%, 78%, vermelho"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Por exemplo, as vendas de março de Bisi são de 280.000 nairas contra uma meta de 300.000. Isso é 93%, então mostra âmbar."
+   ],
+   "panel": {
+    "kicker": "Painel",
+    "heading": "Painel de março de Bisi",
+    "items": [
+     "Vendas: 280.000 de 300.000 naira, 93%, âmbar",
+     "Pedidos: 64 contra 60, 107%, verde",
+     "Conversão: 26% contra 25%, 104%, verde",
+     "Clientes recorrentes: 31% contra 40%, 78%, vermelho"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Os pedidos são 64 contra 60 e a conversão é de 26% contra 25%. Ambos verdes."
+   ],
+   "panel": {
+    "kicker": "Painel",
+    "heading": "Painel de março de Bisi",
+    "items": [
+     "Vendas: 280.000 de 300.000 naira, 93%, âmbar",
+     "Pedidos: 64 contra 60, 107%, verde",
+     "Conversão: 26% contra 25%, 104%, verde",
+     "Clientes recorrentes: 31% contra 40%, 78%, vermelho"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Mas os clientes habituais são 31% contra 40%, apenas 78%. Vermelho.",
+    "Portanto, sua próxima ação é manter os clientes, e não mais publicidade. Um bom painel aponta para a próxima decisão. Mantenha a porcentagem visível também, porque alguns leitores não conseguem distinguir o vermelho do verde."
+   ],
+   "panel": {
+    "kicker": "Painel",
+    "heading": "Painel de março de Bisi",
+    "items": [
+     "Vendas: 280.000 de 300.000 naira, 93%, âmbar",
+     "Pedidos: 64 contra 60, 107%, verde",
+     "Conversão: 26% contra 25%, 104%, verde",
+     "Clientes recorrentes: 31% contra 40%, 78%, vermelho"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Para lembrar. Escolha o gráfico que se adapta à mensagem, comece as barras em zero e deixe o título dizer o ponto.",
+    "Forneça denominadores e declare as causas com cuidado. Relate metas perdidas honestamente, com um motivo e um plano. E mantenha seu painel com alguns KPIs vinculados."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Lembre-se",
+    "items": [
+     "Linha para tendências, barras para comparar, tabela exata",
+     "Comece as barras em zero; títulos indicam a descoberta",
+     "Dê denominadores; reivindicar causas com cuidado",
+     "Relate metas perdidas com razão e plano",
+     "Dashboard: 3 a 5 KPIs vinculados com cores"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Agora pratique. Faça um gráfico honesto com um título que indique a descoberta. Audite um relatório em relação à verificação de honestidade de cinco pontos e defina sua planilha como Restrita. Em seguida, construa seu painel com cores de semáforo e uma tendência.",
+    "Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Pratique tarefas",
+    "heading": "Sua prática neste módulo",
+    "items": [
+     "Faça um gráfico honesto",
+     "Audite um relatório para verificar a honestidade",
+     "Crie seu painel de uma página"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

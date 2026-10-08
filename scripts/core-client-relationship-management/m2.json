@@ -1,0 +1,544 @@
+{
+ "course": "core-client-relationship-management",
+ "module": "m2",
+ "title": "Your client tracker, follow-up rhythm and client feedback",
+ "course_title": "Client Relationship Management",
+ "shots": [
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Your client tracker, your follow-up rhythm, and client feedback.",
+    "This is the video for module 2 of Client Relationship Management."
+   ]
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Make a spreadsheet called Client tracker with two tabs. Clients has one row per person, with her details and next action. Orders has one row per order, so Sheets can add up her history for you."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Build your tracker in Google Sheets",
+    "items": [
+     "Two tabs: Clients and Orders",
+     "Drop-down lists for status and names",
+     "COUNTIF and SUMIF for orders and spend",
+     "Overdue next actions turn red"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Add drop-down lists, so a status is always written the same way: New, Active, Quiet or Lapsed. Link the client names in Orders to the client list, so every name is spelled exactly the same."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Build your tracker in Google Sheets",
+    "items": [
+     "Two tabs: Clients and Orders",
+     "Drop-down lists for status and names",
+     "COUNTIF and SUMIF for orders and spend",
+     "Overdue next actions turn red"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "COUNTIF counts how many orders each client has made. SUMIF adds up what she has spent."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Build your tracker in Google Sheets",
+    "items": [
+     "Two tabs: Clients and Orders",
+     "Drop-down lists for status and names",
+     "COUNTIF and SUMIF for orders and spend",
+     "Overdue next actions turn red"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Then use conditional formatting so any client whose next action date has passed turns red. Each morning, the red rows are your follow-up list."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Build your tracker in Google Sheets",
+    "items": [
+     "Two tabs: Clients and Orders",
+     "Drop-down lists for status and names",
+     "COUNTIF and SUMIF for orders and spend",
+     "Overdue next actions turn red"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Keep the sheet private. Share it with no one, or only a trusted staff member, so client phone numbers stay safe."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Build your tracker in Google Sheets",
+    "items": [
+     "Two tabs: Clients and Orders",
+     "Drop-down lists for status and names",
+     "COUNTIF and SUMIF for orders and spend",
+     "Overdue next actions turn red"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Never share the sheet as \"Anyone with the link\".",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Test your formulas once with a calculator, so you can trust them."
+   ],
+   "card": {
+    "title": "Check the formulas once by hand",
+    "rows": [],
+    "note": "Naira prices are approximate."
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Ngozi's Orders tab shows 4 orders for Ifeoma: 18,000, 22,000, 18,000 and 25,000 naira."
+   ],
+   "card": {
+    "title": "Check the formulas once by hand",
+    "rows": [
+     [
+      "5 Jan",
+      "18,000"
+     ],
+     [
+      "14 Feb",
+      "22,000"
+     ],
+     [
+      "2 Apr",
+      "18,000"
+     ],
+     [
+      "30 May",
+      "25,000"
+     ]
+    ],
+    "note": "Naira prices are approximate."
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "That adds up to 83,000 naira, the same as the sheet.",
+    "But one order had been typed as Ifeoma with an extra space, and the count missed it. That is exactly why drop-down lists matter. Also type amounts as plain numbers, without the naira sign."
+   ],
+   "card": {
+    "title": "Check the formulas once by hand",
+    "rows": [
+     [
+      "5 Jan",
+      "18,000"
+     ],
+     [
+      "14 Feb",
+      "22,000"
+     ],
+     [
+      "2 Apr",
+      "18,000"
+     ],
+     [
+      "30 May",
+      "25,000"
+     ]
+    ],
+    "note": "Naira prices are approximate."
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Many problems start before delivery, when the client and the business understood different things. One thought Friday meant morning. The other meant evening."
+   ],
+   "panel": {
+    "kicker": "Set expectations",
+    "heading": "A clear order confirmation",
+    "items": [
+     "What exactly she is getting",
+     "Total price, and what it includes",
+     "Deposit, and when the balance is due",
+     "Delivery date and time window",
+     "Changes allowed, and how you will update her"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "So once she agrees, send a short WhatsApp confirmation covering these five points, and ask her to reply confirmed.",
+    "Save it as a quick reply, and change the details each time."
+   ],
+   "panel": {
+    "kicker": "Set expectations",
+    "heading": "A clear order confirmation",
+    "items": [
+     "What exactly she is getting",
+     "Total price, and what it includes",
+     "Deposit, and when the balance is due",
+     "Delivery date and time window",
+     "Changes allowed, and how you will update her"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Send a confirmation on day 0, a progress update before delivery, and a handover note on delivery day."
+   ],
+   "panel": {
+    "kicker": "Follow-up rhythm",
+    "heading": "Five touches for every order",
+    "items": [
+     "Day 0: confirmation",
+     "Before delivery: progress update",
+     "Delivery day: handover note",
+     "Day 3: after-care check",
+     "Reorder point: reminder"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "On day 3, send a short after-care check. I hope the trays went well at the meeting. Was the quantity right for your guests?"
+   ],
+   "panel": {
+    "kicker": "Follow-up rhythm",
+    "heading": "Five touches for every order",
+    "items": [
+     "Day 0: confirmation",
+     "Before delivery: progress update",
+     "Delivery day: handover note",
+     "Day 3: after-care check",
+     "Reorder point: reminder"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "And remind her when she is likely to need you again.",
+    "Do not crowd her. Between orders, send no more than one non-sales message a month, unless she starts the conversation."
+   ],
+   "panel": {
+    "kicker": "Follow-up rhythm",
+    "heading": "Five touches for every order",
+    "items": [
+     "Day 0: confirmation",
+     "Before delivery: progress update",
+     "Delivery day: handover note",
+     "Day 3: after-care check",
+     "Reorder point: reminder"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "For example, Funmi supplies liquid soap to Halima's provisions shop. Halima ordered on 3 February, 1 March, 4 April and 2 May."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Funmi works out Halima's reorder gap",
+    "items": [
+     "Orders: 3 Feb, 1 Mar, 4 Apr, 2 May",
+     "3 Feb to 2 May is 88 days",
+     "4 orders means 3 gaps: about 29 days",
+     "Remind a few days early: 28 May"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "From her first order to her last is 88 days."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Funmi works out Halima's reorder gap",
+    "items": [
+     "Orders: 3 Feb, 1 Mar, 4 Apr, 2 May",
+     "3 Feb to 2 May is 88 days",
+     "4 orders means 3 gaps: about 29 days",
+     "Remind a few days early: 28 May"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "4 orders means 3 gaps. 88 divided by 3 is about 29 days. That is her reorder gap."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Funmi works out Halima's reorder gap",
+    "items": [
+     "Orders: 3 Feb, 1 Mar, 4 Apr, 2 May",
+     "3 Feb to 2 May is 88 days",
+     "4 orders means 3 gaps: about 29 days",
+     "Remind a few days early: 28 May"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "So Funmi messages on 28 May: your last delivery was 2 May. Shall I bring the usual 6 kegs on Friday?",
+    "Halima is reminded before she runs out, so she does not buy elsewhere."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Funmi works out Halima's reorder gap",
+    "items": [
+     "Orders: 3 Feb, 1 Mar, 4 Apr, 2 May",
+     "3 Feb to 2 May is 88 days",
+     "4 orders means 3 gaps: about 29 days",
+     "Remind a few days early: 28 May"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Clients rarely announce that they are leaving. A healthy relationship looks like steady orders, replies and referrals."
+   ],
+   "panel": {
+    "kicker": "Relationship signals",
+    "heading": "Healthy signs and warning signs",
+    "mode": "compare",
+    "left_h": "Healthy",
+    "left": [
+     "Orders within her usual gap",
+     "Order sizes steady or growing",
+     "Replies, sometimes chats",
+     "Refers friends"
+    ],
+    "right_h": "Warning",
+    "right": [
+     "Gap getting longer each time",
+     "Smaller orders than before",
+     "Reads but does not reply",
+     "New requests for discounts"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Warning signs are longer gaps, smaller orders and unanswered messages. One sign may mean nothing. Two or more are worth a gentle, honest check-in. Do not guilt her. Ask whether your service still fits her needs."
+   ],
+   "panel": {
+    "kicker": "Relationship signals",
+    "heading": "Healthy signs and warning signs",
+    "mode": "compare",
+    "left_h": "Healthy",
+    "left": [
+     "Orders within her usual gap",
+     "Order sizes steady or growing",
+     "Replies, sometimes chats",
+     "Refers friends"
+    ],
+    "right_h": "Warning",
+    "right": [
+     "Gap getting longer each time",
+     "Smaller orders than before",
+     "Reads but does not reply",
+     "New requests for discounts"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Ask 2 or 3 short questions, including: on a scale of 0 to 10, how likely are you to recommend me to a friend?",
+    "For example, Ruth tutors pupils in Lagos and asks 20 parents. 12 answer 9 or 10. They are promoters, 60 percent."
+   ],
+   "panel": {
+    "kicker": "Feedback",
+    "heading": "Net Promoter Score, step by step",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Promoters: 9 or 10",
+      "d": "Ruth asks 20 parents. 12 answer 9 or 10. That is 60 percent."
+     },
+     {
+      "t": "Passives: 7 or 8",
+      "d": "5 parents. They are not used in the formula."
+     },
+     {
+      "t": "Detractors: 0 to 6",
+      "d": "3 parents, which is 15 percent. NPS is 60 minus 15, which is 45."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "5 answer 7 or 8. They are passives, and are left out."
+   ],
+   "panel": {
+    "kicker": "Feedback",
+    "heading": "Net Promoter Score, step by step",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Promoters: 9 or 10",
+      "d": "Ruth asks 20 parents. 12 answer 9 or 10. That is 60 percent."
+     },
+     {
+      "t": "Passives: 7 or 8",
+      "d": "5 parents. They are not used in the formula."
+     },
+     {
+      "t": "Detractors: 0 to 6",
+      "d": "3 parents, which is 15 percent. NPS is 60 minus 15, which is 45."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "3 answer 6 or lower. They are detractors, 15 percent. Her score is 60 minus 15, which is 45.",
+    "More useful still, two detractors said lesson times changed without notice. So Ruth now gives a week's notice of any change."
+   ],
+   "panel": {
+    "kicker": "Feedback",
+    "heading": "Net Promoter Score, step by step",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Promoters: 9 or 10",
+      "d": "Ruth asks 20 parents. 12 answer 9 or 10. That is 60 percent."
+     },
+     {
+      "t": "Passives: 7 or 8",
+      "d": "5 parents. They are not used in the formula."
+     },
+     {
+      "t": "Detractors: 0 to 6",
+      "d": "3 parents, which is 15 percent. NPS is 60 minus 15, which is 45."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "To remember. Keep one row per client and one per order. Confirm every order in writing. Before you mark an order as Paid, check your bank app, because a screenshot is not proof of payment.",
+    "Time reminders from her own reorder gap. And when a client gives feedback, change one thing and tell her you did."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "One row per client, one row per order",
+     "Confirm every order in writing",
+     "Check payments in your bank app, not screenshots",
+     "Remind clients from their own reorder gap",
+     "Act on one piece of feedback, then tell her"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Now practise. Build your tracker with at least 10 real clients and test one total by hand. Save your confirmation as a quick reply and work out three reorder gaps. Then send the feedback questions to five clients and calculate your score.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice tasks",
+    "heading": "Your practice in this module",
+    "items": [
+     "Build and test your client tracker",
+     "Set up your follow-up rhythm",
+     "Run a mini feedback round"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

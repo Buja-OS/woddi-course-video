@@ -1,0 +1,453 @@
+{
+ "course": "core-simple-record-keeping-visual-and-practical",
+ "module": "m2",
+ "title": "Vendas, estoque e crédito: saiba o que você vendeu e quem lhe deve",
+ "course_title": "Manutenção simples de registros (visual e prático)",
+ "shots": [
+  {
+   "demo": "cash_count",
+   "say": [
+    "Vendas, estoque e crédito: saiba o que você vendeu e quem lhe deve.",
+    "Este é o vídeo do Módulo 2, Vendas, estoque e registros de crédito."
+   ]
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Seu livro de vendas é a página mais utilizada no seu negócio. Se você mantém apenas um registro, mantenha este."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Três registros que protegem seu dinheiro",
+    "items": [
+     "Livro de vendas: cada venda e como foi paga",
+     "Cartão de estoque: o que entrou, saiu, sobrou",
+     "Lista de devedores: quem lhe deve e quando"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Seu cartão de estoque mostra onde está a maior parte do dinheiro do seu negócio: nas prateleiras."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Três registros que protegem seu dinheiro",
+    "items": [
+     "Livro de vendas: cada venda e como foi paga",
+     "Cartão de estoque: o que entrou, saiu, sobrou",
+     "Lista de devedores: quem lhe deve e quando"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "E sua lista de devedores recebe seu dinheiro de volta. O crédito mantém a fidelidade dos clientes, mas é a maneira mais rápida de uma pequena empresa ficar sem dinheiro."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Três registros que protegem seu dinheiro",
+    "items": [
+     "Livro de vendas: cada venda e como foi paga",
+     "Cartão de estoque: o que entrou, saiu, sobrou",
+     "Lista de devedores: quem lhe deve e quando"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Cada venda recebe uma linha: data, item, quantidade, preço, total e como foi pago. Dinheiro, transferência ou crédito.",
+    "Por exemplo, Funke vende alimentos em Ibadan."
+   ],
+   "card": {
+    "title": "Livro de vendas de Funke, uma manhã",
+    "rows": [],
+    "note": "Os preços são aproximados."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Ela vende 4 baldes de tinta de garri por cerca de 3.500 nairas em dinheiro, ou seja, 14.000 nairas. Ela também contabiliza 12 xícaras pequenas de lagostins por cerca de 500 nairas, outras 6.000 nairas. Suas vendas à vista são de 20.000 nairas."
+   ],
+   "card": {
+    "title": "Livro de vendas de Funke, uma manhã",
+    "rows": [
+     [
+      "Dinheiro: garri e lagostim",
+      "20,000"
+     ]
+    ],
+    "note": "Os preços são aproximados."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Dois baldes de feijão a cerca de 5.000 nairas são pagos por transferência. Isso é 10.000 nairas."
+   ],
+   "card": {
+    "title": "Livro de vendas de Funke, uma manhã",
+    "rows": [
+     [
+      "Dinheiro: garri e lagostim",
+      "20,000"
+     ],
+     [
+      "Transferência: feijão",
+      "10,000"
+     ]
+    ],
+    "note": "Os preços são aproximados."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "E uma garrafa de óleo de palma vai para Iya Sade a crédito, 2.500 nairas."
+   ],
+   "card": {
+    "title": "Livro de vendas de Funke, uma manhã",
+    "rows": [
+     [
+      "Dinheiro: garri e lagostim",
+      "20,000"
+     ],
+     [
+      "Transferência: feijão",
+      "10,000"
+     ],
+     [
+      "Crédito: óleo de palma, Iya Sade",
+      "2,500"
+     ]
+    ],
+    "note": "Os preços são aproximados."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Todas as vendas chegam a cerca de 32.500 nairas. Agora ela sabe exatamente o que verificar: mais 20 mil dinheiro em sua bolsa, mais 10 mil em sua conta e Iya Sade em sua lista de devedores."
+   ],
+   "card": {
+    "title": "Livro de vendas de Funke, uma manhã",
+    "rows": [
+     [
+      "Dinheiro: garri e lagostim",
+      "20,000"
+     ],
+     [
+      "Transferência: feijão",
+      "10,000"
+     ],
+     [
+      "Crédito: óleo de palma, Iya Sade",
+      "2,500"
+     ]
+    ],
+    "note": "Os preços são aproximados."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "No fechamento, passo um. Adicione a coluna Total para o dia inteiro."
+   ],
+   "panel": {
+    "kicker": "Na hora de fechar",
+    "heading": "Verifique seu livro de vendas",
+    "items": [
+     "Adicione a coluna Total do dia",
+     "Conte o dinheiro, menos o float",
+     "Marque as transferências no aplicativo do seu banco",
+     "Verifique se cada venda a crédito está na lista de devedores",
+     "Escreva qualquer diferença com uma nota"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Etapa dois. Conte o seu dinheiro e retire o float, o troco com o qual você começou. O resto deve ser igual às suas vendas à vista."
+   ],
+   "panel": {
+    "kicker": "Na hora de fechar",
+    "heading": "Verifique seu livro de vendas",
+    "items": [
+     "Adicione a coluna Total do dia",
+     "Conte o dinheiro, menos o float",
+     "Marque as transferências no aplicativo do seu banco",
+     "Verifique se cada venda a crédito está na lista de devedores",
+     "Escreva qualquer diferença com uma nota"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Etapa três. Abra seu banco ou aplicativo de carteira e marque cada transferência recebida em uma linha do seu livro. Alertas incomparáveis ​​geralmente significam uma venda esquecida.",
+    "Sempre confirme se o dinheiro está em sua conta antes da saída das mercadorias. Nunca confie apenas na tela do telefone do cliente."
+   ],
+   "panel": {
+    "kicker": "Na hora de fechar",
+    "heading": "Verifique seu livro de vendas",
+    "items": [
+     "Adicione a coluna Total do dia",
+     "Conte o dinheiro, menos o float",
+     "Marque as transferências no aplicativo do seu banco",
+     "Verifique se cada venda a crédito está na lista de devedores",
+     "Escreva qualquer diferença com uma nota"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Confirme a transferência em sua própria conta antes de liberar a mercadoria.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Etapa quatro, verifique se todas as vendas a crédito estão em sua lista de devedores. E passo cinco, escreva qualquer diferença com uma nota curta. Curto de vez em quando é normal. Curto quase todos os dias significa que algo está errado."
+   ],
+   "panel": {
+    "kicker": "Na hora de fechar",
+    "heading": "Verifique seu livro de vendas",
+    "items": [
+     "Adicione a coluna Total do dia",
+     "Conte o dinheiro, menos o float",
+     "Marque as transferências no aplicativo do seu banco",
+     "Verifique se cada venda a crédito está na lista de devedores",
+     "Escreva qualquer diferença com uma nota"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Confirme a transferência em sua própria conta antes de liberar a mercadoria.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "O estoque inicial, mais o estoque comprado, menos o estoque vendido, é igual ao que deveria sobrar. Conte o que realmente resta e compare.",
+    "Por exemplo, Esther vende refrigerantes em caixas em Port Harcourt. Na segunda-feira ela conta 10 caixas."
+   ],
+   "panel": {
+    "kicker": "Estoque",
+    "heading": "A fórmula de estoque",
+    "items": [
+     "Estoque inicial: 10 caixas",
+     "Mais comprado: 15 caixas",
+     "Menos contagem de fechamento: 7 caixas",
+     "18 caixas saíram da loja",
+     "O livro de vendas mostra 17: 1 caixa faltando"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Ela compra mais 15 na quarta-feira, então havia 25 caixas disponíveis."
+   ],
+   "panel": {
+    "kicker": "Estoque",
+    "heading": "A fórmula de estoque",
+    "items": [
+     "Estoque inicial: 10 caixas",
+     "Mais comprado: 15 caixas",
+     "Menos contagem de fechamento: 7 caixas",
+     "18 caixas saíram da loja",
+     "O livro de vendas mostra 17: 1 caixa faltando"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "No sábado ela conta 7 caixas. Então, 18 caixas saíram da loja."
+   ],
+   "panel": {
+    "kicker": "Estoque",
+    "heading": "A fórmula de estoque",
+    "items": [
+     "Estoque inicial: 10 caixas",
+     "Mais comprado: 15 caixas",
+     "Menos contagem de fechamento: 7 caixas",
+     "18 caixas saíram da loja",
+     "O livro de vendas mostra 17: 1 caixa faltando"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Mas seu livro de vendas mostra apenas 17 unidades vendidas. Uma caixa, cujo custo é de cerca de 6.000 nairas, é inexplicável.",
+    "Sua ajudante explica: Duas garrafas quebraram e algumas foram entregues aos visitantes. Agora Esther escreve quebras e presentes na coluna Fora, e a lacuna desaparece."
+   ],
+   "panel": {
+    "kicker": "Estoque",
+    "heading": "A fórmula de estoque",
+    "items": [
+     "Estoque inicial: 10 caixas",
+     "Mais comprado: 15 caixas",
+     "Menos contagem de fechamento: 7 caixas",
+     "18 caixas saíram da loja",
+     "O livro de vendas mostra 17: 1 caixa faltando"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Conte no mesmo horário todas as semanas, por exemplo, no sábado após o fechamento. Escreva quebras, danos e mercadorias levadas para casa na coluna Saída. Venda primeiro ações mais antigas.",
+    "E nunca venda alimentos, bebidas ou medicamentos fora do prazo de validade. Remova-os, registre-os como estragados e compre quantidades menores na próxima vez."
+   ],
+   "panel": {
+    "kicker": "Contagem semanal",
+    "heading": "Quando você conta seu estoque",
+    "items": [
+     "Mesmo dia e horário todas as semanas",
+     "Quebras de recordes e uso doméstico como Out",
+     "Venda primeiro ações mais antigas",
+     "Nunca venda alimentos, bebidas ou medicamentos vencidos"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Escreva todas as dívidas na frente do cliente e leia-as com a data de vencimento. Registre cada pagamento parcial e o novo saldo.",
+    "Por exemplo, Chioma vende tecidos em Aba. No final do mês, Ada, Joy e Uche lhe deviam 73.000 nairas. A dívida de Uche tem 7 semanas."
+   ],
+   "panel": {
+    "kicker": "Crédito",
+    "heading": "O problema de crédito de Chioma",
+    "mode": "compare",
+    "left_h": "Ela está em dívida",
+    "left": [
+     "Ada: 25.000 nairas",
+     "Alegria: 8.000 nairas",
+     "Uche: 40.000 nairas",
+     "Total: 73.000 nairas"
+    ],
+    "right_h": "Ela precisa",
+    "right": [
+     "Cerca de 120.000 nairas para estoque",
+     "Ela tem 60.000 nairas em mãos",
+     "60.000 nairas curtas"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "O estoque da próxima semana custará cerca de 120 mil nairas e ela tem apenas 60 mil em mãos. Então ela liga para Ada hoje, combina um encontro com Joy e interrompe o crédito para Uche.",
+    "Classifique as dívidas por idade e persiga primeiro as mais antigas. Quanto mais tempo uma dívida espera, mais difícil é cobrar."
+   ],
+   "panel": {
+    "kicker": "Crédito",
+    "heading": "O problema de crédito de Chioma",
+    "mode": "compare",
+    "left_h": "Ela está em dívida",
+    "left": [
+     "Ada: 25.000 nairas",
+     "Alegria: 8.000 nairas",
+     "Uche: 40.000 nairas",
+     "Total: 73.000 nairas"
+    ],
+    "right_h": "Ela precisa",
+    "right": [
+     "Cerca de 120.000 nairas para estoque",
+     "Ela tem 60.000 nairas em mãos",
+     "60.000 nairas curtas"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Defina suas regras. Crédito apenas para clientes regulares que você conhece, limite por pessoa, data de pagamento clara, nenhum novo crédito até que a última dívida seja paga e nenhuma venda de crédito sem uma linha na lista."
+   ],
+   "panel": {
+    "kicker": "Regras de crédito",
+    "heading": "Defina suas regras de crédito",
+    "items": [
+     "Quem: clientes regulares com telefone funcionando",
+     "Quanto: um limite por pessoa",
+     "Quanto tempo: uma data de pagamento clara",
+     "Um de cada vez: nenhum novo crédito até ser pago",
+     "Escreva sempre"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Agora execute um dia completo de livro de vendas, crie seu resumo semanal, crie um cartão de estoque para seu produto principal e limpe sua lista de devedores. Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Pratique tarefas",
+    "heading": "Suas tarefas práticas",
+    "items": [
+     "Execute um dia completo de livro de vendas",
+     "Construa seu resumo semanal",
+     "Cartão de estoque para seu produto principal",
+     "Limpe sua lista de devedores"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

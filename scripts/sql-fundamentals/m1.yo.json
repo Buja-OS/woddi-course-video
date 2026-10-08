@@ -1,0 +1,583 @@
+{
+ "course": "sql-fundamentals",
+ "module": "m1",
+ "title": "Bawo ni awọn apoti isura infomesonu ṣe ronu: awọn tabili, awọn ibeere ati awọn akojọpọ",
+ "course_title": "Awọn ipilẹ SQL",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Bawo ni awọn apoti isura infomesonu ṣe ronu: awọn tabili, awọn ibeere ati awọn akojọpọ.",
+    "Eyi ni fidio fun module 1 ti Awọn ipilẹ SQL."
+   ]
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Ohun elo banki rẹ, ohun elo gigun-hailing kan, ile itaja ori ayelujara kan: o fẹrẹ jẹ pe gbogbo wọn tọju awọn igbasilẹ wọn sinu aaye data ibatan kan. Awọn data joko ni orisirisi awọn tabili, ti sopọ nipa pín ID awọn nọmba."
+   ],
+   "panel": {
+    "kicker": "Kini idi ti eyi ṣe pataki",
+    "heading": "Gbogbo app ntọju awọn igbasilẹ rẹ ni awọn tabili",
+    "items": [
+     "Data joko ni awọn tabili ti o sopọ nipasẹ awọn nọmba ID",
+     "Tabili kan ni iru nkan kan",
+     "Iwe kan jẹ otitọ kan; kana jẹ ọkan igbasilẹ",
+     "SQL ni ede fun bibeere ibeere"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Iṣowo iṣe wa jẹ ti Kemi, fun apẹẹrẹ, ti n ta Ankara, lace ati awọn tai ori. Ipamọ data rẹ ni tabili awọn alabara, tabili awọn aṣẹ, ati tabili awọn ohun ibere kan."
+   ],
+   "panel": {
+    "kicker": "Kini idi ti eyi ṣe pataki",
+    "heading": "Gbogbo app ntọju awọn igbasilẹ rẹ ni awọn tabili",
+    "items": [
+     "Data joko ni awọn tabili ti o sopọ nipasẹ awọn nọmba ID",
+     "Tabili kan ni iru nkan kan",
+     "Iwe kan jẹ otitọ kan; kana jẹ ọkan igbasilẹ",
+     "SQL ni ede fun bibeere ibeere"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Ọwọn kọọkan jẹ otitọ kan, bii ilu. Ọna kọọkan jẹ alabara kan tabi aṣẹ kan."
+   ],
+   "panel": {
+    "kicker": "Kini idi ti eyi ṣe pataki",
+    "heading": "Gbogbo app ntọju awọn igbasilẹ rẹ ni awọn tabili",
+    "items": [
+     "Data joko ni awọn tabili ti o sopọ nipasẹ awọn nọmba ID",
+     "Tabili kan ni iru nkan kan",
+     "Iwe kan jẹ otitọ kan; kana jẹ ọkan igbasilẹ",
+     "SQL ni ede fun bibeere ibeere"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "SQL, Ede Ibeere Ti a Tito, ni bii o ṣe beere awọn ibeere tabili wọnyẹn. Awọn aṣẹ mojuto kanna ṣiṣẹ ni PostgreSQL, MySQL, SQLite ati diẹ sii."
+   ],
+   "panel": {
+    "kicker": "Kini idi ti eyi ṣe pataki",
+    "heading": "Gbogbo app ntọju awọn igbasilẹ rẹ ni awọn tabili",
+    "items": [
+     "Data joko ni awọn tabili ti o sopọ nipasẹ awọn nọmba ID",
+     "Tabili kan ni iru nkan kan",
+     "Iwe kan jẹ otitọ kan; kana jẹ ọkan igbasilẹ",
+     "SQL ni ede fun bibeere ibeere"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Bọtini akọkọ jẹ ọwọn ti o jẹ alailẹgbẹ fun gbogbo awọn ila ti kii ṣe ofo. Ni awọn onibara, Amaka jẹ nọmba 1."
+   ],
+   "panel": {
+    "kicker": "Mẹta bọtini ero",
+    "heading": "Awọn bọtini ati fifipamọ otitọ kọọkan ni ẹẹkan",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Bọtini akọkọ",
+      "d": "Oto fun gbogbo kana, ko sofo. Amaka jẹ onibara_id 1, ko si si ẹlomiran ti o le jẹ 1."
+     },
+     {
+      "t": "Bọtini ajeji",
+      "d": "Ojuami si miiran tabili. Bere fun 101 ni onibara_id 1, nitorina o jẹ ti Amaka."
+     },
+     {
+      "t": "Iṣe deede",
+      "d": "Tọju otitọ kọọkan lẹẹkan. Ilu Amaka n gbe ni awọn alabara nikan, nitorinaa awọn ijabọ ko gba rara."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Bọtini ajeji kan di bọtini akọkọ ti tabili miiran mu. Bere fun 101 ni onibara_id 1, nitorina o jẹ ti Amaka. Nọmba kan jẹ ki o darapọ mọ awọn tabili nigbamii."
+   ],
+   "panel": {
+    "kicker": "Mẹta bọtini ero",
+    "heading": "Awọn bọtini ati fifipamọ otitọ kọọkan ni ẹẹkan",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Bọtini akọkọ",
+      "d": "Oto fun gbogbo kana, ko sofo. Amaka jẹ onibara_id 1, ko si si ẹlomiran ti o le jẹ 1."
+     },
+     {
+      "t": "Bọtini ajeji",
+      "d": "Ojuami si miiran tabili. Bere fun 101 ni onibara_id 1, nitorina o jẹ ti Amaka."
+     },
+     {
+      "t": "Iṣe deede",
+      "d": "Tọju otitọ kọọkan lẹẹkan. Ilu Amaka n gbe ni awọn alabara nikan, nitorinaa awọn ijabọ ko gba rara."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Kilode ti kii ṣe iwe nla kan? Ti ilu Amaka ba ti tẹ lori gbogbo aṣẹ ati pe o gbe, o gbọdọ yi gbogbo awọn ila, ati pe ti o ba padanu ọkan, awọn ijabọ rẹ ko gba. Titoju otitọ kọọkan ni ẹẹkan ni a pe ni deede."
+   ],
+   "panel": {
+    "kicker": "Mẹta bọtini ero",
+    "heading": "Awọn bọtini ati fifipamọ otitọ kọọkan ni ẹẹkan",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Bọtini akọkọ",
+      "d": "Oto fun gbogbo kana, ko sofo. Amaka jẹ onibara_id 1, ko si si ẹlomiran ti o le jẹ 1."
+     },
+     {
+      "t": "Bọtini ajeji",
+      "d": "Ojuami si miiran tabili. Bere fun 101 ni onibara_id 1, nitorina o jẹ ti Amaka."
+     },
+     {
+      "t": "Iṣe deede",
+      "d": "Tọju otitọ kọọkan lẹẹkan. Ilu Amaka n gbe ni awọn alabara nikan, nitorinaa awọn ijabọ ko gba rara."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Odidi nọmba mu, gẹgẹbi awọn ID ati awọn iwọn."
+   ],
+   "panel": {
+    "kicker": "Data orisi",
+    "heading": "Yan iru ọwọn kọọkan lori idi",
+    "items": [
+     "INTEGER: gbogbo awọn nọmba, ID, awọn iwọn",
+     "DECIMAL: awọn nọmba gangan fun owo",
+     "TEXT: awọn orukọ, ati awọn nọmba foonu paapaa",
+     "OJO: nigbagbogbo YYY-MM-DD",
+     "BOOLEAN: otitọ tabi iro"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Eleemewa, tabi nomba, di awọn nọmba gangan mu. Lo fun owo, kii ṣe iru lilefoofo, eyiti o le ṣe awọn aṣiṣe iyipo kekere."
+   ],
+   "panel": {
+    "kicker": "Data orisi",
+    "heading": "Yan iru ọwọn kọọkan lori idi",
+    "items": [
+     "INTEGER: gbogbo awọn nọmba, ID, awọn iwọn",
+     "DECIMAL: awọn nọmba gangan fun owo",
+     "TEXT: awọn orukọ, ati awọn nọmba foonu paapaa",
+     "OJO: nigbagbogbo YYY-MM-DD",
+     "BOOLEAN: otitọ tabi iro"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Ọrọ di awọn ọrọ mu. Awọn nọmba foonu jẹ ọrọ paapaa, nitori odo asiwaju, bi ni 0803, yoo sọnu ti o ba fipamọ bi nọmba kan."
+   ],
+   "panel": {
+    "kicker": "Data orisi",
+    "heading": "Yan iru ọwọn kọọkan lori idi",
+    "items": [
+     "INTEGER: gbogbo awọn nọmba, ID, awọn iwọn",
+     "DECIMAL: awọn nọmba gangan fun owo",
+     "TEXT: awọn orukọ, ati awọn nọmba foonu paapaa",
+     "OJO: nigbagbogbo YYY-MM-DD",
+     "BOOLEAN: otitọ tabi iro"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Tọju awọn ọjọ bi ọdun, oṣu, ọjọ, nitorinaa wọn too tọ. Ati pe boolean jẹ otitọ lasan tabi eke."
+   ],
+   "panel": {
+    "kicker": "Data orisi",
+    "heading": "Yan iru ọwọn kọọkan lori idi",
+    "items": [
+     "INTEGER: gbogbo awọn nọmba, ID, awọn iwọn",
+     "DECIMAL: awọn nọmba gangan fun owo",
+     "TEXT: awọn orukọ, ati awọn nọmba foonu paapaa",
+     "OJO: nigbagbogbo YYY-MM-DD",
+     "BOOLEAN: otitọ tabi iro"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Ibeere jẹ oniwa rere, ibeere to peye. Yan awọn orukọ awọn ọwọn ti o fẹ. LATI awọn orukọ tabili."
+   ],
+   "panel": {
+    "kicker": "Ibeere akọkọ rẹ",
+    "heading": "Awọn koko-ọrọ marun dahun awọn ibeere pupọ julọ",
+    "items": [
+     "Yan: awọn ọwọn ti o fẹ",
+     "LATI: tabili",
+     "NIBI: tọju awọn ori ila ti o baamu",
+     "PERE NIPA: too, DESC fun akọkọ ti o tobi julọ",
+     "LIMIT: tọju awọn ori ila akọkọ nikan"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "NIBI tọju awọn ila nikan nibiti ipo kan jẹ otitọ. Ọrọ lọ inu awọn agbasọ ẹyọkan, awọn nọmba ko ṣe. Nigbati o ba dapọ ATI pẹlu OR, lo awọn biraketi, nitori ATI ti ṣiṣẹ ni akọkọ."
+   ],
+   "panel": {
+    "kicker": "Ibeere akọkọ rẹ",
+    "heading": "Awọn koko-ọrọ marun dahun awọn ibeere pupọ julọ",
+    "items": [
+     "Yan: awọn ọwọn ti o fẹ",
+     "LATI: tabili",
+     "NIBI: tọju awọn ori ila ti o baamu",
+     "PERE NIPA: too, DESC fun akọkọ ti o tobi julọ",
+     "LIMIT: tọju awọn ori ila akọkọ nikan"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "PERE NIPA lẹsẹsẹ abajade. Ṣafikun DESC fun akọkọ akọkọ."
+   ],
+   "panel": {
+    "kicker": "Ibeere akọkọ rẹ",
+    "heading": "Awọn koko-ọrọ marun dahun awọn ibeere pupọ julọ",
+    "items": [
+     "Yan: awọn ọwọn ti o fẹ",
+     "LATI: tabili",
+     "NIBI: tọju awọn ori ila ti o baamu",
+     "PERE NIPA: too, DESC fun akọkọ ti o tobi julọ",
+     "LIMIT: tọju awọn ori ila akọkọ nikan"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "LIMIT 3 tọju awọn ori ila mẹta akọkọ nikan lẹhin tito lẹsẹsẹ. Iyẹn ni bi o ṣe gba oke mẹta."
+   ],
+   "panel": {
+    "kicker": "Ibeere akọkọ rẹ",
+    "heading": "Awọn koko-ọrọ marun dahun awọn ibeere pupọ julọ",
+    "items": [
+     "Yan: awọn ọwọn ti o fẹ",
+     "LATI: tabili",
+     "NIBI: tọju awọn ori ila ti o baamu",
+     "PERE NIPA: too, DESC fun akọkọ ti o tobi julọ",
+     "LIMIT: tọju awọn ori ila akọkọ nikan"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Pakute kan. Iye ti o padanu jẹ NULL, eyiti o tumọ si aimọ, ati pe ko dogba si ohunkohun. Nitorina NIBI foonu = NULL ko da nkankan pada. Nigbagbogbo kọ WA NOLL."
+   ],
+   "panel": {
+    "kicker": "Ibeere akọkọ rẹ",
+    "heading": "Awọn koko-ọrọ marun dahun awọn ibeere pupọ julọ",
+    "items": [
+     "Yan: awọn ọwọn ti o fẹ",
+     "LATI: tabili",
+     "NIBI: tọju awọn ori ila ti o baamu",
+     "PERE NIPA: too, DESC fun akọkọ ti o tobi julọ",
+     "LIMIT: tọju awọn ori ila akọkọ nikan"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Awọn iye ti o padanu jẹ NULL. Idanwo pẹlu IS NULL, kò = NULL.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Kemi kọwe: YAN ID aṣẹ, ọjọ aṣẹ ati iye, LATI aṣẹ, NIBI ikanni WhatsApp ti wa ATI ipo ti a ti firanṣẹ, PERE NIPA iye, sọkalẹ."
+   ],
+   "card": {
+    "title": "Awọn aṣẹ WhatsApp ti o tobi julọ ti Kemi jiṣẹ",
+    "rows": [],
+    "note": "Awọn isiro adaṣe, kii ṣe awọn idiyele ọja gidi."
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Awọn ori ila mẹrin wa pada. Eyi ti o tobi julọ ni ibere 105, ni 61,000 naira, lẹhinna 101, 106 ati 103."
+   ],
+   "card": {
+    "title": "Awọn aṣẹ WhatsApp ti o tobi julọ ti Kemi jiṣẹ",
+    "rows": [
+     [
+      "Paṣẹ 105",
+      "61,000"
+     ],
+     [
+      "Paṣẹ 101",
+      "18,500"
+     ],
+     [
+      "Aṣẹ 106",
+      "12,500"
+     ],
+     [
+      "Bere fun 103",
+      "9,000"
+     ]
+    ],
+    "note": "Awọn isiro adaṣe, kii ṣe awọn idiyele ọja gidi."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Bayi ṣayẹwo. Bere fun 109 jẹ aṣẹ WhatsApp kan, ṣugbọn o wa ni isunmọtosi, nitorinaa o ti yọkuro ni deede. Nigbagbogbo ṣayẹwo ohun ti ko yẹ ki o wa nibẹ."
+   ],
+   "card": {
+    "title": "Awọn aṣẹ WhatsApp ti o tobi julọ ti Kemi jiṣẹ",
+    "rows": [
+     [
+      "Paṣẹ 105",
+      "61,000"
+     ],
+     [
+      "Paṣẹ 101",
+      "18,500"
+     ],
+     [
+      "Aṣẹ 106",
+      "12,500"
+     ],
+     [
+      "Bere fun 103",
+      "9,000"
+     ]
+    ],
+    "note": "Awọn isiro adaṣe, kii ṣe awọn idiyele ọja gidi."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Awọn alakoso fẹ awọn idahun, kii ṣe awọn akojọ. COUNT, SUM ati AVG yi ọpọlọpọ awọn ori ila si nọmba kan. GROUP BY funni ni nọmba kan fun ẹgbẹ kan."
+   ],
+   "card": {
+    "title": "Ti firanṣẹ tita nipasẹ ikanni",
+    "rows": [],
+    "note": "Awọn isiro adaṣe, kii ṣe awọn idiyele ọja gidi."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Ti Kemi ti fi tita nipasẹ ikanni: WhatsApp 101,000 naira, Instagram 83,000, ati oju opo wẹẹbu 27,500."
+   ],
+   "card": {
+    "title": "Ti firanṣẹ tita nipasẹ ikanni",
+    "rows": [
+     [
+      "WhatsApp, 4 ibere",
+      "101,000"
+     ],
+     [
+      "Instagram, awọn aṣẹ 3",
+      "83,000"
+     ],
+     [
+      "Aaye ayelujara, 1 ibere",
+      "27,500"
+     ]
+    ],
+    "note": "Awọn isiro adaṣe, kii ṣe awọn idiyele ọja gidi."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Bayi laja. Awọn ẹgbẹ gbọdọ fi pada si lapapọ. 101,000 pẹlu 83,000 pẹlu 27,500 jẹ 211,500, ati 4 pẹlu 3 plus 1 jẹ awọn aṣẹ 8. Ti awọn ege naa ko ba ṣafikun, nkan kan jẹ aṣiṣe.",
+    "Ati ki o ranti: gbogbo iwe ni Yan gbọdọ wa ni inu iṣẹ kan tabi ti a ṣe akojọ si ni GROUP BY."
+   ],
+   "card": {
+    "title": "Ti firanṣẹ tita nipasẹ ikanni",
+    "rows": [
+     [
+      "WhatsApp, 4 ibere",
+      "101,000"
+     ],
+     [
+      "Instagram, awọn aṣẹ 3",
+      "83,000"
+     ],
+     [
+      "Aaye ayelujara, 1 ibere",
+      "27,500"
+     ]
+    ],
+    "note": "Awọn isiro adaṣe, kii ṣe awọn idiyele ọja gidi."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "NIBI ṣe asẹ awọn ori ila kan ṣaaju ṣiṣe akojọpọ, gẹgẹbi titọju awọn aṣẹ ti a firanṣẹ nikan."
+   ],
+   "panel": {
+    "kicker": "Sisẹ",
+    "heading": "Nibo tabi NÍNI?",
+    "mode": "compare",
+    "left_h": "NIBI",
+    "left": [
+     "Ṣiṣe ṣaaju ṣiṣe akojọpọ",
+     "Ṣe idanwo awọn ori ila kan",
+     "ipo = 'fijiṣẹ'",
+     "Ko le lo SUM tabi COUNT"
+    ],
+    "right_h": "NINI",
+    "right": [
+     "Ṣiṣe lẹhin akojọpọ",
+     "Idanwo gbogbo awọn ẹgbẹ",
+     "IYE(*) >= 2",
+     "Nlo awọn abajade apapọ"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "NINI ṣe asẹ gbogbo awọn ẹgbẹ lẹhin ti awọn lapapọ ti ṣe. Nini kika awọn aṣẹ ti o kere ju 2 wa awọn olura ti Kemi: alabara 1 pẹlu aṣẹ 3, ati alabara 2 pẹlu 2."
+   ],
+   "panel": {
+    "kicker": "Sisẹ",
+    "heading": "Nibo tabi NÍNI?",
+    "mode": "compare",
+    "left_h": "NIBI",
+    "left": [
+     "Ṣiṣe ṣaaju ṣiṣe akojọpọ",
+     "Ṣe idanwo awọn ori ila kan",
+     "ipo = 'fijiṣẹ'",
+     "Ko le lo SUM tabi COUNT"
+    ],
+    "right_h": "NINI",
+    "right": [
+     "Ṣiṣe lẹhin akojọpọ",
+     "Idanwo gbogbo awọn ẹgbẹ",
+     "IYE(*) >= 2",
+     "Nlo awọn abajade apapọ"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Lati ranti. Awọn tabili ni asopọ nipasẹ awọn bọtini, ati pe otitọ kọọkan wa ni ipamọ lẹẹkan. Awọn koko-ọrọ marun dahun awọn ibeere pupọ julọ. Idanwo awọn iye ti o padanu pẹlu IS NULL. Ati nigbagbogbo ṣayẹwo pe awọn ẹgbẹ rẹ ṣafikun pada si lapapọ."
+   ],
+   "panel": {
+    "kicker": "Awọn ojuami pataki",
+    "heading": "Ranti",
+    "items": [
+     "Awọn tabili ti o sopọ nipasẹ awọn bọtini akọkọ ati ajeji",
+     "Tọju otitọ kọọkan lẹẹkan",
+     "YAN, LATI, NIBI, PERE NIPA, OPIN",
+     "WA NULL, kò = NULL",
+     "Apapọ ẹgbẹ gbọdọ ṣafikun pada si gbogbo"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Bayi ṣe apẹrẹ data kekere kan lori iwe, kọ awọn ibeere marun akọkọ rẹ, ki o kọ akopọ tita kekere kan pẹlu awọn ami ilaja.",
+    "Tẹsiwaju pẹlu awọn ẹkọ ni isalẹ."
+   ],
+   "panel": {
+    "kicker": "Ṣiṣe awọn iṣẹ ṣiṣe",
+    "heading": "Iṣẹ rẹ fun module yii",
+    "items": [
+     "Ṣe ọnà rẹ a kekere database lori iwe",
+     "Dahun awọn ibeere marun pẹlu awọn ibeere ti o rọrun",
+     "Kọ a mini tita Lakotan"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

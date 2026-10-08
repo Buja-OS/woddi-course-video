@@ -1,0 +1,537 @@
+{
+ "course": "core-excel-for-small-business",
+ "module": "m2",
+ "title": "Awọn ami dola, IF ati olutọpa ti o sọ otitọ fun ọ",
+ "course_title": "Tayo ati Google Sheets fun Kekere Business",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Awọn ami dola, IF, ati olutọpa ti o sọ otitọ fun ọ.",
+    "Eyi ni fidio fun Module 2 ti Excel ati Google Sheets fun Iṣowo Kekere."
+   ]
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Ninu module yii o kọ ẹkọ lati daakọ agbekalẹ kan laisi fifọ rẹ, lẹhinna kọ iwe kan ti o ṣe igbasilẹ gbogbo tita ati gbogbo inawo."
+   ],
+   "panel": {
+    "kicker": "Ni yi module",
+    "heading": "Ohun ti o yoo ni anfani lati ṣe",
+    "items": [
+     "Da awọn agbekalẹ laisi fifọ wọn",
+     "Tọpinpin gbogbo tita ati inawo ninu iwe kan",
+     "Wo owo sinu, owo jade ati iwontunwonsi rẹ",
+     "Wa ati ṣatunṣe awọn aṣiṣe ariwo ati ipalọlọ"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Ó sọ ohun tí ó wọlé, ohun tí ó jáde, àti ohun tí ó kù fún ọ. Ati pe o kọ ẹkọ lati yẹ awọn aṣiṣe ti o jẹ ki lapapọ ti ko tọ wo ọtun."
+   ],
+   "panel": {
+    "kicker": "Ni yi module",
+    "heading": "Ohun ti o yoo ni anfani lati ṣe",
+    "items": [
+     "Da awọn agbekalẹ laisi fifọ wọn",
+     "Tọpinpin gbogbo tita ati inawo ninu iwe kan",
+     "Wo owo sinu, owo jade ati iwontunwonsi rẹ",
+     "Wa ati ṣatunṣe awọn aṣiṣe ariwo ati ipalọlọ"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Nigbati o ba daakọ = C2 * D2 isalẹ, o di = C3 * D3 ni ila to nbọ. Itọkasi ibatan niyẹn. O kikọja pẹlu kana, ati julọ ti awọn akoko ti o jẹ gangan ohun ti o fẹ."
+   ],
+   "panel": {
+    "kicker": "Awọn itọkasi",
+    "heading": "Ojulumo tabi idi?",
+    "mode": "compare",
+    "left_h": "Ebi: H1",
+    "left": [
+     "Nlọ nigbati o ba daakọ",
+     "Fun kana nipa ila iye",
+     "Apeere: = C2*D2"
+    ],
+    "right_h": "Odidi: $H$1",
+    "right": [
+     "Maṣe gbe",
+     "Fun ọkan pín oṣuwọn",
+     "Apeere: =E2*$H$1"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Ṣugbọn nigbami gbogbo awọn ila gbọdọ lo sẹẹli kanna, bii oṣuwọn igbimọ kan ti a tẹ ni oke.",
+    "Lẹhinna o tii rẹ pẹlu awọn ami dola: $H$1. Nibi ami dola ko ni nkankan lati ṣe pẹlu owo. Itumo re mase gbe.",
+    "Lori foonu kan, tẹ awọn ami dola funrararẹ. Lori kọnputa Windows, tẹ F4."
+   ],
+   "panel": {
+    "kicker": "Awọn itọkasi",
+    "heading": "Ojulumo tabi idi?",
+    "mode": "compare",
+    "left_h": "Ebi: H1",
+    "left": [
+     "Nlọ nigbati o ba daakọ",
+     "Fun kana nipa ila iye",
+     "Apeere: = C2*D2"
+    ],
+    "right_h": "Odidi: $H$1",
+    "right": [
+     "Maṣe gbe",
+     "Fun ọkan pín oṣuwọn",
+     "Apeere: =E2*$H$1"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Eyi ni apẹẹrẹ iṣẹ kan. Kemi tẹ oṣuwọn 5% rẹ lẹẹkan, ninu sẹẹli H1, ati iye tita rẹ ni iwe E."
+   ],
+   "card": {
+    "title": "Igbimọ tita Kemi",
+    "rows": [],
+    "note": "Lapapọ Igbimọ jẹ deede 5% ti lapapọ awọn tita."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Ni akọkọ o tẹ = E2 * H1 o si daakọ rẹ si isalẹ. Awọn ọna ti o tẹle di E3 igba H2. Ṣugbọn H2 ti ṣofo, nitorina gbogbo awọn ila lẹhin akọkọ fihan 0. Eyi ni aṣiṣe ti o wọpọ."
+   ],
+   "card": {
+    "title": "Igbimọ tita Kemi",
+    "rows": [
+     [
+      "Ti ko tọ: = E2*H1 daakọ silẹ",
+      "0"
+     ]
+    ],
+    "note": "Lapapọ Igbimọ jẹ deede 5% ti lapapọ awọn tita."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Nitorinaa o tẹ =E2*$H$1 dipo. Gbogbo ẹda tun tọka ni oṣuwọn. Tita akọkọ ti 19000 gba 950, ati pe apapọ tita rẹ de 43300 naira."
+   ],
+   "card": {
+    "title": "Igbimọ tita Kemi",
+    "rows": [
+     [
+      "Ti ko tọ: = E2*H1 daakọ silẹ",
+      "0"
+     ],
+     [
+      "Ọtun: = E2*$H$1, tita akọkọ",
+      "950"
+     ],
+     [
+      "Lapapọ tita",
+      "43,300"
+     ]
+    ],
+    "note": "Lapapọ Igbimọ jẹ deede 5% ti lapapọ awọn tita."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Apapọ igbimọ jẹ 2165 naira. Nigbati o ba gbe oṣuwọn soke si 6%, o yipada H1 nikan, ati pe gbogbo awọn ila tun ṣe iṣiro ni ẹẹkan."
+   ],
+   "card": {
+    "title": "Igbimọ tita Kemi",
+    "rows": [
+     [
+      "Ti ko tọ: = E2*H1 daakọ silẹ",
+      "0"
+     ],
+     [
+      "Ọtun: = E2*$H$1, tita akọkọ",
+      "950"
+     ],
+     [
+      "Lapapọ tita",
+      "43,300"
+     ]
+    ],
+    "note": "Lapapọ Igbimọ jẹ deede 5% ti lapapọ awọn tita."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Bayi kọ olutọpa naa. Ọna kọọkan jẹ idunadura kan: ọjọ, Tita tabi Inawo, ẹka, awọn alaye, opoiye ati idiyele ẹyọkan."
+   ],
+   "panel": {
+    "kicker": "Kọ o",
+    "heading": "Awọn tita ati inawo tracker",
+    "items": [
+     "Awọn ọwọn: Ọjọ, Iru, Ẹka, Awọn alaye, Qty, Iye owo",
+     "Iye: = E2*F2",
+     "Owo ni: =IF(B2 = \"Tita\",G2,0)",
+     "Owo jade: = IF(B2 = \"Inawo\", G2,0)",
+     "Iwọntunwọnsi: J3 jẹ = J2+H3-I3, daakọ si isalẹ"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Awọn iwe iye isodipupo opoiye nipa owo."
+   ],
+   "panel": {
+    "kicker": "Kọ o",
+    "heading": "Awọn tita ati inawo tracker",
+    "items": [
+     "Awọn ọwọn: Ọjọ, Iru, Ẹka, Awọn alaye, Qty, Iye owo",
+     "Iye: = E2*F2",
+     "Owo ni: =IF(B2 = \"Tita\",G2,0)",
+     "Owo jade: = IF(B2 = \"Inawo\", G2,0)",
+     "Iwọntunwọnsi: J3 jẹ = J2+H3-I3, daakọ si isalẹ"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Bayi iṣẹ tuntun, IF. O ṣe ipinnu ti o rọrun. Ilana naa jẹ IF, idanwo kan, lẹhinna kini lati fihan ti o ba jẹ otitọ, lẹhinna kini lati fihan ti o ba jẹ eke.",
+    "Nitorina ti iwe B ba sọ Tita, Owo ni fihan iye naa. Ti kii ba ṣe bẹ, o fihan 0. Ọrọ n lọ sinu awọn agbasọ meji."
+   ],
+   "panel": {
+    "kicker": "Kọ o",
+    "heading": "Awọn tita ati inawo tracker",
+    "items": [
+     "Awọn ọwọn: Ọjọ, Iru, Ẹka, Awọn alaye, Qty, Iye owo",
+     "Iye: = E2*F2",
+     "Owo ni: =IF(B2 = \"Tita\",G2,0)",
+     "Owo jade: = IF(B2 = \"Inawo\", G2,0)",
+     "Iwọntunwọnsi: J3 jẹ = J2+H3-I3, daakọ si isalẹ"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Owo jade ṣiṣẹ ni ọna kanna, idanwo fun inawo."
+   ],
+   "panel": {
+    "kicker": "Kọ o",
+    "heading": "Awọn tita ati inawo tracker",
+    "items": [
+     "Awọn ọwọn: Ọjọ, Iru, Ẹka, Awọn alaye, Qty, Iye owo",
+     "Iye: = E2*F2",
+     "Owo ni: =IF(B2 = \"Tita\",G2,0)",
+     "Owo jade: = IF(B2 = \"Inawo\", G2,0)",
+     "Iwọntunwọnsi: J3 jẹ = J2+H3-I3, daakọ si isalẹ"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Iwọntunwọnsi nṣiṣẹ gba iwọntunwọnsi lati ori ila loke, ṣafikun ohun ti o wa, ati yọkuro ohun ti o jade. Daakọ J3 si isalẹ, kii ṣe J2."
+   ],
+   "panel": {
+    "kicker": "Kọ o",
+    "heading": "Awọn tita ati inawo tracker",
+    "items": [
+     "Awọn ọwọn: Ọjọ, Iru, Ẹka, Awọn alaye, Qty, Iye owo",
+     "Iye: = E2*F2",
+     "Owo ni: =IF(B2 = \"Tita\",G2,0)",
+     "Owo jade: = IF(B2 = \"Inawo\", G2,0)",
+     "Iwọntunwọnsi: J3 jẹ = J2+H3-I3, daakọ si isalẹ"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Ikilọ kan. Ti o ba ṣiṣẹ nikan ti akọtọ ba baamu gangan. Titaja, tabi Tita pẹlu aaye afikun, yoo lọ si 0. Ni Module 3, atokọ jabọ-silẹ yoo yọ iṣoro yii kuro."
+   ],
+   "panel": {
+    "kicker": "Kọ o",
+    "heading": "Awọn tita ati inawo tracker",
+    "items": [
+     "Awọn ọwọn: Ọjọ, Iru, Ẹka, Awọn alaye, Qty, Iye owo",
+     "Iye: = E2*F2",
+     "Owo ni: =IF(B2 = \"Tita\",G2,0)",
+     "Owo jade: = IF(B2 = \"Inawo\", G2,0)",
+     "Iwọntunwọnsi: J3 jẹ = J2+H3-I3, daakọ si isalẹ"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Tẹ Tita ati Inawo ni ọna kanna ni gbogbo igba",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Bisi igbasilẹ 4 ọjọ ti tita ati owo. Ni ọjọ 1 o ta awọn awo 25, lẹhinna ra awọn ounjẹ fun 55000. Iwọntunwọnsi rẹ lọ odi, iyokuro 17500."
+   ],
+   "card": {
+    "title": "Ounjẹ Bisi duro, 4 ọjọ",
+    "rows": [],
+    "note": "Awọn idiyele jẹ awọn apẹẹrẹ isunmọ."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Iyẹn jẹ ikilọ sisan owo to wulo. Rira nla rẹ wa ṣaaju awọn tita ti o sanwo fun rẹ.",
+    "Ni ipari, owo ni 157500 naira ati pe owo jade jẹ 73500."
+   ],
+   "card": {
+    "title": "Ounjẹ Bisi duro, 4 ọjọ",
+    "rows": [
+     [
+      "Owo ni, 4 ọjọ ti tita",
+      "157,500"
+     ],
+     [
+      "Owo jade, onjẹ lati gbe",
+      "73,500"
+     ]
+    ],
+    "note": "Awọn idiyele jẹ awọn apẹẹrẹ isunmọ."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Iyatọ naa jẹ 84000, ati pe o baamu iwọntunwọnsi ṣiṣiṣẹ kẹhin rẹ. Ṣugbọn owo ti o kù ko sibẹsibẹ èrè. Diẹ ninu awọn ounjẹ tun wa ni ile itaja rẹ, ko si ka iyalo tabi akoko tirẹ."
+   ],
+   "card": {
+    "title": "Ounjẹ Bisi duro, 4 ọjọ",
+    "rows": [
+     [
+      "Owo ni, 4 ọjọ ti tita",
+      "157,500"
+     ],
+     [
+      "Owo jade, onjẹ lati gbe",
+      "73,500"
+     ]
+    ],
+    "note": "Awọn idiyele jẹ awọn apẹẹrẹ isunmọ."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Gbogbo olumulo iwe kaunti n ṣe awọn aṣiṣe. Awọn aṣiṣe ariwo fihan koodu kan. Hash DIV slash 0 tumọ si pe o pin nipasẹ odo tabi sẹẹli ofo."
+   ],
+   "panel": {
+    "kicker": "Sode aṣiṣe",
+    "heading": "Awọn aṣiṣe ariwo ati ohun ti wọn tumọ si",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "#DIV/0!",
+      "d": "Pipin nipasẹ odo tabi nipasẹ sẹẹli ofo. Kun sẹẹli, tabi lo IFERROR fun awọn ela ti a reti."
+     },
+     {
+      "t": "#IYE!",
+      "d": "Iṣiro lori nkan ti kii ṣe nọmba, bii N2000. Tun ṣe bi nọmba itele kan."
+     },
+     {
+      "t": "#REF!",
+      "d": "Ilana naa tọka si sẹẹli ti o paarẹ. Mu pada lẹsẹkẹsẹ, tabi mu pada itan ẹya pada."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Hash VALUE tumo si mathimatiki lori nkan ti kii se nomba, bi N2000."
+   ],
+   "panel": {
+    "kicker": "Sode aṣiṣe",
+    "heading": "Awọn aṣiṣe ariwo ati ohun ti wọn tumọ si",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "#DIV/0!",
+      "d": "Pipin nipasẹ odo tabi nipasẹ sẹẹli ofo. Kun sẹẹli, tabi lo IFERROR fun awọn ela ti a reti."
+     },
+     {
+      "t": "#IYE!",
+      "d": "Iṣiro lori nkan ti kii ṣe nọmba, bii N2000. Tun ṣe bi nọmba itele kan."
+     },
+     {
+      "t": "#REF!",
+      "d": "Ilana naa tọka si sẹẹli ti o paarẹ. Mu pada lẹsẹkẹsẹ, tabi mu pada itan ẹya pada."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Hash REF tumọ si agbekalẹ tọka si sẹẹli ti o paarẹ. Tẹ yi pada lẹsẹkẹsẹ."
+   ],
+   "panel": {
+    "kicker": "Sode aṣiṣe",
+    "heading": "Awọn aṣiṣe ariwo ati ohun ti wọn tumọ si",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "#DIV/0!",
+      "d": "Pipin nipasẹ odo tabi nipasẹ sẹẹli ofo. Kun sẹẹli, tabi lo IFERROR fun awọn ela ti a reti."
+     },
+     {
+      "t": "#IYE!",
+      "d": "Iṣiro lori nkan ti kii ṣe nọmba, bii N2000. Tun ṣe bi nọmba itele kan."
+     },
+     {
+      "t": "#REF!",
+      "d": "Ilana naa tọka si sẹẹli ti o paarẹ. Mu pada lẹsẹkẹsẹ, tabi mu pada itan ẹya pada."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Awọn aṣiṣe ipalọlọ jẹ ewu diẹ sii. Iwe naa fihan nọmba kan ti o dara, ṣugbọn o jẹ aṣiṣe."
+   ],
+   "card": {
+    "title": "Apapọ Chioma ti o kere ju",
+    "rows": [],
+    "note": "COUNT kere ju COUNTA tumọ si awọn iye ọrọ."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "SUM ti Chioma sọ 61000, ṣugbọn iṣiro rẹ sọ 66000.",
+    "COUNT lori iwe fun 4, ṣugbọn COUNTA fun 5. Nitorina ọkan cell wà ọrọ."
+   ],
+   "card": {
+    "title": "Apapọ Chioma ti o kere ju",
+    "rows": [
+     [
+      "SUM dì rẹ sọ",
+      "61,000"
+     ],
+     [
+      "Ẹrọ iṣiro rẹ sọ",
+      "66,000"
+     ]
+    ],
+    "note": "COUNT kere ju COUNTA tumọ si awọn iye ọrọ."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Cell B4 sọ N5,000, joko ni apa osi. O tun ṣe atunṣe bi 5000. Laisi ayẹwo yẹn, Ọjọ Jimọ yoo kuru nipasẹ 5000 naira."
+   ],
+   "card": {
+    "title": "Apapọ Chioma ti o kere ju",
+    "rows": [
+     [
+      "SUM dì rẹ sọ",
+      "61,000"
+     ],
+     [
+      "Ẹrọ iṣiro rẹ sọ",
+      "66,000"
+     ],
+     [
+      "Sonu: B4 ti a tẹ bi N5,000",
+      "5,000"
+     ]
+    ],
+    "note": "COUNT kere ju COUNTA tumọ si awọn iye ọrọ."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Lati ranti. Awọn ami dola tilekun sẹẹli kan ti a pin. Ti o ba ṣe ipinnu: idanwo, iye ti o ba jẹ otitọ, iye ti o ba jẹ eke.",
+    "Dọgbadọgba ṣe afikun sinu ati yọkuro ni ila-ila. Owo osi ko sibẹsibẹ èrè. Ati pe ti COUNT ba kere ju COUNTA, ṣọdẹ fun awọn iye ti a tẹ bi ọrọ."
+   ],
+   "panel": {
+    "kicker": "Awọn ojuami pataki",
+    "heading": "Ranti",
+    "items": [
+     "$H$1 tipa sẹẹli kan ti o pin nigba ti o ba daakọ",
+     "IF: idanwo, iye ti o ba jẹ otitọ, iye ti o ba jẹ eke",
+     "Iwontunws.funfun: kana loke, plus in, iyokuro jade",
+     "Owo osi ko sibẹsibẹ èrè",
+     "Ti COUNT ba kere ju COUNTA, wa ọrọ naa"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Bayi akoko rẹ. Lo oṣuwọn kan kọja ọpọlọpọ awọn ori ila, kọ olutọpa tirẹ pẹlu o kere ju awọn iṣowo 8, lẹhinna ṣe isode aṣiṣe.",
+    "Ṣafikun sẹẹli ayẹwo ti o sọ Iwontunwọnsi nigbati apapọ rẹ gba. Tẹsiwaju pẹlu awọn ẹkọ ni isalẹ."
+   ],
+   "panel": {
+    "kicker": "Ṣiṣe adaṣe",
+    "heading": "Awọn iṣẹ ṣiṣe adaṣe rẹ",
+    "items": [
+     "Oṣuwọn kan, awọn ori ila pupọ",
+     "Kọ olutọpa rẹ pẹlu awọn iṣowo 8",
+     "Sode aṣiṣe ati sẹẹli ṣayẹwo"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

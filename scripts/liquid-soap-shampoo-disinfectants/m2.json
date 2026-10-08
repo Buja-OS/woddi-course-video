@@ -1,0 +1,187 @@
+{
+  "course": "liquid-soap-shampoo-disinfectants",
+  "module": "m2",
+  "title": "Hand Wash and Dish Wash by Percentage Formula",
+  "shots": [
+    {
+      "demo": "title_liquid",
+      "say": [
+        "Liquid Hand Wash and Dish Wash by Percentage Formula. This is module 2 of the course.",
+        "Today you'll mix a mild hand wash in the bucket, thicken it without spoiling it, and choose a dish liquid by real plate counts."
+      ]
+    },
+    {
+      "demo": "scale_weigh",
+      "label": "Weighing by percentage",
+      "card": {
+        "title": "Hand wash starting formula",
+        "rows": [
+          ["Water", "78.7%"],
+          ["SLES, 70% active", "12.0%"],
+          ["CAPB, 30% active", "5.0%"],
+          ["Glycerin", "2.0%"],
+          ["Salt (sodium chloride)", "1.0%, set by testing"],
+          ["Preservative", "0.8%"]
+        ],
+        "note": "Plus EDTA 0.1%, fragrance 0.4%, citric acid as needed"
+      },
+      "say": [
+        "Everything you see going onto this scale is weighed as a percentage of the batch.",
+        "That way the same sheet works for a 2 kg test or a 200 kg batch. You just multiply.",
+        "This is a starting formula for test batches. Active matter comes to 9.9%, a moderate level for hands."
+      ]
+    },
+    {
+      "demo": "costing_desk",
+      "card": {
+        "title": "Chiamaka's 10 kg batch",
+        "rows": [
+          ["SLES 12%", "1,200 g"],
+          ["CAPB 5%", "500 g"],
+          ["Glycerin 2%", "200 g"],
+          ["Salt 1%", "100 g"],
+          ["Water 78.7%", "7,870 g"],
+          ["Check total", "10,000 g"]
+        ],
+        "note": "EDTA 10 g, preservative 80 g, fragrance 40 g"
+      },
+      "say": [
+        "Chiamaka in Enugu wanted 10 kg, about 20 bottles of 500 ml. She multiplied each percentage by 10,000 g and divided by 100.",
+        "Then she added every line to check it came to exactly 10,000 g, and ticked each weight as it went in."
+      ]
+    },
+    {
+      "demo": "ppe_set",
+      "label": "Gloves and goggles",
+      "say": [
+        "Gloves and goggles on before you open the SLES paste or fragrance oil. Both can irritate skin and eyes."
+      ]
+    },
+    {
+      "demo": "bucket_mix",
+      "step": 1,
+      "label": "Water, EDTA, then SLES paste",
+      "say": [
+        "Here's the clean drum. Weigh in the water, keep back about 10% for later, and stir in the EDTA until it dissolves.",
+        "Now the SLES paste goes in, in pieces, while the paddle moves slowly. Stir gently so you don't whip in air.",
+        "When it's smooth with no lumps, add the CAPB and glycerin and stir until even."
+      ]
+    },
+    {
+      "demo": "additives_tray",
+      "step": 2,
+      "label": "Fragrance premixed with CAPB",
+      "say": [
+        "Watch the dropper. Premix the fragrance with a little CAPB first, so the hand wash doesn't turn cloudy.",
+        "Then add the preservative and any colour."
+      ]
+    },
+    {
+      "demo": "ph_test",
+      "step": 3,
+      "label": "pH check after 15 minutes",
+      "say": [
+        "Let it rest for 15 minutes, then dip a strip. You're aiming for about 5.5 to 6.5.",
+        "If it's high, bring it down with citric acid solution, sample first, exactly as you learned in module 1."
+      ]
+    },
+    {
+      "demo": "scale_weigh",
+      "label": "Four 200 g samples",
+      "card": {
+        "title": "Ruth's salt step test",
+        "rows": [
+          ["0.5% salt (1 g)", "4 seconds"],
+          ["1.0% salt (2 g)", "9 seconds"],
+          ["1.5% salt (3 g)", "21 seconds"],
+          ["2.0% salt (4 g)", "14 seconds"],
+          ["For 20 kg at 1.5%", "300 g salt"]
+        ],
+        "note": "Flow time from a syringe, 50 ml to 10 ml mark"
+      },
+      "say": [
+        "Salt thickens up to a peak, then the liquid goes thin again, and you can't take salt out.",
+        "So Ruth in Jos weighed four 200 g samples and salted each one differently.",
+        "Thickness rose to 1.5% and fell at 2.0%. Her peak was around 1.5%, which fit her 15 to 25 second specification."
+      ]
+    },
+    {
+      "demo": "thicken",
+      "step": 4,
+      "label": "Salt added as brine",
+      "banner": "Add salt last, after pH, in portions",
+      "say": [
+        "Now watch it thicken. Ruth dissolved her 300 g of salt in 1,200 g of kept-back water to make a 20% brine.",
+        "She poured it in three portions, stirring and testing after each. The batch reached about 20 seconds without passing the peak."
+      ]
+    },
+    {
+      "demo": "bottle_fill",
+      "step": 5,
+      "label": "Rested overnight, then filled",
+      "say": [
+        "Rest the batch covered overnight so bubbles rise. Then check it against your specification and your standard sample, and fill.",
+        "A batch that fails is held back and corrected, never sold because it's almost fine."
+      ]
+    },
+    {
+      "demo": "costing_desk",
+      "card": {
+        "title": "Zainab's plate test, 5 ml dose",
+        "rows": [
+          ["Formula A, 15.2% active", "18 plates"],
+          ["Formula B, 11.0% active", "12 plates"],
+          ["Market brand", "15 plates"],
+          ["A: ₦7.00 per dose", "about ₦0.39 a plate"],
+          ["B: ₦5.25 per dose", "about ₦0.44 a plate"]
+        ],
+        "note": "Her own approximate costs: A ₦1,400/kg, B ₦1,050/kg"
+      },
+      "say": [
+        "Dish liquid has a harder job. In her notebook, Zainab in Kano tested two formulas the same way: 2 g of oil on each plate, 5 litres of warm water, a 5 ml dose.",
+        "She washed until the foam disappeared and counted plates. Formula A cost more per litre but less per plate, and beat the market brand. She chose A."
+      ]
+    },
+    {
+      "demo": "ph_test",
+      "label": "Dish wash pH about 6 to 8",
+      "say": [
+        "Test the dish liquid too. Keep it around 6 to 8, gentle on hands that soak for a long time.",
+        "Never add caustic soda or soda ash for extra power. It irritates skin and can dull aluminium pots."
+      ]
+    },
+    {
+      "demo": "market_stall",
+      "label": "Proper detergent bottles",
+      "banner": "Never pack dish liquid in drink bottles",
+      "say": [
+        "Look at these bottles on the stall: proper detergent bottles with a label.",
+        "Never use old soft-drink or water bottles. Someone may drink from it. Print \"Keep out of reach of children\" and the first aid line."
+      ]
+    },
+    {
+      "demo": "additives_tray",
+      "label": "1% dye stock solution",
+      "card": {
+        "title": "Colour by numbers",
+        "rows": [
+          ["1% stock", "1 g dye in 99 g water"],
+          ["Target in 20 kg", "0.002% dye"],
+          ["Dye needed", "0.4 g"],
+          ["Stock to weigh", "40 g"]
+        ],
+        "note": "From the course example"
+      },
+      "say": [
+        "Cosmetic dyes are very strong, so make a 1% stock solution and dose that instead.",
+        "When something goes wrong, change only one thing per test sample and write it down."
+      ]
+    },
+    {
+      "demo": "outro_bottles",
+      "say": [
+        "Now go through the lessons below. Make your 2 kg test batch, run your own plate test, and draw your salt curve. Your numbers will tell you what works."
+      ]
+    }
+  ]
+}

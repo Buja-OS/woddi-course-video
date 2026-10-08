@@ -1,0 +1,722 @@
+{
+ "course": "bulk-production-planning",
+ "module": "m2",
+ "title": "Planification, contrôles de qualité et plan financier",
+ "course_title": "Planification de la production en vrac",
+ "shots": [
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Planification, contrôles de qualité et plan financier.",
+    "Ceci est la vidéo du module 2 de Planification de la production en vrac."
+   ]
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "La plupart des retards de livraison sont décidés le premier jour, lorsque le producteur commence trop tard."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "En retard, défectueux ou hors de prix : planifiez-le",
+    "items": [
+     "La plupart des livraisons en retard commencent le premier jour",
+     "Un défaut peut se cacher en milliers d'unités",
+     "Une grosse commande peut vous rendre plus pauvre",
+     "Trois plans : dates, qualité, cash"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Sur une série de 5 000 exemplaires, un problème détecté à la fin peut déjà se trouver dans des milliers d'unités."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "En retard, défectueux ou hors de prix : planifiez-le",
+    "items": [
+     "La plupart des livraisons en retard commencent le premier jour",
+     "Un défaut peut se cacher en milliers d'unités",
+     "Une grosse commande peut vous rendre plus pauvre",
+     "Trois plans : dates, qualité, cash"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Et une commande importante peut rendre une entreprise plus pauvre si son prix est basé sur des coûts de petits lots."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "En retard, défectueux ou hors de prix : planifiez-le",
+    "items": [
+     "La plupart des livraisons en retard commencent le premier jour",
+     "Un défaut peut se cacher en milliers d'unités",
+     "Une grosse commande peut vous rendre plus pauvre",
+     "Trois plans : dates, qualité, cash"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Vous construirez donc trois plans : un planning à rebours, des portes de qualité et un plan de trésorerie."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "En retard, défectueux ou hors de prix : planifiez-le",
+    "items": [
+     "La plupart des livraisons en retard commencent le premier jour",
+     "Un défaut peut se cacher en milliers d'unités",
+     "Une grosse commande peut vous rendre plus pauvre",
+     "Trois plans : dates, qualité, cash"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "La planification en amont commence à partir de la date de livraison et soustrait chaque étape. Par exemple, Kemi doit livrer 5 000 paquets de chips de plantain le jeudi 10 décembre."
+   ],
+   "panel": {
+    "kicker": "Planification en amont",
+    "heading": "Compte à rebours à partir de la date de livraison",
+    "items": [
+     "Livraison : jeudi 10 décembre",
+     "Contrôle final et chargement : 9 décembre",
+     "Tampon : 7 et 8 décembre",
+     "Production : 11 jours à partir du 24 novembre",
+     "Publication du premier article : 23 novembre",
+     "Commandez des pochettes avant le 10 novembre"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "La veille, elle compte les cartons, effectue le contrôle qualité final et prépare les documents."
+   ],
+   "panel": {
+    "kicker": "Planification en amont",
+    "heading": "Compte à rebours à partir de la date de livraison",
+    "items": [
+     "Livraison : jeudi 10 décembre",
+     "Contrôle final et chargement : 9 décembre",
+     "Tampon : 7 et 8 décembre",
+     "Production : 11 jours à partir du 24 novembre",
+     "Publication du premier article : 23 novembre",
+     "Commandez des pochettes avant le 10 novembre"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Avant cela, 2 jours tampons, laissés vides en cas de coupure de courant, maladie ou mauvais lot."
+   ],
+   "panel": {
+    "kicker": "Planification en amont",
+    "heading": "Compte à rebours à partir de la date de livraison",
+    "items": [
+     "Livraison : jeudi 10 décembre",
+     "Contrôle final et chargement : 9 décembre",
+     "Tampon : 7 et 8 décembre",
+     "Production : 11 jours à partir du 24 novembre",
+     "Publication du premier article : 23 novembre",
+     "Commandez des pochettes avant le 10 novembre"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "La production dure 11 jours ouvrables à son rythme éprouvé, elle commence donc le mardi 24 novembre."
+   ],
+   "panel": {
+    "kicker": "Planification en amont",
+    "heading": "Compte à rebours à partir de la date de livraison",
+    "items": [
+     "Livraison : jeudi 10 décembre",
+     "Contrôle final et chargement : 9 décembre",
+     "Tampon : 7 et 8 décembre",
+     "Production : 11 jours à partir du 24 novembre",
+     "Publication du premier article : 23 novembre",
+     "Commandez des pochettes avant le 10 novembre"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "La veille, une courte exécution du premier article vérifie que la ligne correspond à l'échantillon doré."
+   ],
+   "panel": {
+    "kicker": "Planification en amont",
+    "heading": "Compte à rebours à partir de la date de livraison",
+    "items": [
+     "Livraison : jeudi 10 décembre",
+     "Contrôle final et chargement : 9 décembre",
+     "Tampon : 7 et 8 décembre",
+     "Production : 11 jours à partir du 24 novembre",
+     "Publication du premier article : 23 novembre",
+     "Commandez des pochettes avant le 10 novembre"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Les pochettes imprimées prennent 10 jours ouvrés, elles doivent donc être commandées avant le mardi 10 novembre, soit un mois complet avant la livraison.",
+    "Comptez uniquement les jours ouvrables. Un plan qui compte tranquillement les dimanches est en retard avant de démarrer."
+   ],
+   "panel": {
+    "kicker": "Planification en amont",
+    "heading": "Compte à rebours à partir de la date de livraison",
+    "items": [
+     "Livraison : jeudi 10 décembre",
+     "Contrôle final et chargement : 9 décembre",
+     "Tampon : 7 et 8 décembre",
+     "Production : 11 jours à partir du 24 novembre",
+     "Publication du premier article : 23 novembre",
+     "Commandez des pochettes avant le 10 novembre"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "rule": "Comptez les jours ouvrables, pas les jours calendaires.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Mettez 25, 50, 75 et 100 % sur une feuille murale et remplissez de vrais bons packs chaque soir. La colonne d'écart est le nombre le plus important."
+   ],
+   "panel": {
+    "kicker": "Suivi quotidien",
+    "heading": "Surveillez l'écart tous les soirs",
+    "items": [
+     "Colonnes de plan, de réel et d'écart",
+     "Écart inférieur à 5 % : récupération en heures normales",
+     "Écart 5 à 10% : prolongations au goulot d'étranglement",
+     "Plus de 10 % ou tampon utilisé à moitié : appeler l'acheteur"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Après trois jours, Kemi a 70 paquets de retard, soit environ 5 % du plan. C'est facile à récupérer maintenant."
+   ],
+   "panel": {
+    "kicker": "Suivi quotidien",
+    "heading": "Surveillez l'écart tous les soirs",
+    "items": [
+     "Colonnes de plan, de réel et d'écart",
+     "Écart inférieur à 5 % : récupération en heures normales",
+     "Écart 5 à 10% : prolongations au goulot d'étranglement",
+     "Plus de 10 % ou tampon utilisé à moitié : appeler l'acheteur"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Un écart plus important nécessite du temps supplémentaire planifié uniquement au niveau du goulot d'étranglement, pendant les heures de travail sûres."
+   ],
+   "panel": {
+    "kicker": "Suivi quotidien",
+    "heading": "Surveillez l'écart tous les soirs",
+    "items": [
+     "Colonnes de plan, de réel et d'écart",
+     "Écart inférieur à 5 % : récupération en heures normales",
+     "Écart 5 à 10% : prolongations au goulot d'étranglement",
+     "Plus de 10 % ou tampon utilisé à moitié : appeler l'acheteur"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Si l'écart dépasse 10 % ou si la moitié du tampon est utilisée, appelez l'acheteur le jour même avec les faits et un plan révisé.",
+    "Les jours tampons sont la protection de l'acheteur. Ne prévoyez pas de les utiliser."
+   ],
+   "panel": {
+    "kicker": "Suivi quotidien",
+    "heading": "Surveillez l'écart tous les soirs",
+    "items": [
+     "Colonnes de plan, de réel et d'écart",
+     "Écart inférieur à 5 % : récupération en heures normales",
+     "Écart 5 à 10% : prolongations au goulot d'étranglement",
+     "Plus de 10 % ou tampon utilisé à moitié : appeler l'acheteur"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Les barrières de qualité sont des points de contrôle planifiés, chacun avec une mesure claire et une règle en cas d'échec. La porte 1 vérifie chaque livraison par rapport aux spécifications."
+   ],
+   "panel": {
+    "kicker": "Portails de qualité",
+    "heading": "Cinq portes à travers la course",
+    "items": [
+     "Matériel reçu",
+     "Premier article chaque jour",
+     "Contrôles à intervalles : 5 paquets tous les 100",
+     "Décompte de fin de journée",
+     "Contrôle avant expédition ; l'hygiène n'a jamais été oubliée"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "La porte 2 compare les premières unités de chaque jour avec l'échantillon doré, avant le plein régime."
+   ],
+   "panel": {
+    "kicker": "Portails de qualité",
+    "heading": "Cinq portes à travers la course",
+    "items": [
+     "Matériel reçu",
+     "Premier article chaque jour",
+     "Contrôles à intervalles : 5 paquets tous les 100",
+     "Décompte de fin de journée",
+     "Contrôle avant expédition ; l'hygiène n'a jamais été oubliée"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "La porte 3 vérifie un petit échantillon à intervalle fixe, par exemple 5 paquets tous les 100 paquets, pour vérifier le poids, l'étanchéité, la couleur et le goût."
+   ],
+   "panel": {
+    "kicker": "Portails de qualité",
+    "heading": "Cinq portes à travers la course",
+    "items": [
+     "Matériel reçu",
+     "Premier article chaque jour",
+     "Contrôles à intervalles : 5 paquets tous les 100",
+     "Décompte de fin de journée",
+     "Contrôle avant expédition ; l'hygiène n'a jamais été oubliée"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "La porte 4 compte les bonnes unités et les rejette à la fin de la journée."
+   ],
+   "panel": {
+    "kicker": "Portails de qualité",
+    "heading": "Cinq portes à travers la course",
+    "items": [
+     "Matériel reçu",
+     "Premier article chaque jour",
+     "Contrôles à intervalles : 5 paquets tous les 100",
+     "Décompte de fin de journée",
+     "Contrôle avant expédition ; l'hygiène n'a jamais été oubliée"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "La porte 5 prélève un échantillon dans différents cartons avant le chargement.",
+    "Et l'hygiène ne ralentit jamais pour les délais. Le lavage des mains, les couvre-cheveux et les surfaces propres ne sont jamais ignorés, et toute personne souffrant de diarrhée ou de vomissements reste à l'écart de la manipulation des aliments."
+   ],
+   "panel": {
+    "kicker": "Portails de qualité",
+    "heading": "Cinq portes à travers la course",
+    "items": [
+     "Matériel reçu",
+     "Premier article chaque jour",
+     "Contrôles à intervalles : 5 paquets tous les 100",
+     "Décompte de fin de journée",
+     "Contrôle avant expédition ; l'hygiène n'a jamais été oubliée"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Kemi remplit jusqu'à 103 g, donc la variation normale reste supérieure aux 100 g indiqués sur l'étiquette. Le jour 4, le contrôle 4 révèle que 2 des 5 paquets ont un poids insuffisant."
+   ],
+   "panel": {
+    "kicker": "La règle d'arrêt",
+    "heading": "Jour 4 : un scoop qui a moins tenu",
+    "items": [
+     "Contrôle 4 : 2 des 5 paquets ont un poids insuffisant",
+     "Arrêtez de remplir et de sceller",
+     "Cause : nouvelle cuillère, remplit environ 99 g",
+     "Re-peser les 100 derniers paquets",
+     "Remplissez le 11 sous 100 g et enregistrez-le"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Sa règle d'arrêt dit : si 2 ou plus des 5 packs échantillonnés échouent, arrêtez cette station."
+   ],
+   "panel": {
+    "kicker": "La règle d'arrêt",
+    "heading": "Jour 4 : un scoop qui a moins tenu",
+    "items": [
+     "Contrôle 4 : 2 des 5 paquets ont un poids insuffisant",
+     "Arrêtez de remplir et de sceller",
+     "Cause : nouvelle cuillère, remplit environ 99 g",
+     "Re-peser les 100 derniers paquets",
+     "Remplissez le 11 sous 100 g et enregistrez-le"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "rule": "2 échecs ou plus en 5 packs : arrêtez, recherchez la cause, puis redémarrez.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "La cause : la peseuse a changé de cuillère après le déjeuner, et la nouvelle cuillère contient moins."
+   ],
+   "panel": {
+    "kicker": "La règle d'arrêt",
+    "heading": "Jour 4 : un scoop qui a moins tenu",
+    "items": [
+     "Contrôle 4 : 2 des 5 paquets ont un poids insuffisant",
+     "Arrêtez de remplir et de sceller",
+     "Cause : nouvelle cuillère, remplit environ 99 g",
+     "Re-peser les 100 derniers paquets",
+     "Remplissez le 11 sous 100 g et enregistrez-le"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "2 échecs ou plus en 5 packs : arrêtez, recherchez la cause, puis redémarrez.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Elle retourne à la cuillère marquée, repese les 100 derniers paquets et remplit les 11 de moins de 100 g. Le problème est resté dans 100 paquets, pas dans des milliers."
+   ],
+   "panel": {
+    "kicker": "La règle d'arrêt",
+    "heading": "Jour 4 : un scoop qui a moins tenu",
+    "items": [
+     "Contrôle 4 : 2 des 5 paquets ont un poids insuffisant",
+     "Arrêtez de remplir et de sceller",
+     "Cause : nouvelle cuillère, remplit environ 99 g",
+     "Re-peser les 100 derniers paquets",
+     "Remplissez le 11 sous 100 g et enregistrez-le"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "2 échecs ou plus en 5 packs : arrêtez, recherchez la cause, puis redémarrez.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Maintenant l'argent. Calculez le prix à partir des quantités que vous achèterez réellement, après avoir arrondi."
+   ],
+   "card": {
+    "title": "Coûter toute la course",
+    "rows": [],
+    "note": "Les prix en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Les matériaux de Kemi s'élèvent à environ 2 561 300 naira. La main d'œuvre, y compris 2 jours de formation pour les intérimaires, s'élève à 328 000. Le gaz est de 275 000."
+   ],
+   "card": {
+    "title": "Coûter toute la course",
+    "rows": [
+     [
+      "Matériaux, tels qu'ils ont été réellement achetés",
+      "2,561,300"
+     ],
+     [
+      "Main-d'œuvre, y compris les jours de formation",
+      "328,000"
+     ],
+     [
+      "Gaz pendant 11 jours de production",
+      "275,000"
+     ]
+    ],
+    "note": "Les prix en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "La livraison est de 60 000 et l'essai de 20 000."
+   ],
+   "card": {
+    "title": "Coûter toute la course",
+    "rows": [
+     [
+      "Matériaux, tels qu'ils ont été réellement achetés",
+      "2,561,300"
+     ],
+     [
+      "Main-d'œuvre, y compris les jours de formation",
+      "328,000"
+     ],
+     [
+      "Gaz pendant 11 jours de production",
+      "275,000"
+     ],
+     [
+      "Livraison",
+      "60,000"
+     ],
+     [
+      "Essai du premier article",
+      "20,000"
+     ]
+    ],
+    "note": "Les prix en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Le coût direct est de 3 244 300 naira. Elle ajoute une réserve de 5 %, de sorte que le coût total est d'environ 681 naira par paquet.",
+    "Au prix de gros de 950 nairas, le bénéfice représente environ 28 % des revenus. Un prix de 700 n'aurait presque rien laissé."
+   ],
+   "card": {
+    "title": "Coûter toute la course",
+    "rows": [
+     [
+      "Matériaux, tels qu'ils ont été réellement achetés",
+      "2,561,300"
+     ],
+     [
+      "Main-d'œuvre, y compris les jours de formation",
+      "328,000"
+     ],
+     [
+      "Gaz pendant 11 jours de production",
+      "275,000"
+     ],
+     [
+      "Livraison",
+      "60,000"
+     ],
+     [
+      "Essai du premier article",
+      "20,000"
+     ]
+    ],
+    "note": "Les prix en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Kemi paie les sachets, les plantains et les salaires pendant des semaines avant que le solde n'arrive. Énumérez chaque paiement par date. Le solde courant le plus bas est votre déficit de trésorerie."
+   ],
+   "panel": {
+    "kicker": "Le déficit de trésorerie",
+    "heading": "Le profit n'est pas de l'argent",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Trouver le point le plus bas",
+      "d": "Répertoriez chaque paiement entrant et sortant par date. Avec un dépôt de 40 %, le solde le plus bas de Kemi est d'environ moins 1 344 300 naira."
+     },
+     {
+      "t": "Combler l'écart",
+      "d": "Un dépôt de 50 % réduit l'écart de 475 000 naira. Le paiement échelonné est une autre option."
+     },
+     {
+      "t": "Vérifiez l'argent",
+      "d": "Un dépôt ne compte que lorsqu'il apparaît sur votre compte. Pas une capture d'écran ou une alerte SMS."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Demandez un acompte plus important, ou un paiement échelonné, par exemple 40 % à la commande, 30 % lorsque l'acheteur approuve les packs du premier article et 30 % à la livraison."
+   ],
+   "panel": {
+    "kicker": "Le déficit de trésorerie",
+    "heading": "Le profit n'est pas de l'argent",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Trouver le point le plus bas",
+      "d": "Répertoriez chaque paiement entrant et sortant par date. Avec un dépôt de 40 %, le solde le plus bas de Kemi est d'environ moins 1 344 300 naira."
+     },
+     {
+      "t": "Combler l'écart",
+      "d": "Un dépôt de 50 % réduit l'écart de 475 000 naira. Le paiement échelonné est une autre option."
+     },
+     {
+      "t": "Vérifiez l'argent",
+      "d": "Un dépôt ne compte que lorsqu'il apparaît sur votre compte. Pas une capture d'écran ou une alerte SMS."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Et ne commandez jamais de pochettes imprimées sur promesse. Les fausses captures d’écran de transfert sont courantes."
+   ],
+   "panel": {
+    "kicker": "Le déficit de trésorerie",
+    "heading": "Le profit n'est pas de l'argent",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Trouver le point le plus bas",
+      "d": "Répertoriez chaque paiement entrant et sortant par date. Avec un dépôt de 40 %, le solde le plus bas de Kemi est d'environ moins 1 344 300 naira."
+     },
+     {
+      "t": "Combler l'écart",
+      "d": "Un dépôt de 50 % réduit l'écart de 475 000 naira. Le paiement échelonné est une autre option."
+     },
+     {
+      "t": "Vérifiez l'argent",
+      "d": "Un dépôt ne compte que lorsqu'il apparaît sur votre compte. Pas une capture d'écran ou une alerte SMS."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "N'acceptez que si le calendrier correspond au tampon, que le prix dépasse votre marge et que vous pouvez combler le déficit de trésorerie. Si l’une d’entre elles échoue, négociez avant de dire oui."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Dites oui seulement quand les trois fonctionnent",
+    "items": [
+     "L'horaire s'adapte, avec tampon",
+     "Le prix laisse votre marge après contingence",
+     "Vous pouvez combler le déficit de trésorerie",
+     "Agir tôt sur les petites lacunes",
+     "Tenir un journal de qualité comme preuve"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "À votre tour. Établissez un calendrier en amont, concevez vos critères de qualité, puis évaluez votre commande et déterminez votre déficit de trésorerie.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâches d'entraînement",
+    "heading": "Vos tâches pratiques",
+    "items": [
+     "Construisez votre emploi du temps en arrière",
+     "Concevez votre plan de contrôle qualité",
+     "Évaluez votre commande et trouvez votre déficit de trésorerie"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

@@ -1,0 +1,587 @@
+{
+ "course": "supply-chain-raw-materials-sourcing",
+ "module": "m1",
+ "title": "Wo pq ipese rẹ: atokọ, itọpa, ipo ati pato",
+ "course_title": "Pq Ipese & Awọn Ohun elo Aise",
+ "shots": [
+  {
+   "demo": "globe_export",
+   "say": [
+    "Wo pq ipese rẹ: atokọ, itọpa, ipo ati pato.",
+    "Eyi ni fidio fun module ọkan ti Ẹwọn Ipese ati Awọn ohun elo Aise."
+   ]
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Ẹwọn ipese jẹ gbogbo igbesẹ ti ohun elo kan kọja ṣaaju ki o to di ọja rẹ: oko tabi ile-iṣẹ, alataja, oniṣowo, gbigbe, ati ile itaja rẹ.",
+    "Ni kete ti awọn alabara gbarale ọ, ohun elo ti o padanu di adehun ti o bajẹ."
+   ],
+   "panel": {
+    "kicker": "Kini idi ti eyi ṣe pataki",
+    "heading": "Ohun elo ti o padanu jẹ ileri ti o bajẹ",
+    "items": [
+     "Mọ gbogbo ohun elo ninu ọja rẹ",
+     "Wa kakiri ibi ti ọkọọkan wa lati",
+     "Awọn ohun elo ipo nipasẹ iye ati ewu",
+     "Kọ pato ohun ti o gba"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Nitorinaa akọkọ, o wa ibi ti ohun elo kọọkan ti wa gaan."
+   ],
+   "panel": {
+    "kicker": "Kini idi ti eyi ṣe pataki",
+    "heading": "Ohun elo ti o padanu jẹ ileri ti o bajẹ",
+    "items": [
+     "Mọ gbogbo ohun elo ninu ọja rẹ",
+     "Wa kakiri ibi ti ọkọọkan wa lati",
+     "Awọn ohun elo ipo nipasẹ iye ati ewu",
+     "Kọ pato ohun ti o gba"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "grain_sacks",
+   "say": [
+    "Lẹhinna o ṣe ipo awọn ohun elo nipasẹ iye ati eewu, ati kọ ohun ti o yoo gba pato."
+   ],
+   "panel": {
+    "kicker": "Kini idi ti eyi ṣe pataki",
+    "heading": "Ohun elo ti o padanu jẹ ileri ti o bajẹ",
+    "items": [
+     "Mọ gbogbo ohun elo ninu ọja rẹ",
+     "Wa kakiri ibi ti ọkọọkan wa lati",
+     "Awọn ohun elo ipo nipasẹ iye ati ewu",
+     "Kọ pato ohun ti o gba"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "globe_export",
+   "say": [
+    "Iwe-owo ohun elo, tabi BOM, ṣe atokọ gbogbo igbewọle fun ipele kan, pẹlu opoiye ati idiyele.",
+    "Amaka ṣe zobo ni awọn ipele ti awọn igo 100. Awọn idiyele rẹ jẹ apejuwe ati isunmọ."
+   ],
+   "card": {
+    "title": "Iwe-owo ohun elo fun zobo",
+    "rows": [],
+    "note": "Awọn idiyele Naira jẹ apejuwe ati isunmọ."
+   }
+  },
+  {
+   "demo": "globe_export",
+   "say": [
+    "Hibiscus gbígbẹ ń ná nǹkan bii 4,500 naira, suga 7,200, ati ginger titun 1,000."
+   ],
+   "card": {
+    "title": "Iwe-owo ohun elo fun zobo",
+    "rows": [
+     [
+      "Hibiscus, 1,5 kg",
+      "4,500"
+     ],
+     [
+      "gaari, 4 kg",
+      "7,200"
+     ],
+     [
+      "Atalẹ, 0,5 kg",
+      "1,000"
+     ]
+    ],
+    "note": "Awọn idiyele Naira jẹ apejuwe ati isunmọ."
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "100 igo pẹlu fila owo to 6,000 naira, ati 100 aami 2,500."
+   ],
+   "card": {
+    "title": "Iwe-owo ohun elo fun zobo",
+    "rows": [
+     [
+      "Hibiscus, 1,5 kg",
+      "4,500"
+     ],
+     [
+      "gaari, 4 kg",
+      "7,200"
+     ],
+     [
+      "Atalẹ, 0,5 kg",
+      "1,000"
+     ],
+     [
+      "100 igo pẹlu awọn fila",
+      "6,000"
+     ],
+     [
+      "100 tejede aami",
+      "2,500"
+     ]
+    ],
+    "note": "Awọn idiyele Naira jẹ apejuwe ati isunmọ."
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Iyen jẹ 21,200 naira fun ipele kan, tabi 212 naira fun igo kan.",
+    "Suga ati awọn igo papọ jẹ nipa 62% ti idiyele ohun elo rẹ, nitorinaa iṣoro pẹlu boya ọkan kọlu rẹ ni lile ju iṣoro pẹlu Atalẹ."
+   ],
+   "card": {
+    "title": "Iwe-owo ohun elo fun zobo",
+    "rows": [
+     [
+      "Hibiscus, 1,5 kg",
+      "4,500"
+     ],
+     [
+      "gaari, 4 kg",
+      "7,200"
+     ],
+     [
+      "Atalẹ, 0,5 kg",
+      "1,000"
+     ],
+     [
+      "100 igo pẹlu awọn fila",
+      "6,000"
+     ],
+     [
+      "100 tejede aami",
+      "2,500"
+     ]
+    ],
+    "note": "Awọn idiyele Naira jẹ apejuwe ati isunmọ."
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Olupese ipele 1 rẹ jẹ eniyan ti o sanwo taara."
+   ],
+   "panel": {
+    "kicker": "Igbese meji",
+    "heading": "Wa ohun elo kọọkan nipasẹ awọn ipele rẹ",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Ipele 1",
+      "d": "Eniyan ti o sanwo taara, fun apẹẹrẹ oniṣowo ni ọja akọkọ."
+     },
+     {
+      "t": "Ipele 2",
+      "d": "Tani o pese oluṣowo rẹ, fun apẹẹrẹ alataja tabi olupin ile-iṣẹ."
+     },
+     {
+      "t": "Ipele 3",
+      "d": "Oko, isise tabi awọn ajeji olupese."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Ipele 2 ni ẹniti o pese oniṣowo yẹn, gẹgẹbi alatapọ."
+   ],
+   "panel": {
+    "kicker": "Igbese meji",
+    "heading": "Wa ohun elo kọọkan nipasẹ awọn ipele rẹ",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Ipele 1",
+      "d": "Eniyan ti o sanwo taara, fun apẹẹrẹ oniṣowo ni ọja akọkọ."
+     },
+     {
+      "t": "Ipele 2",
+      "d": "Tani o pese oluṣowo rẹ, fun apẹẹrẹ alataja tabi olupin ile-iṣẹ."
+     },
+     {
+      "t": "Ipele 3",
+      "d": "Oko, isise tabi awọn ajeji olupese."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Ipele 3 le jẹ oko tabi ile-iṣẹ. O ṣọwọn ṣakoso wọn, ṣugbọn iṣoro kan nibẹ de ọdọ rẹ awọn ọjọ tabi awọn ọsẹ nigbamii.",
+    "Nitorina beere lọwọ oniṣowo rẹ nibo ni o ti wa. Amaka kọ ẹkọ awọn igo rẹ wa lati ọdọ olupin kan ti ile-iṣẹ kan ṣoṣo."
+   ],
+   "panel": {
+    "kicker": "Igbese meji",
+    "heading": "Wa ohun elo kọọkan nipasẹ awọn ipele rẹ",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Ipele 1",
+      "d": "Eniyan ti o sanwo taara, fun apẹẹrẹ oniṣowo ni ọja akọkọ."
+     },
+     {
+      "t": "Ipele 2",
+      "d": "Tani o pese oluṣowo rẹ, fun apẹẹrẹ alataja tabi olupin ile-iṣẹ."
+     },
+     {
+      "t": "Ipele 3",
+      "d": "Oko, isise tabi awọn ajeji olupese."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Ohun elo kan ṣe pataki ti o ko ba le gbejade laisi rẹ ati pe ko le yara paarọ rẹ. Beere awọn ibeere mẹta. Ṣe Mo le ṣe ọja laisi rẹ?"
+   ],
+   "panel": {
+    "kicker": "Igbesẹ mẹta",
+    "heading": "Ṣe ohun elo yii ṣe pataki bi?",
+    "items": [
+     "Ṣe Mo le ṣe ọja laisi rẹ?",
+     "Ṣe Mo le yipada orisun laarin ọsẹ kan?",
+     "Ṣe awọn alabara ṣe akiyesi iyipada kan?",
+     "Circle eyikeyi ẹka pẹlu olupese kan nikan"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Ṣe Mo le yipada si orisun miiran laarin ọsẹ kan? Amaka ko le: awọn akole ati awọn fila rẹ baamu igo rẹ nikan."
+   ],
+   "panel": {
+    "kicker": "Igbesẹ mẹta",
+    "heading": "Ṣe ohun elo yii ṣe pataki bi?",
+    "items": [
+     "Ṣe Mo le ṣe ọja laisi rẹ?",
+     "Ṣe Mo le yipada orisun laarin ọsẹ kan?",
+     "Ṣe awọn alabara ṣe akiyesi iyipada kan?",
+     "Circle eyikeyi ẹka pẹlu olupese kan nikan"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Ṣe awọn alabara ṣe akiyesi iyipada kan? Ti o ba jẹ bẹẹni, aropo kan gbe ewu didara."
+   ],
+   "panel": {
+    "kicker": "Igbesẹ mẹta",
+    "heading": "Ṣe ohun elo yii ṣe pataki bi?",
+    "items": [
+     "Ṣe Mo le ṣe ọja laisi rẹ?",
+     "Ṣe Mo le yipada orisun laarin ọsẹ kan?",
+     "Ṣe awọn alabara ṣe akiyesi iyipada kan?",
+     "Circle eyikeyi ẹka pẹlu olupese kan nikan"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Olupese kan ti isansa rẹ yoo da iṣelọpọ duro jẹ aaye ikuna kan. Ti itẹwe rẹ nikan ba di apẹrẹ aami rẹ mu, atunṣe jẹ ọfẹ: tọju ẹda tirẹ ki o pin pẹlu itẹwe keji."
+   ],
+   "panel": {
+    "kicker": "Igbesẹ mẹta",
+    "heading": "Ṣe ohun elo yii ṣe pataki bi?",
+    "items": [
+     "Ṣe Mo le ṣe ọja laisi rẹ?",
+     "Ṣe Mo le yipada orisun laarin ọsẹ kan?",
+     "Ṣe awọn alabara ṣe akiyesi iyipada kan?",
+     "Circle eyikeyi ẹka pẹlu olupese kan nikan"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Awọn ohun elo ipo akọkọ nipasẹ inawo ọdun. Eyi jẹ itupalẹ ABC. Ninu idanileko aṣọ ile Bisi, awọn aṣọ meji ninu awọn ohun elo mẹjọ gbe 75% ti inawo rẹ.",
+    "Lẹhinna ṣafikun eewu ipese, ni lilo matrix Kraljic."
+   ],
+   "panel": {
+    "kicker": "Ipo nipa iye ati ewu",
+    "heading": "Awọn apoti mẹrin fun awọn ohun elo rẹ",
+    "items": [
+     "Ilana: alabaṣepọ, afẹyinti, iṣura ailewu",
+     "Leverage: afiwe awọn agbasọ, duna",
+     "Bottleneck: afikun iṣura tabi orisun keji",
+     "Ti kii ṣe pataki: tẹsiwaju ifẹ si rọrun"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Awọn ohun ilana ni inawo nla ati awọn orisun to dara diẹ, bii aṣọ ayẹwo awọ ile-iwe Bisi. Kọ ibatan ti o sunmọ, ati fọwọsi afẹyinti ṣaaju aawọ kan."
+   ],
+   "panel": {
+    "kicker": "Ipo nipa iye ati ewu",
+    "heading": "Awọn apoti mẹrin fun awọn ohun elo rẹ",
+    "items": [
+     "Ilana: alabaṣepọ, afẹyinti, iṣura ailewu",
+     "Leverage: afiwe awọn agbasọ, duna",
+     "Bottleneck: afikun iṣura tabi orisun keji",
+     "Ti kii ṣe pataki: tẹsiwaju ifẹ si rọrun"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Awọn ohun mimu ni inawo nla ṣugbọn ọpọlọpọ awọn olupese, bii seeti funfun. Afiwe avvon ati duna."
+   ],
+   "panel": {
+    "kicker": "Ipo nipa iye ati ewu",
+    "heading": "Awọn apoti mẹrin fun awọn ohun elo rẹ",
+    "items": [
+     "Ilana: alabaṣepọ, afẹyinti, iṣura ailewu",
+     "Leverage: afiwe awọn agbasọ, duna",
+     "Bottleneck: afikun iṣura tabi orisun keji",
+     "Ti kii ṣe pataki: tẹsiwaju ifẹ si rọrun"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "grain_sacks",
+   "say": [
+    "Awọn ohun igo jẹ olowo poku ṣugbọn o nira lati gba, bii awọn zips ni awọ kan ti ile-iwe beere. Ṣiṣe jade da ifijiṣẹ duro, nitorina mu ọja iṣura afikun tabi wa orisun keji."
+   ],
+   "panel": {
+    "kicker": "Ipo nipa iye ati ewu",
+    "heading": "Awọn apoti mẹrin fun awọn ohun elo rẹ",
+    "items": [
+     "Ilana: alabaṣepọ, afẹyinti, iṣura ailewu",
+     "Leverage: afiwe awọn agbasọ, duna",
+     "Bottleneck: afikun iṣura tabi orisun keji",
+     "Ti kii ṣe pataki: tẹsiwaju ifẹ si rọrun"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "grain_sacks",
+   "say": [
+    "Awọn nkan ti ko ṣe pataki, bii o tẹle ara, nilo akoko ironu diẹ bi o ti ṣee ṣe."
+   ],
+   "panel": {
+    "kicker": "Ipo nipa iye ati ewu",
+    "heading": "Awọn apoti mẹrin fun awọn ohun elo rẹ",
+    "items": [
+     "Ilana: alabaṣepọ, afẹyinti, iṣura ailewu",
+     "Leverage: afiwe awọn agbasọ, duna",
+     "Bottleneck: afikun iṣura tabi orisun keji",
+     "Ti kii ṣe pataki: tẹsiwaju ifẹ si rọrun"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "globe_export",
+   "say": [
+    "Ti o dara shea bota tumo si nkankan ti o yatọ si gbogbo onisowo. Sipesifikesonu jẹ apejuwe kikọ kukuru ti gangan ohun ti o gba.",
+    "Fun apẹẹrẹ, Funke kọwe: bota shea ti a ko mọ, fun lilo ohun ikunra."
+   ],
+   "panel": {
+    "kicker": "Awọn pato",
+    "heading": "Kọ kan pato ti o le si gangan ṣayẹwo",
+    "items": [
+     "Orukọ, oriṣi ati ite",
+     "Irisi, olfato ati rilara",
+     "Iṣakojọpọ ati isamisi",
+     "Jeki a itọkasi ayẹwo",
+     "Idanwo: wiwọn egbin"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "globe_export",
+   "say": [
+    "Ivory to bia ofeefee, dan, ko si iyanrin tabi omi silė. Ìwọ̀nba, òórùn nutty. Kọ ti o ba ti ekan tabi rancid."
+   ],
+   "panel": {
+    "kicker": "Awọn pato",
+    "heading": "Kọ kan pato ti o le si gangan ṣayẹwo",
+    "items": [
+     "Orukọ, oriṣi ati ite",
+     "Irisi, olfato ati rilara",
+     "Iṣakojọpọ ati isamisi",
+     "Jeki a itọkasi ayẹwo",
+     "Idanwo: wiwọn egbin"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Mọ, awọn buckets edidi pẹlu ọjọ iṣakojọpọ lori ideri. Ati pe o tọju idẹ 250 g kan lati ifijiṣẹ ti a fọwọsi gẹgẹbi idiwọn."
+   ],
+   "panel": {
+    "kicker": "Awọn pato",
+    "heading": "Kọ kan pato ti o le si gangan ṣayẹwo",
+    "items": [
+     "Orukọ, oriṣi ati ite",
+     "Irisi, olfato ati rilara",
+     "Iṣakojọpọ ati isamisi",
+     "Jeki a itọkasi ayẹwo",
+     "Idanwo: wiwọn egbin"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Fun olutaja tuntun, o yo ati awọn igara 1 kg. Bota tuntun naa fi 100 g ti grit silẹ, tabi 10% egbin. Awọn olupese ti a fọwọsi jẹ nipa 1%.",
+    "Lo awọn sọwedowo ti o le ṣe gaan: wo, olfato, iwuwo, iwọn, tabi ipele idanwo kekere kan."
+   ],
+   "panel": {
+    "kicker": "Awọn pato",
+    "heading": "Kọ kan pato ti o le si gangan ṣayẹwo",
+    "items": [
+     "Orukọ, oriṣi ati ite",
+     "Irisi, olfato ati rilara",
+     "Iṣakojọpọ ati isamisi",
+     "Jeki a itọkasi ayẹwo",
+     "Idanwo: wiwọn egbin"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Fọwọsi olupese titun nikan lẹhin idanwo kekere kan.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Ti o ba ra awọn kemikali gẹgẹbi omi onisuga caustic tabi acids, gba atilẹba edidi nikan, apoti ti o ni aami, pẹlu iwe data ailewu nibiti o ti ṣee ṣe.",
+    "Maṣe gba kẹmika kan ninu igo omi ti ko ni aami. Tọju awọn kemikali kuro ni ounjẹ ati ni arọwọto awọn ọmọde.",
+    "Scammers duro bi awọn olupese online. Bẹrẹ pẹlu idanwo kekere kan, sanwo sinu akọọlẹ kan ti orukọ rẹ baamu iṣowo naa, ki o tọju iwe-ẹri naa."
+   ],
+   "panel": {
+    "kicker": "Ailewu akọkọ",
+    "heading": "Awọn ofin ifẹ si ailewu",
+    "items": [
+     "Kemikali: atilẹba edidi, ike eiyan",
+     "Beere fun iwe data aabo nibiti o ti ṣeeṣe",
+     "Tọju awọn kemikali kuro ni ounjẹ ati awọn ọmọde",
+     "Olupese tuntun: aṣẹ idanwo kekere ni akọkọ",
+     "Sanwo nikan si akọọlẹ kan ti o baamu iṣowo naa",
+     "Tọju gbogbo iwe gbigbe"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Lati ranti. Iwe-owo ohun elo rẹ fihan ibi ti owo rẹ n lọ. Ọpọlọpọ awọn aito bẹrẹ ni ipele 2 tabi 3. Olupese kan jẹ aaye ikuna kan.",
+    "Awọn ohun ilana nilo afẹyinti idanwo. Ati pe pato ti a kọ silẹ jẹ ki o ṣayẹwo didara."
+   ],
+   "panel": {
+    "kicker": "Awọn ojuami pataki",
+    "heading": "Ranti",
+    "items": [
+     "BOM rẹ fihan ibi ti owo naa n lọ",
+     "Ọpọlọpọ awọn aito bẹrẹ ni ipele 2 tabi 3",
+     "Olupese kan tumọ si aaye ikuna kan",
+     "Awọn nkan ilana nilo afẹyinti idanwo",
+     "A kọ spec mu ki didara checkable"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Bayi ṣe adaṣe. Kọ iwe-owo awọn ohun elo kan ati maapu ipese fun ọja ti o ta julọ, ṣe ipo awọn ohun elo rẹ, ki o kọ alaye kan pato pẹlu awọn ofin orisun rẹ.",
+    "Tẹsiwaju pẹlu awọn ẹkọ ni isalẹ."
+   ],
+   "panel": {
+    "kicker": "Ṣiṣe adaṣe",
+    "heading": "Awọn iṣẹ ṣiṣe adaṣe rẹ",
+    "items": [
+     "Ṣe maapu pq ipese ọja kan",
+     "Ṣe ipo awọn ohun elo rẹ",
+     "Kọ ọkan spec ati awọn ofin orisun rẹ"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}
