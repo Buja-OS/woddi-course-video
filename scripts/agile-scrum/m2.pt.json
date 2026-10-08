@@ -1,0 +1,459 @@
+{
+ "course": "agile-scrum",
+ "module": "m2",
+ "title": "Planeje um Sprint por capacidade e seja honesto",
+ "course_title": "Ágil e Scrum na prática",
+ "shots": [
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Planeje um Sprint por capacidade e seja honesto.",
+    "Este é o vídeo do módulo 2 do Agile e Scrum na Prática."
+   ]
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Muitas equipes realizam os eventos Scrum sem obter os benefícios. Executar bem o Scrum começa com um backlog ordenado e uma previsão honesta."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Conhecer os acontecimentos não é suficiente",
+    "items": [
+     "Um backlog de produto ordenado e dimensionado",
+     "Uma previsão baseada na capacidade real",
+     "Uma definição de pronto que protege a qualidade",
+     "Aviso antecipado quando um Sprint derrapa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Então, uma Definição de Concluído clara protege a qualidade e um gráfico simples avisa antecipadamente quando um Sprint está à deriva. Vamos examinar cada um deles."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Conhecer os acontecimentos não é suficiente",
+    "items": [
+     "Um backlog de produto ordenado e dimensionado",
+     "Uma previsão baseada na capacidade real",
+     "Uma definição de pronto que protege a qualidade",
+     "Aviso antecipado quando um Sprint derrapa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Por exemplo, uma equipe de cinco pessoas está construindo um sistema de pedidos por WhatsApp para a padaria Tola's, em Ibadan. Tola é o Dono do Produto. Ela ordena o backlog por valor: primeiro o cardápio com preços, depois faz o pedido e depois paga por transferência."
+   ],
+   "panel": {
+    "kicker": "Backlog do produto",
+    "heading": "Carteira de pedidos da padaria Tola",
+    "items": [
+     "Uma lista, ordenada por valor",
+     "Principais itens pequenos o suficiente para um Sprint",
+     "Divida itens muito grandes",
+     "Dimensione com o Planning Poker",
+     "Cinco itens principais: 18 pontos"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Os itens no topo devem ser pequenos e claros o suficiente para serem finalizados em um Sprint. Itens mais baixos podem permanecer ideias aproximadas."
+   ],
+   "panel": {
+    "kicker": "Backlog do produto",
+    "heading": "Carteira de pedidos da padaria Tola",
+    "items": [
+     "Uma lista, ordenada por valor",
+     "Principais itens pequenos o suficiente para um Sprint",
+     "Divida itens muito grandes",
+     "Dimensione com o Planning Poker",
+     "Cinco itens principais: 18 pontos"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Pagar por transferência é muito caro, então a equipe divide em dois: mostra os dados bancários e a referência do pedido, depois Tola confirma o pagamento."
+   ],
+   "panel": {
+    "kicker": "Backlog do produto",
+    "heading": "Carteira de pedidos da padaria Tola",
+    "items": [
+     "Uma lista, ordenada por valor",
+     "Principais itens pequenos o suficiente para um Sprint",
+     "Divida itens muito grandes",
+     "Dimensione com o Planning Poker",
+     "Cinco itens principais: 18 pontos"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Eles dimensionam itens com o Planning Poker. Todos mostram um número de uma vez, em uma escala como 1, 2, 3, 5, 8, 13. O maior e o menor explicam, e a equipe vota novamente. A palestra expõe trabalho oculto."
+   ],
+   "panel": {
+    "kicker": "Backlog do produto",
+    "heading": "Carteira de pedidos da padaria Tola",
+    "items": [
+     "Uma lista, ordenada por valor",
+     "Principais itens pequenos o suficiente para um Sprint",
+     "Divida itens muito grandes",
+     "Dimensione com o Planning Poker",
+     "Cinco itens principais: 18 pontos"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Os cinco primeiros itens totalizam 3, 5, 2, 5 e 3. São 18 pontos."
+   ],
+   "panel": {
+    "kicker": "Backlog do produto",
+    "heading": "Carteira de pedidos da padaria Tola",
+    "items": [
+     "Uma lista, ordenada por valor",
+     "Principais itens pequenos o suficiente para um Sprint",
+     "Divida itens muito grandes",
+     "Dimensione com o Planning Poker",
+     "Cinco itens principais: 18 pontos"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Por exemplo, a equipe de Chidi tem 5 Desenvolvedores em um Sprint de 10 dias. Isso é 50 pessoas-dia."
+   ],
+   "panel": {
+    "kicker": "Planejamento de Sprints",
+    "heading": "Previsão a partir da capacidade real",
+    "items": [
+     "5 pessoas x 10 dias = 50 pessoas-dia",
+     "Menos feriado: 5, deixa 45",
+     "Menos licença de Ada: 2, folhas 43",
+     "Capacidade: 43 ÷ 50 = 86%",
+     "Velocidade média: 63 ÷ 3 = 21 pontos",
+     "Previsão: 21 x 0,86 = cerca de 18"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Um dia é feriado, que remove 5. Ada tem 2 dias de licença. Isso deixa 43."
+   ],
+   "panel": {
+    "kicker": "Planejamento de Sprints",
+    "heading": "Previsão a partir da capacidade real",
+    "items": [
+     "5 pessoas x 10 dias = 50 pessoas-dia",
+     "Menos feriado: 5, deixa 45",
+     "Menos licença de Ada: 2, folhas 43",
+     "Capacidade: 43 ÷ 50 = 86%",
+     "Velocidade média: 63 ÷ 3 = 21 pontos",
+     "Previsão: 21 x 0,86 = cerca de 18"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "43 dividido por 50 é 86% de um Sprint normal."
+   ],
+   "panel": {
+    "kicker": "Planejamento de Sprints",
+    "heading": "Previsão a partir da capacidade real",
+    "items": [
+     "5 pessoas x 10 dias = 50 pessoas-dia",
+     "Menos feriado: 5, deixa 45",
+     "Menos licença de Ada: 2, folhas 43",
+     "Capacidade: 43 ÷ 50 = 86%",
+     "Velocidade média: 63 ÷ 3 = 21 pontos",
+     "Previsão: 21 x 0,86 = cerca de 18"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Os últimos três Sprints renderam 21, 18 e 24 pontos. A média, chamada velocidade, é 21."
+   ],
+   "panel": {
+    "kicker": "Planejamento de Sprints",
+    "heading": "Previsão a partir da capacidade real",
+    "items": [
+     "5 pessoas x 10 dias = 50 pessoas-dia",
+     "Menos feriado: 5, deixa 45",
+     "Menos licença de Ada: 2, folhas 43",
+     "Capacidade: 43 ÷ 50 = 86%",
+     "Velocidade média: 63 ÷ 3 = 21 pontos",
+     "Previsão: 21 x 0,86 = cerca de 18"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Portanto, a previsão é 21 vezes 0,86, cerca de 18 pontos, e não 21. O Product Owner não pode forçar mais.",
+    "Use a velocidade apenas para prever sua própria equipe. Nunca compare ou recompense entre equipes, ou as estimativas aumentarão."
+   ],
+   "panel": {
+    "kicker": "Planejamento de Sprints",
+    "heading": "Previsão a partir da capacidade real",
+    "items": [
+     "5 pessoas x 10 dias = 50 pessoas-dia",
+     "Menos feriado: 5, deixa 45",
+     "Menos licença de Ada: 2, folhas 43",
+     "Capacidade: 43 ÷ 50 = 86%",
+     "Velocidade média: 63 ÷ 3 = 21 pontos",
+     "Previsão: 21 x 0,86 = cerca de 18"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "rule": "Os desenvolvedores decidem quanto eles assumem.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "O Sprint Planning também produz um Sprint Goal. Terminar os tickets 14 a 22 é fraco. Nomeia trabalho, não valor."
+   ],
+   "panel": {
+    "kicker": "Meta de sprint",
+    "heading": "Meta fraca versus meta forte",
+    "mode": "compare",
+    "left_h": "Fraco",
+    "left": [
+     "Concluir ingressos 14 a 22",
+     "Faça o máximo possível"
+    ],
+    "right_h": "Forte",
+    "right": [
+     "Os clientes pagam por transferência, são confirmados",
+     "Diretora vê vendas semanais em seu telefone"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Os clientes podem pagar por transferência e obter uma confirmação forte. Ele nomeia um usuário e um resultado verificável, para que a equipe possa trocar itens e ainda assim atendê-lo."
+   ],
+   "panel": {
+    "kicker": "Meta de sprint",
+    "heading": "Meta fraca versus meta forte",
+    "mode": "compare",
+    "left_h": "Fraco",
+    "left": [
+     "Concluir ingressos 14 a 22",
+     "Faça o máximo possível"
+    ],
+    "right_h": "Forte",
+    "right": [
+     "Os clientes pagam por transferência, são confirmados",
+     "Diretora vê vendas semanais em seu telefone"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "A definição de pronto é a barra de qualidade. Se um item falhar, ele não será mostrado como concluído. Isso volta ao backlog.",
+    "Seja breve e verificável. Cinco cheques honestos superam vinte que ninguém segue.",
+    "E nunca coloque números de telefone, BVN ou capturas de tela de pagamento em um cartão de bordo. Use uma referência de pedido, de acordo com a Lei de Proteção de Dados da Nigéria de 2023."
+   ],
+   "panel": {
+    "kicker": "Definição de Concluído",
+    "heading": "Definição de Pronto de Tola",
+    "items": [
+     "Funciona em um Android de baixo custo em 3G lento",
+     "Testado por alguém que não seja o construtor",
+     "Nenhum dado pessoal do cliente nos registros",
+     "Redação verificada pelo Product Owner",
+     "Nota de instruções atualizada"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Um gráfico burndown traça o trabalho restante em relação aos dias. Por exemplo, a equipe de Halima planejou 40 pontos em um Sprint de 10 dias. São 4 pontos por dia, então no dia 5 devem restar 20."
+   ],
+   "panel": {
+    "kicker": "Gráfico Burndown",
+    "heading": "Halima detecta problemas no dia 5",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Linha ideal",
+      "d": "40 pontos em 10 dias são 4 por dia. No dia 5, deverão restar 20 pontos."
+     },
+     {
+      "t": "Linha real",
+      "d": "Restam 34 pontos: 14 atrás. Com 1,2 por dia, 28 pontos ficariam por fazer."
+     },
+     {
+      "t": "A conversa",
+      "d": "Três itens aguardam uma chave de API. Aumente-o e mova um item de 8 pontos de volta para a lista de pendências."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Mas 34 permanecem. Eles estão 14 pontos atrás. No ritmo deles, 28 pontos ficariam por fazer."
+   ],
+   "panel": {
+    "kicker": "Gráfico Burndown",
+    "heading": "Halima detecta problemas no dia 5",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Linha ideal",
+      "d": "40 pontos em 10 dias são 4 por dia. No dia 5, deverão restar 20 pontos."
+     },
+     {
+      "t": "Linha real",
+      "d": "Restam 34 pontos: 14 atrás. Com 1,2 por dia, 28 pontos ficariam por fazer."
+     },
+     {
+      "t": "A conversa",
+      "d": "Três itens aguardam uma chave de API. Aumente-o e mova um item de 8 pontos de volta para a lista de pendências."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "No próximo Daily Scrum, ela pergunta o que está bloqueando o trabalho. Três itens aguardam uma chave API de um banco parceiro. Eles escalam naquela manhã, e o Product Owner move um item de 8 pontos de volta para o backlog, enquanto mantém a meta do Sprint.",
+    "O gráfico não corrigiu nada sozinho. A palestra certa começou no dia 5, em vez do dia 10."
+   ],
+   "panel": {
+    "kicker": "Gráfico Burndown",
+    "heading": "Halima detecta problemas no dia 5",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Linha ideal",
+      "d": "40 pontos em 10 dias são 4 por dia. No dia 5, deverão restar 20 pontos."
+     },
+     {
+      "t": "Linha real",
+      "d": "Restam 34 pontos: 14 atrás. Com 1,2 por dia, 28 pontos ficariam por fazer."
+     },
+     {
+      "t": "A conversa",
+      "d": "Três itens aguardam uma chave de API. Aumente-o e mova um item de 8 pontos de volta para a lista de pendências."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Para lembrar. Encomende o backlog e divida itens grandes. Previsão com velocidade ajustada para capacidade real. Mantenha o Daily Scrum por 15 minutos e resolva os problemas depois disso.",
+    "Concluído significa que atende à Definição de Concluído. E termine cada Retrospectiva com uma ou duas ações, cada uma com um dono e uma data."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Lembre-se",
+    "items": [
+     "Encomende o backlog; dividir itens grandes",
+     "Previsão com velocidade ajustada para capacidade",
+     "O Scrum Diário dura 15 minutos; resolver problemas depois",
+     "Concluído significa que atende à definição de concluído",
+     "Termine cada Retrospectiva com uma ou duas ações"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Suas tarefas: configurar seu backlog e um quadro livre, executar um mini-Sprint de uma semana com um cálculo de capacidade, depois desenhar seu burndown e pontuar em relação aos sinais saudáveis.",
+    "Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Tarefa prática",
+    "heading": "Suas tarefas práticas",
+    "items": [
+     "Configure seu backlog e quadro",
+     "Execute um mini-Sprint de uma semana",
+     "Desenhe um burndown e verifique sua integridade"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

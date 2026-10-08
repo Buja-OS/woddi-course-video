@@ -1,0 +1,589 @@
+{
+ "course": "core-reporting-and-performance-tracking",
+ "module": "m2",
+ "title": "Build, summarise and check your tracking sheet",
+ "course_title": "Reporting & Performance Tracking",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Build, summarise and check your tracking sheet in Google Sheets.",
+    "This is the video for module 2 of Reporting and Performance Tracking."
+   ]
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Google Sheets is a free spreadsheet app that works on your phone. The golden rule is one row per record. Every row is one event, like one sale. Every column holds one kind of information, like the date or the item.",
+    "Use dropdown lists, so WhatsApp is always spelled the same way, and keep totals on a separate Summary tab."
+   ],
+   "panel": {
+    "kicker": "The golden rule",
+    "heading": "One row per record",
+    "mode": "compare",
+    "left_h": "Do",
+    "left": [
+     "One row for each sale or event",
+     "One column for each kind of detail",
+     "Dropdowns for categories",
+     "Totals on a separate Summary tab"
+    ],
+    "right_h": "Avoid",
+    "right": [
+     "Empty rows between weeks",
+     "Merged cells",
+     "Totals typed inside the data",
+     "Typing the naira sign in numbers"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Avoid empty rows, merged cells and totals typed in the middle of your data. And type numbers only, without the naira sign. These simple habits are what let formulas and charts work later."
+   ],
+   "panel": {
+    "kicker": "The golden rule",
+    "heading": "One row per record",
+    "mode": "compare",
+    "left_h": "Do",
+    "left": [
+     "One row for each sale or event",
+     "One column for each kind of detail",
+     "Dropdowns for categories",
+     "Totals on a separate Summary tab"
+    ],
+    "right_h": "Avoid",
+    "right": [
+     "Empty rows between weeks",
+     "Merged cells",
+     "Totals typed inside the data",
+     "Typing the naira sign in numbers"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Record each sale as soon as it happens. Entering a whole week from memory on Sunday night leads to missing sales."
+   ],
+   "card": {
+    "title": "Bisi's first three rows",
+    "rows": [],
+    "note": "Amount = quantity x unit price, by formula."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Bisi types the quantity and the price, and a formula works out each amount: 7,500, 6,000 and 3,000 naira. Her Paid column is a Yes or No dropdown."
+   ],
+   "card": {
+    "title": "Bisi's first three rows",
+    "rows": [
+     [
+      "3 boxes of meat pies, paid",
+      "7,500"
+     ],
+     [
+      "2 kg chin chin, paid",
+      "6,000"
+     ],
+     [
+      "1 kg chin chin, not yet paid",
+      "3,000"
+     ]
+    ],
+    "note": "Amount = quantity x unit price, by formula."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "She sold 16,500 naira that day. 13,500 is paid, and 3,000 is still owed. Now she can easily count unpaid orders and follow up."
+   ],
+   "card": {
+    "title": "Bisi's first three rows",
+    "rows": [
+     [
+      "3 boxes of meat pies, paid",
+      "7,500"
+     ],
+     [
+      "2 kg chin chin, paid",
+      "6,000"
+     ],
+     [
+      "1 kg chin chin, not yet paid",
+      "3,000"
+     ]
+    ],
+    "note": "Amount = quantity x unit price, by formula."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Formulas always start with an equals sign, and recalculate by themselves when you add data."
+   ],
+   "panel": {
+    "kicker": "Summary formulas",
+    "heading": "Six formulas you will use most",
+    "items": [
+     "SUM: adds all numbers",
+     "AVERAGE: finds the average",
+     "COUNTA: counts filled cells",
+     "COUNTIF: counts cells that match",
+     "SUMIF: adds only matching rows",
+     "Percentage change: new minus old, over old"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "SUM adds up your sales. AVERAGE finds the average sale. COUNTA counts how many rows you have."
+   ],
+   "panel": {
+    "kicker": "Summary formulas",
+    "heading": "Six formulas you will use most",
+    "items": [
+     "SUM: adds all numbers",
+     "AVERAGE: finds the average",
+     "COUNTA: counts filled cells",
+     "COUNTIF: counts cells that match",
+     "SUMIF: adds only matching rows",
+     "Percentage change: new minus old, over old"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "COUNTIF counts matching cells, like orders marked No for unpaid. SUMIF adds only matching rows, like WhatsApp sales."
+   ],
+   "panel": {
+    "kicker": "Summary formulas",
+    "heading": "Six formulas you will use most",
+    "items": [
+     "SUM: adds all numbers",
+     "AVERAGE: finds the average",
+     "COUNTA: counts filled cells",
+     "COUNTIF: counts cells that match",
+     "SUMIF: adds only matching rows",
+     "Percentage change: new minus old, over old"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "And percentage change is the new figure minus the old, divided by the old."
+   ],
+   "panel": {
+    "kicker": "Summary formulas",
+    "heading": "Six formulas you will use most",
+    "items": [
+     "SUM: adds all numbers",
+     "AVERAGE: finds the average",
+     "COUNTA: counts filled cells",
+     "COUNTIF: counts cells that match",
+     "SUMIF: adds only matching rows",
+     "Percentage change: new minus old, over old"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "At the end of March, Bisi's SUM shows 280,000 naira in sales."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Bisi's March summary",
+    "items": [
+     "Total sales: 280,000 naira",
+     "WhatsApp 142,000, Walk-in 98,000, Instagram 40,000",
+     "Up 12% on February's 250,000",
+     "280,000 of a 300,000 target: 93.3%",
+     "5 unpaid orders to chase"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Her SUMIF splits it by channel: 142,000 on WhatsApp, 98,000 walk-in and 40,000 on Instagram."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Bisi's March summary",
+    "items": [
+     "Total sales: 280,000 naira",
+     "WhatsApp 142,000, Walk-in 98,000, Instagram 40,000",
+     "Up 12% on February's 250,000",
+     "280,000 of a 300,000 target: 93.3%",
+     "5 unpaid orders to chase"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "These add up to 280,000, which confirms nothing is missing."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Bisi's March summary",
+    "items": [
+     "Total sales: 280,000 naira",
+     "WhatsApp 142,000, Walk-in 98,000, Instagram 40,000",
+     "Up 12% on February's 250,000",
+     "280,000 of a 300,000 target: 93.3%",
+     "5 unpaid orders to chase"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "rule": "Check that category totals add up to the overall total.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "February was 250,000. 280,000 minus 250,000, divided by 250,000, is 12%."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Bisi's March summary",
+    "items": [
+     "Total sales: 280,000 naira",
+     "WhatsApp 142,000, Walk-in 98,000, Instagram 40,000",
+     "Up 12% on February's 250,000",
+     "280,000 of a 300,000 target: 93.3%",
+     "5 unpaid orders to chase"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Check that category totals add up to the overall total.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Her target was 300,000, so she reached 93.3% of target."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Bisi's March summary",
+    "items": [
+     "Total sales: 280,000 naira",
+     "WhatsApp 142,000, Walk-in 98,000, Instagram 40,000",
+     "Up 12% on February's 250,000",
+     "280,000 of a 300,000 target: 93.3%",
+     "5 unpaid orders to chase"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Check that category totals add up to the overall total.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "And COUNTIF shows 5 orders still unpaid. Those are debts to chase."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Bisi's March summary",
+    "items": [
+     "Total sales: 280,000 naira",
+     "WhatsApp 142,000, Walk-in 98,000, Instagram 40,000",
+     "Up 12% on February's 250,000",
+     "280,000 of a 300,000 target: 93.3%",
+     "5 unpaid orders to chase"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Check that category totals add up to the overall total.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "When a number is already a percentage, be careful. If conversion rises from 20% to 25%, subtracting gives 5 percentage points."
+   ],
+   "panel": {
+    "kicker": "Common mistake",
+    "heading": "Conversion rose from 20% to 25%",
+    "mode": "compare",
+    "left_h": "Percentage points",
+    "left": [
+     "Subtract: 25 minus 20",
+     "Up 5 percentage points"
+    ],
+    "right_h": "Percentage change",
+    "right": [
+     "Divide: 5 by 20",
+     "A 25% increase"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Dividing 5 by 20 gives a 25% increase. Both are correct, but very different.",
+    "The safe habit is to write: up 5 percentage points, from 20% to 25%. Then the reader sees the real change."
+   ],
+   "panel": {
+    "kicker": "Common mistake",
+    "heading": "Conversion rose from 20% to 25%",
+    "mode": "compare",
+    "left_h": "Percentage points",
+    "left": [
+     "Subtract: 25 minus 20",
+     "Up 5 percentage points"
+    ],
+    "right_h": "Percentage change",
+    "right": [
+     "Divide: 5 by 20",
+     "A 25% increase"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "One duplicated row, or a price typed with an extra zero, can turn a weak month into a great one on paper. So check every week. First, turn on a filter."
+   ],
+   "panel": {
+    "kicker": "Weekly check",
+    "heading": "Your weekly 10-minute data check",
+    "items": [
+     "Turn on a filter",
+     "Sort amounts largest first; check the top",
+     "Filter unpaid orders and follow up",
+     "Compare paid total with your bank app",
+     "Fix errors and note them with a date"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Sort the amount column from largest to smallest. Is 25000 really 2500?"
+   ],
+   "panel": {
+    "kicker": "Weekly check",
+    "heading": "Your weekly 10-minute data check",
+    "items": [
+     "Turn on a filter",
+     "Sort amounts largest first; check the top",
+     "Filter unpaid orders and follow up",
+     "Compare paid total with your bank app",
+     "Fix errors and note them with a date"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Filter the unpaid orders and follow them up."
+   ],
+   "panel": {
+    "kicker": "Weekly check",
+    "heading": "Your weekly 10-minute data check",
+    "items": [
+     "Turn on a filter",
+     "Sort amounts largest first; check the top",
+     "Filter unpaid orders and follow up",
+     "Compare paid total with your bank app",
+     "Fix errors and note them with a date"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Compare the week's paid total with your bank, Opay or Moniepoint history."
+   ],
+   "panel": {
+    "kicker": "Weekly check",
+    "heading": "Your weekly 10-minute data check",
+    "items": [
+     "Turn on a filter",
+     "Sort amounts largest first; check the top",
+     "Filter unpaid orders and follow up",
+     "Compare paid total with your bank app",
+     "Fix errors and note them with a date"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Fix any errors, and write what you changed on a Notes tab with the date. Never invent numbers to fill a gap."
+   ],
+   "panel": {
+    "kicker": "Weekly check",
+    "heading": "Your weekly 10-minute data check",
+    "items": [
+     "Turn on a filter",
+     "Sort amounts largest first; check the top",
+     "Filter unpaid orders and follow up",
+     "Compare paid total with your bank app",
+     "Fix errors and note them with a date"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Reconciling means checking your sheet against your money records."
+   ],
+   "card": {
+    "title": "Bisi reconciles with her payment app",
+    "rows": [],
+    "note": "The difference: one phone order never entered."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Her app shows 68,500 naira coming in. Her sheet shows only 63,500."
+   ],
+   "card": {
+    "title": "Bisi reconciles with her payment app",
+    "rows": [
+     [
+      "Moniepoint: incoming transfers",
+      "68,500"
+     ],
+     [
+      "Sheet: paid transfers",
+      "63,500"
+     ]
+    ],
+    "note": "The difference: one phone order never entered."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "The difference is 5,000 naira. She finds a phone order that was never entered, adds it, and notes the correction.",
+    "If personal money goes into the same account, keep a separate business account, or mark personal transfers clearly so they are not counted as sales."
+   ],
+   "card": {
+    "title": "Bisi reconciles with her payment app",
+    "rows": [
+     [
+      "Moniepoint: incoming transfers",
+      "68,500"
+     ],
+     [
+      "Sheet: paid transfers",
+      "63,500"
+     ]
+    ],
+    "note": "The difference: one phone order never entered."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "To remember. One row per event. Use dropdowns, and type numbers without the naira sign. Let formulas do the counting. Be clear about percentage points. And check your data every week against your bank app, noting every correction."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "One row per event, one column per detail",
+     "Dropdowns keep spelling the same",
+     "SUM, COUNTIF, SUMIF and percentage change",
+     "Say percentage points for rates",
+     "Check weekly and reconcile with your bank app"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Now practise. Build your Data tab with clear headings, dropdowns and five real records. Add a Summary tab with totals and progress against your target. Then run your first data check and start your Notes tab.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice tasks",
+    "heading": "Your practice in this module",
+    "items": [
+     "Build your tracking sheet",
+     "Build your Summary tab",
+     "Run your first data check"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

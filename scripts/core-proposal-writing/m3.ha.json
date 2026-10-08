@@ -1,0 +1,593 @@
+{
+ "course": "core-proposal-writing",
+ "module": "m3",
+ "title": "Kasafin kudi, saka idanu da abin da ke faruwa bayan tallafin",
+ "course_title": "Rubutun Shawara: Tallafi da Shawarwari na Kasuwanci",
+ "shots": [
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Kasafin kudi, saka idanu, da abin da ke faruwa bayan tallafin.",
+    "Wannan shi ne bidiyo na samfuri na uku na Rubutun Shawara."
+   ]
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Kasafin kudi shine shawarar ku da aka rubuta cikin lambobi. Yayi tsayi da yawa yana kallon almubazzaranci. Ƙananan ƙananan yana nuna ba ku fahimci aikin ba."
+   ],
+   "panel": {
+    "kicker": "Kasafin kudin abu-layi",
+    "heading": "Kowane layin kasafin kuɗi yana nunawa",
+    "items": [
+     "Abun",
+     "Naúrar: rana, wata, mutum, yanki",
+     "Yawan",
+     "Kudin naúrar",
+     "Jima'i: farashin adadin lokuta masu yawa"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Kowane layi yana nuna abu, naúrar, adadi da farashin naúrar. Misali, masu horarwa 2, na tsawon kwanaki 12, akan naira 25,000 kowace rana."
+   ],
+   "panel": {
+    "kicker": "Kasafin kudin abu-layi",
+    "heading": "Kowane layin kasafin kuɗi yana nunawa",
+    "items": [
+     "Abun",
+     "Naúrar: rana, wata, mutum, yanki",
+     "Yawan",
+     "Kudin naúrar",
+     "Jima'i: farashin adadin lokuta masu yawa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Jimlar jimlar jimlar adadin sau ɗaya ce: Naira 600,000. Ƙirƙiri layukan ku zuwa rukunoni, kuma koyaushe ku yi amfani da samfurin mai ba da kuɗi idan ya ba da ɗaya."
+   ],
+   "panel": {
+    "kicker": "Kasafin kudin abu-layi",
+    "heading": "Kowane layin kasafin kuɗi yana nunawa",
+    "items": [
+     "Abun",
+     "Naúrar: rana, wata, mutum, yanki",
+     "Yawan",
+     "Kudin naúrar",
+     "Jima'i: farashin adadin lokuta masu yawa"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Misali, Amaka yana farashin kowane layi daga kasuwa 2 ko 3 a Lafia. Ƙididdiga na kwas ɗin misalai ne kuma ma'auni ne."
+   ],
+   "card": {
+    "title": "Kasafin kudi na watanni 6 na Amaka",
+    "rows": [],
+    "note": "Misali, kimomi na naira."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Ma’aikata, kodineta na wucin gadi da masu horarwa guda biyu: Naira 1,200,000."
+   ],
+   "card": {
+    "title": "Kasafin kudi na watanni 6 na Amaka",
+    "rows": [
+     [
+      "Ma'aikata",
+      "1,200,000"
+     ]
+    ],
+    "note": "Misali, kimomi na naira."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Kayayyakin da suka haɗa da kayan farawa 40 da kayan kariya: Naira 1,320,000."
+   ],
+   "card": {
+    "title": "Kasafin kudi na watanni 6 na Amaka",
+    "rows": [
+     [
+      "Ma'aikata",
+      "1,200,000"
+     ],
+     [
+      "Kayayyaki da kayan tsaro",
+      "1,320,000"
+     ]
+    ],
+    "note": "Misali, kimomi na naira."
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Wuri, sufuri da abin sha: Naira 1,440,000."
+   ],
+   "card": {
+    "title": "Kasafin kudi na watanni 6 na Amaka",
+    "rows": [
+     [
+      "Ma'aikata",
+      "1,200,000"
+     ],
+     [
+      "Kayayyaki da kayan tsaro",
+      "1,320,000"
+     ],
+     [
+      "Wuri da dabaru",
+      "1,440,000"
+     ]
+    ],
+    "note": "Misali, kimomi na naira."
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Tallafin kasuwanci, Naira 290,000, da sa ido da tantancewa, Naira 250,000."
+   ],
+   "card": {
+    "title": "Kasafin kudi na watanni 6 na Amaka",
+    "rows": [
+     [
+      "Ma'aikata",
+      "1,200,000"
+     ],
+     [
+      "Kayayyaki da kayan tsaro",
+      "1,320,000"
+     ],
+     [
+      "Wuri da dabaru",
+      "1,440,000"
+     ],
+     [
+      "Tallafin kasuwanci",
+      "290,000"
+     ],
+     [
+      "Kulawa da kimantawa",
+      "250,000"
+     ]
+    ],
+    "note": "Misali, kimomi na naira."
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Kudin kai tsaye ya kai naira milyan 4,500,000. Gudanarwa a kashi 7%, a cikin kuɗin kiran, ya ƙara naira 315,000. Bukatar ta ita ce Naira 4,815,000, a karkashin madaidaicin 5,000,000."
+   ],
+   "card": {
+    "title": "Kasafin kudi na watanni 6 na Amaka",
+    "rows": [
+     [
+      "Ma'aikata",
+      "1,200,000"
+     ],
+     [
+      "Kayayyaki da kayan tsaro",
+      "1,320,000"
+     ],
+     [
+      "Wuri da dabaru",
+      "1,440,000"
+     ],
+     [
+      "Tallafin kasuwanci",
+      "290,000"
+     ],
+     [
+      "Kulawa da kimantawa",
+      "250,000"
+     ]
+    ],
+    "note": "Misali, kimomi na naira."
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Ana kashe kuɗin kai tsaye akan wannan aikin kawai."
+   ],
+   "panel": {
+    "kicker": "Nau'in farashi",
+    "heading": "Kai tsaye, kai tsaye kuma a cikin nau'i",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Farashin kai tsaye",
+      "d": "An kashe akan wannan aikin kawai, kamar kuɗin masu horarwa, kayan aiki da hayar wurin."
+     },
+     {
+      "t": "Farashin kai tsaye",
+      "d": "Rarraba farashin gudana kamar ajiyar kuɗi da intanet. Kar a taba wuce iyakar kiran."
+     },
+     {
+      "t": "In-iri",
+      "d": "Abin da kuke bayarwa ba tare da tambayar mai ba da kuɗi ba, kamar ɗakin ajiya kyauta. Nuna darajarsa."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Kudaden kai tsaye sune farashin tafiyar da ku. Masu ba da kuɗi da yawa suna ba su damar zuwa kashi da aka bayyana kawai. Kar a taba wuce shi."
+   ],
+   "panel": {
+    "kicker": "Nau'in farashi",
+    "heading": "Kai tsaye, kai tsaye kuma a cikin nau'i",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Farashin kai tsaye",
+      "d": "An kashe akan wannan aikin kawai, kamar kuɗin masu horarwa, kayan aiki da hayar wurin."
+     },
+     {
+      "t": "Farashin kai tsaye",
+      "d": "Rarraba farashin gudana kamar ajiyar kuɗi da intanet. Kar a taba wuce iyakar kiran."
+     },
+     {
+      "t": "In-iri",
+      "d": "Abin da kuke bayarwa ba tare da tambayar mai ba da kuɗi ba, kamar ɗakin ajiya kyauta. Nuna darajarsa."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Gudunmawa iri-iri sune abubuwan da kuke samarwa da kanku. Kungiyar hadin gwiwar Amaka ta ba da dakin ajiyar kudi naira 180,000. Nuna shi a cikin wani shafi daban, domin yana tabbatar da sadaukarwa.",
+    "Kuma barin farashin da bai cancanta ba, kamar motoci, fita gaba ɗaya."
+   ],
+   "panel": {
+    "kicker": "Nau'in farashi",
+    "heading": "Kai tsaye, kai tsaye kuma a cikin nau'i",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Farashin kai tsaye",
+      "d": "An kashe akan wannan aikin kawai, kamar kuɗin masu horarwa, kayan aiki da hayar wurin."
+     },
+     {
+      "t": "Farashin kai tsaye",
+      "d": "Rarraba farashin gudana kamar ajiyar kuɗi da intanet. Kar a taba wuce iyakar kiran."
+     },
+     {
+      "t": "In-iri",
+      "d": "Abin da kuke bayarwa ba tare da tambayar mai ba da kuɗi ba, kamar ɗakin ajiya kyauta. Nuna darajarsa."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Bayanan kasafin kuɗi suna bayyana kowane layi a cikin jumla ɗaya zuwa uku. Misali: Naira 1,000 ga kowace mace a kowace rana ta horo yana biyan kudin dawowa. Idan ba tare da shi ba, mafi ƙarancin membobin ba za su iya halarta ba."
+   ],
+   "panel": {
+    "kicker": "Bayanan kasafin kuɗi da cak",
+    "heading": "Tabbatar da kowane layi, sannan a duba",
+    "items": [
+     "Rubuta bayanin kula: menene, me yasa, yadda ake ƙididdige shi",
+     "Kowane aiki yana da layin farashi",
+     "Farashin raka'a ya fito ne daga ƙididdiga na gaske",
+     "Babu farashin da bai cancanta ba; admin a cikin jirgin",
+     "Jimlar sun dace a kowane sashe"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Bincika cewa kowane aiki yana da layin farashi, kuma kowane layin farashi yana haɗe zuwa aiki."
+   ],
+   "panel": {
+    "kicker": "Bayanan kasafin kuɗi da cak",
+    "heading": "Tabbatar da kowane layi, sannan a duba",
+    "items": [
+     "Rubuta bayanin kula: menene, me yasa, yadda ake ƙididdige shi",
+     "Kowane aiki yana da layin farashi",
+     "Farashin raka'a ya fito ne daga ƙididdiga na gaske",
+     "Babu farashin da bai cancanta ba; admin a cikin jirgin",
+     "Jimlar sun dace a kowane sashe"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Ajiye maganganun ku akan fayil."
+   ],
+   "panel": {
+    "kicker": "Bayanan kasafin kuɗi da cak",
+    "heading": "Tabbatar da kowane layi, sannan a duba",
+    "items": [
+     "Rubuta bayanin kula: menene, me yasa, yadda ake ƙididdige shi",
+     "Kowane aiki yana da layin farashi",
+     "Farashin raka'a ya fito ne daga ƙididdiga na gaske",
+     "Babu farashin da bai cancanta ba; admin a cikin jirgin",
+     "Jimlar sun dace a kowane sashe"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Bar farashin da bai cancanta ba, kuma ku ci gaba da gudanar da aiki cikin iyaka."
+   ],
+   "panel": {
+    "kicker": "Bayanan kasafin kuɗi da cak",
+    "heading": "Tabbatar da kowane layi, sannan a duba",
+    "items": [
+     "Rubuta bayanin kula: menene, me yasa, yadda ake ƙididdige shi",
+     "Kowane aiki yana da layin farashi",
+     "Farashin raka'a ya fito ne daga ƙididdiga na gaske",
+     "Babu farashin da bai cancanta ba; admin a cikin jirgin",
+     "Jimlar sun dace a kowane sashe"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Yi amfani da maƙunsar rubutu don jimlar ƙididdiga ta atomatik, sannan duba cewa taƙaitawa, labari da harafin murfin duk suna nuna adadi ɗaya."
+   ],
+   "panel": {
+    "kicker": "Bayanan kasafin kuɗi da cak",
+    "heading": "Tabbatar da kowane layi, sannan a duba",
+    "items": [
+     "Rubuta bayanin kula: menene, me yasa, yadda ake ƙididdige shi",
+     "Kowane aiki yana da layin farashi",
+     "Farashin raka'a ya fito ne daga ƙididdiga na gaske",
+     "Babu farashin da bai cancanta ba; admin a cikin jirgin",
+     "Jimlar sun dace a kowane sashe"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Duba lissafin sau uku. Kowane jimlar dole ne ya dace.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Sa ido yana bin ayyukan da fitarwa yayin da aikin ke gudana. Ƙimar ta tantance ko an sami sakamako. Kowane mai nuna alama yana buƙatar tushe, manufa, tushen bayanai, lokaci da mutum mai alhakin."
+   ],
+   "panel": {
+    "kicker": "Kulawa da kimantawa",
+    "heading": "duba watan Amaka",
+    "items": [
+     "Wata 4: 22 cikin 40 na siyarwa. Manufar: 30",
+     "Misali: mata masu nisa, babu masu siye na yau da kullun",
+     "Canji: siyarwar rukuni, bursar makaranta 3",
+     "Wata 6: 31 na 40 ana siyarwa akai-akai"
+    ],
+    "show": 0,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "A karshen watan 4, bayanan tallace-tallace na Amaka sun nuna mata 22 cikin 40 suna sayar da akalla sau biyu a wata. Burinta shine 30."
+   ],
+   "panel": {
+    "kicker": "Kulawa da kimantawa",
+    "heading": "duba watan Amaka",
+    "items": [
+     "Wata 4: 22 cikin 40 na siyarwa. Manufar: 30",
+     "Misali: mata masu nisa, babu masu siye na yau da kullun",
+     "Canji: siyarwar rukuni, bursar makaranta 3",
+     "Wata 6: 31 na 40 ana siyarwa akai-akai"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Ta nemi tsari. Yawancin matan da ba sa sayarwa a nesa da kasuwa kuma ba su da masu saye na yau da kullun."
+   ],
+   "panel": {
+    "kicker": "Kulawa da kimantawa",
+    "heading": "duba watan Amaka",
+    "items": [
+     "Wata 4: 22 cikin 40 na siyarwa. Manufar: 30",
+     "Misali: mata masu nisa, babu masu siye na yau da kullun",
+     "Canji: siyarwar rukuni, bursar makaranta 3",
+     "Wata 6: 31 na 40 ana siyarwa akai-akai"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Don haka ta hada mata da za su sayar tare a kasuwar mako-mako, sannan ta gabatar da bursar makaranta 3 ga kungiyar. A watan 5, 27 suna siyarwa akai-akai."
+   ],
+   "panel": {
+    "kicker": "Kulawa da kimantawa",
+    "heading": "duba watan Amaka",
+    "items": [
+     "Wata 4: 22 cikin 40 na siyarwa. Manufar: 30",
+     "Misali: mata masu nisa, babu masu siye na yau da kullun",
+     "Canji: siyarwar rukuni, bursar makaranta 3",
+     "Wata 6: 31 na 40 ana siyarwa akai-akai"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "A watan 6, 31 na 40 suna siyarwa akai-akai, sama da manufa. Rahotonta ya bayyana ƙarancin adadi, dalili, canji da sakamakon."
+   ],
+   "panel": {
+    "kicker": "Kulawa da kimantawa",
+    "heading": "duba watan Amaka",
+    "items": [
+     "Wata 4: 22 cikin 40 na siyarwa. Manufar: 30",
+     "Misali: mata masu nisa, babu masu siye na yau da kullun",
+     "Canji: siyarwar rukuni, bursar makaranta 3",
+     "Wata 6: 31 na 40 ana siyarwa akai-akai"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Bayar da matsalolin gaskiya. Masu kudi suna daraja koyo.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Dorewa yana nufin bayyana waɗanne fa'idodin zasu ƙare bayan kuɗin ya ƙare, da kuma ta yaya. Gwamnatin Jiha za ta karbi mulki ba ta da karfi, sai dai idan kana da wasika da ke fadin haka."
+   ],
+   "panel": {
+    "kicker": "Dorewa",
+    "heading": "Bege ko tsari?",
+    "mode": "compare",
+    "left_h": "Mai rauni",
+    "left": [
+     "Gwamnati za ta karbi mulki",
+     "Za a ci gaba da aikin"
+    ],
+    "right_h": "Mai ƙarfi",
+    "right": [
+     "Membobi suna biyan 5,000 a kowane wuri, an yarda",
+     "Mata 6 da aka horar da su a matsayin masu horar da takwarorinsu",
+     "An ceto 500 daga kowane 5,000 na tallace-tallace",
+     "Hanyoyin haɗi tare da makarantu 3"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Amaka yana ba da kayan aikin kankare. Kungiyar za ta rika karbar naira 5,000 ga mambobin kungiyar a karo na biyu, kamar yadda aka amince a babban taronta. 6 daga cikin mata masu ƙarfi sun zama masu horar da takwarorinsu.",
+    "Ko wace mace takan ajiye naira 500 daga kowacce naira 5,000 da za’a siya domin siyan rukuninta na gaba, kuma alaka da makarantu 3 ne ke haifar da masu saye na yau da kullun."
+   ],
+   "panel": {
+    "kicker": "Dorewa",
+    "heading": "Bege ko tsari?",
+    "mode": "compare",
+    "left_h": "Mai rauni",
+    "left": [
+     "Gwamnati za ta karbi mulki",
+     "Za a ci gaba da aikin"
+    ],
+    "right_h": "Mai ƙarfi",
+    "right": [
+     "Membobi suna biyan 5,000 a kowane wuri, an yarda",
+     "Mata 6 da aka horar da su a matsayin masu horar da takwarorinsu",
+     "An ceto 500 daga kowane 5,000 na tallace-tallace",
+     "Hanyoyin haɗi tare da makarantu 3"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "first_aid_kit",
+   "say": [
+    "Da'awar babu kasada yana kallon butulci. Yi lissafin abin da zai iya faruwa ba daidai ba, yadda mai yiyuwa da girman girmansa, da martanin ku.",
+    "Saboda horon nata yana amfani da soda caustic, Amaka tana shirin ƙone sinadarai: kayan kariya ga kowace mace, nunin aminci na lye na farko, da kayan agajin farko da ruwa mai tsafta a kowane zama.",
+    "Har ila yau, ta sayi kayan da yawa a cikin watan 1, kuma ta yarda da jadawalin tare da mahalarta don guje wa aikin noma da kuma makonni na bukukuwa."
+   ],
+   "panel": {
+    "kicker": "Hatsari, gami da aminci",
+    "heading": "Amsoshin hadarin Amaka",
+    "items": [
+     "Chemical kuna: kayan kariya ga kowa da kowa",
+     "Mai horarwa yana nuna lye aminci da farko",
+     "Kit ɗin taimakon farko da ruwa mai tsafta kowane lokaci",
+     "Farashin ya tashi: siyan kayan da yawa a cikin watan 1",
+     "Ƙananan halarta: yarda da jadawalin farko"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Ayyukanku. Gina kasafin kuɗin ku a cikin maƙunsar rubutu, tare da ƙididdiga na gaske da bayanin kula don manyan layukanku. Zana teburin shirin ku na M&E. Rubuta aƙalla hanyoyin dorewa guda uku da tebur mai haɗari.",
+    "Sa'an nan kuma saka daftarin aiki daidai da ka'idojin mai ba da kuɗi. Yanzu ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Ayyukanku",
+    "heading": "Tabbatar da shawarar ku ta tabbata",
+    "items": [
+     "Gina maƙunsar kasafin ku da bayanin kula",
+     "Zana teburin shirin ku na M&E",
+     "Rubuta hanyoyin dorewa guda uku",
+     "Gina tebur mai haɗari kuma ku ci da kan daftarin ku"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

@@ -1,0 +1,460 @@
+{
+ "course": "supply-chain-raw-materials-sourcing",
+ "module": "m2",
+ "title": "Order on time, check every delivery, compare true cost",
+ "course_title": "Supply Chain & Raw Materials Sourcing",
+ "shots": [
+  {
+   "demo": "globe_export",
+   "say": [
+    "Order on time, check every delivery, and compare the true cost.",
+    "This is the video for module two of Supply Chain and Raw Materials Sourcing: planning, checking and costing your supply."
+   ]
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Most stockouts are not caused by the supplier alone. They happen because the order was placed too late."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "The working tools of a buyer",
+    "items": [
+     "Most stockouts come from ordering too late",
+     "Problems found at the gate cost a phone call",
+     "Cheapest price is often not cheapest material",
+     "Price is only one thing to negotiate"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "A problem found at the gate costs you a phone call. Found after production, it costs the whole batch."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "The working tools of a buyer",
+    "items": [
+     "Most stockouts come from ordering too late",
+     "Problems found at the gate cost a phone call",
+     "Cheapest price is often not cheapest material",
+     "Price is only one thing to negotiate"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "And the cheapest price per kilogram is often not the cheapest material. You will learn to compare true cost, then negotiate."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "The working tools of a buyer",
+    "items": [
+     "Most stockouts come from ordering too late",
+     "Problems found at the gate cost a phone call",
+     "Cheapest price is often not cheapest material",
+     "Price is only one thing to negotiate"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "The reorder point is the stock level that tells you: order now. You need three numbers. Usage per working day. Lead time, from placing the order to having checked, usable stock. And safety stock, the extra that covers bad weeks."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Find your reorder point",
+    "items": [
+     "Normal: 100 bottles x 5 days = 500",
+     "Worst case: 140 bottles x 8 days = 1,120",
+     "Safety stock: 1,120 minus 500 = 620",
+     "Reorder point: 500 + 620 = 1,120"
+    ],
+    "show": 0,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "For example, Amaka fills an average of 100 bottles a day, and delivery takes 5 working days on average. So normal demand during lead time is 500 bottles."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Find your reorder point",
+    "items": [
+     "Normal: 100 bottles x 5 days = 500",
+     "Worst case: 140 bottles x 8 days = 1,120",
+     "Safety stock: 1,120 minus 500 = 620",
+     "Reorder point: 500 + 620 = 1,120"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "On busy days she fills 140, and delivery took 8 days at worst. Worst case is 1,120 bottles."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Find your reorder point",
+    "items": [
+     "Normal: 100 bottles x 5 days = 500",
+     "Worst case: 140 bottles x 8 days = 1,120",
+     "Safety stock: 1,120 minus 500 = 620",
+     "Reorder point: 500 + 620 = 1,120"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "grain_sacks",
+   "say": [
+    "Safety stock is the difference: 620 bottles. At about 60 naira each, that is 37,200 naira of cash tied up."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Find your reorder point",
+    "items": [
+     "Normal: 100 bottles x 5 days = 500",
+     "Worst case: 140 bottles x 8 days = 1,120",
+     "Safety stock: 1,120 minus 500 = 620",
+     "Reorder point: 500 + 620 = 1,120"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "grain_sacks",
+   "say": [
+    "Her reorder point is 500 plus 620, which is 1,120. When her count falls to 1,120, she orders.",
+    "Use your last six to ten orders to find lead time. A supplier's promise of two days is not your lead time. Your records are."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Find your reorder point",
+    "items": [
+     "Normal: 100 bottles x 5 days = 500",
+     "Worst case: 140 bottles x 8 days = 1,120",
+     "Safety stock: 1,120 minus 500 = 620",
+     "Reorder point: 500 + 620 = 1,120"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Your records set the lead time, not the supplier's promise.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Compare the delivery note with your order. Then count and weigh on your own scale. A 25 kg bag that weighs 23.5 kg is short by 6%."
+   ],
+   "panel": {
+    "kicker": "At the gate",
+    "heading": "A six-step receiving check",
+    "items": [
+     "Match the paperwork with your order",
+     "Count cartons, weigh a few bags",
+     "Inspect seals and packaging",
+     "Check a spread-out sample against spec",
+     "Accept, hold or reject",
+     "Record date, supplier, batch, result"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Check that seals are intact and labels readable. Open several containers from different parts of the load, not just the top one, and compare with your reference sample."
+   ],
+   "panel": {
+    "kicker": "At the gate",
+    "heading": "A six-step receiving check",
+    "items": [
+     "Match the paperwork with your order",
+     "Count cartons, weigh a few bags",
+     "Inspect seals and packaging",
+     "Check a spread-out sample against spec",
+     "Accept, hold or reject",
+     "Record date, supplier, batch, result"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "globe_export",
+   "say": [
+    "Then decide: accept, hold or reject, and write it down.",
+    "Put doubtful stock in a marked HOLD area. Photograph any problem before you move anything, and send the photos to the supplier the same day."
+   ],
+   "panel": {
+    "kicker": "At the gate",
+    "heading": "A six-step receiving check",
+    "items": [
+     "Match the paperwork with your order",
+     "Count cartons, weigh a few bags",
+     "Inspect seals and packaging",
+     "Check a spread-out sample against spec",
+     "Accept, hold or reject",
+     "Record date, supplier, batch, result"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "rule": "Doubtful stock goes to a HOLD area, never into production.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Store well. Put new stock behind old, and use materials with expiry dates in date order. Keep sacks on pallets or shelves, away from walls, to reduce damp and pests.",
+    "Heat and humidity spoil oils, sugar and flour. Keep chemicals, cleaning products and fuel well apart from food or cosmetic materials. And label every container."
+   ],
+   "panel": {
+    "kicker": "Safety first",
+    "heading": "Store materials safely",
+    "items": [
+     "First in, first out; or first expired, first out",
+     "Off the floor, away from walls",
+     "Cool, dry and shaded",
+     "Chemicals and fuel well apart from food",
+     "Label material, supplier, date and batch"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Total cost of ownership adds everything it costs to get a material into production: price, transport, waste, extra labour and late deliveries. Funke's prices are illustrative."
+   ],
+   "card": {
+    "title": "Total cost: two shea butter suppliers",
+    "rows": [],
+    "note": "Prices are illustrative and approximate."
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Supplier A charges 2,500 naira per kg with free delivery, so 62,500 naira. Only 1% is lost in straining, so each usable kilogram costs about 2,525 naira."
+   ],
+   "card": {
+    "title": "Total cost: two shea butter suppliers",
+    "rows": [
+     [
+      "A: 25 kg, free delivery",
+      "62,500"
+     ],
+     [
+      "A: per usable kg (1% waste)",
+      "2,525"
+     ]
+    ],
+    "note": "Prices are illustrative and approximate."
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Supplier B charges 2,000 naira per kg, plus 7,500 transport, making 57,500. Extra straining time adds 2,000 naira, so 59,500."
+   ],
+   "card": {
+    "title": "Total cost: two shea butter suppliers",
+    "rows": [
+     [
+      "A: 25 kg, free delivery",
+      "62,500"
+     ],
+     [
+      "A: per usable kg (1% waste)",
+      "2,525"
+     ],
+     [
+      "B: 25 kg plus transport",
+      "57,500"
+     ],
+     [
+      "B: plus straining time",
+      "59,500"
+     ]
+    ],
+    "note": "Prices are illustrative and approximate."
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "But 10% is grit, so only 22.5 kg is usable. That is about 2,644 naira per usable kilogram.",
+    "The supplier that looked 20% cheaper is about 119 naira more expensive per usable kilogram, before counting late deliveries."
+   ],
+   "card": {
+    "title": "Total cost: two shea butter suppliers",
+    "rows": [
+     [
+      "A: 25 kg, free delivery",
+      "62,500"
+     ],
+     [
+      "A: per usable kg (1% waste)",
+      "2,525"
+     ],
+     [
+      "B: 25 kg plus transport",
+      "57,500"
+     ],
+     [
+      "B: plus straining time",
+      "59,500"
+     ],
+     [
+      "B: per usable kg (10% waste)",
+      "2,644"
+     ]
+    ],
+    "note": "Prices are illustrative and approximate."
+   }
+  },
+  {
+   "demo": "grain_sacks",
+   "say": [
+    "Before you talk, know your best alternative, usually your approved backup supplier and their price. If you can buy at 2,550 naira elsewhere, you can calmly decline a rise to 2,700."
+   ],
+   "panel": {
+    "kicker": "Negotiating",
+    "heading": "Price is only one lever",
+    "items": [
+     "Price tiers at bigger volumes",
+     "Payment terms",
+     "Fixed delivery day",
+     "Replacement for failed material",
+     "Priority stock during shortages"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "grain_sacks",
+   "say": [
+    "Ask about price tiers, payment terms and a fixed delivery day. Ask open questions, and let the supplier propose first."
+   ],
+   "panel": {
+    "kicker": "Negotiating",
+    "heading": "Price is only one lever",
+    "items": [
+     "Price tiers at bigger volumes",
+     "Payment terms",
+     "Fixed delivery day",
+     "Replacement for failed material",
+     "Priority stock during shortages"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "globe_export",
+   "say": [
+    "Ask for replacement of material that fails your spec, and priority during shortages in return for regular orders.",
+    "If they move on price, trade something they value. Then confirm what was agreed in a WhatsApp message the same day."
+   ],
+   "panel": {
+    "kicker": "Negotiating",
+    "heading": "Price is only one lever",
+    "items": [
+     "Price tiers at bigger volumes",
+     "Payment terms",
+     "Fixed delivery day",
+     "Replacement for failed material",
+     "Priority stock during shortages"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "To remember. Order at your reorder point. Check every delivery before it touches production. Compare cost per usable unit, not sticker price. A tested backup gives you strength.",
+    "And if a supplier suddenly asks you to pay into a different account, call them on the number you already know before paying."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "Reorder point: normal demand plus safety stock",
+     "Check every delivery before production",
+     "Compare cost per usable unit, not sticker price",
+     "Your backup supplier is your strength",
+     "Pay only to the account name you confirmed"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Now practise. Calculate reorder points for your two most critical materials, set up a receiving checklist and HOLD area, and compare two suppliers on total cost.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice task",
+    "heading": "Your practice tasks",
+    "items": [
+     "Calculate two reorder points",
+     "Set up your receiving system",
+     "Run a total cost comparison"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

@@ -1,0 +1,619 @@
+{
+ "course": "business-intelligence-basics",
+ "module": "m2",
+ "title": "O modelo de BI: fontes, definições, níveis e confiança",
+ "course_title": "Noções básicas de Business Intelligence: projetando sistemas que impulsionam decisões",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "O blueprint de BI: fontes, definições, níveis e confiança.",
+    "Este é o vídeo do Módulo 2 do Business Intelligence Basics: projetando o sistema de BI."
+   ]
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "O design de BI depende mais de alguns documentos bem guardados do que de um único produto de software. Juntos, eles criam um modelo que qualquer ferramenta, do Planilhas Google ao Power BI, pode construir."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Documentos antes dos painéis",
+    "items": [
+     "Um mapa de fonte de dados",
+     "Um dicionário métrico",
+     "Uma estrutura de relatórios que as pessoas usam",
+     "Verificações que mantêm os números confiáveis"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Um mapa de fonte de dados mostra onde os dados residem."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Documentos antes dos painéis",
+    "items": [
+     "Um mapa de fonte de dados",
+     "Um dicionário métrico",
+     "Uma estrutura de relatórios que as pessoas usam",
+     "Verificações que mantêm os números confiáveis"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Um dicionário métrico diz o que cada número significa."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Documentos antes dos painéis",
+    "items": [
+     "Um mapa de fonte de dados",
+     "Um dicionário métrico",
+     "Uma estrutura de relatórios que as pessoas usam",
+     "Verificações que mantêm os números confiáveis"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Uma estrutura de subordinação proporciona a visão certa para a pessoa certa."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Documentos antes dos painéis",
+    "items": [
+     "Um mapa de fonte de dados",
+     "Um dicionário métrico",
+     "Uma estrutura de relatórios que as pessoas usam",
+     "Verificações que mantêm os números confiáveis"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "E as verificações de qualidade mantêm as pessoas confiando nos números."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Documentos antes dos painéis",
+    "items": [
+     "Um mapa de fonte de dados",
+     "Um dicionário métrico",
+     "Uma estrutura de relatórios que as pessoas usam",
+     "Verificações que mantêm os números confiáveis"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Para cada sistema de origem, classifique três coisas de 1, ruim, a 3, bom."
+   ],
+   "panel": {
+    "kicker": "Mapa de fonte de dados",
+    "heading": "Avalie cada fonte em 9",
+    "items": [
+     "Acesso: quão fácil é obter os dados",
+     "Qualidade: quão completo e correto",
+     "Frequência: quão fresco pode ser",
+     "Pagamentos de taxas: 8, pronto agora",
+     "Presença em papel: 4, fase dois"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Acesso, como é fácil extrair os dados."
+   ],
+   "panel": {
+    "kicker": "Mapa de fonte de dados",
+    "heading": "Avalie cada fonte em 9",
+    "items": [
+     "Acesso: quão fácil é obter os dados",
+     "Qualidade: quão completo e correto",
+     "Frequência: quão fresco pode ser",
+     "Pagamentos de taxas: 8, pronto agora",
+     "Presença em papel: 4, fase dois"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Qualidade, quão completa e correta ela é."
+   ],
+   "panel": {
+    "kicker": "Mapa de fonte de dados",
+    "heading": "Avalie cada fonte em 9",
+    "items": [
+     "Acesso: quão fácil é obter os dados",
+     "Qualidade: quão completo e correto",
+     "Frequência: quão fresco pode ser",
+     "Pagamentos de taxas: 8, pronto agora",
+     "Presença em papel: 4, fase dois"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "E frequência, quão fresco pode ser."
+   ],
+   "panel": {
+    "kicker": "Mapa de fonte de dados",
+    "heading": "Avalie cada fonte em 9",
+    "items": [
+     "Acesso: quão fácil é obter os dados",
+     "Qualidade: quão completo e correto",
+     "Frequência: quão fresco pode ser",
+     "Pagamentos de taxas: 8, pronto agora",
+     "Presença em papel: 4, fase dois"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Por exemplo, Blessing projeta BI para uma escola particular em Abuja. Os pagamentos de taxas são feitos como uma exportação diária de CSV, portanto, eles pontuam 8 em 9 e estão prontos para um primeiro relatório."
+   ],
+   "panel": {
+    "kicker": "Mapa de fonte de dados",
+    "heading": "Avalie cada fonte em 9",
+    "items": [
+     "Acesso: quão fácil é obter os dados",
+     "Qualidade: quão completo e correto",
+     "Frequência: quão fresco pode ser",
+     "Pagamentos de taxas: 8, pronto agora",
+     "Presença em papel: 4, fase dois"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Os registros de presença em papel pontuam apenas 4. Eles precisam primeiro de um registro digital simples, então ela os coloca na fase dois."
+   ],
+   "panel": {
+    "kicker": "Mapa de fonte de dados",
+    "heading": "Avalie cada fonte em 9",
+    "items": [
+     "Acesso: quão fácil é obter os dados",
+     "Qualidade: quão completo e correto",
+     "Frequência: quão fresco pode ser",
+     "Pagamentos de taxas: 8, pronto agora",
+     "Presença em papel: 4, fase dois"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Um dicionário métrico é a única definição escrita de cada número chave. Cada entrada tem um significado, uma fórmula, uma fonte, um proprietário e um tempo de atualização.",
+    "Aqui o dono é o tesoureiro e atualiza toda segunda-feira às 10h."
+   ],
+   "card": {
+    "title": "Definição da taxa de cobrança de taxas",
+    "rows": [],
+    "note": "Exclui alunos bolsistas integrais."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "A escola faturou 48.600.000 nairas neste semestre."
+   ],
+   "card": {
+    "title": "Definição da taxa de cobrança de taxas",
+    "rows": [
+     [
+      "Taxas cobradas neste período",
+      "48,600,000"
+     ]
+    ],
+    "note": "Exclui alunos bolsistas integrais."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Recebeu 39.852.000 nairas. Recebido dividido pelo faturado, vezes 100, é 82%.",
+    "Observe as exclusões. Se os bolsistas permanecerem no valor faturado, a taxa ficará pior e o proprietário poderá perseguir as famílias erradas."
+   ],
+   "card": {
+    "title": "Definição da taxa de cobrança de taxas",
+    "rows": [
+     [
+      "Taxas cobradas neste período",
+      "48,600,000"
+     ],
+     [
+      "Taxas recebidas neste período",
+      "39,852,000"
+     ]
+    ],
+    "note": "Exclui alunos bolsistas integrais."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Você não pode servir todas as decisões de uma vez. Pontue cada um com um valor de 1 a 5: quanto dinheiro, tempo ou risco depende disso."
+   ],
+   "panel": {
+    "kicker": "Priorizar",
+    "heading": "Valor da pontuação vezes viabilidade",
+    "items": [
+     "Valor 1 a 5: dinheiro, tempo ou risco em jogo",
+     "Viabilidade 1 a 5: dados prontos, fáceis de construir",
+     "Reordenação semanal: 5 x 4 = 20",
+     "Quarto depósito: 5 x 1 = 5, os dados funcionam primeiro"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Em seguida, avalie a viabilidade de 1 a 5: quão prontos estão os dados. Multiplique os dois para obter uma pontuação de 25."
+   ],
+   "panel": {
+    "kicker": "Priorizar",
+    "heading": "Valor da pontuação vezes viabilidade",
+    "items": [
+     "Valor 1 a 5: dinheiro, tempo ou risco em jogo",
+     "Viabilidade 1 a 5: dados prontos, fáceis de construir",
+     "Reordenação semanal: 5 x 4 = 20",
+     "Quarto depósito: 5 x 1 = 5, os dados funcionam primeiro"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Por exemplo, Chidi lidera o BI para um distribuidor de refrigerantes em Onitsha. A reordenação semanal pontua 5 vezes 4, que é 20."
+   ],
+   "panel": {
+    "kicker": "Priorizar",
+    "heading": "Valor da pontuação vezes viabilidade",
+    "items": [
+     "Valor 1 a 5: dinheiro, tempo ou risco em jogo",
+     "Viabilidade 1 a 5: dados prontos, fáceis de construir",
+     "Reordenação semanal: 5 x 4 = 20",
+     "Quarto depósito: 5 x 1 = 5, os dados funcionam primeiro"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Abrir um quarto depósito é valioso, mas os dados ainda não foram coletados, então a pontuação é 5. Em vez de um relatório, ele adiciona o início do registro das localizações dos varejistas ao plano de trabalho de dados."
+   ],
+   "panel": {
+    "kicker": "Priorizar",
+    "heading": "Valor da pontuação vezes viabilidade",
+    "items": [
+     "Valor 1 a 5: dinheiro, tempo ou risco em jogo",
+     "Viabilidade 1 a 5: dados prontos, fáceis de construir",
+     "Reordenação semanal: 5 x 4 = 20",
+     "Quarto depósito: 5 x 1 = 5, os dados funcionam primeiro"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Construa as pontuações mais altas primeiro.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Pessoas diferentes precisam de pontos de vista diferentes. A camada estratégica atende o proprietário ou conselho, mensal ou trimestralmente, com 5 a 8 números principais em relação às metas."
+   ],
+   "panel": {
+    "kicker": "Camadas de relatórios",
+    "heading": "Três níveis, não uma página lotada",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Estratégico",
+      "d": "Proprietário ou diretoria, mensal ou trimestralmente. 5 a 8 métricas de título em relação aos alvos, em uma página."
+     },
+     {
+      "t": "Tático",
+      "d": "Gerentes de filiais e departamentos, semanalmente. Análise por filial, produto ou representante: o que mudou e por quê."
+     },
+     {
+      "t": "Operacional",
+      "d": "Supervisores, diariamente. Listas para agir: estoque baixo, pagamentos atrasados, entregas de hoje."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "O nível tático atende semanalmente os gerentes, com detalhamentos que mostram o que mudou e por quê."
+   ],
+   "panel": {
+    "kicker": "Camadas de relatórios",
+    "heading": "Três níveis, não uma página lotada",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Estratégico",
+      "d": "Proprietário ou diretoria, mensal ou trimestralmente. 5 a 8 métricas de título em relação aos alvos, em uma página."
+     },
+     {
+      "t": "Tático",
+      "d": "Gerentes de filiais e departamentos, semanalmente. Análise por filial, produto ou representante: o que mudou e por quê."
+     },
+     {
+      "t": "Operacional",
+      "d": "Supervisores, diariamente. Listas para agir: estoque baixo, pagamentos atrasados, entregas de hoje."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "A camada operacional atende os supervisores diariamente, com listas e não gráficos. Esses 7 varejistas estão atrasados ​​há mais de 30 dias, ligue para eles hoje.",
+    "E vincule cada relatório a uma reunião fixa. Se ninguém puder nomear a reunião, questione se o relatório deveria existir."
+   ],
+   "panel": {
+    "kicker": "Camadas de relatórios",
+    "heading": "Três níveis, não uma página lotada",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Estratégico",
+      "d": "Proprietário ou diretoria, mensal ou trimestralmente. 5 a 8 métricas de título em relação aos alvos, em uma página."
+     },
+     {
+      "t": "Tático",
+      "d": "Gerentes de filiais e departamentos, semanalmente. Análise por filial, produto ou representante: o que mudou e por quê."
+     },
+     {
+      "t": "Operacional",
+      "d": "Supervisores, diariamente. Listas para agir: estoque baixo, pagamentos atrasados, entregas de hoje."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "O primeiro número errado envia os gestores de volta às suas planilhas privadas. Portanto, verifique seis coisas sempre que os dados forem atualizados: integridade, exclusividade, consistência, atualidade, validade e precisão.",
+    "Por exemplo, Hauwa encontra 30 IDs de membros duplicados em seu registro de 1.250 registros. Ela corrige os problemas na origem, não no relatório, para que não voltem no mês que vem."
+   ],
+   "panel": {
+    "kicker": "Qualidade dos dados",
+    "heading": "Seis verificações em cada atualização",
+    "items": [
+     "Completude: os valores estão presentes",
+     "Exclusividade: sem duplicatas",
+     "Consistência: sem contradições",
+     "Oportunidade: data de atualização em cada relatório",
+     "Validade: intervalo e formato corretos",
+     "Precisão: corresponde ao extrato bancário"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "O BI reúne os dados pessoais em um só lugar, o que aumenta o risco. Na Nigéria, a Lei de Protecção de Dados da Nigéria de 2023 criou a NDPC para fazer cumprir as regras de protecção de dados. Carregue apenas os campos pessoais que uma decisão realmente precisa."
+   ],
+   "panel": {
+    "kicker": "Proteja os dados das pessoas",
+    "heading": "Hábitos de proteção de dados",
+    "items": [
+     "Carregue apenas os campos pessoais necessários para uma decisão",
+     "Mostrar totais; nomes apenas em listas de ações",
+     "Conceder acesso por função",
+     "Nenhuma exportação bruta em grupos do WhatsApp",
+     "Senhas fortes e verificação em duas etapas"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Mostre os totais nos relatórios e mantenha os nomes e números de telefone apenas nas listas dos funcionários que devem agir de acordo com eles."
+   ],
+   "panel": {
+    "kicker": "Proteja os dados das pessoas",
+    "heading": "Hábitos de proteção de dados",
+    "items": [
+     "Carregue apenas os campos pessoais necessários para uma decisão",
+     "Mostrar totais; nomes apenas em listas de ações",
+     "Conceder acesso por função",
+     "Nenhuma exportação bruta em grupos do WhatsApp",
+     "Senhas fortes e verificação em duas etapas"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Um gerente de filial vê sua filial, não todos os clientes."
+   ],
+   "panel": {
+    "kicker": "Proteja os dados das pessoas",
+    "heading": "Hábitos de proteção de dados",
+    "items": [
+     "Carregue apenas os campos pessoais necessários para uma decisão",
+     "Mostrar totais; nomes apenas em listas de ações",
+     "Conceder acesso por função",
+     "Nenhuma exportação bruta em grupos do WhatsApp",
+     "Senhas fortes e verificação em duas etapas"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_security",
+   "say": [
+    "Não compartilhe exportações brutas em grupos do WhatsApp ou e-mails pessoais."
+   ],
+   "panel": {
+    "kicker": "Proteja os dados das pessoas",
+    "heading": "Hábitos de proteção de dados",
+    "items": [
+     "Carregue apenas os campos pessoais necessários para uma decisão",
+     "Mostrar totais; nomes apenas em listas de ações",
+     "Conceder acesso por função",
+     "Nenhuma exportação bruta em grupos do WhatsApp",
+     "Senhas fortes e verificação em duas etapas"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_security",
+   "say": [
+    "Use senhas fortes e verificação em duas etapas e remova o acesso no dia em que alguém sair. As listas de clientes são valiosas para os fraudadores, portanto, primeiro confirme qualquer pessoa que alegue ser um banco ou suporte de TI por meio de um contato oficial conhecido."
+   ],
+   "panel": {
+    "kicker": "Proteja os dados das pessoas",
+    "heading": "Hábitos de proteção de dados",
+    "items": [
+     "Carregue apenas os campos pessoais necessários para uma decisão",
+     "Mostrar totais; nomes apenas em listas de ações",
+     "Conceder acesso por função",
+     "Nenhuma exportação bruta em grupos do WhatsApp",
+     "Senhas fortes e verificação em duas etapas"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Nunca envie listas de clientes para alguém que apenas liga ou conversa.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Para lembrar. Avalie suas fontes. Escreva cada métrica com suas exclusões e um proprietário. Construa as pontuações mais altas primeiro.",
+    "Use três níveis vinculados a reuniões, fixe a qualidade na fonte e proteja os dados pessoais."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Lembre-se",
+    "items": [
+     "Classifique as fontes quanto ao acesso, qualidade, frequência",
+     "Cada métrica: fórmula, exclusões, um proprietário",
+     "Valor vezes viabilidade define a ordem",
+     "Três níveis, cada um vinculado a uma reunião",
+     "Fixe a qualidade na fonte; proteger dados pessoais"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Agora mapeie suas fontes e defina duas métricas, projete uma estrutura de relatórios e escreva um plano de governança de uma página.",
+    "Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Pratique tarefas",
+    "heading": "Suas tarefas práticas",
+    "items": [
+     "Mapeie fontes e defina duas métricas",
+     "Projete uma estrutura de relatórios",
+     "Escreva um plano de governança de uma página"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

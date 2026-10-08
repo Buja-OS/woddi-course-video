@@ -1,0 +1,620 @@
+{
+ "course": "production-scaling-quality-assurance",
+ "module": "m1",
+ "title": "Making a product ready to scale",
+ "course_title": "Production Scaling & Quality Assurance",
+ "shots": [
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Making a product ready to scale.",
+    "This is the video for module 1 of Production Scaling and Quality Assurance."
+   ]
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "When you make ten times more, three things change. The amounts, which you can calculate."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Not simply ten times everything",
+    "items": [
+     "Amounts: you can calculate them",
+     "Losses: you must measure them",
+     "Process: heat and mixing change",
+     "Prove it with a pilot run"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "The losses, which you must measure."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Not simply ten times everything",
+    "items": [
+     "Amounts: you can calculate them",
+     "Losses: you must measure them",
+     "Process: heat and mixing change",
+     "Prove it with a pilot run"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "And the behaviour of the process. Mixing, heating and cooling take longer with more material."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Not simply ten times everything",
+    "items": [
+     "Amounts: you can calculate them",
+     "Losses: you must measure them",
+     "Process: heat and mixing change",
+     "Prove it with a pilot run"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "So in this module you work out your numbers, check how much your output varies, and prove the bigger batch with a pilot run."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Not simply ten times everything",
+    "items": [
+     "Amounts: you can calculate them",
+     "Losses: you must measure them",
+     "Process: heat and mixing change",
+     "Prove it with a pilot run"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Cups, tins and one small sachet change from day to day. Use a digital scale that reads to 1 g, and weigh every ingredient, including liquids and eggs."
+   ],
+   "panel": {
+    "kicker": "Know your recipe",
+    "heading": "Weights, percentages and yield",
+    "items": [
+     "Weigh everything, even eggs and water",
+     "Formula %: ingredient / total x 100",
+     "Yield: sellable / input x 100",
+     "Measure packing loss separately"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Divide each weight by the total and multiply by 100. These formula percentages do not change with batch size. They are your product's identity."
+   ],
+   "panel": {
+    "kicker": "Know your recipe",
+    "heading": "Weights, percentages and yield",
+    "items": [
+     "Weigh everything, even eggs and water",
+     "Formula %: ingredient / total x 100",
+     "Yield: sellable / input x 100",
+     "Measure packing loss separately"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Yield is how much sellable product you get from what you put in. Frying and baking lose water, and some pieces break or burn, so measure it on two or three test batches. One batch can be lucky."
+   ],
+   "panel": {
+    "kicker": "Know your recipe",
+    "heading": "Weights, percentages and yield",
+    "items": [
+     "Weigh everything, even eggs and water",
+     "Formula %: ingredient / total x 100",
+     "Yield: sellable / input x 100",
+     "Measure packing loss separately"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Then measure packing loss: spillage, samples, and packs that fail the seal check."
+   ],
+   "panel": {
+    "kicker": "Know your recipe",
+    "heading": "Weights, percentages and yield",
+    "items": [
+     "Weigh everything, even eggs and water",
+     "Formula %: ingredient / total x 100",
+     "Yield: sellable / input x 100",
+     "Measure packing loss separately"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "For example, Kemi in Ibadan sells chin-chin in 250 g packs. A school wants 400 packs. That is 100,000 g of finished product."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Kemi: 400 packs of chin-chin",
+    "items": [
+     "400 x 250 g = 100,000 g of product",
+     "Packing loss 2%: make 102,041 g",
+     "Yield 85%: prepare 120,048 g dough",
+     "Multiplier 70.6: 70.6 kg flour",
+     "Round up: 8 loads of 9 kg = 72 kg"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Her packing loss is 2%, so she must make about 102,041 g."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Kemi: 400 packs of chin-chin",
+    "items": [
+     "400 x 250 g = 100,000 g of product",
+     "Packing loss 2%: make 102,041 g",
+     "Yield 85%: prepare 120,048 g dough",
+     "Multiplier 70.6: 70.6 kg flour",
+     "Round up: 8 loads of 9 kg = 72 kg"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Her measured yield is 85%, so she needs about 120,048 g of dough."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Kemi: 400 packs of chin-chin",
+    "items": [
+     "400 x 250 g = 100,000 g of product",
+     "Packing loss 2%: make 102,041 g",
+     "Yield 85%: prepare 120,048 g dough",
+     "Multiplier 70.6: 70.6 kg flour",
+     "Round up: 8 loads of 9 kg = 72 kg"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Her test dough weighs 1,700 g, so the multiplier is 70.6. That means 70.6 kg of flour."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Kemi: 400 packs of chin-chin",
+    "items": [
+     "400 x 250 g = 100,000 g of product",
+     "Packing loss 2%: make 102,041 g",
+     "Yield 85%: prepare 120,048 g dough",
+     "Multiplier 70.6: 70.6 kg flour",
+     "Round up: 8 loads of 9 kg = 72 kg"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Her rented mixer takes up to 10 kg of flour, so she rounds up to 8 equal loads of 9 kg. That gives about 407 packs.",
+    "She first guessed 40 kg of flour by doubling up. The arithmetic saved the order."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Kemi: 400 packs of chin-chin",
+    "items": [
+     "400 x 250 g = 100,000 g of product",
+     "Packing loss 2%: make 102,041 g",
+     "Yield 85%: prepare 120,048 g dough",
+     "Multiplier 70.6: 70.6 kg flour",
+     "Round up: 8 loads of 9 kg = 72 kg"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Work backwards from what the buyer receives.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Large quantities of hot oil are dangerous. Keep the fryer on a stable, level surface away from children, never leave it unattended, keep a lid or fire blanket near, and never pour water on burning oil."
+   ],
+   "panel": {
+    "kicker": "Safety",
+    "heading": "Bigger batches, bigger hazards",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Hot oil",
+      "d": "Stable, level surface. Never unattended. Lid or fire blanket near. Never water on burning oil."
+     },
+     {
+      "t": "Heavy loads",
+      "d": "Lift heavy bags and pots with bent knees or with help."
+     },
+     {
+      "t": "Food hygiene",
+      "d": "Wash hands and cover hair. Keep raw eggs away from finished product."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Lift heavy bags and pots with bent knees, or with help."
+   ],
+   "panel": {
+    "kicker": "Safety",
+    "heading": "Bigger batches, bigger hazards",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Hot oil",
+      "d": "Stable, level surface. Never unattended. Lid or fire blanket near. Never water on burning oil."
+     },
+     {
+      "t": "Heavy loads",
+      "d": "Lift heavy bags and pots with bent knees or with help."
+     },
+     {
+      "t": "Food hygiene",
+      "d": "Wash hands and cover hair. Keep raw eggs away from finished product."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Wash hands and cover hair before handling food, and keep raw eggs away from finished product."
+   ],
+   "panel": {
+    "kicker": "Safety",
+    "heading": "Bigger batches, bigger hazards",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Hot oil",
+      "d": "Stable, level surface. Never unattended. Lid or fire blanket near. Never water on burning oil."
+     },
+     {
+      "t": "Heavy loads",
+      "d": "Lift heavy bags and pots with bent knees or with help."
+     },
+     {
+      "t": "Food hygiene",
+      "d": "Wash hands and cover hair. Keep raw eggs away from finished product."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "No two items are exactly the same. That difference is variation, and scaling multiplies it. For example, Ruth in Oyo packs yam flour in 1 kg bags. Never below 1,000 g, and not above 1,030 g."
+   ],
+   "panel": {
+    "kicker": "Variation",
+    "heading": "Ruth's 1 kg bags of yam flour",
+    "items": [
+     "Spec: 1,000 g to 1,030 g",
+     "25 bags: average 1,007.08 g",
+     "Standard deviation: 3.21 g",
+     "Cp 1.56: spread is fine",
+     "Cpk 0.74: target too close to 1,000 g"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "She weighs 25 bags from a normal morning. The average is 1,007.08 g."
+   ],
+   "panel": {
+    "kicker": "Variation",
+    "heading": "Ruth's 1 kg bags of yam flour",
+    "items": [
+     "Spec: 1,000 g to 1,030 g",
+     "25 bags: average 1,007.08 g",
+     "Standard deviation: 3.21 g",
+     "Cp 1.56: spread is fine",
+     "Cpk 0.74: target too close to 1,000 g"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Her spreadsheet's standard deviation, the typical distance from the average, is 3.21 g."
+   ],
+   "panel": {
+    "kicker": "Variation",
+    "heading": "Ruth's 1 kg bags of yam flour",
+    "items": [
+     "Spec: 1,000 g to 1,030 g",
+     "25 bags: average 1,007.08 g",
+     "Standard deviation: 3.21 g",
+     "Cp 1.56: spread is fine",
+     "Cpk 0.74: target too close to 1,000 g"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Cp compares the spread with the specification. Hers is 1.56, so the spread would fit if it were centred."
+   ],
+   "panel": {
+    "kicker": "Variation",
+    "heading": "Ruth's 1 kg bags of yam flour",
+    "items": [
+     "Spec: 1,000 g to 1,030 g",
+     "25 bags: average 1,007.08 g",
+     "Standard deviation: 3.21 g",
+     "Cp 1.56: spread is fine",
+     "Cpk 0.74: target too close to 1,000 g"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "But Cpk, which checks the nearer limit, is only 0.74. Her target sits too close to 1,000 g, so some underweight bags are expected.",
+    "Moving the target to 1,012 g lifts Cpk to 1.25. A fixed-volume scoop and a fine top-up spoon is the cheaper long-term fix. And 25 values is only a first look."
+   ],
+   "panel": {
+    "kicker": "Variation",
+    "heading": "Ruth's 1 kg bags of yam flour",
+    "items": [
+     "Spec: 1,000 g to 1,030 g",
+     "25 bags: average 1,007.08 g",
+     "Standard deviation: 3.21 g",
+     "Cp 1.56: spread is fine",
+     "Cpk 0.74: target too close to 1,000 g"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Never fix underweight by guessing. Raise the target first.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "A pilot run is a full-size batch under real conditions, before you promise volume. Write its purpose and pass criteria in numbers, such as yield at least 83%."
+   ],
+   "panel": {
+    "kicker": "Pilot run",
+    "heading": "Write the plan before the day",
+    "items": [
+     "Purpose",
+     "Pass criteria in numbers",
+     "Roles: one person only observes",
+     "What to record",
+     "Stop rules"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Give roles. One person, often you, only watches and times."
+   ],
+   "panel": {
+    "kicker": "Pilot run",
+    "heading": "Write the plan before the day",
+    "items": [
+     "Purpose",
+     "Pass criteria in numbers",
+     "Roles: one person only observes",
+     "What to record",
+     "Stop rules"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Record times, temperatures and weights, and agree stop rules, like oil smoking. Then do a first-article check: inspect the first few items against every point before making the rest."
+   ],
+   "panel": {
+    "kicker": "Pilot run",
+    "heading": "Write the plan before the day",
+    "items": [
+     "Purpose",
+     "Pass criteria in numbers",
+     "Roles: one person only observes",
+     "What to record",
+     "Stop rules"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Kemi pilots three 9 kg loads. The first-article check catches thick dough on load 1. Load 2 goes to plan. On load 3, Tolu rushes and almost doubles the wok load. The oil cools and the chin-chin turns pale and oily."
+   ],
+   "panel": {
+    "kicker": "Kemi's pilot",
+    "heading": "Fix and repeat, not go",
+    "mode": "compare",
+    "left_h": "What happened",
+    "left": [
+     "Load 1: dough too thick, 84%",
+     "Load 2: all to plan, 86%",
+     "Load 3: wok overfilled, 79%"
+    ],
+    "right_h": "What changed",
+    "right": [
+     "Cutting guide set and recorded",
+     "A marked bowl for each wok load",
+     "Kitchen timer for each load",
+     "Loads 4 and 5: 85% and 86%"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "In a same-day debrief she asks what we planned, what happened, why, and what we will change. She adds a marked bowl and a timer, changing one thing at a time.",
+    "Only after three loads in a row pass does she accept the order."
+   ],
+   "panel": {
+    "kicker": "Kemi's pilot",
+    "heading": "Fix and repeat, not go",
+    "mode": "compare",
+    "left_h": "What happened",
+    "left": [
+     "Load 1: dough too thick, 84%",
+     "Load 2: all to plan, 86%",
+     "Load 3: wok overfilled, 79%"
+    ],
+    "right_h": "What changed",
+    "right": [
+     "Cutting guide set and recorded",
+     "A marked bowl for each wok load",
+     "Kitchen timer for each load",
+     "Loads 4 and 5: 85% and 86%"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "To remember. Weigh and use percentages. Measure yield and losses. Work backwards from the order. Check your spread and your centre. And go only when several pilot runs in a row pass."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "Formula percentages are your product's identity",
+     "Measure yield and packing loss",
+     "Work backwards from packs to flour",
+     "Low Cpk: move target; low Cp: reduce spread",
+     "Go only after several passing runs"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Your turn. Build a scale-up sheet from a weighed batch, measure 25 items and work out Cp and Cpk, then plan and run a pilot with a debrief.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice tasks",
+    "heading": "Your practice tasks",
+    "items": [
+     "Build your scale-up sheet",
+     "Run your first capability check",
+     "Plan and run your pilot"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

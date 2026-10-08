@@ -1,0 +1,449 @@
+{
+ "course": "core-excel-for-small-business",
+ "module": "m3",
+ "title": "Tsaftace bayanai, jimillar nau'ikan da jadawalin da ke faɗi gaskiya",
+ "course_title": "Excel da Google Sheets don Ƙananan Kasuwanci",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Tsaftace bayanai, jimlar rukuni, da jadawali waɗanda ke faɗi gaskiya.",
+    "Wannan bidiyon ne don Module 3 na Excel da Google Sheets don Ƙananan Kasuwanci."
+   ]
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Bayan ƴan makonni na shigarwa, zaku buƙaci amsoshi. Menene manyan tallace-tallace na? Nawa na kashe akan sufuri?",
+    "Rarraba, tacewa da jeri-jefi-zazzage suna sa bayananku su daidaita yayin da suke girma."
+   ],
+   "panel": {
+    "kicker": "A cikin wannan module",
+    "heading": "Juya bayanan zuwa shaida",
+    "items": [
+     "Tsara da tace ba tare da karya layuka ba",
+     "Lissafin saukarwa yana dakatar da kurakuran rubutu",
+     "SUMIF jimlar ta kashi da abokin ciniki",
+     "Jadawalin da ke amsa tambaya ɗaya"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Sannan SUMIF da ginshiƙi suna juyar da waɗannan bayanan zuwa shaidar yadda kasuwancin ku ke gudana."
+   ],
+   "panel": {
+    "kicker": "A cikin wannan module",
+    "heading": "Juya bayanan zuwa shaida",
+    "items": [
+     "Tsara da tace ba tare da karya layuka ba",
+     "Lissafin saukarwa yana dakatar da kurakuran rubutu",
+     "SUMIF jimlar ta kashi da abokin ciniki",
+     "Jadawalin da ke amsa tambaya ɗaya"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Don warwarewa, matsa kowane tantanin halitta guda ɗaya a cikin bayanan ku, sannan zaɓi Data, Tsara, kuma yi alama cewa bayananku suna da kanun labarai. Sannan zaɓi ginshiƙi da tsari, kamar mafi girma na farko."
+   ],
+   "panel": {
+    "kicker": "A tsara lafiya",
+    "heading": "Tsara duka kewayo, ba shafi ɗaya ba",
+    "mode": "compare",
+    "left_h": "Yi wannan",
+    "left": [
+     "Matsa tantanin halitta ɗaya a cikin bayanan ku",
+     "Bayanai, Tsara, tare da alamar kai",
+     "Karɓa Fadada zaɓi"
+    ],
+    "right_h": "Kada wannan",
+    "right": [
+     "Zaɓi ginshiƙin Adadi kawai",
+     "A ware shi kadai",
+     "Adadi suna motsawa, abubuwa suna tsayawa a baya"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Ga kuskuren gama gari. Idan ka zaɓi ginshiƙin Adadi kawai kuma ka tsara shi, adadin yana motsawa amma kwanakin da abubuwan da ke gefen su ba sa. Kowane jere yanzu ba daidai ba ne.",
+    "Excel yana faɗakar da ku kuma yana ba da Fadada zaɓi. Koyaushe yarda da shi. Idan ta faru, gyara kai tsaye."
+   ],
+   "panel": {
+    "kicker": "A tsara lafiya",
+    "heading": "Tsara duka kewayo, ba shafi ɗaya ba",
+    "mode": "compare",
+    "left_h": "Yi wannan",
+    "left": [
+     "Matsa tantanin halitta ɗaya a cikin bayanan ku",
+     "Bayanai, Tsara, tare da alamar kai",
+     "Karɓa Fadada zaɓi"
+    ],
+    "right_h": "Kada wannan",
+    "right": [
+     "Zaɓi ginshiƙin Adadi kawai",
+     "A ware shi kadai",
+     "Adadi suna motsawa, abubuwa suna tsayawa a baya"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Halima tana zargin sufuri yana cin ribarta. Tace tana boye layuka bata bukata na wani lokaci.",
+    "Ta danna kibiya akan Rukunin kuma ta danna Transport kawai."
+   ],
+   "card": {
+    "title": "Kudin safarar Halima",
+    "rows": [],
+    "note": "SUBTOTAL(9, kewayo) yana ƙara layukan bayyane kawai."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Layukan 4 sun rage. Sama da kanun labarai tana da SUBTOTAL, 9, sannan Adadin ta. Na 9 ya ce a ƙara."
+   ],
+   "card": {
+    "title": "Kudin safarar Halima",
+    "rows": [
+     [
+      "Tafiya 1",
+      "2,500"
+     ],
+     [
+      "Tafiya 2",
+      "3,000"
+     ],
+     [
+      "Tafiya 3",
+      "1,500"
+     ],
+     [
+      "Tafiya 4",
+      "4,000"
+     ]
+    ],
+    "note": "SUBTOTAL(9, kewayo) yana ƙara layukan bayyane kawai."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Sufuri yana zuwa naira 11000. SUM har yanzu zai ƙara duk layuka 40, wanda shine dalilin da yasa SUBTOTAL shine kayan aikin da ya dace lokacin tacewa. Share tace idan kun gama."
+   ],
+   "card": {
+    "title": "Kudin safarar Halima",
+    "rows": [
+     [
+      "Tafiya 1",
+      "2,500"
+     ],
+     [
+      "Tafiya 2",
+      "3,000"
+     ],
+     [
+      "Tafiya 3",
+      "1,500"
+     ],
+     [
+      "Tafiya 4",
+      "4,000"
+     ]
+    ],
+    "note": "SUBTOTAL(9, kewayo) yana ƙara layukan bayyane kawai."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Na gaba, jerin abubuwan da aka saukar. Zaɓi gabaɗayan ginshiƙin Nau'in, ƙarƙashin taken."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Ƙara jerin zaɓuka",
+    "items": [
+     "Zaɓi gabaɗayan ginshiƙin Nau'in da ke ƙasan taken",
+     "Excel: Bayanai, Tabbatar da Bayanai, Lissafi",
+     "Sheets: Saka, Dropdown",
+     "Zabuka: Siyarwa, Kudade",
+     "Yi haka don Category"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "A cikin Excel zaɓi Data, Data Validation, kuma a ƙarƙashin Allow pick List. A cikin Google Sheets zaɓi Saka, Zazzagewa."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Ƙara jerin zaɓuka",
+    "items": [
+     "Zaɓi gabaɗayan ginshiƙin Nau'in da ke ƙasan taken",
+     "Excel: Bayanai, Tabbatar da Bayanai, Lissafi",
+     "Sheets: Saka, Dropdown",
+     "Zabuka: Siyarwa, Kudade",
+     "Yi haka don Category"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Ƙara zaɓuɓɓukan Siyarwa da Kuɗi. Sa'an nan kuma yi haka don Rukunin, tare da lissafin ku, kamar Kayan Abinci, Gas, Marufi da Sufuri."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Ƙara jerin zaɓuka",
+    "items": [
+     "Zaɓi gabaɗayan ginshiƙin Nau'in da ke ƙasan taken",
+     "Excel: Bayanai, Tabbatar da Bayanai, Lissafi",
+     "Sheets: Saka, Dropdown",
+     "Zabuka: Siyarwa, Kudade",
+     "Yi haka don Category"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Me yasa wannan ya shafi? IF, SUMIF da COUNTIF rubutu daidai. Jeri yana sa kowane shigarwa ya zama iri ɗaya, don haka ba za su taɓa yin shuru ba a jere."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Ƙara jerin zaɓuka",
+    "items": [
+     "Zaɓi gabaɗayan ginshiƙin Nau'in da ke ƙasan taken",
+     "Excel: Bayanai, Tabbatar da Bayanai, Lissafi",
+     "Sheets: Saka, Dropdown",
+     "Zabuka: Siyarwa, Kudade",
+     "Yi haka don Category"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Rubutun iri ɗaya kowane lokaci, don haka dabarun ku ba za su rasa jere ba",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Tace suna amsa tambaya daya lokaci guda. SUMIF yana amsa shi har abada.",
+    "Tsarin shine SUMIF, kewayon dubawa, yanayin, sannan kewayon don ƙarawa. Bisi tana sanya alamun dala a kan jeri biyu don ta iya kwafi dabarar cikin jerin rukunan ta."
+   ],
+   "card": {
+    "title": "Kudaden Bisi ta rukuni",
+    "rows": [],
+    "note": "Jimillar nau'in dole ne a haɗa shi zuwa jimillar gabaɗaya."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Kayan abinci naira 67000 ne. Gas shine 9000, marufi 10500, da sufuri 6000. COUNTIF yana ƙididdige yawan shigarwar kowane ɗayan."
+   ],
+   "card": {
+    "title": "Kudaden Bisi ta rukuni",
+    "rows": [
+     [
+      "Kayan abinci, shigarwar 2",
+      "67,000"
+     ],
+     [
+      "Gas, 1 shigarwa",
+      "9,000"
+     ],
+     [
+      "Marufi, 2 shigarwa",
+      "10,500"
+     ],
+     [
+      "Transport, 3 shigarwar",
+      "6,000"
+     ]
+    ],
+    "note": "Jimillar nau'in dole ne a haɗa shi zuwa jimillar gabaɗaya."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Jimlar ita ce 92500, kuma ya yi daidai da SUM na ginshiƙin Adadin ta gabaɗaya. Koyaushe yin wannan binciken giciye. Idan sun bambanta, nau'in yana ɓacewa ko ɓacewa."
+   ],
+   "card": {
+    "title": "Kudaden Bisi ta rukuni",
+    "rows": [
+     [
+      "Kayan abinci, shigarwar 2",
+      "67,000"
+     ],
+     [
+      "Gas, 1 shigarwa",
+      "9,000"
+     ],
+     [
+      "Marufi, 2 shigarwa",
+      "10,500"
+     ],
+     [
+      "Transport, 3 shigarwar",
+      "6,000"
+     ]
+    ],
+    "note": "Jimillar nau'in dole ne a haɗa shi zuwa jimillar gabaɗaya."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Kyakkyawan ginshiƙi yana amsa tambaya ɗaya. Taswirar layi yana nuna canji akan lokaci. ginshiƙi yana kwatanta. Kek yana nuna hannun jari na gaba ɗaya, tare da yanka kusan biyar kawai."
+   ],
+   "panel": {
+    "kicker": "Charts",
+    "heading": "Zaɓi ginshiƙi don tambayar",
+    "items": [
+     "Canja kan lokaci: ginshiƙi na layi",
+     "Kwatanta watanni ko samfura: ginshiƙi",
+     "Rabon kashewa: kek, kamar yanka 5",
+     "Take ya bayyana saƙon, an nuna raka'a",
+     "ginshiƙai suna farawa daga sifili"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Misali, Funke a Abeokuta ta tsara tallace-tallace na watanni shida. Takenta ya ce tallace-tallace ya tashi da kashi 50% daga Yuli zuwa Disamba, ba kawai Chart 1 ba.",
+    "Kuma fara ginshiƙi akan sifili. Axis farawa sama yana sa ƙaramin tashi yayi girma."
+   ],
+   "panel": {
+    "kicker": "Charts",
+    "heading": "Zaɓi ginshiƙi don tambayar",
+    "items": [
+     "Canja kan lokaci: ginshiƙi na layi",
+     "Kwatanta watanni ko samfura: ginshiƙi",
+     "Rabon kashewa: kek, kamar yanka 5",
+     "Take ya bayyana saƙon, an nuna raka'a",
+     "ginshiƙai suna farawa daga sifili"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Idan ka sayar akan bashi, SUMIF akan ginshiƙin da ba a biya ba yana ba da jimilar bashin da kake bi.",
+    "Amma sunaye, lambobin waya da basussuka bayanan sirri ne. Dokar Kare Bayanai ta Najeriya 2023 tana tsammanin ku tattara abin da kuke buƙata kawai ku kiyaye shi."
+   ],
+   "panel": {
+    "kicker": "Kare mutane",
+    "heading": "Bayanan abokin ciniki bayanan sirri ne",
+    "items": [
+     "Tattara abin da kuke buƙata kawai",
+     "Ƙuntata wanda zai iya buɗe fayil ɗin",
+     "Raba jimlar, ba lissafin abokin ciniki ba"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Raba jimlar a cikin ƙungiyoyi, ba lissafin abokin ciniki ba. Kuma kada ku sanya jerin masu bi bashi a bainar jama'a don kunyata abokan ciniki."
+   ],
+   "panel": {
+    "kicker": "Kare mutane",
+    "heading": "Bayanan abokin ciniki bayanan sirri ne",
+    "items": [
+     "Tattara abin da kuke buƙata kawai",
+     "Ƙuntata wanda zai iya buɗe fayil ɗin",
+     "Raba jimlar, ba lissafin abokin ciniki ba"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Kar a taɓa buga jerin masu bi bashi a bainar jama'a don kunyata abokan ciniki",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Don tunawa. Tsara duka kewayon. Yi amfani da SUBTOTAL lokacin tacewa. Sauke-ƙasa suna ci gaba da rubutun rubutu iri ɗaya.",
+    "Bincika jimlar rukunin ya dace da babban jimillar. Kuma ba kowane ginshiƙi tambaya ɗaya, bayyanannen take, da axis daga sifili."
+   ],
+   "panel": {
+    "kicker": "Mabuɗin mahimmanci",
+    "heading": "Ka tuna",
+    "items": [
+     "Tsara duka kewayo, ba shafi ɗaya ba",
+     "SUBTOTAL jimlar layukan bayyane kawai",
+     "Sauke-ƙasa suna ci gaba da rubutun rubutu iri ɗaya",
+     "Jimlar rukuni dole ne ya dace da jimillar jimillar",
+     "Tambaya ɗaya a kowace ginshiƙi, axis daga sifili"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Yanzu juzu'in ku. Shirya tracker ɗinku tare da jerin abubuwan da aka saukar, gina Takaitawa shafin tare da SUMIF, kuma ku yi taswira biyu masu taken saƙon.",
+    "Ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi aiki",
+    "heading": "Ayyukan aikin ku",
+    "items": [
+     "Shirya tracker ɗinku tare da saukarwa",
+     "Yi Takaitaccen shafin tare da SUMIF",
+     "Jadawalin kasuwancin ku"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}
