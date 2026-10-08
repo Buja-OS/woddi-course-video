@@ -7,7 +7,6 @@ pip install -q -e yarngpt 2>&1 | tail -1 || true
 curl -sSL -o wavtokenizer_mediumdata_frame75_3s_nq1_code4096_dim512_kmeans200_attn.yaml https://huggingface.co/novateur/WavTokenizer-medium-speech-75token/resolve/main/wavtokenizer_mediumdata_frame75_3s_nq1_code4096_dim512_kmeans200_attn.yaml
 curl -sSL -o wavtokenizer_large_speech_320_24k.ckpt https://huggingface.co/novateur/WavTokenizer-large-speech-75token/resolve/main/wavtokenizer_large_speech_320_24k.ckpt
 ls -la *.ckpt *.yaml
-python3 yarn_test.py 2>&1 | grep -E "OK|FAIL|speakers|Error|error" | head -30
+TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD=1 python3 yarn_test.py 2>&1 | grep -E "OK|FAIL|speakers|Error|error" | head -30
 cp -r out/* $GITHUB_WORKSPACE/out/ 2>/dev/null; true
-# HF search for better TTS per language
-for q in swahili-tts swahili arabic-tts yoruba-tts hausa-tts igbo-tts; do curl -s "https://huggingface.co/api/models?search=$q&filter=text-to-speech&sort=downloads&limit=15" | python3 -c "import json,sys;print('$q',[(m['id'],m.get('downloads')) for m in json.load(sys.stdin)])"; done
+bash probe_models.sh

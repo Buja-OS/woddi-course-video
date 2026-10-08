@@ -1,0 +1,3 @@
+for m in mussacharles60/swahili-tts-female-voice CLEAR-Global/TWB-Voice-Hausa-TTS-1.0 adab-tech/murya-piper-hausa-tts multilingual-tts/VITS-OpenBible-Yoruba multilingual-tts/VITS-OpenBible-Igbo multilingual-tts/VITS-OpenBible-Swahili multilingual-tts/VITS-OpenBible-Arabic-Standard LyngualLabs/YorubaEnglish-CodeSwitching-TTS ImhotepAI/yoruba-tts; do
+  echo "== $m"; curl -s "https://huggingface.co/api/models/$m" | python3 -c "import json,sys;d=json.load(sys.stdin);print(d.get('library_name'),d.get('pipeline_tag'),[s['rfilename'] for s in d.get('siblings',[])][:15], (d.get('cardData') or {}).get('license'))"
+done
