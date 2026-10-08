@@ -1,0 +1,582 @@
+{
+ "course": "power-bi-tableau",
+ "module": "m2",
+ "title": "Nettoyez-le, disposez-le, puis vérifiez chaque numéro",
+ "course_title": "Power BI et Tableau : tableaux de bord professionnels interactifs",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Nettoyez-le, disposez-le, puis vérifiez chaque numéro.",
+    "Il s'agit de la vidéo du module deux de Power BI et Tableau : création, test et fourniture de tableaux de bord."
+   ]
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Des analystes expérimentés affirment que la majeure partie d'un projet de tableau de bord est consacrée à la préparation des données. Les exportations arrivent avec des lignes de titre, des orthographes mixtes, des lignes vides et des nombres stockés sous forme de texte."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "La plupart du travail ne concerne pas les graphiques",
+    "items": [
+     "Les vraies exportations arrivent en désordre",
+     "Nettoyer avec des étapes qui se répètent chaque mois",
+     "Esquissez un filaire avant de construire",
+     "Un mauvais numéro perd toute confiance"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Vous apprendrez à nettoyer les données d'une manière qui se répète automatiquement chaque mois."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "La plupart du travail ne concerne pas les graphiques",
+    "items": [
+     "Les vraies exportations arrivent en désordre",
+     "Nettoyer avec des étapes qui se répètent chaque mois",
+     "Esquissez un filaire avant de construire",
+     "Un mauvais numéro perd toute confiance"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Ensuite, vous esquissez la mise en page avant de toucher l'outil."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "La plupart du travail ne concerne pas les graphiques",
+    "items": [
+     "Les vraies exportations arrivent en désordre",
+     "Nettoyer avec des étapes qui se répètent chaque mois",
+     "Esquissez un filaire avant de construire",
+     "Un mauvais numéro perd toute confiance"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Et vous vérifiez chaque numéro, car un tableau de bord qui affiche un mauvais numéro perd la confiance du spectateur dans tous les autres numéros."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "La plupart du travail ne concerne pas les graphiques",
+    "items": [
+     "Les vraies exportations arrivent en désordre",
+     "Nettoyer avec des étapes qui se répètent chaque mois",
+     "Esquissez un filaire avant de construire",
+     "Un mauvais numéro perd toute confiance"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Dans Power BI, ouvrez l’éditeur Power Query. Chaque modification est enregistrée dans les étapes appliquées et s'exécute à nouveau lorsque vous cliquez sur Actualiser. Dans Tableau, utilisez la page Source de données et l'Interpréteur de données.",
+    "Tout d’abord, supprimez les lignes de titre et les lignes vides."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "La liste de contrôle de nettoyage standard",
+    "items": [
+     "Supprimer le titre et les lignes vides",
+     "Promouvoir les en-têtes, définir les types de données",
+     "Coupez les espaces, corrigez les orthographes",
+     "Supprimer les vrais doublons",
+     "Annuler le pivotement des colonnes de mois",
+     "Vérifier le nombre de lignes et les totaux"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Utilisez la première ligne comme en-têtes et définissez le type de données de chaque colonne afin que les montants soient des nombres et non du texte."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "La liste de contrôle de nettoyage standard",
+    "items": [
+     "Supprimer le titre et les lignes vides",
+     "Promouvoir les en-têtes, définir les types de données",
+     "Coupez les espaces, corrigez les orthographes",
+     "Supprimer les vrais doublons",
+     "Annuler le pivotement des colonnes de mois",
+     "Vérifier le nombre de lignes et les totaux"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Coupez les espaces et corrigez l'orthographe pour qu'Abuja, ABUJA et Abj deviennent une seule valeur."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "La liste de contrôle de nettoyage standard",
+    "items": [
+     "Supprimer le titre et les lignes vides",
+     "Promouvoir les en-têtes, définir les types de données",
+     "Coupez les espaces, corrigez les orthographes",
+     "Supprimer les vrais doublons",
+     "Annuler le pivotement des colonnes de mois",
+     "Vérifier le nombre de lignes et les totaux"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Supprimez les vrais doublons, tels que la même ligne de facture exportée deux fois."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "La liste de contrôle de nettoyage standard",
+    "items": [
+     "Supprimer le titre et les lignes vides",
+     "Promouvoir les en-têtes, définir les types de données",
+     "Coupez les espaces, corrigez les orthographes",
+     "Supprimer les vrais doublons",
+     "Annuler le pivotement des colonnes de mois",
+     "Vérifier le nombre de lignes et les totaux"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Dépivotez les colonnes de mois en lignes, afin que les spectateurs puissent filtrer par mois. Par exemple, Tunde a transformé 40 catégories par colonnes de 12 mois en 480 lignes."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "La liste de contrôle de nettoyage standard",
+    "items": [
+     "Supprimer le titre et les lignes vides",
+     "Promouvoir les en-têtes, définir les types de données",
+     "Coupez les espaces, corrigez les orthographes",
+     "Supprimer les vrais doublons",
+     "Annuler le pivotement des colonnes de mois",
+     "Vérifier le nombre de lignes et les totaux"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Alors vérifiez. L'éditeur de Tunde a affiché 480 lignes, et le total général correspondait toujours à la feuille originale, donc rien n'a été perdu.",
+    "La règle : ne jamais réparer le fichier brut à la main. Le mois prochain, les mêmes problèmes reviennent. Gardez les fichiers bruts intacts et laissez les étapes enregistrées faire le nettoyage."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "La liste de contrôle de nettoyage standard",
+    "items": [
+     "Supprimer le titre et les lignes vides",
+     "Promouvoir les en-têtes, définir les types de données",
+     "Coupez les espaces, corrigez les orthographes",
+     "Supprimer les vrais doublons",
+     "Annuler le pivotement des colonnes de mois",
+     "Vérifier le nombre de lignes et les totaux"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "rule": "Ne nettoyez jamais le fichier brut à la main. Laissez les étapes enregistrées le faire.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Les noms, numéros de téléphone et détails de compte des clients relèvent de la loi nigériane sur la protection des données de 2023.",
+    "Si une colonne n'est pas nécessaire pour répondre aux questions du tableau de bord, supprimez-la lors de votre toute première étape de nettoyage."
+   ],
+   "panel": {
+    "kicker": "La sécurité avant tout",
+    "heading": "Protéger les données personnelles dès le départ",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Supprimer les colonnes inutiles",
+      "d": "Si une colonne ne répond pas à une question du tableau de bord, supprimez-la lors de votre première étape de nettoyage."
+     },
+     {
+      "t": "Pas sur Tableau Public",
+      "d": "Ne téléchargez jamais de fichiers contenant des données personnelles sur Tableau Public. Tout ce qui y est enregistré est public."
+     },
+     {
+      "t": "Gardez les exportations privées",
+      "d": "N'envoyez pas d'exportations brutes par courrier électronique via des comptes personnels."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Ne téléchargez jamais de fichiers contenant des données personnelles sur Tableau Public, car tout ce qui y est enregistré peut être vu par n'importe qui."
+   ],
+   "panel": {
+    "kicker": "La sécurité avant tout",
+    "heading": "Protéger les données personnelles dès le départ",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Supprimer les colonnes inutiles",
+      "d": "Si une colonne ne répond pas à une question du tableau de bord, supprimez-la lors de votre première étape de nettoyage."
+     },
+     {
+      "t": "Pas sur Tableau Public",
+      "d": "Ne téléchargez jamais de fichiers contenant des données personnelles sur Tableau Public. Tout ce qui y est enregistré est public."
+     },
+     {
+      "t": "Gardez les exportations privées",
+      "d": "N'envoyez pas d'exportations brutes par courrier électronique via des comptes personnels."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Et n’envoyez pas d’exportations brutes par courrier électronique via des comptes personnels."
+   ],
+   "panel": {
+    "kicker": "La sécurité avant tout",
+    "heading": "Protéger les données personnelles dès le départ",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Supprimer les colonnes inutiles",
+      "d": "Si une colonne ne répond pas à une question du tableau de bord, supprimez-la lors de votre première étape de nettoyage."
+     },
+     {
+      "t": "Pas sur Tableau Public",
+      "d": "Ne téléchargez jamais de fichiers contenant des données personnelles sur Tableau Public. Tout ce qui y est enregistré est public."
+     },
+     {
+      "t": "Gardez les exportations privées",
+      "d": "N'envoyez pas d'exportations brutes par courrier électronique via des comptes personnels."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Un wireframe est un croquis montrant où se situeront chaque carte, graphique et filtre, et à quelle question chacun répond. Cela prend dix minutes et fait gagner des heures.",
+    "Les gens numérisent en haut à gauche, alors placez les numéros de titre, appelés cartes KPI, en haut."
+   ],
+   "panel": {
+    "kicker": "Disposition",
+    "heading": "Wireframe d'abord, puis construction",
+    "items": [
+     "Cartes KPI principales en haut",
+     "Tendance principale ou comparaison au milieu",
+     "Tableaux détaillés en bas",
+     "Filtres en un seul endroit cohérent",
+     "Deux ou trois couleurs seulement"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Placez la tendance principale ou le tableau de comparaison au milieu et les tableaux détaillés en bas."
+   ],
+   "panel": {
+    "kicker": "Disposition",
+    "heading": "Wireframe d'abord, puis construction",
+    "items": [
+     "Cartes KPI principales en haut",
+     "Tendance principale ou comparaison au milieu",
+     "Tableaux détaillés en bas",
+     "Filtres en un seul endroit cohérent",
+     "Deux ou trois couleurs seulement"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Conservez les filtres au même endroit et utilisez deux ou trois couleurs : une couleur neutre, une surbrillance et du rouge ou de l'ambre uniquement pour les véritables avertissements.",
+    "Montrez-le ensuite à quelqu'un pendant cinq secondes. S’ils ne peuvent pas vous transmettre le message principal, simplifiez-le."
+   ],
+   "panel": {
+    "kicker": "Disposition",
+    "heading": "Wireframe d'abord, puis construction",
+    "items": [
+     "Cartes KPI principales en haut",
+     "Tendance principale ou comparaison au milieu",
+     "Tableaux détaillés en bas",
+     "Filtres en un seul endroit cohérent",
+     "Deux ou trois couleurs seulement"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Pour comparer les branches, utilisez un graphique à barres horizontales triées. Pour une tendance sur plusieurs mois, un graphique linéaire. Pour le réel contre la cible, une barre avec une ligne cible. Pour les valeurs exactes, un tableau."
+   ],
+   "panel": {
+    "kicker": "Choix du graphique",
+    "heading": "Associez le tableau à la question",
+    "mode": "compare",
+    "left_h": "Bon choix",
+    "left": [
+     "Comparer : barre horizontale triée",
+     "Tendance : graphique linéaire, mois dans l'ordre",
+     "Target : barre avec une ligne cible",
+     "Valeurs exactes : tableau ou matrice"
+    ],
+    "right_h": "Éviter",
+    "right": [
+     "Barres 3D",
+     "Tartes avec de nombreuses petites tranches",
+     "Jauges affichant un numéro",
+     "Cartes utilisées uniquement pour la décoration"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Évitez les barres 3D, les diagrammes circulaires comportant de nombreuses petites tranches, les jauges qui prennent de la place pour afficher un chiffre et les cartes utilisées uniquement à des fins de décoration."
+   ],
+   "panel": {
+    "kicker": "Choix du graphique",
+    "heading": "Associez le tableau à la question",
+    "mode": "compare",
+    "left_h": "Bon choix",
+    "left": [
+     "Comparer : barre horizontale triée",
+     "Tendance : graphique linéaire, mois dans l'ordre",
+     "Target : barre avec une ligne cible",
+     "Valeurs exactes : tableau ou matrice"
+    ],
+    "right_h": "Éviter",
+    "right": [
+     "Barres 3D",
+     "Tartes avec de nombreuses petites tranches",
+     "Jauges affichant un numéro",
+     "Cartes utilisées uniquement pour la décoration"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Le rapprochement signifie comparer vos totaux avec un chiffre fiable, tel que le système comptable. Vérifiez le total général, une succursale et un mois."
+   ],
+   "card": {
+    "title": "Trouver une différence de 450 000 naira",
+    "rows": [],
+    "note": null
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Le tableau de bord de Ngozi affiche 48 350 000 nairas pour juin. Les finances en montrent 47.900.000. Le tableau de bord est 450 000 nairas trop élevé.",
+    "Elle filtre branche par branche. Seul Port Harcourt est éteint."
+   ],
+   "card": {
+    "title": "Trouver une différence de 450 000 naira",
+    "rows": [
+     [
+      "Total du tableau de bord, juin",
+      "48,350,000"
+     ],
+     [
+      "Grand livre financier, juin",
+      "47,900,000"
+     ],
+     [
+      "Différence, tout Port Harcourt",
+      "450,000"
+     ]
+    ],
+    "note": null
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "En triant ses factures, elle trouve trois factures apparaissant chacune deux fois, chacune d'une valeur de 150 000 naira. Trois fois 150 000, cela fait exactement 450 000. La branche avait exporté deux fois."
+   ],
+   "card": {
+    "title": "Trouver une différence de 450 000 naira",
+    "rows": [
+     [
+      "Total du tableau de bord, juin",
+      "48,350,000"
+     ],
+     [
+      "Grand livre financier, juin",
+      "47,900,000"
+     ],
+     [
+      "Différence, tout Port Harcourt",
+      "450,000"
+     ],
+     [
+      "Chaque facture dupliquée (3)",
+      "150,000"
+     ]
+    ],
+    "note": null
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Elle ajoute une étape Supprimer les doublons, actualise et le total devient 47 900 000 naira. Cela correspond désormais à la finance.",
+    "Chaque différence doit être expliquée et non ignorée."
+   ],
+   "card": {
+    "title": "Trouver une différence de 450 000 naira",
+    "rows": [
+     [
+      "Total du tableau de bord, juin",
+      "48,350,000"
+     ],
+     [
+      "Grand livre financier, juin",
+      "47,900,000"
+     ],
+     [
+      "Différence, tout Port Harcourt",
+      "450,000"
+     ],
+     [
+      "Chaque facture dupliquée (3)",
+      "150,000"
+     ]
+    ],
+    "note": null
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Exécutez ces vérifications honnêtes des graphiques. Un axe de barre qui commence à 40 millions de nairas au lieu de zéro peut donner l’impression qu’une petite différence est énorme.",
+    "Les barres commencent à zéro. Les graphiques comparés partagent une échelle. Des mois dans l'ordre. Unités sur chaque axe. Et si orange signifie en dessous de l’objectif, cela signifie uniquement cela."
+   ],
+   "panel": {
+    "kicker": "Avant de partager",
+    "heading": "Vérifications honnêtes des dossiers",
+    "items": [
+     "Les axes des barres commencent à zéro",
+     "Même échelle sur les graphiques comparés",
+     "Mois dans l'ordre du calendrier",
+     "Unités affichées sur chaque axe",
+     "La couleur signifie une chose"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "À retenir. Gardez les fichiers bruts intacts et laissez les étapes enregistrées propres. Vérifiez le nombre de lignes et les totaux. Supprimez les données personnelles dont vous n'avez pas besoin.",
+    "Mettez les titres en haut et les détails en dessous. Et rapprochez vos totaux en expliquant chaque différence."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Gardez les fichiers bruts intacts ; étapes enregistrées nettoyer",
+     "Vérifiez le nombre de lignes et les totaux après chaque étape",
+     "Supprimez d’abord les données personnelles dont vous n’avez pas besoin",
+     "Titre en haut, détail en bas",
+     "Réconcilier et expliquer chaque différence"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Maintenant, entraînez-vous. Nettoyez un fichier en désordre de bout en bout, créez une structure filaire et créez une page de tableau de bord, puis exécutez un contrôle de qualité complet, enregistré dans un journal d'assurance qualité.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâche pratique",
+    "heading": "Vos tâches pratiques",
+    "items": [
+     "Nettoyer un fichier en désordre de bout en bout",
+     "Wireframe et créer une page de tableau de bord",
+     "Exécutez une passe d’assurance qualité complète avec un journal d’assurance qualité"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

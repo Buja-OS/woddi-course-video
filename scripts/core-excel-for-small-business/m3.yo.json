@@ -1,0 +1,449 @@
+{
+ "course": "core-excel-for-small-business",
+ "module": "m3",
+ "title": "Awọn data mimọ, apapọ ẹka ati awọn shatti ti o sọ otitọ",
+ "course_title": "Tayo ati Google Sheets fun Kekere Business",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Awọn data mimọ, apapọ ẹka, ati awọn shatti ti o sọ otitọ.",
+    "Eyi ni fidio fun Module 3 ti Tayo ati Google Sheets fun Iṣowo Kekere."
+   ]
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Lẹhin ọsẹ diẹ ti awọn titẹ sii, iwọ yoo fẹ awọn idahun. Kini awọn tita mi ti o tobi julọ? Elo ni Mo na lori gbigbe?",
+    "Tito lẹsẹsẹ, sisẹ ati awọn atokọ jabọ jẹ ki data rẹ wa ni mimọ bi o ti n dagba."
+   ],
+   "panel": {
+    "kicker": "Ni yi module",
+    "heading": "Yipada awọn igbasilẹ sinu ẹri",
+    "items": [
+     "Too ati àlẹmọ laisi fifọ awọn ori ila",
+     "Awọn atokọ silẹ-silẹ da awọn aṣiṣe akọtọ duro",
+     "SUMIF lapapọ nipasẹ ẹka ati alabara",
+     "Awọn apẹrẹ ti o dahun ibeere kan"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Lẹhinna SUMIF ati awọn shatti yi data yẹn pada si ẹri ti bii iṣowo rẹ ṣe n ṣe gaan."
+   ],
+   "panel": {
+    "kicker": "Ni yi module",
+    "heading": "Yipada awọn igbasilẹ sinu ẹri",
+    "items": [
+     "Too ati àlẹmọ laisi fifọ awọn ori ila",
+     "Awọn atokọ silẹ-silẹ da awọn aṣiṣe akọtọ duro",
+     "SUMIF lapapọ nipasẹ ẹka ati alabara",
+     "Awọn apẹrẹ ti o dahun ibeere kan"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Lati to lẹsẹsẹ, tẹ eyikeyi sẹẹli kan ninu data rẹ, lẹhinna yan Data, Too, ki o si fi ami si pe data rẹ ni awọn akọle. Lẹhinna mu ọwọn ati aṣẹ naa, bii ti o tobi julọ ni akọkọ."
+   ],
+   "panel": {
+    "kicker": "Too lailewu",
+    "heading": "Too gbogbo ibiti, ko si iwe kan",
+    "mode": "compare",
+    "left_h": "Ṣe eyi",
+    "left": [
+     "Fọwọ ba sẹẹli kan ninu data rẹ",
+     "Data, Too, pẹlu awọn akọle ti ami si",
+     "Gba Faagun yiyan"
+    ],
+    "right_h": "Kii ṣe eyi rara",
+    "right": [
+     "Yan iwe Iye nikan",
+     "Too rẹ nikan",
+     "Awọn iye gbe, awọn ohun kan duro lẹhin"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Eyi ni aṣiṣe ti o wọpọ. Ti o ba yan iwe iye nikan ki o to lẹsẹsẹ, awọn oye yoo gbe ṣugbọn awọn ọjọ ati awọn ohun kan lẹgbẹẹ wọn ko ṣe. Gbogbo kana ni bayi ti ko tọ.",
+    "Tayo kilo o ati ki o nfun Faagun yiyan. Nigbagbogbo gba o. Ti o ba ṣẹlẹ, yi pada lẹsẹkẹsẹ."
+   ],
+   "panel": {
+    "kicker": "Too lailewu",
+    "heading": "Too gbogbo ibiti, ko si iwe kan",
+    "mode": "compare",
+    "left_h": "Ṣe eyi",
+    "left": [
+     "Fọwọ ba sẹẹli kan ninu data rẹ",
+     "Data, Too, pẹlu awọn akọle ti ami si",
+     "Gba Faagun yiyan"
+    ],
+    "right_h": "Kii ṣe eyi rara",
+    "right": [
+     "Yan iwe Iye nikan",
+     "Too rẹ nikan",
+     "Awọn iye gbe, awọn ohun kan duro lẹhin"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Halima fura pe gbigbe n jẹ ere rẹ. Àlẹmọ tọju awọn ori ila ti ko nilo fun iṣẹju kan.",
+    "O tẹ itọka naa lori Ẹka ati awọn ami si Ọkọ nikan."
+   ],
+   "card": {
+    "title": "Halima ká irinna inawo",
+    "rows": [],
+    "note": "SUBTOTAL(9, ibiti) ṣe afikun awọn ori ila ti o han nikan."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Awọn ori ila 4 ku. Loke awọn akọle rẹ o ni SUBTOTAL, 9, lẹhinna iye iye rẹ. Awọn 9 sọ fun u lati ṣafikun."
+   ],
+   "card": {
+    "title": "Halima ká irinna inawo",
+    "rows": [
+     [
+      "Irin ajo 1",
+      "2,500"
+     ],
+     [
+      "Irin ajo 2",
+      "3,000"
+     ],
+     [
+      "Irin ajo 3",
+      "1,500"
+     ],
+     [
+      "Irin ajo 4",
+      "4,000"
+     ]
+    ],
+    "note": "SUBTOTAL(9, ibiti) ṣe afikun awọn ori ila ti o han nikan."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Gbigbe wa si 11000 naira. SUM yoo tun ṣafikun gbogbo awọn ori ila 40, eyiti o jẹ idi ti SUBTOTAL jẹ ohun elo to tọ nigba sisẹ. Ko àlẹmọ kuro nigbati o ba ti ṣetan."
+   ],
+   "card": {
+    "title": "Halima ká irinna inawo",
+    "rows": [
+     [
+      "Irin ajo 1",
+      "2,500"
+     ],
+     [
+      "Irin ajo 2",
+      "3,000"
+     ],
+     [
+      "Irin ajo 3",
+      "1,500"
+     ],
+     [
+      "Irin ajo 4",
+      "4,000"
+     ]
+    ],
+    "note": "SUBTOTAL(9, ibiti) ṣe afikun awọn ori ila ti o han nikan."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Nigbamii, awọn akojọ-silẹ. Yan gbogbo iwe Iru, ni isalẹ akọle."
+   ],
+   "panel": {
+    "kicker": "Igbese nipa igbese",
+    "heading": "Ṣafikun atokọ jabọ-silẹ",
+    "items": [
+     "Yan gbogbo Iru iwe ni isalẹ awọn akọle",
+     "Tayo: Data, Data afọwọsi, Akojọ",
+     "Awọn iwe: Fi sii, silẹ",
+     "Awọn aṣayan: Tita, inawo",
+     "Ṣe kanna fun Ẹka"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Ni Excel yan Data, Ifọwọsi data, ati labẹ Gba Akojọ aṣayan laaye. Ni Google Sheets yan Fi sii, Ju silẹ."
+   ],
+   "panel": {
+    "kicker": "Igbese nipa igbese",
+    "heading": "Ṣafikun atokọ jabọ-silẹ",
+    "items": [
+     "Yan gbogbo Iru iwe ni isalẹ awọn akọle",
+     "Tayo: Data, Data afọwọsi, Akojọ",
+     "Awọn iwe: Fi sii, silẹ",
+     "Awọn aṣayan: Tita, inawo",
+     "Ṣe kanna fun Ẹka"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Fi awọn aṣayan Tita ati inawo. Lẹhinna ṣe kanna fun Ẹka, pẹlu atokọ tirẹ, bii Ounjẹ, Gaasi, Iṣakojọpọ ati Ọkọ."
+   ],
+   "panel": {
+    "kicker": "Igbese nipa igbese",
+    "heading": "Ṣafikun atokọ jabọ-silẹ",
+    "items": [
+     "Yan gbogbo Iru iwe ni isalẹ awọn akọle",
+     "Tayo: Data, Data afọwọsi, Akojọ",
+     "Awọn iwe: Fi sii, silẹ",
+     "Awọn aṣayan: Tita, inawo",
+     "Ṣe kanna fun Ẹka"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Kini idi ti eyi ṣe pataki? IF, SUMIF ati COUNTIF ọrọ baramu gangan. Atokọ jẹ ki gbogbo titẹ sii jẹ aami kanna, nitorinaa wọn ko padanu ipalọlọ kan."
+   ],
+   "panel": {
+    "kicker": "Igbese nipa igbese",
+    "heading": "Ṣafikun atokọ jabọ-silẹ",
+    "items": [
+     "Yan gbogbo Iru iwe ni isalẹ awọn akọle",
+     "Tayo: Data, Data afọwọsi, Akojọ",
+     "Awọn iwe: Fi sii, silẹ",
+     "Awọn aṣayan: Tita, inawo",
+     "Ṣe kanna fun Ẹka"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Akọtọ kanna ni gbogbo igba, nitorinaa awọn agbekalẹ rẹ ko padanu kana",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Ajọ dahun ibeere kan ni akoko kan. SUMIF dahun rẹ patapata.",
+    "Ilana naa jẹ SUMIF, ibiti o wa lati ṣayẹwo, ipo, lẹhinna ibiti o le fi kun. Bisi fi awọn ami dola sori awọn sakani mejeeji ki o le daakọ agbekalẹ naa si isalẹ atokọ awọn ẹka rẹ."
+   ],
+   "card": {
+    "title": "Bisi ká inawo nipa ẹka",
+    "rows": [],
+    "note": "Apapọ ẹka gbọdọ fi kun si apapọ lapapọ."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Ounjẹ jẹ 67000 naira. Gaasi jẹ 9000, apoti 10500, ati gbigbe 6000. COUNTIF ka iye awọn titẹ sii ti ọkọọkan ni."
+   ],
+   "card": {
+    "title": "Bisi ká inawo nipa ẹka",
+    "rows": [
+     [
+      "Foodstoff, 2 awọn titẹ sii",
+      "67,000"
+     ],
+     [
+      "Gaasi, 1 titẹsi",
+      "9,000"
+     ],
+     [
+      "Iṣakojọpọ, awọn titẹ sii 2",
+      "10,500"
+     ],
+     [
+      "Transport, 3 awọn titẹ sii",
+      "6,000"
+     ]
+    ],
+    "note": "Apapọ ẹka gbọdọ fi kun si apapọ lapapọ."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Lapapọ jẹ 92500, ati pe o baamu SUM ti gbogbo iwe Iye rẹ. Ṣe ayẹwo-agbelebu yii nigbagbogbo. Ti wọn ba yatọ, ẹka kan jẹ aṣiṣe tabi sonu."
+   ],
+   "card": {
+    "title": "Bisi ká inawo nipa ẹka",
+    "rows": [
+     [
+      "Foodstoff, 2 awọn titẹ sii",
+      "67,000"
+     ],
+     [
+      "Gaasi, 1 titẹsi",
+      "9,000"
+     ],
+     [
+      "Iṣakojọpọ, awọn titẹ sii 2",
+      "10,500"
+     ],
+     [
+      "Transport, 3 awọn titẹ sii",
+      "6,000"
+     ]
+    ],
+    "note": "Apapọ ẹka gbọdọ fi kun si apapọ lapapọ."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Aworan ti o dara kan dahun ibeere kan. Aworan ila kan fihan iyipada lori akoko. A iwe chart akawe. Paii kan fihan awọn ipin ti odidi kan, pẹlu awọn ege marun nikan."
+   ],
+   "panel": {
+    "kicker": "Awọn aworan atọka",
+    "heading": "Yan chart fun ibeere naa",
+    "items": [
+     "Yi pada lori akoko: ila chart",
+     "Ṣe afiwe awọn oṣu tabi awọn ọja: iwe iwe",
+     "Pipin ti inawo: paii, nipa 5 awọn ege",
+     "Akọle sọ ifiranṣẹ naa, awọn ẹya ti o han",
+     "Awọn ọwọn bẹrẹ ni odo"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Fun apere, Funke ni Abeokuta chart osu mefa ti tita. Akọle rẹ sọ pe Titaja dide 50% lati Oṣu Keje si Oṣu kejila, kii ṣe Chart 1 nikan.",
+    "Ati bẹrẹ awọn shatti ọwọn ni odo. Axis ti o bẹrẹ ga jẹ ki igbega kekere kan dabi nla."
+   ],
+   "panel": {
+    "kicker": "Awọn aworan atọka",
+    "heading": "Yan chart fun ibeere naa",
+    "items": [
+     "Yi pada lori akoko: ila chart",
+     "Ṣe afiwe awọn oṣu tabi awọn ọja: iwe iwe",
+     "Pipin ti inawo: paii, nipa 5 awọn ege",
+     "Akọle sọ ifiranṣẹ naa, awọn ẹya ti o han",
+     "Awọn ọwọn bẹrẹ ni odo"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Ti o ba ta lori kirẹditi, SUMIF lori iwe ti a ko sanwo fun ọ ni apapọ ti o jẹ.",
+    "Ṣugbọn awọn orukọ, awọn nọmba foonu ati awọn gbese jẹ alaye ti ara ẹni. Ofin Idaabobo Data ti Naijiria 2023 nireti pe ki o gba ohun ti o nilo nikan ki o tọju rẹ ni aabo."
+   ],
+   "panel": {
+    "kicker": "Dabobo eniyan",
+    "heading": "Awọn alaye onibara jẹ data ti ara ẹni",
+    "items": [
+     "Gba nikan ohun ti o nilo",
+     "Ni ihamọ tani o le ṣi faili naa",
+     "Pin lapapọ, kii ṣe awọn atokọ alabara"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Pin lapapọ ni awọn ẹgbẹ, kii ṣe awọn atokọ alabara. Ati pe maṣe firanṣẹ atokọ awọn onigbese ni gbangba si itiju awọn alabara."
+   ],
+   "panel": {
+    "kicker": "Dabobo eniyan",
+    "heading": "Awọn alaye onibara jẹ data ti ara ẹni",
+    "items": [
+     "Gba nikan ohun ti o nilo",
+     "Ni ihamọ tani o le ṣi faili naa",
+     "Pin lapapọ, kii ṣe awọn atokọ alabara"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Maṣe fi atokọ awọn onigbese ranṣẹ ni gbangba si itiju awọn alabara",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Lati ranti. Too gbogbo ibiti o. Lo SUBTOTAL nigba sisẹ. Ju-isalẹ pa Akọtọ aami.",
+    "Ṣayẹwo pe apapọ ẹka naa baramu lapapọ titobi. Ki o si fun chart kọọkan ni ibeere kan, akọle ti o han gbangba, ati ipo lati odo."
+   ],
+   "panel": {
+    "kicker": "Awọn ojuami pataki",
+    "heading": "Ranti",
+    "items": [
+     "Too gbogbo ibiti, ko si iwe kan",
+     "SUBTOTAL lapapọ awọn ori ila ti o han nikan",
+     "Ju-isalẹ pa Akọtọ aami",
+     "Apapọ ẹka gbọdọ baramu lapapọ titobi",
+     "Ibeere kan fun chart, ipo lati odo"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Bayi akoko rẹ. Ṣatunkọ olutọpa rẹ pẹlu awọn atokọ jabọ-silẹ, kọ taabu Lakotan pẹlu SUMIF, ki o ṣe awọn shatti meji pẹlu awọn akọle ti o sọ ifiranṣẹ naa.",
+    "Tẹsiwaju pẹlu awọn ẹkọ ni isalẹ."
+   ],
+   "panel": {
+    "kicker": "Ṣiṣe adaṣe",
+    "heading": "Awọn iṣẹ ṣiṣe adaṣe rẹ",
+    "items": [
+     "Ṣe atunṣe olutọpa rẹ pẹlu awọn isalẹ-silẹ",
+     "Ṣe Lakotan taabu pẹlu SUMIF",
+     "Ṣeto iṣowo rẹ"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

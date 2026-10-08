@@ -1,0 +1,583 @@
+{
+ "course": "sql-fundamentals",
+ "module": "m1",
+ "title": "Kedu ka ọdụ data si eche: tebụl, ajụjụ na nchịkọta",
+ "course_title": "Isi mmalite SQL",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Kedu ka ọdụ data si eche: tebụl, ajụjụ na nchịkọta.",
+    "Nke a bụ vidiyo maka modul 1 nke SQL Fundamentals."
+   ]
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Ngwa ụlọ akụ gị, ngwa na-agba ịnyịnya, ụlọ ahịa dị n'ịntanetị: ọ fọrọ nke nta ka ha niile na-edobe ndekọ ha na nchekwa data mmekọrịta. Data a na-anọdụ n'ọtụtụ tebụl, jikọtara ya na ọnụọgụ NJ ekekọrịta."
+   ],
+   "panel": {
+    "kicker": "Ihe mere nke a ji dị mkpa",
+    "heading": "Ngwa ọ bụla na-edobe ndekọ ya na tebụl",
+    "items": [
+     "Data na-anọdụ na tebụl ejikọrọ site na nọmba ID",
+     "Tebụl na-ejide otu ụdị ihe",
+     "Otu kọlụm bụ otu eziokwu; ahiri bu otu ihe ndekọ",
+     "SQL bụ asụsụ maka ịjụ ajụjụ"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Azụmahịa omume anyị bụ nke Kemi, dịka ọmụmaatụ, onye na-ere Ankara, lace na eriri isi. Ebe nchekwa data ya nwere tebụl nke ndị ahịa, tebụl iwu, na tebụl nke ihe."
+   ],
+   "panel": {
+    "kicker": "Ihe mere nke a ji dị mkpa",
+    "heading": "Ngwa ọ bụla na-edobe ndekọ ya na tebụl",
+    "items": [
+     "Data na-anọdụ na tebụl ejikọrọ site na nọmba ID",
+     "Tebụl na-ejide otu ụdị ihe",
+     "Otu kọlụm bụ otu eziokwu; ahiri bu otu ihe ndekọ",
+     "SQL bụ asụsụ maka ịjụ ajụjụ"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Kọlụm ọ bụla bụ otu eziokwu, dị ka obodo. Ahịrị ọ bụla bụ otu onye ahịa ma ọ bụ otu ịtụ."
+   ],
+   "panel": {
+    "kicker": "Ihe mere nke a ji dị mkpa",
+    "heading": "Ngwa ọ bụla na-edobe ndekọ ya na tebụl",
+    "items": [
+     "Data na-anọdụ na tebụl ejikọrọ site na nọmba ID",
+     "Tebụl na-ejide otu ụdị ihe",
+     "Otu kọlụm bụ otu eziokwu; ahiri bu otu ihe ndekọ",
+     "SQL bụ asụsụ maka ịjụ ajụjụ"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "SQL, Asụsụ ajụjụ Haziri ahazi, bụ otu esi ajụ ajụjụ tebụl ndị ahụ. Otu isi iwu na-arụ ọrụ na PostgreSQL, MySQL, SQLite na ndị ọzọ."
+   ],
+   "panel": {
+    "kicker": "Ihe mere nke a ji dị mkpa",
+    "heading": "Ngwa ọ bụla na-edobe ndekọ ya na tebụl",
+    "items": [
+     "Data na-anọdụ na tebụl ejikọrọ site na nọmba ID",
+     "Tebụl na-ejide otu ụdị ihe",
+     "Otu kọlụm bụ otu eziokwu; ahiri bu otu ihe ndekọ",
+     "SQL bụ asụsụ maka ịjụ ajụjụ"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Isi igodo bụ kọlụm pụrụ iche maka ahịrị ọ bụla na-adịghị efu. Na ndị ahịa, Amaka bụ nọmba 1."
+   ],
+   "panel": {
+    "kicker": "Atọ isi echiche",
+    "heading": "Igodo na ịchekwa eziokwu ọ bụla otu ugboro",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Isi igodo",
+      "d": "Pụrụ iche maka ahịrị ọ bụla, anaghị efu efu. Amaka bụ client_id 1, na ọ dịghị onye ọzọ nwere ike ịbụ 1."
+     },
+     {
+      "t": "Igodo mba ọzọ",
+      "d": "Na-atụ aka na tebụl ọzọ. Order 101 nwere client_id 1, ya mere ọ bụ nke Amaka."
+     },
+     {
+      "t": "Normalization",
+      "d": "Chekwaa eziokwu nke ọ bụla otu ugboro. Obodo Amaka bi naanị ndị ahịa, yabụ akụkọ anaghị ekwekọrịta."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Igodo mba ọzọ na-ejide igodo mbụ nke tebụl ọzọ. Order 101 nwere client_id 1, ya mere ọ bụ nke Amaka. Otu nọmba ahụ na-enye gị ohere ịbanye na tebụl ma emechaa."
+   ],
+   "panel": {
+    "kicker": "Atọ isi echiche",
+    "heading": "Igodo na ịchekwa eziokwu ọ bụla otu ugboro",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Isi igodo",
+      "d": "Pụrụ iche maka ahịrị ọ bụla, anaghị efu efu. Amaka bụ client_id 1, na ọ dịghị onye ọzọ nwere ike ịbụ 1."
+     },
+     {
+      "t": "Igodo mba ọzọ",
+      "d": "Na-atụ aka na tebụl ọzọ. Order 101 nwere client_id 1, ya mere ọ bụ nke Amaka."
+     },
+     {
+      "t": "Normalization",
+      "d": "Chekwaa eziokwu nke ọ bụla otu ugboro. Obodo Amaka bi naanị ndị ahịa, yabụ akụkọ anaghị ekwekọrịta."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Gịnị kpatara na ọ bụghị otu nnukwu mpempe akwụkwọ? Ọ bụrụ na a na-ede obodo Amaka na usoro ọ bụla ma ọ ga-aga, ị ga-agbanwerịrị ahịrị ọ bụla, ma ọ bụrụ na ị tụfuru otu, akụkọ gị ekwetaghị. Ịchekwa eziokwu ọ bụla otu ugboro ka a na-akpọ normalization."
+   ],
+   "panel": {
+    "kicker": "Atọ isi echiche",
+    "heading": "Igodo na ịchekwa eziokwu ọ bụla otu ugboro",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Isi igodo",
+      "d": "Pụrụ iche maka ahịrị ọ bụla, anaghị efu efu. Amaka bụ client_id 1, na ọ dịghị onye ọzọ nwere ike ịbụ 1."
+     },
+     {
+      "t": "Igodo mba ọzọ",
+      "d": "Na-atụ aka na tebụl ọzọ. Order 101 nwere client_id 1, ya mere ọ bụ nke Amaka."
+     },
+     {
+      "t": "Normalization",
+      "d": "Chekwaa eziokwu nke ọ bụla otu ugboro. Obodo Amaka bi naanị ndị ahịa, yabụ akụkọ anaghị ekwekọrịta."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Integer na-ejide ọnụọgụgụ niile, dịka NJ na ọnụọgụ."
+   ],
+   "panel": {
+    "kicker": "Ụdị data",
+    "heading": "Họrọ ụdị kọlụm ọ bụla na ebumnuche",
+    "items": [
+     "INTEGER: ọnụọgụgụ niile, NJ, ọnụọgụ",
+     "DECIMAL: ọnụ ọgụgụ ziri ezi maka ego",
+     "TEXT: aha, na nọmba ekwentị kwa",
+     "Ụbọchị: OYYY-MM-DD mgbe niile",
+     "BOOLEAN: eziokwu ma ọ bụ ụgha"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Decimal, ma ọ bụ ọnụọgụ, na-ejide ọnụ ọgụgụ ziri ezi. Jiri ya maka ego, ọ bụghị ụdị na-ese n'elu mmiri, nke nwere ike ime obere mmejọ okirikiri."
+   ],
+   "panel": {
+    "kicker": "Ụdị data",
+    "heading": "Họrọ ụdị kọlụm ọ bụla na ebumnuche",
+    "items": [
+     "INTEGER: ọnụọgụgụ niile, NJ, ọnụọgụ",
+     "DECIMAL: ọnụ ọgụgụ ziri ezi maka ego",
+     "TEXT: aha, na nọmba ekwentị kwa",
+     "Ụbọchị: OYYY-MM-DD mgbe niile",
+     "BOOLEAN: eziokwu ma ọ bụ ụgha"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Ederede na-ejide okwu. Nọmba ekwentị bụkwa ederede, n'ihi na efu efu, dị ka ọ dị na 0803, ga-efunahụ ma ọ bụrụ na echekwara ya dị ka nọmba."
+   ],
+   "panel": {
+    "kicker": "Ụdị data",
+    "heading": "Họrọ ụdị kọlụm ọ bụla na ebumnuche",
+    "items": [
+     "INTEGER: ọnụọgụgụ niile, NJ, ọnụọgụ",
+     "DECIMAL: ọnụ ọgụgụ ziri ezi maka ego",
+     "TEXT: aha, na nọmba ekwentị kwa",
+     "Ụbọchị: OYYY-MM-DD mgbe niile",
+     "BOOLEAN: eziokwu ma ọ bụ ụgha"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Chekwa ụbọchị dị ka afọ, ọnwa, ụbọchị, ka ha hazie nke ọma. Na boolean bụ naanị eziokwu ma ọ bụ ụgha."
+   ],
+   "panel": {
+    "kicker": "Ụdị data",
+    "heading": "Họrọ ụdị kọlụm ọ bụla na ebumnuche",
+    "items": [
+     "INTEGER: ọnụọgụgụ niile, NJ, ọnụọgụ",
+     "DECIMAL: ọnụ ọgụgụ ziri ezi maka ego",
+     "TEXT: aha, na nọmba ekwentị kwa",
+     "Ụbọchị: OYYY-MM-DD mgbe niile",
+     "BOOLEAN: eziokwu ma ọ bụ ụgha"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Ajụjụ bụ arịrịọ dị mma, nke ziri ezi. Họrọ aha kọlụm ịchọrọ. SITE na aha tebụl ahụ."
+   ],
+   "panel": {
+    "kicker": "Ajụjụ mbụ gị",
+    "heading": "Isi okwu ise na-aza ọtụtụ ajụjụ",
+    "items": [
+     "Họrọ: ogidi ndị ị chọrọ",
+     "SITE: tebụl",
+     "Ebe: debe ahịrị ndị dabara",
+     "Nye iwu site na: ụdị, DESC maka nke mbụ",
+     "OKWU: debe naanị ahịrị ole na ole mbụ"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Ebe a na-edebe naanị ahịrị ebe ọnọdụ bụ eziokwu. Ederede na-abanye n'ime otu nhụta, ọnụọgụ adịghị. Mgbe ị na-agwakọta NA na OR, jiri brackets, n'ihi na NA na-ebu ụzọ rụọ ọrụ."
+   ],
+   "panel": {
+    "kicker": "Ajụjụ mbụ gị",
+    "heading": "Isi okwu ise na-aza ọtụtụ ajụjụ",
+    "items": [
+     "Họrọ: ogidi ndị ị chọrọ",
+     "SITE: tebụl",
+     "Ebe: debe ahịrị ndị dabara",
+     "Nye iwu site na: ụdị, DESC maka nke mbụ",
+     "OKWU: debe naanị ahịrị ole na ole mbụ"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "KWESỊRỊ site n'ịhazi nsonaazụ. Tinye DESC maka nke mbụ."
+   ],
+   "panel": {
+    "kicker": "Ajụjụ mbụ gị",
+    "heading": "Isi okwu ise na-aza ọtụtụ ajụjụ",
+    "items": [
+     "Họrọ: ogidi ndị ị chọrọ",
+     "SITE: tebụl",
+     "Ebe: debe ahịrị ndị dabara",
+     "Nye iwu site na: ụdị, DESC maka nke mbụ",
+     "OKWU: debe naanị ahịrị ole na ole mbụ"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "LIMIT 3 na-edobe naanị ahịrị atọ mbụ ka hazichara. Otu ahụ ka ị ga-esi nweta oke atọ."
+   ],
+   "panel": {
+    "kicker": "Ajụjụ mbụ gị",
+    "heading": "Isi okwu ise na-aza ọtụtụ ajụjụ",
+    "items": [
+     "Họrọ: ogidi ndị ị chọrọ",
+     "SITE: tebụl",
+     "Ebe: debe ahịrị ndị dabara",
+     "Nye iwu site na: ụdị, DESC maka nke mbụ",
+     "OKWU: debe naanị ahịrị ole na ole mbụ"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Otu ọnyà. Uru efu na-efu bụ NULL, nke pụtara amaghị, ọ nweghịkwa nhata na ihe ọ bụla. Yabụ WHERE ekwentị = NULL anaghị eweghachi ihe ọ bụla. Dee mgbe niile BỤ abaghị uru."
+   ],
+   "panel": {
+    "kicker": "Ajụjụ mbụ gị",
+    "heading": "Isi okwu ise na-aza ọtụtụ ajụjụ",
+    "items": [
+     "Họrọ: ogidi ndị ị chọrọ",
+     "SITE: tebụl",
+     "Ebe: debe ahịrị ndị dabara",
+     "Nye iwu site na: ụdị, DESC maka nke mbụ",
+     "OKWU: debe naanị ahịrị ole na ole mbụ"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Ụkpụrụ na-efu efu bụ efu. Nwalee na IS NULL, mgbe = NULL.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Kemi dere: Họrọ ID n'usoro, ịtụ ụbọchị na ego ole, SITE iwu, Ebe chanel dị WhatsApp NA ọkwa na-ebuga, ịtụ site ego, na-agbadata."
+   ],
+   "card": {
+    "title": "Kemi kacha enyela iwu WhatsApp",
+    "rows": [],
+    "note": "Mee ọnụ ọgụgụ, ọ bụghị ọnụ ahịa ahịa n'ezie."
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Ahịrị anọ laghachi azụ. Nke kachanụ bụ ịtụ 105, na puku naira iri isii na otu, wee bụrụ 101, 106 na 103."
+   ],
+   "card": {
+    "title": "Kemi kacha enyela iwu WhatsApp",
+    "rows": [
+     [
+      "Iwu nke 105",
+      "61,000"
+     ],
+     [
+      "Iwu nke 101",
+      "18,500"
+     ],
+     [
+      "Iwu nke 106",
+      "12,500"
+     ],
+     [
+      "Iwu nke 103",
+      "9,000"
+     ]
+    ],
+    "note": "Mee ọnụ ọgụgụ, ọ bụghị ọnụ ahịa ahịa n'ezie."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Ugbu a lelee ya. Order 109 bụ usoro WhatsApp, mana ọ na-echere, yabụ hapụ ya nke ọma. Lelee ihe na-ekwesịghị ịdị ebe ahụ mgbe niile."
+   ],
+   "card": {
+    "title": "Kemi kacha enyela iwu WhatsApp",
+    "rows": [
+     [
+      "Iwu nke 105",
+      "61,000"
+     ],
+     [
+      "Iwu nke 101",
+      "18,500"
+     ],
+     [
+      "Iwu nke 106",
+      "12,500"
+     ],
+     [
+      "Iwu nke 103",
+      "9,000"
+     ]
+    ],
+    "note": "Mee ọnụ ọgụgụ, ọ bụghị ọnụ ahịa ahịa n'ezie."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Ndị njikwa chọrọ azịza, ọ bụghị ndepụta. COUNT, SUM na AVG na-atụgharị ọtụtụ ahịrị ka ọ bụrụ otu nọmba. GROUP BY na-enye otu nọmba kwa otu."
+   ],
+   "card": {
+    "title": "Ebutere ahịa site na ọwa",
+    "rows": [],
+    "note": "Mee ọnụ ọgụgụ, ọ bụghị ọnụ ahịa ahịa n'ezie."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Kemi wetara ahịa site na chanel: WhatsApp 101,000 naira, Instagram 83,000, na webụsaịtị 27,500."
+   ],
+   "card": {
+    "title": "Ebutere ahịa site na ọwa",
+    "rows": [
+     [
+      "WhatsApp, 4 iwu",
+      "101,000"
+     ],
+     [
+      "Instagram, iwu 3",
+      "83,000"
+     ],
+     [
+      "Weebụsaịtị, 1 ịtụ",
+      "27,500"
+     ]
+    ],
+    "note": "Mee ọnụ ọgụgụ, ọ bụghị ọnụ ahịa ahịa n'ezie."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Ugbu a, dozie. Otu dị iche iche ga-agbakwunye azụ na mkpokọta. 101,000 gbakwunyere 83,000 gbakwunyere 27,500 bụ 211,500, na 4 gbakwunyere 3 gbakwunyere 1 bụ iwu 8. Ọ bụrụ na iberibe ahụ agbasaghị, ọ nwere ihe adịghị mma.",
+    "Chetakwa: kọlụm ọ bụla dị na SELECT ga-abụrịrị n'ime ọrụ ma ọ bụ depụta ya na GROUP BY."
+   ],
+   "card": {
+    "title": "Ebutere ahịa site na ọwa",
+    "rows": [
+     [
+      "WhatsApp, 4 iwu",
+      "101,000"
+     ],
+     [
+      "Instagram, iwu 3",
+      "83,000"
+     ],
+     [
+      "Weebụsaịtị, 1 ịtụ",
+      "27,500"
+     ]
+    ],
+    "note": "Mee ọnụ ọgụgụ, ọ bụghị ọnụ ahịa ahịa n'ezie."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Ebe a na-enyocha otu ahịrị tupu ịchịkọta, dị ka idobe naanị iwu ewepụtara."
+   ],
+   "panel": {
+    "kicker": "Nzacha",
+    "heading": "Ebe ma ọ bụ inwe?",
+    "mode": "compare",
+    "left_h": "Ebee",
+    "left": [
+     "Na-agba ọsọ tupu otu",
+     "Na-anwale otu ahịrị",
+     "ọnọdụ = 'ebugara'",
+     "Enweghị ike iji SUM ma ọ bụ COUNT"
+    ],
+    "right_h": "INWE",
+    "right": [
+     "Na-agba ọsọ ma emechaa otu",
+     "Na-anwale otu niile",
+     "Ọgụgụ (*) > = 2",
+     "Na-eji nchịkọta mkpokọta"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "INWE na-enyocha otu niile ka emechara ngụkọta. N'ịnwe ọnụ ọgụgụ nke iwu ma ọ dịkarịa ala 2 na-achọpụta ndị Kemi na-azụ ahịa ugboro ugboro: onye ahịa 1 nwere iwu 3, na onye ahịa 2 nwere 2."
+   ],
+   "panel": {
+    "kicker": "Nzacha",
+    "heading": "Ebe ma ọ bụ inwe?",
+    "mode": "compare",
+    "left_h": "Ebee",
+    "left": [
+     "Na-agba ọsọ tupu otu",
+     "Na-anwale otu ahịrị",
+     "ọnọdụ = 'ebugara'",
+     "Enweghị ike iji SUM ma ọ bụ COUNT"
+    ],
+    "right_h": "INWE",
+    "right": [
+     "Na-agba ọsọ ma emechaa otu",
+     "Na-anwale otu niile",
+     "Ọgụgụ (*) > = 2",
+     "Na-eji nchịkọta mkpokọta"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Icheta. A na-ejikọta tebụl site na igodo, ma echekwara eziokwu ọ bụla otu ugboro. Isi okwu ise na-aza ọtụtụ ajụjụ. Jiri IS NULL nwalee ụkpụrụ efu. Na-elelekwa mgbe niile na ndị otu gị na-agbakwunye azụ na mkpokọta."
+   ],
+   "panel": {
+    "kicker": "Isi ihe",
+    "heading": "Cheta",
+    "items": [
+     "Tebụl jikọtara site na igodo isi na nke mba ọzọ",
+     "Chekwaa eziokwu nke ọ bụla otu ugboro",
+     "Họrọ, SITE, Ebee, Nye iwu site na, oke",
+     "Ọ BỤGHỊ, ọ dịghị mgbe = FULL",
+     "Ngụkọta otu ga-agbakwunye azụ na mkpokọta"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Ugbu a chepụta obere nchekwa data na akwụkwọ, dee ajụjụ ise mbụ gị, wee wuo obere nchịkọta ahịa nke nwere akara mkpirisi.",
+    "Gaa n'ihu na nkuzi ndị dị n'okpuru."
+   ],
+   "panel": {
+    "kicker": "Mee ihe omume",
+    "heading": "Ọrụ gị maka modul a",
+    "items": [
+     "Chepụta obere nchekwa data na akwụkwọ",
+     "Zaa ajụjụ ise na ajụjụ dị mfe",
+     "Mepụta nchịkọta obere ahịa"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

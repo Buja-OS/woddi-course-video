@@ -1,0 +1,623 @@
+{
+ "course": "business-intelligence-basics",
+ "module": "m3",
+ "title": "Leading BI work: discover, price, and get it used",
+ "course_title": "Business Intelligence Basics: Designing Systems that Drive Decisions",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Leading BI work: discover, price, and get it used.",
+    "This is the video for Module 3 of Business Intelligence Basics: leading BI work."
+   ]
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Discovery is where BI projects are won or lost. Talk only to the IT officer, and you design reports about data. Talk to the people who decide, and you design reports that change what they do."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Where BI projects are won or lost",
+    "items": [
+     "Discovery with the people who decide",
+     "A clear price and a written scope",
+     "Adoption: people using it to decide",
+     "A portfolio that shows your design work"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Then you price the work honestly and write down exactly what is included."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Where BI projects are won or lost",
+    "items": [
+     "Discovery with the people who decide",
+     "A clear price and a written scope",
+     "Adoption: people using it to decide",
+     "A portfolio that shows your design work"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "A BI system is only finished when people use it to decide."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Where BI projects are won or lost",
+    "items": [
+     "Discovery with the people who decide",
+     "A clear price and a written scope",
+     "Adoption: people using it to decide",
+     "A portfolio that shows your design work"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "And your portfolio shows the design documents behind the dashboard."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Where BI projects are won or lost",
+    "items": [
+     "Discovery with the people who decide",
+     "A clear price and a written scope",
+     "Adoption: people using it to decide",
+     "A portfolio that shows your design work"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Avoid asking, what reports do you want? People will list every chart they have ever seen."
+   ],
+   "panel": {
+    "kicker": "Discovery questions",
+    "heading": "Ask about work, not wished-for charts",
+    "mode": "compare",
+    "left_h": "Avoid",
+    "left": [
+     "What reports do you want?",
+     "Reporting is stressful"
+    ],
+    "right_h": "Ask instead",
+    "right": [
+     "Which decision costs most when wrong?",
+     "When were the numbers last wrong?",
+     "How many hours does the report take?",
+     "What would you do differently?"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Ask about their work. Which decision costs the most when it goes wrong? Tell me about the last time the numbers were late. How many hours does the report take?",
+    "Listen for numbers and stories, and write down their exact phrases."
+   ],
+   "panel": {
+    "kicker": "Discovery questions",
+    "heading": "Ask about work, not wished-for charts",
+    "mode": "compare",
+    "left_h": "Avoid",
+    "left": [
+     "What reports do you want?",
+     "Reporting is stressful"
+    ],
+    "right_h": "Ask instead",
+    "right": [
+     "Which decision costs most when wrong?",
+     "When were the numbers last wrong?",
+     "How many hours does the report take?",
+     "What would you do differently?"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "For example, Amina runs discovery for an NGO training young women in 4 states. The director decides where to move trainers and funds from memory and phone calls, because the donor report comes a month late."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Amina's NGO discovery",
+    "items": [
+     "Director moves trainers from memory",
+     "4 coordinators x 2 days = 8 per quarter",
+     "32 person-days a year compiling",
+     "Two donors define completion differently"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Each of the 4 state coordinators spends about 2 days a quarter compiling figures. That is 8 person-days a quarter."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Amina's NGO discovery",
+    "items": [
+     "Director moves trainers from memory",
+     "4 coordinators x 2 days = 8 per quarter",
+     "32 person-days a year compiling",
+     "Two donors define completion differently"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Or 32 person-days a year."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Amina's NGO discovery",
+    "items": [
+     "Director moves trainers from memory",
+     "4 coordinators x 2 days = 8 per quarter",
+     "32 person-days a year compiling",
+     "Two donors define completion differently"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "And the two donors define completion differently, so the dictionary needs two labelled definitions. A monthly state-by-state view would serve the director and cut most of that compiling.",
+    "End discovery with a short report, and get the sponsor to confirm the top three decisions in writing."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Amina's NGO discovery",
+    "items": [
+     "Director moves trainers from memory",
+     "4 coordinators x 2 days = 8 per quarter",
+     "32 person-days a year compiling",
+     "Two donors define completion differently"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Do not guess a single total. List the tasks, estimate days, multiply by your day rate, and add contingency.",
+    "For example, Kemi's tasks add up to 14 days. Her day rate of 75,000 naira is only an example to show the method."
+   ],
+   "card": {
+    "title": "Kemi's quote for a pharmacy chain",
+    "rows": [],
+    "note": "75,000 is an example day rate only."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "14 days at 75,000 naira gives a base fee of 1,050,000 naira."
+   ],
+   "card": {
+    "title": "Kemi's quote for a pharmacy chain",
+    "rows": [
+     [
+      "Base fee: 14 days x 75,000",
+      "1,050,000"
+     ]
+    ],
+    "note": "75,000 is an example day rate only."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "She adds 15% for unknown data problems, which is 157,500 naira."
+   ],
+   "card": {
+    "title": "Kemi's quote for a pharmacy chain",
+    "rows": [
+     [
+      "Base fee: 14 days x 75,000",
+      "1,050,000"
+     ],
+     [
+      "Contingency, 15%",
+      "157,500"
+     ]
+    ],
+    "note": "75,000 is an example day rate only."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Her quote is 1,207,500 naira, paid 40%, 40% and 20% at agreed points. The client can see exactly what they are paying for."
+   ],
+   "card": {
+    "title": "Kemi's quote for a pharmacy chain",
+    "rows": [
+     [
+      "Base fee: 14 days x 75,000",
+      "1,050,000"
+     ],
+     [
+      "Contingency, 15%",
+      "157,500"
+     ]
+    ],
+    "note": "75,000 is an example day rate only."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Write scope, exclusions and client assumptions into the proposal. When a new request comes, thank the person and write it down exactly."
+   ],
+   "panel": {
+    "kicker": "Scope and payment",
+    "heading": "Handling new requests",
+    "items": [
+     "Write the request down exactly",
+     "Check it against the written scope",
+     "If new, estimate extra days and the new date",
+     "Send a short change request",
+     "Start only after written approval"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Check it against the written scope. If it is included, schedule it."
+   ],
+   "panel": {
+    "kicker": "Scope and payment",
+    "heading": "Handling new requests",
+    "items": [
+     "Write the request down exactly",
+     "Check it against the written scope",
+     "If new, estimate extra days and the new date",
+     "Send a short change request",
+     "Start only after written approval"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "If it is new, estimate the extra days and the effect on the deadline."
+   ],
+   "panel": {
+    "kicker": "Scope and payment",
+    "heading": "Handling new requests",
+    "items": [
+     "Write the request down exactly",
+     "Check it against the written scope",
+     "If new, estimate extra days and the new date",
+     "Send a short change request",
+     "Start only after written approval"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Send a short change request: what, why, days, cost and new date."
+   ],
+   "panel": {
+    "kicker": "Scope and payment",
+    "heading": "Handling new requests",
+    "items": [
+     "Write the request down exactly",
+     "Check it against the written scope",
+     "If new, estimate extra days and the new date",
+     "Send a short change request",
+     "Start only after written approval"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Start only after the sponsor approves it in writing.",
+    "Issue a proper invoice, and confirm that money has really arrived in your own bank app. Screenshots and forwarded debit alerts can be faked."
+   ],
+   "panel": {
+    "kicker": "Scope and payment",
+    "heading": "Handling new requests",
+    "items": [
+     "Write the request down exactly",
+     "Check it against the written scope",
+     "If new, estimate extra days and the new date",
+     "Send a short change request",
+     "Start only after written approval"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Confirm money in your own bank app before releasing work.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Many good projects fail quietly, and managers return to their private spreadsheets. So the sponsor opens the report at the start of the meeting and asks questions from it."
+   ],
+   "panel": {
+    "kicker": "Adoption",
+    "heading": "What gets reports used",
+    "items": [
+     "The leader uses it in the meeting",
+     "Retire the old reports on a set date",
+     "30-minute training per role",
+     "A champion in each branch",
+     "Easy feedback, reply in two working days"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Agree a date to stop the old manual report."
+   ],
+   "panel": {
+    "kicker": "Adoption",
+    "heading": "What gets reports used",
+    "items": [
+     "The leader uses it in the meeting",
+     "Retire the old reports on a set date",
+     "30-minute training per role",
+     "A champion in each branch",
+     "Easy feedback, reply in two working days"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Train each role briefly, using their own data and decisions."
+   ],
+   "panel": {
+    "kicker": "Adoption",
+    "heading": "What gets reports used",
+    "items": [
+     "The leader uses it in the meeting",
+     "Retire the old reports on a set date",
+     "30-minute training per role",
+     "A champion in each branch",
+     "Easy feedback, reply in two working days"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Choose one champion in each branch or department."
+   ],
+   "panel": {
+    "kicker": "Adoption",
+    "heading": "What gets reports used",
+    "items": [
+     "The leader uses it in the meeting",
+     "Retire the old reports on a set date",
+     "30-minute training per role",
+     "A champion in each branch",
+     "Easy feedback, reply in two working days"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "And make it easy to say this number looks wrong, with a reply within two working days."
+   ],
+   "panel": {
+    "kicker": "Adoption",
+    "heading": "What gets reports used",
+    "items": [
+     "The leader uses it in the meeting",
+     "Retire the old reports on a set date",
+     "30-minute training per role",
+     "A champion in each branch",
+     "Easy feedback, reply in two working days"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "For example, Chidi reviews his distributor's system eight weeks after launch. 14 of 20 managers used it, which is 70%. All 6 non-users work at the depot with the weakest mobile network, so he sends them a PDF summary on WhatsApp each Monday."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Chidi's eight-week review",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Active users: 70%",
+      "d": "14 of 20 opened the report weekly. All 6 non-users work at the depot with the weakest network."
+     },
+     {
+      "t": "Time saved",
+      "d": "From 6 person-days a month to 1. That is 60 person-days a year."
+     },
+     {
+      "t": "Decisions logged",
+      "d": "9 reorder decisions and 3 credit limit changes made using the reports."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Compiling used to take 6 person-days a month. Now it takes 1, saving 60 person-days a year."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Chidi's eight-week review",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Active users: 70%",
+      "d": "14 of 20 opened the report weekly. All 6 non-users work at the depot with the weakest network."
+     },
+     {
+      "t": "Time saved",
+      "d": "From 6 person-days a month to 1. That is 60 person-days a year."
+     },
+     {
+      "t": "Decisions logged",
+      "d": "9 reorder decisions and 3 credit limit changes made using the reports."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "And the meeting notes show 9 reorder decisions and 3 credit limit changes made with the reports. He reports with numbers, not impressions."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Chidi's eight-week review",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Active users: 70%",
+      "d": "14 of 20 opened the report weekly. All 6 non-users work at the depot with the weakest network."
+     },
+     {
+      "t": "Time saved",
+      "d": "From 6 person-days a month to 1. That is 60 person-days a year."
+     },
+     {
+      "t": "Decisions logged",
+      "d": "9 reorder decisions and 3 credit limit changes made using the reports."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "To remember. Ask about decisions and pain. Price task by task, and write down what is out of scope.",
+    "Lead adoption by using reports in meetings, and show leaders a roadmap of now, next and later."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "Ask about decisions, pain, effort and success",
+     "Price task by task, plus contingency",
+     "Write scope, exclusions and assumptions",
+     "Leaders use reports; old reports retire",
+     "Roadmap: now, next, later"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Now run one discovery interview, draft a priced proposal outline, and plan adoption while you start your portfolio case study.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice tasks",
+    "heading": "Your practice tasks",
+    "items": [
+     "Run one discovery interview",
+     "Draft a priced proposal outline",
+     "Plan adoption and start your case study"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

@@ -1,0 +1,479 @@
+{
+ "course": "paid-advertising-meta-ads",
+ "module": "m2",
+ "title": "Track it right, test it fairly, launch it safely",
+ "course_title": "Paid Advertising (Meta Ads)",
+ "shots": [
+  {
+   "demo": "phone_social",
+   "say": [
+    "Track it right, test it fairly, launch it safely.",
+    "This is the video for module two of Paid Advertising with Meta Ads."
+   ]
+  },
+  {
+   "demo": "laptop_ads",
+   "say": [
+    "Most failed campaigns are not killed by bad ads. They are killed by bad set-up: an ad account owned by someone who left, a Pixel that fires Purchase twice, or a card declined on day three."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Bad set-up kills more ads than bad ads",
+    "items": [
+     "Account owned by a staff member who left",
+     "A Pixel that counts a sale twice",
+     "A card declined on day three",
+     "Fix the foundation so the data is real"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "This module builds the foundation properly, so the numbers you optimise on are real."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Bad set-up kills more ads than bad ads",
+    "items": [
+     "Account owned by a staff member who left",
+     "A Pixel that counts a sale twice",
+     "A card declined on day three",
+     "Fix the foundation so the data is real"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "The business owner should own the business portfolio, the ad account and the Pixel. You are added as a partner, never given their password, and if you leave they keep everything.",
+    "Turn on two-factor authentication for everyone, with two trusted admins. Test the payment method, verify the Pixel and the domain, and set an account spending limit as a safety net."
+   ],
+   "panel": {
+    "kicker": "Before any ad runs",
+    "heading": "Set-up and safety checklist",
+    "items": [
+     "Portfolio owned by the client",
+     "Two-factor on, two admins",
+     "Payment method tested",
+     "Pixel and events verified",
+     "Domain verified",
+     "Spending limit set"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "The Meta Pixel is a small piece of code that sends events, like add to cart or purchase, to Meta. Open Test events, then browse your site. Each event should appear within seconds."
+   ],
+   "panel": {
+    "kicker": "Verify before you trust",
+    "heading": "Check that your Pixel tells the truth",
+    "items": [
+     "Open Test events in Events Manager",
+     "Browse, add to cart, start checkout",
+     "Check pages with Meta Pixel Helper",
+     "Place a real low-value test order",
+     "Add the Conversions API, same event ID"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Check each page with the free Meta Pixel Helper on a laptop. Then place a real low-value test order and refund it."
+   ],
+   "panel": {
+    "kicker": "Verify before you trust",
+    "heading": "Check that your Pixel tells the truth",
+    "items": [
+     "Open Test events in Events Manager",
+     "Browse, add to cart, start checkout",
+     "Check pages with Meta Pixel Helper",
+     "Place a real low-value test order",
+     "Add the Conversions API, same event ID"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Add the Conversions API, which sends the same events from the server and recovers ones the browser misses. Both must carry the same event ID, so Meta removes duplicates."
+   ],
+   "panel": {
+    "kicker": "Verify before you trust",
+    "heading": "Check that your Pixel tells the truth",
+    "items": [
+     "Open Test events in Events Manager",
+     "Browse, add to cart, start checkout",
+     "Check pages with Meta Pixel Helper",
+     "Place a real low-value test order",
+     "Add the Conversions API, same event ID"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Halima's shop showed 40 purchases in Ads Manager, but only 22 real paid orders. Purchase was firing twice. After the fix, ROAS fell from an inflated 5.6 to a true 3.05."
+   ],
+   "panel": {
+    "kicker": "Verify before you trust",
+    "heading": "Check that your Pixel tells the truth",
+    "items": [
+     "Open Test events in Events Manager",
+     "Browse, add to cart, start checkout",
+     "Check pages with Meta Pixel Helper",
+     "Place a real low-value test order",
+     "Add the Conversions API, same event ID"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Purchase fires once, with the right value and NGN.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Custom audiences are people who already know you. Retarget people who added to cart in the last 14 days but did not buy."
+   ],
+   "panel": {
+    "kicker": "Audiences",
+    "heading": "Give Meta the right signals",
+    "items": [
+     "Retarget: added to cart, did not buy",
+     "Exclude existing customers from first-order ads",
+     "Lookalike from your best repeat buyers",
+     "Go broad once the Pixel has purchase history"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "And exclude existing customers, so you stop paying to show them first-order offers."
+   ],
+   "panel": {
+    "kicker": "Audiences",
+    "heading": "Give Meta the right signals",
+    "items": [
+     "Retarget: added to cart, did not buy",
+     "Exclude existing customers from first-order ads",
+     "Lookalike from your best repeat buyers",
+     "Go broad once the Pixel has purchase history"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_camera",
+   "say": [
+    "A lookalike asks Meta to find people who resemble a source. It needs at least 100 people from one country, and your 600 best repeat customers beat 5,000 people who once liked a post. Uploading a customer list needs their consent."
+   ],
+   "panel": {
+    "kicker": "Audiences",
+    "heading": "Give Meta the right signals",
+    "items": [
+     "Retarget: added to cart, did not buy",
+     "Exclude existing customers from first-order ads",
+     "Lookalike from your best repeat buyers",
+     "Go broad once the Pixel has purchase history"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_camera",
+   "say": [
+    "Broad targeting works best once your Pixel has purchase history. But location stays a hard rule. If you only deliver in Lagos, set Lagos."
+   ],
+   "panel": {
+    "kicker": "Audiences",
+    "heading": "Give Meta the right signals",
+    "items": [
+     "Retarget: added to cart, did not buy",
+     "Exclude existing customers from first-order ads",
+     "Lookalike from your best repeat buyers",
+     "Go broad once the Pixel has purchase history"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "A test must change one thing only, start with a written hypothesis, have enough budget, and run for a fixed time. Ruth wants to test a demonstration video against a price-led carousel."
+   ],
+   "card": {
+    "title": "Is the budget big enough to test?",
+    "rows": [],
+    "note": "Naira amounts are approximate."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Purchases cost about 4,000 naira. For 30 per version she needs 60, which is 240,000 naira, about 17,100 a day over 14 days."
+   ],
+   "card": {
+    "title": "Is the budget big enough to test?",
+    "rows": [
+     [
+      "Cost per purchase",
+      "4,000"
+     ],
+     [
+      "60 purchases needed",
+      "240,000"
+     ]
+    ],
+    "note": "Naira amounts are approximate."
+   }
+  },
+  {
+   "demo": "laptop_social",
+   "say": [
+    "The client has only 8,000 naira a day. That buys just 14 purchases per version, too few to trust."
+   ],
+   "card": {
+    "title": "Is the budget big enough to test?",
+    "rows": [
+     [
+      "Cost per purchase",
+      "4,000"
+     ],
+     [
+      "60 purchases needed",
+      "240,000"
+     ],
+     [
+      "Client's daily test budget",
+      "8,000"
+     ]
+    ],
+    "note": "Naira amounts are approximate."
+   }
+  },
+  {
+   "demo": "laptop_social",
+   "say": [
+    "So she tests on add to cart instead, at about 900 naira each. That gives roughly 62 per version, then she confirms the winner on purchases later."
+   ],
+   "card": {
+    "title": "Is the budget big enough to test?",
+    "rows": [
+     [
+      "Cost per purchase",
+      "4,000"
+     ],
+     [
+      "60 purchases needed",
+      "240,000"
+     ],
+     [
+      "Client's daily test budget",
+      "8,000"
+     ],
+     [
+      "Cost per add to cart",
+      "900"
+     ]
+    ],
+    "note": "Naira amounts are approximate."
+   }
+  },
+  {
+   "demo": "laptop_ads",
+   "say": [
+    "Read Meta's Advertising Standards for each client. Copy that implies you know something personal, like struggling with your weight, gets rejected. So do guaranteed health or beauty results, get-rich offers and fake buttons."
+   ],
+   "panel": {
+    "kicker": "Ad policies",
+    "heading": "Rewrite it before Meta rejects it",
+    "mode": "compare",
+    "left_h": "Gets rejected",
+    "left": [
+     "Struggling with your weight?",
+     "Guaranteed before-and-after",
+     "Double your money",
+     "Fake play buttons"
+    ],
+    "right_h": "Write instead",
+    "right": [
+     "Our programme helps people who...",
+     "Honest claims, NAFDAC if needed",
+     "Declare special ad categories",
+     "Headline says what the ad is"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Write: our programme helps people who. Keep claims honest, with NAFDAC registration where a product needs it. If it is a real breach, fix it, because repeated violations can restrict the whole ad account."
+   ],
+   "panel": {
+    "kicker": "Ad policies",
+    "heading": "Rewrite it before Meta rejects it",
+    "mode": "compare",
+    "left_h": "Gets rejected",
+    "left": [
+     "Struggling with your weight?",
+     "Guaranteed before-and-after",
+     "Double your money",
+     "Fake play buttons"
+    ],
+    "right_h": "Write instead",
+    "right": [
+     "Our programme helps people who...",
+     "Honest claims, NAFDAC if needed",
+     "Declare special ad categories",
+     "Headline says what the ad is"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Run your pre-launch check on a phone every time. Then in the first hours, check only for faults: is it delivering, is spend on track, any rejections?"
+   ],
+   "panel": {
+    "kicker": "After launch",
+    "heading": "Monitor early, decide later",
+    "items": [
+     "Hour 2: is it delivering?",
+     "Day 1: spend and errors",
+     "Days 2 to 7: hands off",
+     "Day 7: compare with target CPA",
+     "Day 14: decisions"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Leave it alone during learning. From day 7, compare each ad set with your target cost per sale. Watch for creative fatigue: frequency climbing while clicks fall. The fix is new creative."
+   ],
+   "panel": {
+    "kicker": "After launch",
+    "heading": "Monitor early, decide later",
+    "items": [
+     "Hour 2: is it delivering?",
+     "Day 1: spend and errors",
+     "Days 2 to 7: hands off",
+     "Day 7: compare with target CPA",
+     "Day 14: decisions"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "When an ad set beats target, raise its budget in modest steps, not double. Write every change in a change log, with the date and reason, and send a plain weekly report that leads with orders, revenue and cost per order."
+   ],
+   "panel": {
+    "kicker": "After launch",
+    "heading": "Monitor early, decide later",
+    "items": [
+     "Hour 2: is it delivering?",
+     "Day 1: spend and errors",
+     "Days 2 to 7: hands off",
+     "Day 7: compare with target CPA",
+     "Day 14: decisions"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Raise winning budgets about 20 percent at a time.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "To remember. The client owns every asset. Verify that Purchase fires once. Use custom audiences to retarget and exclude. Test one variable with enough events. And check every launch on a phone, and log every change."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "The client owns every asset",
+     "Purchase fires once, verified",
+     "Retarget and exclude with custom audiences",
+     "One variable, enough events, fixed dates",
+     "QA on a phone; log every change"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Now practise. Set up and verify a Pixel on a practice site and record what fires. Design an audience and test plan with a budget calculation. Then build your reusable QA checklist, naming system, change log and report template.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice tasks",
+    "heading": "Your practice tasks",
+    "items": [
+     "Make a Pixel verification record",
+     "Design an audience and test plan",
+     "Build your QA and reporting kit"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

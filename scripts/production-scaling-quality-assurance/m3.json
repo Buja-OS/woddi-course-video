@@ -1,0 +1,646 @@
+{
+ "course": "production-scaling-quality-assurance",
+ "module": "m3",
+ "title": "Growth, people and proof",
+ "course_title": "Production Scaling & Quality Assurance",
+ "shots": [
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Growth, people and proof.",
+    "This is the video for module 3 of Production Scaling and Quality Assurance."
+   ]
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "A school asks for 400 packs by Friday. A supermarket asks for 300 packs every Monday, for months. Breaking that promise once can lose the account."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Scaling only pays if you keep promises",
+    "items": [
+     "Promise only what you can deliver",
+     "Handle defects without hiding them",
+     "Prove where every pack came from",
+     "A 90-day plan you can check"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "At volume, defects are certain. What matters is what happens next."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Scaling only pays if you keep promises",
+    "items": [
+     "Promise only what you can deliver",
+     "Handle defects without hiding them",
+     "Prove where every pack came from",
+     "A 90-day plan you can check"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "You must trace any pack back to its materials and forward to its customers."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Scaling only pays if you keep promises",
+    "items": [
+     "Promise only what you can deliver",
+     "Handle defects without hiding them",
+     "Prove where every pack came from",
+     "A 90-day plan you can check"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "And you will finish with a 90-day scale-up plan."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Scaling only pays if you keep promises",
+    "items": [
+     "Promise only what you can deliver",
+     "Handle defects without hiding them",
+     "Prove where every pack came from",
+     "A 90-day plan you can check"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Plan with demonstrated capacity: what you actually produced to specification in a normal week. For Kemi, 2,100 packs a week."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Should Kemi take 500 more packs a week?",
+    "items": [
+     "Demonstrated capacity: 2,100 a week",
+     "Now: 1,500 packs, 71% utilisation",
+     "Plus 500: 95%, only 100 spare",
+     "One lost day = 420 packs",
+     "Counter-offer 300: 86%, 300 spare"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Utilisation is committed demand divided by capacity. She already supplies 1,500 packs, so 71%."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Should Kemi take 500 more packs a week?",
+    "items": [
+     "Demonstrated capacity: 2,100 a week",
+     "Now: 1,500 packs, 71% utilisation",
+     "Plus 500: 95%, only 100 spare",
+     "One lost day = 420 packs",
+     "Counter-offer 300: 86%, 300 spare"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "A supermarket wants 500 more every Monday. That is 95%, with only 100 packs spare."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Should Kemi take 500 more packs a week?",
+    "items": [
+     "Demonstrated capacity: 2,100 a week",
+     "Now: 1,500 packs, 71% utilisation",
+     "Plus 500: 95%, only 100 spare",
+     "One lost day = 420 packs",
+     "Counter-offer 300: 86%, 300 spare"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Her records show she loses about one day a month to power cuts and illness. One lost day is 420 packs. With 100 spare, recovery takes more than 4 weeks."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Should Kemi take 500 more packs a week?",
+    "items": [
+     "Demonstrated capacity: 2,100 a week",
+     "Now: 1,500 packs, 71% utilisation",
+     "Plus 500: 95%, only 100 spare",
+     "One lost day = 420 packs",
+     "Counter-offer 300: 86%, 300 spare"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "So she offers 300 a week for 6 weeks. That leaves 300 spare, and a lost day is recovered in 1.4 weeks. After 6 weeks of on-time delivery, she has evidence for more."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Should Kemi take 500 more packs a week?",
+    "items": [
+     "Demonstrated capacity: 2,100 a week",
+     "Now: 1,500 packs, 71% utilisation",
+     "Plus 500: 95%, only 100 spare",
+     "One lost day = 420 packs",
+     "Counter-offer 300: 86%, 300 spare"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Let the volume follow your evidence, never run ahead of it.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Keep a small buffer of passed product so a bad day does not become a missed delivery. Label every carton, and always deliver the oldest good stock first."
+   ],
+   "panel": {
+    "kicker": "Buffer and lead times",
+    "heading": "Promise honestly",
+    "mode": "compare",
+    "left_h": "Stock buffer",
+    "left": [
+     "About one delivery per customer",
+     "Lot code and best-before on cartons",
+     "Cool and dry",
+     "First expired, first out"
+    ],
+    "right_h": "Honest lead time",
+    "right": [
+     "Extra order / spare capacity",
+     "1,000 / 300 = 3.3 weeks",
+     "Add buying and delivery time",
+     "Quote 4 weeks, not 1"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "For a one-off order, divide it by your spare capacity, then add buying and delivery time. Kemi quotes 4 weeks plus delivery, not 1 week.",
+    "And watch long payment terms: waiting 30 days means you fund the stock yourself."
+   ],
+   "panel": {
+    "kicker": "Buffer and lead times",
+    "heading": "Promise honestly",
+    "mode": "compare",
+    "left_h": "Stock buffer",
+    "left": [
+     "About one delivery per customer",
+     "Lot code and best-before on cartons",
+     "Cool and dry",
+     "First expired, first out"
+    ],
+    "right_h": "Honest lead time",
+    "right": [
+     "Extra order / spare capacity",
+     "1,000 / 300 = 3.3 weeks",
+     "Add buying and delivery time",
+     "Quote 4 weeks, not 1"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Any item that fails a check goes to a marked hold area, with a tag. Nothing leaves without a decision. If in doubt, put it on the red tray, and thank people who use it."
+   ],
+   "panel": {
+    "kicker": "Defects",
+    "heading": "Hold, decide, rework by the rules",
+    "items": [
+     "Failed item: red tray, with a tag",
+     "Supervisor decides; write it down",
+     "Rework by a written method, once",
+     "Re-check against the full spec",
+     "Dropped, mouldy, contaminated: scrap"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "The decision is rework, downgrade, scrap, or use as is, and it is written down."
+   ],
+   "panel": {
+    "kicker": "Defects",
+    "heading": "Hold, decide, rework by the rules",
+    "items": [
+     "Failed item: red tray, with a tag",
+     "Supervisor decides; write it down",
+     "Rework by a written method, once",
+     "Re-check against the full spec",
+     "Dropped, mouldy, contaminated: scrap"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Rework only by a written method, re-check everything, record it, and allow it only once."
+   ],
+   "panel": {
+    "kicker": "Defects",
+    "heading": "Hold, decide, rework by the rules",
+    "items": [
+     "Failed item: red tray, with a tag",
+     "Supervisor decides; write it down",
+     "Rework by a written method, once",
+     "Re-check against the full spec",
+     "Dropped, mouldy, contaminated: scrap"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Some food faults can never be reworked. Anything dropped, contaminated, mouldy or past its date is scrapped.",
+    "Never hide a food safety problem. Find the cause, and if it was sold, contact the buyers."
+   ],
+   "panel": {
+    "kicker": "Defects",
+    "heading": "Hold, decide, rework by the rules",
+    "items": [
+     "Failed item: red tray, with a tag",
+     "Supervisor decides; write it down",
+     "Rework by a written method, once",
+     "Re-check against the full spec",
+     "Dropped, mouldy, contaminated: scrap"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Keep a defect log. Over two weeks Kemi's team logs 100 defective packs out of about 4,000."
+   ],
+   "panel": {
+    "kicker": "Find the cause",
+    "heading": "Pareto, then fishbone",
+    "items": [
+     "Two weeks: 100 defective packs",
+     "Burnt 46, broken 30: together 76%",
+     "Fishbone with the team, 20 minutes",
+     "Cause: last loads, oldest oil",
+     "Fryer rotation and oil-change rule"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Sort them largest first. Burnt and broken packs cause 76% of all defects. This is a Pareto table. It shows where to spend your effort."
+   ],
+   "panel": {
+    "kicker": "Find the cause",
+    "heading": "Pareto, then fishbone",
+    "items": [
+     "Two weeks: 100 defective packs",
+     "Burnt 46, broken 30: together 76%",
+     "Fishbone with the team, 20 minutes",
+     "Cause: last loads, oldest oil",
+     "Fryer rotation and oil-change rule"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Then a 20-minute fishbone session: the team lists possible causes under people, equipment, method, materials, measurement and environment."
+   ],
+   "panel": {
+    "kicker": "Find the cause",
+    "heading": "Pareto, then fishbone",
+    "items": [
+     "Two weeks: 100 defective packs",
+     "Burnt 46, broken 30: together 76%",
+     "Fishbone with the team, 20 minutes",
+     "Cause: last loads, oldest oil",
+     "Fryer rotation and oil-change rule"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "The defect log shows most burnt packs came from the last loads of the day, when the fryer was tired and the oil oldest."
+   ],
+   "panel": {
+    "kicker": "Find the cause",
+    "heading": "Pareto, then fishbone",
+    "items": [
+     "Two weeks: 100 defective packs",
+     "Burnt 46, broken 30: together 76%",
+     "Fishbone with the team, 20 minutes",
+     "Cause: last loads, oldest oil",
+     "Fryer rotation and oil-change rule"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Her corrective actions: a fryer rotation every two hours, oil changed at a fixed number of loads, and the timer reset written into the method. Two weeks later, she checks the log again."
+   ],
+   "panel": {
+    "kicker": "Find the cause",
+    "heading": "Pareto, then fishbone",
+    "items": [
+     "Two weeks: 100 defective packs",
+     "Burnt 46, broken 30: together 76%",
+     "Fishbone with the team, 20 minutes",
+     "Cause: last loads, oldest oil",
+     "Fryer rotation and oil-change rule"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "A correction fixes the product. A corrective action removes the cause.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "A shop sends Kemi a photo of a pack that tasted stale and oily. The lot code is KC261006-3: chin-chin made on 6 October 2026, mixing load 3."
+   ],
+   "panel": {
+    "kicker": "Traceability",
+    "heading": "Lot codes and batch records",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Lot code",
+      "d": "KC261006-3: Kemi's Chin-chin, 6 October 2026, load 3. On every pack and carton."
+     },
+     {
+      "t": "Batch record",
+      "d": "Material lots, every check with reading and initials, output, retained sample, release."
+     },
+     {
+      "t": "Dispatch log",
+      "d": "Which customer got how many from each lot, and when."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Her batch record shows the oil was not changed that day, and the fryer was a new helper. The retained sample from load 3 is stale; load 2 is fine."
+   ],
+   "panel": {
+    "kicker": "Traceability",
+    "heading": "Lot codes and batch records",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Lot code",
+      "d": "KC261006-3: Kemi's Chin-chin, 6 October 2026, load 3. On every pack and carton."
+     },
+     {
+      "t": "Batch record",
+      "d": "Material lots, every check with reading and initials, output, retained sample, release."
+     },
+     {
+      "t": "Dispatch log",
+      "d": "Which customer got how many from each lot, and when."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Her dispatch log shows 30 packs went to the shop and 22 to named WhatsApp customers. Within an afternoon she replaces them, retrains the helper, and adds an oil-change tick box."
+   ],
+   "panel": {
+    "kicker": "Traceability",
+    "heading": "Lot codes and batch records",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Lot code",
+      "d": "KC261006-3: Kemi's Chin-chin, 6 October 2026, load 3. On every pack and carton."
+     },
+     {
+      "t": "Batch record",
+      "d": "Material lots, every check with reading and initials, output, retained sample, release."
+     },
+     {
+      "t": "Dispatch log",
+      "d": "Which customer got how many from each lot, and when."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "In the first 30 days, pilot the new load size, trial the bottleneck fix, and train one helper per stage."
+   ],
+   "panel": {
+    "kicker": "90-day plan",
+    "heading": "Milestones you can check",
+    "items": [
+     "Days 1-30: pilot and fix the bottleneck",
+     "Days 31-60: new volume, three weeks running",
+     "Days 61-90: offer proven volume",
+     "Budget from two supplier quotes",
+     "Move dates, never the quality standard"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "By day 60, reach the new volume for at least three weeks in a row, with a control chart running daily."
+   ],
+   "panel": {
+    "kicker": "90-day plan",
+    "heading": "Milestones you can check",
+    "items": [
+     "Days 1-30: pilot and fix the bottleneck",
+     "Days 31-60: new volume, three weeks running",
+     "Days 61-90: offer proven volume",
+     "Budget from two supplier quotes",
+     "Move dates, never the quality standard"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "By day 90, offer the proven volume to a regular buyer, with complete batch records and one trace test passed."
+   ],
+   "panel": {
+    "kicker": "90-day plan",
+    "heading": "Milestones you can check",
+    "items": [
+     "Days 1-30: pilot and fix the bottleneck",
+     "Days 31-60: new volume, three weeks running",
+     "Days 61-90: offer proven volume",
+     "Budget from two supplier quotes",
+     "Move dates, never the quality standard"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Price each equipment item from at least two suppliers, and review the plan every two weeks. Adjust the dates, never the quality standard."
+   ],
+   "panel": {
+    "kicker": "90-day plan",
+    "heading": "Milestones you can check",
+    "items": [
+     "Days 1-30: pilot and fix the bottleneck",
+     "Days 31-60: new volume, three weeks running",
+     "Days 61-90: offer proven volume",
+     "Budget from two supplier quotes",
+     "Move dates, never the quality standard"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "To remember. Promise from demonstrated capacity, with a cushion and a buffer. Hold failed items and follow rework rules. Remove causes with Pareto and fishbone. And put a lot code on every pack."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "Plan with demonstrated capacity",
+     "Keep a cushion and a buffer",
+     "Hold failed items; rework once, by rules",
+     "Pareto first, then fishbone",
+     "Lot code on every pack and carton"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Your turn. Test a supply commitment, run a defect review with a Pareto table, then build your lot codes, batch record and 90-day plan.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice tasks",
+    "heading": "Your practice tasks",
+    "items": [
+     "Test a supply commitment",
+     "Run your first defect review",
+     "Build your traceability pack and plan"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

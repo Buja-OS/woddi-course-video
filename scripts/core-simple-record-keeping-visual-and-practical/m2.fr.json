@@ -1,0 +1,453 @@
+{
+ "course": "core-simple-record-keeping-visual-and-practical",
+ "module": "m2",
+ "title": "Ventes, stock et crédit : sachez ce que vous avez vendu et qui vous doit",
+ "course_title": "Tenue de registres simple (visuelle et pratique)",
+ "shots": [
+  {
+   "demo": "cash_count",
+   "say": [
+    "Ventes, stock et crédit : sachez ce que vous avez vendu et qui vous doit.",
+    "Ceci est la vidéo du module 2, Dossiers de ventes, de stocks et de crédit."
+   ]
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Votre book de vente est la page la plus utilisée de votre entreprise. Si vous ne conservez qu’un seul enregistrement, conservez celui-ci."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Trois enregistrements qui protègent votre argent",
+    "items": [
+     "Livret de vente : chaque vente et comment elle a été payée",
+     "Fiche de stock : ce qui est entré, sorti, reste",
+     "Liste des débiteurs : qui vous doit et quand"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Votre fiche de stock montre où se trouve la majeure partie de l’argent de votre entreprise : sur les étagères."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Trois enregistrements qui protègent votre argent",
+    "items": [
+     "Livret de vente : chaque vente et comment elle a été payée",
+     "Fiche de stock : ce qui est entré, sorti, reste",
+     "Liste des débiteurs : qui vous doit et quand"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Et votre liste de débiteurs récupère votre argent. Le crédit fidélise les clients, mais c’est le moyen le plus rapide pour une petite entreprise de manquer d’argent."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Trois enregistrements qui protègent votre argent",
+    "items": [
+     "Livret de vente : chaque vente et comment elle a été payée",
+     "Fiche de stock : ce qui est entré, sorti, reste",
+     "Liste des débiteurs : qui vous doit et quand"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Chaque vente comporte une ligne : date, article, quantité, prix, total et mode de paiement. Espèces, virement ou crédit.",
+    "Par exemple, Funke vend des produits alimentaires à Ibadan."
+   ],
+   "card": {
+    "title": "Le livre de ventes de Funke, un matin",
+    "rows": [],
+    "note": "Les prix sont approximatifs."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Elle vend 4 seaux de peinture de garri à environ 3 500 nairas en espèces, soit 14 000 nairas. Elle compte également 12 petites tasses d'écrevisses à environ 500 naira, soit 6 000 naira supplémentaires. Ses ventes au comptant s'élèvent à 20 000 naira."
+   ],
+   "card": {
+    "title": "Le livre de ventes de Funke, un matin",
+    "rows": [
+     [
+      "Cash : garri et écrevisses",
+      "20,000"
+     ]
+    ],
+    "note": "Les prix sont approximatifs."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Deux seaux de haricots à environ 5 000 nairas sont payés par virement. Cela fait 10 000 nairas."
+   ],
+   "card": {
+    "title": "Le livre de ventes de Funke, un matin",
+    "rows": [
+     [
+      "Cash : garri et écrevisses",
+      "20,000"
+     ],
+     [
+      "Transfert : haricots",
+      "10,000"
+     ]
+    ],
+    "note": "Les prix sont approximatifs."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Et une bouteille d'huile de palme va à Iya Sade à crédit, 2 500 nairas."
+   ],
+   "card": {
+    "title": "Le livre de ventes de Funke, un matin",
+    "rows": [
+     [
+      "Cash : garri et écrevisses",
+      "20,000"
+     ],
+     [
+      "Transfert : haricots",
+      "10,000"
+     ],
+     [
+      "Crédit : huile de palme, Iya Sade",
+      "2,500"
+     ]
+    ],
+    "note": "Les prix sont approximatifs."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Toutes les ventes s'élèvent à environ 32 500 naira. Désormais, elle sait exactement quoi vérifier : 20 000 espèces de plus dans son porte-monnaie, 10 000 de plus sur son compte et Iya Sade sur sa liste de débiteurs."
+   ],
+   "card": {
+    "title": "Le livre de ventes de Funke, un matin",
+    "rows": [
+     [
+      "Cash : garri et écrevisses",
+      "20,000"
+     ],
+     [
+      "Transfert : haricots",
+      "10,000"
+     ],
+     [
+      "Crédit : huile de palme, Iya Sade",
+      "2,500"
+     ]
+    ],
+    "note": "Les prix sont approximatifs."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "À la clôture, première étape. Ajoutez la colonne Total pour toute la journée."
+   ],
+   "panel": {
+    "kicker": "A l'heure de fermeture",
+    "heading": "Vérifiez votre livret de vente",
+    "items": [
+     "Ajoutez la colonne Total pour la journée",
+     "Comptez l'argent liquide, moins le flottant",
+     "Cochez les virements vers votre application bancaire",
+     "Vérifiez que chaque vente à crédit est dans la liste des débiteurs",
+     "Écrivez toute différence avec une note"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Deuxième étape. Comptez votre argent et retirez le flottant, l'argent de change avec lequel vous avez commencé. Le reste devrait être égal à vos ventes au comptant."
+   ],
+   "panel": {
+    "kicker": "A l'heure de fermeture",
+    "heading": "Vérifiez votre livret de vente",
+    "items": [
+     "Ajoutez la colonne Total pour la journée",
+     "Comptez l'argent liquide, moins le flottant",
+     "Cochez les virements vers votre application bancaire",
+     "Vérifiez que chaque vente à crédit est dans la liste des débiteurs",
+     "Écrivez toute différence avec une note"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Troisième étape. Ouvrez votre application bancaire ou de portefeuille et cochez chaque transfert entrant sur une ligne de votre livre. Les alertes sans correspondance signifient souvent une vente oubliée.",
+    "Vérifiez toujours que l'argent est sur votre propre compte avant le départ des marchandises. Ne vous fiez jamais uniquement à l’écran du téléphone du client."
+   ],
+   "panel": {
+    "kicker": "A l'heure de fermeture",
+    "heading": "Vérifiez votre livret de vente",
+    "items": [
+     "Ajoutez la colonne Total pour la journée",
+     "Comptez l'argent liquide, moins le flottant",
+     "Cochez les virements vers votre application bancaire",
+     "Vérifiez que chaque vente à crédit est dans la liste des débiteurs",
+     "Écrivez toute différence avec une note"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Confirmez le transfert sur votre propre compte avant de libérer les marchandises.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Quatrième étape, vérifiez que chaque vente à crédit figure dans votre liste de débiteurs. Et cinquième étape, écrivez toute différence avec une courte note. Court de temps en temps est normal. Court presque tous les jours signifie que quelque chose ne va pas."
+   ],
+   "panel": {
+    "kicker": "A l'heure de fermeture",
+    "heading": "Vérifiez votre livret de vente",
+    "items": [
+     "Ajoutez la colonne Total pour la journée",
+     "Comptez l'argent liquide, moins le flottant",
+     "Cochez les virements vers votre application bancaire",
+     "Vérifiez que chaque vente à crédit est dans la liste des débiteurs",
+     "Écrivez toute différence avec une note"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Confirmez le transfert sur votre propre compte avant de libérer les marchandises.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Le stock d’ouverture, plus le stock acheté, moins le stock vendu, est égal à ce qui devrait rester. Comptez ce qui reste réellement et comparez.",
+    "Par exemple, Esther vend des boissons gazeuses en caisse à Port Harcourt. Lundi, elle compte 10 caisses."
+   ],
+   "panel": {
+    "kicker": "Actions",
+    "heading": "La formule boursière",
+    "items": [
+     "Stock d'ouverture : 10 caisses",
+     "Plus acheté : 15 caisses",
+     "Moins le nombre de fermetures : 7 caisses",
+     "18 caisses ont quitté le magasin",
+     "Le livret de vente indique 17 : 1 caisse manquante"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Elle en achète 15 de plus mercredi, donc 25 caisses étaient disponibles."
+   ],
+   "panel": {
+    "kicker": "Actions",
+    "heading": "La formule boursière",
+    "items": [
+     "Stock d'ouverture : 10 caisses",
+     "Plus acheté : 15 caisses",
+     "Moins le nombre de fermetures : 7 caisses",
+     "18 caisses ont quitté le magasin",
+     "Le livret de vente indique 17 : 1 caisse manquante"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Le samedi, elle compte 7 caisses. Ce sont donc 18 caisses qui sont sorties du magasin."
+   ],
+   "panel": {
+    "kicker": "Actions",
+    "heading": "La formule boursière",
+    "items": [
+     "Stock d'ouverture : 10 caisses",
+     "Plus acheté : 15 caisses",
+     "Moins le nombre de fermetures : 7 caisses",
+     "18 caisses ont quitté le magasin",
+     "Le livret de vente indique 17 : 1 caisse manquante"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Mais son livret de vente n’en indique que 17 exemplaires vendus. Une caisse, d'un prix coûtant d'environ 6 000 nairas, est inexpliquée.",
+    "Son aide explique : 2 bouteilles se sont cassées et certaines ont été données aux visiteurs. Maintenant, Esther écrit les casses et les cadeaux dans la colonne Sortie, et l'écart disparaît."
+   ],
+   "panel": {
+    "kicker": "Actions",
+    "heading": "La formule boursière",
+    "items": [
+     "Stock d'ouverture : 10 caisses",
+     "Plus acheté : 15 caisses",
+     "Moins le nombre de fermetures : 7 caisses",
+     "18 caisses ont quitté le magasin",
+     "Le livret de vente indique 17 : 1 caisse manquante"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Comptez à la même heure chaque semaine, par exemple le samedi après la fermeture. Écrivez les bris, les détériorations et les marchandises ramenées à la maison dans la colonne Sortie. Vendez d’abord les actions plus anciennes.",
+    "Et ne vendez jamais de nourriture, de boissons ou de médicaments après leur date de péremption. Retirez-les, enregistrez-les comme gâtés et achetez de plus petites quantités la prochaine fois."
+   ],
+   "panel": {
+    "kicker": "Décompte hebdomadaire",
+    "heading": "Quand tu comptes ton stock",
+    "items": [
+     "Même jour et heure chaque semaine",
+     "Casse record et utilisation domestique comme Out",
+     "Vendez d’abord les actions plus anciennes",
+     "Ne vendez jamais d’aliments, de boissons ou de médicaments périmés"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Écrivez chaque dette devant le client et relisez-la avec la date d'échéance. Enregistrez chaque paiement partiel et le nouveau solde.",
+    "Par exemple, Chioma vend du tissu à Aba. À la fin du mois, Ada, Joy et Uche lui doivent 73 000 nairas. La dette d'Uche date de 7 semaines."
+   ],
+   "panel": {
+    "kicker": "Crédit",
+    "heading": "Le problème de crédit de Chioma",
+    "mode": "compare",
+    "left_h": "On lui doit",
+    "left": [
+     "Ada : 25 000 nairas",
+     "Joie : 8 000 naira",
+     "Uche : 40 000 nairas",
+     "Total : 73 000 nairas"
+    ],
+    "right_h": "Elle a besoin",
+    "right": [
+     "Environ 120 000 nairas pour le stock",
+     "Elle a 60 000 nairas en main",
+     "Il manque 60 000 nairas"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Le stock de la semaine prochaine coûtera environ 120 000 nairas, et elle n'en a que 60 000 en main. Elle appelle donc Ada aujourd'hui, convient d'un rendez-vous avec Joy et arrête le crédit à Uche.",
+    "Triez les dettes par âge et poursuivez d’abord les plus âgées. Plus une dette attend, plus il est difficile de la recouvrer."
+   ],
+   "panel": {
+    "kicker": "Crédit",
+    "heading": "Le problème de crédit de Chioma",
+    "mode": "compare",
+    "left_h": "On lui doit",
+    "left": [
+     "Ada : 25 000 nairas",
+     "Joie : 8 000 naira",
+     "Uche : 40 000 nairas",
+     "Total : 73 000 nairas"
+    ],
+    "right_h": "Elle a besoin",
+    "right": [
+     "Environ 120 000 nairas pour le stock",
+     "Elle a 60 000 nairas en main",
+     "Il manque 60 000 nairas"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Définissez vos règles. Crédit uniquement pour les clients réguliers que vous connaissez, une limite par personne, une date de paiement claire, pas de nouveau crédit jusqu'à ce que la dernière dette soit payée et pas de vente à crédit sans ligne dans la liste."
+   ],
+   "panel": {
+    "kicker": "Règles de crédit",
+    "heading": "Définissez vos règles de crédit",
+    "items": [
+     "Qui : clients réguliers avec un téléphone fonctionnel",
+     "Combien : une limite par personne",
+     "Combien de temps : une date de paiement claire",
+     "Un à la fois : aucun nouveau crédit tant qu'il n'est pas payé",
+     "Écrivez-le à chaque fois"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Organisez maintenant une journée complète de livre de ventes, créez votre résumé hebdomadaire, créez une fiche de stock pour votre produit phare et nettoyez votre liste de débiteurs. Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâches d'entraînement",
+    "heading": "Vos tâches pratiques",
+    "items": [
+     "Organisez une journée complète de vente de livres",
+     "Construisez votre résumé hebdomadaire",
+     "Fiche de stock pour votre produit phare",
+     "Nettoyez votre liste de débiteurs"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

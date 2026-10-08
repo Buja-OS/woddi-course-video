@@ -1,0 +1,458 @@
+{
+ "course": "core-data-literacy",
+ "module": "m4",
+ "title": "Your insight workbook, a report people act on, and your plan",
+ "course_title": "Data Literacy: Spreadsheets, Charts and Business Metrics",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Your insight workbook, a report people act on, and your plan.",
+    "This is the video for module 4 of Data Literacy."
+   ]
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Your capstone is one Google Sheets file that takes real records from messy to meaningful. Choose data you care about: your sales, your group's contributions, or your orders."
+   ],
+   "panel": {
+    "kicker": "What you will do",
+    "heading": "From analysis to impact",
+    "items": [
+     "Build one workbook from your own records",
+     "Write up to three findings with numbers",
+     "Present them so people act",
+     "Keep a weekly habit and a 90-day plan"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Then you turn it into findings, and present them so a client, employer, donor or your group actually acts."
+   ],
+   "panel": {
+    "kicker": "What you will do",
+    "heading": "From analysis to impact",
+    "items": [
+     "Build one workbook from your own records",
+     "Write up to three findings with numbers",
+     "Present them so people act",
+     "Keep a weekly habit and a 90-day plan"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Finally, you make data a weekly habit."
+   ],
+   "panel": {
+    "kicker": "What you will do",
+    "heading": "From analysis to impact",
+    "items": [
+     "Build one workbook from your own records",
+     "Write up to three findings with numbers",
+     "Present them so people act",
+     "Keep a weekly habit and a 90-day plan"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Keep the original records untouched in Raw, and clean a copy."
+   ],
+   "panel": {
+    "kicker": "The capstone",
+    "heading": "The five sheets of your workbook",
+    "items": [
+     "Raw: the original records, never edited",
+     "Clean: consistent labels, no duplicates",
+     "Summary: SUMIF, COUNTIF, shares, metrics",
+     "Charts: two or three, each with a message title",
+     "Notes: question, dictionary, log, findings"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Summarise and chart the clean data, with a message title on every chart."
+   ],
+   "panel": {
+    "kicker": "The capstone",
+    "heading": "The five sheets of your workbook",
+    "items": [
+     "Raw: the original records, never edited",
+     "Clean: consistent labels, no duplicates",
+     "Summary: SUMIF, COUNTIF, shares, metrics",
+     "Charts: two or three, each with a message title",
+     "Notes: question, dictionary, log, findings"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "In Notes, write your question and a data dictionary: each column's name, meaning, type and allowed values. It lets someone else check your work without asking you.",
+    "Do not invent records. The point is to practise on real, imperfect data."
+   ],
+   "panel": {
+    "kicker": "The capstone",
+    "heading": "The five sheets of your workbook",
+    "items": [
+     "Raw: the original records, never edited",
+     "Clean: consistent labels, no duplicates",
+     "Summary: SUMIF, COUNTIF, shares, metrics",
+     "Charts: two or three, each with a message title",
+     "Notes: question, dictionary, log, findings"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Ngozi asks: is my business growing, and why are some customers unhappy? She removes 2 duplicate orders and fills missing delivery dates from her chats."
+   ],
+   "card": {
+    "title": "Ngozi's three-month workbook",
+    "rows": [],
+    "note": "Revenue by month, from SUMIF and COUNTIF."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Revenue grows every month: about 23.8% from July to August, and about 21.2% to September."
+   ],
+   "card": {
+    "title": "Ngozi's three-month workbook",
+    "rows": [
+     [
+      "July, 24 orders",
+      "210,000"
+     ],
+     [
+      "August, 28 orders",
+      "260,000"
+     ],
+     [
+      "September, 32 orders",
+      "315,000"
+     ]
+    ],
+    "note": "Revenue by month, from SUMIF and COUNTIF."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "In total, 785,000 naira. But COUNTIF shows 10 late orders out of 84, and 8 of the 10 were group aso ebi orders.",
+    "Her recommendation: quote group orders a longer time, take deposits earlier, and check whether lateness falls below 5% next quarter."
+   ],
+   "card": {
+    "title": "Ngozi's three-month workbook",
+    "rows": [
+     [
+      "July, 24 orders",
+      "210,000"
+     ],
+     [
+      "August, 28 orders",
+      "260,000"
+     ],
+     [
+      "September, 32 orders",
+      "315,000"
+     ]
+    ],
+    "note": "Revenue by month, from SUMIF and COUNTIF."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Write no more than three findings, each with a number, and name what the data cannot show. Ngozi's data cannot show whether customers left because of lateness, so she plans to ask.",
+    "Then run these six checks before you submit."
+   ],
+   "panel": {
+    "kicker": "Before you submit",
+    "heading": "Accuracy and privacy checks",
+    "items": [
+     "Cleaned rows and total explained in the log",
+     "Category totals add up to the overall total",
+     "Shares of a whole add up to 100%",
+     "Charts have titles, units, and zero axes",
+     "Codes, not names or phone numbers",
+     "Every column explained in the dictionary"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "A busy manager or donor will not read your spreadsheet. Start with the answer: we asked why deliveries were late, and the main reason is group orders."
+   ],
+   "panel": {
+    "kicker": "Presenting",
+    "heading": "The one-page report structure",
+    "items": [
+     "Main message in one sentence",
+     "Two or three supporting numbers",
+     "One clear chart",
+     "What it means",
+     "What we should do"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false,
+    "rule": "Lead with the answer, not the order you did the work.",
+    "showRule": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Give two or three numbers and one chart. When speaking, round them: about one in eight orders, not 11.9 percent."
+   ],
+   "panel": {
+    "kicker": "Presenting",
+    "heading": "The one-page report structure",
+    "items": [
+     "Main message in one sentence",
+     "Two or three supporting numbers",
+     "One clear chart",
+     "What it means",
+     "What we should do"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Lead with the answer, not the order you did the work.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Then say what it means, and close with the decision you need, who will do what, and by when."
+   ],
+   "panel": {
+    "kicker": "Presenting",
+    "heading": "The one-page report structure",
+    "items": [
+     "Main message in one sentence",
+     "Two or three supporting numbers",
+     "One clear chart",
+     "What it means",
+     "What we should do"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Lead with the answer, not the order you did the work.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "For example, a community programme in Ilorin trained women in bookkeeping. Outputs are what you delivered: 38 of 45 completed."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Outputs, outcomes and honesty",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Outputs",
+      "d": "What you delivered: 45 enrolled, 38 completed, about 84.4%."
+     },
+     {
+      "t": "Outcomes",
+      "d": "What changed: 25 of 38 keep weekly sales records, about 65.8%."
+     },
+     {
+      "t": "Honest gaps",
+      "d": "7 did not finish because of market days. So she asks to fund a Saturday cohort."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Outcomes are what changed. A phone follow-up three months later reached all 38, and 25 now keep weekly records. The donor headline: two in three graduates now keep weekly sales records."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Outputs, outcomes and honesty",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Outputs",
+      "d": "What you delivered: 45 enrolled, 38 completed, about 84.4%."
+     },
+     {
+      "t": "Outcomes",
+      "d": "What changed: 25 of 38 keep weekly sales records, about 65.8%."
+     },
+     {
+      "t": "Honest gaps",
+      "d": "7 did not finish because of market days. So she asks to fund a Saturday cohort."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "She also reports the 7 who did not finish, and why. Funders usually notice missing numbers, and admitting limits increases trust.",
+    "For members, she sends one short WhatsApp message with the same facts and a clear next step."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Outputs, outcomes and honesty",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Outputs",
+      "d": "What you delivered: 45 enrolled, 38 completed, about 84.4%."
+     },
+     {
+      "t": "Outcomes",
+      "d": "What changed: 25 of 38 keep weekly sales records, about 65.8%."
+     },
+     {
+      "t": "Honest gaps",
+      "d": "7 did not finish because of market days. So she asks to fund a Saturday cohort."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Grow my business cannot be checked. A target names the metric, the starting point, the goal and the date."
+   ],
+   "panel": {
+    "kicker": "Your 90-day plan",
+    "heading": "Vague goals or measurable targets",
+    "mode": "compare",
+    "left_h": "Vague goal",
+    "left": [
+     "Keep better records",
+     "Earn more",
+     "Keep customers"
+    ],
+    "right_h": "Measurable target",
+    "right": [
+     "Record 100% of sales for 12 weeks",
+     "Margin from 24% to 26% by day 90",
+     "Repeat customer rate 50% by day 90"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "For example, Halima's kiosk earns about 95,000 naira a week at a 24% gross margin. In 90 days she will record every sale, raise margin to 26%, measure repeat customers, and test one change, such as a bulk-buy discount for two weeks.",
+    "Keep it to about three targets, and spend 30 minutes each week on your records and dashboard."
+   ],
+   "panel": {
+    "kicker": "Your 90-day plan",
+    "heading": "Vague goals or measurable targets",
+    "mode": "compare",
+    "left_h": "Vague goal",
+    "left": [
+     "Keep better records",
+     "Earn more",
+     "Keep customers"
+    ],
+    "right_h": "Measurable target",
+    "right": [
+     "Record 100% of sales for 12 weeks",
+     "Margin from 24% to 26% by day 90",
+     "Repeat customer rate 50% by day 90"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "To remember. Build your workbook from real records. Lead with the answer. Report honestly. To earn your certificate, complete the capstone and score at least 70% in the final quiz. That is 9 of 12 questions."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "Five sheets: Raw, Clean, Summary, Charts, Notes",
+     "Up to three findings, each with a number",
+     "Lead with the answer, then evidence, then action",
+     "Report outputs, outcomes and honest gaps",
+     "Certificate: capstone plus 9 of 12 in the quiz"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Your turn. Build your workbook, present your findings twice, and write your 90-day plan.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice tasks",
+    "heading": "Your practice tasks",
+    "items": [
+     "Build your five-sheet workbook",
+     "Write a one-page report and a WhatsApp summary",
+     "Set a fixed weekly data time",
+     "Write your 90-day plan with three targets"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

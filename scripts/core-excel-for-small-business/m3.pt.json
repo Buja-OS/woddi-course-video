@@ -1,0 +1,449 @@
+{
+ "course": "core-excel-for-small-business",
+ "module": "m3",
+ "title": "Dados limpos, totais de categorias e gráficos que dizem a verdade",
+ "course_title": "Excel e Planilhas Google para pequenas empresas",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Dados limpos, totais de categorias e gráficos que dizem a verdade.",
+    "Este é o vídeo do Módulo 3 do Excel e Planilhas Google para Pequenas Empresas."
+   ]
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Depois de algumas semanas de entradas, você vai querer respostas. Quais foram minhas maiores vendas? Quanto gastei com transporte?",
+    "A classificação, a filtragem e as listas suspensas mantêm seus dados organizados à medida que crescem."
+   ],
+   "panel": {
+    "kicker": "Neste módulo",
+    "heading": "Transforme registros em evidências",
+    "items": [
+     "Classifique e filtre sem quebrar linhas",
+     "As listas suspensas evitam erros ortográficos",
+     "Totais SUMIF por categoria e cliente",
+     "Gráficos que respondem a uma pergunta"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Em seguida, o SUMIF e os gráficos transformam esses dados em evidências de como seu negócio realmente está indo."
+   ],
+   "panel": {
+    "kicker": "Neste módulo",
+    "heading": "Transforme registros em evidências",
+    "items": [
+     "Classifique e filtre sem quebrar linhas",
+     "As listas suspensas evitam erros ortográficos",
+     "Totais SUMIF por categoria e cliente",
+     "Gráficos que respondem a uma pergunta"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Para classificar, toque em qualquer célula dentro de seus dados e escolha Dados, Classificar e marque se seus dados possuem cabeçalhos. Em seguida, escolha a coluna e a ordem, como o maior primeiro."
+   ],
+   "panel": {
+    "kicker": "Classifique com segurança",
+    "heading": "Classifique todo o intervalo, nunca uma coluna",
+    "mode": "compare",
+    "left_h": "Faça isso",
+    "left": [
+     "Toque em uma célula dentro dos seus dados",
+     "Dados, classificação, com cabeçalhos marcados",
+     "Aceitar Expandir a seleção"
+    ],
+    "right_h": "Nunca isso",
+    "right": [
+     "Selecione apenas a coluna Valor",
+     "Classifique sozinho",
+     "As quantidades mudam, os itens ficam para trás"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Aqui está o erro comum. Se você selecionar apenas a coluna Valor e classificá-la, os valores serão movidos, mas as datas e os itens ao lado deles não. Cada linha agora está errada.",
+    "O Excel avisa e oferece Expanda a seleção. Sempre aceite isso. Se isso acontecer, desfaça imediatamente."
+   ],
+   "panel": {
+    "kicker": "Classifique com segurança",
+    "heading": "Classifique todo o intervalo, nunca uma coluna",
+    "mode": "compare",
+    "left_h": "Faça isso",
+    "left": [
+     "Toque em uma célula dentro dos seus dados",
+     "Dados, classificação, com cabeçalhos marcados",
+     "Aceitar Expandir a seleção"
+    ],
+    "right_h": "Nunca isso",
+    "right": [
+     "Selecione apenas a coluna Valor",
+     "Classifique sozinho",
+     "As quantidades mudam, os itens ficam para trás"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Halima suspeita que o transporte está a consumir o seu lucro. Um filtro oculta as linhas que ela não precisa por um momento.",
+    "Ela toca na seta em Categoria e marca apenas Transporte."
+   ],
+   "card": {
+    "title": "Gastos com transporte de Halima",
+    "rows": [],
+    "note": "SUBTOTAL(9, range) adiciona apenas as linhas visíveis."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Restam 4 linhas. Acima de seus títulos ela tem SUBTOTAL, 9, depois seu intervalo de Valor. O 9 diz para somar."
+   ],
+   "card": {
+    "title": "Gastos com transporte de Halima",
+    "rows": [
+     [
+      "Viagem 1",
+      "2,500"
+     ],
+     [
+      "Viagem 2",
+      "3,000"
+     ],
+     [
+      "Viagem 3",
+      "1,500"
+     ],
+     [
+      "Viagem 4",
+      "4,000"
+     ]
+    ],
+    "note": "SUBTOTAL(9, range) adiciona apenas as linhas visíveis."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "O transporte chega a 11.000 naira. SUM ainda adicionaria todas as 40 linhas, e é por isso que SUBTOTAL é a ferramenta certa para filtrar. Limpe o filtro quando terminar."
+   ],
+   "card": {
+    "title": "Gastos com transporte de Halima",
+    "rows": [
+     [
+      "Viagem 1",
+      "2,500"
+     ],
+     [
+      "Viagem 2",
+      "3,000"
+     ],
+     [
+      "Viagem 3",
+      "1,500"
+     ],
+     [
+      "Viagem 4",
+      "4,000"
+     ]
+    ],
+    "note": "SUBTOTAL(9, range) adiciona apenas as linhas visíveis."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "A seguir, listas suspensas. Selecione toda a coluna Tipo, abaixo do título."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Adicione uma lista suspensa",
+    "items": [
+     "Selecione toda a coluna Tipo abaixo do título",
+     "Excel: Dados, Validação de Dados, Lista",
+     "Planilhas: Inserir, Menu suspenso",
+     "Opções: Venda, Despesa",
+     "Faça o mesmo para Categoria"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "No Excel, escolha Dados, Validação de dados e em Permitir lista de seleção. No Planilhas Google, escolha Inserir, Menu suspenso."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Adicione uma lista suspensa",
+    "items": [
+     "Selecione toda a coluna Tipo abaixo do título",
+     "Excel: Dados, Validação de Dados, Lista",
+     "Planilhas: Inserir, Menu suspenso",
+     "Opções: Venda, Despesa",
+     "Faça o mesmo para Categoria"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Adicione as opções Venda e Despesa. Depois faça o mesmo para Categoria, com sua própria lista, como Alimentos, Gás, Embalagem e Transporte."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Adicione uma lista suspensa",
+    "items": [
+     "Selecione toda a coluna Tipo abaixo do título",
+     "Excel: Dados, Validação de Dados, Lista",
+     "Planilhas: Inserir, Menu suspenso",
+     "Opções: Venda, Despesa",
+     "Faça o mesmo para Categoria"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Por que isso importa? SE, SUMIF e CONT.SE correspondem exatamente ao texto. Uma lista torna cada entrada idêntica, para que eles nunca percam uma linha silenciosamente."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Adicione uma lista suspensa",
+    "items": [
+     "Selecione toda a coluna Tipo abaixo do título",
+     "Excel: Dados, Validação de Dados, Lista",
+     "Planilhas: Inserir, Menu suspenso",
+     "Opções: Venda, Despesa",
+     "Faça o mesmo para Categoria"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Sempre com a mesma ortografia, para que suas fórmulas nunca percam uma linha",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Os filtros respondem a uma pergunta de cada vez. SUMIF responde permanentemente.",
+    "O padrão é SUMIF, o intervalo a ser verificado, a condição e depois o intervalo a ser adicionado. Bisi coloca cifrões em ambas as faixas para que ela possa copiar a fórmula em sua lista de categorias."
+   ],
+   "card": {
+    "title": "Despesas de Bisi por categoria",
+    "rows": [],
+    "note": "Os totais da categoria devem somar o total geral."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Os alimentos custam 67.000 naira. O gás é 9.000, a embalagem 10.500 e o transporte 6.000. CONT.SE conta quantas entradas cada um tem."
+   ],
+   "card": {
+    "title": "Despesas de Bisi por categoria",
+    "rows": [
+     [
+      "Alimentos, 2 entradas",
+      "67,000"
+     ],
+     [
+      "Gás, 1 entrada",
+      "9,000"
+     ],
+     [
+      "Embalagem, 2 entradas",
+      "10,500"
+     ],
+     [
+      "Transportes, 3 entradas",
+      "6,000"
+     ]
+    ],
+    "note": "Os totais da categoria devem somar o total geral."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "O total é 92.500 e corresponde à SOMA de toda a coluna Valor. Sempre faça essa verificação cruzada. Se forem diferentes, uma categoria está incorreta ou faltando."
+   ],
+   "card": {
+    "title": "Despesas de Bisi por categoria",
+    "rows": [
+     [
+      "Alimentos, 2 entradas",
+      "67,000"
+     ],
+     [
+      "Gás, 1 entrada",
+      "9,000"
+     ],
+     [
+      "Embalagem, 2 entradas",
+      "10,500"
+     ],
+     [
+      "Transportes, 3 entradas",
+      "6,000"
+     ]
+    ],
+    "note": "Os totais da categoria devem somar o total geral."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Um bom gráfico responde a uma pergunta. Um gráfico de linhas mostra as mudanças ao longo do tempo. Um gráfico de colunas compara. Uma torta mostra partes de um todo, com apenas cerca de cinco fatias."
+   ],
+   "panel": {
+    "kicker": "Gráficos",
+    "heading": "Escolha o gráfico para a pergunta",
+    "items": [
+     "Mudança ao longo do tempo: gráfico de linhas",
+     "Compare meses ou produtos: gráfico de colunas",
+     "Participação nos gastos: torta, cerca de 5 fatias",
+     "O título indica a mensagem, unidades mostradas",
+     "As colunas começam em zero"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Por exemplo, Funke em Abeokuta registra seis meses de vendas. Seu título diz que as vendas aumentaram 50% de julho a dezembro, não apenas no gráfico 1.",
+    "E comece os gráficos de colunas do zero. Um eixo começando mais alto faz com que uma pequena elevação pareça enorme."
+   ],
+   "panel": {
+    "kicker": "Gráficos",
+    "heading": "Escolha o gráfico para a pergunta",
+    "items": [
+     "Mudança ao longo do tempo: gráfico de linhas",
+     "Compare meses ou produtos: gráfico de colunas",
+     "Participação nos gastos: torta, cerca de 5 fatias",
+     "O título indica a mensagem, unidades mostradas",
+     "As colunas começam em zero"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Se você vende a crédito, SUMIF na coluna Não pago fornece o total devido a você.",
+    "Mas nomes, números de telefone e dívidas são informações pessoais. A Lei de Proteção de Dados de 2023 da Nigéria espera que você colete apenas o que precisa e mantenha-o seguro."
+   ],
+   "panel": {
+    "kicker": "Proteja as pessoas",
+    "heading": "Os dados do cliente são dados pessoais",
+    "items": [
+     "Colete apenas o que você precisa",
+     "Restringir quem pode abrir o arquivo",
+     "Compartilhe totais, não listas de clientes"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Compartilhe os totais em grupos, não em listas de clientes. E nunca publique publicamente uma lista de devedores para envergonhar os clientes."
+   ],
+   "panel": {
+    "kicker": "Proteja as pessoas",
+    "heading": "Os dados do cliente são dados pessoais",
+    "items": [
+     "Colete apenas o que você precisa",
+     "Restringir quem pode abrir o arquivo",
+     "Compartilhe totais, não listas de clientes"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Nunca publique uma lista de devedores publicamente para envergonhar os clientes",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Para lembrar. Classifique todo o intervalo. Use SUBTOTAL ao filtrar. Os menus suspensos mantêm a ortografia idêntica.",
+    "Verifique se os totais da categoria correspondem ao total geral. E dê a cada gráfico uma pergunta, um título claro e um eixo a partir do zero."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Lembre-se",
+    "items": [
+     "Classifique todo o intervalo, nunca uma coluna",
+     "SUBTOTAL totaliza apenas linhas visíveis",
+     "Os menus suspensos mantêm a ortografia idêntica",
+     "Os totais da categoria devem corresponder ao total geral",
+     "Uma pergunta por gráfico, eixo a partir de zero"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Agora é sua vez. Organize seu rastreador com listas suspensas, crie uma guia Resumo com SUMIF e faça dois gráficos com títulos que expressam a mensagem.",
+    "Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Tarefa prática",
+    "heading": "Suas tarefas práticas",
+    "items": [
+     "Organize seu rastreador com menus suspensos",
+     "Faça uma guia Resumo com SUMIF",
+     "Faça um gráfico do seu negócio"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

@@ -1,0 +1,711 @@
+{
+ "course": "ai-literacy",
+ "module": "m1",
+ "title": "How AI works, and where it is safe to use it",
+ "course_title": "AI Literacy: Using AI Wisely, Safely and Critically",
+ "shots": [
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "How AI works, and where it is safe to use it.",
+    "This is the video for module 1 of AI Literacy."
+   ]
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "You have used AI for years. The spam filter in Gmail, your keyboard's word suggestions and face unlock are all AI."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "AI is already on your phone",
+    "items": [
+     "AI is already in your phone and apps",
+     "Generative AI writes new text and pictures",
+     "A confident answer is not always correct",
+     "You stay responsible for what you send"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Since late 2022, generative AI has become popular. It produces new text, images or audio when you type a request."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "AI is already on your phone",
+    "items": [
+     "AI is already in your phone and apps",
+     "Generative AI writes new text and pictures",
+     "A confident answer is not always correct",
+     "You stay responsible for what you send"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Today you will learn how a chatbot builds its answer, and why it sometimes makes things up."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "AI is already on your phone",
+    "items": [
+     "AI is already in your phone and apps",
+     "Generative AI writes new text and pictures",
+     "A confident answer is not always correct",
+     "You stay responsible for what you send"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "And you will learn a simple test for where AI can safely help you."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "AI is already on your phone",
+    "items": [
+     "AI is already in your phone and apps",
+     "Generative AI writes new text and pictures",
+     "A confident answer is not always correct",
+     "You stay responsible for what you send"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Predictive AI learns patterns from past data to sort, score or forecast, like your bank's fraud alert."
+   ],
+   "panel": {
+    "kicker": "Two families",
+    "heading": "Predictive AI and generative AI",
+    "mode": "compare",
+    "left_h": "Predictive AI",
+    "left": [
+     "Sorts, scores or forecasts",
+     "Spam filter",
+     "Fraud alert from your bank",
+     "Traffic estimate on a map"
+    ],
+    "right_h": "Generative AI",
+    "right": [
+     "Makes new content from a prompt",
+     "A chatbot drafting a letter",
+     "Photo turned into a cartoon",
+     "An AI voice reading text aloud"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Generative AI produces new content in answer to a request, called a prompt. Neither kind understands the world the way a person does."
+   ],
+   "panel": {
+    "kicker": "Two families",
+    "heading": "Predictive AI and generative AI",
+    "mode": "compare",
+    "left_h": "Predictive AI",
+    "left": [
+     "Sorts, scores or forecasts",
+     "Spam filter",
+     "Fraud alert from your bank",
+     "Traffic estimate on a map"
+    ],
+    "right_h": "Generative AI",
+    "right": [
+     "Makes new content from a prompt",
+     "A chatbot drafting a letter",
+     "Photo turned into a cartoon",
+     "An AI voice reading text aloud"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Chatbots run on a large language model, or LLM, trained to predict what comes next.",
+    "Step 1. You type a prompt."
+   ],
+   "panel": {
+    "kicker": "Inside the chatbot",
+    "heading": "How a chatbot builds an answer",
+    "items": [
+     "You type a prompt",
+     "Your text is split into tokens",
+     "The model predicts the next token",
+     "It adds that token and repeats",
+     "The answer appears on your screen"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Step 2. Your words are split into tokens, small pieces of text. One English token is about 4 characters."
+   ],
+   "panel": {
+    "kicker": "Inside the chatbot",
+    "heading": "How a chatbot builds an answer",
+    "items": [
+     "You type a prompt",
+     "Your text is split into tokens",
+     "The model predicts the next token",
+     "It adds that token and repeats",
+     "The answer appears on your screen"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Step 3. The model predicts the next token."
+   ],
+   "panel": {
+    "kicker": "Inside the chatbot",
+    "heading": "How a chatbot builds an answer",
+    "items": [
+     "You type a prompt",
+     "Your text is split into tokens",
+     "The model predicts the next token",
+     "It adds that token and repeats",
+     "The answer appears on your screen"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Step 4. It adds it and repeats, again and again. That is why answers appear word by word."
+   ],
+   "panel": {
+    "kicker": "Inside the chatbot",
+    "heading": "How a chatbot builds an answer",
+    "items": [
+     "You type a prompt",
+     "Your text is split into tokens",
+     "The model predicts the next token",
+     "It adds that token and repeats",
+     "The answer appears on your screen"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Step 5. You see the answer. Nothing in that loop checks it against reality. The model chooses likely words. It does not check facts."
+   ],
+   "panel": {
+    "kicker": "Inside the chatbot",
+    "heading": "How a chatbot builds an answer",
+    "items": [
+     "You type a prompt",
+     "Your text is split into tokens",
+     "The model predicts the next token",
+     "It adds that token and repeats",
+     "The answer appears on your screen"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "It chooses likely words. It does not check facts.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "flipchart",
+   "say": [
+    "A confident answer that is false is called a hallucination, like a fake law or a book that does not exist.",
+    "The first cause is gaps in training data. Where there is little text, the model guesses."
+   ],
+   "panel": {
+    "kicker": "Hallucinations",
+    "heading": "Why chatbots make things up",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Gaps in training data",
+      "d": "Less text on a topic means more guessing. Local Nigerian topics are often thin."
+     },
+     {
+      "t": "Knowledge cutoff",
+      "d": "Anything that changed after training, like a new fee or policy, is unknown to the model."
+     },
+     {
+      "t": "Pressure to answer",
+      "d": "Models are trained to be helpful, so they give an answer instead of saying I don't know."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "flipchart",
+   "say": [
+    "The second is the knowledge cutoff, the date after which the model learned nothing new."
+   ],
+   "panel": {
+    "kicker": "Hallucinations",
+    "heading": "Why chatbots make things up",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Gaps in training data",
+      "d": "Less text on a topic means more guessing. Local Nigerian topics are often thin."
+     },
+     {
+      "t": "Knowledge cutoff",
+      "d": "Anything that changed after training, like a new fee or policy, is unknown to the model."
+     },
+     {
+      "t": "Pressure to answer",
+      "d": "Models are trained to be helpful, so they give an answer instead of saying I don't know."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "The third is pressure to answer. And a wrong answer sounds just as calm and fluent as a right one."
+   ],
+   "panel": {
+    "kicker": "Hallucinations",
+    "heading": "Why chatbots make things up",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Gaps in training data",
+      "d": "Less text on a topic means more guessing. Local Nigerian topics are often thin."
+     },
+     {
+      "t": "Knowledge cutoff",
+      "d": "Anything that changed after training, like a new fee or policy, is unknown to the model."
+     },
+     {
+      "t": "Pressure to answer",
+      "d": "Models are trained to be helpful, so they give an answer instead of saying I don't know."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "The best protection is to give the source yourself. Paste your document and say, answer only from the text below."
+   ],
+   "panel": {
+    "kicker": "Cut the errors",
+    "heading": "What reduces hallucinations",
+    "items": [
+     "Paste the source: answer only from this text",
+     "Ask it to say not stated in the text",
+     "Use web search, then open the links",
+     "Ask for exact quotes you can find",
+     "Start a new chat for a new task"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Tell it to say not stated in the text if the answer is missing."
+   ],
+   "panel": {
+    "kicker": "Cut the errors",
+    "heading": "What reduces hallucinations",
+    "items": [
+     "Paste the source: answer only from this text",
+     "Ask it to say not stated in the text",
+     "Use web search, then open the links",
+     "Ask for exact quotes you can find",
+     "Start a new chat for a new task"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "For current facts, use web search, then open the links it shows."
+   ],
+   "panel": {
+    "kicker": "Cut the errors",
+    "heading": "What reduces hallucinations",
+    "items": [
+     "Paste the source: answer only from this text",
+     "Ask it to say not stated in the text",
+     "Use web search, then open the links",
+     "Ask for exact quotes you can find",
+     "Start a new chat for a new task"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Ask it to quote where each point came from. No quote means unreliable."
+   ],
+   "panel": {
+    "kicker": "Cut the errors",
+    "heading": "What reduces hallucinations",
+    "items": [
+     "Paste the source: answer only from this text",
+     "Ask it to say not stated in the text",
+     "Use web search, then open the links",
+     "Ask for exact quotes you can find",
+     "Start a new chat for a new task"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "And start a new chat for a new task."
+   ],
+   "panel": {
+    "kicker": "Cut the errors",
+    "heading": "What reduces hallucinations",
+    "items": [
+     "Paste the source: answer only from this text",
+     "Ask it to say not stated in the text",
+     "Use web search, then open the links",
+     "Ask for exact quotes you can find",
+     "Start a new chat for a new task"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Before you use AI, ask two questions. First, how reliable is AI for this task? Drafting is high. Precise facts and local rules are low."
+   ],
+   "panel": {
+    "kicker": "Before you use AI",
+    "heading": "The reliability and risk test",
+    "items": [
+     "How reliable is AI for this task?",
+     "How much harm would a mistake cause?",
+     "High reliability, low harm: use, light check",
+     "Medium harm: use it, then check every fact",
+     "Low reliability, high harm: go to the source"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Second, how much harm would a mistake cause? A wrong fee, dosage, legal deadline or bank detail is high harm."
+   ],
+   "panel": {
+    "kicker": "Before you use AI",
+    "heading": "The reliability and risk test",
+    "items": [
+     "How reliable is AI for this task?",
+     "How much harm would a mistake cause?",
+     "High reliability, low harm: use, light check",
+     "Medium harm: use it, then check every fact",
+     "Low reliability, high harm: go to the source"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "High reliability and low harm: use it freely with a light check."
+   ],
+   "panel": {
+    "kicker": "Before you use AI",
+    "heading": "The reliability and risk test",
+    "items": [
+     "How reliable is AI for this task?",
+     "How much harm would a mistake cause?",
+     "High reliability, low harm: use, light check",
+     "Medium harm: use it, then check every fact",
+     "Low reliability, high harm: go to the source"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Higher harm: use it, then check every fact."
+   ],
+   "panel": {
+    "kicker": "Before you use AI",
+    "heading": "The reliability and risk test",
+    "items": [
+     "How reliable is AI for this task?",
+     "How much harm would a mistake cause?",
+     "High reliability, low harm: use, light check",
+     "Medium harm: use it, then check every fact",
+     "Low reliability, high harm: go to the source"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Low reliability and high harm: avoid AI and go to the official source or a qualified person. Health, money and legal matters need that care."
+   ],
+   "panel": {
+    "kicker": "Before you use AI",
+    "heading": "The reliability and risk test",
+    "items": [
+     "How reliable is AI for this task?",
+     "How much harm would a mistake cause?",
+     "High reliability, low harm: use, light check",
+     "Medium harm: use it, then check every fact",
+     "Low reliability, high harm: go to the source"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Match the amount of checking to the harm a mistake could cause.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "For example, Amaka runs a women's cooperative in Owerri. She places five tasks on the grid before opening any AI tool."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Amaka sorts her week",
+    "items": [
+     "Thank-you message: AI drafts, she edits",
+     "12-page report summary: AI, then check numbers",
+     "CAC fee: she checks the CAC website",
+     "Child's fever: she refers to a clinic",
+     "Slogan ideas: AI gives ideas, she picks 2"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "A thank-you message to volunteers: AI drafts it and she edits the names."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Amaka sorts her week",
+    "items": [
+     "Thank-you message: AI drafts, she edits",
+     "12-page report summary: AI, then check numbers",
+     "CAC fee: she checks the CAC website",
+     "Child's fever: she refers to a clinic",
+     "Slogan ideas: AI gives ideas, she picks 2"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "A summary of a 12-page report: she uses AI, then checks every number."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Amaka sorts her week",
+    "items": [
+     "Thank-you message: AI drafts, she edits",
+     "12-page report summary: AI, then check numbers",
+     "CAC fee: she checks the CAC website",
+     "Child's fever: she refers to a clinic",
+     "Slogan ideas: AI gives ideas, she picks 2"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "The current CAC registration fee: she checks the CAC website and calls the office."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Amaka sorts her week",
+    "items": [
+     "Thank-you message: AI drafts, she edits",
+     "12-page report summary: AI, then check numbers",
+     "CAC fee: she checks the CAC website",
+     "Child's fever: she refers to a clinic",
+     "Slogan ideas: AI gives ideas, she picks 2"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "A member's child with a fever: no chatbot. She refers the member to a clinic."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Amaka sorts her week",
+    "items": [
+     "Thank-you message: AI drafts, she edits",
+     "12-page report summary: AI, then check numbers",
+     "CAC fee: she checks the CAC website",
+     "Child's fever: she refers to a clinic",
+     "Slogan ideas: AI gives ideas, she picks 2"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Slogan ideas: AI suggests ten and she picks 2. She saves time without trusting AI where it is weak."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Amaka sorts her week",
+    "items": [
+     "Thank-you message: AI drafts, she edits",
+     "12-page report summary: AI, then check numbers",
+     "CAC fee: she checks the CAC website",
+     "Child's fever: she refers to a clinic",
+     "Slogan ideas: AI gives ideas, she picks 2"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "To remember. Generative AI makes new content from your prompt. It predicts likely words and does not check facts.",
+    "It is strong at drafts and weak at facts. Ask how reliable it is and how bad a mistake would be, and paste your own source."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "Generative AI makes new content from a prompt",
+     "It predicts likely words; it does not check facts",
+     "Strong at drafts, weak at facts and local detail",
+     "Ask: how reliable, and how bad is a mistake?",
+     "Paste your source and ask for quotes"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Now map your own week. Write down 8 real tasks, mark reliability and harm, place each on the grid, and circle the 2 where AI saves most time safely.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice task",
+    "heading": "Your practice task",
+    "items": [
+     "Write down 8 real tasks from your week",
+     "Mark AI reliability and harm for each",
+     "Place each task on the grid with an action",
+     "Circle the 2 tasks where AI saves most time"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

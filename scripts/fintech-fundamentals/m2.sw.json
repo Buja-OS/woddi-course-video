@@ -1,0 +1,537 @@
+{
+ "course": "fintech-fundamentals",
+ "module": "m2",
+ "title": "Mikopo, akiba, fedha kutoka nje: pata gharama halisi na hatari",
+ "course_title": "Misingi ya Fintech: Jinsi Fedha ya Dijiti inavyofanya kazi barani Afrika",
+ "shots": [
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Mikopo, akiba na utumaji pesa: pata gharama halisi, na hatari.",
+    "Hii ni video ya moduli ya pili ya Misingi ya Fintech."
+   ]
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Mkopo wa kidijitali unaweza kumruhusu mfanyabiashara aweke hisa tena leo badala ya mwezi ujao. Lakini baadhi ya programu zilitoza ada kubwa sana na kuwanyanyasa wakopaji."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Bidhaa zilizojaa uchapishaji mzuri",
+    "items": [
+     "Mikopo ya kidijitali: haraka, lakini ni ghali ikiwa ni ya kutojali",
+     "Akiba: amana, mkoba au uwekezaji?",
+     "Uhamisho: ada sio gharama nzima",
+     "Udanganyifu: uaminifu ni bidhaa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Bidhaa za akiba na kutuma hugusa mtiririko wa pesa mbili muhimu zaidi katika kaya. Zote mbili zimejaa maandishi mazuri."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Bidhaa zilizojaa uchapishaji mzuri",
+    "items": [
+     "Mikopo ya kidijitali: haraka, lakini ni ghali ikiwa ni ya kutojali",
+     "Akiba: amana, mkoba au uwekezaji?",
+     "Uhamisho: ada sio gharama nzima",
+     "Udanganyifu: uaminifu ni bidhaa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Na ikiwa wateja wanaogopa kupoteza pesa, wanarudi kwa pesa taslimu. Katika fintech, uaminifu ni bidhaa."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Bidhaa zilizojaa uchapishaji mzuri",
+    "items": [
+     "Mikopo ya kidijitali: haraka, lakini ni ghali ikiwa ni ya kutojali",
+     "Akiba: amana, mkoba au uwekezaji?",
+     "Uhamisho: ada sio gharama nzima",
+     "Udanganyifu: uaminifu ni bidhaa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Programu za mkopo mara nyingi huonyesha ada au jumla ya kurejesha, sio kiwango. Ili kulinganisha kwa haki, geuza kila mkopo kuwa kiwango cha muda sawa. Kwa mfano, Bisi katika Ibadan anahitaji naira 50,000 kwa hisa."
+   ],
+   "card": {
+    "title": "Bisi analinganisha matoleo mawili ya mkopo",
+    "rows": [],
+    "note": "Geuza kila mkopo kuwa ada ya kila mwezi kwanza."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Programu A inasema ulipe naira 57,500 ndani ya siku 30. Gharama ni naira 7,500, ambayo ni 15% kwa mwezi, au karibu 182.5% kwa mwaka."
+   ],
+   "card": {
+    "title": "Bisi analinganisha matoleo mawili ya mkopo",
+    "rows": [
+     [
+      "Kiasi kilichokopwa",
+      "50,000"
+     ],
+     [
+      "Programu A: lipa ndani ya siku 30",
+      "57,500"
+     ],
+     [
+      "Gharama ya Programu A: 15% kwa mwezi",
+      "7,500"
+     ]
+    ],
+    "note": "Geuza kila mkopo kuwa ada ya kila mwezi kwanza."
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Programu B inasema ulipe naira 62,000 kwa muda wa miezi 3. Gharama ni naira 12,000, karibu 8% kwa mwezi.",
+    "Hisa zake hupata takriban naira 10,000 kwa kila mzunguko, kwa hivyo gharama ya App A hula 75% ya faida ya mzunguko mmoja. Mkopo mfupi unaoonekana kuwa wa bei nafuu ndio wa gharama kubwa zaidi."
+   ],
+   "card": {
+    "title": "Bisi analinganisha matoleo mawili ya mkopo",
+    "rows": [
+     [
+      "Kiasi kilichokopwa",
+      "50,000"
+     ],
+     [
+      "Programu A: lipa ndani ya siku 30",
+      "57,500"
+     ],
+     [
+      "Gharama ya Programu A: 15% kwa mwezi",
+      "7,500"
+     ],
+     [
+      "Programu B: lipa zaidi ya miezi 3",
+      "62,000"
+     ],
+     [
+      "Gharama ya programu B: takriban 8% kwa mwezi",
+      "12,000"
+     ]
+    ],
+    "note": "Geuza kila mkopo kuwa ada ya kila mwezi kwanza."
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "FCCPC inasimamia wakopeshaji wa wateja wa kidijitali na kuchapisha orodha ya walioidhinishwa. Mkopeshaji anayewajibika anaonyesha gharama kamili kabla ya kukubali, na huanza kidogo."
+   ],
+   "panel": {
+    "kicker": "Usalama",
+    "heading": "Mkopeshaji anayewajibika au programu ya uporaji?",
+    "mode": "compare",
+    "left_h": "Kuwajibika",
+    "left": [
+     "Gharama kamili imeonyeshwa kabla ya kukubali",
+     "Kwenye orodha iliyoidhinishwa na FCCPC",
+     "Huanza ndogo, hukua na wewe",
+     "Futa kituo cha malalamiko"
+    ],
+    "right_h": "Bendera nyekundu",
+    "right": [
+     "Anataka anwani au picha zako",
+     "Inatishia kutuma ujumbe kwa familia yako",
+     "Huficha jumla hadi ulipwe",
+     "Inasukuma mkopo mpya kulipa zamani"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Alama nyekundu: programu inayodai anwani au picha zako, inatishia kutuma ujumbe kwa familia yako, ambayo wasimamizi wameipiga marufuku, kuficha jumla, au kusukuma mkopo mpya ili kurejesha ule wa zamani."
+   ],
+   "panel": {
+    "kicker": "Usalama",
+    "heading": "Mkopeshaji anayewajibika au programu ya uporaji?",
+    "mode": "compare",
+    "left_h": "Kuwajibika",
+    "left": [
+     "Gharama kamili imeonyeshwa kabla ya kukubali",
+     "Kwenye orodha iliyoidhinishwa na FCCPC",
+     "Huanza ndogo, hukua na wewe",
+     "Futa kituo cha malalamiko"
+    ],
+    "right_h": "Bendera nyekundu",
+    "right": [
+     "Anataka anwani au picha zako",
+     "Inatishia kutuma ujumbe kwa familia yako",
+     "Huficha jumla hadi ulipwe",
+     "Inasukuma mkopo mpya kulipa zamani"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Kabla ya kuhifadhi katika programu, jua unachomiliki. Amana ya benki inadhibitiwa na CBN na kuwekewa bima na NDIC hadi kikomo. Angalia kikomo cha sasa kwenye tovuti ya NDIC."
+   ],
+   "panel": {
+    "kicker": "Akiba",
+    "heading": "Mambo matatu ambayo yanafanana",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Amana ya benki",
+      "d": "Imedhibitiwa na CBN. Bima ya amana ya NDIC hadi kikomo. Angalia kikomo cha sasa wewe mwenyewe."
+     },
+     {
+      "t": "Salio la mkoba",
+      "d": "Madai ya kuelea uliofanyika katika benki. Imelindwa na sheria za ulinzi wa kuelea."
+     },
+     {
+      "t": "Uwekezaji",
+      "d": "Kwa mfano mfuko wa soko la fedha. Imedhibitiwa na SEC Nigeria. Thamani yake inaweza kwenda juu au chini."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Salio la mkoba ni dai la kuelea ambalo lazima liwekwe kwenye benki."
+   ],
+   "panel": {
+    "kicker": "Akiba",
+    "heading": "Mambo matatu ambayo yanafanana",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Amana ya benki",
+      "d": "Imedhibitiwa na CBN. Bima ya amana ya NDIC hadi kikomo. Angalia kikomo cha sasa wewe mwenyewe."
+     },
+     {
+      "t": "Salio la mkoba",
+      "d": "Madai ya kuelea uliofanyika katika benki. Imelindwa na sheria za ulinzi wa kuelea."
+     },
+     {
+      "t": "Uwekezaji",
+      "d": "Kwa mfano mfuko wa soko la fedha. Imedhibitiwa na SEC Nigeria. Thamani yake inaweza kwenda juu au chini."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Uwekezaji, kama vile mfuko wa soko la fedha, unadhibitiwa na SEC Nigeria, na thamani yake inaweza kushuka. Kwa hivyo maneno yaliyohakikishwa kurudi kwenye uwekezaji ni ishara ya onyo."
+   ],
+   "panel": {
+    "kicker": "Akiba",
+    "heading": "Mambo matatu ambayo yanafanana",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Amana ya benki",
+      "d": "Imedhibitiwa na CBN. Bima ya amana ya NDIC hadi kikomo. Angalia kikomo cha sasa wewe mwenyewe."
+     },
+     {
+      "t": "Salio la mkoba",
+      "d": "Madai ya kuelea uliofanyika katika benki. Imelindwa na sheria za ulinzi wa kuelea."
+     },
+     {
+      "t": "Uwekezaji",
+      "d": "Kwa mfano mfuko wa soko la fedha. Imedhibitiwa na SEC Nigeria. Thamani yake inaweza kwenda juu au chini."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Utumaji pesa unakutoza mara mbili: ada ya awali, na ukingo wa kiwango cha ubadilishaji, pengo kati ya kiwango chako na kiwango cha kati cha soko. Upeo mara nyingi ni mkubwa, na ni rahisi kukosa."
+   ],
+   "panel": {
+    "kicker": "Fedha kutoka nje",
+    "heading": "Ada ya sifuri sio sawa na ya bei nafuu",
+    "items": [
+     "Gharama = ada ya awali + ukingo wa kiwango cha ubadilishaji",
+     "J: ada ya sifuri, mama anapata naira 388,000",
+     "B: ada ya pauni 3, mama anapata naira 398,000",
+     "Linganisha kile ambacho mpokeaji anapata hatimaye"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Kwa mfano, Ngozi huko Manchester anatuma pauni 200 kwa mama yake huko Enugu. Mtoa huduma A hutangaza ada sifuri, na mamake hupokea naira 388,000. Hiyo inagharimu 3%."
+   ],
+   "panel": {
+    "kicker": "Fedha kutoka nje",
+    "heading": "Ada ya sifuri sio sawa na ya bei nafuu",
+    "items": [
+     "Gharama = ada ya awali + ukingo wa kiwango cha ubadilishaji",
+     "J: ada ya sifuri, mama anapata naira 388,000",
+     "B: ada ya pauni 3, mama anapata naira 398,000",
+     "Linganisha kile ambacho mpokeaji anapata hatimaye"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Mtoa huduma B hutoza ada ya pauni 3 lakini hutoa kiwango bora zaidi, na mama yake hupokea naira 398,000, kwa takriban 2%. Kwa hivyo kila wakati linganisha kile mpokeaji anapata hatimaye. Na tumia chaneli zilizoidhinishwa pekee, sio wauzaji wa forex wa mitandao ya kijamii."
+   ],
+   "panel": {
+    "kicker": "Fedha kutoka nje",
+    "heading": "Ada ya sifuri sio sawa na ya bei nafuu",
+    "items": [
+     "Gharama = ada ya awali + ukingo wa kiwango cha ubadilishaji",
+     "J: ada ya sifuri, mama anapata naira 388,000",
+     "B: ada ya pauni 3, mama anapata naira 398,000",
+     "Linganisha kile ambacho mpokeaji anapata hatimaye"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Katika ubadilishanaji wa SIM, tapeli hupata SIM mpya kwenye nambari yako na kupokea OTP zako. Katika uhandisi wa kijamii, mpigaji simu hujifanya kuwa benki na kukuuliza PIN, OTP au BVN yako."
+   ],
+   "panel": {
+    "kicker": "Ulaghai",
+    "heading": "Aina za udanganyifu unapaswa kutambua",
+    "items": [
+     "Kubadilisha SIM: SIM mpya kwenye nambari yako",
+     "Uhandisi wa kijamii: wapiga simu bandia wa benki",
+     "Uchukuaji wa akaunti: simu au nenosiri lililoibiwa",
+     "Nyumbu wa pesa: akaunti za kukodi",
+     "Miradi ya Ponzi: mapato ya juu ya kudumu"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Uchukuaji wa akaunti hutumia manenosiri au simu zilizoibwa. Nyumbu wa pesa ni akaunti iliyokodishwa kupokea na kuhamisha pesa zilizoibiwa."
+   ],
+   "panel": {
+    "kicker": "Ulaghai",
+    "heading": "Aina za udanganyifu unapaswa kutambua",
+    "items": [
+     "Kubadilisha SIM: SIM mpya kwenye nambari yako",
+     "Uhandisi wa kijamii: wapiga simu bandia wa benki",
+     "Uchukuaji wa akaunti: simu au nenosiri lililoibiwa",
+     "Nyumbu wa pesa: akaunti za kukodi",
+     "Miradi ya Ponzi: mapato ya juu ya kudumu"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_security",
+   "say": [
+    "Na mifumo ghushi huahidi mapato mengi ya kudumu, hulipa wanachama mapema kutoka kwa amana mpya, kisha kuanguka. Angalia leseni na SEC au CBN."
+   ],
+   "panel": {
+    "kicker": "Ulaghai",
+    "heading": "Aina za udanganyifu unapaswa kutambua",
+    "items": [
+     "Kubadilisha SIM: SIM mpya kwenye nambari yako",
+     "Uhandisi wa kijamii: wapiga simu bandia wa benki",
+     "Uchukuaji wa akaunti: simu au nenosiri lililoibiwa",
+     "Nyumbu wa pesa: akaunti za kukodi",
+     "Miradi ya Ponzi: mapato ya juu ya kudumu"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Kwa mfano, Kemi alipigiwa simu na benki, akafikiri, na kusoma OTP. Saa 9:02 asubuhi, naira 85,000 zilitoka kwenye pochi yake."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Kemi anaripoti ulaghai haraka",
+    "items": [
+     "9:02 asubuhi: Naira 85,000 huondoka kwenye pochi yake",
+     "9:10 asubuhi: anaita usaidizi rasmi",
+     "Mkoba umezuiwa; kushikilia ombi",
+     "Ripoti ya polisi; weka kila kumbukumbu"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Saa 9:10 asubuhi anapiga simu kwenye laini ya usaidizi ya pochi. Kasi ndio kila kitu. Dakika za kwanza zitaamua ikiwa pesa zinaweza kugandishwa."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Kemi anaripoti ulaghai haraka",
+    "items": [
+     "9:02 asubuhi: Naira 85,000 huondoka kwenye pochi yake",
+     "9:10 asubuhi: anaita usaidizi rasmi",
+     "Mkoba umezuiwa; kushikilia ombi",
+     "Ripoti ya polisi; weka kila kumbukumbu"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Wakala huzuia pochi yake, na timu ya ulaghai huiuliza benki inayopokea kushikilia akaunti ya mlengwa."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Kemi anaripoti ulaghai haraka",
+    "items": [
+     "9:02 asubuhi: Naira 85,000 huondoka kwenye pochi yake",
+     "9:10 asubuhi: anaita usaidizi rasmi",
+     "Mkoba umezuiwa; kushikilia ombi",
+     "Ripoti ya polisi; weka kila kumbukumbu"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Kemi huandikisha ripoti ya polisi na huhifadhi kila nambari ya kumbukumbu. Ikiwa hataridhika, anaweza kufikia idara ya ulinzi wa watumiaji ya CBN au FCCPC."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Kemi anaripoti ulaghai haraka",
+    "items": [
+     "9:02 asubuhi: Naira 85,000 huondoka kwenye pochi yake",
+     "9:10 asubuhi: anaita usaidizi rasmi",
+     "Mkoba umezuiwa; kushikilia ombi",
+     "Ripoti ya polisi; weka kila kumbukumbu"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Kumbuka sheria hii. Hakuna benki halisi, pochi au kidhibiti kitawahi kukuuliza PIN, nenosiri au OTP yako. Iwapo mtu yeyote atafanya hivyo, kata simu, na uwasiliane na mtoa huduma wako kupitia nambari iliyo katika programu yake rasmi."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Kemi anaripoti ulaghai haraka",
+    "items": [
+     "9:02 asubuhi: Naira 85,000 huondoka kwenye pochi yake",
+     "9:10 asubuhi: anaita usaidizi rasmi",
+     "Mkoba umezuiwa; kushikilia ombi",
+     "Ripoti ya polisi; weka kila kumbukumbu"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Hakuna benki halisi itakayowahi kukuuliza PIN, nenosiri au OTP yako.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Kukumbuka. Linganisha mikopo kwa kiwango cha kila mwezi. Hakikisha kuwa mkopeshaji yuko kwenye orodha ya FCCPC. Jua kama akiba yako ni amana, pochi au uwekezaji. Ongeza ada na ukingo wa kubadilishana pamoja. Na usishiriki kamwe PIN au OTP yako."
+   ],
+   "panel": {
+    "kicker": "Pointi muhimu",
+    "heading": "Kumbuka",
+    "items": [
+     "Linganisha mikopo kwa kiwango cha kila mwezi",
+     "Angalia orodha ya wakopeshaji iliyoidhinishwa na FCCPC",
+     "Amana, mkoba au uwekezaji?",
+     "Gharama ya kutuma = ada + ukingo wa FX",
+     "Kamwe usishiriki PIN au OTP"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Sasa kagua ofa halisi ya mkopo bila kuukubali, linganisha nukuu mbili za utumaji pesa, na programu moja unayotumia isiyothibitisha ulaghai, kisha ionye familia yako kuhusu ulaghai wa OTP.",
+    "Endelea na masomo hapa chini."
+   ],
+   "panel": {
+    "kicker": "Mazoezi ya kazi",
+    "heading": "Kazi zako za mazoezi",
+    "items": [
+     "Kagua toleo la mkopo halisi, bila kukubali",
+     "Linganisha nukuu mbili za kutuma pesa",
+     "Programu moja inayothibitisha ulaghai unayotumia"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

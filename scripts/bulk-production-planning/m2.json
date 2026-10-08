@@ -1,0 +1,721 @@
+{
+ "course": "bulk-production-planning",
+ "module": "m2",
+ "title": "Scheduling, quality gates and the money plan",
+ "course_title": "Bulk Production Planning",
+ "shots": [
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Scheduling, quality gates and the money plan.",
+    "This is the video for module 2 of Bulk Production Planning."
+   ]
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Most late deliveries are decided on the first day, when the producer starts too late."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Late, faulty or unaffordable: plan it out",
+    "items": [
+     "Most late deliveries start on day one",
+     "A fault can hide in thousands of units",
+     "A big order can make you poorer",
+     "Three plans: dates, quality, cash"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "On a run of 5,000, a problem found at the end may already be inside thousands of units."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Late, faulty or unaffordable: plan it out",
+    "items": [
+     "Most late deliveries start on day one",
+     "A fault can hide in thousands of units",
+     "A big order can make you poorer",
+     "Three plans: dates, quality, cash"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "And a large order can make a business poorer if it is priced from small-batch costs."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Late, faulty or unaffordable: plan it out",
+    "items": [
+     "Most late deliveries start on day one",
+     "A fault can hide in thousands of units",
+     "A big order can make you poorer",
+     "Three plans: dates, quality, cash"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "So you will build three plans: a backward schedule, quality gates, and a cash plan."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Late, faulty or unaffordable: plan it out",
+    "items": [
+     "Most late deliveries start on day one",
+     "A fault can hide in thousands of units",
+     "A big order can make you poorer",
+     "Three plans: dates, quality, cash"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Backward scheduling starts from the delivery date and subtracts every stage. For example, Kemi must deliver 5,000 packs of plantain chips on Thursday 10 December."
+   ],
+   "panel": {
+    "kicker": "Backward scheduling",
+    "heading": "Count back from the delivery date",
+    "items": [
+     "Delivery: Thursday 10 December",
+     "Final check and loading: 9 December",
+     "Buffer: 7 and 8 December",
+     "Production: 11 days from 24 November",
+     "First-article run: 23 November",
+     "Order pouches by 10 November"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "The day before, she counts cartons, does the final quality check and prepares documents."
+   ],
+   "panel": {
+    "kicker": "Backward scheduling",
+    "heading": "Count back from the delivery date",
+    "items": [
+     "Delivery: Thursday 10 December",
+     "Final check and loading: 9 December",
+     "Buffer: 7 and 8 December",
+     "Production: 11 days from 24 November",
+     "First-article run: 23 November",
+     "Order pouches by 10 November"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Before that, 2 buffer days, kept empty for power cuts, sickness or a bad batch."
+   ],
+   "panel": {
+    "kicker": "Backward scheduling",
+    "heading": "Count back from the delivery date",
+    "items": [
+     "Delivery: Thursday 10 December",
+     "Final check and loading: 9 December",
+     "Buffer: 7 and 8 December",
+     "Production: 11 days from 24 November",
+     "First-article run: 23 November",
+     "Order pouches by 10 November"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Production is 11 working days at her proven rate, so it starts on Tuesday 24 November."
+   ],
+   "panel": {
+    "kicker": "Backward scheduling",
+    "heading": "Count back from the delivery date",
+    "items": [
+     "Delivery: Thursday 10 December",
+     "Final check and loading: 9 December",
+     "Buffer: 7 and 8 December",
+     "Production: 11 days from 24 November",
+     "First-article run: 23 November",
+     "Order pouches by 10 November"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "The day before, a short first-article run checks that the line matches the golden sample."
+   ],
+   "panel": {
+    "kicker": "Backward scheduling",
+    "heading": "Count back from the delivery date",
+    "items": [
+     "Delivery: Thursday 10 December",
+     "Final check and loading: 9 December",
+     "Buffer: 7 and 8 December",
+     "Production: 11 days from 24 November",
+     "First-article run: 23 November",
+     "Order pouches by 10 November"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Printed pouches take 10 working days, so they must be ordered by Tuesday 10 November, a full month before delivery.",
+    "Count working days only. A plan that quietly counts Sundays is late before it starts."
+   ],
+   "panel": {
+    "kicker": "Backward scheduling",
+    "heading": "Count back from the delivery date",
+    "items": [
+     "Delivery: Thursday 10 December",
+     "Final check and loading: 9 December",
+     "Buffer: 7 and 8 December",
+     "Production: 11 days from 24 November",
+     "First-article run: 23 November",
+     "Order pouches by 10 November"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "rule": "Count working days, not calendar days.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Put 25, 50, 75 and 100% milestones on a wall sheet, and fill in actual good packs each evening. The gap column is the most important number."
+   ],
+   "panel": {
+    "kicker": "Daily tracker",
+    "heading": "Watch the gap every evening",
+    "items": [
+     "Plan, actual and gap columns",
+     "Gap under 5%: recover in normal hours",
+     "Gap 5 to 10%: extra time at the bottleneck",
+     "Over 10% or buffer half used: call buyer"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "After three days Kemi is 70 packs behind, about 5% of plan. That is easy to recover now."
+   ],
+   "panel": {
+    "kicker": "Daily tracker",
+    "heading": "Watch the gap every evening",
+    "items": [
+     "Plan, actual and gap columns",
+     "Gap under 5%: recover in normal hours",
+     "Gap 5 to 10%: extra time at the bottleneck",
+     "Over 10% or buffer half used: call buyer"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "A bigger gap needs planned extra time at the bottleneck only, within safe working hours."
+   ],
+   "panel": {
+    "kicker": "Daily tracker",
+    "heading": "Watch the gap every evening",
+    "items": [
+     "Plan, actual and gap columns",
+     "Gap under 5%: recover in normal hours",
+     "Gap 5 to 10%: extra time at the bottleneck",
+     "Over 10% or buffer half used: call buyer"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "If the gap passes 10%, or half the buffer is used, call the buyer the same day with the facts and a revised plan.",
+    "Buffer days are the buyer's protection. Do not plan to use them."
+   ],
+   "panel": {
+    "kicker": "Daily tracker",
+    "heading": "Watch the gap every evening",
+    "items": [
+     "Plan, actual and gap columns",
+     "Gap under 5%: recover in normal hours",
+     "Gap 5 to 10%: extra time at the bottleneck",
+     "Over 10% or buffer half used: call buyer"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Quality gates are planned checkpoints, each with a clear measure and a rule for a fail. Gate 1 checks each delivery against specification."
+   ],
+   "panel": {
+    "kicker": "Quality gates",
+    "heading": "Five gates through the run",
+    "items": [
+     "Materials received",
+     "First article each day",
+     "Interval checks: 5 packs every 100",
+     "End-of-day count",
+     "Pre-shipment check; hygiene never skipped"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Gate 2 compares the first units of each day with the golden sample, before full speed."
+   ],
+   "panel": {
+    "kicker": "Quality gates",
+    "heading": "Five gates through the run",
+    "items": [
+     "Materials received",
+     "First article each day",
+     "Interval checks: 5 packs every 100",
+     "End-of-day count",
+     "Pre-shipment check; hygiene never skipped"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Gate 3 checks a small sample at a fixed interval, for example 5 packs every 100 packs, for weight, seal, colour and taste."
+   ],
+   "panel": {
+    "kicker": "Quality gates",
+    "heading": "Five gates through the run",
+    "items": [
+     "Materials received",
+     "First article each day",
+     "Interval checks: 5 packs every 100",
+     "End-of-day count",
+     "Pre-shipment check; hygiene never skipped"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Gate 4 counts good units and rejects at the end of the day."
+   ],
+   "panel": {
+    "kicker": "Quality gates",
+    "heading": "Five gates through the run",
+    "items": [
+     "Materials received",
+     "First article each day",
+     "Interval checks: 5 packs every 100",
+     "End-of-day count",
+     "Pre-shipment check; hygiene never skipped"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Gate 5 draws a sample from different cartons before loading.",
+    "And hygiene never slows down for deadlines. Handwashing, hair covers and clean surfaces are never skipped, and anyone with diarrhoea or vomiting stays away from food handling."
+   ],
+   "panel": {
+    "kicker": "Quality gates",
+    "heading": "Five gates through the run",
+    "items": [
+     "Materials received",
+     "First article each day",
+     "Interval checks: 5 packs every 100",
+     "End-of-day count",
+     "Pre-shipment check; hygiene never skipped"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Kemi fills to 103 g so normal variation stays above the 100 g on the label. On day 4, check 4 finds 2 of 5 packs underweight."
+   ],
+   "panel": {
+    "kicker": "The stop rule",
+    "heading": "Day 4: a scoop that held less",
+    "items": [
+     "Check 4: 2 of 5 packs underweight",
+     "Stop filling and sealing",
+     "Cause: new scoop, fills about 99 g",
+     "Re-weigh the last 100 packs",
+     "Refill the 11 under 100 g and log it"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Her stop rule says: if 2 or more of the 5 sampled packs fail, stop that station."
+   ],
+   "panel": {
+    "kicker": "The stop rule",
+    "heading": "Day 4: a scoop that held less",
+    "items": [
+     "Check 4: 2 of 5 packs underweight",
+     "Stop filling and sealing",
+     "Cause: new scoop, fills about 99 g",
+     "Re-weigh the last 100 packs",
+     "Refill the 11 under 100 g and log it"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "rule": "2 or more fails in 5 packs: stop, find the cause, then restart.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "The cause: the weigher changed scoops after lunch, and the new scoop holds less."
+   ],
+   "panel": {
+    "kicker": "The stop rule",
+    "heading": "Day 4: a scoop that held less",
+    "items": [
+     "Check 4: 2 of 5 packs underweight",
+     "Stop filling and sealing",
+     "Cause: new scoop, fills about 99 g",
+     "Re-weigh the last 100 packs",
+     "Refill the 11 under 100 g and log it"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "2 or more fails in 5 packs: stop, find the cause, then restart.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "She returns to the marked scoop, re-weighs the last 100 packs, and refills the 11 under 100 g. The problem stayed inside 100 packs, not thousands."
+   ],
+   "panel": {
+    "kicker": "The stop rule",
+    "heading": "Day 4: a scoop that held less",
+    "items": [
+     "Check 4: 2 of 5 packs underweight",
+     "Stop filling and sealing",
+     "Cause: new scoop, fills about 99 g",
+     "Re-weigh the last 100 packs",
+     "Refill the 11 under 100 g and log it"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "2 or more fails in 5 packs: stop, find the cause, then restart.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Now the money. Cost the run from the quantities you will actually buy, after rounding up."
+   ],
+   "card": {
+    "title": "Costing the whole run",
+    "rows": [],
+    "note": "Naira prices are approximate."
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Kemi's materials come to about 2,561,300 naira. Labour, including 2 training days for temporary workers, is 328,000. Gas is 275,000."
+   ],
+   "card": {
+    "title": "Costing the whole run",
+    "rows": [
+     [
+      "Materials, as actually bought",
+      "2,561,300"
+     ],
+     [
+      "Labour, including training days",
+      "328,000"
+     ],
+     [
+      "Gas for 11 production days",
+      "275,000"
+     ]
+    ],
+    "note": "Naira prices are approximate."
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Delivery is 60,000 and the trial run 20,000."
+   ],
+   "card": {
+    "title": "Costing the whole run",
+    "rows": [
+     [
+      "Materials, as actually bought",
+      "2,561,300"
+     ],
+     [
+      "Labour, including training days",
+      "328,000"
+     ],
+     [
+      "Gas for 11 production days",
+      "275,000"
+     ],
+     [
+      "Delivery",
+      "60,000"
+     ],
+     [
+      "First-article trial",
+      "20,000"
+     ]
+    ],
+    "note": "Naira prices are approximate."
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Direct cost is 3,244,300 naira. She adds a 5% contingency, so the full cost is about 681 naira per pack.",
+    "At a bulk price of 950 naira, profit is about 28% of revenue. A price of 700 would have left almost nothing."
+   ],
+   "card": {
+    "title": "Costing the whole run",
+    "rows": [
+     [
+      "Materials, as actually bought",
+      "2,561,300"
+     ],
+     [
+      "Labour, including training days",
+      "328,000"
+     ],
+     [
+      "Gas for 11 production days",
+      "275,000"
+     ],
+     [
+      "Delivery",
+      "60,000"
+     ],
+     [
+      "First-article trial",
+      "20,000"
+     ]
+    ],
+    "note": "Naira prices are approximate."
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Kemi pays for pouches, plantain and wages for weeks before the balance comes in. List every payment by date. The lowest running balance is your cash gap."
+   ],
+   "panel": {
+    "kicker": "The cash gap",
+    "heading": "Profit is not cash",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Find the lowest point",
+      "d": "List every payment in and out by date. With a 40% deposit, Kemi's lowest balance is about minus 1,344,300 naira."
+     },
+     {
+      "t": "Close the gap",
+      "d": "A 50% deposit cuts the gap by 475,000 naira. Staged payment is another option."
+     },
+     {
+      "t": "Check the money",
+      "d": "A deposit counts only when it shows in your account. Not a screenshot or SMS alert."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Ask for a bigger deposit, or staged payment, for example 40% on order, 30% when the buyer approves the first-article packs, and 30% on delivery."
+   ],
+   "panel": {
+    "kicker": "The cash gap",
+    "heading": "Profit is not cash",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Find the lowest point",
+      "d": "List every payment in and out by date. With a 40% deposit, Kemi's lowest balance is about minus 1,344,300 naira."
+     },
+     {
+      "t": "Close the gap",
+      "d": "A 50% deposit cuts the gap by 475,000 naira. Staged payment is another option."
+     },
+     {
+      "t": "Check the money",
+      "d": "A deposit counts only when it shows in your account. Not a screenshot or SMS alert."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "And never order printed pouches on a promise. Fake transfer screenshots are common."
+   ],
+   "panel": {
+    "kicker": "The cash gap",
+    "heading": "Profit is not cash",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Find the lowest point",
+      "d": "List every payment in and out by date. With a 40% deposit, Kemi's lowest balance is about minus 1,344,300 naira."
+     },
+     {
+      "t": "Close the gap",
+      "d": "A 50% deposit cuts the gap by 475,000 naira. Staged payment is another option."
+     },
+     {
+      "t": "Check the money",
+      "d": "A deposit counts only when it shows in your account. Not a screenshot or SMS alert."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Accept only if the schedule fits with buffer, the price leaves your margin, and you can cover the cash gap. If one fails, negotiate before you say yes."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Say yes only when all three work",
+    "items": [
+     "The schedule fits, with buffer",
+     "The price leaves your margin after contingency",
+     "You can cover the cash gap",
+     "Act on small gaps early",
+     "Keep a quality log as evidence"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Your turn. Build a backward schedule, design your quality gates, then cost your order and find your cash gap.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice tasks",
+    "heading": "Your practice tasks",
+    "items": [
+     "Build your backward schedule",
+     "Design your quality gate plan",
+     "Cost your order and find your cash gap"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}
