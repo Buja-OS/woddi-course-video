@@ -1,0 +1,530 @@
+{
+ "course": "remote-work-team-collaboration",
+ "module": "m1",
+ "title": "Kedu ka ndị otu kesara na-arụ ọrụ n'ezie: dee mbụ, kwenye, wulite ntụkwasị obi",
+ "course_title": "Ọrụ dịpụrụ adịpụ & Mmekọrịta otu: Ndị otu ekesa na-eduga",
+ "shots": [
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Kedu ka ndị otu ekesa na-arụ ọrụ n'ezie.",
+    "Nke a bụ vidiyo maka modul otu nke Ọrụ Remote na Mmekọrịta Otu."
+   ]
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Otu nke kesara bụ otu ọ bụla nke ndị otu ya anaghị ekere otu ebe ọrụ kwa ụbọchị."
+   ],
+   "panel": {
+    "kicker": "Ihe mere nke a ji dị mkpa",
+    "heading": "Ihe otu ekesa na-efunahụ",
+    "items": [
+     "Enweghị ajụjụ ngwa ngwa n'ofe tebụl",
+     "Enweghị mmelite a nụtụrụla",
+     "Ọ dịghị onye nwere ike ịhụ onye ji ọrụ n'aka",
+     "Ya mere, anyị na-ewuli àgwà ọma kama"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Ha na-atụfu ụlọ ọrụ: ajụjụ ngwa ngwa, mmelite a nụtụrụla, onye njikwa nwere ike ịhụ onye na-arụsi ọrụ ike."
+   ],
+   "panel": {
+    "kicker": "Ihe mere nke a ji dị mkpa",
+    "heading": "Ihe otu ekesa na-efunahụ",
+    "items": [
+     "Enweghị ajụjụ ngwa ngwa n'ofe tebụl",
+     "Enweghị mmelite a nụtụrụla",
+     "Ọ dịghị onye nwere ike ịhụ onye ji ọrụ n'aka",
+     "Ya mere, anyị na-ewuli àgwà ọma kama"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Ya mere, anyị na-ewuli àgwà ọma kama. Ide mbụ, ikwenye ka anyị si ekwurịta okwu, na iwulite ntụkwasị obi site na ọrụ a na-ahụ anya."
+   ],
+   "panel": {
+    "kicker": "Ihe mere nke a ji dị mkpa",
+    "heading": "Ihe otu ekesa na-efunahụ",
+    "items": [
+     "Enweghị ajụjụ ngwa ngwa n'ofe tebụl",
+     "Enweghị mmelite a nụtụrụla",
+     "Ọ dịghị onye nwere ike ịhụ onye ji ọrụ n'aka",
+     "Ya mere, anyị na-ewuli àgwà ọma kama"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Mmekọrịta, ma ọ bụ mmekọrịta, pụtara ozugbo, dị ka ekwentị ma ọ bụ oku vidiyo. Ọ na-adị ngwa ngwa maka mmetụta, esemokwu, ntụgharị uche na ihe mberede, n'ihi na ọ na-adị mfe ịgụ ụda na ederede."
+   ],
+   "panel": {
+    "kicker": "Ụdị ụdị abụọ",
+    "heading": "Mekọrịta ma ọ bụ async?",
+    "mode": "compare",
+    "left_h": "Mmekọrịta: ezigbo oge",
+    "left": [
+     "Mmetụta na esemokwu",
+     "Echiche ọhụrụ na-atụgharị uche",
+     "Ihe mberede, dị ka saịtị ala"
+    ],
+    "right_h": "Async: zaghachi ma emechaa",
+    "right": [
+     "Mmelite ọganihu kwa izu",
+     "Mkpebi ndị chọrọ echiche",
+     "Ihe ọ bụla n'ofe mpaghara oge"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Asynchronous, ma ọ bụ asynchronous, pụtara na onye na-agụ nwere ike ịza ma emechaa, n'ime awa ekwekọrịtara. Ọ ka mma maka mmelite, mkpebi ndị chọrọ echiche na mpaghara oge ndị ọzọ.",
+    "Async-mbụ apụtaghị na ọ nweghị nzukọ. Ọ pụtara na nzukọ bụ ụma ahọrọ, na ndabara bụ ide ihe."
+   ],
+   "panel": {
+    "kicker": "Ụdị ụdị abụọ",
+    "heading": "Mekọrịta ma ọ bụ async?",
+    "mode": "compare",
+    "left_h": "Mmekọrịta: ezigbo oge",
+    "left": [
+     "Mmetụta na esemokwu",
+     "Echiche ọhụrụ na-atụgharị uche",
+     "Ihe mberede, dị ka saịtị ala"
+    ],
+    "right_h": "Async: zaghachi ma emechaa",
+    "right": [
+     "Mmelite ọganihu kwa izu",
+     "Mkpebi ndị chọrọ echiche",
+     "Ihe ọ bụla n'ofe mpaghara oge"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Malite na ọwa obere nkwụsịtụ nke ka ga-arụ ọrụ n'oge. Ntọala bụ akwụkwọ nkekọrịta ma ọ bụ nkọwa ọrụ."
+   ],
+   "panel": {
+    "kicker": "nọrọ jụụ",
+    "heading": "The escalation ubube",
+    "items": [
+     "Ekekọrịtara akwụkwọ ma ọ bụ nkọwa ọrụ",
+     "Ọwa otu: achọrọ izu a",
+     "Ozi ozugbo: achọrọ taa",
+     "Oku vidiyo: esemokwu, okwu mgbagwoju anya",
+     "Oku ekwentị: naanị ihe mberede"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Mgbe ahụ ọwa otu maka izu a, na ozi ozugbo maka taa."
+   ],
+   "panel": {
+    "kicker": "nọrọ jụụ",
+    "heading": "The escalation ubube",
+    "items": [
+     "Ekekọrịtara akwụkwọ ma ọ bụ nkọwa ọrụ",
+     "Ọwa otu: achọrọ izu a",
+     "Ozi ozugbo: achọrọ taa",
+     "Oku vidiyo: esemokwu, okwu mgbagwoju anya",
+     "Oku ekwentị: naanị ihe mberede"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Oku vidiyo bụ maka esemokwu na okwu mgbagwoju anya. Oku ekwentị bụ naanị ihe mberede.",
+    "Nke ọ bụla nrịgo elu na-egbochi ọtụtụ mmadụ, yabụ na-arịgo naanị ka ị kwesịrị."
+   ],
+   "panel": {
+    "kicker": "nọrọ jụụ",
+    "heading": "The escalation ubube",
+    "items": [
+     "Ekekọrịtara akwụkwọ ma ọ bụ nkọwa ọrụ",
+     "Ọwa otu: achọrọ izu a",
+     "Ozi ozugbo: achọrọ taa",
+     "Oku vidiyo: esemokwu, okwu mgbagwoju anya",
+     "Oku ekwentị: naanị ihe mberede"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Isi nka nke ọrụ async bụ ozi zuru oke na onye na-agụ nwere ike ime ihe n'ajụghị gị ihe ọ bụla.",
+    "Jiri akụkụ ise ahụ. Ajụ ahụ, kpọmkwem ihe ịchọrọ, yana oge imecha ya na mpaghara oge."
+   ],
+   "panel": {
+    "kicker": "Isi nka",
+    "heading": "Ozi na-achọghị nzukọ",
+    "items": [
+     "Ajụjụ: kpọmkwem ihe ị chọrọ",
+     "Oge ngwụcha, yana mpaghara oge",
+     "Okwu: kedu ihe nke a bụ",
+     "Nhọrọ ma ọ bụ nkwanye gị",
+     "Ebe ihe onwunwe bi"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Mgbe ahụ ihe gbara ya gburugburu, yana nhọrọ ma ọ bụ nkwenye gị."
+   ],
+   "panel": {
+    "kicker": "Isi nka",
+    "heading": "Ozi na-achọghị nzukọ",
+    "items": [
+     "Ajụjụ: kpọmkwem ihe ị chọrọ",
+     "Oge ngwụcha, yana mpaghara oge",
+     "Okwu: kedu ihe nke a bụ",
+     "Nhọrọ ma ọ bụ nkwanye gị",
+     "Ebe ihe onwunwe bi"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "N'ikpeazụ, kwuo ebe ihe nkwado ahụ bi, ma mado njikọ ahụ."
+   ],
+   "panel": {
+    "kicker": "Isi nka",
+    "heading": "Ozi na-achọghị nzukọ",
+    "items": [
+     "Ajụjụ: kpọmkwem ihe ị chọrọ",
+     "Oge ngwụcha, yana mpaghara oge",
+     "Okwu: kedu ihe nke a bụ",
+     "Nhọrọ ma ọ bụ nkwanye gị",
+     "Ebe ihe onwunwe bi"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Tinye ajụjụ ahụ n'ahịrị nke mbụ, n'ihi na ọtụtụ ndị na-agụ naanị ihe nlele na ekwentị ha."
+   ],
+   "panel": {
+    "kicker": "Isi nka",
+    "heading": "Ozi na-achọghị nzukọ",
+    "items": [
+     "Ajụjụ: kpọmkwem ihe ị chọrọ",
+     "Oge ngwụcha, yana mpaghara oge",
+     "Okwu: kedu ihe nke a bụ",
+     "Nhọrọ ma ọ bụ nkwanye gị",
+     "Ebe ihe onwunwe bi"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Tinye ajụjụ ahụ n'ahịrị nke mbụ. Ọtụtụ na-agụ naanị ihe nlele.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Edemede mbụ Amaka kwuru: Ndewo, ị nwere onwe gị? Kwesịrị ikwu maka ebe mgbakọ ahụ. O nweghi ajuju ma enweghi oge imecha."
+   ],
+   "card": {
+    "title": "Mkpebi ebe Amaka",
+    "rows": [],
+    "note": "Ọnụ ahịa Naira bụ ọnụ ahịa ọnụọgụgụ."
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Ederede ya na-amalite: mkpebi achọrọ site na Tọzdee elekere ise nke abalị Lagos, kwado Venue B.",
+    "Ebe A bụ ihe dị ka puku naira anọ na iri ise ruo ụbọchị abụọ. Ebe B dị ihe dịka narị puku naịra atọ na iri asatọ. Okwu ndị a bụ ihe ruru."
+   ],
+   "card": {
+    "title": "Mkpebi ebe Amaka",
+    "rows": [
+     [
+      "Ebe A, ụbọchị abụọ",
+      "450,000"
+     ],
+     [
+      "Ebe B, ụbọchị abụọ",
+      "380,000"
+     ]
+    ],
+    "note": "Ọnụ ahịa Naira bụ ọnụ ahịa ọnụọgụgụ."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Ọ na-atụ aro Venue B, n'ihi na o nwere ihe ndabere generator na ọ bụ nkeji iri site n'ọdụ ụgbọ ala.",
+    "Ọ na-ejikọ ndị ruturu na-agbakwụnye a fallback: ọ bụrụ na m anụ ihe ọ bụla site n'ikpeazụ, M ga-akwụkwọ ebe B. Ọ dịghị nzukọ a chọrọ."
+   ],
+   "card": {
+    "title": "Mkpebi ebe Amaka",
+    "rows": [
+     [
+      "Ebe A, ụbọchị abụọ",
+      "450,000"
+     ],
+     [
+      "Ebe B, ụbọchị abụọ",
+      "380,000"
+     ]
+    ],
+    "note": "Ọnụ ahịa Naira bụ ọnụ ahịa ọnụọgụgụ."
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Nkwekọrịta ọrụ otu na-edetu ọwa, oge nzaghachi, awa ọrụ na ebe faịlụ dị. Otu akụkụ dị mkpa bụ oge ndakọrịta, mgbe onye ọ bụla nọ n'ime ụbọchị ọrụ ya."
+   ],
+   "panel": {
+    "kicker": "Nkwekọrịta ọrụ",
+    "heading": "Chọta oge nchikota nke otu gị",
+    "items": [
+     "Chịkọta oge ọrụ onye ọ bụla",
+     "Tụgharịa onye ọ bụla ka ọ bụrụ UTC",
+     "Chọta ebe ọnụọgụ na-ezukọ",
+     "Lelee mgbe elekere gbanwere"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Tụgharịa awa onye ọ bụla ka ọ bụrụ UTC, nke pụtara oge nhazi oge niile. Dịka ọmụmaatụ, 9 ruo 5 na Lagos bụ 08:00 ruo 16:00 UTC."
+   ],
+   "panel": {
+    "kicker": "Nkwekọrịta ọrụ",
+    "heading": "Chọta oge nchikota nke otu gị",
+    "items": [
+     "Chịkọta oge ọrụ onye ọ bụla",
+     "Tụgharịa onye ọ bụla ka ọ bụrụ UTC",
+     "Chọta ebe ọnụọgụ na-ezukọ",
+     "Lelee mgbe elekere gbanwere"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Mgbe Ifeoma mere ihe a na Lagos, Nairobi, London na Toronto n'ọnwa Jenụarị, ọ nweghị elekere ọ bụla e jikọrọ ọnụ. N'ihi ya, ọ kpọrọ oku ka nta, akwụkwọ akụkọ a na-ede kwa izu wee bụrụ ebe ha anọ na-ezukọ."
+   ],
+   "panel": {
+    "kicker": "Nkwekọrịta ọrụ",
+    "heading": "Chọta oge nchikota nke otu gị",
+    "items": [
+     "Chịkọta oge ọrụ onye ọ bụla",
+     "Tụgharịa onye ọ bụla ka ọ bụrụ UTC",
+     "Chọta ebe ọnụọgụ na-ezukọ",
+     "Lelee mgbe elekere gbanwere"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Mba ụfọdụ na-agbanwe elekere ha, yabụ lelee ndakọrịta na March, na n'October ma ọ bụ Nọvemba. Naijiria na-anọ na UTC gbakwunyere 1 n'afọ niile."
+   ],
+   "panel": {
+    "kicker": "Nkwekọrịta ọrụ",
+    "heading": "Chọta oge nchikota nke otu gị",
+    "items": [
+     "Chịkọta oge ọrụ onye ọ bụla",
+     "Tụgharịa onye ọ bụla ka ọ bụrụ UTC",
+     "Chọta ebe ọnụọgụ na-ezukọ",
+     "Lelee mgbe elekere gbanwere"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Nigeria bụ UTC+1 n'afọ niile, na-enweghị nchekwa ụbọchị.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Ntụkwasị obi dị anya dabere na ihe atọ a na-ahụ anya. Nke mbụ, ndị mmadụ na-eme ihe ha kwuru. Zaghachi ọrụ na ihe ị ga-ebuga."
+   ],
+   "panel": {
+    "kicker": "Tụkwasị obi n'ebe dị anya",
+    "heading": "Ntụkwasị obi na-adabere n'ihe atọ a na-ahụ anya",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Mee ihe i kwuru",
+      "d": "Mgbe ịnakwere ọrụ, jiri ihe ị ga-ebunye zaghachi. Mgbe ahụ nyefee ya."
+     },
+     {
+      "t": "Site mgbe i kwuru",
+      "d": "Kwekọrịta nsonaazụ ya, njedebe na onye nwe ya. Jikwaa nsonaazụ, ọ bụghị awa ịntanetị."
+     },
+     {
+      "t": "Kwuo n'oge ma ọ bụrụ na ịnweghị ike",
+      "d": "Mgbe ihe dara, biputere mmelite tupu oge ngwụcha, ọ bụghị ka emechara ya."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Nke abụọ, site mgbe ha kwuru. Kwekọrịta nsonaazụ, oge ngwụcha na onye nwe ya, hapụzie ka ndị mmadụ hazie oge nke ha."
+   ],
+   "panel": {
+    "kicker": "Tụkwasị obi n'ebe dị anya",
+    "heading": "Ntụkwasị obi na-adabere n'ihe atọ a na-ahụ anya",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Mee ihe i kwuru",
+      "d": "Mgbe ịnakwere ọrụ, jiri ihe ị ga-ebunye zaghachi. Mgbe ahụ nyefee ya."
+     },
+     {
+      "t": "Site mgbe i kwuru",
+      "d": "Kwekọrịta nsonaazụ ya, njedebe na onye nwe ya. Jikwaa nsonaazụ, ọ bụghị awa ịntanetị."
+     },
+     {
+      "t": "Kwuo n'oge ma ọ bụrụ na ịnweghị ike",
+      "d": "Mgbe ihe dara, biputere mmelite tupu oge ngwụcha, ọ bụghị ka emechara ya."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Nke atọ, kwuo n'isi ụtụtụ mgbe ị nweghị ike, tupu oge ngwụcha, ọ bụghị mgbe emechara.",
+    "Mmejọ a na-ahụkarị bụ onyunyo, dị ka igwefoto na-achọ ụbọchị niile. Nke ahụ na-emebikarị ntụkwasị obi ma na-akawanye njọ."
+   ],
+   "panel": {
+    "kicker": "Tụkwasị obi n'ebe dị anya",
+    "heading": "Ntụkwasị obi na-adabere n'ihe atọ a na-ahụ anya",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Mee ihe i kwuru",
+      "d": "Mgbe ịnakwere ọrụ, jiri ihe ị ga-ebunye zaghachi. Mgbe ahụ nyefee ya."
+     },
+     {
+      "t": "Site mgbe i kwuru",
+      "d": "Kwekọrịta nsonaazụ ya, njedebe na onye nwe ya. Jikwaa nsonaazụ, ọ bụghị awa ịntanetị."
+     },
+     {
+      "t": "Kwuo n'oge ma ọ bụrụ na ịnweghị ike",
+      "d": "Mgbe ihe dara, biputere mmelite tupu oge ngwụcha, ọ bụghị ka emechara ya."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Icheta. Mmekọrịta maka mmetụta uche na ihe mberede, async maka mmelite yana mkpebi ndị a tụlere.",
+    "Rigoro ubube ahụ naanị ka ị ga-emerịrị. Tinye ajụjụ mbụ na mpaghara oge na njedebe.",
+    "Jiri UTC chọta ndakọrịta. Ma wulite ntụkwasị obi site n'idebe, ma ọ bụ n'eziokwu na-akparịta ụka, nkwa ọ bụla."
+   ],
+   "panel": {
+    "kicker": "Isi ihe",
+    "heading": "Cheta",
+    "items": [
+     "Mmekọrịta maka mmetụta uche na ihe mberede; async maka ndị ọzọ",
+     "Rigoro nrịgo nrịgo elu naanị ka ọ dị mkpa",
+     "Rịọ, njedebe nwere mpaghara oge, okirikiri, njikọ",
+     "Tụgharịa awa ka ọ bụrụ UTC ka ịchọta ndakọrịta",
+     "Ntụkwasị obi: nyefee, nyefee ma ọ bụ ọkọlọtọ n'oge, nọrọ na-ahụ anya"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Ugbu a mee ihe. Jiri akụkụ ise ahụ degharịa ozi atọ na-edoghị anya, depụta nkwekọrịta ọrụ nwere otu ibe na awa gị na-agafe, wee guzobe akwụkwọ na-ekekọrịta otu na otu.",
+    "Gaa n'ihu na nkuzi ndị dị n'okpuru."
+   ],
+   "panel": {
+    "kicker": "Mee ihe omume",
+    "heading": "Ọrụ omume gị",
+    "items": [
+     "Degharịa ozi atọ na-edoghị anya",
+     "Depụta nkwekọrịta ọrụ otu ibe",
+     "Hazie akwụkwọ otu na otu"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

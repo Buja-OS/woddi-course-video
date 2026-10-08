@@ -1,0 +1,712 @@
+{
+ "course": "ai-literacy",
+ "module": "m1",
+ "title": "Como funciona a IA e onde é seguro usá-la",
+ "course_title": "Alfabetização em IA: usando IA com sabedoria, segurança e crítica",
+ "shots": [
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Como funciona a IA e onde é seguro usá-la.",
+    "Este é o vídeo do módulo 1 do AI Literacy."
+   ]
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Você usa IA há anos. O filtro de spam no Gmail, as sugestões de palavras do teclado e o desbloqueio facial são todos IA."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "AI já está no seu telefone",
+    "items": [
+     "A IA já está no seu telefone e aplicativos",
+     "IA generativa escreve novos textos e imagens",
+     "Uma resposta confiante nem sempre é correta",
+     "Você permanece responsável pelo que envia"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Desde o final de 2022, a IA generativa tornou-se popular. Produz novo texto, imagens ou áudio quando você digita uma solicitação."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "AI já está no seu telefone",
+    "items": [
+     "A IA já está no seu telefone e aplicativos",
+     "IA generativa escreve novos textos e imagens",
+     "Uma resposta confiante nem sempre é correta",
+     "Você permanece responsável pelo que envia"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Hoje você aprenderá como um chatbot constrói sua resposta e por que às vezes inventa coisas."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "AI já está no seu telefone",
+    "items": [
+     "A IA já está no seu telefone e aplicativos",
+     "IA generativa escreve novos textos e imagens",
+     "Uma resposta confiante nem sempre é correta",
+     "Você permanece responsável pelo que envia"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "E você aprenderá um teste simples para saber onde a IA pode ajudá-lo com segurança."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "AI já está no seu telefone",
+    "items": [
+     "A IA já está no seu telefone e aplicativos",
+     "IA generativa escreve novos textos e imagens",
+     "Uma resposta confiante nem sempre é correta",
+     "Você permanece responsável pelo que envia"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "A IA preditiva aprende padrões de dados anteriores para classificar, pontuar ou prever, como o alerta de fraude do seu banco."
+   ],
+   "panel": {
+    "kicker": "Duas famílias",
+    "heading": "IA preditiva e IA generativa",
+    "mode": "compare",
+    "left_h": "IA preditiva",
+    "left": [
+     "Classificações, pontuações ou previsões",
+     "Filtro de spam",
+     "Alerta de fraude do seu banco",
+     "Estimativa de tráfego em um mapa"
+    ],
+    "right_h": "IA generativa",
+    "right": [
+     "Cria novo conteúdo a partir de um prompt",
+     "Um chatbot redigindo uma carta",
+     "Foto virou desenho animado",
+     "Uma voz de IA lendo texto em voz alta"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "A IA generativa produz novo conteúdo em resposta a uma solicitação, chamada prompt. Nenhum dos dois tipos entende o mundo da mesma forma que uma pessoa."
+   ],
+   "panel": {
+    "kicker": "Duas famílias",
+    "heading": "IA preditiva e IA generativa",
+    "mode": "compare",
+    "left_h": "IA preditiva",
+    "left": [
+     "Classificações, pontuações ou previsões",
+     "Filtro de spam",
+     "Alerta de fraude do seu banco",
+     "Estimativa de tráfego em um mapa"
+    ],
+    "right_h": "IA generativa",
+    "right": [
+     "Cria novo conteúdo a partir de um prompt",
+     "Um chatbot redigindo uma carta",
+     "Foto virou desenho animado",
+     "Uma voz de IA lendo texto em voz alta"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Os chatbots funcionam em um modelo de linguagem grande, ou LLM, treinado para prever o que vem a seguir.",
+    "Etapa 1. Você digita um prompt."
+   ],
+   "panel": {
+    "kicker": "Dentro do chatbot",
+    "heading": "Como um chatbot constrói uma resposta",
+    "items": [
+     "Você digita um prompt",
+     "Seu texto está dividido em tokens",
+     "O modelo prevê o próximo token",
+     "Ele adiciona esse token e repete",
+     "A resposta aparece na sua tela"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Passo 2. Suas palavras são divididas em tokens, pequenos pedaços de texto. Um token em inglês tem cerca de 4 caracteres."
+   ],
+   "panel": {
+    "kicker": "Dentro do chatbot",
+    "heading": "Como um chatbot constrói uma resposta",
+    "items": [
+     "Você digita um prompt",
+     "Seu texto está dividido em tokens",
+     "O modelo prevê o próximo token",
+     "Ele adiciona esse token e repete",
+     "A resposta aparece na sua tela"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Etapa 3. O modelo prevê o próximo token."
+   ],
+   "panel": {
+    "kicker": "Dentro do chatbot",
+    "heading": "Como um chatbot constrói uma resposta",
+    "items": [
+     "Você digita um prompt",
+     "Seu texto está dividido em tokens",
+     "O modelo prevê o próximo token",
+     "Ele adiciona esse token e repete",
+     "A resposta aparece na sua tela"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Passo 4. Adicione e repita, de novo e de novo. É por isso que as respostas aparecem palavra por palavra."
+   ],
+   "panel": {
+    "kicker": "Dentro do chatbot",
+    "heading": "Como um chatbot constrói uma resposta",
+    "items": [
+     "Você digita um prompt",
+     "Seu texto está dividido em tokens",
+     "O modelo prevê o próximo token",
+     "Ele adiciona esse token e repete",
+     "A resposta aparece na sua tela"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Etapa 5. Você vê a resposta. Nada nesse ciclo o compara com a realidade. O modelo escolhe palavras prováveis. Não verifica os fatos."
+   ],
+   "panel": {
+    "kicker": "Dentro do chatbot",
+    "heading": "Como um chatbot constrói uma resposta",
+    "items": [
+     "Você digita um prompt",
+     "Seu texto está dividido em tokens",
+     "O modelo prevê o próximo token",
+     "Ele adiciona esse token e repete",
+     "A resposta aparece na sua tela"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Ele escolhe palavras prováveis. Não verifica os fatos.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "flipchart",
+   "say": [
+    "Uma resposta segura e falsa é chamada de alucinação, como uma lei falsa ou um livro que não existe.",
+    "A primeira causa são as lacunas nos dados de treinamento. Onde há pouco texto, a modelo adivinha."
+   ],
+   "panel": {
+    "kicker": "Alucinações",
+    "heading": "Por que os chatbots inventam coisas",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Lacunas nos dados de treinamento",
+      "d": "Menos texto sobre um tópico significa mais suposições. Os tópicos locais da Nigéria costumam ser escassos."
+     },
+     {
+      "t": "Corte de conhecimento",
+      "d": "Qualquer coisa que tenha mudado após o treinamento, como uma nova taxa ou política, é desconhecida para o modelo."
+     },
+     {
+      "t": "Pressão para responder",
+      "d": "Os modelos são treinados para serem úteis, por isso dão uma resposta em vez de dizer não sei."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "flipchart",
+   "say": [
+    "O segundo é o limite de conhecimento, a data após a qual o modelo não aprendeu nada de novo."
+   ],
+   "panel": {
+    "kicker": "Alucinações",
+    "heading": "Por que os chatbots inventam coisas",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Lacunas nos dados de treinamento",
+      "d": "Menos texto sobre um tópico significa mais suposições. Os tópicos locais da Nigéria costumam ser escassos."
+     },
+     {
+      "t": "Corte de conhecimento",
+      "d": "Qualquer coisa que tenha mudado após o treinamento, como uma nova taxa ou política, é desconhecida para o modelo."
+     },
+     {
+      "t": "Pressão para responder",
+      "d": "Os modelos são treinados para serem úteis, por isso dão uma resposta em vez de dizer não sei."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "A terceira é a pressão para responder. E uma resposta errada soa tão calma e fluente quanto uma resposta certa."
+   ],
+   "panel": {
+    "kicker": "Alucinações",
+    "heading": "Por que os chatbots inventam coisas",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Lacunas nos dados de treinamento",
+      "d": "Menos texto sobre um tópico significa mais suposições. Os tópicos locais da Nigéria costumam ser escassos."
+     },
+     {
+      "t": "Corte de conhecimento",
+      "d": "Qualquer coisa que tenha mudado após o treinamento, como uma nova taxa ou política, é desconhecida para o modelo."
+     },
+     {
+      "t": "Pressão para responder",
+      "d": "Os modelos são treinados para serem úteis, por isso dão uma resposta em vez de dizer não sei."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "A melhor proteção é fornecer você mesmo a fonte. Cole seu documento e diga, responda apenas a partir do texto abaixo."
+   ],
+   "panel": {
+    "kicker": "Corte os erros",
+    "heading": "O que reduz as alucinações",
+    "items": [
+     "Cole a fonte: responda apenas deste texto",
+     "Peça para dizer não declarado no texto",
+     "Use a pesquisa na web e abra os links",
+     "Peça orçamentos exatos que você pode encontrar",
+     "Inicie um novo bate-papo para uma nova tarefa"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Diga-lhe para dizer não indicado no texto se a resposta estiver faltando."
+   ],
+   "panel": {
+    "kicker": "Corte os erros",
+    "heading": "O que reduz as alucinações",
+    "items": [
+     "Cole a fonte: responda apenas deste texto",
+     "Peça para dizer não declarado no texto",
+     "Use a pesquisa na web e abra os links",
+     "Peça orçamentos exatos que você pode encontrar",
+     "Inicie um novo bate-papo para uma nova tarefa"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Para fatos atuais, use a pesquisa na web e abra os links mostrados."
+   ],
+   "panel": {
+    "kicker": "Corte os erros",
+    "heading": "O que reduz as alucinações",
+    "items": [
+     "Cole a fonte: responda apenas deste texto",
+     "Peça para dizer não declarado no texto",
+     "Use a pesquisa na web e abra os links",
+     "Peça orçamentos exatos que você pode encontrar",
+     "Inicie um novo bate-papo para uma nova tarefa"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Peça para citar de onde veio cada ponto. Nenhuma cotação significa não confiável."
+   ],
+   "panel": {
+    "kicker": "Corte os erros",
+    "heading": "O que reduz as alucinações",
+    "items": [
+     "Cole a fonte: responda apenas deste texto",
+     "Peça para dizer não declarado no texto",
+     "Use a pesquisa na web e abra os links",
+     "Peça orçamentos exatos que você pode encontrar",
+     "Inicie um novo bate-papo para uma nova tarefa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "E inicie um novo chat para uma nova tarefa."
+   ],
+   "panel": {
+    "kicker": "Corte os erros",
+    "heading": "O que reduz as alucinações",
+    "items": [
+     "Cole a fonte: responda apenas deste texto",
+     "Peça para dizer não declarado no texto",
+     "Use a pesquisa na web e abra os links",
+     "Peça orçamentos exatos que você pode encontrar",
+     "Inicie um novo bate-papo para uma nova tarefa"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Antes de usar IA, faça duas perguntas. Primeiro, quão confiável é a IA para esta tarefa? A elaboração é alta. Os factos precisos e as regras locais são baixos."
+   ],
+   "panel": {
+    "kicker": "Antes de usar IA",
+    "heading": "O teste de confiabilidade e risco",
+    "items": [
+     "Quão confiável é a IA para esta tarefa?",
+     "Quanto dano um erro causaria?",
+     "Alta confiabilidade, baixo dano: uso, verificação leve",
+     "Dano médio: use-o e verifique todos os fatos",
+     "Baixa confiabilidade, alto dano: vá até a fonte"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Em segundo lugar, quanto dano um erro causaria? Taxa, dosagem, prazo legal ou dados bancários errados são danos elevados."
+   ],
+   "panel": {
+    "kicker": "Antes de usar IA",
+    "heading": "O teste de confiabilidade e risco",
+    "items": [
+     "Quão confiável é a IA para esta tarefa?",
+     "Quanto dano um erro causaria?",
+     "Alta confiabilidade, baixo dano: uso, verificação leve",
+     "Dano médio: use-o e verifique todos os fatos",
+     "Baixa confiabilidade, alto dano: vá até a fonte"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Alta confiabilidade e baixo dano: use-o livremente com uma verificação leve."
+   ],
+   "panel": {
+    "kicker": "Antes de usar IA",
+    "heading": "O teste de confiabilidade e risco",
+    "items": [
+     "Quão confiável é a IA para esta tarefa?",
+     "Quanto dano um erro causaria?",
+     "Alta confiabilidade, baixo dano: uso, verificação leve",
+     "Dano médio: use-o e verifique todos os fatos",
+     "Baixa confiabilidade, alto dano: vá até a fonte"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Dano maior: use-o e verifique todos os fatos."
+   ],
+   "panel": {
+    "kicker": "Antes de usar IA",
+    "heading": "O teste de confiabilidade e risco",
+    "items": [
+     "Quão confiável é a IA para esta tarefa?",
+     "Quanto dano um erro causaria?",
+     "Alta confiabilidade, baixo dano: uso, verificação leve",
+     "Dano médio: use-o e verifique todos os fatos",
+     "Baixa confiabilidade, alto dano: vá até a fonte"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Baixa confiabilidade e alto dano: evite IA e procure a fonte oficial ou uma pessoa qualificada. Saúde, dinheiro e questões jurídicas precisam desse cuidado."
+   ],
+   "panel": {
+    "kicker": "Antes de usar IA",
+    "heading": "O teste de confiabilidade e risco",
+    "items": [
+     "Quão confiável é a IA para esta tarefa?",
+     "Quanto dano um erro causaria?",
+     "Alta confiabilidade, baixo dano: uso, verificação leve",
+     "Dano médio: use-o e verifique todos os fatos",
+     "Baixa confiabilidade, alto dano: vá até a fonte"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Combine a quantidade de verificação com o dano que um erro pode causar.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Por exemplo, Amaka dirige uma cooperativa de mulheres em Owerri. Ela coloca cinco tarefas na grade antes de abrir qualquer ferramenta de IA."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Amaka organiza sua semana",
+    "items": [
+     "Mensagem de agradecimento: rascunhos de IA, ela edita",
+     "Resumo do relatório de 12 páginas: IA e, em seguida, verifique os números",
+     "Taxa CAC: ela verifica o site do CAC",
+     "Febre infantil: ela encaminha para uma clínica",
+     "Ideias de slogan: IA dá ideias, ela escolhe 2"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Uma mensagem de agradecimento aos voluntários: AI redige e edita os nomes."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Amaka organiza sua semana",
+    "items": [
+     "Mensagem de agradecimento: rascunhos de IA, ela edita",
+     "Resumo do relatório de 12 páginas: IA e, em seguida, verifique os números",
+     "Taxa CAC: ela verifica o site do CAC",
+     "Febre infantil: ela encaminha para uma clínica",
+     "Ideias de slogan: IA dá ideias, ela escolhe 2"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Um resumo de um relatório de 12 páginas: ela usa IA e depois verifica cada número."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Amaka organiza sua semana",
+    "items": [
+     "Mensagem de agradecimento: rascunhos de IA, ela edita",
+     "Resumo do relatório de 12 páginas: IA e, em seguida, verifique os números",
+     "Taxa CAC: ela verifica o site do CAC",
+     "Febre infantil: ela encaminha para uma clínica",
+     "Ideias de slogan: IA dá ideias, ela escolhe 2"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "A taxa de inscrição atual do CAC: ela consulta o site do CAC e liga para o escritório."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Amaka organiza sua semana",
+    "items": [
+     "Mensagem de agradecimento: rascunhos de IA, ela edita",
+     "Resumo do relatório de 12 páginas: IA e, em seguida, verifique os números",
+     "Taxa CAC: ela verifica o site do CAC",
+     "Febre infantil: ela encaminha para uma clínica",
+     "Ideias de slogan: IA dá ideias, ela escolhe 2"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Filho de um membro com febre: sem chatbot. Ela encaminha o membro para uma clínica."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Amaka organiza sua semana",
+    "items": [
+     "Mensagem de agradecimento: rascunhos de IA, ela edita",
+     "Resumo do relatório de 12 páginas: IA e, em seguida, verifique os números",
+     "Taxa CAC: ela verifica o site do CAC",
+     "Febre infantil: ela encaminha para uma clínica",
+     "Ideias de slogan: IA dá ideias, ela escolhe 2"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Ideias de slogan: A IA sugere dez e ela escolhe 2. Ela economiza tempo sem confiar na IA onde ela é fraca."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Amaka organiza sua semana",
+    "items": [
+     "Mensagem de agradecimento: rascunhos de IA, ela edita",
+     "Resumo do relatório de 12 páginas: IA e, em seguida, verifique os números",
+     "Taxa CAC: ela verifica o site do CAC",
+     "Febre infantil: ela encaminha para uma clínica",
+     "Ideias de slogan: IA dá ideias, ela escolhe 2"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Para lembrar. A IA generativa cria novos conteúdos a partir do seu prompt. Prevê palavras prováveis ​​e não verifica fatos.",
+    "É forte em rascunhos e fraco em fatos. Pergunte até que ponto ele é confiável e quão grave seria um erro e cole sua própria fonte."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Lembre-se",
+    "items": [
+     "IA generativa cria novo conteúdo a partir de um prompt",
+     "Prevê palavras prováveis; não verifica fatos",
+     "Forte em rascunhos, fraco em fatos e detalhes locais",
+     "Pergunte: quão confiável e quão grave é um erro?",
+     "Cole sua fonte e peça orçamentos"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Agora mapeie sua própria semana. Escreva 8 tarefas reais, marque a confiabilidade e os danos, coloque cada uma na grade e circule as 2 onde a IA economiza mais tempo com segurança.",
+    "Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Tarefa prática",
+    "heading": "Sua tarefa prática",
+    "items": [
+     "Anote 8 tarefas reais da sua semana",
+     "Marque a confiabilidade e os danos da IA para cada um",
+     "Coloque cada tarefa na grade com uma ação",
+     "Circule as 2 tarefas em que a IA economiza mais tempo"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

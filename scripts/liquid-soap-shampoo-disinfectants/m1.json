@@ -1,0 +1,176 @@
+{
+  "course": "liquid-soap-shampoo-disinfectants",
+  "module": "m1",
+  "title": "The Chemistry Behind Liquid Products",
+  "shots": [
+    {
+      "demo": "title_liquid",
+      "say": [
+        "The Chemistry Behind Liquid Products. This is module 1 of the course.",
+        "Three tools first: which surfactant does which job, how pH works, and how to keep germs out."
+      ]
+    },
+    {
+      "demo": "bucket_mix",
+      "label": "Surfactant stirred into water",
+      "say": [
+        "Look at this bucket. We're stirring a surfactant into water, gently.",
+        "Each surfactant molecule has a head that loves water and a tail that loves oil.",
+        "The tails gather into tiny balls called micelles. Grease slips inside, and the rinse water carries it away."
+      ]
+    },
+    {
+      "demo": "chemical_store",
+      "label": "Four surfactant families",
+      "card": {
+        "title": "The four families",
+        "rows": [
+          ["Anionic (negative)", "SLES, SLS, LAS"],
+          ["Amphoteric (both)", "CAPB"],
+          ["Nonionic (no charge)", "Alcohol ethoxylates"],
+          ["Cationic (positive)", "Benzalkonium chloride, BTMS"]
+        ],
+        "note": "Grouped by the charge on the head"
+      },
+      "say": [
+        "On this shelf they're grouped by the charge on the head.",
+        "Anionics like SLES clean and foam. CAPB makes them milder. Nonionics cut grease. Cationics disinfect, condition hair and soften fabric."
+      ]
+    },
+    {
+      "demo": "softener_mix",
+      "label": "Fabric softener (cationic)",
+      "banner": "Never mix anionic cleaners with cationics",
+      "say": [
+        "This milky liquid is fabric softener, a cationic product.",
+        "Anionic and cationic surfactants attract each other and form a sticky solid that does neither job.",
+        "That's why softener goes in the rinse, not with the detergent."
+      ]
+    },
+    {
+      "demo": "scale_weigh",
+      "label": "SLES paste, about 70% active",
+      "say": [
+        "Watch the scale as we scoop in SLES paste. It's commonly about 70% active, so 100 g holds about 70 g of real surfactant.",
+        "CAPB is usually around 30% active. Always read your supplier's data sheet, because the figure changes."
+      ]
+    },
+    {
+      "demo": "costing_desk",
+      "card": {
+        "title": "Bisi's 5 kg hand wash test",
+        "rows": [
+          ["15% SLES x 0.70", "10.5% active"],
+          ["6% CAPB x 0.30", "1.8% active"],
+          ["Total active matter", "12.3%"],
+          ["Real surfactant in 5 kg", "615 g"],
+          ["New SLES only 60% active", "17.5%, so 875 g"]
+        ],
+        "note": "From the course worked example"
+      },
+      "say": [
+        "Here's Bisi's sum. Active matter is the percentage you use times its strength, added up.",
+        "Her formula is 12.3% active, 615 g of real surfactant in 5 kg.",
+        "When her new SLES was only 60% active, she used 875 g instead of 750 g to keep the same strength."
+      ]
+    },
+    {
+      "demo": "ph_test",
+      "label": "Universal indicator strip",
+      "say": [
+        "This strip reads pH, from 0 to 14. Water is 7. Below is acidic, above is alkaline, and each step is ten times stronger.",
+        "Dip, wait the time on the pack, and compare the colour in daylight. Test before you add dye."
+      ]
+    },
+    {
+      "demo": "ppe_set",
+      "label": "Gloves and goggles",
+      "banner": "Add acid or caustic slowly TO water",
+      "say": [
+        "Before making any adjuster solution, put on gloves and goggles.",
+        "Add acid or caustic slowly to water, never water onto the chemical, because heat and splashing can result. Label every adjuster bottle."
+      ]
+    },
+    {
+      "demo": "scale_weigh",
+      "label": "200 g sample in a clean cup",
+      "card": {
+        "title": "Amaka's 20 kg shampoo",
+        "rows": [
+          ["Meter reading", "pH 7.4, wants about 6"],
+          ["Sample", "200 g = 1% of batch"],
+          ["20% citric used on sample", "0.9 g"],
+          ["Scale up x 100", "90 g for 20 kg"],
+          ["Add first (about 80%)", "72 g, then test"]
+        ],
+        "note": "Adjust the sample first, then the batch"
+      },
+      "say": [
+        "Amaka weighed a 200 g sample, 1% of her batch, and added citric solution in drops until it read pH 6. That took 0.9 g.",
+        "Times 100 gives 90 g. She added 72 g first, tested, then the rest slowly, so she never overshot."
+      ]
+    },
+    {
+      "demo": "mixing_rule",
+      "label": "Toilet cleaner and bleach",
+      "say": [
+        "When you test products at home, keep the toilet cleaner and the bleach apart, just like these two bottles."
+      ]
+    },
+    {
+      "demo": "water_jug",
+      "label": "Boiled, cooled water",
+      "say": [
+        "Liquid soap is mostly water, and water feeds germs. So use treated water, or water boiled and cooled covered.",
+        "Wash drums and paddles, rinse, wipe with 70% alcohol and let them dry. Never use them for food."
+      ]
+    },
+    {
+      "demo": "additives_tray",
+      "label": "Preservative (phenoxyethanol blend)",
+      "card": {
+        "title": "Hauwa's 25 kg hand wash",
+        "rows": [
+          ["Batch pH", "6.2 (inside pH 3 to 12)"],
+          ["Supplier use level", "0.5% to 1.0%"],
+          ["Chosen level", "0.8%"],
+          ["25,000 g x 0.8 / 100", "200 g"],
+          ["Add when cooled", "stir 5 minutes"]
+        ],
+        "note": "From the course worked example"
+      },
+      "say": [
+        "A preservative stops germs that get in later. Hauwa checked her pH was in the supplier's range, then weighed 200 g on a digital scale.",
+        "Add it below about 40 degrees Celsius, because heat can damage some preservatives. And avoid formalin: it is toxic."
+      ]
+    },
+    {
+      "demo": "bottle_fill",
+      "label": "New, sanitised bottles",
+      "say": [
+        "Now fill into new or sanitised bottles, then cap and label quickly."
+      ]
+    },
+    {
+      "demo": "shampoo_bottles",
+      "label": "Retained samples: room and warm",
+      "say": [
+        "Keep two bottles from every batch, one at room temperature, one somewhere warm.",
+        "Check them weekly for four weeks, then monthly: smell, colour, clarity, thickness, pH and swelling."
+      ]
+    },
+    {
+      "demo": "first_aid_rinse",
+      "label": "Eyewash bottle of clean water",
+      "say": [
+        "Read the Safety Data Sheet for every chemical. Wear nitrile gloves and goggles, ventilate, and keep an eyewash bottle of clean water nearby, like this one."
+      ]
+    },
+    {
+      "demo": "outro_bottles",
+      "say": [
+        "Now go through the lessons below. Build your raw material register, map the pH of five products at home, and set up your clean corner."
+      ]
+    }
+  ]
+}

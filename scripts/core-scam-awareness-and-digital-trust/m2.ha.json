@@ -1,0 +1,559 @@
+{
+ "course": "core-scam-awareness-and-digital-trust",
+ "module": "m2",
+ "title": "Zamban da 'yan Najeriya ke haduwa da shi, da kuma amintaccen martani ga kowannensu",
+ "course_title": "Faɗakarwar Zamba da Amincewar Dijital",
+ "shots": [
+  {
+   "demo": "security_lock",
+   "say": [
+    "Zamban da 'yan Najeriya ke haduwa da shi, da kuma amintaccen martani ga kowannensu.",
+    "Wannan shi ne bidiyo na module na biyu: zamba na gama-gari a Najeriya da yadda kowannensu yake aiki."
+   ]
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Mafi yawan zamba ba sa neman adadi mai yawa. Wani ya yi kama da bankin ku, cibiyar sadarwar ku ko ofishin gwamnati, kuma ya nemi ƙaramin abu ɗaya: lamba.",
+    "Lambar asusun ku yana da kyau a raba. Mutane suna buƙatar shi don biyan ku."
+   ],
+   "panel": {
+    "kicker": "San lambobin ku",
+    "heading": "Abin da za ku iya rabawa, da abin da ba ku taɓa rabawa ba",
+    "mode": "compare",
+    "left_h": "Raba don samun biya",
+    "left": [
+     "Lambar asusun ku mai lamba 10",
+     "Sunan asusun kasuwancin ku"
+    ],
+    "right_h": "Kar a taɓa rabawa",
+    "right": [
+     "PIN na kati",
+     "OTP ko alama",
+     "Kalmar wucewa",
+     "Cikakken bayanin katin",
+     "BVN akan kira ko hanyoyin haɗin gwiwa"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_security",
+   "say": [
+    "Amma bankin ku ba zai taba kiran ku ba, SMS, email ko WhatsApp don PIN, Password, OTP, cikakkun bayanan kati ko BVN. Duk wanda ya tambaya dan damfara ne, komai sanin ku."
+   ],
+   "panel": {
+    "kicker": "San lambobin ku",
+    "heading": "Abin da za ku iya rabawa, da abin da ba ku taɓa rabawa ba",
+    "mode": "compare",
+    "left_h": "Raba don samun biya",
+    "left": [
+     "Lambar asusun ku mai lamba 10",
+     "Sunan asusun kasuwancin ku"
+    ],
+    "right_h": "Kar a taɓa rabawa",
+    "right": [
+     "PIN na kati",
+     "OTP ko alama",
+     "Kalmar wucewa",
+     "Cikakken bayanin katin",
+     "BVN akan kira ko hanyoyin haɗin gwiwa"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Wakilin abokin ciniki mai ladabi ya ce an dakatar da BVN ɗin ku, kuma yana magana da ku ta hanyar sake kunnawa."
+   ],
+   "panel": {
+    "kicker": "Yadda yake aiki da gaske",
+    "heading": "Zamba na kiran OTP, mataki-mataki",
+    "items": [
+     "Kira: asusunku yana cikin haɗari",
+     "Mai zamba ya fara ciniki",
+     "Bankin ku yana aiko muku da OTP",
+     "Kuna karanta shi da ƙarfi. Kudi ya fita"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Yayin da yake magana, yana ƙoƙarin shiga cikin asusunku, ko ƙara wayarsa a matsayin sabuwar na'ura."
+   ],
+   "panel": {
+    "kicker": "Yadda yake aiki da gaske",
+    "heading": "Zamba na kiran OTP, mataki-mataki",
+    "items": [
+     "Kira: asusunku yana cikin haɗari",
+     "Mai zamba ya fara ciniki",
+     "Bankin ku yana aiko muku da OTP",
+     "Kuna karanta shi da ƙarfi. Kudi ya fita"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Bankin yana aiko muku da OTP don amincewa da shi."
+   ],
+   "panel": {
+    "kicker": "Yadda yake aiki da gaske",
+    "heading": "Zamba na kiran OTP, mataki-mataki",
+    "items": [
+     "Kira: asusunku yana cikin haɗari",
+     "Mai zamba ya fara ciniki",
+     "Bankin ku yana aiko muku da OTP",
+     "Kuna karanta shi da ƙarfi. Kudi ya fita"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Lokacin da kuka karanta shi, kun yarda da damarsa. Don haka kar a taɓa karanta code. CBN, EFCC da kuma ma’aikatan NCC ba sa waya da mutane su karbi kudi ko lambar kodi."
+   ],
+   "panel": {
+    "kicker": "Yadda yake aiki da gaske",
+    "heading": "Zamba na kiran OTP, mataki-mataki",
+    "items": [
+     "Kira: asusunku yana cikin haɗari",
+     "Mai zamba ya fara ciniki",
+     "Bankin ku yana aiko muku da OTP",
+     "Kuna karanta shi da ƙarfi. Kudi ya fita"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Funke, ma’aikacin POS a Abeokuta, yana samun kira. Kuskure na aiko muku da naira 50,000. Don Allah a aika zuwa asusun yayana, na asibiti ne. Ta bude nata app."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Funke da kiran canja wuri mara kyau",
+    "items": [
+     "Kada ku yi jayayya. Bude aikace-aikacen ku",
+     "Babu wani abu da ya isa? Ƙare kiran",
+     "Gaskiyar bashi? Aika komai ga mai kira",
+     "Kira lambar aikin bankin ku don ba da rahoto",
+     "Ajiye hotunan kariyar kwamfuta na rajistan kira da kiredit"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Idan babu abin da ya zo, faɗakarwar karya ce. Tana gama wayar."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Funke da kiran canja wuri mara kyau",
+    "items": [
+     "Kada ku yi jayayya. Bude aikace-aikacen ku",
+     "Babu wani abu da ya isa? Ƙare kiran",
+     "Gaskiyar bashi? Aika komai ga mai kira",
+     "Kira lambar aikin bankin ku don ba da rahoto",
+     "Ajiye hotunan kariyar kwamfuta na rajistan kira da kiredit"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Idan bashi na gaske yana nan, har yanzu ba ta aika kome ba. Wataƙila ana sace kuɗi, kuma aika su zuwa sabon asusun yana taimaka wa ɓarawo."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Funke da kiran canja wuri mara kyau",
+    "items": [
+     "Kada ku yi jayayya. Bude aikace-aikacen ku",
+     "Babu wani abu da ya isa? Ƙare kiran",
+     "Gaskiyar bashi? Aika komai ga mai kira",
+     "Kira lambar aikin bankin ku don ba da rahoto",
+     "Ajiye hotunan kariyar kwamfuta na rajistan kira da kiredit"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Ta kira bankinta akan lambar hukuma kuma ta ba da rahoton bashin da bata zata ba."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Funke da kiran canja wuri mara kyau",
+    "items": [
+     "Kada ku yi jayayya. Bude aikace-aikacen ku",
+     "Babu wani abu da ya isa? Ƙare kiran",
+     "Gaskiyar bashi? Aika komai ga mai kira",
+     "Kira lambar aikin bankin ku don ba da rahoto",
+     "Ajiye hotunan kariyar kwamfuta na rajistan kira da kiredit"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Kuma tana adana hotunan kariyar kwamfuta. Idan canja wuri kuskure ne na gaske, bankin mai aikawa yana tuntuɓar bankin ku. Bari bankuna su kula da shi."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Funke da kiran canja wuri mara kyau",
+    "items": [
+     "Kada ku yi jayayya. Bude aikace-aikacen ku",
+     "Babu wani abu da ya isa? Ƙare kiran",
+     "Gaskiyar bashi? Aika komai ga mai kira",
+     "Kira lambar aikin bankin ku don ba da rahoto",
+     "Ajiye hotunan kariyar kwamfuta na rajistan kira da kiredit"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Juyawa yana bi ta banki, ba zuwa wani sabon asusu ba.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_camera",
+   "say": [
+    "Grace, wata bazawara a Enugu, ta yi hira na tsawon watanni biyu da Richard, wanda ya ce shi injiniya ne a kasar waje. Ya rika aika wakokin soyayya kowace safiya."
+   ],
+   "panel": {
+    "kicker": "Zamba na soyayya",
+    "heading": "Ƙaunar da ta ƙare da rikicin kuɗi",
+    "items": [
+     "Soyayya da sauri, cikin kwanaki ko makonni",
+     "Ba a taɓa samuwa don kiran bidiyo kai tsaye ba",
+     "Rikici: kudaden kwastam, asibiti, tikiti",
+     "Duba hoton da Google Lens",
+     "Faɗa wa amintaccen aboki game da dangantakar"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_camera",
+   "say": [
+    "Ba su taɓa yin kiran bidiyo kai tsaye ba. Kamar kullum ya karye."
+   ],
+   "panel": {
+    "kicker": "Zamba na soyayya",
+    "heading": "Ƙaunar da ta ƙare da rikicin kuɗi",
+    "items": [
+     "Soyayya da sauri, cikin kwanaki ko makonni",
+     "Ba a taɓa samuwa don kiran bidiyo kai tsaye ba",
+     "Rikici: kudaden kwastam, asibiti, tikiti",
+     "Duba hoton da Google Lens",
+     "Faɗa wa amintaccen aboki game da dangantakar"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_camera",
+   "say": [
+    "Sai wani jami’in kwastam a WhatsApp ya nemi ta ba ta naira 350,000 domin ta kwashe kayan kyauta."
+   ],
+   "panel": {
+    "kicker": "Zamba na soyayya",
+    "heading": "Ƙaunar da ta ƙare da rikicin kuɗi",
+    "items": [
+     "Soyayya da sauri, cikin kwanaki ko makonni",
+     "Ba a taɓa samuwa don kiran bidiyo kai tsaye ba",
+     "Rikici: kudaden kwastam, asibiti, tikiti",
+     "Duba hoton da Google Lens",
+     "Faɗa wa amintaccen aboki game da dangantakar"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "'Yarta ta bincika hotonsa da Google Lens. Fuska ɗaya ta bayyana ƙarƙashin wani suna daban."
+   ],
+   "panel": {
+    "kicker": "Zamba na soyayya",
+    "heading": "Ƙaunar da ta ƙare da rikicin kuɗi",
+    "items": [
+     "Soyayya da sauri, cikin kwanaki ko makonni",
+     "Ba a taɓa samuwa don kiran bidiyo kai tsaye ba",
+     "Rikici: kudaden kwastam, asibiti, tikiti",
+     "Duba hoton da Google Lens",
+     "Faɗa wa amintaccen aboki game da dangantakar"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Grace ta toshe lambobi biyu kuma ta ba da rahoton bayanan martaba. Ba ta yi asarar kuɗi ba. Idan aboki yana cikin ɗaya, kada ku kira ta wauta. Yi tambayoyi masu laushi, domin kunya tana mayar da mutane zuwa ga mai zamba."
+   ],
+   "panel": {
+    "kicker": "Zamba na soyayya",
+    "heading": "Ƙaunar da ta ƙare da rikicin kuɗi",
+    "items": [
+     "Soyayya da sauri, cikin kwanaki ko makonni",
+     "Ba a taɓa samuwa don kiran bidiyo kai tsaye ba",
+     "Rikici: kudaden kwastam, asibiti, tikiti",
+     "Duba hoton da Google Lens",
+     "Faɗa wa amintaccen aboki game da dangantakar"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Tsarin Ponzi yana biyan membobin farko da kuɗin sabbin membobin. Lokacin da sabon kuɗi ya ragu, yana daskare cirewa kuma ya rushe. Chioma ta fara yin jimlar."
+   ],
+   "card": {
+    "title": "Abin da 30% a wata zai zama ma'anar gaske",
+    "rows": [],
+    "note": "Babu halaltacciyar kasuwanci da ke samun kuɗi kamar wannan."
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Naira 100,000 a kashi 30% ya zama 130,000 bayan wata 1."
+   ],
+   "card": {
+    "title": "Abin da 30% a wata zai zama ma'anar gaske",
+    "rows": [
+     [
+      "Ta saka",
+      "100,000"
+     ],
+     [
+      "Bayan wata 1",
+      "130,000"
+     ]
+    ],
+    "note": "Babu halaltacciyar kasuwanci da ke samun kuɗi kamar wannan."
+   }
+  },
+  {
+   "demo": "laptop_security",
+   "say": [
+    "Kimanin 482,700 bayan watanni 6, kuma kusan miliyan 54 bayan watanni 24.",
+    "Babu kasuwancin gaske da zai iya yin hakan. Bankuna da kamfanonin da aka jera suna samun kuɗi kaɗan, kuma dawowar su yana hawa da ƙasa. Don haka Chioma ya ƙi."
+   ],
+   "card": {
+    "title": "Abin da 30% a wata zai zama ma'anar gaske",
+    "rows": [
+     [
+      "Ta saka",
+      "100,000"
+     ],
+     [
+      "Bayan wata 1",
+      "130,000"
+     ],
+     [
+      "Bayan watanni 6, game da",
+      "482,700"
+     ],
+     [
+      "Bayan watanni 24, game da",
+      "miliyan 54"
+     ]
+    ],
+    "note": "Babu halaltacciyar kasuwanci da ke samun kuɗi kamar wannan."
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Duba kamfanin akan gidan yanar gizon SEC Nigeria, da kuma bankuna akan gidan yanar gizon CBN. Rijistar CAC kawai yana nufin kasuwancin ya wanzu.",
+    "Ma'auni mai girma akan allon app ba kuɗi bane a cikin asusun ku. Kuma kada ku biya ƙarin don buɗe abin da kuke binta."
+   ],
+   "panel": {
+    "kicker": "Kafin ku zuba jari",
+    "heading": "Duba kowane tayin saka hannun jari",
+    "items": [
+     "Tabbatar da babban dawowa, babu haɗari? Tafiya",
+     "Kyauta don daukar abokai? Tafiya",
+     "Duba SEC Nigeria a sec.gov.ng",
+     "Rijistar CAC ba izini ba ne don saka hannun jari",
+     "Kada ku taɓa biyan kuɗi don sakin kuɗin ku"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Ayyukan ayyuka waɗanda ke biyan ku don son bidiyo sukan nemi ajiya don buɗe manyan ayyuka. Ma'aikata na gaske ba sa cajin ku don samun aiki."
+   ],
+   "panel": {
+    "kicker": "Aiki, shaguna, lambar ku",
+    "heading": "Ƙarin zamba guda uku da amsa lafiya",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "zamba",
+      "d": "Ma'aikata na gaske ba su taɓa tambayarka ka biya rajista, horo, likita ko kuɗin biza don samun aiki ba."
+     },
+     {
+      "t": "Shagunan kan layi na karya",
+      "d": "Nace akan biya lokacin bayarwa, ko bidiyo kai tsaye na abun tare da kwanan wata a gefensa."
+     },
+     {
+      "t": "Canja wurin SIM",
+      "d": "Layin ku kawai ya nuna Babu sabis? Daga wata wayar, kira cibiyar sadarwar ku, sannan bankin ku."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Zainab da ke Kano ta ga wani blender na naira 28,000, a kasa da shaguna. Dillalin ya ki biya a lokacin bayarwa, sunan asusun bai yi daidai ba, kuma ya aika da hoton hannun jari maimakon bidiyo mai kwanan wata. Ba ta biya ba."
+   ],
+   "panel": {
+    "kicker": "Aiki, shaguna, lambar ku",
+    "heading": "Ƙarin zamba guda uku da amsa lafiya",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "zamba",
+      "d": "Ma'aikata na gaske ba su taɓa tambayarka ka biya rajista, horo, likita ko kuɗin biza don samun aiki ba."
+     },
+     {
+      "t": "Shagunan kan layi na karya",
+      "d": "Nace akan biya lokacin bayarwa, ko bidiyo kai tsaye na abun tare da kwanan wata a gefensa."
+     },
+     {
+      "t": "Canja wurin SIM",
+      "d": "Layin ku kawai ya nuna Babu sabis? Daga wata wayar, kira cibiyar sadarwar ku, sannan bankin ku."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Idan layinka ba zato ba tsammani ya nuna Babu sabis yayin da wasu ke da sigina, yi sauri. Kira cibiyar sadarwar ku don toshe lambar, sannan bankin ku don daskare canja wuri. Saita SIM PIN kuma kunna WhatsApp tabbaci mataki biyu."
+   ],
+   "panel": {
+    "kicker": "Aiki, shaguna, lambar ku",
+    "heading": "Ƙarin zamba guda uku da amsa lafiya",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "zamba",
+      "d": "Ma'aikata na gaske ba su taɓa tambayarka ka biya rajista, horo, likita ko kuɗin biza don samun aiki ba."
+     },
+     {
+      "t": "Shagunan kan layi na karya",
+      "d": "Nace akan biya lokacin bayarwa, ko bidiyo kai tsaye na abun tare da kwanan wata a gefensa."
+     },
+     {
+      "t": "Canja wurin SIM",
+      "d": "Layin ku kawai ya nuna Babu sabis? Daga wata wayar, kira cibiyar sadarwar ku, sannan bankin ku."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Don tunawa. Kar a taɓa raba lamba. Ma'aunin app ɗin ku kawai ya tabbatar da cewa kuɗi ya isa. Babu bidiyon kai tsaye da rikici yana nufin zamba.",
+    "Tabbatar da babban dawowa ba zai yiwu ba. Kuma kada ku biya don samun aiki."
+   ],
+   "panel": {
+    "kicker": "Mabuɗin mahimmanci",
+    "heading": "Ka tuna",
+    "items": [
+     "Kada a taɓa raba PIN, OTP, kalmar sirri, bayanan katin ko BVN",
+     "Ma'aunin app ɗin ku kawai ya tabbatar da cewa kuɗi ya isa",
+     "Babu kiran bidiyo kai tsaye da rikicin kuɗi yana nufin zamba",
+     "Ba zai yuwu ba ga mai girma dawowa kowane wata",
+     "Kada ku taɓa biya don samun aiki; biya a kan bayarwa lokacin da sabo"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Yanzu yi aiki. Ajiye lambar hukuma ta bankin ku da lokacin duba ma'auni, gwada binciken Google Lens, duba tayin saka hannun jari ɗaya tare da jimlar, sannan rubuta shirin ku na gaggawa na layi uku.",
+    "Ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi aiki",
+    "heading": "Ayyukan aikin ku",
+    "items": [
+     "Ajiye lambar aikin bankin ku",
+     "Komawa bincika hoton bayanin martaba",
+     "Duba tayin saka hannun jari ɗaya",
+     "Ajiye lambar ku da WhatsApp"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

@@ -1,0 +1,569 @@
+{
+ "course": "digital-privacy-data-protection",
+ "module": "m1",
+ "title": "Données personnelles, NDPA 2023 et choix d'une base licite",
+ "course_title": "Confidentialité numérique et protection des données",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Données personnelles, loi nigériane sur la protection des données et choix d'une base légale.",
+    "Ceci est la vidéo du module 1 sur la confidentialité numérique et la protection des données."
+   ]
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "La protection des données concerne les personnes et non les ordinateurs.",
+    "Une liste de clients, un groupe WhatsApp, un registre des étudiants, une feuille de paie et une boîte de formulaires papier contiennent tous des informations sur de vraies personnes."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "La protection des données concerne les personnes",
+    "items": [
+     "Listes de clients, groupes WhatsApp, registres, paie",
+     "Données personnelles : tout ce qui permet d'identifier une personne",
+     "Données sensibles : santé, religion, biométrie et plus",
+     "Les enfants de moins de 18 ans ont besoin de soins supplémentaires"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Les données personnelles sont toute information pouvant pointer vers une personne. Un numéro de téléphone, une photo, un BVN, une adresse personnelle ou une note vocale peuvent tous le faire, seuls ou combinés avec d'autres détails."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "La protection des données concerne les personnes",
+    "items": [
+     "Listes de clients, groupes WhatsApp, registres, paie",
+     "Données personnelles : tout ce qui permet d'identifier une personne",
+     "Données sensibles : santé, religion, biométrie et plus",
+     "Les enfants de moins de 18 ans ont besoin de soins supplémentaires"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Certaines données sont sensibles, car une mauvaise utilisation peut causer de graves dommages. La santé, les croyances religieuses, l’origine ethnique, les opinions politiques et les empreintes digitales en sont des exemples. Les données sensibles nécessitent une raison plus solide et une protection plus forte."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "La protection des données concerne les personnes",
+    "items": [
+     "Listes de clients, groupes WhatsApp, registres, paie",
+     "Données personnelles : tout ce qui permet d'identifier une personne",
+     "Données sensibles : santé, religion, biométrie et plus",
+     "Les enfants de moins de 18 ans ont besoin de soins supplémentaires"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Les données sur les enfants, c'est-à-dire toute personne âgée de moins de 18 ans au sens de la loi, nécessitent également une attention particulière, généralement avec le consentement d'un parent ou d'un tuteur."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "La protection des données concerne les personnes",
+    "items": [
+     "Listes de clients, groupes WhatsApp, registres, paie",
+     "Données personnelles : tout ce qui permet d'identifier une personne",
+     "Données sensibles : santé, religion, biométrie et plus",
+     "Les enfants de moins de 18 ans ont besoin de soins supplémentaires"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Avant de décider qui doit faire quoi, nommez correctement les trois rôles. La personne concernée est la personne sur laquelle portent les données, comme un client qui commande une blouse."
+   ],
+   "panel": {
+    "kicker": "Nommez d'abord les rôles",
+    "heading": "Les trois personnes impliquées",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Personne concernée",
+      "d": "La personne sur laquelle portent les données. Par exemple, un client qui commande une robe chez un tailleur."
+     },
+     {
+      "t": "Responsable du traitement des données",
+      "d": "Décide pourquoi et comment les données sont utilisées. L'entreprise de couture qui conserve les mesures et les numéros de téléphone."
+     },
+     {
+      "t": "Responsable du traitement des données",
+      "d": "Gère les données pour le contrôleur, selon ses instructions. Un comptable ou une application cloud utilisée par le tailleur."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Le responsable du traitement décide pourquoi et comment les données sont utilisées. Ici, le métier de tailleur. Le responsable du traitement porte la responsabilité principale."
+   ],
+   "panel": {
+    "kicker": "Nommez d'abord les rôles",
+    "heading": "Les trois personnes impliquées",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Personne concernée",
+      "d": "La personne sur laquelle portent les données. Par exemple, un client qui commande une robe chez un tailleur."
+     },
+     {
+      "t": "Responsable du traitement des données",
+      "d": "Décide pourquoi et comment les données sont utilisées. L'entreprise de couture qui conserve les mesures et les numéros de téléphone."
+     },
+     {
+      "t": "Responsable du traitement des données",
+      "d": "Gère les données pour le contrôleur, selon ses instructions. Un comptable ou une application cloud utilisée par le tailleur."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Le sous-traitant traite les données au nom du responsable du traitement, comme un comptable ou une application cloud. Un sous-traitant doit suivre les instructions, protéger les données et signaler rapidement les problèmes."
+   ],
+   "panel": {
+    "kicker": "Nommez d'abord les rôles",
+    "heading": "Les trois personnes impliquées",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Personne concernée",
+      "d": "La personne sur laquelle portent les données. Par exemple, un client qui commande une robe chez un tailleur."
+     },
+     {
+      "t": "Responsable du traitement des données",
+      "d": "Décide pourquoi et comment les données sont utilisées. L'entreprise de couture qui conserve les mesures et les numéros de téléphone."
+     },
+     {
+      "t": "Responsable du traitement des données",
+      "d": "Gère les données pour le contrôleur, selon ses instructions. Un comptable ou une application cloud utilisée par le tailleur."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "La NDPA a été promulguée en juin 2023."
+   ],
+   "panel": {
+    "kicker": "La loi nigériane en bref",
+    "heading": "La loi nigériane sur la protection des données 2023",
+    "items": [
+     "Loi promulguée en juin 2023",
+     "Régulateur : le NDPC",
+     "Orientations détaillées : le GAID, publié en 2025",
+     "Couvre toute personne traitant les données de personnes au Nigeria",
+     "Pas pour un usage purement personnel ou domestique"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Il a créé la Commission nigériane de protection des données, la NDPC, en tant que régulateur."
+   ],
+   "panel": {
+    "kicker": "La loi nigériane en bref",
+    "heading": "La loi nigériane sur la protection des données 2023",
+    "items": [
+     "Loi promulguée en juin 2023",
+     "Régulateur : le NDPC",
+     "Orientations détaillées : le GAID, publié en 2025",
+     "Couvre toute personne traitant les données de personnes au Nigeria",
+     "Pas pour un usage purement personnel ou domestique"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "En 2025, la NDPC a publié le GAID, qui explique plus en détail comment s'y conformer. Lisez les deux sur le site Web du NDPC."
+   ],
+   "panel": {
+    "kicker": "La loi nigériane en bref",
+    "heading": "La loi nigériane sur la protection des données 2023",
+    "items": [
+     "Loi promulguée en juin 2023",
+     "Régulateur : le NDPC",
+     "Orientations détaillées : le GAID, publié en 2025",
+     "Couvre toute personne traitant les données de personnes au Nigeria",
+     "Pas pour un usage purement personnel ou domestique"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "La loi couvre les organisations basées ou opérant au Nigeria, ainsi que les organisations ailleurs qui traitent les données des personnes au Nigeria."
+   ],
+   "panel": {
+    "kicker": "La loi nigériane en bref",
+    "heading": "La loi nigériane sur la protection des données 2023",
+    "items": [
+     "Loi promulguée en juin 2023",
+     "Régulateur : le NDPC",
+     "Orientations détaillées : le GAID, publié en 2025",
+     "Couvre toute personne traitant les données de personnes au Nigeria",
+     "Pas pour un usage purement personnel ou domestique"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Elle ne couvre pas la gestion de vos propres contacts familiaux pour des raisons purement personnelles."
+   ],
+   "panel": {
+    "kicker": "La loi nigériane en bref",
+    "heading": "La loi nigériane sur la protection des données 2023",
+    "items": [
+     "Loi promulguée en juin 2023",
+     "Régulateur : le NDPC",
+     "Orientations détaillées : le GAID, publié en 2025",
+     "Couvre toute personne traitant les données de personnes au Nigeria",
+     "Pas pour un usage purement personnel ou domestique"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Le NDPC peut imposer des amendes. Le maximum est le plus élevé entre 2 % du revenu brut annuel ou une somme fixe. Laissez-nous trouver une solution pour le centre de cours d'Halima à Kaduna."
+   ],
+   "card": {
+    "title": "L'amende maximale d'Halima",
+    "rows": [],
+    "note": "Ce sont des amendes maximales et non automatiques."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Son chiffre d'affaires l'année dernière était d'environ 45 millions de nairas. 2% de ce montant représente 900 000 naira."
+   ],
+   "card": {
+    "title": "L'amende maximale d'Halima",
+    "rows": [
+     [
+      "2% du chiffre d'affaires brut annuel",
+      "900,000"
+     ]
+    ],
+    "note": "Ce sont des amendes maximales et non automatiques."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Le montant forfaitaire pour une entreprise sans importance majeure est de 2 000 000 de naira. Pour les organisations d'importance majeure, il s'agit de 10 000 000 de naira."
+   ],
+   "card": {
+    "title": "L'amende maximale d'Halima",
+    "rows": [
+     [
+      "2% du chiffre d'affaires brut annuel",
+      "900,000"
+     ],
+     [
+      "Somme fixe pour son niveau",
+      "2,000,000"
+     ]
+    ],
+    "note": "Ce sont des amendes maximales et non automatiques."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "La loi utilise le montant le plus élevé, son plafond est donc de 2 000 000 naira.",
+    "C'est bien plus que le coût d'une armoire verrouillable, d'un gestionnaire de mots de passe et d'un bref briefing du personnel."
+   ],
+   "card": {
+    "title": "L'amende maximale d'Halima",
+    "rows": [
+     [
+      "2% du chiffre d'affaires brut annuel",
+      "900,000"
+     ],
+     [
+      "Somme fixe pour son niveau",
+      "2,000,000"
+     ]
+    ],
+    "note": "Ce sont des amendes maximales et non automatiques."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Chaque utilisation de données personnelles nécessite une base licite, choisie et écrite avant leur collecte. Répondez à ces questions dans l’ordre.",
+    "Tout d’abord, définissez le but exact en une phrase."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Choisir une base légale",
+    "items": [
+     "Définir le but exact",
+     "Est-ce requis par la loi ?",
+     "Est-ce nécessaire pour leur contrat ?",
+     "Intérêt commercial réel, faible intrusion ?",
+     "Sinon, demandez un consentement clair"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Est-ce qu'une loi l'exige ? La tenue des registres de paie du personnel pour les impôts est une obligation légale."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Choisir une base légale",
+    "items": [
+     "Définir le but exact",
+     "Est-ce requis par la loi ?",
+     "Est-ce nécessaire pour leur contrat ?",
+     "Intérêt commercial réel, faible intrusion ?",
+     "Sinon, demandez un consentement clair"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Est-il nécessaire de fournir ce que la personne a demandé ? Une adresse de livraison pour une commande est contractuelle."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Choisir une base légale",
+    "items": [
+     "Définir le but exact",
+     "Est-ce requis par la loi ?",
+     "Est-ce nécessaire pour leur contrat ?",
+     "Intérêt commercial réel, faible intrusion ?",
+     "Sinon, demandez un consentement clair"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Existe-t-il un véritable intérêt commercial qui ne prévaut pas sur les droits de la personne, comme les contrôles de base contre la fraude ? Ce sont des intérêts légitimes. Enregistrez votre raisonnement."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Choisir une base légale",
+    "items": [
+     "Définir le but exact",
+     "Est-ce requis par la loi ?",
+     "Est-ce nécessaire pour leur contrat ?",
+     "Intérêt commercial réel, faible intrusion ?",
+     "Sinon, demandez un consentement clair"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Si aucun de ces éléments ne vous convient, demandez un consentement clair, par exemple pour rejoindre une liste marketing."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Choisir une base légale",
+    "items": [
+     "Définir le but exact",
+     "Est-ce requis par la loi ?",
+     "Est-ce nécessaire pour leur contrat ?",
+     "Intérêt commercial réel, faible intrusion ?",
+     "Sinon, demandez un consentement clair"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Et rappelez-vous les principes, comme ne collecter que ce dont vous avez besoin. Une école qui a de bonnes raisons de collecter les numéros des parents enfreint toujours les règles si elle regroupe chaque parent dans un grand groupe WhatsApp."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Choisir une base légale",
+    "items": [
+     "Définir le but exact",
+     "Est-ce requis par la loi ?",
+     "Est-ce nécessaire pour leur contrat ?",
+     "Intérêt commercial réel, faible intrusion ?",
+     "Sinon, demandez un consentement clair"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Une base légale n’excuse jamais la violation d’un principe.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Le consentement est souvent utilisé lorsqu’une autre base convient mieux, et il est souvent mal appliqué. Le consentement valide est clair, rédigé dans un langage simple, distinct des autres termes et prouvable. Se retirer devrait être aussi simple que de le donner."
+   ],
+   "panel": {
+    "kicker": "Erreur courante",
+    "heading": "Ce consentement est-il valable ?",
+    "mode": "compare",
+    "left_h": "Consentement valide",
+    "left": [
+     "Un langage clair et simple",
+     "Séparé des autres termes",
+     "Vous pouvez prouver qu'il a été donné",
+     "Retrait facile"
+    ],
+    "right_h": "Pas de consentement",
+    "right": [
+     "Se taire ou ne rien faire",
+     "Une case pré-cochée",
+     "Dire qu'il n'y a aucun coût, un service nécessaire",
+     "Caché à l'intérieur d'autres termes"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Le silence, l'inactivité ou une case pré-cochée ne vaut jamais consentement. Et si dire non coûterait à la personne un service dont elle a besoin, le consentement n’est pas vraiment libre, alors cherchez une autre base."
+   ],
+   "panel": {
+    "kicker": "Erreur courante",
+    "heading": "Ce consentement est-il valable ?",
+    "mode": "compare",
+    "left_h": "Consentement valide",
+    "left": [
+     "Un langage clair et simple",
+     "Séparé des autres termes",
+     "Vous pouvez prouver qu'il a été donné",
+     "Retrait facile"
+    ],
+    "right_h": "Pas de consentement",
+    "right": [
+     "Se taire ou ne rien faire",
+     "Une case pré-cochée",
+     "Dire qu'il n'y a aucun coût, un service nécessaire",
+     "Caché à l'intérieur d'autres termes"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "À retenir. Les données personnelles sont tout ce qui permet d'identifier une personne. Nommez d’abord les trois rôles. La NDPA est appliquée par la NDPC.",
+    "Choisissez et enregistrez une base légale avant de collecter. Et le stockage de données sur des serveurs à l’étranger est un transfert qui nécessite également une condition légale."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Les données personnelles sont tout ce qui peut identifier une personne",
+     "Nommer d'abord le sujet, le responsable du traitement et le sous-traitant",
+     "La NDPA 2023 est appliquée par le NDPC",
+     "Choisir et enregistrer une base légale avant de collecter",
+     "Les données sur des serveurs à l'étranger sont un transfert"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Choisissez maintenant un vrai formulaire et marquez chaque champ comme personnel, sensible ou non personnel. Remplissez une feuille de calcul de base légale à cinq lignes. Répertoriez ensuite les applications utilisées par une organisation et marquez celles qui envoient des données hors du Nigeria.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâches d'entraînement",
+    "heading": "Votre pratique pour ce module",
+    "items": [
+     "Classer les champs sous une forme réelle",
+     "Remplissez une feuille de travail sur la base légale",
+     "Cartographier les transferts d'une organisation"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

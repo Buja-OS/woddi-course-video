@@ -1,0 +1,547 @@
+{
+ "course": "api-fundamentals",
+ "module": "m1",
+ "title": "How apps talk: requests, status codes and JSON",
+ "course_title": "API Fundamentals",
+ "shots": [
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "How apps talk: requests, status codes, and JSON.",
+    "This is the video for module one of API Fundamentals."
+   ]
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "An API, short for Application Programming Interface, is a published set of rules that lets one program ask another for data or an action.",
+    "The client is the program that asks, like a phone app. The server is the computer that answers."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "An API is a published set of rules",
+    "items": [
+     "The client asks, the server answers",
+     "The question is a request",
+     "The answer is a response",
+     "You will read both, with no code"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "The question is called a request, and the answer is a response. Most web APIs use HTTPS, the same secure language your browser uses."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "An API is a published set of rules",
+    "items": [
+     "The client asks, the server answers",
+     "The question is a request",
+     "The answer is a response",
+     "You will read both, with no code"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Think of a buka. You order from the menu, the attendant takes it to the kitchen, and food comes back. The menu is the documentation, the attendant is the API, and you never see the kitchen."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "An API is a published set of rules",
+    "items": [
+     "The client asks, the server answers",
+     "The question is a request",
+     "The answer is a response",
+     "You will read both, with no code"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Each thing you can ask for has its own address, called an endpoint. Take a request to Open-Meteo, a free weather API. The scheme, https, means the conversation is encrypted."
+   ],
+   "panel": {
+    "kicker": "Reading an address",
+    "heading": "The parts of an API URL",
+    "items": [
+     "Scheme: https, an encrypted conversation",
+     "Host: the server you are talking to",
+     "Path: which endpoint, such as /v1/forecast",
+     "Query string: settings after the question mark"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Next is the host, api.open-meteo.com, the server you are talking to."
+   ],
+   "panel": {
+    "kicker": "Reading an address",
+    "heading": "The parts of an API URL",
+    "items": [
+     "Scheme: https, an encrypted conversation",
+     "Host: the server you are talking to",
+     "Path: which endpoint, such as /v1/forecast",
+     "Query string: settings after the question mark"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Then the path, which names the endpoint. The v1 part is the version of the API."
+   ],
+   "panel": {
+    "kicker": "Reading an address",
+    "heading": "The parts of an API URL",
+    "items": [
+     "Scheme: https, an encrypted conversation",
+     "Host: the server you are talking to",
+     "Path: which endpoint, such as /v1/forecast",
+     "Query string: settings after the question mark"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Everything after the question mark is the query string: name and value pairs, such as latitude and longitude. Change the numbers and you ask about a different place."
+   ],
+   "panel": {
+    "kicker": "Reading an address",
+    "heading": "The parts of an API URL",
+    "items": [
+     "Scheme: https, an encrypted conversation",
+     "Host: the server you are talking to",
+     "Path: which endpoint, such as /v1/forecast",
+     "Query string: settings after the question mark"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "For example, Amaka is a virtual assistant in Ibadan with a smartphone and about 10 minutes. She types the URL into Chrome and changes latitude to 7.38 and longitude to 3.94, approximately Ibadan."
+   ],
+   "panel": {
+    "kicker": "Try it",
+    "heading": "Amaka's first API call",
+    "items": [
+     "Type the Open-Meteo URL in Chrome",
+     "Change latitude and longitude to your town",
+     "Find temperature_2m in the reply",
+     "Check current_units for the unit",
+     "Add wind_speed_10m and reload"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "The screen fills with text in curly brackets. That is the response, in a format called JSON. She finds the current temperature."
+   ],
+   "panel": {
+    "kicker": "Try it",
+    "heading": "Amaka's first API call",
+    "items": [
+     "Type the Open-Meteo URL in Chrome",
+     "Change latitude and longitude to your town",
+     "Find temperature_2m in the reply",
+     "Check current_units for the unit",
+     "Add wind_speed_10m and reload"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "She checks current units, so she never has to guess whether a number is Celsius."
+   ],
+   "panel": {
+    "kicker": "Try it",
+    "heading": "Amaka's first API call",
+    "items": [
+     "Type the Open-Meteo URL in Chrome",
+     "Change latitude and longitude to your town",
+     "Find temperature_2m in the reply",
+     "Check current_units for the unit",
+     "Add wind_speed_10m and reload"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "She adds wind speed to her question and reloads. Two real API requests, with no code and no account."
+   ],
+   "panel": {
+    "kicker": "Try it",
+    "heading": "Amaka's first API call",
+    "items": [
+     "Type the Open-Meteo URL in Chrome",
+     "Change latitude and longitude to your town",
+     "Find temperature_2m in the reply",
+     "Check current_units for the unit",
+     "Add wind_speed_10m and reload"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Every request has a method, the verb. GET fetches a copy. PUT replaces a whole item, PATCH changes some fields, and DELETE removes one.",
+    "GET is safe: it only reads, so it cannot harm anything."
+   ],
+   "panel": {
+    "kicker": "HTTP methods",
+    "heading": "Safe to repeat, or not?",
+    "mode": "compare",
+    "left_h": "Safe to read",
+    "left": [
+     "GET fetches a copy",
+     "Changes nothing on the server",
+     "Fine to test in a browser"
+    ],
+    "right_h": "Careful with POST",
+    "right": [
+     "POST creates something new",
+     "Sending twice may create two",
+     "Check the reference first"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_social",
+   "say": [
+    "POST sends new data, such as starting a payment. It is not safe to repeat. If a POST seems to hang, do not press send again. You could create two payments. First check, using the transaction reference, whether the first one went through."
+   ],
+   "panel": {
+    "kicker": "HTTP methods",
+    "heading": "Safe to repeat, or not?",
+    "mode": "compare",
+    "left_h": "Safe to read",
+    "left": [
+     "GET fetches a copy",
+     "Changes nothing on the server",
+     "Fine to test in a browser"
+    ],
+    "right_h": "Careful with POST",
+    "right": [
+     "POST creates something new",
+     "Sending twice may create two",
+     "Check the reference first"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Every response has a status code, a three-digit number saying how it went. A 2 at the start means success."
+   ],
+   "panel": {
+    "kicker": "Status codes",
+    "heading": "Read the first digit first",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "2xx: success",
+      "d": "200 OK. 201 Created, common after POST. 204 No Content, common after DELETE."
+     },
+     {
+      "t": "4xx: fix your request",
+      "d": "401: prove who you are. 403: known but not allowed. 404 Not Found. 429 Too Many Requests."
+     },
+     {
+      "t": "5xx: their side failed",
+      "d": "500, 502, 503. Wait, check the provider's status page, retry only safe requests."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "A 4 means the problem is in your request. A 401 means check that your key is present and typed correctly. A 403 means the server knows you, but you need different permissions.",
+    "For example, Funmi traced a 400 error to a latitude typed with a comma instead of a full stop."
+   ],
+   "panel": {
+    "kicker": "Status codes",
+    "heading": "Read the first digit first",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "2xx: success",
+      "d": "200 OK. 201 Created, common after POST. 204 No Content, common after DELETE."
+     },
+     {
+      "t": "4xx: fix your request",
+      "d": "401: prove who you are. 403: known but not allowed. 404 Not Found. 429 Too Many Requests."
+     },
+     {
+      "t": "5xx: their side failed",
+      "d": "500, 502, 503. Wait, check the provider's status page, retry only safe requests."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "A 5 means the problem is on their side. Wait, check their status page, and retry only safe requests."
+   ],
+   "panel": {
+    "kicker": "Status codes",
+    "heading": "Read the first digit first",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "2xx: success",
+      "d": "200 OK. 201 Created, common after POST. 204 No Content, common after DELETE."
+     },
+     {
+      "t": "4xx: fix your request",
+      "d": "401: prove who you are. 403: known but not allowed. 404 Not Found. 429 Too Many Requests."
+     },
+     {
+      "t": "5xx: their side failed",
+      "d": "500, 502, 503. Wait, check the provider's status page, retry only safe requests."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "JSON is plain text with strict rules. An object sits in curly brackets and holds keys and values, like an email address with its label."
+   ],
+   "panel": {
+    "kicker": "Reading JSON",
+    "heading": "Boxes inside boxes",
+    "items": [
+     "Object: curly brackets, keys and values",
+     "Array: square brackets, an ordered list",
+     "Data path: dots for keys, numbers for items",
+     "Arrays count from 0, not 1"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "An array sits in square brackets and holds a list in order."
+   ],
+   "panel": {
+    "kicker": "Reading JSON",
+    "heading": "Boxes inside boxes",
+    "items": [
+     "Object: curly brackets, keys and values",
+     "Array: square brackets, an ordered list",
+     "Data path: dots for keys, numbers for items",
+     "Arrays count from 0, not 1"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "A data path gives directions to one value. For Paystack's sample response, data dot reference points to the code you use later to check the payment."
+   ],
+   "panel": {
+    "kicker": "Reading JSON",
+    "heading": "Boxes inside boxes",
+    "items": [
+     "Object: curly brackets, keys and values",
+     "Array: square brackets, an ordered list",
+     "Data path: dots for keys, numbers for items",
+     "Arrays count from 0, not 1"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Arrays count from 0. So index 0 is the first item, and asking for index 1 gives the second. Halima in Abuja read four hourly temperatures, index 0 to 3, and averaged them to 28.3 degrees Celsius."
+   ],
+   "panel": {
+    "kicker": "Reading JSON",
+    "heading": "Boxes inside boxes",
+    "items": [
+     "Object: curly brackets, keys and values",
+     "Array: square brackets, an ordered list",
+     "Data path: dots for keys, numbers for items",
+     "Arrays count from 0, not 1"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Payment APIs usually avoid decimal points by sending money in the smallest unit. Paystack's documentation says naira amounts are sent in kobo."
+   ],
+   "panel": {
+    "kicker": "Money in JSON",
+    "heading": "The kobo rule",
+    "items": [
+     "Payment APIs send money in subunits",
+     "For naira, that is kobo",
+     "Divide kobo by 100 to read naira",
+     "1500000 kobo is 15,000 naira"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "So divide by 100 to read. An amount of 1,500,000 kobo is 15,000 naira."
+   ],
+   "panel": {
+    "kicker": "Money in JSON",
+    "heading": "The kobo rule",
+    "items": [
+     "Payment APIs send money in subunits",
+     "For naira, that is kobo",
+     "Divide kobo by 100 to read naira",
+     "1500000 kobo is 15,000 naira"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Forget this, and a 15,000 naira payment looks like 1.5 million in a report. Also, a number in quotes is text, and null means unknown, not zero.",
+    "Never paste a response with customer details or secret keys into a public website."
+   ],
+   "panel": {
+    "kicker": "Money in JSON",
+    "heading": "The kobo rule",
+    "items": [
+     "Payment APIs send money in subunits",
+     "For naira, that is kobo",
+     "Divide kobo by 100 to read naira",
+     "1500000 kobo is 15,000 naira"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Check the unit of every money field before you trust a total.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "To remember. The URL carries the question, and JSON carries the answer. Never blindly resend a POST. Read the first digit of the status code. Count arrays from 0, and divide kobo by 100."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "The URL carries the question, JSON the answer",
+     "Never blindly resend a POST",
+     "2xx success, 4xx your side, 5xx their side",
+     "Arrays start at 0; divide kobo by 100"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Now make and label three API requests, build your status code card, and write five data paths.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice tasks",
+    "heading": "Your practice tasks",
+    "items": [
+     "Make and label three API requests",
+     "Build a status code card",
+     "Write five data paths"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

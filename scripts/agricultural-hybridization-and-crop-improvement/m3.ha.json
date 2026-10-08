@@ -1,0 +1,663 @@
+{
+ "course": "agricultural-hybridization-and-crop-improvement",
+ "module": "m3",
+ "title": "Shaida, tattalin arziki da jagorancin iri na al'umma",
+ "course_title": "Haɓakar Noma da Inganta amfanin gona",
+ "shots": [
+  {
+   "demo": "soil_bed",
+   "say": [
+    "Shaida, tattalin arziki da jagorancin iri na al'umma.",
+    "Wannan shi ne bidiyo don tsari na 3 na Haɓakar Noma da Inganta amfanin gona."
+   ]
+  },
+  {
+   "demo": "seedling_tray",
+   "say": [
+    "Gwajin ku ya gaya muku nawa sabon nau'in amfanin gona ya samu. Har yanzu bai gaya muku ko ya biya ba."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Yawan yawan amfanin ƙasa ba koyaushe ne mafi kyawun ciniki ba",
+    "items": [
+     "Shin sabon nau'in yana biya?",
+     "Rike iri mai kyau da rai a cikin ajiya",
+     "Gudanar da bankin iri na al'umma mai gaskiya",
+     "Yi rahoto da gaskiya kuma ku tsara kwanaki 90"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "seedling_tray",
+   "say": [
+    "Haka nan ana bata iri mai kyau idan ta mutu ko ciyayi sun ci kafin shuka."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Yawan yawan amfanin ƙasa ba koyaushe ne mafi kyawun ciniki ba",
+    "items": [
+     "Shin sabon nau'in yana biya?",
+     "Rike iri mai kyau da rai a cikin ajiya",
+     "Gudanar da bankin iri na al'umma mai gaskiya",
+     "Yi rahoto da gaskiya kuma ku tsara kwanaki 90"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "water_tank",
+   "say": [
+    "Za ku koyi gudanar da bankin iri na al'umma tare da bayanan gaskiya."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Yawan yawan amfanin ƙasa ba koyaushe ne mafi kyawun ciniki ba",
+    "items": [
+     "Shin sabon nau'in yana biya?",
+     "Rike iri mai kyau da rai a cikin ajiya",
+     "Gudanar da bankin iri na al'umma mai gaskiya",
+     "Yi rahoto da gaskiya kuma ku tsara kwanaki 90"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "water_tank",
+   "say": [
+    "Kuma za ku juya gwajin ku zuwa taƙaitaccen rahoto da shirin kwanaki 90."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Yawan yawan amfanin ƙasa ba koyaushe ne mafi kyawun ciniki ba",
+    "items": [
+     "Shin sabon nau'in yana biya?",
+     "Rike iri mai kyau da rai a cikin ajiya",
+     "Gudanar da bankin iri na al'umma mai gaskiya",
+     "Yi rahoto da gaskiya kuma ku tsara kwanaki 90"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "soil_bed",
+   "say": [
+    "Wani ɓangare na kasafin kuɗi yana lissafin abin da ke canzawa kawai lokacin da kuka canza. Misali, matasan Rukayat ta ba da kilogiram 923 a kowace hekta fiye da irin da ta saba. Kusan naira 600 akan kowace kilogiram, wato naira 553,800 na karin kudin shiga."
+   ],
+   "card": {
+    "title": "Rukayat's ƙarin farashi na Variety A",
+    "rows": [],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "soil_bed",
+   "say": [
+    "Yanzu kara farashin. Haɓakar iri ta kai naira 100,000, ban da kuɗin da ta saba ajiyewa wanda ya kai 14,000, don haka ƙarin naira 86,000."
+   ],
+   "card": {
+    "title": "Rukayat's ƙarin farashi na Variety A",
+    "rows": [
+     [
+      "Karin farashin iri",
+      "86,000"
+     ]
+    ],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "soil_bed",
+   "say": [
+    "Matakan na bukatar karin buhu guda na taki, kusan naira 40,000."
+   ],
+   "card": {
+    "title": "Rukayat's ƙarin farashi na Variety A",
+    "rows": [
+     [
+      "Karin farashin iri",
+      "86,000"
+     ],
+     [
+      "Karin taki",
+      "40,000"
+     ]
+    ],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "grain_sacks",
+   "say": [
+    "Girbi, harsashi, jakunkuna da jigilar kayayyaki na karin hatsi sun hada da kimanin naira 15,000."
+   ],
+   "card": {
+    "title": "Rukayat's ƙarin farashi na Variety A",
+    "rows": [
+     [
+      "Karin farashin iri",
+      "86,000"
+     ],
+     [
+      "Karin taki",
+      "40,000"
+     ],
+     [
+      "Karin farashin girbi",
+      "15,000"
+     ]
+    ],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "grain_sacks",
+   "say": [
+    "Jimlar kudinta ya kai naira 141,000."
+   ],
+   "card": {
+    "title": "Rukayat's ƙarin farashi na Variety A",
+    "rows": [
+     [
+      "Karin farashin iri",
+      "86,000"
+     ],
+     [
+      "Karin taki",
+      "40,000"
+     ],
+     [
+      "Karin farashin girbi",
+      "15,000"
+     ]
+    ],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "produce_crates",
+   "say": [
+    "Amfanin yanar gizo shine ƙarin kuɗin shiga ban da ƙarin farashi. Na Rukayat, 553,800 a debe 141,000 Naira 412,800 ne."
+   ],
+   "panel": {
+    "kicker": "Yana biya?",
+    "heading": "Net amfani, dawowa da karya-ko da",
+    "items": [
+     "Amfanin gidan yanar gizo: samun kudin shiga ban da ƙarin farashi",
+     "Komawa: fa'ida net / ƙarin farashi",
+     "Karya-ko da: ƙarin farashi / farashin hatsi",
+     "Gwada ƙananan farashin hatsi",
+     "Gwada mummunan yanayi"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "produce_crates",
+   "say": [
+    "Matsakaicin adadin dawowa shine fa'ida ta net wanda aka raba ta hanyar ƙarin kuɗin da aka kashe. A nan yana da kusan 293%. Noma yana da haɗari, don haka burin 50% zuwa 100% ko fiye."
+   ],
+   "panel": {
+    "kicker": "Yana biya?",
+    "heading": "Net amfani, dawowa da karya-ko da",
+    "items": [
+     "Amfanin gidan yanar gizo: samun kudin shiga ban da ƙarin farashi",
+     "Komawa: fa'ida net / ƙarin farashi",
+     "Karya-ko da: ƙarin farashi / farashin hatsi",
+     "Gwada ƙananan farashin hatsi",
+     "Gwada mummunan yanayi"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "produce_crates",
+   "say": [
+    "Break-har an ƙara farashin da aka raba ta farashin hatsi. 141,000 da aka raba ta 600 shine 235 kg. A ƙasan wannan riba, ta yi asarar kuɗi."
+   ],
+   "panel": {
+    "kicker": "Yana biya?",
+    "heading": "Net amfani, dawowa da karya-ko da",
+    "items": [
+     "Amfanin gidan yanar gizo: samun kudin shiga ban da ƙarin farashi",
+     "Komawa: fa'ida net / ƙarin farashi",
+     "Karya-ko da: ƙarin farashi / farashin hatsi",
+     "Gwada ƙananan farashin hatsi",
+     "Gwada mummunan yanayi"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "sun_drying",
+   "say": [
+    "Idan farashin ya ragu zuwa naira 400 a lokacin girbi, ribarta ta koma naira 228,200."
+   ],
+   "panel": {
+    "kicker": "Yana biya?",
+    "heading": "Net amfani, dawowa da karya-ko da",
+    "items": [
+     "Amfanin gidan yanar gizo: samun kudin shiga ban da ƙarin farashi",
+     "Komawa: fa'ida net / ƙarin farashi",
+     "Karya-ko da: ƙarin farashi / farashin hatsi",
+     "Gwada ƙananan farashin hatsi",
+     "Gwada mummunan yanayi"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "sun_drying",
+   "say": [
+    "Amma idan bushewar bushewa ta yanke riba zuwa kilogiram 200, ta yi asarar kuɗi a wannan shekara."
+   ],
+   "panel": {
+    "kicker": "Yana biya?",
+    "heading": "Net amfani, dawowa da karya-ko da",
+    "items": [
+     "Amfanin gidan yanar gizo: samun kudin shiga ban da ƙarin farashi",
+     "Komawa: fa'ida net / ƙarin farashi",
+     "Karya-ko da: ƙarin farashi / farashin hatsi",
+     "Gwada ƙananan farashin hatsi",
+     "Gwada mummunan yanayi"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "sun_drying",
+   "say": [
+    "Yi amfani da farashin da za ku karɓa a zahiri, ba mafi girman farashin da kuka ji ba."
+   ],
+   "panel": {
+    "kicker": "Yana biya?",
+    "heading": "Net amfani, dawowa da karya-ko da",
+    "items": [
+     "Amfanin gidan yanar gizo: samun kudin shiga ban da ƙarin farashi",
+     "Komawa: fa'ida net / ƙarin farashi",
+     "Karya-ko da: ƙarin farashi / farashin hatsi",
+     "Gwada ƙananan farashin hatsi",
+     "Gwada mummunan yanayi"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Koyaushe gwada akan farashi mai arha da lokacin mara kyau.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "soil_bed",
+   "say": [
+    "iri yana raye, zafi da danshi na sa ya tsufa da sauri. A bushe shi a kan kwalta mai tsafta ko tabarmar tashe."
+   ],
+   "panel": {
+    "kicker": "Rike iri da rai",
+    "heading": "Ka bushe shi, gwada shi, rufe shi",
+    "items": [
+     "Bushe a kan kwalta, ba maras ƙasa ba",
+     "Guji zafin zinc ko kankare da tsakar rana",
+     "Gwajin gishiri: iri da busassun gishiri",
+     "Sandunan gishiri? bushewa ya dade",
+     "Rufe a cikin jakunkuna masu hana iska, daga ƙasa"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "soil_bed",
+   "say": [
+    "A guji yin rufin zinc mai zafi sosai ko siminti a tsakar rana, wanda zai iya lalata iri."
+   ],
+   "panel": {
+    "kicker": "Rike iri da rai",
+    "heading": "Ka bushe shi, gwada shi, rufe shi",
+    "items": [
+     "Bushe a kan kwalta, ba maras ƙasa ba",
+     "Guji zafin zinc ko kankare da tsakar rana",
+     "Gwajin gishiri: iri da busassun gishiri",
+     "Sandunan gishiri? bushewa ya dade",
+     "Rufe a cikin jakunkuna masu hana iska, daga ƙasa"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "soil_bed",
+   "say": [
+    "Sa'an nan kuma yi gwajin gwangwani gishiri. A zuba iri guda da busasshen gishiri cokali biyu ko uku a cikin busasshen kwalbar gilashi. Girgiza shi kuma jira kamar minti 15."
+   ],
+   "panel": {
+    "kicker": "Rike iri da rai",
+    "heading": "Ka bushe shi, gwada shi, rufe shi",
+    "items": [
+     "Bushe a kan kwalta, ba maras ƙasa ba",
+     "Guji zafin zinc ko kankare da tsakar rana",
+     "Gwajin gishiri: iri da busassun gishiri",
+     "Sandunan gishiri? bushewa ya dade",
+     "Rufe a cikin jakunkuna masu hana iska, daga ƙasa"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "seedling_tray",
+   "say": [
+    "Idan gishiri ya manne a cikin tulun, iri har yanzu yana da ɗanɗano. Bushe shi ya daɗe kuma a sake gwadawa."
+   ],
+   "panel": {
+    "kicker": "Rike iri da rai",
+    "heading": "Ka bushe shi, gwada shi, rufe shi",
+    "items": [
+     "Bushe a kan kwalta, ba maras ƙasa ba",
+     "Guji zafin zinc ko kankare da tsakar rana",
+     "Gwajin gishiri: iri da busassun gishiri",
+     "Sandunan gishiri? bushewa ya dade",
+     "Rufe a cikin jakunkuna masu hana iska, daga ƙasa"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "seedling_tray",
+   "say": [
+    "Ajiye shi a cikin jakunkuna masu hana iska kamar jakunkuna na PICS, waɗanda ke kashe iskar oxygen. Lakabi kowanne."
+   ],
+   "panel": {
+    "kicker": "Rike iri da rai",
+    "heading": "Ka bushe shi, gwada shi, rufe shi",
+    "items": [
+     "Bushe a kan kwalta, ba maras ƙasa ba",
+     "Guji zafin zinc ko kankare da tsakar rana",
+     "Gwajin gishiri: iri da busassun gishiri",
+     "Sandunan gishiri? bushewa ya dade",
+     "Rufe a cikin jakunkuna masu hana iska, daga ƙasa"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "seedling_tray",
+   "say": [
+    "Idan kuna amfani da maganin kashe kwari, yi amfani da samfurin da aka amince da shi kawai a adadin adadin, kuma ku ci gaba da dasa iri baya ga hatsin abinci."
+   ],
+   "panel": {
+    "kicker": "Rike iri da rai",
+    "heading": "Ka bushe shi, gwada shi, rufe shi",
+    "items": [
+     "Bushe a kan kwalta, ba maras ƙasa ba",
+     "Guji zafin zinc ko kankare da tsakar rana",
+     "Gwajin gishiri: iri da busassun gishiri",
+     "Sandunan gishiri? bushewa ya dade",
+     "Rufe a cikin jakunkuna masu hana iska, daga ƙasa"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Rike iri a bushe, kiyaye shi sanyi, kiyaye iska da kwari.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "soil_bed",
+   "say": [
+    "A cikin bankin iri na al'umma, membobi suna karɓar iri a shuka kuma su dawo da yawa bayan girbi. Misali, wata kungiyar mata a jihar Binuwai ta fara da kilo 60 na irin shedar saniya."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Bankin irin kwakwa na mata",
+    "items": [
+     "Yana farawa da ƙwararriyar iri mai nauyin kilogiram 60",
+     "Membobi 12 suna aro kilogiram 4 kowanne: 48 kg",
+     "Membobi 10 sun dawo 8 kg kowanne: 80 kg",
+     "Mambobi 2 da aka ambaliya suna da kilogiram 8",
+     "Sabon haja: 92 kg, duk an gwada iri"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "soil_bed",
+   "say": [
+    "Membobi goma sha biyu suna karbar 4 kg kowace."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Bankin irin kwakwa na mata",
+    "items": [
+     "Yana farawa da ƙwararriyar iri mai nauyin kilogiram 60",
+     "Membobi 12 suna aro kilogiram 4 kowanne: 48 kg",
+     "Membobi 10 sun dawo 8 kg kowanne: 80 kg",
+     "Mambobi 2 da aka ambaliya suna da kilogiram 8",
+     "Sabon haja: 92 kg, duk an gwada iri"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "soil_bed",
+   "say": [
+    "Bayan girbi, membobi goma sun dawo sau biyu, 8 kg kowace. Wato 80 kg."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Bankin irin kwakwa na mata",
+    "items": [
+     "Yana farawa da ƙwararriyar iri mai nauyin kilogiram 60",
+     "Membobi 12 suna aro kilogiram 4 kowanne: 48 kg",
+     "Membobi 10 sun dawo 8 kg kowanne: 80 kg",
+     "Mambobi 2 da aka ambaliya suna da kilogiram 8",
+     "Sabon haja: 92 kg, duk an gwada iri"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Mambobi biyu sun rasa amfanin gonakinsu sakamakon ambaliyar ruwa. Ƙungiyar tana yin rikodin kilogiram 8 kamar yadda ake bi bashi a kakar wasa ta gaba."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Bankin irin kwakwa na mata",
+    "items": [
+     "Yana farawa da ƙwararriyar iri mai nauyin kilogiram 60",
+     "Membobi 12 suna aro kilogiram 4 kowanne: 48 kg",
+     "Membobi 10 sun dawo 8 kg kowanne: 80 kg",
+     "Mambobi 2 da aka ambaliya suna da kilogiram 8",
+     "Sabon haja: 92 kg, duk an gwada iri"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Nauyin yana girma zuwa 92 kg. Kowane kuri'a da aka dawo ana yin gwajin germination, kuma kuri'a ɗaya mara kyau ana ajiyewa don abinci, ba iri ba."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Bankin irin kwakwa na mata",
+    "items": [
+     "Yana farawa da ƙwararriyar iri mai nauyin kilogiram 60",
+     "Membobi 12 suna aro kilogiram 4 kowanne: 48 kg",
+     "Membobi 10 sun dawo 8 kg kowanne: 80 kg",
+     "Mambobi 2 da aka ambaliya suna da kilogiram 8",
+     "Sabon haja: 92 kg, duk an gwada iri"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Rubuta dokokin yanke shawara kafin ku ga sakamakon. Misali, Hauwa a Kano ta karbo ne kawai idan iri-iri ya ci nasara a cikin duka ukun kuma dawowa ya wuce 100%.",
+    "Iri-iri A ya dace da kowace doka. Amma ta dasa shi a kan rabin ƙasarta, ba duka ba, domin kakar ɗaya ƙayyadaddun shaida ne."
+   ],
+   "panel": {
+    "kicker": "Yi hukunci bisa adalci",
+    "heading": "Hukuncin Hauwa",
+    "mode": "compare",
+    "left_h": "Iri A: karbo",
+    "left": [
+     "Ya ci nasara a cikin duka tubalan 3",
+     "Samun 600, karya-ko da 250 kg/ha",
+     "Komawa 140%",
+     "Shuka akan rabin ƙasarta"
+    ],
+    "right_h": "Iri B: sake gwadawa",
+    "right": [
+     "Nasara a cikin 2 cikin 3 tubalan",
+     "Samun 300 kg/ha",
+     "Komawa 45%",
+     "Sake gwadawa akan ƙaramin yanki"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "water_tank",
+   "say": [
+    "Bambancin B ya ci nasara akan matsakaici amma ba a kowane shinge ba, kuma dawowar sa shine kawai 45%. Ta sake gwada shi a kan ƙaramin yanki, kuma ta adana iri da ta saba a matsayin inshora."
+   ],
+   "panel": {
+    "kicker": "Yi hukunci bisa adalci",
+    "heading": "Hukuncin Hauwa",
+    "mode": "compare",
+    "left_h": "Iri A: karbo",
+    "left": [
+     "Ya ci nasara a cikin duka tubalan 3",
+     "Samun 600, karya-ko da 250 kg/ha",
+     "Komawa 140%",
+     "Shuka akan rabin ƙasarta"
+    ],
+    "right_h": "Iri B: sake gwadawa",
+    "right": [
+     "Nasara a cikin 2 cikin 3 tubalan",
+     "Samun 300 kg/ha",
+     "Komawa 45%",
+     "Sake gwadawa akan ƙaramin yanki"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Rubuta gajeriyar rahoto mai gaskiya. Ba da burin ku da nau'ikan ku, hanyoyinku da tsarin ku, da bayanin kula kamar busassun lallausan dabbobi ko lalata.",
+    "Sanya sakamakon a cikin tebur tare da ingantaccen amfanin ƙasa, sannan ɓangaren kasafin kuɗin ku da shawarar ku. Fadi a sarari abin da bai yi aiki ba."
+   ],
+   "panel": {
+    "kicker": "Rahoton ku",
+    "heading": "Abin da rahoton gwajin ku ya ƙunshi",
+    "items": [
+     "Manufar da iri, tare da tushen iri",
+     "Hanyoyi: kwanan wata, tazara, shimfidawa",
+     "Bayanan yanayi: ruwan sama, kwari, lalacewa",
+     "Teburin sakamako tare da ingantattun kayan amfanin gona",
+     "Kasafin kudi na yanki da shawarar ku"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "produce_crates",
+   "say": [
+    "Don tunawa. Wani ɓangare na kasafin kuɗi yana lissafin abin da ke canzawa kawai. Gwada ƙananan farashi da mummunan yanayi. Busasshen iri a duba shi tare da gwajin gishiri, sannan a adana shi ba tare da iska ba. Kuma saita dokokin ku kafin ganin sakamakon."
+   ],
+   "panel": {
+    "kicker": "Mabuɗin mahimmanci",
+    "heading": "Ka tuna",
+    "items": [
+     "Jera kawai farashi da kudin shiga da ke canzawa",
+     "Karɓa-ko da riba = ƙarin farashi / farashi",
+     "Gwada ƙananan farashi da mummunan yanayi",
+     "bushe tare da gwajin gishiri; kantin sayar da iska",
+     "Saita dokokin yanke shawara kafin sakamako"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "sun_drying",
+   "say": [
+    "Yanzu gina wani ɓangare na kasafin kuɗin ku tare da farashin gida, yi gwajin gilashin gishiri, da tsara dokokin bankin iri tare da leta. Sannan rubuta jigon rahoton ku da tsarin kwanan ku na kwanaki 90.",
+    "Ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi aiki",
+    "heading": "Ayyukan aikin ku",
+    "items": [
+     "Gina kasafin kuɗin ku na ɗan lokaci",
+     "Yi gwajin kwalban gishiri kuma sanya iri",
+     "Daftarin dokokin bankin iri da kuma littatafai",
+     "Rubuta jigon rahoton ku da shirin kwanaki 90"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}
