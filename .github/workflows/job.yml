@@ -1,0 +1,23 @@
+name: job
+on:
+  push:
+    branches: ['job-*']
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - name: run job
+        run: |
+          mkdir -p out
+          bash job.sh > out/job.log 2>&1 || echo "JOB FAILED $?" >> out/job.log
+      - name: publish output
+        if: always()
+        run: |
+          cd out
+          find . -type f -size +90M | while read f; do split -b 90m -d "$f" "$f.part"; rm "$f"; done
+          git init -q && git checkout -q -b "${GITHUB_REF_NAME}-out" && git add -A && git -c user.name=bot -c user.email=bot@x commit -qm out
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" "${GITHUB_REF_NAME}-out"
