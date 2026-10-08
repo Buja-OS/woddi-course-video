@@ -1,0 +1,35 @@
++ cd out
++ for L in fr pt ar yo ha ig sw
++ for L in fr pt ar yo ha ig sw
++ python3 ../mt.py ../catalog_in.json _catalog_fr.json fr
++ for L in fr pt ar yo ha ig sw
++ python3 ../mt.py ../catalog_in.json _catalog_pt.json pt
++ python3 ../mt.py ../catalog_in.json _catalog_ar.json ar
++ for L in fr pt ar yo ha ig sw
++ for L in fr pt ar yo ha ig sw
++ for L in fr pt ar yo ha ig sw
++ for L in fr pt ar yo ha ig sw
++ python3 ../mt.py ../catalog_in.json _catalog_ig.json ig
++ wait
++ python3 ../mt.py ../catalog_in.json _catalog_sw.json sw
++ python3 ../mt.py ../catalog_in.json _catalog_yo.json yo
++ python3 ../mt.py ../catalog_in.json _catalog_ha.json ha
+translated 873 strings to yo in 21 s
+translated 873 strings to ha in 22 s
+translated 873 strings to ig in 24 s
+translated 873 strings to fr in 26 s
+translated 873 strings to ar in 26 s
+translated 873 strings to sw in 26 s
+translated 873 strings to pt in 26 s
++ ls -la
+total 1008
+drwxr-xr-x 2 runner runner   4096 Oct  8 09:28 .
+drwxr-xr-x 5 runner runner   4096 Oct  8 09:28 ..
+-rw-r--r-- 1 runner runner 172570 Oct  8 09:28 _catalog_ar.json
+-rw-r--r-- 1 runner runner 149523 Oct  8 09:28 _catalog_fr.json
+-rw-r--r-- 1 runner runner 132430 Oct  8 09:28 _catalog_ha.json
+-rw-r--r-- 1 runner runner 136154 Oct  8 09:28 _catalog_ig.json
+-rw-r--r-- 1 runner runner 141770 Oct  8 09:28 _catalog_pt.json
+-rw-r--r-- 1 runner runner 134474 Oct  8 09:28 _catalog_sw.json
+-rw-r--r-- 1 runner runner 138824 Oct  8 09:28 _catalog_yo.json
+-rw-r--r-- 1 runner runner    914 Oct  8 09:28 job.log
