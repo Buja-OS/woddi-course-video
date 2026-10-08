@@ -1,0 +1,71 @@
++ sudo apt-get install -y -qq espeak-ng
++ pip install -q torch torchaudio --index-url https://download.pytorch.org/whl/cpu
++ tail -1
++ pip install -q 'transformers<4.50' soundfile librosa sentencepiece coqui-tts piper-tts huggingface_hub accelerate
++ tail -2
++ python3 bake.py
++ grep -vE 'Warning|warn'
++ tail -80
+OK sw mms 17.4 s
+OK sw mmstuned 11.1 s
+OK sw mussa 13.3 s
+Fetching 3 files:   0%|          | 0/3 [00:00<?, ?it/s]Fetching 3 files:  33%|███▎      | 1/3 [00:00<00:00,  3.38it/s]Fetching 3 files:  67%|██████▋   | 2/3 [00:00<00:00,  3.13it/s]Fetching 3 files: 100%|██████████| 3/3 [00:06<00:00,  2.12s/it]Fetching 3 files: 100%|██████████| 3/3 [00:06<00:00,  2.12s/it]
+openbible speakers None
+OK sw openbible 29.8 s
+OK ha mms 15.5 s
+OK ha mmstuned 12.8 s
+Fetching 7 files:   0%|          | 0/7 [00:00<?, ?it/s]Fetching 7 files:  14%|█▍        | 1/7 [00:00<00:01,  3.35it/s]Fetching 7 files:  57%|█████▋    | 4/7 [00:00<00:00,  4.74it/s]Fetching 7 files: 100%|██████████| 7/7 [00:06<00:00,  1.12it/s]Fetching 7 files: 100%|██████████| 7/7 [00:06<00:00,  1.12it/s]
+FAIL ha twb FileNotFoundError(2, 'No such file or directory')
+Traceback (most recent call last):
+  File "/home/runner/work/woddi-course-video/woddi-course-video/bake.py", line 85, in <module>
+    try: fn(); print('OK', lang, tag, round(time.time() - t0, 1), 's', flush=True)
+         ^^^^
+  File "/home/runner/work/woddi-course-video/woddi-course-video/bake.py", line 70, in <lambda>
+    ('ha', 'twb', lambda: coqui('CLEAR-Global/TWB-Voice-Hausa-TTS-1.0', 'ha', 'twb', ['config.json', 'config_se.json', 'best_model_498283.pth', 'd_vector.pth', 'speakers.pth', 'speakers.json', 'model_se.pth', 'language_ids.json'])),
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/woddi-course-video/woddi-course-video/bake.py", line 44, in coqui
+    tts = TTS(model_path=mp, config_path=cfg2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/woddi-course-video/woddi-course-video/d_vector.pth'
+OK yo mms 16.4 s
+OK yo mmstuned 12.7 s
+OK yo imhotep 36.6 s
+Fetching 3 files:   0%|          | 0/3 [00:00<?, ?it/s]Fetching 3 files:  33%|███▎      | 1/3 [00:00<00:00,  4.03it/s]Fetching 3 files:  67%|██████▋   | 2/3 [00:00<00:00,  3.23it/s]Fetching 3 files: 100%|██████████| 3/3 [00:05<00:00,  1.69s/it]Fetching 3 files: 100%|██████████| 3/3 [00:05<00:00,  1.69s/it]
+openbible speakers None
+ṣiṣe tabili iwaju kan pẹlu didara julọ - awọn iwunilori akọkọ, iṣakoso awọn idilọwọ, gbigbe ifiranṣẹ deede, aabo awọn alejo, de-escalation ati awọn imudani iyipada ti iṣeto.
+Character 'c' not found in the vocabulary. Discarding it.
+OK yo openbible 24.4 s
+OK ig mms 13.7 s
+Fetching 3 files:   0%|          | 0/3 [00:00<?, ?it/s]Fetching 3 files:  33%|███▎      | 1/3 [00:00<00:00,  2.61it/s]Fetching 3 files:  67%|██████▋   | 2/3 [00:00<00:00,  2.89it/s]Fetching 3 files: 100%|██████████| 3/3 [00:04<00:00,  1.47s/it]Fetching 3 files: 100%|██████████| 3/3 [00:04<00:00,  1.47s/it]
+openbible speakers None
+OK ig openbible 18.2 s
+OK ar mms 17.3 s
+Fetching 3 files:   0%|          | 0/3 [00:00<?, ?it/s]Fetching 3 files:  33%|███▎      | 1/3 [00:00<00:00,  4.09it/s]Fetching 3 files:  67%|██████▋   | 2/3 [00:00<00:00,  3.41it/s]Fetching 3 files: 100%|██████████| 3/3 [00:04<00:00,  1.65s/it]Fetching 3 files: 100%|██████████| 3/3 [00:04<00:00,  1.65s/it]
+openbible speakers None
+قم ببناء معرفة ذاتية صادقة - شخصيتك وعواطفك وثقتك بنفسك واحترامك لذاتك وأصالتك - كأساس لرحلة wnnn الخاصة بك.
+Character 'w' not found in the vocabulary. Discarding it.
+قم ببناء معرفة ذاتية صادقة - شخصيتك وعواطفك وثقتك بنفسك واحترامك لذاتك وأصالتك - كأساس لرحلة wnnn الخاصة بك.
+Character 'n' not found in the vocabulary. Discarding it.
+قم بإدارة مكتب استقبال بامتياز - الانطباعات الأولى، وإدارة الانقطاعات، وتدوين الرسائل بدقة، وأمن الزائرين، وخفض التصعيد، وعمليات التسليم المنظمة.
+Character '،' not found in the vocabulary. Discarding it.
+OK ar openbible 19.0 s
+[0;93m2026-10-08 09:46:55.514419232 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+OK ar piper 5.1 s
++ python3 asr.py
++ grep -E 'SUMMARY|Error|error'
++ tail -60
+SUMMARY ('ar', 'mms') cer 0.089 f0 154 pitchvar 4.32
+SUMMARY ('ar', 'openbible') cer 0.475 f0 123 pitchvar 6.26
+SUMMARY ('ar', 'piper') cer 0.057 f0 107 pitchvar 3.18
+SUMMARY ('ha', 'mms') cer 0.085 f0 162 pitchvar 4.32
+SUMMARY ('ha', 'mmstuned') cer 0.077 f0 162 pitchvar 4.47
+SUMMARY ('ig', 'mms') cer 0.43 f0 127 pitchvar 5.01
+SUMMARY ('ig', 'openbible') cer 0.155 f0 154 pitchvar 5.52
+SUMMARY ('sw', 'mms') cer 0.037 f0 157 pitchvar 3.48
+SUMMARY ('sw', 'mmstuned') cer 0.034 f0 156 pitchvar 3.45
+SUMMARY ('sw', 'mussa') cer 0.228 f0 219 pitchvar 3.23
+SUMMARY ('sw', 'openbible') cer 0.064 f0 126 pitchvar 3.79
+SUMMARY ('yo', 'imhotep') cer 0.507 f0 91 pitchvar 6.66
+SUMMARY ('yo', 'mms') cer 0.182 f0 127 pitchvar 5.88
+SUMMARY ('yo', 'mmstuned') cer 0.167 f0 127 pitchvar 6.01
+SUMMARY ('yo', 'openbible') cer 0.109 f0 145 pitchvar 5.34
