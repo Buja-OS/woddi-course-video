@@ -1,0 +1,500 @@
+{
+ "course": "api-fundamentals",
+ "module": "m2",
+ "title": "Jaribu kwa usalama, linda funguo zako, panga kutofaulu",
+ "course_title": "Misingi ya API",
+ "shots": [
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Jaribu kwa usalama, linda funguo zako na upange kutofaulu.",
+    "Hii ni video ya moduli ya pili ya Misingi ya API."
+   ]
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Upau wa anwani ya kivinjari unaweza kutuma maombi ya GET pekee, na huficha vichwa. Ili kujaribu API halisi unahitaji mteja wa API, zana ambayo unachagua mbinu, URL, vichwa na mwili, na uone jibu kamili."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Mafanikio moja ni mwanzo tu",
+    "items": [
+     "Tumia kiteja sahihi cha API",
+     "Soma nyaraka kwanza",
+     "Thibitisha mtiririko katika hali ya jaribio",
+     "Panga makosa, kurasa na marudio"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Kazi halisi ya API huanza na hitaji, kama vile: tunataka kujua kiotomatiki wakati mteja amelipa. Unasoma hati, kisha ujaribu kwa usalama kabla ya kitu chochote kwenda moja kwa moja."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Mafanikio moja ni mwanzo tu",
+    "items": [
+     "Tumia kiteja sahihi cha API",
+     "Soma nyaraka kwanza",
+     "Thibitisha mtiririko katika hali ya jaribio",
+     "Panga makosa, kurasa na marudio"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Na muunganisho unaotegemewa unatenda kwa busara wakati mambo yanaenda vibaya."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Mafanikio moja ni mwanzo tu",
+    "items": [
+     "Tumia kiteja sahihi cha API",
+     "Soma nyaraka kwanza",
+     "Thibitisha mtiririko katika hali ya jaribio",
+     "Panga makosa, kurasa na marudio"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Wanafunzi wengi huanza na Hoppscotch kwenye simu. Ni bure na nyepesi kwenye data."
+   ],
+   "panel": {
+    "kicker": "Zana yako ya zana",
+    "heading": "Hoppscotch au Postman?",
+    "mode": "compare",
+    "left_h": "Hoppscotch",
+    "left": [
+     "Hufanya kazi katika kivinjari chochote, hata simu",
+     "Bure, hakuna kusakinisha",
+     "Mwanga kwenye data"
+    ],
+    "right_h": "Posta",
+    "right": [
+     "Programu ya kompyuta ya mezani au wavuti",
+     "Huhifadhi mikusanyiko, inayoshirikiwa na timu",
+     "Upakuaji mkubwa kwenye data ya simu"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Postman suti makusanyo na timu zilizohifadhiwa kwenye kompyuta ndogo.",
+    "Pia jifunze kusoma curl, kwa sababu nyaraka nyingi zinaonyesha mifano kwa njia hiyo. Dashi H huongeza kichwa, dashi d ni mwili, na mstari X huweka mbinu.",
+    "Fanya mazoezi kwenye API bandia kama vile JSONPlaceholder, ambayo inajifanya kuokoa tu. Usijaribu kamwe na DELETE kwenye akaunti halisi ya biashara."
+   ],
+   "panel": {
+    "kicker": "Zana yako ya zana",
+    "heading": "Hoppscotch au Postman?",
+    "mode": "compare",
+    "left_h": "Hoppscotch",
+    "left": [
+     "Hufanya kazi katika kivinjari chochote, hata simu",
+     "Bure, hakuna kusakinisha",
+     "Mwanga kwenye data"
+    ],
+    "right_h": "Posta",
+    "right": [
+     "Programu ya kompyuta ya mezani au wavuti",
+     "Huhifadhi mikusanyiko, inayoshirikiwa na timu",
+     "Upakuaji mkubwa kwenye data ya simu"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Nyaraka nzuri hujibu maswali sawa kila wakati. Tafuta URL ya msingi, ambapo kila sehemu ya mwisho inaanzia. Kisha jinsi unavyothibitisha wewe ni nani. API nyingi huchukua ufunguo katika kichwa cha Uidhinishaji kama ishara ya Mbebaji."
+   ],
+   "panel": {
+    "kicker": "Kusoma hati",
+    "heading": "Tafuta hizi kabla ya kutuma",
+    "items": [
+     "URL ya msingi",
+     "Uthibitishaji: ufunguo unaenda wapi",
+     "Vituo vya mwisho, sehemu na majibu ya sampuli",
+     "Vitengo, kama vile pesa kwenye kobo",
+     "Hali ya mtihani au sanduku la mchanga",
+     "Makosa, viwango vya viwango na kurasa"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Kumbuka kila mbinu ya mwisho, njia na sehemu zinazohitajika, na vitengo, kama vile pesa katika kobo."
+   ],
+   "panel": {
+    "kicker": "Kusoma hati",
+    "heading": "Tafuta hizi kabla ya kutuma",
+    "items": [
+     "URL ya msingi",
+     "Uthibitishaji: ufunguo unaenda wapi",
+     "Vituo vya mwisho, sehemu na majibu ya sampuli",
+     "Vitengo, kama vile pesa kwenye kobo",
+     "Hali ya mtihani au sanduku la mchanga",
+     "Makosa, viwango vya viwango na kurasa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Pata hali ya mtihani, ambapo hakuna kitu halisi kinachotokea, na muundo wa makosa, mipaka ya kiwango na ukubwa wa ukurasa.",
+    "Kuruka hati au hatua ya jaribio ndipo miunganisho mingi iliyofeli huanza."
+   ],
+   "panel": {
+    "kicker": "Kusoma hati",
+    "heading": "Tafuta hizi kabla ya kutuma",
+    "items": [
+     "URL ya msingi",
+     "Uthibitishaji: ufunguo unaenda wapi",
+     "Vituo vya mwisho, sehemu na majibu ya sampuli",
+     "Vitengo, kama vile pesa kwenye kobo",
+     "Hali ya mtihani au sanduku la mchanga",
+     "Makosa, viwango vya viwango na kurasa"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Kwa mfano, Ruth anauza kitambaa cha adire huko Abeokuta na anataka kiungo cha malipo cha agizo la naira 15,000. Msanidi programu wake humpa ufunguo wa mtihani wa Paystack katika Postman. Hakuna kitu katika hali ya jaribio kinachosonga pesa halisi."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Malipo ya mtihani wa Ruthu, mwisho hadi mwisho",
+    "items": [
+     "Unahitaji: kiungo cha malipo cha naira 15,000",
+     "Badilisha: 15,000 x 100 = 1,500,000 kobo",
+     "POST na ufunguo wa mtihani wa Bearer na mwili wa JSON",
+     "Fungua kiungo, kamilisha malipo ya jaribio",
+     "Thibitisha: hali, sarafu NGN, kiasi"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Kiasi kinakwenda kwa kobo, kwa hivyo 15,000 mara 100 ni 1,500,000."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Malipo ya mtihani wa Ruthu, mwisho hadi mwisho",
+    "items": [
+     "Unahitaji: kiungo cha malipo cha naira 15,000",
+     "Badilisha: 15,000 x 100 = 1,500,000 kobo",
+     "POST na ufunguo wa mtihani wa Bearer na mwili wa JSON",
+     "Fungua kiungo, kamilisha malipo ya jaribio",
+     "Thibitisha: hali, sarafu NGN, kiasi"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Yeye hutuma CHAPISHO kwenye sehemu ya mwisho ya kuanzishwa, na ufunguo wa jaribio katika kichwa cha Uidhinishaji na barua pepe na kiasi katika mwili."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Malipo ya mtihani wa Ruthu, mwisho hadi mwisho",
+    "items": [
+     "Unahitaji: kiungo cha malipo cha naira 15,000",
+     "Badilisha: 15,000 x 100 = 1,500,000 kobo",
+     "POST na ufunguo wa mtihani wa Bearer na mwili wa JSON",
+     "Fungua kiungo, kamilisha malipo ya jaribio",
+     "Thibitisha: hali, sarafu NGN, kiasi"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_social",
+   "say": [
+    "Jibu lina kiungo cha kulipa na marejeleo. Anakamilisha malipo ya mtihani."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Malipo ya mtihani wa Ruthu, mwisho hadi mwisho",
+    "items": [
+     "Unahitaji: kiungo cha malipo cha naira 15,000",
+     "Badilisha: 15,000 x 100 = 1,500,000 kobo",
+     "POST na ufunguo wa mtihani wa Bearer na mwili wa JSON",
+     "Fungua kiungo, kamilisha malipo ya jaribio",
+     "Thibitisha: hali, sarafu NGN, kiasi"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_social",
+   "say": [
+    "Kisha anathibitisha kwa marejeleo: mafanikio ya hali, sarafu ya NGN, na kiasi kinachogawanyika hadi naira 15,000. Ni sasa tu ndipo msanidi wake atabadilisha hadi funguo za moja kwa moja."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Malipo ya mtihani wa Ruthu, mwisho hadi mwisho",
+    "items": [
+     "Unahitaji: kiungo cha malipo cha naira 15,000",
+     "Badilisha: 15,000 x 100 = 1,500,000 kobo",
+     "POST na ufunguo wa mtihani wa Bearer na mwili wa JSON",
+     "Fungua kiungo, kamilisha malipo ya jaribio",
+     "Thibitisha: hali, sarafu NGN, kiasi"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Angalia kiasi na fedha, si tu neno mafanikio.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Ufunguo wa siri unaweza kuchukua hatua kwenye akaunti nzima, pamoja na pesa. Iweke kwenye seva pekee, kamwe usipakue watumiaji wa msimbo wa programu. Usiwahi kuituma kwenye WhatsApp au barua pepe, au kuibandika kwenye gumzo za AI, picha za skrini au hati zinazoshirikiwa. Iweke nje ya GitHub.",
+    "Ikiwa ufunguo unaweza kuvuja, toa mpya mara moja, ambayo inazuia ile ya zamani kufanya kazi."
+   ],
+   "panel": {
+    "kicker": "Usalama",
+    "heading": "Tumia ufunguo wa siri kama vile PIN yako ya benki",
+    "items": [
+     "Weka kwenye upande wa seva pekee",
+     "Usiwahi kwenye WhatsApp, barua pepe au gumzo za AI",
+     "Kamwe katika picha za skrini au hati zilizoshirikiwa",
+     "Iweke nje ya msimbo kwenye GitHub",
+     "Ikiwa imevuja, toa mpya"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Kwanza, viwango vya viwango. A 429 inamaanisha maombi mengi sana. Subiri kwa muda mrefu kama kichwa cha Jaribu-Baada ya kusema. Kwa makosa ya seva ya muda, subiri na usubiri mara mbili kila wakati. Usijaribu tena kiotomatiki POST inayohamisha pesa."
+   ],
+   "panel": {
+    "kicker": "Mtihani wa kushindwa",
+    "heading": "Mambo matatu ambayo yanaenda vibaya",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "429 Maombi Mengi Sana",
+      "d": "Subiri mradi Jaribu tena-Baada ya kusema. Sekunde 3,600 ni saa moja. Kwa 5xx, rudisha nyuma: 1, 2, 4, 8 sekunde."
+     },
+     {
+      "t": "Orodha huja katika kurasa",
+      "d": "Rekodi 230 kwa 50 kwa kila ukurasa ni kurasa 5. Hesabu jumla dhidi ya chanzo cha pili."
+     },
+     {
+      "t": "Webhooks hufika mara mbili",
+      "d": "Angalia saini, jibu SAWA 200 haraka, ruka marudio, thibitisha kabla ya kuwasilisha."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Pili, kurasa. Grace katika Kaduna alihitaji miamala 230 kwa 50 kwa kila ukurasa, kwa hivyo kurasa 5. Kama angesimama kwenye ukurasa wa 1, 180 angekosekana."
+   ],
+   "panel": {
+    "kicker": "Mtihani wa kushindwa",
+    "heading": "Mambo matatu ambayo yanaenda vibaya",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "429 Maombi Mengi Sana",
+      "d": "Subiri mradi Jaribu tena-Baada ya kusema. Sekunde 3,600 ni saa moja. Kwa 5xx, rudisha nyuma: 1, 2, 4, 8 sekunde."
+     },
+     {
+      "t": "Orodha huja katika kurasa",
+      "d": "Rekodi 230 kwa 50 kwa kila ukurasa ni kurasa 5. Hesabu jumla dhidi ya chanzo cha pili."
+     },
+     {
+      "t": "Webhooks hufika mara mbili",
+      "d": "Angalia saini, jibu SAWA 200 haraka, ruka marudio, thibitisha kabla ya kuwasilisha."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Tatu, viboreshaji vya wavuti, ambapo mtoa huduma huita URL yako jambo linapotokea, kama vile malipo. Angalia saini, jibu SAWA 200 mara moja, na utarajie tukio sawa zaidi ya mara moja.",
+    "Usiwahi kutoa bidhaa kwenye picha ya skrini au kitabu cha wavuti ambacho hakijathibitishwa. Walaghai hutuma arifa za uwongo."
+   ],
+   "panel": {
+    "kicker": "Mtihani wa kushindwa",
+    "heading": "Mambo matatu ambayo yanaenda vibaya",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "429 Maombi Mengi Sana",
+      "d": "Subiri mradi Jaribu tena-Baada ya kusema. Sekunde 3,600 ni saa moja. Kwa 5xx, rudisha nyuma: 1, 2, 4, 8 sekunde."
+     },
+     {
+      "t": "Orodha huja katika kurasa",
+      "d": "Rekodi 230 kwa 50 kwa kila ukurasa ni kurasa 5. Hesabu jumla dhidi ya chanzo cha pili."
+     },
+     {
+      "t": "Webhooks hufika mara mbili",
+      "d": "Angalia saini, jibu SAWA 200 haraka, ruka marudio, thibitisha kabla ya kuwasilisha."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "API hubadilika, funguo huisha muda, na mjenzi anaendelea. Laha ya kukimbia fupi huruhusu mtu mwingine kuifanya ifanye kazi. Rekodi hitaji la biashara, mmiliki wake, na kurasa kamili za hati."
+   ],
+   "panel": {
+    "kicker": "Ikabidhi",
+    "heading": "Laha ya uendeshaji ya API",
+    "items": [
+     "Kusudi na mmiliki",
+     "Mtoa huduma, URL msingi na viungo vya hati",
+     "Vituo vya mwisho, sehemu na vitengo",
+     "Ambapo funguo zimehifadhiwa, kamwe funguo",
+     "Makosa, vikomo, majaribio na anwani"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Orodhesha kila ncha na vitengo vyake. Rekodi mahali ambapo funguo zimehifadhiwa na ni nani anayeweza kuzifikia, lakini usiwahi funguo zenyewe."
+   ],
+   "panel": {
+    "kicker": "Ikabidhi",
+    "heading": "Laha ya uendeshaji ya API",
+    "items": [
+     "Kusudi na mmiliki",
+     "Mtoa huduma, URL msingi na viungo vya hati",
+     "Vituo vya mwisho, sehemu na vitengo",
+     "Ambapo funguo zimehifadhiwa, kamwe funguo",
+     "Makosa, vikomo, majaribio na anwani"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Maliza na sheria za makosa, matokeo ya jaribio na tarehe, na nani wa kuwasiliana naye."
+   ],
+   "panel": {
+    "kicker": "Ikabidhi",
+    "heading": "Laha ya uendeshaji ya API",
+    "items": [
+     "Kusudi na mmiliki",
+     "Mtoa huduma, URL msingi na viungo vya hati",
+     "Vituo vya mwisho, sehemu na vitengo",
+     "Ambapo funguo zimehifadhiwa, kamwe funguo",
+     "Makosa, vikomo, majaribio na anwani"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Kukumbuka. Fanya mazoezi kwenye API bandia na katika hali ya majaribio. Thibitisha kiasi na sarafu. Weka funguo za siri kwenye seva, na ubadilishe uvujaji wowote. Heshimu Jaribu-Baada, na uhesabu kila ukurasa."
+   ],
+   "panel": {
+    "kicker": "Pointi muhimu",
+    "heading": "Kumbuka",
+    "items": [
+     "Fanya mazoezi kwenye API bandia na hali ya majaribio",
+     "Thibitisha kiasi na sarafu, sio mafanikio tu",
+     "Vifunguo vya siri hukaa upande wa seva",
+     "Heshimu Jaribu tena-Baada ya; hesabu kila ukurasa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Sasa endesha na urekodi maombi manne ya mazoezi, andika karatasi ya ukweli ya API ya ukurasa mmoja, na uandike mpango wa majaribio na endesha karatasi.",
+    "Endelea na masomo hapa chini."
+   ],
+   "panel": {
+    "kicker": "Mazoezi ya kazi",
+    "heading": "Kazi zako za mazoezi",
+    "items": [
+     "Endesha na urekodi maombi manne ya mazoezi",
+     "Andika karatasi ya ukweli ya API ya ukurasa mmoja",
+     "Andika mpango wa mtihani na kukimbia karatasi"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

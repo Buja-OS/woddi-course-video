@@ -1,0 +1,587 @@
+{
+ "course": "supply-chain-raw-materials-sourcing",
+ "module": "m1",
+ "title": "Duba sarkar samar da ku: jeri, ganowa, matsayi kuma saka",
+ "course_title": "Sarkar Supply & Raw Materials Sourcing",
+ "shots": [
+  {
+   "demo": "globe_export",
+   "say": [
+    "Duba sarkar samar da ku: jeri, ganowa, matsayi kuma saka.",
+    "Wannan shi ne bidiyon don ƙirar ɗaya na Sarkar Kaya da Raw Materials Sourcing."
+   ]
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Sarkar wadata ita ce kowane mataki da abu ya wuce kafin ya zama samfurin ku: gona ko masana'anta, dillali, dillali, sufuri, da kantin sayar da ku.",
+    "Da zarar abokan ciniki sun dogara da ku, abin da ya ɓace ya zama alƙawarin karya."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Wani abu da ya ɓace shine karya alkawari",
+    "items": [
+     "Sanin kowane abu a cikin samfurin ku",
+     "Bincika inda kowannensu ya fito da gaske",
+     "Matsayin kayan da ƙima da haɗari",
+     "Rubuta daidai abin da kuka karɓa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Don haka da farko, zaku gano inda kowane abu ya fito da gaske."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Wani abu da ya ɓace shine karya alkawari",
+    "items": [
+     "Sanin kowane abu a cikin samfurin ku",
+     "Bincika inda kowannensu ya fito da gaske",
+     "Matsayin kayan da ƙima da haɗari",
+     "Rubuta daidai abin da kuka karɓa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "grain_sacks",
+   "say": [
+    "Sa'an nan kuma ku ƙididdige kayan da ƙima da haɗari, kuma ku rubuta ainihin abin da za ku karɓa."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Wani abu da ya ɓace shine karya alkawari",
+    "items": [
+     "Sanin kowane abu a cikin samfurin ku",
+     "Bincika inda kowannensu ya fito da gaske",
+     "Matsayin kayan da ƙima da haɗari",
+     "Rubuta daidai abin da kuka karɓa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "globe_export",
+   "say": [
+    "Lissafin kayan aiki, ko BOM, yana lissafin kowane shigarwa don tsari ɗaya, tare da yawa da farashi.",
+    "Amaka yana yin zobo a batches na kwalabe 100. Farashinta na kwatanci ne kuma kusan."
+   ],
+   "card": {
+    "title": "Bill na kayan zobo",
+    "rows": [],
+    "note": "Farashin Naira na misali ne kuma kusan."
+   }
+  },
+  {
+   "demo": "globe_export",
+   "say": [
+    "Busashen hibiscus ya kai kimanin naira 4,500, sukari 7,200, sai ginger 1,000."
+   ],
+   "card": {
+    "title": "Bill na kayan zobo",
+    "rows": [
+     [
+      "Hibiscus, 1.5 kg",
+      "4,500"
+     ],
+     [
+      "Sugar, 4 kg",
+      "7,200"
+     ],
+     [
+      "Ginger, 0.5 kg",
+      "1,000"
+     ]
+    ],
+    "note": "Farashin Naira na misali ne kuma kusan."
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "kwalabe 100 masu kwalliya sun kai kimanin naira 6,000, sai kuma lamba 100 2,500."
+   ],
+   "card": {
+    "title": "Bill na kayan zobo",
+    "rows": [
+     [
+      "Hibiscus, 1.5 kg",
+      "4,500"
+     ],
+     [
+      "Sugar, 4 kg",
+      "7,200"
+     ],
+     [
+      "Ginger, 0.5 kg",
+      "1,000"
+     ],
+     [
+      "kwalabe 100 tare da iyakoki",
+      "6,000"
+     ],
+     [
+      "100 bugu tambura",
+      "2,500"
+     ]
+    ],
+    "note": "Farashin Naira na misali ne kuma kusan."
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Wato Naira 21,200 ne a kan kowane fanni, ko kuma Naira 212 kowace kwalba.",
+    "Sugar da kwalabe tare kusan kashi 62% na kudinta na kayanta ne, don haka matsala ko ɗaya ta fi wahalar da ita fiye da matsalar ginger."
+   ],
+   "card": {
+    "title": "Bill na kayan zobo",
+    "rows": [
+     [
+      "Hibiscus, 1.5 kg",
+      "4,500"
+     ],
+     [
+      "Sugar, 4 kg",
+      "7,200"
+     ],
+     [
+      "Ginger, 0.5 kg",
+      "1,000"
+     ],
+     [
+      "kwalabe 100 tare da iyakoki",
+      "6,000"
+     ],
+     [
+      "100 bugu tambura",
+      "2,500"
+     ]
+    ],
+    "note": "Farashin Naira na misali ne kuma kusan."
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Mai ba da kayayyaki na matakin 1 shine mutumin da kuke biya kai tsaye."
+   ],
+   "panel": {
+    "kicker": "Mataki na biyu",
+    "heading": "Bincika kowane abu ta hanyar matakan sa",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Mataki na 1",
+      "d": "Mutumin da ka biya kai tsaye, misali dan kasuwa a babbar kasuwa."
+     },
+     {
+      "t": "Mataki na 2",
+      "d": "Wanene ke ba wa ɗan kasuwan ku, misali dillali ko mai rarraba masana'anta."
+     },
+     {
+      "t": "Mataki na 3",
+      "d": "Gona, mai sarrafa kayan sarrafawa ko masana'anta na waje."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Tier 2 shine wanda ke ba da wannan ɗan kasuwa, kamar mai siyarwa."
+   ],
+   "panel": {
+    "kicker": "Mataki na biyu",
+    "heading": "Bincika kowane abu ta hanyar matakan sa",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Mataki na 1",
+      "d": "Mutumin da ka biya kai tsaye, misali dan kasuwa a babbar kasuwa."
+     },
+     {
+      "t": "Mataki na 2",
+      "d": "Wanene ke ba wa ɗan kasuwan ku, misali dillali ko mai rarraba masana'anta."
+     },
+     {
+      "t": "Mataki na 3",
+      "d": "Gona, mai sarrafa kayan sarrafawa ko masana'anta na waje."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Tier 3 na iya zama gonaki ko masana'anta. Ba kasafai kuke sarrafa su ba, amma matsala a can ta zo muku kwanaki ko makonni bayan haka.",
+    "Don haka ku tambayi dan kasuwanku daga ina ya fito. Amaka ta koyi kwalabenta daga wani mai rarraba masana'anta guda ɗaya."
+   ],
+   "panel": {
+    "kicker": "Mataki na biyu",
+    "heading": "Bincika kowane abu ta hanyar matakan sa",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Mataki na 1",
+      "d": "Mutumin da ka biya kai tsaye, misali dan kasuwa a babbar kasuwa."
+     },
+     {
+      "t": "Mataki na 2",
+      "d": "Wanene ke ba wa ɗan kasuwan ku, misali dillali ko mai rarraba masana'anta."
+     },
+     {
+      "t": "Mataki na 3",
+      "d": "Gona, mai sarrafa kayan sarrafawa ko masana'anta na waje."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Abu yana da mahimmanci idan ba za ku iya samarwa ba tare da shi ba kuma ba za ku iya musanya shi da sauri ba. Yi tambayoyi uku. Zan iya yin samfurin ba tare da shi ba?"
+   ],
+   "panel": {
+    "kicker": "Mataki na uku",
+    "heading": "Shin wannan abu yana da mahimmanci?",
+    "items": [
+     "Zan iya yin samfurin ba tare da shi ba?",
+     "Zan iya canza tushe a cikin mako guda?",
+     "Abokan ciniki za su lura da canji?",
+     "Kewaya kowane reshe tare da mai kaya ɗaya kawai"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Zan iya canzawa zuwa wani tushe a cikin mako guda? Amaka ba za ta iya ba: alamomin ta da madafunan ta sun dace da kwalbar ta kawai."
+   ],
+   "panel": {
+    "kicker": "Mataki na uku",
+    "heading": "Shin wannan abu yana da mahimmanci?",
+    "items": [
+     "Zan iya yin samfurin ba tare da shi ba?",
+     "Zan iya canza tushe a cikin mako guda?",
+     "Abokan ciniki za su lura da canji?",
+     "Kewaya kowane reshe tare da mai kaya ɗaya kawai"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Abokan ciniki za su lura da canji? Idan eh, madadin yana ɗaukar haɗari mai inganci."
+   ],
+   "panel": {
+    "kicker": "Mataki na uku",
+    "heading": "Shin wannan abu yana da mahimmanci?",
+    "items": [
+     "Zan iya yin samfurin ba tare da shi ba?",
+     "Zan iya canza tushe a cikin mako guda?",
+     "Abokan ciniki za su lura da canji?",
+     "Kewaya kowane reshe tare da mai kaya ɗaya kawai"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Dillali ɗaya wanda rashinsa zai daina samarwa shine maƙasudin gazawa guda ɗaya. Idan firinta kawai ya riƙe ƙirar alamar ku, gyaran yana da kyauta: adana kwafin ku kuma raba shi tare da firinta na biyu."
+   ],
+   "panel": {
+    "kicker": "Mataki na uku",
+    "heading": "Shin wannan abu yana da mahimmanci?",
+    "items": [
+     "Zan iya yin samfurin ba tare da shi ba?",
+     "Zan iya canza tushe a cikin mako guda?",
+     "Abokan ciniki za su lura da canji?",
+     "Kewaya kowane reshe tare da mai kaya ɗaya kawai"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Kayayyakin matsayi na farko ta hanyar ciyarwar shekara. Wannan shine binciken ABC. A cikin bita na kayan aikin Bisi, yadudduka biyu daga cikin kayan takwas suna ɗaukar kashi 75% na kashe kuɗinta.",
+    "Sannan ƙara haɗarin wadata, ta amfani da matrix Kraljic."
+   ],
+   "panel": {
+    "kicker": "Matsayi ta ƙima da haɗari",
+    "heading": "Akwatuna hudu don kayan ku",
+    "items": [
+     "Dabarun: abokin tarayya, madadin, ajiyar aminci",
+     "Leverage: kwatanta ƙididdiga, yin shawarwari",
+     "Bottleneck: ƙarin haja ko tushe na biyu",
+     "Mara mahimmanci: ci gaba da siyan sauƙi"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Abubuwa masu mahimmanci suna da babban kashe kuɗi da ƴan ingantattun tushe, kamar masana'anta mai launi na Bisi. Gina dangantaka ta kud da kud, kuma ku amince da wariyar ajiya kafin rikici."
+   ],
+   "panel": {
+    "kicker": "Matsayi ta ƙima da haɗari",
+    "heading": "Akwatuna hudu don kayan ku",
+    "items": [
+     "Dabarun: abokin tarayya, madadin, ajiyar aminci",
+     "Leverage: kwatanta ƙididdiga, yin shawarwari",
+     "Bottleneck: ƙarin haja ko tushe na biyu",
+     "Mara mahimmanci: ci gaba da siyan sauƙi"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Abubuwan amfani suna da babban kashewa amma masu samarwa da yawa, kamar farin shirt. Kwatanta ƙididdiga da yin shawarwari."
+   ],
+   "panel": {
+    "kicker": "Matsayi ta ƙima da haɗari",
+    "heading": "Akwatuna hudu don kayan ku",
+    "items": [
+     "Dabarun: abokin tarayya, madadin, ajiyar aminci",
+     "Leverage: kwatanta ƙididdiga, yin shawarwari",
+     "Bottleneck: ƙarin haja ko tushe na biyu",
+     "Mara mahimmanci: ci gaba da siyan sauƙi"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "grain_sacks",
+   "say": [
+    "Abubuwan kwalliyar kwalliya suna da arha amma suna da wahalar samu, kamar zips a cikin kala ɗaya da makarantar ke buƙata. Ƙarshe yana dakatar da bayarwa, don haka riƙe ƙarin haja ko nemo tushe na biyu."
+   ],
+   "panel": {
+    "kicker": "Matsayi ta ƙima da haɗari",
+    "heading": "Akwatuna hudu don kayan ku",
+    "items": [
+     "Dabarun: abokin tarayya, madadin, ajiyar aminci",
+     "Leverage: kwatanta ƙididdiga, yin shawarwari",
+     "Bottleneck: ƙarin haja ko tushe na biyu",
+     "Mara mahimmanci: ci gaba da siyan sauƙi"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "grain_sacks",
+   "say": [
+    "Abubuwan da ba su da mahimmanci, kamar zaren, suna buƙatar ɗan ƙaramin lokacin tunani gwargwadon yiwuwa."
+   ],
+   "panel": {
+    "kicker": "Matsayi ta ƙima da haɗari",
+    "heading": "Akwatuna hudu don kayan ku",
+    "items": [
+     "Dabarun: abokin tarayya, madadin, ajiyar aminci",
+     "Leverage: kwatanta ƙididdiga, yin shawarwari",
+     "Bottleneck: ƙarin haja ko tushe na biyu",
+     "Mara mahimmanci: ci gaba da siyan sauƙi"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "globe_export",
+   "say": [
+    "Kyakkyawan man shanu mai kyau yana nufin wani abu daban ga kowane mai ciniki. Ƙayyadaddun ƙayyadaddun ƙayyadaddun ƙayyadaddun ƙayyadaddun ƙayyadaddun bayanai shine rubutaccen bayanin ainihin abin da kuka karɓa.",
+    "Misali, Funke ya rubuta: man shanun shea mara kyau, don amfanin kwalliya."
+   ],
+   "panel": {
+    "kicker": "Ƙayyadaddun bayanai",
+    "heading": "Rubuta ƙayyadaddun ƙayyadaddun bayanai da za ku iya bincika a zahiri",
+    "items": [
+     "Suna, nau'i da daraja",
+     "Bayyanar, kamshi da ji",
+     "Marufi da lakabi",
+     "Ajiye samfurin tunani",
+     "Gwaji: auna sharar gida"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "globe_export",
+   "say": [
+    "Ivory zuwa kodadde rawaya, santsi, babu yashi ko ruwa digo. M, ƙamshi na gyada. Karɓi idan mai tsami ko baci."
+   ],
+   "panel": {
+    "kicker": "Ƙayyadaddun bayanai",
+    "heading": "Rubuta ƙayyadaddun ƙayyadaddun bayanai da za ku iya bincika a zahiri",
+    "items": [
+     "Suna, nau'i da daraja",
+     "Bayyanar, kamshi da ji",
+     "Marufi da lakabi",
+     "Ajiye samfurin tunani",
+     "Gwaji: auna sharar gida"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Tsaftace, buckets da aka rufe tare da kwanan watan tattarawa akan murfi. Kuma ta ajiye tulun g 250 guda ɗaya daga isar da aka yarda da ita a matsayin ma'auni."
+   ],
+   "panel": {
+    "kicker": "Ƙayyadaddun bayanai",
+    "heading": "Rubuta ƙayyadaddun ƙayyadaddun bayanai da za ku iya bincika a zahiri",
+    "items": [
+     "Suna, nau'i da daraja",
+     "Bayyanar, kamshi da ji",
+     "Marufi da lakabi",
+     "Ajiye samfurin tunani",
+     "Gwaji: auna sharar gida"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Ga sabon mai ba da kayayyaki, ta narke da damuwa 1 kg. Sabon man shanu ya bar 100 g na grit, ko 10% sharar gida. Wanda aka yarda da ita ya kasance kusan 1%.",
+    "Yi amfani da cak ɗin da za ku iya yi da gaske: duba, wari, auna, auna, ko ƙaramin gwajin gwaji."
+   ],
+   "panel": {
+    "kicker": "Ƙayyadaddun bayanai",
+    "heading": "Rubuta ƙayyadaddun ƙayyadaddun bayanai da za ku iya bincika a zahiri",
+    "items": [
+     "Suna, nau'i da daraja",
+     "Bayyanar, kamshi da ji",
+     "Marufi da lakabi",
+     "Ajiye samfurin tunani",
+     "Gwaji: auna sharar gida"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Yarda da sabon mai siyarwa kawai bayan ƙaramin gwaji.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Idan ka sayi sinadarai kamar soda caustic ko acid, karɓi kawai ainihin hatimin, kwantena mai lakabi, tare da takardar bayanan aminci inda zai yiwu.",
+    "Kar a taɓa karɓar sinadari a cikin kwalbar ruwa mara lakabi. Ajiye sinadarai nesa da abinci da abin da yara ba za su iya isa ba.",
+    "'Yan damfara suna tsayawa a matsayin masu samar da kayayyaki akan layi. Fara da ƙaramin gwaji, biya cikin asusun da sunansa ya yi daidai da kasuwancin, kuma ku ajiye rasidin."
+   ],
+   "panel": {
+    "kicker": "Tsaro na farko",
+    "heading": "Ka'idojin siyan aminci",
+    "items": [
+     "Chemicals: na asali hatimi, mai lakabin akwati",
+     "Nemi takardar bayanan aminci inda zai yiwu",
+     "Ajiye sinadarai daga abinci da yara",
+     "Sabon mai sayarwa: ƙaramin odar gwaji da farko",
+     "Biya ga asusun da ya dace da kasuwancin kawai",
+     "A ajiye kowane takardar canja wuri"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Don tunawa. Lissafin kayan aikin ku yana nuna inda kuɗin ku ke tafiya. Yawancin ƙarancin suna farawa daga matakin 2 ko 3. Mai bayarwa ɗaya shine maki guda na gazawa.",
+    "Abubuwan dabaru suna buƙatar madadin da aka gwada. Kuma rubutattun ƙayyadaddun ƙayyadaddun ƙayyadaddun ƙayyadaddun ƙayyadaddun ƙayyadaddun ƙayyadaddun ƙayyadaddun ƙayyadaddun ƙayyadaddun ƙayyadaddun ƙayyadaddun ƙayyadaddun ƙayyadaddun ƙayyadaddun ƙayyadaddun ƙayyadaddun ƙayyadaddun ƙayyadaddun bincike suke iya bincikawa."
+   ],
+   "panel": {
+    "kicker": "Mabuɗin mahimmanci",
+    "heading": "Ka tuna",
+    "items": [
+     "BOM ɗinku yana nuna inda kuɗin ke tafiya",
+     "Yawancin ƙarancin suna farawa a matakin 2 ko 3",
+     "Daya mai kaya yana nufin maki guda na gazawa",
+     "Abubuwan dabaru suna buƙatar madadin da aka gwada",
+     "Takaddun bayanai da aka rubuta yana sa ana iya bincika inganci"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Yanzu yi aiki. Rubuta lissafin kayan da samar da taswira don samfurin ku mafi kyawun siyarwa, ba da fifikon kayan ku, kuma rubuta takamammen ƙayyadaddun ƙayyadaddun ƙa'idodin ku.",
+    "Ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi aiki",
+    "heading": "Ayyukan aikin ku",
+    "items": [
+     "Taswirar sarkar samar da samfur ɗaya",
+     "Sanya kayan aikin ku",
+     "Rubuta ƙayyadaddun ƙayyadaddun bayanai guda ɗaya da ƙa'idodin tushen ku"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

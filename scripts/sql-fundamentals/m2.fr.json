@@ -1,0 +1,574 @@
+{
+ "course": "sql-fundamentals",
+ "module": "m2",
+ "title": "Rejoignez les tables et prouvez que vos chiffres s'additionnent",
+ "course_title": "Fondamentaux de SQL",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Rejoignez les tables et prouvez que vos chiffres s'additionnent.",
+    "Ceci est la vidéo du module 2 des principes fondamentaux de SQL : outils, jointures et résultats dignes de confiance."
+   ]
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Vous apprenez SQL en tapant des requêtes et en voyant les résultats. Vous n’avez rien besoin d’acheter. Choisissez un outil et restez avec lui."
+   ],
+   "panel": {
+    "kicker": "Outils gratuits",
+    "heading": "Un endroit pour pratiquer, gratuitement",
+    "items": [
+     "SQLite Fiddle : dans n'importe quel navigateur, pas de compte",
+     "DB Browser pour SQLite : hors ligne sur un ordinateur portable",
+     "PostgreSQL dans un projet cloud gratuit",
+     "Bac à sable Google BigQuery pour les grands ensembles de données"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "SQLite Fiddle fonctionne dans n'importe quel navigateur, même sur votre téléphone, sans compte."
+   ],
+   "panel": {
+    "kicker": "Outils gratuits",
+    "heading": "Un endroit pour pratiquer, gratuitement",
+    "items": [
+     "SQLite Fiddle : dans n'importe quel navigateur, pas de compte",
+     "DB Browser pour SQLite : hors ligne sur un ordinateur portable",
+     "PostgreSQL dans un projet cloud gratuit",
+     "Bac à sable Google BigQuery pour les grands ensembles de données"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "DB Browser pour SQLite fonctionne hors ligne une fois installé sur un ordinateur portable."
+   ],
+   "panel": {
+    "kicker": "Outils gratuits",
+    "heading": "Un endroit pour pratiquer, gratuitement",
+    "items": [
+     "SQLite Fiddle : dans n'importe quel navigateur, pas de compte",
+     "DB Browser pour SQLite : hors ligne sur un ordinateur portable",
+     "PostgreSQL dans un projet cloud gratuit",
+     "Bac à sable Google BigQuery pour les grands ensembles de données"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Un projet PostgreSQL gratuit, par exemple sur Supabase, vous permet de mettre en pratique la base de données utilisée par de nombreuses fintechs."
+   ],
+   "panel": {
+    "kicker": "Outils gratuits",
+    "heading": "Un endroit pour pratiquer, gratuitement",
+    "items": [
+     "SQLite Fiddle : dans n'importe quel navigateur, pas de compte",
+     "DB Browser pour SQLite : hors ligne sur un ordinateur portable",
+     "PostgreSQL dans un projet cloud gratuit",
+     "Bac à sable Google BigQuery pour les grands ensembles de données"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Et le bac à sable BigQuery vous permet d'interroger de grands ensembles de données publiques. Quel que soit votre choix, conservez vos requêtes dans un fichier de notes. Cela devient votre bibliothèque de requêtes."
+   ],
+   "panel": {
+    "kicker": "Outils gratuits",
+    "heading": "Un endroit pour pratiquer, gratuitement",
+    "items": [
+     "SQLite Fiddle : dans n'importe quel navigateur, pas de compte",
+     "DB Browser pour SQLite : hors ligne sur un ordinateur portable",
+     "PostgreSQL dans un projet cloud gratuit",
+     "Bac à sable Google BigQuery pour les grands ensembles de données"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Par exemple, Ada étudie sur son téléphone pendant le déjeuner. Elle ouvre SQLite Fiddle et exécute les instructions CREATE TABLE pour les clients, les commandes et les articles de commande."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Ada charge la base de données de Kemi et la vérifie",
+    "items": [
+     "Exécutez les trois instructions CREATE TABLE",
+     "Coller les lignes INSERT : 6, 10 et 13",
+     "Compter les lignes dans chaque tableau",
+     "Vérifiez le total : 251 500",
+     "Enregistrez le script sous kemi_setup.sql"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Elle colle les instructions INSERT : 6 clients, 10 commandes et 13 lignes d'articles de commande."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Ada charge la base de données de Kemi et la vérifie",
+    "items": [
+     "Exécutez les trois instructions CREATE TABLE",
+     "Coller les lignes INSERT : 6, 10 et 13",
+     "Compter les lignes dans chaque tableau",
+     "Vérifiez le total : 251 500",
+     "Enregistrez le script sous kemi_setup.sql"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Ensuite, elle compte les lignes de chaque tableau. 6, 10 et 13. Exactement."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Ada charge la base de données de Kemi et la vérifie",
+    "items": [
+     "Exécutez les trois instructions CREATE TABLE",
+     "Coller les lignes INSERT : 6, 10 et 13",
+     "Compter les lignes dans chaque tableau",
+     "Vérifiez le total : 251 500",
+     "Enregistrez le script sous kemi_setup.sql"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Elle additionne le montant des 10 commandes et obtient 251 500, comme prévu. Pourquoi vérifier ? Une virgule manquante peut arrêter un INSERT pendant que les autres réussissent, et chaque réponse ultérieure est alors fausse."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Ada charge la base de données de Kemi et la vérifie",
+    "items": [
+     "Exécutez les trois instructions CREATE TABLE",
+     "Coller les lignes INSERT : 6, 10 et 13",
+     "Compter les lignes dans chaque tableau",
+     "Vérifiez le total : 251 500",
+     "Enregistrez le script sous kemi_setup.sql"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Elle enregistre le script afin de pouvoir le reconstruire à tout moment. Et rappelez-vous, utilisez des données inventées pour vous entraîner. Ne mettez jamais de vrais noms ou numéros de téléphone de clients dans un outil public en ligne."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Ada charge la base de données de Kemi et la vérifie",
+    "items": [
+     "Exécutez les trois instructions CREATE TABLE",
+     "Coller les lignes INSERT : 6, 10 et 13",
+     "Compter les lignes dans chaque tableau",
+     "Vérifiez le total : 251 500",
+     "Enregistrez le script sous kemi_setup.sql"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Données de pratique uniquement. Ne collez jamais les véritables détails d’un client en ligne.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Un JOIN aligne les lignes de deux tables partout où les valeurs clés correspondent. Un INNER JOIN ne conserve que les correspondances. Rejoindre les commandes livrées aux clients donne 8 lignes, chacune avec désormais un nom et une ville."
+   ],
+   "panel": {
+    "kicker": "Joindre des tables",
+    "heading": "JOINTURE INTÉRIEURE versus JOINTURE GAUCHE",
+    "mode": "compare",
+    "left_h": "JOINTURE INTERNE",
+    "left": [
+     "Seules les lignes correspondantes",
+     "Funmi disparaît",
+     "8 lignes de commandes livrées",
+     "Pour : ce qui a été vendu"
+    ],
+    "right_h": "REJOINDRE À GAUCHE",
+    "right": [
+     "Toutes les lignes du tableau de gauche conservées",
+     "Funmi conservé avec des NULL",
+     "6 lignes de clients",
+     "Pour : qui manque"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Un LEFT JOIN conserve chaque ligne de la première table, même sans correspondance. Les colonnes manquantes reviennent comme NULL. C'est ainsi que l'on retrouve celui qui manque, comme Funmi, un client qui n'a jamais reçu de commande."
+   ],
+   "panel": {
+    "kicker": "Joindre des tables",
+    "heading": "JOINTURE INTÉRIEURE versus JOINTURE GAUCHE",
+    "mode": "compare",
+    "left_h": "JOINTURE INTERNE",
+    "left": [
+     "Seules les lignes correspondantes",
+     "Funmi disparaît",
+     "8 lignes de commandes livrées",
+     "Pour : ce qui a été vendu"
+    ],
+    "right_h": "REJOINDRE À GAUCHE",
+    "right": [
+     "Toutes les lignes du tableau de gauche conservées",
+     "Funmi conservé avec des NULL",
+     "6 lignes de clients",
+     "Pour : qui manque"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Elle part des clients, donc personne n'est perdu, et met le statut égal à livré dans la partie ON de la jointure, pas dans OÙ."
+   ],
+   "card": {
+    "title": "Dépense par client, y compris zéro",
+    "rows": [],
+    "note": "Des chiffres pratiques, pas des prix réels du marché."
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Dupe a dépensé 61 000 nairas, Amaka 55 000, Bisi 54 500, Efe 33 000 et Chioma 8 000. Funmi en a 0, elle reçoit donc l'offre de bienvenue."
+   ],
+   "card": {
+    "title": "Dépense par client, y compris zéro",
+    "rows": [
+     [
+      "Dupe, 1 commande",
+      "61,000"
+     ],
+     [
+      "Amaka, 3 commandes",
+      "55,000"
+     ],
+     [
+      "Bisi, 2 commandes",
+      "54,500"
+     ],
+     [
+      "Efe, 1 commande",
+      "33,000"
+     ],
+     [
+      "Chioma, 1 commande",
+      "8,000"
+     ]
+    ],
+    "note": "Des chiffres pratiques, pas des prix réels du marché."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Il se rapproche de 211 500, le total livré.",
+    "L'erreur courante : si elle avait mis le filtre livré dans WHERE, la ligne de Funmi disparaîtrait et le LEFT JOIN agirait tranquillement comme un INNER JOIN."
+   ],
+   "card": {
+    "title": "Dépense par client, y compris zéro",
+    "rows": [
+     [
+      "Dupe, 1 commande",
+      "61,000"
+     ],
+     [
+      "Amaka, 3 commandes",
+      "55,000"
+     ],
+     [
+      "Bisi, 2 commandes",
+      "54,500"
+     ],
+     [
+      "Efe, 1 commande",
+      "33,000"
+     ],
+     [
+      "Chioma, 1 commande",
+      "8,000"
+     ]
+    ],
+    "note": "Des chiffres pratiques, pas des prix réels du marché."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Une requête qui s'exécute sans erreur n'est pas toujours correcte. Ngozi additionne le montant de la commande après s'être joint à la commande d'articles et obtient 293 500."
+   ],
+   "card": {
+    "title": "Pourquoi les revenus ont-ils soudainement augmenté ?",
+    "rows": [
+     [
+      "Somme après la jointure",
+      "293,500"
+     ]
+    ],
+    "note": "Des chiffres pratiques, pas des prix réels du marché."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Mais le total connu livré est de 211 500."
+   ],
+   "card": {
+    "title": "Pourquoi les revenus ont-ils soudainement augmenté ?",
+    "rows": [
+     [
+      "Somme après la jointure",
+      "293,500"
+     ],
+     [
+      "Total livré connu",
+      "211,500"
+     ]
+    ],
+    "note": "Des chiffres pratiques, pas des prix réels du marché."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "L'écart est de 82 000. Après la jointure, il y a 11 lignes, et non 8, car trois commandes comportent chacune deux lignes de produits, chacune est donc comptée deux fois. C'est ce qu'on appelle la diffusion.",
+    "Le test rapide : comparez COUNT étoiles avec COUNT ID de commande DISTINCT. Si le premier grandit et le second non, les lignes se répètent."
+   ],
+   "card": {
+    "title": "Pourquoi les revenus ont-ils soudainement augmenté ?",
+    "rows": [
+     [
+      "Somme après la jointure",
+      "293,500"
+     ],
+     [
+      "Total livré connu",
+      "211,500"
+     ],
+     [
+      "Surestimé par",
+      "82,000"
+     ]
+    ],
+    "note": "Des chiffres pratiques, pas des prix réels du marché."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Écrivez la question en une phrase, avec une période de temps et une définition, comme les revenus générés par ville."
+   ],
+   "panel": {
+    "kicker": "Question à répondre",
+    "heading": "Un flux de travail auquel vous pouvez faire confiance",
+    "items": [
+     "Écrivez la question avec un point et une définition",
+     "Explorez les tables et les clés qui les relient",
+     "Construire en morceaux, en vérifiant le nombre de rangées",
+     "Réconcilier et vérifier deux lignes",
+     "Répondez en termes simples, avec toute mise en garde"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Explorez d'abord les tables et vérifiez quelles clés les relient."
+   ],
+   "panel": {
+    "kicker": "Question à répondre",
+    "heading": "Un flux de travail auquel vous pouvez faire confiance",
+    "items": [
+     "Écrivez la question avec un point et une définition",
+     "Explorez les tables et les clés qui les relient",
+     "Construire en morceaux, en vérifiant le nombre de rangées",
+     "Réconcilier et vérifier deux lignes",
+     "Répondez en termes simples, avec toute mise en garde"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Construisez la requête en petits morceaux. Exécutez d'abord la jointure et vérifiez le nombre de lignes, puis ajoutez WHERE, puis GROUP BY."
+   ],
+   "panel": {
+    "kicker": "Question à répondre",
+    "heading": "Un flux de travail auquel vous pouvez faire confiance",
+    "items": [
+     "Écrivez la question avec un point et une définition",
+     "Explorez les tables et les clés qui les relient",
+     "Construire en morceaux, en vérifiant le nombre de rangées",
+     "Réconcilier et vérifier deux lignes",
+     "Répondez en termes simples, avec toute mise en garde"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Réconciliez-vous avec un total connu et vérifiez deux lignes à la main."
+   ],
+   "panel": {
+    "kicker": "Question à répondre",
+    "heading": "Un flux de travail auquel vous pouvez faire confiance",
+    "items": [
+     "Écrivez la question avec un point et une définition",
+     "Explorez les tables et les clés qui les relient",
+     "Construire en morceaux, en vérifiant le nombre de rangées",
+     "Réconcilier et vérifier deux lignes",
+     "Répondez en termes simples, avec toute mise en garde"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Présentez ensuite le numéro, la période et toute mise en garde en termes simples."
+   ],
+   "panel": {
+    "kicker": "Question à répondre",
+    "heading": "Un flux de travail auquel vous pouvez faire confiance",
+    "items": [
+     "Écrivez la question avec un point et une définition",
+     "Explorez les tables et les clés qui les relient",
+     "Construire en morceaux, en vérifiant le nombre de rangées",
+     "Réconcilier et vérifier deux lignes",
+     "Répondez en termes simples, avec toute mise en garde"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Cinq vérifications détectent la plupart des erreurs silencieuses. Le nombre de lignes a-t-il un sens ? Les totaux se rapprochent-ils ? Y a-t-il une répartition ? Les NULL sont-ils gérés volontairement, par exemple avec COALESCE pour transformer une valeur manquante en 0 ? Et avez-vous vérifié deux lignes ?"
+   ],
+   "panel": {
+    "kicker": "Chaque fois",
+    "heading": "Avant de partager un numéro",
+    "items": [
+     "Le nombre de lignes est logique",
+     "Les totaux sont rapprochés",
+     "Pas de diffusion de jointure",
+     "NULL gérés volontairement",
+     "Deux rangées vérifiées sur place"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "À retenir. Vérifiez les décomptes et les totaux dès que les données sont chargées. Utilisez INNER JOIN pour ce qui a été vendu et LEFT JOIN pour qui manque. Surveillez la diffusion. Et ne partagez jamais un numéro que vous n’avez pas rapproché."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Vérifiez le nombre de lignes et les totaux après le chargement",
+     "INNER garde les allumettes ; GAUCHE garde tout le monde",
+     "Les filtres de table de droite pour un LEFT JOIN vont sur ON",
+     "La diffusion gonfle les sommes ; tester avec COUNT DISTINCT",
+     "Ne partagez jamais un numéro que vous n'avez pas rapproché"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Maintenant, créez et vérifiez votre base de données de pratique, répondez à trois questions conjointes et auditez une mauvaise requête.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâches d'entraînement",
+    "heading": "Votre travail pour ce module",
+    "items": [
+     "Créez et vérifiez votre base de données de pratique",
+     "Répondez à trois questions de jointure",
+     "Auditez une mauvaise requête et corrigez-la"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

@@ -1,0 +1,526 @@
+{
+ "course": "product-management-foundations",
+ "module": "m1",
+ "title": "Think like a product manager: outcomes, risks and tests",
+ "course_title": "Product Management Foundations",
+ "shots": [
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Think like a product manager: outcomes, risks and tests.",
+    "This is the video for module one of Product Management Foundations."
+   ]
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "A product team can write excellent code and still fail. The app works, but people do not use it, or the business still loses money."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "A team can build well and still fail",
+    "items": [
+     "Good code is not enough if nobody uses it",
+     "The PM reduces that danger",
+     "What problem, for whom, how we will know",
+     "You will frame problems you can test"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "The product manager, or PM, is the person whose job is to reduce that danger. She does not usually write the code or draw the screens."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "A team can build well and still fail",
+    "items": [
+     "Good code is not enough if nobody uses it",
+     "The PM reduces that danger",
+     "What problem, for whom, how we will know",
+     "You will frame problems you can test"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "She decides, with the team, what problem to solve next, for whom, and how we will know it worked."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "A team can build well and still fail",
+    "items": [
+     "Good code is not enough if nobody uses it",
+     "The PM reduces that danger",
+     "What problem, for whom, how we will know",
+     "You will frame problems you can test"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "By the end of this module you will frame a product problem as an outcome, a set of risks and a hypothesis you can test."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "A team can build well and still fail",
+    "items": [
+     "Good code is not enough if nobody uses it",
+     "The PM reduces that danger",
+     "What problem, for whom, how we will know",
+     "You will frame problems you can test"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "An output is something the team ships: a new screen, a feature, a release. Outputs are easy to count, so weak teams celebrate them."
+   ],
+   "panel": {
+    "kicker": "The first habit",
+    "heading": "Outputs versus outcomes",
+    "mode": "compare",
+    "left_h": "Output",
+    "left": [
+     "A new screen",
+     "A feature",
+     "A release",
+     "Ticked off on release day"
+    ],
+    "right_h": "Outcome",
+    "right": [
+     "More traders paying suppliers",
+     "Fewer failed deliveries",
+     "Fewer calls to support",
+     "You wait and watch behaviour"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "An outcome is a change in what people do that matters to the business. Here is a simple test. If you can tick it off on release day, it is an output. If you must wait and watch user behaviour, it is an outcome.",
+    "A feature nobody uses is cost without value."
+   ],
+   "panel": {
+    "kicker": "The first habit",
+    "heading": "Outputs versus outcomes",
+    "mode": "compare",
+    "left_h": "Output",
+    "left": [
+     "A new screen",
+     "A feature",
+     "A release",
+     "Ticked off on release day"
+    ],
+    "right_h": "Outcome",
+    "right": [
+     "More traders paying suppliers",
+     "Fewer failed deliveries",
+     "Fewer calls to support",
+     "You wait and watch behaviour"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Every idea carries four risks. Value: will customers choose to use it? The PM leads here."
+   ],
+   "panel": {
+    "kicker": "Every idea carries them",
+    "heading": "The four big product risks",
+    "items": [
+     "Value: will they use it? (PM)",
+     "Usability: can they use it? (designer)",
+     "Feasibility: can we build it? (engineer)",
+     "Viability: does it work for us? (PM)"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Usability: can users figure it out? The designer leads."
+   ],
+   "panel": {
+    "kicker": "Every idea carries them",
+    "heading": "The four big product risks",
+    "items": [
+     "Value: will they use it? (PM)",
+     "Usability: can they use it? (designer)",
+     "Feasibility: can we build it? (engineer)",
+     "Viability: does it work for us? (PM)"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Feasibility: can our engineers build it with the time and skills we have?"
+   ],
+   "panel": {
+    "kicker": "Every idea carries them",
+    "heading": "The four big product risks",
+    "items": [
+     "Value: will they use it? (PM)",
+     "Usability: can they use it? (designer)",
+     "Feasibility: can we build it? (engineer)",
+     "Viability: does it work for us? (PM)"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Viability: does it work for legal, finance, support and partners? The PM owns this too. An idea is ready only with evidence on all four."
+   ],
+   "panel": {
+    "kicker": "Every idea carries them",
+    "heading": "The four big product risks",
+    "items": [
+     "Value: will they use it? (PM)",
+     "Usability: can they use it? (designer)",
+     "Feasibility: can we build it? (engineer)",
+     "Viability: does it work for us? (PM)"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Here is a worked example. Amaka is PM for a savings app used by market traders in Lagos. A director wants traders to lock savings for 90 days for a higher rate.",
+    "On value, 6 of the last 40 support chats asked about fixed savings. That is a signal, not proof."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Amaka checks a savings idea",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Value: a signal",
+      "d": "6 of the last 40 support chats asked about fixed savings. A signal, not proof."
+     },
+     {
+      "t": "Feasibility: yes",
+      "d": "The ledger can hold end dates. A first version is about two weeks of work."
+     },
+     {
+      "t": "Viability: open",
+      "d": "Finance must confirm the higher rate. Compliance must check the licence."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "On feasibility, the engineer says a first version is about two weeks of work."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Amaka checks a savings idea",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Value: a signal",
+      "d": "6 of the last 40 support chats asked about fixed savings. A signal, not proof."
+     },
+     {
+      "t": "Feasibility: yes",
+      "d": "The ledger can hold end dates. A first version is about two weeks of work."
+     },
+     {
+      "t": "Viability: open",
+      "d": "Finance must confirm the higher rate. Compliance must check the licence."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "But viability is open, so Amaka parks the idea until finance and compliance answer. That saves the team from building something that might be withdrawn."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Amaka checks a savings idea",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Value: a signal",
+      "d": "6 of the last 40 support chats asked about fixed savings. A signal, not proof."
+     },
+     {
+      "t": "Feasibility: yes",
+      "d": "The ledger can hold end dates. A first version is about two weeks of work."
+     },
+     {
+      "t": "Viability: open",
+      "d": "Finance must confirm the higher rate. Compliance must check the licence."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Step one. Write a problem statement: the user, the situation and what it costs them today, without naming a feature."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "From idea to evidence",
+    "items": [
+     "Problem: user, situation, cost. No feature.",
+     "Hypothesis: change, result, signal, time",
+     "MVP: the smallest test, maybe no code",
+     "Measure the signal honestly",
+     "Build, change or drop"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Step two. Write a hypothesis, a belief you can prove wrong, with a measurable signal and a time limit."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "From idea to evidence",
+    "items": [
+     "Problem: user, situation, cost. No feature.",
+     "Hypothesis: change, result, signal, time",
+     "MVP: the smallest test, maybe no code",
+     "Measure the signal honestly",
+     "Build, change or drop"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Step three. Design an MVP, a minimum viable product. It is the smallest test that teaches you something, not a broken cheap product. It may be just a WhatsApp number or a Google Form."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "From idea to evidence",
+    "items": [
+     "Problem: user, situation, cost. No feature.",
+     "Hypothesis: change, result, signal, time",
+     "MVP: the smallest test, maybe no code",
+     "Measure the signal honestly",
+     "Build, change or drop"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Then measure, and build, change or drop the idea."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "From idea to evidence",
+    "items": [
+     "Problem: user, situation, cost. No feature.",
+     "Hypothesis: change, result, signal, time",
+     "MVP: the smallest test, maybe no code",
+     "Measure the signal honestly",
+     "Build, change or drop"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "The common mistake is moving the target after a disappointing result. That hides the lesson. Write your signal first."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "From idea to evidence",
+    "items": [
+     "Problem: user, situation, cost. No feature.",
+     "Hypothesis: change, result, signal, time",
+     "MVP: the smallest test, maybe no code",
+     "Measure the signal honestly",
+     "Build, change or drop"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Write your success signal before the test starts.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Bisi runs product for a logistics start-up in Ibadan. The founder wants a full tracking app. Bisi tests a cheaper idea first: an SMS at pickup and at delivery, sent by hand to 20 sellers for four weeks."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Bisi tests before building an app",
+    "mode": "compare",
+    "left_h": "Before the test",
+    "left": [
+     "Founder wants a full tracking app",
+     "About 300 queries a week",
+     "From 20 sellers"
+    ],
+    "right_h": "After 4 weeks",
+    "right": [
+     "Manual SMS at pickup and delivery",
+     "About 120 queries a week",
+     "A 60% drop, no code"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Queries fall from about 300 a week to about 120. That is a 60% drop with no code written. Only now does she ask engineering to automate the messages."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Bisi tests before building an app",
+    "mode": "compare",
+    "left_h": "Before the test",
+    "left": [
+     "Founder wants a full tracking app",
+     "About 300 queries a week",
+     "From 20 sellers"
+    ],
+    "right_h": "After 4 weeks",
+    "right": [
+     "Manual SMS at pickup and delivery",
+     "About 120 queries a week",
+     "A 60% drop, no code"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Many users have entry-level phones, costly data and patchy signal. Run every major feature through this check.",
+    "Does it work on entry-level Android and survive a dropped network? Can people reach it by USSD, SMS or WhatsApp? Does it build trust, in simple language?",
+    "And check the licence and data rules. Under Nigeria's Data Protection Act 2023, collect only what you need."
+   ],
+   "panel": {
+    "kicker": "Build for real users",
+    "heading": "African-context product check",
+    "items": [
+     "Works on entry-level Android",
+     "Survives a dropped network",
+     "Reachable without the app",
+     "Builds trust visibly",
+     "Clear in simple language",
+     "Licence and data rules checked"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "To remember. Measure outcomes, not just outputs. Check every idea for all four risks. Start with the problem, not a feature. Write your signal and time limit before you test. And keep your MVP as small as possible."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "Measure outcomes, not just outputs",
+     "Check value, usability, feasibility, viability",
+     "Problem first, without naming a feature",
+     "Signal and time limit written before the test",
+     "An MVP is the smallest test, not a broken product"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Now practise. Run the four-risk check on a feature you have seen requested. Write your first problem, hypothesis and MVP. Score an app you know on the context checklist, and read two real PM job adverts.",
+    "Keep your notes for your capstone, and continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice tasks",
+    "heading": "Your practice tasks",
+    "items": [
+     "Run the four-risk check on a real idea",
+     "Write a problem, hypothesis and MVP",
+     "Score an app on the context checklist",
+     "Compare two real PM job adverts"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

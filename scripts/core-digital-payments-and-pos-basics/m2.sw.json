@@ -1,0 +1,566 @@
+{
+ "course": "core-digital-payments-and-pos-basics",
+ "module": "m2",
+ "title": "Pochi, uhamisho, USSD na bili: kufanya hivyo kwa haki kila wakati",
+ "course_title": "Malipo ya Kidijitali & Misingi ya POS",
+ "shots": [
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Pochi, uhamisho, USSD na bili: kufanya hivyo kwa haki kila wakati.",
+    "Hii ni video ya sehemu ya 2 ya Malipo ya Kidijitali na Misingi ya POS."
+   ]
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Uhamisho huchukua chini ya dakika moja, lakini makosa mengi hutokea katika dakika hiyo. Kwa hivyo utajifunza utaratibu."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Makosa mengi hutokea kwa dakika moja",
+    "items": [
+     "Angalia programu ya pochi kabla ya kuiamini",
+     "Tuma uhamishaji kwa utaratibu",
+     "Lipa bila data, ukitumia USSD",
+     "Pokea pesa bila kudanganywa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Pia utalipa bila mtandao, kulipa bili, na kupokea pesa kwa usalama."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Makosa mengi hutokea kwa dakika moja",
+    "items": [
+     "Angalia programu ya pochi kabla ya kuiamini",
+     "Tuma uhamishaji kwa utaratibu",
+     "Lipa bila data, ukitumia USSD",
+     "Pokea pesa bila kudanganywa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Programu za Wallet kama vile Opay, PalmPay na Moniepoint lazima ziendeshwe na kampuni zilizoidhinishwa. Kwa mfano, Joy, mfanyakazi wa nywele huko Port Harcourt, alipata programu mbili zilizo na alama sawa, na akachagua moja ambayo mchapishaji wake alifanana na kampuni.",
+    "Alipata taarifa ya leseni, akatumia nambari yake mwenyewe, akaweka PIN thabiti na akahifadhi usaidizi. Hakuna taarifa ya leseni? Usiweke pesa hapo."
+   ],
+   "panel": {
+    "kicker": "Kabla ya kutumia pochi",
+    "heading": "Cheki tano za programu yoyote ya mkoba",
+    "items": [
+     "Taarifa ya leseni imepatikana",
+     "Jina la mchapishaji linalingana na kampuni",
+     "Imesajiliwa na nambari yako ya simu",
+     "PIN imara na kufuli programu",
+     "Kituo cha usaidizi kimehifadhiwa"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Kwa mfano, Grace huko Abuja hulipa karo ya shule ya naira 45,000. Anaandika nambari ya akaunti kutoka kwenye hati ya ada na kuiangalia katika vikundi vya tarakimu 3, 3 na 4."
+   ],
+   "panel": {
+    "kicker": "Utaratibu wa uhamishaji",
+    "heading": "Hatua sita, kila wakati",
+    "items": [
+     "Chagua benki, weka nambari",
+     "Soma jina kwa sauti",
+     "Angalia kiasi na sifuri",
+     "Ongeza simulizi wazi",
+     "Soma ada, kisha uidhinishe",
+     "Hifadhi risiti"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Programu inaonyesha jina lililosajiliwa la shule. Inalingana na kuingizwa."
+   ],
+   "panel": {
+    "kicker": "Utaratibu wa uhamishaji",
+    "heading": "Hatua sita, kila wakati",
+    "items": [
+     "Chagua benki, weka nambari",
+     "Soma jina kwa sauti",
+     "Angalia kiasi na sifuri",
+     "Ongeza simulizi wazi",
+     "Soma ada, kisha uidhinishe",
+     "Hifadhi risiti"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Anaangalia skrini inasema 45,000, sio 4,500 au 450,000."
+   ],
+   "panel": {
+    "kicker": "Utaratibu wa uhamishaji",
+    "heading": "Hatua sita, kila wakati",
+    "items": [
+     "Chagua benki, weka nambari",
+     "Soma jina kwa sauti",
+     "Angalia kiasi na sifuri",
+     "Ongeza simulizi wazi",
+     "Soma ada, kisha uidhinishe",
+     "Hifadhi risiti"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Katika simulizi anacharaza jina la mwanawe, darasa na ada ya muhula wa 2, ili bursar ilingane nayo."
+   ],
+   "panel": {
+    "kicker": "Utaratibu wa uhamishaji",
+    "heading": "Hatua sita, kila wakati",
+    "items": [
+     "Chagua benki, weka nambari",
+     "Soma jina kwa sauti",
+     "Angalia kiasi na sifuri",
+     "Ongeza simulizi wazi",
+     "Soma ada, kisha uidhinishe",
+     "Hifadhi risiti"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Anasoma ada, anakagua salio lake, anaweka PIN yake, na kuhifadhi risiti kwenye folda ya simu."
+   ],
+   "panel": {
+    "kicker": "Utaratibu wa uhamishaji",
+    "heading": "Hatua sita, kila wakati",
+    "items": [
+     "Chagua benki, weka nambari",
+     "Soma jina kwa sauti",
+     "Angalia kiasi na sifuri",
+     "Ongeza simulizi wazi",
+     "Soma ada, kisha uidhinishe",
+     "Hifadhi risiti"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Ujumbe unaosema mtoa huduma au shule ina akaunti mpya ni mbinu ya kawaida. Thibitisha kwa kupiga nambari ambayo tayari unayo.",
+    "Ukituma kwa akaunti isiyo sahihi, ripoti kwa benki yako mara moja ukitumia kitambulisho cha kipindi."
+   ],
+   "panel": {
+    "kicker": "Utaratibu wa uhamishaji",
+    "heading": "Hatua sita, kila wakati",
+    "items": [
+     "Chagua benki, weka nambari",
+     "Soma jina kwa sauti",
+     "Angalia kiasi na sifuri",
+     "Ongeza simulizi wazi",
+     "Soma ada, kisha uidhinishe",
+     "Hifadhi risiti"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "rule": "Akaunti mpya ya mtoa huduma? Piga simu kwa nambari ambayo tayari unaiamini.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "USSD ni msimbo mfupi unaoanza na nyota na kuishia na heshi. Inafanya kazi kwenye simu yoyote iliyo na mawimbi, bila data. Pata msimbo kutoka kwa kadi yako au tovuti ya benki."
+   ],
+   "panel": {
+    "kicker": "USSD",
+    "heading": "Kulipa bila data",
+    "items": [
+     "Pata msimbo kutoka kwa kadi yako au tovuti ya benki",
+     "Tumia SIM iliyosajiliwa kwa akaunti yako",
+     "Andika maelezo kabla ya kupiga simu",
+     "Angalia jina, kisha uweke PIN yako ya USSD"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Inafanya kazi tu na SIM iliyosajiliwa kwa akaunti yako. Hiyo ni sehemu ya usalama wake."
+   ],
+   "panel": {
+    "kicker": "USSD",
+    "heading": "Kulipa bila data",
+    "items": [
+     "Pata msimbo kutoka kwa kadi yako au tovuti ya benki",
+     "Tumia SIM iliyosajiliwa kwa akaunti yako",
+     "Andika maelezo kabla ya kupiga simu",
+     "Angalia jina, kisha uweke PIN yako ya USSD"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Kwa mfano, Mercy ana deni la mkulima, Musa, naira 3,000 katika kijiji kisicho na data. Muda wa vipindi huisha haraka, kwa hivyo anaandika nambari ya akaunti yake kwenye karatasi kwanza."
+   ],
+   "panel": {
+    "kicker": "USSD",
+    "heading": "Kulipa bila data",
+    "items": [
+     "Pata msimbo kutoka kwa kadi yako au tovuti ya benki",
+     "Tumia SIM iliyosajiliwa kwa akaunti yako",
+     "Andika maelezo kabla ya kupiga simu",
+     "Angalia jina, kisha uweke PIN yako ya USSD"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Skrini inaonyesha jina la Musa. Anaisoma kwa sauti, na anathibitisha. Kisha anaingiza PIN yake ya USSD. Usiwahi kupiga nambari ya kuthibitisha ambayo mgeni anakutumia."
+   ],
+   "panel": {
+    "kicker": "USSD",
+    "heading": "Kulipa bila data",
+    "items": [
+     "Pata msimbo kutoka kwa kadi yako au tovuti ya benki",
+     "Tumia SIM iliyosajiliwa kwa akaunti yako",
+     "Andika maelezo kabla ya kupiga simu",
+     "Angalia jina, kisha uweke PIN yako ya USSD"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Kila muswada hufuata muundo mmoja: huduma, nambari, kiasi, angalia, idhinisha, weka uthibitisho.",
+    "Kwa muda wa maongezi, chagua mtandao unaolingana na nambari, au inaweza kwenda kwa nambari tofauti."
+   ],
+   "panel": {
+    "kicker": "Kulipa bili",
+    "heading": "Angalia nambari kabla ya kulipa",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Muda wa maongezi na data",
+      "d": "Chagua mtandao unaolingana na nambari ya simu. Angalia kila tarakimu."
+     },
+     {
+      "t": "Tokeni ya umeme",
+      "d": "Ingiza nambari ya mita haswa. Angalia jina lililoonyeshwa. Andika tokeni yenye tarakimu 20 kwenye mita."
+     },
+     {
+      "t": "Usajili wa TV",
+      "d": "Ingiza smartcard au nambari ya IUC kutoka kwa avkodare. Iendelee ili kupokea sasisho."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Kwa umeme wa kulipia kabla, weka nambari yako ya mita haswa na uangalie jina lililoonyeshwa. Tokeni ya tarakimu 20 inafanya kazi kwenye mita hiyo pekee. Ikikataliwa, chapa upya polepole kwanza."
+   ],
+   "panel": {
+    "kicker": "Kulipa bili",
+    "heading": "Angalia nambari kabla ya kulipa",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Muda wa maongezi na data",
+      "d": "Chagua mtandao unaolingana na nambari ya simu. Angalia kila tarakimu."
+     },
+     {
+      "t": "Tokeni ya umeme",
+      "d": "Ingiza nambari ya mita haswa. Angalia jina lililoonyeshwa. Andika tokeni yenye tarakimu 20 kwenye mita."
+     },
+     {
+      "t": "Usajili wa TV",
+      "d": "Ingiza smartcard au nambari ya IUC kutoka kwa avkodare. Iendelee ili kupokea sasisho."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Kwa TV, weka kadi mahiri au nambari ya IUC na uwashe kisimbuzi. Ikiwa bili haileti, angalia historia yako kwanza. Usilipe tena."
+   ],
+   "panel": {
+    "kicker": "Kulipa bili",
+    "heading": "Angalia nambari kabla ya kulipa",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Muda wa maongezi na data",
+      "d": "Chagua mtandao unaolingana na nambari ya simu. Angalia kila tarakimu."
+     },
+     {
+      "t": "Tokeni ya umeme",
+      "d": "Ingiza nambari ya mita haswa. Angalia jina lililoonyeshwa. Andika tokeni yenye tarakimu 20 kwenye mita."
+     },
+     {
+      "t": "Usajili wa TV",
+      "d": "Ingiza smartcard au nambari ya IUC kutoka kwa avkodare. Iendelee ili kupokea sasisho."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Subira ina naira 20,000 za kutumia kwa umeme wiki hii."
+   ],
+   "card": {
+    "title": "Mita mbili, bajeti moja",
+    "rows": [],
+    "note": null
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Friji hutumia nguvu nyingi, kwa hivyo hununua 12,000 kwa duka. Jina kwenye skrini linalingana, kwa hivyo analipa na kuhifadhi tokeni."
+   ],
+   "card": {
+    "title": "Mita mbili, bajeti moja",
+    "rows": [
+     [
+      "Ishara ya mita ya duka",
+      "12,000"
+     ]
+    ],
+    "note": null
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Nyumbani hupata iliyobaki, 8,000. Jina lililoonyeshwa ni la mwenye nyumba, kama alivyotarajia."
+   ],
+   "card": {
+    "title": "Mita mbili, bajeti moja",
+    "rows": [
+     [
+      "Ishara ya mita ya duka",
+      "12,000"
+     ],
+     [
+      "Ishara ya mita ya nyumbani",
+      "8,000"
+     ]
+    ],
+    "note": null
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "20,000 kwa jumla, na risiti mbili na tokeni mbili zimehifadhiwa ikiwa mita itakataa moja."
+   ],
+   "card": {
+    "title": "Mita mbili, bajeti moja",
+    "rows": [
+     [
+      "Ishara ya mita ya duka",
+      "12,000"
+     ],
+     [
+      "Ishara ya mita ya nyumbani",
+      "8,000"
+     ]
+    ],
+    "note": null
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Kwa mfano, Aisha anauza kitambaa huko Ilorin. Wakati wa kufunga, daftari lake linaonyesha mauzo 6 ya uhamisho, naira 55,500."
+   ],
+   "panel": {
+    "kicker": "Ukaguzi wa mwisho wa siku",
+    "heading": "Aisha anapata malipo ya kukosa",
+    "mode": "compare",
+    "left_h": "Daftari lake",
+    "left": [
+     "6 mauzo ya uhamisho",
+     "Jumla ya naira 55,500"
+    ],
+    "right_h": "Historia ya programu yake",
+    "right": [
+     "5 mikopo",
+     "Jumla ya naira 49,500",
+     "6,000 hazipo"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Historia ya programu yake inaonyesha 49,500 pekee. 6,000 haipo, kutoka kwa mwanamke ambaye alionyesha picha ya skrini wakati duka lilikuwa na shughuli nyingi.",
+    "Toa bidhaa wakati tu mkopo uko kwenye historia ya programu yako."
+   ],
+   "panel": {
+    "kicker": "Ukaguzi wa mwisho wa siku",
+    "heading": "Aisha anapata malipo ya kukosa",
+    "mode": "compare",
+    "left_h": "Daftari lake",
+    "left": [
+     "6 mauzo ya uhamisho",
+     "Jumla ya naira 55,500"
+    ],
+    "right_h": "Historia ya programu yake",
+    "right": [
+     "5 mikopo",
+     "Jumla ya naira 49,500",
+     "6,000 hazipo"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Wakati mwingine mpigaji simu anasema alikutumia pesa kimakosa, na kukuuliza uirudishe. Angalia salio lako, sio SMS, na usitumie pesa ambazo hukutarajia."
+   ],
+   "panel": {
+    "kicker": "Pesa ambayo sio yako",
+    "heading": "Mkopo usio sahihi",
+    "items": [
+     "Angalia salio lako, si SMS",
+     "Usitumie pesa ambazo hukutarajia",
+     "Ripoti kwa usaidizi rasmi wa benki yako",
+     "Weka kumbukumbu ya malalamiko"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Mwambie aripoti kwa benki yake mwenyewe. Ripoti kwa yako, na uhifadhi kumbukumbu. Ikiwa pesa ni halisi, benki zitairudisha. Ikiwa tahadhari ilikuwa ya uwongo, haujapoteza chochote."
+   ],
+   "panel": {
+    "kicker": "Pesa ambayo sio yako",
+    "heading": "Mkopo usio sahihi",
+    "items": [
+     "Angalia salio lako, si SMS",
+     "Usitumie pesa ambazo hukutarajia",
+     "Ripoti kwa usaidizi rasmi wa benki yako",
+     "Weka kumbukumbu ya malalamiko"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Kamwe usirudishe uhamishaji kimakosa wewe mwenyewe.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Kukumbuka. Angalia leseni kabla ya kuamini pochi. Angalia jina, nambari na sufuri kabla ya PIN yako. Tumia USSD data inapoisha. Angalia nambari za bili kabla ya kulipa. Na toa bidhaa tu wakati pesa zinaonyesha kwenye historia yako mwenyewe."
+   ],
+   "panel": {
+    "kicker": "Pointi muhimu",
+    "heading": "Kumbuka",
+    "items": [
+     "Angalia leseni kabla ya kuamini pochi",
+     "Jina, nambari katika vikundi, kiasi, kisha PIN",
+     "USSD hufanya kazi bila data, kwenye SIM yako mwenyewe",
+     "Angalia mita au nambari za simu kabla ya kulipa bili",
+     "Toa bidhaa tu wakati mkopo unaonyesha"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Angalia programu moja ya pochi, tuma uhamishaji wa naira 100 kwa rafiki unayemwamini, angalia salio la USSD, lipa bili moja na ufanye hundi moja ya mwisho wa siku.",
+    "Endelea na masomo hapa chini."
+   ],
+   "panel": {
+    "kicker": "Kazi ya mazoezi",
+    "heading": "Kazi zako za moduli hii",
+    "items": [
+     "Angalia programu moja ya pochi",
+     "Fanya mazoezi ya kuhamisha naira 100 salama",
+     "Kagua salio lako la kwanza la USSD",
+     "Lipa bili moja na utekeleze hundi moja ya mwisho wa siku"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

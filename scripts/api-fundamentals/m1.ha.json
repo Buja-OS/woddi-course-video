@@ -1,0 +1,548 @@
+{
+ "course": "api-fundamentals",
+ "module": "m1",
+ "title": "Yadda apps ke magana: buƙatun, lambobin matsayi da JSON",
+ "course_title": "API Mahimmanci",
+ "shots": [
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Yadda apps ke magana: buƙatun, lambobin matsayi, da JSON.",
+    "Wannan shi ne bidiyo don module ɗaya na API Fundamentals."
+   ]
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "API ɗin, gajeriyar Interface Programming Interface, ƙayyadaddun ƙa'idodi ne da aka buga wanda ke ba da damar shirin ya tambayi wani don bayanai ko aiki.",
+    "Abokin ciniki shine shirin da ke tambaya, kamar aikace-aikacen waya. Sabar ita ce kwamfutar da ke amsawa."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "API ɗin ƙa'idodi ne da aka buga",
+    "items": [
+     "Abokin ciniki yana tambaya, uwar garken ya amsa",
+     "Tambayar tambaya ce",
+     "Amsar ita ce amsa",
+     "Za ku karanta duka biyu, ba tare da lambar ba"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Tambayar ita ce kira, kuma amsar ita ce amsa. Yawancin APIs na yanar gizo suna amfani da HTTPS, amintaccen yaren da mai binciken ku ke amfani da shi."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "API ɗin ƙa'idodi ne da aka buga",
+    "items": [
+     "Abokin ciniki yana tambaya, uwar garken ya amsa",
+     "Tambayar tambaya ce",
+     "Amsar ita ce amsa",
+     "Za ku karanta duka biyu, ba tare da lambar ba"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Ka yi tunanin buka. Ka yi oda daga menu, mai hidima ya kai shi kicin, abinci ya dawo. Menu shine takaddun, ma'aikaci shine API, kuma ba ku taɓa ganin kicin ba."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "API ɗin ƙa'idodi ne da aka buga",
+    "items": [
+     "Abokin ciniki yana tambaya, uwar garken ya amsa",
+     "Tambayar tambaya ce",
+     "Amsar ita ce amsa",
+     "Za ku karanta duka biyu, ba tare da lambar ba"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Kowane abu da za ku iya tambaya yana da adireshinsa, wanda ake kira endpoint. Ɗauki buƙatun zuwa Buɗe-Meteo, API ɗin yanayi kyauta. Makircin, https, yana nufin an ɓoye tattaunawar."
+   ],
+   "panel": {
+    "kicker": "Karatun adireshi",
+    "heading": "Sassan API URL",
+    "items": [
+     "Tsari: https, rufaffen tattaunawa",
+     "Mai watsa shiri: uwar garken da kuke magana da shi",
+     "Hanya: wane madaidaicin ƙarshe, kamar /v1/forecast",
+     "Kitin tambaya: saituna bayan alamar tambaya"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Na gaba shine mai watsa shiri, api.open-meteo.com, uwar garken da kuke magana da shi."
+   ],
+   "panel": {
+    "kicker": "Karatun adireshi",
+    "heading": "Sassan API URL",
+    "items": [
+     "Tsari: https, rufaffen tattaunawa",
+     "Mai watsa shiri: uwar garken da kuke magana da shi",
+     "Hanya: wane madaidaicin ƙarshe, kamar /v1/forecast",
+     "Kitin tambaya: saituna bayan alamar tambaya"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Sai hanyar, wacce ke suna ƙarshen ƙarshen. Bangaren v1 shine sigar API."
+   ],
+   "panel": {
+    "kicker": "Karatun adireshi",
+    "heading": "Sassan API URL",
+    "items": [
+     "Tsari: https, rufaffen tattaunawa",
+     "Mai watsa shiri: uwar garken da kuke magana da shi",
+     "Hanya: wane madaidaicin ƙarshe, kamar /v1/forecast",
+     "Kitin tambaya: saituna bayan alamar tambaya"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Komai bayan alamar tambaya shine igiyar tambaya: suna da nau'i-nau'i masu ƙima, kamar latitude da longitude. Canja lambobin kuma kuna tambaya game da wani wuri daban."
+   ],
+   "panel": {
+    "kicker": "Karatun adireshi",
+    "heading": "Sassan API URL",
+    "items": [
+     "Tsari: https, rufaffen tattaunawa",
+     "Mai watsa shiri: uwar garken da kuke magana da shi",
+     "Hanya: wane madaidaicin ƙarshe, kamar /v1/forecast",
+     "Kitin tambaya: saituna bayan alamar tambaya"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Misali, Amaka wani mataimaki ne a Ibadan mai wayar salula da kusan mintuna 10. Ta rubuta URL ɗin zuwa Chrome kuma ta canza latitude zuwa 7.38 da longitude zuwa 3.94, kusan Ibadan."
+   ],
+   "panel": {
+    "kicker": "Gwada shi",
+    "heading": "Kiran API na farko na Amaka",
+    "items": [
+     "Bude-Meteo URL a cikin Chrome",
+     "Canza latitude da longitude zuwa garinku",
+     "Nemo zafin jiki_2m a cikin amsa",
+     "Duba current_units don rukunin",
+     "Ƙara wind_speed_10m kuma sake ɗauka"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Allon ya cika da rubutu a cikin maƙallan lanƙwasa. Amsar kenan, a sigar da ake kira JSON. Ta sami yanayin zafi na yanzu."
+   ],
+   "panel": {
+    "kicker": "Gwada shi",
+    "heading": "Kiran API na farko na Amaka",
+    "items": [
+     "Bude-Meteo URL a cikin Chrome",
+     "Canza latitude da longitude zuwa garinku",
+     "Nemo zafin jiki_2m a cikin amsa",
+     "Duba current_units don rukunin",
+     "Ƙara wind_speed_10m kuma sake ɗauka"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Tana duba raka'o'in yanzu, don haka ba za ta taɓa tunanin ko lamba ce Celsius ba."
+   ],
+   "panel": {
+    "kicker": "Gwada shi",
+    "heading": "Kiran API na farko na Amaka",
+    "items": [
+     "Bude-Meteo URL a cikin Chrome",
+     "Canza latitude da longitude zuwa garinku",
+     "Nemo zafin jiki_2m a cikin amsa",
+     "Duba current_units don rukunin",
+     "Ƙara wind_speed_10m kuma sake ɗauka"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Ta k'ara saurin iskar tambayarta ta sake lodawa. Buƙatun API guda biyu na ainihi, ba tare da lamba ba kuma babu asusu."
+   ],
+   "panel": {
+    "kicker": "Gwada shi",
+    "heading": "Kiran API na farko na Amaka",
+    "items": [
+     "Bude-Meteo URL a cikin Chrome",
+     "Canza latitude da longitude zuwa garinku",
+     "Nemo zafin jiki_2m a cikin amsa",
+     "Duba current_units don rukunin",
+     "Ƙara wind_speed_10m kuma sake ɗauka"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Kowace bukata tana da hanya, fi’ili. SAMU kwafi. PUT yana maye gurbin abu gaba ɗaya, PATCH yana canza wasu filaye, kuma DELETE yana cire ɗaya.",
+    "GET yana da lafiya: karantawa kawai, don haka ba zai iya cutar da komai ba."
+   ],
+   "panel": {
+    "kicker": "Hanyoyin HTTP",
+    "heading": "Amintacce don maimaita, ko a'a?",
+    "mode": "compare",
+    "left_h": "Amintaccen karatu",
+    "left": [
+     "SAMU kwafi",
+     "Ba ya canza komai akan sabar",
+     "Yana da kyau don gwadawa a cikin mai bincike"
+    ],
+    "right_h": "Yi hankali tare da POST",
+    "right": [
+     "POST yana ƙirƙirar sabon abu",
+     "Aika sau biyu na iya haifar da biyu",
+     "Bincika bayanin da farko"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_social",
+   "say": [
+    "POST yana aika sabbin bayanai, kamar fara biyan kuɗi. Ba shi da lafiya a maimaita. Idan POST yana da alama yana rataye, kar a sake latsa aikawa. Kuna iya ƙirƙirar biyan kuɗi biyu. Da farko a duba, ta yin amfani da bayanin ma'amala, ko na farko ya shiga."
+   ],
+   "panel": {
+    "kicker": "Hanyoyin HTTP",
+    "heading": "Amintacce don maimaita, ko a'a?",
+    "mode": "compare",
+    "left_h": "Amintaccen karatu",
+    "left": [
+     "SAMU kwafi",
+     "Ba ya canza komai akan sabar",
+     "Yana da kyau don gwadawa a cikin mai bincike"
+    ],
+    "right_h": "Yi hankali tare da POST",
+    "right": [
+     "POST yana ƙirƙirar sabon abu",
+     "Aika sau biyu na iya haifar da biyu",
+     "Bincika bayanin da farko"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Kowane amsa yana da lambar matsayi, lamba mai lamba uku yana faɗin yadda ta kasance. A 2 a farkon yana nufin nasara."
+   ],
+   "panel": {
+    "kicker": "Lambobin matsayi",
+    "heading": "Karanta lambar farko da farko",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "2xx: nasara",
+      "d": "200 Ok. 201 Ƙirƙiri, gama gari bayan POST. 204 Babu Abun ciki, gama gari bayan GAME."
+     },
+     {
+      "t": "4xx: gyara buqatar ku",
+      "d": "401: tabbatar da kai. 403: An sani amma ba a yarda ba. 404 Ba a Samu ba. 429 Bukatu Masu Yawa."
+     },
+     {
+      "t": "5xx: gefen su ya kasa",
+      "d": "500, 502, 503. Jira, duba matsayin mai badawa, sake gwada buƙatun aminci kawai."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "A 4 yana nufin matsalar tana cikin buƙatar ku. A 401 yana nufin bincika cewa maɓallin ku yana nan kuma an buga shi daidai. A 403 yana nufin uwar garken ya san ku, amma kuna buƙatar izini daban-daban.",
+    "Misali, Funmi ta gano kuskure 400 zuwa layin da aka buga tare da waƙafi maimakon cikakken tasha."
+   ],
+   "panel": {
+    "kicker": "Lambobin matsayi",
+    "heading": "Karanta lambar farko da farko",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "2xx: nasara",
+      "d": "200 Ok. 201 Ƙirƙiri, gama gari bayan POST. 204 Babu Abun ciki, gama gari bayan GAME."
+     },
+     {
+      "t": "4xx: gyara buqatar ku",
+      "d": "401: tabbatar da kai. 403: An sani amma ba a yarda ba. 404 Ba a Samu ba. 429 Bukatu Masu Yawa."
+     },
+     {
+      "t": "5xx: gefen su ya kasa",
+      "d": "500, 502, 503. Jira, duba matsayin mai badawa, sake gwada buƙatun aminci kawai."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "A 5 yana nufin matsalar tana gefen su. Jira, duba matsayin shafin su, kuma sake gwada buƙatun aminci kawai."
+   ],
+   "panel": {
+    "kicker": "Lambobin matsayi",
+    "heading": "Karanta lambar farko da farko",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "2xx: nasara",
+      "d": "200 Ok. 201 Ƙirƙiri, gama gari bayan POST. 204 Babu Abun ciki, gama gari bayan GAME."
+     },
+     {
+      "t": "4xx: gyara buqatar ku",
+      "d": "401: tabbatar da kai. 403: An sani amma ba a yarda ba. 404 Ba a Samu ba. 429 Bukatu Masu Yawa."
+     },
+     {
+      "t": "5xx: gefen su ya kasa",
+      "d": "500, 502, 503. Jira, duba matsayin mai badawa, sake gwada buƙatun aminci kawai."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "JSON rubutu ne bayyananne tare da tsauraran dokoki. Wani abu yana zaune a cikin maɓalli masu lanƙwasa kuma yana riƙe da maɓalli da ƙima, kamar adireshin imel mai alamar sa."
+   ],
+   "panel": {
+    "kicker": "Karatun JSON",
+    "heading": "Akwatunan cikin kwalaye",
+    "items": [
+     "Abu: madaukai masu lanƙwasa, maɓalli da ƙima",
+     "Array: madaidaicin madauri, jerin da aka ba da oda",
+     "Hanyar bayanai: dige don maɓalli, lambobi don abubuwa",
+     "Tsari yana ƙidaya daga 0, ba 1 ba"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Tsare-tsare yana zaune a cikin maƙallan murabba'i kuma yana riƙe da jeri cikin tsari."
+   ],
+   "panel": {
+    "kicker": "Karatun JSON",
+    "heading": "Akwatunan cikin kwalaye",
+    "items": [
+     "Abu: madaukai masu lanƙwasa, maɓalli da ƙima",
+     "Array: madaidaicin madauri, jerin da aka ba da oda",
+     "Hanyar bayanai: dige don maɓalli, lambobi don abubuwa",
+     "Tsari yana ƙidaya daga 0, ba 1 ba"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Hanyar bayanai tana ba da kwatance zuwa ƙima ɗaya. Don amsar samfurin Paystack, alamar digon bayanai tana nuna lambar da kuke amfani da ita daga baya don duba biyan kuɗi."
+   ],
+   "panel": {
+    "kicker": "Karatun JSON",
+    "heading": "Akwatunan cikin kwalaye",
+    "items": [
+     "Abu: madaukai masu lanƙwasa, maɓalli da ƙima",
+     "Array: madaidaicin madauri, jerin da aka ba da oda",
+     "Hanyar bayanai: dige don maɓalli, lambobi don abubuwa",
+     "Tsari yana ƙidaya daga 0, ba 1 ba"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Ƙididdigar ƙididdiga daga 0. Don haka index 0 shine abu na farko, kuma neman index 1 yana ba da na biyu. Halima da ke Abuja ta karanta yanayin zafi na sa’o’i hudu, wato 0 zuwa 3, sannan ta kai ma’aunin Celsius 28.3."
+   ],
+   "panel": {
+    "kicker": "Karatun JSON",
+    "heading": "Akwatunan cikin kwalaye",
+    "items": [
+     "Abu: madaukai masu lanƙwasa, maɓalli da ƙima",
+     "Array: madaidaicin madauri, jerin da aka ba da oda",
+     "Hanyar bayanai: dige don maɓalli, lambobi don abubuwa",
+     "Tsari yana ƙidaya daga 0, ba 1 ba"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "APIs na biyan kuɗi yawanci suna guje wa maki goma ta hanyar aika kuɗi a cikin mafi ƙarami. Takardar Paystack ta ce ana aika adadin naira a kobo."
+   ],
+   "panel": {
+    "kicker": "Kudi a JSON",
+    "heading": "Mulkin kobo",
+    "items": [
+     "APIs na biyan kuɗi suna aika kuɗi a cikin ƙananan abubuwa",
+     "Na naira, kobo kenan",
+     "Raba kobo da naira dari domin karantawa",
+     "Kobo 1500000 Naira 15,000 ne"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Don haka a raba kashi 100 don karantawa. Kobo 1,500,000 Naira 15,000 ne."
+   ],
+   "panel": {
+    "kicker": "Kudi a JSON",
+    "heading": "Mulkin kobo",
+    "items": [
+     "APIs na biyan kuɗi suna aika kuɗi a cikin ƙananan abubuwa",
+     "Na naira, kobo kenan",
+     "Raba kobo da naira dari domin karantawa",
+     "Kobo 1500000 Naira 15,000 ne"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Ku manta da wannan, kuma biyan Naira 15,000 ya yi kama da miliyan 1.5 a cikin rahoto. Har ila yau, lamba a cikin zance rubutu ne, kuma null yana nufin ba a sani ba, ba sifili ba.",
+    "Kar a taɓa liƙa amsa tare da bayanan abokin ciniki ko maɓallan sirri a cikin gidan yanar gizon jama'a."
+   ],
+   "panel": {
+    "kicker": "Kudi a JSON",
+    "heading": "Mulkin kobo",
+    "items": [
+     "APIs na biyan kuɗi suna aika kuɗi a cikin ƙananan abubuwa",
+     "Na naira, kobo kenan",
+     "Raba kobo da naira dari domin karantawa",
+     "Kobo 1500000 Naira 15,000 ne"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Bincika rukunin kowane filin kuɗi kafin ku amince da duka.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Don tunawa. URL ɗin yana ɗauke da tambayar, kuma JSON yana ɗauke da amsar. Kar a taɓa sake aika POST a makance. Karanta lambar farko ta lambar matsayi. Kidaya jeri daga 0, kuma a raba kobo da 100."
+   ],
+   "panel": {
+    "kicker": "Mabuɗin mahimmanci",
+    "heading": "Ka tuna",
+    "items": [
+     "URL ɗin yana ɗauke da tambayar, JSON amsar",
+     "Kar a taɓa sake aika POST a makance",
+     "2xx nasara, 4xx gefen ku, 5xx gefen su",
+     "Tsari yana farawa a 0; raba kobo da 100"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Yanzu yi da yiwa buƙatun API lamba uku, gina katin lambar halin ku, kuma rubuta hanyoyin bayanai guda biyar.",
+    "Ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi ayyuka",
+    "heading": "Ayyukan aikin ku",
+    "items": [
+     "Yi kuma yi wa alama buƙatun API guda uku",
+     "Gina katin lambar matsayi",
+     "Rubuta hanyoyin bayanai guda biyar"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

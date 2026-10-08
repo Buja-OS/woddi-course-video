@@ -1,0 +1,535 @@
+{
+ "course": "accessing-grants-loans-partnerships",
+ "module": "m3",
+ "title": "Onye mmekọ na-enweghị ụgwọ, jiri ego mee ihe nke ọma, hazie usoro gị ọzọ",
+ "course_title": "Ịnweta onyinye, mgbazinye ego na mmekọ",
+ "shots": [
+  {
+   "demo": "cash_count",
+   "say": [
+    "Onye mmekọ na-enweghị ụgwọ, jiri ego mee ihe nke ọma, wee hazie usoro gị ọzọ.",
+    "Nke a bụ vidiyo maka modul 3 nke ịnweta onyinye, mgbazinye ego na mmekọ."
+   ]
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Ezi mmekorita nwere ike ime ihe mbinye ego na-eme, na-enweghị mmasị ma ọ bụ nkwekọrịta. Mana irere ndị na-azụ ahịa buru ibu na kredit na-emepụta oge echere ị ga-akwadorịrị."
+   ],
+   "panel": {
+    "kicker": "Ihe mere nke a ji dị mkpa",
+    "heading": "Otu esi eji ego ekpebi agba na-esote",
+    "items": [
+     "Ndị mmekọ nwere ike ime ihe mbinye ego na-eme",
+     "Ndị na-azụ ahịa buru ibu na-emepụta oghere ego",
+     "A ga-edobe ego a kwadoro",
+     "Akụkọ eziokwu na-emeri agba na-esote"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Inweta ego bụ ọkara ọrụ. Otu esi eji na kọọ ya na-ekpebi ma a na-akwado gị ọzọ."
+   ],
+   "panel": {
+    "kicker": "Ihe mere nke a ji dị mkpa",
+    "heading": "Otu esi eji ego ekpebi agba na-esote",
+    "items": [
+     "Ndị mmekọ nwere ike ime ihe mbinye ego na-eme",
+     "Ndị na-azụ ahịa buru ibu na-emepụta oghere ego",
+     "A ga-edobe ego a kwadoro",
+     "Akụkọ eziokwu na-emeri agba na-esote"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Ada eme chin-chin na Port Harcourt. Otu nnukwu ụlọ ahịa na-enye ịweta ngwugwu 600 kwa ọnwa na 1,200 naira nke ọ bụla, akwụ ụgwọ ụbọchị 30 ka njedebe nke ọnwa nnyefe ọ bụla gasịrị."
+   ],
+   "card": {
+    "title": "Onyinye nnukwu ụlọ ahịa Ada",
+    "rows": [],
+    "note": "Ọnụ ahịa Naira dị ihe ruru."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Ngwunye nke ọ bụla na-efu ya ihe dị ka narị naira asaa na iri ise, n’ihi ya, ọ na-eme narị naira anọ na iri ise n’otu ngwugwu, ma ọ bụ puku naira abụọ na iri asaa n’ọnwa."
+   ],
+   "card": {
+    "title": "Onyinye nnukwu ụlọ ahịa Ada",
+    "rows": [
+     [
+      "Uru na ngwugwu 600 kwa ọnwa",
+      "270,000"
+     ]
+    ],
+    "note": "Ọnụ ahịa Naira dị ihe ruru."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Mana ọ ga-emerịrị puku naira anọ na iri ise kwa ọnwa iji mepụta ha."
+   ],
+   "card": {
+    "title": "Onyinye nnukwu ụlọ ahịa Ada",
+    "rows": [
+     [
+      "Uru na ngwugwu 600 kwa ọnwa",
+      "270,000"
+     ],
+     [
+      "Ọnụ iji mepụta ngwugwu 600",
+      "450,000"
+     ]
+    ],
+    "note": "Ọnụ ahịa Naira dị ihe ruru."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "N'ihi na ịkwụ ụgwọ na-abịa n'oge, ọ na-ebute ihe dị ka ọnwa abụọ na mbụ: 900,000 naira. Oge nchere ahụ bụ ọdịiche ego."
+   ],
+   "card": {
+    "title": "Onyinye nnukwu ụlọ ahịa Ada",
+    "rows": [
+     [
+      "Uru na ngwugwu 600 kwa ọnwa",
+      "270,000"
+     ],
+     [
+      "Ọnụ iji mepụta ngwugwu 600",
+      "450,000"
+     ],
+     [
+      "Ọnwa abụọ tupu ịkwụ ụgwọ mbụ",
+      "900,000"
+     ]
+    ],
+    "note": "Ọnụ ahịa Naira dị ihe ruru."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "O nwere naanị 300,000 echekwara. Ya mere, onye na-eweta ya na-enye otuto ụbọchị 30, ọ na-amalitekwa alaka abụọ kama itolite. Mkpa ego ya na-adaba ihe dị ka puku naira atọ na iri ise, nke dị nso n'ihe o chekwabere. Mmekọrịta, ọ bụghị mbinye ego."
+   ],
+   "card": {
+    "title": "Onyinye nnukwu ụlọ ahịa Ada",
+    "rows": [
+     [
+      "Uru na ngwugwu 600 kwa ọnwa",
+      "270,000"
+     ],
+     [
+      "Ọnụ iji mepụta ngwugwu 600",
+      "450,000"
+     ],
+     [
+      "Ọnwa abụọ tupu ịkwụ ụgwọ mbụ",
+      "900,000"
+     ],
+     [
+      "Ego ego Ada",
+      "300,000"
+     ]
+    ],
+    "note": "Ọnụ ahịa Naira dị ihe ruru."
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Dee njikọ ọ bụla na ala. Kpọọ akụkụ abụọ ahụ, ihe nke ọ bụla na-enye na mgbe, ọnụahịa na usoro ịkwụ ụgwọ, onye nwere ihe, ogologo oge ọ ga-adị na otu esi akwụsị ya, na mbinye aka na ụbọchị.",
+    "Ya adịla mgbe inyefe usoro nri gị ma ọ bụ ndepụta ndị ahịa na-enweghị usoro doro anya. Na onye ọ bụla na-arịọ maka òkè nke azụmahịa gị chọrọ ndụmọdụ gbasara iwu na ndebanye aha na CAC."
+   ],
+   "panel": {
+    "kicker": "Tinye ya n'akwụkwọ",
+    "heading": "Ihe nkwekọrịta ọ bụla na-ekpuchi",
+    "items": [
+     "Aha abụọ ahụ, kpọmkwem dị ka edebanyere aha",
+     "Ihe akụkụ nke ọ bụla na-enye, na mgbe",
+     "Ọnụ ahịa, usoro ịkwụ ụgwọ, ịkwụ ụgwọ mbubreyo",
+     "Onye nwere akụrụngwa, ntụziaka, ndị ahịa",
+     "Ogologo oge ole ọ na-adị na ka esi akwụsị ya",
+     "Esemokwu, mbinye aka na ụbọchị"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Debe onyinye ma ọ bụ mbinye ego na akaụntụ dị iche, ejiri naanị maka ebumnuche ahụ."
+   ],
+   "panel": {
+    "kicker": "Chebe ego",
+    "heading": "Ego akwadoro mgbanaka-ngere",
+    "items": [
+     "Jiri akaụntụ dị iche maka onyinye ma ọ bụ mbinye ego",
+     "kwụọ ndị na-ebubata ụgwọ site na mbufe",
+     "Debe akwụkwọ ọnụahịa, nnata na foto nnyefe",
+     "Tulee atụmatụ na eziokwu kwa izu",
+     "Kwuo nsonaazụ na nsogbu n'oge"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false,
+    "rule": "Debe ego a na-akwụ ụgwọ na-abụghị ihe ị na-eri kwa ụbọchị.",
+    "showRule": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Ndị na-eweta ndị na-ebufe ụgwọ kwụọ ụgwọ site na mbufe, yabụ ịkwụ ụgwọ ọ bụla na-egosi na nkwupụta ahụ. Debe ịkwụ ụgwọ ego dị ụkọ."
+   ],
+   "panel": {
+    "kicker": "Chebe ego",
+    "heading": "Ego akwadoro mgbanaka-ngere",
+    "items": [
+     "Jiri akaụntụ dị iche maka onyinye ma ọ bụ mbinye ego",
+     "kwụọ ndị na-ebubata ụgwọ site na mbufe",
+     "Debe akwụkwọ ọnụahịa, nnata na foto nnyefe",
+     "Tulee atụmatụ na eziokwu kwa izu",
+     "Kwuo nsonaazụ na nsogbu n'oge"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "rule": "Debe ego a na-akwụ ụgwọ na-abụghị ihe ị na-eri kwa ụbọchị.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Maka ịkwụ ụgwọ ọ bụla, debe akwụkwọ ọnụahịa ahụ, nnata mbufe na ndetu nnyefe ma ọ bụ foto. Nnata foto n'otu ụbọchị ahụ."
+   ],
+   "panel": {
+    "kicker": "Chebe ego",
+    "heading": "Ego akwadoro mgbanaka-ngere",
+    "items": [
+     "Jiri akaụntụ dị iche maka onyinye ma ọ bụ mbinye ego",
+     "kwụọ ndị na-ebubata ụgwọ site na mbufe",
+     "Debe akwụkwọ ọnụahịa, nnata na foto nnyefe",
+     "Tulee atụmatụ na eziokwu kwa izu",
+     "Kwuo nsonaazụ na nsogbu n'oge"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Debe ego a na-akwụ ụgwọ na-abụghị ihe ị na-eri kwa ụbọchị.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Tụlee atụmatụ gị na ihe ị na-emefu kwa izu. Na-akọkwa nsogbu n'oge na nke doro anya. Onye na-enye ego nke nụrụ gbasara igbu oge n'aka gị na-emeghachi omume n'ụzọ dị nnọọ iche na onye chọpụtara ya."
+   ],
+   "panel": {
+    "kicker": "Chebe ego",
+    "heading": "Ego akwadoro mgbanaka-ngere",
+    "items": [
+     "Jiri akaụntụ dị iche maka onyinye ma ọ bụ mbinye ego",
+     "kwụọ ndị na-ebubata ụgwọ site na mbufe",
+     "Debe akwụkwọ ọnụahịa, nnata na foto nnyefe",
+     "Tulee atụmatụ na eziokwu kwa izu",
+     "Kwuo nsonaazụ na nsogbu n'oge"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Debe ego a na-akwụ ụgwọ na-abụghị ihe ị na-eri kwa ụbọchị.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Bukola na-azụ ahịa nri na Ilorin. Ọ na-anata onyinye dị 1,000,000 maka ite gas, friza chest na ọzụzụ ịdị ọcha."
+   ],
+   "card": {
+    "title": "Onyinye akụrụngwa Bukola",
+    "rows": [],
+    "note": "Ọnụ ahịa Naira dị ihe ruru."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Ọnụ ego esi nri bilitere n'etiti ọnụ ahịa na ịzụrụ ihe: 470,000 naira, 20,000 karịa atụmatụ."
+   ],
+   "card": {
+    "title": "Onyinye akụrụngwa Bukola",
+    "rows": [
+     [
+      "Isi nri gas (atụmatụ 450,000)",
+      "470,000"
+     ]
+    ],
+    "note": "Ọnụ ahịa Naira dị ihe ruru."
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Mana ngwa nju oyi na-efu 15,000 obere na nnyefe 5,000 dị obere, yana ọzụzụ dịka echere ya."
+   ],
+   "card": {
+    "title": "Onyinye akụrụngwa Bukola",
+    "rows": [
+     [
+      "Isi nri gas (atụmatụ 450,000)",
+      "470,000"
+     ],
+     [
+      "Igwe nju oyi (atụpụtara 380,000)",
+      "365,000"
+     ],
+     [
+      "Ọzụzụ ịdị ọcha nke nri",
+      "120,000"
+     ],
+     [
+      "Nnyefe (atụmatụ 50,000)",
+      "45,000"
+     ]
+    ],
+    "note": "Ọnụ ahịa Naira dị ihe ruru."
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Ngụkọta ha bụ kpọmkwem 1,000,000 naira. Nkwekọrịta ya na-enye ohere ịkwaga ihe ruru 10% nke ahịrị, na 20,000 bụ ihe dịka 4% nke ahịrị esi nri, yabụ ọ kọwara ya n'otu ahịrị nke akụkọ ya. Mgbanwe ka ukwuu ga-achọ nnabata ederede na mbụ."
+   ],
+   "card": {
+    "title": "Onyinye akụrụngwa Bukola",
+    "rows": [
+     [
+      "Isi nri gas (atụmatụ 450,000)",
+      "470,000"
+     ],
+     [
+      "Igwe nju oyi (atụpụtara 380,000)",
+      "365,000"
+     ],
+     [
+      "Ọzụzụ ịdị ọcha nke nri",
+      "120,000"
+     ],
+     [
+      "Nnyefe (atụmatụ 50,000)",
+      "45,000"
+     ]
+    ],
+    "note": "Ọnụ ahịa Naira dị ihe ruru."
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Mmụba ego na-ebutekarị akụrụngwa na aka ọhụrụ. Ọ bụrụ na akụrụngwa na-eji gas, ọkụ eletrik ma ọ bụ okpomọkụ, mee ka onye ruru eru tinye ya."
+   ],
+   "panel": {
+    "kicker": "Nchekwa mbụ",
+    "heading": "Ngwá ọrụ ọhụrụ na ndị ọrụ ọhụrụ",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Nrụnye ruru eru",
+      "d": "Onye tozuru etozu na-etinye gas, ọkụ eletrik ma ọ bụ akụrụngwa okpomọkụ."
+     },
+     {
+      "t": "Ejikerela ihe ọkụ",
+      "d": "Debe ihe ọkụ ọkụ ebe ndị ọrụ nwere ike iru ya."
+     },
+     {
+      "t": "Zụlite nchekwa nke mbụ",
+      "d": "Gosi onye ọrụ ọ bụla ka esi agbanyụ gas na ọkụ. Lelee ọrụ ha kwa ụbọchị maka izu abụọ."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Debe ihe ọkụ ọkụ ebe ndị ọrụ nwere ike iru ya."
+   ],
+   "panel": {
+    "kicker": "Nchekwa mbụ",
+    "heading": "Ngwá ọrụ ọhụrụ na ndị ọrụ ọhụrụ",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Nrụnye ruru eru",
+      "d": "Onye tozuru etozu na-etinye gas, ọkụ eletrik ma ọ bụ akụrụngwa okpomọkụ."
+     },
+     {
+      "t": "Ejikerela ihe ọkụ",
+      "d": "Debe ihe ọkụ ọkụ ebe ndị ọrụ nwere ike iru ya."
+     },
+     {
+      "t": "Zụlite nchekwa nke mbụ",
+      "d": "Gosi onye ọrụ ọ bụla ka esi agbanyụ gas na ọkụ. Lelee ọrụ ha kwa ụbọchị maka izu abụọ."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Zụlite na nchekwa na mbụ, ma gosi onye ọrụ ọ bụla ka ọ ga-esi gbanyụọ gas na ike. Gosi, wee lelee, wee lelee ọrụ ha kwa ụbọchị maka izu abụọ mbụ. Ihe mberede na-ebute ụzọ na-ewute ndị mmadụ, ma ọ na-akwụsịkwa mmekọrịta ego."
+   ],
+   "panel": {
+    "kicker": "Nchekwa mbụ",
+    "heading": "Ngwá ọrụ ọhụrụ na ndị ọrụ ọhụrụ",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Nrụnye ruru eru",
+      "d": "Onye tozuru etozu na-etinye gas, ọkụ eletrik ma ọ bụ akụrụngwa okpomọkụ."
+     },
+     {
+      "t": "Ejikerela ihe ọkụ",
+      "d": "Debe ihe ọkụ ọkụ ebe ndị ọrụ nwere ike iru ya."
+     },
+     {
+      "t": "Zụlite nchekwa nke mbụ",
+      "d": "Gosi onye ọrụ ọ bụla ka esi agbanyụ gas na ọkụ. Lelee ọrụ ha kwa ụbọchị maka izu abụọ."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Dị ka ihe atụ, Ruth na-eme ihe ọṅụṅụ na zobo na Jos. Ọ chọrọ ngwá ọrụ na-efu ihe dị ka puku naira asatọ na iri ise. Ọ na-agwakọta 200,000 nke ego ya, ego ụlọ oriri na ọṅụṅụ dị ihe dị ka 150,000, na ego mbinye 500,000."
+   ],
+   "panel": {
+    "kicker": "Atụmatụ ụbọchị 90 gị",
+    "heading": "Atụmatụ Ruth na-enye ụlọ oriri na ọṅụṅụ abụọ",
+    "items": [
+     "Mkpa: ihe dị ka ₦850,000 nke akụrụngwa",
+     "Ngwakọta: nchekwa ego, nkwụnye ego nkwari akụ, mbinye ego ₦ 500,000",
+     "Nnwale ọnwa ọjọọ gafere",
+     "Ụbọchị 1 ruo 30: NAFDAC, nkwụnye ego na ederede",
+     "Ụbọchị 31 ruo 60: tinye ya na ngwugwu zuru ezu",
+     "Ụbọchị 61 ruo 90: zụta, ụgbọ oloko, nyefee, mkpesa"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Ụgwọ a bụ ihe dị ka puku naịra iri anọ na asaa na narị abụọ na iri asatọ kwa ọnwa. Ọnwa ya kacha njọ na nso nso a nwere 60,000 n'efu, yabụ ule ọnwa ọjọọ gafere."
+   ],
+   "panel": {
+    "kicker": "Atụmatụ ụbọchị 90 gị",
+    "heading": "Atụmatụ Ruth na-enye ụlọ oriri na ọṅụṅụ abụọ",
+    "items": [
+     "Mkpa: ihe dị ka ₦850,000 nke akụrụngwa",
+     "Ngwakọta: nchekwa ego, nkwụnye ego nkwari akụ, mbinye ego ₦ 500,000",
+     "Nnwale ọnwa ọjọọ gafere",
+     "Ụbọchị 1 ruo 30: NAFDAC, nkwụnye ego na ederede",
+     "Ụbọchị 31 ruo 60: tinye ya na ngwugwu zuru ezu",
+     "Ụbọchị 61 ruo 90: zụta, ụgbọ oloko, nyefee, mkpesa"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "N'ime ụbọchị 90 ọ na-emechi oghere ikpeazụ ya, tinye akwụkwọ na ngwugwu Njikere Ego zuru ezu, wee zụta, zụọ ma malite nnyefe. Akara ya agbagoro site na 6 ruo 10 n'ime iri na abụọ."
+   ],
+   "panel": {
+    "kicker": "Atụmatụ ụbọchị 90 gị",
+    "heading": "Atụmatụ Ruth na-enye ụlọ oriri na ọṅụṅụ abụọ",
+    "items": [
+     "Mkpa: ihe dị ka ₦850,000 nke akụrụngwa",
+     "Ngwakọta: nchekwa ego, nkwụnye ego nkwari akụ, mbinye ego ₦ 500,000",
+     "Nnwale ọnwa ọjọọ gafere",
+     "Ụbọchị 1 ruo 30: NAFDAC, nkwụnye ego na ederede",
+     "Ụbọchị 31 ruo 60: tinye ya na ngwugwu zuru ezu",
+     "Ụbọchị 61 ruo 90: zụta, ụgbọ oloko, nyefee, mkpesa"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Icheta. Mmekọrịta nwere ike dochie mbinye ego. Gbakọọ ọdịiche dị n'ego tupu ịsị ee nnukwu onye zụrụ. Dee nkwekọrịta ọ bụla. Debe ego akwadoro iche, kwụọ ụgwọ site na mbufe ma debe akwụkwọ nnata.",
+    "Kpesa nsonaazụ na ọnụọgụgụ, yana nsogbu n'oge. Na ịsị mba nye onyinye na-adabaghị bụ mkpebi dị mma."
+   ],
+   "panel": {
+    "kicker": "Isi ihe",
+    "heading": "Cheta",
+    "items": [
+     "Mmekọrịta nwere ike dochie mbinye ego",
+     "Gbakọọ oghere ego tupu ịsị ee",
+     "Dee nkwekọrịta ọ bụla",
+     "Akaụntụ dị iche, nyefe, nnata",
+     "Kpesa na ọnụọgụgụ, na n'oge"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Ọrụ gị: chepụta otu nkwekọrịta mmekọrịta ya na oghere ego ya, wuo ihe nleba anya ego gị, ma were atụmatụ ụbọchị 90 chịkọta ngwugwu njikere ego gị.",
+    "Gaa n'ihu na nkuzi ndị dị n'okpuru."
+   ],
+   "panel": {
+    "kicker": "Mee ọrụ",
+    "heading": "Ọrụ omume gị",
+    "items": [
+     "Chepụta otu nkwekọrịta nkwekọrịta",
+     "Wulite ihe nleba anya ego gị",
+     "Chịkọta ngwugwu Njikere Ego gị"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

@@ -1,0 +1,709 @@
+{
+ "course": "blockchain-digital-assets-literacy",
+ "module": "m2",
+ "title": "Wallets, bincike da tsaro na zamba",
+ "course_title": "Blockchain & Karatun Kayayyakin Dijital",
+ "shots": [
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Wallets, bincike da tsaro na zamba.",
+    "Wannan shine bidiyon don module 2 na Blockchain da Karatun Kayayyakin Dijital."
+   ]
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Tsabar kudi ba sa zama a cikin wayarka. Wallet yana adana maɓalli na sirri, sirrin da ke ba ku damar sanya hannu kan biyan kuɗi."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Maganar ku ita ce komai",
+    "items": [
+     "Wallet yana riƙe da maɓalli, ba tsabar kudi ba",
+     "Jumlar dawo da ku tana sarrafa duka",
+     "Yi bincike kafin ku yi imani",
+     "Ku san zamba kafin su same ku"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Yawancin walat ɗinku suna yin maɓallan ku daga jumlar dawo da kalmomi 12 ko 24 na yau da kullun. Baƙo mai waɗannan kalmomin baya buƙatar wayarka, PIN ko fuskarka."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Maganar ku ita ce komai",
+    "items": [
+     "Wallet yana riƙe da maɓalli, ba tsabar kudi ba",
+     "Jumlar dawo da ku tana sarrafa duka",
+     "Yi bincike kafin ku yi imani",
+     "Ku san zamba kafin su same ku"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Za ku koyi aikin bincike don yin hukunci akan kowane kadari na dijital."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Maganar ku ita ce komai",
+    "items": [
+     "Wallet yana riƙe da maɓalli, ba tsabar kudi ba",
+     "Jumlar dawo da ku tana sarrafa duka",
+     "Yi bincike kafin ku yi imani",
+     "Ku san zamba kafin su same ku"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Kuma za ku koyi zamba da aka gina don crypto, da abin da za ku yi a cikin sa'a na farko idan wani abu ya faru."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Maganar ku ita ce komai",
+    "items": [
+     "Wallet yana riƙe da maɓalli, ba tsabar kudi ba",
+     "Jumlar dawo da ku tana sarrafa duka",
+     "Yi bincike kafin ku yi imani",
+     "Ku san zamba kafin su same ku"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "A kan musayar, kamfani yana riƙe da maɓallan ku. Ya dace, amma musayar ya gaza. FTX ya rushe a cikin Nuwamba 2022, kuma abokan ciniki ba su iya janyewa ba."
+   ],
+   "panel": {
+    "kicker": "Wa ke rike da makullin?",
+    "heading": "Musanya asusu ko walat ɗin ku",
+    "mode": "compare",
+    "left_h": "Musanya lissafi",
+    "left": [
+     "Kamfanin yana riƙe da makullin ku",
+     "Sake saitin kalmar wucewa yana yiwuwa",
+     "Yana iya daskare ko kasa",
+     "Ana buƙatar bincikar ganewa"
+    ],
+    "right_h": "Wallet mai ɗaukar kai",
+    "right": [
+     "Kuna riƙe makullin ku",
+     "Rasa jumlar, rasa komai",
+     "Babu kamfani da zai iya daskare shi",
+     "Kuna ɗaukar duk tsaro"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "A cikin jakar ajiyar kai, kuna riƙe makullin. Babu kamfani da zai iya daskare shi, amma idan kun rasa ko bayyana maganar ku, babu wanda zai iya taimakawa.",
+    "Yayin da kuke koyo, kiyaye abin da kuka shirya don rasa gaba ɗaya kawai."
+   ],
+   "panel": {
+    "kicker": "Wa ke rike da makullin?",
+    "heading": "Musanya asusu ko walat ɗin ku",
+    "mode": "compare",
+    "left_h": "Musanya lissafi",
+    "left": [
+     "Kamfanin yana riƙe da makullin ku",
+     "Sake saitin kalmar wucewa yana yiwuwa",
+     "Yana iya daskare ko kasa",
+     "Ana buƙatar bincikar ganewa"
+    ],
+    "right_h": "Wallet mai ɗaukar kai",
+    "right": [
+     "Kuna riƙe makullin ku",
+     "Rasa jumlar, rasa komai",
+     "Babu kamfani da zai iya daskare shi",
+     "Kuna ɗaukar duk tsaro"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Mataki 1. Nemo gidan yanar gizon hukuma na walat, sannan ku bi hanyar haɗin kai zuwa kantin sayar da app. Aikace-aikacen walat ɗin karya kwafi tambura. Kada a taɓa shigar da fayilolin apk daga WhatsApp."
+   ],
+   "panel": {
+    "kicker": "Saitin aminci",
+    "heading": "Kafa walat lafiya",
+    "items": [
+     "Nemo gidan yanar gizon hukuma da farko",
+     "Ƙirƙiri shi ba tare da kowa yana kallo ba",
+     "Rubuta jumlar a takarda, a jere",
+     "Ajiye kwafi biyu a wurare biyu masu aminci",
+     "Yi amfani da ƙa'idar tantancewa, ba SMS ba"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Mataki 2. Ƙirƙiri walat ba tare da kowa yana kallon allon ku ba."
+   ],
+   "panel": {
+    "kicker": "Saitin aminci",
+    "heading": "Kafa walat lafiya",
+    "items": [
+     "Nemo gidan yanar gizon hukuma da farko",
+     "Ƙirƙiri shi ba tare da kowa yana kallo ba",
+     "Rubuta jumlar a takarda, a jere",
+     "Ajiye kwafi biyu a wurare biyu masu aminci",
+     "Yi amfani da ƙa'idar tantancewa, ba SMS ba"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Mataki na 3. Rubuta jumlar a takarda da alkalami. Kada ku taɓa ɗaukar hoto, ɗaukar hoto, ko adana shi a cikin bayanin kula ko akan WhatsApp."
+   ],
+   "panel": {
+    "kicker": "Saitin aminci",
+    "heading": "Kafa walat lafiya",
+    "items": [
+     "Nemo gidan yanar gizon hukuma da farko",
+     "Ƙirƙiri shi ba tare da kowa yana kallo ba",
+     "Rubuta jumlar a takarda, a jere",
+     "Ajiye kwafi biyu a wurare biyu masu aminci",
+     "Yi amfani da ƙa'idar tantancewa, ba SMS ba"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Mataki na 4. Yi kwafin takarda guda biyu kuma ajiye su a wurare guda biyu masu aminci."
+   ],
+   "panel": {
+    "kicker": "Saitin aminci",
+    "heading": "Kafa walat lafiya",
+    "items": [
+     "Nemo gidan yanar gizon hukuma da farko",
+     "Ƙirƙiri shi ba tare da kowa yana kallo ba",
+     "Rubuta jumlar a takarda, a jere",
+     "Ajiye kwafi biyu a wurare biyu masu aminci",
+     "Yi amfani da ƙa'idar tantancewa, ba SMS ba"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Mataki na 5. A kan musayar, yi amfani da app na tantancewa, saboda zamba na musayar SIM na iya satar lambobin SMS.",
+    "Kafin babban canja wuri, aika ƙaramin gwaji da farko, kuma bincika hanyar sadarwa da adireshin."
+   ],
+   "panel": {
+    "kicker": "Saitin aminci",
+    "heading": "Kafa walat lafiya",
+    "items": [
+     "Nemo gidan yanar gizon hukuma da farko",
+     "Ƙirƙiri shi ba tare da kowa yana kallo ba",
+     "Rubuta jumlar a takarda, a jere",
+     "Ajiye kwafi biyu a wurare biyu masu aminci",
+     "Yi amfani da ƙa'idar tantancewa, ba SMS ba"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Duk wanda ya neme ku don buga jumlar ku don daidaitawa, buɗewa ko neman lada yana satar ta."
+   ],
+   "panel": {
+    "kicker": "Saitin aminci",
+    "heading": "Kafa walat lafiya",
+    "items": [
+     "Nemo gidan yanar gizon hukuma da farko",
+     "Ƙirƙiri shi ba tare da kowa yana kallo ba",
+     "Rubuta jumlar a takarda, a jere",
+     "Ajiye kwafi biyu a wurare biyu masu aminci",
+     "Yi amfani da ƙa'idar tantancewa, ba SMS ba"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Babu wani wakili na gaske da zai taɓa tambayar jumlar ku.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Mataki 1. Rubuta da'awar, kuma wanda ya ci nasara idan kun yi imani da shi."
+   ],
+   "panel": {
+    "kicker": "Yin aiki tuƙuru",
+    "heading": "Matakai shida don bincika kowane aiki",
+    "items": [
+     "Rubuta da'awar a cikin jumla ɗaya",
+     "Karanta takardun farko",
+     "Duba ƙungiyar da kuɗin",
+     "Tabbatar a kan toshe mai bincike",
+     "Duba SEC Nigeria don faɗakarwa",
+     "Rubuta daidaitaccen hukunci"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Mataki 2. Karanta official website da farar takarda. Me yasa yake buƙatar blockchain kwata-kwata?"
+   ],
+   "panel": {
+    "kicker": "Yin aiki tuƙuru",
+    "heading": "Matakai shida don bincika kowane aiki",
+    "items": [
+     "Rubuta da'awar a cikin jumla ɗaya",
+     "Karanta takardun farko",
+     "Duba ƙungiyar da kuɗin",
+     "Tabbatar a kan toshe mai bincike",
+     "Duba SEC Nigeria don faɗakarwa",
+     "Rubuta daidaitaccen hukunci"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Mataki na 3. Shin masu kafa suna suna kuma na gaske? Alamu nawa ne masu ciki suka mallaka, kuma yaushe za su iya siyarwa?"
+   ],
+   "panel": {
+    "kicker": "Yin aiki tuƙuru",
+    "heading": "Matakai shida don bincika kowane aiki",
+    "items": [
+     "Rubuta da'awar a cikin jumla ɗaya",
+     "Karanta takardun farko",
+     "Duba ƙungiyar da kuɗin",
+     "Tabbatar a kan toshe mai bincike",
+     "Duba SEC Nigeria don faɗakarwa",
+     "Rubuta daidaitaccen hukunci"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Mataki na 4. Yi amfani da mai binciken toshe don bincika adireshin kwangilar, da kuma ko ƴan wallet ɗin sun mallaki mafi yawan kayan."
+   ],
+   "panel": {
+    "kicker": "Yin aiki tuƙuru",
+    "heading": "Matakai shida don bincika kowane aiki",
+    "items": [
+     "Rubuta da'awar a cikin jumla ɗaya",
+     "Karanta takardun farko",
+     "Duba ƙungiyar da kuɗin",
+     "Tabbatar a kan toshe mai bincike",
+     "Duba SEC Nigeria don faɗakarwa",
+     "Rubuta daidaitaccen hukunci"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Mataki 5. Bincika gidan yanar gizon SEC Nigeria don faɗakarwa."
+   ],
+   "panel": {
+    "kicker": "Yin aiki tuƙuru",
+    "heading": "Matakai shida don bincika kowane aiki",
+    "items": [
+     "Rubuta da'awar a cikin jumla ɗaya",
+     "Karanta takardun farko",
+     "Duba ƙungiyar da kuɗin",
+     "Tabbatar a kan toshe mai bincike",
+     "Duba SEC Nigeria don faɗakarwa",
+     "Rubuta daidaitaccen hukunci"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Mataki na 6. Rubuta hukunci tare da yuwuwar gaske, iyakoki na gaske da buɗe tambayoyi.",
+    "Kuma ku tuna da lissafin farfadowa. Idan kadari ya faɗi 50%, dole ne ya tashi 100% don dawowa."
+   ],
+   "panel": {
+    "kicker": "Yin aiki tuƙuru",
+    "heading": "Matakai shida don bincika kowane aiki",
+    "items": [
+     "Rubuta da'awar a cikin jumla ɗaya",
+     "Karanta takardun farko",
+     "Duba ƙungiyar da kuɗin",
+     "Tabbatar a kan toshe mai bincike",
+     "Duba SEC Nigeria don faɗakarwa",
+     "Rubuta daidaitaccen hukunci"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "rule": "Faɗuwar kashi 50% yana buƙatar haɓaka 100% don murmurewa.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Ba za a iya juyawa biyan kuɗi ba, don haka masu zamba suna son crypto. Zamba na farko shine phishing iri-iri. Bayanin shine kowane buƙatu na jumlar ku."
+   ],
+   "panel": {
+    "kicker": "Sanin labari",
+    "heading": "Dabarar crypto guda uku don ganowa",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Kalmomin zuriyar phishing",
+      "d": "Tallafin karya ko rukunin yanar gizo na karya yana neman kalmar dawo da ku."
+     },
+     {
+      "t": "Dandalin ciniki na karya",
+      "d": "Riba tana girma akan allo, sannan dole ne ku biya kuɗi don janyewa."
+     },
+     {
+      "t": "P2P zamba",
+      "d": "Mai saye ya aika da faɗakarwar banki ta karya. Bincika app ɗin bankin ku kafin saki."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Na biyu dandalin ciniki ne na karya. Ribar farko ita ce koto. Idan dole ne ku biya haraji ko kuɗaɗen buɗewa don janyewa, ribar ba ta gaske ba ce."
+   ],
+   "panel": {
+    "kicker": "Sanin labari",
+    "heading": "Dabarar crypto guda uku don ganowa",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Kalmomin zuriyar phishing",
+      "d": "Tallafin karya ko rukunin yanar gizo na karya yana neman kalmar dawo da ku."
+     },
+     {
+      "t": "Dandalin ciniki na karya",
+      "d": "Riba tana girma akan allo, sannan dole ne ku biya kuɗi don janyewa."
+     },
+     {
+      "t": "P2P zamba",
+      "d": "Mai saye ya aika da faɗakarwar banki ta karya. Bincika app ɗin bankin ku kafin saki."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_security",
+   "say": [
+    "Na uku shine zamba na biyan P2P. Kar a taɓa amincewa da faɗakarwar SMS ko hoton allo. Bude naku app na banki ku duba naira ta sauka kafin ku saki wani abu."
+   ],
+   "panel": {
+    "kicker": "Sanin labari",
+    "heading": "Dabarar crypto guda uku don ganowa",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Kalmomin zuriyar phishing",
+      "d": "Tallafin karya ko rukunin yanar gizo na karya yana neman kalmar dawo da ku."
+     },
+     {
+      "t": "Dandalin ciniki na karya",
+      "d": "Riba tana girma akan allo, sannan dole ne ku biya kuɗi don janyewa."
+     },
+     {
+      "t": "P2P zamba",
+      "d": "Mai saye ya aika da faɗakarwar banki ta karya. Bincika app ɗin bankin ku kafin saki."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Misali, ana kara Grace zuwa rukunin Telegram yana alƙawarin kashi 40% kowane wata. Ta fara duba lissafin."
+   ],
+   "card": {
+    "title": "Grace tana gwada alkawarin kashi 40% na kowane wata",
+    "rows": [],
+    "note": "Haɗawa: ninka da 1.4 kowane wata."
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Tana da naira 200,000. Bayan wata 1, zai zama naira 280,000."
+   ],
+   "card": {
+    "title": "Grace tana gwada alkawarin kashi 40% na kowane wata",
+    "rows": [
+     [
+      "Ta tanadi",
+      "200,000"
+     ],
+     [
+      "Bayan wata 1 a 40%",
+      "280,000"
+     ]
+    ],
+    "note": "Haɗawa: ninka da 1.4 kowane wata."
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Sama da watanni 12, hakan ya kai kusan naira miliyan 11,340,000. Kuɗinta kusan sau 57 a cikin shekara ɗaya.",
+    "Babu kasuwancin gaskiya da ke isar da hakan. Idan da gaske ne ba za su bukaci Naira dubu 200 ba."
+   ],
+   "card": {
+    "title": "Grace tana gwada alkawarin kashi 40% na kowane wata",
+    "rows": [
+     [
+      "Ta tanadi",
+      "200,000"
+     ],
+     [
+      "Bayan wata 1 a 40%",
+      "280,000"
+     ]
+    ],
+    "note": "Haɗawa: ninka da 1.4 kowane wata."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Idan kun raba maganarku ko sanya hannu kan wata mummunar amincewa, yi aiki cikin wannan tsari. Da farko, ƙirƙiri sabon-wallet tare da sabon magana akan na'ura mai tsabta."
+   ],
+   "panel": {
+    "kicker": "Sa'a ta farko",
+    "heading": "Idan kun raba maganar ku",
+    "items": [
+     "Yi sabon walat akan na'ura mai tsabta",
+     "Matsar da sauran kudade lokaci guda",
+     "Soke duk wani mummunan yarda",
+     "Canza kalmomin shiga da 2FA",
+     "Ajiye shaida, sannan rahoto"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Matsar da duk wani kuɗin da ya rage a cikin sa lokaci guda."
+   ],
+   "panel": {
+    "kicker": "Sa'a ta farko",
+    "heading": "Idan kun raba maganar ku",
+    "items": [
+     "Yi sabon walat akan na'ura mai tsabta",
+     "Matsar da sauran kudade lokaci guda",
+     "Soke duk wani mummunan yarda",
+     "Canza kalmomin shiga da 2FA",
+     "Ajiye shaida, sannan rahoto"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Soke duk wani amincewar alamar da kuka sanya hannu, tare da kayan aiki kamar Revoke.cash."
+   ],
+   "panel": {
+    "kicker": "Sa'a ta farko",
+    "heading": "Idan kun raba maganar ku",
+    "items": [
+     "Yi sabon walat akan na'ura mai tsabta",
+     "Matsar da sauran kudade lokaci guda",
+     "Soke duk wani mummunan yarda",
+     "Canza kalmomin shiga da 2FA",
+     "Ajiye shaida, sannan rahoto"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Canja kalmomin shiga na musanya da saitunan abubuwa biyu."
+   ],
+   "panel": {
+    "kicker": "Sa'a ta farko",
+    "heading": "Idan kun raba maganar ku",
+    "items": [
+     "Yi sabon walat akan na'ura mai tsabta",
+     "Matsar da sauran kudade lokaci guda",
+     "Soke duk wani mummunan yarda",
+     "Canza kalmomin shiga da 2FA",
+     "Ajiye shaida, sannan rahoto"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Sannan adana hotunan kariyar kwamfuta da hashes na kasuwanci, sannan ku kai rahoto ga musayar, bankin ku, 'yan sanda ko EFCC, da SEC Nigeria."
+   ],
+   "panel": {
+    "kicker": "Sa'a ta farko",
+    "heading": "Idan kun raba maganar ku",
+    "items": [
+     "Yi sabon walat akan na'ura mai tsabta",
+     "Matsar da sauran kudade lokaci guda",
+     "Soke duk wani mummunan yarda",
+     "Canza kalmomin shiga da 2FA",
+     "Ajiye shaida, sannan rahoto"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Baƙi waɗanda suka yi alƙawarin gano crypto ɗin ku akan farashi na gaba suma 'yan zamba ne."
+   ],
+   "panel": {
+    "kicker": "Sa'a ta farko",
+    "heading": "Idan kun raba maganar ku",
+    "items": [
+     "Yi sabon walat akan na'ura mai tsabta",
+     "Matsar da sauran kudade lokaci guda",
+     "Soke duk wani mummunan yarda",
+     "Canza kalmomin shiga da 2FA",
+     "Ajiye shaida, sannan rahoto"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Taimako na dawo da kuɗi shine zamba na biyu.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Don tunawa. Maganar ku ita ce komai. Ajiye shi akan takarda, ba dijital ba, ba a taɓa rabawa ba. Aika ƙaramin gwaji da farko. Kudi don cirewa yana nufin ribar ba ta kasance ta gaske ba. Kuma wakilan farfadowa sune zamba na biyu."
+   ],
+   "panel": {
+    "kicker": "Mabuɗin mahimmanci",
+    "heading": "Ka tuna",
+    "items": [
+     "Wallets riƙe maɓalli; maganar ita ce komai",
+     "Takarda kawai, ba dijital ba, ba a taɓa rabawa ba",
+     "Aika ƙaramin gwaji kuma duba hanyar sadarwa",
+     "Kudin cirewa yana nufin riba na karya",
+     "Taimako na dawo da kuɗi shine zamba na biyu"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Yanzu kammala jerin abubuwan tsaro na ku, bincika ainihin aiki ɗaya ta amfani da matakai shida, kuma gina katin zamba tare da naku amsoshin.",
+    "Ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi aiki",
+    "heading": "Ayyukan aikin ku",
+    "items": [
+     "Cika lissafin tsaro",
+     "Bincika wani aiki na gaske a matakai shida",
+     "Gina katin ƙirar zamba"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

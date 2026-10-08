@@ -1,0 +1,548 @@
+{
+ "course": "api-fundamentals",
+ "module": "m1",
+ "title": "Jinsi programu huzungumza: maombi, misimbo ya hali na JSON",
+ "course_title": "Misingi ya API",
+ "shots": [
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Jinsi programu huzungumza: maombi, misimbo ya hali na JSON.",
+    "Hii ni video ya moduli ya kwanza ya Misingi ya API."
+   ]
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "API, fupi ya Kiolesura cha Kuandaa Programu, ni seti iliyochapishwa ya sheria ambazo huruhusu programu moja kuuliza nyingine data au kitendo.",
+    "Kiteja ni programu inayouliza, kama programu ya simu. Seva ni kompyuta inayojibu."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "API ni seti iliyochapishwa ya sheria",
+    "items": [
+     "Mteja anauliza, seva inajibu",
+     "Swali ni ombi",
+     "Jibu ni jibu",
+     "Utasoma zote mbili, bila msimbo"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Swali linaitwa ombi, na jibu ni jibu. API nyingi za wavuti hutumia HTTPS, lugha sawa salama ambayo kivinjari chako hutumia."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "API ni seti iliyochapishwa ya sheria",
+    "items": [
+     "Mteja anauliza, seva inajibu",
+     "Swali ni ombi",
+     "Jibu ni jibu",
+     "Utasoma zote mbili, bila msimbo"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Fikiria buka. Unaagiza kutoka kwenye menyu, mhudumu huchukua jikoni, na chakula kinarudi. Menyu ni nyaraka, mhudumu ni API, na huwezi kuona jikoni."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "API ni seti iliyochapishwa ya sheria",
+    "items": [
+     "Mteja anauliza, seva inajibu",
+     "Swali ni ombi",
+     "Jibu ni jibu",
+     "Utasoma zote mbili, bila msimbo"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Kila kitu unachoweza kuuliza kina anwani yake, inayoitwa mwisho. Tuma ombi kwa Open-Meteo, API ya hali ya hewa bila malipo. Mpango, https, unamaanisha kuwa mazungumzo yamesimbwa kwa njia fiche."
+   ],
+   "panel": {
+    "kicker": "Kusoma anwani",
+    "heading": "Sehemu za URL ya API",
+    "items": [
+     "Mpango: https, mazungumzo yaliyosimbwa kwa njia fiche",
+     "Mpangishi: seva unayozungumza nayo",
+     "Njia: sehemu ya mwisho, kama vile /v1/forecast",
+     "Mfuatano wa hoja: mipangilio baada ya alama ya swali"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Inayofuata ni mwenyeji, api.open-meteo.com, seva unayozungumza nayo."
+   ],
+   "panel": {
+    "kicker": "Kusoma anwani",
+    "heading": "Sehemu za URL ya API",
+    "items": [
+     "Mpango: https, mazungumzo yaliyosimbwa kwa njia fiche",
+     "Mpangishi: seva unayozungumza nayo",
+     "Njia: sehemu ya mwisho, kama vile /v1/forecast",
+     "Mfuatano wa hoja: mipangilio baada ya alama ya swali"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Kisha njia, ambayo inataja mwisho. Sehemu ya v1 ni toleo la API."
+   ],
+   "panel": {
+    "kicker": "Kusoma anwani",
+    "heading": "Sehemu za URL ya API",
+    "items": [
+     "Mpango: https, mazungumzo yaliyosimbwa kwa njia fiche",
+     "Mpangishi: seva unayozungumza nayo",
+     "Njia: sehemu ya mwisho, kama vile /v1/forecast",
+     "Mfuatano wa hoja: mipangilio baada ya alama ya swali"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Kila kitu baada ya alama ya swali ni mfuatano wa hoja: jozi za jina na thamani, kama vile latitudo na longitudo. Badilisha nambari na uulize kuhusu mahali tofauti."
+   ],
+   "panel": {
+    "kicker": "Kusoma anwani",
+    "heading": "Sehemu za URL ya API",
+    "items": [
+     "Mpango: https, mazungumzo yaliyosimbwa kwa njia fiche",
+     "Mpangishi: seva unayozungumza nayo",
+     "Njia: sehemu ya mwisho, kama vile /v1/forecast",
+     "Mfuatano wa hoja: mipangilio baada ya alama ya swali"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Kwa mfano, Amaka ni msaidizi wa kawaida katika Ibadan na simu mahiri na kama dakika 10. Anaandika URL kwenye Chrome na kubadilisha latitudo hadi 7.38 na longitudo hadi 3.94, takriban Ibadan."
+   ],
+   "panel": {
+    "kicker": "Ijaribu",
+    "heading": "Simu ya kwanza ya API ya Amaka",
+    "items": [
+     "Andika URL ya Open-Meteo kwenye Chrome",
+     "Badilisha latitudo na longitudo kwa mji wako",
+     "Pata halijoto_2m kwenye jibu",
+     "Angalia vitengo_vya sasa vya kitengo",
+     "Ongeza wind_speed_10m na upakie upya"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Skrini imejaa maandishi katika mabano yaliyopinda. Hilo ndilo jibu, katika umbizo linaloitwa JSON. Anapata halijoto ya sasa."
+   ],
+   "panel": {
+    "kicker": "Ijaribu",
+    "heading": "Simu ya kwanza ya API ya Amaka",
+    "items": [
+     "Andika URL ya Open-Meteo kwenye Chrome",
+     "Badilisha latitudo na longitudo kwa mji wako",
+     "Pata halijoto_2m kwenye jibu",
+     "Angalia vitengo_vya sasa vya kitengo",
+     "Ongeza wind_speed_10m na upakie upya"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Yeye hukagua vitengo vya sasa, kwa hivyo halazimiki kamwe kukisia ikiwa nambari ni Selsiasi."
+   ],
+   "panel": {
+    "kicker": "Ijaribu",
+    "heading": "Simu ya kwanza ya API ya Amaka",
+    "items": [
+     "Andika URL ya Open-Meteo kwenye Chrome",
+     "Badilisha latitudo na longitudo kwa mji wako",
+     "Pata halijoto_2m kwenye jibu",
+     "Angalia vitengo_vya sasa vya kitengo",
+     "Ongeza wind_speed_10m na upakie upya"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Anaongeza kasi ya upepo kwa swali lake na kupakia upya. Maombi mawili ya API halisi, bila msimbo na hakuna akaunti."
+   ],
+   "panel": {
+    "kicker": "Ijaribu",
+    "heading": "Simu ya kwanza ya API ya Amaka",
+    "items": [
+     "Andika URL ya Open-Meteo kwenye Chrome",
+     "Badilisha latitudo na longitudo kwa mji wako",
+     "Pata halijoto_2m kwenye jibu",
+     "Angalia vitengo_vya sasa vya kitengo",
+     "Ongeza wind_speed_10m na upakie upya"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Kila ombi lina mbinu, kitenzi. GET inaleta nakala. PUT inachukua nafasi ya kipengee kizima, PATCH hubadilisha baadhi ya sehemu, na DELETE huondoa moja.",
+    "GET ni salama: inasoma tu, kwa hivyo haiwezi kudhuru chochote."
+   ],
+   "panel": {
+    "kicker": "Mbinu za HTTP",
+    "heading": "Je, ni salama kurudia, au la?",
+    "mode": "compare",
+    "left_h": "Salama kusoma",
+    "left": [
+     "GET inaleta nakala",
+     "Haibadilishi chochote kwenye seva",
+     "Ni sawa kujaribu kwenye kivinjari"
+    ],
+    "right_h": "Makini na POST",
+    "right": [
+     "POST huunda kitu kipya",
+     "Kutuma mara mbili kunaweza kuunda mbili",
+     "Angalia kumbukumbu kwanza"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_social",
+   "say": [
+    "POST hutuma data mpya, kama vile kuanza malipo. Si salama kurudia. Ikiwa POST inaonekana kuning'inia, usibonyeze kutuma tena. Unaweza kuunda malipo mawili. Kwanza angalia, kwa kutumia marejeleo ya muamala, ikiwa ya kwanza ilipitia."
+   ],
+   "panel": {
+    "kicker": "Mbinu za HTTP",
+    "heading": "Je, ni salama kurudia, au la?",
+    "mode": "compare",
+    "left_h": "Salama kusoma",
+    "left": [
+     "GET inaleta nakala",
+     "Haibadilishi chochote kwenye seva",
+     "Ni sawa kujaribu kwenye kivinjari"
+    ],
+    "right_h": "Makini na POST",
+    "right": [
+     "POST huunda kitu kipya",
+     "Kutuma mara mbili kunaweza kuunda mbili",
+     "Angalia kumbukumbu kwanza"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Kila jibu lina msimbo wa hali, nambari ya tarakimu tatu inayosema jinsi ilivyokuwa. A 2 mwanzoni inamaanisha mafanikio."
+   ],
+   "panel": {
+    "kicker": "Misimbo ya hali",
+    "heading": "Soma tarakimu ya kwanza kwanza",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "2xx: mafanikio",
+      "d": "200 sawa. 201 Imeundwa, kawaida baada ya POST. 204 Hakuna Maudhui, ya kawaida baada ya KUFUTA."
+     },
+     {
+      "t": "4xx: rekebisha ombi lako",
+      "d": "401: thibitisha wewe ni nani. 403: inajulikana lakini hairuhusiwi. 404 Haikupatikana. 429 Maombi Mengi Sana."
+     },
+     {
+      "t": "5xx: upande wao umeshindwa",
+      "d": "500, 502, 503. Subiri, angalia ukurasa wa hali ya mtoa huduma, jaribu maombi salama pekee."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "A 4 inamaanisha kuwa shida iko kwenye ombi lako. 401 inamaanisha hakikisha kuwa ufunguo wako upo na umeandikwa kwa usahihi. 403 inamaanisha seva inakujua, lakini unahitaji ruhusa tofauti.",
+    "Kwa mfano, Funmi alifuatilia hitilafu 400 hadi latitudo iliyochapishwa kwa koma badala ya kituo kamili."
+   ],
+   "panel": {
+    "kicker": "Misimbo ya hali",
+    "heading": "Soma tarakimu ya kwanza kwanza",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "2xx: mafanikio",
+      "d": "200 sawa. 201 Imeundwa, kawaida baada ya POST. 204 Hakuna Maudhui, ya kawaida baada ya KUFUTA."
+     },
+     {
+      "t": "4xx: rekebisha ombi lako",
+      "d": "401: thibitisha wewe ni nani. 403: inajulikana lakini hairuhusiwi. 404 Haikupatikana. 429 Maombi Mengi Sana."
+     },
+     {
+      "t": "5xx: upande wao umeshindwa",
+      "d": "500, 502, 503. Subiri, angalia ukurasa wa hali ya mtoa huduma, jaribu maombi salama pekee."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "A 5 inamaanisha shida iko upande wao. Subiri, angalia ukurasa wao wa hali, na ujaribu maombi salama pekee."
+   ],
+   "panel": {
+    "kicker": "Misimbo ya hali",
+    "heading": "Soma tarakimu ya kwanza kwanza",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "2xx: mafanikio",
+      "d": "200 sawa. 201 Imeundwa, kawaida baada ya POST. 204 Hakuna Maudhui, ya kawaida baada ya KUFUTA."
+     },
+     {
+      "t": "4xx: rekebisha ombi lako",
+      "d": "401: thibitisha wewe ni nani. 403: inajulikana lakini hairuhusiwi. 404 Haikupatikana. 429 Maombi Mengi Sana."
+     },
+     {
+      "t": "5xx: upande wao umeshindwa",
+      "d": "500, 502, 503. Subiri, angalia ukurasa wa hali ya mtoa huduma, jaribu maombi salama pekee."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "JSON ni maandishi wazi na sheria kali. Kipengee kiko katika mabano yaliyojipinda na hushikilia vitufe na thamani, kama vile barua pepe iliyo na lebo yake."
+   ],
+   "panel": {
+    "kicker": "Kusoma JSON",
+    "heading": "Sanduku ndani ya masanduku",
+    "items": [
+     "Kitu: mabano ya curly, funguo na maadili",
+     "Mpangilio: mabano ya mraba, orodha iliyoagizwa",
+     "Njia ya data: nukta kwa funguo, nambari za vitu",
+     "Safu huhesabu kutoka 0, sio 1"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Mkusanyiko hukaa katika mabano ya mraba na hushikilia orodha kwa mpangilio."
+   ],
+   "panel": {
+    "kicker": "Kusoma JSON",
+    "heading": "Sanduku ndani ya masanduku",
+    "items": [
+     "Kitu: mabano ya curly, funguo na maadili",
+     "Mpangilio: mabano ya mraba, orodha iliyoagizwa",
+     "Njia ya data: nukta kwa funguo, nambari za vitu",
+     "Safu huhesabu kutoka 0, sio 1"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Njia ya data inatoa maelekezo kwa thamani moja. Kwa sampuli ya jibu la Paystack, pointi za data kwenye msimbo utakaotumia kuangalia malipo."
+   ],
+   "panel": {
+    "kicker": "Kusoma JSON",
+    "heading": "Sanduku ndani ya masanduku",
+    "items": [
+     "Kitu: mabano ya curly, funguo na maadili",
+     "Mpangilio: mabano ya mraba, orodha iliyoagizwa",
+     "Njia ya data: nukta kwa funguo, nambari za vitu",
+     "Safu huhesabu kutoka 0, sio 1"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Safu kuhesabu kutoka 0. Hivyo index 0 ni bidhaa ya kwanza, na kuuliza kwa index 1 inatoa pili. Halima huko Abuja alisoma viwango vya joto vya saa nne, index 0 hadi 3, na wastani wao hadi nyuzi 28.3 Celsius."
+   ],
+   "panel": {
+    "kicker": "Kusoma JSON",
+    "heading": "Sanduku ndani ya masanduku",
+    "items": [
+     "Kitu: mabano ya curly, funguo na maadili",
+     "Mpangilio: mabano ya mraba, orodha iliyoagizwa",
+     "Njia ya data: nukta kwa funguo, nambari za vitu",
+     "Safu huhesabu kutoka 0, sio 1"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "API za Malipo kwa kawaida huepuka pointi za desimali kwa kutuma pesa katika kitengo kidogo zaidi. Hati za Paystack zinasema kiasi cha naira hutumwa kwa kobo."
+   ],
+   "panel": {
+    "kicker": "Pesa katika JSON",
+    "heading": "Kanuni ya kobo",
+    "items": [
+     "API za malipo hutuma pesa katika vitengo vidogo",
+     "Kwa naira, hiyo ni kobo",
+     "Gawanya kobo kwa 100 ili usome naira",
+     "1500000 kobo ni naira 15,000"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Kwa hivyo gawanya kwa 100 kusoma. Kiasi cha kobo 1,500,000 ni naira 15,000."
+   ],
+   "panel": {
+    "kicker": "Pesa katika JSON",
+    "heading": "Kanuni ya kobo",
+    "items": [
+     "API za malipo hutuma pesa katika vitengo vidogo",
+     "Kwa naira, hiyo ni kobo",
+     "Gawanya kobo kwa 100 ili usome naira",
+     "1500000 kobo ni naira 15,000"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Sahau hili, na malipo ya naira 15,000 yanaonekana kama milioni 1.5 katika ripoti. Pia, nambari katika nukuu ni maandishi, na null inamaanisha haijulikani, sio sifuri.",
+    "Usiwahi kubandika jibu lenye maelezo ya mteja au funguo za siri kwenye tovuti ya umma."
+   ],
+   "panel": {
+    "kicker": "Pesa katika JSON",
+    "heading": "Kanuni ya kobo",
+    "items": [
+     "API za malipo hutuma pesa katika vitengo vidogo",
+     "Kwa naira, hiyo ni kobo",
+     "Gawanya kobo kwa 100 ili usome naira",
+     "1500000 kobo ni naira 15,000"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Angalia kitengo cha kila sehemu ya pesa kabla ya kuamini jumla.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Kukumbuka. URL hubeba swali, na JSON hubeba jibu. Usiwahi kutuma tena POST kwa upofu. Soma tarakimu ya kwanza ya msimbo wa hali. Hesabu safu kutoka 0, na ugawanye kobo na 100."
+   ],
+   "panel": {
+    "kicker": "Pointi muhimu",
+    "heading": "Kumbuka",
+    "items": [
+     "URL hubeba swali, JSON jibu",
+     "Usiwahi kutuma tena POST kwa upofu",
+     "2xx mafanikio, 4xx upande wako, 5xx upande wao",
+     "Safu huanza saa 0; gawanya kobo kwa 100"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Sasa fanya na uweke lebo kwenye maombi matatu ya API, tengeneza kadi yako ya msimbo na uandike njia tano za data.",
+    "Endelea na masomo hapa chini."
+   ],
+   "panel": {
+    "kicker": "Mazoezi ya kazi",
+    "heading": "Kazi zako za mazoezi",
+    "items": [
+     "Tengeneza na uweke lebo kwenye maombi matatu ya API",
+     "Tengeneza kadi ya msimbo wa hali",
+     "Andika njia tano za data"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

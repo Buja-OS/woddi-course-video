@@ -1,0 +1,602 @@
+{
+ "course": "no-code-app-development",
+ "module": "m2",
+ "title": "Créer, tester et transmettre une application de stock et de vente",
+ "course_title": "Développement d'applications sans code",
+ "shots": [
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Créez, testez et transmettez une application de stock et de vente.",
+    "Ceci est la vidéo du module deux du développement d'applications sans code."
+   ]
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Dans ce module, vous créez une véritable application. Par exemple, Esther gère un magasin d'intrants agricoles à Makurdi, avec deux vendeurs. Elle veut arrêter de compter les sacs tous les soirs."
+   ],
+   "panel": {
+    "kicker": "Ce que vous construirez",
+    "heading": "L'application de magasin d'intrants agricoles d'Esther",
+    "items": [
+     "Suivez les produits, les livraisons et les ventes",
+     "Avertir le propriétaire lorsque le stock est faible",
+     "Testé, sécurisé et documenté"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Son application suivra les produits, les livraisons et les ventes, l'avertira lorsque le stock est faible et sera testée et documentée afin que quelqu'un d'autre puisse l'exécuter. Tout fonctionne sur la scène de prototypage gratuite d'AppSheet."
+   ],
+   "panel": {
+    "kicker": "Ce que vous construirez",
+    "heading": "L'application de magasin d'intrants agricoles d'Esther",
+    "items": [
+     "Suivez les produits, les livraisons et les ventes",
+     "Avertir le propriétaire lorsque le stock est faible",
+     "Testé, sécurisé et documenté"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "La plupart des premiers problèmes proviennent de draps en désordre. AppSheet lit chaque onglet comme un tableau, avec une ligne d'en-tête en haut."
+   ],
+   "panel": {
+    "kicker": "Étape 1",
+    "heading": "Bien préparer la feuille",
+    "items": [
+     "Un tableau par onglet : Produits, Stock, Ventes",
+     "Exactement une ligne d'en-tête dans la ligne 1",
+     "Pas de cellules fusionnées, de lignes de totaux ou de lignes vides",
+     "Une colonne ID en premier dans chaque onglet",
+     "3 à 5 lignes d'échantillons réalistes"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Supprimez les cellules fusionnées et les lignes de totaux. Esther a supprimé une ligne TOTAL au bas de son onglet Ventes, car AppSheet la lirait comme une vente."
+   ],
+   "panel": {
+    "kicker": "Étape 1",
+    "heading": "Bien préparer la feuille",
+    "items": [
+     "Un tableau par onglet : Produits, Stock, Ventes",
+     "Exactement une ligne d'en-tête dans la ligne 1",
+     "Pas de cellules fusionnées, de lignes de totaux ou de lignes vides",
+     "Une colonne ID en premier dans chaque onglet",
+     "3 à 5 lignes d'échantillons réalistes"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Placez d'abord une colonne d'ID et ajoutez quelques exemples de lignes pour qu'AppSheet puisse deviner les types de colonnes."
+   ],
+   "panel": {
+    "kicker": "Étape 1",
+    "heading": "Bien préparer la feuille",
+    "items": [
+     "Un tableau par onglet : Produits, Stock, Ventes",
+     "Exactement une ligne d'en-tête dans la ligne 1",
+     "Pas de cellules fusionnées, de lignes de totaux ou de lignes vides",
+     "Une colonne ID en premier dans chaque onglet",
+     "3 à 5 lignes d'échantillons réalistes"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Après la feuille, vérifiez chaque colonne. Les clés obtiennent la valeur initiale UNIQUEID() et sont masquées. Les dates commencent par AUJOURD'HUI(). Vendu par enregistrements USEREMAIL()."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Ordre de création pour n'importe quelle application AppSheet",
+    "items": [
+     "Nettoyer la feuille",
+     "Définir les clés et les types",
+     "Ajouter des références",
+     "Vues de conception",
+     "Ajouter des règles et de l'automatisation"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "La colonne Produit dans Ventes et Stock entrant devient une référence aux produits, reliant chaque vente à un produit."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Ordre de création pour n'importe quelle application AppSheet",
+    "items": [
+     "Nettoyer la feuille",
+     "Définir les clés et les types",
+     "Ajouter des références",
+     "Vues de conception",
+     "Ajouter des règles et de l'automatisation"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Concevoir des vues pour le personnel à un comptoir avec un téléphone dans une main. Les nouvelles ventes apparaissent en premier dans le menu, car c'est la tâche la plus fréquente."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Ordre de création pour n'importe quelle application AppSheet",
+    "items": [
+     "Nettoyer la feuille",
+     "Définir les clés et les types",
+     "Ajouter des références",
+     "Vues de conception",
+     "Ajouter des règles et de l'automatisation"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Suivez cet ordre. La modification des données après la création des vues entraîne une refonte. Et testez sur un vrai téléphone, pas seulement dans l'éditeur."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Ordre de création pour n'importe quelle application AppSheet",
+    "items": [
+     "Nettoyer la feuille",
+     "Définir les clés et les types",
+     "Ajouter des références",
+     "Vues de conception",
+     "Ajouter des règles et de l'automatisation"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "N'acceptez jamais aveuglément les suppositions de la colonne AppSheet.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "La logique est écrite sous forme d'expressions, de formules courtes avec des noms de colonnes entre crochets. Ajoutez une colonne virtuelle appelée Current Stock. NPK commence le mois avec 40 sacs."
+   ],
+   "panel": {
+    "kicker": "Logique",
+    "heading": "Le stock est calculé, jamais saisi",
+    "items": [
+     "Stock d'ouverture : 40 sacs de NPK",
+     "Livraisons supplémentaires : 25 sacs",
+     "Moins de ventes cette semaine : 52 sacs",
+     "Stock actuel : 40 + 25 - 52 = 13"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "SELECT et SUM additionnent chaque livraison pour ce produit : 25 sacs."
+   ],
+   "panel": {
+    "kicker": "Logique",
+    "heading": "Le stock est calculé, jamais saisi",
+    "items": [
+     "Stock d'ouverture : 40 sacs de NPK",
+     "Livraisons supplémentaires : 25 sacs",
+     "Moins de ventes cette semaine : 52 sacs",
+     "Stock actuel : 40 + 25 - 52 = 13"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Soustrayez ensuite chaque vente : 52 sacs."
+   ],
+   "panel": {
+    "kicker": "Logique",
+    "heading": "Le stock est calculé, jamais saisi",
+    "items": [
+     "Stock d'ouverture : 40 sacs de NPK",
+     "Livraisons supplémentaires : 25 sacs",
+     "Moins de ventes cette semaine : 52 sacs",
+     "Stock actuel : 40 + 25 - 52 = 13"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "L’application affiche 13 sacs restants sans que personne ne les compte. Avec un niveau de réapprovisionnement de 15, NPK affiche Réorganiser en rouge."
+   ],
+   "panel": {
+    "kicker": "Logique",
+    "heading": "Le stock est calculé, jamais saisi",
+    "items": [
+     "Stock d'ouverture : 40 sacs de NPK",
+     "Livraisons supplémentaires : 25 sacs",
+     "Moins de ventes cette semaine : 52 sacs",
+     "Stock actuel : 40 + 25 - 52 = 13"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "13 est égal ou inférieur au niveau de commande de 15 : il est temps de commander à nouveau.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Indiquez la quantité et le produit requis."
+   ],
+   "panel": {
+    "kicker": "Des règles qui arrêtent les erreurs",
+    "heading": "Arrêtez les mauvaises données à l’entrée",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Obligatoire",
+      "d": "La quantité et le produit doivent être renseignés, donc aucune vente n'est enregistrée sans eux."
+     },
+     {
+      "t": "Valable si",
+      "d": "Quantité supérieure à 0 et pas supérieure au stock actuel. Ajoutez un message d'erreur clair."
+     },
+     {
+      "t": "Valeur initiale",
+      "d": "Le prix unitaire copie le prix du produit au moment de la vente. Pas de retapage."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Ajoutez un If valide, donc la quantité doit être supérieure à 0 et pas supérieure au stock. Ajoutez un message du type « Il ne reste que 13 sacs » pour que le personnel sache ce qui n'a pas fonctionné."
+   ],
+   "panel": {
+    "kicker": "Des règles qui arrêtent les erreurs",
+    "heading": "Arrêtez les mauvaises données à l’entrée",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Obligatoire",
+      "d": "La quantité et le produit doivent être renseignés, donc aucune vente n'est enregistrée sans eux."
+     },
+     {
+      "t": "Valable si",
+      "d": "Quantité supérieure à 0 et pas supérieure au stock actuel. Ajoutez un message d'erreur clair."
+     },
+     {
+      "t": "Valeur initiale",
+      "d": "Le prix unitaire copie le prix du produit au moment de la vente. Pas de retapage."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Et copiez le prix dans la vente au moment où elle est réalisée, pour que l'histoire reste vraie."
+   ],
+   "panel": {
+    "kicker": "Des règles qui arrêtent les erreurs",
+    "heading": "Arrêtez les mauvaises données à l’entrée",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Obligatoire",
+      "d": "La quantité et le produit doivent être renseignés, donc aucune vente n'est enregistrée sans eux."
+     },
+     {
+      "t": "Valable si",
+      "d": "Quantité supérieure à 0 et pas supérieure au stock actuel. Ajoutez un message d'erreur clair."
+     },
+     {
+      "t": "Valeur initiale",
+      "d": "Le prix unitaire copie le prix du produit au moment de la vente. Pas de retapage."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Un robot surveille un événement, puis exécute lui-même les étapes. Ici, l'événement est une nouvelle ligne dans Sales."
+   ],
+   "panel": {
+    "kicker": "Automatisation",
+    "heading": "Un bot à faible stock",
+    "items": [
+     "Événement : une vente est ajoutée",
+     "État : stock égal ou inférieur au niveau de réapprovisionnement",
+     "Tâche : envoyer un e-mail au propriétaire",
+     "Testez jusqu'à ce que l'e-mail arrive"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "La condition vérifie le stock du produit par rapport à son niveau de réapprovisionnement. Si c'est vrai, il envoie à Esther le nom du produit et le stock."
+   ],
+   "panel": {
+    "kicker": "Automatisation",
+    "heading": "Un bot à faible stock",
+    "items": [
+     "Événement : une vente est ajoutée",
+     "État : stock égal ou inférieur au niveau de réapprovisionnement",
+     "Tâche : envoyer un e-mail au propriétaire",
+     "Testez jusqu'à ce que l'e-mail arrive"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Enregistrez les ventes tests jusqu'à ce que la condition soit remplie et confirmez l'arrivée de l'e-mail. Gardez peu de formules lourdes, car elles ralentissent l'application à mesure que les tableaux s'agrandissent."
+   ],
+   "panel": {
+    "kicker": "Automatisation",
+    "heading": "Un bot à faible stock",
+    "items": [
+     "Événement : une vente est ajoutée",
+     "État : stock égal ou inférieur au niveau de réapprovisionnement",
+     "Tâche : envoyer un e-mail au propriétaire",
+     "Testez jusqu'à ce que l'e-mail arrive"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Un bot se déclenche uniquement lorsque l'événement et la condition sont tous deux vrais.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Par exemple, Amina termine l'application d'Esther. Elle rédige 14 cas de test, notamment en vendant exactement le dernier sac et en saisissant zéro ou des blancs. Elle les gère en tant qu'utilisateur test pour le personnel commercial."
+   ],
+   "panel": {
+    "kicker": "Tests",
+    "heading": "Le script de test d'Amina",
+    "items": [
+     "Écrivez 14 cas avec les résultats attendus",
+     "Inclure les cas extrêmes et les entrées erronées",
+     "11 passes sur 14 ; réparer les 3 échecs",
+     "Réexécutez les 14 cas"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "3 échouent. Une quantité de 0 était enregistrée, deux produits pouvaient partager un nom et le personnel pouvait modifier le stock d'ouverture. Elle répare chacun."
+   ],
+   "panel": {
+    "kicker": "Tests",
+    "heading": "Le script de test d'Amina",
+    "items": [
+     "Écrivez 14 cas avec les résultats attendus",
+     "Inclure les cas extrêmes et les entrées erronées",
+     "11 passes sur 14 ; réparer les 3 échecs",
+     "Réexécutez les 14 cas"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Ensuite, elle réexécute les 14, car les correctifs peuvent casser d'autres choses. Tout réussit et le journal de test est placé dans le pack de transfert."
+   ],
+   "panel": {
+    "kicker": "Tests",
+    "heading": "Le script de test d'Amina",
+    "items": [
+     "Écrivez 14 cas avec les résultats attendus",
+     "Inclure les cas extrêmes et les entrées erronées",
+     "11 passes sur 14 ; réparer les 3 échecs",
+     "Réexécutez les 14 cas"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Après tout correctif, réexécutez chaque cas, pas seulement les échecs.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Exigez une connexion et utilisez une table Utilisateurs avec des rôles afin que seul le propriétaire modifie les prix. Toute personne disposant d'un accès en modification à Google Sheet peut modifier les données, partagez-les donc uniquement avec le propriétaire et le constructeur."
+   ],
+   "panel": {
+    "kicker": "La sécurité avant tout",
+    "heading": "Accès, données et utilisation hors ligne",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Connexion et rôles",
+      "d": "Partagez avec les e-mails du personnel nommé. Seul le propriétaire modifie les prix et le stock. Limitez qui modifie la feuille."
+     },
+     {
+      "t": "Données personnelles",
+      "d": "Collectez uniquement ce dont vous avez besoin. Ne collectez jamais les détails du BVN, du NIN ou de la carte dans une application sans code."
+     },
+     {
+      "t": "Synchroniser quotidiennement",
+      "d": "Les jours hors ligne peuvent écraser les modifications des autres. Le personnel se synchronise au moins quotidiennement."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Les numéros de téléphone des clients sont des données personnelles. La loi nigériane sur la protection des données de 2023 exige que vous collectiez uniquement ce dont vous avez besoin et que vous le gardiez en sécurité."
+   ],
+   "panel": {
+    "kicker": "La sécurité avant tout",
+    "heading": "Accès, données et utilisation hors ligne",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Connexion et rôles",
+      "d": "Partagez avec les e-mails du personnel nommé. Seul le propriétaire modifie les prix et le stock. Limitez qui modifie la feuille."
+     },
+     {
+      "t": "Données personnelles",
+      "d": "Collectez uniquement ce dont vous avez besoin. Ne collectez jamais les détails du BVN, du NIN ou de la carte dans une application sans code."
+     },
+     {
+      "t": "Synchroniser quotidiennement",
+      "d": "Les jours hors ligne peuvent écraser les modifications des autres. Le personnel se synchronise au moins quotidiennement."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "AppSheet fonctionne hors connexion, mais un téléphone hors ligne pendant plusieurs jours peut écraser les modifications apportées par d'autres personnes lors de la synchronisation. Testez-le en mode avion."
+   ],
+   "panel": {
+    "kicker": "La sécurité avant tout",
+    "heading": "Accès, données et utilisation hors ligne",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Connexion et rôles",
+      "d": "Partagez avec les e-mails du personnel nommé. Seul le propriétaire modifie les prix et le stock. Limitez qui modifie la feuille."
+     },
+     {
+      "t": "Données personnelles",
+      "d": "Collectez uniquement ce dont vous avez besoin. Ne collectez jamais les détails du BVN, du NIN ou de la carte dans une application sans code."
+     },
+     {
+      "t": "Synchroniser quotidiennement",
+      "d": "Les jours hors ligne peuvent écraser les modifications des autres. Le personnel se synchronise au moins quotidiennement."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "À retenir. Nettoyez la feuille et vérifiez chaque colonne. Calculez le stock, ne le tapez jamais. Bloquez les mauvaises entrées. Réexécutez tous les tests après les correctifs. Et livrez un pack de transfert, afin que quelqu'un d'autre que vous puisse garder l'application en vie."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Nettoyez d’abord les draps ; vérifie chaque colonne",
+     "Calculer le stock à partir des lignes liées",
+     "Valide si et obligatoire arrêter les mauvaises entrées",
+     "Réexécutez chaque test après un correctif",
+     "Pack de remise : modèle, règles, utilisateurs, coûts, tests"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Vos tâches : créer la première version à partir d'une feuille blanche, ajouter la logique et le bot à faible stock, puis tester, sécuriser et documenter votre application.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâches d'entraînement",
+    "heading": "Vos tâches pratiques",
+    "items": [
+     "Construire la première version",
+     "Ajoutez la logique et le bot à faible stock",
+     "Tester, sécuriser et documenter"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

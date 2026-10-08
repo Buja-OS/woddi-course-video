@@ -1,0 +1,583 @@
+{
+ "course": "sql-fundamentals",
+ "module": "m1",
+ "title": "Jinsi hifadhidata inavyofikiri: majedwali, maswali na muhtasari",
+ "course_title": "Misingi ya SQL",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Jinsi hifadhidata inavyofikiri: majedwali, maswali na muhtasari.",
+    "Hii ni video ya moduli ya 1 ya Misingi ya SQL."
+   ]
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Programu yako ya benki, programu ya kusafiri kwa usafiri, duka la mtandaoni: karibu wote huhifadhi rekodi zao katika hifadhidata ya uhusiano. Data iko katika majedwali kadhaa, yaliyounganishwa na nambari za kitambulisho zilizoshirikiwa."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Kila programu huweka rekodi zake katika majedwali",
+    "items": [
+     "Data iko katika majedwali yaliyounganishwa na nambari za kitambulisho",
+     "Jedwali hushikilia aina moja ya kitu",
+     "Safu ni ukweli mmoja; safu ni rekodi moja",
+     "SQL ni lugha ya kuuliza maswali"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Biashara yetu ya mazoezi ni ya Kemi, kwa mfano, ambaye anauza Ankara, lace na tai za kichwa. Database yake ina meza ya wateja, meza ya maagizo, na meza ya vitu vya kuagiza."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Kila programu huweka rekodi zake katika majedwali",
+    "items": [
+     "Data iko katika majedwali yaliyounganishwa na nambari za kitambulisho",
+     "Jedwali hushikilia aina moja ya kitu",
+     "Safu ni ukweli mmoja; safu ni rekodi moja",
+     "SQL ni lugha ya kuuliza maswali"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Kila safu ni ukweli mmoja, kama jiji. Kila safu ni mteja mmoja au agizo moja."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Kila programu huweka rekodi zake katika majedwali",
+    "items": [
+     "Data iko katika majedwali yaliyounganishwa na nambari za kitambulisho",
+     "Jedwali hushikilia aina moja ya kitu",
+     "Safu ni ukweli mmoja; safu ni rekodi moja",
+     "SQL ni lugha ya kuuliza maswali"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "SQL, Lugha ya Maswali Iliyoundwa, ni jinsi unavyouliza maswali hayo ya jedwali. Amri za msingi sawa hufanya kazi katika PostgreSQL, MySQL, SQLite na zaidi."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Kila programu huweka rekodi zake katika majedwali",
+    "items": [
+     "Data iko katika majedwali yaliyounganishwa na nambari za kitambulisho",
+     "Jedwali hushikilia aina moja ya kitu",
+     "Safu ni ukweli mmoja; safu ni rekodi moja",
+     "SQL ni lugha ya kuuliza maswali"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Ufunguo msingi ni safu wima ambayo ni ya kipekee kwa kila safu na kamwe haina tupu. Kwa wateja, Amaka ni nambari 1."
+   ],
+   "panel": {
+    "kicker": "Mawazo matatu muhimu",
+    "heading": "Funguo na kuhifadhi kila ukweli mara moja",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Ufunguo wa msingi",
+      "d": "Kipekee kwa kila safu, kamwe tupu. Amaka ni mteja_id 1, na hakuna mtu mwingine anayeweza kuwa 1."
+     },
+     {
+      "t": "Kitufe cha kigeni",
+      "d": "Inaelekeza kwenye meza nyingine. Agizo la 101 lina kitambulisho cha mteja 1, kwa hivyo ni mali ya Amaka."
+     },
+     {
+      "t": "Kusawazisha",
+      "d": "Hifadhi kila ukweli mara moja. Mji wa Amaka huishi kwa wateja pekee, kwa hivyo ripoti hazikubaliani kamwe."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Kitufe cha kigeni kinashikilia ufunguo msingi wa jedwali lingine. Agizo la 101 lina kitambulisho cha mteja 1, kwa hivyo ni mali ya Amaka. Nambari hiyo moja hukuruhusu kujiunga na jedwali baadaye."
+   ],
+   "panel": {
+    "kicker": "Mawazo matatu muhimu",
+    "heading": "Funguo na kuhifadhi kila ukweli mara moja",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Ufunguo wa msingi",
+      "d": "Kipekee kwa kila safu, kamwe tupu. Amaka ni mteja_id 1, na hakuna mtu mwingine anayeweza kuwa 1."
+     },
+     {
+      "t": "Kitufe cha kigeni",
+      "d": "Inaelekeza kwenye meza nyingine. Agizo la 101 lina kitambulisho cha mteja 1, kwa hivyo ni mali ya Amaka."
+     },
+     {
+      "t": "Kusawazisha",
+      "d": "Hifadhi kila ukweli mara moja. Mji wa Amaka huishi kwa wateja pekee, kwa hivyo ripoti hazikubaliani kamwe."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Kwa nini si karatasi moja kubwa? Ikiwa mji wa Amaka umechapwa kwa kila agizo na anahama, lazima ubadilishe kila safu, na ukikosa moja, ripoti zako hazikubaliani. Kuhifadhi kila ukweli mara moja inaitwa normalization."
+   ],
+   "panel": {
+    "kicker": "Mawazo matatu muhimu",
+    "heading": "Funguo na kuhifadhi kila ukweli mara moja",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Ufunguo wa msingi",
+      "d": "Kipekee kwa kila safu, kamwe tupu. Amaka ni mteja_id 1, na hakuna mtu mwingine anayeweza kuwa 1."
+     },
+     {
+      "t": "Kitufe cha kigeni",
+      "d": "Inaelekeza kwenye meza nyingine. Agizo la 101 lina kitambulisho cha mteja 1, kwa hivyo ni mali ya Amaka."
+     },
+     {
+      "t": "Kusawazisha",
+      "d": "Hifadhi kila ukweli mara moja. Mji wa Amaka huishi kwa wateja pekee, kwa hivyo ripoti hazikubaliani kamwe."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Nambari kamili inashikilia nambari nzima, kama vile vitambulisho na idadi."
+   ],
+   "panel": {
+    "kicker": "Aina za data",
+    "heading": "Chagua aina ya kila safu kwa makusudi",
+    "items": [
+     "INTEGER: nambari nzima, vitambulisho, idadi",
+     "DECIMAL: nambari kamili za pesa",
+     "TEXT: majina, na nambari za simu pia",
+     "TAREHE: kila mara YYYY-MM-DD",
+     "BOOLEAN: kweli au uongo"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Desimali, au nambari, hushikilia nambari kamili. Itumie kwa pesa, kamwe sio aina inayoelea, ambayo inaweza kufanya makosa madogo ya kuzungusha."
+   ],
+   "panel": {
+    "kicker": "Aina za data",
+    "heading": "Chagua aina ya kila safu kwa makusudi",
+    "items": [
+     "INTEGER: nambari nzima, vitambulisho, idadi",
+     "DECIMAL: nambari kamili za pesa",
+     "TEXT: majina, na nambari za simu pia",
+     "TAREHE: kila mara YYYY-MM-DD",
+     "BOOLEAN: kweli au uongo"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Maandishi hushikilia maneno. Nambari za simu ni maandishi pia, kwa sababu sifuri inayoongoza, kama katika 0803, ingepotea ikiwa itahifadhiwa kama nambari."
+   ],
+   "panel": {
+    "kicker": "Aina za data",
+    "heading": "Chagua aina ya kila safu kwa makusudi",
+    "items": [
+     "INTEGER: nambari nzima, vitambulisho, idadi",
+     "DECIMAL: nambari kamili za pesa",
+     "TEXT: majina, na nambari za simu pia",
+     "TAREHE: kila mara YYYY-MM-DD",
+     "BOOLEAN: kweli au uongo"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Hifadhi tarehe kama mwaka, mwezi, siku, ili zipange kwa usahihi. Na boolean ni kweli au uwongo."
+   ],
+   "panel": {
+    "kicker": "Aina za data",
+    "heading": "Chagua aina ya kila safu kwa makusudi",
+    "items": [
+     "INTEGER: nambari nzima, vitambulisho, idadi",
+     "DECIMAL: nambari kamili za pesa",
+     "TEXT: majina, na nambari za simu pia",
+     "TAREHE: kila mara YYYY-MM-DD",
+     "BOOLEAN: kweli au uongo"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Swali ni ombi la heshima, sahihi. CHAGUA majina ya safu wima unazotaka. KUTOKA kwa majina ya jedwali."
+   ],
+   "panel": {
+    "kicker": "Swali lako la kwanza",
+    "heading": "Maneno makuu matano hujibu maswali mengi",
+    "items": [
+     "CHAGUA: safu wima unazotaka",
+     "KUTOKA: meza",
+     "WAPI: weka safu zinazolingana",
+     "AGIZA KWA: panga, DESC kwa kubwa kwanza",
+     "KIKOMO: weka safu mlalo chache za kwanza pekee"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "WAPI huweka tu safu ambapo hali ni kweli. Maandishi huenda ndani ya nukuu moja, nambari hazifanyi. Unapochanganya NA na AU, tumia mabano, kwa sababu AND inafanyiwa kazi kwanza."
+   ],
+   "panel": {
+    "kicker": "Swali lako la kwanza",
+    "heading": "Maneno makuu matano hujibu maswali mengi",
+    "items": [
+     "CHAGUA: safu wima unazotaka",
+     "KUTOKA: meza",
+     "WAPI: weka safu zinazolingana",
+     "AGIZA KWA: panga, DESC kwa kubwa kwanza",
+     "KIKOMO: weka safu mlalo chache za kwanza pekee"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "ORDER BY hupanga matokeo. Ongeza DESC kwa kubwa kwanza."
+   ],
+   "panel": {
+    "kicker": "Swali lako la kwanza",
+    "heading": "Maneno makuu matano hujibu maswali mengi",
+    "items": [
+     "CHAGUA: safu wima unazotaka",
+     "KUTOKA: meza",
+     "WAPI: weka safu zinazolingana",
+     "AGIZA KWA: panga, DESC kwa kubwa kwanza",
+     "KIKOMO: weka safu mlalo chache za kwanza pekee"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "LIMIT 3 huweka safu mlalo tatu za kwanza pekee baada ya kupanga. Hivyo ndivyo unavyopata tatu bora."
+   ],
+   "panel": {
+    "kicker": "Swali lako la kwanza",
+    "heading": "Maneno makuu matano hujibu maswali mengi",
+    "items": [
+     "CHAGUA: safu wima unazotaka",
+     "KUTOKA: meza",
+     "WAPI: weka safu zinazolingana",
+     "AGIZA KWA: panga, DESC kwa kubwa kwanza",
+     "KIKOMO: weka safu mlalo chache za kwanza pekee"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Mtego mmoja. Thamani inayokosekana ni NULL, ambayo inamaanisha haijulikani, na kamwe hailingani na chochote. Kwa hivyo WAPI simu = NULL hairudishi chochote. Daima andika NI NULL."
+   ],
+   "panel": {
+    "kicker": "Swali lako la kwanza",
+    "heading": "Maneno makuu matano hujibu maswali mengi",
+    "items": [
+     "CHAGUA: safu wima unazotaka",
+     "KUTOKA: meza",
+     "WAPI: weka safu zinazolingana",
+     "AGIZA KWA: panga, DESC kwa kubwa kwanza",
+     "KIKOMO: weka safu mlalo chache za kwanza pekee"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Thamani zinazokosekana ni NULL. Jaribu na IS NULL, kamwe = NULL.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Kemi anaandika: CHAGUA kitambulisho cha agizo, tarehe na kiasi cha agizo, KUTOKA kwa maagizo, WAPI kituo kiko WhatsApp NA hali inawasilishwa, AGIZA KWA kiasi, kushuka."
+   ],
+   "card": {
+    "title": "Maagizo makubwa zaidi ya Kemi yaliyoletwa kwenye WhatsApp",
+    "rows": [],
+    "note": "Fanya mazoezi ya takwimu, si bei halisi ya soko."
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Safu nne zinarudi. Kubwa zaidi ni agizo la 105, kwa naira 61,000, kisha 101, 106 na 103."
+   ],
+   "card": {
+    "title": "Maagizo makubwa zaidi ya Kemi yaliyoletwa kwenye WhatsApp",
+    "rows": [
+     [
+      "Agizo 105",
+      "61,000"
+     ],
+     [
+      "Agizo 101",
+      "18,500"
+     ],
+     [
+      "Agizo 106",
+      "12,500"
+     ],
+     [
+      "Agizo 103",
+      "9,000"
+     ]
+    ],
+    "note": "Fanya mazoezi ya takwimu, si bei halisi ya soko."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Sasa angalia. Agizo la 109 ni agizo la WhatsApp, lakini linasubiri, kwa hivyo limeachwa kwa usahihi. Daima angalia kile ambacho haipaswi kuwa hapo."
+   ],
+   "card": {
+    "title": "Maagizo makubwa zaidi ya Kemi yaliyoletwa kwenye WhatsApp",
+    "rows": [
+     [
+      "Agizo 105",
+      "61,000"
+     ],
+     [
+      "Agizo 101",
+      "18,500"
+     ],
+     [
+      "Agizo 106",
+      "12,500"
+     ],
+     [
+      "Agizo 103",
+      "9,000"
+     ]
+    ],
+    "note": "Fanya mazoezi ya takwimu, si bei halisi ya soko."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Wasimamizi wanataka majibu, sio orodha. COUNT, SUM na AVG hugeuza safu mlalo nyingi kuwa nambari moja. GROUP BY inatoa nambari moja kwa kila kikundi."
+   ],
+   "card": {
+    "title": "Mauzo yanayoletwa na kituo",
+    "rows": [],
+    "note": "Fanya mazoezi ya takwimu, si bei halisi ya soko."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Mauzo ya Kemi yaliyoletwa kupitia chaneli: WhatsApp naira 101,000, Instagram 83,000, na tovuti 27,500."
+   ],
+   "card": {
+    "title": "Mauzo yanayoletwa na kituo",
+    "rows": [
+     [
+      "WhatsApp, maagizo 4",
+      "101,000"
+     ],
+     [
+      "Instagram, maagizo 3",
+      "83,000"
+     ],
+     [
+      "Tovuti, agizo 1",
+      "27,500"
+     ]
+    ],
+    "note": "Fanya mazoezi ya takwimu, si bei halisi ya soko."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Sasa patanisha. Vikundi lazima viongeze kwenye jumla. 101,000 pamoja na 83,000 pamoja na 27,500 ni 211,500, na 4 pamoja na 3 pamoja na 1 ni maagizo 8. Ikiwa vipande havijumuishi, kuna kitu kibaya.",
+    "Na kumbuka: kila safu katika SELECT lazima iwe ndani ya chaguo za kukokotoa au kuorodheshwa katika GROUP BY."
+   ],
+   "card": {
+    "title": "Mauzo yanayoletwa na kituo",
+    "rows": [
+     [
+      "WhatsApp, maagizo 4",
+      "101,000"
+     ],
+     [
+      "Instagram, maagizo 3",
+      "83,000"
+     ],
+     [
+      "Tovuti, agizo 1",
+      "27,500"
+     ]
+    ],
+    "note": "Fanya mazoezi ya takwimu, si bei halisi ya soko."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "AMBAPO huchuja safu mlalo moja kabla ya kupanga, kama vile kuweka maagizo yaliyoletwa pekee."
+   ],
+   "panel": {
+    "kicker": "Kuchuja",
+    "heading": "WAPI au KUWA NA?",
+    "mode": "compare",
+    "left_h": "WAPI",
+    "left": [
+     "Huendesha kabla ya kupanga kikundi",
+     "Hujaribu safu mlalo moja",
+     "status = 'imewasilishwa'",
+     "Haiwezi kutumia SUM au COUNT"
+    ],
+    "right_h": "KUWA NA",
+    "right": [
+     "Huendesha baada ya kupanga kikundi",
+     "Vipimo vikundi vizima",
+     "COUNT(*) >= 2",
+     "Inatumia matokeo ya jumla"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "KUWA na vichungi vikundi vizima baada ya jumla kufanywa. KUWA NA COUNT ya maagizo ya angalau 2 hupata wanunuzi wanaorudia wa Kemi: mteja 1 mwenye maagizo 3, na mteja 2 na 2."
+   ],
+   "panel": {
+    "kicker": "Kuchuja",
+    "heading": "WAPI au KUWA NA?",
+    "mode": "compare",
+    "left_h": "WAPI",
+    "left": [
+     "Huendesha kabla ya kupanga kikundi",
+     "Hujaribu safu mlalo moja",
+     "status = 'imewasilishwa'",
+     "Haiwezi kutumia SUM au COUNT"
+    ],
+    "right_h": "KUWA NA",
+    "right": [
+     "Huendesha baada ya kupanga kikundi",
+     "Vipimo vikundi vizima",
+     "COUNT(*) >= 2",
+     "Inatumia matokeo ya jumla"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Kukumbuka. Majedwali yanaunganishwa na funguo, na kila ukweli huhifadhiwa mara moja. Maneno makuu matano hujibu maswali mengi. Jaribu thamani zinazokosekana kwa IS NULL. Na kila wakati hakikisha kuwa vikundi vyako vinaongeza jumla."
+   ],
+   "panel": {
+    "kicker": "Pointi muhimu",
+    "heading": "Kumbuka",
+    "items": [
+     "Jedwali zilizounganishwa na funguo za msingi na za kigeni",
+     "Hifadhi kila ukweli mara moja",
+     "CHAGUA, KUTOKA, WAPI, AGIZA KWA, KIKOMO",
+     "NI NULL, kamwe = NULL",
+     "Jumla ya kikundi lazima ijumuishwe kwa jumla"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Sasa tengeneza hifadhidata ndogo kwenye karatasi, andika hoja zako tano za kwanza, na unda muhtasari mdogo wa mauzo na tiki za upatanisho.",
+    "Endelea na masomo hapa chini."
+   ],
+   "panel": {
+    "kicker": "Mazoezi ya kazi",
+    "heading": "Kazi yako kwa moduli hii",
+    "items": [
+     "Tengeneza hifadhidata ndogo kwenye karatasi",
+     "Jibu maswali matano kwa maswali rahisi",
+     "Jenga muhtasari wa mauzo ya mini"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

@@ -1,0 +1,578 @@
+{
+ "course": "no-code-app-development",
+ "module": "m3",
+ "title": "Discovery, pricing and your first paid no-code clients",
+ "course_title": "No-Code App Development",
+ "shots": [
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Discovery, pricing, and your first paid no-code clients.",
+    "This is the video for module three of No-Code App Development."
+   ]
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Builders who skip discovery build the app the client described, which is often not the app the client needs."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Building is half the job",
+    "items": [
+     "Find the real process and its cost",
+     "Price the whole job, not just clicking",
+     "Turn projects into paid work"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "In this video you will learn to find the real problem, price your work without underpricing yourself, and plan your first 90 days of paid work."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Building is half the job",
+    "items": [
+     "Find the real process and its cost",
+     "Price the whole job, not just clicking",
+     "Turn projects into paid work"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Discovery is the conversation and observation you do before quoting. Ask for the real steps, and for the last time it went wrong."
+   ],
+   "panel": {
+    "kicker": "Discovery",
+    "heading": "Six questions that find the real problem",
+    "items": [
+     "Walk me through what happens, start to finish",
+     "Where does it go wrong? The last time?",
+     "How long does each step take, how often?",
+     "Who enters data, who reads it, what phones?",
+     "Can I see the notebook or sheet you use now?",
+     "In three months, how will you know it worked?"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Measure time, and find out who uses the data and on what phones."
+   ],
+   "panel": {
+    "kicker": "Discovery",
+    "heading": "Six questions that find the real problem",
+    "items": [
+     "Walk me through what happens, start to finish",
+     "Where does it go wrong? The last time?",
+     "How long does each step take, how often?",
+     "Who enters data, who reads it, what phones?",
+     "Can I see the notebook or sheet you use now?",
+     "In three months, how will you know it worked?"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Ask to see the real notebook, and agree a success measure. Then watch the process happen once, even for 20 minutes. People describe their work as tidier than it is."
+   ],
+   "panel": {
+    "kicker": "Discovery",
+    "heading": "Six questions that find the real problem",
+    "items": [
+     "Walk me through what happens, start to finish",
+     "Where does it go wrong? The last time?",
+     "How long does each step take, how often?",
+     "Who enters data, who reads it, what phones?",
+     "Can I see the notebook or sheet you use now?",
+     "In three months, how will you know it worked?"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "For example, Ruth is secretary of a thrift cooperative in Owerri with 48 members. She records each weekly payment from transfer screenshots, about 3 minutes per member."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "What Ruth's process costs today",
+    "items": [
+     "48 members x 3 minutes = 144 minutes a week",
+     "2.4 hours x 4 weeks = 9.6 hours",
+     "Plus 5 hours reconciliation = 14.6 hours",
+     "Twice last quarter: a paid member told she owed"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "That is 2.4 hours a week, and with month-end reconciliation, 14.6 hours a month."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "What Ruth's process costs today",
+    "items": [
+     "48 members x 3 minutes = 144 minutes a week",
+     "2.4 hours x 4 weeks = 9.6 hours",
+     "Plus 5 hours reconciliation = 14.6 hours",
+     "Twice last quarter: a paid member told she owed"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "And twice last quarter, a member was wrongly told she had not paid. Ruth first asked for an app where members log in. But the real pain was her own time and the disputes, which a much smaller internal app solves."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "What Ruth's process costs today",
+    "items": [
+     "48 members x 3 minutes = 144 minutes a week",
+     "2.4 hours x 4 weeks = 9.6 hours",
+     "Plus 5 hours reconciliation = 14.6 hours",
+     "Twice last quarter: a paid member told she owed"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Measure hours and errors now, so you can show the improvement later.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Write each need as a user story: as the secretary, I want to record a payment by choosing a member, so I stop rewriting names. Must stories make the app useful at all."
+   ],
+   "panel": {
+    "kicker": "Keep version one small",
+    "heading": "Sort user stories with MoSCoW",
+    "items": [
+     "Must: record payments, flag unpaid by Friday",
+     "Should: monthly statement as a PDF",
+     "Could: a contributions chart",
+     "Won't this time: member log-in"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Should and Could stories can follow. Won't means not this time. Put it all on a one-page specification, and get the client's approval in writing, even by WhatsApp, before you quote a final price."
+   ],
+   "panel": {
+    "kicker": "Keep version one small",
+    "heading": "Sort user stories with MoSCoW",
+    "items": [
+     "Must: record payments, flag unpaid by Friday",
+     "Should: monthly statement as a PDF",
+     "Could: a contributions chart",
+     "Won't this time: member log-in"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Underpricing is the most common mistake, because clicking in the editor is quick. Estimate every phase: discovery 6 hours, setup 4, building 16, testing 6, and training 4. That is 36 hours.",
+    "At 10,000 naira an hour, that is 360,000 naira. Add 15 percent for unknowns."
+   ],
+   "card": {
+    "title": "Pricing the cooperative app",
+    "rows": [],
+    "note": "Illustrative naira figures. Set your own rate."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Tie each payment to something the client can see. 40 percent when the specification is approved, 40 percent when the test version is shown, and 20 percent at go-live."
+   ],
+   "card": {
+    "title": "Pricing the cooperative app",
+    "rows": [
+     [
+      "Spec approved: 40%",
+      "165,600"
+     ],
+     [
+      "Test version shown: 40%",
+      "165,600"
+     ],
+     [
+      "Go-live: 20%",
+      "82,800"
+     ]
+    ],
+    "note": "Illustrative naira figures. Set your own rate."
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "The build fee is 414,000 naira, and the three payments add back to that total."
+   ],
+   "card": {
+    "title": "Pricing the cooperative app",
+    "rows": [
+     [
+      "Spec approved: 40%",
+      "165,600"
+     ],
+     [
+      "Test version shown: 40%",
+      "165,600"
+     ],
+     [
+      "Go-live: 20%",
+      "82,800"
+     ]
+    ],
+    "note": "Illustrative naira figures. Set your own rate."
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Keep three costs clearly separate. Your build fee."
+   ],
+   "panel": {
+    "kicker": "Keep them separate",
+    "heading": "Three different costs",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Build fee",
+      "d": "Paid to you once, in milestones, for discovery, building, testing and training."
+     },
+     {
+      "t": "Platform fee",
+      "d": "The client pays the vendor directly, under an account the client owns."
+     },
+     {
+      "t": "Support",
+      "d": "A monthly retainer or hourly support, after a short free warranty such as 14 days."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "The platform fee, which the client pays directly. For three officers on Starter, about US$15 a month. If you pay it for them, the app stops the day your card fails."
+   ],
+   "panel": {
+    "kicker": "Keep them separate",
+    "heading": "Three different costs",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Build fee",
+      "d": "Paid to you once, in milestones, for discovery, building, testing and training."
+     },
+     {
+      "t": "Platform fee",
+      "d": "The client pays the vendor directly, under an account the client owns."
+     },
+     {
+      "t": "Support",
+      "d": "A monthly retainer or hourly support, after a short free warranty such as 14 days."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "And support. For example, a retainer of 4 hours a month, which is 40,000 naira at 10,000 an hour. A defect is something that does not work as specified. A new idea is a change."
+   ],
+   "panel": {
+    "kicker": "Keep them separate",
+    "heading": "Three different costs",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Build fee",
+      "d": "Paid to you once, in milestones, for discovery, building, testing and training."
+     },
+     {
+      "t": "Platform fee",
+      "d": "The client pays the vendor directly, under an account the client owns."
+     },
+     {
+      "t": "Support",
+      "d": "A monthly retainer or hourly support, after a short free warranty such as 14 days."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Scope creep is the slow growth of the job through small extra requests. Each sounds tiny. Together they eat your profit. First, thank the client and check the specification."
+   ],
+   "panel": {
+    "kicker": "Scope",
+    "heading": "Handle extra requests calmly",
+    "items": [
+     "Thank the client",
+     "Check it against the specification",
+     "If new, give an hour estimate",
+     "Ask: add it now, or next phase?",
+     "Record it in your change log"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "If it is new, estimate the hours and ask whether to add it now or later. Log the date, request, hours and approval, so the final invoice has no surprises."
+   ],
+   "panel": {
+    "kicker": "Scope",
+    "heading": "Handle extra requests calmly",
+    "items": [
+     "Thank the client",
+     "Check it against the specification",
+     "If new, give an hour estimate",
+     "Ask: add it now, or next phase?",
+     "Record it in your change log"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "New requests are estimated in hours and approved in writing.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Payment scams target freelancers too. Never start work on a transfer alert screenshot. Confirm the money in your own account before each milestone."
+   ],
+   "panel": {
+    "kicker": "Safety first",
+    "heading": "Protect money and data",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Fake transfer alerts",
+      "d": "Never start work on a screenshot. Confirm the money in your own account first."
+     },
+     {
+      "t": "Overpayment tricks",
+      "d": "Be wary of overpayments followed by requests to refund the difference."
+     },
+     {
+      "t": "Members' money data",
+      "d": "Share the sheet only with officers. Never store bank logins, BVN or card numbers."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Be wary of overpayments followed by a request to refund the difference."
+   ],
+   "panel": {
+    "kicker": "Safety first",
+    "heading": "Protect money and data",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Fake transfer alerts",
+      "d": "Never start work on a screenshot. Confirm the money in your own account first."
+     },
+     {
+      "t": "Overpayment tricks",
+      "d": "Be wary of overpayments followed by requests to refund the difference."
+     },
+     {
+      "t": "Members' money data",
+      "d": "Share the sheet only with officers. Never store bank logins, BVN or card numbers."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "And a contributions app holds personal and financial records. Agree who may see what, and never store bank logins, BVN or card numbers."
+   ],
+   "panel": {
+    "kicker": "Safety first",
+    "heading": "Protect money and data",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Fake transfer alerts",
+      "d": "Never start work on a screenshot. Confirm the money in your own account first."
+     },
+     {
+      "t": "Overpayment tricks",
+      "d": "Be wary of overpayments followed by requests to refund the difference."
+     },
+     {
+      "t": "Members' money data",
+      "d": "Share the sheet only with officers. Never store bank logins, BVN or card numbers."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "For example, Aisha in Kano chooses stock and sales apps for shops. She builds two demo apps with made-up sample data. Never show a real client's customers."
+   ],
+   "panel": {
+    "kicker": "Your 90 days",
+    "heading": "Aisha's plan for paid work",
+    "items": [
+     "Weeks 1-4: build two demo apps",
+     "Weeks 5-8: contact 40 shops, 10 a week",
+     "Aim for 6 conversations and 3 proposals",
+     "Weeks 9-12: win and deliver first builds"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Then she contacts 40 shops through her market association, aiming for 6 discovery conversations and 3 proposals."
+   ],
+   "panel": {
+    "kicker": "Your 90 days",
+    "heading": "Aisha's plan for paid work",
+    "items": [
+     "Weeks 1-4: build two demo apps",
+     "Weeks 5-8: contact 40 shops, 10 a week",
+     "Aim for 6 conversations and 3 proposals",
+     "Weeks 9-12: win and deliver first builds"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "By weeks 9 to 12 she aims for her first paid build, and asks for a testimonial at go-live. Every Friday she records contacts, proposals and money received."
+   ],
+   "panel": {
+    "kicker": "Your 90 days",
+    "heading": "Aisha's plan for paid work",
+    "items": [
+     "Weeks 1-4: build two demo apps",
+     "Weeks 5-8: contact 40 shops, 10 a week",
+     "Aim for 6 conversations and 3 proposals",
+     "Weeks 9-12: win and deliver first builds"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "To remember. Watch the work and measure what it costs. Keep version one small. Price every phase. Keep the three costs separate. And always confirm payment in your own account."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "Watch the work and measure its cost",
+     "Keep version one to the Must stories",
+     "Estimate every phase and add contingency",
+     "Separate build fee, platform fee and support",
+     "Confirm payment in your own account"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Your tasks: run a mini discovery with a real business, price it and write a proposal, then build your demo, case study and 90-day plan.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice tasks",
+    "heading": "Your practice tasks",
+    "items": [
+     "Run a mini discovery",
+     "Price and propose",
+     "Build your practice plan"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}
