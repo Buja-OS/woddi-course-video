@@ -17,7 +17,7 @@ jobs:
         run: echo "jobs=$(cat jobs.json)" >> "$GITHUB_OUTPUT"
       - env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: for L in en fr pt ar yo ha ig sw; do gh release create "voice2-$L" -R ${{ github.repository }} --title "Narration $L" --notes "Narration audio per course (opus)." || true; done
+        run: for L in yo; do gh release create "voice2b-$L" -R ${{ github.repository }} --title "Narration $L" --notes "Narration audio per course (opus)." || true; done
   voice:
     needs: setup
     runs-on: ubuntu-latest
@@ -56,5 +56,5 @@ jobs:
           cd ..
           for c in ${{ matrix.courses }}; do
             [ -f "$c.tar" ] || { echo "MISSING $c"; continue; }
-            for i in 1 2 3 4 5; do gh release upload "voice2-${{ matrix.lang }}" "$c.tar" --clobber -R ${{ github.repository }} && break; sleep $((i*9)); done
+            for i in 1 2 3 4 5; do gh release upload "voice2b-${{ matrix.lang }}" "$c.tar" --clobber -R ${{ github.repository }} && break; sleep $((i*9)); done
           done

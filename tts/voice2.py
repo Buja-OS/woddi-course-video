@@ -90,8 +90,22 @@ else:
             for v in o: fix(v)
     fix(c); cf = os.path.join(d, 'config_fixed.json'); json.dump(c, open(cf, 'w'))
     T = TTS(model_path=os.path.join(d, 'model_last.pth'), config_path=cf); SR = T.synthesizer.output_sample_rate
+    # Yoruba: the translations come without tone marks; restore them (kenny0bi/ami-yoruba-diacritics, about 86%
+    # of words right) so the voice, trained on fully marked text, reads the tones. Falls back to plain text.
+    RESTORE = None
+    if lang == 'yo':
+        try:
+            rd = snapshot_download('kenny0bi/ami-yoruba-diacritics'); sys.path.insert(0, rd)
+            from restore import load_restorer
+            RESTORE = load_restorer(rd)
+            print('tone restore sample:', RESTORE.restore('bawo ni oko re se n lo'), flush=True)
+        except Exception as e:
+            print('tone restore unavailable', repr(e)[:200], flush=True)
     def synth(text):
         t = vnorm(text)
+        if RESTORE:
+            try: t = RESTORE.restore(t)
+            except Exception: pass
         parts = [p for p in re.split(r'(?<=[,;:.!?])\s+', t) if p.strip()] if len(t) > 180 else [t]
         out = []
         for p in parts:
