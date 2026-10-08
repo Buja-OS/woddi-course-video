@@ -1,0 +1,659 @@
+{
+ "course": "core-online-customer-support",
+ "module": "m3",
+ "title": "Track every ticket, stay honest, measure your work",
+ "course_title": "Online Customer Support",
+ "shots": [
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Track every ticket, stay honest, and measure your work.",
+    "This is the video for module 3 of Online Customer Support."
+   ]
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "A ticket is simply a record of one customer request, from the moment it arrives until it is closed. A free Google Sheet can do this job."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Nothing depends on your memory",
+    "items": [
+     "A ticket: one request, from arrival to closure",
+     "Written policies give the same fair answer",
+     "Metrics turn I work hard into evidence"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Written policies and FAQs mean every customer gets the same fair answer."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Nothing depends on your memory",
+    "items": [
+     "A ticket: one request, from arrival to closure",
+     "Written policies give the same fair answer",
+     "Metrics turn I work hard into evidence"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "And metrics turn I work hard into evidence an employer can see."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Nothing depends on your memory",
+    "items": [
+     "A ticket: one request, from arrival to closure",
+     "Written policies give the same fair answer",
+     "Metrics turn I work hard into evidence"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Give each ticket a number, and write the real time it was received."
+   ],
+   "panel": {
+    "kicker": "Your tracker",
+    "heading": "Key columns in your ticket sheet",
+    "items": [
+     "Ticket ID and time received",
+     "Customer first name and channel",
+     "Category and priority",
+     "First reply time and status",
+     "Resolved time and notes"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Note the customer's first name and the channel, so you can find the chat again."
+   ],
+   "panel": {
+    "kicker": "Your tracker",
+    "heading": "Key columns in your ticket sheet",
+    "items": [
+     "Ticket ID and time received",
+     "Customer first name and channel",
+     "Category and priority",
+     "First reply time and status",
+     "Resolved time and notes"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Choose a category, like delivery or wrong item, and a priority. Use dropdown lists so everyone types the same words."
+   ],
+   "panel": {
+    "kicker": "Your tracker",
+    "heading": "Key columns in your ticket sheet",
+    "items": [
+     "Ticket ID and time received",
+     "Customer first name and channel",
+     "Category and priority",
+     "First reply time and status",
+     "Resolved time and notes"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Record your first reply time and the status: New, Waiting for customer, Waiting for us, or Resolved."
+   ],
+   "panel": {
+    "kicker": "Your tracker",
+    "heading": "Key columns in your ticket sheet",
+    "items": [
+     "Ticket ID and time received",
+     "Customer first name and channel",
+     "Category and priority",
+     "First reply time and status",
+     "Resolved time and notes"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Finally, the resolved time and a short note of what happened. Every evening, filter for Waiting for us and set reminders.",
+    "Protect the sheet. Share it only with colleagues who need it, and never store bank details or ID numbers in it."
+   ],
+   "panel": {
+    "kicker": "Your tracker",
+    "heading": "Key columns in your ticket sheet",
+    "items": [
+     "Ticket ID and time received",
+     "Customer first name and channel",
+     "Category and priority",
+     "First reply time and status",
+     "Resolved time and notes"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "High priority means money taken but no goods, any safety issue, or a customer who has already chased twice. For example, Ruth logs a customer who paid 23,000 naira two days ago with no delivery. She chases dispatch at once."
+   ],
+   "panel": {
+    "kicker": "Priorities",
+    "heading": "What to handle first",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "High",
+      "d": "Money taken but no goods, safety issues like a skin reaction, a customer who chased twice."
+     },
+     {
+      "t": "Normal",
+      "d": "Wrong item, late delivery inside a reasonable time, most complaints."
+     },
+     {
+      "t": "Low",
+      "d": "General questions, feedback, requests for future products."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Normal priority covers a wrong item, a late delivery within a reasonable time, and most complaints."
+   ],
+   "panel": {
+    "kicker": "Priorities",
+    "heading": "What to handle first",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "High",
+      "d": "Money taken but no goods, safety issues like a skin reaction, a customer who chased twice."
+     },
+     {
+      "t": "Normal",
+      "d": "Wrong item, late delivery inside a reasonable time, most complaints."
+     },
+     {
+      "t": "Low",
+      "d": "General questions, feedback, requests for future products."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Low priority covers general questions and feedback. Answer them, but after the urgent cases."
+   ],
+   "panel": {
+    "kicker": "Priorities",
+    "heading": "What to handle first",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "High",
+      "d": "Money taken but no goods, safety issues like a skin reaction, a customer who chased twice."
+     },
+     {
+      "t": "Normal",
+      "d": "Wrong item, late delivery inside a reasonable time, most complaints."
+     },
+     {
+      "t": "Low",
+      "d": "General questions, feedback, requests for future products."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_map",
+   "say": [
+    "If a customer reports a skin reaction, illness after food, or a shock from a device, treat it as High priority."
+   ],
+   "panel": {
+    "kicker": "Safety first",
+    "heading": "When a customer reports harm",
+    "items": [
+     "Treat it as High priority",
+     "Express concern; do not argue",
+     "Advise: stop using it, seek medical help",
+     "Ask for product name, batch number, photos",
+     "Escalate to the owner immediately"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_map",
+   "say": [
+    "Express concern. Never say, nobody else has complained."
+   ],
+   "panel": {
+    "kicker": "Safety first",
+    "heading": "When a customer reports harm",
+    "items": [
+     "Treat it as High priority",
+     "Express concern; do not argue",
+     "Advise: stop using it, seek medical help",
+     "Ask for product name, batch number, photos",
+     "Escalate to the owner immediately"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_map",
+   "say": [
+    "Advise her to stop using the product and to see a doctor or pharmacist if she has symptoms."
+   ],
+   "panel": {
+    "kicker": "Safety first",
+    "heading": "When a customer reports harm",
+    "items": [
+     "Treat it as High priority",
+     "Express concern; do not argue",
+     "Advise: stop using it, seek medical help",
+     "Ask for product name, batch number, photos",
+     "Escalate to the owner immediately"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Ask for the product name, batch number and photos."
+   ],
+   "panel": {
+    "kicker": "Safety first",
+    "heading": "When a customer reports harm",
+    "items": [
+     "Treat it as High priority",
+     "Express concern; do not argue",
+     "Advise: stop using it, seek medical help",
+     "Ask for product name, batch number, photos",
+     "Escalate to the owner immediately"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Escalate to the owner immediately. Food, drugs and cosmetics fall under NAFDAC, and the owner may need to act on the batch."
+   ],
+   "panel": {
+    "kicker": "Safety first",
+    "heading": "When a customer reports harm",
+    "items": [
+     "Treat it as High priority",
+     "Express concern; do not argue",
+     "Advise: stop using it, seek medical help",
+     "Ask for product name, batch number, photos",
+     "Escalate to the owner immediately"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Remember, you give no medical advice and suggest no treatments."
+   ],
+   "panel": {
+    "kicker": "Safety first",
+    "heading": "When a customer reports harm",
+    "items": [
+     "Treat it as High priority",
+     "Express concern; do not argue",
+     "Advise: stop using it, seek medical help",
+     "Ask for product name, batch number, photos",
+     "Escalate to the owner immediately"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "You are not a health professional. Do not suggest treatments.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Customers trust a business that keeps its word. So do not promise what you cannot control, do not hide known problems, and never make up a reason."
+   ],
+   "panel": {
+    "kicker": "Honesty",
+    "heading": "Honest support, every time",
+    "mode": "compare",
+    "left_h": "Dishonest",
+    "left": [
+     "It will definitely arrive Thursday",
+     "Hiding a known delay",
+     "Pressure to delete complaints",
+     "An invented reason"
+    ],
+    "right_h": "Honest",
+    "right": [
+     "The courier estimates Thursday",
+     "Tell waiting customers first",
+     "Fix the problem instead",
+     "I will update you by 2 pm"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Say the courier estimates Thursday. Tell waiting customers about a delay before they chase you. And when you do not know, say: I will find out and update you by 2 pm."
+   ],
+   "panel": {
+    "kicker": "Honesty",
+    "heading": "Honest support, every time",
+    "mode": "compare",
+    "left_h": "Dishonest",
+    "left": [
+     "It will definitely arrive Thursday",
+     "Hiding a known delay",
+     "Pressure to delete complaints",
+     "An invented reason"
+    ],
+    "right_h": "Honest",
+    "right": [
+     "The courier estimates Thursday",
+     "Tell waiting customers first",
+     "Fix the problem instead",
+     "I will update you by 2 pm"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "First response time is how long customers wait for the first human reply. Ada logs 5 tickets. The waits are 7, 25, 6, 48 and 14 minutes."
+   ],
+   "panel": {
+    "kicker": "Metrics",
+    "heading": "First response time, worked out",
+    "items": [
+     "For each ticket: first reply minus time received",
+     "Add all the waiting times",
+     "Divide by the number of tickets",
+     "Check the longest wait too"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Added together, that is 100 minutes."
+   ],
+   "panel": {
+    "kicker": "Metrics",
+    "heading": "First response time, worked out",
+    "items": [
+     "For each ticket: first reply minus time received",
+     "Add all the waiting times",
+     "Divide by the number of tickets",
+     "Check the longest wait too"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Divide by 5 tickets, and her average is 20 minutes."
+   ],
+   "panel": {
+    "kicker": "Metrics",
+    "heading": "First response time, worked out",
+    "items": [
+     "For each ticket: first reply minus time received",
+     "Add all the waiting times",
+     "Divide by the number of tickets",
+     "Check the longest wait too"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_map",
+   "say": [
+    "An average can hide problems. One ticket waited 48 minutes, while Ada was in a meeting. So she plans to check chats between meetings."
+   ],
+   "panel": {
+    "kicker": "Metrics",
+    "heading": "First response time, worked out",
+    "items": [
+     "For each ticket: first reply minus time received",
+     "Add all the waiting times",
+     "Divide by the number of tickets",
+     "Check the longest wait too"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_map",
+   "say": [
+    "Only a real person's reply counts as a first response."
+   ],
+   "panel": {
+    "kicker": "Metrics",
+    "heading": "First response time, worked out",
+    "items": [
+     "For each ticket: first reply minus time received",
+     "Add all the waiting times",
+     "Divide by the number of tickets",
+     "Check the longest wait too"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Automatic greeting and away messages do not count.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Resolution rate is resolved tickets divided by tickets received, times 100. Ada resolved 72 of 80, so 90%."
+   ],
+   "panel": {
+    "kicker": "Metrics",
+    "heading": "Ada's week in three numbers",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Resolution rate 90%",
+      "d": "72 resolved out of 80 received, times 100."
+     },
+     {
+      "t": "First contact 62.5%",
+      "d": "45 solved in the first reply, out of 72 resolved."
+     },
+     {
+      "t": "CSAT 85%",
+      "d": "34 customers gave 4 or 5, out of 40 responses."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "First contact resolution is the share solved in the first reply. 45 of 72 gives 62.5%."
+   ],
+   "panel": {
+    "kicker": "Metrics",
+    "heading": "Ada's week in three numbers",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Resolution rate 90%",
+      "d": "72 resolved out of 80 received, times 100."
+     },
+     {
+      "t": "First contact 62.5%",
+      "d": "45 solved in the first reply, out of 72 resolved."
+     },
+     {
+      "t": "CSAT 85%",
+      "d": "34 customers gave 4 or 5, out of 40 responses."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "CSAT, customer satisfaction, is happy ratings divided by all responses. 34 of 40 gave 4 or 5, so 85%. Always say how many customers answered.",
+    "And never close tickets too quickly just to raise a number. That lowers satisfaction."
+   ],
+   "panel": {
+    "kicker": "Metrics",
+    "heading": "Ada's week in three numbers",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Resolution rate 90%",
+      "d": "72 resolved out of 80 received, times 100."
+     },
+     {
+      "t": "First contact 62.5%",
+      "d": "45 solved in the first reply, out of 72 resolved."
+     },
+     {
+      "t": "CSAT 85%",
+      "d": "34 customers gave 4 or 5, out of 40 responses."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "To remember. Log every request as a ticket. Money and safety come first. For any harm, advise stopping use and escalate at once.",
+    "Build your FAQs from your most common categories. And end every half-page weekly report with one action."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "Log every request as a ticket",
+     "High priority: money, safety, chased twice",
+     "Safety complaint: stop use, escalate, no medical advice",
+     "Build FAQs from your top ticket categories",
+     "Every weekly report ends with one action"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Your turn. Build your tracker and log at least 10 tickets. Write a one-page policy, three FAQ answers and three escalation levels. Then calculate your metrics and write a half-page report with one action.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice tasks",
+    "heading": "Your practice tasks",
+    "items": [
+     "Build a tracker and log at least 10 tickets",
+     "Write a one-page policy and three FAQs",
+     "Write three escalation levels",
+     "Calculate your metrics and write a report"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

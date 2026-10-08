@@ -1,0 +1,485 @@
+{
+ "course": "core-data-literacy",
+ "module": "m2",
+ "title": "Tidy tables, working formulas and honest charts",
+ "course_title": "Data Literacy: Spreadsheets, Charts and Business Metrics",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Tidy tables, working formulas and honest charts.",
+    "This is the video for module 2 of Data Literacy."
+   ]
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Most spreadsheet problems start with layout, not formulas. If the table is arranged well, every calculation takes seconds."
+   ],
+   "panel": {
+    "kicker": "What you will do",
+    "heading": "From a blank sheet to a clear chart",
+    "items": [
+     "Lay out a tidy sales log",
+     "Let formulas do the arithmetic",
+     "Summarise hundreds of rows by category",
+     "Choose and read charts correctly"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Then you let formulas do the adding, and turn a whole month of rows into a short table that answers a question."
+   ],
+   "panel": {
+    "kicker": "What you will do",
+    "heading": "From a blank sheet to a clear chart",
+    "items": [
+     "Lay out a tidy sales log",
+     "Let formulas do the arithmetic",
+     "Summarise hundreds of rows by category",
+     "Choose and read charts correctly"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Finally you choose a chart that matches your question, and label it honestly."
+   ],
+   "panel": {
+    "kicker": "What you will do",
+    "heading": "From a blank sheet to a clear chart",
+    "items": [
+     "Lay out a tidy sales log",
+     "Let formulas do the arithmetic",
+     "Summarise hundreds of rows by category",
+     "Choose and read charts correctly"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Each sale gets its own row. And each fact gets its own column. Do not write 3 bags rice in one cell. Split it into Quantity 3 and Item Rice."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "The tidy data rules",
+    "items": [
+     "One row for each sale, payment or order",
+     "One column for each fact: date, item, qty",
+     "One header row at the top",
+     "No merged cells, blank rows or mid totals",
+     "Same spelling and date style every time"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "rule": "One row per record. One column per variable.",
+    "showRule": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Put short, clear headings in row 1, such as Date, Item, Qty, Unit price, Amount and Payment."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "The tidy data rules",
+    "items": [
+     "One row for each sale, payment or order",
+     "One column for each fact: date, item, qty",
+     "One header row at the top",
+     "No merged cells, blank rows or mid totals",
+     "Same spelling and date style every time"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "One row per record. One column per variable.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Keep totals in a separate area. Always write Rice the same way, and type amounts as plain numbers, without the naira sign or k. Text is left out of totals."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "The tidy data rules",
+    "items": [
+     "One row for each sale, payment or order",
+     "One column for each fact: date, item, qty",
+     "One header row at the top",
+     "No merged cells, blank rows or mid totals",
+     "Same spelling and date style every time"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "One row per record. One column per variable.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Every formula starts with an equals sign. For example, Chioma sells foodstuff in Onitsha main market. Garri: 6 buckets at 2,500 naira. Her formula, C4 times D4, gives 15,000.",
+    "She copies the formula down the column, and each row adjusts by itself."
+   ],
+   "panel": {
+    "kicker": "First formulas",
+    "heading": "Formulas that do the work",
+    "items": [
+     "=C2*D2 multiplies quantity by unit price",
+     "=SUM(E2:E31) adds every amount",
+     "=AVERAGE and =MEDIAN for a typical sale",
+     "=COUNT counts the sales recorded",
+     "=MAX and =MIN find biggest and smallest"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "SUM adds a whole range of cells, from top to bottom."
+   ],
+   "panel": {
+    "kicker": "First formulas",
+    "heading": "Formulas that do the work",
+    "items": [
+     "=C2*D2 multiplies quantity by unit price",
+     "=SUM(E2:E31) adds every amount",
+     "=AVERAGE and =MEDIAN for a typical sale",
+     "=COUNT counts the sales recorded",
+     "=MAX and =MIN find biggest and smallest"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "AVERAGE, MEDIAN, COUNT, MAX and MIN answer most first questions.",
+    "Every time Chioma adds a sale, her totals update. No more adding up the notebook at night, and no arithmetic slips."
+   ],
+   "panel": {
+    "kicker": "First formulas",
+    "heading": "Formulas that do the work",
+    "items": [
+     "=C2*D2 multiplies quantity by unit price",
+     "=SUM(E2:E31) adds every amount",
+     "=AVERAGE and =MEDIAN for a typical sale",
+     "=COUNT counts the sales recorded",
+     "=MAX and =MIN find biggest and smallest"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "A month can have hundreds of rows. Nobody sees a pattern by scrolling. SUMIF adds up only the rows that match a condition, such as the word Rice."
+   ],
+   "card": {
+    "title": "Where does Ada's money come from?",
+    "rows": [],
+    "note": "Totals by item using SUMIF."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Ada lists each item and uses SUMIF beside it. Rice brings in 180,000 naira. That is 180,000 divided by 400,000, times 100, which is 45%."
+   ],
+   "card": {
+    "title": "Where does Ada's money come from?",
+    "rows": [
+     [
+      "Rice",
+      "180,000"
+     ],
+     [
+      "Beans",
+      "72,000"
+     ],
+     [
+      "Palm oil",
+      "60,000"
+     ],
+     [
+      "Garri",
+      "48,000"
+     ],
+     [
+      "Others",
+      "40,000"
+     ]
+    ],
+    "note": "Totals by item using SUMIF."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Her items add up to 400,000, the same as the SUM of every amount, and her shares add to 100%. Always run this check. If it does not match, some rows are spelled differently.",
+    "Rice is almost half her sales, so she keeps at least two bags in stock."
+   ],
+   "card": {
+    "title": "Where does Ada's money come from?",
+    "rows": [
+     [
+      "Rice",
+      "180,000"
+     ],
+     [
+      "Beans",
+      "72,000"
+     ],
+     [
+      "Palm oil",
+      "60,000"
+     ],
+     [
+      "Garri",
+      "48,000"
+     ],
+     [
+      "Others",
+      "40,000"
+     ]
+    ],
+    "note": "Totals by item using SUMIF."
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "COUNTIF counts the rows that match. Ada finds 120 transfers, 70 cash and 30 POS, and checks they add to 220."
+   ],
+   "panel": {
+    "kicker": "Summarising",
+    "heading": "Count, add, then check",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "COUNTIF counts",
+      "d": "Counts rows that match. Ada: 120 transfers, 70 cash, 30 POS, which is 220 sales."
+     },
+     {
+      "t": "Share of total",
+      "d": "Category divided by total, times 100. Transfers are about 54.5% of Ada's payments."
+     },
+     {
+      "t": "Act safely",
+      "d": "With so many transfers, she shows her account details and checks every alert in her bank app."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "120 divided by 220, times 100, is about 54.5%. More than half her customers pay by transfer."
+   ],
+   "panel": {
+    "kicker": "Summarising",
+    "heading": "Count, add, then check",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "COUNTIF counts",
+      "d": "Counts rows that match. Ada: 120 transfers, 70 cash, 30 POS, which is 220 sales."
+     },
+     {
+      "t": "Share of total",
+      "d": "Category divided by total, times 100. Transfers are about 54.5% of Ada's payments."
+     },
+     {
+      "t": "Act safely",
+      "d": "With so many transfers, she shows her account details and checks every alert in her bank app."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "So she prints her account details clearly, and checks every alert in her bank app before releasing goods. A good summary leads to a decision."
+   ],
+   "panel": {
+    "kicker": "Summarising",
+    "heading": "Count, add, then check",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "COUNTIF counts",
+      "d": "Counts rows that match. Ada: 120 transfers, 70 cash, 30 POS, which is 220 sales."
+     },
+     {
+      "t": "Share of total",
+      "d": "Category divided by total, times 100. Transfers are about 54.5% of Ada's payments."
+     },
+     {
+      "t": "Act safely",
+      "d": "With so many transfers, she shows her account details and checks every alert in her bank app."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Bars compare categories. Lines show change over time. For example, Ruth sells small chops in Port Harcourt. Her six weeks total 356,000 naira, a mean of about 59,333, so she uses a line chart."
+   ],
+   "panel": {
+    "kicker": "Charts",
+    "heading": "Match the chart to the question",
+    "items": [
+     "Which sells most? Bar or column chart",
+     "Change over time? Line chart",
+     "Share of a whole? Pie, 2 to 5 slices only",
+     "Link between two measures? Scatter chart",
+     "Exact figures needed? A small table"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Week 4 to Week 5 grew about 14.8%, then fell about 5.7%. She adds a note that Week 3 had heavy rain. Her title says what it shows: weekly sales trending up, Weeks 1 to 6, in naira."
+   ],
+   "panel": {
+    "kicker": "Charts",
+    "heading": "Match the chart to the question",
+    "items": [
+     "Which sells most? Bar or column chart",
+     "Change over time? Line chart",
+     "Share of a whole? Pie, 2 to 5 slices only",
+     "Link between two measures? Scatter chart",
+     "Exact figures needed? A small table"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Use a pie only for a few parts, and a table when someone needs exact numbers."
+   ],
+   "panel": {
+    "kicker": "Charts",
+    "heading": "Match the chart to the question",
+    "items": [
+     "Which sells most? Bar or column chart",
+     "Change over time? Line chart",
+     "Share of a whole? Pie, 2 to 5 slices only",
+     "Link between two measures? Scatter chart",
+     "Exact figures needed? A small table"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Read every chart from the outside in. Sales 70 could mean 70 bottles or 70,000 naira, so check units. On a bar chart, the value axis should start at zero, otherwise small differences look huge.",
+    "Then show your chart to one person. If she cannot state the message in one sentence, improve it."
+   ],
+   "panel": {
+    "kicker": "Read with care",
+    "heading": "Five checks when reading any chart",
+    "items": [
+     "What does the title claim?",
+     "What do the axes measure?",
+     "What are the units?",
+     "Does the scale start at zero?",
+     "Who made it, from what data?"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "To remember. Keep your table tidy. Let formulas do the work. Summarise by category and always check it adds up. And choose an honest chart with a clear title and units."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "One row per record, one column per variable",
+     "Formulas start with = and update themselves",
+     "SUMIF adds by category; COUNTIF counts",
+     "Category totals must match the overall SUM",
+     "Bars compare, lines show time, pies stay small"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Your turn. Build your own log, summarise it, and make a chart someone else can understand in one sentence.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice tasks",
+    "heading": "Your practice tasks",
+    "items": [
+     "Build a tidy log with at least 15 records",
+     "Summarise it with SUMIF and COUNTIF",
+     "Check your shares add to 100%",
+     "Make a chart and test it on one person"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

@@ -1,0 +1,581 @@
+{
+ "course": "power-bi-tableau",
+ "module": "m2",
+ "title": "Clean it, lay it out, then check every number",
+ "course_title": "Power BI and Tableau: Interactive Business Dashboards",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Clean it, lay it out, then check every number.",
+    "This is the video for module two of Power BI and Tableau: building, testing and delivering dashboards."
+   ]
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Experienced analysts say most of a dashboard project is spent preparing data. Exports arrive with title rows, mixed spellings, blank rows and numbers stored as text."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Most of the work is not the charts",
+    "items": [
+     "Real exports arrive messy",
+     "Clean with steps that repeat every month",
+     "Sketch a wireframe before you build",
+     "One wrong number loses all trust"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "You will learn to clean data in a way that repeats itself automatically every month."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Most of the work is not the charts",
+    "items": [
+     "Real exports arrive messy",
+     "Clean with steps that repeat every month",
+     "Sketch a wireframe before you build",
+     "One wrong number loses all trust"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Then you sketch the layout before you touch the tool."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Most of the work is not the charts",
+    "items": [
+     "Real exports arrive messy",
+     "Clean with steps that repeat every month",
+     "Sketch a wireframe before you build",
+     "One wrong number loses all trust"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "And you check every number, because a dashboard that shows one wrong number loses the viewer's trust in every other number on it."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Most of the work is not the charts",
+    "items": [
+     "Real exports arrive messy",
+     "Clean with steps that repeat every month",
+     "Sketch a wireframe before you build",
+     "One wrong number loses all trust"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "In Power BI, open the Power Query editor. Every change is recorded in Applied Steps, and runs again when you click Refresh. In Tableau, use the Data Source page and the Data Interpreter.",
+    "First, remove title rows and blank rows."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "The standard cleaning checklist",
+    "items": [
+     "Remove title and blank rows",
+     "Promote headers, set data types",
+     "Trim spaces, fix spellings",
+     "Remove true duplicates",
+     "Unpivot month columns",
+     "Check row count and totals"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Use the first row as headers, and set each column's data type, so amounts are numbers, not text."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "The standard cleaning checklist",
+    "items": [
+     "Remove title and blank rows",
+     "Promote headers, set data types",
+     "Trim spaces, fix spellings",
+     "Remove true duplicates",
+     "Unpivot month columns",
+     "Check row count and totals"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Trim spaces and fix spellings, so Abuja, ABUJA and Abj become one value."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "The standard cleaning checklist",
+    "items": [
+     "Remove title and blank rows",
+     "Promote headers, set data types",
+     "Trim spaces, fix spellings",
+     "Remove true duplicates",
+     "Unpivot month columns",
+     "Check row count and totals"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Remove true duplicates, such as the same invoice line exported twice."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "The standard cleaning checklist",
+    "items": [
+     "Remove title and blank rows",
+     "Promote headers, set data types",
+     "Trim spaces, fix spellings",
+     "Remove true duplicates",
+     "Unpivot month columns",
+     "Check row count and totals"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Unpivot month columns into rows, so viewers can filter by month. For example, Tunde turned 40 categories by 12 month columns into 480 rows."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "The standard cleaning checklist",
+    "items": [
+     "Remove title and blank rows",
+     "Promote headers, set data types",
+     "Trim spaces, fix spellings",
+     "Remove true duplicates",
+     "Unpivot month columns",
+     "Check row count and totals"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Then check. Tunde's editor showed 480 rows, and the grand total still matched the original sheet, so nothing was lost.",
+    "The rule: never fix the raw file by hand. Next month the same problems return. Keep raw files untouched and let recorded steps do the cleaning."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "The standard cleaning checklist",
+    "items": [
+     "Remove title and blank rows",
+     "Promote headers, set data types",
+     "Trim spaces, fix spellings",
+     "Remove true duplicates",
+     "Unpivot month columns",
+     "Check row count and totals"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "rule": "Never clean the raw file by hand. Let recorded steps do it.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Customer names, phone numbers and account details fall under the Nigeria Data Protection Act 2023.",
+    "If a column is not needed to answer the dashboard questions, remove it in your very first cleaning step."
+   ],
+   "panel": {
+    "kicker": "Safety first",
+    "heading": "Protect personal data from the start",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Remove unneeded columns",
+      "d": "If a column does not answer a dashboard question, remove it in your first cleaning step."
+     },
+     {
+      "t": "Not on Tableau Public",
+      "d": "Never upload files with personal data to Tableau Public. Everything saved there is public."
+     },
+     {
+      "t": "Keep exports private",
+      "d": "Do not email raw exports through personal accounts."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Never upload files containing personal data to Tableau Public, because everything saved there can be seen by anyone."
+   ],
+   "panel": {
+    "kicker": "Safety first",
+    "heading": "Protect personal data from the start",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Remove unneeded columns",
+      "d": "If a column does not answer a dashboard question, remove it in your first cleaning step."
+     },
+     {
+      "t": "Not on Tableau Public",
+      "d": "Never upload files with personal data to Tableau Public. Everything saved there is public."
+     },
+     {
+      "t": "Keep exports private",
+      "d": "Do not email raw exports through personal accounts."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "And do not email raw exports through personal accounts."
+   ],
+   "panel": {
+    "kicker": "Safety first",
+    "heading": "Protect personal data from the start",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Remove unneeded columns",
+      "d": "If a column does not answer a dashboard question, remove it in your first cleaning step."
+     },
+     {
+      "t": "Not on Tableau Public",
+      "d": "Never upload files with personal data to Tableau Public. Everything saved there is public."
+     },
+     {
+      "t": "Keep exports private",
+      "d": "Do not email raw exports through personal accounts."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "A wireframe is a rough sketch showing where each card, chart and filter will sit, and which question each one answers. It takes ten minutes and saves hours.",
+    "People scan from the top left, so put the headline numbers, called KPI cards, across the top."
+   ],
+   "panel": {
+    "kicker": "Layout",
+    "heading": "Wireframe first, then build",
+    "items": [
+     "Headline KPI cards across the top",
+     "Main trend or comparison in the middle",
+     "Detail tables at the bottom",
+     "Filters in one consistent place",
+     "Two or three colours only"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Put the main trend or comparison chart in the middle, and detail tables at the bottom."
+   ],
+   "panel": {
+    "kicker": "Layout",
+    "heading": "Wireframe first, then build",
+    "items": [
+     "Headline KPI cards across the top",
+     "Main trend or comparison in the middle",
+     "Detail tables at the bottom",
+     "Filters in one consistent place",
+     "Two or three colours only"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Keep filters in one place, and use two or three colours: a neutral one, a highlight, and red or amber only for real warnings.",
+    "Then show it to someone for five seconds. If they cannot tell you the main message, simplify."
+   ],
+   "panel": {
+    "kicker": "Layout",
+    "heading": "Wireframe first, then build",
+    "items": [
+     "Headline KPI cards across the top",
+     "Main trend or comparison in the middle",
+     "Detail tables at the bottom",
+     "Filters in one consistent place",
+     "Two or three colours only"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "To compare branches, use a sorted horizontal bar chart. For a trend over months, a line chart. For actual against target, a bar with a target line. For exact values, a table."
+   ],
+   "panel": {
+    "kicker": "Chart choice",
+    "heading": "Match the chart to the question",
+    "mode": "compare",
+    "left_h": "Good choice",
+    "left": [
+     "Compare: sorted horizontal bar",
+     "Trend: line chart, months in order",
+     "Target: bar with a target line",
+     "Exact values: table or matrix"
+    ],
+    "right_h": "Avoid",
+    "right": [
+     "3D bars",
+     "Pies with many tiny slices",
+     "Gauges showing one number",
+     "Maps used just for decoration"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Avoid 3D bars, pie charts with many tiny slices, gauges that take space to show one number, and maps used just for decoration."
+   ],
+   "panel": {
+    "kicker": "Chart choice",
+    "heading": "Match the chart to the question",
+    "mode": "compare",
+    "left_h": "Good choice",
+    "left": [
+     "Compare: sorted horizontal bar",
+     "Trend: line chart, months in order",
+     "Target: bar with a target line",
+     "Exact values: table or matrix"
+    ],
+    "right_h": "Avoid",
+    "right": [
+     "3D bars",
+     "Pies with many tiny slices",
+     "Gauges showing one number",
+     "Maps used just for decoration"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Reconciliation means comparing your totals with a trusted figure, such as the accounting system. Check the grand total, one branch and one month."
+   ],
+   "card": {
+    "title": "Finding a 450,000 naira difference",
+    "rows": [],
+    "note": null
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Ngozi's dashboard shows 48,350,000 naira for June. Finance shows 47,900,000. The dashboard is 450,000 naira too high.",
+    "She filters branch by branch. Only Port Harcourt is off."
+   ],
+   "card": {
+    "title": "Finding a 450,000 naira difference",
+    "rows": [
+     [
+      "Dashboard total, June",
+      "48,350,000"
+     ],
+     [
+      "Finance ledger, June",
+      "47,900,000"
+     ],
+     [
+      "Difference, all Port Harcourt",
+      "450,000"
+     ]
+    ],
+    "note": null
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Sorting its invoices, she finds three invoices each appearing twice, each worth 150,000 naira. Three times 150,000 is exactly 450,000. The branch had exported twice."
+   ],
+   "card": {
+    "title": "Finding a 450,000 naira difference",
+    "rows": [
+     [
+      "Dashboard total, June",
+      "48,350,000"
+     ],
+     [
+      "Finance ledger, June",
+      "47,900,000"
+     ],
+     [
+      "Difference, all Port Harcourt",
+      "450,000"
+     ],
+     [
+      "Each duplicated invoice (3)",
+      "150,000"
+     ]
+    ],
+    "note": null
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "She adds a Remove Duplicates step, refreshes, and the total becomes 47,900,000 naira. It now matches finance.",
+    "Every difference must be explained, not ignored."
+   ],
+   "card": {
+    "title": "Finding a 450,000 naira difference",
+    "rows": [
+     [
+      "Dashboard total, June",
+      "48,350,000"
+     ],
+     [
+      "Finance ledger, June",
+      "47,900,000"
+     ],
+     [
+      "Difference, all Port Harcourt",
+      "450,000"
+     ],
+     [
+      "Each duplicated invoice (3)",
+      "150,000"
+     ]
+    ],
+    "note": null
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Run these honest chart checks. A bar axis that starts at 40 million naira instead of zero can make a small difference look huge.",
+    "Bars start at zero. Compared charts share a scale. Months in order. Units on every axis. And if amber means below target, it means only that."
+   ],
+   "panel": {
+    "kicker": "Before you share",
+    "heading": "Honest chart checks",
+    "items": [
+     "Bar axes start at zero",
+     "Same scale on compared charts",
+     "Months in calendar order",
+     "Units shown on every axis",
+     "Colour means one thing"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "To remember. Keep raw files untouched and let recorded steps clean. Check row counts and totals. Remove personal data you do not need.",
+    "Put headlines on top and detail below. And reconcile your totals, explaining every difference."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "Keep raw files untouched; recorded steps clean",
+     "Check row counts and totals after each step",
+     "Remove personal data you do not need, first",
+     "Headline on top, detail at the bottom",
+     "Reconcile and explain every difference"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Now practise. Clean one messy file end to end, wireframe and build one dashboard page, and run a full quality check, recorded in a QA log.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice task",
+    "heading": "Your practice tasks",
+    "items": [
+     "Clean one messy file end to end",
+     "Wireframe and build one dashboard page",
+     "Run a full QA pass with a QA log"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

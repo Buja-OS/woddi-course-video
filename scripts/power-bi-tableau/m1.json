@@ -1,0 +1,568 @@
+{
+ "course": "power-bi-tableau",
+ "module": "m1",
+ "title": "Start with the question, shape the data, trust the numbers",
+ "course_title": "Power BI and Tableau: Interactive Business Dashboards",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Start with the question, shape the data, and trust the numbers.",
+    "This is the video for module one of Power BI and Tableau: how BI tools think about data."
+   ]
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "A dashboard is a single screen that answers a few important business questions at a glance, joining charts, headline numbers and filters."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "What a dashboard really does",
+    "items": [
+     "One screen, a few important questions",
+     "Click to explore the answer further",
+     "Power BI and Tableau share most thinking",
+     "Good models and measures make it trustworthy"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "The viewer can click to explore, and see what is happening, where, and why, in under a minute."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "What a dashboard really does",
+    "items": [
+     "One screen, a few important questions",
+     "Click to explore the answer further",
+     "Power BI and Tableau share most thinking",
+     "Good models and measures make it trustworthy"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Power BI and Tableau are the two tools most named in data analyst job adverts. Learn one well, and about two thirds of the thinking carries over."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "What a dashboard really does",
+    "items": [
+     "One screen, a few important questions",
+     "Click to explore the answer further",
+     "Power BI and Tableau share most thinking",
+     "Good models and measures make it trustworthy"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "This module teaches what separates a professional dashboard from a pretty spreadsheet: a sound data model and correct measures."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "What a dashboard really does",
+    "items": [
+     "One screen, a few important questions",
+     "Click to explore the answer further",
+     "Power BI and Tableau share most thinking",
+     "Good models and measures make it trustworthy"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "First, decide which kind of dashboard you are building, because it decides almost everything else.",
+    "A strategic dashboard is for directors. A few headline numbers, usually checked monthly."
+   ],
+   "panel": {
+    "kicker": "Know your audience",
+    "heading": "The three kinds of dashboard",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Strategic",
+      "d": "For directors and boards. A few headline numbers like revenue and margin, usually checked monthly."
+     },
+     {
+      "t": "Operational",
+      "d": "For supervisors running daily work. Today's orders, low stock, late deliveries. Checked daily or hourly."
+     },
+     {
+      "t": "Analytical",
+      "d": "For analysts asking why. More filters, drill-downs and detail tables to investigate a problem."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "An operational dashboard is for supervisors running daily work, such as today's orders and late deliveries. It is checked daily or even hourly."
+   ],
+   "panel": {
+    "kicker": "Know your audience",
+    "heading": "The three kinds of dashboard",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Strategic",
+      "d": "For directors and boards. A few headline numbers like revenue and margin, usually checked monthly."
+     },
+     {
+      "t": "Operational",
+      "d": "For supervisors running daily work. Today's orders, low stock, late deliveries. Checked daily or hourly."
+     },
+     {
+      "t": "Analytical",
+      "d": "For analysts asking why. More filters, drill-downs and detail tables to investigate a problem."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "An analytical dashboard is for people asking why, so it has more filters, drill-downs and detail."
+   ],
+   "panel": {
+    "kicker": "Know your audience",
+    "heading": "The three kinds of dashboard",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Strategic",
+      "d": "For directors and boards. A few headline numbers like revenue and margin, usually checked monthly."
+     },
+     {
+      "t": "Operational",
+      "d": "For supervisors running daily work. Today's orders, low stock, late deliveries. Checked daily or hourly."
+     },
+     {
+      "t": "Analytical",
+      "d": "For analysts asking why. More filters, drill-downs and detail tables to investigate a problem."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Professionals start with a short written brief, not with the tool.",
+    "For example, Ngozi spent about two days a month on a 20-page report that her managing director rarely read past page 3. So she asked him what he actually checks."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Write the brief before you build",
+    "items": [
+     "Ask the user what they actually check",
+     "Turn that into three dashboard questions",
+     "Note the audience and how often they view",
+     "List the data each question needs"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "She turned his answer into three questions. Are we on target? Which branch is furthest behind? Which categories have fallen compared with last year?"
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Write the brief before you build",
+    "items": [
+     "Ask the user what they actually check",
+     "Turn that into three dashboard questions",
+     "Note the audience and how often they view",
+     "List the data each question needs"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "She noted the audience: one director, viewing monthly, mostly on his phone. That makes it a strategic dashboard with few filters."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Write the brief before you build",
+    "items": [
+     "Ask the user what they actually check",
+     "Turn that into three dashboard questions",
+     "Note the audience and how often they view",
+     "List the data each question needs"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Then she listed the data needed, including at least 13 months of history, so that same month last year exists.",
+    "Here is the rule. Every visual you add must answer one of your questions. If it answers none, it does not go on the page."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Write the brief before you build",
+    "items": [
+     "Ask the user what they actually check",
+     "Turn that into three dashboard questions",
+     "Note the audience and how often they view",
+     "List the data each question needs"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Every visual must answer a question. If it answers none, leave it out.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Most business data arrives as one wide sheet, which gets huge and slow in a BI tool. So you split it into a star schema.",
+    "A fact table records events you count or add up, such as each sale line."
+   ],
+   "panel": {
+    "kicker": "The star schema",
+    "heading": "Fact tables and dimension tables",
+    "mode": "compare",
+    "left_h": "Fact table",
+    "left": [
+     "Events you count or add up",
+     "Long: many rows",
+     "Mostly numbers and ID codes",
+     "Example: each sale line"
+    ],
+    "right_h": "Dimension table",
+    "right": [
+     "Describes the things involved",
+     "Short: few rows",
+     "Text you filter and group by",
+     "Example: branches, products, dates"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "A dimension table describes the things involved: branches, products, customers and dates.",
+    "In Ngozi's model, the branch name used to be stored 18,000 times. Now it is stored 4 times."
+   ],
+   "panel": {
+    "kicker": "The star schema",
+    "heading": "Fact tables and dimension tables",
+    "mode": "compare",
+    "left_h": "Fact table",
+    "left": [
+     "Events you count or add up",
+     "Long: many rows",
+     "Mostly numbers and ID codes",
+     "Example: each sale line"
+    ],
+    "right_h": "Dimension table",
+    "right": [
+     "Describes the things involved",
+     "Short: few rows",
+     "Text you filter and group by",
+     "Example: branches, products, dates"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Write down the grain: what one row of the fact table means, such as one product on one invoice. Mixing grains causes double counting."
+   ],
+   "panel": {
+    "kicker": "Model rules",
+    "heading": "Five rules for a sound model",
+    "items": [
+     "Write down the grain of the fact table",
+     "Keep every dimension key unique",
+     "One-to-many, single direction filters",
+     "Build a complete date table",
+     "Keep targets in their own small table"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Keep every dimension key unique. If product code P-104 appears twice with two spellings, its sales can be counted twice."
+   ],
+   "panel": {
+    "kicker": "Model rules",
+    "heading": "Five rules for a sound model",
+    "items": [
+     "Write down the grain of the fact table",
+     "Keep every dimension key unique",
+     "One-to-many, single direction filters",
+     "Build a complete date table",
+     "Keep targets in their own small table"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Link each dimension to the fact table with a one-to-many relationship, and keep the filter direction single, so filters flow from dimensions down to facts."
+   ],
+   "panel": {
+    "kicker": "Model rules",
+    "heading": "Five rules for a sound model",
+    "items": [
+     "Write down the grain of the fact table",
+     "Keep every dimension key unique",
+     "One-to-many, single direction filters",
+     "Build a complete date table",
+     "Keep targets in their own small table"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Comparisons like year to date need a date table with every date and no gaps."
+   ],
+   "panel": {
+    "kicker": "Model rules",
+    "heading": "Five rules for a sound model",
+    "items": [
+     "Write down the grain of the fact table",
+     "Keep every dimension key unique",
+     "One-to-many, single direction filters",
+     "Build a complete date table",
+     "Keep targets in their own small table"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "And keep targets in their own table. Pasting the monthly target onto every sales row multiplies it by the number of invoices."
+   ],
+   "panel": {
+    "kicker": "Model rules",
+    "heading": "Five rules for a sound model",
+    "items": [
+     "Write down the grain of the fact table",
+     "Keep every dimension key unique",
+     "One-to-many, single direction filters",
+     "Build a complete date table",
+     "Keep targets in their own small table"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "A calculated column is worked out once, row by row, when the data loads. Use it to group or filter, like a price band per product."
+   ],
+   "panel": {
+    "kicker": "Calculations",
+    "heading": "Calculated column or measure?",
+    "mode": "compare",
+    "left_h": "Calculated column",
+    "left": [
+     "Computed once per row",
+     "Stored in the table",
+     "Use to group or filter"
+    ],
+    "right_h": "Measure",
+    "right": [
+     "Computed when a visual asks",
+     "Responds to every filter",
+     "Use for totals and ratios"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "A measure is calculated when a visual asks for it, so it responds to every filter. Use measures for totals and ratios, like profit margin."
+   ],
+   "panel": {
+    "kicker": "Calculations",
+    "heading": "Calculated column or measure?",
+    "mode": "compare",
+    "left_h": "Calculated column",
+    "left": [
+     "Computed once per row",
+     "Stored in the table",
+     "Use to group or filter"
+    ],
+    "right_h": "Measure",
+    "right": [
+     "Computed when a visual asks",
+     "Responds to every filter",
+     "Use for totals and ratios"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Here is the most common calculation mistake. Ngozi's director asks for the combined profit margin of two branches."
+   ],
+   "card": {
+    "title": "The average-of-ratios mistake",
+    "rows": [],
+    "note": "Right: 900,000 ÷ 5,000,000 = 18%, not 22.5%"
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Lagos sold 4,000,000 naira with 600,000 naira profit. That is a 15% margin."
+   ],
+   "card": {
+    "title": "The average-of-ratios mistake",
+    "rows": [
+     [
+      "Lagos sales",
+      "4,000,000"
+     ],
+     [
+      "Lagos profit",
+      "600,000"
+     ]
+    ],
+    "note": "Right: 900,000 ÷ 5,000,000 = 18%, not 22.5%"
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Kano sold 1,000,000 naira with 300,000 naira profit. That is 30%.",
+    "The wrong method averages the two margins and gets 22.5%.",
+    "The right method adds first, then divides. 900,000 divided by 5,000,000 is 18%.",
+    "Ratios must be sum divided by sum, never an average of ratios. Test every new measure in a plain table with a calculator before you chart it."
+   ],
+   "card": {
+    "title": "The average-of-ratios mistake",
+    "rows": [
+     [
+      "Lagos sales",
+      "4,000,000"
+     ],
+     [
+      "Lagos profit",
+      "600,000"
+     ],
+     [
+      "Kano sales",
+      "1,000,000"
+     ],
+     [
+      "Kano profit",
+      "300,000"
+     ]
+    ],
+    "note": "Right: 900,000 ÷ 5,000,000 = 18%, not 22.5%"
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "To remember. Write your questions and audience down first. Facts hold events, dimensions hold descriptions.",
+    "Keep keys unique and your date table complete. Use measures for anything that must respond to filters, and calculate ratios as sum divided by sum."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "Write questions and audience before you build",
+     "Facts hold events; dimensions hold descriptions",
+     "Unique keys, single direction, full date table",
+     "Measures for anything that must respond to filters",
+     "Ratios: sum divided by sum, never averaged"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Now it is your turn. Write a one-page brief, build a star schema, and build five measures that you check by hand.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice task",
+    "heading": "Your practice tasks",
+    "items": [
+     "Write your first dashboard brief",
+     "Sketch and build a star schema",
+     "Build and check five measures"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

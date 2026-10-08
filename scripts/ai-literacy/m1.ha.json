@@ -1,0 +1,712 @@
+{
+ "course": "ai-literacy",
+ "module": "m1",
+ "title": "Yadda AI ke aiki, da kuma inda yake da aminci don amfani da shi",
+ "course_title": "Ilimin AI: Amfani da AI cikin hikima, amintacce da mahimmanci",
+ "shots": [
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Yadda AI ke aiki, da kuma inda yake da aminci don amfani da shi.",
+    "Wannan shi ne bidiyon don module 1 na AI Literacy."
+   ]
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Kun yi amfani da AI tsawon shekaru. Tacewar spam a Gmail, shawarwarin kalmomin madannai da buɗe fuska duk AI ne."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "AI yana kan wayarka",
+    "items": [
+     "AI ya riga ya kasance a cikin wayarka da apps",
+     "Generative AI yana rubuta sabon rubutu da hotuna",
+     "Amsa tabbatacce ba koyaushe daidai ba ne",
+     "Kuna da alhakin abin da kuka aika"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Tun daga ƙarshen 2022, haɓaka AI ya zama sananne. Yana fitar da sabon rubutu, hotuna ko sauti lokacin da kake buga buƙatu."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "AI yana kan wayarka",
+    "items": [
+     "AI ya riga ya kasance a cikin wayarka da apps",
+     "Generative AI yana rubuta sabon rubutu da hotuna",
+     "Amsa tabbatacce ba koyaushe daidai ba ne",
+     "Kuna da alhakin abin da kuka aika"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "A yau za ku koyi yadda chatbot ke gina amsarsa, da kuma dalilin da yasa wani lokaci yakan haifar da abubuwa."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "AI yana kan wayarka",
+    "items": [
+     "AI ya riga ya kasance a cikin wayarka da apps",
+     "Generative AI yana rubuta sabon rubutu da hotuna",
+     "Amsa tabbatacce ba koyaushe daidai ba ne",
+     "Kuna da alhakin abin da kuka aika"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Kuma za ku koyi gwaji mai sauƙi don inda AI zai iya taimaka muku cikin aminci."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "AI yana kan wayarka",
+    "items": [
+     "AI ya riga ya kasance a cikin wayarka da apps",
+     "Generative AI yana rubuta sabon rubutu da hotuna",
+     "Amsa tabbatacce ba koyaushe daidai ba ne",
+     "Kuna da alhakin abin da kuka aika"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Hasashen AI yana koyon tsari daga bayanan da suka gabata don rarrabewa, maki ko hasashen, kamar faɗakar da zamba ta bankin ku."
+   ],
+   "panel": {
+    "kicker": "Iyalai biyu",
+    "heading": "Hasashen AI da haɓaka AI",
+    "mode": "compare",
+    "left_h": "Hasashen AI",
+    "left": [
+     "Rarraba, maki ko hasashen",
+     "Tace spam",
+     "faɗakarwar zamba daga bankin ku",
+     "Ƙimar zirga-zirga akan taswira"
+    ],
+    "right_h": "Generative AI",
+    "right": [
+     "Yana yin sabon abun ciki daga faɗakarwa",
+     "A chatbot tsara wasiƙa",
+     "Hoton ya juya ya zama zane mai ban dariya",
+     "Muryar AI tana karanta rubutu da ƙarfi"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Generative AI yana samar da sabon abun ciki don amsa buƙatu, wanda ake kira da sauri. Kowannensu ba ya fahimtar duniya yadda mutum yake yi."
+   ],
+   "panel": {
+    "kicker": "Iyalai biyu",
+    "heading": "Hasashen AI da haɓaka AI",
+    "mode": "compare",
+    "left_h": "Hasashen AI",
+    "left": [
+     "Rarraba, maki ko hasashen",
+     "Tace spam",
+     "faɗakarwar zamba daga bankin ku",
+     "Ƙimar zirga-zirga akan taswira"
+    ],
+    "right_h": "Generative AI",
+    "right": [
+     "Yana yin sabon abun ciki daga faɗakarwa",
+     "A chatbot tsara wasiƙa",
+     "Hoton ya juya ya zama zane mai ban dariya",
+     "Muryar AI tana karanta rubutu da ƙarfi"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Chatbots suna gudana akan babban ƙirar harshe, ko LLM, waɗanda aka horar da su hasashen abin da ke gaba.",
+    "Mataki na 1. Kuna buga faɗakarwa."
+   ],
+   "panel": {
+    "kicker": "A cikin chatbot",
+    "heading": "Yadda chatbot ke gina amsa",
+    "items": [
+     "Kuna buga tambaya",
+     "An raba rubutun ku zuwa alamu",
+     "Samfurin yana annabta alamar gaba",
+     "Yana ƙara wannan alamar kuma yana maimaitawa",
+     "Amsar tana bayyana akan allon ku"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Mataki 2. An raba kalmomin ku zuwa alamu, ƙananan rubutun rubutu. Alamar Ingilishi ɗaya tana da kusan haruffa 4."
+   ],
+   "panel": {
+    "kicker": "A cikin chatbot",
+    "heading": "Yadda chatbot ke gina amsa",
+    "items": [
+     "Kuna buga tambaya",
+     "An raba rubutun ku zuwa alamu",
+     "Samfurin yana annabta alamar gaba",
+     "Yana ƙara wannan alamar kuma yana maimaitawa",
+     "Amsar tana bayyana akan allon ku"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Mataki 3. Samfurin yana tsinkayar alamar gaba."
+   ],
+   "panel": {
+    "kicker": "A cikin chatbot",
+    "heading": "Yadda chatbot ke gina amsa",
+    "items": [
+     "Kuna buga tambaya",
+     "An raba rubutun ku zuwa alamu",
+     "Samfurin yana annabta alamar gaba",
+     "Yana ƙara wannan alamar kuma yana maimaitawa",
+     "Amsar tana bayyana akan allon ku"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Mataki na 4. Yana ƙara shi kuma yana maimaitawa, akai-akai. Shi ya sa amsoshi ke bayyana kalma da kalma."
+   ],
+   "panel": {
+    "kicker": "A cikin chatbot",
+    "heading": "Yadda chatbot ke gina amsa",
+    "items": [
+     "Kuna buga tambaya",
+     "An raba rubutun ku zuwa alamu",
+     "Samfurin yana annabta alamar gaba",
+     "Yana ƙara wannan alamar kuma yana maimaitawa",
+     "Amsar tana bayyana akan allon ku"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Mataki 5. Kun ga amsar. Babu wani abu a cikin wannan madauki da ke bincika shi da gaskiya. Samfurin yana zaɓar kalmomi masu yiwuwa. Ba ya bincika gaskiya."
+   ],
+   "panel": {
+    "kicker": "A cikin chatbot",
+    "heading": "Yadda chatbot ke gina amsa",
+    "items": [
+     "Kuna buga tambaya",
+     "An raba rubutun ku zuwa alamu",
+     "Samfurin yana annabta alamar gaba",
+     "Yana ƙara wannan alamar kuma yana maimaitawa",
+     "Amsar tana bayyana akan allon ku"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Yana zaɓar kalmomi masu yiwuwa. Ba ya bincika gaskiya.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "flipchart",
+   "say": [
+    "Amsar da ta tabbata da karya ce ana kiranta hallucination, kamar dokar karya ko littafin da babu shi.",
+    "Dalilin farko shine gibi a cikin bayanan horo. Inda akwai ƙaramin rubutu, ƙirar ƙira."
+   ],
+   "panel": {
+    "kicker": "Hallucinations",
+    "heading": "Me yasa chatbots ke yin abubuwa",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Matsaloli a cikin bayanan horo",
+      "d": "Ƙananan rubutu akan batu yana nufin ƙarin zato. Maudu'in cikin gida Najeriya sau da yawa bakin ciki ne."
+     },
+     {
+      "t": "yanke ilimi",
+      "d": "Duk wani abu da ya canza bayan horo, kamar sabon kuɗi ko manufofin, ba a san shi ga samfurin ba."
+     },
+     {
+      "t": "Matsi don amsawa",
+      "d": "An horar da samfura don su taimaka, don haka suna ba da amsa maimakon su ce ban sani ba."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "flipchart",
+   "say": [
+    "Na biyu shine yanke ilimin, kwanan wata da samfurin ya koyi wani sabon abu."
+   ],
+   "panel": {
+    "kicker": "Hallucinations",
+    "heading": "Me yasa chatbots ke yin abubuwa",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Matsaloli a cikin bayanan horo",
+      "d": "Ƙananan rubutu akan batu yana nufin ƙarin zato. Maudu'in cikin gida Najeriya sau da yawa bakin ciki ne."
+     },
+     {
+      "t": "yanke ilimi",
+      "d": "Duk wani abu da ya canza bayan horo, kamar sabon kuɗi ko manufofin, ba a san shi ga samfurin ba."
+     },
+     {
+      "t": "Matsi don amsawa",
+      "d": "An horar da samfura don su taimaka, don haka suna ba da amsa maimakon su ce ban sani ba."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Na uku shine matsi don amsawa. Kuma amsar da ba ta dace ba tana yin sauti kamar natsuwa da fa'ida kamar daidai."
+   ],
+   "panel": {
+    "kicker": "Hallucinations",
+    "heading": "Me yasa chatbots ke yin abubuwa",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Matsaloli a cikin bayanan horo",
+      "d": "Ƙananan rubutu akan batu yana nufin ƙarin zato. Maudu'in cikin gida Najeriya sau da yawa bakin ciki ne."
+     },
+     {
+      "t": "yanke ilimi",
+      "d": "Duk wani abu da ya canza bayan horo, kamar sabon kuɗi ko manufofin, ba a san shi ga samfurin ba."
+     },
+     {
+      "t": "Matsi don amsawa",
+      "d": "An horar da samfura don su taimaka, don haka suna ba da amsa maimakon su ce ban sani ba."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Mafi kyawun kariya shine ba da tushen da kanka. Manna daftarin aiki kuma ka ce, amsa kawai daga rubutun da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yanke kurakurai",
+    "heading": "Abin da ke rage hallucinations",
+    "items": [
+     "Manna tushen: amsa daga wannan rubutun kawai",
+     "Tambaye shi a faɗi ba a bayyana a cikin rubutu ba",
+     "Yi amfani da binciken yanar gizo, sannan buɗe hanyoyin haɗin",
+     "Tambayi ainihin ƙididdiga da za ku iya samu",
+     "Fara sabon hira don sabon ɗawainiya"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Fada shi a ce ba a bayyana a cikin rubutu ba idan amsar ta ɓace."
+   ],
+   "panel": {
+    "kicker": "Yanke kurakurai",
+    "heading": "Abin da ke rage hallucinations",
+    "items": [
+     "Manna tushen: amsa daga wannan rubutun kawai",
+     "Tambaye shi a faɗi ba a bayyana a cikin rubutu ba",
+     "Yi amfani da binciken yanar gizo, sannan buɗe hanyoyin haɗin",
+     "Tambayi ainihin ƙididdiga da za ku iya samu",
+     "Fara sabon hira don sabon ɗawainiya"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Don abubuwan da ke faruwa a yanzu, yi amfani da binciken yanar gizo, sannan buɗe hanyoyin haɗin da yake nunawa."
+   ],
+   "panel": {
+    "kicker": "Yanke kurakurai",
+    "heading": "Abin da ke rage hallucinations",
+    "items": [
+     "Manna tushen: amsa daga wannan rubutun kawai",
+     "Tambaye shi a faɗi ba a bayyana a cikin rubutu ba",
+     "Yi amfani da binciken yanar gizo, sannan buɗe hanyoyin haɗin",
+     "Tambayi ainihin ƙididdiga da za ku iya samu",
+     "Fara sabon hira don sabon ɗawainiya"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Ka tambaye shi ya faɗi inda kowane batu ya fito. Babu zance yana nufin rashin dogaro."
+   ],
+   "panel": {
+    "kicker": "Yanke kurakurai",
+    "heading": "Abin da ke rage hallucinations",
+    "items": [
+     "Manna tushen: amsa daga wannan rubutun kawai",
+     "Tambaye shi a faɗi ba a bayyana a cikin rubutu ba",
+     "Yi amfani da binciken yanar gizo, sannan buɗe hanyoyin haɗin",
+     "Tambayi ainihin ƙididdiga da za ku iya samu",
+     "Fara sabon hira don sabon ɗawainiya"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Kuma fara sabon hira don sabon ɗawainiya."
+   ],
+   "panel": {
+    "kicker": "Yanke kurakurai",
+    "heading": "Abin da ke rage hallucinations",
+    "items": [
+     "Manna tushen: amsa daga wannan rubutun kawai",
+     "Tambaye shi a faɗi ba a bayyana a cikin rubutu ba",
+     "Yi amfani da binciken yanar gizo, sannan buɗe hanyoyin haɗin",
+     "Tambayi ainihin ƙididdiga da za ku iya samu",
+     "Fara sabon hira don sabon ɗawainiya"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Kafin kayi amfani da AI, yi tambayoyi biyu. Na farko, ta yaya AI ke dogara ga wannan aikin? Zane yana da girma. Madaidaicin gaskiya da ƙa'idodin gida ba su da yawa."
+   ],
+   "panel": {
+    "kicker": "Kafin amfani da AI",
+    "heading": "Gwajin aminci da haɗari",
+    "items": [
+     "Yaya abin dogara AI ga wannan aikin?",
+     "Nawa lahani ne kuskure zai haifar?",
+     "Babban aminci, ƙananan lahani: amfani, duba haske",
+     "Matsakaici lahani: yi amfani da shi, sa'an nan a duba kowace hujja",
+     "Ƙananan aminci, babban lahani: je zuwa tushen"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Na biyu, nawa lahani ne kuskure zai haifar? Kuɗin da ba daidai ba, ƙididdiga, ƙayyadaddun ƙayyadaddun doka ko bayanan banki babban lahani ne."
+   ],
+   "panel": {
+    "kicker": "Kafin amfani da AI",
+    "heading": "Gwajin aminci da haɗari",
+    "items": [
+     "Yaya abin dogara AI ga wannan aikin?",
+     "Nawa lahani ne kuskure zai haifar?",
+     "Babban aminci, ƙananan lahani: amfani, duba haske",
+     "Matsakaici lahani: yi amfani da shi, sa'an nan a duba kowace hujja",
+     "Ƙananan aminci, babban lahani: je zuwa tushen"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Babban abin dogara da ƙananan lahani: yi amfani da shi kyauta tare da duban haske."
+   ],
+   "panel": {
+    "kicker": "Kafin amfani da AI",
+    "heading": "Gwajin aminci da haɗari",
+    "items": [
+     "Yaya abin dogara AI ga wannan aikin?",
+     "Nawa lahani ne kuskure zai haifar?",
+     "Babban aminci, ƙananan lahani: amfani, duba haske",
+     "Matsakaici lahani: yi amfani da shi, sa'an nan a duba kowace hujja",
+     "Ƙananan aminci, babban lahani: je zuwa tushen"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Babban lahani: yi amfani da shi, sannan a duba kowace hujja."
+   ],
+   "panel": {
+    "kicker": "Kafin amfani da AI",
+    "heading": "Gwajin aminci da haɗari",
+    "items": [
+     "Yaya abin dogara AI ga wannan aikin?",
+     "Nawa lahani ne kuskure zai haifar?",
+     "Babban aminci, ƙananan lahani: amfani, duba haske",
+     "Matsakaici lahani: yi amfani da shi, sa'an nan a duba kowace hujja",
+     "Ƙananan aminci, babban lahani: je zuwa tushen"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Ƙananan aminci da babban lahani: guje wa AI kuma je zuwa tushen hukuma ko ƙwararren mutum. Lafiya, kudi da al'amuran shari'a suna buƙatar wannan kulawa."
+   ],
+   "panel": {
+    "kicker": "Kafin amfani da AI",
+    "heading": "Gwajin aminci da haɗari",
+    "items": [
+     "Yaya abin dogara AI ga wannan aikin?",
+     "Nawa lahani ne kuskure zai haifar?",
+     "Babban aminci, ƙananan lahani: amfani, duba haske",
+     "Matsakaici lahani: yi amfani da shi, sa'an nan a duba kowace hujja",
+     "Ƙananan aminci, babban lahani: je zuwa tushen"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Daidaita adadin dubawa da cutarwar da kuskure zai iya haifarwa.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Misali, Amaka tana gudanar da kungiyar hadin kan mata a Owerri. Ta sanya ayyuka biyar akan grid kafin buɗe kowane kayan aikin AI."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Amaka ta ware satinta",
+    "items": [
+     "Saƙon godiya: AI zayyana, ta gyara",
+     "Takaitaccen rahoto mai shafi 12: AI, sannan duba lambobi",
+     "Kudin CAC: tana duba gidan yanar gizon CAC",
+     "Zazzaɓin yaro: tana nufin asibiti",
+     "Ra'ayoyin Slogan: AI yana ba da ra'ayoyi, ta zaɓi 2"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Saƙon godiya ga masu sa kai: AI ta tsara shi kuma ta gyara sunayen."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Amaka ta ware satinta",
+    "items": [
+     "Saƙon godiya: AI zayyana, ta gyara",
+     "Takaitaccen rahoto mai shafi 12: AI, sannan duba lambobi",
+     "Kudin CAC: tana duba gidan yanar gizon CAC",
+     "Zazzaɓin yaro: tana nufin asibiti",
+     "Ra'ayoyin Slogan: AI yana ba da ra'ayoyi, ta zaɓi 2"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Takaitaccen rahoto mai shafi 12: tana amfani da AI, sannan ta duba kowace lamba."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Amaka ta ware satinta",
+    "items": [
+     "Saƙon godiya: AI zayyana, ta gyara",
+     "Takaitaccen rahoto mai shafi 12: AI, sannan duba lambobi",
+     "Kudin CAC: tana duba gidan yanar gizon CAC",
+     "Zazzaɓin yaro: tana nufin asibiti",
+     "Ra'ayoyin Slogan: AI yana ba da ra'ayoyi, ta zaɓi 2"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Kudin rajista na CAC na yanzu: ta duba gidan yanar gizon CAC kuma ta kira ofis."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Amaka ta ware satinta",
+    "items": [
+     "Saƙon godiya: AI zayyana, ta gyara",
+     "Takaitaccen rahoto mai shafi 12: AI, sannan duba lambobi",
+     "Kudin CAC: tana duba gidan yanar gizon CAC",
+     "Zazzaɓin yaro: tana nufin asibiti",
+     "Ra'ayoyin Slogan: AI yana ba da ra'ayoyi, ta zaɓi 2"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Yaron memba mai zazzabi: babu chatbot. Ta mika dan kungiyar zuwa asibiti."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Amaka ta ware satinta",
+    "items": [
+     "Saƙon godiya: AI zayyana, ta gyara",
+     "Takaitaccen rahoto mai shafi 12: AI, sannan duba lambobi",
+     "Kudin CAC: tana duba gidan yanar gizon CAC",
+     "Zazzaɓin yaro: tana nufin asibiti",
+     "Ra'ayoyin Slogan: AI yana ba da ra'ayoyi, ta zaɓi 2"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Ra'ayoyin ra'ayoyin: AI yana ba da shawara goma kuma ta zaɓi 2. Ta ajiye lokaci ba tare da amincewa da AI inda yake da rauni ba."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Amaka ta ware satinta",
+    "items": [
+     "Saƙon godiya: AI zayyana, ta gyara",
+     "Takaitaccen rahoto mai shafi 12: AI, sannan duba lambobi",
+     "Kudin CAC: tana duba gidan yanar gizon CAC",
+     "Zazzaɓin yaro: tana nufin asibiti",
+     "Ra'ayoyin Slogan: AI yana ba da ra'ayoyi, ta zaɓi 2"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Don tunawa. Generative AI yana yin sabon abun ciki daga faɗakarwar ku. Yana tsinkayar yiwuwar kalmomi kuma baya bincika gaskiya.",
+    "Yana da ƙarfi a zayyana kuma yana da rauni a gaskiya. Tambayi yadda abin dogaro yake da yadda kuskuren kuskure zai kasance, kuma liƙa tushen ku."
+   ],
+   "panel": {
+    "kicker": "Mabuɗin mahimmanci",
+    "heading": "Ka tuna",
+    "items": [
+     "Generative AI yana yin sabon abun ciki daga faɗakarwa",
+     "Yana tsinkayar yiwuwar kalmomi; baya duba gaskiya",
+     "Mai ƙarfi a zane-zane, mai rauni a gaskiya da cikakkun bayanai na gida",
+     "Tambayi: yaya abin dogara, kuma yaya mummunan kuskure ne?",
+     "Manna tushen ku kuma ku nemi abin magana"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Yanzu taswirar makon ku. Rubuta ayyuka na gaske 8, yi alama amintacce da cutarwa, sanya kowane a kan grid, da kewaya 2 inda AI ke adana mafi yawan lokaci lafiya.",
+    "Ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi aiki",
+    "heading": "Ayyukan aikin ku",
+    "items": [
+     "Rubuta ayyuka na gaske guda 8 daga makon ku",
+     "Alama amincin AI da cutarwa ga kowane",
+     "Sanya kowane ɗawainiya akan grid tare da aiki",
+     "Kewaya ayyuka 2 inda AI ke adana mafi yawan lokaci"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

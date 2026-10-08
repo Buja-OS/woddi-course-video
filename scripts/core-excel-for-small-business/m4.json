@@ -1,0 +1,550 @@
+{
+ "course": "core-excel-for-small-business",
+ "module": "m4",
+ "title": "Stock, profit and one workbook for your whole business",
+ "course_title": "Excel and Google Sheets for Small Business",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Stock, profit, and one workbook for your whole business.",
+    "This is the video for Module 4 of Excel and Google Sheets for Small Business."
+   ]
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Stock is often the biggest amount of money a small trader has tied up. An inventory sheet tells you what you have, what it is worth, and what to reorder before customers find empty shelves."
+   ],
+   "panel": {
+    "kicker": "In this module",
+    "heading": "Put it all together",
+    "items": [
+     "Know what stock you hold and what to reorder",
+     "Look up prices by product code",
+     "Find out if you really made a profit",
+     "A routine that keeps the numbers honest"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "It also feeds prices into your sales log, so you stop typing them by hand."
+   ],
+   "panel": {
+    "kicker": "In this module",
+    "heading": "Put it all together",
+    "items": [
+     "Know what stock you hold and what to reorder",
+     "Look up prices by product code",
+     "Find out if you really made a profit",
+     "A routine that keeps the numbers honest"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Then a profit report answers the question every partner or lender asks. Did the business actually make money this month?"
+   ],
+   "panel": {
+    "kicker": "In this module",
+    "heading": "Put it all together",
+    "items": [
+     "Know what stock you hold and what to reorder",
+     "Look up prices by product code",
+     "Find out if you really made a profit",
+     "A routine that keeps the numbers honest"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "On a Products tab, give each product a short unique code, like P01, then its name, cost price and selling price."
+   ],
+   "panel": {
+    "kicker": "Products tab",
+    "heading": "Stock that tells you when to reorder",
+    "items": [
+     "Code, product, cost price, selling price",
+     "Opening stock, stock in, sold",
+     "Closing stock: =E2+F2-G2",
+     "Status: =IF(H2<=I2,\"Reorder\",\"OK\")",
+     "Stock value at cost: =H2*C2"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Then type the opening stock, the stock you bought in, and the units sold."
+   ],
+   "panel": {
+    "kicker": "Products tab",
+    "heading": "Stock that tells you when to reorder",
+    "items": [
+     "Code, product, cost price, selling price",
+     "Opening stock, stock in, sold",
+     "Closing stock: =E2+F2-G2",
+     "Status: =IF(H2<=I2,\"Reorder\",\"OK\")",
+     "Stock value at cost: =H2*C2"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Closing stock is opening stock, plus stock in, minus sold."
+   ],
+   "panel": {
+    "kicker": "Products tab",
+    "heading": "Stock that tells you when to reorder",
+    "items": [
+     "Code, product, cost price, selling price",
+     "Opening stock, stock in, sold",
+     "Closing stock: =E2+F2-G2",
+     "Status: =IF(H2<=I2,\"Reorder\",\"OK\")",
+     "Stock value at cost: =H2*C2"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Set a reorder level for each product. If closing stock falls to that level, IF shows the word Reorder. Your sheet becomes an automatic shopping list."
+   ],
+   "panel": {
+    "kicker": "Products tab",
+    "heading": "Stock that tells you when to reorder",
+    "items": [
+     "Code, product, cost price, selling price",
+     "Opening stock, stock in, sold",
+     "Closing stock: =E2+F2-G2",
+     "Status: =IF(H2<=I2,\"Reorder\",\"OK\")",
+     "Stock value at cost: =H2*C2"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Stock value is closing stock times cost price.",
+    "For example, Funke has 6 detergents left, and her reorder level is 8, so it says Reorder. Her stock on hand is worth 80250 naira at cost."
+   ],
+   "panel": {
+    "kicker": "Products tab",
+    "heading": "Stock that tells you when to reorder",
+    "items": [
+     "Code, product, cost price, selling price",
+     "Opening stock, stock in, sold",
+     "Closing stock: =E2+F2-G2",
+     "Status: =IF(H2<=I2,\"Reorder\",\"OK\")",
+     "Stock value at cost: =H2*C2"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Closing stock = opening stock + stock in - units sold",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "On your Sales tab, type just the product code, and let a lookup fetch the price. XLOOKUP finds the code in the Code column and returns the selling price from the same row. If the code is P03, it returns 3300."
+   ],
+   "panel": {
+    "kicker": "Lookups",
+    "heading": "Fetch the price from a code",
+    "mode": "compare",
+    "left_h": "XLOOKUP",
+    "left": [
+     "Newer Excel and Google Sheets",
+     "Exact match by default",
+     "Can say Not found"
+    ],
+    "right_h": "VLOOKUP",
+    "right": [
+     "Works in older Excel too",
+     "Code in the first column",
+     "Always end with FALSE"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "If your Excel is 2019 or older, use VLOOKUP. The code must be in the first column of the table.",
+    "And always finish with FALSE. Leaving it out can quietly return the wrong product's price. If you see hash N A, the code was not found. Check for a letter O typed instead of a zero."
+   ],
+   "panel": {
+    "kicker": "Lookups",
+    "heading": "Fetch the price from a code",
+    "mode": "compare",
+    "left_h": "XLOOKUP",
+    "left": [
+     "Newer Excel and Google Sheets",
+     "Exact match by default",
+     "Can say Not found"
+    ],
+    "right_h": "VLOOKUP",
+    "right": [
+     "Works in older Excel too",
+     "Code in the first column",
+     "Always end with FALSE"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Now profit. Sales is the money earned from selling. Cost of goods sold is what the goods you actually sold cost you: opening stock value, plus purchases, minus closing stock value.",
+    "Why not sales minus purchases? Because if you stock up heavily, the month looks like a loss even though the goods are still on your shelves."
+   ],
+   "panel": {
+    "kicker": "Key words",
+    "heading": "From sales to net profit",
+    "items": [
+     "Sales: money earned from selling",
+     "Cost of goods sold: what the sold goods cost",
+     "Gross profit: sales minus cost of goods",
+     "Net profit: gross profit minus running costs",
+     "Margin: profit divided by sales"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Gross profit is sales minus cost of goods. Net profit takes away running costs too, like rent, transport, data and power."
+   ],
+   "panel": {
+    "kicker": "Key words",
+    "heading": "From sales to net profit",
+    "items": [
+     "Sales: money earned from selling",
+     "Cost of goods sold: what the sold goods cost",
+     "Gross profit: sales minus cost of goods",
+     "Net profit: gross profit minus running costs",
+     "Margin: profit divided by sales"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "A margin divides profit by sales, so you can compare months of different sizes."
+   ],
+   "panel": {
+    "kicker": "Key words",
+    "heading": "From sales to net profit",
+    "items": [
+     "Sales: money earned from selling",
+     "Cost of goods sold: what the sold goods cost",
+     "Gross profit: sales minus cost of goods",
+     "Net profit: gross profit minus running costs",
+     "Margin: profit divided by sales"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Here is Funke's October. She opened with stock worth 95000, bought 310000 more, and closed with 80250."
+   ],
+   "card": {
+    "title": "Funke's October report",
+    "rows": [],
+    "note": "Net profit, about 9% of sales."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Her sales were 412000 naira. So her cost of goods sold is 324750."
+   ],
+   "card": {
+    "title": "Funke's October report",
+    "rows": [
+     [
+      "Sales",
+      "412,000"
+     ],
+     [
+      "Cost of goods sold",
+      "324,750"
+     ]
+    ],
+    "note": "Net profit, about 9% of sales."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Gross profit is 87250, a gross margin of 21.2%."
+   ],
+   "card": {
+    "title": "Funke's October report",
+    "rows": [
+     [
+      "Sales",
+      "412,000"
+     ],
+     [
+      "Cost of goods sold",
+      "324,750"
+     ],
+     [
+      "Gross profit",
+      "87,250"
+     ]
+    ],
+    "note": "Net profit, about 9% of sales."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Rent share, transport, phone data and power come to 50000."
+   ],
+   "card": {
+    "title": "Funke's October report",
+    "rows": [
+     [
+      "Sales",
+      "412,000"
+     ],
+     [
+      "Cost of goods sold",
+      "324,750"
+     ],
+     [
+      "Gross profit",
+      "87,250"
+     ],
+     [
+      "Running expenses",
+      "50,000"
+     ]
+    ],
+    "note": "Net profit, about 9% of sales."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Net profit is 37250 naira. Of every 100 naira of sales, about 9 naira is net profit. That is up 6250 on September."
+   ],
+   "card": {
+    "title": "Funke's October report",
+    "rows": [
+     [
+      "Sales",
+      "412,000"
+     ],
+     [
+      "Cost of goods sold",
+      "324,750"
+     ],
+     [
+      "Gross profit",
+      "87,250"
+     ],
+     [
+      "Running expenses",
+      "50,000"
+     ]
+    ],
+    "note": "Net profit, about 9% of sales."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Running costs like rent and transport go in operating expenses."
+   ],
+   "panel": {
+    "kicker": "Honest numbers",
+    "heading": "Drawings are not an expense",
+    "mode": "compare",
+    "left_h": "Business expense",
+    "left": [
+     "Rent, transport, data, power",
+     "Goes in operating expenses"
+    ],
+    "right_h": "Drawings",
+    "right": [
+     "Money you take for your household",
+     "Separate Drawings category"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "But money you take out for yourself or your household is not a business expense. Record it as Drawings and leave it out. Otherwise the report hides how much the business really earns, and whether it can afford to pay you."
+   ],
+   "panel": {
+    "kicker": "Honest numbers",
+    "heading": "Drawings are not an expense",
+    "mode": "compare",
+    "left_h": "Business expense",
+    "left": [
+     "Rent, transport, data, power",
+     "Goes in operating expenses"
+    ],
+    "right_h": "Drawings",
+    "right": [
+     "Money you take for your household",
+     "Separate Drawings category"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Put all your tabs in one workbook, and keep a simple routine.",
+    "Daily, 5 to 10 minutes, record every sale and expense. Weekly, run your check cell, look at the Reorder list and chase unpaid sales.",
+    "Monthly, count your shelves, make the profit report and download a backup. Quarterly, look at three months together and make one decision."
+   ],
+   "panel": {
+    "kicker": "Your routine",
+    "heading": "Keep the numbers trustworthy",
+    "items": [
+     "Daily: record every transaction",
+     "Weekly: check cell, Reorder list, unpaid sales",
+     "Monthly: count stock, report, back up",
+     "Quarterly: review charts, make one decision"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "When you share, choose the lowest access that works. Viewer can only look. Give Editor only to people who really need to type.",
+    "Send a lender or partner the report as a PDF, not every customer's name."
+   ],
+   "panel": {
+    "kicker": "Share safely",
+    "heading": "Who can see your workbook",
+    "items": [
+     "Give Viewer unless they must type",
+     "Share the report as a PDF, not the tracker",
+     "Protect formula cells"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "If a helper stops working with you, remove their access that same day."
+   ],
+   "panel": {
+    "kicker": "Share safely",
+    "heading": "Who can see your workbook",
+    "items": [
+     "Give Viewer unless they must type",
+     "Share the report as a PDF, not the tracker",
+     "Protect formula cells"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Remove access the same day someone stops working with you",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "To remember. Closing stock is opening plus in minus sold. A reorder level makes your shopping list. VLOOKUP needs FALSE. Net profit is gross profit minus running costs. And keep drawings out of expenses."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "Closing stock = opening + in - sold",
+     "IF against a reorder level makes a shopping list",
+     "VLOOKUP needs FALSE for an exact match",
+     "Net profit = gross profit - running costs",
+     "Keep drawings out of expenses"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Now build your inventory sheet, make your first monthly profit report as a PDF, and assemble your complete workbook with your own routine.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice task",
+    "heading": "Your portfolio tasks",
+    "items": [
+     "Build your inventory sheet",
+     "Your first monthly profit report",
+     "Assemble your business workbook"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}
