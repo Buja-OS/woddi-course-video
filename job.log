@@ -1,0 +1,19 @@
++ cd out
++ for L in yo ig ha
++ python3 ../mt.py ../candle_strings.json candle_yo.json yo
+translated 875 strings to yo in 28 s
++ for L in yo ig ha
++ python3 ../mt.py ../candle_strings.json candle_ig.json ig
+translated 875 strings to ig in 30 s
++ for L in yo ig ha
++ python3 ../mt.py ../candle_strings.json candle_ha.json ha
+translated 875 strings to ha in 29 s
++ python3 -c 'import json;d=json.load(open('\''candle_yo.json'\''));import itertools;[print(k[:80],'\''=>'\'',v[:100]) for k,v in itertools.islice(d.items(),0,8)]'
+Candle Making: Safe Production of Container, Pillar and Event Candles => Ṣiṣe abẹla: Ṣiṣejade Ailewu ti Apoti, Ọwọn ati Awọn abẹla Iṣẹlẹ
+Melt wax safely, make well-wicked container, pillar and small candles, and cost, => Yo epo-eti lailewu, ṣe eiyan daradara, ọwọn ati awọn abẹla kekere, ati idiyele, aami ati ta wọn pẹlu
+A hands-on course for women who want to make candles at home and sell them. You  => Ẹkọ-ọwọ fun awọn obinrin ti o fẹ ṣe awọn abẹla ni ile ati ta wọn. Iwọ yoo kọ ẹkọ bii awọn abẹla ṣe n
+Beginner => Olubere
+Set up a safe melting area and respond correctly to a wax fire => Ṣeto agbegbe yo to ni aabo ati dahun ni deede si ina epo-eti
+Choose and burn test wicks, recording melt pool, flame and smoke => Yan ati sun awọn wicks idanwo, gbigbasilẹ adagun yo, ina ati ẹfin
+Make container, pillar, tealight and layered candles using calculated wax and fr => Ṣe eiyan, ọwọn, tealight ati awọn abẹla ti o fẹlẹfẹlẹ nipa lilo epo-eti ti a ṣe iṣiro ati awọn iwuwo
+Blend fragrances in parts, colour wax with candle dye and fix common faults with => Papọ awọn turari ni awọn apakan, epo-eti awọ pẹlu awọ abẹla ati ṣatunṣe awọn aṣiṣe ti o wọpọ pẹlu ẹr
