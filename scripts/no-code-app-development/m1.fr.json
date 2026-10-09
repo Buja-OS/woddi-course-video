@@ -1,0 +1,526 @@
+{
+ "course": "no-code-app-development",
+ "module": "m1",
+ "title": "Une application est-elle la réponse ? Coûts des données, des tableaux et de la plateforme",
+ "course_title": "Développement d'applications sans code",
+ "shots": [
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Une application est-elle la réponse ? Coûts des données, des tableaux et de la plateforme.",
+    "Ceci est la vidéo du premier module de développement d'applications sans code."
+   ]
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Un générateur d'applications sans code vous permet de créer une application fonctionnelle en choisissant des écrans, des champs et des règles, au lieu d'écrire du code. En dessous, chaque application comporte trois parties. Les données, les informations qu'elles stockent."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Chaque application comporte trois parties",
+    "items": [
+     "Données : les informations qu'elles stockent",
+     "Interface : les écrans que les gens utilisent",
+     "Logique : les règles sur ce qui se passe"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Interface, les écrans sur lesquels les gens tapent et tapent."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Chaque application comporte trois parties",
+    "items": [
+     "Données : les informations qu'elles stockent",
+     "Interface : les écrans que les gens utilisent",
+     "Logique : les règles sur ce qui se passe"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Et la logique, les règles sur ce qui se passe et quand. Le constructeur écrit le code. Votre travail consiste à bien concevoir ces trois parties."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Chaque application comporte trois parties",
+    "items": [
+     "Données : les informations qu'elles stockent",
+     "Interface : les écrans que les gens utilisent",
+     "Logique : les règles sur ce qui se passe"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Les bons constructeurs savent quand ne pas construire. Utilisez l'outil le plus simple qui fonctionne : feuille de calcul, puis formulaire, puis application sans code, puis code personnalisé.",
+    "Par exemple, Nneka dirige un atelier de couture à Aba avec trois apprentis. Quatre personnes doivent consulter les commandes. Une feuille de calcul privée ne suffit donc pas."
+   ],
+   "panel": {
+    "kicker": "Avant de construire",
+    "heading": "Cinq questions : faut-il une application ?",
+    "items": [
+     "Combien de personnes touchent aux données ?",
+     "Où se fait le travail ?",
+     "Les enregistrements sont-ils liés les uns aux autres ?",
+     "Les erreurs coûtent-elles cher ?",
+     "Le public a-t-il besoin de l'utiliser ?"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Le travail se déroule sur des tables de découpe, pas sur un bureau, donc les téléphones sont importants."
+   ],
+   "panel": {
+    "kicker": "Avant de construire",
+    "heading": "Cinq questions : faut-il une application ?",
+    "items": [
+     "Combien de personnes touchent aux données ?",
+     "Où se fait le travail ?",
+     "Les enregistrements sont-ils liés les uns aux autres ?",
+     "Les erreurs coûtent-elles cher ?",
+     "Le public a-t-il besoin de l'utiliser ?"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Un client a plusieurs commandes. Ce sont des enregistrements liés, où les applications brillent."
+   ],
+   "panel": {
+    "kicker": "Avant de construire",
+    "heading": "Cinq questions : faut-il une application ?",
+    "items": [
+     "Combien de personnes touchent aux données ?",
+     "Où se fait le travail ?",
+     "Les enregistrements sont-ils liés les uns aux autres ?",
+     "Les erreurs coûtent-elles cher ?",
+     "Le public a-t-il besoin de l'utiliser ?"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Deux fois le mois dernier, une robe a été promise à une date erronée. Le premier écran devrait donc afficher les commandes à rendre dans les 3 prochains jours."
+   ],
+   "panel": {
+    "kicker": "Avant de construire",
+    "heading": "Cinq questions : faut-il une application ?",
+    "items": [
+     "Combien de personnes touchent aux données ?",
+     "Où se fait le travail ?",
+     "Les enregistrements sont-ils liés les uns aux autres ?",
+     "Les erreurs coûtent-elles cher ?",
+     "Le public a-t-il besoin de l'utiliser ?"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Les clients continuent d’utiliser WhatsApp, l’application reste donc interne et plus simple. Une application interne sur Google AppSheet convient."
+   ],
+   "panel": {
+    "kicker": "Avant de construire",
+    "heading": "Cinq questions : faut-il une application ?",
+    "items": [
+     "Combien de personnes touchent aux données ?",
+     "Où se fait le travail ?",
+     "Les enregistrements sont-ils liés les uns aux autres ?",
+     "Les erreurs coûtent-elles cher ?",
+     "Le public a-t-il besoin de l'utiliser ?"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Le modèle de données est le plan de ce que votre application stocke et de la façon dont les éléments se connectent. Les écrans sont faciles à changer. La structure des données ne l’est pas.",
+    "Première règle : une table par type de chose. Évitez les colonnes comme Item1, Item2, Item3. Cela fait une pause le jour où un client apporte quatre articles."
+   ],
+   "panel": {
+    "kicker": "Modélisation des données",
+    "heading": "Quatre règles pour votre modèle de données",
+    "items": [
+     "Une table par type de chose",
+     "Chaque ligne a besoin d'une clé, telle que UNIQUEID()",
+     "Lier des tables avec des colonnes Ref",
+     "Choisissez le bon type de colonne"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Deuxième règle : chaque ligne a besoin d'une clé, une valeur différente pour chaque ligne. Les noms font de mauvaises clés, car deux clients peuvent tous deux être appelés Bénédiction."
+   ],
+   "panel": {
+    "kicker": "Modélisation des données",
+    "heading": "Quatre règles pour votre modèle de données",
+    "items": [
+     "Une table par type de chose",
+     "Chaque ligne a besoin d'une clé, telle que UNIQUEID()",
+     "Lier des tables avec des colonnes Ref",
+     "Choisissez le bon type de colonne"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Troisième règle : une colonne Ref stocke la clé d'une ligne dans une autre table. Un client, plusieurs commandes. Il s'agit d'un lien un-à-plusieurs."
+   ],
+   "panel": {
+    "kicker": "Modélisation des données",
+    "heading": "Quatre règles pour votre modèle de données",
+    "items": [
+     "Une table par type de chose",
+     "Chaque ligne a besoin d'une clé, telle que UNIQUEID()",
+     "Lier des tables avec des colonnes Ref",
+     "Choisissez le bon type de colonne"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Règle quatre : choisissez des types de colonnes comme Date, Enum ou Phone. Ils vous offrent une vérification gratuite et le bon clavier."
+   ],
+   "panel": {
+    "kicker": "Modélisation des données",
+    "heading": "Quatre règles pour votre modèle de données",
+    "items": [
+     "Une table par type de chose",
+     "Chaque ligne a besoin d'une clé, telle que UNIQUEID()",
+     "Lier des tables avec des colonnes Ref",
+     "Choisissez le bon type de colonne"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Si vous ne pouvez pas dessiner le modèle sur papier, vous n’êtes pas prêt à construire.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Bisi dispose de quatre tableaux : Clients, Liste de prix, Commandes et Articles de commande. Chaque article de commande est constitué d'une ligne, liée à sa commande et à son article."
+   ],
+   "card": {
+    "title": "La commande de linge de Bisi, élaborée par l'application",
+    "rows": [],
+    "note": "Prix ​​naira indicatifs."
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Le total de chaque ligne correspond à la quantité multipliée par le prix. 4 chemises font 3 200 nairas. 2 pantalons font 2 000. 1 couette vaut 5 000."
+   ],
+   "card": {
+    "title": "La commande de linge de Bisi, élaborée par l'application",
+    "rows": [
+     [
+      "4 chemises à 800",
+      "3,200"
+     ],
+     [
+      "2 pantalons à 1 000",
+      "2,000"
+     ],
+     [
+      "1 couette à 5 000",
+      "5,000"
+     ]
+    ],
+    "note": "Prix ​​naira indicatifs."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Le total de la commande est de 10 200 naira, calculé par l'application. L'ajout d'un nouveau type d'élément nécessite une nouvelle ligne, pas une nouvelle colonne.",
+    "Un avertissement. Pour de l'argent, copiez le prix dans la ligne de commande lors de sa création. Sinon, augmenter le prix des chemises modifie silencieusement les commandes du mois dernier."
+   ],
+   "card": {
+    "title": "La commande de linge de Bisi, élaborée par l'application",
+    "rows": [
+     [
+      "4 chemises à 800",
+      "3,200"
+     ],
+     [
+      "2 pantalons à 1 000",
+      "2,000"
+     ],
+     [
+      "1 couette à 5 000",
+      "5,000"
+     ]
+    ],
+    "note": "Prix ​​naira indicatifs."
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Les professionnels indiquent très tôt les limites au client. Tout d’abord, verrouillez-vous. Si les prix augmentent, déménager est une reconstruction."
+   ],
+   "panel": {
+    "kicker": "Des limites honnêtes",
+    "heading": "Nommez le plafond avant de construire",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Verrouillage de la plateforme",
+      "d": "Écrans et règles en direct sur la plateforme du fournisseur. Un déménagement est une reconstruction, même si vos données dans Sheets restent les vôtres."
+     },
+     {
+      "t": "Coûts par utilisateur",
+      "d": "De nombreuses plateformes facturent par utilisateur et par mois. Une application pour 40 employés peut coûter chaque année plus cher que les frais de construction."
+     },
+     {
+      "t": "Performances",
+      "d": "Les applications basées sur des feuilles de calcul ralentissent à mesure que les tableaux deviennent très volumineux ou que les formules deviennent lourdes."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Deuxièmement, le coût par utilisateur, qui peut être supérieur à vos frais de construction."
+   ],
+   "panel": {
+    "kicker": "Des limites honnêtes",
+    "heading": "Nommez le plafond avant de construire",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Verrouillage de la plateforme",
+      "d": "Écrans et règles en direct sur la plateforme du fournisseur. Un déménagement est une reconstruction, même si vos données dans Sheets restent les vôtres."
+     },
+     {
+      "t": "Coûts par utilisateur",
+      "d": "De nombreuses plateformes facturent par utilisateur et par mois. Une application pour 40 employés peut coûter chaque année plus cher que les frais de construction."
+     },
+     {
+      "t": "Performances",
+      "d": "Les applications basées sur des feuilles de calcul ralentissent à mesure que les tableaux deviennent très volumineux ou que les formules deviennent lourdes."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Troisièmement, les performances ralentissent à mesure que les tables deviennent très volumineuses."
+   ],
+   "panel": {
+    "kicker": "Des limites honnêtes",
+    "heading": "Nommez le plafond avant de construire",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Verrouillage de la plateforme",
+      "d": "Écrans et règles en direct sur la plateforme du fournisseur. Un déménagement est une reconstruction, même si vos données dans Sheets restent les vôtres."
+     },
+     {
+      "t": "Coûts par utilisateur",
+      "d": "De nombreuses plateformes facturent par utilisateur et par mois. Une application pour 40 employés peut coûter chaque année plus cher que les frais de construction."
+     },
+     {
+      "t": "Performances",
+      "d": "Les applications basées sur des feuilles de calcul ralentissent à mesure que les tableaux deviennent très volumineux ou que les formules deviennent lourdes."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Vos frais de construction sont payés une seule fois. Les frais de plateforme sont payés chaque mois, généralement par le client. AppSheet est gratuit pendant que vous prototypez, avec jusqu'à 10 utilisateurs tests. Pour déployer, le client a besoin d'un forfait payant."
+   ],
+   "card": {
+    "title": "Coût mensuel AppSheet de Nneka",
+    "rows": [],
+    "note": "Tarif indicatif. Vérifiez les prix du jour."
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Sur Starter, à environ 5 dollars par utilisateur, Nneka paierait 20 dollars par mois, soit environ 32 000 naira."
+   ],
+   "card": {
+    "title": "Coût mensuel AppSheet de Nneka",
+    "rows": [
+     [
+      "Starter : 4 utilisateurs à 5 US$",
+      "32,000"
+     ]
+    ],
+    "note": "Tarif indicatif. Vérifiez les prix du jour."
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Elle souhaite que chaque apprenti ne voie que ses propres commandes. Cela nécessite des filtres de sécurité, qui ont besoin de Core. Elle dispose donc d'un budget d'environ 40 dollars par mois, soit environ 64 000 naira. Elle devrait entendre cela avant d’accepter des frais de construction."
+   ],
+   "card": {
+    "title": "Coût mensuel AppSheet de Nneka",
+    "rows": [
+     [
+      "Starter : 4 utilisateurs à 5 US$",
+      "32,000"
+     ],
+     [
+      "Noyau : 4 utilisateurs à 10 US$",
+      "64,000"
+     ]
+    ],
+    "note": "Tarif indicatif. Vérifiez les prix du jour."
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Les clients demandent rarement une application. Ils demandent de ne plus perdre de stock, ou de savoir quel coureur a livré quoi. Choisissez une niche, un type de client et un type d'application, afin que votre deuxième build réutilise la première.",
+    "Commencez par des gains rapides : valeur élevée, faible effort, comme un outil de suivi des actions avec trois tables."
+   ],
+   "panel": {
+    "kicker": "Opportunités",
+    "heading": "Où se trouve le travail rémunéré",
+    "items": [
+     "Coopératives et groupes d'épargne",
+     "Magasins d’intrants agricoles et agrégateurs",
+     "Blanchisseries, couture, réparations, nettoyage",
+     "ONG et programmes de terrain",
+     "Expéditions et logistique"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Avant de proposer un devis, consultez la page de tarification officielle du jour. Certaines cartes en naira bloquent les frais étrangers récurrents, demandez donc au client de tester un paiement à l'avance.",
+    "Et les cliniques, les prêteurs et les groupes d’épargne détiennent des données sensibles. En vertu de la loi nigériane sur la protection des données de 2023, collectez uniquement ce qui est nécessaire et conservez-le en sécurité. Commencez par les applications de stock, d’emploi et de logistique."
+   ],
+   "panel": {
+    "kicker": "Protégez votre client",
+    "heading": "Avant de citer",
+    "items": [
+     "Consultez la page de tarification officielle d'aujourd'hui",
+     "Leur carte peut-elle payer un abonnement en dollars américains ?",
+     "Afficher l'estimation en naira avec la date du taux",
+     "Collectez uniquement les données nécessaires"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "À retenir. Utilisez l'outil le plus simple qui fonctionne. Donnez à chaque table une clé et un lien avec des références. Budgétisez les frais mensuels par utilisateur. Et nommez les limites avant de construire."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Utilisez l'outil le plus simple qui fonctionne",
+     "Une table par type de chose, avec une clé",
+     "Les colonnes de référence en lient un à plusieurs",
+     "Les frais de plateforme sont mensuels et par utilisateur",
+     "Nommez les limites avant de construire"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Vos tâches : exécuter le test en cinq questions sur deux problèmes réels, dessiner un modèle de données sur papier, puis chiffrer et classer trois idées d'applications.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâches d'entraînement",
+    "heading": "Vos tâches pratiques",
+    "items": [
+     "Exécutez le test en cinq questions",
+     "Dessiner un modèle de données",
+     "Coût et classement de trois idées d'applications"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

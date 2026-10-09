@@ -1,0 +1,533 @@
+{
+ "course": "core-digital-marketing-fundamentals",
+ "module": "m1",
+ "title": "San abokin cinikin ku, saita kayan aikin ku, tsara tare da lambobi",
+ "course_title": "Tushen Tallan Dijital don Kananan Kasuwanci",
+ "shots": [
+  {
+   "demo": "phone_social",
+   "say": [
+    "San abokin cinikin ku, saita kayan aikin ku, kuma kuyi tsari da lambobi.",
+    "Wannan shi ne bidiyon don module ɗaya na Mahimman Tallan Dijital: abokan ciniki, tashoshi da tsari."
+   ]
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Talla shine duk abin da kuke yi don taimakawa mutanen da suka dace su gano ku, amince da ku, saya su dawo. Taswirorin mazurari na tafiyar.",
+    "Fadakarwa shine lokacin da wani ya ga sakonku ko shagon ku akan Google Maps a karon farko."
+   ],
+   "panel": {
+    "kicker": "Taswirar wannan kwas",
+    "heading": "Rukunin tallace-tallace na matakai huɗu",
+    "items": [
+     "Fadakarwa: suna gano ku",
+     "La'akari: suna kwatanta da tambaya",
+     "Juyawa: suna saya",
+     "Amintacciya: suna dawowa suna nuni"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Abin la'akari shine lokacin da ta kalli kundin ku, karanta bita kuma ta nemi farashi akan WhatsApp."
+   ],
+   "panel": {
+    "kicker": "Taswirar wannan kwas",
+    "heading": "Rukunin tallace-tallace na matakai huɗu",
+    "items": [
+     "Fadakarwa: suna gano ku",
+     "La'akari: suna kwatanta da tambaya",
+     "Juyawa: suna saya",
+     "Amintacciya: suna dawowa suna nuni"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Juyawa shine lokacin da ta biya."
+   ],
+   "panel": {
+    "kicker": "Taswirar wannan kwas",
+    "heading": "Rukunin tallace-tallace na matakai huɗu",
+    "items": [
+     "Fadakarwa: suna gano ku",
+     "La'akari: suna kwatanta da tambaya",
+     "Juyawa: suna saya",
+     "Amintacciya: suna dawowa suna nuni"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Amintacciya ita ce ta sake siya ta gaya wa ƙawayenta.",
+    "Lokacin da tallace-tallace ya yi ƙasa, mazurari yana nuna inda. Ra'ayoyi da yawa amma babu saƙonni? Wataƙila farashin ku yana ɓoye. Saƙonni da yawa amma kaɗan biya? Wataƙila ka ba da amsa a hankali."
+   ],
+   "panel": {
+    "kicker": "Taswirar wannan kwas",
+    "heading": "Rukunin tallace-tallace na matakai huɗu",
+    "items": [
+     "Fadakarwa: suna gano ku",
+     "La'akari: suna kwatanta da tambaya",
+     "Juyawa: suna saya",
+     "Amintacciya: suna dawowa suna nuni"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Amaka yana siyar da kananan sara a Fatakwal, kuma ya kwatanta hanyoyi guda biyu don tallata karshen mako daya. Waɗannan farashin misalai ne kuma kusan."
+   ],
+   "card": {
+    "title": "Amaka tana siyar da wasikun ta",
+    "rows": [],
+    "note": "Misali, kimanin farashin."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Option A. Buga folo 500 akan kusan naira 15,000, kuma ka biya mataimaki kimanin 5,000 don raba su."
+   ],
+   "card": {
+    "title": "Amaka tana siyar da wasikun ta",
+    "rows": [
+     [
+      "Buga faifai 500",
+      "15,000"
+     ],
+     [
+      "Mai taimako don raba su",
+      "5,000"
+     ]
+    ],
+    "note": "Misali, kimanin farashin."
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Wato kusan Naira 20,000 ya kai mutum 500. Kowane mutum 1,000, kusan naira 40,000 kenan."
+   ],
+   "card": {
+    "title": "Amaka tana siyar da wasikun ta",
+    "rows": [
+     [
+      "Buga faifai 500",
+      "15,000"
+     ],
+     [
+      "Mai taimako don raba su",
+      "5,000"
+     ]
+    ],
+    "note": "Misali, kimanin farashin."
+   }
+  },
+  {
+   "demo": "laptop_ads",
+   "say": [
+    "Flyers sun kawo umarni 3. Ta sani, domin ta tambayi kowane mai kiran inda suka ji labarinta."
+   ],
+   "panel": {
+    "kicker": "Auna, sannan yanke shawara",
+    "heading": "Flyers ko tallan Facebook?",
+    "mode": "compare",
+    "left_h": "Flyers",
+    "left": [
+     "Kimanin Naira 20,000",
+     "Ya kai mutane 500",
+     "Umurni 3 da ta iya ganowa"
+    ],
+    "right_h": "Ad",
+    "right": [
+     "Kimanin Naira 10,000",
+     "Ya kai mutane 8,000",
+     "5 umarni akan WhatsApp"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Option B. Tallan kimanin naira 10,000 ya kai mutane 8,000, kimanin naira 1,250 a kowane mutum 1,000, kuma ya kawo oda 5.",
+    "Don haka sai ta ajiye ƴan fom ɗin ga titinta, kuma ta matsar da yawancin kasafin kuɗinta zuwa talla. Amma ku tuna, isa ba tallace-tallace ba ne. Bi mazurari har zuwa umarni kafin yanke shawara."
+   ],
+   "panel": {
+    "kicker": "Auna, sannan yanke shawara",
+    "heading": "Flyers ko tallan Facebook?",
+    "mode": "compare",
+    "left_h": "Flyers",
+    "left": [
+     "Kimanin Naira 20,000",
+     "Ya kai mutane 500",
+     "Umurni 3 da ta iya ganowa"
+    ],
+    "right_h": "Ad",
+    "right": [
+     "Kimanin Naira 10,000",
+     "Ya kai mutane 8,000",
+     "5 umarni akan WhatsApp"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_camera",
+   "say": [
+    "Samfura na ga kowa da kowa kuskure ne na kowa. Tallace-tallace suna cajin kowane kallo, kuma saƙo ga kowa yana magana da kowa.",
+    "Bisi tana dafa kayan abinci a Abuja. Ta kalli odar ta 30 na ƙarshe ta yi magana da abokan ciniki guda shida."
+   ],
+   "panel": {
+    "kicker": "Ba kowa bane",
+    "heading": "Bayyana abokin ciniki da aka yi niyya",
+    "items": [
+     "Wanene: shekaru, aiki, yanayin iyali",
+     "Inda: suna zaune, aiki da siyayya",
+     "Bukatar: matsalar da kuke warwarewa",
+     "Halaye: apps, lokutan kan layi, yadda suke biya",
+     "Ƙimar ƙima a cikin jumla ɗaya"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_camera",
+   "say": [
+    "22 daga cikin 30 na umarni sun fito ne daga mata, galibi suna aiki a ofisoshi a Wuse da Garki."
+   ],
+   "panel": {
+    "kicker": "Ba kowa bane",
+    "heading": "Bayyana abokin ciniki da aka yi niyya",
+    "items": [
+     "Wanene: shekaru, aiki, yanayin iyali",
+     "Inda: suna zaune, aiki da siyayya",
+     "Bukatar: matsalar da kuke warwarewa",
+     "Halaye: apps, lokutan kan layi, yadda suke biya",
+     "Ƙimar ƙima a cikin jumla ɗaya"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_camera",
+   "say": [
+    "Babbar matsalarsu ita ce dawowar su gida a gajiye ba su iya girki, da kuma damuwa da abinci mai sauri."
+   ],
+   "panel": {
+    "kicker": "Ba kowa bane",
+    "heading": "Bayyana abokin ciniki da aka yi niyya",
+    "items": [
+     "Wanene: shekaru, aiki, yanayin iyali",
+     "Inda: suna zaune, aiki da siyayya",
+     "Bukatar: matsalar da kuke warwarewa",
+     "Halaye: apps, lokutan kan layi, yadda suke biya",
+     "Ƙimar ƙima a cikin jumla ɗaya"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_social",
+   "say": [
+    "Mafi yawansu sun yi odar ranar Lahadi da yamma bayan sun ga matsayinta na WhatsApp, kuma an biya su ta hanyar canja wuri."
+   ],
+   "panel": {
+    "kicker": "Ba kowa bane",
+    "heading": "Bayyana abokin ciniki da aka yi niyya",
+    "items": [
+     "Wanene: shekaru, aiki, yanayin iyali",
+     "Inda: suna zaune, aiki da siyayya",
+     "Bukatar: matsalar da kuke warwarewa",
+     "Halaye: apps, lokutan kan layi, yadda suke biya",
+     "Ƙimar ƙima a cikin jumla ɗaya"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_social",
+   "say": [
+    "Shawarar darajarta: Abincin gida irin na Najeriya don iyalai Abuja masu yawan aiki, an dafa shi sabo a ranar Lahadi kuma an kai wa ƙofar ku. Sanya naku akan umarni na gaske da tattaunawa ta gaske, ba tunani ba."
+   ],
+   "panel": {
+    "kicker": "Ba kowa bane",
+    "heading": "Bayyana abokin ciniki da aka yi niyya",
+    "items": [
+     "Wanene: shekaru, aiki, yanayin iyali",
+     "Inda: suna zaune, aiki da siyayya",
+     "Bukatar: matsalar da kuke warwarewa",
+     "Halaye: apps, lokutan kan layi, yadda suke biya",
+     "Ƙimar ƙima a cikin jumla ɗaya"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Yawancin kamfanoni suna biyan tallace-tallace kafin shirye-shiryen tashoshi na kansu, don haka baƙi sun isa shafin da ba kowa a ciki kuma su tafi. Gina farko.",
+    "Funke da ke Ogbomosho ta tura lambarta zuwa Kasuwancin WhatsApp, ta cika kowane filin profile, sannan ta saka kaya 12 a cikin kundinta tare da farashi."
+   ],
+   "panel": {
+    "kicker": "Kit ɗin farawa",
+    "heading": "Gina tagar shagon ku kafin tallace-tallace",
+    "items": [
+     "Kasuwancin WhatsApp: bayanin martaba, kasida, sa'o'i",
+     "Bayanan Kasuwancin Google: samu akan Taswirori",
+     "Shafi ɗaya na zamantakewa da abokan cinikin ku ke amfani da su",
+     "Hanya ɗaya da ke haɗa komai",
+     "Suna iri ɗaya, adireshin da waya a ko'ina"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Ta ƙirƙiri bayanan Kasuwancin Google kyauta, don haka mutanen da ke nema kusa da ni su same ta."
+   ],
+   "panel": {
+    "kicker": "Kit ɗin farawa",
+    "heading": "Gina tagar shagon ku kafin tallace-tallace",
+    "items": [
+     "Kasuwancin WhatsApp: bayanin martaba, kasida, sa'o'i",
+     "Bayanan Kasuwancin Google: samu akan Taswirori",
+     "Shafi ɗaya na zamantakewa da abokan cinikin ku ke amfani da su",
+     "Hanya ɗaya da ke haɗa komai",
+     "Suna iri ɗaya, adireshin da waya a ko'ina"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Zaɓi dandamali ɗaya inda abokan cinikin ku suka riga sun ciyar da lokaci, kuma kuyi shi da kyau."
+   ],
+   "panel": {
+    "kicker": "Kit ɗin farawa",
+    "heading": "Gina tagar shagon ku kafin tallace-tallace",
+    "items": [
+     "Kasuwancin WhatsApp: bayanin martaba, kasida, sa'o'i",
+     "Bayanan Kasuwancin Google: samu akan Taswirori",
+     "Shafi ɗaya na zamantakewa da abokan cinikin ku ke amfani da su",
+     "Hanya ɗaya da ke haɗa komai",
+     "Suna iri ɗaya, adireshin da waya a ko'ina"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Ta sanya wa dot me link a cikin tarihin rayuwarta na Instagram, don haka dannawa ɗaya ya buɗe hira."
+   ],
+   "panel": {
+    "kicker": "Kit ɗin farawa",
+    "heading": "Gina tagar shagon ku kafin tallace-tallace",
+    "items": [
+     "Kasuwancin WhatsApp: bayanin martaba, kasida, sa'o'i",
+     "Bayanan Kasuwancin Google: samu akan Taswirori",
+     "Shafi ɗaya na zamantakewa da abokan cinikin ku ke amfani da su",
+     "Hanya ɗaya da ke haɗa komai",
+     "Suna iri ɗaya, adireshin da waya a ko'ina"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Riƙe sunan ku, adireshinku da lambar wayarku iri ɗaya a ko'ina, don haka abokan ciniki da Google sun amince da ku.",
+    "Kuma kare asusunku. Duk wanda ya sami lambar tabbatarwa zai iya karɓar asusunku."
+   ],
+   "panel": {
+    "kicker": "Kit ɗin farawa",
+    "heading": "Gina tagar shagon ku kafin tallace-tallace",
+    "items": [
+     "Kasuwancin WhatsApp: bayanin martaba, kasida, sa'o'i",
+     "Bayanan Kasuwancin Google: samu akan Taswirori",
+     "Shafi ɗaya na zamantakewa da abokan cinikin ku ke amfani da su",
+     "Hanya ɗaya da ke haɗa komai",
+     "Suna iri ɗaya, adireshin da waya a ko'ina"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Kunna tabbatarwa mataki biyu. Kar a taɓa raba lambar OTP.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Ina son ƙarin abokan ciniki buri ne, ba manufa ba. Manufar Bisi ita ce odar kayan abinci 40 a cikin Maris. Mabiya da masu so ba sa biyan haya, don haka niyya ga umarni."
+   ],
+   "panel": {
+    "kicker": "Shirya tare da lambobi",
+    "heading": "Yi aiki baya daga burin ku",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Manufar: oda 40",
+      "d": "Manufar SMART: ƙayyadaddun, abin aunawa, mai yiwuwa, mai dacewa da ƙayyadaddun lokaci."
+     },
+     {
+      "t": "200 hira",
+      "d": "Kashi 20 daga cikin 100 na mutanen da ke hira da odar Bisi. oda 40 suna buƙatar taɗi 200."
+     },
+     {
+      "t": "10,000 ya kai",
+      "d": "2 daga cikin 100 da suka ga sakonninta suna aika sako. Taɗi 200 suna buƙatar mutane 10,000."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Littafinta na rubutu ya nuna 20 daga cikin kowane mutum 100 da ke tattaunawa da odar ta. Wannan shine ƙimar juzu'i 20%. Don haka umarni 40 suna buƙatar taɗi 200."
+   ],
+   "panel": {
+    "kicker": "Shirya tare da lambobi",
+    "heading": "Yi aiki baya daga burin ku",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Manufar: oda 40",
+      "d": "Manufar SMART: ƙayyadaddun, abin aunawa, mai yiwuwa, mai dacewa da ƙayyadaddun lokaci."
+     },
+     {
+      "t": "200 hira",
+      "d": "Kashi 20 daga cikin 100 na mutanen da ke hira da odar Bisi. oda 40 suna buƙatar taɗi 200."
+     },
+     {
+      "t": "10,000 ya kai",
+      "d": "2 daga cikin 100 da suka ga sakonninta suna aika sako. Taɗi 200 suna buƙatar mutane 10,000."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Kuma 2 cikin kowane mutum 100 da suka ga sakonninta suna aika sako. Don haka taɗi 200 suna buƙatar isa ga mutane 10,000.",
+    "Idan ta amsa da sauri kuma ta ɗaga ƙimarta zuwa kashi 25, tana buƙatar taɗi 160 kawai. Gyara ƙasan mazurari sau da yawa yana da arha fiye da siyan kai."
+   ],
+   "panel": {
+    "kicker": "Shirya tare da lambobi",
+    "heading": "Yi aiki baya daga burin ku",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Manufar: oda 40",
+      "d": "Manufar SMART: ƙayyadaddun, abin aunawa, mai yiwuwa, mai dacewa da ƙayyadaddun lokaci."
+     },
+     {
+      "t": "200 hira",
+      "d": "Kashi 20 daga cikin 100 na mutanen da ke hira da odar Bisi. oda 40 suna buƙatar taɗi 200."
+     },
+     {
+      "t": "10,000 ya kai",
+      "d": "2 daga cikin 100 da suka ga sakonninta suna aika sako. Taɗi 200 suna buƙatar mutane 10,000."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Don tunawa. Yi amfani da kafofin watsa labarai mallakar, da aka samu da biyan kuɗi tare. Zaɓi takamaiman abokin ciniki ɗaya. Gina kayan farawa kafin tallace-tallace. Sanya maƙasudi akan umarni, ba abubuwan so ba.",
+    "Kuma a cikin kasafin kuɗin ku, ku kashe abin da za ku iya rasa kawai yayin da kuke koyo."
+   ],
+   "panel": {
+    "kicker": "Mabuɗin mahimmanci",
+    "heading": "Ka tuna",
+    "items": [
+     "Mallaka, da aka samu da kuma biyan kuɗi suna aiki tare",
+     "Zaɓi takamaiman abokin ciniki manufa ɗaya",
+     "Gina kayan farawa kafin ku biya tallace-tallace",
+     "Sanya maƙasudi akan umarni, ba abubuwan so ba",
+     "Ku ciyar da abin da za ku iya rasawa yayin koyo"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Yanzu yi aiki. Yi taswirar tashoshin ku akan mazurari, yi hira da abokan ciniki uku, kammala kayan aikin farawa, sannan rubuta shirinku na kwana 90 mai shafi ɗaya tare da jimlar kuɗin da aka nuna.",
+    "Ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi aiki",
+    "heading": "Ayyukan aikin ku",
+    "items": [
+     "Taswirar tallan ku na yanzu",
+     "Gina bayanan abokin ciniki",
+     "Bincika kuma kammala kayan aikin farawanku",
+     "Rubuta shirin ku na kwanaki 90"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

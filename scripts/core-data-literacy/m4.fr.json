@@ -1,0 +1,459 @@
+{
+ "course": "core-data-literacy",
+ "module": "m4",
+ "title": "Votre classeur d'informations, un rapport sur lequel les gens agissent et votre plan",
+ "course_title": "Maîtrise des données : feuilles de calcul, graphiques et indicateurs commerciaux",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Votre classeur d'informations, un rapport sur lequel les gens agissent et votre plan.",
+    "Ceci est la vidéo du module 4 de Data Literacy."
+   ]
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Votre synthèse est un fichier Google Sheets qui fait passer les enregistrements réels de désordonnés à significatifs. Choisissez les données qui vous intéressent : vos ventes, les contributions de votre groupe ou vos commandes."
+   ],
+   "panel": {
+    "kicker": "Ce que tu feras",
+    "heading": "De l’analyse à l’impact",
+    "items": [
+     "Créez un classeur à partir de vos propres enregistrements",
+     "Écrivez jusqu'à trois résultats avec des chiffres",
+     "Présentez-les pour que les gens agissent",
+     "Gardez une habitude hebdomadaire et un plan sur 90 jours"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Ensuite, vous transformez ces résultats en résultats et les présentez afin qu'un client, un employeur, un donateur ou votre groupe agisse réellement."
+   ],
+   "panel": {
+    "kicker": "Ce que tu feras",
+    "heading": "De l’analyse à l’impact",
+    "items": [
+     "Créez un classeur à partir de vos propres enregistrements",
+     "Écrivez jusqu'à trois résultats avec des chiffres",
+     "Présentez-les pour que les gens agissent",
+     "Gardez une habitude hebdomadaire et un plan sur 90 jours"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Enfin, vous faites des données une habitude hebdomadaire."
+   ],
+   "panel": {
+    "kicker": "Ce que tu feras",
+    "heading": "De l’analyse à l’impact",
+    "items": [
+     "Créez un classeur à partir de vos propres enregistrements",
+     "Écrivez jusqu'à trois résultats avec des chiffres",
+     "Présentez-les pour que les gens agissent",
+     "Gardez une habitude hebdomadaire et un plan sur 90 jours"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Conservez les enregistrements originaux intacts dans Raw et nettoyez une copie."
+   ],
+   "panel": {
+    "kicker": "La pierre angulaire",
+    "heading": "Les cinq feuilles de votre cahier d'exercices",
+    "items": [
+     "Raw : les enregistrements originaux, jamais édités",
+     "Propre : étiquettes cohérentes, pas de doublons",
+     "Résumé : SUMIF, COUNTIF, partages, métriques",
+     "Graphiques : deux ou trois, chacun avec un titre de message",
+     "Notes : question, dictionnaire, journal, résultats"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Résumez et tracez les données épurées, avec un titre de message sur chaque graphique."
+   ],
+   "panel": {
+    "kicker": "La pierre angulaire",
+    "heading": "Les cinq feuilles de votre cahier d'exercices",
+    "items": [
+     "Raw : les enregistrements originaux, jamais édités",
+     "Propre : étiquettes cohérentes, pas de doublons",
+     "Résumé : SUMIF, COUNTIF, partages, métriques",
+     "Graphiques : deux ou trois, chacun avec un titre de message",
+     "Notes : question, dictionnaire, journal, résultats"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Dans Notes, rédigez votre question et un dictionnaire de données : le nom, la signification, le type et les valeurs autorisées de chaque colonne. Il permet à quelqu'un d'autre de vérifier votre travail sans vous le demander.",
+    "N'inventez pas de disques. Le but est de s’entraîner sur des données réelles et imparfaites."
+   ],
+   "panel": {
+    "kicker": "La pierre angulaire",
+    "heading": "Les cinq feuilles de votre cahier d'exercices",
+    "items": [
+     "Raw : les enregistrements originaux, jamais édités",
+     "Propre : étiquettes cohérentes, pas de doublons",
+     "Résumé : SUMIF, COUNTIF, partages, métriques",
+     "Graphiques : deux ou trois, chacun avec un titre de message",
+     "Notes : question, dictionnaire, journal, résultats"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Ngozi demande : mon entreprise est-elle en croissance et pourquoi certains clients sont-ils mécontents ? Elle supprime 2 commandes en double et remplit les dates de livraison manquantes de ses discussions."
+   ],
+   "card": {
+    "title": "Le cahier d'exercices de trois mois de Ngozi",
+    "rows": [],
+    "note": "Revenus par mois, de SUMIF et COUNTIF."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Les revenus augmentent chaque mois : environ 23,8 % de juillet à août et environ 21,2 % jusqu'en septembre."
+   ],
+   "card": {
+    "title": "Le cahier d'exercices de trois mois de Ngozi",
+    "rows": [
+     [
+      "24 juillet commandes",
+      "210,000"
+     ],
+     [
+      "28 août commandes",
+      "260,000"
+     ],
+     [
+      "32 septembre commandes",
+      "315,000"
+     ]
+    ],
+    "note": "Revenus par mois, de SUMIF et COUNTIF."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Au total, 785 000 nairas. Mais COUNTIF affiche 10 commandes en retard sur 84, et 8 sur 10 étaient des commandes de groupe ainsi qu'ebi.",
+    "Sa recommandation : coter les commandes groupées plus longtemps, accepter les dépôts plus tôt et vérifier si les retards tombent en dessous de 5 % au prochain trimestre."
+   ],
+   "card": {
+    "title": "Le cahier d'exercices de trois mois de Ngozi",
+    "rows": [
+     [
+      "24 juillet commandes",
+      "210,000"
+     ],
+     [
+      "28 août commandes",
+      "260,000"
+     ],
+     [
+      "32 septembre commandes",
+      "315,000"
+     ]
+    ],
+    "note": "Revenus par mois, de SUMIF et COUNTIF."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "N'écrivez pas plus de trois résultats, chacun avec un numéro, et nommez ce que les données ne peuvent pas montrer. Les données de Ngozi ne peuvent pas indiquer si les clients sont partis en raison d'un retard, elle envisage donc de le demander.",
+    "Exécutez ensuite ces six vérifications avant de soumettre."
+   ],
+   "panel": {
+    "kicker": "Avant de soumettre",
+    "heading": "Contrôles d'exactitude et de confidentialité",
+    "items": [
+     "Lignes nettoyées et total expliqué dans le journal",
+     "Les totaux des catégories s'additionnent au total global",
+     "Les parts d'un tout totalisent 100 %",
+     "Les graphiques ont des titres, des unités et des axes zéro",
+     "Des codes, pas des noms ou des numéros de téléphone",
+     "Chaque colonne expliquée dans le dictionnaire"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Un gestionnaire ou un donateur occupé ne lira pas votre feuille de calcul. Commencez par la réponse : nous avons demandé pourquoi les livraisons étaient en retard, et la raison principale est les commandes groupées."
+   ],
+   "panel": {
+    "kicker": "Présentation",
+    "heading": "La structure du rapport d'une page",
+    "items": [
+     "Message principal en une phrase",
+     "Deux ou trois numéros à l'appui",
+     "Un tableau clair",
+     "Ce que cela signifie",
+     "Ce que nous devrions faire"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false,
+    "rule": "Dirigez avec la réponse, pas avec l'ordre dans lequel vous avez fait le travail.",
+    "showRule": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Donnez deux ou trois nombres et un tableau. En parlant, arrondissez-les : environ une commande sur huit, et non 11,9 pour cent."
+   ],
+   "panel": {
+    "kicker": "Présentation",
+    "heading": "La structure du rapport d'une page",
+    "items": [
+     "Message principal en une phrase",
+     "Deux ou trois numéros à l'appui",
+     "Un tableau clair",
+     "Ce que cela signifie",
+     "Ce que nous devrions faire"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Dirigez avec la réponse, pas avec l'ordre dans lequel vous avez fait le travail.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Dites ensuite ce que cela signifie et terminez par la décision dont vous avez besoin, qui fera quoi et quand."
+   ],
+   "panel": {
+    "kicker": "Présentation",
+    "heading": "La structure du rapport d'une page",
+    "items": [
+     "Message principal en une phrase",
+     "Deux ou trois numéros à l'appui",
+     "Un tableau clair",
+     "Ce que cela signifie",
+     "Ce que nous devrions faire"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Dirigez avec la réponse, pas avec l'ordre dans lequel vous avez fait le travail.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Par exemple, un programme communautaire à Ilorin a formé des femmes à la comptabilité. Les résultats correspondent à ce que vous avez livré : 38 sur 45 terminés."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Résultats, résultats et honnêteté",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Sorties",
+      "d": "Ce que vous avez livré : 45 inscrits, 38 terminés, soit environ 84,4 %."
+     },
+     {
+      "t": "Résultats",
+      "d": "Ce qui a changé : 25 personnes sur 38 tiennent des registres de ventes hebdomadaires, soit environ 65,8 %."
+     },
+     {
+      "t": "Lacunes honnêtes",
+      "d": "7 ne s'est pas terminé à cause des jours de marché. Elle demande donc de financer une cohorte le samedi."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Ce sont les résultats qui ont changé. Un suivi téléphonique trois mois plus tard a atteint les 38 personnes, et 25 d'entre elles tiennent désormais des registres hebdomadaires. Le titre du donateur : deux diplômés sur trois tiennent désormais des registres de ventes hebdomadaires."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Résultats, résultats et honnêteté",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Sorties",
+      "d": "Ce que vous avez livré : 45 inscrits, 38 terminés, soit environ 84,4 %."
+     },
+     {
+      "t": "Résultats",
+      "d": "Ce qui a changé : 25 personnes sur 38 tiennent des registres de ventes hebdomadaires, soit environ 65,8 %."
+     },
+     {
+      "t": "Lacunes honnêtes",
+      "d": "7 ne s'est pas terminé à cause des jours de marché. Elle demande donc de financer une cohorte le samedi."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Elle rapporte également les 7 qui n'ont pas fini, et pourquoi. Les bailleurs de fonds remarquent généralement les chiffres manquants, et admettre des limites augmente la confiance.",
+    "Pour les membres, elle envoie un court message WhatsApp avec les mêmes faits et une prochaine étape claire."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Résultats, résultats et honnêteté",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Sorties",
+      "d": "Ce que vous avez livré : 45 inscrits, 38 terminés, soit environ 84,4 %."
+     },
+     {
+      "t": "Résultats",
+      "d": "Ce qui a changé : 25 personnes sur 38 tiennent des registres de ventes hebdomadaires, soit environ 65,8 %."
+     },
+     {
+      "t": "Lacunes honnêtes",
+      "d": "7 ne s'est pas terminé à cause des jours de marché. Elle demande donc de financer une cohorte le samedi."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Développer mon entreprise ne peut pas être contrôlé. Une cible nomme la métrique, le point de départ, l’objectif et la date."
+   ],
+   "panel": {
+    "kicker": "Votre forfait de 90 jours",
+    "heading": "Objectifs vagues ou cibles mesurables",
+    "mode": "compare",
+    "left_h": "Objectif vague",
+    "left": [
+     "Gardez de meilleurs dossiers",
+     "Gagnez plus",
+     "Gardez les clients"
+    ],
+    "right_h": "Cible mesurable",
+    "right": [
+     "Enregistrez 100% des ventes pendant 12 semaines",
+     "Marge de 24% à 26% au jour 90",
+     "Tarif client régulier 50 % au jour 90"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Par exemple, le kiosque de Halima gagne environ 95 000 nairas par semaine avec une marge brute de 24 %. Dans 90 jours, elle enregistrera chaque vente, augmentera la marge à 26 %, mesurera les clients fidèles et testera un changement, comme une remise sur les achats groupés pendant deux semaines.",
+    "Limitez-vous à environ trois objectifs et consacrez 30 minutes chaque semaine à vos enregistrements et à votre tableau de bord."
+   ],
+   "panel": {
+    "kicker": "Votre forfait de 90 jours",
+    "heading": "Objectifs vagues ou cibles mesurables",
+    "mode": "compare",
+    "left_h": "Objectif vague",
+    "left": [
+     "Gardez de meilleurs dossiers",
+     "Gagnez plus",
+     "Gardez les clients"
+    ],
+    "right_h": "Cible mesurable",
+    "right": [
+     "Enregistrez 100% des ventes pendant 12 semaines",
+     "Marge de 24% à 26% au jour 90",
+     "Tarif client régulier 50 % au jour 90"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "À retenir. Créez votre classeur à partir d'enregistrements réels. Dirigez avec la réponse. Signalez-le honnêtement. Pour obtenir votre certificat, remplissez la pierre angulaire et obtenez au moins 70 % au quiz final. C'est 9 questions sur 12."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Cinq feuilles : Raw, Clean, Summary, Charts, Notes",
+     "Jusqu'à trois résultats, chacun avec un numéro",
+     "Dirigez avec la réponse, puis les preuves, puis l'action",
+     "Rapporter les résultats, les résultats et les lacunes honnêtes",
+     "Certificat : synthèse plus 9 sur 12 au quiz"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "À votre tour. Créez votre cahier d'exercices, présentez vos résultats deux fois et rédigez votre plan de 90 jours.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâches d'entraînement",
+    "heading": "Vos tâches pratiques",
+    "items": [
+     "Construisez votre classeur de cinq feuilles",
+     "Rédigez un rapport d'une page et un résumé WhatsApp",
+     "Définir une heure de données hebdomadaire fixe",
+     "Rédigez votre plan de 90 jours avec trois objectifs"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

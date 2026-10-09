@@ -1,0 +1,469 @@
+{
+ "course": "ai-productivity-systems",
+ "module": "m2",
+ "title": "Routine cards, review gates and a log that proves it works",
+ "course_title": "AI Productivity Systems",
+ "shots": [
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Routine cards, review gates and a log that proves it works.",
+    "This is the video for module two of AI Productivity Systems."
+   ]
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "A system that produces fast drafts but lets errors through is worse than no system, because people stop trusting your work."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Fast drafts are not enough",
+    "items": [
+     "Choose a lean, low-data tool stack",
+     "Set up your accounts safely",
+     "Write routine cards you can follow when tired",
+     "Catch errors and measure what you save"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "In this video you will choose your tools, turn tasks into routine cards, and add the checks and the log that keep the system honest."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Fast drafts are not enough",
+    "items": [
+     "Choose a lean, low-data tool stack",
+     "Set up your accounts safely",
+     "Write routine cards you can follow when tired",
+     "Catch errors and measure what you save"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Every extra app is another password and more data used. So pick one tool for each job: one place to capture, and one assistant."
+   ],
+   "panel": {
+    "kicker": "Lean stack",
+    "heading": "One tool for each of four jobs",
+    "items": [
+     "Capture: notes app or a chat with yourself",
+     "Assistant: one AI tool with your context",
+     "Home for files: one Drive or one folder",
+     "Calendar and reminders to fire routines"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "One home for files, and a calendar to fire each routine. Stay with your choice for at least a month before judging it.",
+    "To save data, prefer typed chats, upload big files on Wi-Fi, and make your documents available offline."
+   ],
+   "panel": {
+    "kicker": "Lean stack",
+    "heading": "One tool for each of four jobs",
+    "items": [
+     "Capture: notes app or a chat with yourself",
+     "Assistant: one AI tool with your context",
+     "Home for files: one Drive or one folder",
+     "Calendar and reminders to fire routines"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Complete all five before you load your context store into any tool.",
+    "Fraudsters sell fake AI apps and cheap shared logins on WhatsApp. Install apps only from the official store, pay only inside the official app or website, and never share your login or one-time codes."
+   ],
+   "panel": {
+    "kicker": "Safety first",
+    "heading": "Account safety setup",
+    "items": [
+     "Unique strong password",
+     "Two-step verification switched on",
+     "Chat data settings reviewed",
+     "Phone screen lock enabled",
+     "Offline master copy saved"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "A good intention fades within weeks. A routine card does not, because it answers every question in advance. When you are tired, you follow the card."
+   ],
+   "panel": {
+    "kicker": "Routine cards",
+    "heading": "A one-page recipe for one task",
+    "items": [
+     "Trigger: a fixed time or event",
+     "Inputs: exactly what you gather first",
+     "Saved prompt: your tested wording",
+     "Check: what you verify before sending",
+     "Output and time box, then log the run"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "It says when the routine happens, what you gather, and which saved prompt you run."
+   ],
+   "panel": {
+    "kicker": "Routine cards",
+    "heading": "A one-page recipe for one task",
+    "items": [
+     "Trigger: a fixed time or event",
+     "Inputs: exactly what you gather first",
+     "Saved prompt: your tested wording",
+     "Check: what you verify before sending",
+     "Output and time box, then log the run"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Then what you check, where the result goes, and how many minutes you allow. The AI works only in the middle. You own the inputs, the check and the delivery."
+   ],
+   "panel": {
+    "kicker": "Routine cards",
+    "heading": "A one-page recipe for one task",
+    "items": [
+     "Trigger: a fixed time or event",
+     "Inputs: exactly what you gather first",
+     "Saved prompt: your tested wording",
+     "Check: what you verify before sending",
+     "Output and time box, then log the run"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Assistants sometimes round or recalculate numbers. So let a spreadsheet do the sums, tell the AI not to change any figure, and still check every figure yourself."
+   ],
+   "panel": {
+    "kicker": "Routine cards",
+    "heading": "A one-page recipe for one task",
+    "items": [
+     "Trigger: a fixed time or event",
+     "Inputs: exactly what you gather first",
+     "Saved prompt: your tested wording",
+     "Check: what you verify before sending",
+     "Output and time box, then log the run"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Prompts with numbers say: Do not calculate or change any figure.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Funmi used to spend about an hour on the monthly update. Now she follows a routine card."
+   ],
+   "card": {
+    "title": "Funmi's monthly savings group update",
+    "rows": [],
+    "note": "Totals come from her spreadsheet, not the AI."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Each member pays 5,000 naira, so her sheet's formula expects 150,000 naira."
+   ],
+   "card": {
+    "title": "Funmi's monthly savings group update",
+    "rows": [
+     [
+      "Each member's monthly contribution",
+      "5,000"
+     ],
+     [
+      "Expected this month",
+      "150,000"
+     ]
+    ],
+    "note": "Totals come from her spreadsheet, not the AI."
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "The sheet shows 135,000 naira collected and 15,000 naira outstanding. Only these totals go into her saved prompt, with the words: do not name anyone who owes."
+   ],
+   "card": {
+    "title": "Funmi's monthly savings group update",
+    "rows": [
+     [
+      "Each member's monthly contribution",
+      "5,000"
+     ],
+     [
+      "Expected this month",
+      "150,000"
+     ],
+     [
+      "Collected",
+      "135,000"
+     ],
+     [
+      "Outstanding",
+      "15,000"
+     ]
+    ],
+    "note": "Totals come from her spreadsheet, not the AI."
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "She checks every figure against her sheet, and changes most members to 26 of 30 members. Then she writes private reminders herself, so nobody is shamed in the group.",
+    "Member names, phone numbers and amounts per person never enter the AI tool. The routine now takes about 20 minutes."
+   ],
+   "card": {
+    "title": "Funmi's monthly savings group update",
+    "rows": [
+     [
+      "Each member's monthly contribution",
+      "5,000"
+     ],
+     [
+      "Expected this month",
+      "150,000"
+     ],
+     [
+      "Collected",
+      "135,000"
+     ],
+     [
+      "Outstanding",
+      "15,000"
+     ]
+    ],
+    "note": "Totals come from her spreadsheet, not the AI."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Your own planning notes need only a quick read."
+   ],
+   "panel": {
+    "kicker": "Review gate",
+    "heading": "Match the check to the risk",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Low risk",
+      "d": "Your own notes or a first list of ideas. A quick read for sense."
+     },
+     {
+      "t": "Medium risk",
+      "d": "Messages to members or clients, reports, posts. The full five-point check."
+     },
+     {
+      "t": "High risk",
+      "d": "Money, health, legal or official matters. Every claim sourced, plus a second reviewer."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Messages to members, reports and posts get the full five-point check: names and dates, numbers, private data, sources, and does it sound like you. Watch for invented details, like a venue you never supplied."
+   ],
+   "panel": {
+    "kicker": "Review gate",
+    "heading": "Match the check to the risk",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Low risk",
+      "d": "Your own notes or a first list of ideas. A quick read for sense."
+     },
+     {
+      "t": "Medium risk",
+      "d": "Messages to members or clients, reports, posts. The full five-point check."
+     },
+     {
+      "t": "High risk",
+      "d": "Money, health, legal or official matters. Every claim sourced, plus a second reviewer."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Anything about money, health or legal matters needs every claim matched to a source and a second person to review it. Or do it without AI."
+   ],
+   "panel": {
+    "kicker": "Review gate",
+    "heading": "Match the check to the risk",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Low risk",
+      "d": "Your own notes or a first list of ideas. A quick read for sense."
+     },
+     {
+      "t": "Medium risk",
+      "d": "Messages to members or clients, reports, posts. The full five-point check."
+     },
+     {
+      "t": "High risk",
+      "d": "Money, health, legal or official matters. Every claim sourced, plus a second reviewer."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Log one line for every run: date, routine, minutes, edit level and errors caught. Ngozi logged 12 runs over four weeks. They took 240 minutes, against 520 without AI. She saved 280 minutes."
+   ],
+   "panel": {
+    "kicker": "Work log",
+    "heading": "Ngozi reads four weeks of her log",
+    "items": [
+     "520 minutes without AI, 240 with it",
+     "Saved: 280 minutes in four weeks",
+     "Heavy edits: 3 of 12 runs",
+     "Errors caught at the gate: 5"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Only 3 runs needed heavy edits, and her gate caught 5 errors, including two wrong dates. They came from an old facts sheet, so she fixed the facts sheet, not the prompt."
+   ],
+   "panel": {
+    "kicker": "Work log",
+    "heading": "Ngozi reads four weeks of her log",
+    "items": [
+     "520 minutes without AI, 240 with it",
+     "Saved: 280 minutes in four weeks",
+     "Heavy edits: 3 of 12 runs",
+     "Errors caught at the gate: 5"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "If a routine saves time but needs heavy edits often, fix it. If it still saves under 10 minutes after fixing, drop it. Doing a task by hand is a valid result."
+   ],
+   "panel": {
+    "kicker": "Work log",
+    "heading": "Ngozi reads four weeks of her log",
+    "items": [
+     "520 minutes without AI, 240 with it",
+     "Saved: 280 minutes in four weeks",
+     "Heavy edits: 3 of 12 runs",
+     "Errors caught at the gate: 5"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Keep it if it saves 10+ minutes a run, heavy edits at most 1 in 3.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "To remember. Keep your stack lean and secure. Write routine cards. Let the spreadsheet do the sums. Set your check by risk. And let your own log decide which routines stay. Every card also needs a fallback for days with no AI or no data."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "One tool per job, set up safely",
+     "Routine cards: trigger, inputs, prompt, check, output",
+     "Sums come from the sheet, never the AI",
+     "Set the review gate by risk",
+     "Your own log decides keep, fix or drop"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Now secure your accounts, write and run two routine cards, and log every run for four weeks.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice task",
+    "heading": "Your practice tasks",
+    "items": [
+     "Complete the five-item safety checklist",
+     "Write and run two routine cards",
+     "Start your AI work log",
+     "Add a fallback line to each card"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

@@ -1,0 +1,453 @@
+{
+ "course": "core-simple-record-keeping-visual-and-practical",
+ "module": "m2",
+ "title": "Uuzaji, hisa na mkopo: fahamu ulichouza na ni nani anayekudai",
+ "course_title": "Utunzaji Rahisi wa Rekodi (Inayoonekana na Kivitendo)",
+ "shots": [
+  {
+   "demo": "cash_count",
+   "say": [
+    "Mauzo, hisa na mkopo: fahamu ulichouza, na ni nani anayekudai.",
+    "Hii ni video ya Moduli ya 2, Mauzo, rekodi za hisa na mikopo."
+   ]
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Kitabu chako cha mauzo ndio ukurasa unaotumika zaidi katika biashara yako. Ukiweka rekodi moja pekee, weka hii."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Rekodi tatu zinazolinda pesa zako",
+    "items": [
+     "Kitabu cha mauzo: kila mauzo, na jinsi ilivyolipwa",
+     "Kadi ya hisa: kile kilichoingia, kilichotoka, kimesalia",
+     "Orodha ya wadaiwa: ni nani anayedaiwa, na lini"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Kadi yako ya hisa inaonyesha mahali ambapo pesa nyingi za biashara yako zimekaa: kwenye rafu."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Rekodi tatu zinazolinda pesa zako",
+    "items": [
+     "Kitabu cha mauzo: kila mauzo, na jinsi ilivyolipwa",
+     "Kadi ya hisa: kile kilichoingia, kilichotoka, kimesalia",
+     "Orodha ya wadaiwa: ni nani anayedaiwa, na lini"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Na orodha yako ya wadeni inarudisha pesa zako. Mkopo huwaweka wateja waaminifu, lakini ndiyo njia ya haraka zaidi ya biashara ndogo kukosa pesa."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Rekodi tatu zinazolinda pesa zako",
+    "items": [
+     "Kitabu cha mauzo: kila mauzo, na jinsi ilivyolipwa",
+     "Kadi ya hisa: kile kilichoingia, kilichotoka, kimesalia",
+     "Orodha ya wadaiwa: ni nani anayedaiwa, na lini"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Kila mauzo hupata laini moja: tarehe, bidhaa, kiasi, bei, jumla na jinsi ilivyolipwa. Pesa, uhamisho, au mkopo.",
+    "Kwa mfano, Funke anauza vyakula huko Ibadan."
+   ],
+   "card": {
+    "title": "Kitabu cha mauzo cha Funke, asubuhi moja",
+    "rows": [],
+    "note": "Bei ni takriban."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Anauza ndoo 4 za rangi za garri kwa takriban naira 3,500 kwa pesa taslimu, ambayo ni naira 14,000. Pia anahesabu vikombe 12 vidogo vya kamba kwa takriban naira 500, naira nyingine 6,000. Mauzo yake ya pesa taslimu ni naira 20,000."
+   ],
+   "card": {
+    "title": "Kitabu cha mauzo cha Funke, asubuhi moja",
+    "rows": [
+     [
+      "Fedha: garri na crayfish",
+      "20,000"
+     ]
+    ],
+    "note": "Bei ni takriban."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Ndoo mbili za maharagwe kwa takriban naira 5,000 hulipwa kwa uhamisho. Hiyo ni naira 10,000."
+   ],
+   "card": {
+    "title": "Kitabu cha mauzo cha Funke, asubuhi moja",
+    "rows": [
+     [
+      "Fedha: garri na crayfish",
+      "20,000"
+     ],
+     [
+      "Uhamisho: maharagwe",
+      "10,000"
+     ]
+    ],
+    "note": "Bei ni takriban."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Na chupa moja ya mafuta ya mawese huenda kwa Iya Sade kwa mkopo, naira 2,500."
+   ],
+   "card": {
+    "title": "Kitabu cha mauzo cha Funke, asubuhi moja",
+    "rows": [
+     [
+      "Fedha: garri na crayfish",
+      "20,000"
+     ],
+     [
+      "Uhamisho: maharagwe",
+      "10,000"
+     ],
+     [
+      "Credit: mawese, Iya Sade",
+      "2,500"
+     ]
+    ],
+    "note": "Bei ni takriban."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Mauzo yote yanakuja kwa takriban naira 32,500. Sasa anajua hasa cha kuangalia: pesa taslimu 20,000 zaidi kwenye mkoba wake, 10,000 zaidi kwenye akaunti yake, na Iya Sade kwenye orodha ya wadaiwa."
+   ],
+   "card": {
+    "title": "Kitabu cha mauzo cha Funke, asubuhi moja",
+    "rows": [
+     [
+      "Fedha: garri na crayfish",
+      "20,000"
+     ],
+     [
+      "Uhamisho: maharagwe",
+      "10,000"
+     ],
+     [
+      "Credit: mawese, Iya Sade",
+      "2,500"
+     ]
+    ],
+    "note": "Bei ni takriban."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Wakati wa kufunga, hatua ya kwanza. Ongeza safu wima ya Jumla kwa siku nzima."
+   ],
+   "panel": {
+    "kicker": "Wakati wa kufunga",
+    "heading": "Angalia kitabu chako cha mauzo",
+    "items": [
+     "Ongeza safu wima ya Jumla ya siku",
+     "Hesabu pesa taslimu, toa kuelea",
+     "Weka tiki kwenye uhamishaji wa fedha dhidi ya programu yako ya benki",
+     "Angalia kila mauzo ya mkopo iko kwenye orodha ya wadaiwa",
+     "Andika tofauti yoyote na kidokezo"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Hatua ya pili. Hesabu pesa zako na uondoe kuelea, pesa ya mabadiliko uliyoanza nayo. Zingine zinapaswa kuwa sawa na mauzo yako ya pesa taslimu."
+   ],
+   "panel": {
+    "kicker": "Wakati wa kufunga",
+    "heading": "Angalia kitabu chako cha mauzo",
+    "items": [
+     "Ongeza safu wima ya Jumla ya siku",
+     "Hesabu pesa taslimu, toa kuelea",
+     "Weka tiki kwenye uhamishaji wa fedha dhidi ya programu yako ya benki",
+     "Angalia kila mauzo ya mkopo iko kwenye orodha ya wadaiwa",
+     "Andika tofauti yoyote na kidokezo"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Hatua ya tatu. Fungua programu yako ya benki au wallet na uweke alama kwenye kila uhamisho unaoingia dhidi ya mstari ulio kwenye kitabu chako. Arifa ambazo hazilinganishwi mara nyingi humaanisha uuzaji uliosahaulika.",
+    "Daima thibitisha kuwa pesa ziko kwenye akaunti yako kabla ya bidhaa kuondoka. Usiamini kamwe skrini ya simu ya mteja pekee."
+   ],
+   "panel": {
+    "kicker": "Wakati wa kufunga",
+    "heading": "Angalia kitabu chako cha mauzo",
+    "items": [
+     "Ongeza safu wima ya Jumla ya siku",
+     "Hesabu pesa taslimu, toa kuelea",
+     "Weka tiki kwenye uhamishaji wa fedha dhidi ya programu yako ya benki",
+     "Angalia kila mauzo ya mkopo iko kwenye orodha ya wadaiwa",
+     "Andika tofauti yoyote na kidokezo"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Thibitisha uhamishaji katika akaunti yako mwenyewe kabla ya kutoa bidhaa.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Hatua ya nne, angalia kila mauzo ya mkopo iko kwenye orodha yako ya wadaiwa. Na hatua ya tano, andika tofauti yoyote na maelezo mafupi. Muda mfupi sasa na kisha ni kawaida. Ufupi karibu kila siku inamaanisha kuwa kuna kitu kibaya."
+   ],
+   "panel": {
+    "kicker": "Wakati wa kufunga",
+    "heading": "Angalia kitabu chako cha mauzo",
+    "items": [
+     "Ongeza safu wima ya Jumla ya siku",
+     "Hesabu pesa taslimu, toa kuelea",
+     "Weka tiki kwenye uhamishaji wa fedha dhidi ya programu yako ya benki",
+     "Angalia kila mauzo ya mkopo iko kwenye orodha ya wadaiwa",
+     "Andika tofauti yoyote na kidokezo"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Thibitisha uhamishaji katika akaunti yako mwenyewe kabla ya kutoa bidhaa.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Hisa za ufunguzi, pamoja na hisa zilizonunuliwa, kuondoa hisa zinazouzwa, ni sawa na kile kinachopaswa kuachwa. Hesabu ni nini kimesalia na ulinganishe.",
+    "Kwa mfano, Esther anauza vinywaji baridi na kreti huko Port Harcourt. Siku ya Jumatatu anahesabu masanduku 10."
+   ],
+   "panel": {
+    "kicker": "Hisa",
+    "heading": "Fomula ya hisa",
+    "items": [
+     "Hifadhi ya ufunguzi: kreti 10",
+     "Plus kununuliwa: 15 crates",
+     "Idadi ya minus ya kufunga: masanduku 7",
+     "Masanduku 18 yaliondoka dukani",
+     "Kitabu cha mauzo kinaonyesha 17: kreti 1 haipo"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Ananunua 15 zaidi Jumatano, kwa hivyo kreti 25 zilipatikana."
+   ],
+   "panel": {
+    "kicker": "Hisa",
+    "heading": "Fomula ya hisa",
+    "items": [
+     "Hifadhi ya ufunguzi: kreti 10",
+     "Plus kununuliwa: 15 crates",
+     "Idadi ya minus ya kufunga: masanduku 7",
+     "Masanduku 18 yaliondoka dukani",
+     "Kitabu cha mauzo kinaonyesha 17: kreti 1 haipo"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Siku ya Jumamosi anahesabu masanduku 7. Kwa hivyo kreti 18 ziliondoka dukani."
+   ],
+   "panel": {
+    "kicker": "Hisa",
+    "heading": "Fomula ya hisa",
+    "items": [
+     "Hifadhi ya ufunguzi: kreti 10",
+     "Plus kununuliwa: 15 crates",
+     "Idadi ya minus ya kufunga: masanduku 7",
+     "Masanduku 18 yaliondoka dukani",
+     "Kitabu cha mauzo kinaonyesha 17: kreti 1 haipo"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Lakini kitabu chake cha mauzo kinaonyesha 17 tu zilizouzwa. Kreti moja, takriban naira 6,000 kwa gharama, haijafafanuliwa.",
+    "Msaidizi wake anaelezea: chupa 2 zilivunjika na zingine zilitolewa kwa wageni. Sasa Esta anaandika uvunjaji na zawadi katika safu ya Nje, na pengo linatoweka."
+   ],
+   "panel": {
+    "kicker": "Hisa",
+    "heading": "Fomula ya hisa",
+    "items": [
+     "Hifadhi ya ufunguzi: kreti 10",
+     "Plus kununuliwa: 15 crates",
+     "Idadi ya minus ya kufunga: masanduku 7",
+     "Masanduku 18 yaliondoka dukani",
+     "Kitabu cha mauzo kinaonyesha 17: kreti 1 haipo"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Hesabu kwa wakati mmoja kila wiki, kwa mfano Jumamosi baada ya kufunga. Andika kuvunjwa, kuharibika na bidhaa zilizochukuliwa nyumbani katika safu ya Nje. Uza hisa za zamani kwanza.",
+    "Na kamwe usiuze chakula, vinywaji au dawa kupita tarehe ya mwisho wa matumizi. Ziondoe, zirekodi kama zimeharibika, na ununue kiasi kidogo wakati ujao."
+   ],
+   "panel": {
+    "kicker": "Hesabu ya kila wiki",
+    "heading": "Unapohesabu hisa yako",
+    "items": [
+     "Siku na wakati sawa kila wiki",
+     "Rekodi kuvunjika na matumizi ya nyumbani kama Nje",
+     "Uza hisa za zamani kwanza",
+     "Kamwe usiuze chakula, vinywaji au dawa zilizokwisha muda wake"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Andika kila deni mbele ya mteja na usome tena pamoja na tarehe ya kukamilisha. Rekodi kila malipo ya sehemu na salio jipya.",
+    "Kwa mfano, Chioma anauza kitambaa huko Aba. Mwishoni mwa mwezi, Ada, Joy na Uche wanadaiwa naira 73,000. Deni la Uche lina wiki 7."
+   ],
+   "panel": {
+    "kicker": "Mikopo",
+    "heading": "Tatizo la mikopo la Chioma",
+    "mode": "compare",
+    "left_h": "Anadaiwa",
+    "left": [
+     "Ada: naira 25,000",
+     "Furaha: Naira 8,000",
+     "Gharama: 40,000 naira",
+     "Jumla: naira 73,000"
+    ],
+    "right_h": "Anahitaji",
+    "right": [
+     "Takriban naira 120,000 kwa hisa",
+     "Ana naira 60,000 mkononi",
+     "60,000 naira fupi"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Hisa ya wiki ijayo itagharimu takriban naira 120,000, na ana 60,000 pekee mkononi. Kwa hivyo anampigia simu Ada leo, anakubali tarehe na Joy, na anasimamisha mkopo kwa Uche.",
+    "Panga deni kulingana na umri na ufukuze deni kuu kwanza. Kadiri deni linavyosubiri, ndivyo inavyokuwa vigumu kukusanya."
+   ],
+   "panel": {
+    "kicker": "Mikopo",
+    "heading": "Tatizo la mikopo la Chioma",
+    "mode": "compare",
+    "left_h": "Anadaiwa",
+    "left": [
+     "Ada: naira 25,000",
+     "Furaha: Naira 8,000",
+     "Gharama: 40,000 naira",
+     "Jumla: naira 73,000"
+    ],
+    "right_h": "Anahitaji",
+    "right": [
+     "Takriban naira 120,000 kwa hisa",
+     "Ana naira 60,000 mkononi",
+     "60,000 naira fupi"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Weka sheria zako. Mikopo kwa wateja wa kawaida unaowajua pekee, kikomo kwa kila mtu, tarehe ya malipo iliyo wazi, hakuna mkopo mpya hadi deni la mwisho lilipwe, na hakuna mauzo ya mkopo bila mstari kwenye orodha."
+   ],
+   "panel": {
+    "kicker": "Sheria za mkopo",
+    "heading": "Weka sheria zako za mkopo",
+    "items": [
+     "Nani: wateja wa kawaida na simu ya kufanya kazi",
+     "Kiasi gani: kikomo kwa kila mtu",
+     "Muda gani: tarehe ya malipo wazi",
+     "Moja kwa wakati mmoja: hakuna mkopo mpya hadi ulipwe",
+     "Andika kila wakati"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Sasa endesha siku kamili ya kitabu cha mauzo, tengeneza muhtasari wako wa kila wiki, anza kadi ya hisa ya bidhaa yako kuu, na safisha orodha yako ya wadaiwa. Endelea na masomo hapa chini."
+   ],
+   "panel": {
+    "kicker": "Mazoezi ya kazi",
+    "heading": "Kazi zako za mazoezi",
+    "items": [
+     "Tekeleza siku kamili ya kitabu cha mauzo",
+     "Jenga muhtasari wako wa kila wiki",
+     "Kadi ya hisa ya bidhaa yako ya juu",
+     "Safisha orodha yako ya wadaiwa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

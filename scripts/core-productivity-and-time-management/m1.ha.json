@@ -1,0 +1,603 @@
+{
+ "course": "core-productivity-and-time-management",
+ "module": "m1",
+ "title": "Sakamako, maƙasudai da kallon gaskiya ga ranar aikinku",
+ "course_title": "Yawan aiki & Gudanar da Lokaci a Aiki",
+ "shots": [
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Sakamako, maƙasudai, da kallon gaskiya ga ranar aikinku.",
+    "Wannan shine bidiyon don Module 1 na Samfura da Gudanar da Lokaci a Aiki."
+   ]
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Tambayi mutane yadda makonsu ya kasance, kuma mutane da yawa za su ce, aiki sosai. Aiki yana bayyana ayyuka: saƙonnin da aka amsa, kira da aka yi, taron da aka halarta."
+   ],
+   "panel": {
+    "kicker": "Me ya sa yake da mahimmanci",
+    "heading": "Busy ba ɗaya bane da mai amfani",
+    "items": [
+     "Ayyuka: saƙonni, kira, tarurruka",
+     "Fitowa: sakamakon aikin ku ya wanzu don",
+     "Ƙarin fitarwa ba tare da ƙarin sa'o'i ba",
+     "Auna inda lokacinku ya tafi da gaske"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Yawan aiki yana bayyana fitarwa. Ga mai ba da abinci, wato umarni da ake bayarwa akan lokaci kuma an biya su."
+   ],
+   "panel": {
+    "kicker": "Me ya sa yake da mahimmanci",
+    "heading": "Busy ba ɗaya bane da mai amfani",
+    "items": [
+     "Ayyuka: saƙonni, kira, tarurruka",
+     "Fitowa: sakamakon aikin ku ya wanzu don",
+     "Ƙarin fitarwa ba tare da ƙarin sa'o'i ba",
+     "Auna inda lokacinku ya tafi da gaske"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Wannan hanya shine game da haɓaka kayan aiki ba tare da ƙara sa'o'i ba."
+   ],
+   "panel": {
+    "kicker": "Me ya sa yake da mahimmanci",
+    "heading": "Busy ba ɗaya bane da mai amfani",
+    "items": [
+     "Ayyuka: saƙonni, kira, tarurruka",
+     "Fitowa: sakamakon aikin ku ya wanzu don",
+     "Ƙarin fitarwa ba tare da ƙarin sa'o'i ba",
+     "Auna inda lokacinku ya tafi da gaske"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Kuma kafin ku canza wani abu, za ku auna yadda ainihin ranar ku ta kasance."
+   ],
+   "panel": {
+    "kicker": "Me ya sa yake da mahimmanci",
+    "heading": "Busy ba ɗaya bane da mai amfani",
+    "items": [
+     "Ayyuka: saƙonni, kira, tarurruka",
+     "Fitowa: sakamakon aikin ku ya wanzu don",
+     "Ƙarin fitarwa ba tare da ƙarin sa'o'i ba",
+     "Auna inda lokacinku ya tafi da gaske"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Kowace rawar tana da mahimman wuraren sakamako uku zuwa biyar, ƴan sakamakon da ke sauƙaƙa komai. Rubuta su azaman sakamako, ba ayyuka ba.",
+    "Yawancin sakamako masu mahimmanci sun dogara da aiki mai zurfi. Wato mai da hankali ne, neman aikin da ke buƙatar ƙwarewar ku da yanke hukunci, kamar rubuta shawara ko shirya kasafin kuɗi."
+   ],
+   "panel": {
+    "kicker": "Aiki iri biyu",
+    "heading": "Aiki mai zurfi da aiki mai zurfi",
+    "mode": "compare",
+    "left_h": "Aiki mai zurfi",
+    "left": [
+     "Rubuta shawara",
+     "Ana shirya kasafin kuɗi",
+     "Yana buƙatar cikakken kulawar ku",
+     "Yana faruwa ne kawai idan an kiyaye shi"
+    ],
+    "right_h": "Aiki mai zurfi",
+    "right": [
+     "Ana tura fayil",
+     "Tabbatar da lokacin taro",
+     "Ana iya yin shi yayin da aka shagala",
+     "Yana isa duk rana da kanta"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Aiki mai zurfi ya fi sauƙi, kamar tura fayil. Idan sabon abokin aiki mai wayo zai iya yin shi da kyau bayan sati guda na horo, tabbas yana da zurfi.",
+    "Aiki mai zurfi yana isa duk rana da kanta. Zurfin aiki yana faruwa ne kawai idan kun kare lokaci don shi."
+   ],
+   "panel": {
+    "kicker": "Aiki iri biyu",
+    "heading": "Aiki mai zurfi da aiki mai zurfi",
+    "mode": "compare",
+    "left_h": "Aiki mai zurfi",
+    "left": [
+     "Rubuta shawara",
+     "Ana shirya kasafin kuɗi",
+     "Yana buƙatar cikakken kulawar ku",
+     "Yana faruwa ne kawai idan an kiyaye shi"
+    ],
+    "right_h": "Aiki mai zurfi",
+    "right": [
+     "Ana tura fayil",
+     "Tabbatar da lokacin taro",
+     "Ana iya yin shi yayin da aka shagala",
+     "Yana isa duk rana da kanta"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Amaka yana aiki daga 8 na safe zuwa 8 na dare, amma riba ba ta da yawa."
+   ],
+   "card": {
+    "title": "Kasuwancin bugawa Amaka",
+    "rows": [],
+    "note": null
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Ta jera duk abin da ta yi ranar Talata. Ayyuka 14, gami da awanni 3 akan WhatsApp."
+   ],
+   "card": {
+    "title": "Kasuwancin bugawa Amaka",
+    "rows": [
+     [
+      "Ayyukan da ta yi a ranar Talata",
+      "14"
+     ]
+    ],
+    "note": null
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Ta rubuta wuraren sakamakonta, kamar ayyukan da aka bayar akan lokaci, sabbin abokan cinikin kamfanoni, da kuɗin da aka tattara. 5 ne kawai daga cikin ayyuka 14 suka ba da sakamako. Babu wanda ya yiwa sabbin abokan ciniki hidima."
+   ],
+   "card": {
+    "title": "Kasuwancin bugawa Amaka",
+    "rows": [
+     [
+      "Ayyukan da ta yi a ranar Talata",
+      "14"
+     ],
+     [
+      "Ayyukan da suka ba da sakamako",
+      "5"
+     ]
+    ],
+    "note": null
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Don haka kowace ranar mako daga 9 zuwa 10:30 yanzu don aiki mai zurfi akan yanki guda ɗaya. A cikin satin ta aika bayanan kamfanin zuwa ga abokan ciniki guda 6, aikin da ta jinkirta tsawon watanni yayin da take cikin aiki."
+   ],
+   "card": {
+    "title": "Kasuwancin bugawa Amaka",
+    "rows": [
+     [
+      "Ayyukan da ta yi a ranar Talata",
+      "14"
+     ],
+     [
+      "Ayyukan da suka ba da sakamako",
+      "5"
+     ],
+     [
+      "Bayanan bayanan da aka aika a wannan makon",
+      "6"
+     ]
+    ],
+    "note": null
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Manufar tana juya yankin sakamako zuwa maƙasudi tare da layin gamawa. Manufar SMART takamaimai ce, mai aunawa, mai yiwuwa, mai dacewa da sakamakonku, kuma yana da ranar ƙarshe.",
+    "Inganta sabis na abokin ciniki ba shi da tabbas. Amsa ga kowane tambaya ta WhatsApp a cikin awanni 2 na aiki shine SMART."
+   ],
+   "panel": {
+    "kicker": "Saita manufa",
+    "heading": "Manufar SMART da OCRs",
+    "items": [
+     "SMART: Musamman, Mai Aunawa, Mai yiwuwa",
+     "Mai dacewa da Lokaci-lokaci",
+     "Manufar OCR: bayyanannun kalmomi, babu lamba",
+     "Sakamako mai mahimmanci: 3 zuwa 5, kowanne yana da lamba da kwanan wata",
+     "Ƙaddamarwa: ayyukan da kuke yi"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "OKR haƙiƙa ce da sakamako mai mahimmanci. Manufar ita ce abin da kuke so, a cikin bayyanannun kalmomi masu ban sha'awa, ba tare da lamba ba."
+   ],
+   "panel": {
+    "kicker": "Saita manufa",
+    "heading": "Manufar SMART da OCRs",
+    "items": [
+     "SMART: Musamman, Mai Aunawa, Mai yiwuwa",
+     "Mai dacewa da Lokaci-lokaci",
+     "Manufar OCR: bayyanannun kalmomi, babu lamba",
+     "Sakamako mai mahimmanci: 3 zuwa 5, kowanne yana da lamba da kwanan wata",
+     "Ƙaddamarwa: ayyukan da kuke yi"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Mahimmin sakamako shine alamomi uku zuwa biyar masu aunawa da kuka isa wurin, kowanne yana da lamba da kwanan wata."
+   ],
+   "panel": {
+    "kicker": "Saita manufa",
+    "heading": "Manufar SMART da OCRs",
+    "items": [
+     "SMART: Musamman, Mai Aunawa, Mai yiwuwa",
+     "Mai dacewa da Lokaci-lokaci",
+     "Manufar OCR: bayyanannun kalmomi, babu lamba",
+     "Sakamako mai mahimmanci: 3 zuwa 5, kowanne yana da lamba da kwanan wata",
+     "Ƙaddamarwa: ayyukan da kuke yi"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Ƙaddamarwa shine ayyukan da kuke ɗauka don motsa su."
+   ],
+   "panel": {
+    "kicker": "Saita manufa",
+    "heading": "Manufar SMART da OCRs",
+    "items": [
+     "SMART: Musamman, Mai Aunawa, Mai yiwuwa",
+     "Mai dacewa da Lokaci-lokaci",
+     "Manufar OCR: bayyanannun kalmomi, babu lamba",
+     "Sakamako mai mahimmanci: 3 zuwa 5, kowanne yana da lamba da kwanan wata",
+     "Ƙaddamarwa: ayyukan da kuke yi"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Kuskuren gama gari shine auna ƙoƙari. Aika faifai 50 aiki ne. Samun sabbin tambayoyin ofis guda 10 sakamakon haka."
+   ],
+   "panel": {
+    "kicker": "Saita manufa",
+    "heading": "Manufar SMART da OCRs",
+    "items": [
+     "SMART: Musamman, Mai Aunawa, Mai yiwuwa",
+     "Mai dacewa da Lokaci-lokaci",
+     "Manufar OCR: bayyanannun kalmomi, babu lamba",
+     "Sakamako mai mahimmanci: 3 zuwa 5, kowanne yana da lamba da kwanan wata",
+     "Ƙaddamarwa: ayyukan da kuke yi"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Mahimmin sakamako yana auna sakamako, ba aiki ba",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Tallanta bai yi daidai ba. Manufarta: gina tsayayyen tallace-tallace na wata-wata daga abokan ciniki masu dawowa."
+   ],
+   "card": {
+    "title": "Halima na OKR na kwata",
+    "rows": [],
+    "note": "Adadin Naira ya kusanta."
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Mahimmin sakamako 1. 40 maimaita abokan ciniki ta 30 ga Satumba. Littafin tallace-tallacenta yana nuna kusan 15 kwata na ƙarshe. Wannan shine tushenta."
+   ],
+   "card": {
+    "title": "Halima na OKR na kwata",
+    "rows": [
+     [
+      "Maimaita abokan ciniki nan da 30 ga Satumba",
+      "40"
+     ]
+    ],
+    "note": "Adadin Naira ya kusanta."
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Mahimmin sakamako 2. Matsakaicin odar Naira 25000 ko sama da haka, daga kusan 18000."
+   ],
+   "card": {
+    "title": "Halima na OKR na kwata",
+    "rows": [
+     [
+      "Maimaita abokan ciniki nan da 30 ga Satumba",
+      "40"
+     ],
+     [
+      "Matsakaicin ƙimar oda, naira",
+      "25,000"
+     ]
+    ],
+    "note": "Adadin Naira ya kusanta."
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Mahimmin sakamako 3. 4 sabbin tarin da aka sanar akan jadawalin.",
+    "Yanzu duk ranar Juma'a tana duba lambobi uku, maimakon fata na gaba ɗaya don ƙarin tallace-tallace."
+   ],
+   "card": {
+    "title": "Halima na OKR na kwata",
+    "rows": [
+     [
+      "Maimaita abokan ciniki nan da 30 ga Satumba",
+      "40"
+     ],
+     [
+      "Matsakaicin ƙimar oda, naira",
+      "25,000"
+     ],
+     [
+      "Sabbin tarin akan jadawalin",
+      "4"
+     ]
+    ],
+    "note": "Adadin Naira ya kusanta."
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Yanzu auna wurin farawa, tushen ku. Don kwanaki 3 na al'ada, yi rikodin abin da kuka yi aiki a kai a cikin tubalan mintuna 30, ko duk lokacin da kuka canza ɗawainiya."
+   ],
+   "panel": {
+    "kicker": "Tushen ku",
+    "heading": "Log 3 kwanakin aiki",
+    "items": [
+     "Shiga cikin tubalan mintuna 30",
+     "Kula da yankin sakamakon, mai zurfi ko mara zurfi",
+     "Tally katsewa: W, E, C, P, S",
+     "Ƙirga sa'o'in zurfafan aiki da aka mayar da hankali"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Yi la'akari da yankin sakamakon da ya yi aiki, da ko yana da zurfi ko marar zurfi."
+   ],
+   "panel": {
+    "kicker": "Tushen ku",
+    "heading": "Log 3 kwanakin aiki",
+    "items": [
+     "Shiga cikin tubalan mintuna 30",
+     "Kula da yankin sakamakon, mai zurfi ko mara zurfi",
+     "Tally katsewa: W, E, C, P, S",
+     "Ƙirga sa'o'in zurfafan aiki da aka mayar da hankali"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Tally kowane katsewa tare da wasiƙa. W don WhatsApp, E don imel, C don kira, P ga mutum, da S don kai, kamar ɗaukar wayarka kawai don dubawa."
+   ],
+   "panel": {
+    "kicker": "Tushen ku",
+    "heading": "Log 3 kwanakin aiki",
+    "items": [
+     "Shiga cikin tubalan mintuna 30",
+     "Kula da yankin sakamakon, mai zurfi ko mara zurfi",
+     "Tally katsewa: W, E, C, P, S",
+     "Ƙirga sa'o'in zurfafan aiki da aka mayar da hankali"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Sannan kirga sa'o'in zurfafan aiki mai zurfi, tare da sifili ko katsewa ɗaya."
+   ],
+   "panel": {
+    "kicker": "Tushen ku",
+    "heading": "Log 3 kwanakin aiki",
+    "items": [
+     "Shiga cikin tubalan mintuna 30",
+     "Kula da yankin sakamakon, mai zurfi ko mara zurfi",
+     "Tally katsewa: W, E, C, P, S",
+     "Ƙirga sa'o'in zurfafan aiki da aka mayar da hankali"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Funke tana jin ba ta da lokacin rubuta rahotanni masu ba da gudummawa. Ta shiga kwana 3."
+   ],
+   "card": {
+    "title": "Babban ofishin Funke",
+    "rows": [],
+    "note": null
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Tana samun sa'a 1 kawai mai da hankali a rana, da katsewa 23 a rana. 31 daga cikinsu a cikin kwanaki uku sun fito ne daga WhatsApp, galibi suna tattaunawa da ma'aikata."
+   ],
+   "card": {
+    "title": "Babban ofishin Funke",
+    "rows": [
+     [
+      "Sa'o'in aiki mai zurfi da aka mayar da hankali a rana",
+      "1"
+     ],
+     [
+      "Katsewa a rana",
+      "23"
+     ]
+    ],
+    "note": null
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Kashi 54 na lokacinta yana samun sakamako."
+   ],
+   "card": {
+    "title": "Babban ofishin Funke",
+    "rows": [
+     [
+      "Sa'o'in aiki mai zurfi da aka mayar da hankali a rana",
+      "1"
+     ],
+     [
+      "Katsewa a rana",
+      "23"
+     ],
+     [
+      "Lokacin kan sakamako, kashi",
+      "54"
+     ]
+    ],
+    "note": null
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Tana da taro na awa 2 a rana, don haka saura awa 6. Rage kashi 20 cikin ɗari don abin da ba zato ba tsammani, za ta iya tsara kusan awanni 4.8.",
+    "Kada ku shirya zuwa kashi 100. Buƙatar gaggawa ta farko za ta karya dukan yini."
+   ],
+   "card": {
+    "title": "Babban ofishin Funke",
+    "rows": [
+     [
+      "Sa'o'in aiki mai zurfi da aka mayar da hankali a rana",
+      "1"
+     ],
+     [
+      "Katsewa a rana",
+      "23"
+     ],
+     [
+      "Lokacin kan sakamako, kashi",
+      "54"
+     ],
+     [
+      "Shirye-shiryen sa'o'i a rana, game da",
+      "4.8"
+     ]
+    ],
+    "note": null
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Don tunawa. Auna kanku ta hanyar fitarwa. Kare lokaci don aiki mai zurfi. Rubuta mahimman sakamako azaman sakamako tare da lambobi da kwanakin.",
+    "Tally katsewa ta tushe, kuma shirya kawai ga ainihin iyawar ku, tare da ma'auni."
+   ],
+   "panel": {
+    "kicker": "Mabuɗin mahimmanci",
+    "heading": "Ka tuna",
+    "items": [
+     "Auna kanku ta hanyar fitarwa, ba aiki ba",
+     "Aikin zurfafa yana buƙatar lokaci mai kariya",
+     "Mahimmin sakamako yana auna sakamako",
+     "Tally katsewa ta tushe",
+     "Tsara zuwa iya aiki na gaske, tare da ma'auni"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Yanzu juzu'in ku. Rubuta mahimman wuraren sakamakon ku, rubuta OKR guda ɗaya don wannan kwata, kuma gudanar da tushen ku na kwanaki uku. Ajiye lambobin ku don Module 4.",
+    "Ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi aiki",
+    "heading": "Ayyukan aikin ku",
+    "items": [
+     "Rubuta wuraren sakamako masu mahimmanci",
+     "Rubuta burin kwata na ku",
+     "Gudanar da tushen ku na kwanaki uku"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

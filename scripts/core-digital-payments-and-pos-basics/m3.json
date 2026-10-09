@@ -1,0 +1,550 @@
+{
+ "course": "core-digital-payments-and-pos-basics",
+ "module": "m3",
+ "title": "POS, cards and ATMs: pay, withdraw and fix failed payments",
+ "course_title": "Digital Payments & POS Basics",
+ "shots": [
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "POS, cards and ATMs: pay, withdraw and fix failed payments.",
+    "This is the video for module 3 of Digital Payments and POS Basics."
+   ]
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "POS means point of sale. The machine asks your bank for permission, and your bank approves or declines.",
+    "Most problems come from rushing, letting someone else handle your card, or not checking the amount."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Most POS problems come from rushing",
+    "items": [
+     "Pay by card with a calm routine",
+     "Read a POS receipt",
+     "Use an ATM and avoid its traps",
+     "Run a POS stand and fix failed payments"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "You will learn a safe card routine, how to read a receipt, how to use an ATM, how float works, and what to do when a payment fails."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Most POS problems come from rushing",
+    "items": [
+     "Pay by card with a calm routine",
+     "Read a POS receipt",
+     "Use an ATM and avoid its traps",
+     "Run a POS stand and fix failed payments"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "For example, Blessing in Owerri agrees a total of 18,400 naira for gas and groceries."
+   ],
+   "panel": {
+    "kicker": "The safe card routine",
+    "heading": "Six checks at every POS payment",
+    "items": [
+     "Agree the amount aloud",
+     "Keep your card in your sight",
+     "Read the amount on screen, count zeros",
+     "Cover the keypad, enter your PIN",
+     "Receipt says APPROVED",
+     "Check the card returned is yours"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "She inserts the card herself, chip first. At a filling station, ask for the terminal to be brought to you."
+   ],
+   "panel": {
+    "kicker": "The safe card routine",
+    "heading": "Six checks at every POS payment",
+    "items": [
+     "Agree the amount aloud",
+     "Keep your card in your sight",
+     "Read the amount on screen, count zeros",
+     "Cover the keypad, enter your PIN",
+     "Receipt says APPROVED",
+     "Check the card returned is yours"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "The screen shows 184,000. She counts the digits: six, but 18,400 has five. She does not enter her PIN. She asks the cashier to enter it again."
+   ],
+   "panel": {
+    "kicker": "The safe card routine",
+    "heading": "Six checks at every POS payment",
+    "items": [
+     "Agree the amount aloud",
+     "Keep your card in your sight",
+     "Read the amount on screen, count zeros",
+     "Cover the keypad, enter your PIN",
+     "Receipt says APPROVED",
+     "Check the card returned is yours"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Now it shows 18,400. She covers the keypad with her other hand and enters her PIN."
+   ],
+   "panel": {
+    "kicker": "The safe card routine",
+    "heading": "Six checks at every POS payment",
+    "items": [
+     "Agree the amount aloud",
+     "Keep your card in your sight",
+     "Read the amount on screen, count zeros",
+     "Cover the keypad, enter your PIN",
+     "Receipt says APPROVED",
+     "Check the card returned is yours"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "The receipt says APPROVED. She checks the name and last four digits on the card she gets back, because a thief may swap a similar card."
+   ],
+   "panel": {
+    "kicker": "The safe card routine",
+    "heading": "Six checks at every POS payment",
+    "items": [
+     "Agree the amount aloud",
+     "Keep your card in your sight",
+     "Read the amount on screen, count zeros",
+     "Cover the keypad, enter your PIN",
+     "Receipt says APPROVED",
+     "Check the card returned is yours"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Never say your PIN aloud or let a cashier type it. If someone may have seen it, change it as soon as you can."
+   ],
+   "panel": {
+    "kicker": "The safe card routine",
+    "heading": "Six checks at every POS payment",
+    "items": [
+     "Agree the amount aloud",
+     "Keep your card in your sight",
+     "Read the amount on screen, count zeros",
+     "Cover the keypad, enter your PIN",
+     "Receipt says APPROVED",
+     "Check the card returned is yours"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "rule": "Cover the keypad. Never let your card out of sight.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "For example, Ruth's supermarket payment of 23,750 naira prints a DECLINED receipt, then an APPROVED one. Only APPROVED means money went through."
+   ],
+   "panel": {
+    "kicker": "Reading the receipt",
+    "heading": "Only APPROVED means you paid",
+    "items": [
+     "Status: APPROVED or DECLINED",
+     "Amount: exactly what you agreed",
+     "Terminal ID: that exact machine",
+     "RRN and STAN: reference numbers"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "She checks her app before leaving and sees one debit, not two. She keeps both receipts, because the terminal ID, RRN and STAN are what her bank needs to trace a payment."
+   ],
+   "panel": {
+    "kicker": "Reading the receipt",
+    "heading": "Only APPROVED means you paid",
+    "items": [
+     "Status: APPROVED or DECLINED",
+     "Amount: exactly what you agreed",
+     "Terminal ID: that exact machine",
+     "RRN and STAN: reference numbers"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Kemi's app showed a separate charge line for each withdrawal. So she listed what she really needs cash for each week."
+   ],
+   "card": {
+    "title": "One withdrawal instead of four",
+    "rows": [],
+    "note": "Amounts are approximate."
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Transport, about 7,000 naira. Market items, about 10,000. Small extras, about 3,000."
+   ],
+   "card": {
+    "title": "One withdrawal instead of four",
+    "rows": [
+     [
+      "Transport for the week",
+      "7,000"
+     ],
+     [
+      "Market items",
+      "10,000"
+     ],
+     [
+      "Small extras",
+      "3,000"
+     ]
+    ],
+    "note": "Amounts are approximate."
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "That is 20,000. Now she makes one withdrawal on Monday from her own bank's ATM, and keeps half at home so she does not carry it all. Read any fee notice on the screen before you confirm."
+   ],
+   "card": {
+    "title": "One withdrawal instead of four",
+    "rows": [
+     [
+      "Transport for the week",
+      "7,000"
+     ],
+     [
+      "Market items",
+      "10,000"
+     ],
+     [
+      "Small extras",
+      "3,000"
+     ]
+    ],
+    "note": "Amounts are approximate."
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Use an ATM at a bank branch, in daylight. Never accept help from a stranger. If you need help, go inside the bank."
+   ],
+   "panel": {
+    "kicker": "ATM traps",
+    "heading": "Three traps to avoid",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Helpful strangers",
+      "d": "Never accept help at an ATM, even from someone who says he works there."
+     },
+     {
+      "t": "Card trapped",
+      "d": "Stay at the machine. Call your bank's official number and block the card."
+     },
+     {
+      "t": "Skimmers",
+      "d": "Loose, glued or extra-thick slot or keypad? Do not use that machine."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "If the machine keeps your card, do not walk away. Call your bank's saved number from where you stand and block the card."
+   ],
+   "panel": {
+    "kicker": "ATM traps",
+    "heading": "Three traps to avoid",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Helpful strangers",
+      "d": "Never accept help at an ATM, even from someone who says he works there."
+     },
+     {
+      "t": "Card trapped",
+      "d": "Stay at the machine. Call your bank's official number and block the card."
+     },
+     {
+      "t": "Skimmers",
+      "d": "Loose, glued or extra-thick slot or keypad? Do not use that machine."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Before you insert your card, look at the slot and keypad. If anything looks loose or glued on, use another machine. And always take your card first, then your cash."
+   ],
+   "panel": {
+    "kicker": "ATM traps",
+    "heading": "Three traps to avoid",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Helpful strangers",
+      "d": "Never accept help at an ATM, even from someone who says he works there."
+     },
+     {
+      "t": "Card trapped",
+      "d": "Stay at the machine. Call your bank's official number and block the card."
+     },
+     {
+      "t": "Skimmers",
+      "d": "Loose, glued or extra-thick slot or keypad? Do not use that machine."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Float is cash in your drawer plus money in your agent account. Zainab starts with 150,000 cash and 100,000 in her account.",
+    "When a customer withdraws, her cash goes down and her account goes up. When a customer gives cash to send, the opposite happens."
+   ],
+   "card": {
+    "title": "One morning's float",
+    "rows": [],
+    "note": "Her own working numbers, not provider figures."
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "After three customers she has 110,000 in cash and 140,000 in her account."
+   ],
+   "card": {
+    "title": "One morning's float",
+    "rows": [
+     [
+      "Cash after 3 customers",
+      "110,000"
+     ],
+     [
+      "Agent account after 3 customers",
+      "140,000"
+     ]
+    ],
+    "note": "Her own working numbers, not provider figures."
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Still 250,000 in total. Her charges of 2,400 sit in a separate envelope, so she knows exactly what she earned.",
+    "Never give out cash until the terminal prints APPROVED and your app shows the credit."
+   ],
+   "card": {
+    "title": "One morning's float",
+    "rows": [
+     [
+      "Cash after 3 customers",
+      "110,000"
+     ],
+     [
+      "Agent account after 3 customers",
+      "140,000"
+     ]
+    ],
+    "note": "Her own working numbers, not provider figures."
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "For example, Ebere in Aba tries to withdraw 30,000 naira at a POS agent. It prints DECLINED, but she gets a debit alert. She does not let the agent try again."
+   ],
+   "panel": {
+    "kicker": "When a payment fails",
+    "heading": "Debited but no cash",
+    "items": [
+     "Do not try the same payment again",
+     "Check your history for a reversal",
+     "Keep the receipt and references",
+     "Complain to your own bank, get a reference",
+     "Follow up, then escalate"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false,
+    "rule": "Do not repeat a failed payment. You may be debited twice.",
+    "showRule": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "She checks her app for a reversal and photographs the declined receipt with its terminal ID, RRN and STAN."
+   ],
+   "panel": {
+    "kicker": "When a payment fails",
+    "heading": "Debited but no cash",
+    "items": [
+     "Do not try the same payment again",
+     "Check your history for a reversal",
+     "Keep the receipt and references",
+     "Complain to your own bank, get a reference",
+     "Follow up, then escalate"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Do not repeat a failed payment. You may be debited twice.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "That evening there is still no reversal, so she calls her own bank's number from the back of her card. Only your own bank can reverse a debit on your account. She writes down the complaint reference."
+   ],
+   "panel": {
+    "kicker": "When a payment fails",
+    "heading": "Debited but no cash",
+    "items": [
+     "Do not try the same payment again",
+     "Check your history for a reversal",
+     "Keep the receipt and references",
+     "Complain to your own bank, get a reference",
+     "Follow up, then escalate"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Do not repeat a failed payment. You may be debited twice.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "She checks daily until the 30,000 returns. If your bank does not resolve it, escalate within the bank, then to the CBN's consumer protection channel. Real banks never ask for your PIN or OTP."
+   ],
+   "panel": {
+    "kicker": "When a payment fails",
+    "heading": "Debited but no cash",
+    "items": [
+     "Do not try the same payment again",
+     "Check your history for a reversal",
+     "Keep the receipt and references",
+     "Complain to your own bank, get a reference",
+     "Follow up, then escalate"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Do not repeat a failed payment. You may be debited twice.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "To remember. Count the digits before your PIN. Only APPROVED means you paid. Never accept help at an ATM. Float is cash plus account balance. And when a payment fails, do not repeat it. Call your own bank with your receipt."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "Count the digits on screen before your PIN",
+     "Only a receipt marked APPROVED means you paid",
+     "Never accept help from strangers at an ATM",
+     "Float is cash plus account balance",
+     "Failed payment: do not repeat, call your bank"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Circle the key fields on a real receipt, practise the six card checks, plan one weekly withdrawal, and build your complaint kit with your bank's official contacts.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice task",
+    "heading": "Your tasks for this module",
+    "items": [
+     "Read and circle a real POS receipt",
+     "Practise the six card checks",
+     "Plan your weekly cash withdrawal",
+     "Build your complaint kit"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

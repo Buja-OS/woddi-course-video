@@ -1,0 +1,618 @@
+{
+ "course": "business-intelligence-basics",
+ "module": "m2",
+ "title": "The BI blueprint: sources, definitions, tiers and trust",
+ "course_title": "Business Intelligence Basics: Designing Systems that Drive Decisions",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "The BI blueprint: sources, definitions, tiers and trust.",
+    "This is the video for Module 2 of Business Intelligence Basics: designing the BI system."
+   ]
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "BI design depends more on a few well-kept documents than on any single software product. Together they make a blueprint that any tool, from Google Sheets to Power BI, can build."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Documents before dashboards",
+    "items": [
+     "A data source map",
+     "A metric dictionary",
+     "A reporting structure people use",
+     "Checks that keep numbers trusted"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "A data source map shows where the data lives."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Documents before dashboards",
+    "items": [
+     "A data source map",
+     "A metric dictionary",
+     "A reporting structure people use",
+     "Checks that keep numbers trusted"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "A metric dictionary says what each number means."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Documents before dashboards",
+    "items": [
+     "A data source map",
+     "A metric dictionary",
+     "A reporting structure people use",
+     "Checks that keep numbers trusted"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "A reporting structure gets the right view to the right person."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Documents before dashboards",
+    "items": [
+     "A data source map",
+     "A metric dictionary",
+     "A reporting structure people use",
+     "Checks that keep numbers trusted"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "And quality checks keep people trusting the numbers."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Documents before dashboards",
+    "items": [
+     "A data source map",
+     "A metric dictionary",
+     "A reporting structure people use",
+     "Checks that keep numbers trusted"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "For every source system, rate three things from 1, poor, to 3, good."
+   ],
+   "panel": {
+    "kicker": "Data source map",
+    "heading": "Rate each source out of 9",
+    "items": [
+     "Access: how easy to get the data out",
+     "Quality: how complete and correct",
+     "Frequency: how fresh it can be",
+     "Fee payments: 8, ready now",
+     "Paper attendance: 4, phase two"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Access, how easy it is to get the data out."
+   ],
+   "panel": {
+    "kicker": "Data source map",
+    "heading": "Rate each source out of 9",
+    "items": [
+     "Access: how easy to get the data out",
+     "Quality: how complete and correct",
+     "Frequency: how fresh it can be",
+     "Fee payments: 8, ready now",
+     "Paper attendance: 4, phase two"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Quality, how complete and correct it is."
+   ],
+   "panel": {
+    "kicker": "Data source map",
+    "heading": "Rate each source out of 9",
+    "items": [
+     "Access: how easy to get the data out",
+     "Quality: how complete and correct",
+     "Frequency: how fresh it can be",
+     "Fee payments: 8, ready now",
+     "Paper attendance: 4, phase two"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "And frequency, how fresh it can be."
+   ],
+   "panel": {
+    "kicker": "Data source map",
+    "heading": "Rate each source out of 9",
+    "items": [
+     "Access: how easy to get the data out",
+     "Quality: how complete and correct",
+     "Frequency: how fresh it can be",
+     "Fee payments: 8, ready now",
+     "Paper attendance: 4, phase two"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "For example, Blessing designs BI for a private school in Abuja. Fee payments come as a daily CSV export, so they score 8 out of 9 and are ready for a first report."
+   ],
+   "panel": {
+    "kicker": "Data source map",
+    "heading": "Rate each source out of 9",
+    "items": [
+     "Access: how easy to get the data out",
+     "Quality: how complete and correct",
+     "Frequency: how fresh it can be",
+     "Fee payments: 8, ready now",
+     "Paper attendance: 4, phase two"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Paper attendance registers score only 4. They need a simple digital register first, so she puts them in phase two."
+   ],
+   "panel": {
+    "kicker": "Data source map",
+    "heading": "Rate each source out of 9",
+    "items": [
+     "Access: how easy to get the data out",
+     "Quality: how complete and correct",
+     "Frequency: how fresh it can be",
+     "Fee payments: 8, ready now",
+     "Paper attendance: 4, phase two"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "A metric dictionary is the single written definition of every key number. Each entry has a meaning, a formula, a source, one owner, and a refresh time.",
+    "Here, the owner is the bursar, and it refreshes every Monday by 10 am."
+   ],
+   "card": {
+    "title": "Defining the fee collection rate",
+    "rows": [],
+    "note": "Excludes full-scholarship students."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "The school billed 48,600,000 naira this term."
+   ],
+   "card": {
+    "title": "Defining the fee collection rate",
+    "rows": [
+     [
+      "Fees billed this term",
+      "48,600,000"
+     ]
+    ],
+    "note": "Excludes full-scholarship students."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "It received 39,852,000 naira. Received divided by billed, times 100, is 82%.",
+    "Notice the exclusions. If scholarship students stay in the billed figure, the rate looks worse, and the proprietor may chase the wrong families."
+   ],
+   "card": {
+    "title": "Defining the fee collection rate",
+    "rows": [
+     [
+      "Fees billed this term",
+      "48,600,000"
+     ],
+     [
+      "Fees received this term",
+      "39,852,000"
+     ]
+    ],
+    "note": "Excludes full-scholarship students."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "You cannot serve every decision at once. Score each one for value from 1 to 5: how much money, time or risk depends on it."
+   ],
+   "panel": {
+    "kicker": "Prioritise",
+    "heading": "Score value times feasibility",
+    "items": [
+     "Value 1 to 5: money, time or risk at stake",
+     "Feasibility 1 to 5: data ready, easy to build",
+     "Weekly reorder: 5 x 4 = 20",
+     "Fourth depot: 5 x 1 = 5, data work first"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Then score feasibility from 1 to 5: how ready the data is. Multiply the two for a score out of 25."
+   ],
+   "panel": {
+    "kicker": "Prioritise",
+    "heading": "Score value times feasibility",
+    "items": [
+     "Value 1 to 5: money, time or risk at stake",
+     "Feasibility 1 to 5: data ready, easy to build",
+     "Weekly reorder: 5 x 4 = 20",
+     "Fourth depot: 5 x 1 = 5, data work first"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "For example, Chidi leads BI for a soft drinks distributor in Onitsha. The weekly reorder scores 5 times 4, which is 20."
+   ],
+   "panel": {
+    "kicker": "Prioritise",
+    "heading": "Score value times feasibility",
+    "items": [
+     "Value 1 to 5: money, time or risk at stake",
+     "Feasibility 1 to 5: data ready, easy to build",
+     "Weekly reorder: 5 x 4 = 20",
+     "Fourth depot: 5 x 1 = 5, data work first"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Opening a fourth depot is valuable, but the data is not collected yet, so it scores 5. Instead of a report, he adds start recording retailer locations to the data work plan."
+   ],
+   "panel": {
+    "kicker": "Prioritise",
+    "heading": "Score value times feasibility",
+    "items": [
+     "Value 1 to 5: money, time or risk at stake",
+     "Feasibility 1 to 5: data ready, easy to build",
+     "Weekly reorder: 5 x 4 = 20",
+     "Fourth depot: 5 x 1 = 5, data work first"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Build the highest scores first.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Different people need different views. The strategic tier serves the owner or board, monthly or quarterly, with 5 to 8 headline numbers against targets."
+   ],
+   "panel": {
+    "kicker": "Reporting tiers",
+    "heading": "Three tiers, not one crowded page",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Strategic",
+      "d": "Owner or board, monthly or quarterly. 5 to 8 headline metrics against targets, on one page."
+     },
+     {
+      "t": "Tactical",
+      "d": "Branch and department managers, weekly. Breakdowns by branch, product or rep: what changed and why."
+     },
+     {
+      "t": "Operational",
+      "d": "Supervisors, daily. Lists to act on: low stock, overdue payers, today's deliveries."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "The tactical tier serves managers weekly, with breakdowns that show what changed and why."
+   ],
+   "panel": {
+    "kicker": "Reporting tiers",
+    "heading": "Three tiers, not one crowded page",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Strategic",
+      "d": "Owner or board, monthly or quarterly. 5 to 8 headline metrics against targets, on one page."
+     },
+     {
+      "t": "Tactical",
+      "d": "Branch and department managers, weekly. Breakdowns by branch, product or rep: what changed and why."
+     },
+     {
+      "t": "Operational",
+      "d": "Supervisors, daily. Lists to act on: low stock, overdue payers, today's deliveries."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "The operational tier serves supervisors daily, with lists, not charts. These 7 retailers are more than 30 days overdue, call them today.",
+    "And tie every report to a fixed meeting. If nobody can name the meeting, question whether the report should exist."
+   ],
+   "panel": {
+    "kicker": "Reporting tiers",
+    "heading": "Three tiers, not one crowded page",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Strategic",
+      "d": "Owner or board, monthly or quarterly. 5 to 8 headline metrics against targets, on one page."
+     },
+     {
+      "t": "Tactical",
+      "d": "Branch and department managers, weekly. Breakdowns by branch, product or rep: what changed and why."
+     },
+     {
+      "t": "Operational",
+      "d": "Supervisors, daily. Lists to act on: low stock, overdue payers, today's deliveries."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "The first wrong number sends managers back to their private spreadsheets. So check six things every time data refreshes: completeness, uniqueness, consistency, timeliness, validity and accuracy.",
+    "For example, Hauwa finds 30 duplicate member IDs in her register of 1,250 records. She fixes problems at the source, not in the report, so they do not come back next month."
+   ],
+   "panel": {
+    "kicker": "Data quality",
+    "heading": "Six checks on every refresh",
+    "items": [
+     "Completeness: values are present",
+     "Uniqueness: no duplicates",
+     "Consistency: no contradictions",
+     "Timeliness: refresh date on every report",
+     "Validity: right range and format",
+     "Accuracy: matches the bank statement"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "BI brings personal data into one place, which raises the risk. In Nigeria, the Nigeria Data Protection Act 2023 set up the NDPC to enforce data protection rules. Load only the personal fields a decision really needs."
+   ],
+   "panel": {
+    "kicker": "Protect people's data",
+    "heading": "Data protection habits",
+    "items": [
+     "Load only the personal fields a decision needs",
+     "Show totals; names only in action lists",
+     "Give access by role",
+     "No raw exports in WhatsApp groups",
+     "Strong passwords and two-step verification"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Show totals in reports, and keep names and phone numbers only in lists for staff who must act on them."
+   ],
+   "panel": {
+    "kicker": "Protect people's data",
+    "heading": "Data protection habits",
+    "items": [
+     "Load only the personal fields a decision needs",
+     "Show totals; names only in action lists",
+     "Give access by role",
+     "No raw exports in WhatsApp groups",
+     "Strong passwords and two-step verification"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "A branch manager sees her branch, not every customer."
+   ],
+   "panel": {
+    "kicker": "Protect people's data",
+    "heading": "Data protection habits",
+    "items": [
+     "Load only the personal fields a decision needs",
+     "Show totals; names only in action lists",
+     "Give access by role",
+     "No raw exports in WhatsApp groups",
+     "Strong passwords and two-step verification"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_security",
+   "say": [
+    "Do not share raw exports in WhatsApp groups or personal email."
+   ],
+   "panel": {
+    "kicker": "Protect people's data",
+    "heading": "Data protection habits",
+    "items": [
+     "Load only the personal fields a decision needs",
+     "Show totals; names only in action lists",
+     "Give access by role",
+     "No raw exports in WhatsApp groups",
+     "Strong passwords and two-step verification"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_security",
+   "say": [
+    "Use strong passwords and two-step verification, and remove access the day someone leaves. Customer lists are valuable to fraudsters, so confirm anyone claiming to be a bank or IT support through a known official contact first."
+   ],
+   "panel": {
+    "kicker": "Protect people's data",
+    "heading": "Data protection habits",
+    "items": [
+     "Load only the personal fields a decision needs",
+     "Show totals; names only in action lists",
+     "Give access by role",
+     "No raw exports in WhatsApp groups",
+     "Strong passwords and two-step verification"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Never send customer lists to someone who just calls or chats.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "To remember. Rate your sources. Write every metric with its exclusions and one owner. Build the highest scores first.",
+    "Use three tiers tied to meetings, fix quality at the source, and protect personal data."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "Rate sources on access, quality, frequency",
+     "Every metric: formula, exclusions, one owner",
+     "Value times feasibility sets the order",
+     "Three tiers, each tied to a meeting",
+     "Fix quality at the source; protect personal data"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Now map your sources and define two metrics, design a reporting structure, and write a one-page governance plan.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice tasks",
+    "heading": "Your practice tasks",
+    "items": [
+     "Map sources and define two metrics",
+     "Design a reporting structure",
+     "Write a one-page governance plan"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}
