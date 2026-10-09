@@ -1,0 +1,528 @@
+{
+ "course": "factory-workshop-setup-small-scale",
+ "module": "m2",
+ "title": "Tsarin tsari, aminci da nawa aikin bitar ku zai iya samu",
+ "course_title": "Saita Masana'antu & Bita (Ƙananan Sikeli)",
+ "shots": [
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Tsarin tsari, aminci, da nawa aikin bitar ku zai iya samu.",
+    "Wannan shi ne bidiyo na module na biyu na Factory and Workshop Setup."
+   ]
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "A cikin wannan tsarin sararin ku ya zama tsarin aiki. Na farko, tsarin bene wanda aka tsara a kusa da yadda samfurin ke motsawa, ba inda kayan daki suka dace ba."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Juya sararin ku zuwa tsarin aiki",
+    "items": [
+     "Yankunan da ke bin samfuran ku",
+     "Ƙimar haɗari da aka rubuta",
+     "San rufin ku da benenku"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Na biyu, ƙayyadaddun ƙayyadaddun ƙayyadaddun rubutaccen haɗari don wuta, wutar lantarki, hayaki, sinadarai da taimakon farko."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Juya sararin ku zuwa tsarin aiki",
+    "items": [
+     "Yankunan da ke bin samfuran ku",
+     "Ƙimar haɗari da aka rubuta",
+     "San rufin ku da benenku"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Na uku, lambobi biyu: mafi yawan aikin bitar ku zai iya samarwa, kuma mafi ƙarancin dole ne ya sayar don biyan kansa."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Juya sararin ku zuwa tsarin aiki",
+    "items": [
+     "Yankunan da ke bin samfuran ku",
+     "Ƙimar haɗari da aka rubuta",
+     "San rufin ku da benenku"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Rubuta tsarin ku azaman matakai. Kowane mataki ya zama yanki, an sanya shi cikin tsari, don haka aiki yana gudana ta hanya ɗaya maimakon criss-crossions.",
+    "Karbar yana kusa da ƙofar, don haka ba a ɗaukar buhuna masu nauyi ta wurin aikin."
+   ],
+   "panel": {
+    "kicker": "Shiyya",
+    "heading": "Yankuna a cikin tsari samfurin yana motsawa",
+    "items": [
+     "Karɓa da adana kayan, kusa da ƙofar",
+     "Shirya kuma yanke",
+     "Yi ko tara",
+     "Gama da dubawa",
+     "Shirya da adana kayan da aka gama"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Saka aiki mai ƙura, zafi ko ƙamshi kusa da taga tare da busa fanko. Sanya injuna kusa da kwasfa don haka babu kebul da ke haye hanyar tafiya."
+   ],
+   "panel": {
+    "kicker": "Shiyya",
+    "heading": "Yankuna a cikin tsari samfurin yana motsawa",
+    "items": [
+     "Karɓa da adana kayan, kusa da ƙofar",
+     "Shirya kuma yanke",
+     "Yi ko tara",
+     "Gama da dubawa",
+     "Shirya da adana kayan da aka gama"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Ajiye kayan da aka gama da kayan da aka gama, sannan a ajiye hanya ɗaya bayyananne zuwa wurin fita.",
+    "Kuskuren gama gari shine adana kayan da aka gama a cikin titin tafiya kawai na yau. Ya zama dindindin kuma yana toshe hanyar fita."
+   ],
+   "panel": {
+    "kicker": "Shiyya",
+    "heading": "Yankuna a cikin tsari samfurin yana motsawa",
+    "items": [
+     "Karɓa da adana kayan, kusa da ƙofar",
+     "Shirya kuma yanke",
+     "Yi ko tara",
+     "Gama da dubawa",
+     "Shirya da adana kayan da aka gama"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "A cikin madaidaicin layi, kayan suna shiga a gefe ɗaya kuma su bar ɗaya. Ya dace da dogayen dakuna masu kofa biyu."
+   ],
+   "panel": {
+    "kicker": "Siffai biyu",
+    "heading": "Madaidaicin layi ko U-siffa?",
+    "mode": "compare",
+    "left_h": "Madaidaicin layi",
+    "left": [
+     "A daya karshen, fita a daya",
+     "Yayi dace da dogayen dakuna kunkuntar",
+     "Yayi kyau da kofa biyu"
+    ],
+    "right_h": "U-siffa",
+    "right": [
+     "Ya ƙare kusa da inda aka fara",
+     "Dakuna masu dacewa da kofa daya",
+     "Mutum ɗaya zai iya taimakawa tashoshi biyu"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "A cikin siffar U, aikin yana gangarowa gefe ɗaya kuma baya sama ɗayan. Misali, Hauwa a Kano tana da daki mai fadin murabba'in mita 24, mai kofa daya, sai ta zabi U-shape.",
+    "Zana shirin ku don ma'auni, sa'an nan kuma yi alama a wuraren da ke kan bene na ainihi tare da tef kuma ku gudanar da tsari guda ɗaya kafin ku biya kafinta."
+   ],
+   "panel": {
+    "kicker": "Siffai biyu",
+    "heading": "Madaidaicin layi ko U-siffa?",
+    "mode": "compare",
+    "left_h": "Madaidaicin layi",
+    "left": [
+     "A daya karshen, fita a daya",
+     "Yayi dace da dogayen dakuna kunkuntar",
+     "Yayi kyau da kofa biyu"
+    ],
+    "right_h": "U-siffa",
+    "right": [
+     "Ya ƙare kusa da inda aka fara",
+     "Dakuna masu dacewa da kofa daya",
+     "Mutum ɗaya zai iya taimakawa tashoshi biyu"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Haɗari shine duk abin da zai iya haifar da lahani. Haɗari shine yadda yuwuwar lahani ke faruwa, da yadda muni. Yi tafiya bitar ku tare da littafin rubutu."
+   ],
+   "panel": {
+    "kicker": "Kima hadarin",
+    "heading": "Nemo haɗari, saka su, yi aiki",
+    "items": [
+     "Tafiya wurin bitar kuma a lissafta hatsarori",
+     "Yiwuwar maki 1 zuwa 3, tsananin 1 zuwa 3",
+     "Yawan: 6 ko 9 yana nufin yin aiki a yanzu",
+     "Sarrafa mafi girman maki da farko",
+     "Bita lokacin da wani abu ya canza"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Yi alama da tsananin ƙima daga 1 zuwa 3 kuma ninka. Maki 6 ko 9 na buƙatar mataki a yanzu. 3 ko 4 suna buƙatar mataki nan da nan."
+   ],
+   "panel": {
+    "kicker": "Kima hadarin",
+    "heading": "Nemo haɗari, saka su, yi aiki",
+    "items": [
+     "Tafiya wurin bitar kuma a lissafta hatsarori",
+     "Yiwuwar maki 1 zuwa 3, tsananin 1 zuwa 3",
+     "Yawan: 6 ko 9 yana nufin yin aiki a yanzu",
+     "Sarrafa mafi girman maki da farko",
+     "Bita lokacin da wani abu ya canza"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Misali, Kemi a Ibadan ta sami lacquer mai siriri a gefen faranti mai zafi. Hakan ya zura kwallaye 9. Ta matsar da siriri zuwa wani rufaffiyar karfen katako ta maye gurbin farantin zafi tare da hanyar manne da ba ta buƙatar wuta."
+   ],
+   "panel": {
+    "kicker": "Kima hadarin",
+    "heading": "Nemo haɗari, saka su, yi aiki",
+    "items": [
+     "Tafiya wurin bitar kuma a lissafta hatsarori",
+     "Yiwuwar maki 1 zuwa 3, tsananin 1 zuwa 3",
+     "Yawan: 6 ko 9 yana nufin yin aiki a yanzu",
+     "Sarrafa mafi girman maki da farko",
+     "Bita lokacin da wani abu ya canza"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Aiki daga saman matsayi na iko. Kashe, sannan a canza, sannan injiniyanci, sannan ka'idoji da horo. Kayan kariya ya zo karshe."
+   ],
+   "panel": {
+    "kicker": "Kima hadarin",
+    "heading": "Nemo haɗari, saka su, yi aiki",
+    "items": [
+     "Tafiya wurin bitar kuma a lissafta hatsarori",
+     "Yiwuwar maki 1 zuwa 3, tsananin 1 zuwa 3",
+     "Yawan: 6 ko 9 yana nufin yin aiki a yanzu",
+     "Sarrafa mafi girman maki da farko",
+     "Bita lokacin da wani abu ya canza"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Cire haɗari da farko. Kayan kariya shine layi na ƙarshe.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "first_aid_kit",
+   "say": [
+    "Wuta tana buƙatar zafi, man fetur da oxygen. Rags, sawdust da marufi sune man fetur. Ka nisanta masu wuta daga zafi, kuma a ajiye na'urar kashe wuta kusa da wurin fita.",
+    "Kada a taɓa amfani da ruwa akan wutar lantarki ko mai kona. Lambar gaggawar a Najeriya ita ce 112."
+   ],
+   "panel": {
+    "kicker": "Tsarin aminci",
+    "heading": "Wuta, hayaki da taimakon gaggawa",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Wuta",
+      "d": "Kada a taɓa amfani da ruwa akan wutar lantarki ko mai. Extinguisher ta hanyar fita. Buga 112 a bakin kofa."
+     },
+     {
+      "t": "Turi da sinadarai",
+      "d": "Fan yana busa. Kwantena masu lakabi na asali, ƙananan da aka adana. A ware bleach da acid."
+     },
+     {
+      "t": "Taimakon farko",
+      "d": "Mai taimako na farko mai suna da kayan aiki. Duk abin da ya wuce ƙananan yanke yana zuwa asibiti."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "first_aid_kit",
+   "say": [
+    "Yi aiki tare da hayaki da ƙura kusa da buɗe taga tare da fanko yana busawa. A ajiye kowane sinadari a cikin akwati na asali da aka yiwa lakabin, kar a taɓa kwalban abin sha, kuma a ware acid da bleach baya."
+   ],
+   "panel": {
+    "kicker": "Tsarin aminci",
+    "heading": "Wuta, hayaki da taimakon gaggawa",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Wuta",
+      "d": "Kada a taɓa amfani da ruwa akan wutar lantarki ko mai. Extinguisher ta hanyar fita. Buga 112 a bakin kofa."
+     },
+     {
+      "t": "Turi da sinadarai",
+      "d": "Fan yana busa. Kwantena masu lakabi na asali, ƙananan da aka adana. A ware bleach da acid."
+     },
+     {
+      "t": "Taimakon farko",
+      "d": "Mai taimako na farko mai suna da kayan aiki. Duk abin da ya wuce ƙananan yanke yana zuwa asibiti."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Sanya sunan mutum ɗaya da ke kula da taimakon farko kuma a ajiye kayan ajiya inda kowa zai iya isa gare ta. Rubuta duk abin da ya faru ko kusa da kuskure a cikin gungu."
+   ],
+   "panel": {
+    "kicker": "Tsarin aminci",
+    "heading": "Wuta, hayaki da taimakon gaggawa",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Wuta",
+      "d": "Kada a taɓa amfani da ruwa akan wutar lantarki ko mai. Extinguisher ta hanyar fita. Buga 112 a bakin kofa."
+     },
+     {
+      "t": "Turi da sinadarai",
+      "d": "Fan yana busa. Kwantena masu lakabi na asali, ƙananan da aka adana. A ware bleach da acid."
+     },
+     {
+      "t": "Taimakon farko",
+      "d": "Mai taimako na farko mai suna da kayan aiki. Duk abin da ya wuce ƙananan yanke yana zuwa asibiti."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Lokaci kowane mataki tare da agogon gudu na waya. Idan inji guda biyu suna aiki iri ɗaya, raba biyu. Hauwa takan dinka jaka a cikin mintuna 30 akan kowace mashin guda biyu, haka jakar mintuna 15."
+   ],
+   "panel": {
+    "kicker": "Rufin ku",
+    "heading": "Nemo ƙulli da ƙarfin ku",
+    "items": [
+     "Lokaci kowane mataki na raka'a ɗaya",
+     "Raba ta injina ko ma'aikata masu daidaitawa",
+     "Mafi tsayin lokaci shine ƙulli",
+     "Shirya akan kashi 80% na mintuna aiki"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "dinki shine mafi tsayin mataki nata, don haka shine kwalabe."
+   ],
+   "panel": {
+    "kicker": "Rufin ku",
+    "heading": "Nemo ƙulli da ƙarfin ku",
+    "items": [
+     "Lokaci kowane mataki na raka'a ɗaya",
+     "Raba ta injina ko ma'aikata masu daidaitawa",
+     "Mafi tsayin lokaci shine ƙulli",
+     "Shirya akan kashi 80% na mintuna aiki"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Ranarta tana da mintuna 420 na aiki. Machines ba su da amfani a kowane minti daya, don haka tana shirin a kashi 80: 336 mintuna. Wannan yana ba da jaka 22 a rana, ko kuma buhu 528 a wata.",
+    "Gudun yankan ba ya canza komai. Tana bukatar karin lokacin dinki."
+   ],
+   "panel": {
+    "kicker": "Rufin ku",
+    "heading": "Nemo ƙulli da ƙarfin ku",
+    "items": [
+     "Lokaci kowane mataki na raka'a ɗaya",
+     "Raba ta injina ko ma'aikata masu daidaitawa",
+     "Mafi tsayin lokaci shine ƙulli",
+     "Shirya akan kashi 80% na mintuna aiki"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Gabaɗayan bitar na iya tafiya da sauri kamar ƙugiya.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Kudin gudu yana zuwa kowane wata, ko kuna samarwa ko a'a. Kere su daga farashin saitin lokaci ɗaya."
+   ],
+   "card": {
+    "title": "Kudin tafiyar Hauwa duk wata",
+    "rows": [],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Hauwa ta biya haya, wuta da man fetur, ruwa da tsaftacewa, injiniyoyi biyu da kula da su."
+   ],
+   "card": {
+    "title": "Kudin tafiyar Hauwa duk wata",
+    "rows": [
+     [
+      "Hayar",
+      "50,000"
+     ],
+     [
+      "Power da man fetur",
+      "60,000"
+     ],
+     [
+      "Ruwa da tsaftacewa",
+      "8,000"
+     ],
+     [
+      "Ladan mashinan biyu",
+      "150,000"
+     ],
+     [
+      "Kulawa",
+      "12,000"
+     ]
+    ],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Wato kusan Naira 280,000 a wata. Kowanne jaka yana barin naira 3,000 bayan kayan aiki da kayan aiki. 280,000 da aka raba da 3,000 yana nufin dole ne ta sayar da buhu 94 a wata don kawai ta kammala bitar. Tana sayar da kusan 450, don haka sararin samaniya yana biyan kanta."
+   ],
+   "card": {
+    "title": "Kudin tafiyar Hauwa duk wata",
+    "rows": [
+     [
+      "Hayar",
+      "50,000"
+     ],
+     [
+      "Power da man fetur",
+      "60,000"
+     ],
+     [
+      "Ruwa da tsaftacewa",
+      "8,000"
+     ],
+     [
+      "Ladan mashinan biyu",
+      "150,000"
+     ],
+     [
+      "Kulawa",
+      "12,000"
+     ]
+    ],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Don tunawa. Yankuna suna bin samfurin. Saka hatsarori kuma gyara mafi munin farko. Babu ruwa akan wutar lantarki ko mai. Ƙaƙƙarfan kwalba yana saita ƙarfin ku. Kuma raba farashin tafiyar da abin da kowace rukunin ke ba da gudummawa don gano matsi-ko da."
+   ],
+   "panel": {
+    "kicker": "Mabuɗin mahimmanci",
+    "heading": "Ka tuna",
+    "items": [
+     "Yankuna suna bin samfurin, hanya ɗaya",
+     "Yi maki haɗari kuma gyara mafi girma da farko",
+     "Babu ruwa akan wutar lantarki ko mai",
+     "Ƙaƙƙarfan kwalba yana saita ƙarfin ku",
+     "Break- even = Gudun farashi / gudummawa"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Ayyukanku: zana tsarin bene na yanki kuma gwada shi da tef, rubuta ƙimar haɗarin ku, da lissafin ƙarfin ku da karya-ko da.",
+    "Ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi ayyuka",
+    "heading": "Ayyukan aikin ku",
+    "items": [
+     "Zana shirin bene mai shiyya",
+     "Rubuta kimar haɗarin ku",
+     "Yi lissafin rufin ku da benenku"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

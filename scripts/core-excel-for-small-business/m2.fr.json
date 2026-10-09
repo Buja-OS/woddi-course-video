@@ -1,0 +1,537 @@
+{
+ "course": "core-excel-for-small-business",
+ "module": "m2",
+ "title": "Des signes de dollar, IF et un tracker qui vous dit la vérité",
+ "course_title": "Excel et Google Sheets pour les petites entreprises",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Des signes de dollar, IF et un tracker qui vous dit la vérité.",
+    "Ceci est la vidéo du module 2 d'Excel et de Google Sheets pour Small Business."
+   ]
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Dans ce module, vous apprendrez à copier une formule sans la casser, puis à créer une feuille qui enregistre chaque vente et chaque dépense."
+   ],
+   "panel": {
+    "kicker": "Dans ce module",
+    "heading": "Ce que vous pourrez faire",
+    "items": [
+     "Copiez des formules sans les casser",
+     "Suivez chaque vente et dépense sur une seule feuille",
+     "Voir l'argent entrant, l'argent sortant et votre solde",
+     "Recherchez et corrigez les erreurs bruyantes et silencieuses"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Il vous indique ce qui est entré, ce qui est sorti et ce qui reste. Et vous apprenez à détecter les erreurs qui donnent l’impression qu’un mauvais résultat est correct."
+   ],
+   "panel": {
+    "kicker": "Dans ce module",
+    "heading": "Ce que vous pourrez faire",
+    "items": [
+     "Copiez des formules sans les casser",
+     "Suivez chaque vente et dépense sur une seule feuille",
+     "Voir l'argent entrant, l'argent sortant et votre solde",
+     "Recherchez et corrigez les erreurs bruyantes et silencieuses"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Lorsque vous copiez =C2*D2 vers le bas, cela devient =C3*D3 dans la ligne suivante. C'est une référence relative. Il glisse avec le rang, et la plupart du temps c'est exactement ce que vous souhaitez."
+   ],
+   "panel": {
+    "kicker": "Références",
+    "heading": "Relatif ou absolu ?",
+    "mode": "compare",
+    "left_h": "Parent : H1",
+    "left": [
+     "Se déplace lors de la copie",
+     "Pour les valeurs ligne par ligne",
+     "Exemple : =C2*D2"
+    ],
+    "right_h": "Absolu : $H$1",
+    "right": [
+     "Ne bouge jamais",
+     "Pour un tarif partagé",
+     "Exemple : =E2*$H$1"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Mais parfois, chaque ligne doit utiliser la même cellule, comme un taux de commission saisi en haut.",
+    "Ensuite, vous le verrouillez avec des signes dollar : $H$1. Ici, le signe dollar n’a rien à voir avec l’argent. Cela signifie ne bougez pas.",
+    "Sur un téléphone, tapez vous-même les signes dollar. Sur un ordinateur Windows, appuyez sur F4."
+   ],
+   "panel": {
+    "kicker": "Références",
+    "heading": "Relatif ou absolu ?",
+    "mode": "compare",
+    "left_h": "Parent : H1",
+    "left": [
+     "Se déplace lors de la copie",
+     "Pour les valeurs ligne par ligne",
+     "Exemple : =C2*D2"
+    ],
+    "right_h": "Absolu : $H$1",
+    "right": [
+     "Ne bouge jamais",
+     "Pour un tarif partagé",
+     "Exemple : =E2*$H$1"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Voici un exemple concret. Kemi saisit une fois son taux de 5 % dans la cellule H1 et le montant de ses ventes dans la colonne E."
+   ],
+   "card": {
+    "title": "Commission de vente de Kemi",
+    "rows": [],
+    "note": "La commission totale représente exactement 5 % du total des ventes."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Elle tape d’abord =E2*H1 et le copie. La ligne suivante devient E3 fois H2. Mais H2 est vide, donc chaque ligne après la première affiche 0. C'est l'erreur courante."
+   ],
+   "card": {
+    "title": "Commission de vente de Kemi",
+    "rows": [
+     [
+      "Faux : =E2*H1 copié",
+      "0"
+     ]
+    ],
+    "note": "La commission totale représente exactement 5 % du total des ventes."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Elle tape donc =E2*$H$1 à la place. Chaque exemplaire indique toujours le tarif. Sa première vente de 19 000 lui rapporte 950 et ses ventes totales s'élèvent à 43 300 naira."
+   ],
+   "card": {
+    "title": "Commission de vente de Kemi",
+    "rows": [
+     [
+      "Faux : =E2*H1 copié",
+      "0"
+     ],
+     [
+      "À droite : =E2*$H$1, première vente",
+      "950"
+     ],
+     [
+      "Ventes totales",
+      "43,300"
+     ]
+    ],
+    "note": "La commission totale représente exactement 5 % du total des ventes."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "La commission totale est de 2165 naira. Lorsqu'elle augmente le taux à 6 %, elle modifie uniquement H1 et chaque ligne est recalculée en même temps."
+   ],
+   "card": {
+    "title": "Commission de vente de Kemi",
+    "rows": [
+     [
+      "Faux : =E2*H1 copié",
+      "0"
+     ],
+     [
+      "À droite : =E2*$H$1, première vente",
+      "950"
+     ],
+     [
+      "Ventes totales",
+      "43,300"
+     ]
+    ],
+    "note": "La commission totale représente exactement 5 % du total des ventes."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Construisez maintenant le tracker. Chaque ligne correspond à une transaction : date, vente ou dépense, catégorie, détails, quantité et prix unitaire."
+   ],
+   "panel": {
+    "kicker": "Construisez-le",
+    "heading": "Le suivi des ventes et des dépenses",
+    "items": [
+     "Colonnes : Date, Type, Catégorie, Détails, Quantité, Prix",
+     "Montant : =E2*F2",
+     "Argent entrant : =IF(B2=\"Vente\",G2,0)",
+     "Sortie d'argent : =IF(B2=\"Dépense\",G2,0)",
+     "Solde : J3 est =J2+H3-I3, copié"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "La colonne Montant multiplie la quantité par le prix."
+   ],
+   "panel": {
+    "kicker": "Construisez-le",
+    "heading": "Le suivi des ventes et des dépenses",
+    "items": [
+     "Colonnes : Date, Type, Catégorie, Détails, Quantité, Prix",
+     "Montant : =E2*F2",
+     "Argent entrant : =IF(B2=\"Vente\",G2,0)",
+     "Sortie d'argent : =IF(B2=\"Dépense\",G2,0)",
+     "Solde : J3 est =J2+H3-I3, copié"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Maintenant la nouvelle fonction, IF. Il prend une décision simple. Le modèle est SI, un test, alors que montrer si c'est vrai, puis que montrer si faux.",
+    "Ainsi, si la colonne B indique Vente, Argent entrant indique le montant. Sinon, il affiche 0. Le texte est placé entre guillemets doubles."
+   ],
+   "panel": {
+    "kicker": "Construisez-le",
+    "heading": "Le suivi des ventes et des dépenses",
+    "items": [
+     "Colonnes : Date, Type, Catégorie, Détails, Quantité, Prix",
+     "Montant : =E2*F2",
+     "Argent entrant : =IF(B2=\"Vente\",G2,0)",
+     "Sortie d'argent : =IF(B2=\"Dépense\",G2,0)",
+     "Solde : J3 est =J2+H3-I3, copié"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Les sorties d'argent fonctionnent de la même manière, en testant les dépenses."
+   ],
+   "panel": {
+    "kicker": "Construisez-le",
+    "heading": "Le suivi des ventes et des dépenses",
+    "items": [
+     "Colonnes : Date, Type, Catégorie, Détails, Quantité, Prix",
+     "Montant : =E2*F2",
+     "Argent entrant : =IF(B2=\"Vente\",G2,0)",
+     "Sortie d'argent : =IF(B2=\"Dépense\",G2,0)",
+     "Solde : J3 est =J2+H3-I3, copié"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Le solde courant prend le solde de la ligne ci-dessus, ajoute ce qui est entré et soustrait ce qui est sorti. Copiez J3 vers le bas, pas J2."
+   ],
+   "panel": {
+    "kicker": "Construisez-le",
+    "heading": "Le suivi des ventes et des dépenses",
+    "items": [
+     "Colonnes : Date, Type, Catégorie, Détails, Quantité, Prix",
+     "Montant : =E2*F2",
+     "Argent entrant : =IF(B2=\"Vente\",G2,0)",
+     "Sortie d'argent : =IF(B2=\"Dépense\",G2,0)",
+     "Solde : J3 est =J2+H3-I3, copié"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Un avertissement. IF ne fonctionne que si l'orthographe correspond exactement. Ventes, ou Vente avec un espace supplémentaire, passera à 0. Dans le module 3, une liste déroulante supprime ce problème."
+   ],
+   "panel": {
+    "kicker": "Construisez-le",
+    "heading": "Le suivi des ventes et des dépenses",
+    "items": [
+     "Colonnes : Date, Type, Catégorie, Détails, Quantité, Prix",
+     "Montant : =E2*F2",
+     "Argent entrant : =IF(B2=\"Vente\",G2,0)",
+     "Sortie d'argent : =IF(B2=\"Dépense\",G2,0)",
+     "Solde : J3 est =J2+H3-I3, copié"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Tapez Vente et Dépense de la même manière à chaque fois",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Bisi enregistre 4 jours de ventes et de coûts. Le premier jour, elle vend 25 assiettes, puis achète des produits alimentaires pour 55 000. Son solde devient négatif, moins 17 500."
+   ],
+   "card": {
+    "title": "Le stand de restauration de Bisi, 4 jours",
+    "rows": [],
+    "note": "Les prix sont des exemples approximatifs."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "C’est un avertissement utile sur les flux de trésorerie. Son gros achat a eu lieu avant les soldes qui l’ont payé.",
+    "À la fin, l’argent entrant s’élève à 157 500 naira et l’argent sortant à 73 500."
+   ],
+   "card": {
+    "title": "Le stand de restauration de Bisi, 4 jours",
+    "rows": [
+     [
+      "Argent rentré, 4 jours de soldes",
+      "157,500"
+     ],
+     [
+      "Argent dépensé, denrées alimentaires à transporter",
+      "73,500"
+     ]
+    ],
+    "note": "Les prix sont des exemples approximatifs."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "La différence est de 84 000 et correspond à son dernier solde courant. Mais l’argent restant n’est pas encore un profit. Il y a encore des produits alimentaires dans son magasin et elle n'a pas compté le loyer ni son temps libre."
+   ],
+   "card": {
+    "title": "Le stand de restauration de Bisi, 4 jours",
+    "rows": [
+     [
+      "Argent rentré, 4 jours de soldes",
+      "157,500"
+     ],
+     [
+      "Argent dépensé, denrées alimentaires à transporter",
+      "73,500"
+     ]
+    ],
+    "note": "Les prix sont des exemples approximatifs."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Chaque utilisateur de tableur fait des erreurs. Les erreurs bruyantes affichent un code. Hash DIV slash 0 signifie que vous avez divisé par zéro ou une cellule vide."
+   ],
+   "panel": {
+    "kicker": "Chasse aux erreurs",
+    "heading": "Erreurs bruyantes et ce qu'elles signifient",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "#DIV/0 !",
+      "d": "Diviser par zéro ou par une cellule vide. Remplissez la cellule ou utilisez SIERREUR pour les lacunes attendues."
+     },
+     {
+      "t": "#VALEUR !",
+      "d": "Mathématiques sur quelque chose qui n'est pas un nombre, comme N2000. Retapez-le sous forme de nombre simple."
+     },
+     {
+      "t": "#REF!",
+      "d": "La formule pointe vers une cellule que vous avez supprimée. Annulez immédiatement ou restaurez l’historique des versions."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Hash VALUE signifie des mathématiques sur quelque chose qui n'est pas un nombre, comme N2000."
+   ],
+   "panel": {
+    "kicker": "Chasse aux erreurs",
+    "heading": "Erreurs bruyantes et ce qu'elles signifient",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "#DIV/0 !",
+      "d": "Diviser par zéro ou par une cellule vide. Remplissez la cellule ou utilisez SIERREUR pour les lacunes attendues."
+     },
+     {
+      "t": "#VALEUR !",
+      "d": "Mathématiques sur quelque chose qui n'est pas un nombre, comme N2000. Retapez-le sous forme de nombre simple."
+     },
+     {
+      "t": "#REF!",
+      "d": "La formule pointe vers une cellule que vous avez supprimée. Annulez immédiatement ou restaurez l’historique des versions."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Hash REF signifie que la formule pointe vers une cellule que vous avez supprimée. Appuyez immédiatement sur Annuler."
+   ],
+   "panel": {
+    "kicker": "Chasse aux erreurs",
+    "heading": "Erreurs bruyantes et ce qu'elles signifient",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "#DIV/0 !",
+      "d": "Diviser par zéro ou par une cellule vide. Remplissez la cellule ou utilisez SIERREUR pour les lacunes attendues."
+     },
+     {
+      "t": "#VALEUR !",
+      "d": "Mathématiques sur quelque chose qui n'est pas un nombre, comme N2000. Retapez-le sous forme de nombre simple."
+     },
+     {
+      "t": "#REF!",
+      "d": "La formule pointe vers une cellule que vous avez supprimée. Annulez immédiatement ou restaurez l’historique des versions."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Les erreurs silencieuses sont plus dangereuses. La feuille affiche un chiffre qui semble correct, mais qui est faux."
+   ],
+   "card": {
+    "title": "Le total de Chioma était trop faible",
+    "rows": [],
+    "note": "COUNT plus petit que COUNTA signifie les montants de texte."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Le SUM de Chioma indiquait 61 000, mais sa calculatrice indiquait 66 000.",
+    "COUNT sur la colonne donnait 4, mais COUNTA donnait 5. Une cellule était donc du texte."
+   ],
+   "card": {
+    "title": "Le total de Chioma était trop faible",
+    "rows": [
+     [
+      "Le SUM de sa feuille disait",
+      "61,000"
+     ],
+     [
+      "Sa calculatrice a dit",
+      "66,000"
+     ]
+    ],
+    "note": "COUNT plus petit que COUNTA signifie les montants de texte."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "La cellule B4 indiquait 5 000 N, à gauche. Elle l'a retapé comme 5 000. Sans ce chèque, il manquerait 5 000 nairas vendredi."
+   ],
+   "card": {
+    "title": "Le total de Chioma était trop faible",
+    "rows": [
+     [
+      "Le SUM de sa feuille disait",
+      "61,000"
+     ],
+     [
+      "Sa calculatrice a dit",
+      "66,000"
+     ],
+     [
+      "Manquant : B4 saisi comme N5 000",
+      "5,000"
+     ]
+    ],
+    "note": "COUNT plus petit que COUNTA signifie les montants de texte."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "À retenir. Les signes dollar verrouillent une cellule partagée. SI prend une décision : test, valeur si vrai, valeur si faux.",
+    "La balance additionne et soustrait ligne par ligne. L’argent restant n’est pas encore un profit. Et si COUNT est inférieur à COUNTA, recherchez les montants saisis sous forme de texte."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "$H$1 verrouille une cellule partagée lorsque vous copiez",
+     "SI : test, valeur si vrai, valeur si faux",
+     "Solde : ligne ci-dessus, entrée plus, moins sortie",
+     "L'argent restant n'est pas encore un profit",
+     "Si COUNT est inférieur à COUNTA, recherchez le texte"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Maintenant à votre tour. Utilisez un taux sur plusieurs lignes, créez votre propre tracker avec au moins 8 transactions, puis effectuez une chasse aux erreurs.",
+    "Ajoutez une cellule de contrôle indiquant Équilibré lorsque vos totaux concordent. Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâche pratique",
+    "heading": "Vos tâches pratiques",
+    "items": [
+     "Un tarif, plusieurs lignes",
+     "Construisez votre tracker avec 8 transactions",
+     "Chasse aux erreurs et cellule de contrôle"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

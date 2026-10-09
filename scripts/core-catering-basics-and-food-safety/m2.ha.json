@@ -1,0 +1,612 @@
+{
+ "course": "core-catering-basics-and-food-safety",
+ "module": "m2",
+ "title": "Nawa za a dafa, da yadda ake gudanar da ranar samarwa",
+ "course_title": "Kayan Kayan Abinci & Amintaccen Abinci",
+ "shots": [
+  {
+   "demo": "catering_table",
+   "say": [
+    "Nawa za a dafa, da yadda ake gudanar da ranar samarwa.",
+    "Wannan shi ne bidiyo don tsari na biyu na Kayan Kayan Abinci da Kariyar Abinci: menus, rabo da ranar samarwa."
+   ]
+  },
+  {
+   "demo": "cooking_pot",
+   "say": [
+    "Kyakkyawan menu na taron shine saitin jita-jita waɗanda suka dace da baƙi, tsira daga tafiya kuma su zauna lafiya na sa'o'i."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Yi shiri da kyau, ku isa lafiya",
+    "items": [
+     "Menu wanda ke riƙe da aminci na sa'o'i",
+     "Isasshen abinci, ba tare da siyan daji ba",
+     "Jadawalin lokaci mai aiki a baya",
+     "Abincin da ya isa lafiya, zafi da tsabta"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "cooking_pot",
+   "say": [
+    "Karewa abinci abin kunya ne. Dafa abinci da yawa yana bata kuɗi."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Yi shiri da kyau, ku isa lafiya",
+    "items": [
+     "Menu wanda ke riƙe da aminci na sa'o'i",
+     "Isasshen abinci, ba tare da siyan daji ba",
+     "Jadawalin lokaci mai aiki a baya",
+     "Abincin da ya isa lafiya, zafi da tsabta"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "food_storage",
+   "say": [
+    "Kuma yawancin bala'o'in abinci suna zuwa daga rashin lokacin buffer, ba daga mummunan girki ba."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Yi shiri da kyau, ku isa lafiya",
+    "items": [
+     "Menu wanda ke riƙe da aminci na sa'o'i",
+     "Isasshen abinci, ba tare da siyan daji ba",
+     "Jadawalin lokaci mai aiki a baya",
+     "Abincin da ya isa lafiya, zafi da tsabta"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "food_storage",
+   "say": [
+    "Wannan bidiyon yana nuna muku yadda ake tsara duka ukun."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Yi shiri da kyau, ku isa lafiya",
+    "items": [
+     "Menu wanda ke riƙe da aminci na sa'o'i",
+     "Isasshen abinci, ba tare da siyan daji ba",
+     "Jadawalin lokaci mai aiki a baya",
+     "Abincin da ya isa lafiya, zafi da tsabta"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cooking_pot",
+   "say": [
+    "Na farko, tambayi lokacin hidima, tsari, lambobin baƙi, kasafin kuɗi da duk wani rashin lafiyan. Sai ki tsara faranti ɗaya: sitaci, furotin, gefe, wani lokacin kuma ƙari. Zaɓi jita-jita waɗanda ke riƙe da kyau a cikin sanyi mai zafi, kamar jollof rice, stews, moi moi da nama da aka dafa sosai."
+   ],
+   "panel": {
+    "kicker": "Tsarin menu",
+    "heading": "Jita-jita masu riƙewa, jita-jita waɗanda ba sa",
+    "mode": "compare",
+    "left_h": "Rike da kyau",
+    "left": [
+     "Jollof da soyayyen shinkafa",
+     "Stew",
+     "Moi moi",
+     "Dafaffen nama"
+    ],
+    "right_h": "Yi minti na ƙarshe",
+    "right": [
+     "Soyayyen plantain yayi laushi",
+     "Salatin wilts sau ɗaya ado",
+     "Pounded dawa yana taurare"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "veg_chop",
+   "say": [
+    "Soyayyen plantain yana laushi, salati ya bushe da zarar an shirya shi, kuma dam ɗin da aka dasa ya zama fata. Shirya waɗannan don aikin na ƙarshe, ko musanya su. Halima ta sauke soyayyen plantain daga menu na bikin aure saboda zai yi laushi bayan an rik'e awa 3."
+   ],
+   "panel": {
+    "kicker": "Tsarin menu",
+    "heading": "Jita-jita masu riƙewa, jita-jita waɗanda ba sa",
+    "mode": "compare",
+    "left_h": "Rike da kyau",
+    "left": [
+     "Jollof da soyayyen shinkafa",
+     "Stew",
+     "Moi moi",
+     "Dafaffen nama"
+    ],
+    "right_h": "Yi minti na ƙarshe",
+    "right": [
+     "Soyayyen plantain yayi laushi",
+     "Salatin wilts sau ɗaya ado",
+     "Pounded dawa yana taurare"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "food_jars",
+   "say": [
+    "Mataki na daya. Gwada rabon ku. Dafa ɗanyen shinkafa da aka auna, a yi amfani da ita tare da cokali na yau da kullun a cikin fakitin da kuka saba, kuma kirga fakitin. Cokalin ku da fakitinku sun yanke shawarar lambar ku."
+   ],
+   "panel": {
+    "kicker": "Tsarin tsari",
+    "heading": "Daga lissafin baƙo zuwa lissafin siyayya",
+    "items": [
+     "Gwada rabon ku da cokalin ku",
+     "A ninka da adadin baƙi",
+     "Ƙara ma'auni na kusan 10%",
+     "Zagaye har zuwa sassan kasuwa"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "food_jars",
+   "say": [
+    "Mataki na biyu. Ƙara kowane yanki da adadin baƙi."
+   ],
+   "panel": {
+    "kicker": "Tsarin tsari",
+    "heading": "Daga lissafin baƙo zuwa lissafin siyayya",
+    "items": [
+     "Gwada rabon ku da cokalin ku",
+     "A ninka da adadin baƙi",
+     "Ƙara ma'auni na kusan 10%",
+     "Zagaye har zuwa sassan kasuwa"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "catering_table",
+   "say": [
+    "Mataki na uku. Ƙara majigi, yawanci kusan kashi 10, saboda lambobin baƙi suna girma kuma sabobin suna ba da manyan cokali."
+   ],
+   "panel": {
+    "kicker": "Tsarin tsari",
+    "heading": "Daga lissafin baƙo zuwa lissafin siyayya",
+    "items": [
+     "Gwada rabon ku da cokalin ku",
+     "A ninka da adadin baƙi",
+     "Ƙara ma'auni na kusan 10%",
+     "Zagaye har zuwa sassan kasuwa"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "catering_table",
+   "say": [
+    "Mataki na hudu. Juya jimlar zuwa ainihin abin da kuke siya: kilogiram na shinkafa, dukan tsuntsaye, akwatunan kwai, lita na mai."
+   ],
+   "panel": {
+    "kicker": "Tsarin tsari",
+    "heading": "Daga lissafin baƙo zuwa lissafin siyayya",
+    "items": [
+     "Gwada rabon ku da cokalin ku",
+     "A ninka da adadin baƙi",
+     "Ƙara ma'auni na kusan 10%",
+     "Zagaye har zuwa sassan kasuwa"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Yanki × baƙi + kusan 10% buffer = jimlar yawa",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Ngozi ta gwada rabonta: gram 120 na danyen shinkafa da kaji daya ga kowane babba. Ga baƙi 100, wato kilogiram 12 na shinkafa."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Adadin Ngozi don baƙi 100",
+    "items": [
+     "Shinkafa: 100 × 120 g = 12 kg",
+     "Ƙara 10%: 13.2 kg, don haka saya 14 kg",
+     "Kaza: guda 110 ÷ 8 = tsuntsaye 14",
+     "Coleslaw: 8 kg + 10% = 8.8 kg"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Ta kara da kashi 10%, wanda ke ba da kilogiram 13.2, don haka ta sayi 14."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Adadin Ngozi don baƙi 100",
+    "items": [
+     "Shinkafa: 100 × 120 g = 12 kg",
+     "Ƙara 10%: 13.2 kg, don haka saya 14 kg",
+     "Kaza: guda 110 ÷ 8 = tsuntsaye 14",
+     "Coleslaw: 8 kg + 10% = 8.8 kg"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "plate_meal",
+   "say": [
+    "Ga kaza, guda 100 da kashi 10% 110. Ta yanka kowane tsuntsu gida guda 8, 110 da aka raba da 8 shine 13.75, don haka ta sayi tsuntsaye 14."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Adadin Ngozi don baƙi 100",
+    "items": [
+     "Shinkafa: 100 × 120 g = 12 kg",
+     "Ƙara 10%: 13.2 kg, don haka saya 14 kg",
+     "Kaza: guda 110 ÷ 8 = tsuntsaye 14",
+     "Coleslaw: 8 kg + 10% = 8.8 kg"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "plate_meal",
+   "say": [
+    "Coleslaw yana da gram 80 kowanne, don haka kilo 8 da 10%, kusan kilo 8.8.",
+    "Don auna girke-girke, raba sabbin kayan abinci ta tsohuwar. Daga 10 servings to 50, the factor is 5. Season sannu a hankali da kuma dandana, kuma kada ku cushe tukunya fiye da girmansa."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Adadin Ngozi don baƙi 100",
+    "items": [
+     "Shinkafa: 100 × 120 g = 12 kg",
+     "Ƙara 10%: 13.2 kg, don haka saya 14 kg",
+     "Kaza: guda 110 ÷ 8 = tsuntsaye 14",
+     "Coleslaw: 8 kg + 10% = 8.8 kg"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cooking_pot",
+   "say": [
+    "Ronke yana ba da fakiti 100 don bikin tunawa da cocin 1:00 na rana, mintuna 45 nesa ba kusa ba. Tana aiki baya daga hidimar lokaci. Washe gari ta huda moi moi sannan ta huce da sauri sannan ta sanya stew base ta saka a firji sannan ta yanyanka cabbage din."
+   ],
+   "panel": {
+    "kicker": "Ranar samarwa",
+    "heading": "Jadawalin fakiti 100 na Ronke",
+    "items": [
+     "Kwana kafin: moi moi, stew base, yankakken kabeji",
+     "6:30 na safe: kaza, shinkafa batch 1, stew",
+     "10:00 na safe: duba-bincike, an dafa abinci",
+     "10:15 na safe: shirya cikin preheated coolers",
+     "11:00 na safe; 1:00 na rana hidima"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "cooking_pot",
+   "say": [
+    "Karfe 6:30 na safe ta tafasa kazar ta fara fara buhun shinkafa sannan ta dumfasa stew din ta tafasa."
+   ],
+   "panel": {
+    "kicker": "Ranar samarwa",
+    "heading": "Jadawalin fakiti 100 na Ronke",
+    "items": [
+     "Kwana kafin: moi moi, stew base, yankakken kabeji",
+     "6:30 na safe: kaza, shinkafa batch 1, stew",
+     "10:00 na safe: duba-bincike, an dafa abinci",
+     "10:15 na safe: shirya cikin preheated coolers",
+     "11:00 na safe; 1:00 na rana hidima"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cooking_pot",
+   "say": [
+    "Da karfe 10:00 na safe komai ya dahu. Ta bincika kajin a digiri 70 ko sama da shinkafa sama da 60."
+   ],
+   "panel": {
+    "kicker": "Ranar samarwa",
+    "heading": "Jadawalin fakiti 100 na Ronke",
+    "items": [
+     "Kwana kafin: moi moi, stew base, yankakken kabeji",
+     "6:30 na safe: kaza, shinkafa batch 1, stew",
+     "10:00 na safe: duba-bincike, an dafa abinci",
+     "10:15 na safe: shirya cikin preheated coolers",
+     "11:00 na safe; 1:00 na rana hidima"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "hand_wash",
+   "say": [
+    "Ta shirya abinci mai zafi a cikin coolers da aka rigaya da ruwan zafi na tsawon mintuna 10, da coleslaw a cikin wani cooler daban tare da fakitin kankara."
+   ],
+   "panel": {
+    "kicker": "Ranar samarwa",
+    "heading": "Jadawalin fakiti 100 na Ronke",
+    "items": [
+     "Kwana kafin: moi moi, stew base, yankakken kabeji",
+     "6:30 na safe: kaza, shinkafa batch 1, stew",
+     "10:00 na safe: duba-bincike, an dafa abinci",
+     "10:15 na safe: shirya cikin preheated coolers",
+     "11:00 na safe; 1:00 na rana hidima"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "hand_wash",
+   "say": [
+    "Ta tashi 11:00 na safe kuma ta isa 11:45, tare da minti 75 na buffer kafin tayi hidima."
+   ],
+   "panel": {
+    "kicker": "Ranar samarwa",
+    "heading": "Jadawalin fakiti 100 na Ronke",
+    "items": [
+     "Kwana kafin: moi moi, stew base, yankakken kabeji",
+     "6:30 na safe: kaza, shinkafa batch 1, stew",
+     "10:00 na safe: duba-bincike, an dafa abinci",
+     "10:15 na safe: shirya cikin preheated coolers",
+     "11:00 na safe; 1:00 na rana hidima"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Yi aiki a baya daga lokacin hidima. Buffers ba su ɓata lokaci ba.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "food_storage",
+   "say": [
+    "Kafa danyen yanki, mai dauke da tebur, allo, wuka da kwandon danyen kaza, nama da kifi."
+   ],
+   "panel": {
+    "kicker": "Amincin abinci",
+    "heading": "Yankunan kicin uku",
+    "items": [
+     "Raw zone: tebur, allo, wuka da bin",
+     "Yankin dafa abinci: cokali baya taɓa ɗanyen nama",
+     "Yankin da aka shirya don ci: coleslaw da tattarawa",
+     "Wanke hannu duk lokacin da kuka bar danye"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "food_storage",
+   "say": [
+    "Yankin dafa abinci, tare da cokali mai tsabta waɗanda ba su taɓa ɗanyen nama ba."
+   ],
+   "panel": {
+    "kicker": "Amincin abinci",
+    "heading": "Yankunan kicin uku",
+    "items": [
+     "Raw zone: tebur, allo, wuka da bin",
+     "Yankin dafa abinci: cokali baya taɓa ɗanyen nama",
+     "Yankin da aka shirya don ci: coleslaw da tattarawa",
+     "Wanke hannu duk lokacin da kuka bar danye"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "veg_chop",
+   "say": [
+    "Kuma yankin da aka shirya don cin abinci don coleslaw da tattarawa, gogewa da tsaftacewa, nesa da ɗanyen aiki."
+   ],
+   "panel": {
+    "kicker": "Amincin abinci",
+    "heading": "Yankunan kicin uku",
+    "items": [
+     "Raw zone: tebur, allo, wuka da bin",
+     "Yankin dafa abinci: cokali baya taɓa ɗanyen nama",
+     "Yankin da aka shirya don ci: coleslaw da tattarawa",
+     "Wanke hannu duk lokacin da kuka bar danye"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "veg_chop",
+   "say": [
+    "Wanke hannuwanku duk lokacin da kuka matsa daga danyen yankin zuwa kowane yanki. Kuma kar a taɓa sanya ɗanyen abubuwa a cikin akwati ɗaya da abincin da aka shirya."
+   ],
+   "panel": {
+    "kicker": "Amincin abinci",
+    "heading": "Yankunan kicin uku",
+    "items": [
+     "Raw zone: tebur, allo, wuka da bin",
+     "Yankin dafa abinci: cokali baya taɓa ɗanyen nama",
+     "Yankin da aka shirya don ci: coleslaw da tattarawa",
+     "Wanke hannu duk lokacin da kuka bar danye"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "food_jars",
+   "say": [
+    "Ajiye silinda gas a tsaye, a waje ko a cikin wuri mai kyau, nesa da harshen wuta."
+   ],
+   "panel": {
+    "kicker": "Tsaron gas",
+    "heading": "Amintacce tare da silinda gas",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Mik'e da iska",
+      "d": "Rike silinda na LPG a tsaye, a waje ko kuma da kyau, nesa da harshen wuta."
+     },
+     {
+      "t": "Gwajin ruwan sabulu",
+      "d": "Goga ruwan sabulu akan bututu da haɗin gwiwa. Kumfa yana nufin zubewa."
+     },
+     {
+      "t": "Idan kun ji warin gas",
+      "d": "Kashe silinda, kar a kunna ko kashe fitilu ko wayoyi, buɗe kofofi da tagogi."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "food_jars",
+   "say": [
+    "Duba hoses da haɗin gwiwa tare da ruwan sabulu. Kumfa yana nufin zubewa."
+   ],
+   "panel": {
+    "kicker": "Tsaron gas",
+    "heading": "Amintacce tare da silinda gas",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Mik'e da iska",
+      "d": "Rike silinda na LPG a tsaye, a waje ko kuma da kyau, nesa da harshen wuta."
+     },
+     {
+      "t": "Gwajin ruwan sabulu",
+      "d": "Goga ruwan sabulu akan bututu da haɗin gwiwa. Kumfa yana nufin zubewa."
+     },
+     {
+      "t": "Idan kun ji warin gas",
+      "d": "Kashe silinda, kar a kunna ko kashe fitilu ko wayoyi, buɗe kofofi da tagogi."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "catering_table",
+   "say": [
+    "Idan kuna jin warin gas, kashe silinda, kada ku kunna wuta ko kashe wayoyi a kusa, sannan buɗe kofofi da tagogi."
+   ],
+   "panel": {
+    "kicker": "Tsaron gas",
+    "heading": "Amintacce tare da silinda gas",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Mik'e da iska",
+      "d": "Rike silinda na LPG a tsaye, a waje ko kuma da kyau, nesa da harshen wuta."
+     },
+     {
+      "t": "Gwajin ruwan sabulu",
+      "d": "Goga ruwan sabulu akan bututu da haɗin gwiwa. Kumfa yana nufin zubewa."
+     },
+     {
+      "t": "Idan kun ji warin gas",
+      "d": "Kashe silinda, kar a kunna ko kashe fitilu ko wayoyi, buɗe kofofi da tagogi."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Don tunawa. Shirya faranti ɗaya, sannan a ninka. Baƙi lokaci rabo, da kusan 10%. Gina jadawali naku a baya tare da buffers. Rike yankuna uku. Kuma ki sanya masu sanyaya ku, da abinci mai sanyi a cikin na'urar sanyaya nasa."
+   ],
+   "panel": {
+    "kicker": "Mabuɗin mahimmanci",
+    "heading": "Ka tuna",
+    "items": [
+     "Shirya faranti ɗaya, sannan a ninka",
+     "Yanki × baƙi + kusan 10% buffer",
+     "Jadawalin lokaci baya daga lokacin hidima",
+     "Raw, dafa abinci da shirye-shiryen ci",
+     "Preheat masu sanyaya; sanyi abinci dabam"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "plate_meal",
+   "say": [
+    "Yanzu yi aiki. Rubuta fakitin menu guda biyu tare da bayanin kula. Gina takardar adadi don baƙi 50 da 100. Shirya ranar samarwa da aiki da baya daga hidimar karfe 1:00 na yamma, kuma zayyana wuraren dafa abinci tare da jerin kayan aiki.",
+    "Ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi ayyuka",
+    "heading": "Ayyukan aikin ku",
+    "items": [
+     "Rubuta fakitin menu guda biyu",
+     "Gina takardar adadin baƙo 100",
+     "Tsara jadawalin ranar samarwa ku",
+     "Zayyana wuraren dafa abinci da jerin abubuwan dubawa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

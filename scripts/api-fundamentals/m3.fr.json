@@ -1,0 +1,471 @@
+{
+ "course": "api-fundamentals",
+ "module": "m3",
+ "title": "De la douleur du client à l’intégration et au portefeuille tarifés",
+ "course_title": "Principes fondamentaux des API",
+ "shots": [
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "De la douleur du client à une intégration payante, en passant par votre portefeuille.",
+    "Il s'agit de la vidéo du module trois des principes fondamentaux de l'API."
+   ]
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Les clients demandent rarement une API. Ils disent : mes collaborateurs passent tout l’après-midi à vérifier qui a payé. La découverte est la conversation structurée qui transforme cette douleur en une intégration claire, ou parfois en un conseil honnête selon lequel aucun n'est nécessaire."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Les clients décrivent une douleur, pas une API",
+    "items": [
+     "La découverte transforme la douleur en un travail clair",
+     "Une spécification dit exactement ce qui va se passer",
+     "Un prix équitable remonte aux tâches",
+     "Un portfolio prouve ce que vous pouvez faire"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Ensuite, vous rédigez une spécification d’une page et évaluez-la tâche par tâche."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Les clients décrivent une douleur, pas une API",
+    "items": [
+     "La découverte transforme la douleur en un travail clair",
+     "Une spécification dit exactement ce qui va se passer",
+     "Un prix équitable remonte aux tâches",
+     "Un portfolio prouve ce que vous pouvez faire"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Enfin, un portfolio montre aux clients ce que vous comprenez, car ils ne peuvent voir que ce que vous avez documenté."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Les clients décrivent une douleur, pas une API",
+    "items": [
+     "La découverte transforme la douleur en un travail clair",
+     "Une spécification dit exactement ce qui va se passer",
+     "Un prix équitable remonte aux tâches",
+     "Un portfolio prouve ce que vous pouvez faire"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Demandez ce qui devrait être différent lorsque cela fonctionne. Demandez ensuite à voir le processus actuel, et pas seulement à en entendre parler. Regarder un paiement être confirmé révèle souvent des étapes cachées."
+   ],
+   "panel": {
+    "kicker": "Découverte",
+    "heading": "Six domaines sur lesquels poser des questions",
+    "items": [
+     "Résultat : qu’est-ce qui devrait être différent ?",
+     "Processus actuel : à quelle fréquence, combien de temps ?",
+     "Données : quels champs, des coordonnées client ?",
+     "Fournisseur : documents, mode test, frais, limites",
+     "Échec : que se passe-t-il si l'API est en panne ?",
+     "Propriété : à qui appartiennent les clés et les correctifs ?"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Demandez quels champs de données exacts sont nécessaires et si certains identifient les clients. Vérifiez que le fournisseur dispose d'une documentation publique, d'un mode de test et de frais ou limites avec lesquels le client peut vivre."
+   ],
+   "panel": {
+    "kicker": "Découverte",
+    "heading": "Six domaines sur lesquels poser des questions",
+    "items": [
+     "Résultat : qu’est-ce qui devrait être différent ?",
+     "Processus actuel : à quelle fréquence, combien de temps ?",
+     "Données : quels champs, des coordonnées client ?",
+     "Fournisseur : documents, mode test, frais, limites",
+     "Échec : que se passe-t-il si l'API est en panne ?",
+     "Propriété : à qui appartiennent les clés et les correctifs ?"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Planifiez la solution de secours si l'API est indisponible pendant une journée, généralement l'ancien processus manuel. Et convenez à qui appartiennent les clés et les futurs correctifs."
+   ],
+   "panel": {
+    "kicker": "Découverte",
+    "heading": "Six domaines sur lesquels poser des questions",
+    "items": [
+     "Résultat : qu’est-ce qui devrait être différent ?",
+     "Processus actuel : à quelle fréquence, combien de temps ?",
+     "Données : quels champs, des coordonnées client ?",
+     "Fournisseur : documents, mode test, frais, limites",
+     "Échec : que se passe-t-il si l'API est en panne ?",
+     "Propriété : à qui appartiennent les clés et les correctifs ?"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Par exemple, Bisi vend des produits alimentaires en ligne à Lagos via Paystack et demande à Nkechi, un consultant API, de tout connecter. Bisi souhaite que les commandes soient emballées dans l’heure suivant le paiement et qu’aucune marchandise ne soit libérée suite à de fausses alertes."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Le magasin de produits alimentaires de Bisi",
+    "items": [
+     "Objectif : préparer vos bagages en une heure, pas de fausses alertes",
+     "Base de référence : 40 commandes x 3 minutes = 2 heures",
+     "Numéros de téléphone partagés uniquement avec les emballeurs",
+     "Solution de secours : vérifications manuelles pour ce jour-là",
+     "Plan : webhook signé et appel de vérification"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Nkechi surveille l'assistant : environ 40 commandes par jour, 3 minutes chacune. Cela représente 120 minutes, ou 2 heures, chaque jour."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Le magasin de produits alimentaires de Bisi",
+    "items": [
+     "Objectif : préparer vos bagages en une heure, pas de fausses alertes",
+     "Base de référence : 40 commandes x 3 minutes = 2 heures",
+     "Numéros de téléphone partagés uniquement avec les emballeurs",
+     "Solution de secours : vérifications manuelles pour ce jour-là",
+     "Plan : webhook signé et appel de vérification"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Les numéros de téléphone des clients sont des données personnelles, donc seul le personnel d’emballage les voit. Et si le système tombe en panne, l'assistant vérifie manuellement le jour même."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Le magasin de produits alimentaires de Bisi",
+    "items": [
+     "Objectif : préparer vos bagages en une heure, pas de fausses alertes",
+     "Base de référence : 40 commandes x 3 minutes = 2 heures",
+     "Numéros de téléphone partagés uniquement avec les emballeurs",
+     "Solution de secours : vérifications manuelles pour ce jour-là",
+     "Plan : webhook signé et appel de vérification"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Nkechi propose un travail ciblé : un webhook signé plus un appel de vérification qui marque les commandes comme payées. Le prix est suffisamment clair."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Le magasin de produits alimentaires de Bisi",
+    "items": [
+     "Objectif : préparer vos bagages en une heure, pas de fausses alertes",
+     "Base de référence : 40 commandes x 3 minutes = 2 heures",
+     "Numéros de téléphone partagés uniquement avec les emballeurs",
+     "Solution de secours : vérifications manuelles pour ce jour-là",
+     "Plan : webhook signé et appel de vérification"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Une intégration ciblée, pas « tout connecter ».",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Le travail de l'API comporte de l'incertitude, alors estimez chaque tâche, additionnez-les, puis ajoutez un tampon que vous déclarez ouvertement. Les tâches de Nkechi totalisent 24 heures. Avec 25 pour cent ajoutés, cela fait 30 heures."
+   ],
+   "card": {
+    "title": "Tarification du projet de Nkechi",
+    "rows": [],
+    "note": "Tarif indicatif. Les propres frais de Paystack sont distincts."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Au prix indicatif de 8 000 nairas de l'heure, les frais du projet s'élèvent à 240 000 nairas."
+   ],
+   "card": {
+    "title": "Tarification du projet de Nkechi",
+    "rows": [
+     [
+      "Son tarif horaire",
+      "8,000"
+     ],
+     [
+      "Frais de projet : 30 heures",
+      "240,000"
+     ]
+    ],
+    "note": "Tarif indicatif. Les propres frais de Paystack sont distincts."
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "L'assistance facultative est de 2 heures par mois, 16 000 naira, pour la rotation des clés et les petites corrections.",
+    "Les frais de transaction de Paystack sont répertoriés séparément, payés directement par le client. Elle demande 120 000 nairas avant la construction et 120 000 une fois les tests réussis."
+   ],
+   "card": {
+    "title": "Tarification du projet de Nkechi",
+    "rows": [
+     [
+      "Son tarif horaire",
+      "8,000"
+     ],
+     [
+      "Frais de projet : 30 heures",
+      "240,000"
+     ],
+     [
+      "Assistance optionnelle chaque mois",
+      "16,000"
+     ]
+    ],
+    "note": "Tarif indicatif. Les propres frais de Paystack sont distincts."
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Notez exactement ce qui est dans le champ d'application."
+   ],
+   "panel": {
+    "kicker": "Portée",
+    "heading": "Dans le périmètre, ou une demande de changement ?",
+    "mode": "compare",
+    "left_h": "Dans le champ d'application",
+    "left": [
+     "Webhook avec vérification de signature",
+     "Vérifier le montant et la devise",
+     "Construction de tests et cinq tests",
+     "Feuille de route et un transfert"
+    ],
+    "right_h": "Citer séparément",
+    "right": [
+     "Remboursements et autres événements",
+     "Messages SMS ou WhatsApp",
+     "Modifications de la conception du site Web"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Lorsque le client demande autre chose, accueillez l'idée, rédigez-la sous forme de demande de modification avec sa propre estimation et laissez-le décider. De petits ajouts impayés sont la façon dont les projets à prix fixe se transforment en pertes.",
+    "Et le client est toujours propriétaire du compte et des clés du fournisseur. Ne les tenez jamais en otage."
+   ],
+   "panel": {
+    "kicker": "Portée",
+    "heading": "Dans le périmètre, ou une demande de changement ?",
+    "mode": "compare",
+    "left_h": "Dans le champ d'application",
+    "left": [
+     "Webhook avec vérification de signature",
+     "Vérifier le montant et la devise",
+     "Construction de tests et cinq tests",
+     "Feuille de route et un transfert"
+    ],
+    "right_h": "Citer séparément",
+    "right": [
+     "Remboursements et autres événements",
+     "Messages SMS ou WhatsApp",
+     "Modifications de la conception du site Web"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Par exemple, Zainab à Kano a demandé à Open-Meteo trois jours de températures maximales et minimales, a envoyé une mauvaise demande délibérée pour enregistrer l'erreur 400 et a noté que sans le réglage du fuseau horaire, les heures reviennent en UTC."
+   ],
+   "panel": {
+    "kicker": "Votre portefeuille",
+    "heading": "Trois pièces pour commencer",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Rédaction d'exploration",
+      "d": "Votre question, la demande exacte, le statut, un extrait de réponse, votre lecture et une erreur volontaire."
+     },
+     {
+      "t": "Résumé de la documentation",
+      "d": "Environ 300 mots sur une API métier, dans vos propres mots, uniquement ce que dit la documentation."
+     },
+     {
+      "t": "Un plan de 90 jours",
+      "d": "Objectifs hebdomadaires que vous pouvez vérifier, révisés toutes les deux semaines."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Ensuite, résumez une API métier comme Paystack en 300 mots environ. Si vous n'êtes pas sûr, dites non couvert dans les pages que j'ai lues, au lieu de deviner."
+   ],
+   "panel": {
+    "kicker": "Votre portefeuille",
+    "heading": "Trois pièces pour commencer",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Rédaction d'exploration",
+      "d": "Votre question, la demande exacte, le statut, un extrait de réponse, votre lecture et une erreur volontaire."
+     },
+     {
+      "t": "Résumé de la documentation",
+      "d": "Environ 300 mots sur une API métier, dans vos propres mots, uniquement ce que dit la documentation."
+     },
+     {
+      "t": "Un plan de 90 jours",
+      "d": "Objectifs hebdomadaires que vous pouvez vérifier, révisés toutes les deux semaines."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Troisièmement, un plan de 90 jours avec des objectifs vérifiables, tels que 20 requêtes enregistrées au cours des semaines 1 à 2. Si une cible glisse, réduisez-la plutôt que de la supprimer."
+   ],
+   "panel": {
+    "kicker": "Votre portefeuille",
+    "heading": "Trois pièces pour commencer",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Rédaction d'exploration",
+      "d": "Votre question, la demande exacte, le statut, un extrait de réponse, votre lecture et une erreur volontaire."
+     },
+     {
+      "t": "Résumé de la documentation",
+      "d": "Environ 300 mots sur une API métier, dans vos propres mots, uniquement ce que dit la documentation."
+     },
+     {
+      "t": "Un plan de 90 jours",
+      "d": "Objectifs hebdomadaires que vous pouvez vérifier, révisés toutes les deux semaines."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Avant de partager une capture d'écran ou un article, supprimez les clés, même les clés de test, ainsi que les jetons et les signatures.",
+    "Supprimez les noms des clients, les e-mails, les numéros de téléphone et les références de transactions réelles, et utilisez des données de test ou de fausses données. Une clé divulguée peut détruire la confiance qu’un portefeuille était censé construire."
+   ],
+   "panel": {
+    "kicker": "Sécurité",
+    "heading": "Nettoyer avant de publier",
+    "items": [
+     "Supprimer les clés, les jetons et les signatures",
+     "Supprimer les noms, e-mails et téléphones des clients",
+     "Supprimer les références de transactions réelles",
+     "Utiliser le mode test ou de fausses données"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "À retenir. Commencez la découverte avec le résultat et une base de référence mesurée. Tarifez tâche par tâche avec un tampon ouvert. Gardez les frais des fournisseurs séparés. Transformez de nouvelles idées en demandes de changement. Et nettoyez chaque élément du portfolio avant de le partager."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Mesurez d'abord la ligne de base manuelle",
+     "Tarifer tâche par tâche, avec un tampon indiqué",
+     "Séparez les frais du fournisseur des vôtres",
+     "Des idées supplémentaires deviennent des demandes de modification de prix"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Exécutez maintenant une découverte de pratique, une intégration de spécifications et de prix, et rédigez votre premier élément de portfolio avec un plan de 90 jours.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâches d'entraînement",
+    "heading": "Vos tâches pratiques",
+    "items": [
+     "Exécuter une découverte de pratique",
+     "Spécifications et prix d'une intégration",
+     "Rédigez votre premier élément de portfolio"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

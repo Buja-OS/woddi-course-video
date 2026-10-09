@@ -1,0 +1,522 @@
+{
+ "course": "core-proposal-writing",
+ "module": "m1",
+ "title": "Kafin ka rubuta: karanta kiran kuma yanke shawarar tafiya ko a'a",
+ "course_title": "Rubutun Shawara: Tallafi da Shawarwari na Kasuwanci",
+ "shots": [
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Kafin ka rubuta: karanta kiran, kuma yanke shawarar tafi ko a'a.",
+    "Wannan shi ne bidiyo don module ɗaya na Rubutun Ƙirar."
+   ]
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Shawara rubutaccen tayin da ke neman mai karatu ya ba da kuɗi ga shirin ku. Kowace shawara tana amsa tambaya ɗaya daga mai karatu: me yasa zan amince da ku da wannan?"
+   ],
+   "panel": {
+    "kicker": "Iri biyu na shawara",
+    "heading": "Ba da shawara ko shawarwarin kasuwanci?",
+    "mode": "compare",
+    "left_h": "Bayar da shawara",
+    "left": [
+     "Mai ba da kuɗi yana biya don canji ga wasu",
+     "Yana son sakamako mai aunawa",
+     "Ya ƙare a cikin yarjejeniyar tallafi da rahotanni"
+    ],
+    "right_h": "Shawarar kasuwanci",
+    "right": [
+     "Abokin ciniki yana biyan bukatunta",
+     "Yana son isarwa akan farashi mai kyau",
+     "Ya ƙare a cikin kwangilar da aka sa hannu da kuma daftari"
+    ],
+    "show": 0
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Shawarar tallafin tana zuwa ga mai ba da kuɗi, wanda ke biyan ku don ƙirƙirar canji ga sauran mutane. Misali, Amaka a Lafiya na horar da mata yin sabulu da wankan ruwa. Ta nemi gidauniyar kimanin naira miliyan 4.8 don horar da mata 40 cikin watanni 6."
+   ],
+   "panel": {
+    "kicker": "Iri biyu na shawara",
+    "heading": "Ba da shawara ko shawarwarin kasuwanci?",
+    "mode": "compare",
+    "left_h": "Bayar da shawara",
+    "left": [
+     "Mai ba da kuɗi yana biya don canji ga wasu",
+     "Yana son sakamako mai aunawa",
+     "Ya ƙare a cikin yarjejeniyar tallafi da rahotanni"
+    ],
+    "right_h": "Shawarar kasuwanci",
+    "right": [
+     "Abokin ciniki yana biyan bukatunta",
+     "Yana son isarwa akan farashi mai kyau",
+     "Ya ƙare a cikin kwangilar da aka sa hannu da kuma daftari"
+    ],
+    "show": 1,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Shawarar kasuwanci tana zuwa ga abokin ciniki wanda ya biya bukatunta. A wannan watan, Amaka tana ba wa makaranta sabulun ruwa lita 60 a kowane wata, akan farashin da aka amince da kowace lita.",
+    "Sana'a ɗaya, takardu biyu daban-daban, saboda mai karatu daban."
+   ],
+   "panel": {
+    "kicker": "Iri biyu na shawara",
+    "heading": "Ba da shawara ko shawarwarin kasuwanci?",
+    "mode": "compare",
+    "left_h": "Bayar da shawara",
+    "left": [
+     "Mai ba da kuɗi yana biya don canji ga wasu",
+     "Yana son sakamako mai aunawa",
+     "Ya ƙare a cikin yarjejeniyar tallafi da rahotanni"
+    ],
+    "right_h": "Shawarar kasuwanci",
+    "right": [
+     "Abokin ciniki yana biyan bukatunta",
+     "Yana son isarwa akan farashi mai kyau",
+     "Ya ƙare a cikin kwangilar da aka sa hannu da kuma daftari"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Yawancin shawarwari ana watsi da su kafin kowa ya karanta ra'ayin, saboda mai nema bai cancanci ko yayi watsi da tsarin ba. Don haka karanta kiran aƙalla sau uku: don fahimta, don yiwa kowane ƙa'ida alama, da kuma duba daftarin da kuka gama."
+   ],
+   "panel": {
+    "kicker": "Karatun kira",
+    "heading": "Abubuwa biyar kowane kira yana gaya muku",
+    "items": [
+     "Manufar da fifiko",
+     "Cancanta: wanda zai iya nema",
+     "Kudade: adadi, tsayi, farashi ba a yarda ba",
+     "Ma'aunin kimantawa da makinsu",
+     "Dokokin ƙaddamarwa da ranar ƙarshe"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Na farko, manufar: menene canjin mai ba da kuɗi yake so, kuma wanda ya kamata ya amfana."
+   ],
+   "panel": {
+    "kicker": "Karatun kira",
+    "heading": "Abubuwa biyar kowane kira yana gaya muku",
+    "items": [
+     "Manufar da fifiko",
+     "Cancanta: wanda zai iya nema",
+     "Kudade: adadi, tsayi, farashi ba a yarda ba",
+     "Ma'aunin kimantawa da makinsu",
+     "Dokokin ƙaddamarwa da ranar ƙarshe"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Na biyu, cancanta: wane nau'in kungiya za a iya amfani da shi, rajistarta, wurin da shekarun aiki."
+   ],
+   "panel": {
+    "kicker": "Karatun kira",
+    "heading": "Abubuwa biyar kowane kira yana gaya muku",
+    "items": [
+     "Manufar da fifiko",
+     "Cancanta: wanda zai iya nema",
+     "Kudade: adadi, tsayi, farashi ba a yarda ba",
+     "Ma'aunin kimantawa da makinsu",
+     "Dokokin ƙaddamarwa da ranar ƙarshe"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Na uku, cikakkun bayanai na kudade: ƙarami da matsakaicin adadin, tsawon aikin, da farashin da ba a yarda da su ba."
+   ],
+   "panel": {
+    "kicker": "Karatun kira",
+    "heading": "Abubuwa biyar kowane kira yana gaya muku",
+    "items": [
+     "Manufar da fifiko",
+     "Cancanta: wanda zai iya nema",
+     "Kudade: adadi, tsayi, farashi ba a yarda ba",
+     "Ma'aunin kimantawa da makinsu",
+     "Dokokin ƙaddamarwa da ranar ƙarshe"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Na hudu, ma'aunin tantancewa. Masu bita suna nuna maki kowane sashe, don haka waɗannan maki za su gaya muku inda za ku kashe ƙoƙarin ku."
+   ],
+   "panel": {
+    "kicker": "Karatun kira",
+    "heading": "Abubuwa biyar kowane kira yana gaya muku",
+    "items": [
+     "Manufar da fifiko",
+     "Cancanta: wanda zai iya nema",
+     "Kudade: adadi, tsayi, farashi ba a yarda ba",
+     "Ma'aunin kimantawa da makinsu",
+     "Dokokin ƙaddamarwa da ranar ƙarshe"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Kuma na biyar, ƙa'idodin ƙaddamarwa: iyakokin shafi, nau'in fayil, annexes, da ainihin ranar ƙarshe tare da yankin lokaci."
+   ],
+   "panel": {
+    "kicker": "Karatun kira",
+    "heading": "Abubuwa biyar kowane kira yana gaya muku",
+    "items": [
+     "Manufar da fifiko",
+     "Cancanta: wanda zai iya nema",
+     "Kudade: adadi, tsayi, farashi ba a yarda ba",
+     "Ma'aunin kimantawa da makinsu",
+     "Dokokin ƙaddamarwa da ranar ƙarshe"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Yi tebur mai ginshiƙai uku: buƙatun, inda yake cikin kiran, da matsayinsa."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Gina lissafin bin doka",
+    "items": [
+     "Tebur: bukata, inda a cikin kira, matsayi",
+     "Ƙara kowace doka, layi ta layi",
+     "Ƙara kowane ma'auni tare da makinsa",
+     "Yi alama a wane sashe ya amsa kowanne",
+     "Danna kowane jere akan takardar ƙarshe"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Shiga cikin layin kira ta layi kuma ƙara kowace ƙa'ida: cancanta, iyakar shafi, samfuri na kasafin kuɗi, ƙarin bayani, sa hannu da ranar ƙarshe."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Gina lissafin bin doka",
+    "items": [
+     "Tebur: bukata, inda a cikin kira, matsayi",
+     "Ƙara kowace doka, layi ta layi",
+     "Ƙara kowane ma'auni tare da makinsa",
+     "Yi alama a wane sashe ya amsa kowanne",
+     "Danna kowane jere akan takardar ƙarshe"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Ƙara kowane ma'aunin maki a matsayin jerin nasa, tare da makinsa."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Gina lissafin bin doka",
+    "items": [
+     "Tebur: bukata, inda a cikin kira, matsayi",
+     "Ƙara kowace doka, layi ta layi",
+     "Ƙara kowane ma'auni tare da makinsa",
+     "Yi alama a wane sashe ya amsa kowanne",
+     "Danna kowane jere akan takardar ƙarshe"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Alama wanne bangare na shawarar ku zai amsa kowanne."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Gina lissafin bin doka",
+    "items": [
+     "Tebur: bukata, inda a cikin kira, matsayi",
+     "Ƙara kowace doka, layi ta layi",
+     "Ƙara kowane ma'auni tare da makinsa",
+     "Yi alama a wane sashe ya amsa kowanne",
+     "Danna kowane jere akan takardar ƙarshe"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Kafin ƙaddamarwa, yiwa kowane layi lamba akan takaddar ƙarshe, ba ƙwaƙwalwar ajiyar ku ba. Kalmomi kamar dole da ake buƙata na iya hana ku cancanta. Yi shirin ƙaddamar da aƙalla cikakken yini ɗaya da wuri, saboda hanyoyin sadarwa suna raguwa kusa da ranar ƙarshe."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Gina lissafin bin doka",
+    "items": [
+     "Tebur: bukata, inda a cikin kira, matsayi",
+     "Ƙara kowace doka, layi ta layi",
+     "Ƙara kowane ma'auni tare da makinsa",
+     "Yi alama a wane sashe ya amsa kowanne",
+     "Danna kowane jere akan takardar ƙarshe"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Dole ne yana nufin za a iya hana ku. Wanda aka fi so yana nufin ƙarin maki.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Rubuta tsari mai kyau yana ɗaukar kwanaki da yawa, don haka ci gaba da samun damar gaskiya tukuna. Amaka ta sami wani kira na karfafa tattalin arzikin mata, tare da bayar da tallafi har naira miliyan 5,000,000 na tsawon watanni 6 zuwa 12."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Shawarar tafi ko rashin tafiya Amaka",
+    "items": [
+     "Mun cika kowane ka'idar cancanta",
+     "Ra'ayinmu ya dace da abubuwan da suka fi dacewa",
+     "Za mu iya saduwa da ranar ƙarshe",
+     "Za mu iya isar da rahoto",
+     "Kasafin kuɗi ya dace da kewayon kuɗi"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Ƙungiyar haɗin gwiwar ta tana da rajista, tana da asusun banki a cikin sunan ta, kuma tana gudanar da kungiyoyin ajiyar kuɗi na tsawon shekaru hudu. Shirinta ya dace da abubuwan da suka fi dacewa da kuma adadin kuɗi. Ta iya cika wa'adin, bayarwa da bayar da rahoto.",
+    "Biyar eh, don haka amsar ita ce tafi. Zane yana ɗaukar maki 30, don haka za ta kashe mafi yawan ƙoƙarin a can. A'a bayyananne kuma amsa ce mai kyau. Yana ɓata lokaci don kyakkyawan kira."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Shawarar tafi ko rashin tafiya Amaka",
+    "items": [
+     "Mun cika kowane ka'idar cancanta",
+     "Ra'ayinmu ya dace da abubuwan da suka fi dacewa",
+     "Za mu iya saduwa da ranar ƙarshe",
+     "Za mu iya isar da rahoto",
+     "Kasafin kuɗi ya dace da kewayon kuɗi"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Masu ba da kuɗi suna ba da kuɗi ga ƙungiyoyin da suka yi imanin za su iya sarrafa shi. Ajiye takaddun da ke tabbatar da shi a cikin babban fayil guda."
+   ],
+   "panel": {
+    "kicker": "Ana shiryawa",
+    "heading": "Babban fayil ɗin shawarwarin da za a sake amfani da shi",
+    "items": [
+     "Takaddun rajista",
+     "Kundin tsarin mulki ko takardar mulki",
+     "Asusun banki a cikin sunan kungiyar",
+     "CVs da rahotannin aikin da suka gabata",
+     "Wasikun tallafi"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Takaddar rajistar rajista, tsarin mulki, da shaidar asusun banki a cikin sunan kungiyar. Yawancin masu kuɗi ba za su biya cikin asusun sirri ba."
+   ],
+   "panel": {
+    "kicker": "Ana shiryawa",
+    "heading": "Babban fayil ɗin shawarwarin da za a sake amfani da shi",
+    "items": [
+     "Takaddun rajista",
+     "Kundin tsarin mulki ko takardar mulki",
+     "Asusun banki a cikin sunan kungiyar",
+     "CVs da rahotannin aikin da suka gabata",
+     "Wasikun tallafi"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "CV na manyan ma'aikatan, da rahotanni da hotuna da suka gabata, da aka yi amfani da su tare da izini kawai."
+   ],
+   "panel": {
+    "kicker": "Ana shiryawa",
+    "heading": "Babban fayil ɗin shawarwarin da za a sake amfani da shi",
+    "items": [
+     "Takaddun rajista",
+     "Kundin tsarin mulki ko takardar mulki",
+     "Asusun banki a cikin sunan kungiyar",
+     "CVs da rahotannin aikin da suka gabata",
+     "Wasikun tallafi"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Wasiƙun tallafi na iya ɗaukar makonni biyu ko fiye, don haka nemi su da wuri.",
+    "Kuma yi da'awar kawai za ku iya tabbatarwa. Ka ce mun horar da mata 85 a rukunin tanadi uku, tare da bayanan halarta, ba mu ne jagorori a karfafa mata ba."
+   ],
+   "panel": {
+    "kicker": "Ana shiryawa",
+    "heading": "Babban fayil ɗin shawarwarin da za a sake amfani da shi",
+    "items": [
+     "Takaddun rajista",
+     "Kundin tsarin mulki ko takardar mulki",
+     "Asusun banki a cikin sunan kungiyar",
+     "CVs da rahotannin aikin da suka gabata",
+     "Wasikun tallafi"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Ana buga kira na gaske akan gidan yanar gizon mai kuɗi, yana da ƙayyadaddun ƙa'idodi, kuma baya karɓar kuɗi don nema ko karɓar kuɗi."
+   ],
+   "panel": {
+    "kicker": "Kare kuɗin ku",
+    "heading": "Kira na gaske ko zamba?",
+    "mode": "compare",
+    "left_h": "Mai ba da kuɗi na gaske",
+    "left": [
+     "A kan official website",
+     "Babu kuɗin nema ko karɓa",
+     "Share tsarin zaɓi",
+     "Kwangila kafin kowane biya"
+    ],
+    "right_h": "Alamun gargadi",
+    "right": [
+     "Kun 'yi nasara' ba tare da nema ba",
+     "Ya nemi farashi na gaba",
+     "Ranar ƙarshe na gaggawa cikin sa'o'i",
+     "Neman BVN ko PIN naka"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "A cikin makon ne Amaka ta samu sakon WhatsApp inda ta ce kungiyar hadin gwiwar ta ta ci Naira miliyan 10 kuma dole ne ta biya Naira 75,000 don sarrafa su. Ba ta taɓa nema ba, kuma mai ba da kuɗin ba shi da gidan yanar gizon hukuma. Tana gogewa tana gargadin membobinta.",
+    "Masu ba da kuɗi na gaske ba su taɓa cajin ku don karɓar tallafi ba. Kada ku taɓa raba BVN, PIN ko lambobin lokaci ɗaya."
+   ],
+   "panel": {
+    "kicker": "Kare kuɗin ku",
+    "heading": "Kira na gaske ko zamba?",
+    "mode": "compare",
+    "left_h": "Mai ba da kuɗi na gaske",
+    "left": [
+     "A kan official website",
+     "Babu kuɗin nema ko karɓa",
+     "Share tsarin zaɓi",
+     "Kwangila kafin kowane biya"
+    ],
+    "right_h": "Alamun gargadi",
+    "right": [
+     "Kun 'yi nasara' ba tare da nema ba",
+     "Ya nemi farashi na gaba",
+     "Ranar ƙarshe na gaggawa cikin sa'o'i",
+     "Neman BVN ko PIN naka"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Ayyukanku. Sunan mai karatun ku na farko da abin da za ku nema. Nemo kira na gaske guda ɗaya a cikin filin ku, tabbatar da shi akan gidan yanar gizon hukuma, kuma juya shi zuwa jerin abubuwan da aka yarda.",
+    "Yi rikodin shawarar tafi ko rashin tafiya, kuma fara babban fayil ɗin takaddun shawarwarinku. Yanzu ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Ayyukanku",
+    "heading": "Kafin module na gaba",
+    "items": [
+     "Sunan mai karatun ku da tambayar ku",
+     "Juya kira ɗaya na gaske zuwa jerin abubuwan dubawa",
+     "Yi rikodin shawarar tafi ko rashin tafiya",
+     "Fara babban fayil ɗin takaddun shawarwarinku"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}
