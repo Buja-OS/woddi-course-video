@@ -1,0 +1,453 @@
+{
+ "course": "core-online-customer-support",
+ "module": "m1",
+ "title": "Tushen tallafin kan layi: tashoshi, saiti da aminci",
+ "course_title": "Tallafin Abokin Ciniki na Kan layi",
+ "shots": [
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Tushen tallafin kan layi: tashoshi, saiti da aminci.",
+    "Wannan shine bidiyon don module 1 na Tallafin Abokin Ciniki na Kan layi."
+   ]
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Tallafin abokin ciniki na kan layi yana nufin taimakawa abokan ciniki a rubuce, ta hanyar allo. Abokin ciniki ba zai iya ganin murmushin ku ba. Duk abin da take ji ya fito ne daga abubuwa uku."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Kalmomin ku sune gabaɗayan gogewa",
+    "items": [
+     "Sauri: amsa ta farko mai sauri",
+     "Clarity: gajerun jimloli, bayyananne mataki na gaba",
+     "Bi-ta: aikata abin da kuka yi alkawari"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Gudu. Amsa ta farko da sauri, koda kuwa ta ce kuna dubawa."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Kalmomin ku sune gabaɗayan gogewa",
+    "items": [
+     "Sauri: amsa ta farko mai sauri",
+     "Clarity: gajerun jimloli, bayyananne mataki na gaba",
+     "Bi-ta: aikata abin da kuka yi alkawari"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Tsaratarwa. Gajerun jimloli, takamaiman bayanai da bayyanannen mataki na gaba."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Kalmomin ku sune gabaɗayan gogewa",
+    "items": [
+     "Sauri: amsa ta farko mai sauri",
+     "Clarity: gajerun jimloli, bayyananne mataki na gaba",
+     "Bi-ta: aikata abin da kuka yi alkawari"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Bi-ta. Idan kace zan sabunta maka da karfe 2 na rana, ka sabunta ta da karfe 2 na rana, koda labari yana nan. Saba alƙawari ya fi lalacewa fiye da jinkirin amsawar farko."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Kalmomin ku sune gabaɗayan gogewa",
+    "items": [
+     "Sauri: amsa ta farko mai sauri",
+     "Clarity: gajerun jimloli, bayyananne mataki na gaba",
+     "Bi-ta: aikata abin da kuka yi alkawari"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Anan akwai ƙa'ida mai sauƙi. Rike abubuwa masu sauri, kuma matsar da abubuwa masu mahimmanci zuwa rikodin. Abokin ciniki da ya tambayi farashin jaka a WhatsApp ya sami amsar ta WhatsApp."
+   ],
+   "panel": {
+    "kicker": "Tashoshi",
+    "heading": "Ci gaba da sauri abubuwa",
+    "mode": "compare",
+    "left_h": "WhatsApp Business",
+    "left": [
+     "Tambayoyi masu sauri da farashi",
+     "Oda sabuntawa",
+     "Hotuna da bayanan murya"
+    ],
+    "right_h": "Imel ko rikodin",
+    "right": [
+     "Maidowa da daftari",
+     "Koke-koke na yau da kullun",
+     "Duk wani abu da ke buƙatar rikodin rubutu"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Abokin ciniki wanda ke son maidowa ya kamata har yanzu ya sami amsa mai sauri, mai dumi, amma bayanan maida ya kamata a tabbatar da su a rubuce inda kasuwancin zai iya sake samun su, ta imel ko a cikin takardar bin diddigin ku.",
+    "Kuma kada ku yi alkawarin kuɗi ba a ba ku izinin amincewa ba."
+   ],
+   "panel": {
+    "kicker": "Tashoshi",
+    "heading": "Ci gaba da sauri abubuwa",
+    "mode": "compare",
+    "left_h": "WhatsApp Business",
+    "left": [
+     "Tambayoyi masu sauri da farashi",
+     "Oda sabuntawa",
+     "Hotuna da bayanan murya"
+    ],
+    "right_h": "Imel ko rikodin",
+    "right": [
+     "Maidowa da daftari",
+     "Koke-koke na yau da kullun",
+     "Duk wani abu da ke buƙatar rikodin rubutu"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Kowace buƙata, akan kowace tasha, tana motsawa ta matakai shida. Saƙo yana zuwa, kuma kuna gane shi da sauri."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Daga saƙo zuwa akwati mai rufe",
+    "items": [
+     "Sako ya iso",
+     "Amince da sauri",
+     "Fahimta kuma duba rikodin",
+     "Warware ko haɓaka",
+     "Tabbatar da abokin ciniki",
+     "Shiga ku rufe"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Kuna fahimtar abin da take buƙata kuma ku duba rikodin kafin ku amsa."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Daga saƙo zuwa akwati mai rufe",
+    "items": [
+     "Sako ya iso",
+     "Amince da sauri",
+     "Fahimta kuma duba rikodin",
+     "Warware ko haɓaka",
+     "Tabbatar da abokin ciniki",
+     "Shiga ku rufe"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Kuna warware shi, ko ku mika shi ga wanda ya dace."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Daga saƙo zuwa akwati mai rufe",
+    "items": [
+     "Sako ya iso",
+     "Amince da sauri",
+     "Fahimta kuma duba rikodin",
+     "Warware ko haɓaka",
+     "Tabbatar da abokin ciniki",
+     "Shiga ku rufe"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_map",
+   "say": [
+    "Kuna tabbatarwa tare da abokin ciniki, sannan ku shiga kuma ku rufe karar."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Daga saƙo zuwa akwati mai rufe",
+    "items": [
+     "Sako ya iso",
+     "Amince da sauri",
+     "Fahimta kuma duba rikodin",
+     "Warware ko haɓaka",
+     "Tabbatar da abokin ciniki",
+     "Shiga ku rufe"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_map",
+   "say": [
+    "Misali, Ngozi tana buɗe sabbin saƙonni 7 da ƙarfe 9 na safe. Ta fara leka duk 7 maimakon ta amsa na sama. Tambayoyin farashi suna samun amsoshi a ajiye. Tulun da ya fashe yana samun uzuri da sabunta alkawari da karfe 2 na rana. Duk 7 sun sami amsa ta farko a cikin mintuna 30."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Daga saƙo zuwa akwati mai rufe",
+    "items": [
+     "Sako ya iso",
+     "Amince da sauri",
+     "Fahimta kuma duba rikodin",
+     "Warware ko haɓaka",
+     "Tabbatar da abokin ciniki",
+     "Shiga ku rufe"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "rule": "Duba duk sabbin saƙonni da farko, sannan ba da fifiko.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Yi amfani da app ɗin Kasuwancin WhatsApp na kyauta, akan lambar kansa idan zai yiwu. Kammala bayanan martaba da sa'o'in ku, kuma kunna gaisuwa da saƙon nesa.",
+    "Ajiye amsa cikin sauri don maimaita tambayoyin, kuma koyaushe ƙara sunan abokin ciniki kafin aikawa.",
+    "Ƙirƙirar alamun: Sabo, Jiran abokin ciniki, Jiran mu, kuma An warware. Duk wani hira da har yanzu yana jiran mu a ƙarshen rana alkawari ne da ba ku cika ba tukuna."
+   ],
+   "panel": {
+    "kicker": "Saita sau ɗaya",
+    "heading": "Taimakon-shirye saitin",
+    "items": [
+     "Bayanan martaba da lokutan buɗewa sun cika",
+     "Sakon gaisuwa a kan",
+     "Saƙon nesa yana kunne",
+     "An ajiye amsa mai sauri, wanda aka buga tare da /",
+     "Labels: Sabo, Jira, An warware",
+     "An ƙara sa hannun imel"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "'Yan damfara suna yiwa abokan ciniki da kasuwanci hari. Na farko, faɗakarwar biyan kuɗi na karya. Abokin ciniki yana aika hoton sikirin kuma yana tambayarka ka saki kaya da sauri. Hotunan hotuna ba su tabbatar da komai ba. Tabbatar cewa kuɗin ya sauka a cikin asusun kasuwanci."
+   ],
+   "panel": {
+    "kicker": "Zamba",
+    "heading": "Zamba uku don ganowa",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "faɗakarwar biyan kuɗi na karya",
+      "d": "Hoton hoto da gaggawar sakin kaya. Tabbatar cewa kuɗin yana cikin asusun kasuwanci da farko."
+     },
+     {
+      "t": "Biyan kuɗi da yawa da kuma mayar da kuɗi",
+      "d": "Na aika da yawa, da fatan za a mayar da kuɗin bambancin. Bincika ma'auni na gaske kuma sami amincewar mai shi."
+     },
+     {
+      "t": "Neman lambobin",
+      "d": "Kar a taɓa raba ko neman PIN, OTPs, kalmomin shiga ko lambobin tabbatarwa."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Na biyu, ƙarin biya. Na aika 50,000 maimakon 5,000 bisa kuskure, don Allah a mayar da 45,000. Duba ainihin ma'auni da farko, kuma mayar da kuɗi kawai tare da amincewar mai shi."
+   ],
+   "panel": {
+    "kicker": "Zamba",
+    "heading": "Zamba uku don ganowa",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "faɗakarwar biyan kuɗi na karya",
+      "d": "Hoton hoto da gaggawar sakin kaya. Tabbatar cewa kuɗin yana cikin asusun kasuwanci da farko."
+     },
+     {
+      "t": "Biyan kuɗi da yawa da kuma mayar da kuɗi",
+      "d": "Na aika da yawa, da fatan za a mayar da kuɗin bambancin. Bincika ma'auni na gaske kuma sami amincewar mai shi."
+     },
+     {
+      "t": "Neman lambobin",
+      "d": "Kar a taɓa raba ko neman PIN, OTPs, kalmomin shiga ko lambobin tabbatarwa."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Na uku, neman lambobi. Kasuwanci na gaske baya buƙatar PIN, OTP, kalmar sirri ko lambar WhatsApp. Kunna tabbatarwa mataki biyu don lambar kasuwanci."
+   ],
+   "panel": {
+    "kicker": "Zamba",
+    "heading": "Zamba uku don ganowa",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "faɗakarwar biyan kuɗi na karya",
+      "d": "Hoton hoto da gaggawar sakin kaya. Tabbatar cewa kuɗin yana cikin asusun kasuwanci da farko."
+     },
+     {
+      "t": "Biyan kuɗi da yawa da kuma mayar da kuɗi",
+      "d": "Na aika da yawa, da fatan za a mayar da kuɗin bambancin. Bincika ma'auni na gaske kuma sami amincewar mai shi."
+     },
+     {
+      "t": "Neman lambobin",
+      "d": "Kar a taɓa raba ko neman PIN, OTPs, kalmomin shiga ko lambobin tabbatarwa."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Bisi yana samun oda da buƙatar gaggawa. Abokin ciniki ya ce yana tafiya cikin sa'a daya."
+   ],
+   "card": {
+    "title": "Haɓaka faɗakarwar karya",
+    "rows": [],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Odar ita ce bankunan wutar lantarki guda 4 akan naira 18,000 kowanne, wanda ya kai 72,000. Ya aika da hoton allo na 72,000 transfer. Bisi ya amsa: za mu aika da zarar an biya kuɗin a asusun kasuwancin mu."
+   ],
+   "card": {
+    "title": "Haɓaka faɗakarwar karya",
+    "rows": [
+     [
+      "4 bankunan wuta a 18,000 kowanne",
+      "72,000"
+     ],
+     [
+      "Hoton hoton da abokin ciniki ya aiko",
+      "72,000"
+     ]
+    ],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Mai shi yana duba manhajar banki. Bayan mintuna 20 babu abin da ya iso. Abokin ciniki ya zama m, sannan ya daina ba da amsa.",
+    "Ba a rasa kaya ba. Gaggawa da matsin lamba alamun gargadi ne. Asusun kasuwanci shine kawai tabbacin da aka ƙidaya."
+   ],
+   "card": {
+    "title": "Haɓaka faɗakarwar karya",
+    "rows": [
+     [
+      "4 bankunan wuta a 18,000 kowanne",
+      "72,000"
+     ],
+     [
+      "Hoton hoton da abokin ciniki ya aiko",
+      "72,000"
+     ],
+     [
+      "A cikin asusun kasuwanci",
+      "0"
+     ]
+    ],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Don tunawa. Ka cika alkawuran ka guda uku. Bincika da farko, sannan ba da fifiko ga matsaloli da batutuwan kuɗi. Keɓance kowane amsa mai sauri. Tabbatar da biyan kuɗi a cikin asusun kasuwanci kawai.",
+    "Kuma tattara bayanan sirri da kuke buƙata kawai, kuma kada ku taɓa buga hira ko rasidin abokin ciniki a ko'ina."
+   ],
+   "panel": {
+    "kicker": "Mabuɗin mahimmanci",
+    "heading": "Ka tuna",
+    "items": [
+     "Sauri, tsabta da bin-biyu",
+     "Duba duk saƙonnin, sannan ba da fifiko",
+     "Amsoshi masu sauri, koyaushe na keɓancewa",
+     "An tabbatar da biyan kuɗi a cikin asusun kasuwanci kawai",
+     "Tattara bayanan da kuke buƙata kawai; kiyaye shi lafiya"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_map",
+   "say": [
+    "Juyin ku. Yi taswirar tashoshin da kasuwancin ku ke amfani da su. Saita bayanin martaba, gaisuwa da saƙon nesa. Ajiye aƙalla amsoshi 5 masu sauri kuma ƙirƙiri alamun guda huɗu.",
+    "Sannan rubuta amsan biyan kuɗi da ke cewa ba za ku taɓa tambayar PIN ko lambobi ba, da kuma a kwantar da hankulan saƙon iyaka don maganganun batanci.",
+    "Ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi ayyuka",
+    "heading": "Ayyukan aikin ku",
+    "items": [
+     "Taswirar tashoshi na tallafi",
+     "Saita bayanin martaba, gaisuwa da saƙon nesa",
+     "Ajiye aƙalla 5 amsoshi masu sauri da lakabi 4",
+     "Rubuta amsar biyan ku da saƙon iyaka"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

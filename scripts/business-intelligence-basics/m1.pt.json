@@ -1,0 +1,632 @@
+{
+ "course": "business-intelligence-basics",
+ "module": "m1",
+ "title": "BI começa com decisões, não com dados",
+ "course_title": "Noções básicas de Business Intelligence: projetando sistemas que impulsionam decisões",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "BI começa com decisões, não com dados.",
+    "Este é o vídeo do Módulo 1 do Business Intelligence Basics: o que é BI e onde ele se encaixa."
+   ]
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Muitas empresas já possuem muitos dados. O terminal POS registra os pagamentos com cartão, o Paystack ou Moniepoint mantém todas as transferências e a loja possui um livro de estoque."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Muitos dados, sem respostas rápidas",
+    "items": [
+     "O PDV, os aplicativos de pagamento e a carteira de estoque armazenam dados",
+     "No entanto, ninguém pode responder às perguntas de segunda-feira",
+     "BI preenche essa lacuna",
+     "Informação certa, pessoa certa, hora certa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Mesmo assim, na manhã de segunda-feira, o proprietário pergunta: quanto realmente vendemos na semana passada e o que devo encomendar novamente? E ninguém pode responder rapidamente com confiança."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Muitos dados, sem respostas rápidas",
+    "items": [
+     "O PDV, os aplicativos de pagamento e a carteira de estoque armazenam dados",
+     "No entanto, ninguém pode responder às perguntas de segunda-feira",
+     "BI preenche essa lacuna",
+     "Informação certa, pessoa certa, hora certa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Essa lacuna é o que a inteligência de negócios, ou BI, preenche."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Muitos dados, sem respostas rápidas",
+    "items": [
+     "O PDV, os aplicativos de pagamento e a carteira de estoque armazenam dados",
+     "No entanto, ninguém pode responder às perguntas de segunda-feira",
+     "BI preenche essa lacuna",
+     "Informação certa, pessoa certa, hora certa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Neste curso, BI significa um sistema repetitivo que leva as informações certas ao tomador de decisão certo, no momento certo, para que uma decisão seja tomada e executada."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Muitos dados, sem respostas rápidas",
+    "items": [
+     "O PDV, os aplicativos de pagamento e a carteira de estoque armazenam dados",
+     "No entanto, ninguém pode responder às perguntas de segunda-feira",
+     "BI preenche essa lacuna",
+     "Informação certa, pessoa certa, hora certa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Primeiro, os sistemas de origem, onde nascem os dados: o PDV, os aplicativos de pagamento, o software de contabilidade, as listas de pedidos do WhatsApp e até os registros em papel."
+   ],
+   "panel": {
+    "kicker": "Todo o sistema",
+    "heading": "Os seis elos da cadeia de BI",
+    "items": [
+     "Sistemas de origem: onde nascem os dados",
+     "Coletar e limpar, chamado ETL",
+     "Uma loja confiável",
+     "Métricas definidas, anotadas",
+     "Relatórios e alertas",
+     "Decisão e ação de uma pessoa nomeada"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Em seguida, colete e limpe: extraindo dados e corrigindo grafias, duplicatas e lacunas. Os profissionais chamam isso de ETL, que significa extrair, transformar, carregar."
+   ],
+   "panel": {
+    "kicker": "Todo o sistema",
+    "heading": "Os seis elos da cadeia de BI",
+    "items": [
+     "Sistemas de origem: onde nascem os dados",
+     "Coletar e limpar, chamado ETL",
+     "Uma loja confiável",
+     "Métricas definidas, anotadas",
+     "Relatórios e alertas",
+     "Decisão e ação de uma pessoa nomeada"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Depois, uma loja confiável. Para uma pequena empresa, pode ser uma Planilha Google bem estruturada."
+   ],
+   "panel": {
+    "kicker": "Todo o sistema",
+    "heading": "Os seis elos da cadeia de BI",
+    "items": [
+     "Sistemas de origem: onde nascem os dados",
+     "Coletar e limpar, chamado ETL",
+     "Uma loja confiável",
+     "Métricas definidas, anotadas",
+     "Relatórios e alertas",
+     "Decisão e ação de uma pessoa nomeada"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Em seguida, definimos métricas, para que as vendas tenham o mesmo significado em todos os relatórios."
+   ],
+   "panel": {
+    "kicker": "Todo o sistema",
+    "heading": "Os seis elos da cadeia de BI",
+    "items": [
+     "Sistemas de origem: onde nascem os dados",
+     "Coletar e limpar, chamado ETL",
+     "Uma loja confiável",
+     "Métricas definidas, anotadas",
+     "Relatórios e alertas",
+     "Decisão e ação de uma pessoa nomeada"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Em seguida, os próprios relatórios e alertas, como um resumo semanal de uma página ou uma mensagem no WhatsApp quando o estoque estiver baixo."
+   ],
+   "panel": {
+    "kicker": "Todo o sistema",
+    "heading": "Os seis elos da cadeia de BI",
+    "items": [
+     "Sistemas de origem: onde nascem os dados",
+     "Coletar e limpar, chamado ETL",
+     "Uma loja confiável",
+     "Métricas definidas, anotadas",
+     "Relatórios e alertas",
+     "Decisão e ação de uma pessoa nomeada"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "E por último, uma pessoa nomeada olha as informações de um dia conhecido e decide algo. Sem esse link o resto é decoração."
+   ],
+   "panel": {
+    "kicker": "Todo o sistema",
+    "heading": "Os seis elos da cadeia de BI",
+    "items": [
+     "Sistemas de origem: onde nascem os dados",
+     "Coletar e limpar, chamado ETL",
+     "Uma loja confiável",
+     "Métricas definidas, anotadas",
+     "Relatórios e alertas",
+     "Decisão e ação de uma pessoa nomeada"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "rule": "Se algum elo quebrar, toda a cadeia falhará.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Os designers de BI não começam com os dados que temos. Eles perguntam: que decisões essa empresa toma continuamente? A ferramenta é um inventário de decisão.",
+    "Por exemplo, Funmi administra um negócio de frango e peixe congelado em Ibadan, com duas câmaras frigoríficas."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Inventário de decisão de Funmi",
+    "items": [
+     "Liste as decisões tomadas repetidamente",
+     "Escreva o proprietário e com que frequência",
+     "Escreva as informações que cada um precisa",
+     "Observe a fonte de hoje e a lacuna",
+     "Conte o custo da maneira manual"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Ela lista cinco decisões repetidas, como novos pedidos semanais, limites de crédito do cliente e rotas de vans de entrega."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Inventário de decisão de Funmi",
+    "items": [
+     "Liste as decisões tomadas repetidamente",
+     "Escreva o proprietário e com que frequência",
+     "Escreva as informações que cada um precisa",
+     "Observe a fonte de hoje e a lacuna",
+     "Conte o custo da maneira manual"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Para cada um, ela escreve o proprietário e com que frequência. O novo pedido é dela, semanalmente."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Inventário de decisão de Funmi",
+    "items": [
+     "Liste as decisões tomadas repetidamente",
+     "Escreva o proprietário e com que frequência",
+     "Escreva as informações que cada um precisa",
+     "Observe a fonte de hoje e a lacuna",
+     "Conte o custo da maneira manual"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "O novo pedido precisa de estoque por produto, vendas nas últimas quatro semanas e prazo de entrega do fornecedor."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Inventário de decisão de Funmi",
+    "items": [
+     "Liste as decisões tomadas repetidamente",
+     "Escreva o proprietário e com que frequência",
+     "Escreva as informações que cada um precisa",
+     "Observe a fonte de hoje e a lacuna",
+     "Conte o custo da maneira manual"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "O estoque vem de uma contagem manual de sexta-feira sem nenhum histórico mantido. E os dias de pagamento do cliente não são rastreados."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Inventário de decisão de Funmi",
+    "items": [
+     "Liste as decisões tomadas repetidamente",
+     "Escreva o proprietário e com que frequência",
+     "Escreva as informações que cada um precisa",
+     "Observe a fonte de hoje e a lacuna",
+     "Conte o custo da maneira manual"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "A contagem manual leva 2 câmaras frigoríficas vezes 3 horas vezes 52 semanas. São 312 horas de trabalho por ano, jogadas fora após cada novo pedido. Portanto, seu trabalho de BI começa com o histórico de estoque e os dias de pagamento."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Inventário de decisão de Funmi",
+    "items": [
+     "Liste as decisões tomadas repetidamente",
+     "Escreva o proprietário e com que frequência",
+     "Escreva as informações que cada um precisa",
+     "Observe a fonte de hoje e a lacuna",
+     "Conte o custo da maneira manual"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Os sistemas OLTP administram o negócio. Eles registram cada venda, pagamento ou inscrição e devem ser rápidos."
+   ],
+   "panel": {
+    "kicker": "Palavras-chave",
+    "heading": "Administrar o negócio versus responder perguntas",
+    "mode": "compare",
+    "left_h": "OLTP",
+    "left": [
+     "Registra uma venda por vez",
+     "POS, Paystack, aplicativo de taxas escolares",
+     "Deve ser rápido e sempre ativo",
+     "Mantém o estado atual"
+    ],
+    "right_h": "OLAP",
+    "right": [
+     "Lê muitas linhas de uma vez",
+     "Armazém, modelo de BI, folha em branco",
+     "Criado para resumos e tendências",
+     "Mantém a história ao longo do tempo"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "OLAP significa armazenamento criado para análise: adição de milhares de linhas e comparação de meses. O BI copia os dados em um armazenamento separado, para que os relatórios não atrasem o processamento e o histórico seja mantido."
+   ],
+   "panel": {
+    "kicker": "Palavras-chave",
+    "heading": "Administrar o negócio versus responder perguntas",
+    "mode": "compare",
+    "left_h": "OLTP",
+    "left": [
+     "Registra uma venda por vez",
+     "POS, Paystack, aplicativo de taxas escolares",
+     "Deve ser rápido e sempre ativo",
+     "Mantém o estado atual"
+    ],
+    "right_h": "OLAP",
+    "right": [
+     "Lê muitas linhas de uma vez",
+     "Armazém, modelo de BI, folha em branco",
+     "Criado para resumos e tendências",
+     "Mantém a história ao longo do tempo"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Antes de recomendar qualquer coisa, encontre o ponto de partida. No nível 1, os dados ficam espalhados em notebooks, telefones e na cabeça das pessoas."
+   ],
+   "panel": {
+    "kicker": "Onde eles estão agora?",
+    "heading": "Cinco níveis de maturidade de BI",
+    "items": [
+     "1. Espalhados: notebooks, telefones, cabeçotes",
+     "2. Relatórios de planilhas manualmente",
+     "3. Centralizado: uma loja confiável",
+     "4. Gerenciado: proprietários, cheques, regras de acesso",
+     "5. Orientado para decisões: relatórios usados em reuniões"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "No nível 2, os relatórios mensais são elaborados manualmente a partir das exportações e os números muitas vezes divergem."
+   ],
+   "panel": {
+    "kicker": "Onde eles estão agora?",
+    "heading": "Cinco níveis de maturidade de BI",
+    "items": [
+     "1. Espalhados: notebooks, telefones, cabeçotes",
+     "2. Relatórios de planilhas manualmente",
+     "3. Centralizado: uma loja confiável",
+     "4. Gerenciado: proprietários, cheques, regras de acesso",
+     "5. Orientado para decisões: relatórios usados em reuniões"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "No nível 3, existe um armazenamento confiável e os relatórios padrão são atualizados dentro do cronograma."
+   ],
+   "panel": {
+    "kicker": "Onde eles estão agora?",
+    "heading": "Cinco níveis de maturidade de BI",
+    "items": [
+     "1. Espalhados: notebooks, telefones, cabeçotes",
+     "2. Relatórios de planilhas manualmente",
+     "3. Centralizado: uma loja confiável",
+     "4. Gerenciado: proprietários, cheques, regras de acesso",
+     "5. Orientado para decisões: relatórios usados em reuniões"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "No nível 4, as métricas possuem proprietários, verificações de qualidade e regras de acesso."
+   ],
+   "panel": {
+    "kicker": "Onde eles estão agora?",
+    "heading": "Cinco níveis de maturidade de BI",
+    "items": [
+     "1. Espalhados: notebooks, telefones, cabeçotes",
+     "2. Relatórios de planilhas manualmente",
+     "3. Centralizado: uma loja confiável",
+     "4. Gerenciado: proprietários, cheques, regras de acesso",
+     "5. Orientado para decisões: relatórios usados em reuniões"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "No nível 5, os relatórios são usados em reuniões fixas de revisão e as ações são acompanhadas."
+   ],
+   "panel": {
+    "kicker": "Onde eles estão agora?",
+    "heading": "Cinco níveis de maturidade de BI",
+    "items": [
+     "1. Espalhados: notebooks, telefones, cabeçotes",
+     "2. Relatórios de planilhas manualmente",
+     "3. Centralizado: uma loja confiável",
+     "4. Gerenciado: proprietários, cheques, regras de acesso",
+     "5. Orientado para decisões: relatórios usados em reuniões"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Uma verificação de 10 perguntas ajuda. Pontue cada questão com 0 para não, 1 para parcialmente ou 2 para sim. O máximo é 20."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Marcando uma cooperativa",
+    "items": [
+     "Pontue 10 questões: 0 não, 1 parcialmente, 2 sim",
+     "Total de Hauwa: 6",
+     "6 a 9 significa nível 2",
+     "Próximo passo: definições e um registro"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Por exemplo, Hauwa dirige uma cooperativa em Kaduna com cerca de 600 membros. As contribuições são registradas em dois arquivos Excel que muitas vezes discordam. O total dela é 6."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Marcando uma cooperativa",
+    "items": [
+     "Pontue 10 questões: 0 não, 1 parcialmente, 2 sim",
+     "Total de Hauwa: 6",
+     "6 a 9 significa nível 2",
+     "Próximo passo: definições e um registro"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Uma pontuação de 6 a 9 significa nível 2, relatórios em planilhas."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Marcando uma cooperativa",
+    "items": [
+     "Pontue 10 questões: 0 não, 1 parcialmente, 2 sim",
+     "Total de Hauwa: 6",
+     "6 a 9 significa nível 2",
+     "Próximo passo: definições e um registro"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Portanto, o próximo passo são definições escritas e um registro confiável, não um painel. Comprar uma ferramenta de painel muito cedo mostra números errados e os líderes param de confiar totalmente nos dados."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Marcando uma cooperativa",
+    "items": [
+     "Pontue 10 questões: 0 não, 1 parcialmente, 2 sim",
+     "Total de Hauwa: 6",
+     "6 a 9 significa nível 2",
+     "Próximo passo: definições e um registro"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Corrija as bases antes de comprar uma ferramenta de painel.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Para lembrar. BI é um sistema repetitivo, não uma ferramenta, e cada link deve funcionar, até a ação.",
+    "Comece com um inventário de decisão, mantenha os relatórios separados do caixa e conheça o nível de maturidade antes de construir."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Lembre-se",
+    "items": [
+     "BI é um sistema repetitivo, não uma ferramenta",
+     "Cada link deve funcionar, até a ação",
+     "Comece com um inventário de decisão",
+     "Execute relatórios em uma loja separada",
+     "Conheça o nível de maturidade antes de construir"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Agora elabore seu primeiro inventário de decisão, traduza um negócio que você conhece para a linguagem de BI e execute uma verificação de maturidade.",
+    "Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Pratique tarefas",
+    "heading": "Suas tarefas práticas",
+    "items": [
+     "Elabore seu primeiro inventário de decisão",
+     "Traduzir um negócio para a linguagem de BI",
+     "Execute uma verificação de vencimento"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

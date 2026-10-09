@@ -1,0 +1,700 @@
+{
+ "course": "blockchain-digital-assets-literacy",
+ "module": "m1",
+ "title": "How a blockchain really works, and where it fails",
+ "course_title": "Blockchain & Digital Assets Literacy",
+ "shots": [
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "How a blockchain really works, and where it fails.",
+    "This is the video for module 1 of Blockchain and Digital Assets Literacy."
+   ]
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "A ledger is simply a record of who owns what and who paid whom. Your ajo or esusu treasurer keeps one in a notebook."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "A record with no single keeper",
+    "items": [
+     "A ledger records who paid whom",
+     "Usually we trust one keeper",
+     "A blockchain copies it to many computers",
+     "Know how it works before you trust it"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Everyone trusts one keeper. If she makes a mistake, loses the book or cheats, the members have a problem."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "A record with no single keeper",
+    "items": [
+     "A ledger records who paid whom",
+     "Usually we trust one keeper",
+     "A blockchain copies it to many computers",
+     "Know how it works before you trust it"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "A blockchain is a ledger copied onto many computers at once, called nodes. There is no single keeper."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "A record with no single keeper",
+    "items": [
+     "A ledger records who paid whom",
+     "Usually we trust one keeper",
+     "A blockchain copies it to many computers",
+     "Know how it works before you trust it"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "In this video you will see how it works, and its honest limits."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "A record with no single keeper",
+    "items": [
+     "A ledger records who paid whom",
+     "Usually we trust one keeper",
+     "A blockchain copies it to many computers",
+     "Know how it works before you trust it"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Step 1. A payment is sent out to the network."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "How a payment gets onto a blockchain",
+    "items": [
+     "The payment is broadcast",
+     "Nodes check it against the rules",
+     "Payments are grouped into a block",
+     "The block is linked by its hash",
+     "Every copy is updated"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Step 2. Many independent computers check it against the agreed rules."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "How a payment gets onto a blockchain",
+    "items": [
+     "The payment is broadcast",
+     "Nodes check it against the rules",
+     "Payments are grouped into a block",
+     "The block is linked by its hash",
+     "Every copy is updated"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Step 3. Payments are grouped into a block, with a time stamp."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "How a payment gets onto a blockchain",
+    "items": [
+     "The payment is broadcast",
+     "Nodes check it against the rules",
+     "Payments are grouped into a block",
+     "The block is linked by its hash",
+     "Every copy is updated"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Step 4. The block stores the hash of the block before it. A hash is a short code, like a fingerprint for data. Change one letter, and the hash changes completely.",
+    "Because each block carries the fingerprint of the one before, the blocks form a chain."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "How a payment gets onto a blockchain",
+    "items": [
+     "The payment is broadcast",
+     "Nodes check it against the rules",
+     "Payments are grouped into a block",
+     "The block is linked by its hash",
+     "Every copy is updated"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Step 5. Every copy is updated. The rule that decides which block is accepted is called consensus. It replaces the trusted treasurer."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "How a payment gets onto a blockchain",
+    "items": [
+     "The payment is broadcast",
+     "Nodes check it against the rules",
+     "Payments are grouped into a block",
+     "The block is linked by its hash",
+     "Every copy is updated"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "But remember. A blockchain only proves a record was not changed. If false information goes in, it keeps that false record forever."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "How a payment gets onto a blockchain",
+    "items": [
+     "The payment is broadcast",
+     "Nodes check it against the rules",
+     "Payments are grouped into a block",
+     "The block is linked by its hash",
+     "Every copy is updated"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Tamper-evident does not mean true.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "For example, five traders led by Amaka each keep a copy of a chained record of their weekly contributions."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "How the chain exposes cheating",
+    "items": [
+     "Block 1: Amaka and Bola pay 5,000 each",
+     "Block 2 stores Block 1's fingerprint",
+     "Bola edits his copy to 50,000",
+     "His fingerprint changes; the chain breaks",
+     "4 honest copies outvote 1 altered copy"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Block 1 records that Amaka paid 5,000 naira and Bola paid 5,000 naira."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "How the chain exposes cheating",
+    "items": [
+     "Block 1: Amaka and Bola pay 5,000 each",
+     "Block 2 stores Block 1's fingerprint",
+     "Bola edits his copy to 50,000",
+     "His fingerprint changes; the chain breaks",
+     "4 honest copies outvote 1 altered copy"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Block 2 records two more payments, and also stores the fingerprint of Block 1."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "How the chain exposes cheating",
+    "items": [
+     "Block 1: Amaka and Bola pay 5,000 each",
+     "Block 2 stores Block 1's fingerprint",
+     "Bola edits his copy to 50,000",
+     "His fingerprint changes; the chain breaks",
+     "4 honest copies outvote 1 altered copy"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Bola secretly edits his copy of Block 1 to say he paid 50,000 naira."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "How the chain exposes cheating",
+    "items": [
+     "Block 1: Amaka and Bola pay 5,000 each",
+     "Block 2 stores Block 1's fingerprint",
+     "Bola edits his copy to 50,000",
+     "His fingerprint changes; the chain breaks",
+     "4 honest copies outvote 1 altered copy"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Now Block 1 has a new fingerprint, and Block 2 no longer links to it."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "How the chain exposes cheating",
+    "items": [
+     "Block 1: Amaka and Bola pay 5,000 each",
+     "Block 2 stores Block 1's fingerprint",
+     "Bola edits his copy to 50,000",
+     "His fingerprint changes; the chain breaks",
+     "4 honest copies outvote 1 altered copy"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "The other four copies still match each other, so the network rejects his version. The edit is visible at once, and outvoted."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "How the chain exposes cheating",
+    "items": [
+     "Block 1: Amaka and Bola pay 5,000 each",
+     "Block 2 stores Block 1's fingerprint",
+     "Bola edits his copy to 50,000",
+     "His fingerprint changes; the chain breaks",
+     "4 honest copies outvote 1 altered copy"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "With a bank, one company keeps the record. A payment can often be reversed through a dispute, and customer care fixes mistakes."
+   ],
+   "panel": {
+    "kicker": "Know the difference",
+    "heading": "Bank ledger and public blockchain",
+    "mode": "compare",
+    "left_h": "Bank ledger",
+    "left": [
+     "The bank keeps the record",
+     "Payments can often be reversed",
+     "Customer care fixes mistakes",
+     "Linked to your BVN and name"
+    ],
+    "right_h": "Public blockchain",
+    "right": [
+     "Thousands of nodes keep it",
+     "Confirmed payments are final",
+     "Wrong address: money usually lost",
+     "Pseudonymous, not anonymous"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "On a public blockchain, confirmed payments are final. Nobody fixes a mistake. A wrong address usually means the money is lost.",
+    "And it is pseudonymous, not anonymous. Once an address is linked to you, your whole history can be read."
+   ],
+   "panel": {
+    "kicker": "Know the difference",
+    "heading": "Bank ledger and public blockchain",
+    "mode": "compare",
+    "left_h": "Bank ledger",
+    "left": [
+     "The bank keeps the record",
+     "Payments can often be reversed",
+     "Customer care fixes mistakes",
+     "Linked to your BVN and name"
+    ],
+    "right_h": "Public blockchain",
+    "right": [
+     "Thousands of nodes keep it",
+     "Confirmed payments are final",
+     "Wrong address: money usually lost",
+     "Pseudonymous, not anonymous"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Bitcoin uses proof of work. Computers called miners compete to solve a hash puzzle, using a lot of electricity. A new block comes roughly every 10 minutes, and supply is capped at 21 million bitcoin."
+   ],
+   "panel": {
+    "kicker": "Agreeing on blocks",
+    "heading": "Proof of work and proof of stake",
+    "mode": "compare",
+    "left_h": "Proof of work",
+    "left": [
+     "Miners spend electricity",
+     "Winner solves a hash puzzle",
+     "Used by Bitcoin",
+     "Supply capped at 21 million"
+    ],
+    "right_h": "Proof of stake",
+    "right": [
+     "Validators lock up coins",
+     "Cheating costs their deposit",
+     "Used by Ethereum since 2022",
+     "Runs smart contracts"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Ethereum has used proof of stake since September 2022. Validators lock up their own ether as a deposit, and lose part of it if they cheat.",
+    "Ethereum also runs smart contracts: code that runs exactly as written, mistakes included."
+   ],
+   "panel": {
+    "kicker": "Agreeing on blocks",
+    "heading": "Proof of work and proof of stake",
+    "mode": "compare",
+    "left_h": "Proof of work",
+    "left": [
+     "Miners spend electricity",
+     "Winner solves a hash puzzle",
+     "Used by Bitcoin",
+     "Supply capped at 21 million"
+    ],
+    "right_h": "Proof of stake",
+    "right": [
+     "Validators lock up coins",
+     "Cheating costs their deposit",
+     "Used by Ethereum since 2022",
+     "Runs smart contracts"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Treating all crypto as one thing is the most common mistake. First, ask which category it is."
+   ],
+   "panel": {
+    "kicker": "Name the category",
+    "heading": "Not all crypto is the same",
+    "items": [
+     "eNaira: central bank money, not crypto",
+     "Stablecoins: only as good as the issuer",
+     "Established crypto: BTC, ETH, big swings",
+     "NFTs: little resale demand, fakes",
+     "New tokens and memecoins: riskiest"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "The eNaira, launched in October 2021, is issued by the Central Bank of Nigeria. It is not a cryptocurrency."
+   ],
+   "panel": {
+    "kicker": "Name the category",
+    "heading": "Not all crypto is the same",
+    "items": [
+     "eNaira: central bank money, not crypto",
+     "Stablecoins: only as good as the issuer",
+     "Established crypto: BTC, ETH, big swings",
+     "NFTs: little resale demand, fakes",
+     "New tokens and memecoins: riskiest"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Stablecoins aim to stay worth 1 US dollar, but the issuer can freeze tokens. In May 2022, TerraUSD lost its dollar value within days."
+   ],
+   "panel": {
+    "kicker": "Name the category",
+    "heading": "Not all crypto is the same",
+    "items": [
+     "eNaira: central bank money, not crypto",
+     "Stablecoins: only as good as the issuer",
+     "Established crypto: BTC, ETH, big swings",
+     "NFTs: little resale demand, fakes",
+     "New tokens and memecoins: riskiest"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Established cryptocurrencies like bitcoin and ether have long histories, but very large price swings."
+   ],
+   "panel": {
+    "kicker": "Name the category",
+    "heading": "Not all crypto is the same",
+    "items": [
+     "eNaira: central bank money, not crypto",
+     "Stablecoins: only as good as the issuer",
+     "Established crypto: BTC, ETH, big swings",
+     "NFTs: little resale demand, fakes",
+     "New tokens and memecoins: riskiest"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "NFTs often have little resale demand."
+   ],
+   "panel": {
+    "kicker": "Name the category",
+    "heading": "Not all crypto is the same",
+    "items": [
+     "eNaira: central bank money, not crypto",
+     "Stablecoins: only as good as the issuer",
+     "Established crypto: BTC, ETH, big swings",
+     "NFTs: little resale demand, fakes",
+     "New tokens and memecoins: riskiest"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "New tokens and memecoins are the riskiest. Many collapse to zero."
+   ],
+   "panel": {
+    "kicker": "Name the category",
+    "heading": "Not all crypto is the same",
+    "items": [
+     "eNaira: central bank money, not crypto",
+     "Stablecoins: only as good as the issuer",
+     "Established crypto: BTC, ETH, big swings",
+     "NFTs: little resale demand, fakes",
+     "New tokens and memecoins: riskiest"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Before you act, know three honest limits. First, payments are final. A mistake or a scam payment usually cannot be undone."
+   ],
+   "panel": {
+    "kicker": "Protect your money",
+    "heading": "Three honest limits",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Payments are final",
+      "d": "No customer care can reverse a mistake or a scam payment."
+     },
+     {
+      "t": "Garbage in, garbage out",
+      "d": "A blockchain keeps false data as faithfully as true data."
+     },
+     {
+      "t": "Rules keep changing",
+      "d": "Check current CBN and SEC Nigeria announcements before you act."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_ai_chat",
+   "say": [
+    "Second, a land record or delivery record on a blockchain is only as true as the person typing the data."
+   ],
+   "panel": {
+    "kicker": "Protect your money",
+    "heading": "Three honest limits",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Payments are final",
+      "d": "No customer care can reverse a mistake or a scam payment."
+     },
+     {
+      "t": "Garbage in, garbage out",
+      "d": "A blockchain keeps false data as faithfully as true data."
+     },
+     {
+      "t": "Rules keep changing",
+      "d": "Check current CBN and SEC Nigeria announcements before you act."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Third, the rules in Nigeria keep changing. The Investments and Securities Act 2025 now treats digital assets as securities under SEC Nigeria.",
+    "Always check the CBN and SEC Nigeria websites before acting."
+   ],
+   "panel": {
+    "kicker": "Protect your money",
+    "heading": "Three honest limits",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Payments are final",
+      "d": "No customer care can reverse a mistake or a scam payment."
+     },
+     {
+      "t": "Garbage in, garbage out",
+      "d": "A blockchain keeps false data as faithfully as true data."
+     },
+     {
+      "t": "Rules keep changing",
+      "d": "Check current CBN and SEC Nigeria announcements before you act."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "To remember. A blockchain is a shared ledger with no single keeper. Each block stores the fingerprint of the one before, so edits show. But tamper-evident does not mean true. Payments are final. And always name the category before you judge it."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "A blockchain is a ledger with no single keeper",
+     "Each block stores the previous block's hash",
+     "Tamper-evident does not mean true",
+     "Confirmed payments are final",
+     "Always name the category of asset"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_ai_chat",
+   "say": [
+    "Now draw three blocks on paper, change one payment, and circle every broken link. Explain it to a friend in under two minutes.",
+    "Then build your vocabulary card and cost a real transfer. Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice task",
+    "heading": "Your practice tasks",
+    "items": [
+     "Draw a three-block chain on paper",
+     "Build your vocabulary card",
+     "Cost a real transfer from abroad"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

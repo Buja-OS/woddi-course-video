@@ -1,0 +1,574 @@
+{
+ "course": "sql-fundamentals",
+ "module": "m2",
+ "title": "Junte-se às tabelas e prove que seus números somam",
+ "course_title": "Fundamentos de SQL",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Junte-se às tabelas e prove que seus números somam.",
+    "Este é o vídeo do módulo 2 de Fundamentos de SQL: Ferramentas, Junções e Resultados Confiáveis."
+   ]
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Você aprende SQL digitando consultas e vendo resultados. Você não precisa comprar nada. Escolha uma ferramenta e fique com ela."
+   ],
+   "panel": {
+    "kicker": "Ferramentas gratuitas",
+    "heading": "Um lugar para praticar, de graça",
+    "items": [
+     "SQLite Fiddle: em qualquer navegador, sem conta",
+     "DB Browser para SQLite: offline em um laptop",
+     "PostgreSQL em um projeto de nuvem gratuito",
+     "Sandbox do Google BigQuery para grandes conjuntos de dados"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "SQLite Fiddle roda em qualquer navegador, até mesmo no seu telefone, sem conta."
+   ],
+   "panel": {
+    "kicker": "Ferramentas gratuitas",
+    "heading": "Um lugar para praticar, de graça",
+    "items": [
+     "SQLite Fiddle: em qualquer navegador, sem conta",
+     "DB Browser para SQLite: offline em um laptop",
+     "PostgreSQL em um projeto de nuvem gratuito",
+     "Sandbox do Google BigQuery para grandes conjuntos de dados"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "DB Browser para SQLite funciona offline depois de instalado em um laptop."
+   ],
+   "panel": {
+    "kicker": "Ferramentas gratuitas",
+    "heading": "Um lugar para praticar, de graça",
+    "items": [
+     "SQLite Fiddle: em qualquer navegador, sem conta",
+     "DB Browser para SQLite: offline em um laptop",
+     "PostgreSQL em um projeto de nuvem gratuito",
+     "Sandbox do Google BigQuery para grandes conjuntos de dados"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Um projeto PostgreSQL gratuito, por exemplo no Supabase, permite praticar o banco de dados usado por muitas fintechs."
+   ],
+   "panel": {
+    "kicker": "Ferramentas gratuitas",
+    "heading": "Um lugar para praticar, de graça",
+    "items": [
+     "SQLite Fiddle: em qualquer navegador, sem conta",
+     "DB Browser para SQLite: offline em um laptop",
+     "PostgreSQL em um projeto de nuvem gratuito",
+     "Sandbox do Google BigQuery para grandes conjuntos de dados"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "E o sandbox do BigQuery permite consultar grandes conjuntos de dados públicos. Seja qual for sua escolha, mantenha suas consultas em um arquivo de notas. Torna-se sua biblioteca de consultas."
+   ],
+   "panel": {
+    "kicker": "Ferramentas gratuitas",
+    "heading": "Um lugar para praticar, de graça",
+    "items": [
+     "SQLite Fiddle: em qualquer navegador, sem conta",
+     "DB Browser para SQLite: offline em um laptop",
+     "PostgreSQL em um projeto de nuvem gratuito",
+     "Sandbox do Google BigQuery para grandes conjuntos de dados"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Por exemplo, Ada estuda no telefone na hora do almoço. Ela abre o SQLite Fiddle e executa as instruções CREATE TABLE para clientes, pedidos e itens de pedidos."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Ada carrega o banco de dados de Kemi e o verifica",
+    "items": [
+     "Execute as três instruções CREATE TABLE",
+     "Cole as linhas INSERT: 6, 10 e 13",
+     "Contar linhas em cada tabela",
+     "Confira o total: 251.500",
+     "Salve o script como kemi_setup.sql"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Ela cola as instruções INSERT: 6 clientes, 10 pedidos e 13 linhas de itens do pedido."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Ada carrega o banco de dados de Kemi e o verifica",
+    "items": [
+     "Execute as três instruções CREATE TABLE",
+     "Cole as linhas INSERT: 6, 10 e 13",
+     "Contar linhas em cada tabela",
+     "Confira o total: 251.500",
+     "Salve o script como kemi_setup.sql"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Em seguida, ela conta as linhas de cada tabela. 6, 10 e 13. Correto."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Ada carrega o banco de dados de Kemi e o verifica",
+    "items": [
+     "Execute as três instruções CREATE TABLE",
+     "Cole as linhas INSERT: 6, 10 e 13",
+     "Contar linhas em cada tabela",
+     "Confira o total: 251.500",
+     "Salve o script como kemi_setup.sql"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Ela soma o valor de todos os 10 pedidos e obtém 251.500, conforme esperado. Por que verificar? Uma vírgula ausente pode interromper um INSERT enquanto os outros são bem-sucedidos e, então, todas as respostas posteriores estão erradas."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Ada carrega o banco de dados de Kemi e o verifica",
+    "items": [
+     "Execute as três instruções CREATE TABLE",
+     "Cole as linhas INSERT: 6, 10 e 13",
+     "Contar linhas em cada tabela",
+     "Confira o total: 251.500",
+     "Salve o script como kemi_setup.sql"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Ela salva o script para poder reconstruí-lo a qualquer momento. E lembre-se, use dados inventados para praticar. Nunca coloque nomes ou números de telefone reais de clientes em uma ferramenta pública online."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Ada carrega o banco de dados de Kemi e o verifica",
+    "items": [
+     "Execute as três instruções CREATE TABLE",
+     "Cole as linhas INSERT: 6, 10 e 13",
+     "Contar linhas em cada tabela",
+     "Confira o total: 251.500",
+     "Salve o script como kemi_setup.sql"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Pratique apenas dados. Nunca cole detalhes reais de clientes online.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Um JOIN alinha linhas de duas tabelas onde quer que os valores-chave correspondam. Um INNER JOIN mantém apenas as correspondências. A junção dos pedidos entregues aos clientes resulta em 8 linhas, cada uma agora com nome e cidade."
+   ],
+   "panel": {
+    "kicker": "Unindo tabelas",
+    "heading": "INNER JOIN versus LEFT JOIN",
+    "mode": "compare",
+    "left_h": "JUNÇÃO INTERNA",
+    "left": [
+     "Apenas linhas correspondentes",
+     "Funmi desaparece",
+     "8 linhas de pedidos entregues",
+     "Para: o que foi vendido"
+    ],
+    "right_h": "PARTIR À ESQUERDA",
+    "right": [
+     "Todas as linhas da tabela esquerda são mantidas",
+     "Funmi mantido com NULLs",
+     "6 linhas de clientes",
+     "Para: quem está faltando"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Um LEFT JOIN mantém todas as linhas da primeira tabela, mesmo sem correspondência. As colunas ausentes retornam como NULL. É assim que você encontra quem está faltando, como Funmi, um cliente que nunca recebeu um pedido."
+   ],
+   "panel": {
+    "kicker": "Unindo tabelas",
+    "heading": "INNER JOIN versus LEFT JOIN",
+    "mode": "compare",
+    "left_h": "JUNÇÃO INTERNA",
+    "left": [
+     "Apenas linhas correspondentes",
+     "Funmi desaparece",
+     "8 linhas de pedidos entregues",
+     "Para: o que foi vendido"
+    ],
+    "right_h": "PARTIR À ESQUERDA",
+    "right": [
+     "Todas as linhas da tabela esquerda são mantidas",
+     "Funmi mantido com NULLs",
+     "6 linhas de clientes",
+     "Para: quem está faltando"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Ela começa pelos clientes, para que ninguém fique perdido, e coloca status igual a entregue dentro da parte ON do join, e não em WHERE."
+   ],
+   "card": {
+    "title": "Gasto por cliente, incluindo zero",
+    "rows": [],
+    "note": "Pratique números, não preços reais de mercado."
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Dupe gastou 61.000 nairas, Amaka 55.000, Bisi 54.500, Efe 33.000 e Chioma 8.000. Funmi tem 0, então ela recebe a oferta de boas-vindas."
+   ],
+   "card": {
+    "title": "Gasto por cliente, incluindo zero",
+    "rows": [
+     [
+      "Duplicado, 1 pedido",
+      "61,000"
+     ],
+     [
+      "Amaka, 3 pedidos",
+      "55,000"
+     ],
+     [
+      "Bisi, 2 pedidos",
+      "54,500"
+     ],
+     [
+      "Efe, 1 pedido",
+      "33,000"
+     ],
+     [
+      "Chioma, 1 pedido",
+      "8,000"
+     ]
+    ],
+    "note": "Pratique números, não preços reais de mercado."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Reconcilia-se com 211.500, o total entregue.",
+    "O erro comum: se ela tivesse colocado o filtro entregue em WHERE, a linha de Funmi desapareceria e o LEFT JOIN agiria silenciosamente como um INNER JOIN."
+   ],
+   "card": {
+    "title": "Gasto por cliente, incluindo zero",
+    "rows": [
+     [
+      "Duplicado, 1 pedido",
+      "61,000"
+     ],
+     [
+      "Amaka, 3 pedidos",
+      "55,000"
+     ],
+     [
+      "Bisi, 2 pedidos",
+      "54,500"
+     ],
+     [
+      "Efe, 1 pedido",
+      "33,000"
+     ],
+     [
+      "Chioma, 1 pedido",
+      "8,000"
+     ]
+    ],
+    "note": "Pratique números, não preços reais de mercado."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Uma consulta executada sem erros nem sempre está correta. Ngozi soma o valor do pedido após ingressar nos itens do pedido e obtém 293.500."
+   ],
+   "card": {
+    "title": "Por que a receita aumentou repentinamente?",
+    "rows": [
+     [
+      "Soma após a junção",
+      "293,500"
+     ]
+    ],
+    "note": "Pratique números, não preços reais de mercado."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Mas o total entregue conhecido é de 211.500."
+   ],
+   "card": {
+    "title": "Por que a receita aumentou repentinamente?",
+    "rows": [
+     [
+      "Soma após a junção",
+      "293,500"
+     ],
+     [
+      "Total entregue conhecido",
+      "211,500"
+     ]
+    ],
+    "note": "Pratique números, não preços reais de mercado."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "A diferença é de 82.000. Após a junção há 11 linhas, e não 8, porque três pedidos têm duas linhas de produtos cada, então cada um é contado duas vezes. Isso é chamado de fan-out.",
+    "O teste rápido: compare COUNT estrela com COUNT DISTINCT ID do pedido. Se o primeiro crescer e o segundo não, as linhas estão se repetindo."
+   ],
+   "card": {
+    "title": "Por que a receita aumentou repentinamente?",
+    "rows": [
+     [
+      "Soma após a junção",
+      "293,500"
+     ],
+     [
+      "Total entregue conhecido",
+      "211,500"
+     ],
+     [
+      "Exagerado por",
+      "82,000"
+     ]
+    ],
+    "note": "Pratique números, não preços reais de mercado."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Escreva a pergunta em uma frase, com um período de tempo e uma definição, como receita entregue por cidade."
+   ],
+   "panel": {
+    "kicker": "Pergunta para responder",
+    "heading": "Um fluxo de trabalho em que você pode confiar",
+    "items": [
+     "Escreva a pergunta com um ponto final e uma definição",
+     "Explore as tabelas e as chaves que as vinculam",
+     "Construa em pedaços, verificando a contagem de linhas",
+     "Reconcilie e verifique duas linhas",
+     "Responda em palavras simples, com qualquer ressalva"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Explore as tabelas primeiro e verifique quais chaves as vinculam."
+   ],
+   "panel": {
+    "kicker": "Pergunta para responder",
+    "heading": "Um fluxo de trabalho em que você pode confiar",
+    "items": [
+     "Escreva a pergunta com um ponto final e uma definição",
+     "Explore as tabelas e as chaves que as vinculam",
+     "Construa em pedaços, verificando a contagem de linhas",
+     "Reconcilie e verifique duas linhas",
+     "Responda em palavras simples, com qualquer ressalva"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Crie a consulta em pequenos pedaços. Execute a junção primeiro e verifique a contagem de linhas, depois adicione WHERE e GROUP BY."
+   ],
+   "panel": {
+    "kicker": "Pergunta para responder",
+    "heading": "Um fluxo de trabalho em que você pode confiar",
+    "items": [
+     "Escreva a pergunta com um ponto final e uma definição",
+     "Explore as tabelas e as chaves que as vinculam",
+     "Construa em pedaços, verificando a contagem de linhas",
+     "Reconcilie e verifique duas linhas",
+     "Responda em palavras simples, com qualquer ressalva"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Reconcilie com um total conhecido e verifique duas linhas manualmente."
+   ],
+   "panel": {
+    "kicker": "Pergunta para responder",
+    "heading": "Um fluxo de trabalho em que você pode confiar",
+    "items": [
+     "Escreva a pergunta com um ponto final e uma definição",
+     "Explore as tabelas e as chaves que as vinculam",
+     "Construa em pedaços, verificando a contagem de linhas",
+     "Reconcilie e verifique duas linhas",
+     "Responda em palavras simples, com qualquer ressalva"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Em seguida, apresente o número, o ponto final e qualquer advertência em palavras simples."
+   ],
+   "panel": {
+    "kicker": "Pergunta para responder",
+    "heading": "Um fluxo de trabalho em que você pode confiar",
+    "items": [
+     "Escreva a pergunta com um ponto final e uma definição",
+     "Explore as tabelas e as chaves que as vinculam",
+     "Construa em pedaços, verificando a contagem de linhas",
+     "Reconcilie e verifique duas linhas",
+     "Responda em palavras simples, com qualquer ressalva"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Cinco verificações detectam a maioria dos erros silenciosos. A contagem de linhas faz sentido? Os totais são reconciliados? Existe fan-out? Os NULLs são tratados propositalmente, por exemplo, com COALESCE para transformar um valor ausente em 0? E você verificou duas linhas?"
+   ],
+   "panel": {
+    "kicker": "Toda vez",
+    "heading": "Antes de compartilhar um número",
+    "items": [
+     "A contagem de linhas faz sentido",
+     "Reconciliação de totais",
+     "Não há fan-out",
+     "NULLs tratados propositalmente",
+     "Duas linhas verificadas no local"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Para lembrar. Verifique contagens e totais assim que os dados forem carregados. Use INNER JOIN para o que foi vendido e LEFT JOIN para quem está faltando. Fique atento ao fan-out. E nunca compartilhe um número que você não reconciliou."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Lembre-se",
+    "items": [
+     "Verifique contagens de linhas e totais após o carregamento",
+     "INNER mantém correspondências; ESQUERDA mantém todos",
+     "Os filtros da tabela direita para um LEFT JOIN entram em ON",
+     "A distribuição inflaciona somas; teste com COUNT DISTINCT",
+     "Nunca compartilhe um número que você não reconciliou"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Agora crie e verifique seu banco de dados de práticas, responda três perguntas de associação e audite uma consulta errada.",
+    "Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Pratique tarefas",
+    "heading": "Seu trabalho para este módulo",
+    "items": [
+     "Crie e verifique seu banco de dados de práticas",
+     "Responda três perguntas de junção",
+     "Audite uma consulta errada e corrija-a"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

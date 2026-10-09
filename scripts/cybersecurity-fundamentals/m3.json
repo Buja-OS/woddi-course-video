@@ -1,0 +1,508 @@
+{
+ "course": "cybersecurity-fundamentals",
+ "module": "m3",
+ "title": "Run, price and prove a small security audit",
+ "course_title": "Cybersecurity Fundamentals",
+ "shots": [
+  {
+   "demo": "security_lock",
+   "say": [
+    "Run, price and prove a small security audit.",
+    "This is the video for module 3 of Cybersecurity Fundamentals."
+   ]
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "When you review someone else's security, the first document is not a technical report. It is written permission."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Turn your skills into trusted work",
+    "items": [
+     "Permission in writing comes first",
+     "Find the real gaps by asking and looking",
+     "Price by phase, with clear scope",
+     "Show results in numbers"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Then you find the real gaps, mostly by asking questions and looking at settings with the owner."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Turn your skills into trusted work",
+    "items": [
+     "Permission in writing comes first",
+     "Find the real gaps by asking and looking",
+     "Price by phase, with clear scope",
+     "Show results in numbers"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "You price the work clearly, and you prove what changed, in numbers. That is how trust, and paid work, grows."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Turn your skills into trusted work",
+    "items": [
+     "Permission in writing comes first",
+     "Find the real gaps by asking and looking",
+     "Price by phase, with clear scope",
+     "Show results in numbers"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Step one is a signed authorisation from someone with authority. It says what you may look at, which systems, which dates, and what you must not do.",
+    "Nigeria's Cybercrimes Act 2015 makes unauthorised access an offence. So never log in, scan or send test phishing without clear written permission for exactly that."
+   ],
+   "panel": {
+    "kicker": "Stay legal",
+    "heading": "From first call to findings",
+    "items": [
+     "Signed authorisation and scope",
+     "Interview the leader",
+     "Interview staff and admins",
+     "Check settings with the owner",
+     "Score and prioritise findings"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false,
+    "rule": "No written permission, no checking. Ever.",
+    "showRule": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Next, interview the leader, then staff and admins. Ask who handles payments, who the admins are, which accounts have two-step verification, and what has gone wrong before."
+   ],
+   "panel": {
+    "kicker": "Stay legal",
+    "heading": "From first call to findings",
+    "items": [
+     "Signed authorisation and scope",
+     "Interview the leader",
+     "Interview staff and admins",
+     "Check settings with the owner",
+     "Score and prioritise findings"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "No written permission, no checking. Ever.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_security",
+   "say": [
+    "Then check settings together. The owner clicks, you watch and take notes. Passwords stay with their owner."
+   ],
+   "panel": {
+    "kicker": "Stay legal",
+    "heading": "From first call to findings",
+    "items": [
+     "Signed authorisation and scope",
+     "Interview the leader",
+     "Interview staff and admins",
+     "Check settings with the owner",
+     "Score and prioritise findings"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "No written permission, no checking. Ever.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_security",
+   "say": [
+    "Finally, score each finding with likelihood times impact, as you learned in module 1."
+   ],
+   "panel": {
+    "kicker": "Stay legal",
+    "heading": "From first call to findings",
+    "items": [
+     "Signed authorisation and scope",
+     "Interview the leader",
+     "Interview staff and admins",
+     "Check settings with the owner",
+     "Score and prioritise findings"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "No written permission, no checking. Ever.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "For example, Zainab reviews a private primary school in Ibadan with 14 staff email accounts. With the admin officer beside her, she counts 11 accounts with 2-Step Verification. That is about 79%."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "What Zainab found at a school",
+    "items": [
+     "11 of 14 accounts with 2-Step: about 79%",
+     "4 super admins, one left last term",
+     "Pupil records open to anyone with link",
+     "Bank changes accepted with no call-back"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "There are 4 super admins, including a teacher who left last term. The target is 2."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "What Zainab found at a school",
+    "items": [
+     "11 of 14 accounts with 2-Step: about 79%",
+     "4 super admins, one left last term",
+     "Pupil records open to anyone with link",
+     "Bank changes accepted with no call-back"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "The pupils' records spreadsheet is shared with anyone who has the link. That scores 4 times 5, which is 20, her top finding."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "What Zainab found at a school",
+    "items": [
+     "11 of 14 accounts with 2-Step: about 79%",
+     "4 super admins, one left last term",
+     "Pupil records open to anyone with link",
+     "Bank changes accepted with no call-back"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "And the bursar accepts bank changes by email with no call-back. That scores 15.",
+    "Each finding is written as a fact, with why it matters, its score, and a fix with an owner and date. No fear language, no blame."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "What Zainab found at a school",
+    "items": [
+     "11 of 14 accounts with 2-Step: about 79%",
+     "4 super admins, one left last term",
+     "Pupil records open to anyone with link",
+     "Bank changes accepted with no call-back"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Now pricing. Zainab breaks the work into phases: discovery 6 hours, hardening 10, training 4, and report 3. That is 23 hours."
+   ],
+   "card": {
+    "title": "Zainab prices the audit",
+    "rows": [],
+    "note": "The rate is purely illustrative."
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "At an illustrative rate of 8,000 naira an hour, the base fee is 184,000 naira."
+   ],
+   "card": {
+    "title": "Zainab prices the audit",
+    "rows": [
+     [
+      "Base fee (23 hours)",
+      "184,000"
+     ]
+    ],
+    "note": "The rate is purely illustrative."
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "She adds 15% for unknowns, which is 27,600 naira."
+   ],
+   "card": {
+    "title": "Zainab prices the audit",
+    "rows": [
+     [
+      "Base fee (23 hours)",
+      "184,000"
+     ],
+     [
+      "Contingency (15%)",
+      "27,600"
+     ]
+    ],
+    "note": "The rate is purely illustrative."
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "That is 211,600 naira, which she rounds to 212,000. She asks for 50% on signing and 50% when she delivers the report.",
+    "Tools the school buys, like a backup drive, are listed separately, not hidden in her fee."
+   ],
+   "card": {
+    "title": "Zainab prices the audit",
+    "rows": [
+     [
+      "Base fee (23 hours)",
+      "184,000"
+     ],
+     [
+      "Contingency (15%)",
+      "27,600"
+     ]
+    ],
+    "note": "The rate is purely illustrative."
+   }
+  },
+  {
+   "demo": "laptop_security",
+   "say": [
+    "Write both lists. In scope: the 14 staff accounts, the Facebook page settings, backups with one restore test, and the report and incident plan."
+   ],
+   "panel": {
+    "kicker": "Clear scope",
+    "heading": "What the audit covers",
+    "mode": "compare",
+    "left_h": "In scope",
+    "left": [
+     "14 staff Google Workspace accounts",
+     "Facebook page admin settings",
+     "Backup set-up and one restore test",
+     "Report and incident plan"
+    ],
+    "right_h": "Out of scope",
+    "right": [
+     "Testing the bank portal",
+     "Website code or penetration testing",
+     "Ongoing monitoring after handover",
+     "Guarantee that no attack succeeds"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Out of scope: the bank portal, website testing, and monitoring after handover. And no honest professional can promise that no attack will ever succeed. Promise checkable actions instead.",
+    "If the client asks for extra work midway, write it down, quote it, and get approval in writing first."
+   ],
+   "panel": {
+    "kicker": "Clear scope",
+    "heading": "What the audit covers",
+    "mode": "compare",
+    "left_h": "In scope",
+    "left": [
+     "14 staff Google Workspace accounts",
+     "Facebook page admin settings",
+     "Backup set-up and one restore test",
+     "Report and incident plan"
+    ],
+    "right_h": "Out of scope",
+    "right": [
+     "Testing the bank portal",
+     "Website code or penetration testing",
+     "Ongoing monitoring after handover",
+     "Guarantee that no attack succeeds"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "For example, Ngozi leads security for a 20-person NGO in Port Harcourt. Before training, 9 of 20 staff had 2-Step Verification. That is 45%."
+   ],
+   "panel": {
+    "kicker": "Measure the change",
+    "heading": "Ngozi proves her training worked",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Before",
+      "d": "9 of 20 staff had 2-Step Verification: 45%. Staff reported 1 suspicious email that month."
+     },
+     {
+      "t": "In the session",
+      "d": "Teach three behaviours only. Staff turn on 2-Step together; 8 more enrol in the room."
+     },
+     {
+      "t": "After",
+      "d": "One week later: 20 of 20, 100%. Next month staff reported 7 suspicious emails."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "In her session she teaches three behaviours only: check the real sender, call back on numbers on file, and report anything odd at once. Everyone turns on 2-Step together, and reporting is blame-free."
+   ],
+   "panel": {
+    "kicker": "Measure the change",
+    "heading": "Ngozi proves her training worked",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Before",
+      "d": "9 of 20 staff had 2-Step Verification: 45%. Staff reported 1 suspicious email that month."
+     },
+     {
+      "t": "In the session",
+      "d": "Teach three behaviours only. Staff turn on 2-Step together; 8 more enrol in the room."
+     },
+     {
+      "t": "After",
+      "d": "One week later: 20 of 20, 100%. Next month staff reported 7 suspicious emails."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "flipchart",
+   "say": [
+    "A week later, all 20 are enrolled. Next month, reports went from 1 to 7. That is good news: people are noticing and speaking up."
+   ],
+   "panel": {
+    "kicker": "Measure the change",
+    "heading": "Ngozi proves her training worked",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Before",
+      "d": "9 of 20 staff had 2-Step Verification: 45%. Staff reported 1 suspicious email that month."
+     },
+     {
+      "t": "In the session",
+      "d": "Teach three behaviours only. Staff turn on 2-Step together; 8 more enrol in the room."
+     },
+     {
+      "t": "After",
+      "d": "One week later: 20 of 20, 100%. Next month staff reported 7 suspicious emails."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Turn your work into case studies: the situation, what you did, results in numbers, anonymised documents, and a short reference with permission.",
+    "Never show passwords, recovery codes, staff names or personal data. Trust is the real product of security work."
+   ],
+   "panel": {
+    "kicker": "Your portfolio",
+    "heading": "An anonymised case study shows",
+    "items": [
+     "The situation and main concern",
+     "What you did",
+     "Results in numbers",
+     "Anonymised documents",
+     "A short reference, with permission"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "To remember. Get written authorisation before any review. Write findings as facts with a score, fix, owner and date. Your fee is hours times rate, plus a stated contingency. Write both scope lists. And measure before and after, so you can show what changed."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "Written authorisation before any review",
+     "Findings: fact, score, fix, owner, date",
+     "Fee = hours x rate plus contingency",
+     "Write in scope and out of scope",
+     "Measure before and after"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Your tasks: run a mini discovery with signed permission, draft your audit proposal with the fee shown, and deliver an awareness session with before and after numbers.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice task",
+    "heading": "Your practice tasks",
+    "items": [
+     "Run a mini discovery with signed permission",
+     "Draft your audit proposal",
+     "Deliver and measure an awareness session"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

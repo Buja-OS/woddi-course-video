@@ -1,0 +1,453 @@
+{
+ "course": "core-simple-record-keeping-visual-and-practical",
+ "module": "m2",
+ "title": "Sales, stock and credit: san abin da kuka sayar da kuma wanda ke bin ku bashi",
+ "course_title": "Sauƙaƙan Rikodi (Na gani & Aiki)",
+ "shots": [
+  {
+   "demo": "cash_count",
+   "say": [
+    "Sales, stock and credit: san abin da kuka sayar, da kuma wanda ke bin ku bashi.",
+    "Wannan shi ne bidiyon don Module 2, tallace-tallace, haja da bayanan kiredit."
+   ]
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Littafin tallace-tallacen ku shine shafin da aka fi amfani dashi a cikin kasuwancin ku. Idan ka adana rikodin guda ɗaya kawai, kiyaye wannan."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Rubuce-rubuce uku waɗanda ke kare kuɗin ku",
+    "items": [
+     "Littafin tallace-tallace: kowane tallace-tallace, da yadda aka biya shi",
+     "Katin hannun jari: abin da ya shigo, ya fita, an bar shi",
+     "Jerin masu bashi: wanene ke bin ku, da kuma yaushe"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Katin hannun jari yana nuna inda yawancin kuɗin kasuwancin ku ke zaune: akan ɗakunan ajiya."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Rubuce-rubuce uku waɗanda ke kare kuɗin ku",
+    "items": [
+     "Littafin tallace-tallace: kowane tallace-tallace, da yadda aka biya shi",
+     "Katin hannun jari: abin da ya shigo, ya fita, an bar shi",
+     "Jerin masu bashi: wanene ke bin ku, da kuma yaushe"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Kuma lissafin masu bi bashin ku yana dawo da kuɗin ku. Credit yana kiyaye abokan ciniki da aminci, amma ita ce hanya mafi sauri don ƙaramar kasuwanci don ƙare kuɗi."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Rubuce-rubuce uku waɗanda ke kare kuɗin ku",
+    "items": [
+     "Littafin tallace-tallace: kowane tallace-tallace, da yadda aka biya shi",
+     "Katin hannun jari: abin da ya shigo, ya fita, an bar shi",
+     "Jerin masu bashi: wanene ke bin ku, da kuma yaushe"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Kowane tallace-tallace yana samun layi ɗaya: kwanan wata, abu, adadi, farashi, jimlar, da yadda aka biya shi. Cash, canja wuri, ko bashi.",
+    "Misali, Funke tana sayar da kayan abinci a Ibadan."
+   ],
+   "card": {
+    "title": "Littafin tallace-tallace na Funke, wata safiya",
+    "rows": [],
+    "note": "Farashin kusan."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Ta sayar da bokitin fenti guda 4 na garri akan kudi kimanin naira 3,500, wato naira 14,000. Haka kuma ta kai kananan kofuna 12 na crayfish akan naira 500, wani naira 6,000. Kuɗin da ta sayar ya kai naira 20,000."
+   ],
+   "card": {
+    "title": "Littafin tallace-tallace na Funke, wata safiya",
+    "rows": [
+     [
+      "Cash: garri da crayfish",
+      "20,000"
+     ]
+    ],
+    "note": "Farashin kusan."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Bokiti biyu na wake akan kudi kusan naira 5,000 ana biyansu ta hanyar canja wuri. Naira 10,000 kenan."
+   ],
+   "card": {
+    "title": "Littafin tallace-tallace na Funke, wata safiya",
+    "rows": [
+     [
+      "Cash: garri da crayfish",
+      "20,000"
+     ],
+     [
+      "Canja wurin: wake",
+      "10,000"
+     ]
+    ],
+    "note": "Farashin kusan."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Kuma kwalbar dabino guda daya takan je wa Iya Sade a bashi naira 2,500."
+   ],
+   "card": {
+    "title": "Littafin tallace-tallace na Funke, wata safiya",
+    "rows": [
+     [
+      "Cash: garri da crayfish",
+      "20,000"
+     ],
+     [
+      "Canja wurin: wake",
+      "10,000"
+     ],
+     [
+      "Credit: dabino, Iya Sade",
+      "2,500"
+     ]
+    ],
+    "note": "Farashin kusan."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Duk tallace-tallace na zuwa kusan Naira 32,500. Yanzu ta san ainihin abin da za ta duba: 20,000 tsabar kudi a cikin jakarta, 10,000 kuma a cikin asusunta, da Iya Sade a cikin jerin masu bi bashi."
+   ],
+   "card": {
+    "title": "Littafin tallace-tallace na Funke, wata safiya",
+    "rows": [
+     [
+      "Cash: garri da crayfish",
+      "20,000"
+     ],
+     [
+      "Canja wurin: wake",
+      "10,000"
+     ],
+     [
+      "Credit: dabino, Iya Sade",
+      "2,500"
+     ]
+    ],
+    "note": "Farashin kusan."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Lokacin rufewa, mataki na ɗaya. Ƙara jimlar ginshiƙi na tsawon yini."
+   ],
+   "panel": {
+    "kicker": "A lokacin rufewa",
+    "heading": "Duba littafin tallace-tallace ku",
+    "items": [
+     "Ƙara Jimlar ginshiƙi na ranar",
+     "Kidaya tsabar kudi, ban da mai iyo",
+     "Yi alamar canja wuri akan app ɗin bankin ku",
+     "Bincika kowane siyar da kiredit yana cikin jerin masu bashi",
+     "Rubuta kowane bambanci tare da rubutu"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Mataki na biyu. Kididdige kuɗin ku kuma ku kwashe abin ruwa, canjin kuɗin da kuka fara da su. Sauran yakamata suyi daidai da siyar da kuɗin ku."
+   ],
+   "panel": {
+    "kicker": "A lokacin rufewa",
+    "heading": "Duba littafin tallace-tallace ku",
+    "items": [
+     "Ƙara Jimlar ginshiƙi na ranar",
+     "Kidaya tsabar kudi, ban da mai iyo",
+     "Yi alamar canja wuri akan app ɗin bankin ku",
+     "Bincika kowane siyar da kiredit yana cikin jerin masu bashi",
+     "Rubuta kowane bambanci tare da rubutu"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Mataki na uku. Bude bankin ku ko aikace-aikacen walat ɗin ku kuma yi alama ga kowane canja wuri mai shigowa akan layi a cikin littafinku. Fadakarwar da ba ta dace ba galibi tana nufin siyar da aka manta.",
+    "Koyaushe tabbatar da kuɗin yana cikin asusun ku kafin kaya ya tafi. Kar a taɓa amincewa kawai allon wayar abokin ciniki."
+   ],
+   "panel": {
+    "kicker": "A lokacin rufewa",
+    "heading": "Duba littafin tallace-tallace ku",
+    "items": [
+     "Ƙara Jimlar ginshiƙi na ranar",
+     "Kidaya tsabar kudi, ban da mai iyo",
+     "Yi alamar canja wuri akan app ɗin bankin ku",
+     "Bincika kowane siyar da kiredit yana cikin jerin masu bashi",
+     "Rubuta kowane bambanci tare da rubutu"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Tabbatar da canja wurin a cikin asusun ku kafin sakin kaya.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Mataki na hudu, duba kowane siyar da bashi yana cikin jerin masu bi bashi. Kuma mataki na biyar, rubuta kowane bambanci tare da gajeren rubutu. Gajere yanzu kuma sai al'ada. Short kusan kowace rana yana nufin wani abu ba daidai ba ne."
+   ],
+   "panel": {
+    "kicker": "A lokacin rufewa",
+    "heading": "Duba littafin tallace-tallace ku",
+    "items": [
+     "Ƙara Jimlar ginshiƙi na ranar",
+     "Kidaya tsabar kudi, ban da mai iyo",
+     "Yi alamar canja wuri akan app ɗin bankin ku",
+     "Bincika kowane siyar da kiredit yana cikin jerin masu bashi",
+     "Rubuta kowane bambanci tare da rubutu"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Tabbatar da canja wurin a cikin asusun ku kafin sakin kaya.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Hannun buɗewa, da hajojin da aka siya, rage haja da aka sayar, daidai da abin da ya kamata a bari. Ku ƙidaya abin da ya rage kuma ku kwatanta.",
+    "Misali, Esther tana sayar da kayan shaye-shaye a cikin akwati a Fatakwal. Ranar litinin ta kirga akwatuna 10."
+   ],
+   "panel": {
+    "kicker": "Hannun jari",
+    "heading": "Tsarin jari",
+    "items": [
+     "Kayan buɗewa: akwatuna 10",
+     "Ƙari da aka saya: akwatuna 15",
+     "Rage ƙididdigar rufewa: akwatuna 7",
+     "Akwatuna 18 sun bar shagon",
+     "Littafin tallace-tallace ya nuna 17: 1 akwati ya ɓace"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Ta sayi ƙarin 15 ranar Laraba, don haka akwai akwatuna 25."
+   ],
+   "panel": {
+    "kicker": "Hannun jari",
+    "heading": "Tsarin jari",
+    "items": [
+     "Kayan buɗewa: akwatuna 10",
+     "Ƙari da aka saya: akwatuna 15",
+     "Rage ƙididdigar rufewa: akwatuna 7",
+     "Akwatuna 18 sun bar shagon",
+     "Littafin tallace-tallace ya nuna 17: 1 akwati ya ɓace"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Ranar Asabar ta kirga akwatuna 7. Don haka akwatuna 18 suka bar shagon."
+   ],
+   "panel": {
+    "kicker": "Hannun jari",
+    "heading": "Tsarin jari",
+    "items": [
+     "Kayan buɗewa: akwatuna 10",
+     "Ƙari da aka saya: akwatuna 15",
+     "Rage ƙididdigar rufewa: akwatuna 7",
+     "Akwatuna 18 sun bar shagon",
+     "Littafin tallace-tallace ya nuna 17: 1 akwati ya ɓace"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Amma littafinta na tallace-tallace ya nuna 17 kawai aka sayar. Akwatin guda daya, kimanin naira 6,000 akan farashi, ba a bayyana ba.",
+    "Mai taimaka mata ya bayyana cewa: kwalabe 2 sun karye kuma an ba wa baƙi wasu. Yanzu Esther ta rubuta karya da kuma kyauta a cikin ginshiƙi na Out, kuma tata ta ɓace."
+   ],
+   "panel": {
+    "kicker": "Hannun jari",
+    "heading": "Tsarin jari",
+    "items": [
+     "Kayan buɗewa: akwatuna 10",
+     "Ƙari da aka saya: akwatuna 15",
+     "Rage ƙididdigar rufewa: akwatuna 7",
+     "Akwatuna 18 sun bar shagon",
+     "Littafin tallace-tallace ya nuna 17: 1 akwati ya ɓace"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Ƙidaya lokaci ɗaya kowane mako, misali Asabar bayan rufewa. Rubuta ɓarna, ɓarna da kayan da aka ɗauka don gida a cikin ginshiƙi na waje. Fara sayar da tsofaffin hannun jari.",
+    "Kuma kar a sayar da abinci, abin sha ko magunguna da suka wuce ranar ƙarewar su. Cire su, yi rikodin su kamar yadda suka lalace, sa'annan ku sayi ƙaramin adadi a gaba."
+   ],
+   "panel": {
+    "kicker": "Ƙididdigar mako-mako",
+    "heading": "Lokacin da ka ƙidaya hannun jari",
+    "items": [
+     "Rana ɗaya da lokaci kowane mako",
+     "Yi rikodin karyewa da amfani da gida azaman waje",
+     "Fara sayar da tsofaffin hannun jari",
+     "Kar a taɓa sayar da abinci, abin sha ko magani da ya ƙare"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Rubuta kowane bashi a gaban abokin ciniki kuma karanta shi tare da kwanan watan da ya ƙare. Yi rikodin kowane ɓangaren biyan kuɗi da sabon ma'auni.",
+    "Misali, Chioma tana sayar da masana'anta a Aba. A karshen wata, Ada, Joy da Uche suna bin ta naira 73,000. Bashin Uche yana da sati 7 kenan."
+   ],
+   "panel": {
+    "kicker": "Kiredit",
+    "heading": "Matsalar bashi ta Chioma",
+    "mode": "compare",
+    "left_h": "Ana bin ta",
+    "left": [
+     "Ada: Naira 25,000",
+     "Farin ciki: Naira 8,000",
+     "Uche: Naira 40,000",
+     "Jimlar: Naira 73,000"
+    ],
+    "right_h": "Tana bukata",
+    "right": [
+     "Kimanin Naira 120,000 na hannun jari",
+     "Naira 60,000 take hannunta",
+     "Naira 60,000 gajere"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Hannun jarin mako mai zuwa zai kai kimanin naira 120,000, kuma tana da 60,000 kacal a hannunta. Don haka ta kira Ada yau, ta amince da kwananta da Joy, sannan ta dakatar da bashi Uche.",
+    "Tsara basussuka da shekaru kuma a fara fara korar mafi tsufa. Idan bashi ya dade yana jira, da wahalar tarawa."
+   ],
+   "panel": {
+    "kicker": "Kiredit",
+    "heading": "Matsalar bashi ta Chioma",
+    "mode": "compare",
+    "left_h": "Ana bin ta",
+    "left": [
+     "Ada: Naira 25,000",
+     "Farin ciki: Naira 8,000",
+     "Uche: Naira 40,000",
+     "Jimlar: Naira 73,000"
+    ],
+    "right_h": "Tana bukata",
+    "right": [
+     "Kimanin Naira 120,000 na hannun jari",
+     "Naira 60,000 take hannunta",
+     "Naira 60,000 gajere"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Saita dokokin ku. Kiredit kawai ga abokan ciniki na yau da kullun da kuka sani, iyaka ga kowane mutum, bayyanannen ranar biyan kuɗi, babu sabon kiredit har sai an biya bashi na ƙarshe, kuma babu siyar da bashi ba tare da layi a cikin jerin ba."
+   ],
+   "panel": {
+    "kicker": "Dokokin bashi",
+    "heading": "Saita dokokin kiredit ɗin ku",
+    "items": [
+     "Wanene: abokan ciniki na yau da kullun tare da wayar aiki",
+     "Nawa: iyaka ga kowane mutum",
+     "Har yaushe: bayyanannen kwanan watan biya",
+     "Daya bayan daya: babu sabon bashi har sai an biya",
+     "Rubuta shi kowane lokaci"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Yanzu gudanar da cikakken ranar littafin tallace-tallace, gina taƙaitawar mako-mako, fara katin haja don babban samfurin ku, kuma tsaftace jerin masu bashi. Ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi ayyuka",
+    "heading": "Ayyukan aikin ku",
+    "items": [
+     "Gudun cikakken ranar littafin tallace-tallace",
+     "Gina taƙaitawar mako-mako",
+     "Katin hannun jari don babban samfurin ku",
+     "Tsaftace lissafin masu bi bashi"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

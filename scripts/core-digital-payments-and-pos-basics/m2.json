@@ -1,0 +1,565 @@
+{
+ "course": "core-digital-payments-and-pos-basics",
+ "module": "m2",
+ "title": "Wallets, transfers, USSD and bills: doing it right every time",
+ "course_title": "Digital Payments & POS Basics",
+ "shots": [
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "Wallets, transfers, USSD and bills: doing it right every time.",
+    "This is the video for module 2 of Digital Payments and POS Basics."
+   ]
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "A transfer takes less than a minute, but most mistakes happen in that minute. So you will learn a routine."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Most mistakes happen in one minute",
+    "items": [
+     "Check a wallet app before you trust it",
+     "Send a transfer with a routine",
+     "Pay without data, using USSD",
+     "Receive money without being tricked"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "You will also pay without internet, pay bills, and receive money safely."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Most mistakes happen in one minute",
+    "items": [
+     "Check a wallet app before you trust it",
+     "Send a transfer with a routine",
+     "Pay without data, using USSD",
+     "Receive money without being tricked"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Wallet apps like Opay, PalmPay and Moniepoint must be run by licensed companies. For example, Joy, a hairdresser in Port Harcourt, found two apps with the same logo, and chose the one whose publisher matched the company.",
+    "She found the licence statement, used her own number, set a strong PIN and saved support. No licence statement? Do not keep money there."
+   ],
+   "panel": {
+    "kicker": "Before you use a wallet",
+    "heading": "Five checks for any wallet app",
+    "items": [
+     "Licence statement found",
+     "Publisher name matches the company",
+     "Registered with your own phone number",
+     "Strong PIN and app lock",
+     "Support channel saved"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "For example, Grace in Abuja pays school fees of 45,000 naira. She types the account number from the fee slip and checks it in groups of 3, 3 and 4 digits."
+   ],
+   "panel": {
+    "kicker": "The transfer routine",
+    "heading": "Six steps, every single time",
+    "items": [
+     "Pick the bank, enter the number",
+     "Read the name aloud",
+     "Check the amount and the zeros",
+     "Add a clear narration",
+     "Read the fee, then approve",
+     "Save the receipt"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "The app shows the school's registered name. It matches the slip."
+   ],
+   "panel": {
+    "kicker": "The transfer routine",
+    "heading": "Six steps, every single time",
+    "items": [
+     "Pick the bank, enter the number",
+     "Read the name aloud",
+     "Check the amount and the zeros",
+     "Add a clear narration",
+     "Read the fee, then approve",
+     "Save the receipt"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "She checks the screen says 45,000, not 4,500 or 450,000."
+   ],
+   "panel": {
+    "kicker": "The transfer routine",
+    "heading": "Six steps, every single time",
+    "items": [
+     "Pick the bank, enter the number",
+     "Read the name aloud",
+     "Check the amount and the zeros",
+     "Add a clear narration",
+     "Read the fee, then approve",
+     "Save the receipt"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "In the narration she types her son's name, class and 2nd term fees, so the bursar can match it."
+   ],
+   "panel": {
+    "kicker": "The transfer routine",
+    "heading": "Six steps, every single time",
+    "items": [
+     "Pick the bank, enter the number",
+     "Read the name aloud",
+     "Check the amount and the zeros",
+     "Add a clear narration",
+     "Read the fee, then approve",
+     "Save the receipt"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "She reads the fee, checks her balance covers it, enters her PIN, and saves the receipt in a phone folder."
+   ],
+   "panel": {
+    "kicker": "The transfer routine",
+    "heading": "Six steps, every single time",
+    "items": [
+     "Pick the bank, enter the number",
+     "Read the name aloud",
+     "Check the amount and the zeros",
+     "Add a clear narration",
+     "Read the fee, then approve",
+     "Save the receipt"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "A message saying a supplier or school has a new account is a common trick. Confirm by calling the number you already have.",
+    "If you send to a wrong account, report it to your bank at once with the session ID."
+   ],
+   "panel": {
+    "kicker": "The transfer routine",
+    "heading": "Six steps, every single time",
+    "items": [
+     "Pick the bank, enter the number",
+     "Read the name aloud",
+     "Check the amount and the zeros",
+     "Add a clear narration",
+     "Read the fee, then approve",
+     "Save the receipt"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "rule": "A new account for a supplier? Call a number you already trust.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "USSD is a short code that starts with a star and ends with a hash. It works on any phone with signal, with no data. Get the code from your card or bank website."
+   ],
+   "panel": {
+    "kicker": "USSD",
+    "heading": "Paying with no data",
+    "items": [
+     "Get the code from your card or bank website",
+     "Use the SIM registered to your account",
+     "Write the details down before you dial",
+     "Check the name, then enter your USSD PIN"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "It only works with the SIM registered to your account. That is part of its security."
+   ],
+   "panel": {
+    "kicker": "USSD",
+    "heading": "Paying with no data",
+    "items": [
+     "Get the code from your card or bank website",
+     "Use the SIM registered to your account",
+     "Write the details down before you dial",
+     "Check the name, then enter your USSD PIN"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "For example, Mercy owes a farmer, Musa, 3,000 naira in a village with no data. Sessions time out quickly, so she writes his account number on paper first."
+   ],
+   "panel": {
+    "kicker": "USSD",
+    "heading": "Paying with no data",
+    "items": [
+     "Get the code from your card or bank website",
+     "Use the SIM registered to your account",
+     "Write the details down before you dial",
+     "Check the name, then enter your USSD PIN"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "The screen shows Musa's name. She reads it aloud, and he confirms. Then she enters her USSD PIN. Never dial a code a stranger sends you."
+   ],
+   "panel": {
+    "kicker": "USSD",
+    "heading": "Paying with no data",
+    "items": [
+     "Get the code from your card or bank website",
+     "Use the SIM registered to your account",
+     "Write the details down before you dial",
+     "Check the name, then enter your USSD PIN"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Every bill follows one pattern: service, number, amount, check, approve, keep proof.",
+    "For airtime, choose the network that matches the number, or it may go to a different number."
+   ],
+   "panel": {
+    "kicker": "Paying bills",
+    "heading": "Check the number before you pay",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Airtime and data",
+      "d": "Choose the network that matches the phone number. Check every digit."
+     },
+     {
+      "t": "Electricity token",
+      "d": "Enter the meter number exactly. Check the name shown. Type the 20-digit token into the meter."
+     },
+     {
+      "t": "TV subscription",
+      "d": "Enter the smartcard or IUC number from the decoder. Keep it on to receive the update."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "For prepaid electricity, enter your meter number exactly and check the name shown. The 20-digit token only works on that meter. If it is rejected, retype it slowly first."
+   ],
+   "panel": {
+    "kicker": "Paying bills",
+    "heading": "Check the number before you pay",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Airtime and data",
+      "d": "Choose the network that matches the phone number. Check every digit."
+     },
+     {
+      "t": "Electricity token",
+      "d": "Enter the meter number exactly. Check the name shown. Type the 20-digit token into the meter."
+     },
+     {
+      "t": "TV subscription",
+      "d": "Enter the smartcard or IUC number from the decoder. Keep it on to receive the update."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "For TV, enter the smartcard or IUC number and keep the decoder on. If a bill does not deliver, check your history first. Do not pay again."
+   ],
+   "panel": {
+    "kicker": "Paying bills",
+    "heading": "Check the number before you pay",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Airtime and data",
+      "d": "Choose the network that matches the phone number. Check every digit."
+     },
+     {
+      "t": "Electricity token",
+      "d": "Enter the meter number exactly. Check the name shown. Type the 20-digit token into the meter."
+     },
+     {
+      "t": "TV subscription",
+      "d": "Enter the smartcard or IUC number from the decoder. Keep it on to receive the update."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Patience has 20,000 naira to spend on electricity this week."
+   ],
+   "card": {
+    "title": "Two meters, one budget",
+    "rows": [],
+    "note": null
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "The freezer uses most power, so she buys 12,000 for the shop. The name on screen matches, so she pays and saves the token."
+   ],
+   "card": {
+    "title": "Two meters, one budget",
+    "rows": [
+     [
+      "Shop meter token",
+      "12,000"
+     ]
+    ],
+    "note": null
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Home gets the rest, 8,000. The name shown is her landlord's, as she expected."
+   ],
+   "card": {
+    "title": "Two meters, one budget",
+    "rows": [
+     [
+      "Shop meter token",
+      "12,000"
+     ],
+     [
+      "Home meter token",
+      "8,000"
+     ]
+    ],
+    "note": null
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "20,000 in total, with two receipts and two tokens saved in case a meter rejects one."
+   ],
+   "card": {
+    "title": "Two meters, one budget",
+    "rows": [
+     [
+      "Shop meter token",
+      "12,000"
+     ],
+     [
+      "Home meter token",
+      "8,000"
+     ]
+    ],
+    "note": null
+   }
+  },
+  {
+   "demo": "pos_terminal",
+   "say": [
+    "For example, Aisha sells fabric in Ilorin. At closing, her notebook shows 6 transfer sales, 55,500 naira."
+   ],
+   "panel": {
+    "kicker": "End-of-day check",
+    "heading": "Aisha finds a missing payment",
+    "mode": "compare",
+    "left_h": "Her notebook",
+    "left": [
+     "6 transfer sales",
+     "Total 55,500 naira"
+    ],
+    "right_h": "Her app history",
+    "right": [
+     "5 credits",
+     "Total 49,500 naira",
+     "6,000 missing"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Her app history shows only 49,500. 6,000 is missing, from the woman who showed a screenshot when the stall was busy.",
+    "Release goods only when the credit is in your own app history."
+   ],
+   "panel": {
+    "kicker": "End-of-day check",
+    "heading": "Aisha finds a missing payment",
+    "mode": "compare",
+    "left_h": "Her notebook",
+    "left": [
+     "6 transfer sales",
+     "Total 55,500 naira"
+    ],
+    "right_h": "Her app history",
+    "right": [
+     "5 credits",
+     "Total 49,500 naira",
+     "6,000 missing"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Sometimes a caller says he sent you money by mistake, and asks you to send it back. Check your balance, not the SMS, and do not spend money you did not expect."
+   ],
+   "panel": {
+    "kicker": "Money that is not yours",
+    "heading": "A mistaken credit",
+    "items": [
+     "Check your balance, not the SMS",
+     "Do not spend money you did not expect",
+     "Report it to your bank's official support",
+     "Keep the complaint reference"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Tell him to report it to his own bank. Report it to yours, and keep the reference. If the money is real, the banks will move it back. If the alert was fake, you have lost nothing."
+   ],
+   "panel": {
+    "kicker": "Money that is not yours",
+    "heading": "A mistaken credit",
+    "items": [
+     "Check your balance, not the SMS",
+     "Do not spend money you did not expect",
+     "Report it to your bank's official support",
+     "Keep the complaint reference"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Never send a mistaken transfer back yourself.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "To remember. Check the licence before trusting a wallet. Check the name, the number and the zeros before your PIN. Use USSD when data runs out. Check bill numbers before paying. And release goods only when the money shows in your own history."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "Check the licence before trusting a wallet",
+     "Name, number in groups, amount, then PIN",
+     "USSD works without data, on your own SIM",
+     "Check meter or phone numbers before paying bills",
+     "Release goods only when the credit shows"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Check one wallet app, send a practice transfer of 100 naira to a trusted friend, do a USSD balance check, pay one bill, and run one end-of-day check.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice task",
+    "heading": "Your tasks for this module",
+    "items": [
+     "Check one wallet app",
+     "Practise a safe 100 naira transfer",
+     "Do your first USSD balance check",
+     "Pay one bill and run one end-of-day check"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

@@ -1,0 +1,593 @@
+{
+ "course": "core-online-customer-support",
+ "module": "m2",
+ "title": "Gudun aiki, bayyanannun amsoshi da kwantar da hankulan abokan ciniki",
+ "course_title": "Tallafin Abokin Ciniki na Kan layi",
+ "shots": [
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Gudun aiki, bayyanannun amsoshi da kwantar da hankulan abokan ciniki.",
+    "Wannan shine bidiyon don module 2 na Tallafin Abokin Ciniki na Kan layi."
+   ]
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Wakilai masu kyau ba sa amsa saƙonni kawai ba. Suna motsa kowace buƙata ta matakai iri ɗaya kowane lokaci, don haka babu abin da aka rasa."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Matakai iri ɗaya, kowane abokin ciniki",
+    "items": [
+     "Gudun aiki yana nufin babu abin da aka rasa",
+     "An fahimci rubutun share fage a karon farko",
+     "Koke da aka gudanar da kyau yana samun abokin ciniki mai aminci"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Yawancin aikin tallafi shine rubutu. Rubutun share fage yana adana lokaci, saboda abokin ciniki ya fahimci lokacin farko."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Matakai iri ɗaya, kowane abokin ciniki",
+    "items": [
+     "Gudun aiki yana nufin babu abin da aka rasa",
+     "An fahimci rubutun share fage a karon farko",
+     "Koke da aka gudanar da kyau yana samun abokin ciniki mai aminci"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Kuma korafin da aka yi da kyau zai iya juya abokin ciniki mai fushi ya zama mai aminci."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Matakai iri ɗaya, kowane abokin ciniki",
+    "items": [
+     "Gudun aiki yana nufin babu abin da aka rasa",
+     "An fahimci rubutun share fage a karon farko",
+     "Koke da aka gudanar da kyau yana samun abokin ciniki mai aminci"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Mataki na daya, gane da sauri. Sannu Kemi, na gode da sakonki. Ina duba odar ku yanzu."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Gudun aikin tallafi na matakai shida",
+    "items": [
+     "Aminta da sauri, tare da sunanta",
+     "Bayyana: duk tambayoyi a cikin saƙo mai lamba ɗaya",
+     "Duba rikodin kafin ka amsa",
+     "Warware, ko haɓaka tare da taƙaitaccen taƙaitaccen bayani",
+     "Tabbatar da gyara kuma duba ya yi aiki",
+     "Shiga cikin akwati kuma yi masa lakabi da An warware"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Mataki na biyu, bayyana cikin saƙo ɗaya. Ifeoma ta tambaya: don Allah a aika 1, lambar odar ku, 2, hoton takalma, 3, girman da launi da kuka yi oda. Saƙo ɗaya ya tattara duk gaskiyar."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Gudun aikin tallafi na matakai shida",
+    "items": [
+     "Aminta da sauri, tare da sunanta",
+     "Bayyana: duk tambayoyi a cikin saƙo mai lamba ɗaya",
+     "Duba rikodin kafin ka amsa",
+     "Warware, ko haɓaka tare da taƙaitaccen taƙaitaccen bayani",
+     "Tabbatar da gyara kuma duba ya yi aiki",
+     "Shiga cikin akwati kuma yi masa lakabi da An warware"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Mataki na uku, duba kafin ka amsa. Kar a taba tsammani. Amsar da ba ta dace ba ta haifar da ƙara na biyu."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Gudun aikin tallafi na matakai shida",
+    "items": [
+     "Aminta da sauri, tare da sunanta",
+     "Bayyana: duk tambayoyi a cikin saƙo mai lamba ɗaya",
+     "Duba rikodin kafin ka amsa",
+     "Warware, ko haɓaka tare da taƙaitaccen taƙaitaccen bayani",
+     "Tabbatar da gyara kuma duba ya yi aiki",
+     "Shiga cikin akwati kuma yi masa lakabi da An warware"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Mataki na hudu, warware shi, ko ƙara girma. Maida kuɗi, barazanar da ake zargin zamba je wurin mai kula da ku, tare da taƙaitaccen taƙaitaccen bayani: wane, menene, abin da kuka bincika, abin da take so, da ranar ƙarshe."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Gudun aikin tallafi na matakai shida",
+    "items": [
+     "Aminta da sauri, tare da sunanta",
+     "Bayyana: duk tambayoyi a cikin saƙo mai lamba ɗaya",
+     "Duba rikodin kafin ka amsa",
+     "Warware, ko haɓaka tare da taƙaitaccen taƙaitaccen bayani",
+     "Tabbatar da gyara kuma duba ya yi aiki",
+     "Shiga cikin akwati kuma yi masa lakabi da An warware"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Mataki na biyar, tabbatar da gyara, sannan daga baya duba ya yi aiki. Shin sabbin biyun sun dace da kyau?"
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Gudun aikin tallafi na matakai shida",
+    "items": [
+     "Aminta da sauri, tare da sunanta",
+     "Bayyana: duk tambayoyi a cikin saƙo mai lamba ɗaya",
+     "Duba rikodin kafin ka amsa",
+     "Warware, ko haɓaka tare da taƙaitaccen taƙaitaccen bayani",
+     "Tabbatar da gyara kuma duba ya yi aiki",
+     "Shiga cikin akwati kuma yi masa lakabi da An warware"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Mataki na shida, shiga cikin akwati kuma canza lakabin zuwa An warware."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Gudun aikin tallafi na matakai shida",
+    "items": [
+     "Aminta da sauri, tare da sunanta",
+     "Bayyana: duk tambayoyi a cikin saƙo mai lamba ɗaya",
+     "Duba rikodin kafin ka amsa",
+     "Warware, ko haɓaka tare da taƙaitaccen taƙaitaccen bayani",
+     "Tabbatar da gyara kuma duba ya yi aiki",
+     "Shiga cikin akwati kuma yi masa lakabi da An warware"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Zan dawo gare ku ba da jimawa ba yana nufin komai. Faɗi ainihin lokaci, kuma saita tunatarwa ta waya a duk lokacin da kuka yi alkawari."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Gudun aikin tallafi na matakai shida",
+    "items": [
+     "Aminta da sauri, tare da sunanta",
+     "Bayyana: duk tambayoyi a cikin saƙo mai lamba ɗaya",
+     "Duba rikodin kafin ka amsa",
+     "Warware, ko haɓaka tare da taƙaitaccen taƙaitaccen bayani",
+     "Tabbatar da gyara kuma duba ya yi aiki",
+     "Shiga cikin akwati kuma yi masa lakabi da An warware"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "rule": "Ba da lokaci, ba kawai alkawari: da karfe 3 na yamma a yau, ba da daɗewa ba.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_map",
+   "say": [
+    "Kowace amsa tana da sassa biyar. Gaishe ta da suna. Hello Amina."
+   ],
+   "panel": {
+    "kicker": "Rubutu",
+    "heading": "Tsarin amsa mai kyau",
+    "items": [
+     "Ku gaisa da sunanta",
+     "Yarda da bukatar ko ji",
+     "Ba da amsa ko aiki",
+     "Bayyana mataki na gaba da lokaci",
+     "Rufe da dumi"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_map",
+   "say": [
+    "Yarda. Na fahimci kuna buƙatarta don ranar Asabar."
+   ],
+   "panel": {
+    "kicker": "Rubutu",
+    "heading": "Tsarin amsa mai kyau",
+    "items": [
+     "Ku gaisa da sunanta",
+     "Yarda da bukatar ko ji",
+     "Ba da amsa ko aiki",
+     "Bayyana mataki na gaba da lokaci",
+     "Rufe da dumi"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_map",
+   "say": [
+    "Ba da amsar, kusa da saman, saboda abokan ciniki a kan wayoyi ƙila ba za su karanta ba har ƙarshe. Kunshin ku yana Abuja kuma za a kawo shi gobe kafin karfe 4 na yamma."
+   ],
+   "panel": {
+    "kicker": "Rubutu",
+    "heading": "Tsarin amsa mai kyau",
+    "items": [
+     "Ku gaisa da sunanta",
+     "Yarda da bukatar ko ji",
+     "Ba da amsa ko aiki",
+     "Bayyana mataki na gaba da lokaci",
+     "Rufe da dumi"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Fadi mataki na gaba. Mahayin zai kira ka kafin isowa."
+   ],
+   "panel": {
+    "kicker": "Rubutu",
+    "heading": "Tsarin amsa mai kyau",
+    "items": [
+     "Ku gaisa da sunanta",
+     "Yarda da bukatar ko ji",
+     "Ba da amsa ko aiki",
+     "Bayyana mataki na gaba da lokaci",
+     "Rufe da dumi"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Rufe da dumi. A kan hira, ajiye shi zuwa gajerun layuka 2 zuwa 4. Kuma karanta kowane samfuri sau ɗaya kafin aikawa, don haka ba za ku taɓa aika Sannu ba, suna cikin braket."
+   ],
+   "panel": {
+    "kicker": "Rubutu",
+    "heading": "Tsarin amsa mai kyau",
+    "items": [
+     "Ku gaisa da sunanta",
+     "Yarda da bukatar ko ji",
+     "Ba da amsa ko aiki",
+     "Bayyana mataki na gaba da lokaci",
+     "Rufe da dumi"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Wasu kalmomi suna tura abokan ciniki. Laifi, a'a, da kuma lokuta marasa ma'ana kamar da wuri-wuri."
+   ],
+   "panel": {
+    "kicker": "Sautin",
+    "heading": "Dumi, nutsuwa, ƙwararru",
+    "mode": "compare",
+    "left_h": "Maimakon",
+    "left": [
+     "Ba ku karanta manufofin ba",
+     "Wannan ba shine matsalarmu ba",
+     "Ba za mu iya bayarwa ranar Lahadi ba",
+     "ASAP"
+    ],
+    "right_h": "Rubuta",
+    "right": [
+     "Yi hakuri wannan bai fito fili ba",
+     "Bari in ga abin da zan iya yi",
+     "Shin safiyar Litinin zai yi aiki?",
+     "da karfe 2 na rana"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Sauya zargi da bayani. Ba za a iya maye gurbin da abin da za ku iya yi ba. Kuma maye gurbin kalmomi marasa ma'ana da lokutan gaske."
+   ],
+   "panel": {
+    "kicker": "Sautin",
+    "heading": "Dumi, nutsuwa, ƙwararru",
+    "mode": "compare",
+    "left_h": "Maimakon",
+    "left": [
+     "Ba ku karanta manufofin ba",
+     "Wannan ba shine matsalarmu ba",
+     "Ba za mu iya bayarwa ranar Lahadi ba",
+     "ASAP"
+    ],
+    "right_h": "Rubuta",
+    "right": [
+     "Yi hakuri wannan bai fito fili ba",
+     "Bari in ga abin da zan iya yi",
+     "Shin safiyar Litinin zai yi aiki?",
+     "da karfe 2 na rana"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Amsar daftarin farko ta ce: eh za mu iya yi, farashin ya dogara, aika cikakkun bayanai. Wannan bai gaya wa abokin ciniki komai ba."
+   ],
+   "card": {
+    "title": "Bayyanar magana, ba farashi ya dogara ba",
+    "rows": [],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Sake rubutawa yana ba da farashin farawa: daga kusan naira 3,500 akan kowane kan."
+   ],
+   "card": {
+    "title": "Bayyanar magana, ba farashi ya dogara ba",
+    "rows": [
+     [
+      "Jollof da kaza, da kai",
+      "3,500"
+     ]
+    ],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Ga baƙi 80, wato kusan naira 280,000, kafin a kai da kuma hidimar ma'aikata.",
+    "Sannan ya jera ainihin bayanan da ake buƙata kuma yayi alƙawarin zance a cikin sa'o'i 2. Abokin ciniki zai iya yanke shawara lokaci guda."
+   ],
+   "card": {
+    "title": "Bayyanar magana, ba farashi ya dogara ba",
+    "rows": [
+     [
+      "Jollof da kaza, da kai",
+      "3,500"
+     ],
+     [
+      "Baƙi sau 3,500",
+      "280,000"
+     ]
+    ],
+    "note": "Farashin Naira ya yi daidai."
+   }
+  },
+  {
+   "demo": "phone_map",
+   "say": [
+    "Abokin ciniki na Mariam, Tola, ya rubuta da manyan haruffa: Na biya 12,500 a makon da ya gabata kuma ba komai. Mariam ta saurara kuma ta sake cewa: Ina ganin kun biya 12,500 kuma kun aika sako sau uku."
+   ],
+   "panel": {
+    "kicker": "Korafe-korafe",
+    "heading": "KARSHE a cikin rubutaccen korafi",
+    "items": [
+     "Saurara: karanta komai, sake bayyana gaskiya",
+     "Yi hakuri sau ɗaya, da gaske",
+     "Warware: bayar da zaɓuɓɓuka tare da lokuta",
+     "Godiya gareta, sai ku biyo baya"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_map",
+   "say": [
+    "Ta nemi gafara sau ɗaya: Yi hakuri, wannan ba shine sabis ɗin da ya kamata ku samu ba."
+   ],
+   "panel": {
+    "kicker": "Korafe-korafe",
+    "heading": "KARSHE a cikin rubutaccen korafi",
+    "items": [
+     "Saurara: karanta komai, sake bayyana gaskiya",
+     "Yi hakuri sau ɗaya, da gaske",
+     "Warware: bayar da zaɓuɓɓuka tare da lokuta",
+     "Godiya gareta, sai ku biyo baya"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_map",
+   "say": [
+    "Ta duba. Adireshin ya ɓace sunan titi. Ta ba da zaɓuɓɓuka: bayarwa yau da karfe 5 na yamma, ko kuma ɗauka daga 11 na safe."
+   ],
+   "panel": {
+    "kicker": "Korafe-korafe",
+    "heading": "KARSHE a cikin rubutaccen korafi",
+    "items": [
+     "Saurara: karanta komai, sake bayyana gaskiya",
+     "Yi hakuri sau ɗaya, da gaske",
+     "Warware: bayar da zaɓuɓɓuka tare da lokuta",
+     "Godiya gareta, sai ku biyo baya"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Ta yi godiya ga Tola, ta aika sabuntawar mahayi, sannan ta duba washegari. Tola ya tashi daga kiran su 'yan damfara yana cewa na gode."
+   ],
+   "panel": {
+    "kicker": "Korafe-korafe",
+    "heading": "KARSHE a cikin rubutaccen korafi",
+    "items": [
+     "Saurara: karanta komai, sake bayyana gaskiya",
+     "Yi hakuri sau ɗaya, da gaske",
+     "Warware: bayar da zaɓuɓɓuka tare da lokuta",
+     "Godiya gareta, sai ku biyo baya"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Kada ku zargi mahayin ko abokin ciniki har sai kun bincika. Kuma kada ku rubuta kwantar da hankali, ko kamar yadda na fada a baya."
+   ],
+   "panel": {
+    "kicker": "Korafe-korafe",
+    "heading": "KARSHE a cikin rubutaccen korafi",
+    "items": [
+     "Saurara: karanta komai, sake bayyana gaskiya",
+     "Yi hakuri sau ɗaya, da gaske",
+     "Warware: bayar da zaɓuɓɓuka tare da lokuta",
+     "Godiya gareta, sai ku biyo baya"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Ka nemi afuwar abin da ta same ta. Tabbatar da kuskure kafin suna.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Wasu lokuta ba naku bane don magance su kaɗai. Barazana na cutarwa, matakin shari'a ko yaƙin neman zaɓe na jama'a, da matsalolin amincin samfur, kamar cutar da fata ko rashin lafiyar abinci, tafi kai tsaye zuwa ga mai kula da ku ko mai shi. Don haka a sake dawo da kuɗaɗen da ake zargin zamba. Log kowane daya."
+   ],
+   "panel": {
+    "kicker": "Tsaya da haɓaka",
+    "heading": "Ƙarfafa zuwa ga mai shi lokaci guda",
+    "items": [
+     "Barazanar cutarwa",
+     "Matakin doka ko yakin neman zabe",
+     "Rashin lafiyar fata ko rashin lafiyar abinci",
+     "Maidawa da kuma zargin zamba"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Don tunawa. Yi amfani da matakai shida kowane lokaci, kuma ku yi duk tambayoyinku a cikin saƙo mai lamba ɗaya. Rubuta a sassa biyar, tare da ainihin lokuta. A kwantar da hankula tare da LAST.",
+    "Kuma idan abokin ciniki ya yi kuka a cikin jama'a, ba da amsa sau ɗaya, a taƙaice kuma cikin ladabi, sannan matsa zuwa tattaunawa ta sirri."
+   ],
+   "panel": {
+    "kicker": "Mabuɗin mahimmanci",
+    "heading": "Ka tuna",
+    "items": [
+     "Yarda, bayyana, dubawa, warwarewa, tabbatarwa, shiga",
+     "Duk tambayoyi a cikin saƙo mai lamba ɗaya",
+     "Gaisuwa, yarda, amsa, mataki na gaba, kusa",
+     "KARSHE: Saurara, Neman gafara, Warware, Na gode",
+     "korafin jama'a: amsa sau ɗaya, matsa zuwa na sirri"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Juyin ku. Gudun shari'ar gaskiya ko ta gaskiya ta duk matakai shida. Rubuta aƙalla samfura 6 kuma sake rubuta raƙuman martani guda 3. Sai ka rubuta amsa ta ƙarshe ga saƙon fushi, kuma ka tambayi abokinka yadda yake jin karantawa.",
+    "Ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi ayyuka",
+    "heading": "Ayyukan aikin ku",
+    "items": [
+     "Guda harka ɗaya ta duk matakai shida",
+     "Rubuta aƙalla samfuri 6",
+     "Sake rubuta amsoshi 3 masu rauni",
+     "Rubuta amsa ta ƙarshe ga saƙon fushi"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

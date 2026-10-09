@@ -1,0 +1,233 @@
+{
+ "course": "liquid-soap-shampoo-disinfectants",
+ "module": "m1",
+ "title": "A química por trás dos produtos líquidos",
+ "shots": [
+  {
+   "demo": "title_liquid",
+   "say": [
+    "A Química por Trás dos Produtos Líquidos. Este é o módulo 1 do curso.",
+    "Primeiro, três ferramentas: que tensioactivo faz que trabalho, como funciona o pH, e como manter os micróbios fora."
+   ]
+  },
+  {
+   "demo": "bucket_mix",
+   "label": "Tensioactivo misturado na água",
+   "say": [
+    "Veja este balde. Estamos a misturar na água um tensioactivo, o ingrediente que lava, com cuidado.",
+    "Cada molécula de tensioactivo tem uma cabeça que gosta de água e uma cauda que gosta de óleo.",
+    "As caudas juntam-se em bolinhas pequeníssimas chamadas micelas. A gordura entra lá dentro, e a água do enxaguamento leva-a embora."
+   ]
+  },
+  {
+   "demo": "chemical_store",
+   "label": "Quatro famílias de tensioactivos",
+   "card": {
+    "title": "As quatro famílias",
+    "rows": [
+     [
+      "Aniónicos (negativos)",
+      "SLES, SLS, LAS"
+     ],
+     [
+      "Anfotéricos (os dois)",
+      "CAPB"
+     ],
+     [
+      "Não iónicos (sem carga)",
+      "Etoxilatos de álcool"
+     ],
+     [
+      "Catiónicos (positivos)",
+      "Cloreto de benzalcónio, BTMS"
+     ]
+    ],
+    "note": "Agrupados pela carga da cabeça"
+   },
+   "say": [
+    "Nesta prateleira estão agrupados pela carga da cabeça.",
+    "Os aniónicos, como o SLES, limpam e fazem espuma. O CAPB torna-os mais suaves. Os não iónicos cortam a gordura. Os catiónicos desinfectam, condicionam o cabelo e amaciam a roupa."
+   ]
+  },
+  {
+   "demo": "softener_mix",
+   "label": "Amaciador de roupa (catiónico)",
+   "banner": "Nunca misture aniónicos com catiónicos",
+   "say": [
+    "Este líquido leitoso é amaciador de roupa, um produto catiónico.",
+    "Os tensioactivos aniónicos e catiónicos atraem-se e formam um sólido pegajoso que não faz nenhum dos dois trabalhos.",
+    "É por isso que o amaciador vai no enxaguamento, e não junto com o detergente."
+   ]
+  },
+  {
+   "demo": "scale_weigh",
+   "label": "Pasta de SLES, cerca de 70% activo",
+   "say": [
+    "Veja a balança enquanto pomos a pasta de SLES. Normalmente tem cerca de 70% de matéria activa, por isso 100 gramas têm cerca de 70 gramas de tensioactivo verdadeiro.",
+    "O CAPB costuma ter cerca de 30% de matéria activa. Leia sempre a ficha técnica do fornecedor, porque o número muda."
+   ]
+  },
+  {
+   "demo": "costing_desk",
+   "card": {
+    "title": "Teste da Bisi, sabonete de mãos de 5 kg",
+    "rows": [
+     [
+      "15% SLES x 0.70",
+      "10.5% activo"
+     ],
+     [
+      "6% CAPB x 0.30",
+      "1.8% activo"
+     ],
+     [
+      "Total de matéria activa",
+      "12.3%"
+     ],
+     [
+      "Tensioactivo real em 5 kg",
+      "615 g"
+     ],
+     [
+      "Novo SLES só 60% activo",
+      "17.5%, logo 875 g"
+     ]
+    ],
+    "note": "Do exemplo do curso"
+   },
+   "say": [
+    "Aqui está a conta da Bisi. A matéria activa é a percentagem que usa vezes a força de cada ingrediente, tudo somado.",
+    "A fórmula dela tem 12.3% de matéria activa, 615 gramas de tensioactivo real em 5 quilos.",
+    "Quando o SLES novo só tinha 60% de matéria activa, ela usou 875 gramas em vez de 750 gramas, para manter a mesma força."
+   ]
+  },
+  {
+   "demo": "ph_test",
+   "label": "Tira indicadora universal",
+   "say": [
+    "Esta tira lê o pH, de 0 a 14. A água é 7. Abaixo é ácido, acima é alcalino, e cada degrau é dez vezes mais forte.",
+    "Mergulhe, espere o tempo indicado na embalagem, e compare a cor à luz do dia. Teste antes de pôr o corante."
+   ]
+  },
+  {
+   "demo": "ppe_set",
+   "label": "Luvas e óculos",
+   "banner": "Ácido ou soda: devagar PARA DENTRO da água",
+   "say": [
+    "Antes de preparar qualquer solução de correcção, ponha luvas e óculos.",
+    "Junte o ácido ou a soda cáustica devagar à água, nunca a água sobre o químico, porque pode aquecer e salpicar. Ponha rótulo em cada frasco de correcção."
+   ]
+  },
+  {
+   "demo": "scale_weigh",
+   "label": "Amostra de 200 g num copo limpo",
+   "card": {
+    "title": "Champô de 20 kg da Amaka",
+    "rows": [
+     [
+      "Leitura do medidor",
+      "pH 7.4, quer cerca de 6"
+     ],
+     [
+      "Amostra",
+      "200 g = 1% do lote"
+     ],
+     [
+      "Cítrico a 20% na amostra",
+      "0.9 g"
+     ],
+     [
+      "Multiplicar x 100",
+      "90 g para 20 kg"
+     ],
+     [
+      "Juntar primeiro (cerca de 80%)",
+      "72 g, depois testar"
+     ]
+    ],
+    "note": "Corrija primeiro a amostra, depois o lote"
+   },
+   "say": [
+    "A Amaka pesou uma amostra de 200 gramas, 1% do lote, e juntou solução de ácido cítrico gota a gota até marcar pH 6. Foram precisos 0.9 gramas.",
+    "Vezes 100 dá 90 gramas. Ela juntou primeiro 72 gramas, testou, e depois o resto devagar, para nunca passar do ponto."
+   ]
+  },
+  {
+   "demo": "mixing_rule",
+   "label": "Limpa-sanitas e lixívia",
+   "say": [
+    "Quando testar produtos em casa, mantenha o limpa-sanitas e a lixívia separados, tal como estes dois frascos."
+   ]
+  },
+  {
+   "demo": "water_jug",
+   "label": "Água fervida e arrefecida",
+   "say": [
+    "O sabão líquido é quase todo água, e a água alimenta os micróbios. Por isso use água tratada, ou água fervida e arrefecida tapada.",
+    "Lave os bidões e as pás, enxagúe, passe álcool a 70% e deixe secar. Nunca os use para comida."
+   ]
+  },
+  {
+   "demo": "additives_tray",
+   "label": "Conservante (mistura de fenoxietanol)",
+   "card": {
+    "title": "Sabonete de mãos da Hauwa, 25 kg",
+    "rows": [
+     [
+      "pH do lote",
+      "6.2 (entre pH 3 e 12)"
+     ],
+     [
+      "Dose do fornecedor",
+      "0.5% a 1.0%"
+     ],
+     [
+      "Dose escolhida",
+      "0.8%"
+     ],
+     [
+      "25,000 g x 0.8 / 100",
+      "200 g"
+     ],
+     [
+      "Juntar depois de arrefecer",
+      "mexer 5 minutos"
+     ]
+    ],
+    "note": "Do exemplo do curso"
+   },
+   "say": [
+    "Um conservante trava os micróbios que entram mais tarde. A Hauwa confirmou que o pH estava dentro da faixa do fornecedor, e depois pesou 200 gramas numa balança digital.",
+    "Junte-o abaixo de cerca de 40 graus Celsius, porque o calor pode estragar alguns conservantes. E evite o formol: é tóxico."
+   ]
+  },
+  {
+   "demo": "bottle_fill",
+   "label": "Frascos novos e higienizados",
+   "say": [
+    "Agora encha frascos novos ou higienizados, depois feche e ponha o rótulo depressa."
+   ]
+  },
+  {
+   "demo": "shampoo_bottles",
+   "label": "Amostras guardadas: ambiente e calor",
+   "say": [
+    "Guarde dois frascos de cada lote, um à temperatura ambiente e outro num sítio quente.",
+    "Verifique-os todas as semanas durante quatro semanas, e depois todos os meses: cheiro, cor, transparência, espessura, pH e inchaço."
+   ]
+  },
+  {
+   "demo": "first_aid_rinse",
+   "label": "Frasco lava-olhos com água limpa",
+   "say": [
+    "Leia a Ficha de Dados de Segurança de cada químico. Use luvas de nitrilo e óculos, areje o espaço, e tenha perto um frasco lava-olhos com água limpa, como este."
+   ]
+  },
+  {
+   "demo": "outro_bottles",
+   "say": [
+    "Agora veja as lições abaixo. Faça o seu registo de matérias-primas, meça o pH de cinco produtos de casa, e organize o seu canto limpo."
+   ]
+  }
+ ]
+}

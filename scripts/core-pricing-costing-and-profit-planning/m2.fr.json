@@ -1,0 +1,479 @@
+{
+ "course": "core-pricing-costing-and-profit-planning",
+ "module": "m2",
+ "title": "Coût unitaire, seuil de rentabilité et fixation de votre prix",
+ "course_title": "Planification des prix, des coûts et des bénéfices",
+ "shots": [
+  {
+   "demo": "cash_count",
+   "say": [
+    "Coût unitaire, seuil de rentabilité et fixation de votre prix.",
+    "Ceci est la vidéo du module 2 de la planification des prix, des coûts et des bénéfices."
+   ]
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Le coût unitaire est ce qu’il vous en coûte pour fabriquer et vendre un article. Voici la méthode en quatre étapes.",
+    "Tout d’abord, répertoriez chaque coût variable pour un lot, avec sa quantité et son prix actuel."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Coût total d'une unité",
+    "items": [
+     "Répertoriez tous les coûts variables pour un lot",
+     "Diviser par de bonnes unités : coût variable par unité",
+     "Divisez les coûts fixes mensuels par les ventes moyennes",
+     "Additionnez les deux : coût total par unité"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Deuxièmement, additionnez-les et divisez par le nombre de bonnes unités fournies par le lot."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Coût total d'une unité",
+    "items": [
+     "Répertoriez tous les coûts variables pour un lot",
+     "Diviser par de bonnes unités : coût variable par unité",
+     "Divisez les coûts fixes mensuels par les ventes moyennes",
+     "Additionnez les deux : coût total par unité"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Troisièmement, additionnez tous les coûts fixes mensuels, y compris votre propre salaire, et divisez-les par le nombre d'unités que vous vendez de manière réaliste en un mois. Utilisez votre moyenne, pas votre meilleur mois."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Coût total d'une unité",
+    "items": [
+     "Répertoriez tous les coûts variables pour un lot",
+     "Diviser par de bonnes unités : coût variable par unité",
+     "Divisez les coûts fixes mensuels par les ventes moyennes",
+     "Additionnez les deux : coût total par unité"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Quatrièmement, ajoutez les deux. C'est votre coût total par unité."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Coût total d'une unité",
+    "items": [
+     "Répertoriez tous les coûts variables pour un lot",
+     "Diviser par de bonnes unités : coût variable par unité",
+     "Divisez les coûts fixes mensuels par les ventes moyennes",
+     "Additionnez les deux : coût total par unité"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Les objets brûlés ou cassés ne sont pas gratuits. Si un lot donne 48 bons packs au lieu de 50, les bons supportent le coût des mauvais."
+   ],
+   "panel": {
+    "kicker": "Pas à pas",
+    "heading": "Coût total d'une unité",
+    "items": [
+     "Répertoriez tous les coûts variables pour un lot",
+     "Diviser par de bonnes unités : coût variable par unité",
+     "Divisez les coûts fixes mensuels par les ventes moyennes",
+     "Additionnez les deux : coût total par unité"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Divisez par de bonnes unités, pas par le nombre que vous aviez prévu.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Le lot de farine, de sucre, de margarine, d'œufs, d'huile, de sachets, de gaz de Ngozi ainsi que le salaire de son aide coûtent 47 000 nairas."
+   ],
+   "card": {
+    "title": "Le coût total de Ngozi par paquet",
+    "rows": [],
+    "note": "Les prix en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Divisé par 50 paquets, son coût variable est de 940 nairas par paquet."
+   ],
+   "card": {
+    "title": "Le coût total de Ngozi par paquet",
+    "rows": [
+     [
+      "Coût variable par paquet",
+      "940"
+     ]
+    ],
+    "note": "Les prix en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Ses coûts fixes mensuels, y compris son propre salaire de 60 000 naira, totalisent 110 000 naira. Partagé plus de 200 packs, soit 550 naira le pack."
+   ],
+   "card": {
+    "title": "Le coût total de Ngozi par paquet",
+    "rows": [
+     [
+      "Coût variable par paquet",
+      "940"
+     ],
+     [
+      "Coût fixe par pack",
+      "550"
+     ]
+    ],
+    "note": "Les prix en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Chaque pack coûte donc en réalité 1 490 nairas. Son ancien prix de 1 500 nairas ne laisse que 10 nairas de profit."
+   ],
+   "card": {
+    "title": "Le coût total de Ngozi par paquet",
+    "rows": [
+     [
+      "Coût variable par paquet",
+      "940"
+     ],
+     [
+      "Coût fixe par pack",
+      "550"
+     ]
+    ],
+    "note": "Les prix en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Chaque vente paie d'abord son propre coût variable. Ce qui reste, c'est la marge de contribution. À 1 500 nairas, la contribution de Ngozi est de 1 500 moins 940, soit 560 nairas le paquet."
+   ],
+   "panel": {
+    "kicker": "Seuil de rentabilité",
+    "heading": "Combien devez-vous en vendre ?",
+    "items": [
+     "Contribution = prix moins coût variable",
+     "Seuil de rentabilité = coûts fixes divisés par la contribution",
+     "Arrondissez toujours à l’unité entière",
+     "Marge de sécurité = attendu moins seuil de rentabilité"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Le seuil de rentabilité correspond aux coûts fixes divisés par la contribution. 110 000 divisé par 560 donne 196,4."
+   ],
+   "panel": {
+    "kicker": "Seuil de rentabilité",
+    "heading": "Combien devez-vous en vendre ?",
+    "items": [
+     "Contribution = prix moins coût variable",
+     "Seuil de rentabilité = coûts fixes divisés par la contribution",
+     "Arrondissez toujours à l’unité entière",
+     "Marge de sécurité = attendu moins seuil de rentabilité"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Arrondissez toujours. Ngozi doit vendre 197 paquets par mois juste pour couvrir ses frais et son salaire. Seul le 198ème pack rapporte du profit."
+   ],
+   "panel": {
+    "kicker": "Seuil de rentabilité",
+    "heading": "Combien devez-vous en vendre ?",
+    "items": [
+     "Contribution = prix moins coût variable",
+     "Seuil de rentabilité = coûts fixes divisés par la contribution",
+     "Arrondissez toujours à l’unité entière",
+     "Marge de sécurité = attendu moins seuil de rentabilité"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Si elle compte vendre 250 paquets, sa marge de sécurité est de 53 paquets, soit environ 21 pour cent. En dessous d’environ 10 pour cent, une mauvaise semaine pourrait entraîner une perte pour le mois."
+   ],
+   "panel": {
+    "kicker": "Seuil de rentabilité",
+    "heading": "Combien devez-vous en vendre ?",
+    "items": [
+     "Contribution = prix moins coût variable",
+     "Seuil de rentabilité = coûts fixes divisés par la contribution",
+     "Arrondissez toujours à l’unité entière",
+     "Marge de sécurité = attendu moins seuil de rentabilité"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Utilisez le seuil de rentabilité pour tester un prix. À 1 500 nairas, Ngozi a besoin de 197 paquets par mois."
+   ],
+   "panel": {
+    "kicker": "Tester un nouveau prix",
+    "heading": "Une hausse de 200 nairas change tout",
+    "mode": "compare",
+    "left_h": "À 1 500 nairas",
+    "left": [
+     "Cotisation 560 par pack",
+     "Seuil de rentabilité : 197 paquets"
+    ],
+    "right_h": "À 1 700 nairas",
+    "right": [
+     "Cotisation 760 par pack",
+     "Seuil de rentabilité : 145 paquets"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "À 1 700 naira, sa contribution devient 760 naira et elle n’a besoin que de 145 paquets. Cela représente 52 paquets de moins chaque mois.",
+    "Mais ne fixez jamais un prix inférieur à votre coût variable. Pour Ngozi, tout prix inférieur à 940 naira fait perdre de l’argent sur chaque paquet."
+   ],
+   "panel": {
+    "kicker": "Tester un nouveau prix",
+    "heading": "Une hausse de 200 nairas change tout",
+    "mode": "compare",
+    "left_h": "À 1 500 nairas",
+    "left": [
+     "Cotisation 560 par pack",
+     "Seuil de rentabilité : 197 paquets"
+    ],
+    "right_h": "À 1 700 nairas",
+    "right": [
+     "Cotisation 760 par pack",
+     "Seuil de rentabilité : 145 paquets"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "La majoration est le bénéfice en pourcentage du coût. Une majoration de 30 pour cent sur 1 490 naira donne 1 937 naira. Mais cela ne représente qu’une marge d’environ 23 pour cent."
+   ],
+   "panel": {
+    "kicker": "Le piège commun",
+    "heading": "Majoration par rapport à la marge",
+    "mode": "compare",
+    "left_h": "Balisage",
+    "left": [
+     "Bénéfice par rapport au coût",
+     "Prix = coût x (1 + majoration)",
+     "30% sur 1 490 donne 1 937"
+    ],
+    "right_h": "Marge",
+    "right": [
+     "Bénéfice par rapport au prix",
+     "Prix = coût / (1 moins marge)",
+     "30% sur 1 490 donne 2 130"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "La marge est le bénéfice en pourcentage du prix. Pour une marge de 30 pour cent, divisez 1 490 par 0,70. Cela donne environ 2 130 nairas.",
+    "Le marché indique que des paquets similaires se vendent jusqu'à environ 2 000 nairas, alors Ngozi choisit 1 700 nairas pour l'instant et s'efforce d'augmenter le volume."
+   ],
+   "panel": {
+    "kicker": "Le piège commun",
+    "heading": "Majoration par rapport à la marge",
+    "mode": "compare",
+    "left_h": "Balisage",
+    "left": [
+     "Bénéfice par rapport au coût",
+     "Prix = coût x (1 + majoration)",
+     "30% sur 1 490 donne 1 937"
+    ],
+    "right_h": "Marge",
+    "right": [
+     "Bénéfice par rapport au prix",
+     "Prix = coût / (1 moins marge)",
+     "30% sur 1 490 donne 2 130"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Voici comment l'erreur se produit."
+   ],
+   "card": {
+    "title": "Prix du beurre corporel Funke's",
+    "rows": [],
+    "note": "Les prix en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Le pot de Funke coûte 2 000 nairas et elle l'a fixé à 3 000 nairas. Cela représente une majoration de 50 pour cent, mais seulement une marge de 33 pour cent."
+   ],
+   "card": {
+    "title": "Prix du beurre corporel Funke's",
+    "rows": [
+     [
+      "Coût total par pot",
+      "2,000"
+     ],
+     [
+      "Ancien prix : seulement 33% de marge",
+      "3,000"
+     ]
+    ],
+    "note": "Les prix en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Une véritable marge de 50 pour cent nécessiterait 4 000 naira. C'est trop élevé pour son marché, alors elle se contente de 3 500 naira, soit environ 43 pour cent. C'est désormais un choix conscient."
+   ],
+   "card": {
+    "title": "Prix du beurre corporel Funke's",
+    "rows": [
+     [
+      "Coût total par pot",
+      "2,000"
+     ],
+     [
+      "Ancien prix : seulement 33% de marge",
+      "3,000"
+     ],
+     [
+      "Prix pour une vraie marge de 50 %",
+      "4,000"
+     ],
+     [
+      "Prix choisi : environ 43% de marge",
+      "3,500"
+     ]
+    ],
+    "note": "Les prix en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Les magasins ont besoin de réaliser leurs propres bénéfices et achètent donc à un prix inférieur. Si Ngozi vend à un magasin à 1 400 nairas, elle apporte quand même une contribution de 460 nairas, et le magasin revend à 1 700 nairas.",
+    "Maintenez la vente en gros au-dessus du coût variable et fixez une commande minimum afin que le prix le plus bas soit obtenu en fonction du volume."
+   ],
+   "panel": {
+    "kicker": "Vente en gros",
+    "heading": "Fixer un prix de gros",
+    "items": [
+     "Gardez-le au-dessus de votre coût variable",
+     "Apporter une réelle contribution par unité",
+     "Fixez une commande minimum, comme 20 packs",
+     "Quittez la boutique pour en profiter"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "À retenir. Le coût total est variable plus le coût fixe par unité. Le seuil de rentabilité correspond aux coûts fixes divisés par la contribution, arrondis au chiffre supérieur. Une légère hausse des prix peut la réduire considérablement. Utilisez la formule de marge, et non un balisage, pour une marge cible.",
+    "Et maintenez les prix de gros au-dessus des coûts variables."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Coût total = coût variable + fixe par unité",
+     "Seuil de rentabilité = coûts fixes divisés par la contribution",
+     "Une légère hausse des prix peut réduire considérablement le seuil de rentabilité",
+     "Marge cible : prix = coût / (1 moins la marge)",
+     "Le commerce de gros doit rester au-dessus des coûts variables"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Maintenant, évaluez une unité de votre produit principal, trouvez votre seuil de rentabilité et votre marge de sécurité, et évaluez-la avec à la fois la majoration et la marge avant de choisir.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâches d'entraînement",
+    "heading": "Vos tâches pour ce module",
+    "items": [
+     "Coûte une unité de votre produit principal",
+     "Trouvez votre seuil de rentabilité",
+     "Évaluez votre produit de deux manières"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

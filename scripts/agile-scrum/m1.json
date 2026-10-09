@@ -1,0 +1,453 @@
+{
+ "course": "agile-scrum",
+ "module": "m1",
+ "title": "How Agile and Scrum really work, and when to use Kanban",
+ "course_title": "Agile & Scrum in Practice",
+ "shots": [
+  {
+   "demo": "kanban_board",
+   "say": [
+    "How Agile and Scrum really work, and when to use Kanban.",
+    "This is the video for module 1 of Agile and Scrum in Practice."
+   ]
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Picture a team building a school fees portal in Abuja. In a plan-driven project, often called waterfall, they gather every requirement first, build for months, and test at the end. The school owners see nothing usable until month six."
+   ],
+   "panel": {
+    "kicker": "Why Agile",
+    "heading": "Plan-driven versus Agile delivery",
+    "mode": "compare",
+    "left_h": "Plan-driven",
+    "left": [
+     "All requirements fixed upfront",
+     "One delivery at the end",
+     "Change is costly and resisted",
+     "Risk discovered late"
+    ],
+    "right_h": "Agile",
+    "right": [
+     "Requirements refined every cycle",
+     "Working piece every 1 to 4 weeks",
+     "Change expected and planned for",
+     "Risk exposed early"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "An Agile team works in short cycles of 1 to 4 weeks. Each cycle ends with a small working piece that real users can try. They collect feedback and adjust the plan.",
+    "Agile does not mean no plan. Both approaches plan. The difference is how often the plan meets reality."
+   ],
+   "panel": {
+    "kicker": "Why Agile",
+    "heading": "Plan-driven versus Agile delivery",
+    "mode": "compare",
+    "left_h": "Plan-driven",
+    "left": [
+     "All requirements fixed upfront",
+     "One delivery at the end",
+     "Change is costly and resisted",
+     "Risk discovered late"
+    ],
+    "right_h": "Agile",
+    "right": [
+     "Requirements refined every cycle",
+     "Working piece every 1 to 4 weeks",
+     "Change expected and planned for",
+     "Risk exposed early"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "The team assumed parents would pay by card. Most actually pay by bank transfer or USSD."
+   ],
+   "card": {
+    "title": "The cost of a late discovery",
+    "rows": [],
+    "note": "Illustrative, approximate figures."
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "With 4 developers at about 25,000 naira a day, the team costs 100,000 naira a day."
+   ],
+   "card": {
+    "title": "The cost of a late discovery",
+    "rows": [
+     [
+      "Team cost per day",
+      "100,000"
+     ]
+    ],
+    "note": "Illustrative, approximate figures."
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "In waterfall, the error appears in testing after 60 days. 30% of the work depends on it, so 18 days must be redone. That is 1,800,000 naira."
+   ],
+   "card": {
+    "title": "The cost of a late discovery",
+    "rows": [
+     [
+      "Team cost per day",
+      "100,000"
+     ],
+     [
+      "Waterfall rework, 18 days",
+      "1,800,000"
+     ]
+    ],
+    "note": "Illustrative, approximate figures."
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "In Agile, parents try the first payment screen after sprint 1. Only about 3 days of work depend on the wrong idea. That is 300,000 naira.",
+    "One sixth of the cost, and about two months of delay avoided. That is the core argument for short cycles: inspect what really happened, then adapt."
+   ],
+   "card": {
+    "title": "The cost of a late discovery",
+    "rows": [
+     [
+      "Team cost per day",
+      "100,000"
+     ],
+     [
+      "Waterfall rework, 18 days",
+      "1,800,000"
+     ],
+     [
+      "Agile rework, 3 days",
+      "300,000"
+     ]
+    ],
+    "note": "Illustrative, approximate figures."
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Scrum is the most used framework for putting Agile to work. It is defined in the free Scrum Guide, last updated in November 2020. A Scrum Team is typically 10 or fewer people, with three accountabilities.",
+    "The Product Owner is one person, not a committee. She maximises value and orders the Product Backlog."
+   ],
+   "panel": {
+    "kicker": "The Scrum Team",
+    "heading": "Three accountabilities",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Product Owner",
+      "d": "One person, not a committee. Maximises value and orders the Product Backlog."
+     },
+     {
+      "t": "Scrum Master",
+      "d": "A leader who serves: coaches, facilitates, removes blockers. Not a task manager."
+     },
+     {
+      "t": "Developers",
+      "d": "Create a usable Increment every Sprint. Testers, designers and writers count too."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "The Scrum Master is a leader who serves. She coaches and removes blockers. A common mistake is acting as a task manager who assigns work."
+   ],
+   "panel": {
+    "kicker": "The Scrum Team",
+    "heading": "Three accountabilities",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Product Owner",
+      "d": "One person, not a committee. Maximises value and orders the Product Backlog."
+     },
+     {
+      "t": "Scrum Master",
+      "d": "A leader who serves: coaches, facilitates, removes blockers. Not a task manager."
+     },
+     {
+      "t": "Developers",
+      "d": "Create a usable Increment every Sprint. Testers, designers and writers count too."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "The Developers create a usable Increment every Sprint. Developer does not mean only programmers. Testers, designers and writers are Developers too."
+   ],
+   "panel": {
+    "kicker": "The Scrum Team",
+    "heading": "Three accountabilities",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Product Owner",
+      "d": "One person, not a committee. Maximises value and orders the Product Backlog."
+     },
+     {
+      "t": "Scrum Master",
+      "d": "A leader who serves: coaches, facilitates, removes blockers. Not a task manager."
+     },
+     {
+      "t": "Developers",
+      "d": "Create a usable Increment every Sprint. Testers, designers and writers count too."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "A timebox is a maximum duration. The Sprint holds all the other events. Many teams use 2 weeks, which is 10 working days."
+   ],
+   "panel": {
+    "kicker": "Five events",
+    "heading": "A 2-week Sprint, event by event",
+    "items": [
+     "The Sprint: 2 weeks, fixed length",
+     "Sprint Planning: about 4 hours",
+     "Daily Scrum: 15 minutes, every day",
+     "Sprint Review: about 2 hours",
+     "Sprint Retrospective: about 1.5 hours"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Sprint Planning decides why this Sprint is valuable and what can be done. About 4 hours for 2 weeks."
+   ],
+   "panel": {
+    "kicker": "Five events",
+    "heading": "A 2-week Sprint, event by event",
+    "items": [
+     "The Sprint: 2 weeks, fixed length",
+     "Sprint Planning: about 4 hours",
+     "Daily Scrum: 15 minutes, every day",
+     "Sprint Review: about 2 hours",
+     "Sprint Retrospective: about 1.5 hours"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "The Daily Scrum is 15 minutes every working day. Developers check progress toward the Sprint Goal and adjust the plan."
+   ],
+   "panel": {
+    "kicker": "Five events",
+    "heading": "A 2-week Sprint, event by event",
+    "items": [
+     "The Sprint: 2 weeks, fixed length",
+     "Sprint Planning: about 4 hours",
+     "Daily Scrum: 15 minutes, every day",
+     "Sprint Review: about 2 hours",
+     "Sprint Retrospective: about 1.5 hours"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "The Sprint Review inspects the result with stakeholders, and the Retrospective plans how to work better.",
+    "For example, Amaka's team spends 10 hours per person on events out of about 80. That is 12.5%. Useful when a manager asks, why so many meetings?"
+   ],
+   "panel": {
+    "kicker": "Five events",
+    "heading": "A 2-week Sprint, event by event",
+    "items": [
+     "The Sprint: 2 weeks, fixed length",
+     "Sprint Planning: about 4 hours",
+     "Daily Scrum: 15 minutes, every day",
+     "Sprint Review: about 2 hours",
+     "Sprint Retrospective: about 1.5 hours"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Kanban has no Sprints and no fixed roles. First, show the work on a board with columns like To do, Doing, Review, Done."
+   ],
+   "panel": {
+    "kicker": "Kanban",
+    "heading": "Kanban in four practices",
+    "items": [
+     "Visualise the work on a board",
+     "Limit work in progress",
+     "Measure throughput and cycle time",
+     "Improve continuously"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Second, limit work in progress. For example, no more than 3 cards in Doing. When the column is full, finish something first."
+   ],
+   "panel": {
+    "kicker": "Kanban",
+    "heading": "Kanban in four practices",
+    "items": [
+     "Visualise the work on a board",
+     "Limit work in progress",
+     "Measure throughput and cycle time",
+     "Improve continuously"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "rule": "When Doing is full, finish something before starting more.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Third, measure flow. Little's Law says cycle time equals work in progress divided by throughput.",
+    "For example, Funmi's support team has 30 tickets open and closes 10 a day. That is 3 days per ticket. She limits open tickets to 15, so each started ticket takes 1.5 days."
+   ],
+   "panel": {
+    "kicker": "Kanban",
+    "heading": "Kanban in four practices",
+    "items": [
+     "Visualise the work on a board",
+     "Limit work in progress",
+     "Measure throughput and cycle time",
+     "Improve continuously"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "When Doing is full, finish something before starting more.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Fourth, review the board and remove bottlenecks. But if 20 tickets arrive a day and only 10 close, no limit can hide that. Have an honest capacity conversation."
+   ],
+   "panel": {
+    "kicker": "Kanban",
+    "heading": "Kanban in four practices",
+    "items": [
+     "Visualise the work on a board",
+     "Limit work in progress",
+     "Measure throughput and cycle time",
+     "Improve continuously"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "When Doing is full, finish something before starting more.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Match the approach to the work. A new app suits Scrum, because the solution is uncertain. A help desk suits Kanban, because work arrives every hour.",
+    "A borehole to a known design suits a fixed plan. Campaigns plus urgent requests suit a hybrid.",
+    "If urgent work broke the plan almost every week last month, choose Kanban or keep capacity free."
+   ],
+   "panel": {
+    "kicker": "Choose wisely",
+    "heading": "Which approach fits the work?",
+    "items": [
+     "New app or website: Scrum",
+     "Help desk or support: Kanban",
+     "Borehole to a known design: plan-driven",
+     "Campaigns plus urgent work: hybrid"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "To remember. Agile means small working pieces, checked with real users often. Late discovery costs far more than early.",
+    "Scrum has a Product Owner, a Scrum Master and Developers. The Daily Scrum is 15 minutes. And lower work in progress means faster finishing."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "Agile means small working pieces, checked often",
+     "Late discovery costs far more than early",
+     "Product Owner, Scrum Master, Developers",
+     "Daily Scrum is 15 minutes",
+     "Cycle time = work in progress ÷ throughput"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Your tasks: spot a late discovery in a project you know, build a Sprint calendar and count the event hours, and diagnose three kinds of work with Little's Law.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice task",
+    "heading": "Your practice tasks",
+    "items": [
+     "Spot a late discovery in a past project",
+     "Build your Sprint calendar",
+     "Diagnose three kinds of work"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

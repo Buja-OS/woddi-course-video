@@ -1,0 +1,525 @@
+{
+ "course": "no-code-app-development",
+ "module": "m1",
+ "title": "Is an app the answer? Data, tables and platform costs",
+ "course_title": "No-Code App Development",
+ "shots": [
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Is an app the answer? Data, tables and platform costs.",
+    "This is the video for module one of No-Code App Development."
+   ]
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "A no-code app builder lets you create a working app by choosing screens, fields and rules, instead of writing code. Underneath, every app has three parts. Data, the information it stores."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Every app has three parts",
+    "items": [
+     "Data: the information it stores",
+     "Interface: the screens people use",
+     "Logic: the rules about what happens"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Interface, the screens people tap and type on."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Every app has three parts",
+    "items": [
+     "Data: the information it stores",
+     "Interface: the screens people use",
+     "Logic: the rules about what happens"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "And logic, the rules about what happens and when. The builder writes the code. Your job is to design these three parts well."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Every app has three parts",
+    "items": [
+     "Data: the information it stores",
+     "Interface: the screens people use",
+     "Logic: the rules about what happens"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Good builders know when not to build. Use the simplest tool that works: spreadsheet, then form, then no-code app, then custom code.",
+    "For example, Nneka runs a tailoring workshop in Aba with three apprentices. Four people need to see orders, so a private spreadsheet is not enough."
+   ],
+   "panel": {
+    "kicker": "Before you build",
+    "heading": "Five questions: does it need an app?",
+    "items": [
+     "How many people touch the data?",
+     "Where is the work done?",
+     "Do records link to each other?",
+     "Are mistakes costly?",
+     "Does the public need to use it?"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "The work happens at cutting tables, not a desk, so phones matter."
+   ],
+   "panel": {
+    "kicker": "Before you build",
+    "heading": "Five questions: does it need an app?",
+    "items": [
+     "How many people touch the data?",
+     "Where is the work done?",
+     "Do records link to each other?",
+     "Are mistakes costly?",
+     "Does the public need to use it?"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "One customer has many orders. Those are linked records, where apps shine."
+   ],
+   "panel": {
+    "kicker": "Before you build",
+    "heading": "Five questions: does it need an app?",
+    "items": [
+     "How many people touch the data?",
+     "Where is the work done?",
+     "Do records link to each other?",
+     "Are mistakes costly?",
+     "Does the public need to use it?"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Twice last month a dress was promised for the wrong date. So the first screen should show orders due in the next 3 days."
+   ],
+   "panel": {
+    "kicker": "Before you build",
+    "heading": "Five questions: does it need an app?",
+    "items": [
+     "How many people touch the data?",
+     "Where is the work done?",
+     "Do records link to each other?",
+     "Are mistakes costly?",
+     "Does the public need to use it?"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Customers keep using WhatsApp, so the app stays internal and simpler. An internal app on Google AppSheet fits."
+   ],
+   "panel": {
+    "kicker": "Before you build",
+    "heading": "Five questions: does it need an app?",
+    "items": [
+     "How many people touch the data?",
+     "Where is the work done?",
+     "Do records link to each other?",
+     "Are mistakes costly?",
+     "Does the public need to use it?"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "The data model is the plan of what your app stores and how the pieces connect. Screens are easy to change. Data structure is not.",
+    "Rule one: one table per kind of thing. Avoid columns like Item1, Item2, Item3. That breaks the day a customer brings four items."
+   ],
+   "panel": {
+    "kicker": "Data modelling",
+    "heading": "Four rules for your data model",
+    "items": [
+     "One table per kind of thing",
+     "Every row needs a key, such as UNIQUEID()",
+     "Link tables with Ref columns",
+     "Pick the right column type"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Rule two: every row needs a key, a value different for every row. Names make poor keys, because two customers can both be called Blessing."
+   ],
+   "panel": {
+    "kicker": "Data modelling",
+    "heading": "Four rules for your data model",
+    "items": [
+     "One table per kind of thing",
+     "Every row needs a key, such as UNIQUEID()",
+     "Link tables with Ref columns",
+     "Pick the right column type"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Rule three: a Ref column stores the key of a row in another table. One customer, many orders. That is a one-to-many link."
+   ],
+   "panel": {
+    "kicker": "Data modelling",
+    "heading": "Four rules for your data model",
+    "items": [
+     "One table per kind of thing",
+     "Every row needs a key, such as UNIQUEID()",
+     "Link tables with Ref columns",
+     "Pick the right column type"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Rule four: choose column types like Date, Enum or Phone. They give you free checking and the right keyboard."
+   ],
+   "panel": {
+    "kicker": "Data modelling",
+    "heading": "Four rules for your data model",
+    "items": [
+     "One table per kind of thing",
+     "Every row needs a key, such as UNIQUEID()",
+     "Link tables with Ref columns",
+     "Pick the right column type"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "If you cannot draw the model on paper, you are not ready to build.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Bisi has four tables: Customers, Price List, Orders and Order Items. Each order item is one row, linked to its order and its item."
+   ],
+   "card": {
+    "title": "Bisi's laundry order, worked out by the app",
+    "rows": [],
+    "note": "Illustrative naira prices."
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Each line total is quantity times price. 4 shirts make 3,200 naira. 2 trousers make 2,000. 1 duvet is 5,000."
+   ],
+   "card": {
+    "title": "Bisi's laundry order, worked out by the app",
+    "rows": [
+     [
+      "4 shirts at 800",
+      "3,200"
+     ],
+     [
+      "2 trousers at 1,000",
+      "2,000"
+     ],
+     [
+      "1 duvet at 5,000",
+      "5,000"
+     ]
+    ],
+    "note": "Illustrative naira prices."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "The order total is 10,200 naira, calculated by the app. Adding a new kind of item needs a new row, not a new column.",
+    "One warning. For money, copy the price into the order line when it is created. Otherwise raising the shirt price silently changes last month's orders."
+   ],
+   "card": {
+    "title": "Bisi's laundry order, worked out by the app",
+    "rows": [
+     [
+      "4 shirts at 800",
+      "3,200"
+     ],
+     [
+      "2 trousers at 1,000",
+      "2,000"
+     ],
+     [
+      "1 duvet at 5,000",
+      "5,000"
+     ]
+    ],
+    "note": "Illustrative naira prices."
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Professionals tell the client the limits early. First, lock-in. If prices rise, moving is a rebuild."
+   ],
+   "panel": {
+    "kicker": "Honest limits",
+    "heading": "Name the ceiling before you build",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Platform lock-in",
+      "d": "Screens and rules live on the vendor's platform. Moving is a rebuild, though your data in Sheets stays yours."
+     },
+     {
+      "t": "Per-user costs",
+      "d": "Many platforms charge per user per month. An app for 40 staff can cost more each year than the build fee."
+     },
+     {
+      "t": "Performance",
+      "d": "Spreadsheet-backed apps slow down as tables grow very large or formulas get heavy."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Second, per-user cost, which can be bigger than your build fee."
+   ],
+   "panel": {
+    "kicker": "Honest limits",
+    "heading": "Name the ceiling before you build",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Platform lock-in",
+      "d": "Screens and rules live on the vendor's platform. Moving is a rebuild, though your data in Sheets stays yours."
+     },
+     {
+      "t": "Per-user costs",
+      "d": "Many platforms charge per user per month. An app for 40 staff can cost more each year than the build fee."
+     },
+     {
+      "t": "Performance",
+      "d": "Spreadsheet-backed apps slow down as tables grow very large or formulas get heavy."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Third, performance slows as tables grow very large."
+   ],
+   "panel": {
+    "kicker": "Honest limits",
+    "heading": "Name the ceiling before you build",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Platform lock-in",
+      "d": "Screens and rules live on the vendor's platform. Moving is a rebuild, though your data in Sheets stays yours."
+     },
+     {
+      "t": "Per-user costs",
+      "d": "Many platforms charge per user per month. An app for 40 staff can cost more each year than the build fee."
+     },
+     {
+      "t": "Performance",
+      "d": "Spreadsheet-backed apps slow down as tables grow very large or formulas get heavy."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Your build fee is paid once. The platform fee is paid every month, usually by the client. AppSheet is free while you prototype, with up to 10 test users. To deploy, the client needs a paid plan."
+   ],
+   "card": {
+    "title": "Nneka's monthly AppSheet cost",
+    "rows": [],
+    "note": "Illustrative rate. Check today's prices."
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "On Starter, at about US$5 per user, Nneka would pay US$20 a month, about 32,000 naira."
+   ],
+   "card": {
+    "title": "Nneka's monthly AppSheet cost",
+    "rows": [
+     [
+      "Starter: 4 users at US$5",
+      "32,000"
+     ]
+    ],
+    "note": "Illustrative rate. Check today's prices."
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "She wants each apprentice to see only their own orders. That needs security filters, which need Core. So she budgets about US$40 a month, roughly 64,000 naira. She should hear this before she agrees to any build fee."
+   ],
+   "card": {
+    "title": "Nneka's monthly AppSheet cost",
+    "rows": [
+     [
+      "Starter: 4 users at US$5",
+      "32,000"
+     ],
+     [
+      "Core: 4 users at US$10",
+      "64,000"
+     ]
+    ],
+    "note": "Illustrative rate. Check today's prices."
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Clients rarely ask for an app. They ask to stop losing stock, or to know which rider delivered what. Choose a niche, a client type plus an app type, so your second build reuses your first.",
+    "Start with quick wins: high value, low effort, like a stock tracker with three tables."
+   ],
+   "panel": {
+    "kicker": "Opportunities",
+    "heading": "Where the paid work is",
+    "items": [
+     "Cooperatives and thrift groups",
+     "Agro-input shops and aggregators",
+     "Laundries, tailoring, repairs, cleaning",
+     "NGOs and field programmes",
+     "Dispatch riders and logistics"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Before you quote, check the official pricing page that day. Some naira cards block recurring foreign charges, so ask the client to test a payment early.",
+    "And clinics, lenders and savings groups hold sensitive data. Under the Nigeria Data Protection Act 2023, collect only what is needed and keep it secure. Start with stock, jobs and logistics apps."
+   ],
+   "panel": {
+    "kicker": "Protect your client",
+    "heading": "Before you quote",
+    "items": [
+     "Check today's official pricing page",
+     "Can their card pay a US dollar subscription?",
+     "Show naira estimate with the rate's date",
+     "Collect only the data that is needed"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "To remember. Use the simplest tool that works. Give every table a key and link with references. Budget monthly per-user fees. And name the limits before you build."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "Use the simplest tool that works",
+     "One table per kind of thing, with a key",
+     "Ref columns link one to many",
+     "Platform fees are monthly and per user",
+     "Name the limits before you build"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Your tasks: run the five-question test on two real problems, draw a data model on paper, and cost and rank three app ideas.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice tasks",
+    "heading": "Your practice tasks",
+    "items": [
+     "Run the five-question test",
+     "Draw a data model",
+     "Cost and rank three app ideas"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}
