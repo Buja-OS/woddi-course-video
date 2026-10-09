@@ -1,0 +1,570 @@
+{
+ "course": "advanced-excel-dashboards",
+ "module": "m1",
+ "title": "O mecanismo de dados e fórmulas por trás de cada painel",
+ "course_title": "Excel avançado e painéis",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "O mecanismo de dados e fórmulas por trás de cada painel.",
+    "Este é o vídeo do módulo um de Excel Avançado e Dashboards."
+   ]
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "No nível avançado, a parte difícil do Excel raramente é a fórmula. É a forma dos dados. Muitas pastas de trabalho ficam lindas na tela, mas são construídas como um caderno de papel."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Um painel é tão bom quanto seus dados",
+    "items": [
+     "Transforme listas confusas em tabelas organizadas e nomeadas",
+     "Escreva fórmulas com várias condições",
+     "Use pesquisas que não quebram",
+     "Responda perguntas de negócios com tabelas dinâmicas"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Neste módulo você transforma listas confusas em tabelas Excel adequadas e, em seguida, escreve fórmulas que respondem a perguntas como: vendas de purê de camadas, em Oyo, em março."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Um painel é tão bom quanto seus dados",
+    "items": [
+     "Transforme listas confusas em tabelas organizadas e nomeadas",
+     "Escreva fórmulas com várias condições",
+     "Use pesquisas que não quebram",
+     "Responda perguntas de negócios com tabelas dinâmicas"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Você obterá preços e taxas de comissão com pesquisas que não quebram."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Um painel é tão bom quanto seus dados",
+    "items": [
+     "Transforme listas confusas em tabelas organizadas e nomeadas",
+     "Escreva fórmulas com várias condições",
+     "Use pesquisas que não quebram",
+     "Responda perguntas de negócios com tabelas dinâmicas"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "E você usará tabelas dinâmicas para resumir milhares de linhas em segundos."
+   ],
+   "panel": {
+    "kicker": "Por que isso é importante",
+    "heading": "Um painel é tão bom quanto seus dados",
+    "items": [
+     "Transforme listas confusas em tabelas organizadas e nomeadas",
+     "Escreva fórmulas com várias condições",
+     "Use pesquisas que não quebram",
+     "Responda perguntas de negócios com tabelas dinâmicas"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Uma linha é um registro: uma venda, um pagamento. Nunca misture registros com subtotais."
+   ],
+   "panel": {
+    "kicker": "Dados organizados",
+    "heading": "As regras dos dados organizados",
+    "items": [
+     "Uma linha = um registro, sem linhas de subtotal",
+     "Uma coluna = um tipo de informação",
+     "Uma linha de cabeçalho, sem células mescladas",
+     "Nenhuma linha ou coluna em branco dentro dos dados",
+     "Números como números, datas como datas"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Uma coluna contém um tipo de informação. Não escreva 12 sacolas de 14.500 em uma única célula."
+   ],
+   "panel": {
+    "kicker": "Dados organizados",
+    "heading": "As regras dos dados organizados",
+    "items": [
+     "Uma linha = um registro, sem linhas de subtotal",
+     "Uma coluna = um tipo de informação",
+     "Uma linha de cabeçalho, sem células mescladas",
+     "Nenhuma linha ou coluna em branco dentro dos dados",
+     "Números como números, datas como datas"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Use uma linha de cabeçalho com nomes exclusivos. Células mescladas interrompem a classificação, filtragem e cópia de fórmulas."
+   ],
+   "panel": {
+    "kicker": "Dados organizados",
+    "heading": "As regras dos dados organizados",
+    "items": [
+     "Uma linha = um registro, sem linhas de subtotal",
+     "Uma coluna = um tipo de informação",
+     "Uma linha de cabeçalho, sem células mescladas",
+     "Nenhuma linha ou coluna em branco dentro dos dados",
+     "Números como números, datas como datas"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "O Excel trata uma linha em branco como o final da lista."
+   ],
+   "panel": {
+    "kicker": "Dados organizados",
+    "heading": "As regras dos dados organizados",
+    "items": [
+     "Uma linha = um registro, sem linhas de subtotal",
+     "Uma coluna = um tipo de informação",
+     "Uma linha de cabeçalho, sem células mescladas",
+     "Nenhuma linha ou coluna em branco dentro dos dados",
+     "Números como números, datas como datas"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "E digite 45000, não o sinal naira. Aqui está um teste rápido. Selecione os valores e observe a barra de status. Se mostrar Soma, são números. Se mostrar apenas Contagem, eles são texto e desaparecem silenciosamente de seus totais."
+   ],
+   "panel": {
+    "kicker": "Dados organizados",
+    "heading": "As regras dos dados organizados",
+    "items": [
+     "Uma linha = um registro, sem linhas de subtotal",
+     "Uma coluna = um tipo de informação",
+     "Uma linha de cabeçalho, sem células mescladas",
+     "Nenhuma linha ou coluna em branco dentro dos dados",
+     "Números como números, datas como datas"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Tola administra uma empresa de rações para aves em Ibadan. Ela copia cada venda em sua própria linha, clica dentro da lista e pressiona Control T."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Transforme uma lista em uma tabela nomeada",
+    "items": [
+     "Clique dentro da lista organizada e pressione Ctrl+T",
+     "Marque Minha tabela tem cabeçalhos e OK",
+     "Nomeie-o no Design da Tabela, por exemplo tblSales",
+     "Adicione uma coluna calculada com o sinal @",
+     "Verifique três linhas manualmente"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Ela confirma que a tabela tem cabeçalhos."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Transforme uma lista em uma tabela nomeada",
+    "items": [
+     "Clique dentro da lista organizada e pressione Ctrl+T",
+     "Marque Minha tabela tem cabeçalhos e OK",
+     "Nomeie-o no Design da Tabela, por exemplo tblSales",
+     "Adicione uma coluna calculada com o sinal @",
+     "Verifique três linhas manualmente"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Ela chama isso de tblSales. Os nomes tornam as fórmulas legíveis e a Tabela cresce sozinha quando ela digita uma nova linha abaixo."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Transforme uma lista em uma tabela nomeada",
+    "items": [
+     "Clique dentro da lista organizada e pressione Ctrl+T",
+     "Marque Minha tabela tem cabeçalhos e OK",
+     "Nomeie-o no Design da Tabela, por exemplo tblSales",
+     "Adicione uma coluna calculada com o sinal @",
+     "Verifique três linhas manualmente"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Ela adiciona uma coluna Valor: Sacolas nesta linha vezes Preço por sacola nesta linha. O Excel preenche toda a coluna de uma vez."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Transforme uma lista em uma tabela nomeada",
+    "items": [
+     "Clique dentro da lista organizada e pressione Ctrl+T",
+     "Marque Minha tabela tem cabeçalhos e OK",
+     "Nomeie-o no Design da Tabela, por exemplo tblSales",
+     "Adicione uma coluna calculada com o sinal @",
+     "Verifique três linhas manualmente"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Então ela verifica manualmente. 12 vezes 14.500 são 174.000. 8 vezes 15.200 é 121.600."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Transforme uma lista em uma tabela nomeada",
+    "items": [
+     "Clique dentro da lista organizada e pressione Ctrl+T",
+     "Marque Minha tabela tem cabeçalhos e OK",
+     "Nomeie-o no Design da Tabela, por exemplo tblSales",
+     "Adicione uma coluna calculada com o sinal @",
+     "Verifique três linhas manualmente"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Mantenha cores e notas para o painel. Uma única linha ou subtotal em branco dentro dos dados distorce todos os totais construídos nele."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Transforme uma lista em uma tabela nomeada",
+    "items": [
+     "Clique dentro da lista organizada e pressione Ctrl+T",
+     "Marque Minha tabela tem cabeçalhos e OK",
+     "Nomeie-o no Design da Tabela, por exemplo tblSales",
+     "Adicione uma coluna calculada com o sinal @",
+     "Verifique três linhas manualmente"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Nunca coloque linhas ou subtotais em branco dentro dos dados.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "SUMIFS coloca primeiro o que deve ser somado e depois os pares de onde procurar e o que procurar. O SUMIF mais antigo coloca o intervalo de soma por último. Misturá-los é um erro clássico.",
+    "Tola mantém as datas, o produto e a cidade em células, para que uma fórmula possa responder a muitas perguntas. Ela nunca digita uma data entre aspas."
+   ],
+   "card": {
+    "title": "SUMIFS: mistura de camadas em Oyo, em março",
+    "rows": [],
+    "note": "Figuras ilustrativas."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Para testar, ela filtra a Tabela manualmente. Restam cinco linhas: 174.000, 290.000, 145.000, 87.000 e 232.000."
+   ],
+   "card": {
+    "title": "SUMIFS: mistura de camadas em Oyo, em março",
+    "rows": [
+     [
+      "Linha 1",
+      "174,000"
+     ],
+     [
+      "Linha 2",
+      "290,000"
+     ],
+     [
+      "Linha 3",
+      "145,000"
+     ],
+     [
+      "Linha 4",
+      "87,000"
+     ],
+     [
+      "Linha 5",
+      "232,000"
+     ]
+    ],
+    "note": "Figuras ilustrativas."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Eles somam 928.000. Sua célula SUMIFS mostra 928.000, então a fórmula está correta. Altere a célula do produto e a resposta será atualizada instantaneamente."
+   ],
+   "card": {
+    "title": "SUMIFS: mistura de camadas em Oyo, em março",
+    "rows": [
+     [
+      "Linha 1",
+      "174,000"
+     ],
+     [
+      "Linha 2",
+      "290,000"
+     ],
+     [
+      "Linha 3",
+      "145,000"
+     ],
+     [
+      "Linha 4",
+      "87,000"
+     ],
+     [
+      "Linha 5",
+      "232,000"
+     ]
+    ],
+    "note": "Figuras ilustrativas."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "VLOOKUP sem o último argumento usa correspondência aproximada. Em uma lista não classificada, ele pode retornar um preço errado sem nenhum erro. Sempre termine com FALSO."
+   ],
+   "panel": {
+    "kicker": "Pesquisas",
+    "heading": "PROCV versus XLOOKUP",
+    "mode": "compare",
+    "left_h": "PROCV",
+    "left": [
+     "Número da coluna contado manualmente",
+     "Quebra quando colunas são inseridas",
+     "O padrão é correspondência aproximada"
+    ],
+    "right_h": "XLOOKUP",
+    "right": [
+     "Pontos na coluna de retorno",
+     "Sobrevive às colunas inseridas",
+     "O padrão é a correspondência exata"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "XLOOKUP é mais seguro e seu modo de correspondência menos 1 lida com níveis. Um representante com 760.000 nairas em vendas obtém o nível de 500.000 a 3%, ou seja, 22.800 nairas de comissão.",
+    "XLOOKUP precisa do Excel 2021, 2024 ou Microsoft 365. Para 2016 ou 2019, use INDEX com MATCH."
+   ],
+   "panel": {
+    "kicker": "Pesquisas",
+    "heading": "PROCV versus XLOOKUP",
+    "mode": "compare",
+    "left_h": "PROCV",
+    "left": [
+     "Número da coluna contado manualmente",
+     "Quebra quando colunas são inseridas",
+     "O padrão é correspondência aproximada"
+    ],
+    "right_h": "XLOOKUP",
+    "right": [
+     "Pontos na coluna de retorno",
+     "Sobrevive às colunas inseridas",
+     "O padrão é a correspondência exata"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Construa cada pivô da tabela nomeada, para que novas linhas sejam incluídas. Se mostrar Contagem de valor, algumas células são texto. Corrija os dados primeiro."
+   ],
+   "panel": {
+    "kicker": "Tabelas Dinâmicas",
+    "heading": "Um pivô que responde a três perguntas",
+    "items": [
+     "Insira uma tabela dinâmica da tabela nomeada",
+     "Datas do grupo por meses e anos",
+     "Adicione o valor três vezes com Mostrar valores como",
+     "Atualizar tudo após cada alteração de dados"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Agrupe por meses e anos ou janeiro de 2024 e janeiro de 2025 são somados."
+   ],
+   "panel": {
+    "kicker": "Tabelas Dinâmicas",
+    "heading": "Um pivô que responde a três perguntas",
+    "items": [
+     "Insira uma tabela dinâmica da tabela nomeada",
+     "Datas do grupo por meses e anos",
+     "Adicione o valor três vezes com Mostrar valores como",
+     "Atualizar tudo após cada alteração de dados"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Adicione o valor como uma soma simples, depois como uma porcentagem do total geral e, a seguir, como uma diferença percentual em relação ao mês anterior. Em um exemplo, o purê de camadas representou 50% das vendas e o março cresceu 19,6%."
+   ],
+   "panel": {
+    "kicker": "Tabelas Dinâmicas",
+    "heading": "Um pivô que responde a três perguntas",
+    "items": [
+     "Insira uma tabela dinâmica da tabela nomeada",
+     "Datas do grupo por meses e anos",
+     "Adicione o valor três vezes com Mostrar valores como",
+     "Atualizar tudo após cada alteração de dados"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Os pivôs não são atualizados sozinhos. Depois de adicionar dados, use Dados, Atualizar tudo."
+   ],
+   "panel": {
+    "kicker": "Tabelas Dinâmicas",
+    "heading": "Um pivô que responde a três perguntas",
+    "items": [
+     "Insira uma tabela dinâmica da tabela nomeada",
+     "Datas do grupo por meses e anos",
+     "Adicione o valor três vezes com Mostrar valores como",
+     "Atualizar tudo após cada alteração de dados"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Lembre-se. Dados organizados primeiro. Nomeie cada tabela. SUMIFS coloca o intervalo de soma em primeiro lugar. Use correspondências exatas. E teste cada fórmula com uma verificação feita manualmente."
+   ],
+   "panel": {
+    "kicker": "Lembre-se",
+    "heading": "O que manter neste módulo",
+    "items": [
+     "Uma linha por registro, sem células mescladas",
+     "Pressione Ctrl+T e nomeie cada tabela",
+     "SUMIFS coloca o intervalo de soma em primeiro lugar",
+     "Termine VLOOKUP com FALSE ou use XLOOKUP",
+     "Fórmulas de teste com verificação filtrada manualmente"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Pegue uma lista real de pelo menos 30 linhas e transforme-a em uma tabela nomeada. Crie um bloco de resumo com SUMIFS e uma pesquisa. Em seguida, crie um pivô de três perguntas e atualize-o.",
+    "Agora continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Tarefa prática",
+    "heading": "Suas tarefas para este módulo",
+    "items": [
+     "Reestruture uma lista real em uma tabela nomeada",
+     "Crie um bloco de resumo condicional",
+     "Crie um pivô de três perguntas"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

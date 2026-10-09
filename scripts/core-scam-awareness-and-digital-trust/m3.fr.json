@@ -1,0 +1,525 @@
+{
+ "course": "core-scam-awareness-and-digital-trust",
+ "module": "m3",
+ "title": "Vérifiez à votre manière, verrouillez votre argent, protégez vos collaborateurs",
+ "course_title": "Sensibilisation aux arnaques et confiance numérique",
+ "shots": [
+  {
+   "demo": "security_lock",
+   "say": [
+    "Vérifiez à votre manière, verrouillez votre argent et protégez vos collaborateurs.",
+    "Ceci est la vidéo du module trois : vous protéger, protéger votre argent et vos collaborateurs."
+   ]
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Si un SMS dit d'appeler ce numéro pour confirmer, ce numéro appartient à l'escroc."
+   ],
+   "panel": {
+    "kicker": "L'habitude la plus puissante",
+    "heading": "Ne vérifiez jamais en utilisant le message lui-même",
+    "items": [
+     "Le numéro dans le message appartient à l'escroc",
+     "Le lien dans le message appartient à l'escroc",
+     "Votre banque : le numéro figurant sur votre carte ATM",
+     "Votre réseau : le numéro présent sur votre pack SIM"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Si un lien indique connectez-vous ici, cette page appartient à l'escroc. La vérification ne fonctionne que lorsque vous choisissez vous-même la chaîne."
+   ],
+   "panel": {
+    "kicker": "L'habitude la plus puissante",
+    "heading": "Ne vérifiez jamais en utilisant le message lui-même",
+    "items": [
+     "Le numéro dans le message appartient à l'escroc",
+     "Le lien dans le message appartient à l'escroc",
+     "Votre banque : le numéro figurant sur votre carte ATM",
+     "Votre réseau : le numéro présent sur votre pack SIM"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_security",
+   "say": [
+    "Pour votre banque, utilisez le numéro figurant au dos de votre carte ATM ou l'application officielle que vous avez installée vous-même."
+   ],
+   "panel": {
+    "kicker": "L'habitude la plus puissante",
+    "heading": "Ne vérifiez jamais en utilisant le message lui-même",
+    "items": [
+     "Le numéro dans le message appartient à l'escroc",
+     "Le lien dans le message appartient à l'escroc",
+     "Votre banque : le numéro figurant sur votre carte ATM",
+     "Votre réseau : le numéro présent sur votre pack SIM"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_security",
+   "say": [
+    "Pour votre réseau, utilisez le numéro figurant sur votre pack SIM. Pour le gouvernement, saisissez vous-même l'adresse officielle se terminant par point gov dot n g.",
+    "Et rappelez-vous, une icône de cadenas signifie uniquement que la connexion est cryptée. Les sites frauduleux peuvent également en avoir un."
+   ],
+   "panel": {
+    "kicker": "L'habitude la plus puissante",
+    "heading": "Ne vérifiez jamais en utilisant le message lui-même",
+    "items": [
+     "Le numéro dans le message appartient à l'escroc",
+     "Le lien dans le message appartient à l'escroc",
+     "Votre banque : le numéro figurant sur votre carte ATM",
+     "Votre réseau : le numéro présent sur votre pack SIM"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Les escroqueries d’urgence indiquent qu’un proche est arrêté ou blessé. Aujourd’hui, les voix peuvent même être imitées avec des logiciels. Alors acceptez un simple mot de code familial."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Mama Tolu et le mot de code familial",
+    "items": [
+     "Convenez d'un mot secret de famille, pas sur les réseaux sociaux",
+     "Appel d'urgence ? Demandez : quelle est notre parole ?",
+     "Pas de mot ? Dites que vous rappellerez et raccrochez",
+     "Appelez le numéro normal de votre proche"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Mama Tolu, 64 ans, à Ilorin, a reçu un appel. Un jeune homme a crié : Maman, j'ai eu un accident, envoie 120 000 nairas sur le compte de cet officier maintenant. Elle a demandé, quelle est notre parole ?"
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Mama Tolu et le mot de code familial",
+    "items": [
+     "Convenez d'un mot secret de famille, pas sur les réseaux sociaux",
+     "Appel d'urgence ? Demandez : quelle est notre parole ?",
+     "Pas de mot ? Dites que vous rappellerez et raccrochez",
+     "Appelez le numéro normal de votre proche"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Il a dit : Maman, nous n'avons pas le temps pour ça. Elle a donc dit qu'elle rappellerait et a raccroché."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Mama Tolu et le mot de code familial",
+    "items": [
+     "Convenez d'un mot secret de famille, pas sur les réseaux sociaux",
+     "Appel d'urgence ? Demandez : quelle est notre parole ?",
+     "Pas de mot ? Dites que vous rappellerez et raccrochez",
+     "Appelez le numéro normal de votre proche"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Elle a appelé le numéro normal de Tolu. Il était en sécurité dans son bureau. Le mot de code a pris dix secondes et a stoppé une perte de 120 000 nairas."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Mama Tolu et le mot de code familial",
+    "items": [
+     "Convenez d'un mot secret de famille, pas sur les réseaux sociaux",
+     "Appel d'urgence ? Demandez : quelle est notre parole ?",
+     "Pas de mot ? Dites que vous rappellerez et raccrochez",
+     "Appelez le numéro normal de votre proche"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Pas de mot de code ? Raccrochez et appelez directement votre proche.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Un téléphone sans serrure est un sac à main ouvert. Utilisez un code PIN d'au moins six chiffres ou votre empreinte digitale."
+   ],
+   "panel": {
+    "kicker": "Verrouillez votre argent",
+    "heading": "Des couches qui protègent votre argent",
+    "items": [
+     "Verrouillage de l'écran : un code PIN d'au moins six chiffres",
+     "Différents codes PIN pour la carte et l'application, pas 1234",
+     "Une limite de transfert quotidienne inférieure",
+     "Alertes de débit activées et connaissance du gel de la carte",
+     "La plupart des économies sur un compte séparé"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Utilisez des codes PIN différents pour votre carte et votre application. Pas votre anniversaire, votre numéro de téléphone ou le 1234. Et n'enregistrez jamais de code PIN dans vos notes téléphoniques."
+   ],
+   "panel": {
+    "kicker": "Verrouillez votre argent",
+    "heading": "Des couches qui protègent votre argent",
+    "items": [
+     "Verrouillage de l'écran : un code PIN d'au moins six chiffres",
+     "Différents codes PIN pour la carte et l'application, pas 1234",
+     "Une limite de transfert quotidienne inférieure",
+     "Alertes de débit activées et connaissance du gel de la carte",
+     "La plupart des économies sur un compte séparé"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Fixez une limite de transfert quotidienne inférieure. Si un criminel entre, il peut prendre moins. Soulevez-le uniquement lorsque vous en avez besoin."
+   ],
+   "panel": {
+    "kicker": "Verrouillez votre argent",
+    "heading": "Des couches qui protègent votre argent",
+    "items": [
+     "Verrouillage de l'écran : un code PIN d'au moins six chiffres",
+     "Différents codes PIN pour la carte et l'application, pas 1234",
+     "Une limite de transfert quotidienne inférieure",
+     "Alertes de débit activées et connaissance du gel de la carte",
+     "La plupart des économies sur un compte séparé"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Activez les alertes pour chaque débit et trouvez le bouton qui gèle votre carte en un seul clic."
+   ],
+   "panel": {
+    "kicker": "Verrouillez votre argent",
+    "heading": "Des couches qui protègent votre argent",
+    "items": [
+     "Verrouillage de l'écran : un code PIN d'au moins six chiffres",
+     "Différents codes PIN pour la carte et l'application, pas 1234",
+     "Une limite de transfert quotidienne inférieure",
+     "Alertes de débit activées et connaissance du gel de la carte",
+     "La plupart des économies sur un compte séparé"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Conservez la majeure partie de votre argent sur un deuxième compte sans carte, à l'abri des risques quotidiens."
+   ],
+   "panel": {
+    "kicker": "Verrouillez votre argent",
+    "heading": "Des couches qui protègent votre argent",
+    "items": [
+     "Verrouillage de l'écran : un code PIN d'au moins six chiffres",
+     "Différents codes PIN pour la carte et l'application, pas 1234",
+     "Une limite de transfert quotidienne inférieure",
+     "Alertes de débit activées et connaissance du gel de la carte",
+     "La plupart des économies sur un compte séparé"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Esther vérifie son écran de commerçant, jamais le téléphone du client."
+   ],
+   "card": {
+    "title": "La routine de paiement d'Esther sur le marché",
+    "rows": [],
+    "note": "Aucune perte due à de fausses alertes en un mois."
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Pour les marchandises d’une valeur supérieure à 10 000 nairas, elle vérifie son solde dans son application bancaire avant de les remettre."
+   ],
+   "card": {
+    "title": "La routine de paiement d'Esther sur le marché",
+    "rows": [
+     [
+      "Vérifiez le solde de l'application pour les marchandises terminées",
+      "10,000"
+     ]
+    ],
+    "note": "Aucune perte due à de fausses alertes en un mois."
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Un samedi, aucun transfert de 45 000 naira n'est arrivé. Elle a gardé la marchandise. Le client est revenu deux heures plus tard avec du liquide.",
+    "Aux points de vente et aux distributeurs automatiques, gardez votre carte en vue, couvrez le clavier et refusez l’aide des étrangers."
+   ],
+   "card": {
+    "title": "La routine de paiement d'Esther sur le marché",
+    "rows": [
+     [
+      "Vérifiez le solde de l'application pour les marchandises terminées",
+      "10,000"
+     ],
+     [
+      "Transfert qui n'est jamais arrivé",
+      "45,000"
+     ]
+    ],
+    "note": "Aucune perte due à de fausses alertes en un mois."
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Votre email peut réinitialiser vos autres comptes. Votre WhatsApp peut être utilisé pour demander de l’argent à tous vos contacts.",
+    "Le compte piraté d'un ami indique : Je vous ai envoyé un code par erreur, veuillez l'envoyer. C'est votre propre code WhatsApp. Le partager remet votre compte."
+   ],
+   "panel": {
+    "kicker": "Protégez vos comptes",
+    "heading": "Configuration faible ou configuration forte ?",
+    "mode": "compare",
+    "left_h": "Faible",
+    "left": [
+     "Noms ou anniversaires des enfants",
+     "Un mot de passe partout",
+     "Pas de vérification en deux étapes",
+     "Partager un code demandé par un ami"
+    ],
+    "right_h": "Fort",
+    "right": [
+     "Phrase secrète longue et unique",
+     "Mot de passe différent pour l'e-mail",
+     "Code PIN WhatsApp en deux étapes",
+     "Appareils inconnus déconnectés"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Utilisez trois ou quatre mots sans rapport avec un nombre. Activez la vérification en deux étapes. Ifeoma a perdu son WhatsApp après avoir partagé un code. Elle a enregistré à nouveau son numéro, prévenu ses contacts et défini son propre code PIN. Personne n'a envoyé d'argent."
+   ],
+   "panel": {
+    "kicker": "Protégez vos comptes",
+    "heading": "Configuration faible ou configuration forte ?",
+    "mode": "compare",
+    "left_h": "Faible",
+    "left": [
+     "Noms ou anniversaires des enfants",
+     "Un mot de passe partout",
+     "Pas de vérification en deux étapes",
+     "Partager un code demandé par un ami"
+    ],
+    "right_h": "Fort",
+    "right": [
+     "Phrase secrète longue et unique",
+     "Mot de passe différent pour l'e-mail",
+     "Code PIN WhatsApp en deux étapes",
+     "Appareils inconnus déconnectés"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Les parents plus âgés ont besoin de trois règles dont ils peuvent se souvenir sous pression. Premièrement, aucun code ni code PIN, à personne."
+   ],
+   "panel": {
+    "kicker": "Protégez votre peuple",
+    "heading": "Trois règles pour les parents âgés",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Pas de codes, pas de codes PIN",
+      "d": "À n'importe qui. Si quelqu'un vous le demande, raccrochez."
+     },
+     {
+      "t": "Appelez d'abord la personne",
+      "d": "Pas d'argent pour les urgences jusqu'à ce que vous appeliez directement la personne ou que le mot de passe soit donné."
+     },
+     {
+      "t": "En cas de doute, appelle-moi",
+      "d": "Un numéro de confiance à appeler avant tout paiement."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Deuxièmement, pas d’argent pour une urgence tant que vous n’avez pas appelé directement la personne."
+   ],
+   "panel": {
+    "kicker": "Protégez votre peuple",
+    "heading": "Trois règles pour les parents âgés",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Pas de codes, pas de codes PIN",
+      "d": "À n'importe qui. Si quelqu'un vous le demande, raccrochez."
+     },
+     {
+      "t": "Appelez d'abord la personne",
+      "d": "Pas d'argent pour les urgences jusqu'à ce que vous appeliez directement la personne ou que le mot de passe soit donné."
+     },
+     {
+      "t": "En cas de doute, appelle-moi",
+      "d": "Un numéro de confiance à appeler avant tout paiement."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_security",
+   "say": [
+    "Troisièmement, en cas de doute, appelez-moi. Écrivez les règles sur une carte et collez-la près de leur téléphone."
+   ],
+   "panel": {
+    "kicker": "Protégez votre peuple",
+    "heading": "Trois règles pour les parents âgés",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Pas de codes, pas de codes PIN",
+      "d": "À n'importe qui. Si quelqu'un vous le demande, raccrochez."
+     },
+     {
+      "t": "Appelez d'abord la personne",
+      "d": "Pas d'argent pour les urgences jusqu'à ce que vous appeliez directement la personne ou que le mot de passe soit donné."
+     },
+     {
+      "t": "En cas de doute, appelle-moi",
+      "d": "Un numéro de confiance à appeler avant tout paiement."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Dites aux clients quel compte vous utilisez et que vous ne le modifierez jamais par message.",
+    "Une coopérative de 60 femmes des actions d'Owerri a vérifié les avertissements en trois lignes : ce qui s'est passé, le drapeau rouge, que faire. En trois mois, deux membres ont stoppé un faux appel bancaire."
+   ],
+   "panel": {
+    "kicker": "Pour les vendeurs et les groupes",
+    "heading": "Protéger les clients et la communauté",
+    "items": [
+     "Dites aux clients votre seul compte officiel",
+     "Dites que vous ne demanderez jamais de code PIN ou d'OTP",
+     "Rechercher mensuellement des pages de copie",
+     "Avertir en trois lignes : quoi, drapeau rouge, action",
+     "Soutenir les victimes ; ne leur fais jamais honte"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "À retenir. Trouvez vous-même des contacts. Convenez d’un mot de code familial. Réduisez vos limites et activez les alertes.",
+    "Activez la vérification en deux étapes. Et répandez la protection, pas la panique."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Trouvez des contacts vous-même, jamais à partir du message",
+     "Un mot de code familial met fin aux escroqueries d’urgence",
+     "Limites inférieures, alertes de débit, gel de carte",
+     "Vérification en deux étapes sur WhatsApp et email",
+     "Enseignez trois règles : avertir sans panique"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_security",
+   "say": [
+    "Maintenant, entraînez-vous. Enregistrez vos numéros officiels et acceptez un mot de code, vérifiez vos limites et vos alertes, activez la vérification en deux étapes et enseignez les trois règles à un parent.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâche pratique",
+    "heading": "Vos tâches pratiques",
+    "items": [
+     "Construisez votre liste de contacts OFFICIELS",
+     "Effectuer une vérification de la configuration de la sécurité",
+     "Verrouiller trois comptes",
+     "Enseigner à une personne et publier un avertissement"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

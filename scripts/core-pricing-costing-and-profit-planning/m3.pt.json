@@ -1,0 +1,569 @@
+{
+ "course": "core-pricing-costing-and-profit-planning",
+ "module": "m3",
+ "title": "Metas de lucro, seu P&L mensal e fluxo de caixa",
+ "course_title": "Preços, custos e planejamento de lucros",
+ "shots": [
+  {
+   "demo": "cash_count",
+   "say": [
+    "Metas de lucro, lucros e perdas mensais e fluxo de caixa.",
+    "Este é o vídeo do Módulo 3 de Preços, Custeio e Planejamento de Lucros."
+   ]
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "O ponto de equilíbrio mostra como parar de perder dinheiro. Uma meta de lucro informa como ganhar o dinheiro que você deseja. Basta adicionar o lucro desejado aos seus custos fixos e depois dividir pela sua contribuição por unidade."
+   ],
+   "card": {
+    "title": "Trabalhe com o lucro que você deseja",
+    "rows": [],
+    "note": "Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Os custos fixos de Ngozi são de 110.000 nairas por mês. Seu próprio salário já está dentro deles."
+   ],
+   "card": {
+    "title": "Trabalhe com o lucro que você deseja",
+    "rows": [
+     [
+      "Custos fixos mensais, com salário",
+      "110,000"
+     ]
+    ],
+    "note": "Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Ela quer um lucro adicional de 100.000 nairas, para economizar para comprar uma fritadeira maior."
+   ],
+   "card": {
+    "title": "Trabalhe com o lucro que você deseja",
+    "rows": [
+     [
+      "Custos fixos mensais, com salário",
+      "110,000"
+     ],
+     [
+      "Lucro alvo para uma fritadeira maior",
+      "100,000"
+     ]
+    ],
+    "note": "Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Juntos, isso equivale a 210.000 nairas. Dividido por 760, isso dá 276,3. Arredondamento: 277 maços por mês.",
+    "Isso dá 70 maços por semana ou 11 maços por dia. Um número que ela pode marcar em seu caderno."
+   ],
+   "card": {
+    "title": "Trabalhe com o lucro que você deseja",
+    "rows": [
+     [
+      "Custos fixos mensais, com salário",
+      "110,000"
+     ],
+     [
+      "Lucro alvo para uma fritadeira maior",
+      "100,000"
+     ]
+    ],
+    "note": "Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Um alvo só é útil se você puder alcançá-lo. Você consegue? Ngozi pode fritar de 6 a 8 porções por mês, então sim."
+   ],
+   "panel": {
+    "kicker": "Verificação da realidade",
+    "heading": "Verifique o alvo e puxe uma alavanca",
+    "items": [
+     "Posso fazer isso? Contar lotes",
+     "Posso vendê-lo? Compare com o mês passado",
+     "Posso financiar? Cada lote precisa de dinheiro primeiro",
+     "Alavancas: preço, custo variável, custo fixo, volume"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Você pode vendê-lo? Ela vendeu cerca de 250 pacotes no mês passado, então 277 é um exagero de cerca de 11%, não uma fantasia."
+   ],
+   "panel": {
+    "kicker": "Verificação da realidade",
+    "heading": "Verifique o alvo e puxe uma alavanca",
+    "items": [
+     "Posso fazer isso? Contar lotes",
+     "Posso vendê-lo? Compare com o mês passado",
+     "Posso financiar? Cada lote precisa de dinheiro primeiro",
+     "Alavancas: preço, custo variável, custo fixo, volume"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Você pode financiar isso? Cada lote custa 47.000 nairas antes que o dinheiro volte."
+   ],
+   "panel": {
+    "kicker": "Verificação da realidade",
+    "heading": "Verifique o alvo e puxe uma alavanca",
+    "items": [
+     "Posso fazer isso? Contar lotes",
+     "Posso vendê-lo? Compare com o mês passado",
+     "Posso financiar? Cada lote precisa de dinheiro primeiro",
+     "Alavancas: preço, custo variável, custo fixo, volume"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Em seguida, escolha sua alavanca: aumentar o preço, cortar custos variáveis, cortar custos fixos ou vender mais. Com 1.500 nairas, Ngozi precisaria de 375 maços para obter o mesmo lucro. Os preços baixos exigem muito mais trabalho e dinheiro."
+   ],
+   "panel": {
+    "kicker": "Verificação da realidade",
+    "heading": "Verifique o alvo e puxe uma alavanca",
+    "items": [
+     "Posso fazer isso? Contar lotes",
+     "Posso vendê-lo? Compare com o mês passado",
+     "Posso financiar? Cada lote precisa de dinheiro primeiro",
+     "Alavancas: preço, custo variável, custo fixo, volume"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Uma demonstração de lucros e perdas é o seu scorecard mensal. Comece pelas vendas: tudo o que você vendeu, inclusive as vendas a crédito."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Seus lucros e perdas mensais",
+    "items": [
+     "Vendas: tudo vendido, incluindo crédito",
+     "Menos custo dos produtos vendidos",
+     "É igual ao lucro bruto",
+     "Menos despesas operacionais",
+     "É igual ao lucro ou prejuízo líquido"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Subtraia o custo dos produtos vendidos. Esse é o custo variável das unidades que você realmente vendeu."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Seus lucros e perdas mensais",
+    "items": [
+     "Vendas: tudo vendido, incluindo crédito",
+     "Menos custo dos produtos vendidos",
+     "É igual ao lucro bruto",
+     "Menos despesas operacionais",
+     "É igual ao lucro ou prejuízo líquido"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Isso dá lucro bruto. As unidades que ainda estão em sua prateleira são estoque, não o custo deste mês."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Seus lucros e perdas mensais",
+    "items": [
+     "Vendas: tudo vendido, incluindo crédito",
+     "Menos custo dos produtos vendidos",
+     "É igual ao lucro bruto",
+     "Menos despesas operacionais",
+     "É igual ao lucro ou prejuízo líquido"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Conte apenas o custo variável das unidades vendidas. As unidades não vendidas estão em estoque.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Subtraia suas despesas operacionais: aluguel, salário, dados, taxas e desgaste de equipamentos."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Seus lucros e perdas mensais",
+    "items": [
+     "Vendas: tudo vendido, incluindo crédito",
+     "Menos custo dos produtos vendidos",
+     "É igual ao lucro bruto",
+     "Menos despesas operacionais",
+     "É igual ao lucro ou prejuízo líquido"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Conte apenas o custo variável das unidades vendidas. As unidades não vendidas estão em estoque.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "O que resta é o seu lucro líquido ou prejuízo líquido. Com bons registros diários, isso leva cerca de 30 minutos."
+   ],
+   "panel": {
+    "kicker": "Passo a passo",
+    "heading": "Seus lucros e perdas mensais",
+    "items": [
+     "Vendas: tudo vendido, incluindo crédito",
+     "Menos custo dos produtos vendidos",
+     "É igual ao lucro bruto",
+     "Menos despesas operacionais",
+     "É igual ao lucro ou prejuízo líquido"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Conte apenas o custo variável das unidades vendidas. As unidades não vendidas estão em estoque.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Aqui está um mês real. Ngozi fez 350 pacotes. Ela vendeu 260 por 1.700 nairas e 60 por 1.400 nairas, e 30 ainda estavam em estoque."
+   ],
+   "card": {
+    "title": "P&L de Ngozi por um mês",
+    "rows": [],
+    "note": "Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Suas vendas totais foram de 526.000 nairas."
+   ],
+   "card": {
+    "title": "P&L de Ngozi por um mês",
+    "rows": [
+     [
+      "Vendas totais",
+      "526,000"
+     ]
+    ],
+    "note": "Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "320 pacotes vendidos, a 940 nairas cada, equivalem a 300.800 nairas de custo das mercadorias vendidas. Seu lucro bruto é de 225.200 nairas."
+   ],
+   "card": {
+    "title": "P&L de Ngozi por um mês",
+    "rows": [
+     [
+      "Vendas totais",
+      "526,000"
+     ],
+     [
+      "Custo dos produtos vendidos, 320 pacotes",
+      "300,800"
+     ],
+     [
+      "Lucro bruto",
+      "225,200"
+     ]
+    ],
+    "note": "Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Após 110.000 nairas em despesas operacionais, seu lucro líquido é de 115.200 nairas. Isso supera sua meta em 15.200 nairas.",
+    "Observe sua margem bruta e margem líquida a cada mês. Os dela são cerca de 42,8% e 21,9%."
+   ],
+   "card": {
+    "title": "P&L de Ngozi por um mês",
+    "rows": [
+     [
+      "Vendas totais",
+      "526,000"
+     ],
+     [
+      "Custo dos produtos vendidos, 320 pacotes",
+      "300,800"
+     ],
+     [
+      "Lucro bruto",
+      "225,200"
+     ],
+     [
+      "Despesas operacionais",
+      "110,000"
+     ],
+     [
+      "Lucro líquido",
+      "115,200"
+     ]
+    ],
+    "note": "Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "O fluxo de caixa é o movimento real de entrada e saída de dinheiro. Muitas pequenas empresas falham não porque não sejam lucrativas, mas porque ficam sem dinheiro.",
+    "As vendas a crédito contam como vendas, mas nenhum dinheiro chega até que o cliente pague."
+   ],
+   "panel": {
+    "kicker": "Lucro não é dinheiro",
+    "heading": "Por que lucro e dinheiro são diferentes",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Vendas a crédito",
+      "d": "Contado como vendas no P&L, mas nenhum dinheiro chega até que o cliente pague."
+     },
+     {
+      "t": "Estoque não vendido",
+      "d": "Você pagou em dinheiro para fazer isso, mas ainda não é um custo no resultado."
+     },
+     {
+      "t": "Reembolsos de empréstimos",
+      "d": "O dinheiro sai, mas o reembolso do valor do empréstimo não é uma despesa no resultado."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "As ações não vendidas foram pagas em dinheiro, mas ainda não são um custo no resultado."
+   ],
+   "panel": {
+    "kicker": "Lucro não é dinheiro",
+    "heading": "Por que lucro e dinheiro são diferentes",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Vendas a crédito",
+      "d": "Contado como vendas no P&L, mas nenhum dinheiro chega até que o cliente pague."
+     },
+     {
+      "t": "Estoque não vendido",
+      "d": "Você pagou em dinheiro para fazer isso, mas ainda não é um custo no resultado."
+     },
+     {
+      "t": "Reembolsos de empréstimos",
+      "d": "O dinheiro sai, mas o reembolso do valor do empréstimo não é uma despesa no resultado."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "E as amortizações de empréstimos retiram dinheiro, sem constituir uma despesa no resultado."
+   ],
+   "panel": {
+    "kicker": "Lucro não é dinheiro",
+    "heading": "Por que lucro e dinheiro são diferentes",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Vendas a crédito",
+      "d": "Contado como vendas no P&L, mas nenhum dinheiro chega até que o cliente pague."
+     },
+     {
+      "t": "Estoque não vendido",
+      "d": "Você pagou em dinheiro para fazer isso, mas ainda não é um custo no resultado."
+     },
+     {
+      "t": "Reembolsos de empréstimos",
+      "d": "O dinheiro sai, mas o reembolso do valor do empréstimo não é uma despesa no resultado."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Ngozi obteve lucro de 115.200 nairas. Então, onde está o dinheiro dela?"
+   ],
+   "card": {
+    "title": "Lucrativo, mas com pouco dinheiro",
+    "rows": [],
+    "note": "Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Somente suas vendas no varejo, 442 mil nairas, chegaram. Os 84 mil nairas do supermercado só serão devidos no próximo mês."
+   ],
+   "card": {
+    "title": "Lucrativo, mas com pouco dinheiro",
+    "rows": [
+     [
+      "Dinheiro em: vendas no varejo",
+      "442,000"
+     ]
+    ],
+    "note": "Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Foram gastos 466 mil nairas para 7 lotes, custos fixos e amortização do empréstimo."
+   ],
+   "card": {
+    "title": "Lucrativo, mas com pouco dinheiro",
+    "rows": [
+     [
+      "Dinheiro em: vendas no varejo",
+      "442,000"
+     ],
+     [
+      "Saque: lotes, custos, empréstimo",
+      "466,000"
+     ]
+    ],
+    "note": "Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Seu dinheiro caiu para 16.000 nairas, o que não é suficiente nem para um lote de 47.000 nairas. É por isso que você prevê o caixa semana após semana e age antecipadamente em qualquer semana que termine negativa."
+   ],
+   "card": {
+    "title": "Lucrativo, mas com pouco dinheiro",
+    "rows": [
+     [
+      "Dinheiro em: vendas no varejo",
+      "442,000"
+     ],
+     [
+      "Saque: lotes, custos, empréstimo",
+      "466,000"
+     ],
+     [
+      "Fechando dinheiro",
+      "16,000"
+     ]
+    ],
+    "note": "Os preços do Naira são aproximados."
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Faça um depósito, por exemplo 50%, antes de iniciar pedidos personalizados. Dê crédito apenas a clientes conhecidos, por escrito, com data de vencimento. Mantenha uma reserva de pelo menos um mês de custos fixos.",
+    "Não peça emprestado para cobrir uma perda. E tenha cuidado com as ofertas de investimento que prometem altos retornos mensais."
+   ],
+   "panel": {
+    "kicker": "Controle o risco",
+    "heading": "Proteja seu dinheiro",
+    "items": [
+     "Faça um depósito em pedidos personalizados",
+     "Escreva valores de crédito e datas de vencimento",
+     "Mantenha um mês de custos fixos como reserva",
+     "Nunca peça emprestado para esconder uma perda",
+     "Evite ofertas de investimento de alto retorno"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Para lembrar. Adicione sua meta de lucro aos custos fixos e divida por contribuição. Transforme-o em um número diário. Construa seu P&L todos os meses. Lembre-se de que lucro não é dinheiro. E preveja o caixa semanalmente, para agir antes que uma semana fique negativa."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Lembre-se",
+    "items": [
+     "Unidades para meta = (fixo + lucro) / contribuição",
+     "Transforme a meta em números diários",
+     "Vendas, menos CPV, menos despesas = lucro líquido",
+     "Lucro não é dinheiro: crédito, ações e empréstimos",
+     "Previsão de caixa semanalmente; agir em semanas negativas"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Agora defina sua própria meta de lucro com números diários e semanais, prepare os lucros e perdas do mês anterior e crie uma previsão de caixa para quatro semanas.",
+    "Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Pratique tarefas",
+    "heading": "Suas tarefas para este módulo",
+    "items": [
+     "Defina sua própria meta de lucro",
+     "Prepare o P&L do mês passado",
+     "Crie uma previsão de caixa para quatro semanas"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

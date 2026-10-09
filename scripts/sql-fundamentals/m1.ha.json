@@ -1,0 +1,583 @@
+{
+ "course": "sql-fundamentals",
+ "module": "m1",
+ "title": "Yadda bayanan bayanai ke tunani: teburi, tambayoyi da taƙaitawa",
+ "course_title": "Bayanan Bayani na SQL",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Yadda bayanan bayanai ke tunani: teburi, tambayoyi da taƙaitawa.",
+    "Wannan shine bidiyon don module 1 na SQL Fundamentals."
+   ]
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Ka'idar bankin ku, ƙa'idar hauhawa, kantin kan layi: kusan duk suna adana bayanansu a cikin bayanan alaƙa. Bayanan yana zaune a cikin teburi da yawa, an haɗa su ta lambobin ID ɗin da aka raba."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Kowane app yana adana bayanansa a cikin tebur",
+    "items": [
+     "Bayanai suna zaune a cikin allunan da aka haɗa ta lambobin ID",
+     "Tebur yana ɗaukar nau'in abu ɗaya",
+     "Rukunin hujja ɗaya ce; jere shine rikodin daya",
+     "SQL shine yaren yin tambayoyi"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Kasuwancin mu na Kemi ne, alal misali, wanda ke siyar da Ankara, yadin da aka saka da kuma taurin kai. Database nata yana da tebur na abokan ciniki, tebur na oda, da tebur na kayan oda."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Kowane app yana adana bayanansa a cikin tebur",
+    "items": [
+     "Bayanai suna zaune a cikin allunan da aka haɗa ta lambobin ID",
+     "Tebur yana ɗaukar nau'in abu ɗaya",
+     "Rukunin hujja ɗaya ce; jere shine rikodin daya",
+     "SQL shine yaren yin tambayoyi"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Kowane ginshiƙi hujja ɗaya ce, kamar birni. Kowane jere abokin ciniki ɗaya ne ko oda ɗaya."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Kowane app yana adana bayanansa a cikin tebur",
+    "items": [
+     "Bayanai suna zaune a cikin allunan da aka haɗa ta lambobin ID",
+     "Tebur yana ɗaukar nau'in abu ɗaya",
+     "Rukunin hujja ɗaya ce; jere shine rikodin daya",
+     "SQL shine yaren yin tambayoyi"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "SQL, Harshen Tambaya Mai Tsari, shine yadda kuke yin tambayoyin tebur. Umarni guda ɗaya suna aiki a cikin PostgreSQL, MySQL, SQLite da ƙari."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Kowane app yana adana bayanansa a cikin tebur",
+    "items": [
+     "Bayanai suna zaune a cikin allunan da aka haɗa ta lambobin ID",
+     "Tebur yana ɗaukar nau'in abu ɗaya",
+     "Rukunin hujja ɗaya ce; jere shine rikodin daya",
+     "SQL shine yaren yin tambayoyi"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Maɓalli na farko shine ginshiƙi wanda ke keɓantacce ga kowane jere kuma ba zai zama fanko ba. A cikin abokan ciniki, Amaka shine lamba 1."
+   ],
+   "panel": {
+    "kicker": "Ra'ayoyi masu mahimmanci guda uku",
+    "heading": "Maɓallai da adana kowace hujja sau ɗaya",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Maɓalli na farko",
+      "d": "Na musamman ga kowane jere, ba komai. Amaka abokin ciniki_id 1 ne, kuma babu wanda zai iya zama 1."
+     },
+     {
+      "t": "Maɓalli na waje",
+      "d": "Nuna zuwa wani tebur. Order 101 yana da abokin ciniki_id 1, don haka na Amaka ne."
+     },
+     {
+      "t": "Daidaitawa",
+      "d": "Ajiye kowace hujja sau ɗaya. Birnin Amaka yana zaune ne kawai a cikin abokan ciniki, don haka rahotanni ba su yarda ba."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Maɓalli na waje yana riƙe da maɓallin farko na wani tebur. Order 101 yana da abokin ciniki_id 1, don haka na Amaka ne. Wannan lambar tana ba ku damar shiga tebur daga baya."
+   ],
+   "panel": {
+    "kicker": "Ra'ayoyi masu mahimmanci guda uku",
+    "heading": "Maɓallai da adana kowace hujja sau ɗaya",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Maɓalli na farko",
+      "d": "Na musamman ga kowane jere, ba komai. Amaka abokin ciniki_id 1 ne, kuma babu wanda zai iya zama 1."
+     },
+     {
+      "t": "Maɓalli na waje",
+      "d": "Nuna zuwa wani tebur. Order 101 yana da abokin ciniki_id 1, don haka na Amaka ne."
+     },
+     {
+      "t": "Daidaitawa",
+      "d": "Ajiye kowace hujja sau ɗaya. Birnin Amaka yana zaune ne kawai a cikin abokan ciniki, don haka rahotanni ba su yarda ba."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Me yasa ba babban takarda daya ba? Idan ana buga garin Amaka akan kowane oda kuma ta motsa, dole ne ku canza kowane layi, kuma idan kun rasa ɗaya, rahotonku ya ƙi yarda. Ajiye kowace hujja sau ɗaya ana kiran al'ada."
+   ],
+   "panel": {
+    "kicker": "Ra'ayoyi masu mahimmanci guda uku",
+    "heading": "Maɓallai da adana kowace hujja sau ɗaya",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Maɓalli na farko",
+      "d": "Na musamman ga kowane jere, ba komai. Amaka abokin ciniki_id 1 ne, kuma babu wanda zai iya zama 1."
+     },
+     {
+      "t": "Maɓalli na waje",
+      "d": "Nuna zuwa wani tebur. Order 101 yana da abokin ciniki_id 1, don haka na Amaka ne."
+     },
+     {
+      "t": "Daidaitawa",
+      "d": "Ajiye kowace hujja sau ɗaya. Birnin Amaka yana zaune ne kawai a cikin abokan ciniki, don haka rahotanni ba su yarda ba."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Integer yana riƙe da lambobi gabaɗaya, kamar ID da yawa."
+   ],
+   "panel": {
+    "kicker": "Nau'in bayanai",
+    "heading": "Zaɓi nau'in kowane shafi da gangan",
+    "items": [
+     "INTEGER: lambobi duka, ID, adadi",
+     "DECIMAL: ainihin lambobi don kuɗi",
+     "TEXT: sunaye, da lambobin waya kuma",
+     "RANAR: ko da yaushe YYYY-MM-DD",
+     "BOLEAN: gaskiya ko karya"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Decimal, ko lamba, yana riƙe da ainihin lambobi. Yi amfani da shi don kuɗi, ba nau'in iyo ba, wanda zai iya yin ƙananan kurakurai."
+   ],
+   "panel": {
+    "kicker": "Nau'in bayanai",
+    "heading": "Zaɓi nau'in kowane shafi da gangan",
+    "items": [
+     "INTEGER: lambobi duka, ID, adadi",
+     "DECIMAL: ainihin lambobi don kuɗi",
+     "TEXT: sunaye, da lambobin waya kuma",
+     "RANAR: ko da yaushe YYYY-MM-DD",
+     "BOLEAN: gaskiya ko karya"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Rubutu yana riƙe da kalmomi. Lambobin waya su ma rubutu ne, saboda sifili mai jagora, kamar a cikin 0803, zai ɓace idan an adana shi azaman lamba."
+   ],
+   "panel": {
+    "kicker": "Nau'in bayanai",
+    "heading": "Zaɓi nau'in kowane shafi da gangan",
+    "items": [
+     "INTEGER: lambobi duka, ID, adadi",
+     "DECIMAL: ainihin lambobi don kuɗi",
+     "TEXT: sunaye, da lambobin waya kuma",
+     "RANAR: ko da yaushe YYYY-MM-DD",
+     "BOLEAN: gaskiya ko karya"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Ajiye kwanakin kamar shekara, wata, rana, don haka suna tsara daidai. Kuma boolean gaskiya ne kawai ko ƙarya."
+   ],
+   "panel": {
+    "kicker": "Nau'in bayanai",
+    "heading": "Zaɓi nau'in kowane shafi da gangan",
+    "items": [
+     "INTEGER: lambobi duka, ID, adadi",
+     "DECIMAL: ainihin lambobi don kuɗi",
+     "TEXT: sunaye, da lambobin waya kuma",
+     "RANAR: ko da yaushe YYYY-MM-DD",
+     "BOLEAN: gaskiya ko karya"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Tambaya ce mai ladabi, madaidaicin buƙata. Zaɓi sunayen ginshiƙan da kuke so. DAGA sunayen tebur."
+   ],
+   "panel": {
+    "kicker": "Tambayar ku ta farko",
+    "heading": "Kalmomi biyar suna amsa yawancin tambayoyi",
+    "items": [
+     "SELECT: ginshiƙan da kuke so",
+     "DAGA: tebur",
+     "INA: kiyaye layuka da suka dace",
+     "TAKARDAR ODAR 6AD0 ZAMA AIKATA: Nau'i, DESC don mafi girma na farko",
+     "IYAKA: kiyaye layuka na farko kawai"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "INA ke ajiye layuka kawai inda yanayin gaskiya yake. Rubutu yana shiga cikin ƙididdiga guda ɗaya, lambobi ba sa. Lokacin da kuka haɗa AND tare da OR, yi amfani da madauri, saboda AND an fara fara aiki."
+   ],
+   "panel": {
+    "kicker": "Tambayar ku ta farko",
+    "heading": "Kalmomi biyar suna amsa yawancin tambayoyi",
+    "items": [
+     "SELECT: ginshiƙan da kuke so",
+     "DAGA: tebur",
+     "INA: kiyaye layuka da suka dace",
+     "TAKARDAR ODAR 6AD0 ZAMA AIKATA: Nau'i, DESC don mafi girma na farko",
+     "IYAKA: kiyaye layuka na farko kawai"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "TAKARDAR ODAR 6AD0 ZAMA AIKATA? Ƙara DESC don mafi girma farko."
+   ],
+   "panel": {
+    "kicker": "Tambayar ku ta farko",
+    "heading": "Kalmomi biyar suna amsa yawancin tambayoyi",
+    "items": [
+     "SELECT: ginshiƙan da kuke so",
+     "DAGA: tebur",
+     "INA: kiyaye layuka da suka dace",
+     "TAKARDAR ODAR 6AD0 ZAMA AIKATA: Nau'i, DESC don mafi girma na farko",
+     "IYAKA: kiyaye layuka na farko kawai"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "LIMIT 3 yana adana layuka uku na farko bayan rarrabuwa. Wannan shine yadda kuke samun manyan uku."
+   ],
+   "panel": {
+    "kicker": "Tambayar ku ta farko",
+    "heading": "Kalmomi biyar suna amsa yawancin tambayoyi",
+    "items": [
+     "SELECT: ginshiƙan da kuke so",
+     "DAGA: tebur",
+     "INA: kiyaye layuka da suka dace",
+     "TAKARDAR ODAR 6AD0 ZAMA AIKATA: Nau'i, DESC don mafi girma na farko",
+     "IYAKA: kiyaye layuka na farko kawai"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Tarko daya. Ƙimar da ta ɓace ita ce NULL, wanda ke nufin ba a sani ba, kuma ba ta taɓa daidai da wani abu ba. Don haka INA waya = NULL bai dawo da komai ba. Koyaushe rubuta IS NOLL."
+   ],
+   "panel": {
+    "kicker": "Tambayar ku ta farko",
+    "heading": "Kalmomi biyar suna amsa yawancin tambayoyi",
+    "items": [
+     "SELECT: ginshiƙan da kuke so",
+     "DAGA: tebur",
+     "INA: kiyaye layuka da suka dace",
+     "TAKARDAR ODAR 6AD0 ZAMA AIKATA: Nau'i, DESC don mafi girma na farko",
+     "IYAKA: kiyaye layuka na farko kawai"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Ƙimar da ta ɓace ba ta cika ba. Gwaji tare da IS NULL, taba = NULL.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Kemi ta rubuta: SELECT odar ID, odar kwanan wata da adadin, DAGA oda, INA tashar WhatsApp DA status da ake bayarwa, oda ta adadin, saukowa."
+   ],
+   "card": {
+    "title": "Babban Kemi ya isar da odar WhatsApp",
+    "rows": [],
+    "note": "Yi ƙididdiga, ba farashin kasuwa na ainihi ba."
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Layuka hudu sun dawo. Mafi girma shine oda 105, akan naira 61,000, sai 101, 106 da 103."
+   ],
+   "card": {
+    "title": "Babban Kemi ya isar da odar WhatsApp",
+    "rows": [
+     [
+      "Umarni na 105",
+      "61,000"
+     ],
+     [
+      "Umarni na 101",
+      "18,500"
+     ],
+     [
+      "Umarni na 106",
+      "12,500"
+     ],
+     [
+      "Umarni na 103",
+      "9,000"
+     ]
+    ],
+    "note": "Yi ƙididdiga, ba farashin kasuwa na ainihi ba."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Yanzu duba shi. Order 109 tsari ne na WhatsApp, amma yana nan yana nan, don haka an bar shi daidai. Koyaushe bincika abin da bai kamata ya kasance a wurin ba."
+   ],
+   "card": {
+    "title": "Babban Kemi ya isar da odar WhatsApp",
+    "rows": [
+     [
+      "Umarni na 105",
+      "61,000"
+     ],
+     [
+      "Umarni na 101",
+      "18,500"
+     ],
+     [
+      "Umarni na 106",
+      "12,500"
+     ],
+     [
+      "Umarni na 103",
+      "9,000"
+     ]
+    ],
+    "note": "Yi ƙididdiga, ba farashin kasuwa na ainihi ba."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Manajoji suna son amsoshi, ba lissafi ba. COUNT, SUM da AVG suna juya layuka da yawa zuwa lamba ɗaya. GROUP BY yana bada lamba ɗaya kowace ƙungiya."
+   ],
+   "card": {
+    "title": "Sayar da tallace-tallace ta tashar",
+    "rows": [],
+    "note": "Yi ƙididdiga, ba farashin kasuwa na ainihi ba."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Kemi ta kai tallace-tallace ta tashar: WhatsApp naira 101,000, Instagram 83,000, da gidan yanar gizon 27,500."
+   ],
+   "card": {
+    "title": "Sayar da tallace-tallace ta tashar",
+    "rows": [
+     [
+      "WhatsApp, umarni 4",
+      "101,000"
+     ],
+     [
+      "Instagram, oda 3",
+      "83,000"
+     ],
+     [
+      "Yanar Gizo, oda 1",
+      "27,500"
+     ]
+    ],
+    "note": "Yi ƙididdiga, ba farashin kasuwa na ainihi ba."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Yanzu a sasanta. Dole ne ƙungiyoyi su ƙara komawa ga jimillar. 101,000 da 83,000 da 27,500 shine 211,500, kuma 4 da 3 da 1 shine umarni 8. Idan guntuwar ba su ƙara ba, wani abu ba daidai ba ne.",
+    "Kuma ku tuna: kowane ginshiƙi a cikin SELECT dole ne ya kasance cikin aiki ko jera a cikin GROUP BY."
+   ],
+   "card": {
+    "title": "Sayar da tallace-tallace ta tashar",
+    "rows": [
+     [
+      "WhatsApp, umarni 4",
+      "101,000"
+     ],
+     [
+      "Instagram, oda 3",
+      "83,000"
+     ],
+     [
+      "Yanar Gizo, oda 1",
+      "27,500"
+     ]
+    ],
+    "note": "Yi ƙididdiga, ba farashin kasuwa na ainihi ba."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "INA tace layuka guda kafin hadawa, kamar kiyaye oda kawai da aka kawo."
+   ],
+   "panel": {
+    "kicker": "Tace",
+    "heading": "INA ko SAMUN?",
+    "mode": "compare",
+    "left_h": "INA",
+    "left": [
+     "Gudu kafin haɗawa",
+     "Gwada layuka guda ɗaya",
+     "status = 'An bayar'",
+     "Ba za a iya amfani da SUM ko COUNT ba"
+    ],
+    "right_h": "SAMUN",
+    "right": [
+     "Yana gudana bayan haɗawa",
+     "Gwada dukan ƙungiyoyi",
+     "COUNT(*) >= 2",
+     "Yana amfani da jimlar sakamakon"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "SAMUN tana tace duka ƙungiyoyi bayan an yi jimlar. SAMUN Countididdigar oda na aƙalla guda 2 yana samun masu siyar da Kemi mai maimaitawa: abokin ciniki 1 da oda 3, abokin ciniki 2 yana da 2."
+   ],
+   "panel": {
+    "kicker": "Tace",
+    "heading": "INA ko SAMUN?",
+    "mode": "compare",
+    "left_h": "INA",
+    "left": [
+     "Gudu kafin haɗawa",
+     "Gwada layuka guda ɗaya",
+     "status = 'An bayar'",
+     "Ba za a iya amfani da SUM ko COUNT ba"
+    ],
+    "right_h": "SAMUN",
+    "right": [
+     "Yana gudana bayan haɗawa",
+     "Gwada dukan ƙungiyoyi",
+     "COUNT(*) >= 2",
+     "Yana amfani da jimlar sakamakon"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Don tunawa. Ana haɗe tebur ta maɓalli, kuma kowace hujja ana adana sau ɗaya. Kalmomi biyar suna amsa yawancin tambayoyi. Gwada bacewar ƙimar da IS NULL. Kuma koyaushe bincika cewa ƙungiyoyin ku suna ƙara zuwa jimillar."
+   ],
+   "panel": {
+    "kicker": "Mabuɗin mahimmanci",
+    "heading": "Ka tuna",
+    "items": [
+     "Tebura masu alaƙa da maɓallan farko da na waje",
+     "Ajiye kowace hujja sau ɗaya",
+     "ZABI, DAGA, INA, Oda, IYAKA",
+     "BA KASANCE BA, ba = BA",
+     "Dole ne jimlar rukuni su ƙara zuwa gabaɗaya"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Yanzu ƙirƙira ƙaramin bayanai akan takarda, rubuta tambayoyinku biyar na farko, kuma gina ƙaramin tallace-tallace tare da tikitin sulhu.",
+    "Ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi ayyuka",
+    "heading": "Aikin ku na wannan module",
+    "items": [
+     "Zana ƙaramin bayanai akan takarda",
+     "Amsa tambayoyi biyar tare da tambayoyi masu sauƙi",
+     "Gina taƙaitaccen tallace-tallace"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

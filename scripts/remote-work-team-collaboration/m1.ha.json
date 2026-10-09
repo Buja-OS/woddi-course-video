@@ -1,0 +1,530 @@
+{
+ "course": "remote-work-team-collaboration",
+ "module": "m1",
+ "title": "Yadda ƙungiyoyi masu rarraba ke aiki da gaske: rubuta farko, yarda, gina amana",
+ "course_title": "Aiki mai nisa & Haɗin gwiwar Ƙungiya: Ƙungiyoyin Rarraba Masu Jagora",
+ "shots": [
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Yadda ƙungiyoyin da aka rarraba suke aiki da gaske.",
+    "Wannan shine bidiyon don module ɗaya na Aiki Nesa da Haɗin gwiwar Ƙungiya."
+   ]
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Ƙungiyar da aka rarraba ita ce ƙungiyar da mambobinta ba sa raba wurin aiki guda ɗaya kowace rana."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Abin da ƙungiyar da aka rarraba ta rasa",
+    "items": [
+     "Babu tambaya mai sauri a fadin tebur",
+     "Babu sabuntawa da aka saurara",
+     "Ba wanda zai iya ganin wanda ke cikin aiki",
+     "Don haka muna gina halaye da gangan maimakon"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Sun rasa ofis: tambaya mai sauri, sabuntawa da aka ji, mai sarrafa wanda zai iya ganin wanda ke cikin aiki."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Abin da ƙungiyar da aka rarraba ta rasa",
+    "items": [
+     "Babu tambaya mai sauri a fadin tebur",
+     "Babu sabuntawa da aka saurara",
+     "Ba wanda zai iya ganin wanda ke cikin aiki",
+     "Don haka muna gina halaye da gangan maimakon"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Don haka muna gina halaye da gangan maimakon. Rubutu da farko, yarda da yadda muke sadarwa, da gina amana ta hanyar aiki na bayyane."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Abin da ƙungiyar da aka rarraba ta rasa",
+    "items": [
+     "Babu tambaya mai sauri a fadin tebur",
+     "Babu sabuntawa da aka saurara",
+     "Ba wanda zai iya ganin wanda ke cikin aiki",
+     "Don haka muna gina halaye da gangan maimakon"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Daidaitawa, ko aiki tare, yana nufin ainihin lokaci, kamar waya ko kiran bidiyo. Yana da sauri don ji, rikici, ƙwaƙwalwa da kuma gaggawa, saboda sautin yana da sauƙin karantawa a cikin rubutu."
+   ],
+   "panel": {
+    "kicker": "Hanyoyi biyu",
+    "heading": "Daidaita ko async?",
+    "mode": "compare",
+    "left_h": "Daidaitawa: ainihin lokacin",
+    "left": [
+     "Ji da rikici",
+     "Ƙwaƙwalwar sabbin tunani",
+     "Gaggawa, kamar ƙasa ƙasa"
+    ],
+    "right_h": "Async: amsa daga baya",
+    "right": [
+     "Sabunta ci gaban mako-mako",
+     "Hukunce-hukuncen da ke buƙatar tunani",
+     "Duk wani abu a cikin yankunan lokaci"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Asynchronous, ko asynchronous, yana nufin mai karatu zai iya amsawa daga baya, cikin sa'o'i da aka yarda. Ya fi dacewa don sabuntawa, yanke shawara waɗanda ke buƙatar tunani, da sauran yankunan lokaci.",
+    "Async-na farko baya nufin babu tarurruka. Yana nufin taro zaɓi ne da gangan, kuma kuskuren shine rubuta abubuwa."
+   ],
+   "panel": {
+    "kicker": "Hanyoyi biyu",
+    "heading": "Daidaita ko async?",
+    "mode": "compare",
+    "left_h": "Daidaitawa: ainihin lokacin",
+    "left": [
+     "Ji da rikici",
+     "Ƙwaƙwalwar sabbin tunani",
+     "Gaggawa, kamar ƙasa ƙasa"
+    ],
+    "right_h": "Async: amsa daga baya",
+    "right": [
+     "Sabunta ci gaban mako-mako",
+     "Hukunce-hukuncen da ke buƙatar tunani",
+     "Duk wani abu a cikin yankunan lokaci"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Fara da ƙaramin tashar katsewa wanda har yanzu zai yi aiki cikin lokaci. Tushen takardar da aka raba ko sharhin ɗawainiya ne."
+   ],
+   "panel": {
+    "kicker": "A zauna lafiya",
+    "heading": "Tsanin haɓakawa",
+    "items": [
+     "Daftarin da aka raba ko sharhin ɗawainiya",
+     "Tashar ƙungiyar: ana buƙata a wannan makon",
+     "Saƙon kai tsaye: ana buƙata a yau",
+     "Kiran bidiyo: rikici, tattaunawa mai rikitarwa",
+     "Kiran waya: gaggawa kawai"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Sai kuma tashar tawaga ta wannan makon, da sakon kai tsaye na yau."
+   ],
+   "panel": {
+    "kicker": "A zauna lafiya",
+    "heading": "Tsanin haɓakawa",
+    "items": [
+     "Daftarin da aka raba ko sharhin ɗawainiya",
+     "Tashar ƙungiyar: ana buƙata a wannan makon",
+     "Saƙon kai tsaye: ana buƙata a yau",
+     "Kiran bidiyo: rikici, tattaunawa mai rikitarwa",
+     "Kiran waya: gaggawa kawai"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Kiran bidiyo don rikici ne da tattaunawa mai rikitarwa. Kiran waya na gaggawa ne kawai.",
+    "Kowane mataki zuwa sama yana katse mutane da yawa, don haka hawa kawai gwargwadon yadda ya kamata."
+   ],
+   "panel": {
+    "kicker": "A zauna lafiya",
+    "heading": "Tsanin haɓakawa",
+    "items": [
+     "Daftarin da aka raba ko sharhin ɗawainiya",
+     "Tashar ƙungiyar: ana buƙata a wannan makon",
+     "Saƙon kai tsaye: ana buƙata a yau",
+     "Kiran bidiyo: rikici, tattaunawa mai rikitarwa",
+     "Kiran waya: gaggawa kawai"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Babban ƙwarewar aikin async saƙo ne cikakke wanda mai karatu zai iya aiki ba tare da tambayar ku komai ba.",
+    "Yi amfani da sassa biyar. Tambayar, ainihin abin da kuke buƙata, da ranar ƙarshe tare da yankin lokaci."
+   ],
+   "panel": {
+    "kicker": "Ƙwararren fasaha",
+    "heading": "Saƙon da ba ya buƙatar taro",
+    "items": [
+     "Tambayar: daidai abin da kuke buƙata",
+     "Ƙaddara, tare da yankin lokaci",
+     "Magana: menene wannan game da",
+     "Zaɓuɓɓuka ko shawarar ku",
+     "Inda kayan ke rayuwa"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Sai mahallin, da zaɓuɓɓuka ko shawarar ku."
+   ],
+   "panel": {
+    "kicker": "Ƙwararren fasaha",
+    "heading": "Saƙon da ba ya buƙatar taro",
+    "items": [
+     "Tambayar: daidai abin da kuke buƙata",
+     "Ƙaddara, tare da yankin lokaci",
+     "Magana: menene wannan game da",
+     "Zaɓuɓɓuka ko shawarar ku",
+     "Inda kayan ke rayuwa"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "A ƙarshe, faɗi inda kayan tallafi ke rayuwa, kuma liƙa hanyar haɗin."
+   ],
+   "panel": {
+    "kicker": "Ƙwararren fasaha",
+    "heading": "Saƙon da ba ya buƙatar taro",
+    "items": [
+     "Tambayar: daidai abin da kuke buƙata",
+     "Ƙaddara, tare da yankin lokaci",
+     "Magana: menene wannan game da",
+     "Zaɓuɓɓuka ko shawarar ku",
+     "Inda kayan ke rayuwa"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Sanya tambayar a layin farko, saboda mutane da yawa suna karanta samfoti kawai akan wayar su."
+   ],
+   "panel": {
+    "kicker": "Ƙwararren fasaha",
+    "heading": "Saƙon da ba ya buƙatar taro",
+    "items": [
+     "Tambayar: daidai abin da kuke buƙata",
+     "Ƙaddara, tare da yankin lokaci",
+     "Magana: menene wannan game da",
+     "Zaɓuɓɓuka ko shawarar ku",
+     "Inda kayan ke rayuwa"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Saka tambayar a layin farko. Mutane da yawa suna karanta samfoti kawai.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Daftarin farko na Amaka ya ce: Sannu, kin kyauta? Bukatar magana game da wurin. Ba shi da tambaya kuma ba shi da ranar ƙarshe."
+   ],
+   "card": {
+    "title": "Shawarar wurin Amaka",
+    "rows": [],
+    "note": "Farashin Naira kusan kimomi ne."
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Ta sake rubutawa: shawarar da ake bukata zuwa ranar Alhamis 5 na yamma agogon Legas, ta amince da Venue B.",
+    "Wurin A shine kimanin naira 450,000 na kwana biyu. Wurin B kusan naira 380,000 ne. Waɗannan maganganun sun yi kusan."
+   ],
+   "card": {
+    "title": "Shawarar wurin Amaka",
+    "rows": [
+     [
+      "Wuri A, kwana biyu",
+      "450,000"
+     ],
+     [
+      "Wuri B, kwana biyu",
+      "380,000"
+     ]
+    ],
+    "note": "Farashin Naira kusan kimomi ne."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Ta ba da shawarar Venue B, saboda yana da janareta na ajiya kuma yana da mintuna 10 daga wurin shakatawar bas.",
+    "Ta danganta abubuwan da aka ambata kuma ta ƙara da baya: idan ban ji komai ba zuwa ranar ƙarshe, zan rubuta Venue B. Ba a buƙatar taro."
+   ],
+   "card": {
+    "title": "Shawarar wurin Amaka",
+    "rows": [
+     [
+      "Wuri A, kwana biyu",
+      "450,000"
+     ],
+     [
+      "Wuri B, kwana biyu",
+      "380,000"
+     ]
+    ],
+    "note": "Farashin Naira kusan kimomi ne."
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Yarjejeniyar aiki ta ƙungiyar tana rubuta tashoshi, lokutan amsawa, lokutan aiki da kuma inda fayiloli suke rayuwa. Ɗayan maɓalli ɗaya shine sa'o'in haɗuwa, lokacin da kowa yana cikin ranar aiki."
+   ],
+   "panel": {
+    "kicker": "Yarjejeniyar aiki",
+    "heading": "Nemo sa'o'in haɗin gwiwa na ƙungiyar ku",
+    "items": [
+     "Tattara lokutan aiki kowa",
+     "Mayar da kowannensu zuwa UTC",
+     "Nemo inda kewayon suka hadu",
+     "Sake dubawa lokacin da agogo ya canza"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Maida sa'o'in kowane mutum zuwa UTC, wanda ke nufin Lokacin Haɗin kai na Duniya. Misali, 9 zuwa 5 a Legas shine 08:00 zuwa 16:00 UTC."
+   ],
+   "panel": {
+    "kicker": "Yarjejeniyar aiki",
+    "heading": "Nemo sa'o'in haɗin gwiwa na ƙungiyar ku",
+    "items": [
+     "Tattara lokutan aiki kowa",
+     "Mayar da kowannensu zuwa UTC",
+     "Nemo inda kewayon suka hadu",
+     "Sake dubawa lokacin da agogo ya canza"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Lokacin da Ifeoma ta yi haka a Legas, Nairobi, London da Toronto a watan Janairu, babu wata sa'a da aka raba kwata-kwata. Don haka ta gudanar da ƙananan kira, kuma rubutaccen sabuntawa na mako-mako ya zama wurin da duka huɗun suka hadu."
+   ],
+   "panel": {
+    "kicker": "Yarjejeniyar aiki",
+    "heading": "Nemo sa'o'in haɗin gwiwa na ƙungiyar ku",
+    "items": [
+     "Tattara lokutan aiki kowa",
+     "Mayar da kowannensu zuwa UTC",
+     "Nemo inda kewayon suka hadu",
+     "Sake dubawa lokacin da agogo ya canza"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Wasu ƙasashe suna canza agogon su, don haka duba haɗuwa a cikin Maris, da kuma a cikin Oktoba ko Nuwamba. Najeriya tana kan UTC da 1 duk shekara."
+   ],
+   "panel": {
+    "kicker": "Yarjejeniyar aiki",
+    "heading": "Nemo sa'o'in haɗin gwiwa na ƙungiyar ku",
+    "items": [
+     "Tattara lokutan aiki kowa",
+     "Mayar da kowannensu zuwa UTC",
+     "Nemo inda kewayon suka hadu",
+     "Sake dubawa lokacin da agogo ya canza"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Najeriya ita ce UTC+1 duk shekara, ba tare da ceton hasken rana ba.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Amana mai nisa ta dogara ne akan abubuwa uku na bayyane. Na farko, mutane suna yin abin da suka ce. Amsa ga aiki da abin da za ku isar."
+   ],
+   "panel": {
+    "kicker": "Dogara daga nesa",
+    "heading": "Dogaro ya dogara akan abubuwa uku na bayyane",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Yi abin da kuka ce",
+      "d": "Lokacin da kuka karɓi ɗawainiya, ba da amsa da abin da za ku isar. Sa'an nan kai shi."
+     },
+     {
+      "t": "By lokacin da kuka ce",
+      "d": "Yarda da sakamakon, ranar ƙarshe da mai shi. Sarrafa sakamako, ba sa'o'i akan layi ba."
+     },
+     {
+      "t": "Ka ce da wuri idan ba za ka iya ba",
+      "d": "Lokacin da wani abu ya zame, saka sabuntawa kafin ranar ƙarshe, ba bayansa ba."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Na biyu, da lokacin da suka ce. Yarda da sakamakon, ranar ƙarshe da mai shi, sannan a bar mutane su tsara nasu lokacin."
+   ],
+   "panel": {
+    "kicker": "Dogara daga nesa",
+    "heading": "Dogaro ya dogara akan abubuwa uku na bayyane",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Yi abin da kuka ce",
+      "d": "Lokacin da kuka karɓi ɗawainiya, ba da amsa da abin da za ku isar. Sa'an nan kai shi."
+     },
+     {
+      "t": "By lokacin da kuka ce",
+      "d": "Yarda da sakamakon, ranar ƙarshe da mai shi. Sarrafa sakamako, ba sa'o'i akan layi ba."
+     },
+     {
+      "t": "Ka ce da wuri idan ba za ka iya ba",
+      "d": "Lokacin da wani abu ya zame, saka sabuntawa kafin ranar ƙarshe, ba bayansa ba."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Na uku, faɗi da wuri lokacin da ba za ku iya ba, kafin ranar ƙarshe, ba bayan haka ba.",
+    "Kuskuren gama gari shine sa ido, kamar kyamarorin da ake buƙata a duk rana. Wannan yawanci yana lalata amana kuma yana yin aiki mafi muni."
+   ],
+   "panel": {
+    "kicker": "Dogara daga nesa",
+    "heading": "Dogaro ya dogara akan abubuwa uku na bayyane",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Yi abin da kuka ce",
+      "d": "Lokacin da kuka karɓi ɗawainiya, ba da amsa da abin da za ku isar. Sa'an nan kai shi."
+     },
+     {
+      "t": "By lokacin da kuka ce",
+      "d": "Yarda da sakamakon, ranar ƙarshe da mai shi. Sarrafa sakamako, ba sa'o'i akan layi ba."
+     },
+     {
+      "t": "Ka ce da wuri idan ba za ka iya ba",
+      "d": "Lokacin da wani abu ya zame, saka sabuntawa kafin ranar ƙarshe, ba bayansa ba."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Don tunawa. Daidaita don motsin rai da gaggawa, async don sabuntawa da yanke shawara.",
+    "Hawan tsani kawai gwargwadon yadda ya kamata. Sanya tambayar farko da yankin lokaci a cikin ranar ƙarshe.",
+    "Yi amfani da UTC don nemo jeri. Kuma gina amana ta hanyar kiyaye, ko sake tattaunawa da gaskiya, kowane alkawari."
+   ],
+   "panel": {
+    "kicker": "Mabuɗin mahimmanci",
+    "heading": "Ka tuna",
+    "items": [
+     "Daidaitawa don motsin rai da gaggawa; async ga sauran",
+     "Hau matakin haɓakawa kawai gwargwadon buƙata",
+     "Tambayi, ranar ƙarshe tare da yankin lokaci, mahallin, hanyar haɗi",
+     "Mayar da sa'o'i zuwa UTC don nemo jeri",
+     "Amincewa: yi, bayarwa ko tuta da wuri, zauna a bayyane"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Yanzu yi aiki. Sake rubuta saƙon da ba su da tushe guda uku ta amfani da sassan biyar, daftarin yarjejeniyar aiki mai shafi ɗaya tare da sa'o'in da suka zo tare, sannan saita daftarin aiki ɗaya zuwa ɗaya.",
+    "Ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi ayyuka",
+    "heading": "Ayyukan aikin ku",
+    "items": [
+     "Sake rubuta saƙonnin da ba su da tushe guda uku",
+     "Zana yarjejeniyar aiki mai shafi ɗaya",
+     "Saita daftarin aiki ɗaya zuwa ɗaya"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

@@ -1,0 +1,458 @@
+{
+ "course": "agile-scrum",
+ "module": "m2",
+ "title": "Plan a Sprint by capacity and keep it honest",
+ "course_title": "Agile & Scrum in Practice",
+ "shots": [
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Plan a Sprint by capacity, and keep it honest.",
+    "This is the video for module 2 of Agile and Scrum in Practice."
+   ]
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "Many teams perform the Scrum events without getting the benefits. Running Scrum well starts with an ordered backlog and an honest forecast."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Knowing the events is not enough",
+    "items": [
+     "An ordered, sized Product Backlog",
+     "A forecast based on real capacity",
+     "A Definition of Done that protects quality",
+     "Early warning when a Sprint drifts"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "Then a clear Definition of Done protects quality, and a simple chart warns you early when a Sprint is drifting. Let us walk through each one."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Knowing the events is not enough",
+    "items": [
+     "An ordered, sized Product Backlog",
+     "A forecast based on real capacity",
+     "A Definition of Done that protects quality",
+     "Early warning when a Sprint drifts"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "For example, a 5-person team is building a WhatsApp ordering system for Tola's bakery in Ibadan. Tola is the Product Owner. She orders the backlog by value: first the menu with prices, then placing an order, then paying by transfer."
+   ],
+   "panel": {
+    "kicker": "Product Backlog",
+    "heading": "Tola's bakery ordering backlog",
+    "items": [
+     "One list, ordered by value",
+     "Top items small enough for one Sprint",
+     "Split items that are too big",
+     "Size with Planning Poker",
+     "Top five items: 18 points"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Items at the top must be small and clear enough to finish in one Sprint. Lower items can stay rough ideas."
+   ],
+   "panel": {
+    "kicker": "Product Backlog",
+    "heading": "Tola's bakery ordering backlog",
+    "items": [
+     "One list, ordered by value",
+     "Top items small enough for one Sprint",
+     "Split items that are too big",
+     "Size with Planning Poker",
+     "Top five items: 18 points"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Paying by transfer is too big, so the team splits it in two: show bank details and an order reference, then Tola confirms payment."
+   ],
+   "panel": {
+    "kicker": "Product Backlog",
+    "heading": "Tola's bakery ordering backlog",
+    "items": [
+     "One list, ordered by value",
+     "Top items small enough for one Sprint",
+     "Split items that are too big",
+     "Size with Planning Poker",
+     "Top five items: 18 points"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "They size items with Planning Poker. Everyone shows a number at once, on a scale like 1, 2, 3, 5, 8, 13. The highest and lowest explain, and the team votes again. The talk exposes hidden work."
+   ],
+   "panel": {
+    "kicker": "Product Backlog",
+    "heading": "Tola's bakery ordering backlog",
+    "items": [
+     "One list, ordered by value",
+     "Top items small enough for one Sprint",
+     "Split items that are too big",
+     "Size with Planning Poker",
+     "Top five items: 18 points"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_kanban",
+   "say": [
+    "The top five items total 3, 5, 2, 5 and 3. That is 18 points."
+   ],
+   "panel": {
+    "kicker": "Product Backlog",
+    "heading": "Tola's bakery ordering backlog",
+    "items": [
+     "One list, ordered by value",
+     "Top items small enough for one Sprint",
+     "Split items that are too big",
+     "Size with Planning Poker",
+     "Top five items: 18 points"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "For example, Chidi's team has 5 Developers in a 10-day Sprint. That is 50 person-days."
+   ],
+   "panel": {
+    "kicker": "Sprint Planning",
+    "heading": "Forecast from real capacity",
+    "items": [
+     "5 people x 10 days = 50 person-days",
+     "Minus a holiday: 5, leaves 45",
+     "Minus Ada's leave: 2, leaves 43",
+     "Capacity: 43 ÷ 50 = 86%",
+     "Average velocity: 63 ÷ 3 = 21 points",
+     "Forecast: 21 x 0.86 = about 18"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "One day is a public holiday, which removes 5. Ada has 2 days of leave. That leaves 43."
+   ],
+   "panel": {
+    "kicker": "Sprint Planning",
+    "heading": "Forecast from real capacity",
+    "items": [
+     "5 people x 10 days = 50 person-days",
+     "Minus a holiday: 5, leaves 45",
+     "Minus Ada's leave: 2, leaves 43",
+     "Capacity: 43 ÷ 50 = 86%",
+     "Average velocity: 63 ÷ 3 = 21 points",
+     "Forecast: 21 x 0.86 = about 18"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "43 divided by 50 is 86% of a normal Sprint."
+   ],
+   "panel": {
+    "kicker": "Sprint Planning",
+    "heading": "Forecast from real capacity",
+    "items": [
+     "5 people x 10 days = 50 person-days",
+     "Minus a holiday: 5, leaves 45",
+     "Minus Ada's leave: 2, leaves 43",
+     "Capacity: 43 ÷ 50 = 86%",
+     "Average velocity: 63 ÷ 3 = 21 points",
+     "Forecast: 21 x 0.86 = about 18"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Their last three Sprints delivered 21, 18 and 24 points. The average, called velocity, is 21."
+   ],
+   "panel": {
+    "kicker": "Sprint Planning",
+    "heading": "Forecast from real capacity",
+    "items": [
+     "5 people x 10 days = 50 person-days",
+     "Minus a holiday: 5, leaves 45",
+     "Minus Ada's leave: 2, leaves 43",
+     "Capacity: 43 ÷ 50 = 86%",
+     "Average velocity: 63 ÷ 3 = 21 points",
+     "Forecast: 21 x 0.86 = about 18"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "So the forecast is 21 times 0.86, about 18 points, not 21. The Product Owner cannot force more in.",
+    "Use velocity only to forecast your own team. Never compare or reward it between teams, or estimates inflate."
+   ],
+   "panel": {
+    "kicker": "Sprint Planning",
+    "heading": "Forecast from real capacity",
+    "items": [
+     "5 people x 10 days = 50 person-days",
+     "Minus a holiday: 5, leaves 45",
+     "Minus Ada's leave: 2, leaves 43",
+     "Capacity: 43 ÷ 50 = 86%",
+     "Average velocity: 63 ÷ 3 = 21 points",
+     "Forecast: 21 x 0.86 = about 18"
+    ],
+    "show": 6,
+    "numbered": true,
+    "check": false,
+    "rule": "The Developers decide how much they take on.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "Sprint Planning also produces one Sprint Goal. Finish tickets 14 to 22 is weak. It names work, not value."
+   ],
+   "panel": {
+    "kicker": "Sprint Goal",
+    "heading": "Weak goal versus strong goal",
+    "mode": "compare",
+    "left_h": "Weak",
+    "left": [
+     "Finish tickets 14 to 22",
+     "Do as much as possible"
+    ],
+    "right_h": "Strong",
+    "right": [
+     "Customers pay by transfer, get confirmed",
+     "Director sees weekly sales on her phone"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Customers can pay by transfer and get confirmation is strong. It names a user and a checkable result, so the team can swap items and still meet it."
+   ],
+   "panel": {
+    "kicker": "Sprint Goal",
+    "heading": "Weak goal versus strong goal",
+    "mode": "compare",
+    "left_h": "Weak",
+    "left": [
+     "Finish tickets 14 to 22",
+     "Do as much as possible"
+    ],
+    "right_h": "Strong",
+    "right": [
+     "Customers pay by transfer, get confirmed",
+     "Director sees weekly sales on her phone"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_calendar",
+   "say": [
+    "The Definition of Done is the quality bar. If an item misses it, it is not shown as done. It goes back to the backlog.",
+    "Keep it short and checkable. Five honest checks beat twenty that nobody follows.",
+    "And never put phone numbers, BVN or payment screenshots on a board card. Use an order reference, in line with the Nigeria Data Protection Act 2023."
+   ],
+   "panel": {
+    "kicker": "Definition of Done",
+    "heading": "Tola's Definition of Done",
+    "items": [
+     "Works on a low-cost Android on slow 3G",
+     "Tested by someone other than the builder",
+     "No customer personal data in logs",
+     "Wording checked by the Product Owner",
+     "How-to note updated"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "A burndown chart plots the work remaining against the days. For example, Halima's team planned 40 points in a 10-day Sprint. That is 4 points a day, so by day 5, 20 should remain."
+   ],
+   "panel": {
+    "kicker": "Burndown chart",
+    "heading": "Halima spots trouble on day 5",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Ideal line",
+      "d": "40 points over 10 days is 4 a day. By day 5, 20 points should remain."
+     },
+     {
+      "t": "Actual line",
+      "d": "34 points remain: 14 behind. At 1.2 a day, 28 points would be left undone."
+     },
+     {
+      "t": "The conversation",
+      "d": "Three items wait for one API key. Escalate it, and move an 8-point item back to the backlog."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "But 34 remain. They are 14 points behind. At their pace, 28 points would be left undone."
+   ],
+   "panel": {
+    "kicker": "Burndown chart",
+    "heading": "Halima spots trouble on day 5",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Ideal line",
+      "d": "40 points over 10 days is 4 a day. By day 5, 20 points should remain."
+     },
+     {
+      "t": "Actual line",
+      "d": "34 points remain: 14 behind. At 1.2 a day, 28 points would be left undone."
+     },
+     {
+      "t": "The conversation",
+      "d": "Three items wait for one API key. Escalate it, and move an 8-point item back to the backlog."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_chat",
+   "say": [
+    "At the next Daily Scrum, she asks what is blocking work. Three items wait for one API key from a partner bank. They escalate it that morning, and the Product Owner moves an 8-point item back to the backlog, while keeping the Sprint Goal.",
+    "The chart fixed nothing alone. It started the right talk on day 5 instead of day 10."
+   ],
+   "panel": {
+    "kicker": "Burndown chart",
+    "heading": "Halima spots trouble on day 5",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Ideal line",
+      "d": "40 points over 10 days is 4 a day. By day 5, 20 points should remain."
+     },
+     {
+      "t": "Actual line",
+      "d": "34 points remain: 14 behind. At 1.2 a day, 28 points would be left undone."
+     },
+     {
+      "t": "The conversation",
+      "d": "Three items wait for one API key. Escalate it, and move an 8-point item back to the backlog."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "To remember. Order the backlog and split big items. Forecast with velocity adjusted for real capacity. Keep the Daily Scrum to 15 minutes and solve problems after it.",
+    "Done means it meets the Definition of Done. And end every Retrospective with one or two actions, each with an owner and a date."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "Order the backlog; split big items",
+     "Forecast with velocity adjusted for capacity",
+     "Daily Scrum is 15 minutes; solve problems after",
+     "Done means it meets the Definition of Done",
+     "End each Retrospective with one or two actions"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Your tasks: set up your backlog and a free board, run a one-week mini-Sprint with a capacity calculation, then draw its burndown and score it against the healthy signals.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice task",
+    "heading": "Your practice tasks",
+    "items": [
+     "Set up your backlog and board",
+     "Run a one-week mini-Sprint",
+     "Draw a burndown and health check it"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

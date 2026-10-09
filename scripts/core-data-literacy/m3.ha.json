@@ -1,0 +1,629 @@
+{
+ "course": "core-data-literacy",
+ "module": "m3",
+ "title": "Tsaftace bayanai, da'awar gaskiya da ma'auni masu mahimmanci",
+ "course_title": "Karatun Bayanai: Fayil ɗin Jarida, Charts da Ma'aunin Kasuwanci",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Tsaftace bayanai, da'awar gaskiya, da ma'auni masu mahimmanci.",
+    "Wannan shi ne bidiyo don module 3 na Ilimin Bayanai."
+   ]
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Bayanai na gaskiya ba safai ba ne mai tsabta. Mutane suna bugawa da sauri, mutane biyu suna yin rikodin tallace-tallace iri ɗaya, ana ƙara sifili bisa kuskure. Jeri ɗaya da ba daidai ba zai iya canza jimla ko yanke shawara."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Dole ne lambobi su kasance daidai da gaskiya",
+    "items": [
+     "Layi mara kyau ɗaya na iya canza shawara",
+     "Har yanzu ana iya amfani da ingantattun bayanai da kyau",
+     "Babban tallace-tallace na iya nufin rasa kuɗi"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Bayanai na iya zama daidai amma ana amfani da su da kyau: fallasa bayanan sirri, ko tura mai karatu zuwa ga ƙarshe mara kyau."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Dole ne lambobi su kasance daidai da gaskiya",
+    "items": [
+     "Layi mara kyau ɗaya na iya canza shawara",
+     "Har yanzu ana iya amfani da ingantattun bayanai da kyau",
+     "Babban tallace-tallace na iya nufin rasa kuɗi"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Kuma yawancin ƙananan kamfanoni suna bin tallace-tallace kawai. A cikin wannan tsarin zaku koyi lambobi waɗanda ke nuna ko kuna samun kuɗi da gaske."
+   ],
+   "panel": {
+    "kicker": "Me ya sa wannan ya shafi",
+    "heading": "Dole ne lambobi su kasance daidai da gaskiya",
+    "items": [
+     "Layi mara kyau ɗaya na iya canza shawara",
+     "Har yanzu ana iya amfani da ingantattun bayanai da kyau",
+     "Babban tallace-tallace na iya nufin rasa kuɗi"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Jos North, Jos arewa, da Jos Arewa masu fili biyu sun zama rukuni uku a takaitaccen bayani. TRIM yana cire ƙarin sarari kuma PROPER yana gyara manyan manyan."
+   ],
+   "panel": {
+    "kicker": "Nemo a gyara",
+    "heading": "Matsalolin gama gari da kayan aikin su",
+    "items": [
+     "Karin sarari da manyan abubuwa: = PROPER(TRIM(B2))",
+     "Kwafi: ginshiƙi mai taimako COUNTIF",
+     "Blanks: = COUNTBLANK, sannan duba rasit",
+     "Lambobin rubutu kamar 5k: sake rubutawa azaman lambobi bayyanannu",
+     "Bugawa: duba = MAX da = MIN akan kowane shafi"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Rukunin mataimakan COUNTIF yana nuna GASKIYA ga kowace lambar karɓar da ta bayyana fiye da sau ɗaya."
+   ],
+   "panel": {
+    "kicker": "Nemo a gyara",
+    "heading": "Matsalolin gama gari da kayan aikin su",
+    "items": [
+     "Karin sarari da manyan abubuwa: = PROPER(TRIM(B2))",
+     "Kwafi: ginshiƙi mai taimako COUNTIF",
+     "Blanks: = COUNTBLANK, sannan duba rasit",
+     "Lambobin rubutu kamar 5k: sake rubutawa azaman lambobi bayyanannu",
+     "Bugawa: duba = MAX da = MIN akan kowane shafi"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "COUNTBLANK yana gaya muku sel nawa ne babu komai. Kuma lambobin da aka buga azaman rubutu ba a barin su daga SUM."
+   ],
+   "panel": {
+    "kicker": "Nemo a gyara",
+    "heading": "Matsalolin gama gari da kayan aikin su",
+    "items": [
+     "Karin sarari da manyan abubuwa: = PROPER(TRIM(B2))",
+     "Kwafi: ginshiƙi mai taimako COUNTIF",
+     "Blanks: = COUNTBLANK, sannan duba rasit",
+     "Lambobin rubutu kamar 5k: sake rubutawa azaman lambobi bayyanannu",
+     "Bugawa: duba = MAX da = MIN akan kowane shafi"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Duba mafi girma da mafi ƙanƙanta dabi'u. Gudunmawar Naira 500,000 a cikin rukuni inda mafi yawan biyan 5,000 ke buƙatar tantance rasidin."
+   ],
+   "panel": {
+    "kicker": "Nemo a gyara",
+    "heading": "Matsalolin gama gari da kayan aikin su",
+    "items": [
+     "Karin sarari da manyan abubuwa: = PROPER(TRIM(B2))",
+     "Kwafi: ginshiƙi mai taimako COUNTIF",
+     "Blanks: = COUNTBLANK, sannan duba rasit",
+     "Lambobin rubutu kamar 5k: sake rubutawa azaman lambobi bayyanannu",
+     "Bugawa: duba = MAX da = MIN akan kowane shafi"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Grace ta karɓi jerin jerin satumba 60 da aka gina daga rahotannin WhatsApp reshe uku. Jimlar Naira 612,000. Haruffa biyar na sunayen reshe sun rushe zuwa uku."
+   ],
+   "card": {
+    "title": "Alheri yana tsaftace jerin gudummawa",
+    "rows": [
+     [
+      "Farawa duka",
+      "612,000"
+     ]
+    ],
+    "note": "Jimlar tsaftacewa yayi daidai da bayanin bankin."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "An biya Naira 5,000 sau biyu aka buga. Ta cire 15,000."
+   ],
+   "card": {
+    "title": "Alheri yana tsaftace jerin gudummawa",
+    "rows": [
+     [
+      "Farawa duka",
+      "612,000"
+     ],
+     [
+      "An cire kwafi (a cire)",
+      "15,000"
+     ]
+    ],
+    "note": "Jimlar tsaftacewa yayi daidai da bayanin bankin."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Adadi biyu babu komai. Rasidun sun nuna cewa mambobin biyu sun biya 5,000, don haka jimillar ta haura 10,000."
+   ],
+   "card": {
+    "title": "Alheri yana tsaftace jerin gudummawa",
+    "rows": [
+     [
+      "Farawa duka",
+      "612,000"
+     ],
+     [
+      "An cire kwafi (a cire)",
+      "15,000"
+     ],
+     [
+      "An cika babura biyu (da ƙari)",
+      "10,000"
+     ]
+    ],
+    "note": "Jimlar tsaftacewa yayi daidai da bayanin bankin."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Ɗayan shigarwa ya ce 50,000, amma rasidin ya ce 5,000. Ta gyara zama."
+   ],
+   "card": {
+    "title": "Alheri yana tsaftace jerin gudummawa",
+    "rows": [
+     [
+      "Farawa duka",
+      "612,000"
+     ],
+     [
+      "An cire kwafi (a cire)",
+      "15,000"
+     ],
+     [
+      "An cika babura biyu (da ƙari)",
+      "10,000"
+     ],
+     [
+      "An gyara typo (a cire)",
+      "45,000"
+     ]
+    ],
+    "note": "Jimlar tsaftacewa yayi daidai da bayanin bankin."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Sabbin jimlar Naira 562,000, kuma yanzu ya yi daidai da bankin. Ta rubuta kowane canji a cikin log ɗin tsaftacewa, don haka mai zartarwa zai iya ganin abin da aka gyara kuma me yasa."
+   ],
+   "card": {
+    "title": "Alheri yana tsaftace jerin gudummawa",
+    "rows": [
+     [
+      "Farawa duka",
+      "612,000"
+     ],
+     [
+      "An cire kwafi (a cire)",
+      "15,000"
+     ],
+     [
+      "An cika babura biyu (da ƙari)",
+      "10,000"
+     ],
+     [
+      "An gyara typo (a cire)",
+      "45,000"
+     ]
+    ],
+    "note": "Jimlar tsaftacewa yayi daidai da bayanin bankin."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Yi amfani da ingantaccen bayanai don ƙara jerin zaɓuka, kamar Cash, Canja wurin da POS. Mutane suna karba maimakon bugawa, don haka rubutun ya kasance iri ɗaya. Tattara rahotanni ta hanyar fom guda ɗaya."
+   ],
+   "panel": {
+    "kicker": "Hana kurakurai",
+    "heading": "Dakatar da kurakurai kafin su fara",
+    "items": [
+     "Zazzagewa ga kowane rukunin rukuni",
+     "Fom ɗaya da aka raba maimakon gauraya rahotanni",
+     "Hana ƙididdige ƙima cikin ja",
+     "Manna ginshiƙan da aka goge azaman ƙima kawai",
+     "Ajiye log ɗin tsaftace ginshiƙi huɗu"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Yi amfani da tsari na yanayi don canza launin adadin da ake tuhuma. Bayan tsaftacewa tare da dabara, manna ginshiƙi mai tsabta azaman ƙima kawai."
+   ],
+   "panel": {
+    "kicker": "Hana kurakurai",
+    "heading": "Dakatar da kurakurai kafin su fara",
+    "items": [
+     "Zazzagewa ga kowane rukunin rukuni",
+     "Fom ɗaya da aka raba maimakon gauraya rahotanni",
+     "Hana ƙididdige ƙima cikin ja",
+     "Manna ginshiƙan da aka goge azaman ƙima kawai",
+     "Ajiye log ɗin tsaftace ginshiƙi huɗu"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Koyaushe kiyaye ainihin ɗanyen fayil ɗin ba a taɓa shi ba, kuma adana log: kwanan wata, rikodin, abin da ba daidai ba, abin da kuka canza."
+   ],
+   "panel": {
+    "kicker": "Hana kurakurai",
+    "heading": "Dakatar da kurakurai kafin su fara",
+    "items": [
+     "Zazzagewa ga kowane rukunin rukuni",
+     "Fom ɗaya da aka raba maimakon gauraya rahotanni",
+     "Hana ƙididdige ƙima cikin ja",
+     "Manna ginshiƙan da aka goge azaman ƙima kawai",
+     "Ajiye log ɗin tsaftace ginshiƙi huɗu"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Ci gaba da ɗanyen fayil ɗin ba a taɓa shi ba. Tsaftace kwafi.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Ayyukan bayanan da'a suna kare mutane. Tattara abin da kuke buƙata kawai, kuma ku faɗi a saman binciken menene amsoshin."
+   ],
+   "panel": {
+    "kicker": "Kare mutane",
+    "heading": "Keɓantawa kafin rabawa",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Tattara mafi ƙarancin",
+      "d": "Kidaya wanda ya halarta? Ba kwa buƙatar adiresoshin gida."
+     },
+     {
+      "t": "A boye suna",
+      "d": "Lambobi kamar P01 maimakon sunaye, babu lambobin waya, kuma babu hotunan kariyar lissafin mambobi."
+     },
+     {
+      "t": "Kalli ƙananan ƙungiyoyi",
+      "d": "Gwauruwa 1 a Ward 3 na iya gane ta. Haɗa ƙananan ƙungiyoyi ko bayar da rahoto sosai."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Sauya sunaye da lambobin kafin rabawa. Hoton da aka buga a cikin babban rukunin WhatsApp ana iya tura shi a ko'ina cikin mintuna."
+   ],
+   "panel": {
+    "kicker": "Kare mutane",
+    "heading": "Keɓantawa kafin rabawa",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Tattara mafi ƙarancin",
+      "d": "Kidaya wanda ya halarta? Ba kwa buƙatar adiresoshin gida."
+     },
+     {
+      "t": "A boye suna",
+      "d": "Lambobi kamar P01 maimakon sunaye, babu lambobin waya, kuma babu hotunan kariyar lissafin mambobi."
+     },
+     {
+      "t": "Kalli ƙananan ƙungiyoyi",
+      "d": "Gwauruwa 1 a Ward 3 na iya gane ta. Haɗa ƙananan ƙungiyoyi ko bayar da rahoto sosai."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Kuma ku kalli ƙananan ƙungiyoyi, saboda ƙaramin lamba na iya nuna mutum ɗaya na gaske."
+   ],
+   "panel": {
+    "kicker": "Kare mutane",
+    "heading": "Keɓantawa kafin rabawa",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Tattara mafi ƙarancin",
+      "d": "Kidaya wanda ya halarta? Ba kwa buƙatar adiresoshin gida."
+     },
+     {
+      "t": "A boye suna",
+      "d": "Lambobi kamar P01 maimakon sunaye, babu lambobin waya, kuma babu hotunan kariyar lissafin mambobi."
+     },
+     {
+      "t": "Kalli ƙananan ƙungiyoyi",
+      "d": "Gwauruwa 1 a Ward 3 na iya gane ta. Haɗa ƙananan ƙungiyoyi ko bayar da rahoto sosai."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Misali, kungiyar mata a Enugu tana da mambobi 120. Mai gudanarwa ya aika hanyar haɗin Forms na Google, da amsa 48. 36 daga cikinsu sun zaɓi ranar Asabar don horo."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Wanene ya ɓace daga binciken?",
+    "items": [
+     "48 daga cikin mambobi 120 sun amsa: adadin amsa kashi 40%.",
+     "36 daga cikin 48 sun zaɓi Asabar: 75%",
+     "An bata tsofaffin mambobi masu wayoyin hannu",
+     "Shugabanni suna tattara amsoshin da suka ɓace ta waya"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Amma kusan babu tsofaffin membobin da suka amsa, saboda da yawa suna amfani da wayar asali ba tare da bayanai ba. Wannan samfurin son zuciya ne.",
+    "Don haka ta bayar da rahoto: 75% na membobin 48 da suka amsa kan layi sun fi son ranar Asabar, kuma muna tattara sauran amsoshin kafin yanke shawara."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Wanene ya ɓace daga binciken?",
+    "items": [
+     "48 daga cikin mambobi 120 sun amsa: adadin amsa kashi 40%.",
+     "36 daga cikin 48 sun zaɓi Asabar: 75%",
+     "An bata tsofaffin mambobi masu wayoyin hannu",
+     "Shugabanni suna tattara amsoshin da suka ɓace ta waya"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Ku yi shakka da waɗannan. Kuma ku tuna, haɗin kai ba dalili ba ne. Kasuwancin Zobo da fan yana tashi tare saboda yanayin zafi, ba don wani ya haifar da ɗayan ba.",
+    "Alkawuran ƙayyadaddun, babban dawowar kowane wata alama ce ta gargaɗin Ponzi. Bincika rajista tare da Securities and Exchange Commission Nigeria kafin biya."
+   ],
+   "panel": {
+    "kicker": "Tabo dabara",
+    "heading": "Lambobin yaudara don dubawa",
+    "items": [
+     "Yanke gatari waɗanda ke wuce gona da iri",
+     "Mafi kyawun watanni ne kawai aka nuna",
+     "Up 100% na iya nufin daga umarni 2 zuwa 4",
+     "Matsakaicin da ke ɓoye ya bazu",
+     "Tsayayye babban dawowar alƙawarin: duba SEC"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Babban tallace-tallace baya bada garantin riba. Alkaluman Ada suna misalai ne."
+   ],
+   "card": {
+    "title": "Watan Satumba Ada ta yi riba?",
+    "rows": [],
+    "note": "Figures masu kwatanta. Jimlar riba ce ta tara."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Kudaden shiga idan aka cire farashin kayan da ake sayarwa, babban riba ne: Naira 110,000. Raba ta hanyar kudaden shiga da lokuta 100, kuma jigon ta shine 27.5%."
+   ],
+   "card": {
+    "title": "Watan Satumba Ada ta yi riba?",
+    "rows": [
+     [
+      "Haraji, 220 tallace-tallace",
+      "400,000"
+     ],
+     [
+      "Farashin kayan sayarwa",
+      "290,000"
+     ],
+     [
+      "Babban riba",
+      "110,000"
+     ]
+    ],
+    "note": "Figures masu kwatanta. Jimlar riba ce ta tara."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Bayan naira 20,000 na kudin tafiyar da aikinta, ribar da ta samu ya kai 90,000, ragi mai kashi 22.5%.",
+    "Idan mai sayar da ita ya yi tsada kuma ba ta daidaita ba, za ta fara ganinsa a cikin faɗuwar babbar riba."
+   ],
+   "card": {
+    "title": "Watan Satumba Ada ta yi riba?",
+    "rows": [
+     [
+      "Haraji, 220 tallace-tallace",
+      "400,000"
+     ],
+     [
+      "Farashin kayan sayarwa",
+      "290,000"
+     ],
+     [
+      "Babban riba",
+      "110,000"
+     ],
+     [
+      "Kudin gudu",
+      "20,000"
+     ]
+    ],
+    "note": "Figures masu kwatanta. Jimlar riba ce ta tara."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Break- even shine inda zaku biya duk farashi. Dan kasuwa yana da kayyade farashin Naira 20,000 a wata. Kowane bokitin garri ya bar naira 500, don haka 20,000 kaso 500 guga 40 ne."
+   ],
+   "panel": {
+    "kicker": "Karya-ko da",
+    "heading": "Guga nawa za ta sayar?",
+    "mode": "compare",
+    "left_h": "Kudin Garri ₦2,000",
+    "left": [
+     "Ana siyarwa akan ₦2,500",
+     "₦500 ya rage daga kowane guga",
+     "Karya-ko da: 40 buckets"
+    ],
+    "right_h": "Kudin Garri ₦2,200",
+    "right": [
+     "Har yanzu ana siyarwa akan ₦2,500",
+     "Ya rage ₦300 daga kowanne",
+     "Karya-ko da: kusan buckets 67"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Idan kudin ya kai 2,200, kowane guga ya bar 300 kawai, kuma tana buƙatar kusan guga 67. Shi ya sa biyan biyan kuɗi yana da mahimmanci kamar bin diddigin tallace-tallace."
+   ],
+   "panel": {
+    "kicker": "Karya-ko da",
+    "heading": "Guga nawa za ta sayar?",
+    "mode": "compare",
+    "left_h": "Kudin Garri ₦2,000",
+    "left": [
+     "Ana siyarwa akan ₦2,500",
+     "₦500 ya rage daga kowane guga",
+     "Karya-ko da: 40 buckets"
+    ],
+    "right_h": "Kudin Garri ₦2,200",
+    "right": [
+     "Har yanzu ana siyarwa akan ₦2,500",
+     "Ya rage ₦300 daga kowanne",
+     "Karya-ko da: kusan buckets 67"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Don tunawa. Tsaftace kafin ku ƙidaya. Kare mutane da bayar da rahoto na gaskiya. Kuma waƙa da lambobi masu mahimmanci 3 zuwa 5 kowane mako, gami da gefe, ba kawai tallace-tallace ba."
+   ],
+   "panel": {
+    "kicker": "Mabuɗin mahimmanci",
+    "heading": "Ka tuna",
+    "items": [
+     "Bincika jimlar, ɓarawo, kwafi da wuce gona da iri",
+     "A ɓoye suna, kuma ku tambayi wanda bai iya amsawa ba",
+     "Daidaitawa alama ce, ba hujja ba",
+     "Babban riba = babban riba ÷ kudaden shiga × 100",
+     "Bi 3 zuwa 5 KPIs mako-mako a kan manufa"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Juyin ku. Tsaftace jeri na gaske, sanya rahoto guda mai aminci da gaskiya, kuma aiwatar da ainihin ma'aunin ku.",
+    "Ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi ayyuka",
+    "heading": "Ayyukan aikin ku",
+    "items": [
+     "Tsaftace ainihin jerin layuka 30, tare da gungu",
+     "Saka sunan rahoto kuma a lura da wanda ya ɓace",
+     "Yi ƙididdige iyakokin ku kuma ku karya-ko da",
+     "Saita dashboard mai KPI uku"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

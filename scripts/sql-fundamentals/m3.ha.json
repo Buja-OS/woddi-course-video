@@ -1,0 +1,600 @@
+{
+ "course": "sql-fundamentals",
+ "module": "m3",
+ "title": "Daga m nema zuwa biya, amintaccen bincike",
+ "course_title": "Bayanan Bayani na SQL",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Daga buƙatun da ba a bayyana ba har zuwa biya, amintaccen bincike.",
+    "Wannan shi ne bidiyon don module 3 na SQL Fundamentals: Ayyukan Nazari, Abokan ciniki da Fayilolin ku."
+   ]
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Wani manaja ya ce, aiko mani abokan cinikinmu mafi kyau. Idan ka fara bugawa kai tsaye, ka amsa tunaninka, ba tambayarta ba. Don haka tambaya tukuna."
+   ],
+   "panel": {
+    "kicker": "Gano farko",
+    "heading": "Tambayi kafin ka rubuta kowane SQL",
+    "items": [
+     "Wane hukunci wannan zai goyi bayan?",
+     "Ta yaya kuke ayyana kalmar maɓalli?",
+     "Wani lokaci?",
+     "Me ya kamata a cire?",
+     "Wane tsari, ta yaushe, kuma sau nawa?"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Wane hukunci wannan zai goyi bayan? Ga Kemi, zabar wanda ke samun rangwamen aminci."
+   ],
+   "panel": {
+    "kicker": "Gano farko",
+    "heading": "Tambayi kafin ka rubuta kowane SQL",
+    "items": [
+     "Wane hukunci wannan zai goyi bayan?",
+     "Ta yaya kuke ayyana kalmar maɓalli?",
+     "Wani lokaci?",
+     "Me ya kamata a cire?",
+     "Wane tsari, ta yaushe, kuma sau nawa?"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Yaya kuka bayyana mafi kyau? Mafi girman abin da aka kawowa, ba adadin umarni ba."
+   ],
+   "panel": {
+    "kicker": "Gano farko",
+    "heading": "Tambayi kafin ka rubuta kowane SQL",
+    "items": [
+     "Wane hukunci wannan zai goyi bayan?",
+     "Ta yaya kuke ayyana kalmar maɓalli?",
+     "Wani lokaci?",
+     "Me ya kamata a cire?",
+     "Wane tsari, ta yaushe, kuma sau nawa?"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Wani lokaci? 1 ga Mayu zuwa 31 ga Agusta, 2026."
+   ],
+   "panel": {
+    "kicker": "Gano farko",
+    "heading": "Tambayi kafin ka rubuta kowane SQL",
+    "items": [
+     "Wane hukunci wannan zai goyi bayan?",
+     "Ta yaya kuke ayyana kalmar maɓalli?",
+     "Wani lokaci?",
+     "Me ya kamata a cire?",
+     "Wane tsari, ta yaushe, kuma sau nawa?"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Me ya kamata a bari? An soke da oda masu jiran aiki."
+   ],
+   "panel": {
+    "kicker": "Gano farko",
+    "heading": "Tambayi kafin ka rubuta kowane SQL",
+    "items": [
+     "Wane hukunci wannan zai goyi bayan?",
+     "Ta yaya kuke ayyana kalmar maɓalli?",
+     "Wani lokaci?",
+     "Me ya kamata a cire?",
+     "Wane tsari, ta yaushe, kuma sau nawa?"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Wane tsari ne, ta yaushe, kuma yana kashewa ɗaya ko kowane wata? Sa'an nan kuma rubuta ma'anar baya a cikin jumla ɗaya kuma sami e."
+   ],
+   "panel": {
+    "kicker": "Gano farko",
+    "heading": "Tambayi kafin ka rubuta kowane SQL",
+    "items": [
+     "Wane hukunci wannan zai goyi bayan?",
+     "Ta yaya kuke ayyana kalmar maɓalli?",
+     "Wani lokaci?",
+     "Me ya kamata a cire?",
+     "Wane tsari, ta yaushe, kuma sau nawa?"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "CTE, maganan tebur gama gari, zai baka damar suna mataki ɗaya tare da WITH, sannan kayi amfani da shi kamar tebur. Matakin farko na Kemi, wanda ake kira kashewa, jimlar sadar da umarni kowane abokin ciniki."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Mafi kyawun abokan ciniki, gina mataki-mataki",
+    "items": [
+     "WITH ciyar AS: isar jimlar kowane abokin ciniki",
+     "Duba: Abokan ciniki 5, suna ƙara zuwa 211,500",
+     "Matsakaicin kowane abokin ciniki na siye: 42,300",
+     "Ka kiyaye waɗanda ke sama da shi: Dupe, Amaka, Bisi"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Gudu wannan mataki kadai. Abokan ciniki 5, suna ƙara zuwa 211,500. Yayi kyau."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Mafi kyawun abokan ciniki, gina mataki-mataki",
+    "items": [
+     "WITH ciyar AS: isar jimlar kowane abokin ciniki",
+     "Duba: Abokan ciniki 5, suna ƙara zuwa 211,500",
+     "Matsakaicin kowane abokin ciniki na siye: 42,300",
+     "Ka kiyaye waɗanda ke sama da shi: Dupe, Amaka, Bisi"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Matsakaicin kowane abokin ciniki na siye shine 211,500 zuwa kashi 5, wanda shine 42,300."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Mafi kyawun abokan ciniki, gina mataki-mataki",
+    "items": [
+     "WITH ciyar AS: isar jimlar kowane abokin ciniki",
+     "Duba: Abokan ciniki 5, suna ƙara zuwa 211,500",
+     "Matsakaicin kowane abokin ciniki na siye: 42,300",
+     "Ka kiyaye waɗanda ke sama da shi: Dupe, Amaka, Bisi"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Tambayar ƙarshe tana riƙe abokan ciniki sama da haka: Dupe 61,000, Amaka 55,000, Bisi 54,500."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Mafi kyawun abokan ciniki, gina mataki-mataki",
+    "items": [
+     "WITH ciyar AS: isar jimlar kowane abokin ciniki",
+     "Duba: Abokan ciniki 5, suna ƙara zuwa 211,500",
+     "Matsakaicin kowane abokin ciniki na siye: 42,300",
+     "Ka kiyaye waɗanda ke sama da shi: Dupe, Amaka, Bisi"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Sai a ce me lambar ta boye. Dupe ya yi siyayya babba, yayin da Amaka ya saya sau uku. Wannan na iya canza wanda yake samun tayin."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Mafi kyawun abokan ciniki, gina mataki-mataki",
+    "items": [
+     "WITH ciyar AS: isar jimlar kowane abokin ciniki",
+     "Duba: Abokan ciniki 5, suna ƙara zuwa 211,500",
+     "Matsakaicin kowane abokin ciniki na siye: 42,300",
+     "Ka kiyaye waɗanda ke sama da shi: Dupe, Amaka, Bisi"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Bincika kowane mataki na CTE da kansa kafin gina shi.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Ayyukan taga suna ƙididdigewa a cikin layuka yayin kiyaye kowane jere. SUM OVER yana ba da jimlar gudana. LAG yana kawo darajar daga jere na baya, don haka zaku iya ganin canjin."
+   ],
+   "card": {
+    "title": "Kudaden shiga na wata-wata da jimlar gudanarwa",
+    "rows": [],
+    "note": "Yi ƙididdiga, ba farashin kasuwa na ainihi ba."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "May ya kawo naira 69,500. Yuni ya kawo 73,500, sama da 4,000, don haka jimlar 143,000."
+   ],
+   "card": {
+    "title": "Kudaden shiga na wata-wata da jimlar gudanarwa",
+    "rows": [
+     [
+      "Mayu",
+      "69,500"
+     ],
+     [
+      "Yuni: +4,000",
+      "73,500"
+     ]
+    ],
+    "note": "Yi ƙididdiga, ba farashin kasuwa na ainihi ba."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Yuli ya fadi zuwa 60,500, kuma Agusta ya nuna 8,000 kawai."
+   ],
+   "card": {
+    "title": "Kudaden shiga na wata-wata da jimlar gudanarwa",
+    "rows": [
+     [
+      "Mayu",
+      "69,500"
+     ],
+     [
+      "Yuni: +4,000",
+      "73,500"
+     ],
+     [
+      "Yuli: -13,000",
+      "60,500"
+     ],
+     [
+      "Agusta: -52,500",
+      "8,000"
+     ]
+    ],
+    "note": "Yi ƙididdiga, ba farashin kasuwa na ainihi ba."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Jimillar gudu na ƙarshe, 211,500, yayi daidai da jimlar da aka kawo, don haka yana dubawa. Amma Agusta yana da oda guda ɗaya kawai, don haka bayanin gaskiya shine watan Agusta na iya zama bai cika ba."
+   ],
+   "card": {
+    "title": "Kudaden shiga na wata-wata da jimlar gudanarwa",
+    "rows": [
+     [
+      "Mayu",
+      "69,500"
+     ],
+     [
+      "Yuni: +4,000",
+      "73,500"
+     ],
+     [
+      "Yuli: -13,000",
+      "60,500"
+     ],
+     [
+      "Agusta: -52,500",
+      "8,000"
+     ]
+    ],
+    "note": "Yi ƙididdiga, ba farashin kasuwa na ainihi ba."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Masu farawa suna farashin lokacin rubuta tambaya ta ƙarshe kawai. Aiki na gaske yana ɗaukar lokaci mai tsawo. Halima tana kimanta kowane mataki: ganowa da iyaka, awanni 2. Shiga da lodi, 3. Rubutu da tambayoyin gwaji, 5. Dubawa, 2. Rahoton, 3.",
+    "Wato awa 15 kenan. Ta ƙara da kashi 20 cikin ɗari, sa'o'i 3, don 18 gabaɗaya."
+   ],
+   "card": {
+    "title": "Halima ta nakalto nazarin tallace-tallace",
+    "rows": [],
+    "note": "5,000 awa daya don hanya ce kawai, ba ƙimar kasuwa ba."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "A misalin naira 5,000 a awa daya, wato naira 90,000 kenan. Bincika ƙimar ku."
+   ],
+   "card": {
+    "title": "Halima ta nakalto nazarin tallace-tallace",
+    "rows": [
+     [
+      "18 hours x 5,000 a kowace awa",
+      "90,000"
+     ]
+    ],
+    "note": "5,000 awa daya don hanya ce kawai, ba ƙimar kasuwa ba."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Ta nemi kashi 50, 45,000, a matsayin ajiya kafin shiga. Kuma ƙarin tambayoyi suna samun ƙarin fa'ida."
+   ],
+   "card": {
+    "title": "Halima ta nakalto nazarin tallace-tallace",
+    "rows": [
+     [
+      "18 hours x 5,000 a kowace awa",
+      "90,000"
+     ],
+     [
+      "Adadin ajiya kafin samun damar bayanai, 50%",
+      "45,000"
+     ]
+    ],
+    "note": "5,000 awa daya don hanya ce kawai, ba ƙimar kasuwa ba."
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Bayanan tallace-tallace suna riƙe da bayanan sirri, kuma Dokar Kare Bayanai ta Najeriya 2023 ta tsara masa dokoki. Don haka nemi damar karantawa kawai. Kafin kowane umarni da ke canza bayanai, fara gudanar da yanayin INA a cikin SELECT."
+   ],
+   "panel": {
+    "kicker": "Bayanan abokin ciniki",
+    "heading": "Amintattun halaye na bayanai ga manazarta",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Samun damar karanta-kawai",
+      "d": "Ba za ku iya canza ko share bayanan da kuskure ba. SHAFE, UPDATE da DOP sau da yawa ba su da wani gyara."
+     },
+     {
+      "t": "Abin da kuke buƙata kawai",
+      "d": "Nemi mafi ƙarancin ginshiƙai. Sauya sunaye da ID. Babu fitarwa a cikin tattaunawar sirri ta WhatsApp."
+     },
+     {
+      "t": "Share a karshen",
+      "d": "Ajiye fayiloli tare da tabbatarwa mataki biyu, share su bayan aikin, kuma tabbatar a rubuce."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Nemi ginshiƙan da kuke buƙata kawai. Ba kasafai kuke buƙatar lambobin waya don ƙidaya tallace-tallace ba. Kada a taɓa aika fitarwa ta hanyar tattaunawa ta WhatsApp ko kayan aikin jama'a."
+   ],
+   "panel": {
+    "kicker": "Bayanan abokin ciniki",
+    "heading": "Amintattun halaye na bayanai ga manazarta",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Samun damar karanta-kawai",
+      "d": "Ba za ku iya canza ko share bayanan da kuskure ba. SHAFE, UPDATE da DOP sau da yawa ba su da wani gyara."
+     },
+     {
+      "t": "Abin da kuke buƙata kawai",
+      "d": "Nemi mafi ƙarancin ginshiƙai. Sauya sunaye da ID. Babu fitarwa a cikin tattaunawar sirri ta WhatsApp."
+     },
+     {
+      "t": "Share a karshen",
+      "d": "Ajiye fayiloli tare da tabbatarwa mataki biyu, share su bayan aikin, kuma tabbatar a rubuce."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Ajiye fayiloli lafiya, share su a ƙarshen aikin, kuma tabbatar da gogewa a rubuce."
+   ],
+   "panel": {
+    "kicker": "Bayanan abokin ciniki",
+    "heading": "Amintattun halaye na bayanai ga manazarta",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Samun damar karanta-kawai",
+      "d": "Ba za ku iya canza ko share bayanan da kuskure ba. SHAFE, UPDATE da DOP sau da yawa ba su da wani gyara."
+     },
+     {
+      "t": "Abin da kuke buƙata kawai",
+      "d": "Nemi mafi ƙarancin ginshiƙai. Sauya sunaye da ID. Babu fitarwa a cikin tattaunawar sirri ta WhatsApp."
+     },
+     {
+      "t": "Share a karshen",
+      "d": "Ajiye fayiloli tare da tabbatarwa mataki biyu, share su bayan aikin, kuma tabbatar a rubuce."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Takaddun shaida sun ce kun yi karatu. Fayil ɗin yana nuna za ku iya yin aikin. Ɗauki saitin bayanan jama'a guda ɗaya, daga Kaggle ko Buɗe Bayanan Bankin Duniya, kuma rubuta tambayoyi 3 zuwa 5 da mai sarrafa zai yi."
+   ],
+   "panel": {
+    "kicker": "Tabbatar da ƙwarewar ku",
+    "heading": "Aikin fayil wanda ake lura dashi",
+    "items": [
+     "Tambayoyin kasuwanci 3 zuwa 5 a matsayin ma'anoni",
+     "Tambaya ɗaya kowace, har zuwa CTE da taga",
+     "Yi rikodin cak ɗin ku da abin da suka kama",
+     "Binciken yaren bayyananne tare da sigogi ɗaya ko biyu",
+     "Buga akan GitHub kuma saka shi zuwa LinkedIn"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Rubuta tambaya ɗaya a kowace tambaya."
+   ],
+   "panel": {
+    "kicker": "Tabbatar da ƙwarewar ku",
+    "heading": "Aikin fayil wanda ake lura dashi",
+    "items": [
+     "Tambayoyin kasuwanci 3 zuwa 5 a matsayin ma'anoni",
+     "Tambaya ɗaya kowace, har zuwa CTE da taga",
+     "Yi rikodin cak ɗin ku da abin da suka kama",
+     "Binciken yaren bayyananne tare da sigogi ɗaya ko biyu",
+     "Buga akan GitHub kuma saka shi zuwa LinkedIn"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Yi rikodin cak ɗin da kuka gudanar, da abin da suka kama."
+   ],
+   "panel": {
+    "kicker": "Tabbatar da ƙwarewar ku",
+    "heading": "Aikin fayil wanda ake lura dashi",
+    "items": [
+     "Tambayoyin kasuwanci 3 zuwa 5 a matsayin ma'anoni",
+     "Tambaya ɗaya kowace, har zuwa CTE da taga",
+     "Yi rikodin cak ɗin ku da abin da suka kama",
+     "Binciken yaren bayyananne tare da sigogi ɗaya ko biyu",
+     "Buga akan GitHub kuma saka shi zuwa LinkedIn"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Rubuta binciken mai karatu wanda ba fasaha ba zai iya aiki da shi."
+   ],
+   "panel": {
+    "kicker": "Tabbatar da ƙwarewar ku",
+    "heading": "Aikin fayil wanda ake lura dashi",
+    "items": [
+     "Tambayoyin kasuwanci 3 zuwa 5 a matsayin ma'anoni",
+     "Tambaya ɗaya kowace, har zuwa CTE da taga",
+     "Yi rikodin cak ɗin ku da abin da suka kama",
+     "Binciken yaren bayyananne tare da sigogi ɗaya ko biyu",
+     "Buga akan GitHub kuma saka shi zuwa LinkedIn"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Sannan buga shi tare da README kuma saka shi zuwa LinkedIn. Fiye da kwanaki 90: yi aikin yau da kullun, gina aikin, buga, sannan a nema."
+   ],
+   "panel": {
+    "kicker": "Tabbatar da ƙwarewar ku",
+    "heading": "Aikin fayil wanda ake lura dashi",
+    "items": [
+     "Tambayoyin kasuwanci 3 zuwa 5 a matsayin ma'anoni",
+     "Tambaya ɗaya kowace, har zuwa CTE da taga",
+     "Yi rikodin cak ɗin ku da abin da suka kama",
+     "Binciken yaren bayyananne tare da sigogi ɗaya ko biyu",
+     "Buga akan GitHub kuma saka shi zuwa LinkedIn"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Don tunawa. Yarda da ma'anar kafin ku tambaya. Gina cikin suna, matakan da aka duba. Farashin kowane mataki na aikin, ba kawai tambaya ta ƙarshe ba. Kuma kula da bayanan abokin ciniki tare da kulawa daga samun damar gogewa."
+   ],
+   "panel": {
+    "kicker": "Mabuɗin mahimmanci",
+    "heading": "Ka tuna",
+    "items": [
+     "Yarda da ma'anar jumla ɗaya tukuna",
+     "Sanya sunan kowane mataki tare da CTE kuma duba shi",
+     "Ayyukan taga suna kiyaye kowane jere",
+     "Iyaka, kimanta kowane mataki, ɗauki ajiya",
+     "Samun damar karanta-kawai, ƙaramin bayanai, sharewa a ƙarshe"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Yanzu gudanar da tattaunawar ganowa, rubuta iyakar shafi ɗaya da faɗi, sannan fara fayil ɗinku tare da shirin kwanaki 90.",
+    "Ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi ayyuka",
+    "heading": "Aikin ku na wannan module",
+    "items": [
+     "Gudanar da tattaunawar ganowa",
+     "Rubuta iyakar shafi ɗaya da faɗi",
+     "Fara fayil ɗin ku da shirin kwanaki 90"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}
