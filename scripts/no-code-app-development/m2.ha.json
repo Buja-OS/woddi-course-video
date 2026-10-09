@@ -1,0 +1,602 @@
+{
+ "course": "no-code-app-development",
+ "module": "m2",
+ "title": "Gina, gwadawa da mika hannun jari da ƙa'idar tallace-tallace",
+ "course_title": "Haɓaka App No Code",
+ "shots": [
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Gina, gwadawa da mika hannun jari da aikace-aikacen tallace-tallace.",
+    "Wannan shi ne bidiyo don module na biyu na No-Code App Development."
+   ]
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "A cikin wannan module ɗin kun gina ƙa'idar gaske guda ɗaya. Alal misali, Esther tana gudanar da wani kantin sayar da kayan gona a Makurdi, tare da ma’aikatan tallace-tallace biyu. Tana so ta daina kirga jakunkuna kowace yamma."
+   ],
+   "panel": {
+    "kicker": "Abin da za ku gina",
+    "heading": "App na kantin kayan agro-input na Esther",
+    "items": [
+     "Bibiyar samfura, bayarwa da tallace-tallace",
+     "Gargadi mai shi lokacin da hannun jari ya yi ƙasa",
+     "An gwada, amintattu kuma an tattara su"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Aikace-aikacen ta za ta bin diddigin samfuran, isarwa da tallace-tallace, yi mata gargaɗi lokacin da hannun jari ya yi ƙasa, kuma a gwada shi kuma a rubuta shi ta yadda wani zai iya gudanar da shi. Duk yana aiki akan matakin samfuri na kyauta na AppSheet."
+   ],
+   "panel": {
+    "kicker": "Abin da za ku gina",
+    "heading": "App na kantin kayan agro-input na Esther",
+    "items": [
+     "Bibiyar samfura, bayarwa da tallace-tallace",
+     "Gargadi mai shi lokacin da hannun jari ya yi ƙasa",
+     "An gwada, amintattu kuma an tattara su"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Yawancin matsalolin farko sun fito ne daga m zanen gado. AppSheet yana karanta kowane shafin azaman tebur, tare da layin kai ɗaya a saman."
+   ],
+   "panel": {
+    "kicker": "Mataki na 1",
+    "heading": "Shirya takardar da kyau",
+    "items": [
+     "Tebu ɗaya a kowane shafin: Kayayyaki, Hannun Jari, Talla",
+     "Daidai jeri na kai a jere 1",
+     "Babu sel da aka haɗa, jimlar layuka ko layuka marasa tushe",
+     "Rukunin ID na farko a kowane shafi",
+     "3 zuwa 5 layuka samfurin gaskiya"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Cire sel masu hade da jimlar layuka. Esther ta goge layin TOTAL a kasan shafin tallace-tallace , saboda AppSheet zai karanta shi azaman siyarwa."
+   ],
+   "panel": {
+    "kicker": "Mataki na 1",
+    "heading": "Shirya takardar da kyau",
+    "items": [
+     "Tebu ɗaya a kowane shafin: Kayayyaki, Hannun Jari, Talla",
+     "Daidai jeri na kai a jere 1",
+     "Babu sel da aka haɗa, jimlar layuka ko layuka marasa tushe",
+     "Rukunin ID na farko a kowane shafi",
+     "3 zuwa 5 layuka samfurin gaskiya"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Sanya ginshiƙin ID farko, kuma ƙara ƴan samfurin layuka don AppSheet ya iya hasashen nau'ikan shafi."
+   ],
+   "panel": {
+    "kicker": "Mataki na 1",
+    "heading": "Shirya takardar da kyau",
+    "items": [
+     "Tebu ɗaya a kowane shafin: Kayayyaki, Hannun Jari, Talla",
+     "Daidai jeri na kai a jere 1",
+     "Babu sel da aka haɗa, jimlar layuka ko layuka marasa tushe",
+     "Rukunin ID na farko a kowane shafi",
+     "3 zuwa 5 layuka samfurin gaskiya"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Bayan takardar, duba kowane shafi. Maɓallai suna samun ƙimar farko UNIQUEID(), kuma suna ɓoye. Kwanaki suna farawa kamar YAU(). Ana sayar da su ta hanyar bayanan USEREMAIL()."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Tsarin gini don kowane appSheet app",
+    "items": [
+     "Tsaftace takardar",
+     "Saita maɓallai da nau'ikan",
+     "Ƙara nassoshi",
+     "Ra'ayoyin ƙira",
+     "Ƙara dokoki da aiki da kai"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Shagon Samfura a cikin Talla da Hannun jari A ya zama Ref zuwa Samfura, yana haɗa kowane siyarwa zuwa samfur ɗaya."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Tsarin gini don kowane appSheet app",
+    "items": [
+     "Tsaftace takardar",
+     "Saita maɓallai da nau'ikan",
+     "Ƙara nassoshi",
+     "Ra'ayoyin ƙira",
+     "Ƙara dokoki da aiki da kai"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Zane ra'ayi ga ma'aikata a kan counter tare da waya a hannu daya. Sabon siyarwa yana farawa a cikin menu, saboda shine mafi yawan aiki."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Tsarin gini don kowane appSheet app",
+    "items": [
+     "Tsaftace takardar",
+     "Saita maɓallai da nau'ikan",
+     "Ƙara nassoshi",
+     "Ra'ayoyin ƙira",
+     "Ƙara dokoki da aiki da kai"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Bi wannan odar. Canza bayanan bayan an gina ra'ayi yana haifar da sake yin aiki. Kuma gwada a kan ainihin wayar, ba kawai a cikin edita ba."
+   ],
+   "panel": {
+    "kicker": "Mataki-mataki",
+    "heading": "Tsarin gini don kowane appSheet app",
+    "items": [
+     "Tsaftace takardar",
+     "Saita maɓallai da nau'ikan",
+     "Ƙara nassoshi",
+     "Ra'ayoyin ƙira",
+     "Ƙara dokoki da aiki da kai"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Kar a taɓa yarda da ginshiƙin AppSheet a makance.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "An rubuta dabaru a matsayin maganganu, gajerun dabaru tare da sunayen ginshiƙai a maƙallan murabba'i. Ƙara ginshiƙi na kama-da-wane da ake kira Stock na yanzu. NPK yana farawa watan da jaka 40."
+   ],
+   "panel": {
+    "kicker": "Hankali",
+    "heading": "Ana ƙididdige hannun jari, ba a taɓa bugawa ba",
+    "items": [
+     "Hannun Budewa: Jakunkuna 40 na NPK",
+     "Ƙarin bayarwa: jakunkuna 25",
+     "Rage tallace-tallace a wannan makon: jakunkuna 52",
+     "Hannun jari na yanzu: 40 + 25 - 52 = 13"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "SELECT da SUM suna ƙara kowane bayarwa don wannan samfurin: jakunkuna 25."
+   ],
+   "panel": {
+    "kicker": "Hankali",
+    "heading": "Ana ƙididdige hannun jari, ba a taɓa bugawa ba",
+    "items": [
+     "Hannun Budewa: Jakunkuna 40 na NPK",
+     "Ƙarin bayarwa: jakunkuna 25",
+     "Rage tallace-tallace a wannan makon: jakunkuna 52",
+     "Hannun jari na yanzu: 40 + 25 - 52 = 13"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Sa'an nan kuma cire kowane tallace-tallace: 52 jaka."
+   ],
+   "panel": {
+    "kicker": "Hankali",
+    "heading": "Ana ƙididdige hannun jari, ba a taɓa bugawa ba",
+    "items": [
+     "Hannun Budewa: Jakunkuna 40 na NPK",
+     "Ƙarin bayarwa: jakunkuna 25",
+     "Rage tallace-tallace a wannan makon: jakunkuna 52",
+     "Hannun jari na yanzu: 40 + 25 - 52 = 13"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Manhajar ta nuna jakunkuna 13 da suka rage ba tare da kowa ya kirga ba. Tare da sake yin oda matakin 15, NPK yana nuna Sake yin oda da ja."
+   ],
+   "panel": {
+    "kicker": "Hankali",
+    "heading": "Ana ƙididdige hannun jari, ba a taɓa bugawa ba",
+    "items": [
+     "Hannun Budewa: Jakunkuna 40 na NPK",
+     "Ƙarin bayarwa: jakunkuna 25",
+     "Rage tallace-tallace a wannan makon: jakunkuna 52",
+     "Hannun jari na yanzu: 40 + 25 - 52 = 13"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "13 yana a ko ƙasa da matakin sake oda na 15: lokacin sake yin oda.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Yi Qty da Samfur da ake buƙata."
+   ],
+   "panel": {
+    "kicker": "Dokokin da ke dakatar da kuskure",
+    "heading": "Dakatar da mummunan bayanai yayin shigarwa",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Da ake bukata",
+      "d": "Qty da samfur dole ne a cika, don haka ba a adana siyarwa ba tare da su ba."
+     },
+     {
+      "t": "Ingantacciyar Idan",
+      "d": "Qty sama da 0 kuma bai wuce hannun jari na Yanzu ba. Ƙara saƙon kuskure bayyananne."
+     },
+     {
+      "t": "Ƙimar farko",
+      "d": "Farashin Unit yana kwafi farashin samfur a lokacin siyarwa. Babu sake bugawa."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Ƙara Ingantacciyar Idan, don haka adadin dole ne ya kasance sama da 0 kuma bai wuce haja ba. Ƙara sako kamar, jakunkuna 13 ne kawai suka rage, don haka ma'aikatan su san abin da ba daidai ba."
+   ],
+   "panel": {
+    "kicker": "Dokokin da ke dakatar da kuskure",
+    "heading": "Dakatar da mummunan bayanai yayin shigarwa",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Da ake bukata",
+      "d": "Qty da samfur dole ne a cika, don haka ba a adana siyarwa ba tare da su ba."
+     },
+     {
+      "t": "Ingantacciyar Idan",
+      "d": "Qty sama da 0 kuma bai wuce hannun jari na Yanzu ba. Ƙara saƙon kuskure bayyananne."
+     },
+     {
+      "t": "Ƙimar farko",
+      "d": "Farashin Unit yana kwafi farashin samfur a lokacin siyarwa. Babu sake bugawa."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Kuma kwafi farashin cikin siyarwa lokacin da aka yi shi, don haka tarihi ya tsaya gaskiya."
+   ],
+   "panel": {
+    "kicker": "Dokokin da ke dakatar da kuskure",
+    "heading": "Dakatar da mummunan bayanai yayin shigarwa",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Da ake bukata",
+      "d": "Qty da samfur dole ne a cika, don haka ba a adana siyarwa ba tare da su ba."
+     },
+     {
+      "t": "Ingantacciyar Idan",
+      "d": "Qty sama da 0 kuma bai wuce hannun jari na Yanzu ba. Ƙara saƙon kuskure bayyananne."
+     },
+     {
+      "t": "Ƙimar farko",
+      "d": "Farashin Unit yana kwafi farashin samfur a lokacin siyarwa. Babu sake bugawa."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Bot yana kallon taron, sannan yana gudanar da matakai da kansa. Anan taron shine sabon layi a cikin Talla."
+   ],
+   "panel": {
+    "kicker": "Kayan aiki da kai",
+    "heading": "Ƙarƙashin bot",
+    "items": [
+     "Lamarin: Ana ƙara siyarwa",
+     "Yanayi: hannun jari a ko ƙasa da matakin sake yin oda",
+     "Aiki: yi wa mai shi imel",
+     "Gwada har sai imel ɗin ya zo"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Yanayin yana duba haja na samfurin daidai da matakin sake yin oda. Idan gaskiya ne, tana aika imel da sunan samfurin da hannun jari ga Esther."
+   ],
+   "panel": {
+    "kicker": "Kayan aiki da kai",
+    "heading": "Ƙarƙashin bot",
+    "items": [
+     "Lamarin: Ana ƙara siyarwa",
+     "Yanayi: hannun jari a ko ƙasa da matakin sake yin oda",
+     "Aiki: yi wa mai shi imel",
+     "Gwada har sai imel ɗin ya zo"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Yi rikodin tallace-tallacen gwaji har sai yanayin ya cika, kuma tabbatar da isowar imel. Rike ƙididdiga masu nauyi kaɗan, saboda suna jinkirta ƙa'idar yayin da tebur ke girma."
+   ],
+   "panel": {
+    "kicker": "Kayan aiki da kai",
+    "heading": "Ƙarƙashin bot",
+    "items": [
+     "Lamarin: Ana ƙara siyarwa",
+     "Yanayi: hannun jari a ko ƙasa da matakin sake yin oda",
+     "Aiki: yi wa mai shi imel",
+     "Gwada har sai imel ɗin ya zo"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Bot yana kunna wuta kawai lokacin da abin ya faru da yanayin duka gaskiya ne.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Misali, Amina tana gama manhajar Esther. Ta rubuta shari'o'in gwaji 14, gami da siyar da ainihin jakar ta ƙarshe, da shigar da sifili ko sarari. Tana gudanar da su azaman mai amfani da gwajin ma'aikatan tallace-tallace."
+   ],
+   "panel": {
+    "kicker": "Gwaji",
+    "heading": "Rubutun jarabawar Amina",
+    "items": [
+     "Rubuta lokuta 14 tare da sakamakon da ake sa ran",
+     "Haɗa shari'o'in gefe da shigarwar kuskure",
+     "11 na 14 wucewa; gyara gazawar 3",
+     "Maimaita duk lokuta 14"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "3 kasa. An adana adadin 0, samfuran biyu za su iya raba suna, kuma ma'aikata za su iya gyara hannun jarin buɗewa. Ta gyara kowanne."
+   ],
+   "panel": {
+    "kicker": "Gwaji",
+    "heading": "Rubutun jarabawar Amina",
+    "items": [
+     "Rubuta lokuta 14 tare da sakamakon da ake sa ran",
+     "Haɗa shari'o'in gefe da shigarwar kuskure",
+     "11 na 14 wucewa; gyara gazawar 3",
+     "Maimaita duk lokuta 14"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Sannan ta sake yin duk 14, saboda gyare-gyare na iya karya wasu abubuwa. Duk sun wuce, kuma log ɗin gwaji ya shiga cikin fakitin mika hannu."
+   ],
+   "panel": {
+    "kicker": "Gwaji",
+    "heading": "Rubutun jarabawar Amina",
+    "items": [
+     "Rubuta lokuta 14 tare da sakamakon da ake sa ran",
+     "Haɗa shari'o'in gefe da shigarwar kuskure",
+     "11 na 14 wucewa; gyara gazawar 3",
+     "Maimaita duk lokuta 14"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Bayan kowane gyara, sake kunna kowane harka, ba kawai gazawar ba.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Bukatar shiga, kuma yi amfani da teburin masu amfani tare da matsayi don haka mai shi kaɗai ke canza farashin. Duk wanda ke da damar yin editan Google Sheet zai iya canza bayanai, don haka raba shi kawai tare da mai shi da magini."
+   ],
+   "panel": {
+    "kicker": "Tsaro na farko",
+    "heading": "Samun shiga, bayanai da amfani da layi",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Shiga da matsayi",
+      "d": "Raba tare da imel ɗin ma'aikata masu suna. Mai shi ne kawai ke canza farashi da haja. Iyakance wanda ke gyara takardar."
+     },
+     {
+      "t": "Bayanan sirri",
+      "d": "Tattara abin da kuke buƙata kawai. Kada a taɓa tattara bayanan BVN, NIN ko katin a cikin ƙa'idar no-code."
+     },
+     {
+      "t": "Daidaita kullun",
+      "d": "Kwanakin layi na iya sake rubuta canje-canjen wasu. Ma'aikata suna aiki tare aƙalla kowace rana."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Lambobin wayar abokin ciniki bayanan sirri ne. Dokar Kare Bayanai ta Najeriya 2023 tana tsammanin ku tattara abin da kuke buƙata kawai ku kiyaye shi."
+   ],
+   "panel": {
+    "kicker": "Tsaro na farko",
+    "heading": "Samun shiga, bayanai da amfani da layi",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Shiga da matsayi",
+      "d": "Raba tare da imel ɗin ma'aikata masu suna. Mai shi ne kawai ke canza farashi da haja. Iyakance wanda ke gyara takardar."
+     },
+     {
+      "t": "Bayanan sirri",
+      "d": "Tattara abin da kuke buƙata kawai. Kada a taɓa tattara bayanan BVN, NIN ko katin a cikin ƙa'idar no-code."
+     },
+     {
+      "t": "Daidaita kullun",
+      "d": "Kwanakin layi na iya sake rubuta canje-canjen wasu. Ma'aikata suna aiki tare aƙalla kowace rana."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "AppSheet yana aiki ba layi ba, amma waya a layi na kwanaki na iya sake rubuta canje-canjen wasu idan ta daidaita. Gwada shi a yanayin jirgin sama."
+   ],
+   "panel": {
+    "kicker": "Tsaro na farko",
+    "heading": "Samun shiga, bayanai da amfani da layi",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Shiga da matsayi",
+      "d": "Raba tare da imel ɗin ma'aikata masu suna. Mai shi ne kawai ke canza farashi da haja. Iyakance wanda ke gyara takardar."
+     },
+     {
+      "t": "Bayanan sirri",
+      "d": "Tattara abin da kuke buƙata kawai. Kada a taɓa tattara bayanan BVN, NIN ko katin a cikin ƙa'idar no-code."
+     },
+     {
+      "t": "Daidaita kullun",
+      "d": "Kwanakin layi na iya sake rubuta canje-canjen wasu. Ma'aikata suna aiki tare aƙalla kowace rana."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Don tunawa. Tsaftace takardar kuma duba kowane shafi. Yi lissafin jari, kada a taɓa buga shi. Toshe munanan shigarwar. Maimaita duk gwaje-gwaje bayan gyarawa. Kuma isar da fakitin mika hannu, ta yadda wani ba kai ba zai iya kiyaye app ɗin a raye."
+   ],
+   "panel": {
+    "kicker": "Mabuɗin mahimmanci",
+    "heading": "Ka tuna",
+    "items": [
+     "Tsaftace zanen gado da farko; duba kowane shafi",
+     "Yi lissafin haja daga layuka masu alaƙa",
+     "Ingantacciyar Idan kuma Ana Bukata Tsayar da muggan shigarwar",
+     "Maimaita kowane gwaji bayan gyarawa",
+     "Kunshin mikawa: samfuri, dokoki, masu amfani, farashi, gwaje-gwaje"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Ayyukanku: gina sigar farko daga takarda mai tsabta, ƙara dabaru da bot ɗin ƙaramin jari, sannan gwadawa, amintaccen kuma rubuta kayan aikin ku.",
+    "Ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi ayyuka",
+    "heading": "Ayyukan aikin ku",
+    "items": [
+     "Gina sigar farko",
+     "Ƙara dabaru da ƙananan bot",
+     "Gwaji, amintacce da daftarin aiki"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

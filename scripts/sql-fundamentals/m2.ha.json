@@ -1,0 +1,574 @@
+{
+ "course": "sql-fundamentals",
+ "module": "m2",
+ "title": "Haɗa tebur kuma tabbatar da ƙara yawan lambobin ku",
+ "course_title": "Bayanan Bayani na SQL",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Haɗa tebur, kuma tabbatar da ƙara yawan lambobin ku.",
+    "Wannan shi ne bidiyon don module 2 na SQL Fundamentals: Kayan aiki, Haɗuwa da Sakamako Masu Amintacce."
+   ]
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Kuna koyon SQL ta hanyar buga tambayoyi da ganin sakamako. Ba kwa buƙatar siyan komai. Zaɓi kayan aiki guda ɗaya kuma ku zauna tare da shi."
+   ],
+   "panel": {
+    "kicker": "Kayan aikin kyauta",
+    "heading": "Wani wuri don yin aiki, kyauta",
+    "items": [
+     "SQLite Fiddle: a cikin kowane mai bincike, babu asusu",
+     "DB Browser don SQLite: layi akan kwamfutar tafi-da-gidanka",
+     "PostgreSQL a cikin aikin girgije kyauta",
+     "Akwatin Sandbox na BigQuery na Google don manyan bayanan bayanai"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "SQLite Fiddle yana gudana a cikin kowane mai bincike, koda akan wayarka, ba tare da asusu ba."
+   ],
+   "panel": {
+    "kicker": "Kayan aikin kyauta",
+    "heading": "Wani wuri don yin aiki, kyauta",
+    "items": [
+     "SQLite Fiddle: a cikin kowane mai bincike, babu asusu",
+     "DB Browser don SQLite: layi akan kwamfutar tafi-da-gidanka",
+     "PostgreSQL a cikin aikin girgije kyauta",
+     "Akwatin Sandbox na BigQuery na Google don manyan bayanan bayanai"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "DB Browser na SQLite yana aiki akan layi sau ɗaya an shigar dashi akan kwamfutar tafi-da-gidanka."
+   ],
+   "panel": {
+    "kicker": "Kayan aikin kyauta",
+    "heading": "Wani wuri don yin aiki, kyauta",
+    "items": [
+     "SQLite Fiddle: a cikin kowane mai bincike, babu asusu",
+     "DB Browser don SQLite: layi akan kwamfutar tafi-da-gidanka",
+     "PostgreSQL a cikin aikin girgije kyauta",
+     "Akwatin Sandbox na BigQuery na Google don manyan bayanan bayanai"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Aikin PostgreSQL na kyauta, misali akan Supabase, yana ba ku damar aiwatar da bayanan fintechs da yawa."
+   ],
+   "panel": {
+    "kicker": "Kayan aikin kyauta",
+    "heading": "Wani wuri don yin aiki, kyauta",
+    "items": [
+     "SQLite Fiddle: a cikin kowane mai bincike, babu asusu",
+     "DB Browser don SQLite: layi akan kwamfutar tafi-da-gidanka",
+     "PostgreSQL a cikin aikin girgije kyauta",
+     "Akwatin Sandbox na BigQuery na Google don manyan bayanan bayanai"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Kuma Akwatin Sandan BigQuery yana ba ku damar yin tambaya manyan bayanan jama'a. Duk abin da kuka zaɓa, ajiye tambayoyinku a cikin fayil ɗin bayanin kula. Ya zama ɗakin karatu na tambayar ku."
+   ],
+   "panel": {
+    "kicker": "Kayan aikin kyauta",
+    "heading": "Wani wuri don yin aiki, kyauta",
+    "items": [
+     "SQLite Fiddle: a cikin kowane mai bincike, babu asusu",
+     "DB Browser don SQLite: layi akan kwamfutar tafi-da-gidanka",
+     "PostgreSQL a cikin aikin girgije kyauta",
+     "Akwatin Sandbox na BigQuery na Google don manyan bayanan bayanai"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Misali, Ada tayi karatu a wayarta lokacin cin abinci. Ta buɗe SQLite Fiddle kuma tana gudanar da bayanan CREATE TABLE don abokan ciniki, oda da oda abubuwa."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Ada ya loda bayanan Kemi ya duba",
+    "items": [
+     "Gudanar da bayanan CREATE TABLE guda uku",
+     "Manna INSERT layuka: 6, 10 da 13",
+     "Kidaya layuka a kowane teburi",
+     "Duba jimlar: 251,500",
+     "Ajiye rubutun azaman kemi_setup.sql"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Ta liƙa bayanan INSERT: abokan ciniki 6, oda 10 da jerin jerin abubuwa 13."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Ada ya loda bayanan Kemi ya duba",
+    "items": [
+     "Gudanar da bayanan CREATE TABLE guda uku",
+     "Manna INSERT layuka: 6, 10 da 13",
+     "Kidaya layuka a kowane teburi",
+     "Duba jimlar: 251,500",
+     "Ajiye rubutun azaman kemi_setup.sql"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Sannan ta kirga layuka a kowane teburi. 6, 10 da 13. Daidai."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Ada ya loda bayanan Kemi ya duba",
+    "items": [
+     "Gudanar da bayanan CREATE TABLE guda uku",
+     "Manna INSERT layuka: 6, 10 da 13",
+     "Kidaya layuka a kowane teburi",
+     "Duba jimlar: 251,500",
+     "Ajiye rubutun azaman kemi_setup.sql"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Ta tattara adadin duk umarni 10 kuma ta sami 251,500, kamar yadda aka zata. Me yasa duba? Waƙafi da ya ɓace zai iya dakatar da INSERT ɗaya yayin da sauran suka yi nasara, sannan kowane amsa daga baya ba daidai ba ne."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Ada ya loda bayanan Kemi ya duba",
+    "items": [
+     "Gudanar da bayanan CREATE TABLE guda uku",
+     "Manna INSERT layuka: 6, 10 da 13",
+     "Kidaya layuka a kowane teburi",
+     "Duba jimlar: 251,500",
+     "Ajiye rubutun azaman kemi_setup.sql"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Ta ajiye rubutun don ta sake gina kowane lokaci. Kuma ku tuna, yi amfani da bayanan da aka ƙera don aiki. Kar a taɓa sanya sunayen abokin ciniki na ainihi ko lambobin waya cikin kayan aikin kan layi na jama'a."
+   ],
+   "panel": {
+    "kicker": "Misali na aiki",
+    "heading": "Ada ya loda bayanan Kemi ya duba",
+    "items": [
+     "Gudanar da bayanan CREATE TABLE guda uku",
+     "Manna INSERT layuka: 6, 10 da 13",
+     "Kidaya layuka a kowane teburi",
+     "Duba jimlar: 251,500",
+     "Ajiye rubutun azaman kemi_setup.sql"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Yi bayanai kawai. Kada a taɓa manna ainihin bayanan abokin ciniki akan layi.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "JOIN yana jera layuka daga teburi biyu duk inda maɓallan maɓalli suka yi daidai. JOIN CIKI yana kiyaye matches kawai. Shiga ba da umarni ga abokan ciniki yana ba da layuka 8, kowanne yanzu yana da suna da birni."
+   ],
+   "panel": {
+    "kicker": "Tebur masu shiga",
+    "heading": "SHIGA CIKI da HANYAR HAGU",
+    "mode": "compare",
+    "left_h": "SHIGA CIKI",
+    "left": [
+     "Layukan da suka dace kawai",
+     "Funmi ya bace",
+     "8 isar da layuka na oda",
+     "Domin: abin da aka sayar"
+    ],
+    "right_h": "SHIGA HAGU",
+    "right": [
+     "An adana duk layuka na teburin hagu",
+     "Funmi ta kasance tare da NULLs",
+     "6 layukan abokin ciniki",
+     "Don: wanene ya ɓace"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "HAGUWAR HAGU yana adana kowane jere na tebur na farko, ko da babu wasa. Rukunin da suka ɓace suna dawowa azaman NULL. Ta haka ne za ka sami wanda ya ɓace, kamar Funmi, abokin ciniki wanda bai taɓa samun oda ba."
+   ],
+   "panel": {
+    "kicker": "Tebur masu shiga",
+    "heading": "SHIGA CIKI da HANYAR HAGU",
+    "mode": "compare",
+    "left_h": "SHIGA CIKI",
+    "left": [
+     "Layukan da suka dace kawai",
+     "Funmi ya bace",
+     "8 isar da layuka na oda",
+     "Domin: abin da aka sayar"
+    ],
+    "right_h": "SHIGA HAGU",
+    "right": [
+     "An adana duk layuka na teburin hagu",
+     "Funmi ta kasance tare da NULLs",
+     "6 layukan abokin ciniki",
+     "Don: wanene ya ɓace"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Ta fara daga abokan ciniki, don haka babu wanda ya ɓace, kuma ta sanya matsayi daidai da aka kawo a cikin ON ɓangaren haɗin, ba a INA ba."
+   ],
+   "card": {
+    "title": "Kashe kowane abokin ciniki, gami da sifili",
+    "rows": [],
+    "note": "Yi ƙididdiga, ba farashin kasuwa na ainihi ba."
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Dupe ya kashe naira 61,000, Amaka 55,000, Bisi 54,500, Efe 33,000 da Chioma 8,000. Funmi tana da 0, don haka ta sami tayin maraba."
+   ],
+   "card": {
+    "title": "Kashe kowane abokin ciniki, gami da sifili",
+    "rows": [
+     [
+      "Dupe, 1 order",
+      "61,000"
+     ],
+     [
+      "Amaka, 3 umarni",
+      "55,000"
+     ],
+     [
+      "Bisi, oda 2",
+      "54,500"
+     ],
+     [
+      "Efe, 1 oda",
+      "33,000"
+     ],
+     [
+      "Chioma, oda 1",
+      "8,000"
+     ]
+    ],
+    "note": "Yi ƙididdiga, ba farashin kasuwa na ainihi ba."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Ya daidaita zuwa 211,500, jimlar da aka kawo.",
+    "Kuskure na gama gari: da ta sanya tacewa a INA, layin Funmi zai bace, kuma JOIN HAGU yayi shuru yayi kamar CIN JIKI."
+   ],
+   "card": {
+    "title": "Kashe kowane abokin ciniki, gami da sifili",
+    "rows": [
+     [
+      "Dupe, 1 order",
+      "61,000"
+     ],
+     [
+      "Amaka, 3 umarni",
+      "55,000"
+     ],
+     [
+      "Bisi, oda 2",
+      "54,500"
+     ],
+     [
+      "Efe, 1 oda",
+      "33,000"
+     ],
+     [
+      "Chioma, oda 1",
+      "8,000"
+     ]
+    ],
+    "note": "Yi ƙididdiga, ba farashin kasuwa na ainihi ba."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Tambayar da ke gudana ba tare da kuskure ba koyaushe ba daidai ba ce. Ngozi ta tara adadin odar bayan shiga don yin odar kayayyaki, kuma ta sami 293,500."
+   ],
+   "card": {
+    "title": "Me yasa kudaden shiga suka yi tsalle ba zato ba tsammani?",
+    "rows": [
+     [
+      "Sum bayan shiga",
+      "293,500"
+     ]
+    ],
+    "note": "Yi ƙididdiga, ba farashin kasuwa na ainihi ba."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Amma adadin da aka bayar da aka sani shine 211,500."
+   ],
+   "card": {
+    "title": "Me yasa kudaden shiga suka yi tsalle ba zato ba tsammani?",
+    "rows": [
+     [
+      "Sum bayan shiga",
+      "293,500"
+     ],
+     [
+      "An san jimlar isar",
+      "211,500"
+     ]
+    ],
+    "note": "Yi ƙididdiga, ba farashin kasuwa na ainihi ba."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Tazarar ita ce 82,000. Bayan haɗawa akwai layuka 11, ba 8 ba, saboda umarni uku suna da layin samfur guda biyu kowanne, don haka ana ƙidaya kowanne sau biyu. Ana kiran wannan fan-out.",
+    "Gwajin mai sauri: kwatanta tauraro COUNT tare da COUNT DISTINCT oda ID. Idan na farko ya girma kuma na biyu bai yi ba, layuka suna maimaitawa."
+   ],
+   "card": {
+    "title": "Me yasa kudaden shiga suka yi tsalle ba zato ba tsammani?",
+    "rows": [
+     [
+      "Sum bayan shiga",
+      "293,500"
+     ],
+     [
+      "An san jimlar isar",
+      "211,500"
+     ],
+     [
+      "Ya wuce gona da iri",
+      "82,000"
+     ]
+    ],
+    "note": "Yi ƙididdiga, ba farashin kasuwa na ainihi ba."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Rubuta tambayar a cikin jumla ɗaya, tare da lokacin lokaci da ma'ana, kamar yadda ake shigar da kudaden shiga kowane birni."
+   ],
+   "panel": {
+    "kicker": "Tambaya don amsawa",
+    "heading": "Tsarin aiki da za ku iya amincewa",
+    "items": [
+     "Rubuta tambaya tare da lokaci da ma'ana",
+     "Bincika tebur da maɓallan da ke haɗa su",
+     "Gina guntuwa, duba ƙidayar jere",
+     "Yi sulhu kuma tabo-duba layuka biyu",
+     "Amsa a cikin bayyanannun kalmomi, tare da kowane faɗakarwa"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Nemo tebur da farko, kuma bincika maɓallan da ke haɗa su."
+   ],
+   "panel": {
+    "kicker": "Tambaya don amsawa",
+    "heading": "Tsarin aiki da za ku iya amincewa",
+    "items": [
+     "Rubuta tambaya tare da lokaci da ma'ana",
+     "Bincika tebur da maɓallan da ke haɗa su",
+     "Gina guntuwa, duba ƙidayar jere",
+     "Yi sulhu kuma tabo-duba layuka biyu",
+     "Amsa a cikin bayyanannun kalmomi, tare da kowane faɗakarwa"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Gina tambayar a cikin ƙananan guda. Ku fara shiga shiga sai ku duba lissafin jere, sannan a kara WHERE, sannan GROUP BY."
+   ],
+   "panel": {
+    "kicker": "Tambaya don amsawa",
+    "heading": "Tsarin aiki da za ku iya amincewa",
+    "items": [
+     "Rubuta tambaya tare da lokaci da ma'ana",
+     "Bincika tebur da maɓallan da ke haɗa su",
+     "Gina guntuwa, duba ƙidayar jere",
+     "Yi sulhu kuma tabo-duba layuka biyu",
+     "Amsa a cikin bayyanannun kalmomi, tare da kowane faɗakarwa"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Yi sulhu da jimlar da aka sani, kuma duba layuka biyu da hannu."
+   ],
+   "panel": {
+    "kicker": "Tambaya don amsawa",
+    "heading": "Tsarin aiki da za ku iya amincewa",
+    "items": [
+     "Rubuta tambaya tare da lokaci da ma'ana",
+     "Bincika tebur da maɓallan da ke haɗa su",
+     "Gina guntuwa, duba ƙidayar jere",
+     "Yi sulhu kuma tabo-duba layuka biyu",
+     "Amsa a cikin bayyanannun kalmomi, tare da kowane faɗakarwa"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Sa'an nan gabatar da lamba, da period da kowane caveat cikin bayyanannen kalmomi."
+   ],
+   "panel": {
+    "kicker": "Tambaya don amsawa",
+    "heading": "Tsarin aiki da za ku iya amincewa",
+    "items": [
+     "Rubuta tambaya tare da lokaci da ma'ana",
+     "Bincika tebur da maɓallan da ke haɗa su",
+     "Gina guntuwa, duba ƙidayar jere",
+     "Yi sulhu kuma tabo-duba layuka biyu",
+     "Amsa a cikin bayyanannun kalmomi, tare da kowane faɗakarwa"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Bincike guda biyar yana kama mafi yawan kurakuran shiru. Shin lissafin layin yana da ma'ana? Shin jimlar sun daidaita? Akwai fan-out? Ana sarrafa NULLs da gangan, misali tare da COALESCE don juya ƙimar da ta ɓace zuwa 0? Kuma kun tabo-duba layuka biyu?"
+   ],
+   "panel": {
+    "kicker": "Kowane lokaci",
+    "heading": "Kafin ka raba lamba",
+    "items": [
+     "Lissafin layi yana da ma'ana",
+     "Jimlar sulhu",
+     "Babu shiga fan-out",
+     "NULLs ana sarrafa su da gangan",
+     "Layuka biyu an duba tabo"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Don tunawa. Bincika ƙididdiga da jimillarsu da zarar an ɗora bayanai. Yi amfani da CIN JOIN don abin da aka sayar da HAGU HAGU na wanda ya ɓace. Watch don fan-out. Kuma kada ku raba lambar da ba ku yi sulhu ba."
+   ],
+   "panel": {
+    "kicker": "Mabuɗin mahimmanci",
+    "heading": "Ka tuna",
+    "items": [
+     "Duba kididdigar jere da jimlar bayan lodawa",
+     "INCER yana kiyaye matches; HAGU yana kiyaye kowa",
+     "Tace-tebur na dama na HAGUWAR HAGU sun shiga ON",
+     "Fan-out inflates jimlar; gwada tare da COUNT DISTINCT",
+     "Kada ku taɓa raba lambar da ba ku yi sulhu ba"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Yanzu gina kuma tabbatar da bayanan aikin ku, amsa tambayoyin haɗin kai guda uku, sannan duba tambaya mara kyau.",
+    "Ci gaba da darussan da ke ƙasa."
+   ],
+   "panel": {
+    "kicker": "Yi ayyuka",
+    "heading": "Aikin ku na wannan module",
+    "items": [
+     "Gina kuma tabbatar da bayanan aikin ku",
+     "Amsa tambayoyin shiga uku",
+     "Duba tambayar da ba daidai ba kuma gyara ta"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

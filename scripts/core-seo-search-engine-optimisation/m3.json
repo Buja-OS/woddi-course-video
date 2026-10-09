@@ -1,0 +1,486 @@
+{
+ "course": "core-seo-search-engine-optimisation",
+ "module": "m3",
+ "title": "Helpful pages, honest SEO and measuring what works",
+ "course_title": "SEO: Search Engine Optimisation",
+ "shots": [
+  {
+   "demo": "phone_social",
+   "say": [
+    "Helpful pages, honest SEO, and measuring what works.",
+    "This is the video for module three of the SEO course."
+   ]
+  },
+  {
+   "demo": "phone_camera",
+   "say": [
+    "Google says its systems aim to reward content made mainly to help people, not content made mainly to rank.",
+    "People-first pages come from real experience, answer the customer's real question, and show clear prices, photos and local details."
+   ],
+   "panel": {
+    "kicker": "Helpful content",
+    "heading": "People-first or search-first?",
+    "mode": "compare",
+    "left_h": "People-first",
+    "left": [
+     "Written from real experience",
+     "Answers the customer's question",
+     "Clear prices, photos, local details",
+     "Updated when facts change"
+    ],
+    "right_h": "Search-first",
+    "right": [
+     "Written only to hit keywords",
+     "Copies others, adds nothing new",
+     "Vague, padded word count",
+     "Mass-produced pages on every topic"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Search-first pages chase keywords, copy others and pad the word count.",
+    "Many small-business pages fail simply because they say almost nothing: a heading, a photo, and call us."
+   ],
+   "panel": {
+    "kicker": "Helpful content",
+    "heading": "People-first or search-first?",
+    "mode": "compare",
+    "left_h": "People-first",
+    "left": [
+     "Written from real experience",
+     "Answers the customer's question",
+     "Clear prices, photos, local details",
+     "Updated when facts change"
+    ],
+    "right_h": "Search-first",
+    "right": [
+     "Written only to hit keywords",
+     "Copies others, adds nothing new",
+     "Vague, padded word count",
+     "Mass-produced pages on every topic"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_camera",
+   "say": [
+    "Google's rater guidelines talk about E-E-A-T: experience, expertise, authoritativeness and trust. Trust matters most.",
+    "For a small business, that means simple, real things. Show who runs the business and where it is."
+   ],
+   "panel": {
+    "kicker": "Show you are real",
+    "heading": "Build trust on every page",
+    "items": [
+     "Show who runs the business and where",
+     "Use real photos of your own work",
+     "Give contact details and honest prices",
+     "Show genuine customer reviews"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_camera",
+   "say": [
+    "Use real photos of your own work. A caterer who has cooked jollof for 300-guest weddings, with her own photos, shows experience a copied article cannot."
+   ],
+   "panel": {
+    "kicker": "Show you are real",
+    "heading": "Build trust on every page",
+    "items": [
+     "Show who runs the business and where",
+     "Use real photos of your own work",
+     "Give contact details and honest prices",
+     "Show genuine customer reviews"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Give your contact details and honest prices, and show genuine reviews. If you use AI to help write, check every fact and add your own experience."
+   ],
+   "panel": {
+    "kicker": "Show you are real",
+    "heading": "Build trust on every page",
+    "items": [
+     "Show who runs the business and where",
+     "Use real photos of your own work",
+     "Give contact details and honest prices",
+     "Show genuine customer reviews"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_camera",
+   "say": [
+    "Google mainly looks at the mobile version of your page, and most visitors use phones on costly data.",
+    "For example, Ifeoma sells Ankara dresses. In PageSpeed Insights, her collection page takes 6.8 seconds to show its main content. That measure is called LCP."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Ifeoma makes her page load faster",
+    "items": [
+     "PageSpeed Insights: LCP 6.8 seconds, Poor",
+     "Resize photos to 1200 pixels, save as WebP",
+     "Turn on lazy loading",
+     "Remove the background video and unused plugin",
+     "Retest: LCP 2.3 seconds, Good"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_camera",
+   "say": [
+    "Her 24 photos come straight from her phone, about 3 to 4 MB each. She resizes each to 1200 pixels wide and saves them as WebP, about 150 KB each."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Ifeoma makes her page load faster",
+    "items": [
+     "PageSpeed Insights: LCP 6.8 seconds, Poor",
+     "Resize photos to 1200 pixels, save as WebP",
+     "Turn on lazy loading",
+     "Remove the background video and unused plugin",
+     "Retest: LCP 2.3 seconds, Good"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_camera",
+   "say": [
+    "She turns on lazy loading, so lower photos only load when the visitor scrolls."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Ifeoma makes her page load faster",
+    "items": [
+     "PageSpeed Insights: LCP 6.8 seconds, Poor",
+     "Resize photos to 1200 pixels, save as WebP",
+     "Turn on lazy loading",
+     "Remove the background video and unused plugin",
+     "Retest: LCP 2.3 seconds, Good"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "She removes an auto-playing video and a chat plugin she never used."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Ifeoma makes her page load faster",
+    "items": [
+     "PageSpeed Insights: LCP 6.8 seconds, Poor",
+     "Resize photos to 1200 pixels, save as WebP",
+     "Turn on lazy loading",
+     "Remove the background video and unused plugin",
+     "Retest: LCP 2.3 seconds, Good"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "She retests. LCP is now 2.3 seconds, inside the Good range of 2.5 seconds or less, and the page costs visitors far less data."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Ifeoma makes her page load faster",
+    "items": [
+     "PageSpeed Insights: LCP 6.8 seconds, Poor",
+     "Resize photos to 1200 pixels, save as WebP",
+     "Turn on lazy loading",
+     "Remove the background video and unused plugin",
+     "Retest: LCP 2.3 seconds, Good"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Good LCP is 2.5 seconds or less. Oversized photos are the usual cause.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Some sellers promise fast results through tricks. Sites that break Google's spam policies may rank lower or disappear.",
+    "Link spam means buying links that pass ranking credit. For example, Grace was offered 500 backlinks for 40,000 naira. She said no."
+   ],
+   "panel": {
+    "kicker": "Ethical SEO",
+    "heading": "Tricks that break Google's rules",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Link spam",
+      "d": "Buying or selling links that pass ranking credit, or automated link building."
+     },
+     {
+      "t": "Keyword stuffing",
+      "d": "Repeating words or lists of towns, like tailor Lagos tailor Ikeja tailor Lekki."
+     },
+     {
+      "t": "Hidden text, doorways",
+      "d": "White text on white, or many near-identical pages for every town."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_search",
+   "say": [
+    "Keyword stuffing means repeating words or lists of towns unnaturally."
+   ],
+   "panel": {
+    "kicker": "Ethical SEO",
+    "heading": "Tricks that break Google's rules",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Link spam",
+      "d": "Buying or selling links that pass ranking credit, or automated link building."
+     },
+     {
+      "t": "Keyword stuffing",
+      "d": "Repeating words or lists of towns, like tailor Lagos tailor Ikeja tailor Lekki."
+     },
+     {
+      "t": "Hidden text, doorways",
+      "d": "White text on white, or many near-identical pages for every town."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Hidden text and doorway pages try to fool Google. Instead, Grace listed her firm on her professional body's directory and wrote a useful article. She earned two genuine links, with no risk."
+   ],
+   "panel": {
+    "kicker": "Ethical SEO",
+    "heading": "Tricks that break Google's rules",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Link spam",
+      "d": "Buying or selling links that pass ranking credit, or automated link building."
+     },
+     {
+      "t": "Keyword stuffing",
+      "d": "Repeating words or lists of towns, like tailor Lagos tailor Ikeja tailor Lekki."
+     },
+     {
+      "t": "Hidden text, doorways",
+      "d": "White text on white, or many near-identical pages for every town."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "The Performance report in Search Console shows clicks, impressions, average position and CTR. CTR means click-through rate: clicks divided by impressions."
+   ],
+   "panel": {
+    "kicker": "Measure honestly",
+    "heading": "Funke reads her Search Console report",
+    "items": [
+     "CTR = clicks divided by impressions",
+     "Before: 48 clicks from 2,400 impressions, 2%",
+     "After: 204 clicks from 5,100 impressions, 4%",
+     "Quick win: many impressions, few clicks",
+     "Note the date, check again in 6 weeks"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "For example, Funke compares 3 months before and after fixing her birthday cake page. Before, 48 clicks from 2,400 impressions. That is 2 percent."
+   ],
+   "panel": {
+    "kicker": "Measure honestly",
+    "heading": "Funke reads her Search Console report",
+    "items": [
+     "CTR = clicks divided by impressions",
+     "Before: 48 clicks from 2,400 impressions, 2%",
+     "After: 204 clicks from 5,100 impressions, 4%",
+     "Quick win: many impressions, few clicks",
+     "Note the date, check again in 6 weeks"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "After, 204 clicks from 5,100 impressions. That is 4 percent, and clicks are more than four times higher."
+   ],
+   "panel": {
+    "kicker": "Measure honestly",
+    "heading": "Funke reads her Search Console report",
+    "items": [
+     "CTR = clicks divided by impressions",
+     "Before: 48 clicks from 2,400 impressions, 2%",
+     "After: 204 clicks from 5,100 impressions, 4%",
+     "Quick win: many impressions, few clicks",
+     "Note the date, check again in 6 weeks"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ads",
+   "say": [
+    "She spots wedding cake price Ibadan with 1,300 impressions but only 9 clicks. Her wedding page title just says Wedding. She rewrites it with prices."
+   ],
+   "panel": {
+    "kicker": "Measure honestly",
+    "heading": "Funke reads her Search Console report",
+    "items": [
+     "CTR = clicks divided by impressions",
+     "Before: 48 clicks from 2,400 impressions, 2%",
+     "After: 204 clicks from 5,100 impressions, 4%",
+     "Quick win: many impressions, few clicks",
+     "Note the date, check again in 6 weeks"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ads",
+   "say": [
+    "She notes the date of the change, so she can check that search again in 6 weeks.",
+    "Change one thing at a time, and give Google time to recrawl before you judge."
+   ],
+   "panel": {
+    "kicker": "Measure honestly",
+    "heading": "Funke reads her Search Console report",
+    "items": [
+     "CTR = clicks divided by impressions",
+     "Before: 48 clicks from 2,400 impressions, 2%",
+     "After: 204 clicks from 5,100 impressions, 4%",
+     "Quick win: many impressions, few clicks",
+     "Note the date, check again in 6 weeks"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Change one thing at a time, then wait 4 to 8 weeks.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_social",
+   "say": [
+    "Clicks are not sales, so link them to business results. Set up key events in Google Analytics 4, such as taps on your WhatsApp button, and ask new customers how they found you.",
+    "Keep the report to one page, with one plain line under each number."
+   ],
+   "panel": {
+    "kicker": "Once a month",
+    "heading": "A simple monthly report",
+    "items": [
+     "Clicks, impressions, CTR, average position",
+     "Top 5 searches and top 5 pages",
+     "Business Profile calls and new reviews",
+     "WhatsApp taps and calls from GA4",
+     "What you changed, what comes next"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "To remember. Write for people first. Compress your photos for phones. Never buy links or stuff keywords. Work out CTR as clicks divided by impressions. And change one thing at a time, then compare."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "Write for people first, from real experience",
+     "Compress photos; aim for LCP of 2.5 seconds",
+     "Never buy links or stuff keywords",
+     "CTR is clicks divided by impressions",
+     "Change one thing, wait, then compare"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Now test one page for speed, check a site for spam tactics, find one search with many impressions but few clicks, and fill in your first monthly report.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice task",
+    "heading": "Your practice tasks",
+    "items": [
+     "Run one page through PageSpeed Insights",
+     "Check a site for spam tactics",
+     "Find one search with low CTR",
+     "Fill in your first monthly report"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

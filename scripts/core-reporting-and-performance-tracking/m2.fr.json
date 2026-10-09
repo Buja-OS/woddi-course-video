@@ -1,0 +1,590 @@
+{
+ "course": "core-reporting-and-performance-tracking",
+ "module": "m2",
+ "title": "Construisez, résumez et vérifiez votre fiche de suivi",
+ "course_title": "Rapports et suivi des performances",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Construisez, résumez et vérifiez votre feuille de suivi dans Google Sheets.",
+    "Ceci est la vidéo du module 2 de Reporting et de suivi des performances."
+   ]
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Google Sheets est une application de feuille de calcul gratuite qui fonctionne sur votre téléphone. La règle d'or est d'avoir une ligne par enregistrement. Chaque ligne est un événement, comme une vente. Chaque colonne contient un type d'information, comme la date ou l'élément.",
+    "Utilisez des listes déroulantes pour que WhatsApp soit toujours orthographié de la même manière et conservez les totaux dans un onglet Résumé séparé."
+   ],
+   "panel": {
+    "kicker": "La règle d'or",
+    "heading": "Une ligne par enregistrement",
+    "mode": "compare",
+    "left_h": "Faire",
+    "left": [
+     "Une ligne pour chaque vente ou événement",
+     "Une colonne pour chaque type de détail",
+     "Listes déroulantes pour les catégories",
+     "Totaux sur un onglet Résumé séparé"
+    ],
+    "right_h": "Éviter",
+    "right": [
+     "Lignes vides entre les semaines",
+     "Cellules fusionnées",
+     "Totaux saisis dans les données",
+     "Taper le signe naira en chiffres"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Évitez les lignes vides, les cellules fusionnées et les totaux saisis au milieu de vos données. Et tapez uniquement des chiffres, sans le signe naira. Ces habitudes simples permettent aux formules et aux graphiques de fonctionner plus tard."
+   ],
+   "panel": {
+    "kicker": "La règle d'or",
+    "heading": "Une ligne par enregistrement",
+    "mode": "compare",
+    "left_h": "Faire",
+    "left": [
+     "Une ligne pour chaque vente ou événement",
+     "Une colonne pour chaque type de détail",
+     "Listes déroulantes pour les catégories",
+     "Totaux sur un onglet Résumé séparé"
+    ],
+    "right_h": "Éviter",
+    "right": [
+     "Lignes vides entre les semaines",
+     "Cellules fusionnées",
+     "Totaux saisis dans les données",
+     "Taper le signe naira en chiffres"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Enregistrez chaque vente dès qu'elle se produit. Saisir une semaine entière de mémoire le dimanche soir entraîne des ventes manquantes."
+   ],
+   "card": {
+    "title": "Les trois premiers rangs de Bisi",
+    "rows": [],
+    "note": "Montant = quantité x prix unitaire, par formule."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Bisi tape la quantité et le prix, et une formule calcule chaque montant : 7 500, 6 000 et 3 000 naira. Sa colonne Payé est une liste déroulante Oui ou Non."
+   ],
+   "card": {
+    "title": "Les trois premiers rangs de Bisi",
+    "rows": [
+     [
+      "3 boîtes de pâtés à la viande, payées",
+      "7,500"
+     ],
+     [
+      "Menton menton 2 kg, payé",
+      "6,000"
+     ],
+     [
+      "1 kg de menton, pas encore payé",
+      "3,000"
+     ]
+    ],
+    "note": "Montant = quantité x prix unitaire, par formule."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Elle a vendu 16 500 nairas ce jour-là. 13 500 ont été payés et 3 000 sont encore dus. Désormais, elle peut facilement compter les commandes impayées et effectuer un suivi."
+   ],
+   "card": {
+    "title": "Les trois premiers rangs de Bisi",
+    "rows": [
+     [
+      "3 boîtes de pâtés à la viande, payées",
+      "7,500"
+     ],
+     [
+      "Menton menton 2 kg, payé",
+      "6,000"
+     ],
+     [
+      "1 kg de menton, pas encore payé",
+      "3,000"
+     ]
+    ],
+    "note": "Montant = quantité x prix unitaire, par formule."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Les formules commencent toujours par un signe égal et se recalculent automatiquement lorsque vous ajoutez des données."
+   ],
+   "panel": {
+    "kicker": "Formules récapitulatives",
+    "heading": "Six formules que vous utiliserez le plus",
+    "items": [
+     "SOMME : additionne tous les nombres",
+     "MOYENNE : trouve la moyenne",
+     "COUNTA : compte les cellules remplies",
+     "COUNTIF : compte les cellules qui correspondent",
+     "SUMIF : ajoute uniquement les lignes correspondantes",
+     "Variation en pourcentage : nouveau moins ancien, plus ancien"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "SUM additionne vos ventes. MOYENNE trouve la vente moyenne. COUNTA compte le nombre de lignes dont vous disposez."
+   ],
+   "panel": {
+    "kicker": "Formules récapitulatives",
+    "heading": "Six formules que vous utiliserez le plus",
+    "items": [
+     "SOMME : additionne tous les nombres",
+     "MOYENNE : trouve la moyenne",
+     "COUNTA : compte les cellules remplies",
+     "COUNTIF : compte les cellules qui correspondent",
+     "SUMIF : ajoute uniquement les lignes correspondantes",
+     "Variation en pourcentage : nouveau moins ancien, plus ancien"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "COUNTIF compte les cellules correspondantes, comme les commandes marquées Non pour impayées. SUMIF ajoute uniquement les lignes correspondantes, comme les ventes WhatsApp."
+   ],
+   "panel": {
+    "kicker": "Formules récapitulatives",
+    "heading": "Six formules que vous utiliserez le plus",
+    "items": [
+     "SOMME : additionne tous les nombres",
+     "MOYENNE : trouve la moyenne",
+     "COUNTA : compte les cellules remplies",
+     "COUNTIF : compte les cellules qui correspondent",
+     "SUMIF : ajoute uniquement les lignes correspondantes",
+     "Variation en pourcentage : nouveau moins ancien, plus ancien"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Et la variation en pourcentage correspond au nouveau chiffre moins l’ancien, divisé par l’ancien."
+   ],
+   "panel": {
+    "kicker": "Formules récapitulatives",
+    "heading": "Six formules que vous utiliserez le plus",
+    "items": [
+     "SOMME : additionne tous les nombres",
+     "MOYENNE : trouve la moyenne",
+     "COUNTA : compte les cellules remplies",
+     "COUNTIF : compte les cellules qui correspondent",
+     "SUMIF : ajoute uniquement les lignes correspondantes",
+     "Variation en pourcentage : nouveau moins ancien, plus ancien"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Fin mars, le SUM de Bisi affiche un chiffre d'affaires de 280 000 nairas."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Résumé de mars de Bisi",
+    "items": [
+     "Ventes totales : 280 000 naira",
+     "WhatsApp 142 000, sans rendez-vous 98 000, Instagram 40 000",
+     "En hausse de 12% par rapport aux 250 000 de février",
+     "280 000 sur un objectif de 300 000 : 93,3 %",
+     "5 commandes impayées à poursuivre"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Son SUMIF le répartit par canal : 142 000 sur WhatsApp, 98 000 sans rendez-vous et 40 000 sur Instagram."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Résumé de mars de Bisi",
+    "items": [
+     "Ventes totales : 280 000 naira",
+     "WhatsApp 142 000, sans rendez-vous 98 000, Instagram 40 000",
+     "En hausse de 12% par rapport aux 250 000 de février",
+     "280 000 sur un objectif de 300 000 : 93,3 %",
+     "5 commandes impayées à poursuivre"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Au total, ils sont 280 000, ce qui confirme que rien ne manque."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Résumé de mars de Bisi",
+    "items": [
+     "Ventes totales : 280 000 naira",
+     "WhatsApp 142 000, sans rendez-vous 98 000, Instagram 40 000",
+     "En hausse de 12% par rapport aux 250 000 de février",
+     "280 000 sur un objectif de 300 000 : 93,3 %",
+     "5 commandes impayées à poursuivre"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "rule": "Vérifiez que les totaux des catégories correspondent au total global.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Février était de 250 000. 280 000 moins 250 000, divisé par 250 000, soit 12 %."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Résumé de mars de Bisi",
+    "items": [
+     "Ventes totales : 280 000 naira",
+     "WhatsApp 142 000, sans rendez-vous 98 000, Instagram 40 000",
+     "En hausse de 12% par rapport aux 250 000 de février",
+     "280 000 sur un objectif de 300 000 : 93,3 %",
+     "5 commandes impayées à poursuivre"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Vérifiez que les totaux des catégories correspondent au total global.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Son objectif était de 300 000, elle a donc atteint 93,3 % de l'objectif."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Résumé de mars de Bisi",
+    "items": [
+     "Ventes totales : 280 000 naira",
+     "WhatsApp 142 000, sans rendez-vous 98 000, Instagram 40 000",
+     "En hausse de 12% par rapport aux 250 000 de février",
+     "280 000 sur un objectif de 300 000 : 93,3 %",
+     "5 commandes impayées à poursuivre"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Vérifiez que les totaux des catégories correspondent au total global.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Et COUNTIF affiche 5 commandes toujours impayées. Ce sont des dettes à poursuivre."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Résumé de mars de Bisi",
+    "items": [
+     "Ventes totales : 280 000 naira",
+     "WhatsApp 142 000, sans rendez-vous 98 000, Instagram 40 000",
+     "En hausse de 12% par rapport aux 250 000 de février",
+     "280 000 sur un objectif de 300 000 : 93,3 %",
+     "5 commandes impayées à poursuivre"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Vérifiez que les totaux des catégories correspondent au total global.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Lorsqu'un nombre est déjà un pourcentage, soyez prudent. Si la conversion passe de 20 % à 25 %, la soustraction donne 5 points de pourcentage."
+   ],
+   "panel": {
+    "kicker": "Erreur courante",
+    "heading": "La conversion est passée de 20 % à 25 %",
+    "mode": "compare",
+    "left_h": "Points de pourcentage",
+    "left": [
+     "Soustraire : 25 moins 20",
+     "En hausse de 5 points de pourcentage"
+    ],
+    "right_h": "Changement en pourcentage",
+    "right": [
+     "Diviser : 5 par 20",
+     "Une augmentation de 25%"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Diviser 5 par 20 donne une augmentation de 25 %. Les deux sont corrects, mais très différents.",
+    "L'habitude sûre est d'écrire : jusqu'à 5 points de pourcentage, de 20 % à 25 %. Le lecteur voit alors le véritable changement."
+   ],
+   "panel": {
+    "kicker": "Erreur courante",
+    "heading": "La conversion est passée de 20 % à 25 %",
+    "mode": "compare",
+    "left_h": "Points de pourcentage",
+    "left": [
+     "Soustraire : 25 moins 20",
+     "En hausse de 5 points de pourcentage"
+    ],
+    "right_h": "Changement en pourcentage",
+    "right": [
+     "Diviser : 5 par 20",
+     "Une augmentation de 25%"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Une ligne dupliquée, ou un prix saisi avec un zéro supplémentaire, peut transformer un mois faible en un excellent mois sur papier. Alors vérifiez chaque semaine. Tout d’abord, activez un filtre."
+   ],
+   "panel": {
+    "kicker": "Contrôle hebdomadaire",
+    "heading": "Votre vérification hebdomadaire des données de 10 minutes",
+    "items": [
+     "Activer un filtre",
+     "Triez les montants les plus élevés en premier ; vérifie le dessus",
+     "Filtrer les commandes impayées et assurer le suivi",
+     "Comparez le total payé avec votre application bancaire",
+     "Corrigez les erreurs et notez-les avec une date"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Triez la colonne de montant du plus grand au plus petit. 25 000, est-ce vraiment 2 500 ?"
+   ],
+   "panel": {
+    "kicker": "Contrôle hebdomadaire",
+    "heading": "Votre vérification hebdomadaire des données de 10 minutes",
+    "items": [
+     "Activer un filtre",
+     "Triez les montants les plus élevés en premier ; vérifie le dessus",
+     "Filtrer les commandes impayées et assurer le suivi",
+     "Comparez le total payé avec votre application bancaire",
+     "Corrigez les erreurs et notez-les avec une date"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Filtrez les commandes impayées et suivez-les."
+   ],
+   "panel": {
+    "kicker": "Contrôle hebdomadaire",
+    "heading": "Votre vérification hebdomadaire des données de 10 minutes",
+    "items": [
+     "Activer un filtre",
+     "Triez les montants les plus élevés en premier ; vérifie le dessus",
+     "Filtrer les commandes impayées et assurer le suivi",
+     "Comparez le total payé avec votre application bancaire",
+     "Corrigez les erreurs et notez-les avec une date"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Comparez le total payé de la semaine avec l'historique de votre banque, Opay ou Moniepoint."
+   ],
+   "panel": {
+    "kicker": "Contrôle hebdomadaire",
+    "heading": "Votre vérification hebdomadaire des données de 10 minutes",
+    "items": [
+     "Activer un filtre",
+     "Triez les montants les plus élevés en premier ; vérifie le dessus",
+     "Filtrer les commandes impayées et assurer le suivi",
+     "Comparez le total payé avec votre application bancaire",
+     "Corrigez les erreurs et notez-les avec une date"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Corrigez toutes les erreurs et écrivez ce que vous avez modifié dans un onglet Notes avec la date. N’inventez jamais de chiffres pour combler un vide."
+   ],
+   "panel": {
+    "kicker": "Contrôle hebdomadaire",
+    "heading": "Votre vérification hebdomadaire des données de 10 minutes",
+    "items": [
+     "Activer un filtre",
+     "Triez les montants les plus élevés en premier ; vérifie le dessus",
+     "Filtrer les commandes impayées et assurer le suivi",
+     "Comparez le total payé avec votre application bancaire",
+     "Corrigez les erreurs et notez-les avec une date"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Le rapprochement signifie vérifier votre feuille avec vos relevés financiers."
+   ],
+   "card": {
+    "title": "Bisi se réconcilie avec son application de paiement",
+    "rows": [],
+    "note": "La différence : une commande téléphonique jamais saisie."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Son application indique que 68 500 nairas arrivent. Sa feuille n'en indique que 63 500."
+   ],
+   "card": {
+    "title": "Bisi se réconcilie avec son application de paiement",
+    "rows": [
+     [
+      "Moniepoint : virements entrants",
+      "68,500"
+     ],
+     [
+      "Fiche : virements payants",
+      "63,500"
+     ]
+    ],
+    "note": "La différence : une commande téléphonique jamais saisie."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "La différence est de 5 000 naira. Elle retrouve une commande téléphonique qui n'a jamais été saisie, l'ajoute et note la correction.",
+    "Si l’argent personnel est versé sur le même compte, conservez un compte professionnel distinct ou marquez clairement les transferts personnels afin qu’ils ne soient pas comptabilisés comme des ventes."
+   ],
+   "card": {
+    "title": "Bisi se réconcilie avec son application de paiement",
+    "rows": [
+     [
+      "Moniepoint : virements entrants",
+      "68,500"
+     ],
+     [
+      "Fiche : virements payants",
+      "63,500"
+     ]
+    ],
+    "note": "La différence : une commande téléphonique jamais saisie."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "À retenir. Une ligne par événement. Utilisez les listes déroulantes et tapez des nombres sans le signe naira. Laissez les formules faire le compte. Soyez clair sur les points de pourcentage. Et vérifiez vos données chaque semaine par rapport à votre application bancaire, en notant chaque correction."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Une ligne par événement, une colonne par détail",
+     "Les listes déroulantes continuent à s'écrire de la même manière",
+     "SUM, COUNTIF, SUMIF et variation en pourcentage",
+     "Dites des points de pourcentage pour les taux",
+     "Vérifiez chaque semaine et rapprochez-vous avec votre application bancaire"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Maintenant, entraînez-vous. Créez votre onglet Données avec des titres clairs, des listes déroulantes et cinq enregistrements réels. Ajoutez un onglet Résumé avec les totaux et la progression par rapport à votre objectif. Exécutez ensuite votre première vérification des données et démarrez votre onglet Notes.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâches d'entraînement",
+    "heading": "Votre pratique dans ce module",
+    "items": [
+     "Construisez votre fiche de suivi",
+     "Créez votre onglet Résumé",
+     "Effectuez votre première vérification des données"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

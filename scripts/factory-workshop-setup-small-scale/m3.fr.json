@@ -1,0 +1,518 @@
+{
+ "course": "factory-workshop-setup-small-scale",
+ "module": "m3",
+ "title": "De grosses commandes, votre équipe et un plan d'expansion de 90 jours",
+ "course_title": "Configuration d'usine et d'atelier (à petite échelle)",
+ "shots": [
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "De grosses commandes, votre équipe et un plan d'expansion de 90 jours.",
+    "Il s'agit de la vidéo du module trois de la configuration d'usine et d'atelier."
+   ]
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Un atelier bien rangé et sûr vous aide à gagner de plus gros acheteurs. Mais seule une capacité honnête les maintient. Ne promettez jamais plus que ce que votre atelier peut produire."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Grandir sans rompre ses promesses",
+    "items": [
+     "Juger une grosse ordonnance contre la capacité",
+     "Former les gens pour que le travail ne dépende jamais d'un seul",
+     "Développez-vous au niveau du goulot d'étranglement, avec un retour sur investissement honnête"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Au fur et à mesure que les gens rejoignent, vos règles spatiales deviennent des règles humaines."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Grandir sans rompre ses promesses",
+    "items": [
+     "Juger une grosse ordonnance contre la capacité",
+     "Former les gens pour que le travail ne dépende jamais d'un seul",
+     "Développez-vous au niveau du goulot d'étranglement, avec un retour sur investissement honnête"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Et lorsque vous grandissez, vous dépensez là où cela augmente la production, avec des chiffres que vous pouvez défendre."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Grandir sans rompre ses promesses",
+    "items": [
+     "Juger une grosse ordonnance contre la capacité",
+     "Former les gens pour que le travail ne dépende jamais d'un seul",
+     "Développez-vous au niveau du goulot d'étranglement, avec un retour sur investissement honnête"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Par exemple, un groupe hôtelier demande à Hauwa 400 sacs en 18 jours ouvrables. Elle fabrique 22 sacs par jour et les clients réguliers en prennent 15. Elle en a donc 7 de rechange par jour."
+   ],
+   "panel": {
+    "kicker": "La commande est-elle adaptée ?",
+    "heading": "Commande de 400 sacs de Hauwa en 18 jours",
+    "items": [
+     "Capacité disponible : 22 - 15 = 7 sacs par jour",
+     "Sur 18 jours : 7 x 18 = 126 sacs",
+     "Manque à gagner : 400 - 126 = 274 sacs",
+     "Options d'offre : diviser, ajouter une machine ou un partenaire"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Sur 18 jours, cela fait 126 sacs."
+   ],
+   "panel": {
+    "kicker": "La commande est-elle adaptée ?",
+    "heading": "Commande de 400 sacs de Hauwa en 18 jours",
+    "items": [
+     "Capacité disponible : 22 - 15 = 7 sacs par jour",
+     "Sur 18 jours : 7 x 18 = 126 sacs",
+     "Manque à gagner : 400 - 126 = 274 sacs",
+     "Options d'offre : diviser, ajouter une machine ou un partenaire"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Il lui manque 274 sacs. Elle ne peut pas respecter le rendez-vous tel qu'elle est."
+   ],
+   "panel": {
+    "kicker": "La commande est-elle adaptée ?",
+    "heading": "Commande de 400 sacs de Hauwa en 18 jours",
+    "items": [
+     "Capacité disponible : 22 - 15 = 7 sacs par jour",
+     "Sur 18 jours : 7 x 18 = 126 sacs",
+     "Manque à gagner : 400 - 126 = 274 sacs",
+     "Options d'offre : diviser, ajouter une machine ou un partenaire"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Elle propose donc des options : livrer 126 maintenant et le reste plus tard, ajouter une troisième machine et livrer dans environ 4 semaines, ou sous-traiter à un producteur de confiance dans le cadre d'un accord écrit.",
+    "Elle propose 4 semaines avec un acompte de 50 pour cent, par écrit."
+   ],
+   "panel": {
+    "kicker": "La commande est-elle adaptée ?",
+    "heading": "Commande de 400 sacs de Hauwa en 18 jours",
+    "items": [
+     "Capacité disponible : 22 - 15 = 7 sacs par jour",
+     "Sur 18 jours : 7 x 18 = 126 sacs",
+     "Manque à gagner : 400 - 126 = 274 sacs",
+     "Options d'offre : diviser, ajouter une machine ou un partenaire"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Dire non à un rendez-vous impossible vaut mieux le rater.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Vérifiez les cinq avant de dire oui. Les matériaux sont achetés avant que l'acheteur ne paie, acceptez donc un acompte par écrit.",
+    "Faites approuver l’échantillon par écrit et conservez-le comme norme. Confirmez tout transfert dans votre propre application bancaire, et non à partir d'une capture d'écran ou d'une alerte texte, avant de libérer les marchandises."
+   ],
+   "panel": {
+    "kicker": "Avant de dire oui",
+    "heading": "Avant d'accepter une grosse commande",
+    "items": [
+     "La capacité de réserve le couvre",
+     "L'argent pour les matériaux est sécurisé",
+     "La qualité peut être conservée",
+     "La date de livraison est réaliste",
+     "Les conditions sont écrites"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Le premier jour, accompagnez une nouvelle personne tout au long du flux. Montrez la sortie, l'extincteur, la trousse de premiers secours, l'interrupteur principal et le magasin de produits chimiques. Entraînez-vous ensuite à chaque tâche en quatre étapes. Dire : expliquer la norme et les points de sécurité."
+   ],
+   "panel": {
+    "kicker": "Former des personnes",
+    "heading": "Enseignez n'importe quelle tâche en quatre étapes",
+    "items": [
+     "Dire : la tâche, la norme, les points de sécurité",
+     "Montrer : faites-le lentement pendant qu'ils regardent",
+     "Faites ensemble : ils le font, vous corrigez",
+     "Vérifier et signer : seul, selon les normes"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Montrer : faites-le lentement pendant qu'ils regardent."
+   ],
+   "panel": {
+    "kicker": "Former des personnes",
+    "heading": "Enseignez n'importe quelle tâche en quatre étapes",
+    "items": [
+     "Dire : la tâche, la norme, les points de sécurité",
+     "Montrer : faites-le lentement pendant qu'ils regardent",
+     "Faites ensemble : ils le font, vous corrigez",
+     "Vérifier et signer : seul, selon les normes"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Faites ensemble : ils le font pendant que vous regardez et corrigent immédiatement."
+   ],
+   "panel": {
+    "kicker": "Former des personnes",
+    "heading": "Enseignez n'importe quelle tâche en quatre étapes",
+    "items": [
+     "Dire : la tâche, la norme, les points de sécurité",
+     "Montrer : faites-le lentement pendant qu'ils regardent",
+     "Faites ensemble : ils le font, vous corrigez",
+     "Vérifier et signer : seul, selon les normes"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Vérifiez et signez : ils le font seuls, conformément aux normes, plus d'une fois, et vous l'enregistrez."
+   ],
+   "panel": {
+    "kicker": "Former des personnes",
+    "heading": "Enseignez n'importe quelle tâche en quatre étapes",
+    "items": [
+     "Dire : la tâche, la norme, les points de sécurité",
+     "Montrer : faites-le lentement pendant qu'ils regardent",
+     "Faites ensemble : ils le font, vous corrigez",
+     "Vérifier et signer : seul, selon les normes"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Le premier jour, parcourez tout le flux et montrez tous les points de sécurité.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Une matrice de compétences note chaque personne sur chaque tâche, de 0, non formé, à 3, peut en former d'autres. Hauwa a vu qu'elle seule pouvait couper et inspecter. Si elle voyage, les deux étapes s'arrêtent. Elle forme donc simultanément un machiniste et un apprenti."
+   ],
+   "panel": {
+    "kicker": "Organiser les gens",
+    "heading": "Trois outils pour une petite équipe",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Matrice de compétences",
+      "d": "Les personnes en bas, les tâches en haut, ont un score de 0 à 3. Trouvez des tâches qu'une seule personne peut effectuer."
+     },
+     {
+      "t": "Propriétaires de zones",
+      "d": "Chaque zone a un propriétaire nommé qui vérifie quotidiennement qu'elle est approvisionnée, propre et sûre."
+     },
+     {
+      "t": "Entretien des machines",
+      "d": "Chaque machine a une personne désignée pour les soins de routine, conformément au manuel."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Attribuez à chaque zone un propriétaire nommé, qui signale tout ce qui est faible ou cassé."
+   ],
+   "panel": {
+    "kicker": "Organiser les gens",
+    "heading": "Trois outils pour une petite équipe",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Matrice de compétences",
+      "d": "Les personnes en bas, les tâches en haut, ont un score de 0 à 3. Trouvez des tâches qu'une seule personne peut effectuer."
+     },
+     {
+      "t": "Propriétaires de zones",
+      "d": "Chaque zone a un propriétaire nommé qui vérifie quotidiennement qu'elle est approvisionnée, propre et sûre."
+     },
+     {
+      "t": "Entretien des machines",
+      "d": "Chaque machine a une personne désignée pour les soins de routine, conformément au manuel."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Et attribuez à chaque machine une personne nommée pour son entretien de routine. Fournissez gratuitement un équipement de protection et portez-le vous-même. Si le propriétaire saute les lunettes, tout le monde le fera."
+   ],
+   "panel": {
+    "kicker": "Organiser les gens",
+    "heading": "Trois outils pour une petite équipe",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Matrice de compétences",
+      "d": "Les personnes en bas, les tâches en haut, ont un score de 0 à 3. Trouvez des tâches qu'une seule personne peut effectuer."
+     },
+     {
+      "t": "Propriétaires de zones",
+      "d": "Chaque zone a un propriétaire nommé qui vérifie quotidiennement qu'elle est approvisionnée, propre et sûre."
+     },
+     {
+      "t": "Entretien des machines",
+      "d": "Chaque machine a une personne désignée pour les soins de routine, conformément au manuel."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Développez-vous au niveau du goulot d’étranglement. Pour Hauwa, il s’agit de coudre, elle fixe donc le prix d’une troisième machine. La capacité s'élèverait à 792 sacs par mois, mais elle ne pense pas pouvoir tous les vendre. D’après les conversations des acheteurs, elle s’attend au début à environ 60 sacs supplémentaires."
+   ],
+   "card": {
+    "title": "Une troisième machine en vaut-elle la peine ?",
+    "rows": [],
+    "note": "Les prix en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "La machine, la table et la prise coûtent environ 500 000 naira. Les sacs supplémentaires rapportent 180 000 nairas par mois. Un troisième machiniste et l'électricité coûtent 85 000."
+   ],
+   "card": {
+    "title": "Une troisième machine en vaut-elle la peine ?",
+    "rows": [
+     [
+      "Coût unique",
+      "500,000"
+     ],
+     [
+      "Cotisation supplémentaire par mois",
+      "180,000"
+     ],
+     [
+      "Frais de fonctionnement supplémentaires par mois",
+      "85,000"
+     ]
+    ],
+    "note": "Les prix en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Cela laisse 95 000 nairas de bénéfice supplémentaire par mois. Le retour sur investissement correspond à un coût unique divisé par un bénéfice mensuel supplémentaire : environ 5,3 mois."
+   ],
+   "card": {
+    "title": "Une troisième machine en vaut-elle la peine ?",
+    "rows": [
+     [
+      "Coût unique",
+      "500,000"
+     ],
+     [
+      "Cotisation supplémentaire par mois",
+      "180,000"
+     ],
+     [
+      "Frais de fonctionnement supplémentaires par mois",
+      "85,000"
+     ]
+    ],
+    "note": "Les prix en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Avec des ventes prudentes, la machine est rentabilisée en cinq à six mois environ."
+   ],
+   "panel": {
+    "kicker": "Testez le mauvais cas",
+    "heading": "Et si les ventes sont plus faibles ?",
+    "mode": "compare",
+    "left_h": "60 sacs supplémentaires",
+    "left": [
+     "95 000 naira de bénéfice par mois",
+     "Retour sur investissement d'environ 5,3 mois"
+    ],
+    "right_h": "30 sacs supplémentaires",
+    "right": [
+     "5 000 naira de bénéfice par mois",
+     "Remboursement 100 mois"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Mais si elle ne vend que 30 sacs supplémentaires, le bénéfice tombe à 5 000 nairas par mois et le retour sur investissement s'élève à 100 mois. C'est pourquoi elle attend les commandes confirmées et un acompte avant d'acheter. N’empruntez jamais sur la base d’une prévision de pleine capacité."
+   ],
+   "panel": {
+    "kicker": "Testez le mauvais cas",
+    "heading": "Et si les ventes sont plus faibles ?",
+    "mode": "compare",
+    "left_h": "60 sacs supplémentaires",
+    "left": [
+     "95 000 naira de bénéfice par mois",
+     "Retour sur investissement d'environ 5,3 mois"
+    ],
+    "right_h": "30 sacs supplémentaires",
+    "right": [
+     "5 000 naira de bénéfice par mois",
+     "Remboursement 100 mois"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Rédigez votre plan en quatre phases. Confirmez la demande avant d’acheter. Installez ensuite, avec une prise sûre et un endroit qui maintient la passerelle dégagée."
+   ],
+   "panel": {
+    "kicker": "Vos 90 jours",
+    "heading": "Un plan d'expansion de 90 jours",
+    "items": [
+     "Jours 1 à 30 : confirmer la demande, obtenir des devis",
+     "Jours 31 à 60 : acheter, installer, câbler",
+     "Jours 61-75 : location et formation",
+     "Jours 76 à 90 : exécuter, mesurer, réviser"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Prévoyez du temps pour embaucher et former avant de compter sur la nouvelle capacité et mettez à jour votre évaluation des risques. Au jour 90, examinez la production, les ventes, les coûts de fonctionnement et les incidents."
+   ],
+   "panel": {
+    "kicker": "Vos 90 jours",
+    "heading": "Un plan d'expansion de 90 jours",
+    "items": [
+     "Jours 1 à 30 : confirmer la demande, obtenir des devis",
+     "Jours 31 à 60 : acheter, installer, câbler",
+     "Jours 61-75 : location et formation",
+     "Jours 76 à 90 : exécuter, mesurer, réviser"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "À retenir. Vérifiez la capacité, la trésorerie et la qualité avant de dire oui. Entraînez-vous de manière polyvalente pour qu'aucune tâche ne dépende d'une seule personne. Développez-vous au niveau du goulot d'étranglement, calculez le retour sur investissement de ventes prudentes et testez-le par rapport à un mauvais cas."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Vérifiez la capacité, la trésorerie et la qualité avant oui",
+     "Entraînez-vous en quatre étapes ; tâches clés de formation croisée",
+     "Développez-vous au goulot d’étranglement",
+     "Remboursement = coût unique / bénéfice mensuel supplémentaire",
+     "Testez le plan contre un mauvais cas"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Vos tâches : tester une grosse commande par rapport à vos capacités, construire votre matrice de compétences et votre plan d'intégration, et rédiger votre plan d'expansion sur 90 jours.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâches d'entraînement",
+    "heading": "Vos tâches pratiques",
+    "items": [
+     "Testez une grosse commande réelle ou imaginaire",
+     "Construisez votre matrice de compétences et votre plan d'intégration",
+     "Rédigez votre plan d'expansion sur 90 jours"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}
