@@ -1,0 +1,482 @@
+{
+ "course": "marketing-analytics-reporting",
+ "module": "m2",
+ "title": "Suivre, rapprocher et rapporter : le workflow mensuel",
+ "course_title": "Analyses et rapports marketing",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Suivre, rapprocher et créer des rapports : le workflow mensuel.",
+    "Ceci est la vidéo du module 2 de Marketing Analytics and Reporting."
+   ]
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Chaque rapport est aussi bon que le suivi qu'il contient. Vous devez donc d’abord configurer GA4, l’outil d’analyse gratuit de Google, et marquer chaque lien que vous partagez."
+   ],
+   "panel": {
+    "kicker": "Le flux de travail principal",
+    "heading": "Trois emplois que vous répétez chaque mois",
+    "items": [
+     "Suivi : événements clés de GA4 et liens balisés",
+     "Réconcilier : toutes les sources sur une seule feuille",
+     "Rapport : une page, informations vérifiées"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Ensuite, vous regroupez les plateformes publicitaires, les analyses et les paiements sur une seule feuille et expliquez pourquoi ils ne sont pas d'accord."
+   ],
+   "panel": {
+    "kicker": "Le flux de travail principal",
+    "heading": "Trois emplois que vous répétez chaque mois",
+    "items": [
+     "Suivi : événements clés de GA4 et liens balisés",
+     "Réconcilier : toutes les sources sur une seule feuille",
+     "Rapport : une page, informations vérifiées"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Enfin, vous le transformez en un rapport d'une page qu'un propriétaire occupé lit en cinq minutes. C'est le flux de travail que vous répéterez pour chaque client ou employeur."
+   ],
+   "panel": {
+    "kicker": "Le flux de travail principal",
+    "heading": "Trois emplois que vous répétez chaque mois",
+    "items": [
+     "Suivi : événements clés de GA4 et liens balisés",
+     "Réconcilier : toutes les sources sur une seule feuille",
+     "Rapport : une page, informations vérifiées"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "GA4 enregistre les actions sous forme d'événements. Marquez ceux qui comptent comme événements clés. De nombreuses entreprises nigérianes concluent des ventes sur WhatsApp, alors suivez également les clics sur les boutons de discussion, mais signalez-les indépendamment des commandes. Un clic montre un intérêt, pas un paiement."
+   ],
+   "panel": {
+    "kicker": "Configurer GA4",
+    "heading": "Trois réglages pour réussir",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Événements clés",
+      "d": "Marquez un achat ou un clic sur le chat WhatsApp comme un événement clé. Testez chacun vous-même."
+     },
+     {
+      "t": "Conservation des données",
+      "d": "Réglez-le sur 14 mois et faites correspondre le fuseau horaire et la devise à l'entreprise."
+     },
+     {
+      "t": "Confidentialité",
+      "d": "N'envoyez jamais de noms, de numéros de téléphone ou d'e-mails dans GA4. Demandez le consentement si nécessaire."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Définissez la conservation des données sur 14 mois et utilisez le fuseau horaire et la devise de l'entreprise, par exemple Africa slash Lagos et naira."
+   ],
+   "panel": {
+    "kicker": "Configurer GA4",
+    "heading": "Trois réglages pour réussir",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Événements clés",
+      "d": "Marquez un achat ou un clic sur le chat WhatsApp comme un événement clé. Testez chacun vous-même."
+     },
+     {
+      "t": "Conservation des données",
+      "d": "Réglez-le sur 14 mois et faites correspondre le fuseau horaire et la devise à l'entreprise."
+     },
+     {
+      "t": "Confidentialité",
+      "d": "N'envoyez jamais de noms, de numéros de téléphone ou d'e-mails dans GA4. Demandez le consentement si nécessaire."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Et protégez les données des gens. Ne mettez jamais de noms, de numéros de téléphone ou d'adresses e-mail dans les événements ou les liens GA4. Expliquez votre suivi dans l'avis de confidentialité."
+   ],
+   "panel": {
+    "kicker": "Configurer GA4",
+    "heading": "Trois réglages pour réussir",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Événements clés",
+      "d": "Marquez un achat ou un clic sur le chat WhatsApp comme un événement clé. Testez chacun vous-même."
+     },
+     {
+      "t": "Conservation des données",
+      "d": "Réglez-le sur 14 mois et faites correspondre le fuseau horaire et la devise à l'entreprise."
+     },
+     {
+      "t": "Confidentialité",
+      "d": "N'envoyez jamais de noms, de numéros de téléphone ou d'e-mails dans GA4. Demandez le consentement si nécessaire."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_ads",
+   "say": [
+    "Sans balises, de nombreuses visites provenant d’applications de chat atterrissent en Direct, sans canal. Les paramètres UTM sont des étiquettes ajoutées à la fin d'un lien. Par exemple, Funke vend des gâteaux à Ibadan. Elle donne à sa campagne un nom en minuscule."
+   ],
+   "panel": {
+    "kicker": "Liens UTM",
+    "heading": "Funke tague sa campagne de gâteaux de Noël",
+    "items": [
+     "Définissez toujours utm_source, utm_medium, utm_campaign",
+     "Un nom de campagne : xmas_cakes_2026",
+     "WhatsApp : source WhatsApp, support social",
+     "Annonces : moyennes payantes_sociales ; newsletter : email",
+     "Enregistrez chaque lien, testez-le dans GA4 Realtime"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_ads",
+   "say": [
+    "Son lien de diffusion WhatsApp utilise la source WhatsApp et le support social. Les publicités Instagram utilisent des réseaux sociaux moyennement rémunérés et la newsletter utilise le courrier électronique, donc GA4 les trie dans le bon canal."
+   ],
+   "panel": {
+    "kicker": "Liens UTM",
+    "heading": "Funke tague sa campagne de gâteaux de Noël",
+    "items": [
+     "Définissez toujours utm_source, utm_medium, utm_campaign",
+     "Un nom de campagne : xmas_cakes_2026",
+     "WhatsApp : source WhatsApp, support social",
+     "Annonces : moyennes payantes_sociales ; newsletter : email",
+     "Enregistrez chaque lien, testez-le dans GA4 Realtime"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Elle enregistre chaque lien dans une feuille et teste chacun d'entre eux sur son téléphone. Et elle garde tout en minuscules, car GA4 traite les lettres majuscules comme une source différente."
+   ],
+   "panel": {
+    "kicker": "Liens UTM",
+    "heading": "Funke tague sa campagne de gâteaux de Noël",
+    "items": [
+     "Définissez toujours utm_source, utm_medium, utm_campaign",
+     "Un nom de campagne : xmas_cakes_2026",
+     "WhatsApp : source WhatsApp, support social",
+     "Annonces : moyennes payantes_sociales ; newsletter : email",
+     "Enregistrez chaque lien, testez-le dans GA4 Realtime"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Toujours en minuscules : Instagram et Instagram deviennent deux lignes.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Aucun outil ne voit tout à lui seul. Chaque plateforme publicitaire crédite les ventes selon ses propres règles, et Meta peut même compter les personnes qui n'ont vu que l'annonce. Les deux peuvent prétendre à la même ordonnance."
+   ],
+   "panel": {
+    "kicker": "Réconcilier",
+    "heading": "Pourquoi les chiffres ne sont pas d'accord",
+    "items": [
+     "Chaque plateforme utilise ses propres règles et fenêtres",
+     "Meta et Google peuvent réclamer la même commande",
+     "Les bloqueurs de publicités et les cookies refusés masquent les ventes",
+     "Les commandes WhatsApp et téléphoniques n'atteignent jamais GA4",
+     "Différents fuseaux horaires ou plages de dates"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Les lacunes de suivi masquent certaines ventes, les commandes WhatsApp n'atteignent jamais GA4 à moins que vous ne les ajoutiez, et les paramètres incompatibles modifient les résultats d'un jour à l'autre."
+   ],
+   "panel": {
+    "kicker": "Réconcilier",
+    "heading": "Pourquoi les chiffres ne sont pas d'accord",
+    "items": [
+     "Chaque plateforme utilise ses propres règles et fenêtres",
+     "Meta et Google peuvent réclamer la même commande",
+     "Les bloqueurs de publicités et les cookies refusés masquent les ventes",
+     "Les commandes WhatsApp et téléphoniques n'atteignent jamais GA4",
+     "Différents fuseaux horaires ou plages de dates"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Son tableau de bord Paystack et sa liste de commandes WhatsApp affichent 86 commandes payées d'une valeur de 2 064 000 naira."
+   ],
+   "card": {
+    "title": "Dépenses publicitaires de Ngozi en novembre",
+    "rows": [],
+    "note": "Les prix en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Elle a dépensé 400 000 naira pour Meta et 250 000 pour Google Ads. Meta revendique 58 achats. Google en revendique 41. Au total, cela fait 99, soit 13 de plus que les commandes réellement payées."
+   ],
+   "card": {
+    "title": "Dépenses publicitaires de Ngozi en novembre",
+    "rows": [
+     [
+      "Méta-annonces",
+      "400,000"
+     ],
+     [
+      "Annonces Google",
+      "250,000"
+     ]
+    ],
+    "note": "Les prix en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Elle mène donc avec des chiffres en argent réel. Dépense totale 650 000 naira. MER vers 3,18. Coût mixte par commande d'environ 7 558 naira. Les coûts de canal sont présentés sous forme de fourchette, car les plateformes et GA4 ne sont pas d'accord."
+   ],
+   "card": {
+    "title": "Dépenses publicitaires de Ngozi en novembre",
+    "rows": [
+     [
+      "Méta-annonces",
+      "400,000"
+     ],
+     [
+      "Annonces Google",
+      "250,000"
+     ]
+    ],
+    "note": "Les prix en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Utilisez les numéros de plate-forme pour vous connecter à l'intérieur de chaque plate-forme. N'ajoutez jamais ni ne faites la moyenne du ROAS de deux plates-formes. Cela compte deux fois les ventes à double réclamation."
+   ],
+   "panel": {
+    "kicker": "Quel numéro pour quoi",
+    "heading": "Réclamations de la plateforme et argent reçu",
+    "mode": "compare",
+    "left_h": "Revendications de la plateforme",
+    "left": [
+     "Propre fenêtre d'attribution",
+     "Peut compter les vues postées",
+     "Idéal pour régler cette plate-forme"
+    ],
+    "right_h": "Historique des paiements",
+    "right": [
+     "Compte chaque vente réelle une fois",
+     "Comprend les commandes WhatsApp",
+     "Source de vérité pour les revenus"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Utilisez les paiements pour juger l’ensemble du budget. Faites correspondre les dépenses avec la facturation, les revenus avec les règlements et supprimez les remboursements avant de faire confiance à la feuille."
+   ],
+   "panel": {
+    "kicker": "Quel numéro pour quoi",
+    "heading": "Réclamations de la plateforme et argent reçu",
+    "mode": "compare",
+    "left_h": "Revendications de la plateforme",
+    "left": [
+     "Propre fenêtre d'attribution",
+     "Peut compter les vues postées",
+     "Idéal pour régler cette plate-forme"
+    ],
+    "right_h": "Historique des paiements",
+    "right": [
+     "Compte chaque vente réelle une fois",
+     "Comprend les commandes WhatsApp",
+     "Source de vérité pour les revenus"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Looker Studio est l'outil de création de rapports gratuit de Google. Placez les revenus, les commandes, les dépenses, le MER et le coût par commande en haut, puis une ligne de tendance hebdomadaire."
+   ],
+   "panel": {
+    "kicker": "Studio Looker",
+    "heading": "Un rapport d'une page qui fonctionne",
+    "items": [
+     "En haut : tableaux de bord par rapport à la période précédente",
+     "Milieu : tendance hebdomadaire des revenus et des dépenses",
+     "Tableau des canaux avec plage de coût par achat",
+     "Trois idées : quoi, et alors, et maintenant",
+     "Pied de page : sources, dates, règle, lacunes connues"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Ajoutez un tableau de canaux, trois informations que vous écrivez vous-même, chacune se terminant par une action, et des mises en garde honnêtes en bas."
+   ],
+   "panel": {
+    "kicker": "Studio Looker",
+    "heading": "Un rapport d'une page qui fonctionne",
+    "items": [
+     "En haut : tableaux de bord par rapport à la période précédente",
+     "Milieu : tendance hebdomadaire des revenus et des dépenses",
+     "Tableau des canaux avec plage de coût par achat",
+     "Trois idées : quoi, et alors, et maintenant",
+     "Pied de page : sources, dates, règle, lacunes connues"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Créez un MER en tant que champ calculé à partir de la somme des revenus et de la somme des dépenses. La moyenne des ratios hebdomadaires donne une mauvaise réponse.",
+    "Et surveillez vos paroles. La conversion passant de 1,1 % à 1,4 % est en hausse de 0,3 point de pourcentage, soit 27 % en relatif."
+   ],
+   "panel": {
+    "kicker": "Studio Looker",
+    "heading": "Un rapport d'une page qui fonctionne",
+    "items": [
+     "En haut : tableaux de bord par rapport à la période précédente",
+     "Milieu : tendance hebdomadaire des revenus et des dépenses",
+     "Tableau des canaux avec plage de coût par achat",
+     "Trois idées : quoi, et alors, et maintenant",
+     "Pied de page : sources, dates, règle, lacunes connues"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Construisez des ratios à partir des totaux. Ne faites jamais la moyenne d’une colonne de ratios.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Avant l'envoi, effectuez cinq vérifications. Dépensez la facturation des matchs. Les revenus correspondent aux paiements. La même plage de dates partout. Ratios construits à partir de totaux. Mises en garde écrites.",
+    "Ceux-ci détectent la plupart des erreurs qui détruisent la confiance."
+   ],
+   "panel": {
+    "kicker": "Avant d'envoyer",
+    "heading": "Cinq contrôles de qualité",
+    "items": [
+     "Facturation des matchs dépensés",
+     "Les revenus correspondent aux paiements",
+     "Même plage de dates partout",
+     "Ratios construits à partir de totaux",
+     "Mises en garde écrites"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "À retenir. Marquez chaque lien en minuscules. Gardez les données personnelles hors de GA4. Considérez les paiements comme la source de vérité et dirigez-vous avec des chiffres mixtes. Chaque idée doit aboutir à une action appartenant à quelqu’un."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Marquez chaque lien en minuscule",
+     "Aucune donnée personnelle dans GA4",
+     "Les paiements sont la source de la vérité",
+     "Diriger avec des chiffres mixtes",
+     "Chaque idée se termine par une action"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Créez maintenant une feuille de liens UTM, rapprochez un mois de données et créez un rapport d'une page avec la liste de contrôle de qualité.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâche pratique",
+    "heading": "Vos tâches pour ce module",
+    "items": [
+     "Construire une feuille de liens UTM",
+     "Réconcilier un mois",
+     "Créer et vérifier un rapport d'une page"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

@@ -1,0 +1,640 @@
+{
+ "course": "webflow-development",
+ "module": "m1",
+ "title": "Fundamentos do Webflow: estrutura, classes e layout responsivo",
+ "course_title": "Desenvolvimento de fluxo web",
+ "shots": [
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Fundamentos do Webflow: estrutura, classes e layout responsivo.",
+    "Este é o vídeo do módulo 1 do Desenvolvimento Webflow."
+   ]
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "No Webflow você projeta visualmente, mas o resultado é HTML, CSS e JavaScript reais. Quando você adiciona preenchimento, o Webflow grava a regra CSS. Portanto, você deve compreender os blocos de construção. Você trabalha no Designer, em um laptop."
+   ],
+   "panel": {
+    "kicker": "A plataforma",
+    "heading": "Três partes que você usará todos os dias",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "O Designer",
+      "d": "Espaço de trabalho visual em um navegador de desktop. Ele escreve HTML e CSS reais. Planeje trabalhar em um laptop."
+     },
+     {
+      "t": "O CMS",
+      "d": "Coleções para repetir conteúdo, como postagens de blogs ou membros da equipe. Os clientes adicionam itens com segurança."
+     },
+     {
+      "t": "Hospedagem",
+      "d": "Teste gratuito em webflow.io. Um domínio real precisa de um plano de site pago."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "O CMS contém Coleções, para conteúdos que se repetem no mesmo formato, como postagens de blog. Os clientes podem adicionar itens sem tocar no seu design."
+   ],
+   "panel": {
+    "kicker": "A plataforma",
+    "heading": "Três partes que você usará todos os dias",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "O Designer",
+      "d": "Espaço de trabalho visual em um navegador de desktop. Ele escreve HTML e CSS reais. Planeje trabalhar em um laptop."
+     },
+     {
+      "t": "O CMS",
+      "d": "Coleções para repetir conteúdo, como postagens de blogs ou membros da equipe. Os clientes adicionam itens com segurança."
+     },
+     {
+      "t": "Hospedagem",
+      "d": "Teste gratuito em webflow.io. Um domínio real precisa de um plano de site pago."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "E o Webflow hospeda o site. Cada projeto recebe um endereço webflow.io gratuito, mas um domínio real precisa de um plano de site pago."
+   ],
+   "panel": {
+    "kicker": "A plataforma",
+    "heading": "Três partes que você usará todos os dias",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "O Designer",
+      "d": "Espaço de trabalho visual em um navegador de desktop. Ele escreve HTML e CSS reais. Planeje trabalhar em um laptop."
+     },
+     {
+      "t": "O CMS",
+      "d": "Coleções para repetir conteúdo, como postagens de blogs ou membros da equipe. Os clientes adicionam itens com segurança."
+     },
+     {
+      "t": "Hospedagem",
+      "d": "Teste gratuito em webflow.io. Um domínio real precisa de um plano de site pago."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "O Webflow cobra de duas maneiras. Um plano de espaço de trabalho é para você, o construtor. Um plano de site é para cada site ativo. Normalmente o cliente paga o seu próprio plano de Site, portanto o site é legal e financeiramente dele."
+   ],
+   "panel": {
+    "kicker": "Segurança monetária",
+    "heading": "Planos e faturamento em dólares",
+    "items": [
+     "Plano de espaço de trabalho para você; Plano de site para cada site",
+     "O cliente paga seu próprio plano de site",
+     "Verifique webflow.com/pricing no dia da cotação",
+     "Confirme um cartão que pode pagar em dólares",
+     "Nunca pague hospedagem de cliente sem um acordo por escrito"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Os preços estão em dólares americanos e mudam, portanto verifique a página de preços no dia da cotação. Muitos cartões bancários nigerianos limitam os gastos estrangeiros, portanto, confirme um cartão que possa pagar antes de prometer uma data de lançamento.",
+    "E nunca pague a hospedagem de um cliente com seu próprio cartão sem um acordo por escrito de reembolso."
+   ],
+   "panel": {
+    "kicker": "Segurança monetária",
+    "heading": "Planos e faturamento em dólares",
+    "items": [
+     "Plano de espaço de trabalho para você; Plano de site para cada site",
+     "O cliente paga seu próprio plano de site",
+     "Verifique webflow.com/pricing no dia da cotação",
+     "Confirme um cartão que pode pagar em dólares",
+     "Nunca pague hospedagem de cliente sem um acordo por escrito"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Por exemplo, Amaka é freelancer do Webflow em Port Harcourt. Em uma semana, chegam três consultas no WhatsApp."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Três perguntas, três respostas honestas",
+    "items": [
+     "Escritório de advocacia, seção de notícias: Webflow com CMS",
+     "Vendedor de sapatos, finalização da compra de naira: consulte o WordPress",
+     "Página do evento da igreja em quatro dias: Webflow"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Um escritório de advocacia deseja cinco páginas e uma seção de notícias que os parceiros possam atualizar. Não são necessários pagamentos. Webflow com uma coleção CMS adequada."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Três perguntas, três respostas honestas",
+    "items": [
+     "Escritório de advocacia, seção de notícias: Webflow com CMS",
+     "Vendedor de sapatos, finalização da compra de naira: consulte o WordPress",
+     "Página do evento da igreja em quatro dias: Webflow"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Um vendedor de sapatos quer finalizar a compra com cartão naira. Webflow Ecommerce usa Stripe e PayPal, e Stripe não lista a Nigéria. Então Amaka a encaminha para um desenvolvedor WordPress e se oferece para projetar apenas a página de destino."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Três perguntas, três respostas honestas",
+    "items": [
+     "Escritório de advocacia, seção de notícias: Webflow com CMS",
+     "Vendedor de sapatos, finalização da compra de naira: consulte o WordPress",
+     "Página do evento da igreja em quatro dias: Webflow"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Uma igreja precisa de uma página de evento com um formulário em quatro dias. Esse é um trabalho rápido do Webflow. Dois projetos pagos, uma indicação e nenhuma promessa que ela não pudesse cumprir."
+   ],
+   "panel": {
+    "kicker": "Exemplo trabalhado",
+    "heading": "Três perguntas, três respostas honestas",
+    "items": [
+     "Escritório de advocacia, seção de notícias: Webflow com CMS",
+     "Vendedor de sapatos, finalização da compra de naira: consulte o WordPress",
+     "Página do evento da igreja em quatro dias: Webflow"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Cada elemento é uma caixa com quatro camadas: o conteúdo, depois o preenchimento dentro da borda, depois a borda e depois a margem externa, afastando as outras caixas."
+   ],
+   "panel": {
+    "kicker": "O modelo da caixa",
+    "heading": "Por que as cartas de Tolu não serviam",
+    "items": [
+     "Cada caixa: conteúdo, preenchimento, borda, margem",
+     "Cartão: 300 px de largura, preenchimento de 24 px, borda de 1 px",
+     "Caixa de conteúdo: 300 + 24 + 24 + 1 + 1 = 350px",
+     "Três cartões, dois espaços de 20px: 1.090px. Muito largo!",
+     "Caixa de borda: 300 x 3 + 40 = 940px. Cabe"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Por exemplo, Tolu define um cartão de serviço com 300px de largura, com preenchimento de 24px em cada lado e uma borda de 1px."
+   ],
+   "panel": {
+    "kicker": "O modelo da caixa",
+    "heading": "Por que as cartas de Tolu não serviam",
+    "items": [
+     "Cada caixa: conteúdo, preenchimento, borda, margem",
+     "Cartão: 300 px de largura, preenchimento de 24 px, borda de 1 px",
+     "Caixa de conteúdo: 300 + 24 + 24 + 1 + 1 = 350px",
+     "Três cartões, dois espaços de 20px: 1.090px. Muito largo!",
+     "Caixa de borda: 300 x 3 + 40 = 940px. Cabe"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Com o dimensionamento da caixa de conteúdo, largura significa apenas conteúdo. Portanto, cada cartão tem realmente 350px."
+   ],
+   "panel": {
+    "kicker": "O modelo da caixa",
+    "heading": "Por que as cartas de Tolu não serviam",
+    "items": [
+     "Cada caixa: conteúdo, preenchimento, borda, margem",
+     "Cartão: 300 px de largura, preenchimento de 24 px, borda de 1 px",
+     "Caixa de conteúdo: 300 + 24 + 24 + 1 + 1 = 350px",
+     "Três cartões, dois espaços de 20px: 1.090px. Muito largo!",
+     "Caixa de borda: 300 x 3 + 40 = 940px. Cabe"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Três cartões e dois espaços de 20px perfazem 1.090px. Isso transborda seu contêiner de 960px."
+   ],
+   "panel": {
+    "kicker": "O modelo da caixa",
+    "heading": "Por que as cartas de Tolu não serviam",
+    "items": [
+     "Cada caixa: conteúdo, preenchimento, borda, margem",
+     "Cartão: 300 px de largura, preenchimento de 24 px, borda de 1 px",
+     "Caixa de conteúdo: 300 + 24 + 24 + 1 + 1 = 350px",
+     "Três cartões, dois espaços de 20px: 1.090px. Muito largo!",
+     "Caixa de borda: 300 x 3 + 40 = 940px. Cabe"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "O padrão do Webflow é border-box, onde a largura inclui preenchimento e borda. Então a linha tem 940px e cabe. Uma incorporação de código antigo mudou isso. Ela o removeu e a linha se encaixa."
+   ],
+   "panel": {
+    "kicker": "O modelo da caixa",
+    "heading": "Por que as cartas de Tolu não serviam",
+    "items": [
+     "Cada caixa: conteúdo, preenchimento, borda, margem",
+     "Cartão: 300 px de largura, preenchimento de 24 px, borda de 1 px",
+     "Caixa de conteúdo: 300 + 24 + 24 + 1 + 1 = 350px",
+     "Três cartões, dois espaços de 20px: 1.090px. Muito largo!",
+     "Caixa de borda: 300 x 3 + 40 = 940px. Cabe"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Caixa de borda: a largura inclui preenchimento e borda. 940px cabe em 960px.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Abra o painel Navegador. Você quer uma árvore organizada, não uma pilha de Div Blocks sem nome. Cada faixa da página é uma Seção."
+   ],
+   "panel": {
+    "kicker": "Estrutura limpa",
+    "heading": "Como uma página profissional se aninha",
+    "items": [
+     "Seção: uma banda, preenchimento e fundo",
+     "Contêiner: largura máxima, centralizado",
+     "Wrapper de layout: flex ou grade",
+     "Conteúdo: títulos reais, texto, imagens",
+     "Classes nomeadas por significado, por ex. cartão_de_serviços"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Dentro dele, um Container define uma largura máxima, por exemplo 1200px, e centraliza-o."
+   ],
+   "panel": {
+    "kicker": "Estrutura limpa",
+    "heading": "Como uma página profissional se aninha",
+    "items": [
+     "Seção: uma banda, preenchimento e fundo",
+     "Contêiner: largura máxima, centralizado",
+     "Wrapper de layout: flex ou grade",
+     "Conteúdo: títulos reais, texto, imagens",
+     "Classes nomeadas por significado, por ex. cartão_de_serviços"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Um wrapper de layout decide como as crianças se sentam: lado a lado, em uma grade ou empilhadas."
+   ],
+   "panel": {
+    "kicker": "Estrutura limpa",
+    "heading": "Como uma página profissional se aninha",
+    "items": [
+     "Seção: uma banda, preenchimento e fundo",
+     "Contêiner: largura máxima, centralizado",
+     "Wrapper de layout: flex ou grade",
+     "Conteúdo: títulos reais, texto, imagens",
+     "Classes nomeadas por significado, por ex. cartão_de_serviços"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Depois o conteúdo. Use títulos reais em ordem, não parágrafos grandes."
+   ],
+   "panel": {
+    "kicker": "Estrutura limpa",
+    "heading": "Como uma página profissional se aninha",
+    "items": [
+     "Seção: uma banda, preenchimento e fundo",
+     "Contêiner: largura máxima, centralizado",
+     "Wrapper de layout: flex ou grade",
+     "Conteúdo: títulos reais, texto, imagens",
+     "Classes nomeadas por significado, por ex. cartão_de_serviços"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Estilo com classes, estilos nomeados reutilizáveis. Uma classe combo, como button plus is-secondary, adiciona uma variação. E nomeie as coisas pelo significado. Div Block 47 não diz nada a ninguém."
+   ],
+   "panel": {
+    "kicker": "Estrutura limpa",
+    "heading": "Como uma página profissional se aninha",
+    "items": [
+     "Seção: uma banda, preenchimento e fundo",
+     "Contêiner: largura máxima, centralizado",
+     "Wrapper de layout: flex ou grade",
+     "Conteúdo: títulos reais, texto, imagens",
+     "Classes nomeadas por significado, por ex. cartão_de_serviços"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Use o Flexbox para uma linha de coisas, como uma barra de navegação ou uma linha de botões."
+   ],
+   "panel": {
+    "kicker": "Ferramentas de layout",
+    "heading": "Flexbox ou grade?",
+    "mode": "compare",
+    "left_h": "Caixa flexível",
+    "left": [
+     "Uma linha ou uma coluna",
+     "O conteúdo decide os tamanhos",
+     "Barras de navegação, linhas de botões"
+    ],
+    "right_h": "Grade",
+    "right": [
+     "Linhas e colunas juntas",
+     "O layout decide os tamanhos",
+     "Grades de cartões, galerias",
+     "Os itens podem abranger células"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Use Grid quando precisar de linhas e colunas juntas, como uma área de serviços de três colunas. As colunas são dimensionadas em fr, uma fração do espaço livre."
+   ],
+   "panel": {
+    "kicker": "Ferramentas de layout",
+    "heading": "Flexbox ou grade?",
+    "mode": "compare",
+    "left_h": "Caixa flexível",
+    "left": [
+     "Uma linha ou uma coluna",
+     "O conteúdo decide os tamanhos",
+     "Barras de navegação, linhas de botões"
+    ],
+    "right_h": "Grade",
+    "right": [
+     "Linhas e colunas juntas",
+     "O layout decide os tamanhos",
+     "Grades de cartões, galerias",
+     "Os itens podem abranger células"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "A maioria dos visitantes chega por telefone. No Webflow, você cria no desktop e os estilos são transmitidos em cascata para telas menores."
+   ],
+   "panel": {
+    "kicker": "Pontos de interrupção",
+    "heading": "Grade de serviços da Zainab, desktop para telefone",
+    "items": [
+     "Desktop: 3 colunas, cartões de 364px",
+     "Tablet, 991px e abaixo: 2 colunas",
+     "Paisagem móvel, 767px e abaixo: 1 coluna",
+     "Preenchimento de seção: 96px, depois 64px e depois 48px",
+     "Teste em 360px e em um telefone Android real"
+    ],
+    "show": 0,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Por exemplo, Zainab constrói um site de catering com seis cartões de serviço. No Desktop, 3 colunas, então cada cartão tem 364px."
+   ],
+   "panel": {
+    "kicker": "Pontos de interrupção",
+    "heading": "Grade de serviços da Zainab, desktop para telefone",
+    "items": [
+     "Desktop: 3 colunas, cartões de 364px",
+     "Tablet, 991px e abaixo: 2 colunas",
+     "Paisagem móvel, 767px e abaixo: 1 coluna",
+     "Preenchimento de seção: 96px, depois 64px e depois 48px",
+     "Teste em 360px e em um telefone Android real"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "No Tablet ela muda a grade para 2 colunas."
+   ],
+   "panel": {
+    "kicker": "Pontos de interrupção",
+    "heading": "Grade de serviços da Zainab, desktop para telefone",
+    "items": [
+     "Desktop: 3 colunas, cartões de 364px",
+     "Tablet, 991px e abaixo: 2 colunas",
+     "Paisagem móvel, 767px e abaixo: 1 coluna",
+     "Preenchimento de seção: 96px, depois 64px e depois 48px",
+     "Teste em 360px e em um telefone Android real"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "No cenário móvel, 1 coluna, para que cada cartão preencha a largura."
+   ],
+   "panel": {
+    "kicker": "Pontos de interrupção",
+    "heading": "Grade de serviços da Zainab, desktop para telefone",
+    "items": [
+     "Desktop: 3 colunas, cartões de 364px",
+     "Tablet, 991px e abaixo: 2 colunas",
+     "Paisagem móvel, 767px e abaixo: 1 coluna",
+     "Preenchimento de seção: 96px, depois 64px e depois 48px",
+     "Teste em 360px e em um telefone Android real"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Ela reduz o preenchimento da seção para que os usuários do telefone rolem menos."
+   ],
+   "panel": {
+    "kicker": "Pontos de interrupção",
+    "heading": "Grade de serviços da Zainab, desktop para telefone",
+    "items": [
+     "Desktop: 3 colunas, cartões de 364px",
+     "Tablet, 991px e abaixo: 2 colunas",
+     "Paisagem móvel, 767px e abaixo: 1 coluna",
+     "Preenchimento de seção: 96px, depois 64px e depois 48px",
+     "Teste em 360px e em um telefone Android real"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Em seguida, ela visualiza em 360px e encontra um título transbordando, então o abaixa apenas no retrato para celular. Quatro substituições, não quatro layouts separados. E sempre abra o link em um telefone real."
+   ],
+   "panel": {
+    "kicker": "Pontos de interrupção",
+    "heading": "Grade de serviços da Zainab, desktop para telefone",
+    "items": [
+     "Desktop: 3 colunas, cartões de 364px",
+     "Tablet, 991px e abaixo: 2 colunas",
+     "Paisagem móvel, 767px e abaixo: 1 coluna",
+     "Preenchimento de seção: 96px, depois 64px e depois 48px",
+     "Teste em 360px e em um telefone Android real"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Defina estilos na área de trabalho. Substitua apenas o que deve ser alterado abaixo.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Para lembrar. Pergunte primeiro sobre pagamentos e necessidades de edição. Conheça o modelo da sua caixa. Mantenha uma estrutura limpa com nomes de classes significativos. E projete no Desktop, substitua apenas o que deve ser alterado e verifique cada seção em um telefone real."
+   ],
+   "panel": {
+    "kicker": "Pontos-chave",
+    "heading": "Lembre-se",
+    "items": [
+     "Webflow cria HTML e CSS reais",
+     "Pergunte primeiro sobre pagamentos; consulte quando estiver errado",
+     "Border-box mantém a aritmética da largura simples",
+     "Seção, contêiner, wrapper, conteúdo",
+     "Projete no desktop, substitua abaixo, teste em um telefone"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Agora audite sites de empresas locais em seu telefone, crie e nomeie uma seção principal e torne-a totalmente responsiva.",
+    "Continue com as lições abaixo."
+   ],
+   "panel": {
+    "kicker": "Pratique tarefas",
+    "heading": "Seu trabalho para este módulo",
+    "items": [
+     "Faça uma auditoria de adequação à plataforma de 8 a 10 empresas",
+     "Crie e nomeie uma seção de herói",
+     "Torne uma seção totalmente responsiva"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

@@ -1,0 +1,582 @@
+{
+ "course": "sql-fundamentals",
+ "module": "m1",
+ "title": "How databases think: tables, queries and summaries",
+ "course_title": "SQL Fundamentals",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "How databases think: tables, queries and summaries.",
+    "This is the video for module 1 of SQL Fundamentals."
+   ]
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Your bank app, a ride-hailing app, an online shop: almost all keep their records in a relational database. The data sits in several tables, linked by shared ID numbers."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Every app keeps its records in tables",
+    "items": [
+     "Data sits in tables linked by ID numbers",
+     "A table holds one kind of thing",
+     "A column is one fact; a row is one record",
+     "SQL is the language for asking questions"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Our practice business belongs to Kemi, for example, who sells Ankara, lace and head ties. Her database has a table of customers, a table of orders, and a table of order items."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Every app keeps its records in tables",
+    "items": [
+     "Data sits in tables linked by ID numbers",
+     "A table holds one kind of thing",
+     "A column is one fact; a row is one record",
+     "SQL is the language for asking questions"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Each column is one fact, like city. Each row is one customer or one order."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Every app keeps its records in tables",
+    "items": [
+     "Data sits in tables linked by ID numbers",
+     "A table holds one kind of thing",
+     "A column is one fact; a row is one record",
+     "SQL is the language for asking questions"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "SQL, Structured Query Language, is how you ask those tables questions. The same core commands work in PostgreSQL, MySQL, SQLite and more."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Every app keeps its records in tables",
+    "items": [
+     "Data sits in tables linked by ID numbers",
+     "A table holds one kind of thing",
+     "A column is one fact; a row is one record",
+     "SQL is the language for asking questions"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "A primary key is a column that is unique for every row and never empty. In customers, Amaka is number 1."
+   ],
+   "panel": {
+    "kicker": "Three key ideas",
+    "heading": "Keys and storing each fact once",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Primary key",
+      "d": "Unique for every row, never empty. Amaka is customer_id 1, and no one else can be 1."
+     },
+     {
+      "t": "Foreign key",
+      "d": "Points to another table. Order 101 has customer_id 1, so it belongs to Amaka."
+     },
+     {
+      "t": "Normalisation",
+      "d": "Store each fact once. Amaka's city lives only in customers, so reports never disagree."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "A foreign key holds the primary key of another table. Order 101 has customer_id 1, so it belongs to Amaka. That one number lets you join tables later."
+   ],
+   "panel": {
+    "kicker": "Three key ideas",
+    "heading": "Keys and storing each fact once",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Primary key",
+      "d": "Unique for every row, never empty. Amaka is customer_id 1, and no one else can be 1."
+     },
+     {
+      "t": "Foreign key",
+      "d": "Points to another table. Order 101 has customer_id 1, so it belongs to Amaka."
+     },
+     {
+      "t": "Normalisation",
+      "d": "Store each fact once. Amaka's city lives only in customers, so reports never disagree."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Why not one big sheet? If Amaka's city is typed on every order and she moves, you must change every row, and if you miss one, your reports disagree. Storing each fact once is called normalisation."
+   ],
+   "panel": {
+    "kicker": "Three key ideas",
+    "heading": "Keys and storing each fact once",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Primary key",
+      "d": "Unique for every row, never empty. Amaka is customer_id 1, and no one else can be 1."
+     },
+     {
+      "t": "Foreign key",
+      "d": "Points to another table. Order 101 has customer_id 1, so it belongs to Amaka."
+     },
+     {
+      "t": "Normalisation",
+      "d": "Store each fact once. Amaka's city lives only in customers, so reports never disagree."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Integer holds whole numbers, like IDs and quantities."
+   ],
+   "panel": {
+    "kicker": "Data types",
+    "heading": "Choose each column's type on purpose",
+    "items": [
+     "INTEGER: whole numbers, IDs, quantities",
+     "DECIMAL: exact numbers for money",
+     "TEXT: names, and phone numbers too",
+     "DATE: always YYYY-MM-DD",
+     "BOOLEAN: true or false"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Decimal, or numeric, holds exact numbers. Use it for money, never a floating type, which can make tiny rounding errors."
+   ],
+   "panel": {
+    "kicker": "Data types",
+    "heading": "Choose each column's type on purpose",
+    "items": [
+     "INTEGER: whole numbers, IDs, quantities",
+     "DECIMAL: exact numbers for money",
+     "TEXT: names, and phone numbers too",
+     "DATE: always YYYY-MM-DD",
+     "BOOLEAN: true or false"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Text holds words. Phone numbers are text too, because a leading zero, as in 0803, would be lost if stored as a number."
+   ],
+   "panel": {
+    "kicker": "Data types",
+    "heading": "Choose each column's type on purpose",
+    "items": [
+     "INTEGER: whole numbers, IDs, quantities",
+     "DECIMAL: exact numbers for money",
+     "TEXT: names, and phone numbers too",
+     "DATE: always YYYY-MM-DD",
+     "BOOLEAN: true or false"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Store dates as year, month, day, so they sort correctly. And boolean is simply true or false."
+   ],
+   "panel": {
+    "kicker": "Data types",
+    "heading": "Choose each column's type on purpose",
+    "items": [
+     "INTEGER: whole numbers, IDs, quantities",
+     "DECIMAL: exact numbers for money",
+     "TEXT: names, and phone numbers too",
+     "DATE: always YYYY-MM-DD",
+     "BOOLEAN: true or false"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "A query is a polite, precise request. SELECT names the columns you want. FROM names the table."
+   ],
+   "panel": {
+    "kicker": "Your first query",
+    "heading": "Five keywords answer most questions",
+    "items": [
+     "SELECT: the columns you want",
+     "FROM: the table",
+     "WHERE: keep rows that match",
+     "ORDER BY: sort, DESC for largest first",
+     "LIMIT: keep only the first few rows"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "WHERE keeps only the rows where a condition is true. Text goes inside single quotes, numbers do not. When you mix AND with OR, use brackets, because AND is worked out first."
+   ],
+   "panel": {
+    "kicker": "Your first query",
+    "heading": "Five keywords answer most questions",
+    "items": [
+     "SELECT: the columns you want",
+     "FROM: the table",
+     "WHERE: keep rows that match",
+     "ORDER BY: sort, DESC for largest first",
+     "LIMIT: keep only the first few rows"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "ORDER BY sorts the result. Add DESC for largest first."
+   ],
+   "panel": {
+    "kicker": "Your first query",
+    "heading": "Five keywords answer most questions",
+    "items": [
+     "SELECT: the columns you want",
+     "FROM: the table",
+     "WHERE: keep rows that match",
+     "ORDER BY: sort, DESC for largest first",
+     "LIMIT: keep only the first few rows"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "LIMIT 3 keeps only the first three rows after sorting. That is how you get a top three."
+   ],
+   "panel": {
+    "kicker": "Your first query",
+    "heading": "Five keywords answer most questions",
+    "items": [
+     "SELECT: the columns you want",
+     "FROM: the table",
+     "WHERE: keep rows that match",
+     "ORDER BY: sort, DESC for largest first",
+     "LIMIT: keep only the first few rows"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "One trap. A missing value is NULL, which means unknown, and it is never equal to anything. So WHERE phone = NULL returns nothing. Always write IS NULL."
+   ],
+   "panel": {
+    "kicker": "Your first query",
+    "heading": "Five keywords answer most questions",
+    "items": [
+     "SELECT: the columns you want",
+     "FROM: the table",
+     "WHERE: keep rows that match",
+     "ORDER BY: sort, DESC for largest first",
+     "LIMIT: keep only the first few rows"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Missing values are NULL. Test with IS NULL, never = NULL.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Kemi writes: SELECT order ID, order date and amount, FROM orders, WHERE channel is WhatsApp AND status is delivered, ORDER BY amount, descending."
+   ],
+   "card": {
+    "title": "Kemi's biggest delivered WhatsApp orders",
+    "rows": [],
+    "note": "Practice figures, not real market prices."
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Four rows come back. The largest is order 105, at 61,000 naira, then 101, 106 and 103."
+   ],
+   "card": {
+    "title": "Kemi's biggest delivered WhatsApp orders",
+    "rows": [
+     [
+      "Order 105",
+      "61,000"
+     ],
+     [
+      "Order 101",
+      "18,500"
+     ],
+     [
+      "Order 106",
+      "12,500"
+     ],
+     [
+      "Order 103",
+      "9,000"
+     ]
+    ],
+    "note": "Practice figures, not real market prices."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Now check it. Order 109 is a WhatsApp order, but it is pending, so it is correctly left out. Always check what should not be there."
+   ],
+   "card": {
+    "title": "Kemi's biggest delivered WhatsApp orders",
+    "rows": [
+     [
+      "Order 105",
+      "61,000"
+     ],
+     [
+      "Order 101",
+      "18,500"
+     ],
+     [
+      "Order 106",
+      "12,500"
+     ],
+     [
+      "Order 103",
+      "9,000"
+     ]
+    ],
+    "note": "Practice figures, not real market prices."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Managers want answers, not lists. COUNT, SUM and AVG turn many rows into one number. GROUP BY gives one number per group."
+   ],
+   "card": {
+    "title": "Delivered sales by channel",
+    "rows": [],
+    "note": "Practice figures, not real market prices."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Kemi's delivered sales by channel: WhatsApp 101,000 naira, Instagram 83,000, and the website 27,500."
+   ],
+   "card": {
+    "title": "Delivered sales by channel",
+    "rows": [
+     [
+      "WhatsApp, 4 orders",
+      "101,000"
+     ],
+     [
+      "Instagram, 3 orders",
+      "83,000"
+     ],
+     [
+      "Website, 1 order",
+      "27,500"
+     ]
+    ],
+    "note": "Practice figures, not real market prices."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Now reconcile. The groups must add back to the total. 101,000 plus 83,000 plus 27,500 is 211,500, and 4 plus 3 plus 1 is 8 orders. If the pieces do not add up, something is wrong.",
+    "And remember: every column in SELECT must be inside a function or listed in GROUP BY."
+   ],
+   "card": {
+    "title": "Delivered sales by channel",
+    "rows": [
+     [
+      "WhatsApp, 4 orders",
+      "101,000"
+     ],
+     [
+      "Instagram, 3 orders",
+      "83,000"
+     ],
+     [
+      "Website, 1 order",
+      "27,500"
+     ]
+    ],
+    "note": "Practice figures, not real market prices."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "WHERE filters single rows before grouping, such as keeping only delivered orders."
+   ],
+   "panel": {
+    "kicker": "Filtering",
+    "heading": "WHERE or HAVING?",
+    "mode": "compare",
+    "left_h": "WHERE",
+    "left": [
+     "Runs before grouping",
+     "Tests single rows",
+     "status = 'delivered'",
+     "Cannot use SUM or COUNT"
+    ],
+    "right_h": "HAVING",
+    "right": [
+     "Runs after grouping",
+     "Tests whole groups",
+     "COUNT(*) >= 2",
+     "Uses aggregate results"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "HAVING filters whole groups after the totals are made. HAVING COUNT of orders of at least 2 finds Kemi's repeat buyers: customer 1 with 3 orders, and customer 2 with 2."
+   ],
+   "panel": {
+    "kicker": "Filtering",
+    "heading": "WHERE or HAVING?",
+    "mode": "compare",
+    "left_h": "WHERE",
+    "left": [
+     "Runs before grouping",
+     "Tests single rows",
+     "status = 'delivered'",
+     "Cannot use SUM or COUNT"
+    ],
+    "right_h": "HAVING",
+    "right": [
+     "Runs after grouping",
+     "Tests whole groups",
+     "COUNT(*) >= 2",
+     "Uses aggregate results"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "To remember. Tables are linked by keys, and each fact is stored once. Five keywords answer most questions. Test missing values with IS NULL. And always check that your groups add back to the total."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "Tables linked by primary and foreign keys",
+     "Store each fact once",
+     "SELECT, FROM, WHERE, ORDER BY, LIMIT",
+     "IS NULL, never = NULL",
+     "Group totals must add back to the whole"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Now design a small database on paper, write your first five queries, and build a mini sales summary with reconciliation ticks.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice tasks",
+    "heading": "Your work for this module",
+    "items": [
+     "Design a small database on paper",
+     "Answer five questions with simple queries",
+     "Build a mini sales summary"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

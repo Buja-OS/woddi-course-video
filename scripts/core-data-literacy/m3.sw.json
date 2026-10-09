@@ -1,0 +1,629 @@
+{
+ "course": "core-data-literacy",
+ "module": "m3",
+ "title": "Data safi, madai ya uaminifu na vipimo muhimu",
+ "course_title": "Ujuzi wa Data: Lahajedwali, Chati na Vipimo vya Biashara",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Data safi, madai ya kweli na vipimo muhimu.",
+    "Hii ndio video ya moduli ya 3 ya Kusoma na Kuandika kwa Data."
+   ]
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Data halisi si safi mara chache. Watu huandika haraka, watu wawili hurekodi mauzo sawa, sifuri huongezwa kwa makosa. Safu mlalo moja isiyo sahihi inaweza kubadilisha jumla au uamuzi."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Nambari lazima ziwe sahihi na za uaminifu",
+    "items": [
+     "Safu mlalo moja isiyo sahihi inaweza kubadilisha uamuzi",
+     "Data sahihi bado inaweza kutumika vibaya",
+     "Uuzaji wa juu bado unaweza kumaanisha kupoteza pesa"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Data pia inaweza kuwa sahihi lakini ikatumiwa vibaya: kufichua maelezo ya faragha, au kusukuma msomaji kufikia hitimisho lisilo sahihi."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Nambari lazima ziwe sahihi na za uaminifu",
+    "items": [
+     "Safu mlalo moja isiyo sahihi inaweza kubadilisha uamuzi",
+     "Data sahihi bado inaweza kutumika vibaya",
+     "Uuzaji wa juu bado unaweza kumaanisha kupoteza pesa"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Na biashara nyingi ndogo hufuatilia mauzo tu. Katika moduli hii unajifunza nambari zinazoonyesha ikiwa kweli unapata pesa."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Nambari lazima ziwe sahihi na za uaminifu",
+    "items": [
+     "Safu mlalo moja isiyo sahihi inaweza kubadilisha uamuzi",
+     "Data sahihi bado inaweza kutumika vibaya",
+     "Uuzaji wa juu bado unaweza kumaanisha kupoteza pesa"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Jos North, jos north, na Jos North zenye nafasi mbili huwa makundi matatu katika muhtasari wako. TRIM huondoa nafasi za ziada na PROPER hurekebisha herufi kubwa."
+   ],
+   "panel": {
+    "kicker": "Tafuta na urekebishe",
+    "heading": "Matatizo ya kawaida na zana zao",
+    "items": [
+     "Nafasi na herufi kubwa za ziada: =PROPER(TRIM(B2))",
+     "Nakala: safu wima COUNTIF msaidizi",
+     "Nafasi tupu: =COUNTBLNK, kisha angalia stakabadhi",
+     "Nambari za maandishi kama 5k: chapa tena kama nambari wazi",
+     "Chapa: angalia =MAX na =MIN kwenye kila safu"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Safu wima ya usaidizi COUNTIF inaonyesha TRUE kwa nambari yoyote ya risiti inayoonekana zaidi ya mara moja."
+   ],
+   "panel": {
+    "kicker": "Tafuta na urekebishe",
+    "heading": "Matatizo ya kawaida na zana zao",
+    "items": [
+     "Nafasi na herufi kubwa za ziada: =PROPER(TRIM(B2))",
+     "Nakala: safu wima COUNTIF msaidizi",
+     "Nafasi tupu: =COUNTBLNK, kisha angalia stakabadhi",
+     "Nambari za maandishi kama 5k: chapa tena kama nambari wazi",
+     "Chapa: angalia =MAX na =MIN kwenye kila safu"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "COUNTBLNK inakuambia ni seli ngapi ambazo hazina tupu. Na nambari zilizoandikwa kama maandishi huachwa nje ya SUM."
+   ],
+   "panel": {
+    "kicker": "Tafuta na urekebishe",
+    "heading": "Matatizo ya kawaida na zana zao",
+    "items": [
+     "Nafasi na herufi kubwa za ziada: =PROPER(TRIM(B2))",
+     "Nakala: safu wima COUNTIF msaidizi",
+     "Nafasi tupu: =COUNTBLNK, kisha angalia stakabadhi",
+     "Nambari za maandishi kama 5k: chapa tena kama nambari wazi",
+     "Chapa: angalia =MAX na =MIN kwenye kila safu"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Angalia thamani kubwa na ndogo zaidi. Mchango wa naira 500,000 katika kikundi ambapo wengi hulipa 5,000 huhitaji kukaguliwa dhidi ya risiti."
+   ],
+   "panel": {
+    "kicker": "Tafuta na urekebishe",
+    "heading": "Matatizo ya kawaida na zana zao",
+    "items": [
+     "Nafasi na herufi kubwa za ziada: =PROPER(TRIM(B2))",
+     "Nakala: safu wima COUNTIF msaidizi",
+     "Nafasi tupu: =COUNTBLNK, kisha angalia stakabadhi",
+     "Nambari za maandishi kama 5k: chapa tena kama nambari wazi",
+     "Chapa: angalia =MAX na =MIN kwenye kila safu"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Grace anapokea orodha ya Septemba 60 iliyojengwa kutoka kwa ripoti tatu za matawi ya WhatsApp. Jumla ni naira 612,000. Tahajia tano za majina ya matawi yameanguka katika tatu."
+   ],
+   "card": {
+    "title": "Grace anasafisha orodha ya michango",
+    "rows": [
+     [
+      "Jumla ya kuanzia",
+      "612,000"
+     ]
+    ],
+    "note": "Jumla iliyosafishwa inalingana na taarifa ya benki."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Malipo matatu ya naira 5,000 yalitumwa mara mbili. Anaondoa 15,000."
+   ],
+   "card": {
+    "title": "Grace anasafisha orodha ya michango",
+    "rows": [
+     [
+      "Jumla ya kuanzia",
+      "612,000"
+     ],
+     [
+      "Nakala zimeondolewa (ondoa)",
+      "15,000"
+     ]
+    ],
+    "note": "Jumla iliyosafishwa inalingana na taarifa ya benki."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Kiasi mbili kilikuwa tupu. Risiti zinaonyesha wanachama wote wawili walilipa 5,000, hivyo jumla hupanda kwa 10,000."
+   ],
+   "card": {
+    "title": "Grace anasafisha orodha ya michango",
+    "rows": [
+     [
+      "Jumla ya kuanzia",
+      "612,000"
+     ],
+     [
+      "Nakala zimeondolewa (ondoa)",
+      "15,000"
+     ],
+     [
+      "Nafasi mbili zilizoachwa wazi (pamoja na)",
+      "10,000"
+     ]
+    ],
+    "note": "Jumla iliyosafishwa inalingana na taarifa ya benki."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Ingizo moja linasema 50,000, lakini risiti inasema 5,000. Anaisahihisha."
+   ],
+   "card": {
+    "title": "Grace anasafisha orodha ya michango",
+    "rows": [
+     [
+      "Jumla ya kuanzia",
+      "612,000"
+     ],
+     [
+      "Nakala zimeondolewa (ondoa)",
+      "15,000"
+     ],
+     [
+      "Nafasi mbili zilizoachwa wazi (pamoja na)",
+      "10,000"
+     ],
+     [
+      "Chapa imerekebishwa (ondoa)",
+      "45,000"
+     ]
+    ],
+    "note": "Jumla iliyosafishwa inalingana na taarifa ya benki."
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Jumla mpya ni naira 562,000, na sasa inalingana na benki. Anarekodi kila mabadiliko katika logi ya kusafisha, ili mtendaji aweze kuona ni nini kilirekebishwa na kwa nini."
+   ],
+   "card": {
+    "title": "Grace anasafisha orodha ya michango",
+    "rows": [
+     [
+      "Jumla ya kuanzia",
+      "612,000"
+     ],
+     [
+      "Nakala zimeondolewa (ondoa)",
+      "15,000"
+     ],
+     [
+      "Nafasi mbili zilizoachwa wazi (pamoja na)",
+      "10,000"
+     ],
+     [
+      "Chapa imerekebishwa (ondoa)",
+      "45,000"
+     ]
+    ],
+    "note": "Jumla iliyosafishwa inalingana na taarifa ya benki."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Tumia uthibitishaji wa Data ili kuongeza menyu kunjuzi, kama vile Fedha, Uhamisho na POS. Watu huchagua badala ya kuandika, kwa hivyo tahajia inabaki sawa. Kusanya ripoti kupitia fomu moja iliyoshirikiwa."
+   ],
+   "panel": {
+    "kicker": "Zuia makosa",
+    "heading": "Acha makosa kabla ya kuanza",
+    "items": [
+     "Kunjuzi kwa kila safu wima ya kategoria",
+     "Fomu moja iliyoshirikiwa badala ya ripoti mchanganyiko",
+     "Angazia thamani zinazotiliwa shaka katika rangi nyekundu",
+     "Bandika safu wima zilizosafishwa kama thamani pekee",
+     "Weka logi ya kusafisha safu nne"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Tumia umbizo la masharti ili upake rangi kiasi cha kutiliwa shaka. Baada ya kusafisha kwa fomula, bandika safuwima safi kama maadili pekee."
+   ],
+   "panel": {
+    "kicker": "Zuia makosa",
+    "heading": "Acha makosa kabla ya kuanza",
+    "items": [
+     "Kunjuzi kwa kila safu wima ya kategoria",
+     "Fomu moja iliyoshirikiwa badala ya ripoti mchanganyiko",
+     "Angazia thamani zinazotiliwa shaka katika rangi nyekundu",
+     "Bandika safu wima zilizosafishwa kama thamani pekee",
+     "Weka logi ya kusafisha safu nne"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Daima weka faili mbichi asili bila kuguswa, na uhifadhi kumbukumbu: tarehe, rekodi, ni nini kilikuwa kibaya, ulichobadilisha."
+   ],
+   "panel": {
+    "kicker": "Zuia makosa",
+    "heading": "Acha makosa kabla ya kuanza",
+    "items": [
+     "Kunjuzi kwa kila safu wima ya kategoria",
+     "Fomu moja iliyoshirikiwa badala ya ripoti mchanganyiko",
+     "Angazia thamani zinazotiliwa shaka katika rangi nyekundu",
+     "Bandika safu wima zilizosafishwa kama thamani pekee",
+     "Weka logi ya kusafisha safu nne"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Weka faili mbichi bila kuguswa. Safisha nakala.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Kazi ya data ya maadili hulinda watu. Kusanya tu unachohitaji, na useme juu ya utafiti majibu ni ya nini."
+   ],
+   "panel": {
+    "kicker": "Linda watu",
+    "heading": "Faragha kabla ya kushiriki",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Kusanya kiwango cha chini",
+      "d": "Kuhesabu waliohudhuria? Huhitaji anwani za nyumbani."
+     },
+     {
+      "t": "Acha kujulikana",
+      "d": "Misimbo kama vile P01 badala ya majina, hakuna nambari za simu, na hakuna picha za skrini za orodha za wanachama."
+     },
+     {
+      "t": "Tazama vikundi vidogo",
+      "d": "Mjane 1 katika Wadi 3 anaweza kumtambulisha. Unganisha vikundi vidogo au ripoti kwa upana zaidi."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Badilisha majina kwa misimbo kabla ya kushiriki. Picha ya skrini iliyotumwa katika kikundi kikubwa cha WhatsApp inaweza kutumwa popote ndani ya dakika chache."
+   ],
+   "panel": {
+    "kicker": "Linda watu",
+    "heading": "Faragha kabla ya kushiriki",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Kusanya kiwango cha chini",
+      "d": "Kuhesabu waliohudhuria? Huhitaji anwani za nyumbani."
+     },
+     {
+      "t": "Acha kujulikana",
+      "d": "Misimbo kama vile P01 badala ya majina, hakuna nambari za simu, na hakuna picha za skrini za orodha za wanachama."
+     },
+     {
+      "t": "Tazama vikundi vidogo",
+      "d": "Mjane 1 katika Wadi 3 anaweza kumtambulisha. Unganisha vikundi vidogo au ripoti kwa upana zaidi."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Na tazama vikundi vidogo sana, kwa sababu nambari ndogo inaweza kuashiria mtu mmoja halisi."
+   ],
+   "panel": {
+    "kicker": "Linda watu",
+    "heading": "Faragha kabla ya kushiriki",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Kusanya kiwango cha chini",
+      "d": "Kuhesabu waliohudhuria? Huhitaji anwani za nyumbani."
+     },
+     {
+      "t": "Acha kujulikana",
+      "d": "Misimbo kama vile P01 badala ya majina, hakuna nambari za simu, na hakuna picha za skrini za orodha za wanachama."
+     },
+     {
+      "t": "Tazama vikundi vidogo",
+      "d": "Mjane 1 katika Wadi 3 anaweza kumtambulisha. Unganisha vikundi vidogo au ripoti kwa upana zaidi."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Kwa mfano, kikundi cha wanawake huko Enugu kina wanachama 120. Mratibu hutuma kiungo cha Fomu za Google, na 48 kujibu. 36 kati yao huchagua Jumamosi kwa mafunzo."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Nani amekosekana kwenye utafiti?",
+    "items": [
+     "Wanachama 48 kati ya 120 walijibu: kiwango cha majibu cha 40%.",
+     "36 kati ya 48 walichagua Jumamosi: 75%",
+     "Wanachama wazee walio na simu za kimsingi hawakupatikana",
+     "Viongozi hukusanya majibu yaliyokosekana kwa njia ya simu"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Lakini karibu hakuna wanachama wakubwa waliojibu, kwa sababu wengi hutumia simu za msingi bila data. Huu ni upendeleo wa sampuli.",
+    "Kwa hivyo anaripoti: 75% ya wanachama 48 waliojibu mtandaoni wanapendelea Jumamosi, na tunakusanya majibu mengine kabla ya kuamua."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Nani amekosekana kwenye utafiti?",
+    "items": [
+     "Wanachama 48 kati ya 120 walijibu: kiwango cha majibu cha 40%.",
+     "36 kati ya 48 walichagua Jumamosi: 75%",
+     "Wanachama wazee walio na simu za kimsingi hawakupatikana",
+     "Viongozi hukusanya majibu yaliyokosekana kwa njia ya simu"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Kuwa na shaka na haya. Na kumbuka, uwiano sio sababu. Mauzo ya Zobo na mashabiki hupanda pamoja kwa sababu ya hali ya hewa ya joto, si kwa sababu moja husababisha nyingine.",
+    "Ahadi za mapato ya kudumu, ya juu ya kila mwezi ni ishara ya onyo ya Ponzi. Angalia usajili na Tume ya Usalama na Exchange Nigeria kabla ya kulipa."
+   ],
+   "panel": {
+    "kicker": "Doa hila",
+    "heading": "Nambari zinazopotosha za kutazama",
+    "items": [
+     "Mashoka ya kukata ambayo yanazidisha mabadiliko",
+     "Miezi bora pekee iliyoonyeshwa",
+     "Hadi 100% inaweza kumaanisha kutoka kwa maagizo 2 hadi 4",
+     "Wastani unaoficha kuenea",
+     "Mapato ya juu yaliyoahidiwa: angalia SEC"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Uuzaji wa juu hauhakikishi faida. Takwimu za Ada ni za kielelezo."
+   ],
+   "card": {
+    "title": "Je, Septemba ya Ada ilikuwa na faida?",
+    "rows": [],
+    "note": "Takwimu za kielelezo. Jumla ni faida halisi."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Mapato ukiondoa gharama ya bidhaa zinazouzwa ni faida ya jumla: naira 110,000. Gawanya kwa mapato na mara 100, na kiasi chake cha jumla ni 27.5%."
+   ],
+   "card": {
+    "title": "Je, Septemba ya Ada ilikuwa na faida?",
+    "rows": [
+     [
+      "Mapato, mauzo 220",
+      "400,000"
+     ],
+     [
+      "Gharama ya bidhaa zinazouzwa",
+      "290,000"
+     ],
+     [
+      "Faida ya jumla",
+      "110,000"
+     ]
+    ],
+    "note": "Takwimu za kielelezo. Jumla ni faida halisi."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Baada ya naira 20,000 za gharama za uendeshaji, faida yake halisi ni 90,000, kiasi cha jumla cha 22.5%.",
+    "Ikiwa mtoa huduma wake atapandisha bei na asirekebishe, ataona kwanza katika kiwango cha pato kinachoshuka."
+   ],
+   "card": {
+    "title": "Je, Septemba ya Ada ilikuwa na faida?",
+    "rows": [
+     [
+      "Mapato, mauzo 220",
+      "400,000"
+     ],
+     [
+      "Gharama ya bidhaa zinazouzwa",
+      "290,000"
+     ],
+     [
+      "Faida ya jumla",
+      "110,000"
+     ],
+     [
+      "Gharama za uendeshaji",
+      "20,000"
+     ]
+    ],
+    "note": "Takwimu za kielelezo. Jumla ni faida halisi."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Mapumziko ni mahali unapolipa gharama zote. Mfanyabiashara ana gharama zisizobadilika za naira 20,000 kwa mwezi. Kila ndoo ya garri huacha naira 500, kwa hivyo 20,000 ikigawanywa na 500 ni ndoo 40."
+   ],
+   "panel": {
+    "kicker": "Kuvunja-sawa",
+    "heading": "Ni ndoo ngapi lazima auze?",
+    "mode": "compare",
+    "left_h": "Garri gharama ₦2,000",
+    "left": [
+     "Inauzwa kwa ₦2,500",
+     "₦ 500 zimesalia kutoka kwa kila ndoo",
+     "Kuvunja-sawa: ndoo 40"
+    ],
+    "right_h": "Gharama ya Garri ₦2,200",
+    "right": [
+     "Bado inauzwa ₦2,500",
+     "Zimesalia ₦ 300 pekee kutoka kwa kila moja",
+     "Kuvunja-sawa: takriban ndoo 67"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Ikiwa gharama itapanda hadi 2,200, kila ndoo huacha 300 tu, na anahitaji ndoo 67 hivi. Ndio maana gharama za ufuatiliaji ni muhimu kama vile kufuatilia mauzo."
+   ],
+   "panel": {
+    "kicker": "Kuvunja-sawa",
+    "heading": "Ni ndoo ngapi lazima auze?",
+    "mode": "compare",
+    "left_h": "Garri gharama ₦2,000",
+    "left": [
+     "Inauzwa kwa ₦2,500",
+     "₦ 500 zimesalia kutoka kwa kila ndoo",
+     "Kuvunja-sawa: ndoo 40"
+    ],
+    "right_h": "Gharama ya Garri ₦2,200",
+    "right": [
+     "Bado inauzwa ₦2,500",
+     "Zimesalia ₦ 300 pekee kutoka kwa kila moja",
+     "Kuvunja-sawa: takriban ndoo 67"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Kukumbuka. Safi kabla ya kuhesabu. Linda watu na ripoti kwa uaminifu. Na ufuatilie nambari muhimu 3 hadi 5 kila wiki, pamoja na ukingo, sio mauzo tu."
+   ],
+   "panel": {
+    "kicker": "Pointi muhimu",
+    "heading": "Kumbuka",
+    "items": [
+     "Angalia jumla, nafasi zilizoachwa wazi, nakala na zilizokithiri",
+     "Acha kujulikana, na uulize ambaye hakuweza kujibu",
+     "Uwiano ni kidokezo, si uthibitisho",
+     "Pato la jumla = faida ya jumla ÷ mapato × 100",
+     "Fuatilia KPI 3 hadi 5 kila wiki dhidi ya malengo"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Zamu yako. Safisha orodha halisi, fanya ripoti moja kuwa salama na mwaminifu, na utatue vipimo vyako vya msingi.",
+    "Endelea na masomo hapa chini."
+   ],
+   "panel": {
+    "kicker": "Mazoezi ya kazi",
+    "heading": "Kazi zako za mazoezi",
+    "items": [
+     "Safisha orodha halisi ya safu 30, na logi",
+     "Futa ripoti na kumbuka ni nani hayupo",
+     "Kuhesabu mipaka yako mwenyewe na kuvunja-sawa",
+     "Sanidi dashibodi yenye KPI tatu"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

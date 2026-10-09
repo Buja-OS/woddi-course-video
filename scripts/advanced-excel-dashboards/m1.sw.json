@@ -1,0 +1,570 @@
+{
+ "course": "advanced-excel-dashboards",
+ "module": "m1",
+ "title": "Data na injini ya fomula nyuma ya kila dashibodi",
+ "course_title": "Advanced Excel & Dashibodi",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Data na injini ya fomula nyuma ya kila dashibodi.",
+    "Hii ni video ya moduli ya kwanza ya Advanced Excel na Dashibodi."
+   ]
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Katika kiwango cha juu, sehemu ngumu ya Excel sio fomula mara chache. Ni sura ya data. Vitabu vingi vya kazi vinaonekana nadhifu kwenye skrini lakini vimeundwa kama daftari la karatasi."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Dashibodi ni nzuri tu kama data yake",
+    "items": [
+     "Tengeneza orodha zenye fujo ziwe nadhifu, zinazoitwa Majedwali",
+     "Andika fomula zilizo na masharti kadhaa",
+     "Tumia vichunguzi ambavyo havivunji",
+     "Jibu maswali ya biashara ukitumia PivotTables"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Katika sehemu hii unageuza orodha zenye fujo kuwa Jedwali sahihi la Excel, kisha uandike fomula zinazojibu maswali kama vile: mauzo ya layer mash, huko Oyo, mwezi Machi."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Dashibodi ni nzuri tu kama data yake",
+    "items": [
+     "Tengeneza orodha zenye fujo ziwe nadhifu, zinazoitwa Majedwali",
+     "Andika fomula zilizo na masharti kadhaa",
+     "Tumia vichunguzi ambavyo havivunji",
+     "Jibu maswali ya biashara ukitumia PivotTables"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Utaleta bei na viwango vya kamisheni kwa utafutaji ambao hauvunji."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Dashibodi ni nzuri tu kama data yake",
+    "items": [
+     "Tengeneza orodha zenye fujo ziwe nadhifu, zinazoitwa Majedwali",
+     "Andika fomula zilizo na masharti kadhaa",
+     "Tumia vichunguzi ambavyo havivunji",
+     "Jibu maswali ya biashara ukitumia PivotTables"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Na utatumia PivotTables kufanya muhtasari wa maelfu ya safu mlalo kwa sekunde."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Dashibodi ni nzuri tu kama data yake",
+    "items": [
+     "Tengeneza orodha zenye fujo ziwe nadhifu, zinazoitwa Majedwali",
+     "Andika fomula zilizo na masharti kadhaa",
+     "Tumia vichunguzi ambavyo havivunji",
+     "Jibu maswali ya biashara ukitumia PivotTables"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Safu moja ni rekodi moja: mauzo moja, malipo moja. Usichanganye kamwe rekodi na jumla ndogo."
+   ],
+   "panel": {
+    "kicker": "Data safi",
+    "heading": "Sheria za kuweka data safi",
+    "items": [
+     "Safu mlalo moja = rekodi moja, hakuna safu mlalo ndogo",
+     "Safu moja = aina moja ya habari",
+     "Safu mlalo moja ya kichwa, hakuna visanduku vilivyounganishwa",
+     "Hakuna safu mlalo au safu wima tupu ndani ya data",
+     "Nambari kama nambari, tarehe kama tarehe"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Safu moja hushikilia aina moja ya habari. Usiandike mifuko 12 kwa 14,500 kwenye seli moja."
+   ],
+   "panel": {
+    "kicker": "Data safi",
+    "heading": "Sheria za kuweka data safi",
+    "items": [
+     "Safu mlalo moja = rekodi moja, hakuna safu mlalo ndogo",
+     "Safu moja = aina moja ya habari",
+     "Safu mlalo moja ya kichwa, hakuna visanduku vilivyounganishwa",
+     "Hakuna safu mlalo au safu wima tupu ndani ya data",
+     "Nambari kama nambari, tarehe kama tarehe"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Tumia safu mlalo ya kichwa yenye majina ya kipekee. Seli zilizounganishwa huvunja upangaji, uchujaji na kunakili fomula."
+   ],
+   "panel": {
+    "kicker": "Data safi",
+    "heading": "Sheria za kuweka data safi",
+    "items": [
+     "Safu mlalo moja = rekodi moja, hakuna safu mlalo ndogo",
+     "Safu moja = aina moja ya habari",
+     "Safu mlalo moja ya kichwa, hakuna visanduku vilivyounganishwa",
+     "Hakuna safu mlalo au safu wima tupu ndani ya data",
+     "Nambari kama nambari, tarehe kama tarehe"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Excel inachukua safu tupu kama mwisho wa orodha."
+   ],
+   "panel": {
+    "kicker": "Data safi",
+    "heading": "Sheria za kuweka data safi",
+    "items": [
+     "Safu mlalo moja = rekodi moja, hakuna safu mlalo ndogo",
+     "Safu moja = aina moja ya habari",
+     "Safu mlalo moja ya kichwa, hakuna visanduku vilivyounganishwa",
+     "Hakuna safu mlalo au safu wima tupu ndani ya data",
+     "Nambari kama nambari, tarehe kama tarehe"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Na chapa 45000, sio ishara ya naira. Hapa kuna mtihani wa haraka. Chagua kiasi na uangalie upau wa hali. Ikiwa inaonyesha Jumla, ni nambari. Ikionyesha Hesabu pekee, ni maandishi, na yataondoa jumla yako kimyakimya."
+   ],
+   "panel": {
+    "kicker": "Data safi",
+    "heading": "Sheria za kuweka data safi",
+    "items": [
+     "Safu mlalo moja = rekodi moja, hakuna safu mlalo ndogo",
+     "Safu moja = aina moja ya habari",
+     "Safu mlalo moja ya kichwa, hakuna visanduku vilivyounganishwa",
+     "Hakuna safu mlalo au safu wima tupu ndani ya data",
+     "Nambari kama nambari, tarehe kama tarehe"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Tola anaendesha biashara ya chakula cha kuku huko Ibadan. Anakili kila mauzo katika safu mlalo yake, kubofya ndani ya orodha na kubonyeza Control T."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Badilisha orodha kuwa Jedwali lenye jina",
+    "items": [
+     "Bofya ndani ya orodha safi na ubonyeze Ctrl+T",
+     "Weka alama kwenye Jedwali langu lina vichwa, kisha Sawa",
+     "Ipe jina katika Muundo wa Jedwali, kwa mfano tblSales",
+     "Ongeza safu wima iliyokokotwa na ishara ya @",
+     "Angalia safu tatu kwa mkono"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Anathibitisha kuwa jedwali lina vichwa."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Badilisha orodha kuwa Jedwali lenye jina",
+    "items": [
+     "Bofya ndani ya orodha safi na ubonyeze Ctrl+T",
+     "Weka alama kwenye Jedwali langu lina vichwa, kisha Sawa",
+     "Ipe jina katika Muundo wa Jedwali, kwa mfano tblSales",
+     "Ongeza safu wima iliyokokotwa na ishara ya @",
+     "Angalia safu tatu kwa mkono"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Anaiita tblSales. Majina hufanya fomula kusomeka, na Jedwali hukua yenyewe wakati anaandika safu mlalo mpya chini."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Badilisha orodha kuwa Jedwali lenye jina",
+    "items": [
+     "Bofya ndani ya orodha safi na ubonyeze Ctrl+T",
+     "Weka alama kwenye Jedwali langu lina vichwa, kisha Sawa",
+     "Ipe jina katika Muundo wa Jedwali, kwa mfano tblSales",
+     "Ongeza safu wima iliyokokotwa na ishara ya @",
+     "Angalia safu tatu kwa mkono"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Anaongeza safu ya Kiasi: Mifuko kwenye safu mlalo hii mara Bei kwa kila mfuko kwenye safu mlalo hii. Excel inaijaza chini ya safu nzima mara moja."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Badilisha orodha kuwa Jedwali lenye jina",
+    "items": [
+     "Bofya ndani ya orodha safi na ubonyeze Ctrl+T",
+     "Weka alama kwenye Jedwali langu lina vichwa, kisha Sawa",
+     "Ipe jina katika Muundo wa Jedwali, kwa mfano tblSales",
+     "Ongeza safu wima iliyokokotwa na ishara ya @",
+     "Angalia safu tatu kwa mkono"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Kisha anaangalia kwa mkono. 12 mara 14,500 ni 174,000. 8 mara 15,200 ni 121,600."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Badilisha orodha kuwa Jedwali lenye jina",
+    "items": [
+     "Bofya ndani ya orodha safi na ubonyeze Ctrl+T",
+     "Weka alama kwenye Jedwali langu lina vichwa, kisha Sawa",
+     "Ipe jina katika Muundo wa Jedwali, kwa mfano tblSales",
+     "Ongeza safu wima iliyokokotwa na ishara ya @",
+     "Angalia safu tatu kwa mkono"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Weka rangi na vidokezo vya dashibodi. Safu mlalo moja tupu au jumla ndogo ndani ya data hupotosha kila jumla iliyojengwa juu yake."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Badilisha orodha kuwa Jedwali lenye jina",
+    "items": [
+     "Bofya ndani ya orodha safi na ubonyeze Ctrl+T",
+     "Weka alama kwenye Jedwali langu lina vichwa, kisha Sawa",
+     "Ipe jina katika Muundo wa Jedwali, kwa mfano tblSales",
+     "Ongeza safu wima iliyokokotwa na ishara ya @",
+     "Angalia safu tatu kwa mkono"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Usiweke kamwe safu mlalo tupu au jumla ndogo ndani ya data.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "SUMIFS huweka cha kujumlisha kwanza, kisha jozi za mahali pa kuangalia na nini cha kutafuta. SUMIF ya zamani huweka masafa ya mwisho mwisho. Kuwachanganya ni kosa la kawaida.",
+    "Tola huweka tarehe, bidhaa na mji katika seli, kwa hivyo fomula moja inaweza kujibu maswali mengi. Hachangi tarehe ndani ya nukuu."
+   ],
+   "card": {
+    "title": "SUMIFS: safu mash huko Oyo, mwezi Machi",
+    "rows": [],
+    "note": "Takwimu za kielelezo."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Ili kuipima, anachuja Jedwali kwa mkono. Safu tano zimesalia: 174,000, 290,000, 145,000, 87,000 na 232,000."
+   ],
+   "card": {
+    "title": "SUMIFS: safu mash huko Oyo, mwezi Machi",
+    "rows": [
+     [
+      "Safu ya 1",
+      "174,000"
+     ],
+     [
+      "Safu ya 2",
+      "290,000"
+     ],
+     [
+      "Safu ya 3",
+      "145,000"
+     ],
+     [
+      "Safu ya 4",
+      "87,000"
+     ],
+     [
+      "Safu ya 5",
+      "232,000"
+     ]
+    ],
+    "note": "Takwimu za kielelezo."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Wanaongeza hadi 928,000. Seli yake ya SUMIFS inaonyesha 928,000, kwa hivyo fomula ni sawa. Badilisha kisanduku cha bidhaa na jibu husasishwa mara moja."
+   ],
+   "card": {
+    "title": "SUMIFS: safu mash huko Oyo, mwezi Machi",
+    "rows": [
+     [
+      "Safu ya 1",
+      "174,000"
+     ],
+     [
+      "Safu ya 2",
+      "290,000"
+     ],
+     [
+      "Safu ya 3",
+      "145,000"
+     ],
+     [
+      "Safu ya 4",
+      "87,000"
+     ],
+     [
+      "Safu ya 5",
+      "232,000"
+     ]
+    ],
+    "note": "Takwimu za kielelezo."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "VLOOKUP bila hoja yake ya mwisho hutumia takriban ulinganifu. Kwenye orodha ambayo haijapangwa inaweza kurudisha bei isiyo sahihi bila hitilafu yoyote. Daima malizia kwa UONGO."
+   ],
+   "panel": {
+    "kicker": "Utafutaji",
+    "heading": "VLOOKUP dhidi ya XLOOKUP",
+    "mode": "compare",
+    "left_h": "VLOOKUP",
+    "left": [
+     "Nambari ya safu wima iliyohesabiwa kwa mkono",
+     "Huvunja wakati nguzo zimeingizwa",
+     "Chaguomsingi ni takriban inayolingana"
+    ],
+    "right_h": "XLOOKUP",
+    "right": [
+     "Alama kwenye safu wima ya kurudi",
+     "Inahifadhi safu wima zilizoingizwa",
+     "Chaguo-msingi ni ulinganifu kamili"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "XLOOKUP ni salama zaidi, na modi yake ya mechi minus 1 inashughulikia viwango. Mwakilishi aliye na naira 760,000 za mauzo anapata kiwango cha 500,000 kwa asilimia 3, kwa hivyo tume ya naira 22,800.",
+    "XLOOKUP inahitaji Excel 2021, 2024 au Microsoft 365. Kwa 2016 au 2019, tumia INDEX pamoja na MATCH."
+   ],
+   "panel": {
+    "kicker": "Utafutaji",
+    "heading": "VLOOKUP dhidi ya XLOOKUP",
+    "mode": "compare",
+    "left_h": "VLOOKUP",
+    "left": [
+     "Nambari ya safu wima iliyohesabiwa kwa mkono",
+     "Huvunja wakati nguzo zimeingizwa",
+     "Chaguomsingi ni takriban inayolingana"
+    ],
+    "right_h": "XLOOKUP",
+    "right": [
+     "Alama kwenye safu wima ya kurudi",
+     "Inahifadhi safu wima zilizoingizwa",
+     "Chaguo-msingi ni ulinganifu kamili"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Unda kila mhimili kutoka kwa Jedwali lililopewa jina, ili safu mlalo mpya zijumuishwe. Iwapo inaonyesha Hesabu ya Kiasi, baadhi ya seli ni maandishi. Rekebisha data kwanza."
+   ],
+   "panel": {
+    "kicker": "Majedwali ya Pivot",
+    "heading": "Egemeo linalojibu maswali matatu",
+    "items": [
+     "Ingiza Jedwali la Pivot kutoka kwa Jedwali lililopewa jina",
+     "Tarehe za kikundi kwa Miezi na Miaka",
+     "Ongeza Kiasi mara tatu na Onyesha Thamani Kama",
+     "Onyesha upya Yote baada ya kila mabadiliko ya data"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Kikundi kwa Miezi na Miaka, au Januari 2024 na Januari 2025 huongezwa pamoja."
+   ],
+   "panel": {
+    "kicker": "Majedwali ya Pivot",
+    "heading": "Egemeo linalojibu maswali matatu",
+    "items": [
+     "Ingiza Jedwali la Pivot kutoka kwa Jedwali lililopewa jina",
+     "Tarehe za kikundi kwa Miezi na Miaka",
+     "Ongeza Kiasi mara tatu na Onyesha Thamani Kama",
+     "Onyesha upya Yote baada ya kila mabadiliko ya data"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Ongeza Kiasi kama jumla ya jumla, kisha asilimia ya jumla kuu, kisha tofauti ya asilimia kutoka mwezi uliopita. Katika mfano mmoja, safu ya mash ilikuwa asilimia 50 ya mauzo, na Machi ilikua kwa asilimia 19.6."
+   ],
+   "panel": {
+    "kicker": "Majedwali ya Pivot",
+    "heading": "Egemeo linalojibu maswali matatu",
+    "items": [
+     "Ingiza Jedwali la Pivot kutoka kwa Jedwali lililopewa jina",
+     "Tarehe za kikundi kwa Miezi na Miaka",
+     "Ongeza Kiasi mara tatu na Onyesha Thamani Kama",
+     "Onyesha upya Yote baada ya kila mabadiliko ya data"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Pivots hazisasishi zenyewe. Baada ya kuongeza data, tumia Data, Onyesha upya Zote."
+   ],
+   "panel": {
+    "kicker": "Majedwali ya Pivot",
+    "heading": "Egemeo linalojibu maswali matatu",
+    "items": [
+     "Ingiza Jedwali la Pivot kutoka kwa Jedwali lililopewa jina",
+     "Tarehe za kikundi kwa Miezi na Miaka",
+     "Ongeza Kiasi mara tatu na Onyesha Thamani Kama",
+     "Onyesha upya Yote baada ya kila mabadiliko ya data"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Kumbuka. Safisha data kwanza. Taja kila Jedwali. SUMIFS huweka masafa ya kwanza kwanza. Tumia mechi halisi. Na jaribu kila fomula dhidi ya hundi uliyoifanya kwa mkono."
+   ],
+   "panel": {
+    "kicker": "Kumbuka",
+    "heading": "Nini cha kuweka kutoka kwa moduli hii",
+    "items": [
+     "Safu mlalo moja kwa kila rekodi, hakuna visanduku vilivyounganishwa",
+     "Bonyeza Ctrl+T na utaje kila Jedwali",
+     "SUMIFS huweka masafa ya kwanza kwanza",
+     "Maliza VLOOKUP kwa FALSE, au utumie XLOOKUP",
+     "Jaribio la fomula kwa hundi iliyochujwa kwa mkono"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Chukua orodha halisi ya angalau safu 30 na uifanye Jedwali lililopewa jina. Jenga kizuizi cha muhtasari na SUMIFS na uchunguzi. Kisha unda egemeo la maswali matatu na uirejeshe upya.",
+    "Sasa endelea na masomo hapa chini."
+   ],
+   "panel": {
+    "kicker": "Kazi ya mazoezi",
+    "heading": "Kazi zako za moduli hii",
+    "items": [
+     "Rekebisha orodha halisi kuwa Jedwali lililopewa jina",
+     "Jenga kizuizi cha muhtasari wa masharti",
+     "Tengeneza egemeo la maswali matatu"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

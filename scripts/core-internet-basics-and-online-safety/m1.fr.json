@@ -1,0 +1,574 @@
+{
+ "course": "core-internet-basics-and-online-safety",
+ "module": "m1",
+ "title": "Connectez-vous, enregistrez des données et repérez un faux site Web",
+ "course_title": "Bases d'Internet et sécurité en ligne",
+ "shots": [
+  {
+   "demo": "security_lock",
+   "say": [
+    "Connectez-vous, enregistrez des données et repérez un faux site Web.",
+    "Ceci est la vidéo du premier module des principes fondamentaux d'Internet et de la sécurité en ligne : se connecter avec votre smartphone."
+   ]
+  },
+  {
+   "demo": "laptop_security",
+   "say": [
+    "Internet est un immense réseau de câbles, de mâts et de serveurs. Considérez-le comme les routes qui relient les villes."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Votre téléphone fait partie d'un réseau mondial",
+    "items": [
+     "Internet est le réseau lui-même",
+     "Le Web, ce sont les pages que vous ouvrez dans un navigateur",
+     "Les données mobiles utilisent votre forfait ; Le Wi-Fi utilise un routeur",
+     "Les icônes en haut vous indiquent votre signal"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_security",
+   "say": [
+    "Le World Wide Web, ce sont les pages que vous ouvrez dans un navigateur, comme les magasins le long de ces routes."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Votre téléphone fait partie d'un réseau mondial",
+    "items": [
+     "Internet est le réseau lui-même",
+     "Le Web, ce sont les pages que vous ouvrez dans un navigateur",
+     "Les données mobiles utilisent votre forfait ; Le Wi-Fi utilise un routeur",
+     "Les icônes en haut vous indiquent votre signal"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Votre téléphone se connecte avec les données mobiles, qui utilisent votre forfait, ou le Wi-Fi d'un routeur à proximité."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Votre téléphone fait partie d'un réseau mondial",
+    "items": [
+     "Internet est le réseau lui-même",
+     "Le Web, ce sont les pages que vous ouvrez dans un navigateur",
+     "Les données mobiles utilisent votre forfait ; Le Wi-Fi utilise un routeur",
+     "Les icônes en haut vous indiquent votre signal"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Les lettres près de vos barres de signal sont importantes. E ou 2G est très lent. La 4G ou LTE est bonne pour la vidéo."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Votre téléphone fait partie d'un réseau mondial",
+    "items": [
+     "Internet est le réseau lui-même",
+     "Le Web, ce sont les pages que vous ouvrez dans un navigateur",
+     "Les données mobiles utilisent votre forfait ; Le Wi-Fi utilise un routeur",
+     "Les icônes en haut vous indiquent votre signal"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_camera",
+   "say": [
+    "Voici un exemple tiré du cours. Halima à Kaduna a un appel vidéo avec sa coopérative. Dix minutes auparavant, son écran affiche une barre et la lettre E.",
+    "Elle sait que E signifie 2G très lent, trop lent pour la vidéo."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Halima lit ses icônes avant un appel",
+    "mode": "compare",
+    "left_h": "Avant",
+    "left": [
+     "Une barre et la lettre E",
+     "Trop lent pour la vidéo",
+     "Faible Wi-Fi du voisin activé"
+    ],
+    "right_h": "Après",
+    "right": [
+     "J'ai marché 20 mètres vers l'avant",
+     "Trois barres et 4G",
+     "Wi-Fi désactivé, propre caméra désactivée"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Elle marche donc environ 20 mètres devant l’enceinte. Maintenant, elle voit trois barres et la 4G.",
+    "Elle désactive un réseau Wi-Fi faible qui ne cesse de baisser, rejoint l'appel et éteint sa propre caméra pour la maintenir stable.",
+    "Astuce : si les pages ne se chargent pas, activez le mode Avion pendant dix secondes, puis désactivez-le à nouveau."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Halima lit ses icônes avant un appel",
+    "mode": "compare",
+    "left_h": "Avant",
+    "left": [
+     "Une barre et la lettre E",
+     "Trop lent pour la vidéo",
+     "Faible Wi-Fi du voisin activé"
+    ],
+    "right_h": "Après",
+    "right": [
+     "J'ai marché 20 mètres vers l'avant",
+     "Trois barres et 4G",
+     "Wi-Fi désactivé, propre caméra désactivée"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Maintenant, les données. Ouvrez Paramètres, recherchez Data Saver et activez-le."
+   ],
+   "panel": {
+    "kicker": "Faites durer votre forfait",
+    "heading": "Cinq paramètres qui enregistrent les données",
+    "items": [
+     "Activer l'économiseur de données Android",
+     "WhatsApp : téléchargement automatique de photos uniquement, ou rien",
+     "WhatsApp : utilisez moins de données pour les appels",
+     "Applications vidéo : choisissez Économiseur de données ou 360p",
+     "Play Store : mise à jour via Wi-Fi uniquement"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Dans WhatsApp, accédez à Stockage et données, puis à Téléchargement automatique des médias. Sur les données mobiles, choisissez uniquement les photos ou rien."
+   ],
+   "panel": {
+    "kicker": "Faites durer votre forfait",
+    "heading": "Cinq paramètres qui enregistrent les données",
+    "items": [
+     "Activer l'économiseur de données Android",
+     "WhatsApp : téléchargement automatique de photos uniquement, ou rien",
+     "WhatsApp : utilisez moins de données pour les appels",
+     "Applications vidéo : choisissez Économiseur de données ou 360p",
+     "Play Store : mise à jour via Wi-Fi uniquement"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Dans le même menu, activez Utiliser moins de données pour les appels."
+   ],
+   "panel": {
+    "kicker": "Faites durer votre forfait",
+    "heading": "Cinq paramètres qui enregistrent les données",
+    "items": [
+     "Activer l'économiseur de données Android",
+     "WhatsApp : téléchargement automatique de photos uniquement, ou rien",
+     "WhatsApp : utilisez moins de données pour les appels",
+     "Applications vidéo : choisissez Économiseur de données ou 360p",
+     "Play Store : mise à jour via Wi-Fi uniquement"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Lorsque vous regardez des vidéos, appuyez sur l'icône d'engrenage, puis sur Qualité, et choisissez Économiseur de données ou 360p."
+   ],
+   "panel": {
+    "kicker": "Faites durer votre forfait",
+    "heading": "Cinq paramètres qui enregistrent les données",
+    "items": [
+     "Activer l'économiseur de données Android",
+     "WhatsApp : téléchargement automatique de photos uniquement, ou rien",
+     "WhatsApp : utilisez moins de données pour les appels",
+     "Applications vidéo : choisissez Économiseur de données ou 360p",
+     "Play Store : mise à jour via Wi-Fi uniquement"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Dans Play Store, définissez les mises à jour sur Wi-Fi uniquement. Et rappelez-vous : la vidéo utilise le plus de données, et une qualité supérieure en utilise beaucoup plus."
+   ],
+   "panel": {
+    "kicker": "Faites durer votre forfait",
+    "heading": "Cinq paramètres qui enregistrent les données",
+    "items": [
+     "Activer l'économiseur de données Android",
+     "WhatsApp : téléchargement automatique de photos uniquement, ou rien",
+     "WhatsApp : utilisez moins de données pour les appels",
+     "Applications vidéo : choisissez Économiseur de données ou 360p",
+     "Play Store : mise à jour via Wi-Fi uniquement"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "La vidéo utilise le plus de données. Une qualité supérieure consomme beaucoup plus.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Par exemple, Ifeoma à Onitsha achète un forfait de 30 jours d'environ 6 Go, mais il continue de le terminer en deux semaines."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Ifeoma trouve ses mangeurs de données",
+    "items": [
+     "Bundle d'environ 6 Go terminé en 2 semaines",
+     "Utilisation des données : Facebook environ 2,5 Go",
+     "Mises à jour du Play Store sur 1 Go",
+     "Paramètres modifiés : dure 30 jours, il reste 1 Go"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Elle ouvre Utilisation des données mobiles dans Paramètres. Facebook a utilisé environ 2,5 Go. Elle configure ses vidéos pour qu'elles soient lues automatiquement uniquement sur Wi-Fi."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Ifeoma trouve ses mangeurs de données",
+    "items": [
+     "Bundle d'environ 6 Go terminé en 2 semaines",
+     "Utilisation des données : Facebook environ 2,5 Go",
+     "Mises à jour du Play Store sur 1 Go",
+     "Paramètres modifiés : dure 30 jours, il reste 1 Go"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_security",
+   "say": [
+    "Les mises à jour du Play Store utilisaient environ 1 Go. Elle définit donc les mises à jour uniquement sur le Wi-Fi et active l'économiseur de données."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Ifeoma trouve ses mangeurs de données",
+    "items": [
+     "Bundle d'environ 6 Go terminé en 2 semaines",
+     "Utilisation des données : Facebook environ 2,5 Go",
+     "Mises à jour du Play Store sur 1 Go",
+     "Paramètres modifiés : dure 30 jours, il reste 1 Go"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_security",
+   "say": [
+    "Le mois suivant, son forfait dure 30 jours complets, avec environ 1 Go restant.",
+    "Achetez des forfaits uniquement via le code ou l'application officiel de votre réseau, ou votre application bancaire. Ne payez jamais un étranger en lui promettant 50 Go bon marché."
+   ],
+   "panel": {
+    "kicker": "Exemple travaillé",
+    "heading": "Ifeoma trouve ses mangeurs de données",
+    "items": [
+     "Bundle d'environ 6 Go terminé en 2 semaines",
+     "Utilisation des données : Facebook environ 2,5 Go",
+     "Mises à jour du Play Store sur 1 Go",
+     "Paramètres modifiés : dure 30 jours, il reste 1 Go"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Dans la barre d'adresse du navigateur, vous pouvez saisir une adresse Web ou vos mots de recherche. Tapez les mots importants, pas une longue phrase, et ajoutez votre ville lorsque cela est important."
+   ],
+   "panel": {
+    "kicker": "Recherchez comme un expert",
+    "heading": "De meilleures recherches, des résultats plus sûrs",
+    "items": [
+     "Tapez des mots clés et un lieu : école de couture Ibadan",
+     "Les guillemets maintiennent une phrase ensemble",
+     "site :nafdac.gov.ng affiche un seul site officiel",
+     "Ignorer les résultats marqués Sponsorisé pour les tâches importantes"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Mettez des guillemets autour d’une phrase exacte pour la maintenir ensemble."
+   ],
+   "panel": {
+    "kicker": "Recherchez comme un expert",
+    "heading": "De meilleures recherches, des résultats plus sûrs",
+    "items": [
+     "Tapez des mots clés et un lieu : école de couture Ibadan",
+     "Les guillemets maintiennent une phrase ensemble",
+     "site :nafdac.gov.ng affiche un seul site officiel",
+     "Ignorer les résultats marqués Sponsorisé pour les tâches importantes"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Tapez site, deux points, puis une adresse officielle, pour rechercher uniquement ce site. Les sites du gouvernement nigérian se terminent généralement par point gov dot n g."
+   ],
+   "panel": {
+    "kicker": "Recherchez comme un expert",
+    "heading": "De meilleures recherches, des résultats plus sûrs",
+    "items": [
+     "Tapez des mots clés et un lieu : école de couture Ibadan",
+     "Les guillemets maintiennent une phrase ensemble",
+     "site :nafdac.gov.ng affiche un seul site officiel",
+     "Ignorer les résultats marqués Sponsorisé pour les tâches importantes"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Les résultats marqués Sponsorisé sont des publicités payantes, et les escrocs copient parfois de vraies marques. Bisi à Abeokuta a failli payer de cette façon une fausse taxe de 3 500 nairas."
+   ],
+   "panel": {
+    "kicker": "Recherchez comme un expert",
+    "heading": "De meilleures recherches, des résultats plus sûrs",
+    "items": [
+     "Tapez des mots clés et un lieu : école de couture Ibadan",
+     "Les guillemets maintiennent une phrase ensemble",
+     "site :nafdac.gov.ng affiche un seul site officiel",
+     "Ignorer les résultats marqués Sponsorisé pour les tâches importantes"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Grace à Port Harcourt a reçu un SMS lui disant de mettre à jour son BVN via un lien. Elle ne l'a pas tapé. Elle appuya dessus et le maintint pour lire l'adresse."
+   ],
+   "panel": {
+    "kicker": "La compétence clé en matière de sécurité",
+    "heading": "Lisez l'adresse Web avant de lui faire confiance",
+    "items": [
+     "Ne tapez pas. Appuyez et maintenez pour voir l'adresse",
+     "Recherchez le domaine juste avant la première barre oblique",
+     "Vérifiez qu'il s'agit du véritable domaine de l'organisation",
+     "Utilisez plutôt l'application officielle ou un favori enregistré"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "La règle est la suivante : lisez le domaine juste avant la première barre oblique. Les escrocs mettent un nom célèbre au premier plan pour qu'il apparaisse bien au premier coup d'œil."
+   ],
+   "panel": {
+    "kicker": "La compétence clé en matière de sécurité",
+    "heading": "Lisez l'adresse Web avant de lui faire confiance",
+    "items": [
+     "Ne tapez pas. Appuyez et maintenez pour voir l'adresse",
+     "Recherchez le domaine juste avant la première barre oblique",
+     "Vérifiez qu'il s'agit du véritable domaine de l'organisation",
+     "Utilisez plutôt l'application officielle ou un favori enregistré"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Son lien se terminait par gtbank-ng-update dot com. Ce n'est pas le véritable domaine de sa banque. Surveillez les orthographes similaires, les terminaisons erronées et les liens raccourcis."
+   ],
+   "panel": {
+    "kicker": "La compétence clé en matière de sécurité",
+    "heading": "Lisez l'adresse Web avant de lui faire confiance",
+    "items": [
+     "Ne tapez pas. Appuyez et maintenez pour voir l'adresse",
+     "Recherchez le domaine juste avant la première barre oblique",
+     "Vérifiez qu'il s'agit du véritable domaine de l'organisation",
+     "Utilisez plutôt l'application officielle ou un favori enregistré"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Elle a ouvert l'application officielle de sa banque, n'a vu aucun avertissement et a appelé le numéro figurant au dos de sa carte de guichet automatique pour le signaler."
+   ],
+   "panel": {
+    "kicker": "La compétence clé en matière de sécurité",
+    "heading": "Lisez l'adresse Web avant de lui faire confiance",
+    "items": [
+     "Ne tapez pas. Appuyez et maintenez pour voir l'adresse",
+     "Recherchez le domaine juste avant la première barre oblique",
+     "Vérifiez qu'il s'agit du véritable domaine de l'organisation",
+     "Utilisez plutôt l'application officielle ou un favori enregistré"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "security_lock",
+   "say": [
+    "Une erreur courante consiste à faire confiance à HTTPS. Les sites frauduleux peuvent également en proposer. Cela signifie que la ligne est privée, mais pas que le site soit honnête."
+   ],
+   "panel": {
+    "kicker": "La compétence clé en matière de sécurité",
+    "heading": "Lisez l'adresse Web avant de lui faire confiance",
+    "items": [
+     "Ne tapez pas. Appuyez et maintenez pour voir l'adresse",
+     "Recherchez le domaine juste avant la première barre oblique",
+     "Vérifiez qu'il s'agit du véritable domaine de l'organisation",
+     "Utilisez plutôt l'application officielle ou un favori enregistré"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "HTTPS signifie une ligne privée, pas un site Web honnête.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_security",
+   "say": [
+    "Si un magasin ou un chantier présente deux ou plusieurs de ces panneaux, arrêtez-vous. Recherchez son nom avec le mot arnaque et demandez à quelqu'un en qui vous avez confiance."
+   ],
+   "panel": {
+    "kicker": "Avant de payer en ligne",
+    "heading": "Arrêtez-vous si vous voyez deux de ces signes",
+    "items": [
+     "Des prix bien inférieurs à ceux de tous les autres vendeurs",
+     "Virement vers un compte personnel uniquement",
+     "Pas d'adresse, seulement un numéro WhatsApp",
+     "Un compte à rebours vous précipite",
+     "Des frais avant votre embauche"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "À retenir. Internet est le réseau et le Web, ce sont les pages. La vidéo consomme le plus de données, alors activez Data Saver.",
+    "Achetez des forfaits uniquement via les canaux officiels. Lisez le domaine avant la première barre oblique. Et pour de l'argent, tapez l'adresse ou utilisez l'application officielle."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Internet est le réseau ; le Web, ce sont les pages",
+     "La vidéo utilise le plus de données. Activer l'économiseur de données",
+     "Achetez des forfaits uniquement via des codes ou des applications officiels",
+     "Lire le domaine avant la première barre oblique",
+     "Pour de l'argent, tapez l'adresse ou utilisez l'application officielle"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Maintenant, entraînez-vous. Cartographiez votre signal, mettez votre téléphone au régime des données, tentez le défi de recherche et trouvez les domaines réels de trois sites que vous utilisez.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâche pratique",
+    "heading": "Vos tâches pratiques",
+    "items": [
+     "Cartographiez votre signal à trois endroits",
+     "Mettez votre téléphone au régime des données",
+     "Relevez le défi de recherche",
+     "Soyez un détective de domaine avec trois vrais sites"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

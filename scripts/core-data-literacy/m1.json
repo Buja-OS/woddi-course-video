@@ -1,0 +1,509 @@
+{
+ "course": "core-data-literacy",
+ "module": "m1",
+ "title": "From a worry to a data question, safely",
+ "course_title": "Data Literacy: Spreadsheets, Charts and Business Metrics",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "From a worry to a data question, safely.",
+    "This is the video for module 1 of Data Literacy."
+   ]
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Data is simply recorded facts. The bottles of zobo you sold on Saturday, or the date a member paid her contribution.",
+    "When facts are written down in an organised way, you can count them, compare them and learn from them."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Data is simply recorded facts",
+    "items": [
+     "Written facts can be counted and compared",
+     "Facts in your head turn into guesses",
+     "Data literacy: read, question and talk about data",
+     "No advanced mathematics needed"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "When they stay in your head, they turn into guesses."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Data is simply recorded facts",
+    "items": [
+     "Written facts can be counted and compared",
+     "Facts in your head turn into guesses",
+     "Data literacy: read, question and talk about data",
+     "No advanced mathematics needed"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Data literacy means you can look at a sales record or a chart and ask: what does this really show, is it accurate, and what should I do? It does not need advanced mathematics."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Data is simply recorded facts",
+    "items": [
+     "Written facts can be counted and compared",
+     "Facts in your head turn into guesses",
+     "Data literacy: read, question and talk about data",
+     "No advanced mathematics needed"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Numbers, like bottles sold or amount paid, can be added and averaged."
+   ],
+   "panel": {
+    "kicker": "Know your data",
+    "heading": "Four kinds of data",
+    "items": [
+     "Numbers: amounts you can add or average",
+     "Categories: labels like cash, transfer, POS",
+     "Dates and times: when something happened",
+     "Free text: words people write or say"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Categories can only be counted. A member ID like 0457 is a label, so it makes no sense to add member IDs together."
+   ],
+   "panel": {
+    "kicker": "Know your data",
+    "heading": "Four kinds of data",
+    "items": [
+     "Numbers: amounts you can add or average",
+     "Categories: labels like cash, transfer, POS",
+     "Dates and times: when something happened",
+     "Free text: words people write or say"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Dates let you group by day, week or month and see trends."
+   ],
+   "panel": {
+    "kicker": "Know your data",
+    "heading": "Four kinds of data",
+    "items": [
+     "Numbers: amounts you can add or average",
+     "Categories: labels like cash, transfer, POS",
+     "Dates and times: when something happened",
+     "Free text: words people write or say"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "And free text, like the bottle was not cold enough, is read for themes and repeated complaints."
+   ],
+   "panel": {
+    "kicker": "Know your data",
+    "heading": "Four kinds of data",
+    "items": [
+     "Numbers: amounts you can add or average",
+     "Categories: labels like cash, transfer, POS",
+     "Dates and times: when something happened",
+     "Free text: words people write or say"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "For example, Amaka sells chilled zobo near a bus park in Ibadan, and often throws away unsold bottles. Business is slow is a worry. A good question names what you measure and when."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Which day needs extra zobo?",
+    "items": [
+     "Ask: how many bottles do I sell each day?",
+     "Collect: a tally every evening",
+     "Organise: add up the week, 138 bottles",
+     "Analyse: average about 19.7 a day",
+     "Decide: make more Friday and Saturday"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false,
+    "rule": "Start with a clear question, not a spreadsheet.",
+    "showRule": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "She writes a tally each evening for one week: 18, 15, 17, 16, then 26 on Friday, 34 on Saturday and 12 on Sunday. That is 138 bottles."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Which day needs extra zobo?",
+    "items": [
+     "Ask: how many bottles do I sell each day?",
+     "Collect: a tally every evening",
+     "Organise: add up the week, 138 bottles",
+     "Analyse: average about 19.7 a day",
+     "Decide: make more Friday and Saturday"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Start with a clear question, not a spreadsheet.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "138 divided by 7 is about 19.7 bottles a day. Friday and Saturday are well above that, and Sunday is well below."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Which day needs extra zobo?",
+    "items": [
+     "Ask: how many bottles do I sell each day?",
+     "Collect: a tally every evening",
+     "Organise: add up the week, 138 bottles",
+     "Analyse: average about 19.7 a day",
+     "Decide: make more Friday and Saturday"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Start with a clear question, not a spreadsheet.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "So she makes about 30 on Friday, 35 on Saturday and only 12 on Sunday.",
+    "But one week can be unusual because of rain or a holiday, so she keeps recording for three more weeks before any big change."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Which day needs extra zobo?",
+    "items": [
+     "Ask: how many bottles do I sell each day?",
+     "Collect: a tally every evening",
+     "Organise: add up the week, 138 bottles",
+     "Analyse: average about 19.7 a day",
+     "Decide: make more Friday and Saturday"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Start with a clear question, not a spreadsheet.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "For example, Halima runs a provisions kiosk in Kaduna. Seven customers spend between 1,500 and 3,500 naira, plus one caterer who spends 20,000.",
+    "The mean adds everything and divides by 7. That gives about 4,929 naira, but only one customer spent more than that."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "What does a typical customer spend?",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Mean: about ₦4,929",
+      "d": "Add all 7 amounts, 34,500 naira, and divide by 7. One bulk buyer pulls it up."
+     },
+     {
+      "t": "Median: ₦2,500",
+      "d": "Sort the amounts and take the middle one. This is the typical customer."
+     },
+     {
+      "t": "Mode: ₦2,000",
+      "d": "The amount that appears most often. Range: 20,000 minus 1,500 is ₦18,500."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "The median is the middle value once they are sorted: 2,500 naira. That is the better answer, because one bulk buyer pulled the mean far upwards."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "What does a typical customer spend?",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Mean: about ₦4,929",
+      "d": "Add all 7 amounts, 34,500 naira, and divide by 7. One bulk buyer pulls it up."
+     },
+     {
+      "t": "Median: ₦2,500",
+      "d": "Sort the amounts and take the middle one. This is the typical customer."
+     },
+     {
+      "t": "Mode: ₦2,000",
+      "d": "The amount that appears most often. Range: 20,000 minus 1,500 is ₦18,500."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "The mode is the most common value, 2,000. The range shows how spread out the values are."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "What does a typical customer spend?",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Mean: about ₦4,929",
+      "d": "Add all 7 amounts, 34,500 naira, and divide by 7. One bulk buyer pulls it up."
+     },
+     {
+      "t": "Median: ₦2,500",
+      "d": "Sort the amounts and take the middle one. This is the typical customer."
+     },
+     {
+      "t": "Mode: ₦2,000",
+      "d": "The amount that appears most often. Range: 20,000 minus 1,500 is ₦18,500."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Use the mean when the values are fairly similar."
+   ],
+   "panel": {
+    "kicker": "Choose well",
+    "heading": "Mean or median?",
+    "mode": "compare",
+    "left_h": "Use the mean",
+    "left": [
+     "Values are fairly similar",
+     "No extreme highs or lows",
+     "You need a total-based figure"
+    ],
+    "right_h": "Use the median",
+    "right": [
+     "One or two values are extreme",
+     "Incomes, prices, house rents",
+     "You want the typical case"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "When one or two values are extreme, as with incomes, prices and rents, report the median."
+   ],
+   "panel": {
+    "kicker": "Choose well",
+    "heading": "Mean or median?",
+    "mode": "compare",
+    "left_h": "Use the mean",
+    "left": [
+     "Values are fairly similar",
+     "No extreme highs or lows",
+     "You need a total-based figure"
+    ],
+    "right_h": "Use the median",
+    "right": [
+     "One or two values are extreme",
+     "Incomes, prices, house rents",
+     "You want the typical case"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "A percentage compares a part with a whole: part divided by whole, times 100. Percentage change is new minus old, divided by old, times 100."
+   ],
+   "card": {
+    "title": "Did sales really grow?",
+    "rows": [],
+    "note": "Always divide by the old value."
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Sales were 250,000 naira in August and 300,000 in September. The change is 50,000 divided by 250,000, times 100. That is 20% growth.",
+    "The common mistake is dividing by the new value. That gives about 16.7%, which is wrong."
+   ],
+   "card": {
+    "title": "Did sales really grow?",
+    "rows": [
+     [
+      "Sales in August (old)",
+      "250,000"
+     ],
+     [
+      "Sales in September (new)",
+      "300,000"
+     ]
+    ],
+    "note": "Always divide by the old value."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Google Sheets is free, works on your phone and saves automatically to Google Drive, so a lost phone does not mean lost records.",
+    "Protect it. Use a long password phrase and turn on 2-Step Verification. Share as Viewer, and give Editor only to people who truly need it."
+   ],
+   "panel": {
+    "kicker": "Keep it safe",
+    "heading": "Protecting your Google Sheets",
+    "items": [
+     "A long, unique password phrase",
+     "2-Step Verification turned on",
+     "Share as Viewer by default",
+     "No Anyone with the link for money records",
+     "Version history to undo mistakes"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Personal data is a responsibility under the Nigeria Data Protection Act 2023. For example, Fatima is treasurer of a 25-member savings group in Kano. She uses member codes, and keeps the names list in a separate file."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Fatima's safe contribution register",
+    "items": [
+     "Member codes M01 to M25, not full names",
+     "Code list kept in a separate private file",
+     "Members can view; one person can edit",
+     "Payment proof sent privately, not in the group"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Members can view and confirm their own entries, and payment screenshots no longer appear in a group chat.",
+    "And never share your OTP, BVN or banking PIN with anyone, even someone who says they are from your bank."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Fatima's safe contribution register",
+    "items": [
+     "Member codes M01 to M25, not full names",
+     "Code list kept in a separate private file",
+     "Members can view; one person can edit",
+     "Payment proof sent privately, not in the group"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "To remember. Start with a sharp question. Know your data types. Choose mean or median with care. Divide by the old value. And keep other people's data safe."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "Question, collect, organise, analyse, decide",
+     "Numbers add up; categories are only counted",
+     "Extreme values? Report the median",
+     "Percentage change: new minus old, divided by old",
+     "Collect only the personal data you need"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Your turn. Sharpen one worry into a question, work out the measures on your own numbers, and set up a safe workbook.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice tasks",
+    "heading": "Your practice tasks",
+    "items": [
+     "Turn one worry into a data question",
+     "Calculate the five measures on your own numbers",
+     "Set up a safe, named Google Sheet",
+     "Turn on 2-Step Verification"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}
