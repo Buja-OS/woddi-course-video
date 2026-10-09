@@ -1,0 +1,573 @@
+{
+ "course": "sql-fundamentals",
+ "module": "m2",
+ "title": "Join tables and prove your numbers add up",
+ "course_title": "SQL Fundamentals",
+ "shots": [
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Join tables, and prove your numbers add up.",
+    "This is the video for module 2 of SQL Fundamentals: Tools, Joins and Trustworthy Results."
+   ]
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "You learn SQL by typing queries and seeing results. You do not need to buy anything. Choose one tool and stay with it."
+   ],
+   "panel": {
+    "kicker": "Free tools",
+    "heading": "Somewhere to practise, for free",
+    "items": [
+     "SQLite Fiddle: in any browser, no account",
+     "DB Browser for SQLite: offline on a laptop",
+     "PostgreSQL in a free cloud project",
+     "Google BigQuery sandbox for big datasets"
+    ],
+    "show": 0,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "SQLite Fiddle runs in any browser, even on your phone, with no account."
+   ],
+   "panel": {
+    "kicker": "Free tools",
+    "heading": "Somewhere to practise, for free",
+    "items": [
+     "SQLite Fiddle: in any browser, no account",
+     "DB Browser for SQLite: offline on a laptop",
+     "PostgreSQL in a free cloud project",
+     "Google BigQuery sandbox for big datasets"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "DB Browser for SQLite works offline once installed on a laptop."
+   ],
+   "panel": {
+    "kicker": "Free tools",
+    "heading": "Somewhere to practise, for free",
+    "items": [
+     "SQLite Fiddle: in any browser, no account",
+     "DB Browser for SQLite: offline on a laptop",
+     "PostgreSQL in a free cloud project",
+     "Google BigQuery sandbox for big datasets"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "A free PostgreSQL project, for example on Supabase, lets you practise the database many fintechs use."
+   ],
+   "panel": {
+    "kicker": "Free tools",
+    "heading": "Somewhere to practise, for free",
+    "items": [
+     "SQLite Fiddle: in any browser, no account",
+     "DB Browser for SQLite: offline on a laptop",
+     "PostgreSQL in a free cloud project",
+     "Google BigQuery sandbox for big datasets"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "And the BigQuery sandbox lets you query large public datasets. Whichever you choose, keep your queries in a notes file. It becomes your query library."
+   ],
+   "panel": {
+    "kicker": "Free tools",
+    "heading": "Somewhere to practise, for free",
+    "items": [
+     "SQLite Fiddle: in any browser, no account",
+     "DB Browser for SQLite: offline on a laptop",
+     "PostgreSQL in a free cloud project",
+     "Google BigQuery sandbox for big datasets"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "For example, Ada studies on her phone at lunch. She opens SQLite Fiddle and runs the CREATE TABLE statements for customers, orders and order items."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Ada loads Kemi's database and checks it",
+    "items": [
+     "Run the three CREATE TABLE statements",
+     "Paste INSERT rows: 6, 10 and 13",
+     "Count rows in each table",
+     "Check the total: 251,500",
+     "Save the script as kemi_setup.sql"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "She pastes the INSERT statements: 6 customers, 10 orders and 13 order item rows."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Ada loads Kemi's database and checks it",
+    "items": [
+     "Run the three CREATE TABLE statements",
+     "Paste INSERT rows: 6, 10 and 13",
+     "Count rows in each table",
+     "Check the total: 251,500",
+     "Save the script as kemi_setup.sql"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "Then she counts the rows in each table. 6, 10 and 13. Correct."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Ada loads Kemi's database and checks it",
+    "items": [
+     "Run the three CREATE TABLE statements",
+     "Paste INSERT rows: 6, 10 and 13",
+     "Count rows in each table",
+     "Check the total: 251,500",
+     "Save the script as kemi_setup.sql"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "She sums the amount for all 10 orders and gets 251,500, as expected. Why check? A missing comma can stop one INSERT while the others succeed, and then every later answer is wrong."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Ada loads Kemi's database and checks it",
+    "items": [
+     "Run the three CREATE TABLE statements",
+     "Paste INSERT rows: 6, 10 and 13",
+     "Count rows in each table",
+     "Check the total: 251,500",
+     "Save the script as kemi_setup.sql"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "She saves the script so she can rebuild any time. And remember, use made-up data for practice. Never put real customer names or phone numbers into a public online tool."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Ada loads Kemi's database and checks it",
+    "items": [
+     "Run the three CREATE TABLE statements",
+     "Paste INSERT rows: 6, 10 and 13",
+     "Count rows in each table",
+     "Check the total: 251,500",
+     "Save the script as kemi_setup.sql"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Practice data only. Never paste real customer details online.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "A JOIN lines up rows from two tables wherever the key values match. An INNER JOIN keeps only the matches. Joining delivered orders to customers gives 8 rows, each now with a name and city."
+   ],
+   "panel": {
+    "kicker": "Joining tables",
+    "heading": "INNER JOIN versus LEFT JOIN",
+    "mode": "compare",
+    "left_h": "INNER JOIN",
+    "left": [
+     "Only matched rows",
+     "Funmi disappears",
+     "8 delivered order rows",
+     "For: what was sold"
+    ],
+    "right_h": "LEFT JOIN",
+    "right": [
+     "All left-table rows kept",
+     "Funmi kept with NULLs",
+     "6 customer rows",
+     "For: who is missing"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "A LEFT JOIN keeps every row of the first table, even with no match. The missing columns come back as NULL. That is how you find who is missing, like Funmi, a customer who has never received an order."
+   ],
+   "panel": {
+    "kicker": "Joining tables",
+    "heading": "INNER JOIN versus LEFT JOIN",
+    "mode": "compare",
+    "left_h": "INNER JOIN",
+    "left": [
+     "Only matched rows",
+     "Funmi disappears",
+     "8 delivered order rows",
+     "For: what was sold"
+    ],
+    "right_h": "LEFT JOIN",
+    "right": [
+     "All left-table rows kept",
+     "Funmi kept with NULLs",
+     "6 customer rows",
+     "For: who is missing"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "She starts from customers, so nobody is lost, and puts status equals delivered inside the ON part of the join, not in WHERE."
+   ],
+   "card": {
+    "title": "Spend per customer, including zero",
+    "rows": [],
+    "note": "Practice figures, not real market prices."
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Dupe spent 61,000 naira, Amaka 55,000, Bisi 54,500, Efe 33,000 and Chioma 8,000. Funmi has 0, so she gets the welcome offer."
+   ],
+   "card": {
+    "title": "Spend per customer, including zero",
+    "rows": [
+     [
+      "Dupe, 1 order",
+      "61,000"
+     ],
+     [
+      "Amaka, 3 orders",
+      "55,000"
+     ],
+     [
+      "Bisi, 2 orders",
+      "54,500"
+     ],
+     [
+      "Efe, 1 order",
+      "33,000"
+     ],
+     [
+      "Chioma, 1 order",
+      "8,000"
+     ]
+    ],
+    "note": "Practice figures, not real market prices."
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "It reconciles to 211,500, the delivered total.",
+    "The common mistake: if she had put the delivered filter in WHERE, Funmi's row would vanish, and the LEFT JOIN would quietly act like an INNER JOIN."
+   ],
+   "card": {
+    "title": "Spend per customer, including zero",
+    "rows": [
+     [
+      "Dupe, 1 order",
+      "61,000"
+     ],
+     [
+      "Amaka, 3 orders",
+      "55,000"
+     ],
+     [
+      "Bisi, 2 orders",
+      "54,500"
+     ],
+     [
+      "Efe, 1 order",
+      "33,000"
+     ],
+     [
+      "Chioma, 1 order",
+      "8,000"
+     ]
+    ],
+    "note": "Practice figures, not real market prices."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "A query that runs without error is not always right. Ngozi sums the order amount after joining to order items, and gets 293,500."
+   ],
+   "card": {
+    "title": "Why did revenue suddenly jump?",
+    "rows": [
+     [
+      "Sum after the join",
+      "293,500"
+     ]
+    ],
+    "note": "Practice figures, not real market prices."
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "But the known delivered total is 211,500."
+   ],
+   "card": {
+    "title": "Why did revenue suddenly jump?",
+    "rows": [
+     [
+      "Sum after the join",
+      "293,500"
+     ],
+     [
+      "Known delivered total",
+      "211,500"
+     ]
+    ],
+    "note": "Practice figures, not real market prices."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "The gap is 82,000. After the join there are 11 rows, not 8, because three orders have two product lines each, so each is counted twice. This is called fan-out.",
+    "The quick test: compare COUNT star with COUNT DISTINCT order ID. If the first grows and the second does not, rows are repeating."
+   ],
+   "card": {
+    "title": "Why did revenue suddenly jump?",
+    "rows": [
+     [
+      "Sum after the join",
+      "293,500"
+     ],
+     [
+      "Known delivered total",
+      "211,500"
+     ],
+     [
+      "Overstated by",
+      "82,000"
+     ]
+    ],
+    "note": "Practice figures, not real market prices."
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Write the question in one sentence, with a time period and a definition, like delivered revenue per city."
+   ],
+   "panel": {
+    "kicker": "Question to answer",
+    "heading": "A workflow you can trust",
+    "items": [
+     "Write the question with a period and definition",
+     "Explore the tables and the keys that link them",
+     "Build in pieces, checking the row count",
+     "Reconcile and spot-check two rows",
+     "Answer in plain words, with any caveat"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Explore the tables first, and check which keys link them."
+   ],
+   "panel": {
+    "kicker": "Question to answer",
+    "heading": "A workflow you can trust",
+    "items": [
+     "Write the question with a period and definition",
+     "Explore the tables and the keys that link them",
+     "Build in pieces, checking the row count",
+     "Reconcile and spot-check two rows",
+     "Answer in plain words, with any caveat"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "meeting_table",
+   "say": [
+    "Build the query in small pieces. Run the join first and check the row count, then add WHERE, then GROUP BY."
+   ],
+   "panel": {
+    "kicker": "Question to answer",
+    "heading": "A workflow you can trust",
+    "items": [
+     "Write the question with a period and definition",
+     "Explore the tables and the keys that link them",
+     "Build in pieces, checking the row count",
+     "Reconcile and spot-check two rows",
+     "Answer in plain words, with any caveat"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Reconcile to a known total, and check two rows by hand."
+   ],
+   "panel": {
+    "kicker": "Question to answer",
+    "heading": "A workflow you can trust",
+    "items": [
+     "Write the question with a period and definition",
+     "Explore the tables and the keys that link them",
+     "Build in pieces, checking the row count",
+     "Reconcile and spot-check two rows",
+     "Answer in plain words, with any caveat"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Then present the number, the period and any caveat in plain words."
+   ],
+   "panel": {
+    "kicker": "Question to answer",
+    "heading": "A workflow you can trust",
+    "items": [
+     "Write the question with a period and definition",
+     "Explore the tables and the keys that link them",
+     "Build in pieces, checking the row count",
+     "Reconcile and spot-check two rows",
+     "Answer in plain words, with any caveat"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Five checks catch most silent errors. Does the row count make sense? Do totals reconcile? Is there fan-out? Are NULLs handled on purpose, for example with COALESCE to turn a missing value into 0? And did you spot-check two rows?"
+   ],
+   "panel": {
+    "kicker": "Every time",
+    "heading": "Before you share a number",
+    "items": [
+     "Row count makes sense",
+     "Totals reconcile",
+     "No join fan-out",
+     "NULLs handled on purpose",
+     "Two rows spot-checked"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_dashboard",
+   "say": [
+    "To remember. Check counts and totals as soon as data is loaded. Use INNER JOIN for what was sold and LEFT JOIN for who is missing. Watch for fan-out. And never share a number you have not reconciled."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "Check row counts and totals after loading",
+     "INNER keeps matches; LEFT keeps everyone",
+     "Right-table filters for a LEFT JOIN go in ON",
+     "Fan-out inflates sums; test with COUNT DISTINCT",
+     "Never share a number you have not reconciled"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Now build and verify your practice database, answer three join questions, and audit a wrong query.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice tasks",
+    "heading": "Your work for this module",
+    "items": [
+     "Build and verify your practice database",
+     "Answer three join questions",
+     "Audit a wrong query and fix it"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

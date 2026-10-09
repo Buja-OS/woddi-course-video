@@ -1,0 +1,433 @@
+{
+ "course": "accessing-grants-loans-partnerships",
+ "module": "m1",
+ "title": "Linganisha pesa na hitaji, na uwe tayari",
+ "course_title": "Kufikia Ruzuku, Mikopo na Ubia",
+ "shots": [
+  {
+   "demo": "cash_count",
+   "say": [
+    "Linganisha pesa na hitaji, na uwe tayari.",
+    "Hii ni video ya sehemu ya 1 ya Kufikia Ruzuku, Mikopo na Ubia."
+   ]
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Pesa za ukuaji zinaweza kutoka sehemu nne, na kila moja ina bei. Akiba yako mwenyewe au malipo ya ajo hayagharimu chochote kurejesha, lakini inaweza kuwa buffer yako ya usalama."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Sehemu nne za ukuaji pesa hutoka",
+    "items": [
+     "Pesa yako mwenyewe: hakuna cha kulipa",
+     "Ruzuku: hakuna ulipaji, sheria kali",
+     "Mkopo: kulipwa pamoja na riba na ada",
+     "Ushirikiano: mtu hutoa kile unachohitaji"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Ruzuku haihitaji kulipwa, lakini ushindani ni mzito na sheria za matumizi ni kali."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Sehemu nne za ukuaji pesa hutoka",
+    "items": [
+     "Pesa yako mwenyewe: hakuna cha kulipa",
+     "Ruzuku: hakuna ulipaji, sheria kali",
+     "Mkopo: kulipwa pamoja na riba na ada",
+     "Ushirikiano: mtu hutoa kile unachohitaji"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Mkopo hulipwa kwa riba na ada kwa ratiba maalum. Kukosa malipo, na unaweza kupoteza dhamana au rekodi yako ya mkopo."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Sehemu nne za ukuaji pesa hutoka",
+    "items": [
+     "Pesa yako mwenyewe: hakuna cha kulipa",
+     "Ruzuku: hakuna ulipaji, sheria kali",
+     "Mkopo: kulipwa pamoja na riba na ada",
+     "Ushirikiano: mtu hutoa kile unachohitaji"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "savings_box",
+   "say": [
+    "Ubia ni wakati msambazaji, mnunuzi au biashara kubwa inakupa mkopo, vifaa, nafasi au wanunuzi. Lengo la kozi hii ni kupata kile unachohitaji bila kuweka biashara yako au nyumba yako hatarini."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Sehemu nne za ukuaji pesa hutoka",
+    "items": [
+     "Pesa yako mwenyewe: hakuna cha kulipa",
+     "Ruzuku: hakuna ulipaji, sheria kali",
+     "Mkopo: kulipwa pamoja na riba na ada",
+     "Ushirikiano: mtu hutoa kile unachohitaji"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Makosa ya kawaida ni kutafuta ufadhili kwanza na kuamua nini cha kufanya nayo baadaye. Ninahitaji pesa kukuza biashara yangu ya mitindo haimwambii mfadhili chochote."
+   ],
+   "panel": {
+    "kicker": "Anza na hitaji",
+    "heading": "Haja dhaifu dhidi ya hitaji kali",
+    "mode": "compare",
+    "left_h": "Dhaifu",
+    "left": [
+     "\"Nahitaji pesa kukua\"",
+     "Hakuna gharama, hakuna matokeo"
+    ],
+    "right_h": "Nguvu",
+    "right": [
+     "Mashine mbili, takriban ₦ 650,000",
+     "sare 40 kwa wiki badala ya 15",
+     "Kubali mikataba miwili ya shule"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Hitaji kubwa linasema utanunua nini, ni gharama gani, na matokeo katika nambari. Kwa mfano: mashine mbili za viwandani, karibu naira 650,000, hivyo ninaweza kushona sare 40 kwa wiki badala ya 15 na kukubali kandarasi mbili za shule nilizokataa."
+   ],
+   "panel": {
+    "kicker": "Anza na hitaji",
+    "heading": "Haja dhaifu dhidi ya hitaji kali",
+    "mode": "compare",
+    "left_h": "Dhaifu",
+    "left": [
+     "\"Nahitaji pesa kukua\"",
+     "Hakuna gharama, hakuna matokeo"
+    ],
+    "right_h": "Nguvu",
+    "right": [
+     "Mashine mbili, takriban ₦ 650,000",
+     "sare 40 kwa wiki badala ya 15",
+     "Kubali mikataba miwili ya shule"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Swali moja. Je, hitaji hili litarudisha pesa? Hisa mpya au mashine ya maagizo ambayo tayari unayo kwa kawaida. Ubao mzuri wa ishara hauwezi."
+   ],
+   "panel": {
+    "kicker": "Chagua njia",
+    "heading": "Maswali matatu ambayo huamua njia",
+    "items": [
+     "Je, hitaji hili litarudisha pesa?",
+     "Muda gani, na kiasi gani?",
+     "Je, mtu anaweza kuisambaza badala ya pesa taslimu?"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Swali la pili. Muda gani, na kiasi gani? Marejesho ya mkopo kawaida huanza ndani ya mwezi mmoja, kwa hivyo kurudi polepole ni ishara ya hatari kwa kukopa."
+   ],
+   "panel": {
+    "kicker": "Chagua njia",
+    "heading": "Maswali matatu ambayo huamua njia",
+    "items": [
+     "Je, hitaji hili litarudisha pesa?",
+     "Muda gani, na kiasi gani?",
+     "Je, mtu anaweza kuisambaza badala ya pesa taslimu?"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Swali la tatu. Je, msambazaji anaweza kukupa siku 30 za kulipa, mnunuzi kulipa amana, au shirika la ushirika kushiriki mashine? Kisha unaweza usihitaji pesa kabisa."
+   ],
+   "panel": {
+    "kicker": "Chagua njia",
+    "heading": "Maswali matatu ambayo huamua njia",
+    "items": [
+     "Je, hitaji hili litarudisha pesa?",
+     "Muda gani, na kiasi gani?",
+     "Je, mtu anaweza kuisambaza badala ya pesa taslimu?"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Na ikiwa biashara inapoteza pesa kila mwezi, mkopo haurekebishe. Jua kwa nini kwanza: bei ya chini sana, upotevu, au mauzo ya mkopo hayakusanywi."
+   ],
+   "panel": {
+    "kicker": "Chagua njia",
+    "heading": "Maswali matatu ambayo huamua njia",
+    "items": [
+     "Je, hitaji hili litarudisha pesa?",
+     "Muda gani, na kiasi gani?",
+     "Je, mtu anaweza kuisambaza badala ya pesa taslimu?"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "rule": "Usikope kamwe ili kufidia hasara zinazoendelea.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Hauwa anaendesha duka la ushonaji nguo huko Kaduna. Shule moja inampa sare 300 kwa takriban naira 9,000 kila moja, inalipa 50% kwa agizo na 50% wakati wa kujifungua. Anahitaji mashine ya pili, karibu naira 350,000."
+   ],
+   "card": {
+    "title": "Agizo la sare za shule za Hauwa",
+    "rows": [],
+    "note": "Bei za Naira ni takriban."
+   }
+  },
+  {
+   "demo": "cash_count",
+   "say": [
+    "Agizo hilo lina thamani ya naira 2,700,000. Gharama ya vifaa ni takriban 1,260,000."
+   ],
+   "card": {
+    "title": "Agizo la sare za shule za Hauwa",
+    "rows": [
+     [
+      "Thamani ya agizo",
+      "2,700,000"
+     ],
+     [
+      "Nyenzo",
+      "1,260,000"
+     ]
+    ],
+    "note": "Bei za Naira ni takriban."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Amana ya naira 1,350,000 inashughulikia nyenzo zote, na 90,000 zimesalia."
+   ],
+   "card": {
+    "title": "Agizo la sare za shule za Hauwa",
+    "rows": [
+     [
+      "Thamani ya agizo",
+      "2,700,000"
+     ],
+     [
+      "Nyenzo",
+      "1,260,000"
+     ],
+     [
+      "50% ya amana",
+      "1,350,000"
+     ]
+    ],
+    "note": "Bei za Naira ni takriban."
+   }
+  },
+  {
+   "demo": "costing_desk",
+   "say": [
+    "Kwa hivyo pengo halisi ni mashine: naira 260,000.",
+    "Akiba yake ya naira 150,000 ndiyo akiba yake pekee. Mkopo wa mikopo midogo midogo ungegharimu zaidi na kuchukua wiki. Lakini muuzaji anakubali kupunguza naira 120,000 na 80,000 kwa mwezi kwa miezi mitatu, 10,000 pekee ya ziada.",
+    "Alihitaji mpenzi, si mkopeshaji."
+   ],
+   "card": {
+    "title": "Agizo la sare za shule za Hauwa",
+    "rows": [
+     [
+      "Thamani ya agizo",
+      "2,700,000"
+     ],
+     [
+      "Nyenzo",
+      "1,260,000"
+     ],
+     [
+      "50% ya amana",
+      "1,350,000"
+     ],
+     [
+      "Bado inahitajika kwa mashine",
+      "260,000"
+     ]
+    ],
+    "note": "Bei za Naira ni takriban."
+   }
+  },
+  {
+   "demo": "receipts_records",
+   "say": [
+    "Wafadhili wanakuhukumu kutokana na ushahidi. Jiwekee alama 0, 1 au 2 kwenye maeneo haya sita. 9 au chini ya 12 inamaanisha kurekebisha mapungufu kabla ya kutuma maombi.",
+    "Kwa mfano, Funmi anaoka huko Abeokuta. Mauzo yake yanaingia kwenye akaunti ya kibinafsi iliyochanganywa na pesa za familia, na harekodi gharama yoyote. Anafunga 5 kati ya 12.",
+    "Kwa hivyo anafungua akaunti ya biashara, anaanza kurekodi gharama, na kutafuta faida ya ziada ya oveni. Rekebisha mapengo ya ustahiki kwanza."
+   ],
+   "panel": {
+    "kicker": "Ukaguzi wa utayari",
+    "heading": "Alama kila eneo 0, 1 au 2",
+    "items": [
+     "Kitambulisho, BVN na CAC tayari",
+     "Akaunti ya biashara yenye taarifa",
+     "Miezi sita ya rekodi",
+     "Uthibitisho unaotoa kwa uhakika",
+     "Mpango wa gharama ya pesa",
+     "TIN na vibali vya bidhaa"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Watu wengi hujifanya kutoa ufadhili. Tafuta tovuti rasmi ya shirika wewe mwenyewe, kamwe kupitia kiungo katika ujumbe. Angalia benki kwenye orodha ya CBN na programu za mkopo kwenye orodha ya FCCPC."
+   ],
+   "panel": {
+    "kicker": "Linda pesa zako",
+    "heading": "Angalia kuwa ofa ni halisi",
+    "items": [
+     "Tafuta tovuti rasmi mwenyewe",
+     "Angalia orodha ya CBN au FCCPC",
+     "Tafuta jina pamoja na \"tapeli\"",
+     "Uliza nani analipa, na kwa nini",
+     "Usiwahi kulipa ada ili kupokea ruzuku",
+     "Kamwe usishiriki BVN, OTP, PIN au kadi"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Tafuta jina la programu pamoja na neno kashfa. Na uulize: ni nani anayelipa, na kwa nini?"
+   ],
+   "panel": {
+    "kicker": "Linda pesa zako",
+    "heading": "Angalia kuwa ofa ni halisi",
+    "items": [
+     "Tafuta tovuti rasmi mwenyewe",
+     "Angalia orodha ya CBN au FCCPC",
+     "Tafuta jina pamoja na \"tapeli\"",
+     "Uliza nani analipa, na kwa nini",
+     "Usiwahi kulipa ada ili kupokea ruzuku",
+     "Kamwe usishiriki BVN, OTP, PIN au kadi"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_bank",
+   "say": [
+    "Programu za ruzuku halisi haziulizi washindi kulipa ada. Kwa mfano, Ifeoma aliambiwa alipe naira 15,000 kwa akaunti ya kibinafsi ili kuwezesha ruzuku ya naira 500,000. Hakupata chochote kwenye wavuti rasmi na akaifuta.",
+    "Kamwe usitume pesa, BVN yako, maelezo ya kadi, OTP au PIN kwa mtu yeyote kuhusu ruzuku."
+   ],
+   "panel": {
+    "kicker": "Linda pesa zako",
+    "heading": "Angalia kuwa ofa ni halisi",
+    "items": [
+     "Tafuta tovuti rasmi mwenyewe",
+     "Angalia orodha ya CBN au FCCPC",
+     "Tafuta jina pamoja na \"tapeli\"",
+     "Uliza nani analipa, na kwa nini",
+     "Usiwahi kulipa ada ili kupokea ruzuku",
+     "Kamwe usishiriki BVN, OTP, PIN au kadi"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "calendar_clock",
+   "say": [
+    "Kukumbuka. Anza na hitaji moja maalum, la gharama. Suti ya mkopo inahitaji ambayo inarudisha pesa haraka. Mshirika anaweza kutoa kitu badala ya pesa taslimu.",
+    "Pitia kila ofa kupitia akaunti ya biashara, ili taarifa zako zikusaidie. Na usiwahi kulipa ada ili kupokea ruzuku."
+   ],
+   "panel": {
+    "kicker": "Pointi muhimu",
+    "heading": "Kumbuka",
+    "items": [
+     "Anza na hitaji moja maalum, la gharama",
+     "Suti ya mkopo inahitaji ambayo inarudisha pesa haraka",
+     "Mshirika anaweza kuipatia badala ya pesa taslimu",
+     "Sambaza kila mauzo kupitia akaunti ya biashara",
+     "Usiwahi kulipa ada ili kupokea ruzuku"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Kazi zako: andika taarifa ya hitaji lako la ufadhili, endesha ukaguzi wako wa utayari, na unda orodha fupi ya fursa tatu zilizothibitishwa.",
+    "Endelea na masomo hapa chini."
+   ],
+   "panel": {
+    "kicker": "Kazi ya mazoezi",
+    "heading": "Kazi zako za mazoezi",
+    "items": [
+     "Andika taarifa ya hitaji lako la ufadhili",
+     "Fanya ukaguzi wako wa utayari",
+     "Orodhesha fursa tatu zilizothibitishwa"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

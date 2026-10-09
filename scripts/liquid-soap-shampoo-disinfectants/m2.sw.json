@@ -1,0 +1,187 @@
+{
+  "course": "liquid-soap-shampoo-disinfectants",
+  "module": "m2",
+  "title": "Sabuni ya Mikono na ya Vyombo kwa Fomula ya Asilimia",
+  "shots": [
+    {
+      "demo": "title_liquid",
+      "say": [
+        "Sabuni ya Maji ya Mikono na ya Vyombo kwa Fomula ya Asilimia. Hii ni moduli ya 2 ya kozi.",
+        "Leo utachanganya sabuni laini ya mikono kwenye ndoo, kuifanya nzito bila kuiharibu, na kuchagua sabuni ya vyombo kwa kuhesabu sahani halisi."
+      ]
+    },
+    {
+      "demo": "scale_weigh",
+      "label": "Kupima kwa asilimia",
+      "card": {
+        "title": "Fomula ya kuanzia, sabuni ya mikono",
+        "rows": [
+          ["Maji", "78.7%"],
+          ["SLES, hai 70%", "12.0%"],
+          ["CAPB, hai 30%", "5.0%"],
+          ["Glycerin", "2.0%"],
+          ["Chumvi (sodium chloride)", "1.0%, kwa majaribio"],
+          ["Kihifadhi", "0.8%"]
+        ],
+        "note": "Pia EDTA 0.1%, manukato 0.4%, citric acid inavyohitajika"
+      },
+      "say": [
+        "Kila unachokiona kikiwekwa kwenye mizani hii kinapimwa kama asilimia ya bechi.",
+        "Kwa njia hiyo karatasi ile ile inafaa kwa jaribio la kilo 2 au bechi ya kilo 200. Unazidisha tu.",
+        "Hii ni fomula ya kuanzia kwa bechi za majaribio. Kiambato hai kinafika asilimia 9.9, kiwango cha wastani kwa mikono."
+      ]
+    },
+    {
+      "demo": "costing_desk",
+      "card": {
+        "title": "Bechi ya 10 kg ya Chiamaka",
+        "rows": [
+          ["SLES 12%", "1,200 g"],
+          ["CAPB 5%", "500 g"],
+          ["Glycerin 2%", "200 g"],
+          ["Chumvi 1%", "100 g"],
+          ["Maji 78.7%", "7,870 g"],
+          ["Hakiki jumla", "10,000 g"]
+        ],
+        "note": "EDTA 10 g, kihifadhi 80 g, manukato 40 g"
+      },
+      "say": [
+        "Chiamaka wa Enugu alitaka kilo 10, karibu chupa 20 za mililita 500. Alizidisha kila asilimia kwa gramu 10,000 na kugawanya kwa 100.",
+        "Kisha alijumlisha kila mstari kuhakikisha unafika gramu 10,000 kamili, na akaweka alama ya vema kwa kila uzito ulipoingia."
+      ]
+    },
+    {
+      "demo": "ppe_set",
+      "label": "Glovu na miwani ya kinga",
+      "say": [
+        "Vaa glovu na miwani ya kinga kabla ya kufungua uji wa SLES au mafuta ya manukato. Vyote viwili vinaweza kuwasha ngozi na macho."
+      ]
+    },
+    {
+      "demo": "bucket_mix",
+      "step": 1,
+      "label": "Maji, EDTA, kisha uji wa SLES",
+      "say": [
+        "Hili ni dumu safi. Pima maji, bakiza karibu asilimia 10 kwa baadaye, na koroga EDTA hadi iyeyuke.",
+        "Sasa uji wa SLES unaingia, kipande kwa kipande, huku mwiko ukizunguka polepole. Koroga taratibu ili usiingize hewa.",
+        "Ukishakuwa laini bila madonge, ongeza CAPB na glycerin na ukoroge hadi ichanganyike sawasawa."
+      ]
+    },
+    {
+      "demo": "additives_tray",
+      "step": 2,
+      "label": "Manukato yamechanganywa na CAPB",
+      "say": [
+        "Angalia kidondoshi. Changanya manukato na CAPB kidogo kwanza, ili sabuni ya mikono isiwe na ukungu.",
+        "Kisha ongeza kihifadhi na rangi kama unataka."
+      ]
+    },
+    {
+      "demo": "ph_test",
+      "step": 3,
+      "label": "Pima pH baada ya dakika 15",
+      "say": [
+        "Iache ipumzike kwa dakika 15, kisha chovya kipande cha pH. Unalenga karibu 5.5 hadi 6.5.",
+        "Ikiwa juu, ishushe kwa maji ya citric acid, sampuli kwanza, kama ulivyojifunza kwenye moduli ya 1."
+      ]
+    },
+    {
+      "demo": "scale_weigh",
+      "label": "Sampuli nne za 200 g",
+      "card": {
+        "title": "Jaribio la chumvi la Ruth",
+        "rows": [
+          ["Chumvi 0.5% (1 g)", "sekunde 4"],
+          ["Chumvi 1.0% (2 g)", "sekunde 9"],
+          ["Chumvi 1.5% (3 g)", "sekunde 21"],
+          ["Chumvi 2.0% (4 g)", "sekunde 14"],
+          ["Kwa 20 kg kwa 1.5%", "chumvi 300 g"]
+        ],
+        "note": "Muda wa kutiririka kwenye sirinji, 50 ml hadi 10 ml"
+      },
+      "say": [
+        "Chumvi huifanya nzito hadi kilele fulani, kisha majimaji huwa mepesi tena, na huwezi kuitoa chumvi.",
+        "Kwa hiyo Ruth wa Jos alipima sampuli nne za gramu 200 na akaweka chumvi tofauti kwa kila moja.",
+        "Uzito ulipanda hadi asilimia 1.5 na ukashuka kwa asilimia 2.0. Kilele chake kilikuwa karibu asilimia 1.5, kilichoendana na kiwango chake cha sekunde 15 hadi 25."
+      ]
+    },
+    {
+      "demo": "thicken",
+      "step": 4,
+      "label": "Chumvi kama maji ya chumvi",
+      "banner": "Chumvi mwisho, baada ya pH, kidogo kidogo",
+      "say": [
+        "Sasa angalia inavyokuwa nzito. Ruth aliyeyusha gramu 300 za chumvi ndani ya gramu 1,200 za maji aliyobakiza, akapata maji ya chumvi ya asilimia 20.",
+        "Aliyamimina kwa awamu tatu, akikoroga na kupima baada ya kila moja. Bechi ilifika karibu sekunde 20 bila kupita kilele."
+      ]
+    },
+    {
+      "demo": "bottle_fill",
+      "step": 5,
+      "label": "Imepumzika usiku, kisha kujaza",
+      "say": [
+        "Acha bechi ipumzike usiku mzima ikiwa imefunikwa ili mapovu yapande juu. Kisha ilinganishe na kiwango chako na sampuli yako ya kawaida, na ujaze.",
+        "Bechi inayoshindwa inazuiliwa na kurekebishwa, kamwe isiuzwe kwa sababu iko karibu kuwa sawa."
+      ]
+    },
+    {
+      "demo": "costing_desk",
+      "card": {
+        "title": "Jaribio la sahani la Zainab, 5 ml",
+        "rows": [
+          ["Fomula A, hai 15.2%", "sahani 18"],
+          ["Fomula B, hai 11.0%", "sahani 12"],
+          ["Bidhaa ya sokoni", "sahani 15"],
+          ["A: ₦7.00 kwa kipimo", "karibu ₦0.39 kwa sahani"],
+          ["B: ₦5.25 kwa kipimo", "karibu ₦0.44 kwa sahani"]
+        ],
+        "note": "Gharama zake za takriban: A ₦1,400/kg, B ₦1,050/kg"
+      },
+      "say": [
+        "Sabuni ya vyombo ina kazi ngumu zaidi. Kwenye daftari lake, Zainab wa Kano alijaribu fomula mbili kwa njia moja: gramu 2 za mafuta kila sahani, lita 5 za maji ya uvuguvugu, kipimo cha mililita 5.",
+        "Aliosha hadi povu likaisha na akahesabu sahani. Fomula A iligharimu zaidi kwa lita lakini kidogo kwa sahani, na ilishinda bidhaa ya sokoni. Alichagua A."
+      ]
+    },
+    {
+      "demo": "ph_test",
+      "label": "pH ya sabuni ya vyombo karibu 6 hadi 8",
+      "say": [
+        "Pima sabuni ya vyombo pia. Iweke karibu 6 hadi 8, laini kwa mikono inayokaa majini muda mrefu.",
+        "Kamwe usiongeze caustic soda au soda ash ili kuongeza nguvu. Huwasha ngozi na inaweza kufifisha sufuria za aluminiamu."
+      ]
+    },
+    {
+      "demo": "market_stall",
+      "label": "Chupa halisi za sabuni",
+      "banner": "Sabuni ya vyombo: kamwe kwenye chupa za vinywaji",
+      "say": [
+        "Angalia chupa hizi kwenye meza ya soko: chupa halisi za sabuni zenye lebo.",
+        "Kamwe usitumie chupa kuukuu za soda au za maji. Mtu anaweza kunywa. Chapisha maneno, Weka mbali na watoto, pamoja na maelekezo ya huduma ya kwanza."
+      ]
+    },
+    {
+      "demo": "additives_tray",
+      "label": "Maji ya rangi ya 1%",
+      "card": {
+        "title": "Rangi kwa hesabu",
+        "rows": [
+          ["Mchanganyiko wa 1%", "1 g rangi ndani ya 99 g maji"],
+          ["Lengo ndani ya 20 kg", "0.002% rangi"],
+          ["Rangi inayohitajika", "0.4 g"],
+          ["Mchanganyiko wa kupima", "40 g"]
+        ],
+        "note": "Kutoka mfano wa kozi"
+      },
+      "say": [
+        "Rangi za urembo zina nguvu sana, kwa hiyo tengeneza mchanganyiko wa asilimia 1 na upime huo badala yake.",
+        "Jambo likienda vibaya, badilisha kitu kimoja tu kwa kila sampuli ya majaribio na ukiandike."
+      ]
+    },
+    {
+      "demo": "outro_bottles",
+      "say": [
+        "Sasa pitia masomo yaliyo hapa chini. Tengeneza bechi yako ya majaribio ya kilo 2, fanya jaribio lako la sahani, na uchore mstari wako wa chumvi. Namba zako zitakuambia kinachofanya kazi."
+      ]
+    }
+  ]
+}

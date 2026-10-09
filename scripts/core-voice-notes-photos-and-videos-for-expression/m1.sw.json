@@ -1,0 +1,558 @@
+{
+ "course": "core-voice-notes-photos-and-videos-for-expression",
+ "module": "m1",
+ "title": "Chagua umbizo sahihi, tayarisha simu yako, linda faragha",
+ "course_title": "Vidokezo vya Sauti, Picha na Video za Kujieleza",
+ "shots": [
+  {
+   "demo": "phone_camera",
+   "say": [
+    "Chagua umbizo linalofaa, tayarisha simu yako na ulinde faragha.",
+    "Hii ni video ya moduli ya kwanza ya Vidokezo vya Sauti, Picha na Video za Kujieleza."
+   ]
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Simu yako hukupa njia nne za kutuma ujumbe: maandishi yaliyoandikwa, sauti, picha na video."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Njia nne za kutuma ujumbe mmoja",
+    "items": [
+     "Maandishi yaliyoandikwa, kidokezo cha sauti, picha au video",
+     "Hakuna umbizo lililo bora kwa kila kitu",
+     "Simu yako tayari ina unachohitaji",
+     "Tabia za faragha huja kabla ya ujuzi"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Hakuna umbizo lililo bora kwa kila kitu. Mwanamke anayechapa kila mara anaweza kutuma aya tatu ndefu kuhusu bomba linalovuja, wakati picha moja ingefanya hivyo."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Njia nne za kutuma ujumbe mmoja",
+    "items": [
+     "Maandishi yaliyoandikwa, kidokezo cha sauti, picha au video",
+     "Hakuna umbizo lililo bora kwa kila kitu",
+     "Simu yako tayari ina unachohitaji",
+     "Tabia za faragha huja kabla ya ujuzi"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "microphone_record",
+   "say": [
+    "Huna haja ya simu ya gharama kubwa. Unahitaji kujua mahali vitu viko, na ni data ngapi ambayo kila aina ya media inachukua."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Njia nne za kutuma ujumbe mmoja",
+    "items": [
+     "Maandishi yaliyoandikwa, kidokezo cha sauti, picha au video",
+     "Hakuna umbizo lililo bora kwa kila kitu",
+     "Simu yako tayari ina unachohitaji",
+     "Tabia za faragha huja kabla ya ujuzi"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "microphone_record",
+   "say": [
+    "Na kabla ya ujuzi wowote wa kurekodi kuja tabia zinazokulinda wewe na watu unaowarekodi."
+   ],
+   "panel": {
+    "kicker": "Kwa nini hii ni muhimu",
+    "heading": "Njia nne za kutuma ujumbe mmoja",
+    "items": [
+     "Maandishi yaliyoandikwa, kidokezo cha sauti, picha au video",
+     "Hakuna umbizo lililo bora kwa kila kitu",
+     "Simu yako tayari ina unachohitaji",
+     "Tabia za faragha huja kabla ya ujuzi"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_camera",
+   "say": [
+    "Maandishi yaliyoandikwa hubeba maelezo kamili: nambari, majina na nyakati, rahisi kunakili baadaye. Picha inaonyesha jinsi kitu kinavyoonekana, lakini haielezei."
+   ],
+   "panel": {
+    "kicker": "Nguvu",
+    "heading": "Kile ambacho kila umbizo hubeba vizuri",
+    "mode": "compare",
+    "left_h": "Maandishi na picha",
+    "left": [
+     "Nakala: nambari, majina, nyakati",
+     "Maandishi: rahisi kutafuta na kunakili",
+     "Picha: uharibifu, bidhaa, mahali",
+     "Picha: inaonyesha lakini haielezei"
+    ],
+    "right_h": "Ujumbe wa sauti na video",
+    "right": [
+     "Sauti: sauti, joto, msamaha",
+     "Sauti: ngumu kunakili nambari",
+     "Video: harakati, hatua, njia",
+     "Video: data nzito"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Ujumbe wa sauti hubeba sauti na joto, lakini nambari ni ngumu kunakili kutoka kwayo. Video inaonyesha harakati, hatua na njia, na ndiyo nzito zaidi kwenye data."
+   ],
+   "panel": {
+    "kicker": "Nguvu",
+    "heading": "Kile ambacho kila umbizo hubeba vizuri",
+    "mode": "compare",
+    "left_h": "Maandishi na picha",
+    "left": [
+     "Nakala: nambari, majina, nyakati",
+     "Maandishi: rahisi kutafuta na kunakili",
+     "Picha: uharibifu, bidhaa, mahali",
+     "Picha: inaonyesha lakini haielezei"
+    ],
+    "right_h": "Ujumbe wa sauti na video",
+    "right": [
+     "Sauti: sauti, joto, msamaha",
+     "Sauti: ngumu kunakili nambari",
+     "Video: harakati, hatua, njia",
+     "Video: data nzito"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_camera",
+   "say": [
+    "Kwanza: lazima msikilizaji anakili au kuweka maelezo kamili, kama nambari, anwani au kiasi? Kisha maelezo hayo huenda kwa maandishi, hata ikiwa mengine ni noti ya sauti."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Maswali manne chagua muundo",
+    "items": [
+     "Maelezo kamili ya kunakili au kuhifadhi? Charaza.",
+     "Inategemea jinsi inavyoonekana? Ongeza picha.",
+     "Harakati, utaratibu au sauti? Video fupi.",
+     "Hisia au sauti? Ujumbe wa sauti, au simu."
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_camera",
+   "say": [
+    "Pili: je, ujumbe unategemea jinsi kitu kinavyoonekana? Kisha ongeza picha."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Maswali manne chagua muundo",
+    "items": [
+     "Maelezo kamili ya kunakili au kuhifadhi? Charaza.",
+     "Inategemea jinsi inavyoonekana? Ongeza picha.",
+     "Harakati, utaratibu au sauti? Video fupi.",
+     "Hisia au sauti? Ujumbe wa sauti, au simu."
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_camera",
+   "say": [
+    "Tatu: inategemea harakati, mpangilio au sauti, kama njia kutoka kwenye makutano? Kisha video fupi."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Maswali manne chagua muundo",
+    "items": [
+     "Maelezo kamili ya kunakili au kuhifadhi? Charaza.",
+     "Inategemea jinsi inavyoonekana? Ongeza picha.",
+     "Harakati, utaratibu au sauti? Video fupi.",
+     "Hisia au sauti? Ujumbe wa sauti, au simu."
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "microphone_record",
+   "say": [
+    "Nne: inategemea hisia au sauti, kama vile asante, kuomba msamaha au ombi nyeti? Kisha ujumbe wa sauti, au simu."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Maswali manne chagua muundo",
+    "items": [
+     "Maelezo kamili ya kunakili au kuhifadhi? Charaza.",
+     "Inategemea jinsi inavyoonekana? Ongeza picha.",
+     "Harakati, utaratibu au sauti? Video fupi.",
+     "Hisia au sauti? Ujumbe wa sauti, au simu."
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "microphone_record",
+   "say": [
+    "Kuna chaguo la tano: usirekodi kabisa. Rekodi inaweza kutumwa na kutolewa nje ya muktadha. Kwa ugomvi au habari mbaya, piga simu au tembelea."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Maswali manne chagua muundo",
+    "items": [
+     "Maelezo kamili ya kunakili au kuhifadhi? Charaza.",
+     "Inategemea jinsi inavyoonekana? Ongeza picha.",
+     "Harakati, utaratibu au sauti? Video fupi.",
+     "Hisia au sauti? Ujumbe wa sauti, au simu."
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Kubwa au hisia? Piga simu au tembelea badala ya kurekodi.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Kwa mfano, Halima huko Kaduna ana maji yanayotiririka kutoka kwenye dari yake ya bafuni baada ya mvua. Mwenye nyumba wake ni mzee ambaye hupendelea simu na maelezo ya sauti.",
+    "Anaandika maelezo kamili: Flat 3B, uvujaji ulianza Jumanne tarehe 14 baada ya mvua kunyesha."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Dari inayovuja ya Halima",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Mstari ulioandikwa",
+      "d": "Flat 3B, uvujaji ulianza Jumanne tarehe 14 baada ya mvua kunyesha. Maelezo kamili mwenye nyumba anaweza kunakili."
+     },
+     {
+      "t": "Picha mbili",
+      "d": "Risasi moja pana ya doa la dari, moja ya karibu ya dripu na ndoo chini."
+     },
+     {
+      "t": "Noti ya sauti ya sekunde 25",
+      "d": "Salamu, tatizo katika sentensi moja, na ombi la heshima kwa fundi bomba wiki hii."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Anachukua picha mbili: risasi moja pana ya dari nzima, na moja ya karibu ya dripu. Video inaweza kuongeza kidogo, kwa hivyo anairuka ili kuhifadhi data."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Dari inayovuja ya Halima",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Mstari ulioandikwa",
+      "d": "Flat 3B, uvujaji ulianza Jumanne tarehe 14 baada ya mvua kunyesha. Maelezo kamili mwenye nyumba anaweza kunakili."
+     },
+     {
+      "t": "Picha mbili",
+      "d": "Risasi moja pana ya doa la dari, moja ya karibu ya dripu na ndoo chini."
+     },
+     {
+      "t": "Noti ya sauti ya sekunde 25",
+      "d": "Salamu, tatizo katika sentensi moja, na ombi la heshima kwa fundi bomba wiki hii."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Anapenda kusalimiwa ipasavyo, kwa hivyo anarekodi noti ya sauti ya sekunde 25. Yeye huituma kwanza, kisha picha, kisha laini iliyochapwa anaweza kusambaza kwa fundi bomba."
+   ],
+   "panel": {
+    "kicker": "Mfano uliofanya kazi",
+    "heading": "Dari inayovuja ya Halima",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Mstari ulioandikwa",
+      "d": "Flat 3B, uvujaji ulianza Jumanne tarehe 14 baada ya mvua kunyesha. Maelezo kamili mwenye nyumba anaweza kunakili."
+     },
+     {
+      "t": "Picha mbili",
+      "d": "Risasi moja pana ya doa la dari, moja ya karibu ya dripu na ndoo chini."
+     },
+     {
+      "t": "Noti ya sauti ya sekunde 25",
+      "d": "Salamu, tatizo katika sentensi moja, na ombi la heshima kwa fundi bomba wiki hii."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_camera",
+   "say": [
+    "Noti ya sauti ya dakika moja kwa kawaida huwa chini ya MB 1. Picha ya kamera mara nyingi ni 2 hadi 6 MB. Dakika moja ya video kamili ya HD mara nyingi ni 50 MB au zaidi."
+   ],
+   "panel": {
+    "kicker": "Hifadhi data na uhifadhi",
+    "heading": "Acha WhatsApp kula bando lako",
+    "items": [
+     "Vidokezo vya sauti ni nyepesi, picha ni wastani, video nzito",
+     "Mipangilio, kisha Hifadhi na data",
+     "Pakua data ya rununu kiotomatiki: hakuna chochote, au picha pekee",
+     "Dhibiti hifadhi: kagua na ufute faili kubwa za zamani",
+     "Weka nafasi bila malipo kabla ya rekodi muhimu"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_camera",
+   "say": [
+    "Katika WhatsApp, fungua Mipangilio, kisha Hifadhi na data."
+   ],
+   "panel": {
+    "kicker": "Hifadhi data na uhifadhi",
+    "heading": "Acha WhatsApp kula bando lako",
+    "items": [
+     "Vidokezo vya sauti ni nyepesi, picha ni wastani, video nzito",
+     "Mipangilio, kisha Hifadhi na data",
+     "Pakua data ya rununu kiotomatiki: hakuna chochote, au picha pekee",
+     "Dhibiti hifadhi: kagua na ufute faili kubwa za zamani",
+     "Weka nafasi bila malipo kabla ya rekodi muhimu"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_camera",
+   "say": [
+    "Chini ya upakuaji kiotomatiki wa Midia, weka data ya simu ili kupakua chochote, au picha pekee. Video zitasubiri hadi uziguse."
+   ],
+   "panel": {
+    "kicker": "Hifadhi data na uhifadhi",
+    "heading": "Acha WhatsApp kula bando lako",
+    "items": [
+     "Vidokezo vya sauti ni nyepesi, picha ni wastani, video nzito",
+     "Mipangilio, kisha Hifadhi na data",
+     "Pakua data ya rununu kiotomatiki: hakuna chochote, au picha pekee",
+     "Dhibiti hifadhi: kagua na ufute faili kubwa za zamani",
+     "Weka nafasi bila malipo kabla ya rekodi muhimu"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Dhibiti hifadhi huonyesha gumzo ukitumia nafasi nyingi zaidi, ili uweze kufuta faili kubwa za zamani. Lakini hifadhi nakala kwanza, na usiwahi kufuta bila kuangalia."
+   ],
+   "panel": {
+    "kicker": "Hifadhi data na uhifadhi",
+    "heading": "Acha WhatsApp kula bando lako",
+    "items": [
+     "Vidokezo vya sauti ni nyepesi, picha ni wastani, video nzito",
+     "Mipangilio, kisha Hifadhi na data",
+     "Pakua data ya rununu kiotomatiki: hakuna chochote, au picha pekee",
+     "Dhibiti hifadhi: kagua na ufute faili kubwa za zamani",
+     "Weka nafasi bila malipo kabla ya rekodi muhimu"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_chat",
+   "say": [
+    "Weka gigabaiti chache bila malipo kabla ya rekodi muhimu, kama vile tukio la familia."
+   ],
+   "panel": {
+    "kicker": "Hifadhi data na uhifadhi",
+    "heading": "Acha WhatsApp kula bando lako",
+    "items": [
+     "Vidokezo vya sauti ni nyepesi, picha ni wastani, video nzito",
+     "Mipangilio, kisha Hifadhi na data",
+     "Pakua data ya rununu kiotomatiki: hakuna chochote, au picha pekee",
+     "Dhibiti hifadhi: kagua na ufute faili kubwa za zamani",
+     "Weka nafasi bila malipo kabla ya rekodi muhimu"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Idhini inamaanisha mtu huyo anakubali kwa uhuru, akijua ni wapi rekodi itaenda. Kwa watoto, muulize mzazi au mlezi.",
+    "Kisha kukimbia hundi sita. Je, walikubali? Je, wanajua inaenda wapi? Umeangalia usuli kwa nambari za nyumba au beji za shule? Je, huna kadi au PIN? Lebo ya eneo imezimwa? Je, ikiwa itatumwa?"
+   ],
+   "panel": {
+    "kicker": "Kila wakati",
+    "heading": "Kabla ya kubonyeza rekodi au kutuma",
+    "items": [
+     "Je, walikubali?",
+     "Je, wanajua inaenda wapi?",
+     "Mandharinyuma yameangaliwa?",
+     "Je, huna nambari, kadi au PIN?",
+     "Lebo ya eneo imezimwa?",
+     "Je, ikiwa itatumwa?"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Baadhi ya mambo hayapaswi kamwe kupigwa picha au kurekodiwa: nambari ya kadi yako ya ATM au tarakimu tatu nyuma yake, na BVN au NIN yako."
+   ],
+   "panel": {
+    "kicker": "Usalama",
+    "heading": "Usiwahi kurekodi au kupiga picha hizi",
+    "items": [
+     "Nambari ya kadi ya ATM au tarakimu tatu nyuma yake",
+     "BVN yako au NIN",
+     "PIN, OTP na nywila",
+     "Taarifa kamili za benki"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_security",
+   "say": [
+    "Pia PIN, nywila za mara moja, ambazo tunaziita OTP, manenosiri mengine, na taarifa kamili za benki."
+   ],
+   "panel": {
+    "kicker": "Usalama",
+    "heading": "Usiwahi kurekodi au kupiga picha hizi",
+    "items": [
+     "Nambari ya kadi ya ATM au tarakimu tatu nyuma yake",
+     "BVN yako au NIN",
+     "PIN, OTP na nywila",
+     "Taarifa kamili za benki"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_security",
+   "say": [
+    "Hakuna benki halisi, mtandao au ofisi ya serikali itakuuliza utume hizi kama picha, ujumbe wa sauti au video. Mtu akiuliza, ichukulie kama kashfa."
+   ],
+   "panel": {
+    "kicker": "Usalama",
+    "heading": "Usiwahi kurekodi au kupiga picha hizi",
+    "items": [
+     "Nambari ya kadi ya ATM au tarakimu tatu nyuma yake",
+     "BVN yako au NIN",
+     "PIN, OTP na nywila",
+     "Taarifa kamili za benki"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Mtu yeyote akikuuliza utume hizi, zichukulie kama ulaghai.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_camera",
+   "say": [
+    "Kukumbuka. Maandishi kwa maelezo kamili, picha ya mwonekano, video ya hatua, na kidokezo cha sauti cha sauti, na nambari ya ufunguo iliyoandikwa chini.",
+    "Zima upakuaji kiotomatiki wa video kwenye data ya mtandao wa simu. Uliza kabla ya kurekodi mtu yeyote, na uangalie kila mandharinyuma kabla ya kutuma."
+   ],
+   "panel": {
+    "kicker": "Pointi muhimu",
+    "heading": "Kumbuka",
+    "items": [
+     "Maandishi kwa maelezo, picha ya sura, video kwa hatua",
+     "Ujumbe wa sauti kwa sauti; chapa nambari muhimu chini yake",
+     "Zima upakuaji kiotomatiki wa video kwenye data ya mtandao wa simu",
+     "Uliza kabla ya kurekodi mtu",
+     "Lebo za eneo zimezimwa, mandharinyuma imechaguliwa"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_social",
+   "say": [
+    "Sasa fanya mazoezi. Kagua umbizo la jumbe zako kumi za mwisho. Kagua utayari wa simu na uandike ukubwa wa faili zako na hifadhi ya bila malipo. Zima lebo za eneo na uweke faragha ya Hali yako. Na endesha ukaguzi sita kwenye picha tatu ulizoshiriki.",
+    "Endelea na masomo hapa chini."
+   ],
+   "panel": {
+    "kicker": "Mazoezi ya kazi",
+    "heading": "Mazoezi yako wiki hii",
+    "items": [
+     "Kagua jumbe zako kumi za mwisho",
+     "Angalia utayari wa simu: saizi na uhifadhi",
+     "Usanidi wa faragha: lebo za eneo na Hali",
+     "Tekeleza ukaguzi sita kwenye picha tatu"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

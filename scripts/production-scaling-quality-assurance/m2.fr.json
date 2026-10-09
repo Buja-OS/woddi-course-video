@@ -1,0 +1,648 @@
+{
+ "course": "production-scaling-quality-assurance",
+ "module": "m2",
+ "title": "Qualité et opérations en volume",
+ "course_title": "Mise à l’échelle de la production et assurance qualité",
+ "shots": [
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Qualité et opérations en volume.",
+    "Ceci est la vidéo du module 2 sur la mise à l'échelle de la production et l'assurance qualité."
+   ]
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Lorsque vous réalisez 20 objets, vos yeux captent la plupart des problèmes. Lorsqu'une équipe en atteint 2 000, les problèmes passent à moins que le processus lui-même ne les détecte."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Intégrer la qualité dans le processus",
+    "items": [
+     "À 2 000 articles, les problèmes passent",
+     "Un plan de contrôle pour chaque étape",
+     "Des graphiques qui surveillent le processus",
+     "Votre goulot d’étranglement et votre coût unitaire réel"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Alors d’abord, un plan de contrôle avec prévention des erreurs."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Intégrer la qualité dans le processus",
+    "items": [
+     "À 2 000 articles, les problèmes passent",
+     "Un plan de contrôle pour chaque étape",
+     "Des graphiques qui surveillent le processus",
+     "Votre goulot d’étranglement et votre coût unitaire réel"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Ensuite, une simple carte de contrôle qui surveille le processus pendant son exécution."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Intégrer la qualité dans le processus",
+    "items": [
+     "À 2 000 articles, les problèmes passent",
+     "Un plan de contrôle pour chaque étape",
+     "Des graphiques qui surveillent le processus",
+     "Votre goulot d’étranglement et votre coût unitaire réel"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Et enfin, votre véritable capacité et votre véritable coût par bonne unité."
+   ],
+   "panel": {
+    "kicker": "Pourquoi c'est important",
+    "heading": "Intégrer la qualité dans le processus",
+    "items": [
+     "À 2 000 articles, les problèmes passent",
+     "Un plan de contrôle pour chaque étape",
+     "Des graphiques qui surveillent le processus",
+     "Votre goulot d’étranglement et votre coût unitaire réel"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Ne vérifiez pas tout. Choisissez les caractéristiques critiques : les choses que le client remarquera ou qui pourraient nuire à quelqu'un. Pour une collation frite, cela inclut la température de l’huile, le refroidissement et le poids du paquet."
+   ],
+   "panel": {
+    "kicker": "Plan de contrôle",
+    "heading": "Six colonnes, une page",
+    "items": [
+     "Caractéristique : ce que nous vérifions",
+     "Norme : en chiffres",
+     "Méthode : quel outil ou test",
+     "Fréquence : à quelle fréquence",
+     "Qui vérifie et signe",
+     "Réaction : corriger le produit et le processus"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Pour chacun, écrivez la norme en chiffres, l'outil et à quelle fréquence. Par exemple, Kemi vérifie que son huile est à 170 °C avec un thermomètre à sonde avant chaque chargement de wok."
+   ],
+   "panel": {
+    "kicker": "Plan de contrôle",
+    "heading": "Six colonnes, une page",
+    "items": [
+     "Caractéristique : ce que nous vérifions",
+     "Norme : en chiffres",
+     "Méthode : quel outil ou test",
+     "Fréquence : à quelle fréquence",
+     "Qui vérifie et signe",
+     "Réaction : corriger le produit et le processus"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Écrivez qui vérifie et signe le dossier."
+   ],
+   "panel": {
+    "kicker": "Plan de contrôle",
+    "heading": "Six colonnes, une page",
+    "items": [
+     "Caractéristique : ce que nous vérifions",
+     "Norme : en chiffres",
+     "Méthode : quel outil ou test",
+     "Fréquence : à quelle fréquence",
+     "Qui vérifie et signe",
+     "Réaction : corriger le produit et le processus"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Le plan de réaction est la chronique que les gens oublient. Il comporte deux parties : corriger le produit déjà fabriqué et corriger le processus. Si un paquet est léger, l'emballeur de Kemi retient la charge, vérifie chaque paquet, fait le plein et en informe le superviseur.",
+    "Gardez-le sur une seule page, avec une photo du produit de référence à côté."
+   ],
+   "panel": {
+    "kicker": "Plan de contrôle",
+    "heading": "Six colonnes, une page",
+    "items": [
+     "Caractéristique : ce que nous vérifions",
+     "Norme : en chiffres",
+     "Méthode : quel outil ou test",
+     "Fréquence : à quelle fréquence",
+     "Qui vérifie et signe",
+     "Réaction : corriger le produit et le processus"
+    ],
+    "show": 6,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "La protection contre les erreurs, appelée poka-yoke, conçoit le travail de manière à ce que l'erreur ne puisse pas se produire ou soit remarquée immédiatement. Cela fonctionne sur chaque élément, à chaque fois. Les kits pré-pesés sont à sens unique."
+   ],
+   "panel": {
+    "kicker": "Anti-erreur",
+    "heading": "Rendre le mauvais chemin difficile",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Kits pré-pesés",
+      "d": "Petits ingrédients dans des sachets étiquetés la veille. Un sac inutilisé montre que quelque chose a été oublié."
+     },
+     {
+      "t": "Guides et gabarits",
+      "d": "Des anneaux de guidage sur un rouleau à pâtisserie, une cuillère à volume fixe, un bol marqué pour une charge de wok."
+     },
+     {
+      "t": "Signaux visuels",
+      "d": "Plateau rouge pour le produit retenu, plateau vert pour le produit passé. Rien sur un plateau rouge n'est emballé."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Les guides et les gabarits en sont un autre. Un rouleau à pâtisserie avec anneaux de guidage donne à chaque feuille une épaisseur de 5 mm."
+   ],
+   "panel": {
+    "kicker": "Anti-erreur",
+    "heading": "Rendre le mauvais chemin difficile",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Kits pré-pesés",
+      "d": "Petits ingrédients dans des sachets étiquetés la veille. Un sac inutilisé montre que quelque chose a été oublié."
+     },
+     {
+      "t": "Guides et gabarits",
+      "d": "Des anneaux de guidage sur un rouleau à pâtisserie, une cuillère à volume fixe, un bol marqué pour une charge de wok."
+     },
+     {
+      "t": "Signaux visuels",
+      "d": "Plateau rouge pour le produit retenu, plateau vert pour le produit passé. Rien sur un plateau rouge n'est emballé."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Et des signaux visuels. Rien sur un plateau rouge n’est jamais emballé.",
+    "Pour l’alimentation, ajoutez l’hygiène au plan : mains, surfaces et équipements propres, œufs crus séparés et cheveux couverts. Écrivez qui vérifie et quand."
+   ],
+   "panel": {
+    "kicker": "Anti-erreur",
+    "heading": "Rendre le mauvais chemin difficile",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Kits pré-pesés",
+      "d": "Petits ingrédients dans des sachets étiquetés la veille. Un sac inutilisé montre que quelque chose a été oublié."
+     },
+     {
+      "t": "Guides et gabarits",
+      "d": "Des anneaux de guidage sur un rouleau à pâtisserie, une cuillère à volume fixe, un bol marqué pour une charge de wok."
+     },
+     {
+      "t": "Signaux visuels",
+      "d": "Plateau rouge pour le produit retenu, plateau vert pour le produit passé. Rien sur un plateau rouge n'est emballé."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Par exemple, Ruth vérifie 20 sacs aléatoires de farine d'igname de chaque lot et n'accepte le lot que si aucun n'a un poids insuffisant."
+   ],
+   "panel": {
+    "kicker": "Échantillonnage",
+    "heading": "Un contrôle final ne peut pas créer de qualité",
+    "items": [
+     "Ruth vérifie 20 sacs, accepte si 0 mauvais",
+     "1 % de mauvais : le lot passe à environ 82 sur 100",
+     "5 % de mauvais : passe toujours à environ 36 sur 100",
+     "La qualité doit être faite, pas attrapée"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "Si 1% du lot présente une insuffisance pondérale, cela passe quand même environ 82 fois sur 100."
+   ],
+   "panel": {
+    "kicker": "Échantillonnage",
+    "heading": "Un contrôle final ne peut pas créer de qualité",
+    "items": [
+     "Ruth vérifie 20 sacs, accepte si 0 mauvais",
+     "1 % de mauvais : le lot passe à environ 82 sur 100",
+     "5 % de mauvais : passe toujours à environ 36 sur 100",
+     "La qualité doit être faite, pas attrapée"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "Même avec une insuffisance pondérale de 5 %, elle passe environ 36 fois sur 100."
+   ],
+   "panel": {
+    "kicker": "Échantillonnage",
+    "heading": "Un contrôle final ne peut pas créer de qualité",
+    "items": [
+     "Ruth vérifie 20 sacs, accepte si 0 mauvais",
+     "1 % de mauvais : le lot passe à environ 82 sur 100",
+     "5 % de mauvais : passe toujours à environ 36 sur 100",
+     "La qualité doit être faite, pas attrapée"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "L'échantillonnage est un filtre avec des trous. Ruth conserve donc le chèque, mais s'appuie sur sa méthode scoop et un tableau de contrôle pour empêcher la fabrication de sacs de poids insuffisant."
+   ],
+   "panel": {
+    "kicker": "Échantillonnage",
+    "heading": "Un contrôle final ne peut pas créer de qualité",
+    "items": [
+     "Ruth vérifie 20 sacs, accepte si 0 mauvais",
+     "1 % de mauvais : le lot passe à environ 82 sur 100",
+     "5 % de mauvais : passe toujours à environ 36 sur 100",
+     "La qualité doit être faite, pas attrapée"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Après être passée à une cuillère fixe, Ruth pèse 20 sacs dans l'ordre dans lequel elle les a remplis."
+   ],
+   "panel": {
+    "kicker": "Carte de contrôle",
+    "heading": "Tableau des individus de Ruth",
+    "items": [
+     "Peser 20 sacs dans l'ordre de remplissage",
+     "Moyenne : 1 010,05 g",
+     "Portée de déplacement moyenne : 2,37 g",
+     "Limites : moyenne ± 2,66 x 2,37",
+     "Placer un sac toutes les 30 minutes"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "La moyenne, 1 010,05 g, est sa ligne médiane."
+   ],
+   "panel": {
+    "kicker": "Carte de contrôle",
+    "heading": "Tableau des individus de Ruth",
+    "items": [
+     "Peser 20 sacs dans l'ordre de remplissage",
+     "Moyenne : 1 010,05 g",
+     "Portée de déplacement moyenne : 2,37 g",
+     "Limites : moyenne ± 2,66 x 2,37",
+     "Placer un sac toutes les 30 minutes"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "La plage de déplacement est la différence entre chaque sac et celui précédent. Leur moyenne est de 2,37 g."
+   ],
+   "panel": {
+    "kicker": "Carte de contrôle",
+    "heading": "Tableau des individus de Ruth",
+    "items": [
+     "Peser 20 sacs dans l'ordre de remplissage",
+     "Moyenne : 1 010,05 g",
+     "Portée de déplacement moyenne : 2,37 g",
+     "Limites : moyenne ± 2,66 x 2,37",
+     "Placer un sac toutes les 30 minutes"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Les limites sont la moyenne plus ou moins 2,66 fois cela, donc 1 003,75 g à 1 016,35 g. Sa limite inférieure se situe désormais au-dessus des 1 000 g indiqués sur l’étiquette."
+   ],
+   "panel": {
+    "kicker": "Carte de contrôle",
+    "heading": "Tableau des individus de Ruth",
+    "items": [
+     "Peser 20 sacs dans l'ordre de remplissage",
+     "Moyenne : 1 010,05 g",
+     "Portée de déplacement moyenne : 2,37 g",
+     "Limites : moyenne ± 2,66 x 2,37",
+     "Placer un sac toutes les 30 minutes"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "bottle_fill",
+   "say": [
+    "Elle trace un sac toutes les 30 minutes. Un point en dehors d'une limite, ou huit d'affilée d'un côté, signifie s'arrêter et trouver ce qui a changé.",
+    "Sans signal, laissez le processus tranquille. Ajuster après chaque petite différence ajoute de la variation."
+   ],
+   "panel": {
+    "kicker": "Carte de contrôle",
+    "heading": "Tableau des individus de Ruth",
+    "items": [
+     "Peser 20 sacs dans l'ordre de remplissage",
+     "Moyenne : 1 010,05 g",
+     "Portée de déplacement moyenne : 2,37 g",
+     "Limites : moyenne ± 2,66 x 2,37",
+     "Placer un sac toutes les 30 minutes"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Les limites de contrôle proviennent de vos données et non de la spécification.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Le temps Takt est le temps disponible divisé par la demande du client. Kemi dispose de 2 100 minutes par semaine et les magasins veulent 2 000 packs. Donc un paquet toutes les 1,05 minutes."
+   ],
+   "panel": {
+    "kicker": "Takt et goulot d’étranglement",
+    "heading": "Kemi peut-elle fabriquer 2 000 paquets par semaine ?",
+    "items": [
+     "Takt : 2 100 / 2 000 = 1,05 min par paquet",
+     "Mix 0,48 : sous takt",
+     "Cut 1.73 : le goulot d’étranglement",
+     "Fry 1.18 : plus de takt",
+     "Laminoir et deuxième wok : environ 2 187"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Chronométrez chaque étape par charge, puis divisez par paquets par charge. Le mélange dure 0,48 minutes par paquet."
+   ],
+   "panel": {
+    "kicker": "Takt et goulot d’étranglement",
+    "heading": "Kemi peut-elle fabriquer 2 000 paquets par semaine ?",
+    "items": [
+     "Takt : 2 100 / 2 000 = 1,05 min par paquet",
+     "Mix 0,48 : sous takt",
+     "Cut 1.73 : le goulot d’étranglement",
+     "Fry 1.18 : plus de takt",
+     "Laminoir et deuxième wok : environ 2 187"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "workshop_floor",
+   "say": [
+    "Le roulage et la découpe sont de 1,73, le plus lent. Pas de friture, comme Kemi s'y attendait. Sa ligne ne fabrique qu'environ 1 214 paquets par semaine."
+   ],
+   "panel": {
+    "kicker": "Takt et goulot d’étranglement",
+    "heading": "Kemi peut-elle fabriquer 2 000 paquets par semaine ?",
+    "items": [
+     "Takt : 2 100 / 2 000 = 1,05 min par paquet",
+     "Mix 0,48 : sous takt",
+     "Cut 1.73 : le goulot d’étranglement",
+     "Fry 1.18 : plus de takt",
+     "Laminoir et deuxième wok : environ 2 187"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "La friture, à 1,18, est également au-dessus du takt."
+   ],
+   "panel": {
+    "kicker": "Takt et goulot d’étranglement",
+    "heading": "Kemi peut-elle fabriquer 2 000 paquets par semaine ?",
+    "items": [
+     "Takt : 2 100 / 2 000 = 1,05 min par paquet",
+     "Mix 0,48 : sous takt",
+     "Cut 1.73 : le goulot d’étranglement",
+     "Fry 1.18 : plus de takt",
+     "Laminoir et deuxième wok : environ 2 187"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Elle ajoute un laminoir à manivelle et allume un deuxième brûleur wok. La capacité s'élève à environ 2 187 paquets par semaine.",
+    "Un mixeur plus rapide n’aurait pas aidé du tout."
+   ],
+   "panel": {
+    "kicker": "Takt et goulot d’étranglement",
+    "heading": "Kemi peut-elle fabriquer 2 000 paquets par semaine ?",
+    "items": [
+     "Takt : 2 100 / 2 000 = 1,05 min par paquet",
+     "Mix 0,48 : sous takt",
+     "Cut 1.73 : le goulot d’étranglement",
+     "Fry 1.18 : plus de takt",
+     "Laminoir et deuxième wok : environ 2 187"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Corrigez d'abord l'étape la plus lente. Achetez du matériel uniquement pour cela.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Le rendement au premier passage est la part des unités qui réussissent chaque contrôle du premier coup. Celui de Kemi est de 368 sur 400, soit 92 %."
+   ],
+   "card": {
+    "title": "Le vrai coût d’un bon pack",
+    "rows": [],
+    "note": "Les prix en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "Son lot coûte environ 180 000 naira. Le reconditionnement de 20 paquets en ajoute environ 1 200."
+   ],
+   "card": {
+    "title": "Le vrai coût d’un bon pack",
+    "rows": [
+     [
+      "Coût du lot pour 400 paquets",
+      "180,000"
+     ],
+     [
+      "Retravail : 20 packs reconditionnés",
+      "1,200"
+     ]
+    ],
+    "note": "Les prix en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "scale_weigh",
+   "say": [
+    "Cela représente 181 200 nairas pour 388 bons paquets, soit 467 nairas chacun, et non les 450 qu'elle reçoit du plan.",
+    "Avec plus de 2 000 paquets par semaine, cet écart est d'environ 34 000 naira. Donc le prix est basé sur le coût par unité de bien, jamais sur le plan."
+   ],
+   "card": {
+    "title": "Le vrai coût d’un bon pack",
+    "rows": [
+     [
+      "Coût du lot pour 400 paquets",
+      "180,000"
+     ],
+     [
+      "Retravail : 20 packs reconditionnés",
+      "1,200"
+     ]
+    ],
+    "note": "Les prix en Naira sont approximatifs."
+   }
+  },
+  {
+   "demo": "documents_stamp",
+   "say": [
+    "À retenir. Rédigez un plan de contrôle d’une page avec des réactions. Faites des erreurs difficiles avec la correction des erreurs. Utilisez des graphiques pour observer le processus. Réparez d’abord le goulot d’étranglement. Et le prix à partir du coût par bonne unité."
+   ],
+   "panel": {
+    "kicker": "Points clés",
+    "heading": "Rappelez-vous",
+    "items": [
+     "Plan de contrôle d'une page avec réactions",
+     "La prévention des erreurs vaut mieux que l’inspection",
+     "L'échantillonnage juge beaucoup ; les graphiques observent le processus",
+     "Le goulot d’étranglement définit votre capacité",
+     "Prix à partir du coût par bonne unité"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "quality_check",
+   "say": [
+    "À votre tour. Rédigez votre plan de contrôle avec deux dispositifs anti-erreurs, démarrez une carte de contrôle pour une mesure et trouvez votre goulot d'étranglement et votre coût réel par bonne unité.",
+    "Continuez avec les leçons ci-dessous."
+   ],
+   "panel": {
+    "kicker": "Tâches d'entraînement",
+    "heading": "Vos tâches pratiques",
+    "items": [
+     "Rédigez votre plan de contrôle d’une page",
+     "Démarrer une carte de contrôle",
+     "Trouvez votre goulot d'étranglement et votre coût unitaire réel"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

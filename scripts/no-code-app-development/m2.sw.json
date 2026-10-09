@@ -1,0 +1,602 @@
+{
+ "course": "no-code-app-development",
+ "module": "m2",
+ "title": "Jenga, jaribu na ukabidhi programu ya hisa na mauzo",
+ "course_title": "Ukuzaji wa Programu ya No-Code",
+ "shots": [
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Jenga, jaribu na ukabidhi programu ya hisa na mauzo.",
+    "Hii ni video ya moduli ya pili ya Ukuzaji wa Programu ya No-Code."
+   ]
+  },
+  {
+   "demo": "shop_shelf",
+   "say": [
+    "Katika moduli hii unaunda programu moja halisi. Kwa mfano, Esther anaendesha duka la pembejeo za kilimo huko Makurdi, akiwa na wafanyikazi wawili wa mauzo. Anataka kuacha kuhesabu mifuko kila jioni."
+   ],
+   "panel": {
+    "kicker": "Utajenga nini",
+    "heading": "Programu ya duka la pembejeo za kilimo la Esther",
+    "items": [
+     "Fuatilia bidhaa, usafirishaji na mauzo",
+     "Mwonye mmiliki hisa inapopungua",
+     "Imejaribiwa, kulindwa na kurekodiwa"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Programu yake itafuatilia bidhaa, bidhaa zinazowasilishwa na mauzo, itamwonya wakati hisa iko chini, na ijaribiwe na kurekodiwa ili mtu mwingine aweze kuiendesha. Yote hufanya kazi kwenye hatua ya uchapaji ya bure ya AppSheet."
+   ],
+   "panel": {
+    "kicker": "Utajenga nini",
+    "heading": "Programu ya duka la pembejeo za kilimo la Esther",
+    "items": [
+     "Fuatilia bidhaa, usafirishaji na mauzo",
+     "Mwonye mmiliki hisa inapopungua",
+     "Imejaribiwa, kulindwa na kurekodiwa"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Shida nyingi za mapema hutoka kwa karatasi zenye fujo. AppSheet husoma kila kichupo kama jedwali, na safu mlalo ya kichwa juu."
+   ],
+   "panel": {
+    "kicker": "Hatua ya 1",
+    "heading": "Tayarisha karatasi vizuri",
+    "items": [
+     "Jedwali moja kwa kila kichupo: Bidhaa, Hisa, Mauzo",
+     "Safu moja ya kichwa kabisa katika safu ya 1",
+     "Hakuna visanduku vilivyounganishwa, jumla ya safu mlalo au safu tupu",
+     "Safu wima ya kitambulisho kwanza katika kila kichupo",
+     "Safu mlalo 3 hadi 5 za sampuli halisi"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_sheet",
+   "say": [
+    "Ondoa visanduku vilivyounganishwa na jumla ya safu mlalo. Esther alifuta safu mlalo TOTAL chini ya kichupo chake cha Mauzo, kwa sababu AppSheet ingeisoma kama ofa."
+   ],
+   "panel": {
+    "kicker": "Hatua ya 1",
+    "heading": "Tayarisha karatasi vizuri",
+    "items": [
+     "Jedwali moja kwa kila kichupo: Bidhaa, Hisa, Mauzo",
+     "Safu moja ya kichwa kabisa katika safu ya 1",
+     "Hakuna visanduku vilivyounganishwa, jumla ya safu mlalo au safu tupu",
+     "Safu wima ya kitambulisho kwanza katika kila kichupo",
+     "Safu mlalo 3 hadi 5 za sampuli halisi"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Weka safu wima ya kitambulisho kwanza, na uongeze sampuli za safu mlalo chache ili AppSheet iweze kukisia aina za safu."
+   ],
+   "panel": {
+    "kicker": "Hatua ya 1",
+    "heading": "Tayarisha karatasi vizuri",
+    "items": [
+     "Jedwali moja kwa kila kichupo: Bidhaa, Hisa, Mauzo",
+     "Safu moja ya kichwa kabisa katika safu ya 1",
+     "Hakuna visanduku vilivyounganishwa, jumla ya safu mlalo au safu tupu",
+     "Safu wima ya kitambulisho kwanza katika kila kichupo",
+     "Safu mlalo 3 hadi 5 za sampuli halisi"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Baada ya karatasi, angalia kila safu. Vifunguo hupata thamani ya awali UNIQUEID(), na zimefichwa. Tarehe huanza kama LEO(). Inauzwa kwa rekodi USEREMAIL()."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Agizo la ujenzi kwa programu yoyote ya AppSheet",
+    "items": [
+     "Safisha karatasi",
+     "Weka funguo na aina",
+     "Ongeza marejeleo",
+     "Maoni ya kubuni",
+     "Ongeza sheria na otomatiki"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Safu ya Bidhaa katika Mauzo na Hisa inakuwa Rejeleo la Bidhaa, ikiunganisha kila mauzo na bidhaa moja."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Agizo la ujenzi kwa programu yoyote ya AppSheet",
+    "items": [
+     "Safisha karatasi",
+     "Weka funguo na aina",
+     "Ongeza marejeleo",
+     "Maoni ya kubuni",
+     "Ongeza sheria na otomatiki"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Maoni ya muundo kwa wafanyikazi kwenye kaunta na simu kwa mkono mmoja. Uuzaji mpya huenda kwanza kwenye menyu, kwa sababu ndio kazi ya mara kwa mara."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Agizo la ujenzi kwa programu yoyote ya AppSheet",
+    "items": [
+     "Safisha karatasi",
+     "Weka funguo na aina",
+     "Ongeza marejeleo",
+     "Maoni ya kubuni",
+     "Ongeza sheria na otomatiki"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Fuata agizo hili. Kubadilisha data baada ya kutazamwa kujengwa husababisha kufanya kazi upya. Na jaribu kwenye simu halisi, sio tu kwenye mhariri."
+   ],
+   "panel": {
+    "kicker": "Hatua kwa hatua",
+    "heading": "Agizo la ujenzi kwa programu yoyote ya AppSheet",
+    "items": [
+     "Safisha karatasi",
+     "Weka funguo na aina",
+     "Ongeza marejeleo",
+     "Maoni ya kubuni",
+     "Ongeza sheria na otomatiki"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Usikubali kamwe ubashiri wa safu wima ya AppSheet kwa upofu.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Mantiki imeandikwa kama misemo, fomula fupi zilizo na majina ya safu katika mabano ya mraba. Ongeza safu pepe inayoitwa Current Stock. NPK huanza mwezi na mifuko 40."
+   ],
+   "panel": {
+    "kicker": "Mantiki",
+    "heading": "Hisa huhesabiwa, haichapishwi",
+    "items": [
+     "Hifadhi ya ufunguzi: mifuko 40 ya NPK",
+     "Pamoja na utoaji: mifuko 25",
+     "Punguza mauzo wiki hii: mifuko 52",
+     "Hifadhi ya Sasa: 40 + 25 - 52 = 13"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "SELECT na SUM ongeza kila usafirishaji wa bidhaa hii: mifuko 25."
+   ],
+   "panel": {
+    "kicker": "Mantiki",
+    "heading": "Hisa huhesabiwa, haichapishwi",
+    "items": [
+     "Hifadhi ya ufunguzi: mifuko 40 ya NPK",
+     "Pamoja na utoaji: mifuko 25",
+     "Punguza mauzo wiki hii: mifuko 52",
+     "Hifadhi ya Sasa: 40 + 25 - 52 = 13"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Kisha toa kila mauzo: mifuko 52."
+   ],
+   "panel": {
+    "kicker": "Mantiki",
+    "heading": "Hisa huhesabiwa, haichapishwi",
+    "items": [
+     "Hifadhi ya ufunguzi: mifuko 40 ya NPK",
+     "Pamoja na utoaji: mifuko 25",
+     "Punguza mauzo wiki hii: mifuko 52",
+     "Hifadhi ya Sasa: 40 + 25 - 52 = 13"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Programu inaonyesha mifuko 13 iliyobaki bila mtu yeyote kuhesabu. Ikiwa na kiwango cha kupanga upya cha 15, NPK inaonyesha Panga Upya katika nyekundu."
+   ],
+   "panel": {
+    "kicker": "Mantiki",
+    "heading": "Hisa huhesabiwa, haichapishwi",
+    "items": [
+     "Hifadhi ya ufunguzi: mifuko 40 ya NPK",
+     "Pamoja na utoaji: mifuko 25",
+     "Punguza mauzo wiki hii: mifuko 52",
+     "Hifadhi ya Sasa: 40 + 25 - 52 = 13"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "13 iko chini au chini ya kiwango cha kupanga upya cha 15: wakati wa kupanga upya.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Fanya Ukubwa na Bidhaa zinahitajika."
+   ],
+   "panel": {
+    "kicker": "Sheria zinazozuia makosa",
+    "heading": "Acha data mbaya wakati wa kuingia",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Inahitajika",
+      "d": "Kiasi na Bidhaa lazima zijazwe, kwa hivyo hakuna uuzaji unaohifadhiwa bila wao."
+     },
+     {
+      "t": "Halali Kama",
+      "d": "Ukubwa zaidi ya 0 na si zaidi ya Hisa ya Sasa. Ongeza ujumbe wa hitilafu wazi."
+     },
+     {
+      "t": "Thamani ya awali",
+      "d": "Bei ya Kitengo hunakili bei ya bidhaa wakati wa kuuza. Hakuna kuandika tena."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Ongeza Kama Inatumika, kwa hivyo idadi lazima iwe juu ya 0 na isiwe zaidi ya hisa. Ongeza ujumbe kama, ni mifuko 13 pekee iliyosalia, ili wafanyakazi wajue ni nini kilienda vibaya."
+   ],
+   "panel": {
+    "kicker": "Sheria zinazozuia makosa",
+    "heading": "Acha data mbaya wakati wa kuingia",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Inahitajika",
+      "d": "Kiasi na Bidhaa lazima zijazwe, kwa hivyo hakuna uuzaji unaohifadhiwa bila wao."
+     },
+     {
+      "t": "Halali Kama",
+      "d": "Ukubwa zaidi ya 0 na si zaidi ya Hisa ya Sasa. Ongeza ujumbe wa hitilafu wazi."
+     },
+     {
+      "t": "Thamani ya awali",
+      "d": "Bei ya Kitengo hunakili bei ya bidhaa wakati wa kuuza. Hakuna kuandika tena."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Na nakili bei kwenye ofa inapotengenezwa, ili historia ibaki kuwa kweli."
+   ],
+   "panel": {
+    "kicker": "Sheria zinazozuia makosa",
+    "heading": "Acha data mbaya wakati wa kuingia",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Inahitajika",
+      "d": "Kiasi na Bidhaa lazima zijazwe, kwa hivyo hakuna uuzaji unaohifadhiwa bila wao."
+     },
+     {
+      "t": "Halali Kama",
+      "d": "Ukubwa zaidi ya 0 na si zaidi ya Hisa ya Sasa. Ongeza ujumbe wa hitilafu wazi."
+     },
+     {
+      "t": "Thamani ya awali",
+      "d": "Bei ya Kitengo hunakili bei ya bidhaa wakati wa kuuza. Hakuna kuandika tena."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Kijibu hutazama tukio, kisha huendesha hatua zenyewe. Hapa tukio ni safu mlalo mpya katika Mauzo."
+   ],
+   "panel": {
+    "kicker": "Otomatiki",
+    "heading": "Boti ya hisa ya chini",
+    "items": [
+     "Tukio: ofa imeongezwa",
+     "Hali: hisa katika au chini ya kiwango cha kupanga upya",
+     "Kazi: barua pepe kwa mmiliki",
+     "Jaribu hadi barua pepe ifike"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_email",
+   "say": [
+    "Hali hukagua hisa ya bidhaa dhidi ya kiwango chake cha kupanga upya. Ikiwa ndivyo, inamtumia Esther jina la bidhaa na hisa kwa barua pepe."
+   ],
+   "panel": {
+    "kicker": "Otomatiki",
+    "heading": "Boti ya hisa ya chini",
+    "items": [
+     "Tukio: ofa imeongezwa",
+     "Hali: hisa katika au chini ya kiwango cha kupanga upya",
+     "Kazi: barua pepe kwa mmiliki",
+     "Jaribu hadi barua pepe ifike"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Rekodi mauzo ya majaribio hadi masharti yatimizwe, na uthibitishe kuwa barua pepe imefika. Weka fomula nzito chache, kwa sababu zinapunguza kasi ya programu kadiri majedwali yanavyokua."
+   ],
+   "panel": {
+    "kicker": "Otomatiki",
+    "heading": "Boti ya hisa ya chini",
+    "items": [
+     "Tukio: ofa imeongezwa",
+     "Hali: hisa katika au chini ya kiwango cha kupanga upya",
+     "Kazi: barua pepe kwa mmiliki",
+     "Jaribu hadi barua pepe ifike"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Boti huwaka tu wakati tukio na hali zote ni kweli.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Kwa mfano, Amina anamalizia programu ya Esther. Anaandika kesi 14 za majaribio, ikijumuisha kuuza mfuko wa mwisho kabisa, na kuingiza sifuri au nafasi zilizoachwa wazi. Anaziendesha kama mtumiaji wa majaribio ya wafanyikazi wa mauzo."
+   ],
+   "panel": {
+    "kicker": "Kupima",
+    "heading": "Hati ya mtihani wa Amina",
+    "items": [
+     "Andika kesi 14 zenye matokeo yanayotarajiwa",
+     "Jumuisha kesi za makali na maingizo yasiyo sahihi",
+     "11 kati ya 14 kupita; kurekebisha makosa 3",
+     "Rudia kesi zote 14"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "3 kushindwa. Kiasi cha 0 kilihifadhiwa, bidhaa mbili zinaweza kushiriki jina moja, na wafanyikazi wanaweza kuhariri hisa iliyofunguliwa. Yeye hurekebisha kila moja."
+   ],
+   "panel": {
+    "kicker": "Kupima",
+    "heading": "Hati ya mtihani wa Amina",
+    "items": [
+     "Andika kesi 14 zenye matokeo yanayotarajiwa",
+     "Jumuisha kesi za makali na maingizo yasiyo sahihi",
+     "11 kati ya 14 kupita; kurekebisha makosa 3",
+     "Rudia kesi zote 14"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Kisha anarudia zote 14, kwa sababu marekebisho yanaweza kuvunja mambo mengine. Yote hupita, na logi ya mtihani huingia kwenye pakiti ya makabidhiano."
+   ],
+   "panel": {
+    "kicker": "Kupima",
+    "heading": "Hati ya mtihani wa Amina",
+    "items": [
+     "Andika kesi 14 zenye matokeo yanayotarajiwa",
+     "Jumuisha kesi za makali na maingizo yasiyo sahihi",
+     "11 kati ya 14 kupita; kurekebisha makosa 3",
+     "Rudia kesi zote 14"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Baada ya kurekebisha yoyote, rudia kila kesi, sio kushindwa tu.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Inahitaji kuingia, na utumie jedwali la Watumiaji lenye majukumu ili mmiliki pekee ndiye anayebadilisha bei. Mtu yeyote aliye na idhini ya kuhariri ya Laha ya Google anaweza kubadilisha data, kwa hivyo ishiriki na mmiliki na mjenzi pekee."
+   ],
+   "panel": {
+    "kicker": "Usalama kwanza",
+    "heading": "Ufikiaji, data na matumizi ya nje ya mtandao",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Ingia na majukumu",
+      "d": "Shiriki na barua pepe za wafanyikazi waliotajwa. Mmiliki pekee ndiye anayebadilisha bei na hisa. Weka kikomo anayebadilisha laha."
+     },
+     {
+      "t": "Data ya kibinafsi",
+      "d": "Kusanya tu kile unachohitaji. Usiwahi kukusanya maelezo ya BVN, NIN au kadi katika programu ya bila msimbo."
+     },
+     {
+      "t": "Sawazisha kila siku",
+      "d": "Siku za nje ya mtandao zinaweza kubatilisha mabadiliko ya wengine. Usawazishaji wa wafanyikazi angalau kila siku."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Nambari za simu za mteja ni data ya kibinafsi. Sheria ya Kulinda Data ya Nigeria ya 2023 inatarajia kukusanya tu unachohitaji na kuiweka salama."
+   ],
+   "panel": {
+    "kicker": "Usalama kwanza",
+    "heading": "Ufikiaji, data na matumizi ya nje ya mtandao",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Ingia na majukumu",
+      "d": "Shiriki na barua pepe za wafanyikazi waliotajwa. Mmiliki pekee ndiye anayebadilisha bei na hisa. Weka kikomo anayebadilisha laha."
+     },
+     {
+      "t": "Data ya kibinafsi",
+      "d": "Kusanya tu kile unachohitaji. Usiwahi kukusanya maelezo ya BVN, NIN au kadi katika programu ya bila msimbo."
+     },
+     {
+      "t": "Sawazisha kila siku",
+      "d": "Siku za nje ya mtandao zinaweza kubatilisha mabadiliko ya wengine. Usawazishaji wa wafanyikazi angalau kila siku."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "AppSheet inafanya kazi nje ya mtandao, lakini simu nje ya mtandao kwa siku nyingi inaweza kubatilisha mabadiliko ya watu wengine inaposawazishwa. Ijaribu katika hali ya ndege."
+   ],
+   "panel": {
+    "kicker": "Usalama kwanza",
+    "heading": "Ufikiaji, data na matumizi ya nje ya mtandao",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Ingia na majukumu",
+      "d": "Shiriki na barua pepe za wafanyikazi waliotajwa. Mmiliki pekee ndiye anayebadilisha bei na hisa. Weka kikomo anayebadilisha laha."
+     },
+     {
+      "t": "Data ya kibinafsi",
+      "d": "Kusanya tu kile unachohitaji. Usiwahi kukusanya maelezo ya BVN, NIN au kadi katika programu ya bila msimbo."
+     },
+     {
+      "t": "Sawazisha kila siku",
+      "d": "Siku za nje ya mtandao zinaweza kubatilisha mabadiliko ya wengine. Usawazishaji wa wafanyikazi angalau kila siku."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Kukumbuka. Safisha karatasi na uangalie kila safu. Piga hesabu ya hisa, usiwahi kuandika. Zuia maingizo mabaya. Rudia majaribio yote baada ya kurekebishwa. Na ulete kifurushi cha makabidhiano, ili mtu mwingine isipokuwa wewe aweze kuweka programu hai."
+   ],
+   "panel": {
+    "kicker": "Pointi muhimu",
+    "heading": "Kumbuka",
+    "items": [
+     "Safisha karatasi kwanza; angalia kila safu",
+     "Kuhesabu hisa kutoka kwa safu mlalo zilizounganishwa",
+     "Halali Ikiwa na Inahitajika acha maingizo mabaya",
+     "Rudia kila jaribio baada ya kurekebisha",
+     "Pakiti ya makabidhiano: mfano, sheria, watumiaji, gharama, vipimo"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Majukumu yako: tengeneza toleo la kwanza kutoka kwa laha safi, ongeza mantiki na roboti ya bei ya chini, kisha jaribu, linda na uweke kumbukumbu ya programu yako.",
+    "Endelea na masomo hapa chini."
+   ],
+   "panel": {
+    "kicker": "Mazoezi ya kazi",
+    "heading": "Kazi zako za mazoezi",
+    "items": [
+     "Tengeneza toleo la kwanza",
+     "Ongeza mantiki na roboti ya hisa ya chini",
+     "Mtihani, salama na hati"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ],
+ "_mt": true
+}

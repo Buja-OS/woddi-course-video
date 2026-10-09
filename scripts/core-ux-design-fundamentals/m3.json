@@ -1,0 +1,516 @@
+{
+ "course": "core-ux-design-fundamentals",
+ "module": "m3",
+ "title": "Check, include and test: proving your design works",
+ "course_title": "UX Design Fundamentals",
+ "shots": [
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Check, include and test: proving your design works.",
+    "This is the video for module 3 of UX Design Fundamentals."
+   ]
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "In this module you learn to find what is wrong before real users suffer it.",
+    "First, a quick expert review against Jakob Nielsen's 10 usability heuristics, which are rules of thumb."
+   ],
+   "panel": {
+    "kicker": "What you will do",
+    "heading": "Three ways to find problems",
+    "items": [
+     "Review the design against Nielsen's 10 heuristics",
+     "Make it accessible and honest",
+     "Watch 5 real users try it",
+     "Measure the results and fix the worst first"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Second, checks so people with weaker eyesight, less schooling or older phones can use it, and so nothing tricks them."
+   ],
+   "panel": {
+    "kicker": "What you will do",
+    "heading": "Three ways to find problems",
+    "items": [
+     "Review the design against Nielsen's 10 heuristics",
+     "Make it accessible and honest",
+     "Watch 5 real users try it",
+     "Measure the results and fix the worst first"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Third, the most valuable method of all: watching real users try real tasks, and measuring what happens."
+   ],
+   "panel": {
+    "kicker": "What you will do",
+    "heading": "Three ways to find problems",
+    "items": [
+     "Review the design against Nielsen's 10 heuristics",
+     "Make it accessible and honest",
+     "Watch 5 real users try it",
+     "Measure the results and fix the worst first"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Here are five of the ten. Visibility of system status: always tell her what is happening, quickly."
+   ],
+   "panel": {
+    "kicker": "Rules of thumb",
+    "heading": "Five heuristics you will use often",
+    "items": [
+     "Show status: Processing, then Successful",
+     "Use her words: Buy airtime, not VTU top-up",
+     "Give exits: Cancel before final payment",
+     "Prevent errors: show the account name first",
+     "Plain errors that say what to do next"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Match the real world. Say buy airtime, not purchase VTU top-up."
+   ],
+   "panel": {
+    "kicker": "Rules of thumb",
+    "heading": "Five heuristics you will use often",
+    "items": [
+     "Show status: Processing, then Successful",
+     "Use her words: Buy airtime, not VTU top-up",
+     "Give exits: Cancel before final payment",
+     "Prevent errors: show the account name first",
+     "Plain errors that say what to do next"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "User control. Give a clear cancel button before the final payment."
+   ],
+   "panel": {
+    "kicker": "Rules of thumb",
+    "heading": "Five heuristics you will use often",
+    "items": [
+     "Show status: Processing, then Successful",
+     "Use her words: Buy airtime, not VTU top-up",
+     "Give exits: Cancel before final payment",
+     "Prevent errors: show the account name first",
+     "Plain errors that say what to do next"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Error prevention. Show the recipient's account name before she confirms a transfer."
+   ],
+   "panel": {
+    "kicker": "Rules of thumb",
+    "heading": "Five heuristics you will use often",
+    "items": [
+     "Show status: Processing, then Successful",
+     "Use her words: Buy airtime, not VTU top-up",
+     "Give exits: Cancel before final payment",
+     "Prevent errors: show the account name first",
+     "Plain errors that say what to do next"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "And help her recover. For example: network is slow, your money has not left your account, try again."
+   ],
+   "panel": {
+    "kicker": "Rules of thumb",
+    "heading": "Five heuristics you will use often",
+    "items": [
+     "Show status: Processing, then Successful",
+     "Use her words: Buy airtime, not VTU top-up",
+     "Give exits: Cancel before final payment",
+     "Prevent errors: show the account name first",
+     "Plain errors that say what to do next"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Choose one task, then go through it twice: once to understand the flow, once to hunt for problems."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Running a heuristic review",
+    "items": [
+     "Choose one task to review",
+     "Go through it screen by screen, twice",
+     "Note screen, problem, heuristic, fix",
+     "Rate each problem from 0 to 4",
+     "Combine lists from 2 or 3 reviewers"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "For example, Ngozi reviews a school fees page used by parents in Port Harcourt. After tapping pay, the screen stays blank for up to 30 seconds. That breaks visibility of system status, and parents might pay twice."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Running a heuristic review",
+    "items": [
+     "Choose one task to review",
+     "Go through it screen by screen, twice",
+     "Note screen, problem, heuristic, fix",
+     "Rate each problem from 0 to 4",
+     "Combine lists from 2 or 3 reviewers"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "She rates it 4, a catastrophe. A confusing menu word gets 2. Two colours for one Next button gets 1.",
+    "She recommends fixing the worst problems before the next term's payments open."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Running a heuristic review",
+    "items": [
+     "Choose one task to review",
+     "Go through it screen by screen, twice",
+     "Note screen, problem, heuristic, fix",
+     "Rate each problem from 0 to 4",
+     "Combine lists from 2 or 3 reviewers"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "Fix severity 4 and 3 problems first.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Different reviewers find different problems, so combine lists. But a review never replaces testing with real users."
+   ],
+   "panel": {
+    "kicker": "Step by step",
+    "heading": "Running a heuristic review",
+    "items": [
+     "Choose one task to review",
+     "Go through it screen by screen, twice",
+     "Note screen, problem, heuristic, fix",
+     "Rate each problem from 0 to 4",
+     "Combine lists from 2 or 3 reviewers"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "Fix severity 4 and 3 problems first.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "delivery_boxes",
+   "say": [
+    "For example, Aisha reviews the sign-up screen of a savings and loan app for market traders.",
+    "The grey text is hard to read. The labels vanish when you type. Contacts access is pre-ticked, and interest and fees appear only after the user accepts."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Making a loan app screen honest",
+    "mode": "compare",
+    "left_h": "Before",
+    "left": [
+     "Grey text, contrast about 2.3:1",
+     "Placeholder text only, no labels",
+     "Contacts access pre-ticked",
+     "Fees shown after accepting"
+    ],
+    "right_h": "After",
+    "right": [
+     "Darker text, at least 4.5:1",
+     "Visible label above each field",
+     "Unticked, with a plain reason",
+     "Total repayment shown first"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "She darkens the text to pass the 4.5 to 1 contrast minimum, adds visible labels, unticks the box and explains why the app asks.",
+    "Most important for money, she shows the total repayment before acceptance. Hidden costs and pre-ticked boxes are deceptive patterns. They destroy trust."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Making a loan app screen honest",
+    "mode": "compare",
+    "left_h": "Before",
+    "left": [
+     "Grey text, contrast about 2.3:1",
+     "Placeholder text only, no labels",
+     "Contacts access pre-ticked",
+     "Fees shown after accepting"
+    ],
+    "right_h": "After",
+    "right": [
+     "Darker text, at least 4.5:1",
+     "Visible label above each field",
+     "Unticked, with a plain reason",
+     "Total repayment shown first"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Accessibility helps everyone: an older aunt, a mother holding a baby, someone in bright sunshine. Pair every icon with a word."
+   ],
+   "panel": {
+    "kicker": "Real users",
+    "heading": "Design for the women who use it",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Low literacy",
+      "d": "Short common words, icons with text labels, and voice help like WhatsApp voice notes."
+     },
+     {
+      "t": "Local languages",
+      "d": "Test whether key labels need Pidgin, Hausa, Igbo or Yoruba. English alone may not be enough."
+     },
+     {
+      "t": "Low data, shared phones",
+      "d": "Small images, no auto-play video, nothing sensitive on the lock screen, easy log out."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Never assume English alone is enough. Test your key labels."
+   ],
+   "panel": {
+    "kicker": "Real users",
+    "heading": "Design for the women who use it",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Low literacy",
+      "d": "Short common words, icons with text labels, and voice help like WhatsApp voice notes."
+     },
+     {
+      "t": "Local languages",
+      "d": "Test whether key labels need Pidgin, Hausa, Igbo or Yoruba. English alone may not be enough."
+     },
+     {
+      "t": "Low data, shared phones",
+      "d": "Small images, no auto-play video, nothing sensitive on the lock screen, easy log out."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Many users share a phone and pay for data. Make the core task work on a small, older Android screen, and ask only for the data you truly need."
+   ],
+   "panel": {
+    "kicker": "Real users",
+    "heading": "Design for the women who use it",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Low literacy",
+      "d": "Short common words, icons with text labels, and voice help like WhatsApp voice notes."
+     },
+     {
+      "t": "Local languages",
+      "d": "Test whether key labels need Pidgin, Hausa, Igbo or Yoruba. English alone may not be enough."
+     },
+     {
+      "t": "Low data, shared phones",
+      "d": "Small images, no auto-play video, nothing sensitive on the lock screen, easy log out."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Testing with about 5 users shows most of the problems. Blessing gives 5 customers a real scenario and asks them to think aloud. Only 3 of 5 book without help, and 4 of 5 miss the deposit amount."
+   ],
+   "panel": {
+    "kicker": "Test with 5 users",
+    "heading": "Blessing's two test rounds",
+    "mode": "compare",
+    "left_h": "Round 1",
+    "left": [
+     "3 of 5 succeeded alone",
+     "95 seconds on average",
+     "11 errors",
+     "SUS score 58"
+    ],
+    "right_h": "Round 2",
+    "right": [
+     "5 of 5 succeeded alone",
+     "48 seconds on average",
+     "3 errors",
+     "SUS score 77"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "She shows the deposit earlier and makes Confirm larger, then tests 5 new customers. All 5 succeed, the time roughly halves, and the System Usability Scale score rises from 58 to 77."
+   ],
+   "panel": {
+    "kicker": "Test with 5 users",
+    "heading": "Blessing's two test rounds",
+    "mode": "compare",
+    "left_h": "Round 1",
+    "left": [
+     "3 of 5 succeeded alone",
+     "95 seconds on average",
+     "11 errors",
+     "SUS score 58"
+    ],
+    "right_h": "Round 2",
+    "right": [
+     "5 of 5 succeeded alone",
+     "48 seconds on average",
+     "3 errors",
+     "SUS score 77"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Say, you want braids this Saturday morning, book a time. Never say, tap Book.",
+    "If she asks what to press, reply: what would you do if I were not here? And write 4 of 5 participants, never 80 percent of users. Small tests show problems, not proof."
+   ],
+   "panel": {
+    "kicker": "During the session",
+    "heading": "How to run a fair test",
+    "items": [
+     "Repeat your consent script",
+     "Give a goal, not button instructions",
+     "Ask her to think aloud",
+     "Do not explain or rescue too quickly",
+     "Note hesitations, taps, words, success"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "To remember. Review first and fix the worst problems. Make it readable and honest. Then test with 5 users, fix, and test again, measuring success, time, errors and SUS."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "Review with the 10 heuristics; rate severity 0 to 4",
+     "Contrast 4.5:1, visible labels, never colour alone",
+     "No hidden costs or pre-ticked boxes",
+     "Test with 5, fix the worst, test again",
+     "Measure success, time, errors and SUS"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Your turn. Review your prototype, audit it for accessibility and honesty, test it with real people, and write a short findings report.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice tasks",
+    "heading": "Your practice tasks",
+    "items": [
+     "Heuristic review of your prototype",
+     "Six-point accessibility and ethics audit",
+     "Usability test with 5 participants",
+     "One-page findings report with numbers"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}

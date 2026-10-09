@@ -1,0 +1,200 @@
+{
+  "course": "liquid-soap-shampoo-disinfectants",
+  "module": "m5",
+  "title": "Dawa za Kuua Vijidudu, Sanitaiza, Lebo na Kuuza",
+  "shots": [
+    {
+      "demo": "title_liquid",
+      "say": [
+        "Dawa za Kuua Vijidudu, Sanitaiza, Lebo na Kukuza Biashara. Hii ni moduli ya 5, moduli ya mwisho ya kozi.",
+        "Bidhaa hizi hulinda afya, kwa hiyo zina sheria kali kuliko zote. Tuzifanye sawasawa."
+      ]
+    },
+    {
+      "demo": "spray_wipe",
+      "label": "Safisha kwanza, kisha suuza",
+      "say": [
+        "Angalia meza hii ikinyunyizwa na kufutwa kwa sabuni kwanza. Uchafu na grisi hukinga vijidudu na hutumia dawa ya kuua vijidudu bure.",
+        "Kwa hiyo mpangilio ni daima: safisha kwanza, suuza, kisha ua vijidudu."
+      ]
+    },
+    {
+      "demo": "ppe_set",
+      "label": "Glovu na kinga ya macho",
+      "say": [
+        "Kabla ya kuchanganya bleach na maji, vaa glovu na kinga ya macho. Tumia maji baridi mahali penye hewa ya kutosha."
+      ]
+    },
+    {
+      "demo": "dilution_ladder",
+      "label": "Bleach (sodium hypochlorite)",
+      "card": {
+        "title": "Michanganyiko ya bleach ya Grace",
+        "rows": [
+          ["Nguvu kwenye lebo", "3.5%"],
+          ["0.1% kwa meza na sakafu, 10 L", "karibu 286 ml bleach"],
+          ["0.5%, damu iliyomwagika, 2 L", "karibu 286 ml bleach"],
+          ["Fomula", "C1 x V1 = C2 x V2"],
+          ["Mchanganyiko hudumu", "tengeneza mpya kila siku"]
+        ],
+        "note": "WHO: 0.1% sehemu za kawaida, 0.5% damu iliyomwagika"
+      },
+      "say": [
+        "Vikombe hivi vinaanzia bleach kali hadi mchanganyiko hafifu. Unahesabu kwa C1 mara V1 ni sawa na C2 mara V2.",
+        "Grace wa Ilorin alihitaji asilimia 0.1 kwa sakafu na asilimia 0.5 kwa kifaa cha kusafisha damu iliyomwagika. Zote zilichukua karibu mililita 286 za bleach yake ya asilimia 3.5, ila zilijazwa hadi vipimo tofauti.",
+        "Anaweka lebo kwenye kila ndoo yenye nguvu, tarehe na saa, na kamwe haongezi kwenye ndoo ya zamani."
+      ]
+    },
+    {
+      "demo": "mixing_rule",
+      "label": "Bleach na dawa ya asidi",
+      "banner": "Usichanganye bleach na asidi au amonia",
+      "say": [
+        "Tenganisha hizi mbili. Kamwe usichanganye bleach na asidi, amonia au dawa nyingine za usafi.",
+        "Hifadhi bleach iliyochanganywa kwenye vyombo vyenye lebo, mbali na jua na mbali na watoto. Suuza sehemu za chuma baada ya muda wa kugusana."
+      ]
+    },
+    {
+      "demo": "disinfect_timer",
+      "label": "Benzalkonium chloride (BKC)",
+      "card": {
+        "title": "Hesabu ya mazoezi ya BKC ya Musa",
+        "rows": [
+          ["Kiwango kilichotajwa", "0.2% hai (mazoezi tu)"],
+          ["Kiambato hai kwa lita 10", "20 g"],
+          ["Concentrate 50% inayohitajika", "40 g"],
+          ["Lebo ya ndoo", "nguvu, tarehe, muda wa kugusa"]
+        ],
+        "note": "Daima fuata lebo ya bidhaa halisi"
+      },
+      "say": [
+        "Ona sehemu ikibaki na unyevu wakati saa inahesabu. Huo ni muda wa kugusana, na kufuta hadi ikauke mapema ni kosa la kawaida.",
+        "Quat kama BKC hupoteza nguvu kwa mabaki ya sabuni, kwa hiyo suuza kwanza. Musa alipima gramu 40 za concentrate ya asilimia 50 ndani ya karibu lita 9, kisha akajaza hadi 10."
+      ]
+    },
+    {
+      "demo": "chemical_store",
+      "label": "Bidhaa zilizosajiliwa tu",
+      "say": [
+        "Maneno kama dawa ya kuua vijidudu au huua asilimia 99.9 ya vijidudu ni madai ya afya. Nchini Nigeria yanahitaji usajili wa NAFDAC na vipimo vya ufanisi.",
+        "Hadi wakati huo, uza kwa uaminifu kama dawa za kusafisha, na wafundishe wateja kutumia dawa zilizosajiliwa za kuua vijidudu ipasavyo."
+      ]
+    },
+    {
+      "demo": "hand_rub_mix",
+      "label": "Sanitaiza ya WHO, Fomula 1",
+      "card": {
+        "title": "WHO Fomula 1, lita 10",
+        "rows": [
+          ["Ethanol 96%", "8,333 ml"],
+          ["Hydrogen peroxide 3%", "417 ml"],
+          ["Glycerol 98%", "145 ml"],
+          ["Maji yaliyochemshwa, kupoa", "hadi 10,000 ml"],
+          ["Nguvu ya mwisho", "80% v/v ethanol"]
+        ],
+        "note": "Fomula 2: isopropyl alcohol 99.8%, 7,515 ml"
+      },
+      "say": [
+        "Sasa sanitaiza ya mikono. Mitungi hii ina spiriti, hydrogen peroxide na glycerol, fomula ya WHO, Shirika la Afya Duniani.",
+        "Peroxide hushughulikia mbegu za vijidudu, na glycerol hulinda ngozi. Ukibadilisha fomula, si fomula ya WHO tena."
+      ]
+    },
+    {
+      "demo": "ventilated_room",
+      "label": "Hakuna moto, hakuna jenereta",
+      "banner": "Kamwe usitumie methanol",
+      "say": [
+        "Methanol ni sumu kupitia ngozi na ikimezwa. Nunua ethanol au isopropyl alcohol yenye cheti cha uchambuzi.",
+        "Mvuke wa spiriti hushika moto kwa urahisi. Changanya karibu na dirisha lililo wazi bila moto, bila gesi ya kupikia, bila kuvuta sigara na bila jenereta karibu."
+      ]
+    },
+    {
+      "demo": "hand_rub_mix",
+      "label": "Kipima spiriti kinasoma: 90%",
+      "card": {
+        "title": "Jaribio la lita 2 la Hadiza",
+        "rows": [
+          ["Ethanol 96% ya fomula", "1,667 ml"],
+          ["Ethanol safi inayohitajika", "1,600 ml (80%)"],
+          ["Ethanol yake ni 90%", "1,600 / 0.90 = 1,778 ml"],
+          ["Peroxide, glycerol", "83 ml, 29 ml"],
+          ["Maji", "hadi 2,000 ml kamili"]
+        ],
+        "note": "Bila marekebisho: karibu 75% tu"
+      },
+      "say": [
+        "Hadiza wa Sokoto alipima ethanol yake kwa kipima spiriti. Ilikuwa asilimia 90, si asilimia 96.",
+        "Kwa hiyo alipima mililita 1,778 badala ya mililita 1,667, na sanitaiza iliyokamilika bado ilifika asilimia 80."
+      ]
+    },
+    {
+      "demo": "bottle_fill",
+      "label": "Jaza, funga, weka karantini",
+      "say": [
+        "Jaza, funga na weka lebo kwenye kila chupa yenye asilimia ya spiriti, namba ya bechi, tarehe na maneno: Inashika moto, weka mbali na moto.",
+        "Kisha zihifadhi kwa saa 72 kabla ya kutumia. Karantini hii ni sehemu ya fomula."
+      ]
+    },
+    {
+      "demo": "shampoo_bottles",
+      "label": "Chapa moja, lebo zilizo wazi",
+      "card": {
+        "title": "Namba ya bechi ya Ada",
+        "rows": [
+          ["HW", "sabuni ya mikono"],
+          ["260314", "14 Machi 2026"],
+          ["02", "bechi ya pili siku hiyo"],
+          ["Namba kwenye karatasi", "loti, uzito, pH, mtengenezaji"]
+        ],
+        "note": "HW-260314-02"
+      },
+      "say": [
+        "Kila lebo inahitaji jina, kiasi halisi, viambato kuanzia kikubwa, maelekezo, tahadhari, mtengenezaji, namba ya NAFDAC na taarifa za bechi.",
+        "Ada wa Lagos alifuatilia chupa nyepesi hadi kumbukumbu yake kwa dakika chache, kwa sababu ya namba kama hii."
+      ]
+    },
+    {
+      "demo": "costing_desk",
+      "card": {
+        "title": "Sabuni ya mikono 20 kg ya Comfort",
+        "rows": [
+          ["Viambato", "₦12,500"],
+          ["Vifungashio, chupa 40", "₦12,000"],
+          ["Ujira na gharama nyingine", "₦6,000"],
+          ["Gharama kwa chupa ya 500 ml", "₦762.50"],
+          ["Bei ya jumla", "₦1,100, karibu 31%"]
+        ],
+        "note": "Mfano, naira za takriban"
+      },
+      "say": [
+        "Mezani kwake, Comfort wa Asaba alijumlisha ngazi tatu za gharama na kugawanya kwa chupa 40.",
+        "Vifungashio vilikaribia gharama ya majimaji yenyewe. Kwa hiyo anatafuta pampu ya bei nafuu kabla ya kupandisha bei yake.",
+        "Kua kwa hatua, kilo 20, kisha kilo 50, kisha kilo 100, ukipima kila hatua."
+      ]
+    },
+    {
+      "demo": "market_stall",
+      "label": "Wanunuzi wa taasisi",
+      "card": {
+        "title": "Bei ya Ngozi kwa hoteli ya vyumba 40",
+        "rows": [
+          ["Thamani ya oda ya mwezi", "₦44,000"],
+          ["Gharama yake, karibu 70%", "₦30,800"],
+          ["Masharti ya malipo", "mkopo wa siku 30"]
+        ],
+        "note": "Bei za mfano kutoka kozi"
+      },
+      "say": [
+        "Hoteli, shule na ofisi huagiza tena kila mwezi. Ngozi alifanya majaribio ya wiki mbili, kisha akatoa bei kutokana na matumizi halisi.",
+        "Kwa mkopo wa siku 30 lazima agharamie karibu naira 30,800 za bidhaa kila mwezi. Andika masharti kwa maandishi, na kamwe usiuzie kliniki bidhaa zisizosajiliwa."
+      ]
+    },
+    {
+      "demo": "outro_bottles",
+      "say": [
+        "Sasa pitia masomo yaliyo hapa chini. Tengeneza chati yako ya kuchanganya, bechi yako ya sanitaiza kwenye karatasi, seti ya lebo na karatasi ya gharama, kisha andaa ombi moja kwa taasisi.",
+        "Hongera kwa kumaliza kozi."
+      ]
+    }
+  ]
+}

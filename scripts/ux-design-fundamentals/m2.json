@@ -1,0 +1,534 @@
+{
+ "course": "ux-design-fundamentals",
+ "module": "m2",
+ "title": "From questions to evidence to a ranked backlog",
+ "course_title": "UX Design Fundamentals: Professional Practice",
+ "shots": [
+  {
+   "demo": "laptop_design",
+   "say": [
+    "From questions, to evidence, to a ranked backlog.",
+    "This is the video for module two of UX Design Fundamentals: research, synthesis and measurement."
+   ]
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Beginners use one method for everything, usually interviews. Professionals start from the research question and pick the method that can answer it."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Evidence that leads to decisions",
+    "items": [
+     "Start from the research question",
+     "Turn piles of notes into clear insights",
+     "Score ideas to choose what to build",
+     "Measure to prove the redesign worked"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "Then they turn a pile of notes into a few clear insights a team can act on."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Evidence that leads to decisions",
+    "items": [
+     "Start from the research question",
+     "Turn piles of notes into clear insights",
+     "Score ideas to choose what to build",
+     "Measure to prove the redesign worked"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "They score ideas to decide what to build first."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Evidence that leads to decisions",
+    "items": [
+     "Start from the research question",
+     "Turn piles of notes into clear insights",
+     "Score ideas to choose what to build",
+     "Measure to prove the redesign worked"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "And they measure, because clients trust a redesign far more when you can show numbers than when you say it feels easier."
+   ],
+   "panel": {
+    "kicker": "Why this matters",
+    "heading": "Evidence that leads to decisions",
+    "items": [
+     "Start from the research question",
+     "Turn piles of notes into clear insights",
+     "Score ideas to choose what to build",
+     "Measure to prove the redesign worked"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Asking people what they would do and watching what they actually do often give different answers. Both have a place.",
+    "Interviews, surveys and open card sorts capture what people say. In a card sort, people group feature cards and name the groups, which shows how they expect things to be organised."
+   ],
+   "panel": {
+    "kicker": "Choosing methods",
+    "heading": "What people say versus what they do",
+    "mode": "compare",
+    "left_h": "Attitudinal (say)",
+    "left": [
+     "Interviews",
+     "Surveys",
+     "Open card sorts"
+    ],
+    "right_h": "Behavioural (do)",
+    "right": [
+     "Usability tests",
+     "Analytics and A/B tests",
+     "Tree tests"
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "Usability tests, analytics and tree tests show what people do. A tree test shows only a text version of your menu, and asks people where they would go to complete a task."
+   ],
+   "panel": {
+    "kicker": "Choosing methods",
+    "heading": "What people say versus what they do",
+    "mode": "compare",
+    "left_h": "Attitudinal (say)",
+    "left": [
+     "Interviews",
+     "Surveys",
+     "Open card sorts"
+    ],
+    "right_h": "Behavioural (do)",
+    "right": [
+     "Usability tests",
+     "Analytics and A/B tests",
+     "Tree tests"
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "For example, Halima is redesigning a cooperative app menu in Kano. One task asks: where would you look to see when your next loan repayment is due?"
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Tree testing a cooperative app menu",
+    "items": [
+     "Task: find your next loan repayment date",
+     "Success: 26 of 40, 65%",
+     "Direct, no backtracking: 18 of 40, 45%",
+     "First clicks: 22 Loans, 12 Payments",
+     "Add a shortcut, retest: 34 of 40, 85%"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "40 people try it. 26 end in the right place, so the success rate is 65%."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Tree testing a cooperative app menu",
+    "items": [
+     "Task: find your next loan repayment date",
+     "Success: 26 of 40, 65%",
+     "Direct, no backtracking: 18 of 40, 45%",
+     "First clicks: 22 Loans, 12 Payments",
+     "Add a shortcut, retest: 34 of 40, 85%"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_payment",
+   "say": [
+    "Only 18 got there without going back, so directness is 45%."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Tree testing a cooperative app menu",
+    "items": [
+     "Task: find your next loan repayment date",
+     "Success: 26 of 40, 65%",
+     "Direct, no backtracking: 18 of 40, 45%",
+     "First clicks: 22 Loans, 12 Payments",
+     "Add a shortcut, retest: 34 of 40, 85%"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "The first clicks explain why. 22 chose Loans, but 12 chose Payments, because they expected a repayment to be a payment."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Tree testing a cooperative app menu",
+    "items": [
+     "Task: find your next loan repayment date",
+     "Success: 26 of 40, 65%",
+     "Direct, no backtracking: 18 of 40, 45%",
+     "First clicks: 22 Loans, 12 Payments",
+     "Add a shortcut, retest: 34 of 40, 85%"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "So she adds a Loan repayments shortcut under Payments, and retests with 40 new people. 34 succeed, which is 85%. A small cross-link fixed it without rebuilding the app."
+   ],
+   "panel": {
+    "kicker": "Worked example",
+    "heading": "Tree testing a cooperative app menu",
+    "items": [
+     "Task: find your next loan repayment date",
+     "Success: 26 of 40, 65%",
+     "Direct, no backtracking: 18 of 40, 45%",
+     "First clicks: 22 Loans, 12 Payments",
+     "Add a shortcut, retest: 34 of 40, 85%"
+    ],
+    "show": 5,
+    "numbered": true,
+    "check": false,
+    "rule": "First clicks explain failures. Fix, then retest with new people.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Synthesis turns raw notes into insights. Keep three levels separate.",
+    "An observation is what happened, with evidence. For example, 4 of 5 participants paused for over 20 seconds at the BVN field."
+   ],
+   "panel": {
+    "kicker": "Synthesis",
+    "heading": "Keep three levels separate",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Observation",
+      "d": "What happened, with evidence. 4 of 5 participants paused for over 20 seconds at the BVN field."
+     },
+     {
+      "t": "Insight",
+      "d": "Why, backed by several observations. Users fear the BVN gives access to their money."
+     },
+     {
+      "t": "Recommendation",
+      "d": "What to change. Explain at the field that the BVN cannot on its own be used to withdraw money."
+     }
+    ],
+    "show": 1
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "An insight is your interpretation of why: users do not know why the app needs their BVN, and fear it gives access to their money."
+   ],
+   "panel": {
+    "kicker": "Synthesis",
+    "heading": "Keep three levels separate",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Observation",
+      "d": "What happened, with evidence. 4 of 5 participants paused for over 20 seconds at the BVN field."
+     },
+     {
+      "t": "Insight",
+      "d": "Why, backed by several observations. Users fear the BVN gives access to their money."
+     },
+     {
+      "t": "Recommendation",
+      "d": "What to change. Explain at the field that the BVN cannot on its own be used to withdraw money."
+     }
+    ],
+    "show": 2,
+    "cont": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "A recommendation is what to change: explain in one line that the number confirms identity and cannot on its own be used to withdraw money.",
+    "When grouping notes, count participants, not notes, so one talkative person does not dominate."
+   ],
+   "panel": {
+    "kicker": "Synthesis",
+    "heading": "Keep three levels separate",
+    "mode": "cards",
+    "cards": [
+     {
+      "t": "Observation",
+      "d": "What happened, with evidence. 4 of 5 participants paused for over 20 seconds at the BVN field."
+     },
+     {
+      "t": "Insight",
+      "d": "Why, backed by several observations. Users fear the BVN gives access to their money."
+     },
+     {
+      "t": "Recommendation",
+      "d": "What to change. Explain at the field that the BVN cannot on its own be used to withdraw money."
+     }
+    ],
+    "show": 3,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "When you have more ideas than time, score them. RICE multiplies Reach, the people affected, by Impact and by Confidence, then divides by Effort in person-months."
+   ],
+   "panel": {
+    "kicker": "Prioritising",
+    "heading": "Rank ideas with RICE",
+    "items": [
+     "Reach x Impact x Confidence, divided by Effort",
+     "C, rewrite BVN explanation: 8,000",
+     "A, save KYC form progress: 2,400",
+     "B, add a Pidgin option: 250"
+    ],
+    "show": 1,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "For example, Ifeoma scores three ideas. Rewriting the BVN explanation reaches 5,000 users for half a month of effort. It scores 8,000."
+   ],
+   "panel": {
+    "kicker": "Prioritising",
+    "heading": "Rank ideas with RICE",
+    "items": [
+     "Reach x Impact x Confidence, divided by Effort",
+     "C, rewrite BVN explanation: 8,000",
+     "A, save KYC form progress: 2,400",
+     "B, add a Pidgin option: 250"
+    ],
+    "show": 2,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_code",
+   "say": [
+    "Saving form progress scores 2,400. A Pidgin option scores 250, because confidence is only 50%, so she plans a survey first.",
+    "Scores support judgement. Write down where each number came from, and override openly for legal, safety or accessibility reasons."
+   ],
+   "panel": {
+    "kicker": "Prioritising",
+    "heading": "Rank ideas with RICE",
+    "items": [
+     "Reach x Impact x Confidence, divided by Effort",
+     "C, rewrite BVN explanation: 8,000",
+     "A, save KYC form progress: 2,400",
+     "B, add a Pidgin option: 250"
+    ],
+    "show": 4,
+    "numbered": false,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "SUS has 10 statements rated from 1 to 5, given right after a test session. For each odd item, subtract 1 from the answer. For example, participant P2's odd items add up to 17."
+   ],
+   "panel": {
+    "kicker": "Measuring",
+    "heading": "Scoring the System Usability Scale",
+    "items": [
+     "Odd items: subtract 1 from the answer",
+     "Even items: subtract the answer from 5",
+     "Add the ten results",
+     "Multiply by 2.5"
+    ],
+    "show": 1,
+    "numbered": true,
+    "check": false
+   }
+  },
+  {
+   "demo": "phone_form",
+   "say": [
+    "For each even item, subtract the answer from 5. P2's even items also add up to 17."
+   ],
+   "panel": {
+    "kicker": "Measuring",
+    "heading": "Scoring the System Usability Scale",
+    "items": [
+     "Odd items: subtract 1 from the answer",
+     "Even items: subtract the answer from 5",
+     "Add the ten results",
+     "Multiply by 2.5"
+    ],
+    "show": 2,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Add them. 17 plus 17 is 34."
+   ],
+   "panel": {
+    "kicker": "Measuring",
+    "heading": "Scoring the System Usability Scale",
+    "items": [
+     "Odd items: subtract 1 from the answer",
+     "Even items: subtract the answer from 5",
+     "Add the ten results",
+     "Multiply by 2.5"
+    ],
+    "show": 3,
+    "numbered": true,
+    "check": false,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_website",
+   "say": [
+    "Multiply by 2.5. P2's score is 85. The average across many products is about 68, so 85 is well above average. But it is a score, not a percentage."
+   ],
+   "panel": {
+    "kicker": "Measuring",
+    "heading": "Scoring the System Usability Scale",
+    "items": [
+     "Odd items: subtract 1 from the answer",
+     "Even items: subtract the answer from 5",
+     "Add the ten results",
+     "Multiply by 2.5"
+    ],
+    "show": 4,
+    "numbered": true,
+    "check": false,
+    "rule": "SUS is a score out of 100, not a percentage. About 68 is average.",
+    "showRule": true,
+    "cont": true
+   }
+  },
+  {
+   "demo": "laptop_design",
+   "say": [
+    "Tell participants what you study, how answers are stored, and that they can stop at any time. Collect only what you need, under the Nigeria Data Protection Act 2023.",
+    "With small samples, report 4 of 5 with a range, not 80% alone. Use median time. Never claim significance from a five-person test. And keep raw data so anyone can check your arithmetic."
+   ],
+   "panel": {
+    "kicker": "Honest and safe",
+    "heading": "Before you report results",
+    "items": [
+     "Consent given; only needed data collected",
+     "Small samples: counts plus a range",
+     "Median time, not the mean",
+     "No significance claims from five people",
+     "Raw data kept in a sheet"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": true
+   }
+  },
+  {
+   "demo": "kanban_board",
+   "say": [
+    "To remember. Start from the question. Report tree tests with success, directness and first clicks. Keep observation, insight and recommendation separate.",
+    "Count participants, not notes. And measure the same tasks before and after a redesign."
+   ],
+   "panel": {
+    "kicker": "Key points",
+    "heading": "Remember",
+    "items": [
+     "Start from the question, then the method",
+     "Tree tests: success, directness, first clicks",
+     "Observation, insight, recommendation",
+     "Count participants, not notes",
+     "Measure the same tasks before and after"
+    ],
+    "show": 5,
+    "numbered": false,
+    "check": false
+   }
+  },
+  {
+   "demo": "laptop_form",
+   "say": [
+    "Now practise. Run a mini card sort and tree test, synthesise notes into insights ranked with RICE, and run a small measured test with SUS.",
+    "Continue with the lessons below."
+   ],
+   "panel": {
+    "kicker": "Practice task",
+    "heading": "Your practice tasks",
+    "items": [
+     "Run a mini card sort and tree test",
+     "Synthesise notes and rank with RICE",
+     "Run a measured mini-test with SUS"
+    ],
+    "show": 3,
+    "numbered": false,
+    "check": true
+   }
+  }
+ ]
+}
