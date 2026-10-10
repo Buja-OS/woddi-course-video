@@ -11,6 +11,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: python3 probe.py > result.txt 2>&1 || true; tail -c 60000 result.txt
-      - run: |
+      - env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          tar cf stock-media.tar media
+          gh release create stock-sample-1 --repo ${{ github.repository }} --title stock-sample-1 --notes stock 2>/dev/null || true
+          gh release upload stock-sample-1 stock-media.tar --clobber --repo ${{ github.repository }}
           git config user.email bot@x; git config user.name bot
           git add result.txt; git commit -qm result; git push -q origin HEAD:${GITHUB_REF_NAME}
