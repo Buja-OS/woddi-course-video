@@ -1,15 +1,20 @@
-import urllib.request, urllib.parse, json, re, os
-UA={'User-Agent':'WODDI-Institute-research/1.0 (contact woddi.org@gmail.com)'}
-def get(u, binary=False):
-    r=urllib.request.urlopen(urllib.request.Request(u,headers=UA),timeout=60); b=r.read(); return b if binary else b.decode('utf8','replace')
-os.makedirs('media',exist_ok=True); meta=[]
-for t,fn in [("File:Northern Ghana's village women learning Local liquid soap preparation.webm",'commons_ghana_women_liquid_soap.webm')]:
-    u='https://commons.wikimedia.org/w/api.php?'+urllib.parse.urlencode({'action':'query','format':'json','titles':t,'prop':'imageinfo','iiprop':'url|extmetadata'})
-    p=list(json.loads(get(u))['query']['pages'].values())[0]; ii=p['imageinfo'][0]; m=ii['extmetadata']
-    open('media/'+fn,'wb').write(get(ii['url'],True))
-    meta.append({'file':fn,'source':ii['descriptionurl'],'license':m.get('LicenseShortName',{}).get('value'),'artist':re.sub('<[^>]+>','',m.get('Artist',{}).get('value','')),'desc':re.sub('<[^>]+>','',m.get('ImageDescription',{}).get('value',''))[:400]})
-    print(meta[-1])
-u='https://commons.wikimedia.org/w/api.php?'+urllib.parse.urlencode({'action':'query','format':'json','titles':'File:Nigeria Liquid Soap Making.webm','prop':'imageinfo','iiprop':'extmetadata'})
-p=list(json.loads(get(u))['query']['pages'].values())[0]; m=p['imageinfo'][0]['extmetadata']
-print('NIGERIA', {k:re.sub('<[^>]+>','',str(v.get('value','')))[:300] for k,v in m.items() if k in ('Artist','LicenseShortName','ImageDescription','Credit','AttributionRequired')})
-json.dump(meta,open('media/meta2.json','w'),indent=1)
+import urllib.request, urllib.parse, os, time, json
+os.makedirs('media', exist_ok=True)
+UA = {'User-Agent': 'WODDI-Institute-research/1.0'}
+P = {
+ 'p1_materials': 'documentary photo, clean bright small soap workshop in Kenya, white tiled table, neatly arranged labelled containers: sulphonic acid in a brown jerrycan, white caustic soda flakes in a clear jar, soda ash powder, nitrosol powder, SLES paste tub, salt, measuring jug, digital kitchen scale, white plastic bucket, pH strips, natural window light, shot on iPhone, realistic',
+ 'p2_nitrosol': 'close-up phone video still, African woman wearing safety goggles, blue nitrile gloves and a clean apron sprinkling white nitrosol powder slowly into a white plastic bucket of water while stirring with a long wooden stick, clean bright workshop, realistic UGC tutorial',
+ 'p3_ph': 'macro close-up, gloved hand holding a pH test strip next to a colour chart, strip shows green pH 7, white bucket of green liquid soap in background, clean workshop, realistic photo',
+}
+for k, p in P.items():
+    for model in ('flux',):
+        url = 'https://image.pollinations.ai/prompt/' + urllib.parse.quote(p) + '?width=1280&height=720&nologo=true&seed=42&model=' + model
+        t = time.time()
+        try:
+            r = urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=180); d = r.read()
+            open('media/%s_%s.jpg' % (k, model), 'wb').write(d); print(k, model, r.status, len(d), round(time.time() - t, 1))
+        except Exception as e: print(k, model, 'ERR', e)
+for u in ['https://text.pollinations.ai/models', 'https://image.pollinations.ai/models', 'https://gen.pollinations.ai/', 'https://huggingface.co/api/spaces/Wan-AI/Wan2.1', 'https://api-inference.huggingface.co/']:
+    try:
+        r = urllib.request.urlopen(urllib.request.Request(u, headers=UA), timeout=30); print(u, r.status, r.read()[:600])
+    except Exception as e: print(u, 'ERR', e)
