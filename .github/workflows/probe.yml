@@ -1,21 +1,26 @@
-name: probe
+name: wan-test
 on:
   push:
-    branches: ['probe-*']
+    branches: ['wan-*']
 permissions:
   contents: write
 jobs:
-  probe:
+  gen:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 350
+    strategy:
+      fail-fast: false
+      matrix:
+        shot: [nitrosol, ph]
     steps:
       - uses: actions/checkout@v4
-      - run: python3 probe.py > result.txt 2>&1 || true; tail -c 60000 result.txt
-      - env:
+      - run: nproc; free -g; df -h / | tail -1
+      - run: pip install -q torch --index-url https://download.pytorch.org/whl/cpu && pip install -q "diffusers>=0.33" transformers accelerate ftfy imageio imageio-ffmpeg sentencepiece
+      - run: python3 wan.py ${{ matrix.shot }} 2>&1 | tail -40
+      - if: always()
+        env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          tar cf stock-media.tar media
-          gh release create ai-${{ github.ref_name }} --repo ${{ github.repository }} --title ai-${{ github.ref_name }} --notes stock 2>/dev/null || true
-          gh release upload ai-${{ github.ref_name }} stock-media.tar --clobber --repo ${{ github.repository }}
-          git config user.email bot@x; git config user.name bot
-          git add result.txt; git commit -qm result; git push -q origin HEAD:${GITHUB_REF_NAME}
+          ls -la out || true
+          gh release create wan-test --repo ${{ github.repository }} --title wan-test --notes test 2>/dev/null || true
+          gh release upload wan-test out/* --clobber --repo ${{ github.repository }} || true
