@@ -1,0 +1,26 @@
+name: mms-voice3
+on:
+  push:
+    branches: ['mms-voice3']
+permissions:
+  contents: write
+jobs:
+  t:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -q torch --index-url https://download.pytorch.org/whl/cpu && pip install -q "transformers>=4.44" scipy librosa onnx onnxruntime onnxsim huggingface_hub
+      - run: python3 conv.py || true
+      - name: publish voices to branch voices
+        run: |
+          ls -laR voices res
+          mkdir /tmp/pub && cp -r voices /tmp/pub/ && cd /tmp/pub
+          git init -q && git checkout -q -b voices && git add -A && git -c user.name=bot -c user.email=bot@example.com commit -qm "WODDI mentor voices (MMS VITS, quantized)"
+          git push -q -f https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git voices
+          sleep 20
+          curl -sI https://raw.githubusercontent.com/${{ github.repository }}/voices/voices/yo-a/vocab.json | grep -iE "^HTTP|access-control|content-type|content-length|cache-control" > $GITHUB_WORKSPACE/res/cors.txt || true
+      - env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create mms-voice3 --repo ${{ github.repository }} --title mms-voice3 --notes t 2>/dev/null || true
+          gh release upload mms-voice3 res/* --clobber --repo ${{ github.repository }}
