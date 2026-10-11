@@ -1,0 +1,25 @@
+name: mms-voice
+on:
+  push:
+    branches: ['mms-voice']
+permissions:
+  contents: write
+jobs:
+  t:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: pip install -q torch --index-url https://download.pytorch.org/whl/cpu && pip install -q "transformers>=4.44" scipy librosa "optimum[onnxruntime]" onnx onnxruntime
+      - run: python3 mms.py || true
+      - run: bash export.sh || true
+      - run: npm i @huggingface/transformers@3.7.5 && node jstest.mjs || true
+      - run: |
+          for L in yor ibo; do [ -d web_$L ] && (cd web_$L && zip -qr ../res/web_$L.zip .); done; ls -la res
+      - env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create mms-voice --repo ${{ github.repository }} --title mms-voice --notes t 2>/dev/null || true
+          gh release upload mms-voice res/* --clobber --repo ${{ github.repository }}
