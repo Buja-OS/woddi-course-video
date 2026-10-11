@@ -21,6 +21,6 @@ with torch.no_grad():
 pipe.text_encoder = None; import gc; gc.collect()
 print('encoded', round(time.time() - t)); t = time.time()
 frames = pipe(prompt_embeds=pe, negative_prompt_embeds=ne, height=320, width=576, num_frames=49, num_inference_steps=20, guidance_scale=5.0,
-              generator=torch.Generator().manual_seed(21)).frames[0]
+              generator=torch.Generator().manual_seed(33)).frames[0]
 export_to_video(frames, 'out/wan_%s.mp4' % shot, fps=16)
 print('done', round(time.time() - t))
