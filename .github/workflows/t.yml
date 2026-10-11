@@ -1,0 +1,30 @@
+name: mms-voice4
+on:
+  push:
+    branches: ['mms-voice4']
+permissions:
+  contents: write
+jobs:
+  t:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -q torch --index-url https://download.pytorch.org/whl/cpu && pip install -q "transformers>=4.44" scipy librosa onnx onnxruntime onnxsim huggingface_hub
+      - run: mkdir -p res && (python3 conv.py > res/conv.log 2>&1 || true); tail -c 3000 res/conv.log; ls -laR voices >> res/conv.log 2>&1 || true
+      - name: publish
+        run: |
+          (
+          set -x
+          mkdir -p /tmp/pub && cp -r voices /tmp/pub/ && cd /tmp/pub
+          git init -q && git checkout -q -b voices && git add -A && git -c user.name=bot -c user.email=bot@example.com commit -qm "WODDI mentor voices (MMS VITS, quantized)"
+          git push -f https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git voices
+          sleep 15
+          curl -sI https://raw.githubusercontent.com/${{ github.repository }}/voices/voices/yo-a/vocab.json
+          curl -sI https://raw.githubusercontent.com/${{ github.repository }}/voices/voices/yo-a/model_q8.onnx
+          ) > $GITHUB_WORKSPACE/res/publish.log 2>&1 || true
+      - if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create mms-voice4 --repo ${{ github.repository }} --title mms-voice4 --notes t 2>/dev/null || true
+          gh release upload mms-voice4 res/* --clobber --repo ${{ github.repository }}
