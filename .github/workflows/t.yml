@@ -1,0 +1,21 @@
+name: live-mentor-v180
+on:
+  push:
+    branches: ['live-mentor-v180']
+permissions:
+  contents: write
+jobs:
+  t:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node t.mjs; cat res/results.json
+      - run: pip install -q faster-whisper && python3 whisper.py || true
+      - env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create live-mentor-v180 --repo ${{ github.repository }} --title live-mentor-v180 --notes t 2>/dev/null || true
+          gh release upload live-mentor-v180 res/* --clobber --repo ${{ github.repository }}
