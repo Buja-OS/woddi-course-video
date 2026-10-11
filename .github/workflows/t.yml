@@ -1,0 +1,22 @@
+name: mms-voice2
+on:
+  push:
+    branches: ['mms-voice2']
+permissions:
+  contents: write
+jobs:
+  t:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm i @huggingface/transformers@3.7.5 && node js2.mjs || true
+      - run: pip install -q torch --index-url https://download.pytorch.org/whl/cpu && pip install -q "transformers>=4.44" scipy librosa
+      - run: python3 cand.py || true
+      - env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create mms-voice2 --repo ${{ github.repository }} --title mms-voice2 --notes t 2>/dev/null || true
+          gh release upload mms-voice2 res/* --clobber --repo ${{ github.repository }}
