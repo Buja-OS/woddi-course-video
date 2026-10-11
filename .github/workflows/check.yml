@@ -1,0 +1,27 @@
+name: live-check-v180
+on:
+  push:
+    branches: ['live-check-v180']
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          S=https://woddiinstitute.com
+          {
+          echo "version: $(curl -s $S/js/woddi-version.js?x=$RANDOM | grep -o "v1[0-9]*" | head -2 | tr '\n' ' ')"
+          echo "mentor js has unlock: $(curl -s "$S/js/woddi-mentor-v5.js?v180" | grep -c 'unlock: function')"
+          echo "ops js has model table: $(curl -s "$S/js/ops-community.js?v=180" | grep -c 'AI models the mentor uses')"
+          for f in mentor-voice mentor-chat support-desk translate tts; do echo "GET $f: $(curl -s -o /tmp/b -w '%{http_code}' $S/.netlify/functions/$f) $(head -c 120 /tmp/b)"; done
+          echo "POST mentor-voice no sign-in: $(curl -s -o /tmp/b -w '%{http_code}' -X POST -H 'Content-Type: application/json' -d '{"action":"speak","text":"hi"}' $S/.netlify/functions/mentor-voice) $(head -c 120 /tmp/b)"
+          echo "tts ha: $(curl -s -o /tmp/a.mp3 -w '%{http_code} %{content_type} %{size_download}' "$S/.netlify/functions/tts?tl=ha&q=Sannu")"
+          echo "home: $(curl -s -o /dev/null -w '%{http_code}' $S/) app: $(curl -s -o /dev/null -w '%{http_code}' $S/app.html) ops: $(curl -s -o /dev/null -w '%{http_code}' $S/ops.html)"
+          echo "sw: $(curl -s $S/sw.js | grep -o "woddi-v1[0-9]*-[a-z-]*" | head -1)  site-sw: $(curl -s $S/site-sw.js | grep -o "woddi-site-v1[0-9]*-[a-z-]*" | head -1)"
+          } > live.txt
+          cat live.txt
+          gh release create live-check-v180 --repo ${{ github.repository }} --title live-check-v180 --notes check 2>/dev/null || true
+          gh release upload live-check-v180 live.txt --clobber --repo ${{ github.repository }}
