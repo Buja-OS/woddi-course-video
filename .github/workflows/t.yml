@@ -1,0 +1,21 @@
+name: gclient
+on:
+  push:
+    branches: ['gclient']
+permissions:
+  contents: write
+jobs:
+  t:
+    runs-on: ubuntu-latest
+    steps:
+      - env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir res
+          curl -s -o /dev/null -D - "https://hghezktzbepikpjzlxwe.supabase.co/auth/v1/authorize?provider=google&redirect_to=https%3A%2F%2Fwoddiinstitute.com" | grep -i "^location" | head -1 > res/loc.txt || true
+          LOC=$(sed 's/^[Ll]ocation: //' res/loc.txt | tr -d '\r')
+          echo "$LOC" | grep -o "client_id=[^&]*" >> res/loc.txt || true
+          echo "$LOC" | grep -o "redirect_uri=[^&]*" >> res/loc.txt || true
+          curl -s "https://hghezktzbepikpjzlxwe.supabase.co/auth/v1/settings" -H "apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhnaGV6a3R6YmVwaWtwanpseHdlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzY0NjAxNzUsImV4cCI6MjA5MjAzNjE3NX0.wi15a4p_5v6Rd8T3csP4U5BuNUm7VrHvxmo28_wH1uo" > res/settings.json || true
+          gh release create gclient --repo ${{ github.repository }} --title gclient --notes t 2>/dev/null || true
+          gh release upload gclient res/* --clobber --repo ${{ github.repository }}
