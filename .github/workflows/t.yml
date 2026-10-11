@@ -1,0 +1,28 @@
+name: mms-voice8
+on:
+  push:
+    branches: ['mms-voice8']
+permissions:
+  contents: write
+jobs:
+  t:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -q torch --index-url https://download.pytorch.org/whl/cpu && pip install -q "transformers>=4.44" scipy librosa onnx onnxruntime onnxsim huggingface_hub
+      - run: mkdir -p res && (python3 conv8.py > res/conv8.log 2>&1 || true)
+      - name: publish if smaller
+        env:
+          TK: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          (
+          git clone -q --depth 1 -b voices "https://x-access-token:$TK@github.com/${{ github.repository }}.git" /tmp/pub
+          if [ -f voices/yo-a/model_q8.onnx ]; then cp voices/yo-a/* /tmp/pub/voices/yo-a/; fi
+          cd /tmp/pub && ls -la voices/yo-a && git add -A && git -c user.name=bot -c user.email=bot@example.com commit -qm "Yoruba voice: mixed precision for quality" && git push -q origin voices 2>&1 | sed 's/x-access-token:[^@]*@/x:***@/'
+          ) > $GITHUB_WORKSPACE/res/publish8.log 2>&1 || true
+      - if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create mms-voice8 --repo ${{ github.repository }} --title mms-voice8 --notes t 2>/dev/null || true
+          gh release upload mms-voice8 res/* --clobber --repo ${{ github.repository }}
