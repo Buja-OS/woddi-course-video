@@ -1,7 +1,7 @@
-name: wan-soap
+name: wan-soap4
 on:
   push:
-    branches: ['wan-soap3']
+    branches: ['wan-soap4']
 permissions:
   contents: write
 jobs:
@@ -15,7 +15,7 @@ jobs:
         run: echo "shots=$(python3 -c 'import json;print(json.dumps(list(json.load(open("shots.json")).keys())))')" >> $GITHUB_OUTPUT
       - env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh release create wan-soap3 --repo ${{ github.repository }} --title wan-soap3 --notes clips 2>/dev/null || true
+        run: gh release create wan-soap4 --repo ${{ github.repository }} --title wan-soap4 --notes clips 2>/dev/null || true
   gen:
     needs: plan
     runs-on: ubuntu-latest
@@ -36,4 +36,4 @@ jobs:
       - if: always()
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh release upload wan-soap3 out/* --clobber --repo ${{ github.repository }} || true
+        run: gh release upload wan-soap4 out/* --clobber --repo ${{ github.repository }} || true
