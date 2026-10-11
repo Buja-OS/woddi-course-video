@@ -1,16 +1,19 @@
-name: probe
+name: live-check
 on:
   push:
-    branches: ['probe-*']
+    branches: ['live-check']
 permissions:
   contents: write
 jobs:
-  probe:
+  check:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
-      - run: python3 probe.py > result.txt 2>&1 || true; tail -c 60000 result.txt
-      - run: |
-          git config user.email bot@x; git config user.name bot
-          git add result.txt; git commit -qm result; git push -q origin HEAD:${GITHUB_REF_NAME}
+      - run: npm i playwright@1.47.2 && npx playwright install --with-deps chromium
+      - run: node live.mjs > result.txt 2>&1 || true; cat result.txt
+      - env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create live-check --repo ${{ github.repository }} --title live-check --notes x 2>/dev/null || true
+          gh release upload live-check shots/* result.txt --clobber --repo ${{ github.repository }}
