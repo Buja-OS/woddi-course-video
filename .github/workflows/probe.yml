@@ -1,0 +1,39 @@
+name: wan-soap6
+on:
+  push:
+    branches: ['wan-soap6']
+permissions:
+  contents: write
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      shots: ${{ steps.p.outputs.shots }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: p
+        run: echo "shots=$(python3 -c 'import json;print(json.dumps(list(json.load(open("shots.json")).keys())))')" >> $GITHUB_OUTPUT
+      - env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh release create wan-soap6 --repo ${{ github.repository }} --title wan-soap6 --notes clips 2>/dev/null || true
+  gen:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix:
+        shot: ${{ fromJSON(needs.plan.outputs.shots) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: wan13b-v1
+      - run: pip install -q torch --index-url https://download.pytorch.org/whl/cpu && pip install -q "diffusers>=0.33" transformers accelerate ftfy imageio imageio-ffmpeg sentencepiece
+      - run: python3 wan.py ${{ matrix.shot }} 2>&1 | tail -5
+      - if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh release upload wan-soap6 out/* --clobber --repo ${{ github.repository }} || true
