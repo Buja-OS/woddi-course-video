@@ -1,0 +1,23 @@
+name: live-check-v182b
+on:
+  push:
+    branches: ['live-check-v182b']
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          S=https://woddiinstitute.com
+          {
+          echo "checked: $(date -u +%H:%M:%S) UTC"
+          echo "version: $(curl -s "$S/js/woddi-version.js?x=$RANDOM" | grep -o "v1[0-9]*[a-z]*" | head -1)"
+          echo "index push tag: $(curl -s "$S/?x=$RANDOM" | grep -o 'woddi-push-v2.js?v[0-9a-z]*' | head -1)"
+          echo "push has help(): $(curl -s "$S/js/woddi-push-v2.js?x=$RANDOM" | grep -c 'function help')"
+          echo "deploy note: $(curl -s -o /dev/null -w '%{http_code}' $S/DEPLOY-v182b.txt)"
+          } > live.txt; cat live.txt
+          gh release create live-check-v182b --repo ${{ github.repository }} --title live-check-v182b --notes check 2>/dev/null || true
+          gh release upload live-check-v182b live.txt --clobber --repo ${{ github.repository }}
