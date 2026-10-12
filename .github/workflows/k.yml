@@ -1,0 +1,30 @@
+name: guide-voice-k
+on:
+  push:
+    branches: ['guide-voice-k']
+permissions:
+  contents: write
+jobs:
+  tts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    strategy:
+      fail-fast: false
+      matrix:
+        lang: [en, fr, pt, ar, sw]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq espeak-ng ffmpeg >/dev/null
+          if [ "${{ matrix.lang }}" = "en" ] || [ "${{ matrix.lang }}" = "fr" ] || [ "${{ matrix.lang }}" = "pt" ]; then pip install -q torch --index-url https://download.pytorch.org/whl/cpu && pip install -q "kokoro>=0.9.4" soundfile; fi
+          mkdir -p out && timeout 2000 python k.py ${{ matrix.lang }} || true
+          cd out && zip -qr ../voice-${{ matrix.lang }}.zip . && cd ..
+      - if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create guide-voice --repo ${{ github.repository }} --title guide-voice --notes voices 2>/dev/null || true
+          gh release upload guide-voice voice-${{ matrix.lang }}.zip --clobber --repo ${{ github.repository }}
