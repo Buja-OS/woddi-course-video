@@ -1,0 +1,18 @@
+name: guide-fetch-voice
+on:
+  push:
+    branches: ['guide-fetch']
+permissions:
+  contents: write
+jobs:
+  f:
+    runs-on: ubuntu-latest
+    steps:
+      - env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          B=https://hghezktzbepikpjzlxwe.supabase.co/storage/v1/object/public/course-videos/guide-voice
+          for L in en fr pt ar sw; do mkdir -p v/$L; for i in $(seq -w 1 48); do curl -sSf -o v/$L/b$i.mp3 "$B/$L/b$i.mp3?t=$RANDOM" || echo "miss $L $i"; done; done
+          cd v && zip -qr ../edge-voices.zip . && cd ..
+          gh release create guide-voice --repo ${{ github.repository }} --title guide-voice --notes voices 2>/dev/null || true
+          gh release upload guide-voice edge-voices.zip --clobber --repo ${{ github.repository }}
