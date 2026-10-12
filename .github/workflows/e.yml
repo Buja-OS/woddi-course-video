@@ -1,0 +1,28 @@
+name: guide-voice-e
+on:
+  push:
+    branches: ['guide-voice-e']
+permissions:
+  contents: write
+jobs:
+  tts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    strategy:
+      fail-fast: false
+      matrix:
+        lang: [en, fr, pt, ar, sw]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: |
+          timeout 1200 node run.js ${{ matrix.lang }} || true
+          cd out && zip -qr ../voice-${{ matrix.lang }}.zip . && cd ..
+      - if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create guide-voice --repo ${{ github.repository }} --title guide-voice --notes voices 2>/dev/null || true
+          gh release upload guide-voice voice-${{ matrix.lang }}.zip --clobber --repo ${{ github.repository }}
