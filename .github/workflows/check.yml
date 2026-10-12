@@ -1,0 +1,21 @@
+name: guide-media-check
+on:
+  push:
+    branches: ['live-check-v183']
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          B=https://hghezktzbepikpjzlxwe.supabase.co/storage/v1/object/public/course-videos/v2
+          { for L in en fr pt ar sw ha yo ig; do
+            echo "$L mp4: $(curl -s -o /dev/null -w '%{http_code} %{content_type} %{size_download}' -r 0-1023 "$B/$L/woddi-app-guide/m1.mp4?v=1") jpg: $(curl -s -o /dev/null -w '%{http_code} %{content_type}' "$B/$L/woddi-app-guide/m1.jpg?v=1") vtt: $(curl -s -o /dev/null -w '%{http_code} %{content_type}' "$B/$L/woddi-app-guide/m1.vtt?v=1")"
+          done
+          echo "cors: $(curl -s -D - -o /dev/null -H 'Origin: https://woddiinstitute.com' -r 0-10 "$B/en/woddi-app-guide/m1.vtt?v=1" | grep -i 'access-control-allow-origin' | tr -d '\r')"
+          } > live.txt; cat live.txt
+          gh release create live-check-v183 --repo ${{ github.repository }} --title live-check-v183 --notes check 2>/dev/null || true
+          gh release upload live-check-v183 live.txt --clobber --repo ${{ github.repository }}
