@@ -1,0 +1,24 @@
+name: promo-voice-186
+on:
+  push:
+    branches: ['promo-voice-186']
+permissions:
+  contents: write
+jobs:
+  tts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: |
+          timeout 1200 node run.js || true
+          cd out && zip -qr ../promo-voice.zip . && cd ..
+      - if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create promo-voice-186 --repo ${{ github.repository }} --title promo-voice-186 --notes voices 2>/dev/null || true
+          gh release upload promo-voice-186 promo-voice.zip --clobber --repo ${{ github.repository }}
