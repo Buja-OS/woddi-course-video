@@ -7,17 +7,17 @@ permissions:
 jobs:
   tts:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-python@v5
         with:
-          node-version: 20
+          python-version: '3.11'
       - run: |
-          node -e "console.log(process.version)"
-          timeout 1200 node run.js 2>&1 | tee out-run.log || true
-          mkdir -p out && cp out-run.log out/ || true
+          pip install -q edge-tts
+          timeout 900 python tts.py 2>&1 | tee run.log || true
+          mkdir -p out && cp run.log out/
       - if: always()
         run: |
-          cd out && git init -q && git checkout -q -b promo-voice-186-out && git add -A && git -c user.name=bot -c user.email=bot@x commit -qm out
+          mkdir -p out && cd out && git init -q && git checkout -q -b promo-voice-186-out && git add -A && git -c user.name=bot -c user.email=bot@x commit -qm out --allow-empty
           git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" promo-voice-186-out
