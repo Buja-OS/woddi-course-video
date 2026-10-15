@@ -14,11 +14,10 @@ jobs:
         with:
           node-version: 20
       - run: |
-          timeout 1200 node run.js || true
-          cd out && zip -qr ../promo-voice.zip . && cd ..
+          node -e "console.log(process.version)"
+          timeout 1200 node run.js 2>&1 | tee out-run.log || true
+          mkdir -p out && cp out-run.log out/ || true
       - if: always()
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh release create promo-voice-186 --repo ${{ github.repository }} --title promo-voice-186 --notes voices 2>/dev/null || true
-          gh release upload promo-voice-186 promo-voice.zip --clobber --repo ${{ github.repository }}
+          cd out && git init -q && git checkout -q -b promo-voice-186-out && git add -A && git -c user.name=bot -c user.email=bot@x commit -qm out
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" promo-voice-186-out
