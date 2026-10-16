@@ -1,0 +1,11 @@
+== aws-0-eu-west-1.pooler.supabase.com:5432
+psql: error: connection to server at "aws-0-eu-west-1.pooler.supabase.com" (52.209.89.87), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+== aws-0-eu-west-1.pooler.supabase.com:6543
+psql: error: connection to server at "aws-0-eu-west-1.pooler.supabase.com" (52.209.89.87), port 6543 failed: FATAL:  password authentication failed for user "postgres"
+== aws-1-eu-west-1.pooler.supabase.com:5432
+psql: error: connection to server at "aws-1-eu-west-1.pooler.supabase.com" (54.247.26.119), port 5432 failed: FATAL:  (ENOTFOUND) tenant/user postgres.hghezktzbepikpjzlxwe not found
+== aws-1-eu-west-1.pooler.supabase.com:6543
+psql: error: connection to server at "aws-1-eu-west-1.pooler.supabase.com" (54.247.26.119), port 6543 failed: FATAL:  (ENOTFOUND) tenant/user postgres.hghezktzbepikpjzlxwe not found
+== direct
+psql: error: connection to server at "db.hghezktzbepikpjzlxwe.supabase.co" (2a05:d018:135e:16e0:b5a6:2dd2:2927:201f), port 5432 failed: Network is unreachable
+	Is the server running on that host and accepting TCP/IP connections?
