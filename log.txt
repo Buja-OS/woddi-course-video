@@ -1,0 +1,16 @@
+pg_dump pg_dump (PostgreSQL) 17.11 (Ubuntu 17.11-1.pgdg24.04+2)
+new project reached at aws-0-eu-west-1 with password 1
+  permission entries old=3545 new=3617 differing=72
+    by kind:      72 function
+  fix statements: 116
+  apply exit=0 errors=0
+  after fix differing=0
+    ERROR:  relation "realtime.messages_2026_10_13" does not exist
+    ERROR:  relation "realtime.messages_2026_10_14" does not exist
+    ERROR:  relation "realtime.messages_2026_10_15" does not exist
+    ERROR:  relation "realtime.messages_2026_10_16" does not exist
+    ERROR:  relation "realtime.messages_2026_10_17" does not exist
+    ERROR:  relation "realtime.messages_2026_10_18" does not exist
+    ERROR:  relation "realtime.messages_2026_10_19" does not exist
+  realtime tables now old=42 new=35
+done
