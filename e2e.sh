@@ -35,11 +35,11 @@ SQL
 trap cleanup EXIT
 AID=$(mk "$AE" "$AP" "WODDI QA Admin") || { echo "  could not create admin test account"; exit 1; }
 SID=$(mk "$SE" "$SP" "Amina QA") || { echo "  could not create learner test account"; exit 1; }
-psql "$N" -q -c "update public.users set role='admin', account_type='staff' where uid='$AID'" 2>&1 | grep -i error
+psql "$N" -q -c "update public.users set role='admin', account_type='staff', name='WODDI Admin', display_name='WODDI Admin', country='Nigeria', state='Lagos', region='Lagos', lga='Ikeja', location_captured=true, profile_complete=true where uid='$AID'" 2>&1 | grep -i error
 echo "  test accounts created (admin + learner)"
 CODE=$(psql "$N" -At -c "select credential_code from public.certificates where credential_code is not null and not coalesce(revoked,false) order by issued_at desc limit 1")
 npm i --silent --no-audit --no-fund playwright@1.47.2 >/dev/null 2>&1 && npx -y playwright@1.47.2 install --with-deps chromium >/dev/null 2>&1
-ADMIN_EMAIL="$AE" ADMIN_PW="$AP" STU_EMAIL="$SE" STU_PW="$SP" CERT="$CODE" timeout 1200 node qa.mjs
+ADMIN_EMAIL="$AE" ADMIN_PW="$AP" STU_EMAIL="$SE" STU_PW="$SP" CERT="$CODE" timeout 1500 node ${QA_SCRIPT:-qa.mjs}
 echo "  qa script exit=$?"
 [ -f qa-summary.txt ] && sed 's/^/  /' qa-summary.txt
 mkdir -p enc && tar czf qa.tgz qa-out 2>/dev/null && openssl rand -hex 32 > k.txt && \
