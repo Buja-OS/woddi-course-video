@@ -1,0 +1,16 @@
+name: guide-release
+on:
+  push:
+    branches: ['guide-release']
+permissions:
+  contents: write
+jobs:
+  up:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create v2-woddi-app-guide --repo ${{ github.repository }} --title v2-woddi-app-guide --notes "WODDI app guide videos" 2>/dev/null || true
+          gh release upload v2-woddi-app-guide files/* --clobber --repo ${{ github.repository }}
