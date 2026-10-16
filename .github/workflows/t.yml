@@ -1,0 +1,64 @@
+name: woddi-i18n-packs
+on:
+  push:
+    branches: ['i18n-run']
+permissions:
+  contents: write
+jobs:
+  tr:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix:
+        lang: [fr, pt, ar, yo, ha, ig, sw]
+        shard: [0, 1, 2, 3, 4, 5]
+    steps:
+      - uses: actions/checkout@v4
+      - name: previous results
+        run: |
+          mkdir -p out/${{ matrix.lang }}
+          if git ls-remote --exit-code origin i18n >/dev/null 2>&1; then
+            git clone -q --depth 1 -b i18n https://github.com/${{ github.repository }}.git prev
+            cp prev/${{ matrix.lang }}/*.json out/${{ matrix.lang }}/ 2>/dev/null || true
+          fi
+      - run: sleep $(( ${{ matrix.shard }} * 7 )) && python3 translate.py ${{ matrix.lang }} ${{ matrix.shard }} 6 | tail -40
+      - uses: actions/upload-artifact@v4
+        with:
+          name: out-${{ matrix.lang }}-${{ matrix.shard }}
+          path: out/
+          retention-days: 3
+  merge:
+    needs: tr
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          path: arts
+      - run: |
+          R="https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
+          mkdir pk
+          if git ls-remote --exit-code origin i18n >/dev/null 2>&1; then git clone -q --depth 1 -b i18n "$R" pk; fi
+          for a in arts/*/; do cp -r $a* pk/ 2>/dev/null || true; done
+          python3 - <<'PY' > report.txt
+          import json, glob, os
+          src = {os.path.basename(f)[:-5]: len(json.load(open(f))) for f in glob.glob('src/*.json')}
+          tot = miss = 0; worst = []
+          for lang in ['fr','pt','ar','yo','ha','ig','sw']:
+              got = 0; need = 0
+              for cid, n in src.items():
+                  p = f'pk/{lang}/{cid}.json'
+                  have = len(json.load(open(p))['t']) if os.path.exists(p) else 0
+                  got += have; need += n
+                  if have < n: worst.append((n - have, lang, cid))
+              print(f'{lang}: {got}/{need} strings')
+              tot += need; miss += need - got
+          print('missing strings', miss, 'of', tot)
+          for w in sorted(worst, reverse=True)[:15]: print('  short', w)
+          PY
+          cat report.txt
+          cp report.txt pk/REPORT.txt
+          cd pk && rm -rf .git && git init -q && git checkout -q -b i18n && git add -A && git -c user.name=WODDI -c user.email=bot@woddiinstitute.com commit -qm "course translation packs" && git push -qf "$R" i18n
