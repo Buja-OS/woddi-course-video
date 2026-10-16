@@ -1,0 +1,18 @@
+name: sb-probe
+on:
+  push:
+    branches: ['sb-probe']
+permissions:
+  contents: write
+jobs:
+  p:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          mkdir out; A=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhnaGV6a3R6YmVwaWtwanpseHdlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzY0NjAxNzUsImV4cCI6MjA5MjAzNjE3NX0.wi15a4p_5v6Rd8T3csP4U5BuNUm7VrHvxmo28_wH1uo
+          U=https://hghezktzbepikpjzlxwe.supabase.co
+          for p in "/auth/v1/health" "/rest/v1/site_flags?select=key&limit=1" "/storage/v1/object/public/course-videos/manifest-v2.json" "/storage/v1/object/public/avatars/" "/functions/v1/send-push"; do
+            echo "== $p" >> out/r.txt; curl -s -m 20 -o b.txt -w "%{http_code}\n" -H "apikey: $A" -H "Authorization: Bearer $A" "$U$p" >> out/r.txt; head -c 300 b.txt >> out/r.txt; echo >> out/r.txt; done
+          curl -s -m 20 -w "\n%{http_code}\n" -X POST -H "apikey: $A" -H "Content-Type: application/json" "$U/rest/v1/rpc/verify_credential" -d '{"p_code":"WDI-2026-64213E"}' >> out/r.txt
+          curl -sI -m 20 https://woddiinstitute.com/ | head -3 >> out/r.txt
+          cd out && git init -q && git checkout -q -b sb-probe-out && git add -A && git -c user.name=bot -c user.email=bot@x commit -qm out && git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" sb-probe-out
