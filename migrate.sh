@@ -5,7 +5,7 @@ LOG=log.txt; : > $LOG
 say() { echo "$*" | tee -a $LOG; }
 SCH="-n public -n private -n backup -n mp_private"
 say "pg_dump $(pg_dump --version)"
-if [ "${MODE:-test}" != "check" ]; then
+if [ "${MODE:-test}" != "check" ] && [ "${MODE:-test}" != "acl" ]; then
 pg_dump "$OLD_URL" --schema-only --no-owner $SCH -f schema.sql 2> e1.txt; say "schema dump exit=$? bytes=$(wc -c < schema.sql) tables=$(grep -c '^CREATE TABLE' schema.sql) functions=$(grep -c '^CREATE FUNCTION\|^CREATE OR REPLACE FUNCTION' schema.sql) policies=$(grep -c '^CREATE POLICY' schema.sql) triggers=$(grep -c '^CREATE TRIGGER' schema.sql)"; sed 's/^/  /' e1.txt | head -20 >> $LOG
 pg_dump "$OLD_URL" --data-only --no-owner $SCH -f data_app.sql 2> e2.txt; say "app data dump exit=$? bytes=$(wc -c < data_app.sql)"; sed 's/^/  /' e2.txt | head -20 >> $LOG
 pg_dump "$OLD_URL" --data-only --no-owner -t auth.users -t auth.identities -t auth.mfa_factors -t storage.buckets -f data_auth.sql 2> e3.txt; say "auth data dump exit=$? bytes=$(wc -c < data_auth.sql)"; sed 's/^/  /' e3.txt | head -20 >> $LOG
@@ -19,6 +19,7 @@ for pw in "$NEW_PW1" "$NEW_PW2"; do for r in eu-west-1 eu-west-2 eu-west-3 eu-ce
 done; done; done
 [ -z "$NEW_URL" ] && { say "could not reach the new project with either password"; exit 1; }
 
+if [ "$MODE" = "acl" ]; then ./acl.sh "$OLD_URL" "$NEW_URL" >> $LOG 2>&1; say "done"; exit 0; fi
 if [ "$MODE" = "check" ]; then ./check.sh "$OLD_URL" "$NEW_URL" >> $LOG 2>&1; say "done"; exit 0; fi
 say "== restore"
 psql "$NEW_URL" -v ON_ERROR_STOP=1 -q -c "create extension if not exists pg_trgm with schema extensions; create extension if not exists pg_cron; create extension if not exists pg_net with schema extensions; create extension if not exists \"uuid-ossp\" with schema extensions; create extension if not exists pgcrypto with schema extensions;" >> $LOG 2>&1; say "extensions exit=$?"
