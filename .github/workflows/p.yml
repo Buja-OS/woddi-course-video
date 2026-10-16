@@ -1,0 +1,16 @@
+name: woddi-i18n-probe
+on:
+  push:
+    branches: ['i18n-probe']
+permissions:
+  contents: write
+jobs:
+  p:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          set -x
+          curl -s -m 20 -w '\n%{http_code}\n' --data-urlencode "q=Wash your <b>hands</b> &amp; dry them." --data-urlencode "q=Store bleach away from children." "https://translate.googleapis.com/translate_a/t?client=gtx&sl=en&tl=fr&format=html" | tee o.txt
+          curl -s -m 20 -w '\n%{http_code}\n' --data-urlencode "q=Wash your hands." --data-urlencode "q=Store bleach away from children." "https://translate.googleapis.com/translate_a/t?client=gtx&sl=en&tl=yo&format=text" | tee -a o.txt
+          curl -s -m 20 -w '\n%{http_code}\n' "https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ha&dt=t&q=Wash%20your%20hands." | tee -a o.txt
+          mkdir out && cp o.txt out/ && cd out && git init -q && git checkout -q -b i18n-probe-log-${{ github.run_id }} && git add -A && git -c user.name=bot -c user.email=bot@x commit -qm log && git push -qf "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" HEAD
