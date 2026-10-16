@@ -26,7 +26,7 @@ jobs:
           openssl pkeyutl -decrypt -inkey /tmp/k.pem -pkeyopt rsa_padding_mode:oaep -in sec/secret.enc -out /tmp/env.txt
           while IFS='=' read -r k v; do echo "::add-mask::$v"; echo "$k=$v" >> $GITHUB_ENV; done < /tmp/env.txt
           git push -q "$R" --delete mig-secret-${{ github.run_id }} mig-key-${{ github.run_id }} || true
-      - run: MODE=full PATH=/usr/lib/postgresql/17/bin:$PATH ./migrate.sh
+      - run: MODE=check PATH=/usr/lib/postgresql/17/bin:$PATH ./migrate.sh
       - if: always()
         run: |
           mkdir o && cp log.txt o/ 2>/dev/null; cd o && git init -q && git checkout -q -b mig-log-${{ github.run_id }} && git add -A && git -c user.name=bot -c user.email=bot@x commit -qm log --allow-empty
