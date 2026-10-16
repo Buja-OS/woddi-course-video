@@ -1,0 +1,30 @@
+pg_dump pg_dump (PostgreSQL) 17.11 (Ubuntu 17.11-1.pgdg24.04+2)
+schema dump exit=0 bytes=574571 tables=129 functions=149 policies=311 triggers=30
+app data dump exit=0 bytes=15712742
+auth data dump exit=0 bytes=314149
+new project reached at aws-0-eu-west-1
+== restore
+NOTICE:  extension "uuid-ossp" already exists, skipping
+NOTICE:  extension "pgcrypto" already exists, skipping
+extensions exit=0
+schema restore errors=13
+        1 psql:schema.sql:47: ERROR:  schema "public" already exists
+        1 psql:schema.sql:16033: ERROR:  permission denied to change default privileges
+        1 psql:schema.sql:16032: ERROR:  permission denied to change default privileges
+        1 psql:schema.sql:16031: ERROR:  permission denied to change default privileges
+        1 psql:schema.sql:16030: ERROR:  permission denied to change default privileges
+        1 psql:schema.sql:16013: ERROR:  permission denied to change default privileges
+        1 psql:schema.sql:16012: ERROR:  permission denied to change default privileges
+        1 psql:schema.sql:16011: ERROR:  permission denied to change default privileges
+        1 psql:schema.sql:16010: ERROR:  permission denied to change default privileges
+        1 psql:schema.sql:15993: ERROR:  permission denied to change default privileges
+        1 psql:schema.sql:15992: ERROR:  permission denied to change default privileges
+        1 psql:schema.sql:15991: ERROR:  permission denied to change default privileges
+        1 psql:schema.sql:15990: ERROR:  permission denied to change default privileges
+data restore errors=0
+post steps errors=0
+== row counts old/new
+  auth.users old=252 new=252
+  auth.identities old=255 new=255
+  storage.buckets old=16 new=16
+done
