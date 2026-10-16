@@ -9,11 +9,19 @@ pg_dump "$OLD_URL" --schema-only --no-owner $SCH -f schema.sql 2> e1.txt; say "s
 pg_dump "$OLD_URL" --data-only --no-owner $SCH -f data_app.sql 2> e2.txt; say "app data dump exit=$? bytes=$(wc -c < data_app.sql)"; sed 's/^/  /' e2.txt | head -20 >> $LOG
 pg_dump "$OLD_URL" --data-only --no-owner -t auth.users -t auth.identities -t auth.mfa_factors -t storage.buckets -f data_auth.sql 2> e3.txt; say "auth data dump exit=$? bytes=$(wc -c < data_auth.sql)"; sed 's/^/  /' e3.txt | head -20 >> $LOG
 if [ "${MODE:-test}" != "full" ]; then say "test mode: stop before restore"; exit 0; fi
+NEW_URL=""
+for pw in "$NEW_PW1" "$NEW_PW2"; do for r in eu-west-1 eu-west-2 eu-west-3 eu-central-1 eu-central-2 eu-north-1; do for a in aws-0 aws-1; do
+  u="postgresql://postgres.$NEW_REF:$pw@$a-$r.pooler.supabase.com:5432/postgres"
+  if PGCONNECT_TIMEOUT=8 psql "$u" -At -c "select 1" >/dev/null 2>e0.txt; then NEW_URL="$u"; say "new project reached at $a-$r"; break 3; fi
+  grep -q "password authentication failed" e0.txt && say "  $a-$r: project found, password $( [ "$pw" = "$NEW_PW1" ] && echo 1 || echo 2 ) wrong"
+done; done; done
+[ -z "$NEW_URL" ] && { say "could not reach the new project with either password"; exit 1; }
 
 say "== restore"
 psql "$NEW_URL" -v ON_ERROR_STOP=1 -q -c "create extension if not exists pg_trgm with schema extensions; create extension if not exists pg_cron; create extension if not exists pg_net with schema extensions; create extension if not exists \"uuid-ossp\" with schema extensions; create extension if not exists pgcrypto with schema extensions;" >> $LOG 2>&1; say "extensions exit=$?"
 psql "$NEW_URL" -v ON_ERROR_STOP=0 -q -f schema.sql > s.out 2> s.err; say "schema restore errors=$(grep -c ERROR s.err)"; grep ERROR s.err | sort | uniq -c | sort -rn | head -40 | sed 's/^/  /' >> $LOG
 psql "$NEW_URL" -v ON_ERROR_STOP=0 -q -c "SET session_replication_role = replica" -f data_auth.sql -f data_app.sql > d.out 2> d.err; say "data restore errors=$(grep -c ERROR d.err)"; grep ERROR d.err | cut -c1-200 | sort | uniq -c | sort -rn | head -40 | sed 's/^/  /' >> $LOG
+psql "$NEW_URL" -v ON_ERROR_STOP=0 -q -f post.sql > p.out 2> p.err; say "post steps errors=$(grep -c ERROR p.err)"; grep ERROR p.err | cut -c1-200 | head -20 | sed 's/^/  /' >> $LOG
 say "== row counts old/new"
 Q="select n.nspname||'.'||c.relname, c.oid::regclass::text from pg_class c join pg_namespace n on n.oid=c.relnamespace where c.relkind='r' and n.nspname in ('public','private','backup','mp_private') order by 1"
 psql "$OLD_URL" -At -F' ' -c "$Q" | while read t r; do o=$(psql "$OLD_URL" -At -c "select count(*) from $r" 2>/dev/null); n=$(psql "$NEW_URL" -At -c "select count(*) from $r" 2>/dev/null); [ "$o" != "$n" ] && echo "  DIFF $t old=$o new=$n" >> $LOG; done
