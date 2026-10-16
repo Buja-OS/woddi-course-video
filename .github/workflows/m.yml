@@ -1,0 +1,33 @@
+name: woddi-migrate
+on:
+  push:
+    branches: ['mig-run']
+permissions:
+  contents: write
+jobs:
+  m:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          sudo install -d /usr/share/postgresql-common/pgdg
+          sudo curl -s -o /usr/share/postgresql-common/pgdg/apt.postgresql.org.asc https://www.postgresql.org/media/keys/ACCC4CF8.asc
+          echo "deb [signed-by=/usr/share/postgresql-common/pgdg/apt.postgresql.org.asc] https://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" | sudo tee /etc/apt/sources.list.d/pgdg.list >/dev/null
+          sudo apt-get update -qq && sudo apt-get install -y -qq postgresql-client-17 >/dev/null
+          echo /usr/lib/postgresql/17/bin >> $GITHUB_PATH
+      - name: handshake (public key out, encrypted settings in)
+        run: |
+          openssl genrsa -out /tmp/k.pem 4096 2>/dev/null; openssl rsa -in /tmp/k.pem -pubout -out pub.pem 2>/dev/null
+          R="https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
+          mkdir kk && cp pub.pem kk/ && cd kk && git init -q && git checkout -q -b mig-key && git add -A && git -c user.name=bot -c user.email=bot@x commit -qm key && git push -qf "$R" mig-key && cd ..
+          for i in $(seq 1 240); do if git ls-remote "$R" mig-secret | grep -q .; then break; fi; sleep 10; done
+          git clone -q --depth 1 -b mig-secret "$R" sec
+          openssl pkeyutl -decrypt -inkey /tmp/k.pem -pkeyopt rsa_padding_mode:oaep -in sec/secret.enc -out /tmp/env.txt
+          while IFS='=' read -r k v; do echo "::add-mask::$v"; echo "$k=$v" >> $GITHUB_ENV; done < /tmp/env.txt
+          git push -q "$R" --delete mig-secret || true
+      - run: PATH=/usr/lib/postgresql/17/bin:$PATH ./migrate.sh
+      - if: always()
+        run: |
+          mkdir o && cp log.txt o/ 2>/dev/null; cd o && git init -q && git checkout -q -b mig-log && git add -A && git -c user.name=bot -c user.email=bot@x commit -qm log --allow-empty
+          git push -qf "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" mig-log
