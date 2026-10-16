@@ -1,0 +1,9 @@
+pg_dump pg_dump (PostgreSQL) 17.11 (Ubuntu 17.11-1.pgdg24.04+2)
+schema dump exit=0 bytes=574571 tables=129 functions=149 policies=311 triggers=30
+app data dump exit=1 bytes=13003086
+  pg_dump: error: query failed: ERROR:  query would be affected by row-level security policy for table "academic_cycles"
+  pg_dump: detail: Query was: COPY public.academic_cycles (id, name, year, start_month, end_month, admission_open_day, admission_close_day, status, created_at) TO stdout;
+auth data dump exit=1 bytes=1243
+  pg_dump: error: query failed: ERROR:  query would be affected by row-level security policy for table "users"
+  pg_dump: detail: Query was: COPY auth.users (instance_id, id, aud, role, email, encrypted_password, email_confirmed_at, invited_at, confirmation_token, confirmation_sent_at, recovery_token, recovery_sent_at, email_change_token_new, email_change, email_change_sent_at, last_sign_in_at, raw_app_meta_data, raw_user_meta_data, is_super_admin, created_at, updated_at, phone, phone_confirmed_at, phone_change, phone_change_token, phone_change_sent_at, email_change_token_current, email_change_confirm_status, banned_until, reauthentication_token, reauthentication_sent_at, is_sso_user, deleted_at, is_anonymous) TO stdout;
+test mode: stop before restore
