@@ -1,0 +1,45 @@
+pg_dump pg_dump (PostgreSQL) 17.11 (Ubuntu 17.11-1.pgdg24.04+2)
+new project reached at aws-0-eu-west-1 with password 1
+  test accounts created (admin + learner)
+  qa script exit=0
+  anonymous can read learner emails/phones: YES (5 of 5 sampled) [status 200]
+  learner sign-in: ok
+  course lesson text language: mixed French/English
+  function mentor-voice (needs Netlify SUPABASE_URL on the new project): 200
+  function mentor-chat health: 200
+  function translation pack (/i18n, new in v186e): 200
+  function verify page: 200
+  my_points for learner: 200
+  admin sign-in: ok
+  function ops-analytics (admin): 200
+  function staff-access (admin): 200
+  function support-desk (admin): 400
+  learner: sign-in: console 38, script errors 0, http errors 38, failed requests 5
+  learner: growth points: console 33, script errors 0, http errors 33, failed requests 2
+  learner: course page in French: console 10, script errors 0, http errors 10, failed requests 0
+  admin: sign-in: console 37, script errors 0, http errors 37, failed requests 39
+  admin: main app: console 24, script errors 0, http errors 24, failed requests 4
+  admin: operations dashboard: console 1, script errors 0, http errors 1, failed requests 0
+  ops section: overview: console 1, script errors 0, http errors 1, failed requests 0
+  ops section: success: console 1, script errors 0, http errors 1, failed requests 0
+  ops section: learning: console 1, script errors 0, http errors 1, failed requests 0
+  ops section: media: console 1, script errors 0, http errors 1, failed requests 0
+  ops section: evid: console 0, script errors 0, http errors 0, failed requests 0 (clean)
+  ops section: certs: console 0, script errors 0, http errors 0, failed requests 0 (clean)
+  ops section: market: console 0, script errors 0, http errors 0, failed requests 0 (clean)
+  ops section: alumni: console 0, script errors 0, http errors 0, failed requests 0 (clean)
+  ops section: mentorai: console 0, script errors 0, http errors 0, failed requests 0 (clean)
+  ops section: support: console 0, script errors 0, http errors 0, failed requests 0 (clean)
+  ops section: learners: console 0, script errors 0, http errors 0, failed requests 0 (clean)
+  ops section: engage: console 0, script errors 0, http errors 0, failed requests 0 (clean)
+  ops section: gov: console 0, script errors 0, http errors 0, failed requests 0 (clean)
+  ops section: report: console 0, script errors 0, http errors 0, failed requests 0 (clean)
+  ops section: rem: console 0, script errors 0, http errors 0, failed requests 0 (clean)
+  ops section: pts: console 0, script errors 0, http errors 0, failed requests 0 (clean)
+  ops section: msg: console 0, script errors 0, http errors 0, failed requests 0 (clean)
+  ops section: staff: console 0, script errors 0, http errors 0, failed requests 0 (clean)
+  admin: member activation: console 4, script errors 0, http errors 4, failed requests 1
+  admin: admin portal page: console 19, script errors 0, http errors 19, failed requests 9
+  encrypted results: 5.5M
+  cleanup: 1 done, leftover accounts: 0
+done
