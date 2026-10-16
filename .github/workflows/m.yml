@@ -29,5 +29,5 @@ jobs:
       - run: MODE=sql PATH=/usr/lib/postgresql/17/bin:$PATH ./migrate.sh
       - if: always()
         run: |
-          mkdir o && cp log.txt o/ 2>/dev/null; cp -r enc o/ 2>/dev/null; cd o && git init -q && git checkout -q -b mig-log-${{ github.run_id }} && git add -A && git -c user.name=bot -c user.email=bot@x commit -qm log --allow-empty
+          mkdir o && cp log.txt o/ 2>/dev/null; cp -r enc o/ 2>/dev/null || true; cd o && git init -q && git checkout -q -b mig-log-${{ github.run_id }} && git add -A && git -c user.name=bot -c user.email=bot@x commit -qm log --allow-empty
           git push -qf "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" mig-log-${{ github.run_id }}
