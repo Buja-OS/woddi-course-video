@@ -1,0 +1,38 @@
+pg_dump pg_dump (PostgreSQL) 17.11 (Ubuntu 17.11-1.pgdg24.04+2)
+new project reached at aws-0-eu-west-1 with password 1
+  policies in public: old=311 new=311
+  storage policies: old=14 new=14
+  functions: old=180 new=149
+  triggers: old=38 new=38
+  anon can read tables: old=125 new=125
+  authenticated can write tables: old=125 new=125
+  anon can run functions: old=121 new=137
+  authenticated can run functions: old=143 new=137
+  realtime tables: old=42 new=35
+  cron jobs: old=4 new=3
+  tables anon can read on old but not new:
+ERROR:  relation "public.pg_statistic" does not exist
+  functions signed-in users could run before but not now: 31
+    gin_extract_query_trgm
+    gin_extract_value_trgm
+    gin_trgm_consistent
+    gin_trgm_triconsistent
+    gtrgm_compress
+    gtrgm_consistent
+    gtrgm_decompress
+    gtrgm_distance
+    gtrgm_in
+    gtrgm_options
+  functions open now but closed before: 25
+  sequences: 3/12 public sequences unset on new
+== public API with the anon key
+  auth health: 200
+  auth settings: google False email True phone False autoconfirm False signup_disabled False
+  rest courses: 200
+  rest course_modules: 200
+  rest certificates: 200
+  rest platform_settings: 404
+  rpc verify_credential: 200
+  storage public bucket: 400
+  login with wrong password (expect 400 invalid credentials): {"code":400,"error_code":"invalid_credentials","msg":"Invalid login credentials"}
+done
