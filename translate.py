@@ -49,7 +49,9 @@ for cid in mine:
     path = f'out/{LANG}/{cid}.json'
     prev = {}
     if os.path.exists(path): prev = json.load(open(path)).get('t', {})
-    todo = [s for s in src if s not in prev]
+    key = lambda x: re.sub(r'\s+', ' ', x).strip().replace('**', '')
+    have = set(key(k) for k in prev)
+    todo = [s for s in src if key(s) not in have]
     t = dict(prev)
     i = 0
     while i < len(todo):
@@ -71,4 +73,7 @@ for cid in mine:
     print(f'{LANG} {cid}: {len(t)}/{len(src)}', flush=True)
     if blocked >= 3:
         print('BLOCKED: stopping this shard early; rerun picks up the rest', flush=True); break
+# keep only this shard's courses, so the merge step never overwrites a newer file with an older copy
+for f in glob.glob(f'out/{LANG}/*.json'):
+    if os.path.basename(f)[:-5] not in mine: os.remove(f)
 print('STATS', json.dumps(stats))
