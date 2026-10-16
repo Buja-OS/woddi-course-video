@@ -14,7 +14,7 @@ const IGNORE = /google-analytics|googletagmanager|doubleclick|facebook|fonts\.g|
 function watch(page, bucket) {
   page.on('console', m => { if (m.type() === 'error') bucket.console.push(m.text().slice(0, 400)); });
   page.on('pageerror', e => bucket.pageerrors.push(String(e && e.message || e).slice(0, 400)));
-  page.on('response', r => { const s = r.status(); if (s >= 400 && !IGNORE.test(r.url())) bucket.http.push(s + ' ' + r.request().method() + ' ' + strip(r.url())); });
+  page.on('response', r => { const s = r.status(); if (s >= 400 && !IGNORE.test(r.url())) { bucket.http.push(s + ' ' + r.request().method() + ' ' + strip(r.url())); (bucket.full = bucket.full || []).push(s + ' ' + r.url().slice(0, 300)); } });
   page.on('requestfailed', r => { if (!IGNORE.test(r.url())) bucket.failed.push((r.failure() && r.failure().errorText) + ' ' + strip(r.url())); });
 }
 function newBucket(name) { const b = { name, console: [], pageerrors: [], http: [], failed: [], text: '' }; report.pages.push(b); return b; }
@@ -121,6 +121,15 @@ try {
         } catch (e) { bk.pageerrors.push('click: ' + e.message); }
       }
     }
+  }
+  for (const rpc of ['admin_user_growth', 'admin_course_catalog']) {
+    const r = await fetch(SB + '/rest/v1/rpc/' + rpc, { method: 'POST', headers: { apikey: ANON, Authorization: 'Bearer ' + A.tok, 'Content-Type': 'application/json' }, body: '{}' });
+    const j = await r.json().catch(() => null);
+    summary.push('admin rpc ' + rpc + ': ' + r.status + (Array.isArray(j) ? ' (' + j.length + ' rows)' : ''));
+  }
+  {
+    const r = await fetch(SB + '/rest/v1/rpc/phone_registered', { method: 'POST', headers: { apikey: ANON, Authorization: 'Bearer ' + ANON, 'Content-Type': 'application/json' }, body: JSON.stringify({ p_phone: '+2340000000000' }) });
+    summary.push('phone_registered (signed out): ' + r.status + ' ' + (await r.text()).slice(0, 20));
   }
   await fn('ops-analytics (admin)', '/.netlify/functions/ops-analytics', { headers: { Authorization: 'Bearer ' + A.tok } });
   await fn('staff-access (admin)', '/.netlify/functions/staff-access', { method: 'POST', headers: { 'Content-Type': 'application/json', Authorization: 'Bearer ' + A.tok }, body: JSON.stringify({ action: 'list' }) });
